@@ -43,5 +43,6 @@ jobs:
           echo "No changes in index.json"
         else
           git commit -m "Auto-update index.json [skip ci]"
+          git pull --rebase origin main # 先拉取远程的最新更改并rebase
           git push
         fi
