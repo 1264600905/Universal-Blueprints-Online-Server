@@ -65,7 +65,7 @@ def parse_blueprint_xml(file_path):
         
         # 相对路径 (统一使用正斜杠)
         # file_path 可能是 "blueprints\subdir\file.xml"
-        relative_path = file_path.replace("\", "/")
+        relative_path = file_path.replace("\\", "/")
         
         return {
             "id": building_id,
