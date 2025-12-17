@@ -17,7 +17,7 @@ import subprocess
 # 配置
 BLUEPRINTS_DIR = "blueprints"
 SUPABASE_URL = os.environ.get("SUPABASE_URL")
-SUPABASE_KEY = os.environ.get("SUPABASE_SERVICE_KEY")
+SUPABASE_SERVICE_KEY = os.environ.get("SUPABASE_SERVICE_KEY")
 
 class OrphanedFileCleaner:
     def __init__(self, supabase_url, supabase_key):
@@ -403,7 +403,7 @@ class OrphanedFileCleaner:
 
 def main():
     """主函数"""
-    if not SUPABASE_URL or not SUPABASE_KEY:
+    if not SUPABASE_URL or not SUPABASE_SERVICE_KEY:
         print("错误: 缺少SUPABASE_URL或SUPABASE_SERVICE_KEY环境变量")
         sys.exit(1)
 
@@ -428,7 +428,7 @@ def main():
             sys.exit(0)
 
     # 执行清理
-    cleaner = OrphanedFileCleaner(SUPABASE_URL, SUPABASE_KEY)
+    cleaner = OrphanedFileCleaner(SUPABASE_URL, SUPABASE_SERVICE_KEY)
     success = cleaner.cleanup_orphaned_files(dry_run=dry_run, auto_delete=auto_delete)
 
     if success:
