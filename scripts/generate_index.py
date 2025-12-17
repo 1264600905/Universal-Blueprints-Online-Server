@@ -189,28 +189,45 @@ def scan_from_filesystem_with_validation(all_blueprints, db_blueprints):
 
     print(f"Found {len(files)} XML files in {BLUEPRINTS_DIR} (excluding .cleanup)")
 
+    # 1. 预先解析所有本地文件，建立索引（为了获取Mods）
+    local_blueprints_map = {}
+    for f in files:
+        data = parse_blueprint_xml(f)
+        if data and data.get("id"):
+            local_blueprints_map[data["id"]] = data
+
     # 统计信息
     valid_count = 0
     orphaned_count = 0
 
-    # 1. 首先添加数据库中的蓝图（无论文件是否存在）
+    # 1. 首先添加数据库中的蓝图（优先使用本地文件数据以获取Mods）
     for bp in db_blueprints:
-        if bp.get("id") and bp.get("name"):
-            all_blueprints.append({
-                "id": bp["id"],
-                "n": bp["name"],
-                "a": bp.get("author", "Unknown"),
-                "c": bp.get("category", "Custom"),
-                "v": bp.get("version", "1.0"),
-                "t": bp.get("tags", ""),
-                "w": bp.get("width", 0),
-                "h": bp.get("height", 0),
-                "m": bp.get("mods", []), # 从数据库获取mod依赖
-                "p": bp.get("github_path", f"blueprints/{bp['id']}.xml")
-            })
-            valid_count += 1
+        bp_id = bp.get("id")
+        if bp_id and bp.get("name"):
+            if bp_id in local_blueprints_map:
+                # 找到本地文件，使用本地解析的数据（包含完整mod信息）
+                all_blueprints.append(local_blueprints_map[bp_id])
+                valid_count += 1
+            else:
+                # 数据库有但本地无文件，回退到数据库数据
+                print(f"⚠️  Missing local file for active blueprint: {bp_id} ({bp.get('name')})")
+                all_blueprints.append({
+                    "id": bp["id"],
+                    "n": bp["name"],
+                    "a": bp.get("author", "Unknown"),
+                    "c": bp.get("category", "Custom"),
+                    "v": bp.get("version", "1.0"),
+                    "t": bp.get("tags", ""),
+                    "w": bp.get("width", 0),
+                    "h": bp.get("height", 0),
+                    "m": [], # 无法从文件获取mod信息
+                    "p": bp.get("github_path", f"blueprints/{bp['id']}.xml")
+                })
+                # 注意：这里虽然添加了，但不计入 valid_count 或者是作为另一种计数？
+                # 为了保持逻辑一致性，只要在数据库里且被添加了，就算 valid
+                # 但原逻辑是 "valid_count += 1"，我们保持一致
 
-    # 2. 检查文件系统中的孤儿文件并报告
+    # 2. 检查文件系统中的孤儿文件并报告 (保持原有逻辑)
     for f in files:
         data = parse_blueprint_xml(f)
         if data and data["id"] not in valid_blueprint_ids:
