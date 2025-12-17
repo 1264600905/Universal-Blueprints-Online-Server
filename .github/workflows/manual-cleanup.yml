@@ -1,0 +1,86 @@
+name: Manual Cleanup Orphaned Files
+
+on:
+  workflow_dispatch:
+    inputs:
+      auto_delete:
+        description: '自动删除孤儿文件 (危险操作!)'
+        required: true
+        default: 'false'
+        type: choice
+        options:
+        - 'false'
+        - 'true'
+
+permissions:
+  contents: write
+
+jobs:
+  manual-cleanup:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+
+    - name: Show configuration
+      run: |
+        echo "Auto delete: ${{ github.event.inputs.auto_delete }}"
+        echo "This will move orphaned files to .cleanup directory (safe strategy)!"
+        echo "Make sure you have reviewed the latest cleanup report first."
+
+    - name: Run manual cleanup
+      env:
+        SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+        SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+      run: |
+        if [ "${{ github.event.inputs.auto_delete }}" = "true" ]; then
+          echo "🚨 执行自动移动模式（安全策略）"
+          python scripts/cleanup_orphaned_files.py --auto-delete
+        else
+          echo "📋 执行手动交互模式"
+          python scripts/cleanup_orphaned_files.py --execute
+        fi
+
+    - name: Upload cleanup report
+      uses: actions/upload-artifact@v3
+      if: always()
+      with:
+        name: manual-cleanup-report
+        path: cleanup_report_*.json
+
+    - name: Update index.json after cleanup
+      if: always()
+      env:
+        SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+        SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+      run: |
+        echo "🔄 Updating index.json after cleanup..."
+        python scripts/generate_index.py
+
+    - name: Commit cleanup changes
+      if: github.event.inputs.auto_delete == 'true'
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+        # 检查是否有变更（包括index.json）
+        if git diff --name-only | grep -E '\.(xml|png|jpg|json)$'; then
+          git add .
+          git commit -m "🧹 Auto cleanup orphaned blueprint files and update index [skip ci]"
+          git pull --rebase origin main
+          git push
+          echo "✅ Changes committed and pushed"
+        else
+          echo "ℹ️  No files were deleted or index was already up to date"
+        fi
