@@ -95,30 +95,37 @@ class OrphanedFileCleaner:
             print(f"Error parsing {file_path}: {e}")
             return None
 
-    def identify_orphaned_files(self, local_files, valid_ids):
-        """识别孤儿文件"""
-        orphaned_files = []
-        valid_files = []
+    def identify_orphaned_files(self, valid_ids):
+        """识别孤儿文件组"""
+        xml_files, image_files = self.scan_all_files()
 
-        for file_path in local_files:
-            blueprint_id = self.extract_blueprint_id(file_path)
+        valid_groups = []
+        orphaned_groups = []
+
+        processed_ids = set()
+
+        for xml_file in xml_files:
+            blueprint_id = self.extract_blueprint_id(xml_file)
 
             if not blueprint_id:
-                print(f"⚠️  {file_path}: No blueprint ID found")
+                print(f"⚠️  {xml_file}: No blueprint ID found")
                 continue
 
-            if blueprint_id in valid_ids:
-                valid_files.append({
-                    "file": file_path,
-                    "blueprint_id": blueprint_id
-                })
-            else:
-                orphaned_files.append({
-                    "file": file_path,
-                    "blueprint_id": blueprint_id
-                })
+            if blueprint_id in processed_ids:
+                continue
 
-        return valid_files, orphaned_files
+            processed_ids.add(blueprint_id)
+
+            if blueprint_id in valid_ids:
+                valid_group = self.find_related_files(blueprint_id)
+                if valid_group['xml']:  # 只有找到XML才算有效
+                    valid_groups.append(valid_group)
+            else:
+                orphaned_group = self.find_related_files(blueprint_id)
+                if orphaned_group['xml']:  # 只有找到XML才算孤儿
+                    orphaned_groups.append(orphaned_group)
+
+        return valid_groups, orphaned_groups
 
     def find_related_files(self, blueprint_id):
         """查找与blueprint ID相关的所有文件"""
@@ -163,38 +170,6 @@ class OrphanedFileCleaner:
 
         return related_files
 
-    def identify_orphaned_files(self, valid_ids):
-        """识别孤儿文件组"""
-        xml_files, image_files = self.scan_all_files()
-
-        valid_groups = []
-        orphaned_groups = []
-
-        processed_ids = set()
-
-        for xml_file in xml_files:
-            blueprint_id = self.extract_blueprint_id(xml_file)
-
-            if not blueprint_id:
-                print(f"⚠️  {xml_file}: No blueprint ID found")
-                continue
-
-            if blueprint_id in processed_ids:
-                continue
-
-            processed_ids.add(blueprint_id)
-
-            if blueprint_id in valid_ids:
-                valid_group = self.find_related_files(blueprint_id)
-                if valid_group['xml']:  # 只有找到XML才算有效
-                    valid_groups.append(valid_group)
-            else:
-                orphaned_group = self.find_related_files(blueprint_id)
-                if orphaned_group['xml']:  # 只有找到XML才算孤儿
-                    orphaned_groups.append(orphaned_group)
-
-        return valid_groups, orphaned_groups
-
     def move_blueprint_group(self, blueprint_group, dry_run=True):
         """移动完整的蓝图文件组到.cleanup目录"""
         cleanup_dir = '.cleanup/blueprints'
@@ -205,7 +180,7 @@ class OrphanedFileCleaner:
             os.makedirs(cleanup_images_dir, exist_ok=True)
 
         moved_files = []
-        blueprint_id = blueprint_group['blueprint_id']
+        # blueprint_id = blueprint_group['blueprint_id'] # 未使用变量
 
         # 移动XML文件
         if blueprint_group['xml'] and os.path.exists(blueprint_group['xml']):
@@ -311,14 +286,32 @@ class OrphanedFileCleaner:
         print()
 
         # 5. 处理清理操作
-        should_cleanup = auto_delete or (not dry_run and input("Cleanup these orphaned files? (y/N): ").lower() == 'y')
-
+        # 【修改】改进判断逻辑，在自动模式下跳过 input
+        should_cleanup = False
+        if auto_delete:
+            should_cleanup = True
+        elif not dry_run:
+            # 检测是否为交互式终端
+            if sys.stdin.isatty():
+                should_cleanup = input("Cleanup these orphaned files? (y/N): ").lower() == 'y'
+            else:
+                # 非交互模式但没有 auto_delete，通常不应执行，但这里设置为 False 确保安全
+                print("⚠️  Non-interactive mode detected without --auto-delete. Skipping cleanup check.")
+                should_cleanup = False
+        
         if should_cleanup:
+            strategy = 'move' # 默认策略
+            
             if auto_delete:
                 print("🤖 Auto cleanup mode - Moving files to .cleanup directory")
                 strategy = 'move'
+            elif not dry_run and sys.stdin.isatty():
+                # 只有在交互模式下才询问策略
+                user_strategy = input("Choose cleanup strategy (move/delete/backup): ").lower()
+                if user_strategy in ['move', 'delete', 'backup']:
+                    strategy = user_strategy
             else:
-                strategy = input("Choose cleanup strategy (move/delete/backup): ").lower()
+                print("🤖 Non-interactive mode - Defaulting to 'move' strategy")
 
             if strategy in ['move', 'backup'] or auto_delete:
                 print("📦 Moving orphaned blueprint groups to .cleanup directory...")
@@ -403,6 +396,7 @@ class OrphanedFileCleaner:
 
 def main():
     """主函数"""
+    # 检查环境变量
     if not SUPABASE_URL or not SUPABASE_SERVICE_KEY:
         print("错误: 缺少SUPABASE_URL或SUPABASE_SERVICE_KEY环境变量")
         sys.exit(1)
@@ -410,22 +404,40 @@ def main():
     # 解析命令行参数
     dry_run = True  # 默认是干运行
     auto_delete = False
+    
+    # 检查是否在 CI 环境中 (GitHub Actions 会设置 CI=true)
+    is_ci_env = os.environ.get('CI', 'false').lower() == 'true' or not sys.stdin.isatty()
 
     if "--execute" in sys.argv:
         dry_run = False
-        print("🚨 执行模式 - 将实际删除文件!")
+        print("🚨 执行模式 - 将实际处理文件!")
+        
+        # 【修改】如果是在 CI/无交互环境下用了 --execute，强制开启自动删除模式，避免卡住
+        if is_ci_env:
+            print("🤖 检测到无交互环境 (CI/GitHub Actions)。将 --execute 视为 --auto-delete。")
+            auto_delete = True
 
     if "--auto-delete" in sys.argv:
         auto_delete = True
         dry_run = False
-        print("🤖 自动删除模式 - 将删除所有孤儿文件!")
+        print("🤖 自动删除模式 - 将移动/删除所有孤儿文件!")
 
     # 确认危险操作
     if not dry_run and not auto_delete:
-        print("⚠️  这将实际删除文件! 请确保你有备份。")
-        if input("继续执行? (yes/no): ").lower() != 'yes':
-            print("操作已取消")
-            sys.exit(0)
+        # 【修改】如果是本地终端，才询问；如果是 CI 环境，上面已经处理过 auto_delete=True，或者保持 dry_run
+        if sys.stdin.isatty():
+            print("⚠️  这将实际删除文件! 请确保你有备份。")
+            try:
+                if input("继续执行? (yes/no): ").lower() != 'yes':
+                    print("操作已取消")
+                    sys.exit(0)
+            except EOFError:
+                print("❌ 无法读取输入 (EOF)。请使用 --auto-delete 参数跳过确认。")
+                sys.exit(1)
+        else:
+            # 理论上不应该走到这里，除非环境监测有误，做个兜底
+            print("❌ 非交互环境不能等待输入。请使用 --auto-delete 参数。")
+            sys.exit(1)
 
     # 执行清理
     cleaner = OrphanedFileCleaner(SUPABASE_URL, SUPABASE_SERVICE_KEY)

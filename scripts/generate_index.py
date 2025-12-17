@@ -144,29 +144,22 @@ def main():
                 "Content-Type": "application/json"
             }
 
-            # 只获取有效（有BuildingID）的记录
-            url = f"{SUPABASE_URL}/rest/v1/blueprints?select=id,name,author,category,tags,width,height,github_path,version,created_at"
+            # 只获取有效且活跃的记录
+            url = f"{SUPABASE_URL}/rest/v1/blueprints?select=id,name,author,category,tags,width,height,github_path,version,created_at&is_active=eq.true"
             response = requests.get(url, headers=headers)
 
             if response.status_code == 200:
                 db_blueprints = response.json()
                 print(f"Found {len(db_blueprints)} blueprints in database")
 
-                for bp in db_blueprints:
-                    if bp.get("id") and bp.get("name"):
-                        all_blueprints.append({
-                            "id": bp["id"],
-                            "n": bp["name"],
-                            "a": bp.get("author", "Unknown"),
-                            "c": bp.get("category", "Custom"),
-                            "v": bp.get("version", "1.0"),
-                            "t": bp.get("tags", ""),
-                            "w": bp.get("width", 0),
-                            "h": bp.get("height", 0),
-                            "m": [], # 从数据库无法直接获取mod依赖，暂时为空
-                            "p": bp.get("github_path", f"blueprints/{bp['id']}.xml")
-                        })
-                print(f"Successfully processed {len(all_blueprints)} blueprints from database")
+                if len(db_blueprints) > 0:
+                    # 数据库中找到蓝图，同时验证文件系统
+                    scan_from_filesystem_with_validation(all_blueprints, db_blueprints)
+                    return  # 完成，不需要继续
+                else:
+                    print("No blueprints found in database, falling back to file system scan...")
+                    # 数据库完全为空，执行默认操作
+                    scan_from_filesystem(all_blueprints)
             else:
                 print(f"Failed to fetch from database: {response.status_code} - {response.text}")
                 print("Falling back to file system scan...")
@@ -181,8 +174,76 @@ def main():
         print("No Supabase credentials found, scanning from file system...")
         scan_from_filesystem(all_blueprints)
 
+def scan_from_filesystem_with_validation(all_blueprints, db_blueprints):
+    """扫描文件系统并验证数据库中的蓝图存在文件"""
+    # 获取数据库中所有有效的blueprint ID
+    valid_blueprint_ids = {bp["id"] for bp in db_blueprints}
+    print(f"Database has {len(valid_blueprint_ids)} valid blueprint IDs")
+
+    # 扫描文件系统
+    search_path = os.path.join(BLUEPRINTS_DIR, "**/*.xml")
+    files = glob.glob(search_path, recursive=True)
+    files = [f for f in files if '.cleanup' not in f]
+
+    print(f"Found {len(files)} XML files in {BLUEPRINTS_DIR} (excluding .cleanup)")
+
+    # 统计信息
+    valid_count = 0
+    orphaned_count = 0
+
+    # 1. 首先添加数据库中的蓝图（无论文件是否存在）
+    for bp in db_blueprints:
+        if bp.get("id") and bp.get("name"):
+            all_blueprints.append({
+                "id": bp["id"],
+                "n": bp["name"],
+                "a": bp.get("author", "Unknown"),
+                "c": bp.get("category", "Custom"),
+                "v": bp.get("version", "1.0"),
+                "t": bp.get("tags", ""),
+                "w": bp.get("width", 0),
+                "h": bp.get("height", 0),
+                "m": [], # 从数据库无法直接获取mod依赖，暂时为空
+                "p": bp.get("github_path", f"blueprints/{bp['id']}.xml")
+            })
+            valid_count += 1
+
+    # 2. 检查文件系统中的孤儿文件并报告
+    for f in files:
+        data = parse_blueprint_xml(f)
+        if data and data["id"] not in valid_blueprint_ids:
+            print(f"⚠️  Orphaned file: {f} (Blueprint ID: {data['id']})")
+            orphaned_count += 1
+
+    print(f"✅ Added {valid_count} valid blueprints from database")
+    if orphaned_count > 0:
+        print(f"⚠️  Found {orphaned_count} orphaned files (not included in index)")
+
+    # 生成 index.json
+    output_data = {
+        "version": "1.0",
+        "generated_at": datetime.datetime.utcnow().isoformat() + "Z",
+        "blueprints": all_blueprints,
+        "generation_stats": {
+            "strategy": "database_with_file_validation",
+            "database_blueprints": valid_count,
+            "orphaned_files_found": orphaned_count,
+            "total_files_scanned": len(files),
+            "message": "Database-driven with orphaned file detection"
+        }
+    }
+
+    with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
+        json.dump(output_data, f, ensure_ascii=False, separators=(',', ':'))
+
+    print(f"Generated {OUTPUT_FILE} with {len(all_blueprints)} entries (database validated).")
+
+    # 生成孤儿文件报告
+    if orphaned_count > 0:
+        generate_orphaned_report(files, valid_blueprint_ids)
+
 def scan_from_filesystem(all_blueprints):
-    """从文件系统扫描XML文件（原始方式）"""
+    """从文件系统扫描XML文件（默认操作方式）"""
     # 查找所有 xml 文件
     # 使用 glob 递归查找 blueprints 目录
     search_path = os.path.join(BLUEPRINTS_DIR, "**/*.xml")
@@ -193,84 +254,7 @@ def scan_from_filesystem(all_blueprints):
 
     print(f"Found {len(files)} XML files in {BLUEPRINTS_DIR} (excluding .cleanup)")
 
-    if SUPABASE_URL and SUPABASE_KEY:
-        # 🆕 新策略：只添加数据库中存在的蓝图
-        print("Using database existence validation strategy...")
-
-        headers = {
-            "apikey": SUPABASE_KEY,
-            "Authorization": f"Bearer {SUPABASE_KEY}",
-            "Content-Type": "application/json"
-        }
-
-        # 获取数据库中所有有效的blueprint ID
-        db_url = f"{SUPABASE_URL}/rest/v1/blueprints?select=id,is_active"
-        db_response = requests.get(db_url, headers=headers)
-
-        if db_response.status_code == 200:
-            db_blueprints = db_response.json()
-            valid_blueprint_ids = {
-                bp["id"] for bp in db_blueprints
-                if bp.get("is_active", True)  # 只包含活跃的蓝图
-            }
-
-            print(f"Found {len(valid_blueprint_ids)} valid blueprint IDs in database")
-
-            # 只处理数据库中存在的文件
-            valid_count = 0
-            invalid_count = 0
-
-            for f in files:
-                data = parse_blueprint_xml(f)
-                if data:
-                    # 检查这个blueprint是否在数据库中存在且活跃
-                    if data["id"] in valid_blueprint_ids:
-                        all_blueprints.append(data)
-                        valid_count += 1
-                    else:
-                        print(f"⚠️  Skipping {f}: Blueprint ID {data['id']} not found in database or inactive")
-                        invalid_count += 1
-
-            print(f"✅ Added {valid_count} valid blueprints to index")
-            print(f"❌ Skipped {invalid_count} invalid blueprints")
-
-            # 生成包含警告信息的index.json
-            output_data = {
-                "version": "1.0",
-                "generated_at": datetime.datetime.utcnow().isoformat() + "Z",
-                "blueprints": all_blueprints,
-                "generation_stats": {
-                    "total_files_scanned": len(files),
-                    "valid_blueprints": valid_count,
-                    "skipped_blueprints": invalid_count,
-                    "strategy": "database_validated",
-                    "excluded_cleanup_files": True
-                }
-            }
-
-            with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-                json.dump(output_data, f, ensure_ascii=False, separators=(',', ':'))
-
-            print(f"Generated {OUTPUT_FILE} with {len(all_blueprints)} entries (database validated).")
-
-            # 不再同步到数据库，因为数据已经存在
-            print("Skipping database sync (data already exists)")
-
-            # 生成报告文件
-            if invalid_count > 0:
-                generate_skip_report(files, valid_blueprint_ids)
-
-        else:
-            print(f"Failed to fetch database data: {db_response.status_code} - {db_response.text}")
-            print("Falling back to filesystem scanning without validation...")
-            # 回退到原始方式
-            fallback_scan(files, all_blueprints)
-    else:
-        print("No Supabase credentials found, using filesystem scanning...")
-        fallback_scan(files, all_blueprints)
-
-def fallback_scan(files, all_blueprints):
-    """回退到原始的文件系统扫描方式"""
+    # 默认操作：包含所有文件
     for f in files:
         data = parse_blueprint_xml(f)
         if data:
@@ -282,45 +266,47 @@ def fallback_scan(files, all_blueprints):
         "generated_at": datetime.datetime.utcnow().isoformat() + "Z",
         "blueprints": all_blueprints,
         "generation_stats": {
-            "strategy": "filesystem_only",
-            "warning": "No database validation performed"
+            "strategy": "filesystem_default",
+            "total_files_scanned": len(files),
+            "total_blueprints": len(all_blueprints),
+            "message": "Database empty or unavailable - including all files"
         }
     }
 
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         json.dump(output_data, f, ensure_ascii=False, separators=(',', ':'))
 
-    print(f"Generated {OUTPUT_FILE} with {len(all_blueprints)} entries (filesystem only).")
+    print(f"Generated {OUTPUT_FILE} with {len(all_blueprints)} entries (default filesystem scan).")
 
-    # 同步数据库
+    # 同步数据库（如果需要）
     sync_to_supabase(all_blueprints)
 
-def generate_skip_report(files, valid_blueprint_ids):
-    """生成跳过文件的报告"""
-    skipped_files = []
+def generate_orphaned_report(files, valid_blueprint_ids):
+    """生成孤儿文件报告"""
+    orphaned_files = []
 
     for f in files:
         data = parse_blueprint_xml(f)
         if data and data["id"] not in valid_blueprint_ids:
-            skipped_files.append({
+            orphaned_files.append({
                 "file": f,
                 "blueprint_id": data["id"],
                 "name": data["n"],
                 "author": data["a"]
             })
 
-    if skipped_files:
+    if orphaned_files:
         report_data = {
             "generated_at": datetime.datetime.utcnow().isoformat() + "Z",
-            "skipped_count": len(skipped_files),
-            "skipped_files": skipped_files,
-            "message": "These files were not included in index.json because they don't exist in database or are inactive"
+            "orphaned_count": len(orphaned_files),
+            "orphaned_files": orphaned_files,
+            "message": "These files exist in filesystem but not in database (consider running cleanup)"
         }
 
-        with open('skipped_blueprints_report.json', 'w', encoding='utf-8') as f:
+        with open('orphaned_blueprints_report.json', 'w', encoding='utf-8') as f:
             json.dump(report_data, f, ensure_ascii=False, indent=2)
 
-        print(f"Generated skipped files report: skipped_blueprints_report.json")
+        print(f"Generated orphaned files report: orphaned_blueprints_report.json")
 
 if __name__ == "__main__":
     main()
