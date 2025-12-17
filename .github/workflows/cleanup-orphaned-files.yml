@@ -41,27 +41,36 @@ jobs:
       with:
         name: cleanup-dryrun-report
         path: cleanup_report_*.json
+      continue-on-error: true  # 即使没有报告文件也不失败
 
     - name: Check if auto-cleanup should run
       id: check-auto
       run: |
         # 检查是否有孤儿文件需要清理
-        if [ -f "cleanup_report_*.json" ]; then
+        if ls cleanup_report_*.json 1> /dev/null 2>&1; then
           report_file=$(ls cleanup_report_*.json | head -1)
           orphaned_count=$(python -c "
           import json
           import glob
+          import os
           reports = glob.glob('cleanup_report_*.json')
-          if reports:
+          if reports and os.path.exists(reports[0]):
               with open(reports[0]) as f:
                   data = json.load(f)
-                  print(data['statistics']['orphaned_files'])
+                  print(data.get('statistics', {}).get('orphaned_files', 0))
+          else:
+              print(0)
           ")
+
+          echo "has_report=true" >> $GITHUB_OUTPUT
+          echo "orphaned_count=$orphaned_count" >> $GITHUB_OUTPUT
 
           if [ "$orphaned_count" -gt 0 ]; then
             echo "has_orphaned=true" >> $GITHUB_OUTPUT
-            echo "orphaned_count=$orphaned_count" >> $GITHUB_OUTPUT
           fi
+        else
+          echo "No cleanup report generated - no orphaned files found"
+          echo "has_report=false" >> $GITHUB_OUTPUT
         fi
 
     - name: Create issue for manual review
@@ -88,10 +97,10 @@ jobs:
 ## 清理策略说明
 
 默认使用**安全移动策略**：
-- 📦 移动到 `.cleanup` 目录而不是直接删除
+- 📦 移动到 \`.cleanup\` 目录而不是直接删除
 - 🔄 自动重新生成 index.json
 - 📋 保留Git历史记录
-- ⚠️ 可以从 `.cleanup` 目录恢复
+- ⚠️ 可以从 \`.cleanup\` 目录恢复
 
 ## 孤儿蓝图组列表
 
@@ -137,88 +146,3 @@ ${reportData.orphaned_files.map((group, i) =>
             }
           }
 
-    - name: Check if auto-cleanup should run
-      id: check-auto
-      run: |
-        # 检查是否有孤儿文件需要清理
-        if [ -f "cleanup_report_*.json" ]; then
-          report_file=$(ls cleanup_report_*.json | head -1)
-          orphaned_count=$(python -c "
-          import json
-          import glob
-          reports = glob.glob('cleanup_report_*.json')
-          if reports:
-              with open(reports[0]) as f:
-                  data = json.load(f)
-                  print(data['statistics']['orphaned_files'])
-          ")
-
-          if [ "$orphaned_count" -gt 0 ]; then
-            echo "has_orphaned=true" >> $GITHUB_OUTPUT
-            echo "orphaned_count=$orphaned_count" >> $GITHUB_OUTPUT
-          fi
-        fi
-
-    - name: Create issue for manual review
-      if: steps.check-auto.outputs.has_orphaned == 'true'
-      uses: actions/github-script@v6
-      with:
-        script: |
-          const fs = require('fs');
-          const reportFiles = fs.readdirSync('.').filter(f => f.startsWith('cleanup_report_') && f.endsWith('.json'));
-
-          if (reportFiles.length > 0) {
-            const reportData = JSON.parse(fs.readFileSync(reportFiles[0], 'utf8'));
-            const orphanedCount = reportData.statistics.orphaned_files;
-
-            const issueTitle = `🧹 Orphaned Files Detected (${orphanedCount} files)`;
-            const issueBody = `
-## 清理报告
-
-**生成时间**: ${reportData.cleanup_timestamp}
-**扫描文件总数**: ${reportData.statistics.total_files_scanned}
-**有效文件**: ${reportData.statistics.valid_files}
-**孤儿文件**: ${reportData.statistics.orphaned_files}
-
-## 孤儿文件列表
-
-${reportData.orphaned_files.map((file, i) =>
-  `${i + 1}. \`${file.file}\` (ID: \`${file.blueprint_id}\`)`
-).join('\n')}
-
-## 处理建议
-
-1. 检查这些文件是否需要保留
-2. 如需清理，请运行手动清理工作流程
-3. 或者授权自动清理（需要谨慎操作）
-
----
-*此报告由定期清理任务自动生成*
-            `;
-
-            // 查找是否已存在相关issue
-            const { data: issues } = await github.rest.issues.listForRepo({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              labels: ['orphaned-files']
-            });
-
-            if (issues.length === 0) {
-              // 创建新issue
-              await github.rest.issues.create({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                title: issueTitle,
-                body: issueBody,
-                labels: ['orphaned-files', 'maintenance']
-              });
-            } else {
-              // 更新现有issue
-              await github.rest.issues.createComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: issues[0].number,
-                body: issueBody
-              });
-            }
-          }
