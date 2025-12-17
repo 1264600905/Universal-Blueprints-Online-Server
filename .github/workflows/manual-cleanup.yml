@@ -44,6 +44,11 @@ jobs:
         SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
         SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
       run: |
+        echo "Environment check:"
+        echo "SUPABASE_URL: ${SUPABASE_URL:0:20}..."
+        echo "SUPABASE_SERVICE_KEY: ${SUPABASE_SERVICE_KEY:0:20}..."
+        echo ""
+
         if [ "${{ github.event.inputs.auto_delete }}" = "true" ]; then
           echo "🚨 执行自动移动模式（安全策略）"
           python scripts/cleanup_orphaned_files.py --auto-delete

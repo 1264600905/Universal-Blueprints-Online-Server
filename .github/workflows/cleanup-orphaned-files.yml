@@ -34,6 +34,11 @@ jobs:
         SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
         SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
       run: |
+        echo "Environment check:"
+        echo "SUPABASE_URL: ${SUPABASE_URL:0:20}..."
+        echo "SUPABASE_SERVICE_KEY: ${SUPABASE_SERVICE_KEY:0:20}..."
+        echo ""
+
         # 确保脚本默认是 dry-run，或者显式添加参数，例如:
         # python scripts/cleanup_orphaned_files.py --dry-run
         python scripts/cleanup_orphaned_files.py
