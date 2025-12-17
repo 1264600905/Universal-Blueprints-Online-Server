@@ -106,7 +106,8 @@ def sync_to_supabase(blueprints_data):
             "tags": bp["t"],
             "width": bp["w"],
             "height": bp["h"],
-            "github_path": bp["p"]
+            "github_path": bp["p"],
+            "mods": bp["m"]  # 同步 mods 列表
         })
     
     headers = {
@@ -145,7 +146,8 @@ def main():
             }
 
             # 只获取有效且活跃的记录
-            url = f"{SUPABASE_URL}/rest/v1/blueprints?select=id,name,author,category,tags,width,height,github_path,version,created_at&is_active=eq.true"
+            # 增加 mods 字段查询
+            url = f"{SUPABASE_URL}/rest/v1/blueprints?select=id,name,author,category,tags,width,height,github_path,version,created_at,mods&is_active=eq.true"
             response = requests.get(url, headers=headers)
 
             if response.status_code == 200:
@@ -203,7 +205,7 @@ def scan_from_filesystem_with_validation(all_blueprints, db_blueprints):
                 "t": bp.get("tags", ""),
                 "w": bp.get("width", 0),
                 "h": bp.get("height", 0),
-                "m": [], # 从数据库无法直接获取mod依赖，暂时为空
+                "m": bp.get("mods", []), # 从数据库获取mod依赖
                 "p": bp.get("github_path", f"blueprints/{bp['id']}.xml")
             })
             valid_count += 1
