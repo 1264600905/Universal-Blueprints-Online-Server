@@ -7,7 +7,8 @@ on:
   workflow_dispatch:  # 允许手动触发
 
 permissions:
-  contents: write
+  contents: read      # 通常 read 就够了，除非你要提交代码
+  issues: write       # 必须：用于创建和编辑 Issue
 
 jobs:
   cleanup:
@@ -33,6 +34,8 @@ jobs:
         SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
         SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
       run: |
+        # 确保脚本默认是 dry-run，或者显式添加参数，例如:
+        # python scripts/cleanup_orphaned_files.py --dry-run
         python scripts/cleanup_orphaned_files.py
 
     - name: Upload dry-run report
@@ -41,93 +44,98 @@ jobs:
       with:
         name: cleanup-dryrun-report
         path: cleanup_report_*.json
-      continue-on-error: true  # 即使没有报告文件也不失败
 
-    - name: Check if auto-cleanup should run
-      id: check-auto
+    - name: Check for orphaned files
+      id: check-orphans
+      shell: bash
       run: |
-        # 检查是否有孤儿文件需要清理
-        if ls cleanup_report_*.json 1> /dev/null 2>&1; then
-          report_file=$(ls cleanup_report_*.json | head -1)
-          orphaned_count=$(python -c "
-          import json
-          import glob
-          import os
-          reports = glob.glob('cleanup_report_*.json')
-          if reports and os.path.exists(reports[0]):
-              with open(reports[0]) as f:
-                  data = json.load(f)
-                  print(data.get('statistics', {}).get('orphaned_files', 0))
-          else:
-              print(0)
-          ")
-
-          echo "has_report=true" >> $GITHUB_OUTPUT
-          echo "orphaned_count=$orphaned_count" >> $GITHUB_OUTPUT
-
+        # 查找最新的报告文件
+        report_file=$(ls cleanup_report_*.json | head -1)
+        
+        if [ -n "$report_file" ]; then
+          echo "Found report: $report_file"
+          
+          # 使用 jq 提取孤儿文件数量 (比 python -c 更稳健)
+          orphaned_count=$(jq '.statistics.orphaned_files' "$report_file")
+          
+          echo "Orphaned count: $orphaned_count"
+          
           if [ "$orphaned_count" -gt 0 ]; then
             echo "has_orphaned=true" >> $GITHUB_OUTPUT
+            echo "orphaned_count=$orphaned_count" >> $GITHUB_OUTPUT
+          else
+            echo "has_orphaned=false" >> $GITHUB_OUTPUT
           fi
         else
-          echo "No cleanup report generated - no orphaned files found"
-          echo "has_report=false" >> $GITHUB_OUTPUT
+          echo "No report file found."
+          echo "has_orphaned=false" >> $GITHUB_OUTPUT
         fi
 
     - name: Create issue for manual review
-      if: steps.check-auto.outputs.has_orphaned == 'true'
+      if: steps.check-orphans.outputs.has_orphaned == 'true'
       uses: actions/github-script@v6
       with:
         script: |
           const fs = require('fs');
+          // 查找报告文件
           const reportFiles = fs.readdirSync('.').filter(f => f.startsWith('cleanup_report_') && f.endsWith('.json'));
 
           if (reportFiles.length > 0) {
             const reportData = JSON.parse(fs.readFileSync(reportFiles[0], 'utf8'));
             const orphanedCount = reportData.statistics.orphaned_files;
 
+            // 标题
             const issueTitle = `🧹 Orphaned Blueprint Groups Detected (${orphanedCount} groups)`;
+            
+            // 构建 Issue 正文
+            // 注意：请确保下方 map 中的逻辑与你的 JSON 结构匹配
+            const fileListMd = reportData.orphaned_files.map((group, i) => {
+               // 假设 group 是对象，这里尝试列出除 blueprint_id 外的属性数作为文件数
+               const fileCount = Object.values(group).filter(v => v !== group.blueprint_id && v).length;
+               return `${i + 1}. \`${group.blueprint_id}\` - ${fileCount} 个文件`;
+            }).join('\n');
+
             const issueBody = `
-## 清理报告
+            ## 清理报告
 
-**生成时间**: ${reportData.cleanup_timestamp}
-**扫描蓝图组总数**: ${reportData.statistics.total_files_scanned}
-**有效蓝图组**: ${reportData.statistics.valid_files}
-**孤儿蓝图组**: ${reportData.statistics.orphaned_files}
+            **生成时间**: ${reportData.cleanup_timestamp}
+            **扫描蓝图组总数**: ${reportData.statistics.total_files_scanned}
+            **有效蓝图组**: ${reportData.statistics.valid_files}
+            **孤儿蓝图组**: ${reportData.statistics.orphaned_files}
 
-## 清理策略说明
+            ## 清理策略说明
 
-默认使用**安全移动策略**：
-- 📦 移动到 \`.cleanup\` 目录而不是直接删除
-- 🔄 自动重新生成 index.json
-- 📋 保留Git历史记录
-- ⚠️ 可以从 \`.cleanup\` 目录恢复
+            默认使用**安全移动策略**：
+            - 📦 移动到 \`.cleanup\` 目录而不是直接删除
+            - 🔄 自动重新生成 index.json
+            - 📋 保留Git历史记录
+            - ⚠️ 可以从 \`.cleanup\` 目录恢复
 
-## 孤儿蓝图组列表
+            ## 孤儿蓝图组列表
 
-${reportData.orphaned_files.map((group, i) =>
-  `${i + 1}. \`${group.blueprint_id}\` - ${Object.values(group).filter(v => v !== group.blueprint_id && v).length} 个文件`
-).join('\n')}
+            ${fileListMd}
 
-## 处理选项
+            ## 处理选项
 
-1. **自动移动**: 使用安全策略移动到.cleanup目录
-2. **手动处理**: 运行手动清理工作流程
-3. **检查后处理**: 确认无误后再清理
+            1. **自动移动**: 使用安全策略移动到 .cleanup 目录
+            2. **手动处理**: 运行手动清理工作流程
+            3. **检查后处理**: 确认无误后再清理
 
----
+            ---
 
-*此报告由定期清理任务自动生成 | 使用 \`--auto-delete\` 选项进行自动清理*
+            *此报告由定期清理任务自动生成 | 使用 \`--auto-delete\` 选项进行自动清理*
             `;
 
-            // 查找是否已存在相关issue
+            // 查找是否已存在相关 issue
             const { data: issues } = await github.rest.issues.listForRepo({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              labels: ['orphaned-blueprints']
+              labels: ['orphaned-blueprints'],
+              state: 'open' // 只查找开启的 issue
             });
 
             if (issues.length === 0) {
-              // 创建新issue
+              // 创建新 issue
               await github.rest.issues.create({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
@@ -135,14 +143,15 @@ ${reportData.orphaned_files.map((group, i) =>
                 body: issueBody,
                 labels: ['orphaned-blueprints', 'maintenance']
               });
+              console.log("Created new issue.");
             } else {
-              // 更新现有issue
+              // 更新现有 issue 的评论
               await github.rest.issues.createComment({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: issues[0].number,
                 body: issueBody
               });
+              console.log(`Commented on existing issue #${issues[0].number}.`);
             }
           }
-
