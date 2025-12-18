@@ -9,7 +9,7 @@ import datetime
 BLUEPRINTS_DIR = "blueprints"
 OUTPUT_FILE = "index.json"
 SUPABASE_URL = os.environ.get("SUPABASE_URL")
-SUPABASE_KEY = os.environ.get("SUPABASE_SERVICE_KEY") # 必须是 Service Role Key
+SUPABASE_KEY = os.environ.get("SUPABASE_SERVICE_KEY") 
 
 def parse_size(size_str):
     """解析 '(13,13)' 格式的字符串"""
@@ -20,31 +20,38 @@ def parse_size(size_str):
     except:
         return 0, 0
 
-def parse_blueprint_xml(file_path):
-    """解析单个 XML 文件"""
+def parse_full_xml_metadata(file_path):
+    """
+    [兜底模式专用] 完整解析 XML 文件。
+    当数据库挂掉时，我们需要从这里获取 Name, Author, ID 等所有信息。
+    """
     try:
-        tree = ET.parse(file_path)
-        root = tree.getroot()
-        
-        # 查找 extraInfo 节点
-        extra_info = root.find("extraInfo")
-        if extra_info is None:
-            print(f"Skipping {file_path}: No <extraInfo> found.")
+        if not os.path.exists(file_path):
             return None
             
-        # 提取字段
+        tree = ET.parse(file_path)
+        root = tree.getroot()
+        extra_info = root.find("extraInfo")
+        if extra_info is None:
+            return None
+            
+        # 辅助函数：安全获取文本
         def get_text(node, tag, default=""):
             child = node.find(tag)
             return child.text if child is not None else default
 
-        building_id = get_text(extra_info, "BuildingID")
-        if not building_id:
-            print(f"Warning {file_path}: No <BuildingID> found.")
-            return None
+        # 提取基础字段
+        bp_id = get_text(extra_info, "BuildingID")
+        if not bp_id:
+            # 如果 XML 没 ID，尝试用文件名兜底
+            bp_id = os.path.splitext(os.path.basename(file_path))[0]
 
         name = get_text(extra_info, "name", "Unnamed")
         author = get_text(extra_info, "author", "Unknown")
-        category = get_text(extra_info, "category", "Uncategorized")
+        # 注意：XML里通常没有 author_steam_id 或者只有未加密的，这里做个兼容
+        # 如果是 fallback 模式，sid 可能拿不到或者是空的
+        
+        category = get_text(extra_info, "category", "Custom")
         version = get_text(extra_info, "version", "1.0")
         tags = get_text(extra_info, "tags", "")
         
@@ -63,12 +70,8 @@ def parse_blueprint_xml(file_path):
                 if pkg_id is not None and pkg_id.text:
                     mods.append(pkg_id.text)
         
-        # 相对路径 (统一使用正斜杠)
-        # file_path 可能是 "blueprints\subdir\file.xml"
-        relative_path = file_path.replace("\\", "/")
-        
         return {
-            "id": building_id,
+            "id": bp_id,
             "n": name,
             "a": author,
             "c": category,
@@ -77,255 +80,121 @@ def parse_blueprint_xml(file_path):
             "w": width,
             "h": height,
             "m": mods,
-            "p": relative_path
+            # Fallback 模式下，统计数据只能为 0
+            "s_l": 0, "s_d": 0, "s_dl": 0
         }
     except Exception as e:
-        print(f"Error parsing {file_path}: {e}")
+        print(f"Error parsing XML {file_path}: {e}")
         return None
 
-def sync_to_supabase(blueprints_data):
-    """同步到 Supabase"""
+def fetch_from_database():
+    """尝试从数据库获取数据"""
     if not SUPABASE_URL or not SUPABASE_KEY:
-        print("Supabase credentials not found. Skipping sync.")
-        return
+        raise Exception("Missing Credentials")
 
-    print(f"Syncing {len(blueprints_data)} blueprints to Supabase...")
-    
-    db_payload = []
-    for bp in blueprints_data:
-        # 注意：这里只同步元数据字段，不含 mod 依赖列表等复杂结构，
-        # 复杂结构通常只在 json 里，或者需要关联表。
-        # 我们的数据库设计中 mod_dependencies 是另一张表。
-        # 简单起见，这里只更新 blueprints 主表。
-        db_payload.append({
-            "id": bp["id"],
-            "name": bp["n"],
-            "author": bp["a"],
-            "category": bp["c"],
-            "version": bp["v"],
-            "tags": bp["t"],
-            "width": bp["w"],
-            "height": bp["h"],
-            "github_path": bp["p"],
-            "mods": bp["m"]  # 同步 mods 列表
-        })
-    
     headers = {
         "apikey": SUPABASE_KEY,
         "Authorization": f"Bearer {SUPABASE_KEY}",
-        "Content-Type": "application/json",
-        "Prefer": "resolution=merge-duplicates" # Upsert 策略
+        "Content-Type": "application/json"
     }
+
+    print("🔌 Attempting to connect to Database...")
+    # 只获取活跃的蓝图
+    url = f"{SUPABASE_URL}/rest/v1/blueprints?select=id,name,author,author_steam_id,category,tags,width,height,version,github_path,stat_likes,stat_dislikes,stat_added_to_library,created_at&is_active=eq.true"
     
-    # 分批发送
-    batch_size = 50
-    for i in range(0, len(db_payload), batch_size):
-        batch = db_payload[i:i+batch_size]
-        url = f"{SUPABASE_URL}/rest/v1/blueprints"
-        try:
-            resp = requests.post(url, headers=headers, json=batch)
-            if resp.status_code >= 400:
-                print(f"Batch {i//batch_size + 1} Error: {resp.text}")
-            else:
-                print(f"Batch {i//batch_size + 1} Success.")
-        except Exception as e:
-            print(f"Network error: {e}")
+    response = requests.get(url, headers=headers, timeout=10) # 设置超时防止卡死
+    if response.status_code != 200:
+        raise Exception(f"DB Error {response.status_code}: {response.text}")
+        
+    return response.json()
+
+def scan_filesystem_fallback():
+    """[防御策略] 文件系统扫描模式"""
+    print("⚠️  Starting Filesystem Scan (Fallback Mode)...")
+    
+    search_path = os.path.join(BLUEPRINTS_DIR, "**/*.xml")
+    files = glob.glob(search_path, recursive=True)
+    # 排除 .cleanup
+    files = [f for f in files if '.cleanup' not in f]
+    
+    blueprints = []
+    for f in files:
+        data = parse_full_xml_metadata(f)
+        if data:
+            # 补全路径字段 (统一正斜杠)
+            data["p"] = f.replace("\\", "/")
+            # 补全时间字段 (Fallback 模式用当前时间，或者文件修改时间)
+            # 这里为了简单用当前时间，或者你可以用 os.path.getmtime(f)
+            data["dt"] = datetime.datetime.utcnow().isoformat() + "Z"
+            blueprints.append(data)
+            
+    return blueprints
 
 def main():
-    print("Starting index generation...")
-    all_blueprints = []
+    print("🚀 Starting index generation...")
+    final_list = []
+    source_mode = "unknown"
+    
+    try:
+        # --- PLAN A: 数据库模式 ---
+        db_records = fetch_from_database()
+        print(f"✅ Database connected. Found {len(db_records)} active records.")
+        source_mode = "database"
 
-    # 🔥 优先从数据库获取数据（推荐方式）
-    if SUPABASE_URL and SUPABASE_KEY:
-        print("Fetching blueprints from database...")
-        try:
-            headers = {
-                "apikey": SUPABASE_KEY,
-                "Authorization": f"Bearer {SUPABASE_KEY}",
-                "Content-Type": "application/json"
+        for record in db_records:
+            file_path = record.get("github_path", "")
+            if not os.path.exists(file_path):
+                # 数据库有记录但文件没了，跳过
+                continue
+
+            # 仅解析 Mods (因为 DB 里没有)
+            # 复用 parse_full_xml_metadata 获取 mods，虽然有点浪费但代码复用性高
+            # 或者只提取 mods 部分
+            xml_data = parse_full_xml_metadata(file_path)
+            mods_list = xml_data["m"] if xml_data else []
+
+            entry = {
+                "id": record["id"],
+                "n": record["name"],
+                "a": record["author"],
+                "sid": record.get("author_steam_id"),
+                "c": record["category"],
+                "v": record["version"],
+                "t": record["tags"],
+                "w": record["width"],
+                "h": record["height"],
+                "m": mods_list,
+                "p": file_path,
+                "s_l": record.get("stat_likes", 0),
+                "s_d": record.get("stat_dislikes", 0),
+                "s_dl": record.get("stat_added_to_library", 0),
+                "dt": record["created_at"]
             }
+            final_list.append(entry)
 
-            # 只获取有效且活跃的记录
-            # 增加 mods 字段查询
-            url = f"{SUPABASE_URL}/rest/v1/blueprints?select=id,name,author,category,tags,width,height,github_path,version,created_at,mods&is_active=eq.true"
-            response = requests.get(url, headers=headers)
+    except Exception as e:
+        # --- PLAN B: 容灾兜底模式 ---
+        print(f"❌ Database connection failed: {e}")
+        print("🛡️  Activating Defense Strategy: Fallback to Filesystem Scan")
+        
+        final_list = scan_filesystem_fallback()
+        source_mode = "filesystem_fallback"
 
-            if response.status_code == 200:
-                db_blueprints = response.json()
-                print(f"Found {len(db_blueprints)} blueprints in database")
-
-                if len(db_blueprints) > 0:
-                    # 数据库中找到蓝图，同时验证文件系统
-                    scan_from_filesystem_with_validation(all_blueprints, db_blueprints)
-                    return  # 完成，不需要继续
-                else:
-                    print("No blueprints found in database, falling back to file system scan...")
-                    # 数据库完全为空，执行默认操作
-                    scan_from_filesystem(all_blueprints)
-            else:
-                print(f"Failed to fetch from database: {response.status_code} - {response.text}")
-                print("Falling back to file system scan...")
-                # 如果数据库查询失败，回退到文件扫描
-                scan_from_filesystem(all_blueprints)
-        except Exception as e:
-            print(f"Database fetch error: {e}")
-            print("Falling back to file system scan...")
-            # 如果出错，回退到文件扫描
-            scan_from_filesystem(all_blueprints)
-    else:
-        print("No Supabase credentials found, scanning from file system...")
-        scan_from_filesystem(all_blueprints)
-
-def scan_from_filesystem_with_validation(all_blueprints, db_blueprints):
-    """扫描文件系统并验证数据库中的蓝图存在文件"""
-    # 获取数据库中所有有效的blueprint ID
-    valid_blueprint_ids = {bp["id"] for bp in db_blueprints}
-    print(f"Database has {len(valid_blueprint_ids)} valid blueprint IDs")
-
-    # 扫描文件系统
-    search_path = os.path.join(BLUEPRINTS_DIR, "**/*.xml")
-    files = glob.glob(search_path, recursive=True)
-    files = [f for f in files if '.cleanup' not in f]
-
-    print(f"Found {len(files)} XML files in {BLUEPRINTS_DIR} (excluding .cleanup)")
-
-    # 1. 预先解析所有本地文件，建立索引（为了获取Mods）
-    local_blueprints_map = {}
-    for f in files:
-        data = parse_blueprint_xml(f)
-        if data and data.get("id"):
-            local_blueprints_map[data["id"]] = data
-
-    # 统计信息
-    valid_count = 0
-    orphaned_count = 0
-
-    # 1. 首先添加数据库中的蓝图（优先使用本地文件数据以获取Mods）
-    for bp in db_blueprints:
-        bp_id = bp.get("id")
-        if bp_id and bp.get("name"):
-            if bp_id in local_blueprints_map:
-                # 找到本地文件，使用本地解析的数据（包含完整mod信息）
-                all_blueprints.append(local_blueprints_map[bp_id])
-                valid_count += 1
-            else:
-                # 数据库有但本地无文件，回退到数据库数据
-                print(f"⚠️  Missing local file for active blueprint: {bp_id} ({bp.get('name')})")
-                all_blueprints.append({
-                    "id": bp["id"],
-                    "n": bp["name"],
-                    "a": bp.get("author", "Unknown"),
-                    "c": bp.get("category", "Custom"),
-                    "v": bp.get("version", "1.0"),
-                    "t": bp.get("tags", ""),
-                    "w": bp.get("width", 0),
-                    "h": bp.get("height", 0),
-                    "m": [], # 无法从文件获取mod信息
-                    "p": bp.get("github_path", f"blueprints/{bp['id']}.xml")
-                })
-                # 注意：这里虽然添加了，但不计入 valid_count 或者是作为另一种计数？
-                # 为了保持逻辑一致性，只要在数据库里且被添加了，就算 valid
-                # 但原逻辑是 "valid_count += 1"，我们保持一致
-
-    # 2. 检查文件系统中的孤儿文件并报告 (保持原有逻辑)
-    for f in files:
-        data = parse_blueprint_xml(f)
-        if data and data["id"] not in valid_blueprint_ids:
-            print(f"⚠️  Orphaned file: {f} (Blueprint ID: {data['id']})")
-            orphaned_count += 1
-
-    print(f"✅ Added {valid_count} valid blueprints from database")
-    if orphaned_count > 0:
-        print(f"⚠️  Found {orphaned_count} orphaned files (not included in index)")
-
-    # 生成 index.json
+    # 生成文件
     output_data = {
-        "version": "1.0",
+        "version": "1.2",
         "generated_at": datetime.datetime.utcnow().isoformat() + "Z",
-        "blueprints": all_blueprints,
-        "generation_stats": {
-            "strategy": "database_with_file_validation",
-            "database_blueprints": valid_count,
-            "orphaned_files_found": orphaned_count,
-            "total_files_scanned": len(files),
-            "message": "Database-driven with orphaned file detection"
-        }
+        "mode": source_mode, # 标记数据来源，方便客户端判断
+        "count": len(final_list),
+        "blueprints": final_list
     }
 
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         json.dump(output_data, f, ensure_ascii=False, separators=(',', ':'))
 
-    print(f"Generated {OUTPUT_FILE} with {len(all_blueprints)} entries (database validated).")
-
-    # 生成孤儿文件报告
-    if orphaned_count > 0:
-        generate_orphaned_report(files, valid_blueprint_ids)
-
-def scan_from_filesystem(all_blueprints):
-    """从文件系统扫描XML文件（默认操作方式）"""
-    # 查找所有 xml 文件
-    # 使用 glob 递归查找 blueprints 目录
-    search_path = os.path.join(BLUEPRINTS_DIR, "**/*.xml")
-    files = glob.glob(search_path, recursive=True)
-
-    # 🆕 排除.cleanup目录中的文件
-    files = [f for f in files if '.cleanup' not in f]
-
-    print(f"Found {len(files)} XML files in {BLUEPRINTS_DIR} (excluding .cleanup)")
-
-    # 默认操作：包含所有文件
-    for f in files:
-        data = parse_blueprint_xml(f)
-        if data:
-            all_blueprints.append(data)
-
-    # 生成 index.json
-    output_data = {
-        "version": "1.0",
-        "generated_at": datetime.datetime.utcnow().isoformat() + "Z",
-        "blueprints": all_blueprints,
-        "generation_stats": {
-            "strategy": "filesystem_default",
-            "total_files_scanned": len(files),
-            "total_blueprints": len(all_blueprints),
-            "message": "Database empty or unavailable - including all files"
-        }
-    }
-
-    with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-        json.dump(output_data, f, ensure_ascii=False, separators=(',', ':'))
-
-    print(f"Generated {OUTPUT_FILE} with {len(all_blueprints)} entries (default filesystem scan).")
-
-    # 同步数据库（如果需要）
-    sync_to_supabase(all_blueprints)
-
-def generate_orphaned_report(files, valid_blueprint_ids):
-    """生成孤儿文件报告"""
-    orphaned_files = []
-
-    for f in files:
-        data = parse_blueprint_xml(f)
-        if data and data["id"] not in valid_blueprint_ids:
-            orphaned_files.append({
-                "file": f,
-                "blueprint_id": data["id"],
-                "name": data["n"],
-                "author": data["a"]
-            })
-
-    if orphaned_files:
-        report_data = {
-            "generated_at": datetime.datetime.utcnow().isoformat() + "Z",
-            "orphaned_count": len(orphaned_files),
-            "orphaned_files": orphaned_files,
-            "message": "These files exist in filesystem but not in database (consider running cleanup)"
-        }
-
-        with open('orphaned_blueprints_report.json', 'w', encoding='utf-8') as f:
-            json.dump(report_data, f, ensure_ascii=False, indent=2)
-
-        print(f"Generated orphaned files report: orphaned_blueprints_report.json")
+    print(f"✅ Generated {OUTPUT_FILE} successfully.")
+    print(f"   Mode: {source_mode}")
+    print(f"   Count: {len(final_list)}")
 
 if __name__ == "__main__":
     main()

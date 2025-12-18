@@ -14,7 +14,8 @@ Welcome to the "Remote Blueprint Sharing" feature provided by this mod. This ser
 
 #### 2. Authentication & Privacy Security
 To identify your uploads and prevent malicious voting manipulation, this service requires basic authentication:
-*   **Encrypted Credentials:** The system generates a unique **User Key** based on your **Steam ID** using a **Salted Hash algorithm**. This encryption is irreversible, and the original Steam ID cannot be reverse-engineered from the key.
+*   **Encrypted Credentials:** The system generates a unique **Obfuscated Credential** based on your **Steam ID** using an **Encryption Algorithm (AES)**.
+*   **Decryption Notice:** The primary purpose of this process is to prevent ordinary users from directly viewing your Steam ID. However, in cases of technical necessity (e.g., data migration) or serious violations (e.g., illegal content), **the administrator reserves the right to decrypt the credential back to the original Steam ID** for investigation purposes. Please be aware that in a client-side environment, it is technically impossible to guarantee that the credential cannot be reverse-engineered by third parties.
 *   **Acknowledgment:** While we encrypt your credentials, please be aware that a Steam ID is inherently public information.
 *   **Usage Limits:** This key is used solely to verify the uploader's identity, record voting data (likes/dislikes), and manage the blueprints you upload.
 *   **Privacy Commitment:** We will not publicly associate your IP address with your game identity. IP addresses are recorded and used solely for maintaining server security (e.g., defending against DDoS attacks or banning abusive users).
