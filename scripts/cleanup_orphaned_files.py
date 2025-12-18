@@ -3,6 +3,7 @@
 """
 清理孤儿文件脚本
 删除GitHub仓库中存在但数据库中不存在的蓝图文件
+同时管理 .cleanup 目录，自动清理超过7天的备份和日志
 """
 
 import os
@@ -13,11 +14,20 @@ import requests
 import xml.etree.ElementTree as ET
 import datetime
 import subprocess
+import time
+import shutil
 
 # 配置
 BLUEPRINTS_DIR = "blueprints"
 SUPABASE_URL = os.environ.get("SUPABASE_URL")
 SUPABASE_SERVICE_KEY = os.environ.get("SUPABASE_SERVICE_KEY")
+
+# 清理目录配置
+CLEANUP_ROOT = ".cleanup"
+CLEANUP_BLUEPRINTS_DIR = os.path.join(CLEANUP_ROOT, "blueprints")
+CLEANUP_IMAGES_DIR = os.path.join(CLEANUP_ROOT, "images")
+CLEANUP_REPORTS_DIR = os.path.join(CLEANUP_ROOT, "reports")
+RETENTION_DAYS = 7  # 备份文件保留天数
 
 class OrphanedFileCleaner:
     def __init__(self, supabase_url, supabase_key):
@@ -28,6 +38,57 @@ class OrphanedFileCleaner:
             "Authorization": f"Bearer {self.supabase_key}",
             "Content-Type": "application/json"
         }
+
+    def prune_old_cleanup_files(self, dry_run=True):
+        """
+        清理 .cleanup 目录下超过 RETENTION_DAYS 天的文件
+        """
+        print(f"🧹 Checking for cleanup files older than {RETENTION_DAYS} days in {CLEANUP_ROOT}...")
+        
+        if not os.path.exists(CLEANUP_ROOT):
+            print("  .cleanup directory does not exist yet. Skipping prune.")
+            return
+
+        now = time.time()
+        cutoff = now - (RETENTION_DAYS * 86400)
+        deleted_count = 0
+
+        # 遍历 .cleanup 目录下的所有文件
+        for root, dirs, files in os.walk(CLEANUP_ROOT):
+            for file in files:
+                file_path = os.path.join(root, file)
+                try:
+                    # 获取文件修改时间
+                    file_mtime = os.path.getmtime(file_path)
+                    
+                    if file_mtime < cutoff:
+                        if dry_run:
+                            print(f"  [Dry Run] Would delete old backup/log: {file_path}")
+                        else:
+                            os.remove(file_path)
+                            print(f"  Deleted old backup/log: {file_path}")
+                        deleted_count += 1
+                except Exception as e:
+                    print(f"  Error accessing {file_path}: {e}")
+
+        # 尝试清理空文件夹 (仅在非dry_run模式下)
+        if not dry_run:
+            for root, dirs, files in os.walk(CLEANUP_ROOT, topdown=False):
+                for name in dirs:
+                    try:
+                        dir_path = os.path.join(root, name)
+                        if not os.listdir(dir_path):  # 如果目录为空
+                            os.rmdir(dir_path)
+                            print(f"  Removed empty directory: {dir_path}")
+                    except:
+                        pass
+
+        if deleted_count == 0:
+            print("  No old files found to prune.")
+        else:
+            action = "Would delete" if dry_run else "Deleted"
+            print(f"  {action} {deleted_count} old files.")
+        print()
 
     def get_valid_blueprint_ids(self):
         """从数据库获取所有有效的blueprint ID"""
@@ -56,8 +117,8 @@ class OrphanedFileCleaner:
         search_path = os.path.join(BLUEPRINTS_DIR, "**/*.xml")
         files = glob.glob(search_path, recursive=True)
 
-        # 排除.cleanup目录中的文件
-        files = [f for f in files if '.cleanup' not in f]
+        # 排除.cleanup目录中的文件 (虽然glob应该不会扫到，但为了保险)
+        files = [f for f in files if CLEANUP_ROOT not in f]
 
         print(f"Found {len(files)} XML files in {BLUEPRINTS_DIR}")
         return files
@@ -72,7 +133,7 @@ class OrphanedFileCleaner:
         jpg_files = glob.glob(os.path.join(images_dir, "*.jpg"))
 
         # 排除.cleanup目录
-        image_files = [f for f in png_files + jpg_files if '.cleanup' not in f]
+        image_files = [f for f in png_files + jpg_files if CLEANUP_ROOT not in f]
 
         print(f"Found {len(image_files)} image files")
 
@@ -172,19 +233,16 @@ class OrphanedFileCleaner:
 
     def move_blueprint_group(self, blueprint_group, dry_run=True):
         """移动完整的蓝图文件组到.cleanup目录"""
-        cleanup_dir = '.cleanup/blueprints'
-        cleanup_images_dir = '.cleanup/images'
-
+        
         if not dry_run:
-            os.makedirs(cleanup_dir, exist_ok=True)
-            os.makedirs(cleanup_images_dir, exist_ok=True)
+            os.makedirs(CLEANUP_BLUEPRINTS_DIR, exist_ok=True)
+            os.makedirs(CLEANUP_IMAGES_DIR, exist_ok=True)
 
         moved_files = []
-        # blueprint_id = blueprint_group['blueprint_id'] # 未使用变量
 
         # 移动XML文件
         if blueprint_group['xml'] and os.path.exists(blueprint_group['xml']):
-            xml_dest = os.path.join(cleanup_dir, os.path.basename(blueprint_group['xml']))
+            xml_dest = os.path.join(CLEANUP_BLUEPRINTS_DIR, os.path.basename(blueprint_group['xml']))
             if dry_run:
                 print(f"  Would move XML: {blueprint_group['xml']} -> {xml_dest}")
                 moved_files.append(blueprint_group['xml'])
@@ -201,7 +259,7 @@ class OrphanedFileCleaner:
         for image_key in ['png', 'minimap_png', 'minimap_jpg']:
             image_file = blueprint_group[image_key]
             if image_file and os.path.exists(image_file):
-                image_dest = os.path.join(cleanup_images_dir, os.path.basename(image_file))
+                image_dest = os.path.join(CLEANUP_IMAGES_DIR, os.path.basename(image_file))
                 if dry_run:
                     print(f"  Would move {image_key}: {image_file} -> {image_dest}")
                     moved_files.append(image_file)
@@ -250,6 +308,9 @@ class OrphanedFileCleaner:
         print(f"Auto delete: {auto_delete}")
         print()
 
+        # 0. 先清理过期的备份文件 (在所有操作之前)
+        self.prune_old_cleanup_files(dry_run=dry_run)
+
         # 1. 获取有效的blueprint ID列表
         valid_ids = self.get_valid_blueprint_ids()
         if valid_ids is None:
@@ -272,6 +333,7 @@ class OrphanedFileCleaner:
 
         if not orphaned_groups:
             print("✅ No orphaned blueprint groups found!")
+            # 即使没有孤儿文件，如果有 dry_run=False，我们可能已经执行了 prune_old_cleanup_files
             return True
 
         # 4. 显示孤儿文件信息
@@ -286,16 +348,13 @@ class OrphanedFileCleaner:
         print()
 
         # 5. 处理清理操作
-        # 【修改】改进判断逻辑，在自动模式下跳过 input
         should_cleanup = False
         if auto_delete:
             should_cleanup = True
         elif not dry_run:
-            # 检测是否为交互式终端
             if sys.stdin.isatty():
                 should_cleanup = input("Cleanup these orphaned files? (y/N): ").lower() == 'y'
             else:
-                # 非交互模式但没有 auto_delete，通常不应执行，但这里设置为 False 确保安全
                 print("⚠️  Non-interactive mode detected without --auto-delete. Skipping cleanup check.")
                 should_cleanup = False
         
@@ -306,7 +365,6 @@ class OrphanedFileCleaner:
                 print("🤖 Auto cleanup mode - Moving files to .cleanup directory")
                 strategy = 'move'
             elif not dry_run and sys.stdin.isatty():
-                # 只有在交互模式下才询问策略
                 user_strategy = input("Choose cleanup strategy (move/delete/backup): ").lower()
                 if user_strategy in ['move', 'delete', 'backup']:
                     strategy = user_strategy
@@ -314,7 +372,7 @@ class OrphanedFileCleaner:
                 print("🤖 Non-interactive mode - Defaulting to 'move' strategy")
 
             if strategy in ['move', 'backup'] or auto_delete:
-                print("📦 Moving orphaned blueprint groups to .cleanup directory...")
+                print(f"📦 Moving orphaned blueprint groups to {CLEANUP_ROOT} directory...")
                 total_moved = []
 
                 for group in orphaned_groups:
@@ -322,7 +380,7 @@ class OrphanedFileCleaner:
                     moved = self.move_blueprint_group(group, dry_run=False)
                     total_moved.extend(moved)
 
-                print(f"\n✅ Moved {len(total_moved)} files to .cleanup directory")
+                print(f"\n✅ Moved {len(total_moved)} files to {CLEANUP_ROOT} directory")
 
                 # 6. 清理后重新生成index
                 if not dry_run:
@@ -374,7 +432,7 @@ class OrphanedFileCleaner:
             print(f"❌ Failed to regenerate index: {e}")
 
     def generate_cleanup_report(self, valid_files, orphaned_files, dry_run):
-        """生成清理报告"""
+        """生成清理报告，保存到 .cleanup/reports"""
         report_data = {
             "cleanup_timestamp": datetime.datetime.utcnow().isoformat() + "Z",
             "dry_run": dry_run,
@@ -387,12 +445,23 @@ class OrphanedFileCleaner:
             "valid_files_count": len(valid_files)
         }
 
-        report_filename = f"cleanup_report_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+        # 确保报告目录存在
+        if not dry_run:
+            os.makedirs(CLEANUP_REPORTS_DIR, exist_ok=True)
+            filename_base = os.path.join(CLEANUP_REPORTS_DIR, f"cleanup_report_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}.json")
+        else:
+            # Dry run 模式下不创建目录，只打印文件名
+            filename_base = f"cleanup_report_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
 
-        with open(report_filename, 'w', encoding='utf-8') as f:
-            json.dump(report_data, f, ensure_ascii=False, indent=2)
-
-        print(f"\n📄 Report generated: {report_filename}")
+        if not dry_run:
+            try:
+                with open(filename_base, 'w', encoding='utf-8') as f:
+                    json.dump(report_data, f, ensure_ascii=False, indent=2)
+                print(f"\n📄 Report generated: {filename_base}")
+            except Exception as e:
+                print(f"\n❌ Failed to generate report: {e}")
+        else:
+            print(f"\n📄 [Dry Run] Report would be generated at: {filename_base}")
 
 def main():
     """主函数"""
@@ -412,7 +481,7 @@ def main():
         dry_run = False
         print("🚨 执行模式 - 将实际处理文件!")
         
-        # 【修改】如果是在 CI/无交互环境下用了 --execute，强制开启自动删除模式，避免卡住
+        # 如果是在 CI/无交互环境下用了 --execute，强制开启自动删除模式
         if is_ci_env:
             print("🤖 检测到无交互环境 (CI/GitHub Actions)。将 --execute 视为 --auto-delete。")
             auto_delete = True
@@ -420,11 +489,10 @@ def main():
     if "--auto-delete" in sys.argv:
         auto_delete = True
         dry_run = False
-        print("🤖 自动删除模式 - 将移动/删除所有孤儿文件!")
+        print("🤖 自动删除模式 - 将移动/删除所有孤儿文件，并自动清理旧备份!")
 
     # 确认危险操作
     if not dry_run and not auto_delete:
-        # 【修改】如果是本地终端，才询问；如果是 CI 环境，上面已经处理过 auto_delete=True，或者保持 dry_run
         if sys.stdin.isatty():
             print("⚠️  这将实际删除文件! 请确保你有备份。")
             try:
@@ -435,7 +503,6 @@ def main():
                 print("❌ 无法读取输入 (EOF)。请使用 --auto-delete 参数跳过确认。")
                 sys.exit(1)
         else:
-            # 理论上不应该走到这里，除非环境监测有误，做个兜底
             print("❌ 非交互环境不能等待输入。请使用 --auto-delete 参数。")
             sys.exit(1)
 
