@@ -1,0 +1,216 @@
+<PrefabDef>
+  <defName>Prefab_20251227_195141</defName>
+  <size>(13,13)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>最高移动效率机械生产车间</name>
+    <description>在房间内移动无减速，用于后期机械族填线，大量复活机械族，本模块需要一步完成，不可分步，否则没有无减速效果</description>
+    <tags></tags>
+    <author>Gunneville</author>
+    <category>生物科技DLC</category>
+    <BuildingID>55032462-c40f-471b-8649-24479d933179</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>ludeon.rimworld.ideology</packageId>
+        <name>Ideology</name>
+        <version></version>
+        <modorder>5</modorder>
+        <things>
+          <li>KneelPillow</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.biotech</packageId>
+        <name>Biotech</name>
+        <version></version>
+        <modorder>6</modorder>
+        <things>
+          <li>MechGestator</li>
+          <li>LargeMechGestator</li>
+        </things>
+      </mod>
+    </modPackages>
+    <foldGroup>
+      <groupKey>三日月号</groupKey>
+      <displayOrder>1</displayOrder>
+      <isCover>true</isCover>
+    </foldGroup>
+    <multiLanguage>
+      <name>
+        <default>最高移动效率机械生产车间</default>
+        <zh-CN>最高移动效率机械生产车间</zh-CN>
+      </name>
+      <description>
+        <default>在房间内移动无减速，用于后期机械族填线，大量复活机械族，本模块需要一步完成，不可分步，否则没有无减速效果</default>
+        <zh-CN>在房间内移动无减速，用于后期机械族填线，大量复活机械族，本模块需要一步完成，不可分步，否则没有无减速效果</zh-CN>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,5,0)</li>
+        <li>(7,0,12,0)</li>
+        <li>(0,1,0,12)</li>
+        <li>(12,1,12,12)</li>
+        <li>(1,12,11,12)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <hp>510</hp>
+      <color>RGBA(0.353, 0.412, 0.385, 1.000)</color>
+    </Wall>
+    <HiddenConduit>
+      <rects>
+        <li>(0,0,12,0)</li>
+        <li>(0,1,0,12)</li>
+        <li>(12,1,12,12)</li>
+        <li>(1,12,11,12)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <Door>
+      <rects>
+        <li>(6,0,6,0)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <Shelf>
+      <positions>
+        <li>(2, 0, 1)</li>
+        <li>(4, 0, 1)</li>
+        <li>(8, 0, 1)</li>
+        <li>(2, 0, 2)</li>
+        <li>(4, 0, 2)</li>
+        <li>(6, 0, 2)</li>
+        <li>(8, 0, 2)</li>
+        <li>(2, 0, 3)</li>
+        <li>(4, 0, 3)</li>
+        <li>(6, 0, 3)</li>
+        <li>(8, 0, 3)</li>
+        <li>(2, 0, 4)</li>
+        <li>(4, 0, 4)</li>
+        <li>(6, 0, 4)</li>
+        <li>(8, 0, 4)</li>
+        <li>(9, 0, 6)</li>
+        <li>(11, 0, 6)</li>
+        <li>(9, 0, 7)</li>
+        <li>(11, 0, 7)</li>
+        <li>(9, 0, 8)</li>
+        <li>(11, 0, 8)</li>
+        <li>(9, 0, 9)</li>
+        <li>(11, 0, 9)</li>
+        <li>(9, 0, 10)</li>
+        <li>(11, 0, 10)</li>
+        <li>(9, 0, 11)</li>
+        <li>(11, 0, 11)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Shelf>
+    <ShelfSmall>
+      <rects>
+        <li>(5,1,5,1)</li>
+        <li>(9,1,9,2)</li>
+        <li>(8,5,8,5)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>32</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </ShelfSmall>
+    <KneelPillow>
+      <rects>
+        <li>(6,1,6,1)</li>
+        <li>(9,3,9,3)</li>
+        <li>(4,8,4,8)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Normal</quality>
+      <hp>20</hp>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </KneelPillow>
+    <MechGestator>
+      <position>(11, 0, 2)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>250</hp>
+    </MechGestator>
+    <MechGestator>
+      <position>(10, 0, 5)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>250</hp>
+    </MechGestator>
+    <LargeMechGestator>
+      <position>(2, 0, 6)</position>
+      <hp>350</hp>
+    </LargeMechGestator>
+    <LargeMechGestator>
+      <position>(6, 0, 6)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>350</hp>
+    </LargeMechGestator>
+    <WallLamp>
+      <rects>
+        <li>(1,6,1,6)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>35</hp>
+    </WallLamp>
+    <LargeMechGestator>
+      <position>(2, 0, 10)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>350</hp>
+    </LargeMechGestator>
+    <LargeMechGestator>
+      <position>(6, 0, 10)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>350</hp>
+    </LargeMechGestator>
+  </things>
+  <terrain>
+    <MetalTile>
+      <rects>
+        <li>(0,0,5,0)</li>
+        <li>(7,0,12,0)</li>
+        <li>(0,1,0,12)</li>
+        <li>(12,1,12,12)</li>
+        <li>(1,12,11,12)</li>
+      </rects>
+    </MetalTile>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <MetalTile>
+        <rects>
+          <li>(0,0,5,0)</li>
+          <li>(7,0,12,0)</li>
+          <li>(0,1,0,12)</li>
+          <li>(12,1,12,12)</li>
+          <li>(1,12,11,12)</li>
+        </rects>
+      </MetalTile>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Slate_Rough>
+        <rects>
+          <li>(0,0,1,0)</li>
+          <li>(0,1,0,12)</li>
+          <li>(12,11,12,12)</li>
+          <li>(1,12,11,12)</li>
+        </rects>
+      </Slate_Rough>
+      <Slate_RoughHewn>
+        <rects>
+          <li>(2,0,5,0)</li>
+          <li>(7,0,12,0)</li>
+          <li>(12,1,12,10)</li>
+        </rects>
+      </Slate_RoughHewn>
+    </terrainLayerDetail>
+  </terrainLayers>
+</PrefabDef>
