@@ -1,9 +1,9 @@
 <PrefabDef>
-  <defName>Prefab_20251228_175459</defName>
-  <size>(19,14)</size>
+  <defName>Prefab_20251228_180521</defName>
+  <size>(11,7)</size>
   <extraInfo>
     <version>1.6.9438.37837</version>
-    <name>测试导出1</name>
+    <name>测试导出2</name>
     <description>测试文件，请勿下载</description>
     <tags></tags>
     <author></author>
@@ -12,8 +12,8 @@
     <modPackages></modPackages>
     <multiLanguage>
       <name>
-        <default>测试导出1</default>
-        <zh-CN>测试导出1</zh-CN>
+        <default>测试导出2</default>
+        <zh-CN>测试导出2</zh-CN>
       </name>
       <description>
         <default>测试文件，请勿下载</default>
@@ -21,17 +21,21 @@
       </description>
     </multiLanguage>
   </extraInfo>
-  <things>
-    <Wall>
-      <rects>
-        <li>(11,0,11,13)</li>
-        <li>(0,8,10,8)</li>
-        <li>(12,8,18,8)</li>
-      </rects>
-      <stuff>WoodLog</stuff>
-      <hp>195</hp>
-      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
-    </Wall>
-  </things>
-  <terrainLayers></terrainLayers>
+  <things></things>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <AncientConcrete>
+        <rects>
+          <li>(0,6,0,6)</li>
+        </rects>
+      </AncientConcrete>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(0,6,0,6)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
 </PrefabDef>
