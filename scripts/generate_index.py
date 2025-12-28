@@ -101,7 +101,7 @@ def fetch_from_database():
 
     print("🔌 Attempting to connect to Database...")
     # 只获取活跃的蓝图（包含精选状态）
-    url = f"{SUPABASE_URL}/rest/v1/blueprints?select=id,name,author,author_steam_id,category,tags,width,height,version,github_path,stat_likes,stat_dislikes,stat_added_to_library,created_at,featured_blueprints(*)&is_active=eq.true"
+    url = f"{SUPABASE_URL}/rest/v1/blueprints?select=id,name,author,author_steam_id,category,tags,width,height,version,github_path,stat_likes,stat_dislikes,stat_added_to_library,created_at,updated_at,featured_blueprints(*)&is_active=eq.true"
     
     response = requests.get(url, headers=headers, timeout=10) # 设置超时防止卡死
     if response.status_code != 200:
@@ -124,9 +124,10 @@ def scan_filesystem_fallback():
         if data:
             # 补全路径字段 (统一正斜杠)
             data["p"] = f.replace("\\", "/")
-            # 补全时间字段 (Fallback 模式用当前时间，或者文件修改时间)
-            # 这里为了简单用当前时间，或者你可以用 os.path.getmtime(f)
-            data["dt"] = datetime.datetime.utcnow().isoformat() + "Z"
+            # 补全时间字段 (Fallback 模式用当前时间)
+            now_iso = datetime.datetime.utcnow().isoformat() + "Z"
+            data["dt"] = now_iso
+            data["ut"] = now_iso
             blueprints.append(data)
             
     return blueprints
@@ -175,6 +176,7 @@ def main():
                 "s_d": record.get("stat_dislikes", 0),
                 "s_dl": record.get("stat_added_to_library", 0),
                 "dt": record["created_at"],
+                "ut": record.get("updated_at", record["created_at"]), # 新增：更新时间
                 "fe": 1 if is_featured else 0  # 精选状态
             }
             final_list.append(entry)
