@@ -1,0 +1,83 @@
+<PrefabDef>
+  <defName>Prefab_20251228_213813</defName>
+  <size>(13,13)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>13x13框架</name>
+    <description>一个很普通的13x13房间，更加平整好看一些，除了墙壁和门什么也没有</description>
+    <tags></tags>
+    <author>Gunneville</author>
+    <category>其他</category>
+    <BuildingID>6e47fe72-4fb6-4f5b-8b56-362cb10e3b2f</BuildingID>
+    <modPackages></modPackages>
+    <multiLanguage>
+      <name>
+        <default>13x13框架</default>
+        <zh-CN>13x13框架</zh-CN>
+      </name>
+      <description>
+        <default>一个很普通的13x13房间，更加平整好看一些，除了墙壁和门什么也没有</default>
+        <zh-CN>一个很普通的13x13房间，更加平整好看一些，除了墙壁和门什么也没有</zh-CN>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,5,0)</li>
+        <li>(7,0,12,0)</li>
+        <li>(0,1,0,5)</li>
+        <li>(12,1,12,5)</li>
+        <li>(0,7,0,12)</li>
+        <li>(12,7,12,12)</li>
+        <li>(1,12,5,12)</li>
+        <li>(7,12,11,12)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>195</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Wall>
+    <Door>
+      <rects>
+        <li>(6,0,6,0)</li>
+        <li>(6,12,6,12)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <Door>
+      <rects>
+        <li>(0,6,0,6)</li>
+        <li>(12,6,12,6)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+  </things>
+  <terrain>
+    <MetalTile>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </MetalTile>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <MetalTile>
+        <rects>
+          <li>(0,0,12,12)</li>
+        </rects>
+      </MetalTile>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(0,0,12,12)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+</PrefabDef>
