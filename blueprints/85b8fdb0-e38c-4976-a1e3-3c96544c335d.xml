@@ -1,10 +1,10 @@
 <PrefabDef>
-  <defName>Prefab_20251229_202059</defName>
-  <size>(22,18)</size>
+  <defName>Prefab_20251229_213420</defName>
+  <size>(22,16)</size>
   <extraInfo>
     <version>1.6.9438.37837</version>
     <name>迫降开局刚好用完初始材料的基地</name>
-    <description>迫降开局一共450+720=1120钢铁和300原木，比上一版增大了存储区域和牢房</description>
+    <description>开局450+720=1120钢铁300原木，4卧室1牢房1研究1切石1冷库</description>
     <tags></tags>
     <author>words</author>
     <category>基地蓝图</category>
@@ -16,96 +16,52 @@
         <zh-CN>迫降开局刚好用完初始材料的基地</zh-CN>
       </name>
       <description>
-        <default>迫降开局一共450+720=1120钢铁和300原木，比上一版增大了存储区域和牢房</default>
-        <zh-CN>迫降开局一共450+720=1120钢铁和300原木，比上一版增大了存储区域和牢房</zh-CN>
+        <default>开局450+720=1120钢铁300原木，4卧室1牢房1研究1切石1冷库</default>
+        <zh-CN>开局450+720=1120钢铁300原木，4卧室1牢房1研究1切石1冷库</zh-CN>
       </description>
     </multiLanguage>
   </extraInfo>
   <things>
-    <Stool>
-      <rects>
-        <li>(10,1,11,1)</li>
-      </rects>
-      <stuff>Steel</stuff>
-      <quality>Normal</quality>
-      <hp>150</hp>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </Stool>
-    <HorseshoesPin>
-      <rects>
-        <li>(9,2,9,2)</li>
-      </rects>
-      <stuff>Steel</stuff>
-      <hp>150</hp>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </HorseshoesPin>
-    <Table1x2c>
-      <position>(11, 0, 2)</position>
-      <relativeRotation>Counterclockwise</relativeRotation>
-      <stuff>Steel</stuff>
-      <quality>Normal</quality>
-      <hp>150</hp>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </Table1x2c>
-    <ChessTable>
-      <rects>
-        <li>(10,3,10,3)</li>
-      </rects>
-      <stuff>Steel</stuff>
-      <quality>Normal</quality>
-      <hp>200</hp>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </ChessTable>
-    <Stool>
-      <rects>
-        <li>(11,3,11,3)</li>
-      </rects>
-      <relativeRotation>Opposite</relativeRotation>
-      <stuff>Steel</stuff>
-      <quality>Normal</quality>
-      <hp>150</hp>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </Stool>
     <Wall>
       <rects>
-        <li>(5,4,7,4)</li>
-        <li>(9,4,11,4)</li>
-        <li>(4,5,4,6)</li>
-        <li>(8,5,8,7)</li>
-        <li>(12,5,12,5)</li>
-        <li>(3,6,3,6)</li>
+        <li>(5,2,7,2)</li>
+        <li>(9,2,11,2)</li>
+        <li>(4,3,4,4)</li>
+        <li>(8,3,8,5)</li>
+        <li>(12,3,12,3)</li>
+        <li>(3,4,3,4)</li>
+        <li>(2,5,2,5)</li>
+        <li>(5,5,5,5)</li>
+        <li>(13,5,13,11)</li>
+        <li>(6,6,6,6)</li>
         <li>(2,7,2,7)</li>
         <li>(5,7,5,7)</li>
-        <li>(13,7,13,13)</li>
-        <li>(6,8,6,8)</li>
+        <li>(3,8,4,8)</li>
         <li>(2,9,2,9)</li>
         <li>(5,9,5,9)</li>
-        <li>(3,10,4,10)</li>
+        <li>(6,10,7,10)</li>
         <li>(2,11,2,11)</li>
         <li>(5,11,5,11)</li>
-        <li>(6,12,7,12)</li>
-        <li>(2,13,2,13)</li>
-        <li>(5,13,5,13)</li>
-        <li>(8,13,8,15)</li>
-        <li>(3,14,4,14)</li>
-        <li>(12,14,12,14)</li>
-        <li>(11,15,11,15)</li>
-        <li>(5,16,7,16)</li>
-        <li>(9,16,10,16)</li>
+        <li>(8,11,8,13)</li>
+        <li>(3,12,4,12)</li>
+        <li>(12,12,12,12)</li>
+        <li>(11,13,11,13)</li>
+        <li>(5,14,7,14)</li>
+        <li>(9,14,10,14)</li>
       </rects>
       <stuff>Steel</stuff>
       <hp>600</hp>
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </Wall>
     <SimpleResearchBench>
-      <position>(6, 0, 6)</position>
+      <position>(6, 0, 4)</position>
       <relativeRotation>Opposite</relativeRotation>
       <stuff>Steel</stuff>
       <hp>500</hp>
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </SimpleResearchBench>
     <TableStonecutter>
-      <position>(10, 0, 5)</position>
+      <position>(10, 0, 3)</position>
       <relativeRotation>Opposite</relativeRotation>
       <stuff>WoodLog</stuff>
       <hp>117</hp>
@@ -113,8 +69,8 @@
     </TableStonecutter>
     <Stool>
       <rects>
-        <li>(10,6,10,6)</li>
-        <li>(6,7,6,7)</li>
+        <li>(10,4,10,4)</li>
+        <li>(6,5,6,5)</li>
       </rects>
       <stuff>WoodLog</stuff>
       <quality>Normal</quality>
@@ -123,31 +79,56 @@
     </Stool>
     <Door>
       <rects>
-        <li>(13,6,13,6)</li>
-        <li>(2,8,2,8)</li>
-        <li>(2,12,2,12)</li>
-        <li>(4,15,4,15)</li>
+        <li>(13,4,13,4)</li>
+        <li>(2,6,2,6)</li>
+        <li>(2,10,2,10)</li>
+        <li>(4,13,4,13)</li>
       </rects>
       <relativeRotation>Clockwise</relativeRotation>
       <stuff>WoodLog</stuff>
       <hp>104</hp>
       <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
     </Door>
+    <Stool>
+      <rects>
+        <li>(15,4,16,4)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>150</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Stool>
     <WallLamp>
       <rects>
-        <li>(7,7,7,7)</li>
+        <li>(7,5,7,5)</li>
+        <li>(4,7,4,7)</li>
+        <li>(12,7,12,7)</li>
         <li>(4,9,4,9)</li>
-        <li>(12,9,12,9)</li>
-        <li>(4,11,4,11)</li>
-        <li>(7,13,7,13)</li>
+        <li>(7,11,7,11)</li>
       </rects>
       <relativeRotation>Clockwise</relativeRotation>
       <hp>35</hp>
     </WallLamp>
+    <HorseshoesPin>
+      <rects>
+        <li>(14,5,14,5)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>150</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HorseshoesPin>
+    <Table1x2c>
+      <position>(16, 0, 5)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>150</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Table1x2c>
     <Bed>
       <positions>
-        <li>(4, 0, 8)</li>
-        <li>(4, 0, 12)</li>
+        <li>(4, 0, 6)</li>
+        <li>(4, 0, 10)</li>
       </positions>
       <relativeRotation>Clockwise</relativeRotation>
       <stuff>Steel</stuff>
@@ -157,43 +138,62 @@
     </Bed>
     <Door>
       <rects>
-        <li>(7,8,7,8)</li>
-        <li>(12,11,12,11)</li>
-        <li>(8,12,8,12)</li>
+        <li>(7,6,7,6)</li>
+        <li>(12,9,12,9)</li>
+        <li>(8,10,8,10)</li>
       </rects>
       <stuff>WoodLog</stuff>
       <hp>104</hp>
       <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
     </Door>
+    <ChessTable>
+      <rects>
+        <li>(15,6,15,6)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>200</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </ChessTable>
+    <Stool>
+      <rects>
+        <li>(16,6,16,6)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>150</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Stool>
     <WallLamp>
       <rects>
-        <li>(6,9,6,9)</li>
+        <li>(6,7,6,7)</li>
       </rects>
       <relativeRotation>Opposite</relativeRotation>
       <hp>35</hp>
     </WallLamp>
     <NutrientPasteDispenser>
-      <position>(9, 0, 10)</position>
+      <position>(9, 0, 8)</position>
       <relativeRotation>Clockwise</relativeRotation>
       <hp>350</hp>
       <color>RGBA(0.910, 1.000, 0.749, 1.000)</color>
     </NutrientPasteDispenser>
     <HiddenConduit>
       <rects>
-        <li>(11,9,13,9)</li>
+        <li>(11,7,13,7)</li>
       </rects>
       <hp>100</hp>
       <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
     </HiddenConduit>
     <WindTurbine>
-      <position>(17, 0, 10)</position>
+      <position>(17, 0, 8)</position>
       <relativeRotation>Opposite</relativeRotation>
       <hp>150</hp>
     </WindTurbine>
     <Bed>
       <positions>
-        <li>(6, 0, 10)</li>
-        <li>(6, 0, 14)</li>
+        <li>(6, 0, 8)</li>
+        <li>(6, 0, 12)</li>
       </positions>
       <relativeRotation>Counterclockwise</relativeRotation>
       <stuff>Steel</stuff>
@@ -203,14 +203,14 @@
     </Bed>
     <Cooler>
       <rects>
-        <li>(9,12,9,12)</li>
+        <li>(9,10,9,10)</li>
       </rects>
       <relativeRotation>Counterclockwise</relativeRotation>
       <hp>100</hp>
     </Cooler>
     <Hopper>
       <rects>
-        <li>(10,12,10,12)</li>
+        <li>(10,10,10,10)</li>
       </rects>
       <relativeRotation>Opposite</relativeRotation>
       <hp>100</hp>
@@ -219,14 +219,14 @@
   <terrain>
     <PavedTile>
       <rects>
-        <li>(3,7,4,9)</li>
+        <li>(3,5,4,7)</li>
+        <li>(5,6,5,6)</li>
+        <li>(6,7,7,9)</li>
         <li>(5,8,5,8)</li>
-        <li>(6,9,7,11)</li>
+        <li>(3,9,4,11)</li>
         <li>(5,10,5,10)</li>
-        <li>(3,11,4,13)</li>
-        <li>(5,12,5,12)</li>
-        <li>(6,13,7,15)</li>
-        <li>(5,14,5,15)</li>
+        <li>(6,11,7,13)</li>
+        <li>(5,12,5,13)</li>
       </rects>
     </PavedTile>
   </terrain>
@@ -234,36 +234,36 @@
     <terrainLayerDetail layer="topGrid">
       <Concrete>
         <rects>
-          <li>(5,5,7,6)</li>
-          <li>(6,7,7,7)</li>
+          <li>(5,3,7,4)</li>
+          <li>(6,5,7,5)</li>
         </rects>
       </Concrete>
       <PavedTile>
         <rects>
-          <li>(3,7,4,9)</li>
+          <li>(3,5,4,7)</li>
+          <li>(5,6,5,6)</li>
+          <li>(6,7,7,9)</li>
           <li>(5,8,5,8)</li>
-          <li>(6,9,7,11)</li>
+          <li>(3,9,4,11)</li>
           <li>(5,10,5,10)</li>
-          <li>(3,11,4,13)</li>
-          <li>(5,12,5,12)</li>
-          <li>(6,13,7,15)</li>
-          <li>(5,14,5,15)</li>
+          <li>(6,11,7,13)</li>
+          <li>(5,12,5,13)</li>
         </rects>
       </PavedTile>
     </terrainLayerDetail>
     <terrainLayerDetail layer="underGrid">
       <Soil>
         <rects>
-          <li>(5,5,7,6)</li>
-          <li>(3,7,4,9)</li>
-          <li>(6,7,7,7)</li>
+          <li>(5,3,7,4)</li>
+          <li>(3,5,4,7)</li>
+          <li>(6,5,7,5)</li>
+          <li>(5,6,5,6)</li>
+          <li>(6,7,7,9)</li>
           <li>(5,8,5,8)</li>
-          <li>(6,9,7,11)</li>
+          <li>(3,9,4,11)</li>
           <li>(5,10,5,10)</li>
-          <li>(3,11,4,13)</li>
-          <li>(5,12,5,12)</li>
-          <li>(6,13,7,15)</li>
-          <li>(5,14,5,15)</li>
+          <li>(6,11,7,13)</li>
+          <li>(5,12,5,13)</li>
         </rects>
       </Soil>
     </terrainLayerDetail>
