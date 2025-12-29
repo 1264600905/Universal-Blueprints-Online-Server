@@ -1,0 +1,157 @@
+<PrefabDef>
+  <defName>Prefab_20251229_125335</defName>
+  <size>(20,14)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>仓库</name>
+    <description></description>
+    <tags></tags>
+    <author>老毛</author>
+    <category>仓库</category>
+    <BuildingID>20b0a925-5ca7-45ee-bdcf-15d311e0b416</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>ludeon.rimworld.odyssey</packageId>
+        <name>Odyssey</name>
+        <version></version>
+        <modorder>7</modorder>
+        <things>
+          <li>AncientChemfuelCanister</li>
+          <li>AncientChembarrelPallet</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>none1637.hkjblacktech.core</packageId>
+        <name>黑科技</name>
+        <version></version>
+        <modorder>152</modorder>
+        <steamWorkshopId>1298507261</steamWorkshopId>
+        <things>
+          <li>HKJ_SterileTile</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>仓库</default>
+        <zh-CN>仓库</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <AncientRazorWire>
+      <rects>
+        <li>(1,0,6,0)</li>
+        <li>(10,0,19,0)</li>
+        <li>(0,1,0,7)</li>
+        <li>(19,1,19,1)</li>
+        <li>(19,3,19,13)</li>
+        <li>(0,9,0,13)</li>
+        <li>(1,13,9,13)</li>
+        <li>(13,13,17,13)</li>
+      </rects>
+      <hp>30</hp>
+    </AncientRazorWire>
+    <Wall>
+      <rects>
+        <li>(2,2,7,2)</li>
+        <li>(9,2,17,2)</li>
+        <li>(1,3,2,3)</li>
+        <li>(4,3,4,3)</li>
+        <li>(15,3,15,3)</li>
+        <li>(17,3,18,3)</li>
+        <li>(1,4,1,10)</li>
+        <li>(18,4,18,10)</li>
+        <li>(2,5,4,5)</li>
+        <li>(15,5,17,5)</li>
+        <li>(4,6,4,6)</li>
+        <li>(15,6,15,6)</li>
+        <li>(2,8,4,8)</li>
+        <li>(15,8,15,11)</li>
+        <li>(17,8,17,8)</li>
+        <li>(4,9,4,9)</li>
+        <li>(2,10,2,11)</li>
+        <li>(17,10,17,11)</li>
+        <li>(3,11,10,11)</li>
+        <li>(12,11,14,11)</li>
+        <li>(16,11,16,11)</li>
+      </rects>
+      <stuff>BlocksLimestone</stuff>
+      <hp>465</hp>
+      <color>RGBA(0.890, 0.859, 0.784, 1.000)</color>
+    </Wall>
+    <Door>
+      <rects>
+        <li>(8,2,8,2)</li>
+        <li>(16,8,16,8)</li>
+        <li>(11,11,11,11)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>320</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Door>
+    <Shelf>
+      <positions>
+        <li>(6, 0, 3)</li>
+        <li>(9, 0, 3)</li>
+        <li>(12, 0, 3)</li>
+      </positions>
+      <stuff>WoodLog</stuff>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Shelf>
+    <AncientChemfuelCanister>
+      <rects>
+        <li>(2,4,2,4)</li>
+        <li>(2,7,2,7)</li>
+        <li>(2,9,2,9)</li>
+      </rects>
+      <hp>50</hp>
+    </AncientChemfuelCanister>
+    <Door>
+      <rects>
+        <li>(15,4,15,4)</li>
+        <li>(4,7,4,7)</li>
+        <li>(15,7,15,7)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>320</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Door>
+    <AncientChembarrelPallet>
+      <positions>
+        <li>(6, 0, 5)</li>
+        <li>(9, 0, 5)</li>
+        <li>(12, 0, 5)</li>
+        <li>(6, 0, 7)</li>
+        <li>(12, 0, 7)</li>
+        <li>(12, 0, 9)</li>
+      </positions>
+      <hp>100</hp>
+    </AncientChembarrelPallet>
+  </things>
+  <terrain>
+    <HKJ_SterileTile>
+      <rects>
+        <li>(2,3,17,11)</li>
+      </rects>
+    </HKJ_SterileTile>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <HKJ_SterileTile>
+        <rects>
+          <li>(2,3,17,11)</li>
+        </rects>
+      </HKJ_SterileTile>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(2,3,17,11)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+</PrefabDef>
