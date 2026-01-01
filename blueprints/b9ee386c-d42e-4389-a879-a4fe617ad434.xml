@@ -1,0 +1,147 @@
+<PrefabDef>
+  <defName>Prefab_20251223_192649</defName>
+  <size>(8,8)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>贵族</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>皇权DLC</category>
+    <BuildingID>b9ee386c-d42e-4389-a879-a4fe617ad434</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>ludeon.rimworld.royalty</packageId>
+        <name>Royalty</name>
+        <version></version>
+        <modorder>3</modorder>
+        <things>
+          <li>Drape</li>
+          <li>FineTileLimestone</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>贵族</default>
+        <zh-CN>贵族</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <HiddenConduit>
+      <rects>
+        <li>(0,0,7,0)</li>
+        <li>(0,1,0,7)</li>
+        <li>(6,1,7,1)</li>
+        <li>(7,2,7,7)</li>
+        <li>(1,7,6,7)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <Wall>
+      <rects>
+        <li>(0,0,2,0)</li>
+        <li>(4,0,7,0)</li>
+        <li>(0,1,0,7)</li>
+        <li>(7,1,7,7)</li>
+        <li>(1,7,6,7)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <hp>510</hp>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Wall>
+    <Door>
+      <rects>
+        <li>(3,0,3,0)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <Dresser>
+      <position>(5, 0, 1)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>78</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Dresser>
+    <Drape>
+      <positions>
+        <li>(1, 0, 6)</li>
+        <li>(2, 0, 6)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Cloth</stuff>
+      <hp>100</hp>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </Drape>
+    <RoyalBed>
+      <position>(5, 0, 6)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>130</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RoyalBed>
+    <EndTable>
+      <rects>
+        <li>(3,6,3,6)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>49</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </EndTable>
+  </things>
+  <terrain>
+    <FineTileLimestone>
+      <rects>
+        <li>(0,0,7,7)</li>
+      </rects>
+    </FineTileLimestone>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <FineTileLimestone>
+        <rects>
+          <li>(0,0,7,7)</li>
+        </rects>
+      </FineTileLimestone>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(0,0,0,0)</li>
+          <li>(3,0,3,6)</li>
+          <li>(1,1,2,6)</li>
+          <li>(4,1,5,6)</li>
+        </rects>
+      </Soil>
+      <Slate_RoughHewn>
+        <rects>
+          <li>(1,0,2,0)</li>
+          <li>(4,0,7,0)</li>
+          <li>(0,1,0,7)</li>
+          <li>(6,1,7,7)</li>
+          <li>(1,7,5,7)</li>
+        </rects>
+      </Slate_RoughHewn>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofRockThick>
+      <rects>
+        <li>(0,0,7,7)</li>
+      </rects>
+    </RoofRockThick>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,6,7)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
