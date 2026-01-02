@@ -1,0 +1,400 @@
+<PrefabDef>
+  <defName>Prefab_20260103_002912</defName>
+  <size>(30,12)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>库房</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>其他</category>
+    <BuildingID>71011bbd-54b4-4430-8069-959eb83c90a6</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>lwm.deepstorage</packageId>
+        <name><![CDATA[LWM's Deep Storage]]></name>
+        <version></version>
+        <modorder>26</modorder>
+        <steamWorkshopId>3532608331</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>LWM_Medicine_Cabinet</li>
+          <li>LWM_VeryBigShelf</li>
+          <li>LWM_Meat_Hook</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>kindseal.lol</packageId>
+        <name>联合重工-UF Heavy Industries</name>
+        <version></version>
+        <modorder>51</modorder>
+        <steamWorkshopId>3555662938</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+          <li>
+            <packageId>dizhuan.sralib</packageId>
+            <steamWorkshopId>3565275325</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>KTShieldGeneratorMortar</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.odyssey</packageId>
+        <name>Odyssey</name>
+        <version></version>
+        <modorder>6</modorder>
+        <things>
+          <li>GrasslandSoil</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>库房</default>
+        <zh-CN>库房</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,6,0)</li>
+        <li>(8,0,15,0)</li>
+        <li>(17,0,22,0)</li>
+        <li>(24,0,29,0)</li>
+        <li>(0,1,0,11)</li>
+        <li>(29,1,29,4)</li>
+        <li>(29,6,29,11)</li>
+        <li>(1,11,6,11)</li>
+        <li>(8,11,15,11)</li>
+        <li>(17,11,22,11)</li>
+        <li>(24,11,28,11)</li>
+      </rects>
+      <stuff>Uranium</stuff>
+      <hp>750</hp>
+      <color>RGBA(0.392, 0.392, 0.392, 1.000)</color>
+    </Wall>
+    <Autodoor>
+      <rects>
+        <li>(7,0,7,0)</li>
+        <li>(16,0,16,0)</li>
+        <li>(23,0,23,0)</li>
+        <li>(7,11,7,11)</li>
+        <li>(16,11,16,11)</li>
+        <li>(23,11,23,11)</li>
+      </rects>
+      <stuff>Uranium</stuff>
+      <hp>400</hp>
+      <color>RGBA(0.392, 0.392, 0.392, 1.000)</color>
+    </Autodoor>
+    <HiddenConduit>
+      <rects>
+        <li>(8,0,8,11)</li>
+        <li>(6,3,7,3)</li>
+        <li>(9,3,29,3)</li>
+        <li>(16,4,16,7)</li>
+        <li>(23,4,23,7)</li>
+        <li>(29,4,29,11)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <LWM_Medicine_Cabinet>
+      <positions>
+        <li>(2, 0, 1)</li>
+        <li>(2, 0, 4)</li>
+        <li>(2, 0, 5)</li>
+        <li>(2, 0, 6)</li>
+        <li>(2, 0, 7)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Uranium</stuff>
+      <quality>Good</quality>
+      <hp>62</hp>
+      <color>RGBA(0.392, 0.392, 0.392, 1.000)</color>
+    </LWM_Medicine_Cabinet>
+    <LWM_Medicine_Cabinet>
+      <positions>
+        <li>(2, 0, 2)</li>
+        <li>(2, 0, 9)</li>
+        <li>(2, 0, 10)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Uranium</stuff>
+      <quality>Excellent</quality>
+      <hp>62</hp>
+      <color>RGBA(0.392, 0.392, 0.392, 1.000)</color>
+    </LWM_Medicine_Cabinet>
+    <LWM_VeryBigShelf>
+      <positions>
+        <li>(5, 0, 2)</li>
+        <li>(7, 0, 2)</li>
+        <li>(10, 0, 2)</li>
+        <li>(12, 0, 2)</li>
+        <li>(15, 0, 2)</li>
+        <li>(17, 0, 2)</li>
+        <li>(20, 0, 2)</li>
+        <li>(22, 0, 2)</li>
+        <li>(25, 0, 2)</li>
+        <li>(5, 0, 3)</li>
+        <li>(7, 0, 3)</li>
+        <li>(10, 0, 3)</li>
+        <li>(12, 0, 3)</li>
+        <li>(15, 0, 3)</li>
+        <li>(17, 0, 3)</li>
+        <li>(20, 0, 3)</li>
+        <li>(22, 0, 3)</li>
+        <li>(25, 0, 3)</li>
+        <li>(5, 0, 4)</li>
+        <li>(7, 0, 4)</li>
+        <li>(10, 0, 4)</li>
+        <li>(12, 0, 4)</li>
+        <li>(15, 0, 4)</li>
+        <li>(17, 0, 4)</li>
+        <li>(20, 0, 4)</li>
+        <li>(22, 0, 4)</li>
+        <li>(25, 0, 4)</li>
+        <li>(10, 0, 5)</li>
+        <li>(12, 0, 5)</li>
+        <li>(17, 0, 5)</li>
+        <li>(22, 0, 5)</li>
+        <li>(25, 0, 5)</li>
+        <li>(5, 0, 6)</li>
+        <li>(7, 0, 6)</li>
+        <li>(10, 0, 6)</li>
+        <li>(12, 0, 6)</li>
+        <li>(15, 0, 6)</li>
+        <li>(17, 0, 6)</li>
+        <li>(20, 0, 6)</li>
+        <li>(22, 0, 6)</li>
+        <li>(25, 0, 6)</li>
+        <li>(5, 0, 7)</li>
+        <li>(7, 0, 7)</li>
+        <li>(10, 0, 7)</li>
+        <li>(12, 0, 7)</li>
+        <li>(15, 0, 7)</li>
+        <li>(17, 0, 7)</li>
+        <li>(20, 0, 7)</li>
+        <li>(22, 0, 7)</li>
+        <li>(25, 0, 7)</li>
+        <li>(5, 0, 8)</li>
+        <li>(7, 0, 8)</li>
+        <li>(10, 0, 8)</li>
+        <li>(12, 0, 8)</li>
+        <li>(15, 0, 8)</li>
+        <li>(17, 0, 8)</li>
+        <li>(20, 0, 8)</li>
+        <li>(22, 0, 8)</li>
+        <li>(25, 0, 8)</li>
+        <li>(5, 0, 9)</li>
+        <li>(7, 0, 9)</li>
+        <li>(10, 0, 9)</li>
+        <li>(12, 0, 9)</li>
+        <li>(15, 0, 9)</li>
+        <li>(17, 0, 9)</li>
+        <li>(20, 0, 9)</li>
+        <li>(22, 0, 9)</li>
+        <li>(25, 0, 9)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Uranium</stuff>
+      <hp>240</hp>
+      <color>RGBA(0.392, 0.392, 0.392, 1.000)</color>
+    </LWM_VeryBigShelf>
+    <KTShieldGeneratorMortar>
+      <rects>
+        <li>(14,2,14,2)</li>
+        <li>(17,2,17,2)</li>
+      </rects>
+      <hp>2000</hp>
+    </KTShieldGeneratorMortar>
+    <Cooler>
+      <rects>
+        <li>(28,2,28,2)</li>
+      </rects>
+      <hp>100</hp>
+    </Cooler>
+    <LWM_Medicine_Cabinet>
+      <position>(2, 0, 3)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Uranium</stuff>
+      <quality>Masterwork</quality>
+      <hp>62</hp>
+      <color>RGBA(0.392, 0.392, 0.392, 1.000)</color>
+    </LWM_Medicine_Cabinet>
+    <LWM_Meat_Hook>
+      <rects>
+        <li>(27,3,27,3)</li>
+        <li>(28,7,28,7)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Uranium</stuff>
+      <quality>Normal</quality>
+      <hp>250</hp>
+      <color>RGBA(0.392, 0.392, 0.392, 1.000)</color>
+    </LWM_Meat_Hook>
+    <Door>
+      <rects>
+        <li>(28,3,28,3)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <LWM_Meat_Hook>
+      <rects>
+        <li>(27,4,27,4)</li>
+        <li>(27,6,28,6)</li>
+        <li>(28,8,28,8)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Uranium</stuff>
+      <quality>Excellent</quality>
+      <hp>250</hp>
+      <color>RGBA(0.392, 0.392, 0.392, 1.000)</color>
+    </LWM_Meat_Hook>
+    <Cooler>
+      <rects>
+        <li>(28,4,28,4)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>100</hp>
+    </Cooler>
+    <Column>
+      <rects>
+        <li>(5,5,5,5)</li>
+        <li>(15,5,15,5)</li>
+        <li>(20,5,20,5)</li>
+      </rects>
+      <stuff>Uranium</stuff>
+      <hp>400</hp>
+      <color>RGBA(0.392, 0.392, 0.392, 1.000)</color>
+    </Column>
+    <FloodLight>
+      <rects>
+        <li>(6,5,6,5)</li>
+        <li>(14,5,14,5)</li>
+        <li>(19,5,19,5)</li>
+      </rects>
+      <hp>120</hp>
+    </FloodLight>
+    <FirefoamPopper>
+      <rects>
+        <li>(8,5,8,5)</li>
+        <li>(18,5,18,5)</li>
+        <li>(26,5,26,5)</li>
+      </rects>
+      <hp>50</hp>
+    </FirefoamPopper>
+    <Autodoor>
+      <rects>
+        <li>(29,5,29,5)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Uranium</stuff>
+      <hp>400</hp>
+      <color>RGBA(0.392, 0.392, 0.392, 1.000)</color>
+    </Autodoor>
+    <LWM_Meat_Hook>
+      <rects>
+        <li>(27,7,27,9)</li>
+        <li>(28,9,28,9)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Uranium</stuff>
+      <quality>Good</quality>
+      <hp>250</hp>
+      <color>RGBA(0.392, 0.392, 0.392, 1.000)</color>
+    </LWM_Meat_Hook>
+    <LWM_Medicine_Cabinet>
+      <position>(2, 0, 8)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Uranium</stuff>
+      <quality>Normal</quality>
+      <hp>62</hp>
+      <color>RGBA(0.392, 0.392, 0.392, 1.000)</color>
+    </LWM_Medicine_Cabinet>
+  </things>
+  <terrain>
+    <PavedTile>
+      <rects>
+        <li>(1,1,28,10)</li>
+      </rects>
+    </PavedTile>
+    <TileSlate>
+      <rects>
+        <li>(17,11,18,11)</li>
+        <li>(20,11,21,11)</li>
+        <li>(26,11,27,11)</li>
+      </rects>
+    </TileSlate>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <PavedTile>
+        <rects>
+          <li>(1,1,28,10)</li>
+        </rects>
+      </PavedTile>
+      <TileSlate>
+        <rects>
+          <li>(17,11,18,11)</li>
+          <li>(20,11,21,11)</li>
+          <li>(26,11,27,11)</li>
+        </rects>
+      </TileSlate>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <GrasslandSoil>
+        <rects>
+          <li>(1,1,28,6)</li>
+          <li>(4,7,28,9)</li>
+          <li>(5,10,28,10)</li>
+          <li>(17,11,18,11)</li>
+          <li>(21,11,21,11)</li>
+          <li>(26,11,27,11)</li>
+        </rects>
+      </GrasslandSoil>
+      <Gravel>
+        <rects>
+          <li>(1,7,3,8)</li>
+          <li>(2,9,3,9)</li>
+          <li>(3,10,4,10)</li>
+          <li>(20,11,20,11)</li>
+        </rects>
+      </Gravel>
+      <Sandstone_Rough>
+        <rects>
+          <li>(1,9,1,10)</li>
+          <li>(2,10,2,10)</li>
+        </rects>
+      </Sandstone_Rough>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,29,11)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,29,11)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
