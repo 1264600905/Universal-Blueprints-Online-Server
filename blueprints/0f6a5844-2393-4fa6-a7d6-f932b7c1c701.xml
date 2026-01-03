@@ -1,0 +1,262 @@
+<PrefabDef>
+  <defName>Prefab_20260103_211307</defName>
+  <size>(15,15)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>联合重工前沿阵地</name>
+    <description>主体为联合重工mod，以13x13打底</description>
+    <tags></tags>
+    <author></author>
+    <category>防御工事</category>
+    <BuildingID>0f6a5844-2393-4fa6-a7d6-f932b7c1c701</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>kindseal.lol</packageId>
+        <name>联合重工-UF Heavy Industries</name>
+        <version></version>
+        <modorder>324</modorder>
+        <steamWorkshopId>3555662938</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+          <li>
+            <packageId>dizhuan.sralib</packageId>
+            <steamWorkshopId>3565275325</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>KT_Barricade</li>
+          <li>KTRAILAUTOGUN</li>
+          <li>KTMACHINEGUN</li>
+          <li>KT100MMCANNON</li>
+          <li>KTRAILGUN</li>
+          <li>KT57MMCANNON</li>
+          <li>KTROCKETTurret</li>
+          <li>KT_LARGEAUTOCANNON</li>
+          <li>KTPLASMAAC</li>
+          <li>KTLM</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.anomaly</packageId>
+        <name>Anomaly</name>
+        <version></version>
+        <modorder>6</modorder>
+        <things>
+          <li>ProximityDetector</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>aoba.fortress.industrial.concrete</packageId>
+        <name>Industrial concrete</name>
+        <version></version>
+        <modorder>115</modorder>
+        <steamWorkshopId>2888037450</steamWorkshopId>
+        <things>
+          <li>FT_ConcreteTile</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>联合重工前沿阵地</default>
+        <zh-CN>联合重工前沿阵地</zh-CN>
+        <zh-TW>聯合重工前沿陣地</zh-TW>
+        <en>United Heavy Industries Forward Base</en>
+        <ru>Передовая база Объединенных Тяжелых Производств</ru>
+        <fr><![CDATA[Base avancée de l'Industrie Lourde Unie]]></fr>
+        <de>Vorderer Stützpunkt der Vereinigten Schwerindustrie</de>
+        <es>Base de Avanzada de la Industria Pesada Unida</es>
+        <ja>連合重工業前線基地</ja>
+        <ko>연합 중공업 전방 기지</ko>
+      </name>
+      <description>
+        <default>主体为联合重工mod，以13x13打底</default>
+        <zh-CN>主体为联合重工mod，以13x13打底</zh-CN>
+        <zh-TW>主體為聯合重工mod，以13x13打底</zh-TW>
+        <en>The main body is the United Heavy Industries mod, built on a 13x13 foundation.</en>
+        <ru><![CDATA[Основой является мод "Объединенные Тяжелые Производства", построенный на основе 13x13.]]></ru>
+        <fr>Le corps principal est le mod United Heavy Industries, construit sur une fondation de 13x13.</fr>
+        <de>Der Hauptkörper ist das United Heavy Industries Mod, auf einer 13x13-Grundlage aufgebaut.</de>
+        <es>El cuerpo principal es el mod United Heavy Industries, construido sobre una base de 13x13.</es>
+        <ja>本体は連合重工業modで、13x13を基盤としています。</ja>
+        <ko>주체는 연합 중공업 모드이며, 13x13을 기반으로 합니다.</ko>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Sandbags>
+      <rects>
+        <li>(0,0,14,0)</li>
+        <li>(0,1,0,14)</li>
+        <li>(14,1,14,14)</li>
+        <li>(1,14,13,14)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Cloth</stuff>
+      <hp>300</hp>
+      <color>RGBA(0.545, 0.478, 0.341, 1.000)</color>
+    </Sandbags>
+    <KT_Barricade>
+      <rects>
+        <li>(1,1,13,1)</li>
+        <li>(1,2,1,13)</li>
+        <li>(13,2,13,13)</li>
+        <li>(2,13,12,13)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>1200</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </KT_Barricade>
+    <KTRAILAUTOGUN>
+      <positions>
+        <li>(3, 0, 3)</li>
+        <li>(3, 0, 11)</li>
+      </positions>
+      <hp>3000</hp>
+    </KTRAILAUTOGUN>
+    <KTMACHINEGUN>
+      <rects>
+        <li>(5,2,5,2)</li>
+        <li>(9,2,9,2)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>1200</hp>
+    </KTMACHINEGUN>
+    <KT100MMCANNON>
+      <positions>
+        <li>(7, 0, 3)</li>
+        <li>(7, 0, 11)</li>
+      </positions>
+      <hp>3600</hp>
+    </KT100MMCANNON>
+    <KTRAILGUN>
+      <positions>
+        <li>(11, 0, 3)</li>
+        <li>(11, 0, 11)</li>
+      </positions>
+      <hp>3600</hp>
+    </KTRAILGUN>
+    <KTMACHINEGUN>
+      <rects>
+        <li>(2,5,2,5)</li>
+        <li>(2,9,2,9)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>1200</hp>
+    </KTMACHINEGUN>
+    <KT57MMCANNON>
+      <positions>
+        <li>(5, 0, 5)</li>
+        <li>(5, 0, 8)</li>
+      </positions>
+      <hp>1500</hp>
+    </KT57MMCANNON>
+    <KTROCKETTurret>
+      <positions>
+        <li>(7, 0, 6)</li>
+        <li>(7, 0, 9)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>1000</hp>
+    </KTROCKETTurret>
+    <KT_LARGEAUTOCANNON>
+      <position>(3, 0, 7)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>4800</hp>
+    </KT_LARGEAUTOCANNON>
+    <KTPLASMAAC>
+      <position>(11, 0, 7)</position>
+      <hp>3000</hp>
+    </KTPLASMAAC>
+    <KTLM>
+      <rects>
+        <li>(5,7,6,7)</li>
+      </rects>
+      <hp>300</hp>
+    </KTLM>
+    <HiddenConduit>
+      <rects>
+        <li>(7,7,14,7)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <ProximityDetector>
+      <rects>
+        <li>(7,7,7,7)</li>
+      </rects>
+      <hp>100</hp>
+    </ProximityDetector>
+    <KTMACHINEGUN>
+      <rects>
+        <li>(5,12,5,12)</li>
+        <li>(9,12,9,12)</li>
+      </rects>
+      <hp>1200</hp>
+    </KTMACHINEGUN>
+  </things>
+  <terrain>
+    <FT_ConcreteTile>
+      <rects>
+        <li>(0,0,14,14)</li>
+      </rects>
+    </FT_ConcreteTile>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <FT_ConcreteTile>
+        <rects>
+          <li>(0,0,14,14)</li>
+        </rects>
+      </FT_ConcreteTile>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(0,0,8,1)</li>
+          <li>(14,0,14,14)</li>
+          <li>(9,1,10,2)</li>
+          <li>(12,1,13,14)</li>
+          <li>(0,2,6,6)</li>
+          <li>(8,2,8,2)</li>
+          <li>(11,2,11,2)</li>
+          <li>(7,4,8,14)</li>
+          <li>(11,5,11,14)</li>
+          <li>(9,6,10,14)</li>
+          <li>(3,7,6,11)</li>
+          <li>(4,12,6,12)</li>
+          <li>(5,13,6,13)</li>
+        </rects>
+      </Soil>
+      <SoilRich>
+        <rects>
+          <li>(9,0,13,0)</li>
+          <li>(11,1,11,1)</li>
+        </rects>
+      </SoilRich>
+      <Ice>
+        <rects>
+          <li>(7,2,7,3)</li>
+          <li>(8,3,11,3)</li>
+          <li>(9,4,11,4)</li>
+          <li>(9,5,10,5)</li>
+        </rects>
+      </Ice>
+      <Gravel>
+        <rects>
+          <li>(0,7,2,14)</li>
+          <li>(3,12,3,14)</li>
+          <li>(4,13,4,14)</li>
+          <li>(5,14,6,14)</li>
+        </rects>
+      </Gravel>
+    </terrainLayerDetail>
+  </terrainLayers>
+</PrefabDef>
