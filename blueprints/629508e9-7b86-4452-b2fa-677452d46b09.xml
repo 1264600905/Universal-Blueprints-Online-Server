@@ -1,0 +1,315 @@
+<PrefabDef>
+  <defName>Prefab_20251231_102155</defName>
+  <size>(13,13)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>鼠族骑士团营地</name>
+    <description>鼠鼠预制小建筑</description>
+    <tags></tags>
+    <author>薄荷糖</author>
+    <category>宿舍</category>
+    <BuildingID>629508e9-7b86-4452-b2fa-677452d46b09</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>gloomy.furniture.fix</packageId>
+        <name>Gloomy Furniture Fix</name>
+        <version></version>
+        <modorder>94</modorder>
+        <steamWorkshopId>2987876242</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>RGK_Wall</li>
+          <li>RGK_DoorOld</li>
+          <li>GL_DoorFrame</li>
+          <li>GL_Wall_LampE</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>rkk.ratknights.core</packageId>
+        <name>Ratkin Knights+</name>
+        <version></version>
+        <modorder>53</modorder>
+        <steamWorkshopId>3394862242</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>bbb.ratkinweapon.morefailure</packageId>
+            <steamWorkshopId>2779404660</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>RKK_AtlarWindow</li>
+          <li>RKK_Bed</li>
+          <li>RKK_Carpet</li>
+          <li>RKK_Candle</li>
+          <li>RKK_StatueOfAHero</li>
+          <li>RKK_BigCask</li>
+          <li>RKK_Pillar</li>
+          <li>RKK_Building_Atlar</li>
+          <li>RKK_OrderFlag</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>yexiaoyang.rimskyblock</packageId>
+        <name>RimSkyBlock - Vassal Outposts, Establish Empire</name>
+        <version></version>
+        <modorder>74</modorder>
+        <steamWorkshopId>3564083626</steamWorkshopId>
+        <things>
+          <li>RSB_FloatingStoneGround</li>
+          <li>RSB_VoidWithClouds</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>oark.ratkinknightorderfurniture</packageId>
+        <name>[OA]Ratkin : Knight Order(Furniture)</name>
+        <version></version>
+        <modorder>48</modorder>
+        <steamWorkshopId>3492088220</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>fxz.solaris.ratkinracemod.odyssey</packageId>
+            <steamWorkshopId>3497673755</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>OARO_OrderFloor_Marble</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>鼠族骑士团营地</default>
+        <zh-CN>鼠族骑士团营地</zh-CN>
+      </name>
+      <description>
+        <default>鼠鼠预制小建筑</default>
+        <zh-CN>鼠鼠预制小建筑</zh-CN>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <RGK_Wall>
+      <rects>
+        <li>(0,0,2,0)</li>
+        <li>(4,0,5,0)</li>
+        <li>(7,0,8,0)</li>
+        <li>(10,0,12,0)</li>
+        <li>(0,1,0,12)</li>
+        <li>(12,1,12,12)</li>
+        <li>(1,4,5,4)</li>
+        <li>(7,4,11,4)</li>
+        <li>(1,12,2,12)</li>
+        <li>(4,12,5,12)</li>
+        <li>(7,12,8,12)</li>
+        <li>(10,12,11,12)</li>
+      </rects>
+      <hp>300</hp>
+    </RGK_Wall>
+    <HiddenConduit>
+      <rects>
+        <li>(0,0,12,0)</li>
+        <li>(0,1,0,12)</li>
+        <li>(12,1,12,12)</li>
+        <li>(1,12,11,12)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <RKK_AtlarWindow>
+      <rects>
+        <li>(3,0,3,0)</li>
+        <li>(9,0,9,0)</li>
+        <li>(3,12,3,12)</li>
+        <li>(6,12,6,12)</li>
+        <li>(9,12,9,12)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>195</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RKK_AtlarWindow>
+    <RGK_DoorOld>
+      <rects>
+        <li>(6,0,6,0)</li>
+        <li>(6,4,6,4)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGK_DoorOld>
+    <GL_DoorFrame>
+      <rects>
+        <li>(6,0,6,0)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </GL_DoorFrame>
+    <RKK_Bed>
+      <positions>
+        <li>(1, 0, 3)</li>
+        <li>(3, 0, 3)</li>
+        <li>(5, 0, 3)</li>
+        <li>(7, 0, 3)</li>
+        <li>(9, 0, 3)</li>
+        <li>(11, 0, 3)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>91</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RKK_Bed>
+    <GL_Wall_LampE>
+      <rects>
+        <li>(1,2,1,2)</li>
+        <li>(1,8,1,8)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>35</hp>
+    </GL_Wall_LampE>
+    <GL_Wall_LampE>
+      <rects>
+        <li>(11,2,11,2)</li>
+        <li>(11,8,11,8)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>35</hp>
+    </GL_Wall_LampE>
+    <EndTable>
+      <rects>
+        <li>(2,3,2,3)</li>
+        <li>(4,3,4,3)</li>
+        <li>(8,3,8,3)</li>
+        <li>(10,3,10,3)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>49</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </EndTable>
+    <GL_Wall_LampE>
+      <rects>
+        <li>(3,3,3,3)</li>
+        <li>(9,3,9,3)</li>
+        <li>(5,11,5,11)</li>
+        <li>(7,11,7,11)</li>
+      </rects>
+      <hp>35</hp>
+    </GL_Wall_LampE>
+    <RKK_Carpet>
+      <positions>
+        <li>(2, 0, 7)</li>
+        <li>(4, 0, 7)</li>
+        <li>(6, 0, 7)</li>
+        <li>(8, 0, 7)</li>
+        <li>(10, 0, 7)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+    </RKK_Carpet>
+    <RKK_Candle>
+      <rects>
+        <li>(1,6,1,6)</li>
+        <li>(11,6,11,6)</li>
+        <li>(4,10,4,10)</li>
+        <li>(8,10,8,10)</li>
+      </rects>
+      <hp>50</hp>
+    </RKK_Candle>
+    <RKK_StatueOfAHero>
+      <rects>
+        <li>(1,7,1,7)</li>
+        <li>(11,7,11,7)</li>
+        <li>(1,9,1,9)</li>
+        <li>(11,9,11,9)</li>
+      </rects>
+      <stuff>BlocksSlate</stuff>
+      <hp>390</hp>
+      <color>RGBA(0.275, 0.275, 0.275, 1.000)</color>
+    </RKK_StatueOfAHero>
+    <RKK_BigCask>
+      <position>(1, 0, 10)</position>
+      <stuff>WoodLog</stuff>
+      <hp>195</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RKK_BigCask>
+    <RKK_Pillar>
+      <rects>
+        <li>(3,10,3,10)</li>
+        <li>(9,10,9,10)</li>
+      </rects>
+      <stuff>BlocksSlate</stuff>
+      <hp>65</hp>
+      <color>RGBA(0.275, 0.275, 0.275, 1.000)</color>
+    </RKK_Pillar>
+    <RKK_Building_Atlar>
+      <position>(6, 0, 10)</position>
+      <stuff>WoodLog</stuff>
+      <hp>98</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RKK_Building_Atlar>
+    <RKK_OrderFlag>
+      <rects>
+        <li>(4,11,4,11)</li>
+        <li>(8,11,8,11)</li>
+      </rects>
+      <hp>50</hp>
+    </RKK_OrderFlag>
+  </things>
+  <terrain>
+    <OARO_OrderFloor_Marble>
+      <rects>
+        <li>(1,1,11,11)</li>
+      </rects>
+    </OARO_OrderFloor_Marble>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <OARO_OrderFloor_Marble>
+        <rects>
+          <li>(1,1,11,11)</li>
+        </rects>
+      </OARO_OrderFloor_Marble>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <RSB_VoidWithClouds>
+        <rects>
+          <li>(1,1,11,11)</li>
+        </rects>
+      </RSB_VoidWithClouds>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="foundationGrid">
+      <RSB_FloatingStoneGround>
+        <rects>
+          <li>(0,0,12,12)</li>
+        </rects>
+      </RSB_FloatingStoneGround>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
