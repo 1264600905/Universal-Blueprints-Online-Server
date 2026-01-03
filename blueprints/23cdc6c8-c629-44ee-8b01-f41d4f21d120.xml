@@ -1,0 +1,181 @@
+<PrefabDef>
+  <defName>Prefab_20260103_142708</defName>
+  <size>(10,11)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>石砖工作室</name>
+    <description>带有2切石台、2艺创台、2混凝土制造机、3深钻井。</description>
+    <tags></tags>
+    <author>秋分</author>
+    <category>车间</category>
+    <BuildingID>23cdc6c8-c629-44ee-8b01-f41d4f21d120</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>aoba.fortress.industrial.concrete</packageId>
+        <name>Industrial concrete</name>
+        <version></version>
+        <modorder>52</modorder>
+        <steamWorkshopId>2888037450</steamWorkshopId>
+        <things>
+          <li>FT_BlocksConcrete</li>
+          <li>IC_PortableConcrete</li>
+          <li>FT_ConcreteTile</li>
+        </things>
+      </mod>
+    </modPackages>
+    <foldGroup>
+      <groupKey>车间</groupKey>
+      <displayOrder>0</displayOrder>
+      <isCover>false</isCover>
+    </foldGroup>
+    <multiLanguage>
+      <name>
+        <default>石砖工作室</default>
+        <zh-CN>石砖工作室</zh-CN>
+      </name>
+      <description>
+        <default>带有2切石台、2艺创台、2混凝土制造机、3深钻井。</default>
+        <zh-CN>带有2切石台、2艺创台、2混凝土制造机、3深钻井。</zh-CN>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,9,0)</li>
+        <li>(0,1,0,1)</li>
+        <li>(9,1,9,10)</li>
+        <li>(0,3,0,10)</li>
+        <li>(1,10,8,10)</li>
+      </rects>
+      <stuff>FT_BlocksConcrete</stuff>
+      <hp>600</hp>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </Wall>
+    <Armchair>
+      <rects>
+        <li>(4,1,4,1)</li>
+        <li>(7,1,7,1)</li>
+        <li>(4,4,4,4)</li>
+        <li>(7,4,7,4)</li>
+        <li>(1,7,2,7)</li>
+        <li>(4,7,4,7)</li>
+        <li>(6,7,6,7)</li>
+        <li>(8,7,8,7)</li>
+      </rects>
+      <stuff>Cloth</stuff>
+      <quality>Masterwork</quality>
+      <hp>120</hp>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </Armchair>
+    <Door>
+      <rects>
+        <li>(0,2,0,2)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>FT_BlocksConcrete</stuff>
+      <hp>320</hp>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </Door>
+    <TableStonecutter>
+      <positions>
+        <li>(4, 0, 2)</li>
+        <li>(7, 0, 2)</li>
+      </positions>
+      <stuff>Steel</stuff>
+      <hp>180</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </TableStonecutter>
+    <Shelf>
+      <positions>
+        <li>(1, 0, 4)</li>
+        <li>(1, 0, 6)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>FT_BlocksConcrete</stuff>
+      <hp>200</hp>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </Shelf>
+    <WallLamp>
+      <rects>
+        <li>(1,5,1,5)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>35</hp>
+    </WallLamp>
+    <TableSculpting>
+      <positions>
+        <li>(4, 0, 5)</li>
+        <li>(7, 0, 5)</li>
+      </positions>
+      <stuff>Steel</stuff>
+      <hp>180</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </TableSculpting>
+    <WallLamp>
+      <rects>
+        <li>(8,5,8,5)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>35</hp>
+    </WallLamp>
+    <IC_PortableConcrete>
+      <positions>
+        <li>(1, 0, 8)</li>
+        <li>(2, 0, 8)</li>
+      </positions>
+      <hp>180</hp>
+    </IC_PortableConcrete>
+    <DeepDrill>
+      <rects>
+        <li>(4,8,4,8)</li>
+        <li>(6,8,6,8)</li>
+        <li>(8,8,8,8)</li>
+      </rects>
+      <hp>300</hp>
+    </DeepDrill>
+    <ToolCabinet>
+      <position>(3, 0, 9)</position>
+      <hp>100</hp>
+      <color>RGBA(0.376, 0.447, 0.373, 1.000)</color>
+    </ToolCabinet>
+  </things>
+  <terrain>
+    <FT_ConcreteTile>
+      <rects>
+        <li>(1,1,8,9)</li>
+        <li>(0,2,0,2)</li>
+      </rects>
+    </FT_ConcreteTile>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <FT_ConcreteTile>
+        <rects>
+          <li>(1,1,8,9)</li>
+          <li>(0,2,0,2)</li>
+        </rects>
+      </FT_ConcreteTile>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(1,1,8,9)</li>
+          <li>(0,2,0,2)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,9,10)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,9,10)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
