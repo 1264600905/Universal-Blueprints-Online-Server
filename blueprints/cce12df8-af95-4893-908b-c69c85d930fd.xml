@@ -1,0 +1,349 @@
+<PrefabDef>
+  <defName>Prefab_20260104_202513</defName>
+  <size>(13,14)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>快速恢复医院</name>
+    <description>最快可以每天恢复300点身体血量的医院</description>
+    <tags></tags>
+    <author></author>
+    <category>医疗</category>
+    <BuildingID>cce12df8-af95-4893-908b-c69c85d930fd</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>vanillaexpanded.vfemedical</packageId>
+        <name>Vanilla Furniture Expanded - Medical Module</name>
+        <version></version>
+        <modorder>16</modorder>
+        <steamWorkshopId>1718191613</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VFEM_Wall_Sterile</li>
+          <li>Facility_VitalsCentre</li>
+          <li>Facility_IVDrip</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>vanillaexpanded.vfespacer</packageId>
+        <name>Vanilla Furniture Expanded - Spacer Module</name>
+        <version></version>
+        <modorder>17</modorder>
+        <steamWorkshopId>2028381079</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VFES_TelevisionSpeaker</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>hmc.wall.furniture</packageId>
+        <name>[HMC]Wall Furniture</name>
+        <version></version>
+        <modorder>119</modorder>
+        <steamWorkshopId>3533512691</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>HMC_Wall_Vitals_Monitor</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>lingluo.giantcropex</packageId>
+        <name>Giant crop Ex</name>
+        <version></version>
+        <modorder>186</modorder>
+        <steamWorkshopId>3565647759</steamWorkshopId>
+        <things>
+          <li>LGC_BigHealrootPlus</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>快速恢复医院</default>
+        <zh-CN>快速恢复医院</zh-CN>
+      </name>
+      <description>
+        <default>最快可以每天恢复300点身体血量的医院</default>
+        <zh-CN>最快可以每天恢复300点身体血量的医院</zh-CN>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,12,0)</li>
+        <li>(0,1,0,13)</li>
+        <li>(12,1,12,1)</li>
+        <li>(12,3,12,9)</li>
+        <li>(12,11,12,13)</li>
+        <li>(1,13,11,13)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <hp>510</hp>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Wall>
+    <VFEM_Wall_Sterile>
+      <rects>
+        <li>(1,1,11,1)</li>
+        <li>(1,2,1,12)</li>
+        <li>(11,3,11,9)</li>
+        <li>(11,11,11,12)</li>
+        <li>(2,12,10,12)</li>
+      </rects>
+      <hp>450</hp>
+      <color>RGBA(0.094, 0.255, 0.475, 1.000)</color>
+    </VFEM_Wall_Sterile>
+    <HiddenConduit>
+      <rects>
+        <li>(2,2,10,2)</li>
+        <li>(2,3,2,11)</li>
+        <li>(10,3,10,11)</li>
+        <li>(11,10,12,10)</li>
+        <li>(3,11,9,11)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <VFES_TelevisionSpeaker>
+      <rects>
+        <li>(4,2,4,2)</li>
+        <li>(8,2,8,2)</li>
+        <li>(4,11,4,11)</li>
+        <li>(8,11,8,11)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>100</hp>
+    </VFES_TelevisionSpeaker>
+    <MegascreenTelevision>
+      <position>(6, 0, 2)</position>
+      <hp>85</hp>
+    </MegascreenTelevision>
+    <WallLamp>
+      <rects>
+        <li>(6,2,6,2)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksLimestone</stuff>
+      <hp>54</hp>
+      <color>RGBA(0.620, 0.600, 0.529, 1.000)</color>
+    </WallLamp>
+    <Autodoor>
+      <rects>
+        <li>(11,2,11,2)</li>
+        <li>(11,10,11,10)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Plasteel</stuff>
+      <hp>450</hp>
+      <color>RGBA(0.627, 0.698, 0.710, 1.000)</color>
+    </Autodoor>
+    <VitalsMonitor>
+      <rects>
+        <li>(2,3,2,3)</li>
+        <li>(2,5,2,5)</li>
+        <li>(2,7,2,7)</li>
+        <li>(2,9,2,9)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>100</hp>
+    </VitalsMonitor>
+    <HospitalBed>
+      <positions>
+        <li>(3, 0, 3)</li>
+        <li>(3, 0, 6)</li>
+        <li>(3, 0, 7)</li>
+        <li>(3, 0, 8)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <hp>150</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HospitalBed>
+    <Facility_VitalsCentre>
+      <positions>
+        <li>(6, 0, 4)</li>
+        <li>(6, 0, 9)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>150</hp>
+    </Facility_VitalsCentre>
+    <HospitalBed>
+      <positions>
+        <li>(9, 0, 3)</li>
+        <li>(9, 0, 4)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Masterwork</quality>
+      <hp>150</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HospitalBed>
+    <VitalsMonitor>
+      <rects>
+        <li>(10,3,10,3)</li>
+        <li>(10,5,10,5)</li>
+        <li>(10,7,10,7)</li>
+        <li>(10,9,10,9)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>100</hp>
+    </VitalsMonitor>
+    <Facility_IVDrip>
+      <rects>
+        <li>(2,4,2,4)</li>
+        <li>(10,4,10,4)</li>
+        <li>(2,6,2,6)</li>
+        <li>(10,6,10,6)</li>
+        <li>(2,8,2,8)</li>
+        <li>(10,8,10,8)</li>
+      </rects>
+      <hp>50</hp>
+    </Facility_IVDrip>
+    <HMC_Wall_Vitals_Monitor>
+      <rects>
+        <li>(2,4,2,4)</li>
+        <li>(2,6,2,6)</li>
+        <li>(2,8,2,8)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>100</hp>
+    </HMC_Wall_Vitals_Monitor>
+    <HospitalBed>
+      <position>(3, 0, 4)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>150</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HospitalBed>
+    <HMC_Wall_Vitals_Monitor>
+      <rects>
+        <li>(10,4,10,4)</li>
+        <li>(10,6,10,6)</li>
+        <li>(10,8,10,8)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>100</hp>
+    </HMC_Wall_Vitals_Monitor>
+    <HospitalBed>
+      <position>(3, 0, 5)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Good</quality>
+      <hp>150</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HospitalBed>
+    <LGC_BigHealrootPlus>
+      <position>(6, 0, 6)</position>
+      <hp>500</hp>
+    </LGC_BigHealrootPlus>
+    <HospitalBed>
+      <position>(9, 0, 5)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>150</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HospitalBed>
+    <HospitalBed>
+      <positions>
+        <li>(9, 0, 6)</li>
+        <li>(9, 0, 7)</li>
+        <li>(9, 0, 8)</li>
+        <li>(9, 0, 9)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Good</quality>
+      <hp>150</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HospitalBed>
+    <HospitalBed>
+      <position>(3, 0, 9)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Poor</quality>
+      <hp>150</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HospitalBed>
+    <WallLamp>
+      <rects>
+        <li>(5,11,5,11)</li>
+      </rects>
+      <stuff>BlocksLimestone</stuff>
+      <hp>54</hp>
+      <color>RGBA(0.620, 0.600, 0.529, 1.000)</color>
+    </WallLamp>
+    <MegascreenTelevision>
+      <position>(6, 0, 11)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>85</hp>
+    </MegascreenTelevision>
+  </things>
+  <terrain>
+    <SterileTile>
+      <rects>
+        <li>(2,2,11,2)</li>
+        <li>(2,3,10,11)</li>
+        <li>(11,10,11,10)</li>
+      </rects>
+    </SterileTile>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <SterileTile>
+        <rects>
+          <li>(2,2,11,2)</li>
+          <li>(2,3,10,11)</li>
+          <li>(11,10,11,10)</li>
+        </rects>
+      </SterileTile>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(2,2,11,2)</li>
+          <li>(2,3,10,11)</li>
+          <li>(11,10,11,10)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,12,6)</li>
+        <li>(1,7,12,12)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,12,6)</li>
+        <li>(1,7,12,12)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
