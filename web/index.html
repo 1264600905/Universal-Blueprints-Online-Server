@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RimWorld Universal Blueprint Library</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              rim: {
+                dark: '#111111',
+                panel: '#1e1e1e',
+                card: '#2b2b2b',
+                border: '#444444',
+                green: '#67c26c',
+                greenHover: '#58a85c',
+                orange: '#d68a28',
+                text: '#dddddd',
+                muted: '#888888'
+              }
+            },
+            fontFamily: {
+              sans: ['Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #111111;
+        color: #dddddd;
+      }
+      /* Custom scrollbar for that industrial feel */
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #1e1e1e;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #444444;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555555;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
