@@ -1,0 +1,10 @@
+# Zeabur 部署配置
+services:
+  - name: blueprint-web
+    type: docker
+    docker:
+      file: Dockerfile
+      context: .
+    ports:
+      - port: 80
+        type: HTTP
