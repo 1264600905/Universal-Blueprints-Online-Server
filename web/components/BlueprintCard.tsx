@@ -11,24 +11,37 @@ interface BlueprintCardProps {
 
 const BlueprintCard: React.FC<BlueprintCardProps> = ({ blueprint, onClick, lang }) => {
   const [imgError, setImgError] = useState(false);
+  const [downloading, setDownloading] = useState(false);
   const t = TRANSLATIONS[lang];
+
+  const handleDownload = async (e: React.MouseEvent) => {
+    e.stopPropagation();
+    setDownloading(true);
+
+    try {
+      // 下载主图片
+      const response = await fetch(blueprint.imageMain);
+      const blob = await response.blob();
+      const url = window.URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `${blueprint.n}.png`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      window.URL.revokeObjectURL(url);
+    } catch (error) {
+      console.error('Download failed:', error);
+    } finally {
+      setDownloading(false);
+    }
+  };
 
   return (
     <div 
       className="group relative flex flex-col bg-rim-card border border-rim-border hover:border-rim-green transition-all duration-200 cursor-pointer overflow-hidden shadow-lg"
       onClick={onClick}
     >
-      {/* Ribbon for Featured */}
-      {blueprint.fe === 1 && (
-        <div className="absolute top-0 left-0 z-10 pointer-events-none">
-          <img
-            src="/Featured.png"
-            alt="Featured"
-            className="w-16 h-16 object-contain drop-shadow-lg"
-          />
-        </div>
-      )}
-
       {/* Top Right: Mod Count Badge (Replaced Checkmark) */}
       <div 
         className={`absolute top-2 right-2 z-10 p-1 px-2 rounded shadow-sm opacity-90 flex items-center gap-1.5 text-xs font-bold border ${blueprint.m.length > 0 ? 'bg-rim-panel border-rim-border text-rim-text' : 'bg-rim-green text-black border-transparent'}`}
@@ -61,11 +74,15 @@ const BlueprintCard: React.FC<BlueprintCardProps> = ({ blueprint, onClick, lang 
             }}
           />
         )}
-        
-        {/* Diamond Overlay (Bottom Right) */}
+
+        {/* Featured Badge (Bottom Right) */}
         {blueprint.fe === 1 && (
-             <div className="absolute bottom-2 right-2 text-rim-orange drop-shadow-md">
-                <Diamond size={20} fill="currentColor" className="opacity-90" />
+             <div className="absolute bottom-2 right-2 drop-shadow-lg">
+                <img
+                  src="/Featured.png"
+                  alt="Featured"
+                  className="w-8 h-8 object-contain"
+                />
             </div>
         )}
       </div>
@@ -111,8 +128,11 @@ const BlueprintCard: React.FC<BlueprintCardProps> = ({ blueprint, onClick, lang 
         </div>
 
         {/* Big Action Button */}
-        <div className="mt-2 w-full bg-[#3a3a3a] hover:bg-[#4a4a4a] text-rim-text text-center py-1 text-xs border border-transparent hover:border-rim-muted transition-colors rounded-sm">
-            {t.download}
+        <div
+          className={`mt-2 w-full text-rim-text text-center py-1 text-xs border transition-colors rounded-sm cursor-pointer ${downloading ? 'bg-rim-muted text-black border-rim-muted' : 'bg-[#3a3a3a] hover:bg-[#4a4a4a] border-transparent hover:border-rim-muted'}`}
+          onClick={handleDownload}
+        >
+            {downloading ? 'Downloading...' : t.download}
         </div>
       </div>
     </div>
