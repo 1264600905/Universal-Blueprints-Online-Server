@@ -1,0 +1,245 @@
+<PrefabDef>
+  <defName>Prefab_20260109_220343</defName>
+  <size>(15,16)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>1</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>PlantingArea</category>
+    <BuildingID>192d94db-12e5-4f30-9641-3cedfb44d7c3</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>vanillaexpanded.vfefarming</packageId>
+        <name>Vanilla Furniture Expanded - Farming</name>
+        <version></version>
+        <modorder>118</modorder>
+        <steamWorkshopId>1957158779</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VFE_Ecosystem_Tilable</li>
+          <li>VFE_Ecosystem</li>
+          <li>VFE_Sprinkler</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>dubwise.dubsbadhygiene</packageId>
+        <name>Dubs Bad Hygiene</name>
+        <version>3.1.2800</version>
+        <modorder>35</modorder>
+        <steamWorkshopId>836308268</steamWorkshopId>
+        <things>
+          <li>sewagePipeHidden</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>migcorp.skiptech</packageId>
+        <name>MigCorp - Skiptech</name>
+        <version></version>
+        <modorder>305</modorder>
+        <steamWorkshopId>3626074566</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>MigcorpSkipdoor</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>gt.sam.tilledsoil</packageId>
+        <name>Tilled Soil</name>
+        <version></version>
+        <modorder>114</modorder>
+        <steamWorkshopId>725747149</steamWorkshopId>
+        <things>
+          <li>GT_SoilTilled</li>
+          <li>Dirt</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>1</default>
+        <ru>1</ru>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <HiddenConduit>
+      <rects>
+        <li>(0,0,14,0)</li>
+        <li>(0,1,0,14)</li>
+        <li>(9,1,9,15)</li>
+        <li>(14,1,14,14)</li>
+        <li>(1,7,8,7)</li>
+        <li>(10,7,13,7)</li>
+        <li>(1,14,8,14)</li>
+        <li>(10,14,13,14)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <Wall>
+      <rects>
+        <li>(0,0,6,0)</li>
+        <li>(8,0,14,0)</li>
+        <li>(0,1,0,6)</li>
+        <li>(14,1,14,6)</li>
+        <li>(0,8,0,14)</li>
+        <li>(14,8,14,14)</li>
+        <li>(1,14,6,14)</li>
+        <li>(8,14,13,14)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <hp>510</hp>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Wall>
+    <Autodoor>
+      <rects>
+        <li>(7,0,7,0)</li>
+        <li>(7,14,7,14)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>160</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Autodoor>
+    <VFE_Ecosystem_Tilable>
+      <rects>
+        <li>(1,1,13,1)</li>
+        <li>(13,2,13,13)</li>
+        <li>(7,6,8,6)</li>
+        <li>(8,7,8,7)</li>
+      </rects>
+      <hp>90</hp>
+    </VFE_Ecosystem_Tilable>
+    <VFE_Ecosystem>
+      <positions>
+        <li>(1, 0, 2)</li>
+        <li>(3, 0, 2)</li>
+        <li>(5, 0, 2)</li>
+        <li>(7, 0, 2)</li>
+        <li>(9, 0, 2)</li>
+        <li>(11, 0, 2)</li>
+        <li>(1, 0, 4)</li>
+        <li>(3, 0, 4)</li>
+        <li>(5, 0, 4)</li>
+        <li>(7, 0, 4)</li>
+        <li>(9, 0, 4)</li>
+        <li>(11, 0, 4)</li>
+        <li>(1, 0, 6)</li>
+        <li>(3, 0, 6)</li>
+        <li>(5, 0, 6)</li>
+        <li>(9, 0, 6)</li>
+        <li>(11, 0, 6)</li>
+        <li>(1, 0, 8)</li>
+        <li>(3, 0, 8)</li>
+        <li>(5, 0, 8)</li>
+        <li>(7, 0, 8)</li>
+        <li>(9, 0, 8)</li>
+        <li>(11, 0, 8)</li>
+        <li>(1, 0, 10)</li>
+        <li>(3, 0, 10)</li>
+        <li>(5, 0, 10)</li>
+        <li>(7, 0, 10)</li>
+        <li>(9, 0, 10)</li>
+        <li>(11, 0, 10)</li>
+        <li>(1, 0, 12)</li>
+        <li>(3, 0, 12)</li>
+        <li>(5, 0, 12)</li>
+        <li>(7, 0, 12)</li>
+        <li>(9, 0, 12)</li>
+        <li>(11, 0, 12)</li>
+      </positions>
+      <hp>360</hp>
+    </VFE_Ecosystem>
+    <Autodoor>
+      <rects>
+        <li>(0,7,0,7)</li>
+        <li>(14,7,14,7)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>160</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Autodoor>
+    <VFE_Sprinkler>
+      <rects>
+        <li>(7,7,7,7)</li>
+      </rects>
+      <hp>100</hp>
+    </VFE_Sprinkler>
+    <sewagePipeHidden>
+      <rects>
+        <li>(7,8,7,15)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>100</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </sewagePipeHidden>
+    <MigcorpSkipdoor>
+      <rects>
+        <li>(8,15,8,15)</li>
+      </rects>
+      <hp>120</hp>
+    </MigcorpSkipdoor>
+  </things>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <GT_SoilTilled>
+        <rects>
+          <li>(1,1,13,13)</li>
+        </rects>
+      </GT_SoilTilled>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Dirt>
+        <rects>
+          <li>(1,1,3,1)</li>
+        </rects>
+      </Dirt>
+      <Gravel>
+        <rects>
+          <li>(4,1,7,1)</li>
+          <li>(1,2,4,2)</li>
+          <li>(1,3,1,3)</li>
+        </rects>
+      </Gravel>
+      <Soil>
+        <rects>
+          <li>(8,1,13,13)</li>
+          <li>(5,2,7,13)</li>
+          <li>(2,3,4,13)</li>
+          <li>(1,4,1,13)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofTransparent>
+      <rects>
+        <li>(0,0,14,14)</li>
+      </rects>
+    </RoofTransparent>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,14,6)</li>
+        <li>(0,7,6,14)</li>
+        <li>(8,7,14,14)</li>
+        <li>(7,8,7,14)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
