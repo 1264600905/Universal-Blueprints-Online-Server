@@ -1,0 +1,224 @@
+<PrefabDef>
+  <defName>Prefab_20260109_184025</defName>
+  <size>(6,7)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>房间</name>
+    <description>阿尔法房间单人</description>
+    <tags></tags>
+    <author>拜拜</author>
+    <category>宿舍</category>
+    <BuildingID>c3fbf68a-6346-4b14-bd7e-07b0cf7612ed</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>none1637.hkjblacktech.core</packageId>
+        <name>黑科技</name>
+        <version></version>
+        <modorder>181</modorder>
+        <steamWorkshopId>1298507261</steamWorkshopId>
+        <things>
+          <li>HKJ_AutoRepairWall</li>
+          <li>HKJ_AutoRepairdoor</li>
+          <li>HKJ_SterileTile</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>gt.sam.glittertech</packageId>
+        <name>Glitter Tech Classic</name>
+        <version></version>
+        <modorder>84</modorder>
+        <steamWorkshopId>725576127</steamWorkshopId>
+        <things>
+          <li>BetaPoly</li>
+          <li>AlphaPoly</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>vanillaexpanded.vfecore</packageId>
+        <name>Vanilla Furniture Expanded</name>
+        <version></version>
+        <modorder>160</modorder>
+        <steamWorkshopId>1718190143</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Table_RoyalEndTable</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>mlie.nrautomachinetool</packageId>
+        <name>NR_AutoMachineTool (Continued)</name>
+        <version>1.6.0</version>
+        <modorder>112</modorder>
+        <steamWorkshopId>2926104031</steamWorkshopId>
+        <things>
+          <li>Building_NR_AutoMachineTool_WallLight</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>vanya.polarisbloc.corelab.tmp</packageId>
+        <name>Polarisbloc - Core LAB tmp port</name>
+        <version></version>
+        <modorder>117</modorder>
+        <steamWorkshopId>3225348593</steamWorkshopId>
+        <things>
+          <li>PolarisThermostat</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>buildable.terrain</packageId>
+        <name>Buildable Terrain v1</name>
+        <version></version>
+        <modorder>58</modorder>
+        <steamWorkshopId>1420979918</steamWorkshopId>
+        <things>
+          <li>Soil</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>房间</default>
+        <zh-CN>房间</zh-CN>
+      </name>
+      <description>
+        <default>阿尔法房间单人</default>
+        <zh-CN>阿尔法房间单人</zh-CN>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <HKJ_AutoRepairWall>
+      <rects>
+        <li>(0,0,5,0)</li>
+        <li>(5,1,5,6)</li>
+        <li>(0,6,1,6)</li>
+        <li>(3,6,4,6)</li>
+      </rects>
+      <stuff>BetaPoly</stuff>
+      <hp>1000000</hp>
+      <color>RGBA(0.392, 0.235, 0.235, 1.000)</color>
+    </HKJ_AutoRepairWall>
+    <VFE_RoyalWardrobe>
+      <position>(0, 0, 1)</position>
+      <stuff>AlphaPoly</stuff>
+      <quality>Excellent</quality>
+      <hp>80000</hp>
+      <color>RGBA(0.392, 0.235, 0.392, 1.000)</color>
+    </VFE_RoyalWardrobe>
+    <Table_RoyalDresser>
+      <position>(2, 0, 1)</position>
+      <stuff>AlphaPoly</stuff>
+      <quality>Good</quality>
+      <hp>62500</hp>
+      <color>RGBA(0.392, 0.235, 0.392, 1.000)</color>
+    </Table_RoyalDresser>
+    <Table_Wardrobe>
+      <position>(4, 0, 1)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>AlphaPoly</stuff>
+      <quality>Excellent</quality>
+      <hp>60000</hp>
+      <color>RGBA(0.392, 0.235, 0.392, 1.000)</color>
+    </Table_Wardrobe>
+    <RoyalBed>
+      <position>(3, 0, 4)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>AlphaPoly</stuff>
+      <quality>Good</quality>
+      <hp>100000</hp>
+      <color>RGBA(0.392, 0.235, 0.392, 1.000)</color>
+    </RoyalBed>
+    <EndTable>
+      <rects>
+        <li>(1,4,1,4)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>AlphaPoly</stuff>
+      <quality>Good</quality>
+      <hp>37500</hp>
+      <color>RGBA(0.392, 0.235, 0.392, 1.000)</color>
+    </EndTable>
+    <Table_RoyalEndTable>
+      <rects>
+        <li>(4,4,4,4)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>AlphaPoly</stuff>
+      <quality>Good</quality>
+      <hp>45000</hp>
+      <color>RGBA(0.392, 0.235, 0.392, 1.000)</color>
+    </Table_RoyalEndTable>
+    <Building_NR_AutoMachineTool_WallLight>
+      <rects>
+        <li>(5,4,5,4)</li>
+      </rects>
+      <hp>100</hp>
+    </Building_NR_AutoMachineTool_WallLight>
+    <PolarisThermostat>
+      <rects>
+        <li>(0,5,0,5)</li>
+      </rects>
+      <hp>100</hp>
+    </PolarisThermostat>
+    <Dresser>
+      <position>(4, 0, 5)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>AlphaPoly</stuff>
+      <quality>Masterwork</quality>
+      <hp>60000</hp>
+      <color>RGBA(0.392, 0.235, 0.392, 1.000)</color>
+    </Dresser>
+    <HKJ_AutoRepairdoor>
+      <rects>
+        <li>(2,6,2,6)</li>
+      </rects>
+      <stuff>BetaPoly</stuff>
+      <hp>1000000</hp>
+      <color>RGBA(0.392, 0.235, 0.235, 1.000)</color>
+    </HKJ_AutoRepairdoor>
+  </things>
+  <terrain>
+    <HKJ_SterileTile>
+      <rects>
+        <li>(0,1,4,5)</li>
+      </rects>
+    </HKJ_SterileTile>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <HKJ_SterileTile>
+        <rects>
+          <li>(0,1,4,5)</li>
+        </rects>
+      </HKJ_SterileTile>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(0,1,4,5)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(5,0,5,6)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(5,0,5,6)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
