@@ -1,0 +1,157 @@
+<PrefabDef>
+  <defName>Prefab_20260107_014849</defName>
+  <size>(12,8)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>1</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>储藏室</category>
+    <BuildingID>c4b0f024-e803-40c7-b91b-b8f3ef9c81af</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>ludeon.rimworld.odyssey</packageId>
+        <name>Odyssey</name>
+        <version></version>
+        <modorder>6</modorder>
+        <things>
+          <li>AncientSealedCrate</li>
+          <li>Frame_LargeThruster</li>
+          <li>ChemfuelTank</li>
+          <li>GravAnchor</li>
+          <li>LargeThruster</li>
+          <li>GravEngine</li>
+          <li>SmallThruster</li>
+          <li>PilotConsole</li>
+          <li>MechanoidPlatform</li>
+          <li>Substructure</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>1</default>
+        <zh-CN>1</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <AncientSealedCrate>
+      <rects>
+        <li>(1,0,1,0)</li>
+      </rects>
+      <hp>90</hp>
+    </AncientSealedCrate>
+    <Frame_LargeThruster>
+      <position>(8, 0, 0)</position>
+      <hp>125</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Frame_LargeThruster>
+    <AncientSealedCrate>
+      <rects>
+        <li>(0,1,0,1)</li>
+      </rects>
+      <hp>100</hp>
+    </AncientSealedCrate>
+    <ChemfuelTank>
+      <positions>
+        <li>(1, 0, 1)</li>
+        <li>(1, 0, 3)</li>
+        <li>(1, 0, 5)</li>
+        <li>(3, 0, 5)</li>
+      </positions>
+      <hp>200</hp>
+    </ChemfuelTank>
+    <GravAnchor>
+      <position>(5, 0, 3)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>500</hp>
+    </GravAnchor>
+    <LargeThruster>
+      <position>(11, 0, 1)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>500</hp>
+    </LargeThruster>
+    <GravEngine>
+      <position>(8, 0, 3)</position>
+      <hp>800</hp>
+    </GravEngine>
+    <SmallThruster>
+      <positions>
+        <li>(11, 0, 3)</li>
+        <li>(11, 0, 4)</li>
+        <li>(10, 0, 7)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>250</hp>
+    </SmallThruster>
+    <Shelf>
+      <positions>
+        <li>(5, 0, 5)</li>
+        <li>(10, 0, 5)</li>
+        <li>(5, 0, 6)</li>
+        <li>(10, 0, 6)</li>
+      </positions>
+      <stuff>Steel</stuff>
+      <hp>100</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Shelf>
+    <PilotConsole>
+      <position>(8, 0, 6)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>150</hp>
+    </PilotConsole>
+    <SmallThruster>
+      <position>(6, 0, 7)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>250</hp>
+    </SmallThruster>
+  </things>
+  <terrain>
+    <AncientTile>
+      <rects>
+        <li>(0,0,0,0)</li>
+        <li>(2,0,6,0)</li>
+        <li>(0,2,0,7)</li>
+        <li>(1,7,5,7)</li>
+      </rects>
+    </AncientTile>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <AncientTile>
+        <rects>
+          <li>(0,0,0,0)</li>
+          <li>(2,0,6,0)</li>
+          <li>(0,2,0,7)</li>
+          <li>(1,7,5,7)</li>
+        </rects>
+      </AncientTile>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <MechanoidPlatform>
+        <rects>
+          <li>(0,0,0,0)</li>
+          <li>(2,0,6,0)</li>
+          <li>(0,2,0,7)</li>
+          <li>(1,7,5,7)</li>
+        </rects>
+      </MechanoidPlatform>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="foundationGrid">
+      <Substructure>
+        <rects>
+          <li>(1,0,1,6)</li>
+          <li>(8,0,9,7)</li>
+          <li>(0,1,0,1)</li>
+          <li>(2,1,6,6)</li>
+          <li>(10,1,11,6)</li>
+          <li>(7,2,7,7)</li>
+          <li>(6,7,6,7)</li>
+          <li>(10,7,10,7)</li>
+        </rects>
+      </Substructure>
+    </terrainLayerDetail>
+  </terrainLayers>
+</PrefabDef>
