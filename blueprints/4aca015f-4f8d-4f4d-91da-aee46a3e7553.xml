@@ -1,0 +1,227 @@
+<PrefabDef>
+  <defName>Prefab_20260110_122249</defName>
+  <size>(13,13)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>13×13大型充电站</name>
+    <description>常规13×13，包含八个大型充电站和十个小型充电站。</description>
+    <tags></tags>
+    <author>墨</author>
+    <category>生物科技DLC</category>
+    <BuildingID>4aca015f-4f8d-4f4d-91da-aee46a3e7553</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>aoba.fortress.industrial.concrete</packageId>
+        <name>Industrial concrete</name>
+        <version></version>
+        <modorder>73</modorder>
+        <steamWorkshopId>2888037450</steamWorkshopId>
+        <things>
+          <li>FT_BlocksConcrete</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.biotech</packageId>
+        <name>Biotech</name>
+        <version></version>
+        <modorder>2</modorder>
+        <things>
+          <li>StandardRecharger</li>
+          <li>BasicRecharger</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>13×13大型充电站</default>
+        <zh-CN>13×13大型充电站</zh-CN>
+      </name>
+      <description>
+        <default>常规13×13，包含八个大型充电站和十个小型充电站。</default>
+        <zh-CN>常规13×13，包含八个大型充电站和十个小型充电站。</zh-CN>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <HiddenConduit>
+      <rects>
+        <li>(0,0,12,0)</li>
+        <li>(0,1,0,12)</li>
+        <li>(12,1,12,12)</li>
+        <li>(1,6,11,6)</li>
+        <li>(1,12,11,12)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <Wall>
+      <rects>
+        <li>(0,0,5,0)</li>
+        <li>(7,0,12,0)</li>
+        <li>(0,1,0,5)</li>
+        <li>(12,1,12,5)</li>
+        <li>(0,7,0,12)</li>
+        <li>(12,7,12,12)</li>
+        <li>(1,12,5,12)</li>
+        <li>(7,12,11,12)</li>
+      </rects>
+      <stuff>FT_BlocksConcrete</stuff>
+      <hp>600</hp>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </Wall>
+    <Door>
+      <rects>
+        <li>(6,0,6,0)</li>
+        <li>(6,12,6,12)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <StandardRecharger>
+      <positions>
+        <li>(3, 0, 1)</li>
+        <li>(9, 0, 1)</li>
+      </positions>
+      <hp>250</hp>
+    </StandardRecharger>
+    <BasicRecharger>
+      <positions>
+        <li>(5, 0, 2)</li>
+        <li>(8, 0, 4)</li>
+        <li>(5, 0, 5)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>150</hp>
+    </BasicRecharger>
+    <BasicRecharger>
+      <positions>
+        <li>(7, 0, 2)</li>
+        <li>(4, 0, 4)</li>
+        <li>(7, 0, 5)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>150</hp>
+    </BasicRecharger>
+    <StandardRecharger>
+      <positions>
+        <li>(1, 0, 4)</li>
+        <li>(1, 0, 9)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>250</hp>
+    </StandardRecharger>
+    <StandardRecharger>
+      <positions>
+        <li>(11, 0, 4)</li>
+        <li>(11, 0, 9)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>250</hp>
+    </StandardRecharger>
+    <Door>
+      <rects>
+        <li>(0,6,0,6)</li>
+        <li>(12,6,12,6)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <StandingLamp>
+      <rects>
+        <li>(6,6,6,6)</li>
+      </rects>
+      <hp>50</hp>
+    </StandingLamp>
+    <BasicRecharger>
+      <positions>
+        <li>(2, 0, 7)</li>
+        <li>(10, 0, 7)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>150</hp>
+    </BasicRecharger>
+    <BasicRecharger>
+      <positions>
+        <li>(4, 0, 8)</li>
+        <li>(8, 0, 8)</li>
+      </positions>
+      <hp>150</hp>
+    </BasicRecharger>
+    <StandardRecharger>
+      <positions>
+        <li>(4, 0, 11)</li>
+        <li>(8, 0, 11)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>250</hp>
+    </StandardRecharger>
+  </things>
+  <terrain>
+    <TileMarble>
+      <rects>
+        <li>(1,0,1,12)</li>
+        <li>(6,0,6,12)</li>
+        <li>(2,1,5,11)</li>
+        <li>(7,1,11,11)</li>
+        <li>(12,6,12,6)</li>
+      </rects>
+    </TileMarble>
+    <TileMarble>
+      <color>Structure_White</color>
+      <rects>
+        <li>(0,6,0,6)</li>
+      </rects>
+    </TileMarble>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <TileMarble>
+        <rects>
+          <li>(1,0,1,12)</li>
+          <li>(6,0,6,12)</li>
+          <li>(2,1,5,11)</li>
+          <li>(7,1,11,11)</li>
+          <li>(12,6,12,6)</li>
+        </rects>
+      </TileMarble>
+      <TileMarble>
+        <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
+        <rects>
+          <li>(0,6,0,6)</li>
+        </rects>
+      </TileMarble>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(1,0,1,12)</li>
+          <li>(6,0,6,12)</li>
+          <li>(2,1,5,11)</li>
+          <li>(7,1,11,11)</li>
+          <li>(12,6,12,6)</li>
+        </rects>
+      </Soil>
+      <Soil>
+        <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
+        <rects>
+          <li>(0,6,0,6)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
