@@ -1,0 +1,363 @@
+<PrefabDef>
+  <defName>Prefab_20260115_162910</defName>
+  <size>(15,15)</size>
+  <extraInfo>
+    <version>1.6.9333.36690</version>
+    <name>基础小家 （单人）</name>
+    <description></description>
+    <tags></tags>
+    <author>Nstive</author>
+    <category>基地蓝图</category>
+    <BuildingID>467a6dd4-86ae-4ddc-8334-d41cdfccf318</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>aoba.fortress.industrial.concrete</packageId>
+        <name>Industrial concrete</name>
+        <version></version>
+        <modorder>61</modorder>
+        <steamWorkshopId>2888037450</steamWorkshopId>
+        <things>
+          <li>FT_BlocksConcrete</li>
+          <li>IC_PortableConcrete</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>dubwise.dubsbadhygiene</packageId>
+        <name>Dubs Bad Hygiene</name>
+        <version>3.1.2800</version>
+        <modorder>76</modorder>
+        <steamWorkshopId>836308268</steamWorkshopId>
+        <things>
+          <li>PitLatrine</li>
+          <li>ToiletStallDoor</li>
+          <li>PrimitiveWell</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.ideology</packageId>
+        <name>Ideology</name>
+        <version></version>
+        <modorder>3</modorder>
+        <things>
+          <li>LightBall</li>
+          <li>Loudspeaker</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>基础小家 （单人）</default>
+        <zh-CN>基础小家 （单人）</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(1,1,10,1)</li>
+        <li>(12,1,13,1)</li>
+        <li>(1,2,1,6)</li>
+        <li>(13,2,13,6)</li>
+        <li>(1,8,1,8)</li>
+        <li>(13,8,13,13)</li>
+        <li>(1,10,1,13)</li>
+        <li>(2,13,12,13)</li>
+      </rects>
+      <stuff>FT_BlocksConcrete</stuff>
+      <hp>600</hp>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </Wall>
+    <Door>
+      <rects>
+        <li>(11,1,11,1)</li>
+        <li>(3,3,3,3)</li>
+        <li>(3,8,3,8)</li>
+        <li>(11,10,11,10)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <ElectricStove>
+      <position>(3, 0, 2)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>180</hp>
+    </ElectricStove>
+    <WallLamp>
+      <rects>
+        <li>(3,2,3,2)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>35</hp>
+    </WallLamp>
+    <Wall>
+      <rects>
+        <li>(5,2,5,3)</li>
+        <li>(7,2,7,6)</li>
+        <li>(2,3,2,3)</li>
+        <li>(4,3,4,3)</li>
+        <li>(4,8,7,8)</li>
+        <li>(7,10,10,10)</li>
+        <li>(12,10,12,10)</li>
+        <li>(7,11,7,12)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>195</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Wall>
+    <PitLatrine>
+      <rects>
+        <li>(6,2,6,2)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>49</hp>
+    </PitLatrine>
+    <Bed>
+      <positions>
+        <li>(8, 0, 3)</li>
+        <li>(4, 0, 6)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>91</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed>
+    <Bed>
+      <position>(9, 0, 2)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>91</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed>
+    <ToiletStallDoor>
+      <rects>
+        <li>(6,3,6,3)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>162</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </ToiletStallDoor>
+    <EndTable>
+      <rects>
+        <li>(9,3,9,3)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>49</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </EndTable>
+    <TableButcher>
+      <position>(0, 0, 5)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>117</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </TableButcher>
+    <PrimitiveWell>
+      <rects>
+        <li>(6,4,6,4)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </PrimitiveWell>
+    <Bed>
+      <position>(9, 0, 4)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>91</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed>
+    <IC_PortableConcrete>
+      <position>(2, 0, 5)</position>
+      <hp>180</hp>
+    </IC_PortableConcrete>
+    <LightBall>
+      <rects>
+        <li>(8,5,8,5)</li>
+      </rects>
+      <hp>100</hp>
+    </LightBall>
+    <Loudspeaker>
+      <rects>
+        <li>(9,5,9,5)</li>
+      </rects>
+      <hp>100</hp>
+    </Loudspeaker>
+    <WallLamp>
+      <rects>
+        <li>(8,6,8,6)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>35</hp>
+    </WallLamp>
+    <Door>
+      <rects>
+        <li>(1,7,1,7)</li>
+        <li>(7,7,7,7)</li>
+        <li>(13,7,13,7)</li>
+        <li>(1,9,1,9)</li>
+        <li>(7,9,7,9)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <WallLamp>
+      <rects>
+        <li>(5,7,5,7)</li>
+        <li>(4,12,4,12)</li>
+        <li>(10,12,10,12)</li>
+      </rects>
+      <hp>35</hp>
+    </WallLamp>
+    <HiddenConduit>
+      <rects>
+        <li>(7,7,7,13)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <DiningChair>
+      <rects>
+        <li>(8,7,8,7)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DiningChair>
+    <DiningChair>
+      <rects>
+        <li>(9,7,9,7)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DiningChair>
+    <HorseshoesPin>
+      <rects>
+        <li>(10,7,10,7)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>49</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </HorseshoesPin>
+    <Table1x2c>
+      <position>(9, 0, 8)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>49</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Table1x2c>
+    <PassiveCooler>
+      <rects>
+        <li>(10,8,10,8)</li>
+      </rects>
+      <hp>80</hp>
+    </PassiveCooler>
+    <Cooler>
+      <rects>
+        <li>(2,9,2,9)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>100</hp>
+    </Cooler>
+    <Shelf>
+      <position>(6, 0, 10)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Shelf>
+    <DiningChair>
+      <rects>
+        <li>(8,9,8,9)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DiningChair>
+    <DiningChair>
+      <rects>
+        <li>(9,9,9,9)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DiningChair>
+    <ChessTable>
+      <rects>
+        <li>(10,9,10,9)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </ChessTable>
+    <Shelf>
+      <positions>
+        <li>(3, 0, 10)</li>
+        <li>(5, 0, 10)</li>
+        <li>(3, 0, 11)</li>
+        <li>(5, 0, 11)</li>
+        <li>(3, 0, 12)</li>
+        <li>(5, 0, 12)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Shelf>
+    <Sarcophagus>
+      <position>(6, 0, 11)</position>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>162</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Sarcophagus>
+    <WoodFiredGenerator>
+      <position>(8, 0, 11)</position>
+      <hp>300</hp>
+    </WoodFiredGenerator>
+    <SimpleResearchBench>
+      <position>(11, 0, 11)</position>
+      <stuff>WoodLog</stuff>
+      <hp>162</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </SimpleResearchBench>
+  </things>
+  <terrainLayers></terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(1,1,13,8)</li>
+        <li>(2,9,13,13)</li>
+        <li>(1,10,1,13)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(1,1,13,8)</li>
+        <li>(2,9,13,13)</li>
+        <li>(1,10,1,13)</li>
+      </rects>
+    </PlayerRoofZone>
+    <NoRoofZone>
+      <rects>
+        <li>(1,9,1,9)</li>
+      </rects>
+    </NoRoofZone>
+  </roofs>
+</PrefabDef>
