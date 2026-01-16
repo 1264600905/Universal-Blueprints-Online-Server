@@ -1,0 +1,372 @@
+<PrefabDef>
+  <defName>Prefab_20260116_150014</defName>
+  <size>(23,19)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>开放式房子</name>
+    <description></description>
+    <tags></tags>
+    <author>柳如烟</author>
+    <category>基地蓝图</category>
+    <BuildingID>5c22da1e-92d0-49bf-a252-0caf8497ecf2</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>aoba.fortress.industrial.concrete</packageId>
+        <name>Industrial concrete</name>
+        <version></version>
+        <modorder>81</modorder>
+        <steamWorkshopId>2888037450</steamWorkshopId>
+        <things>
+          <li>FT_BlocksConcrete</li>
+          <li>FT_TileStoneConcrete</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>sbz.neatstorage</packageId>
+        <name>[sbz] Neat Storage</name>
+        <version></version>
+        <modorder>19</modorder>
+        <steamWorkshopId>3416243474</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>adaptive.storage.framework</packageId>
+            <steamWorkshopId>3033901359</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>sbz_MidCrate</li>
+          <li>sbz_OpenShelf</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>开放式房子</default>
+        <zh-CN>开放式房子</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(1,0,21,0)</li>
+        <li>(0,1,1,1)</li>
+        <li>(8,1,8,2)</li>
+        <li>(11,1,11,6)</li>
+        <li>(14,1,14,2)</li>
+        <li>(21,1,22,1)</li>
+        <li>(0,2,0,5)</li>
+        <li>(2,2,7,2)</li>
+        <li>(15,2,20,2)</li>
+        <li>(22,2,22,5)</li>
+        <li>(2,3,2,6)</li>
+        <li>(20,3,20,6)</li>
+        <li>(0,7,0,11)</li>
+        <li>(22,7,22,11)</li>
+        <li>(2,8,2,10)</li>
+        <li>(11,8,11,10)</li>
+        <li>(20,8,20,10)</li>
+        <li>(3,9,3,9)</li>
+        <li>(5,9,8,9)</li>
+        <li>(10,9,10,9)</li>
+        <li>(12,9,19,9)</li>
+        <li>(2,12,2,16)</li>
+        <li>(11,12,11,13)</li>
+        <li>(20,12,20,16)</li>
+        <li>(0,13,0,17)</li>
+        <li>(22,13,22,17)</li>
+        <li>(11,15,11,16)</li>
+        <li>(3,16,10,16)</li>
+        <li>(12,16,19,16)</li>
+        <li>(1,17,1,18)</li>
+        <li>(21,17,21,18)</li>
+        <li>(2,18,20,18)</li>
+      </rects>
+      <stuff>FT_BlocksConcrete</stuff>
+      <hp>600</hp>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </Wall>
+    <HiddenConduit>
+      <rects>
+        <li>(2,2,10,2)</li>
+        <li>(2,3,2,6)</li>
+        <li>(11,3,11,15)</li>
+        <li>(2,8,2,10)</li>
+        <li>(3,9,10,9)</li>
+        <li>(12,9,16,9)</li>
+        <li>(8,16,9,16)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <Cooler>
+      <rects>
+        <li>(9,2,10,2)</li>
+        <li>(12,2,13,2)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>100</hp>
+    </Cooler>
+    <Bed>
+      <position>(3, 0, 4)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>91</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed>
+    <Bed>
+      <position>(4, 0, 4)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Awful</quality>
+      <hp>91</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed>
+    <Bed>
+      <position>(5, 0, 4)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Poor</quality>
+      <hp>91</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed>
+    <sbz_MidCrate>
+      <positions>
+        <li>(15, 0, 3)</li>
+        <li>(17, 0, 3)</li>
+        <li>(19, 0, 3)</li>
+        <li>(16, 0, 8)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </sbz_MidCrate>
+    <sbz_OpenShelf>
+      <positions>
+        <li>(16, 0, 5)</li>
+        <li>(19, 0, 5)</li>
+        <li>(16, 0, 6)</li>
+        <li>(19, 0, 6)</li>
+        <li>(17, 0, 15)</li>
+        <li>(19, 0, 15)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>130</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </sbz_OpenShelf>
+    <Door>
+      <rects>
+        <li>(2,7,2,7)</li>
+        <li>(11,7,11,7)</li>
+        <li>(20,7,20,7)</li>
+        <li>(20,11,20,11)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <TableButcher>
+      <position>(18, 0, 8)</position>
+      <stuff>WoodLog</stuff>
+      <hp>117</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </TableButcher>
+    <Vent>
+      <rects>
+        <li>(4,9,4,9)</li>
+        <li>(9,9,9,9)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>100</hp>
+    </Vent>
+    <FueledStove>
+      <position>(18, 0, 10)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>180</hp>
+    </FueledStove>
+    <Vent>
+      <rects>
+        <li>(11,11,11,11)</li>
+        <li>(11,14,11,14)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>100</hp>
+    </Vent>
+    <Stool>
+      <rects>
+        <li>(18,11,18,11)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>49</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Stool>
+    <Table1x2c>
+      <position>(18, 0, 12)</position>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>49</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Table1x2c>
+    <Stool>
+      <rects>
+        <li>(19,12,19,12)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Poor</quality>
+      <hp>49</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Stool>
+    <Stool>
+      <rects>
+        <li>(19,13,19,13)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>49</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Stool>
+    <Frame_WoodFiredGenerator>
+      <position>(3, 0, 14)</position>
+      <hp>75</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Frame_WoodFiredGenerator>
+    <Stool>
+      <rects>
+        <li>(18,14,18,14)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>49</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Stool>
+    <Frame_HiddenConduit>
+      <rects>
+        <li>(10,16,10,16)</li>
+      </rects>
+      <hp>25</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Frame_HiddenConduit>
+  </things>
+  <terrain>
+    <FT_TileStoneConcrete>
+      <rects>
+        <li>(9,1,10,1)</li>
+        <li>(12,1,13,1)</li>
+        <li>(21,2,21,16)</li>
+        <li>(12,3,19,8)</li>
+        <li>(1,6,1,14)</li>
+        <li>(3,6,3,8)</li>
+        <li>(22,6,22,6)</li>
+        <li>(2,7,2,7)</li>
+        <li>(4,7,10,8)</li>
+        <li>(20,7,20,7)</li>
+        <li>(3,10,10,10)</li>
+        <li>(12,10,19,15)</li>
+        <li>(2,11,4,11)</li>
+        <li>(6,11,10,15)</li>
+        <li>(20,11,20,11)</li>
+        <li>(3,12,5,13)</li>
+        <li>(22,12,22,12)</li>
+        <li>(4,14,5,15)</li>
+        <li>(3,15,3,15)</li>
+      </rects>
+    </FT_TileStoneConcrete>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <FT_TileStoneConcrete>
+        <rects>
+          <li>(9,1,10,1)</li>
+          <li>(12,1,13,1)</li>
+          <li>(21,2,21,16)</li>
+          <li>(12,3,19,8)</li>
+          <li>(1,6,1,14)</li>
+          <li>(3,6,3,8)</li>
+          <li>(22,6,22,6)</li>
+          <li>(2,7,2,7)</li>
+          <li>(4,7,10,8)</li>
+          <li>(20,7,20,7)</li>
+          <li>(3,10,10,10)</li>
+          <li>(12,10,19,15)</li>
+          <li>(2,11,4,11)</li>
+          <li>(6,11,10,15)</li>
+          <li>(20,11,20,11)</li>
+          <li>(3,12,5,13)</li>
+          <li>(22,12,22,12)</li>
+          <li>(4,14,5,15)</li>
+          <li>(3,15,3,15)</li>
+        </rects>
+      </FT_TileStoneConcrete>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(9,1,10,1)</li>
+          <li>(12,1,13,1)</li>
+          <li>(21,2,21,16)</li>
+          <li>(12,3,19,8)</li>
+          <li>(1,6,1,14)</li>
+          <li>(3,6,3,8)</li>
+          <li>(22,6,22,6)</li>
+          <li>(2,7,2,7)</li>
+          <li>(4,7,10,8)</li>
+          <li>(20,7,20,7)</li>
+          <li>(3,10,10,10)</li>
+          <li>(12,10,19,15)</li>
+          <li>(2,11,4,11)</li>
+          <li>(6,11,10,15)</li>
+          <li>(20,11,20,11)</li>
+          <li>(3,12,5,13)</li>
+          <li>(22,12,22,12)</li>
+          <li>(4,14,5,15)</li>
+          <li>(3,15,3,15)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(1,0,21,0)</li>
+        <li>(1,1,8,1)</li>
+        <li>(11,1,11,18)</li>
+        <li>(14,1,21,1)</li>
+        <li>(2,2,10,9)</li>
+        <li>(12,2,20,18)</li>
+        <li>(2,16,10,18)</li>
+        <li>(1,17,1,18)</li>
+        <li>(21,17,21,18)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(1,0,21,0)</li>
+        <li>(1,1,8,1)</li>
+        <li>(11,1,11,18)</li>
+        <li>(14,1,21,1)</li>
+        <li>(2,2,10,9)</li>
+        <li>(12,2,20,18)</li>
+        <li>(2,16,10,18)</li>
+        <li>(1,17,1,18)</li>
+        <li>(21,17,21,18)</li>
+      </rects>
+    </PlayerRoofZone>
+    <NoRoofZone>
+      <rects>
+        <li>(9,1,10,1)</li>
+        <li>(12,1,13,1)</li>
+      </rects>
+    </NoRoofZone>
+  </roofs>
+</PrefabDef>
