@@ -1,6 +1,6 @@
 <PrefabDef>
-  <defName>Prefab_20260117_140935</defName>
-  <size>(27,27)</size>
+  <defName>Prefab_20260117_143543</defName>
+  <size>(29,29)</size>
   <extraInfo>
     <version>1.6.9438.37837</version>
     <name>27x27终极基地</name>
@@ -17,13 +17,13 @@
         <modorder>4</modorder>
         <things>
           <li>LargeMechGestator</li>
-          <li>SubcoreEncoder</li>
           <li>MechGestator</li>
+          <li>SubcoreEncoder</li>
           <li>StandardRecharger</li>
-          <li>MechBooster</li>
+          <li>BasicRecharger</li>
           <li>SubcoreRipscanner</li>
           <li>SubcoreSoftscanner</li>
-          <li>BasicRecharger</li>
+          <li>MechBooster</li>
         </things>
       </mod>
       <mod>
@@ -32,12 +32,13 @@
         <version></version>
         <modorder>5</modorder>
         <things>
+          <li>BioferriteHarvester</li>
           <li>HoldingPlatform</li>
           <li>SerumCentrifuge</li>
-          <li>BioferriteHarvester</li>
           <li>FrenzyInducer</li>
-          <li>SecurityDoor</li>
+          <li>ShardInhibitor</li>
           <li>BioferriteShaper</li>
+          <li>SecurityDoor</li>
           <li>SleepSuppressor</li>
         </things>
       </mod>
@@ -77,34 +78,35 @@
   <things>
     <Wall>
       <rects>
-        <li>(0,0,4,0)</li>
-        <li>(13,0,26,0)</li>
-        <li>(0,1,0,12)</li>
-        <li>(13,1,13,13)</li>
-        <li>(21,1,21,7)</li>
-        <li>(26,1,26,21)</li>
-        <li>(24,5,25,5)</li>
-        <li>(21,10,21,13)</li>
-        <li>(14,13,20,13)</li>
-        <li>(23,13,25,13)</li>
-        <li>(5,14,5,19)</li>
-        <li>(21,15,21,15)</li>
-        <li>(13,16,17,16)</li>
-        <li>(13,17,13,19)</li>
-        <li>(17,17,17,17)</li>
-        <li>(6,19,11,19)</li>
-        <li>(14,19,14,19)</li>
-        <li>(16,19,18,19)</li>
-        <li>(13,21,15,21)</li>
-        <li>(17,21,17,26)</li>
-        <li>(19,21,24,21)</li>
-        <li>(13,22,13,25)</li>
-        <li>(21,22,21,26)</li>
-        <li>(26,23,26,26)</li>
-        <li>(0,25,0,25)</li>
-        <li>(14,26,16,26)</li>
-        <li>(18,26,20,26)</li>
-        <li>(22,26,25,26)</li>
+        <li>(1,1,5,1)</li>
+        <li>(14,1,27,1)</li>
+        <li>(1,2,1,13)</li>
+        <li>(14,2,14,14)</li>
+        <li>(22,2,22,8)</li>
+        <li>(27,2,27,22)</li>
+        <li>(25,8,26,8)</li>
+        <li>(22,11,22,14)</li>
+        <li>(2,14,2,14)</li>
+        <li>(15,14,21,14)</li>
+        <li>(6,15,6,20)</li>
+        <li>(22,16,22,16)</li>
+        <li>(14,17,18,17)</li>
+        <li>(14,18,14,20)</li>
+        <li>(18,18,18,18)</li>
+        <li>(7,20,12,20)</li>
+        <li>(15,20,15,20)</li>
+        <li>(17,20,19,20)</li>
+        <li>(14,22,16,22)</li>
+        <li>(18,22,18,27)</li>
+        <li>(20,22,22,22)</li>
+        <li>(24,22,26,22)</li>
+        <li>(14,23,14,26)</li>
+        <li>(22,23,22,27)</li>
+        <li>(27,24,27,27)</li>
+        <li>(1,26,1,26)</li>
+        <li>(15,27,17,27)</li>
+        <li>(19,27,21,27)</li>
+        <li>(23,27,26,27)</li>
       </rects>
       <stuff>BlocksMarble</stuff>
       <hp>360</hp>
@@ -112,10 +114,10 @@
     </Wall>
     <Wall>
       <rects>
-        <li>(5,0,12,0)</li>
-        <li>(5,1,5,3)</li>
-        <li>(5,5,5,13)</li>
-        <li>(6,13,12,13)</li>
+        <li>(6,1,13,1)</li>
+        <li>(6,2,6,4)</li>
+        <li>(6,6,6,14)</li>
+        <li>(7,14,13,14)</li>
       </rects>
       <relativeRotation>Clockwise</relativeRotation>
       <stuff>BlocksMarble</stuff>
@@ -124,52 +126,37 @@
     </Wall>
     <HiddenConduit>
       <rects>
-        <li>(7,0,7,13)</li>
-        <li>(20,0,20,26)</li>
-        <li>(0,6,6,6)</li>
-        <li>(8,6,19,6)</li>
-        <li>(21,6,26,6)</li>
-        <li>(7,16,7,16)</li>
-        <li>(0,19,19,19)</li>
-        <li>(21,19,26,19)</li>
-        <li>(7,20,7,26)</li>
-        <li>(12,20,12,21)</li>
-        <li>(21,24,21,24)</li>
+        <li>(8,1,8,14)</li>
+        <li>(21,1,21,27)</li>
+        <li>(1,7,7,7)</li>
+        <li>(9,7,20,7)</li>
+        <li>(22,7,27,7)</li>
+        <li>(8,17,8,17)</li>
+        <li>(1,20,20,20)</li>
+        <li>(22,20,27,20)</li>
+        <li>(8,21,8,27)</li>
+        <li>(13,21,13,22)</li>
+        <li>(22,25,22,25)</li>
       </rects>
       <hp>100</hp>
       <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
     </HiddenConduit>
     <LargeMechGestator>
-      <position>(2, 0, 2)</position>
+      <position>(3, 0, 3)</position>
       <hp>350</hp>
     </LargeMechGestator>
+    <MechGestator>
+      <position>(8, 0, 2)</position>
+      <hp>250</hp>
+    </MechGestator>
     <ShelfSmall>
       <rects>
-        <li>(6,1,6,3)</li>
-        <li>(6,5,6,5)</li>
-      </rects>
-      <relativeRotation>Counterclockwise</relativeRotation>
-      <stuff>WoodLog</stuff>
-      <hp>32</hp>
-      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
-    </ShelfSmall>
-    <ToolCabinet>
-      <positions>
-        <li>(7, 0, 1)</li>
-        <li>(7, 0, 2)</li>
-      </positions>
-      <hp>100</hp>
-      <color>RGBA(0.376, 0.447, 0.373, 1.000)</color>
-    </ToolCabinet>
-    <ShelfSmall>
-      <rects>
-        <li>(9,1,10,1)</li>
-        <li>(9,2,9,3)</li>
-        <li>(10,3,10,5)</li>
-        <li>(14,14,18,15)</li>
-        <li>(18,16,18,18)</li>
-        <li>(6,22,8,24)</li>
-        <li>(5,23,5,23)</li>
+        <li>(10,2,11,2)</li>
+        <li>(10,3,10,3)</li>
+        <li>(15,15,19,16)</li>
+        <li>(19,17,19,19)</li>
+        <li>(7,23,9,25)</li>
+        <li>(6,24,6,24)</li>
       </rects>
       <relativeRotation>Opposite</relativeRotation>
       <stuff>WoodLog</stuff>
@@ -177,37 +164,46 @@
       <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
     </ShelfSmall>
     <SubcoreEncoder>
-      <position>(11, 0, 2)</position>
+      <position>(12, 0, 3)</position>
       <relativeRotation>Clockwise</relativeRotation>
       <hp>200</hp>
     </SubcoreEncoder>
     <FabricationBench>
-      <position>(16, 0, 2)</position>
+      <position>(17, 0, 3)</position>
       <relativeRotation>Opposite</relativeRotation>
       <hp>300</hp>
     </FabricationBench>
     <FermentingBarrel>
       <rects>
-        <li>(19,1,20,1)</li>
+        <li>(20,2,21,2)</li>
       </rects>
       <relativeRotation>Counterclockwise</relativeRotation>
       <hp>100</hp>
     </FermentingBarrel>
+    <BioferriteHarvester>
+      <position>(23, 0, 3)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>200</hp>
+    </BioferriteHarvester>
     <HoldingPlatform>
-      <position>(24, 0, 2)</position>
+      <positions>
+        <li>(25, 0, 3)</li>
+        <li>(25, 0, 6)</li>
+      </positions>
       <hp>500</hp>
     </HoldingPlatform>
     <DiningChair>
       <rects>
-        <li>(10,2,10,2)</li>
-        <li>(18,3,18,3)</li>
-        <li>(6,4,6,4)</li>
-        <li>(17,5,17,5)</li>
-        <li>(19,6,19,6)</li>
-        <li>(10,8,10,8)</li>
-        <li>(17,8,17,8)</li>
-        <li>(1,15,1,16)</li>
-        <li>(1,18,1,19)</li>
+        <li>(11,3,11,3)</li>
+        <li>(19,4,19,4)</li>
+        <li>(7,5,7,5)</li>
+        <li>(18,6,18,6)</li>
+        <li>(20,7,20,7)</li>
+        <li>(11,9,11,9)</li>
+        <li>(18,9,18,9)</li>
+        <li>(2,16,2,17)</li>
+        <li>(2,19,2,20)</li>
+        <li>(23,20,23,20)</li>
       </rects>
       <relativeRotation>Clockwise</relativeRotation>
       <stuff>WoodLog</stuff>
@@ -216,12 +212,22 @@
       <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
     </DiningChair>
     <BiofuelRefinery>
-      <position>(19, 0, 3)</position>
+      <position>(20, 0, 4)</position>
       <relativeRotation>Clockwise</relativeRotation>
       <hp>200</hp>
     </BiofuelRefinery>
+    <ShelfSmall>
+      <rects>
+        <li>(7,4,7,4)</li>
+        <li>(7,6,7,6)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>32</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </ShelfSmall>
     <DrugLab>
-      <position>(7, 0, 4)</position>
+      <position>(8, 0, 5)</position>
       <relativeRotation>Clockwise</relativeRotation>
       <stuff>WoodLog</stuff>
       <hp>78</hp>
@@ -229,28 +235,34 @@
     </DrugLab>
     <DiningChair>
       <rects>
-        <li>(8,3,8,3)</li>
-        <li>(16,5,16,5)</li>
-        <li>(16,9,16,9)</li>
-        <li>(10,10,10,10)</li>
-        <li>(18,10,18,10)</li>
-        <li>(2,14,3,14)</li>
+        <li>(9,4,9,4)</li>
+        <li>(17,6,17,6)</li>
+        <li>(17,10,17,10)</li>
+        <li>(11,11,11,11)</li>
+        <li>(19,11,19,11)</li>
+        <li>(3,15,4,15)</li>
       </rects>
       <stuff>WoodLog</stuff>
       <quality>Normal</quality>
       <hp>65</hp>
       <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
     </DiningChair>
+    <ToolCabinet>
+      <position>(11, 0, 4)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>100</hp>
+      <color>RGBA(0.376, 0.447, 0.373, 1.000)</color>
+    </ToolCabinet>
     <ShelfSmall>
       <rects>
-        <li>(14,3,14,4)</li>
-        <li>(17,3,17,4)</li>
-        <li>(19,5,19,5)</li>
-        <li>(19,7,19,7)</li>
+        <li>(15,4,15,5)</li>
+        <li>(18,4,18,5)</li>
+        <li>(20,6,20,6)</li>
         <li>(20,8,20,8)</li>
-        <li>(17,9,17,9)</li>
-        <li>(14,10,14,10)</li>
-        <li>(20,10,20,10)</li>
+        <li>(21,9,21,9)</li>
+        <li>(18,10,18,10)</li>
+        <li>(15,11,15,11)</li>
+        <li>(21,11,21,11)</li>
       </rects>
       <relativeRotation>Clockwise</relativeRotation>
       <stuff>WoodLog</stuff>
@@ -258,7 +270,7 @@
       <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
     </ShelfSmall>
     <TableSculpting>
-      <position>(15, 0, 4)</position>
+      <position>(16, 0, 5)</position>
       <relativeRotation>Counterclockwise</relativeRotation>
       <stuff>WoodLog</stuff>
       <hp>117</hp>
@@ -266,13 +278,13 @@
     </TableSculpting>
     <DiningChair>
       <rects>
-        <li>(16,3,16,3)</li>
-        <li>(8,8,8,8)</li>
-        <li>(16,8,16,8)</li>
-        <li>(2,17,3,17)</li>
-        <li>(15,18,15,18)</li>
-        <li>(2,20,3,20)</li>
-        <li>(23,23,23,23)</li>
+        <li>(17,4,17,4)</li>
+        <li>(9,9,9,9)</li>
+        <li>(17,9,17,9)</li>
+        <li>(3,18,4,18)</li>
+        <li>(16,19,16,19)</li>
+        <li>(3,21,4,21)</li>
+        <li>(25,24,25,24)</li>
       </rects>
       <relativeRotation>Opposite</relativeRotation>
       <stuff>WoodLog</stuff>
@@ -280,11 +292,15 @@
       <hp>65</hp>
       <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
     </DiningChair>
+    <StandardRecharger>
+      <position>(3, 0, 5)</position>
+      <hp>250</hp>
+    </StandardRecharger>
     <Door>
       <rects>
-        <li>(5,4,5,4)</li>
-        <li>(21,9,21,9)</li>
-        <li>(13,20,13,20)</li>
+        <li>(6,5,6,5)</li>
+        <li>(22,10,22,10)</li>
+        <li>(14,21,14,21)</li>
       </rects>
       <relativeRotation>Clockwise</relativeRotation>
       <stuff>WoodLog</stuff>
@@ -292,20 +308,26 @@
       <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
     </Door>
     <SerumCentrifuge>
-      <position>(8, 0, 4)</position>
+      <position>(9, 0, 5)</position>
       <hp>180</hp>
     </SerumCentrifuge>
+    <ToolCabinet>
+      <position>(11, 0, 6)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>100</hp>
+      <color>RGBA(0.376, 0.447, 0.373, 1.000)</color>
+    </ToolCabinet>
     <MultiAnalyzer>
-      <position>(11, 0, 4)</position>
+      <position>(12, 0, 5)</position>
       <hp>200</hp>
     </MultiAnalyzer>
     <DiningChair>
       <rects>
-        <li>(16,4,16,4)</li>
-        <li>(20,9,20,9)</li>
-        <li>(8,10,8,10)</li>
-        <li>(4,15,4,16)</li>
-        <li>(4,18,4,19)</li>
+        <li>(17,5,17,5)</li>
+        <li>(21,10,21,10)</li>
+        <li>(9,11,9,11)</li>
+        <li>(5,16,5,17)</li>
+        <li>(5,19,5,20)</li>
       </rects>
       <relativeRotation>Counterclockwise</relativeRotation>
       <stuff>WoodLog</stuff>
@@ -314,45 +336,30 @@
       <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
     </DiningChair>
     <Brewery>
-      <position>(18, 0, 5)</position>
+      <position>(19, 0, 6)</position>
       <relativeRotation>Clockwise</relativeRotation>
       <hp>180</hp>
     </Brewery>
-    <BioferriteHarvester>
-      <position>(24, 0, 4)</position>
-      <relativeRotation>Clockwise</relativeRotation>
-      <hp>200</hp>
-    </BioferriteHarvester>
     <FrenzyInducer>
       <rects>
-        <li>(14,5,14,5)</li>
+        <li>(15,6,15,6)</li>
       </rects>
       <hp>100</hp>
     </FrenzyInducer>
     <ElectricSmelter>
-      <position>(20, 0, 6)</position>
+      <position>(21, 0, 7)</position>
       <relativeRotation>Clockwise</relativeRotation>
       <hp>180</hp>
     </ElectricSmelter>
-    <SecurityDoor>
-      <position>(22, 0, 5)</position>
-      <hp>800</hp>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </SecurityDoor>
-    <MechGestator>
-      <position>(3, 0, 7)</position>
-      <relativeRotation>Opposite</relativeRotation>
-      <hp>250</hp>
-    </MechGestator>
     <HiTechResearchBench>
-      <position>(8, 0, 7)</position>
+      <position>(9, 0, 8)</position>
       <relativeRotation>Opposite</relativeRotation>
       <stuff>Steel</stuff>
       <hp>500</hp>
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </HiTechResearchBench>
     <HiTechResearchBench>
-      <position>(11, 0, 8)</position>
+      <position>(12, 0, 9)</position>
       <relativeRotation>Clockwise</relativeRotation>
       <stuff>Steel</stuff>
       <hp>500</hp>
@@ -360,78 +367,52 @@
     </HiTechResearchBench>
     <ToolCabinet>
       <positions>
-        <li>(14, 0, 6)</li>
-        <li>(15, 0, 8)</li>
+        <li>(15, 0, 7)</li>
+        <li>(16, 0, 9)</li>
       </positions>
       <relativeRotation>Counterclockwise</relativeRotation>
       <hp>100</hp>
       <color>RGBA(0.376, 0.447, 0.373, 1.000)</color>
     </ToolCabinet>
     <TableMachining>
-      <position>(16, 0, 6)</position>
+      <position>(17, 0, 7)</position>
       <hp>180</hp>
     </TableMachining>
-    <Bed>
-      <positions>
-        <li>(23, 0, 7)</li>
-        <li>(23, 0, 11)</li>
-      </positions>
+    <ShardInhibitor>
+      <rects>
+        <li>(23,7,23,7)</li>
+      </rects>
+      <hp>100</hp>
+    </ShardInhibitor>
+    <BasicRecharger>
+      <position>(3, 0, 8)</position>
       <relativeRotation>Opposite</relativeRotation>
-      <stuff>WoodLog</stuff>
-      <quality>Normal</quality>
-      <hp>91</hp>
-      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
-    </Bed>
-    <Bed>
-      <positions>
-        <li>(24, 0, 6)</li>
-        <li>(24, 0, 10)</li>
-      </positions>
-      <relativeRotation>Clockwise</relativeRotation>
-      <stuff>WoodLog</stuff>
-      <quality>Normal</quality>
-      <hp>91</hp>
-      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
-    </Bed>
+      <hp>150</hp>
+    </BasicRecharger>
     <BioferriteShaper>
-      <position>(16, 0, 7)</position>
+      <position>(17, 0, 8)</position>
       <relativeRotation>Opposite</relativeRotation>
       <hp>180</hp>
     </BioferriteShaper>
     <ElectricTailoringBench>
-      <position>(18, 0, 8)</position>
+      <position>(19, 0, 9)</position>
       <relativeRotation>Clockwise</relativeRotation>
       <stuff>WoodLog</stuff>
       <hp>117</hp>
       <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
     </ElectricTailoringBench>
-    <EndTable>
-      <rects>
-        <li>(24,7,24,7)</li>
-        <li>(24,11,24,11)</li>
-      </rects>
-      <relativeRotation>Counterclockwise</relativeRotation>
-      <stuff>WoodLog</stuff>
-      <quality>Normal</quality>
-      <hp>49</hp>
-      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
-    </EndTable>
-    <Bed>
-      <positions>
-        <li>(25, 0, 7)</li>
-        <li>(25, 0, 11)</li>
-      </positions>
-      <stuff>WoodLog</stuff>
-      <quality>Normal</quality>
-      <hp>91</hp>
-      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
-    </Bed>
-    <StandardRecharger>
-      <position>(3, 0, 8)</position>
+    <SecurityDoor>
+      <position>(23, 0, 8)</position>
+      <hp>800</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </SecurityDoor>
+    <SubcoreRipscanner>
+      <position>(3, 0, 10)</position>
+      <relativeRotation>Opposite</relativeRotation>
       <hp>250</hp>
-    </StandardRecharger>
+    </SubcoreRipscanner>
     <HiTechResearchBench>
-      <position>(7, 0, 10)</position>
+      <position>(8, 0, 11)</position>
       <relativeRotation>Counterclockwise</relativeRotation>
       <stuff>Steel</stuff>
       <hp>500</hp>
@@ -439,9 +420,9 @@
     </HiTechResearchBench>
     <BookcaseSmall>
       <rects>
-        <li>(9,8,9,10)</li>
-        <li>(8,9,8,9)</li>
-        <li>(10,9,10,9)</li>
+        <li>(10,9,10,11)</li>
+        <li>(9,10,9,10)</li>
+        <li>(11,10,11,10)</li>
       </rects>
       <relativeRotation>Counterclockwise</relativeRotation>
       <stuff>WoodLog</stuff>
@@ -449,12 +430,12 @@
       <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
     </BookcaseSmall>
     <SleepSuppressor>
-      <position>(14, 0, 8)</position>
+      <position>(15, 0, 9)</position>
       <relativeRotation>Counterclockwise</relativeRotation>
       <hp>200</hp>
     </SleepSuppressor>
     <TableStonecutter>
-      <position>(19, 0, 9)</position>
+      <position>(20, 0, 10)</position>
       <relativeRotation>Counterclockwise</relativeRotation>
       <stuff>WoodLog</stuff>
       <hp>117</hp>
@@ -462,11 +443,11 @@
     </TableStonecutter>
     <Wall>
       <rects>
-        <li>(21,8,21,8)</li>
-        <li>(0,13,0,24)</li>
-        <li>(2,13,4,13)</li>
-        <li>(13,14,13,15)</li>
-        <li>(0,26,13,26)</li>
+        <li>(22,9,22,9)</li>
+        <li>(1,14,1,25)</li>
+        <li>(3,14,4,14)</li>
+        <li>(14,15,14,16)</li>
+        <li>(1,27,14,27)</li>
       </rects>
       <relativeRotation>Counterclockwise</relativeRotation>
       <stuff>BlocksMarble</stuff>
@@ -475,114 +456,31 @@
     </Wall>
     <Bed>
       <positions>
-        <li>(24, 0, 8)</li>
-        <li>(24, 0, 12)</li>
+        <li>(24, 0, 10)</li>
+        <li>(24, 0, 14)</li>
       </positions>
-      <relativeRotation>Counterclockwise</relativeRotation>
+      <relativeRotation>Opposite</relativeRotation>
       <stuff>WoodLog</stuff>
       <quality>Normal</quality>
       <hp>91</hp>
       <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
     </Bed>
-    <ElectricSmithy>
-      <position>(16, 0, 10)</position>
-      <hp>180</hp>
-    </ElectricSmithy>
-    <CommsConsole>
-      <position>(3, 0, 12)</position>
-      <relativeRotation>Opposite</relativeRotation>
-      <hp>250</hp>
-    </CommsConsole>
-    <HiTechResearchBench>
-      <position>(10, 0, 11)</position>
-      <stuff>Steel</stuff>
-      <hp>500</hp>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </HiTechResearchBench>
-    <MechBooster>
-      <position>(14, 0, 11)</position>
-      <hp>150</hp>
-    </MechBooster>
-    <FabricationBench>
-      <position>(18, 0, 11)</position>
-      <hp>300</hp>
-    </FabricationBench>
-    <Door>
-      <rects>
-        <li>(1,13,1,13)</li>
-        <li>(16,18,16,18)</li>
-        <li>(12,19,12,19)</li>
-        <li>(15,19,15,19)</li>
-        <li>(16,21,16,21)</li>
-        <li>(18,21,18,21)</li>
-        <li>(25,21,25,21)</li>
-      </rects>
-      <stuff>WoodLog</stuff>
-      <hp>104</hp>
-      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
-    </Door>
-    <ChemfuelPoweredGenerator>
+    <Bed>
       <positions>
-        <li>(6, 0, 14)</li>
-        <li>(8, 0, 14)</li>
-        <li>(10, 0, 14)</li>
-        <li>(6, 0, 17)</li>
-        <li>(11, 0, 22)</li>
-        <li>(11, 0, 24)</li>
-        <li>(22, 0, 24)</li>
-        <li>(24, 0, 24)</li>
+        <li>(25, 0, 9)</li>
+        <li>(25, 0, 13)</li>
       </positions>
-      <hp>300</hp>
-    </ChemfuelPoweredGenerator>
-    <Drape>
-      <position>(12, 0, 15)</position>
       <relativeRotation>Clockwise</relativeRotation>
-      <stuff>Cloth</stuff>
-      <hp>100</hp>
-      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
-    </Drape>
-    <VacBarrier>
-      <rects>
-        <li>(21,14,21,14)</li>
-      </rects>
-      <relativeRotation>Clockwise</relativeRotation>
-      <hp>100</hp>
-      <color>RGBA(0.557, 0.557, 0.557, 1.000)</color>
-    </VacBarrier>
-    <SubcoreRipscanner>
-      <position>(24, 0, 15)</position>
-      <relativeRotation>Opposite</relativeRotation>
-      <hp>250</hp>
-    </SubcoreRipscanner>
-    <Table2x2c>
-      <position>(2, 0, 15)</position>
       <stuff>WoodLog</stuff>
       <quality>Normal</quality>
-      <hp>65</hp>
+      <hp>91</hp>
       <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
-    </Table2x2c>
-    <Hopper>
-      <rects>
-        <li>(19,15,20,15)</li>
-      </rects>
-      <hp>100</hp>
-    </Hopper>
-    <NutrientPasteDispenser>
-      <position>(20, 0, 17)</position>
-      <hp>350</hp>
-      <color>RGBA(0.910, 1.000, 0.749, 1.000)</color>
-    </NutrientPasteDispenser>
-    <Dresser>
-      <position>(8, 0, 17)</position>
-      <relativeRotation>Counterclockwise</relativeRotation>
-      <stuff>WoodLog</stuff>
-      <quality>Normal</quality>
-      <hp>78</hp>
-      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
-    </Dresser>
+    </Bed>
     <EndTable>
       <rects>
-        <li>(9,17,9,17)</li>
+        <li>(25,10,25,10)</li>
+        <li>(25,14,25,14)</li>
+        <li>(10,18,10,18)</li>
       </rects>
       <relativeRotation>Opposite</relativeRotation>
       <stuff>WoodLog</stuff>
@@ -590,8 +488,132 @@
       <hp>49</hp>
       <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
     </EndTable>
+    <Bed>
+      <positions>
+        <li>(26, 0, 10)</li>
+        <li>(26, 0, 14)</li>
+      </positions>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>91</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed>
+    <ElectricSmithy>
+      <position>(17, 0, 11)</position>
+      <hp>180</hp>
+    </ElectricSmithy>
+    <Bed>
+      <positions>
+        <li>(25, 0, 11)</li>
+        <li>(25, 0, 15)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>91</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed>
+    <SubcoreSoftscanner>
+      <position>(3, 0, 12)</position>
+      <hp>250</hp>
+    </SubcoreSoftscanner>
+    <HiTechResearchBench>
+      <position>(11, 0, 12)</position>
+      <stuff>Steel</stuff>
+      <hp>500</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HiTechResearchBench>
+    <MechBooster>
+      <position>(15, 0, 12)</position>
+      <hp>150</hp>
+    </MechBooster>
+    <FabricationBench>
+      <position>(19, 0, 12)</position>
+      <hp>300</hp>
+    </FabricationBench>
+    <Dresser>
+      <position>(26, 0, 12)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>78</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Dresser>
+    <Door>
+      <rects>
+        <li>(5,14,5,14)</li>
+        <li>(17,19,17,19)</li>
+        <li>(13,20,13,20)</li>
+        <li>(16,20,16,20)</li>
+        <li>(17,22,17,22)</li>
+        <li>(19,22,19,22)</li>
+        <li>(23,22,23,22)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <ChemfuelPoweredGenerator>
+      <positions>
+        <li>(7, 0, 15)</li>
+        <li>(9, 0, 15)</li>
+        <li>(11, 0, 15)</li>
+        <li>(7, 0, 18)</li>
+        <li>(12, 0, 23)</li>
+        <li>(12, 0, 25)</li>
+        <li>(23, 0, 25)</li>
+        <li>(25, 0, 25)</li>
+      </positions>
+      <hp>300</hp>
+    </ChemfuelPoweredGenerator>
+    <Drape>
+      <position>(13, 0, 16)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Cloth</stuff>
+      <hp>100</hp>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </Drape>
+    <VacBarrier>
+      <rects>
+        <li>(22,15,22,15)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>100</hp>
+      <color>RGBA(0.557, 0.557, 0.557, 1.000)</color>
+    </VacBarrier>
+    <Table2x2c>
+      <position>(3, 0, 16)</position>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Table2x2c>
+    <Hopper>
+      <rects>
+        <li>(20,16,21,16)</li>
+      </rects>
+      <hp>100</hp>
+    </Hopper>
+    <NutrientPasteDispenser>
+      <position>(21, 0, 18)</position>
+      <hp>350</hp>
+      <color>RGBA(0.910, 1.000, 0.749, 1.000)</color>
+    </NutrientPasteDispenser>
+    <CommsConsole>
+      <position>(25, 0, 18)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>250</hp>
+    </CommsConsole>
+    <Dresser>
+      <position>(9, 0, 18)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>78</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Dresser>
     <RoyalBed>
-      <position>(10, 0, 18)</position>
+      <position>(11, 0, 19)</position>
       <relativeRotation>Clockwise</relativeRotation>
       <stuff>WoodLog</stuff>
       <quality>Normal</quality>
@@ -599,16 +621,12 @@
       <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
     </RoyalBed>
     <ElectricStove>
-      <position>(15, 0, 17)</position>
+      <position>(16, 0, 18)</position>
       <relativeRotation>Opposite</relativeRotation>
       <hp>180</hp>
     </ElectricStove>
-    <SubcoreSoftscanner>
-      <position>(24, 0, 17)</position>
-      <hp>250</hp>
-    </SubcoreSoftscanner>
     <PokerTable>
-      <position>(2, 0, 18)</position>
+      <position>(3, 0, 19)</position>
       <stuff>WoodLog</stuff>
       <quality>Normal</quality>
       <hp>162</hp>
@@ -616,19 +634,20 @@
     </PokerTable>
     <Cooler>
       <rects>
-        <li>(17,18,17,18)</li>
+        <li>(18,19,18,19)</li>
       </rects>
       <relativeRotation>Counterclockwise</relativeRotation>
       <hp>100</hp>
     </Cooler>
-    <BasicRecharger>
-      <position>(24, 0, 19)</position>
-      <hp>150</hp>
-    </BasicRecharger>
+    <LongRangeMineralScanner>
+      <position>(25, 0, 20)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>250</hp>
+    </LongRangeMineralScanner>
     <Column>
       <rects>
-        <li>(5,21,7,21)</li>
-        <li>(5,25,7,25)</li>
+        <li>(6,22,8,22)</li>
+        <li>(6,26,8,26)</li>
       </rects>
       <stuff>WoodLog</stuff>
       <hp>104</hp>
@@ -636,8 +655,8 @@
     </Column>
     <DarklightBrazier>
       <rects>
-        <li>(8,21,8,21)</li>
-        <li>(8,25,8,25)</li>
+        <li>(9,22,9,22)</li>
+        <li>(9,26,9,26)</li>
       </rects>
       <stuff>Steel</stuff>
       <hp>160</hp>
@@ -645,8 +664,8 @@
     </DarklightBrazier>
     <Drape>
       <positions>
-        <li>(10, 0, 21)</li>
-        <li>(10, 0, 25)</li>
+        <li>(11, 0, 22)</li>
+        <li>(11, 0, 26)</li>
       </positions>
       <relativeRotation>Opposite</relativeRotation>
       <stuff>Cloth</stuff>
@@ -654,14 +673,14 @@
       <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
     </Drape>
     <BilliardsTable>
-      <position>(2, 0, 23)</position>
+      <position>(3, 0, 24)</position>
       <stuff>WoodLog</stuff>
       <quality>Normal</quality>
       <hp>162</hp>
       <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
     </BilliardsTable>
     <GrandThrone>
-      <position>(10, 0, 23)</position>
+      <position>(11, 0, 24)</position>
       <relativeRotation>Counterclockwise</relativeRotation>
       <stuff>Steel</stuff>
       <quality>Normal</quality>
@@ -669,7 +688,7 @@
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </GrandThrone>
     <TableButcher>
-      <position>(23, 0, 22)</position>
+      <position>(25, 0, 23)</position>
       <relativeRotation>Opposite</relativeRotation>
       <stuff>WoodLog</stuff>
       <hp>117</hp>
@@ -677,7 +696,7 @@
     </TableButcher>
     <AnimalFlap>
       <rects>
-        <li>(26,22,26,22)</li>
+        <li>(27,23,27,23)</li>
       </rects>
       <relativeRotation>Clockwise</relativeRotation>
       <stuff>Cloth</stuff>
@@ -686,7 +705,7 @@
     </AnimalFlap>
     <AnimalBed>
       <rects>
-        <li>(22,23,22,23)</li>
+        <li>(23,24,23,24)</li>
       </rects>
       <stuff>Cloth</stuff>
       <quality>Normal</quality>
@@ -695,7 +714,7 @@
     </AnimalBed>
     <AnimalSleepingSpot>
       <rects>
-        <li>(25,23,25,23)</li>
+        <li>(26,24,26,24)</li>
       </rects>
       <color>RGBA(0.631, 0.835, 0.706, 1.000)</color>
     </AnimalSleepingSpot>
@@ -703,7 +722,7 @@
   <terrain>
     <FineTileMarble>
       <rects>
-        <li>(0,0,26,26)</li>
+        <li>(1,1,27,27)</li>
       </rects>
     </FineTileMarble>
   </terrain>
@@ -711,14 +730,14 @@
     <terrainLayerDetail layer="topGrid">
       <FineTileMarble>
         <rects>
-          <li>(0,0,26,26)</li>
+          <li>(1,1,27,27)</li>
         </rects>
       </FineTileMarble>
     </terrainLayerDetail>
     <terrainLayerDetail layer="underGrid">
       <SoilRich>
         <rects>
-          <li>(0,0,26,26)</li>
+          <li>(1,1,27,27)</li>
         </rects>
       </SoilRich>
     </terrainLayerDetail>
