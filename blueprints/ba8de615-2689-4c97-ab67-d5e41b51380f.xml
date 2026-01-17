@@ -1,0 +1,375 @@
+<PrefabDef>
+  <defName>Prefab_20260118_010301</defName>
+  <size>(25,13)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>DMS Workshop</name>
+    <description>based on 11x11 room grid</description>
+    <tags></tags>
+    <author>clothinglotus</author>
+    <category>Workshop</category>
+    <BuildingID>ba8de615-2689-4c97-ab67-d5e41b51380f</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>aoba.fortress.industrial</packageId>
+        <name>Fortifications - Industrial</name>
+        <version></version>
+        <modorder>438</modorder>
+        <steamWorkshopId>2561619583</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>aoba.framework</packageId>
+            <steamWorkshopId>3498575851</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>FT_BlocksConcrete</li>
+          <li>FT_ConcreteTile</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>aoba.fortress.industrial.citadel</packageId>
+        <name>Fortification Industrial - Citadel</name>
+        <version></version>
+        <modorder>467</modorder>
+        <steamWorkshopId>2887532326</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>aoba.fortress.industrial</packageId>
+            <steamWorkshopId>2561619583</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>aoba.framework</packageId>
+            <steamWorkshopId>3498575851</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>FT_transformer</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>aoba.deadmanswitch.core</packageId>
+        <name><![CDATA[The Dead Man's Switch]]></name>
+        <version>1.8.20</version>
+        <modorder>437</modorder>
+        <steamWorkshopId>3121742525</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+          <li>
+            <packageId>aoba.framework</packageId>
+            <steamWorkshopId>3498575851</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>DMS_ReactionChamber</li>
+          <li>DMS_Furnace</li>
+          <li>DMS_MachineCabinet</li>
+          <li>DMS_TableArtifuscle</li>
+          <li>DMS_TableMachinePrinter</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>dubwise.rimefeller</packageId>
+        <name>Rimefeller</name>
+        <version>1.2.1634</version>
+        <modorder>63</modorder>
+        <steamWorkshopId>1321849735</steamWorkshopId>
+        <things>
+          <li>ChemfuelHopper</li>
+          <li>OilPipelineHidden</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>jecrell.doorsexpanded</packageId>
+        <name>Doors Expanded</name>
+        <version></version>
+        <modorder>85</modorder>
+        <steamWorkshopId>3532342422</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>PH_AutodoorTriple</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>DMS Workshop</default>
+        <en>DMS Workshop</en>
+      </name>
+      <description>
+        <default>based on 11x11 room grid</default>
+        <en>based on 11x11 room grid</en>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,24,0)</li>
+        <li>(0,1,0,12)</li>
+        <li>(24,1,24,12)</li>
+        <li>(1,12,10,12)</li>
+        <li>(14,12,23,12)</li>
+      </rects>
+      <stuff>FT_BlocksConcrete</stuff>
+      <hp>500</hp>
+    </Wall>
+    <HiddenConduit>
+      <rects>
+        <li>(0,0,24,0)</li>
+        <li>(0,1,0,12)</li>
+        <li>(24,1,24,12)</li>
+        <li>(1,12,23,12)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <FT_transformer>
+      <positions>
+        <li>(2, 0, 1)</li>
+        <li>(4, 0, 1)</li>
+        <li>(6, 0, 1)</li>
+        <li>(8, 0, 1)</li>
+        <li>(10, 0, 1)</li>
+        <li>(15, 0, 1)</li>
+        <li>(17, 0, 1)</li>
+        <li>(19, 0, 1)</li>
+        <li>(21, 0, 1)</li>
+        <li>(23, 0, 1)</li>
+        <li>(2, 0, 11)</li>
+        <li>(23, 0, 11)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>150</hp>
+    </FT_transformer>
+    <WallLamp>
+      <rects>
+        <li>(8,1,8,1)</li>
+        <li>(16,1,16,1)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>FT_BlocksConcrete</stuff>
+      <hp>70</hp>
+      <glowColor>RGBA(0.839, 0.839, 0.839, 0.000)</glowColor>
+    </WallLamp>
+    <DMS_ReactionChamber>
+      <positions>
+        <li>(12, 0, 2)</li>
+        <li>(6, 0, 3)</li>
+        <li>(18, 0, 3)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>1200</hp>
+    </DMS_ReactionChamber>
+    <FT_transformer>
+      <positions>
+        <li>(1, 0, 2)</li>
+        <li>(1, 0, 4)</li>
+        <li>(13, 0, 4)</li>
+        <li>(1, 0, 9)</li>
+        <li>(3, 0, 10)</li>
+        <li>(6, 0, 10)</li>
+        <li>(9, 0, 10)</li>
+        <li>(14, 0, 10)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>150</hp>
+    </FT_transformer>
+    <DMS_Furnace>
+      <positions>
+        <li>(3, 0, 3)</li>
+        <li>(9, 0, 3)</li>
+        <li>(15, 0, 3)</li>
+        <li>(21, 0, 3)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>2000</hp>
+    </DMS_Furnace>
+    <FT_transformer>
+      <positions>
+        <li>(23, 0, 3)</li>
+        <li>(11, 0, 5)</li>
+        <li>(23, 0, 5)</li>
+        <li>(23, 0, 10)</li>
+        <li>(10, 0, 11)</li>
+        <li>(15, 0, 11)</li>
+        <li>(18, 0, 11)</li>
+        <li>(21, 0, 11)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>150</hp>
+    </FT_transformer>
+    <WallLamp>
+      <rects>
+        <li>(1,4,1,4)</li>
+        <li>(1,8,1,8)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>FT_BlocksConcrete</stuff>
+      <hp>70</hp>
+      <glowColor>RGBA(0.839, 0.839, 0.839, 0.000)</glowColor>
+    </WallLamp>
+    <WallLamp>
+      <rects>
+        <li>(23,4,23,4)</li>
+        <li>(23,8,23,8)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>FT_BlocksConcrete</stuff>
+      <hp>70</hp>
+      <glowColor>RGBA(0.839, 0.839, 0.839, 0.000)</glowColor>
+    </WallLamp>
+    <DMS_MachineCabinet>
+      <positions>
+        <li>(2, 0, 6)</li>
+        <li>(4, 0, 6)</li>
+        <li>(5, 0, 6)</li>
+        <li>(7, 0, 6)</li>
+        <li>(8, 0, 6)</li>
+        <li>(10, 0, 6)</li>
+        <li>(14, 0, 6)</li>
+        <li>(16, 0, 6)</li>
+        <li>(17, 0, 6)</li>
+        <li>(19, 0, 6)</li>
+        <li>(20, 0, 6)</li>
+        <li>(22, 0, 6)</li>
+        <li>(10, 0, 9)</li>
+        <li>(14, 0, 9)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>250</hp>
+    </DMS_MachineCabinet>
+    <ChemfuelHopper>
+      <rects>
+        <li>(1,6,1,6)</li>
+        <li>(23,6,23,6)</li>
+        <li>(1,8,1,8)</li>
+        <li>(23,8,23,8)</li>
+      </rects>
+      <hp>100</hp>
+    </ChemfuelHopper>
+    <OilPipelineHidden>
+      <rects>
+        <li>(1,7,23,7)</li>
+        <li>(12,8,12,12)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </OilPipelineHidden>
+    <DMS_TableArtifuscle>
+      <position>(2, 0, 9)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>200</hp>
+    </DMS_TableArtifuscle>
+    <DMS_TableMachinePrinter>
+      <positions>
+        <li>(5, 0, 9)</li>
+        <li>(8, 0, 9)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>500</hp>
+    </DMS_TableMachinePrinter>
+    <DMS_TableMachinePrinter>
+      <positions>
+        <li>(16, 0, 9)</li>
+        <li>(19, 0, 9)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>500</hp>
+    </DMS_TableMachinePrinter>
+    <DMS_TableArtifuscle>
+      <position>(22, 0, 9)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>200</hp>
+    </DMS_TableArtifuscle>
+    <WallLamp>
+      <rects>
+        <li>(4,11,4,11)</li>
+        <li>(8,11,8,11)</li>
+        <li>(16,11,16,11)</li>
+        <li>(20,11,20,11)</li>
+      </rects>
+      <stuff>FT_BlocksConcrete</stuff>
+      <hp>70</hp>
+      <glowColor>RGBA(0.839, 0.839, 0.839, 0.000)</glowColor>
+    </WallLamp>
+    <FT_transformer>
+      <positions>
+        <li>(4, 0, 11)</li>
+        <li>(7, 0, 11)</li>
+        <li>(16, 0, 11)</li>
+        <li>(19, 0, 11)</li>
+      </positions>
+      <hp>150</hp>
+    </FT_transformer>
+    <PH_AutodoorTriple>
+      <position>(12, 0, 12)</position>
+      <stuff>Steel</stuff>
+      <hp>960</hp>
+    </PH_AutodoorTriple>
+  </things>
+  <terrain>
+    <FT_ConcreteTile>
+      <rects>
+        <li>(1,1,23,11)</li>
+        <li>(11,12,13,12)</li>
+      </rects>
+    </FT_ConcreteTile>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <FT_ConcreteTile>
+        <rects>
+          <li>(1,1,23,11)</li>
+          <li>(11,12,13,12)</li>
+        </rects>
+      </FT_ConcreteTile>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Marble_RoughHewn>
+        <rects>
+          <li>(1,1,16,11)</li>
+          <li>(23,1,23,1)</li>
+          <li>(17,2,17,11)</li>
+          <li>(18,4,18,11)</li>
+          <li>(23,4,23,11)</li>
+          <li>(19,5,22,11)</li>
+          <li>(11,12,13,12)</li>
+        </rects>
+      </Marble_RoughHewn>
+      <Marble_Rough>
+        <rects>
+          <li>(17,1,22,1)</li>
+          <li>(18,2,23,3)</li>
+          <li>(19,4,22,4)</li>
+        </rects>
+      </Marble_Rough>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofRockThick>
+      <rects>
+        <li>(0,0,24,12)</li>
+      </rects>
+    </RoofRockThick>
+  </roofs>
+</PrefabDef>
