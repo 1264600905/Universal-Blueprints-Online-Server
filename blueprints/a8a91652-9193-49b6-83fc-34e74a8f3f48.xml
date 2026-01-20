@@ -1,0 +1,203 @@
+<PrefabDef>
+  <defName>Prefab_20260120_210835</defName>
+  <size>(13,13)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>水栽培室</name>
+    <description></description>
+    <tags></tags>
+    <author>苏几道</author>
+    <category>种植区</category>
+    <BuildingID>a8a91652-9193-49b6-83fc-34e74a8f3f48</BuildingID>
+    <modPackages></modPackages>
+    <multiLanguage>
+      <name>
+        <default>水栽培室</default>
+        <zh-CN>水栽培室</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,5,0)</li>
+        <li>(7,0,12,0)</li>
+        <li>(0,1,0,4)</li>
+        <li>(12,1,12,4)</li>
+        <li>(1,4,2,4)</li>
+        <li>(10,4,11,4)</li>
+        <li>(2,5,2,8)</li>
+        <li>(10,5,10,8)</li>
+        <li>(0,8,1,8)</li>
+        <li>(11,8,12,8)</li>
+        <li>(0,9,0,12)</li>
+        <li>(12,9,12,12)</li>
+        <li>(1,12,5,12)</li>
+        <li>(7,12,11,12)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <hp>510</hp>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Wall>
+    <Door>
+      <rects>
+        <li>(6,0,6,0)</li>
+        <li>(6,12,6,12)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <HiddenConduit>
+      <rects>
+        <li>(6,0,6,11)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <HydroponicsBasin>
+      <positions>
+        <li>(3, 0, 1)</li>
+        <li>(10, 0, 1)</li>
+        <li>(3, 0, 2)</li>
+        <li>(10, 0, 2)</li>
+        <li>(3, 0, 3)</li>
+        <li>(10, 0, 3)</li>
+        <li>(8, 0, 4)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>180</hp>
+    </HydroponicsBasin>
+    <FirefoamPopper>
+      <rects>
+        <li>(7,3,7,3)</li>
+        <li>(5,9,5,9)</li>
+      </rects>
+      <hp>50</hp>
+    </FirefoamPopper>
+    <HydroponicsBasin>
+      <positions>
+        <li>(3, 0, 6)</li>
+        <li>(4, 0, 6)</li>
+        <li>(8, 0, 7)</li>
+        <li>(9, 0, 7)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>180</hp>
+    </HydroponicsBasin>
+    <Fence>
+      <rects>
+        <li>(0,5,0,7)</li>
+        <li>(12,5,12,7)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>26</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Fence>
+    <Heater>
+      <rects>
+        <li>(7,5,7,5)</li>
+        <li>(5,7,5,7)</li>
+      </rects>
+      <hp>100</hp>
+    </Heater>
+    <SunLamp>
+      <rects>
+        <li>(6,6,6,6)</li>
+      </rects>
+      <hp>50</hp>
+    </SunLamp>
+    <HydroponicsBasin>
+      <positions>
+        <li>(4, 0, 8)</li>
+        <li>(2, 0, 9)</li>
+        <li>(9, 0, 9)</li>
+        <li>(2, 0, 10)</li>
+        <li>(9, 0, 10)</li>
+        <li>(2, 0, 11)</li>
+        <li>(9, 0, 11)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>180</hp>
+    </HydroponicsBasin>
+  </things>
+  <terrain>
+    <TileGranite>
+      <rects>
+        <li>(1,1,11,3)</li>
+        <li>(3,4,9,11)</li>
+        <li>(1,9,2,11)</li>
+        <li>(10,9,11,11)</li>
+      </rects>
+    </TileGranite>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <TileGranite>
+        <rects>
+          <li>(1,1,11,3)</li>
+          <li>(3,4,9,11)</li>
+          <li>(1,9,2,11)</li>
+          <li>(10,9,11,11)</li>
+        </rects>
+      </TileGranite>
+      <StrawMatting>
+        <rects>
+          <li>(0,5,1,7)</li>
+          <li>(11,5,12,7)</li>
+        </rects>
+      </StrawMatting>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Granite_Rough>
+        <rects>
+          <li>(1,1,2,3)</li>
+          <li>(3,2,3,7)</li>
+          <li>(4,3,4,8)</li>
+          <li>(5,5,5,9)</li>
+          <li>(6,6,6,11)</li>
+          <li>(7,7,7,8)</li>
+          <li>(9,7,9,11)</li>
+          <li>(8,8,8,10)</li>
+          <li>(10,9,11,11)</li>
+          <li>(7,10,7,11)</li>
+        </rects>
+      </Granite_Rough>
+      <Granite_RoughHewn>
+        <rects>
+          <li>(3,1,11,1)</li>
+          <li>(4,2,11,2)</li>
+          <li>(5,3,11,3)</li>
+          <li>(5,4,9,4)</li>
+          <li>(0,5,1,7)</li>
+          <li>(6,5,9,5)</li>
+          <li>(11,5,12,7)</li>
+          <li>(7,6,9,6)</li>
+          <li>(8,7,8,7)</li>
+          <li>(3,8,3,11)</li>
+          <li>(1,9,2,11)</li>
+          <li>(4,9,4,11)</li>
+          <li>(5,10,5,11)</li>
+        </rects>
+      </Granite_RoughHewn>
+      <Gravel>
+        <rects>
+          <li>(7,9,7,9)</li>
+          <li>(8,11,8,11)</li>
+        </rects>
+      </Gravel>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
