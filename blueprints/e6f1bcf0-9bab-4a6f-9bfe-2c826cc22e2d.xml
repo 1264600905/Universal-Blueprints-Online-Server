@@ -1,0 +1,313 @@
+<PrefabDef>
+  <defName>Prefab_20260125_191100</defName>
+  <size>(11,12)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>工作间</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>车间</category>
+    <BuildingID>e6f1bcf0-9bab-4a6f-9bfe-2c826cc22e2d</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>aoba.fortress.industrial.concrete</packageId>
+        <name>Industrial concrete</name>
+        <version></version>
+        <modorder>38</modorder>
+        <steamWorkshopId>2888037450</steamWorkshopId>
+        <things>
+          <li>FT_BlocksConcrete</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>vanillaexpanded.vfeproduction</packageId>
+        <name>Vanilla Furniture Expanded - Production</name>
+        <version></version>
+        <modorder>81</modorder>
+        <steamWorkshopId>1880253632</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VFE_MachiningCabinet</li>
+          <li>VFE_SmithyCabinet</li>
+          <li>VFE_TailorCabinet</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>vanillaexpanded.vfecore</packageId>
+        <name>Vanilla Furniture Expanded</name>
+        <version></version>
+        <modorder>75</modorder>
+        <steamWorkshopId>1718190143</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VFE_DeskLamp</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>sbz.neatstorage</packageId>
+        <name>[sbz] Neat Storage</name>
+        <version></version>
+        <modorder>16</modorder>
+        <steamWorkshopId>3416243474</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>adaptive.storage.framework</packageId>
+            <steamWorkshopId>3033901359</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>sbz_MidCrate</li>
+          <li>sbz_Crate</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>vanillaexpanded.temperature</packageId>
+        <name>Vanilla Temperature Expanded</name>
+        <version></version>
+        <modorder>86</modorder>
+        <steamWorkshopId>3202046258</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VTE_WallHeater</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>工作间</default>
+        <zh-CN>工作间</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,10,0)</li>
+        <li>(0,1,0,5)</li>
+        <li>(10,1,10,11)</li>
+        <li>(0,7,0,11)</li>
+        <li>(2,11,9,11)</li>
+      </rects>
+      <stuff>FT_BlocksConcrete</stuff>
+      <hp>600</hp>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </Wall>
+    <HiddenConduit>
+      <rects>
+        <li>(0,0,10,0)</li>
+        <li>(0,1,0,11)</li>
+        <li>(5,1,5,11)</li>
+        <li>(10,1,10,11)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <VFE_MachiningCabinet>
+      <position>(5, 0, 2)</position>
+      <hp>100</hp>
+    </VFE_MachiningCabinet>
+    <TableMachining>
+      <position>(5, 0, 4)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>180</hp>
+    </TableMachining>
+    <ToolCabinet>
+      <positions>
+        <li>(6, 0, 4)</li>
+        <li>(6, 0, 6)</li>
+        <li>(6, 0, 8)</li>
+        <li>(4, 0, 9)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>100</hp>
+      <color>RGBA(0.376, 0.447, 0.373, 1.000)</color>
+    </ToolCabinet>
+    <TableSculpting>
+      <position>(7, 0, 4)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>117</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </TableSculpting>
+    <DiningChair>
+      <rects>
+        <li>(4,4,4,4)</li>
+        <li>(4,7,4,7)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DiningChair>
+    <DiningChair>
+      <rects>
+        <li>(8,4,8,4)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DiningChair>
+    <VFE_DeskLamp>
+      <rects>
+        <li>(4,5,4,5)</li>
+      </rects>
+      <hp>50</hp>
+    </VFE_DeskLamp>
+    <Door>
+      <rects>
+        <li>(0,6,0,6)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <ElectricTailoringBench>
+      <position>(5, 0, 7)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>117</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </ElectricTailoringBench>
+    <ElectricTailoringBench>
+      <position>(7, 0, 7)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>117</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </ElectricTailoringBench>
+    <DiningChair>
+      <rects>
+        <li>(8,7,8,7)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DiningChair>
+    <VFE_SmithyCabinet>
+      <position>(1, 0, 10)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>100</hp>
+    </VFE_SmithyCabinet>
+    <DiningChair>
+      <rects>
+        <li>(3,9,3,9)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Masterwork</quality>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DiningChair>
+    <sbz_MidCrate>
+      <position>(5, 0, 9)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </sbz_MidCrate>
+    <VFE_TailorCabinet>
+      <position>(6, 0, 9)</position>
+      <hp>100</hp>
+    </VFE_TailorCabinet>
+    <sbz_Crate>
+      <position>(9, 0, 10)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>130</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </sbz_Crate>
+    <ElectricSmithy>
+      <position>(3, 0, 10)</position>
+      <hp>180</hp>
+    </ElectricSmithy>
+    <sbz_MidCrate>
+      <position>(7, 0, 10)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </sbz_MidCrate>
+    <VTE_WallHeater>
+      <rects>
+        <li>(1,11,1,11)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>100</hp>
+    </VTE_WallHeater>
+  </things>
+  <terrain>
+    <WoodPlankFloor>
+      <rects>
+        <li>(1,1,9,10)</li>
+        <li>(0,6,0,6)</li>
+      </rects>
+    </WoodPlankFloor>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <WoodPlankFloor>
+        <rects>
+          <li>(1,1,9,10)</li>
+          <li>(0,6,0,6)</li>
+        </rects>
+      </WoodPlankFloor>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(1,1,9,10)</li>
+          <li>(0,6,0,6)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,10,11)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,10,11)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
