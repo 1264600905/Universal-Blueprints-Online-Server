@@ -1,10 +1,16 @@
 <PrefabDef>
-  <defName>Prefab_20260125_183429</defName>
+  <defName>Prefab_20260125_223437</defName>
   <size>(37,25)</size>
   <extraInfo>
     <version>1.6.9438.37837</version>
-    <name>开局飞船-前期阵地</name>
-    <description>阵地蓝色位置能站6把链式，黄色位置两个近战，绿色位置挖掘机或机械体；厨房门口旁边的门敞开，让敌人能进家里来，避免敌人砸墙。</description>
+    <name>开局飞船（13×13）前期阵地</name>
+    <description>1.阵地蓝色位置能站6把链式枪，黄色位置两个近战，绿色位置挖掘机或机械体。 2.厨房门口旁边的门敞开，让敌人能进家里来，避免敌人砸墙.
+
+
+
+完整版飞船可以参考“飞天板砖”
+
+</description>
     <tags></tags>
     <author>T2Z1</author>
     <category>奥德赛DLC</category>
@@ -58,12 +64,24 @@
     </modPackages>
     <multiLanguage>
       <name>
-        <default>开局飞船-前期阵地</default>
-        <zh-CN>开局飞船-前期阵地</zh-CN>
+        <default>开局飞船（13×13）前期阵地</default>
+        <zh-CN>开局飞船（13×13）前期阵地</zh-CN>
       </name>
       <description>
-        <default>阵地蓝色位置能站6把链式，黄色位置两个近战，绿色位置挖掘机或机械体；厨房门口旁边的门敞开，让敌人能进家里来，避免敌人砸墙。</default>
-        <zh-CN>阵地蓝色位置能站6把链式，黄色位置两个近战，绿色位置挖掘机或机械体；厨房门口旁边的门敞开，让敌人能进家里来，避免敌人砸墙。</zh-CN>
+        <default>1.阵地蓝色位置能站6把链式枪，黄色位置两个近战，绿色位置挖掘机或机械体。 2.厨房门口旁边的门敞开，让敌人能进家里来，避免敌人砸墙.
+
+
+
+完整版飞船可以参考“飞天板砖”
+
+</default>
+        <zh-CN>1.阵地蓝色位置能站6把链式枪，黄色位置两个近战，绿色位置挖掘机或机械体。 2.厨房门口旁边的门敞开，让敌人能进家里来，避免敌人砸墙.
+
+
+
+完整版飞船可以参考“飞天板砖”
+
+</zh-CN>
       </description>
     </multiLanguage>
   </extraInfo>
@@ -85,21 +103,22 @@
         <li>(12,11,12,12)</li>
         <li>(16,11,20,11)</li>
         <li>(24,11,24,15)</li>
-        <li>(1,12,11,12)</li>
-        <li>(25,12,35,12)</li>
+        <li>(1,12,9,12)</li>
+        <li>(27,12,35,12)</li>
         <li>(0,13,0,20)</li>
-        <li>(30,13,30,14)</li>
+        <li>(30,13,30,15)</li>
         <li>(32,13,32,15)</li>
         <li>(34,13,34,15)</li>
         <li>(36,13,36,20)</li>
-        <li>(1,16,12,16)</li>
+        <li>(12,14,12,16)</li>
+        <li>(1,16,11,16)</li>
         <li>(24,17,24,24)</li>
+        <li>(26,17,26,20)</li>
         <li>(28,17,28,20)</li>
         <li>(30,17,30,20)</li>
         <li>(32,17,32,20)</li>
         <li>(34,17,34,20)</li>
         <li>(12,18,12,24)</li>
-        <li>(26,18,26,20)</li>
         <li>(1,20,11,20)</li>
         <li>(25,20,25,20)</li>
         <li>(27,20,27,20)</li>
@@ -123,6 +142,8 @@
         <li>(20,0,20,0)</li>
         <li>(19,3,19,3)</li>
         <li>(13,4,13,4)</li>
+        <li>(11,11,11,11)</li>
+        <li>(25,11,25,11)</li>
       </rects>
       <stuff>BlocksGranite</stuff>
       <hp>270</hp>
@@ -188,6 +209,8 @@
     <Door>
       <rects>
         <li>(24,4,24,4)</li>
+        <li>(10,11,10,11)</li>
+        <li>(26,11,26,11)</li>
       </rects>
       <relativeRotation>Clockwise</relativeRotation>
       <stuff>BlocksGranite</stuff>
@@ -244,11 +267,20 @@
       </positions>
       <hp>250</hp>
     </SmallThruster>
+    <Cooler>
+      <rects>
+        <li>(10,12,11,12)</li>
+        <li>(14,12,14,12)</li>
+        <li>(22,12,22,12)</li>
+        <li>(25,12,26,12)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>100</hp>
+    </Cooler>
     <Door>
       <rects>
         <li>(13,12,13,12)</li>
         <li>(23,12,23,12)</li>
-        <li>(13,14,13,15)</li>
         <li>(31,15,31,15)</li>
         <li>(33,15,33,15)</li>
         <li>(35,15,35,15)</li>
@@ -263,14 +295,6 @@
       <hp>104</hp>
       <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
     </Door>
-    <Cooler>
-      <rects>
-        <li>(14,12,14,12)</li>
-        <li>(22,12,22,12)</li>
-      </rects>
-      <relativeRotation>Opposite</relativeRotation>
-      <hp>100</hp>
-    </Cooler>
     <TableButcher>
       <position>(17, 0, 12)</position>
       <relativeRotation>Opposite</relativeRotation>
@@ -372,15 +396,6 @@
       <hp>91</hp>
       <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
     </Bed>
-    <Cooler>
-      <rects>
-        <li>(12,14,12,15)</li>
-        <li>(30,15,30,15)</li>
-        <li>(26,17,26,17)</li>
-      </rects>
-      <relativeRotation>Clockwise</relativeRotation>
-      <hp>100</hp>
-    </Cooler>
     <BiofuelRefinery>
       <position>(15, 0, 15)</position>
       <relativeRotation>Clockwise</relativeRotation>
@@ -459,13 +474,6 @@
       <hp>49</hp>
       <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
     </Table1x2c>
-    <Harp>
-      <rects>
-        <li>(13,16,13,16)</li>
-      </rects>
-      <quality>Poor</quality>
-      <hp>70</hp>
-    </Harp>
     <Door>
       <rects>
         <li>(24,16,24,16)</li>
@@ -526,6 +534,13 @@
       <relativeRotation>Counterclockwise</relativeRotation>
       <hp>180</hp>
     </ElectricSmithy>
+    <Harp>
+      <rects>
+        <li>(14,20,14,20)</li>
+      </rects>
+      <quality>Awful</quality>
+      <hp>70</hp>
+    </Harp>
     <LightBall>
       <rects>
         <li>(18,20,18,20)</li>
@@ -579,11 +594,13 @@
           <li>(22,6,23,7)</li>
           <li>(12,7,12,24)</li>
           <li>(23,8,23,8)</li>
+          <li>(10,11,11,20)</li>
           <li>(15,11,21,24)</li>
-          <li>(1,12,11,20)</li>
+          <li>(25,11,26,20)</li>
+          <li>(1,12,9,20)</li>
           <li>(13,12,14,24)</li>
           <li>(22,12,23,24)</li>
-          <li>(25,12,35,20)</li>
+          <li>(27,12,35,20)</li>
           <li>(0,13,0,20)</li>
           <li>(36,13,36,20)</li>
         </rects>
