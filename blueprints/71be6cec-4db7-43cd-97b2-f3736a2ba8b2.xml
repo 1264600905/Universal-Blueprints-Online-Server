@@ -1,0 +1,329 @@
+<PrefabDef>
+  <defName>Prefab_20260127_143841</defName>
+  <size>(46,13)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>阵地</name>
+    <description>速射</description>
+    <tags></tags>
+    <author>编号97</author>
+    <category>防御工事</category>
+    <BuildingID>71be6cec-4db7-43cd-97b2-f3736a2ba8b2</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>ludeon.rimworld.biotech</packageId>
+        <name>Biotech</name>
+        <version></version>
+        <modorder>4</modorder>
+        <things>
+          <li>BandNode</li>
+          <li>MechBooster</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>阵地</default>
+        <zh-CN>阵地</zh-CN>
+      </name>
+      <description>
+        <default>速射</default>
+        <zh-CN>速射</zh-CN>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(3,0,3,0)</li>
+        <li>(21,0,21,1)</li>
+        <li>(0,3,0,3)</li>
+        <li>(0,8,0,10)</li>
+        <li>(2,8,2,10)</li>
+        <li>(3,9,4,9)</li>
+        <li>(21,11,21,12)</li>
+        <li>(3,12,3,12)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <hp>510</hp>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Wall>
+    <BandNode>
+      <positions>
+        <li>(22, 0, 0)</li>
+        <li>(25, 0, 0)</li>
+        <li>(28, 0, 0)</li>
+        <li>(31, 0, 0)</li>
+      </positions>
+      <hp>150</hp>
+    </BandNode>
+    <Wall>
+      <rects>
+        <li>(33,0,45,0)</li>
+        <li>(33,1,33,2)</li>
+        <li>(45,1,45,12)</li>
+        <li>(0,2,0,2)</li>
+        <li>(2,2,4,3)</li>
+        <li>(8,2,32,2)</li>
+        <li>(0,4,0,7)</li>
+        <li>(2,4,2,4)</li>
+        <li>(3,10,4,10)</li>
+        <li>(8,10,33,10)</li>
+        <li>(33,11,33,12)</li>
+        <li>(34,12,43,12)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>BlocksGranite</stuff>
+      <hp>510</hp>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Wall>
+    <HiddenConduit>
+      <rects>
+        <li>(45,0,45,9)</li>
+        <li>(4,1,4,1)</li>
+        <li>(41,5,41,5)</li>
+        <li>(45,11,45,12)</li>
+        <li>(33,12,44,12)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <Fence>
+      <rects>
+        <li>(1,1,1,1)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>BlocksGranite</stuff>
+      <hp>68</hp>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Fence>
+    <Door>
+      <rects>
+        <li>(3,1,3,1)</li>
+        <li>(3,11,3,11)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>BlocksGranite</stuff>
+      <hp>270</hp>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Door>
+    <Turret_MiniTurret>
+      <rects>
+        <li>(4,1,4,1)</li>
+        <li>(4,11,4,11)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>100</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Turret_MiniTurret>
+    <Wall>
+      <rects>
+        <li>(6,2,6,2)</li>
+        <li>(5,3,5,3)</li>
+        <li>(7,3,7,3)</li>
+        <li>(3,4,4,5)</li>
+        <li>(3,7,4,7)</li>
+        <li>(5,9,5,9)</li>
+        <li>(7,9,7,9)</li>
+        <li>(6,10,6,10)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Plasteel</stuff>
+      <hp>840</hp>
+      <color>RGBA(0.627, 0.698, 0.710, 1.000)</color>
+    </Wall>
+    <Barricade>
+      <rects>
+        <li>(34,2,37,2)</li>
+        <li>(37,3,38,3)</li>
+        <li>(38,4,38,4)</li>
+        <li>(38,8,38,9)</li>
+        <li>(37,9,37,10)</li>
+        <li>(34,10,36,10)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>BlocksGranite</stuff>
+      <hp>510</hp>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Barricade>
+    <Door>
+      <rects>
+        <li>(6,3,6,3)</li>
+        <li>(6,9,6,9)</li>
+        <li>(44,12,44,12)</li>
+      </rects>
+      <stuff>Plasteel</stuff>
+      <hp>450</hp>
+      <color>RGBA(0.627, 0.698, 0.710, 1.000)</color>
+    </Door>
+    <Wall>
+      <rects>
+        <li>(8,3,33,3)</li>
+        <li>(3,8,4,8)</li>
+        <li>(8,9,33,9)</li>
+      </rects>
+      <stuff>Plasteel</stuff>
+      <hp>840</hp>
+      <color>RGBA(0.627, 0.698, 0.710, 1.000)</color>
+    </Wall>
+    <Door>
+      <rects>
+        <li>(34,4,34,8)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Plasteel</stuff>
+      <hp>450</hp>
+      <color>RGBA(0.627, 0.698, 0.710, 1.000)</color>
+    </Door>
+    <Stool>
+      <rects>
+        <li>(35,4,36,4)</li>
+        <li>(35,8,36,8)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>BlocksGranite</stuff>
+      <quality>Normal</quality>
+      <hp>128</hp>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Stool>
+    <Column>
+      <rects>
+        <li>(2,5,2,5)</li>
+        <li>(2,7,2,7)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <hp>270</hp>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Column>
+    <Turret_Sniper>
+      <position>(40, 0, 5)</position>
+      <hp>380</hp>
+    </Turret_Sniper>
+    <PowerConduit>
+      <rects>
+        <li>(44,5,44,5)</li>
+        <li>(2,6,2,6)</li>
+        <li>(25,9,25,10)</li>
+        <li>(12,10,12,10)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>80</hp>
+    </PowerConduit>
+    <Barricade>
+      <rects>
+        <li>(2,6,2,6)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>300</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Barricade>
+    <MechBooster>
+      <position>(40, 0, 7)</position>
+      <hp>150</hp>
+    </MechBooster>
+    <HiddenConduit>
+      <rects>
+        <li>(36,10,36,10)</li>
+        <li>(39,10,45,10)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <Fence>
+      <rects>
+        <li>(1,11,1,11)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <hp>68</hp>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Fence>
+    <Turret_Mortar>
+      <positions>
+        <li>(23, 0, 12)</li>
+        <li>(25, 0, 12)</li>
+        <li>(27, 0, 12)</li>
+        <li>(29, 0, 12)</li>
+        <li>(31, 0, 12)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>180</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Turret_Mortar>
+  </things>
+  <terrain>
+    <TileSandstone>
+      <rects>
+        <li>(33,3,33,10)</li>
+      </rects>
+    </TileSandstone>
+    <TileGranite>
+      <rects>
+        <li>(34,3,37,10)</li>
+      </rects>
+    </TileGranite>
+    <TileMarble>
+      <rects>
+        <li>(33,12,45,12)</li>
+      </rects>
+    </TileMarble>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <Concrete>
+        <rects>
+          <li>(22,0,45,2)</li>
+          <li>(38,3,45,11)</li>
+          <li>(21,11,37,11)</li>
+          <li>(21,12,32,12)</li>
+        </rects>
+      </Concrete>
+      <TileSandstone>
+        <rects>
+          <li>(33,3,33,10)</li>
+        </rects>
+      </TileSandstone>
+      <TileGranite>
+        <rects>
+          <li>(34,3,37,10)</li>
+        </rects>
+      </TileGranite>
+      <StrawMatting>
+        <rects>
+          <li>(2,6,3,6)</li>
+          <li>(10,6,32,6)</li>
+        </rects>
+      </StrawMatting>
+      <TileMarble>
+        <rects>
+          <li>(33,12,45,12)</li>
+        </rects>
+      </TileMarble>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Ice>
+        <rects>
+          <li>(22,0,45,2)</li>
+          <li>(33,3,45,12)</li>
+          <li>(2,6,3,6)</li>
+          <li>(10,6,32,6)</li>
+          <li>(21,11,32,12)</li>
+        </rects>
+      </Ice>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(33,0,45,12)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(21,0,32,2)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
