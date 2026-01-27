@@ -1,5 +1,5 @@
 <PrefabDef>
-  <defName>Prefab_20260127_174438</defName>
+  <defName>Prefab_20260127_174512</defName>
   <size>(13,13)</size>
   <extraInfo>
     <version>1.6.9438.37837</version>
@@ -11,36 +11,25 @@
     <BuildingID>cd5fd8ae-111d-41f6-ad20-5ac1dc41372b</BuildingID>
     <modPackages>
       <mod>
-        <packageId>ludeon.rimworld.ideology</packageId>
-        <name>Ideology</name>
-        <version></version>
-        <modorder>3</modorder>
-        <things>
-          <li>Reliquary</li>
-          <li>KneelPillow</li>
-          <li>Lectern</li>
-          <li>LightBall</li>
-          <li>Loudspeaker</li>
-          <li>Altar_Medium</li>
-        </things>
-      </mod>
-      <mod>
         <packageId>ludeon.rimworld.anomaly</packageId>
         <name>Anomaly</name>
         <version></version>
         <modorder>5</modorder>
         <things>
-          <li>PsychicRitualSpot</li>
-          <li>ShardBeacon</li>
+          <li>SerumCentrifuge</li>
         </things>
       </mod>
       <mod>
-        <packageId>ludeon.rimworld.odyssey</packageId>
-        <name>Odyssey</name>
+        <packageId>ludeon.rimworld.biotech</packageId>
+        <name>Biotech</name>
         <version></version>
-        <modorder>6</modorder>
+        <modorder>4</modorder>
         <things>
-          <li>GrasslandSoil</li>
+          <li>StandardRecharger</li>
+          <li>MechBooster</li>
+          <li>BasicRecharger</li>
+          <li>MechGestator</li>
+          <li>LargeMechGestator</li>
         </things>
       </mod>
     </modPackages>
@@ -60,9 +49,8 @@
         <li>(12,1,12,5)</li>
         <li>(0,7,0,12)</li>
         <li>(12,7,12,12)</li>
-        <li>(1,12,3,12)</li>
-        <li>(5,12,7,12)</li>
-        <li>(9,12,11,12)</li>
+        <li>(1,12,5,12)</li>
+        <li>(7,12,11,12)</li>
       </rects>
       <stuff>WoodLog</stuff>
       <hp>195</hp>
@@ -71,37 +59,52 @@
     <Door>
       <rects>
         <li>(6,0,6,0)</li>
-        <li>(4,12,4,12)</li>
-        <li>(8,12,8,12)</li>
+        <li>(6,12,6,12)</li>
       </rects>
       <stuff>Steel</stuff>
       <hp>160</hp>
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </Door>
-    <Reliquary>
-      <position>(1, 0, 3)</position>
-      <relativeRotation>Clockwise</relativeRotation>
-      <stuff>Steel</stuff>
-      <hp>350</hp>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </Reliquary>
-    <Reliquary>
-      <position>(11, 0, 3)</position>
+    <HiTechResearchBench>
+      <positions>
+        <li>(2, 0, 3)</li>
+        <li>(2, 0, 9)</li>
+      </positions>
       <relativeRotation>Counterclockwise</relativeRotation>
       <stuff>Steel</stuff>
-      <hp>350</hp>
+      <hp>250</hp>
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </Reliquary>
-    <PsychicRitualSpot>
-      <position>(6, 0, 4)</position>
-    </PsychicRitualSpot>
-    <ShardBeacon>
-      <rects>
-        <li>(1,5,2,5)</li>
-        <li>(10,5,11,5)</li>
-      </rects>
-      <hp>100</hp>
-    </ShardBeacon>
+    </HiTechResearchBench>
+    <SerumCentrifuge>
+      <position>(4, 0, 2)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>180</hp>
+    </SerumCentrifuge>
+    <Bookcase>
+      <position>(5, 0, 2)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bookcase>
+    <StandardRecharger>
+      <position>(11, 0, 2)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>250</hp>
+    </StandardRecharger>
+    <StandardRecharger>
+      <position>(7, 0, 3)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>250</hp>
+    </StandardRecharger>
+    <MechBooster>
+      <position>(4, 0, 4)</position>
+      <hp>150</hp>
+    </MechBooster>
+    <BasicRecharger>
+      <position>(10, 0, 4)</position>
+      <hp>150</hp>
+    </BasicRecharger>
     <Door>
       <rects>
         <li>(0,6,0,6)</li>
@@ -112,99 +115,44 @@
       <hp>160</hp>
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </Door>
-    <KneelPillow>
+    <FloodLight>
       <rects>
-        <li>(1,7,3,7)</li>
-        <li>(9,7,11,7)</li>
-        <li>(1,9,3,9)</li>
-        <li>(9,9,11,9)</li>
+        <li>(6,6,6,6)</li>
       </rects>
+      <hp>120</hp>
+    </FloodLight>
+    <MultiAnalyzer>
+      <position>(4, 0, 7)</position>
+      <hp>200</hp>
+    </MultiAnalyzer>
+    <Shelf>
+      <position>(8, 0, 7)</position>
       <relativeRotation>Opposite</relativeRotation>
-      <stuff>Cloth</stuff>
-      <quality>Normal</quality>
-      <hp>20</hp>
-      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
-    </KneelPillow>
-    <Reliquary>
-      <position>(6, 0, 9)</position>
-      <relativeRotation>Opposite</relativeRotation>
-      <stuff>Steel</stuff>
-      <hp>350</hp>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </Reliquary>
-    <Lectern>
-      <rects>
-        <li>(5,10,5,10)</li>
-      </rects>
-      <relativeRotation>Clockwise</relativeRotation>
       <stuff>WoodLog</stuff>
       <hp>65</hp>
       <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
-    </Lectern>
-    <LightBall>
-      <rects>
-        <li>(7,10,7,10)</li>
-      </rects>
-      <hp>100</hp>
-    </LightBall>
-    <Loudspeaker>
-      <rects>
-        <li>(1,11,3,11)</li>
-        <li>(9,11,11,11)</li>
-      </rects>
-      <hp>100</hp>
-    </Loudspeaker>
-    <Altar_Medium>
-      <position>(6, 0, 11)</position>
-      <stuff>Steel</stuff>
+    </Shelf>
+    <BasicRecharger>
+      <position>(10, 0, 7)</position>
+      <relativeRotation>Opposite</relativeRotation>
       <hp>150</hp>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </Altar_Medium>
+    </BasicRecharger>
+    <MechGestator>
+      <position>(8, 0, 9)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>250</hp>
+    </MechGestator>
+    <LargeMechGestator>
+      <position>(10, 0, 9)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>350</hp>
+    </LargeMechGestator>
+    <DrugLab>
+      <position>(4, 0, 11)</position>
+      <stuff>WoodLog</stuff>
+      <hp>78</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DrugLab>
   </things>
-  <terrain>
-    <TileMarble>
-      <rects>
-        <li>(1,1,4,5)</li>
-        <li>(8,1,11,5)</li>
-        <li>(1,7,3,11)</li>
-        <li>(5,7,7,11)</li>
-        <li>(9,7,11,11)</li>
-      </rects>
-    </TileMarble>
-  </terrain>
-  <terrainLayers>
-    <terrainLayerDetail layer="topGrid">
-      <CarpetRed>
-        <rects>
-          <li>(5,0,7,6)</li>
-          <li>(0,6,4,6)</li>
-          <li>(8,6,12,6)</li>
-          <li>(4,7,4,12)</li>
-          <li>(8,7,8,12)</li>
-        </rects>
-      </CarpetRed>
-      <TileMarble>
-        <rects>
-          <li>(1,1,4,5)</li>
-          <li>(8,1,11,5)</li>
-          <li>(1,7,3,11)</li>
-          <li>(5,7,7,11)</li>
-          <li>(9,7,11,11)</li>
-        </rects>
-      </TileMarble>
-    </terrainLayerDetail>
-    <terrainLayerDetail layer="underGrid">
-      <GrasslandSoil>
-        <rects>
-          <li>(5,0,7,11)</li>
-          <li>(1,1,4,11)</li>
-          <li>(8,1,11,11)</li>
-          <li>(0,6,0,6)</li>
-          <li>(12,6,12,6)</li>
-          <li>(4,12,4,12)</li>
-          <li>(8,12,8,12)</li>
-        </rects>
-      </GrasslandSoil>
-    </terrainLayerDetail>
-  </terrainLayers>
+  <terrainLayers></terrainLayers>
 </PrefabDef>
