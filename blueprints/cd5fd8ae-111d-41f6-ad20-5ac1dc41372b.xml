@@ -1,5 +1,5 @@
 <PrefabDef>
-  <defName>Prefab_20260127_174047</defName>
+  <defName>Prefab_20260127_174438</defName>
   <size>(13,13)</size>
   <extraInfo>
     <version>1.6.9438.37837</version>
@@ -7,20 +7,31 @@
     <description></description>
     <tags></tags>
     <author></author>
-    <category>其他</category>
+    <category>基地蓝图</category>
     <BuildingID>cd5fd8ae-111d-41f6-ad20-5ac1dc41372b</BuildingID>
     <modPackages>
       <mod>
-        <packageId>ludeon.rimworld.royalty</packageId>
-        <name>Royalty</name>
+        <packageId>ludeon.rimworld.ideology</packageId>
+        <name>Ideology</name>
         <version></version>
-        <modorder>2</modorder>
+        <modorder>3</modorder>
         <things>
-          <li>Brazier</li>
-          <li>Piano</li>
-          <li>Drape</li>
-          <li>GrandThrone</li>
-          <li>FineTileMarble</li>
+          <li>Reliquary</li>
+          <li>KneelPillow</li>
+          <li>Lectern</li>
+          <li>LightBall</li>
+          <li>Loudspeaker</li>
+          <li>Altar_Medium</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.anomaly</packageId>
+        <name>Anomaly</name>
+        <version></version>
+        <modorder>5</modorder>
+        <things>
+          <li>PsychicRitualSpot</li>
+          <li>ShardBeacon</li>
         </things>
       </mod>
       <mod>
@@ -45,15 +56,13 @@
       <rects>
         <li>(0,0,5,0)</li>
         <li>(7,0,12,0)</li>
-        <li>(0,1,0,4)</li>
-        <li>(12,1,12,3)</li>
-        <li>(7,5,8,5)</li>
-        <li>(10,5,12,5)</li>
-        <li>(0,6,0,12)</li>
-        <li>(6,6,6,12)</li>
-        <li>(12,6,12,12)</li>
-        <li>(1,12,5,12)</li>
-        <li>(7,12,11,12)</li>
+        <li>(0,1,0,5)</li>
+        <li>(12,1,12,5)</li>
+        <li>(0,7,0,12)</li>
+        <li>(12,7,12,12)</li>
+        <li>(1,12,3,12)</li>
+        <li>(5,12,7,12)</li>
+        <li>(9,12,11,12)</li>
       </rects>
       <stuff>WoodLog</stuff>
       <hp>195</hp>
@@ -62,187 +71,138 @@
     <Door>
       <rects>
         <li>(6,0,6,0)</li>
-        <li>(9,5,9,5)</li>
+        <li>(4,12,4,12)</li>
+        <li>(8,12,8,12)</li>
       </rects>
       <stuff>Steel</stuff>
       <hp>160</hp>
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </Door>
-    <DiningChair>
-      <rects>
-        <li>(1,1,2,1)</li>
-        <li>(4,1,5,1)</li>
-      </rects>
-      <stuff>WoodLog</stuff>
-      <quality>Normal</quality>
-      <hp>65</hp>
-      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
-    </DiningChair>
-    <PokerTable>
-      <position>(1, 0, 2)</position>
-      <stuff>WoodLog</stuff>
-      <quality>Normal</quality>
-      <hp>162</hp>
-      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
-    </PokerTable>
-    <DiningChair>
-      <rects>
-        <li>(3,2,3,3)</li>
-        <li>(6,2,6,3)</li>
-      </rects>
-      <relativeRotation>Counterclockwise</relativeRotation>
-      <stuff>WoodLog</stuff>
-      <quality>Normal</quality>
-      <hp>65</hp>
-      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
-    </DiningChair>
-    <Table2x2c>
-      <position>(4, 0, 2)</position>
-      <stuff>WoodLog</stuff>
-      <quality>Normal</quality>
-      <hp>65</hp>
-      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
-    </Table2x2c>
-    <BilliardsTable>
-      <position>(9, 0, 3)</position>
-      <relativeRotation>Clockwise</relativeRotation>
-      <stuff>WoodLog</stuff>
-      <quality>Normal</quality>
-      <hp>162</hp>
-      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
-    </BilliardsTable>
-    <DiningChair>
-      <rects>
-        <li>(1,4,2,4)</li>
-        <li>(4,4,5,4)</li>
-      </rects>
-      <relativeRotation>Opposite</relativeRotation>
-      <stuff>WoodLog</stuff>
-      <quality>Normal</quality>
-      <hp>65</hp>
-      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
-    </DiningChair>
-    <Door>
-      <rects>
-        <li>(12,4,12,4)</li>
-        <li>(0,5,0,5)</li>
-      </rects>
+    <Reliquary>
+      <position>(1, 0, 3)</position>
       <relativeRotation>Clockwise</relativeRotation>
       <stuff>Steel</stuff>
-      <hp>160</hp>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </Door>
-    <Brazier>
-      <rects>
-        <li>(6,5,6,5)</li>
-        <li>(5,6,5,6)</li>
-      </rects>
-      <stuff>Steel</stuff>
-      <hp>80</hp>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </Brazier>
-    <Column>
-      <rects>
-        <li>(1,7,1,9)</li>
-        <li>(5,7,5,9)</li>
-      </rects>
-      <stuff>WoodLog</stuff>
-      <hp>104</hp>
-      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
-    </Column>
-    <Piano>
-      <position>(3, 0, 8)</position>
-      <relativeRotation>Opposite</relativeRotation>
-      <quality>Legendary</quality>
-      <hp>180</hp>
-    </Piano>
-    <Drape>
-      <position>(10, 0, 7)</position>
-      <stuff>Cloth</stuff>
-      <hp>100</hp>
-      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
-    </Drape>
-    <RoyalBed>
-      <position>(11, 0, 8)</position>
-      <relativeRotation>Counterclockwise</relativeRotation>
-      <stuff>WoodLog</stuff>
-      <quality>Normal</quality>
-      <hp>130</hp>
-      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
-    </RoyalBed>
-    <Drape>
-      <positions>
-        <li>(1, 0, 11)</li>
-        <li>(5, 0, 11)</li>
-      </positions>
-      <relativeRotation>Clockwise</relativeRotation>
-      <stuff>Cloth</stuff>
-      <hp>100</hp>
-      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
-    </Drape>
-    <GrandThrone>
-      <position>(3, 0, 11)</position>
-      <relativeRotation>Opposite</relativeRotation>
-      <stuff>Steel</stuff>
-      <quality>Normal</quality>
       <hp>350</hp>
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </GrandThrone>
-    <CommsConsole>
-      <position>(8, 0, 11)</position>
-      <relativeRotation>Opposite</relativeRotation>
-      <hp>250</hp>
-    </CommsConsole>
-    <EndTable>
-      <rects>
-        <li>(11,10,11,10)</li>
-      </rects>
+    </Reliquary>
+    <Reliquary>
+      <position>(11, 0, 3)</position>
       <relativeRotation>Counterclockwise</relativeRotation>
-      <stuff>WoodLog</stuff>
-      <quality>Normal</quality>
-      <hp>49</hp>
-      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
-    </EndTable>
-    <Dresser>
-      <position>(11, 0, 11)</position>
+      <stuff>Steel</stuff>
+      <hp>350</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Reliquary>
+    <PsychicRitualSpot>
+      <position>(6, 0, 4)</position>
+    </PsychicRitualSpot>
+    <ShardBeacon>
+      <rects>
+        <li>(1,5,2,5)</li>
+        <li>(10,5,11,5)</li>
+      </rects>
+      <hp>100</hp>
+    </ShardBeacon>
+    <Door>
+      <rects>
+        <li>(0,6,0,6)</li>
+        <li>(12,6,12,6)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>160</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Door>
+    <KneelPillow>
+      <rects>
+        <li>(1,7,3,7)</li>
+        <li>(9,7,11,7)</li>
+        <li>(1,9,3,9)</li>
+        <li>(9,9,11,9)</li>
+      </rects>
       <relativeRotation>Opposite</relativeRotation>
-      <stuff>WoodLog</stuff>
+      <stuff>Cloth</stuff>
       <quality>Normal</quality>
-      <hp>78</hp>
+      <hp>20</hp>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </KneelPillow>
+    <Reliquary>
+      <position>(6, 0, 9)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>350</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Reliquary>
+    <Lectern>
+      <rects>
+        <li>(5,10,5,10)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>65</hp>
       <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
-    </Dresser>
+    </Lectern>
+    <LightBall>
+      <rects>
+        <li>(7,10,7,10)</li>
+      </rects>
+      <hp>100</hp>
+    </LightBall>
+    <Loudspeaker>
+      <rects>
+        <li>(1,11,3,11)</li>
+        <li>(9,11,11,11)</li>
+      </rects>
+      <hp>100</hp>
+    </Loudspeaker>
+    <Altar_Medium>
+      <position>(6, 0, 11)</position>
+      <stuff>Steel</stuff>
+      <hp>150</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Altar_Medium>
   </things>
   <terrain>
-    <FineTileMarble>
+    <TileMarble>
       <rects>
-        <li>(6,0,6,11)</li>
-        <li>(1,1,5,11)</li>
-        <li>(7,1,11,11)</li>
-        <li>(12,4,12,4)</li>
-        <li>(0,5,0,5)</li>
+        <li>(1,1,4,5)</li>
+        <li>(8,1,11,5)</li>
+        <li>(1,7,3,11)</li>
+        <li>(5,7,7,11)</li>
+        <li>(9,7,11,11)</li>
       </rects>
-    </FineTileMarble>
+    </TileMarble>
   </terrain>
   <terrainLayers>
     <terrainLayerDetail layer="topGrid">
-      <FineTileMarble>
+      <CarpetRed>
         <rects>
-          <li>(6,0,6,11)</li>
-          <li>(1,1,5,11)</li>
-          <li>(7,1,11,11)</li>
-          <li>(12,4,12,4)</li>
-          <li>(0,5,0,5)</li>
+          <li>(5,0,7,6)</li>
+          <li>(0,6,4,6)</li>
+          <li>(8,6,12,6)</li>
+          <li>(4,7,4,12)</li>
+          <li>(8,7,8,12)</li>
         </rects>
-      </FineTileMarble>
+      </CarpetRed>
+      <TileMarble>
+        <rects>
+          <li>(1,1,4,5)</li>
+          <li>(8,1,11,5)</li>
+          <li>(1,7,3,11)</li>
+          <li>(5,7,7,11)</li>
+          <li>(9,7,11,11)</li>
+        </rects>
+      </TileMarble>
     </terrainLayerDetail>
     <terrainLayerDetail layer="underGrid">
       <GrasslandSoil>
         <rects>
-          <li>(6,0,6,11)</li>
-          <li>(1,1,5,11)</li>
-          <li>(7,1,11,11)</li>
-          <li>(12,4,12,4)</li>
-          <li>(0,5,0,5)</li>
+          <li>(5,0,7,11)</li>
+          <li>(1,1,4,11)</li>
+          <li>(8,1,11,11)</li>
+          <li>(0,6,0,6)</li>
+          <li>(12,6,12,6)</li>
+          <li>(4,12,4,12)</li>
+          <li>(8,12,8,12)</li>
         </rects>
       </GrasslandSoil>
     </terrainLayerDetail>
