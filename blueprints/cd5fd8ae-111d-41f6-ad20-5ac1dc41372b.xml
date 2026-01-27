@@ -1,5 +1,5 @@
 <PrefabDef>
-  <defName>Prefab_20260127_174512</defName>
+  <defName>Prefab_20260127_174539</defName>
   <size>(13,13)</size>
   <extraInfo>
     <version>1.6.9438.37837</version>
@@ -11,25 +11,14 @@
     <BuildingID>cd5fd8ae-111d-41f6-ad20-5ac1dc41372b</BuildingID>
     <modPackages>
       <mod>
-        <packageId>ludeon.rimworld.anomaly</packageId>
-        <name>Anomaly</name>
-        <version></version>
-        <modorder>5</modorder>
-        <things>
-          <li>SerumCentrifuge</li>
-        </things>
-      </mod>
-      <mod>
         <packageId>ludeon.rimworld.biotech</packageId>
         <name>Biotech</name>
         <version></version>
         <modorder>4</modorder>
         <things>
-          <li>StandardRecharger</li>
-          <li>MechBooster</li>
-          <li>BasicRecharger</li>
-          <li>MechGestator</li>
-          <li>LargeMechGestator</li>
+          <li>GeneProcessor</li>
+          <li>GeneBank</li>
+          <li>GeneAssembler</li>
         </things>
       </mod>
     </modPackages>
@@ -65,46 +54,55 @@
       <hp>160</hp>
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </Door>
-    <HiTechResearchBench>
+    <GeneProcessor>
       <positions>
-        <li>(2, 0, 3)</li>
-        <li>(2, 0, 9)</li>
+        <li>(1, 0, 1)</li>
+        <li>(3, 0, 1)</li>
+        <li>(8, 0, 1)</li>
+        <li>(10, 0, 1)</li>
+        <li>(1, 0, 3)</li>
+        <li>(10, 0, 3)</li>
+        <li>(1, 0, 8)</li>
+        <li>(3, 0, 8)</li>
+        <li>(8, 0, 8)</li>
+        <li>(10, 0, 8)</li>
+        <li>(1, 0, 10)</li>
+        <li>(3, 0, 10)</li>
+        <li>(8, 0, 10)</li>
+        <li>(10, 0, 10)</li>
+      </positions>
+      <hp>350</hp>
+    </GeneProcessor>
+    <GeneBank>
+      <positions>
+        <li>(5, 0, 1)</li>
+        <li>(7, 0, 1)</li>
+        <li>(3, 0, 3)</li>
+        <li>(9, 0, 3)</li>
       </positions>
       <relativeRotation>Counterclockwise</relativeRotation>
-      <stuff>Steel</stuff>
-      <hp>250</hp>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </HiTechResearchBench>
-    <SerumCentrifuge>
-      <position>(4, 0, 2)</position>
+      <hp>200</hp>
+    </GeneBank>
+    <GeneAssembler>
+      <position>(6, 0, 5)</position>
       <relativeRotation>Opposite</relativeRotation>
-      <hp>180</hp>
-    </SerumCentrifuge>
-    <Bookcase>
-      <position>(5, 0, 2)</position>
-      <relativeRotation>Clockwise</relativeRotation>
-      <stuff>WoodLog</stuff>
-      <hp>65</hp>
-      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
-    </Bookcase>
-    <StandardRecharger>
-      <position>(11, 0, 2)</position>
-      <relativeRotation>Counterclockwise</relativeRotation>
-      <hp>250</hp>
-    </StandardRecharger>
-    <StandardRecharger>
-      <position>(7, 0, 3)</position>
-      <relativeRotation>Clockwise</relativeRotation>
-      <hp>250</hp>
-    </StandardRecharger>
-    <MechBooster>
-      <position>(4, 0, 4)</position>
-      <hp>150</hp>
-    </MechBooster>
-    <BasicRecharger>
-      <position>(10, 0, 4)</position>
-      <hp>150</hp>
-    </BasicRecharger>
+      <hp>500</hp>
+    </GeneAssembler>
+    <GeneBank>
+      <positions>
+        <li>(2, 0, 5)</li>
+        <li>(2, 0, 7)</li>
+        <li>(4, 0, 7)</li>
+        <li>(9, 0, 7)</li>
+        <li>(11, 0, 7)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>200</hp>
+    </GeneBank>
+    <GeneBank>
+      <position>(10, 0, 5)</position>
+      <hp>200</hp>
+    </GeneBank>
     <Door>
       <rects>
         <li>(0,6,0,6)</li>
@@ -121,38 +119,16 @@
       </rects>
       <hp>120</hp>
     </FloodLight>
-    <MultiAnalyzer>
-      <position>(4, 0, 7)</position>
+    <GeneBank>
+      <positions>
+        <li>(5, 0, 9)</li>
+        <li>(7, 0, 9)</li>
+        <li>(5, 0, 11)</li>
+        <li>(7, 0, 11)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
       <hp>200</hp>
-    </MultiAnalyzer>
-    <Shelf>
-      <position>(8, 0, 7)</position>
-      <relativeRotation>Opposite</relativeRotation>
-      <stuff>WoodLog</stuff>
-      <hp>65</hp>
-      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
-    </Shelf>
-    <BasicRecharger>
-      <position>(10, 0, 7)</position>
-      <relativeRotation>Opposite</relativeRotation>
-      <hp>150</hp>
-    </BasicRecharger>
-    <MechGestator>
-      <position>(8, 0, 9)</position>
-      <relativeRotation>Counterclockwise</relativeRotation>
-      <hp>250</hp>
-    </MechGestator>
-    <LargeMechGestator>
-      <position>(10, 0, 9)</position>
-      <relativeRotation>Counterclockwise</relativeRotation>
-      <hp>350</hp>
-    </LargeMechGestator>
-    <DrugLab>
-      <position>(4, 0, 11)</position>
-      <stuff>WoodLog</stuff>
-      <hp>78</hp>
-      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
-    </DrugLab>
+    </GeneBank>
   </things>
   <terrainLayers></terrainLayers>
 </PrefabDef>
