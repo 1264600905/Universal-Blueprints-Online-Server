@@ -1,6 +1,6 @@
 <PrefabDef>
-  <defName>Prefab_20260127_174539</defName>
-  <size>(13,13)</size>
+  <defName>Prefab_20260127_174801</defName>
+  <size>(13,12)</size>
   <extraInfo>
     <version>1.6.9438.37837</version>
     <name>13×13模块</name>
@@ -22,6 +22,11 @@
         </things>
       </mod>
     </modPackages>
+    <foldGroup>
+      <groupKey></groupKey>
+      <displayOrder>3</displayOrder>
+      <isCover>true</isCover>
+    </foldGroup>
     <multiLanguage>
       <name>
         <default>13×13模块</default>
@@ -32,81 +37,70 @@
   <things>
     <Wall>
       <rects>
-        <li>(0,0,5,0)</li>
-        <li>(7,0,12,0)</li>
-        <li>(0,1,0,5)</li>
-        <li>(12,1,12,5)</li>
-        <li>(0,7,0,12)</li>
-        <li>(12,7,12,12)</li>
-        <li>(1,12,5,12)</li>
-        <li>(7,12,11,12)</li>
+        <li>(0,0,0,4)</li>
+        <li>(12,0,12,4)</li>
+        <li>(0,6,0,11)</li>
+        <li>(12,6,12,11)</li>
+        <li>(1,11,5,11)</li>
+        <li>(7,11,11,11)</li>
       </rects>
       <stuff>WoodLog</stuff>
       <hp>195</hp>
       <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
     </Wall>
-    <Door>
-      <rects>
-        <li>(6,0,6,0)</li>
-        <li>(6,12,6,12)</li>
-      </rects>
-      <stuff>Steel</stuff>
-      <hp>160</hp>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </Door>
     <GeneProcessor>
       <positions>
-        <li>(1, 0, 1)</li>
-        <li>(3, 0, 1)</li>
-        <li>(8, 0, 1)</li>
-        <li>(10, 0, 1)</li>
-        <li>(1, 0, 3)</li>
-        <li>(10, 0, 3)</li>
-        <li>(1, 0, 8)</li>
-        <li>(3, 0, 8)</li>
-        <li>(8, 0, 8)</li>
-        <li>(10, 0, 8)</li>
-        <li>(1, 0, 10)</li>
-        <li>(3, 0, 10)</li>
-        <li>(8, 0, 10)</li>
-        <li>(10, 0, 10)</li>
+        <li>(1, 0, 0)</li>
+        <li>(3, 0, 0)</li>
+        <li>(8, 0, 0)</li>
+        <li>(10, 0, 0)</li>
+        <li>(1, 0, 2)</li>
+        <li>(10, 0, 2)</li>
+        <li>(1, 0, 7)</li>
+        <li>(3, 0, 7)</li>
+        <li>(8, 0, 7)</li>
+        <li>(10, 0, 7)</li>
+        <li>(1, 0, 9)</li>
+        <li>(3, 0, 9)</li>
+        <li>(8, 0, 9)</li>
+        <li>(10, 0, 9)</li>
       </positions>
       <hp>350</hp>
     </GeneProcessor>
     <GeneBank>
       <positions>
-        <li>(5, 0, 1)</li>
-        <li>(7, 0, 1)</li>
-        <li>(3, 0, 3)</li>
-        <li>(9, 0, 3)</li>
+        <li>(5, 0, 0)</li>
+        <li>(7, 0, 0)</li>
+        <li>(3, 0, 2)</li>
+        <li>(9, 0, 2)</li>
       </positions>
       <relativeRotation>Counterclockwise</relativeRotation>
       <hp>200</hp>
     </GeneBank>
     <GeneAssembler>
-      <position>(6, 0, 5)</position>
+      <position>(6, 0, 4)</position>
       <relativeRotation>Opposite</relativeRotation>
       <hp>500</hp>
     </GeneAssembler>
     <GeneBank>
       <positions>
-        <li>(2, 0, 5)</li>
-        <li>(2, 0, 7)</li>
-        <li>(4, 0, 7)</li>
-        <li>(9, 0, 7)</li>
-        <li>(11, 0, 7)</li>
+        <li>(2, 0, 4)</li>
+        <li>(2, 0, 6)</li>
+        <li>(4, 0, 6)</li>
+        <li>(9, 0, 6)</li>
+        <li>(11, 0, 6)</li>
       </positions>
       <relativeRotation>Opposite</relativeRotation>
       <hp>200</hp>
     </GeneBank>
     <GeneBank>
-      <position>(10, 0, 5)</position>
+      <position>(10, 0, 4)</position>
       <hp>200</hp>
     </GeneBank>
     <Door>
       <rects>
-        <li>(0,6,0,6)</li>
-        <li>(12,6,12,6)</li>
+        <li>(0,5,0,5)</li>
+        <li>(12,5,12,5)</li>
       </rects>
       <relativeRotation>Clockwise</relativeRotation>
       <stuff>Steel</stuff>
@@ -115,20 +109,28 @@
     </Door>
     <FloodLight>
       <rects>
-        <li>(6,6,6,6)</li>
+        <li>(6,5,6,5)</li>
       </rects>
       <hp>120</hp>
     </FloodLight>
     <GeneBank>
       <positions>
-        <li>(5, 0, 9)</li>
-        <li>(7, 0, 9)</li>
-        <li>(5, 0, 11)</li>
-        <li>(7, 0, 11)</li>
+        <li>(5, 0, 8)</li>
+        <li>(7, 0, 8)</li>
+        <li>(5, 0, 10)</li>
+        <li>(7, 0, 10)</li>
       </positions>
       <relativeRotation>Clockwise</relativeRotation>
       <hp>200</hp>
     </GeneBank>
+    <Door>
+      <rects>
+        <li>(6,11,6,11)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>160</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Door>
   </things>
   <terrainLayers></terrainLayers>
 </PrefabDef>
