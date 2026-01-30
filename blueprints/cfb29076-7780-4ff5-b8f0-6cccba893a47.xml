@@ -1,9 +1,9 @@
 <PrefabDef>
-  <defName>Prefab_20260126_094237</defName>
-  <size>(28,29)</size>
+  <defName>Prefab_20260130_104049</defName>
+  <size>(251,46)</size>
   <extraInfo>
     <version>1.6.9438.37837</version>
-    <name>核能区</name>
+    <name>基地4</name>
     <description></description>
     <tags></tags>
     <author></author>
@@ -11,35 +11,55 @@
     <BuildingID>cfb29076-7780-4ff5-b8f0-6cccba893a47</BuildingID>
     <modPackages>
       <mod>
-        <packageId>dubwise.rimatomics</packageId>
-        <name>Dubs Rimatomics</name>
-        <version>1.7.3551</version>
-        <modorder>45</modorder>
-        <steamWorkshopId>1127530465</steamWorkshopId>
+        <packageId>lsk.rabbiedefensefacilitiesandturrets</packageId>
+        <name>[LSK]月兔扩展——防御建筑和炮塔</name>
+        <version></version>
+        <modorder>197</modorder>
+        <steamWorkshopId>3379692207</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
         <things>
-          <li>RadiationShielding</li>
-          <li>controllerLoomHidden</li>
-          <li>ReactorCoreC</li>
-          <li>waterPipeHidden</li>
-          <li>RadiationDetector</li>
-          <li>steamPipeHidden</li>
-          <li>DU_Blastdoor</li>
-          <li>Transformer</li>
-          <li>HighVoltageHidden</li>
-          <li>ReactorCoreA</li>
-          <li>BigTurbine</li>
-          <li>coolingPipeHidden</li>
+          <li>LSK_RB_Fortified_WallWall</li>
+          <li>LSK_RB_Fortress_Floor_A</li>
+          <li>LSK_RB_Fortress_Floor_B</li>
         </things>
       </mod>
       <mod>
-        <packageId>dubwise.dubscentralheating</packageId>
-        <name>Dubs Central Heating</name>
-        <version>1.1.1012</version>
-        <modorder>123</modorder>
-        <steamWorkshopId>2619214952</steamWorkshopId>
+        <packageId>tw.tangsbiome.rainbowforest</packageId>
+        <name>[TW1.6]幻彩林地 Rainbow forest</name>
+        <version></version>
+        <modorder>18</modorder>
+        <steamWorkshopId>3532501549</steamWorkshopId>
         <things>
-          <li>airPipeHidden</li>
-          <li>HeatingPipeHidden</li>
+          <li>TWRL_Resource_PinkCrystal</li>
+          <li>TWRL_Resource_FairyWood</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>dubwise.rimefeller</packageId>
+        <name>Rimefeller</name>
+        <version>1.2.1634</version>
+        <modorder>74</modorder>
+        <steamWorkshopId>1321849735</steamWorkshopId>
+        <things>
+          <li>OilPipelineHidden</li>
+          <li>FuelStorage</li>
+          <li>CrudeCracker</li>
+          <li>OilStorage</li>
+          <li>ResourceConsole</li>
+          <li>Filth_OilSlick</li>
+          <li>DeepOilWell</li>
+          <li>DeepOilWellHead</li>
+          <li>ChemfuelSiphon</li>
+          <li>ChemfuelHopper</li>
         </things>
       </mod>
       <mod>
@@ -55,23 +75,170 @@
           </li>
         </dependencies>
         <things>
+          <li>PH_AutodoorTriple</li>
+          <li>PH_DoorBlastDoor</li>
           <li>PH_AutodoorDouble</li>
         </things>
       </mod>
       <mod>
-        <packageId>src.core.markeazzyh</packageId>
-        <name>[SRC]Miho,Star Ring Corporation</name>
+        <packageId>dubwise.rimatomics</packageId>
+        <name>Dubs Rimatomics</name>
+        <version>1.7.3551</version>
+        <modorder>45</modorder>
+        <steamWorkshopId>1127530465</steamWorkshopId>
+        <things>
+          <li>coolingPipeHidden</li>
+          <li>RadiationShielding</li>
+          <li>MissileSilo</li>
+          <li>PlutoniumProcessor</li>
+          <li>WeaponsBench</li>
+          <li>ResearchReactor</li>
+          <li>TableRimatomicsMachining</li>
+          <li>BigTurbine</li>
+          <li>controllerLoomHidden</li>
+          <li>steamPipeHidden</li>
+          <li>ReactorCoreB</li>
+          <li>ReactorCoreC</li>
+          <li>ReactorControl</li>
+          <li>NuclearResearchBench</li>
+          <li>waterPipeHidden</li>
+          <li>storagePool</li>
+          <li>RadiationDetector</li>
+          <li>Transformer</li>
+          <li>DU_Blastdoor</li>
+          <li>PPC</li>
+          <li>PPCWeaponsConsole</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>dubwise.dubsbadhygiene</packageId>
+        <name>Dubs Bad Hygiene</name>
+        <version>3.1.2800</version>
+        <modorder>44</modorder>
+        <steamWorkshopId>836308268</steamWorkshopId>
+        <things>
+          <li>sewagePipeHidden</li>
+          <li>PumpingStation</li>
+          <li>WaterTowerL</li>
+          <li>SewageTreatment</li>
+          <li>ToiletAdvStuff</li>
+          <li>HotWaterTank</li>
+          <li>ToiletStallDoor</li>
+          <li>BasinStuff</li>
+          <li>WashBucket</li>
+          <li>SpacerWaterRecoverySystem</li>
+          <li>BathtubStuff</li>
+          <li>WaterTreatment</li>
+          <li>ShowerAdvStuff</li>
+          <li>WashingMachine</li>
+          <li>ShowerStuff</li>
+          <li>PetWaterBowl</li>
+          <li>KitchenSink</li>
+          <li>WaterTrough</li>
+          <li>BathMat</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>dubwise.dubscentralheating</packageId>
+        <name>Dubs Central Heating</name>
+        <version>1.1.1012</version>
+        <modorder>118</modorder>
+        <steamWorkshopId>2619214952</steamWorkshopId>
+        <things>
+          <li>HeatingPipeHidden</li>
+          <li>RadiatorLarge</li>
+          <li>ElectricBoiler</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>oark.ratkinfaction.oberoniaaurea</packageId>
+        <name>[OA]Ratkin Faction: Oberonia aurea</name>
         <version></version>
-        <modorder>213</modorder>
-        <steamWorkshopId>3534748687</steamWorkshopId>
+        <modorder>200</modorder>
+        <steamWorkshopId>3159926804</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>fxz.solaris.ratkinracemod.odyssey</packageId>
+            <steamWorkshopId>3497673755</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>OA_RK_Zhuzi</li>
+          <li>OARK_GravDataBeacon</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>tourswen.wulafallenempirev2</packageId>
+        <name>Wula Fallen Empire V2</name>
+        <version></version>
+        <modorder>228</modorder>
+        <steamWorkshopId>3622186519</steamWorkshopId>
         <dependencies>
           <li>
             <packageId>brrainz.harmony</packageId>
             <steamWorkshopId>2009463077</steamWorkshopId>
           </li>
           <li>
-            <packageId>miho.fortifiedoutremer</packageId>
-            <steamWorkshopId>2816826107</steamWorkshopId>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>hailuan.customquestframework</packageId>
+            <steamWorkshopId>2978572782</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>WULA_WeaponArmor_Productor</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>roo.antyracemod</packageId>
+        <name>Anty the war ant race</name>
+        <version></version>
+        <modorder>161</modorder>
+        <steamWorkshopId>2297729625</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>AntyTableButcher</li>
+          <li>AT_Chart</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>darknote.bunkbeds</packageId>
+        <name>Bunk Beds</name>
+        <version></version>
+        <modorder>35</modorder>
+        <steamWorkshopId>2961752749</steamWorkshopId>
+        <things>
+          <li>BB_BunkBedTriple</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>miho.fortifiedoutremer</packageId>
+        <name>Miho, the celestial fox</name>
+        <version></version>
+        <modorder>175</modorder>
+        <steamWorkshopId>2816826107</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
           </li>
           <li>
             <packageId>ludeon.rimworld.royalty</packageId>
@@ -88,14 +255,328 @@
           </li>
         </dependencies>
         <things>
-          <li>SR_Ceramium</li>
+          <li>Miho_Ceramics</li>
+          <li>Miho_WorkAI</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>aoba.fortress.industrial.nucleardawn</packageId>
+        <name>Fortification Industrial -Nuclear Dawn</name>
+        <version></version>
+        <modorder>124</modorder>
+        <steamWorkshopId>2733185331</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>aoba.fortress.industrial</packageId>
+            <steamWorkshopId>2561619583</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>aoba.framework</packageId>
+            <steamWorkshopId>3498575851</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Frame_FT_Centrifuge</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>aoba.deadmanswitch.core</packageId>
+        <name><![CDATA[The Dead Man's Switch]]></name>
+        <version>1.8.20</version>
+        <modorder>80</modorder>
+        <steamWorkshopId>3121742525</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+          <li>
+            <packageId>aoba.framework</packageId>
+            <steamWorkshopId>3498575851</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>DMS_Ceramics</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>golden.gloriasmod</packageId>
+        <name>煌金族 - 金色的未来（beta）</name>
+        <version></version>
+        <modorder>195</modorder>
+        <steamWorkshopId>3445593730</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>GGl_Glorias_Crystal_Cluster</li>
+          <li>GGl_Extension_Cabinet</li>
+          <li>GGlPlastic_material</li>
+          <li>GGl_GreenSource_Rubber</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>fxz.myafufu</packageId>
+        <name><![CDATA[Mya's fufu]]></name>
+        <version></version>
+        <modorder>69</modorder>
+        <steamWorkshopId>3266224389</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>GD_DragonianFufu</li>
+          <li>GD_BunFufu</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>oark.ratkinknightorderfurniture</packageId>
+        <name>[OA]Ratkin : Knight Order(Furniture)</name>
+        <version></version>
+        <modorder>199</modorder>
+        <steamWorkshopId>3492088220</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>fxz.solaris.ratkinracemod.odyssey</packageId>
+            <steamWorkshopId>3497673755</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>OARO_BookcaseReading_B</li>
+          <li>OARO_OrderForgingBox_B</li>
+          <li>OARO_OrderSofa</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>fxz.solaris.ratkinracemod.odyssey</packageId>
+        <name>NewRatkinPlus[1.6]</name>
+        <version></version>
+        <modorder>180</modorder>
+        <steamWorkshopId>3497673755</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>RK_ElectricSmithy</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>runnelatki.rabbieracemod</packageId>
+        <name>Rabbie The Moonrabbit race</name>
+        <version></version>
+        <modorder>181</modorder>
+        <steamWorkshopId>1837246563</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>syrchalis.processor.framework</packageId>
+            <steamWorkshopId>3210544395</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>RB_MoonTableMachining</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>aoba.fortress.industrial</packageId>
+        <name>Fortifications - Industrial</name>
+        <version></version>
+        <modorder>52</modorder>
+        <steamWorkshopId>2561619583</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>aoba.framework</packageId>
+            <steamWorkshopId>3498575851</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>FT_ENIAC</li>
+          <li>FT_TableLathe</li>
+          <li>FT_TableChemistry</li>
+          <li>FT_BlocksConcrete</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.ideology</packageId>
+        <name>Ideology</name>
+        <version></version>
+        <modorder>3</modorder>
+        <things>
+          <li>Altar_Grand</li>
+          <li>Altar_Large</li>
+          <li>Loudspeaker</li>
+          <li>LightBall</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ariandel.miliraimperium</packageId>
+        <name>Milira Faction: Milira Imperium</name>
+        <version></version>
+        <modorder>256</modorder>
+        <steamWorkshopId>3588393755</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>ancot.milirarace</packageId>
+            <steamWorkshopId>3256974620</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ancot.ancotlibrary</packageId>
+            <steamWorkshopId>2988801276</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.royalty</packageId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Milira_AuxiliaryReplicator</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>dd.unofficial.notfood.mendandrecycle</packageId>
+        <name>MendAndRecycle</name>
+        <version></version>
+        <modorder>63</modorder>
+        <steamWorkshopId>3226161877</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>TableMending</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>rid.miliramorethings</packageId>
+        <name>米莉拉轻工业扩展</name>
+        <version></version>
+        <modorder>233</modorder>
+        <steamWorkshopId>3457113697</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>ancot.milirarace</packageId>
+            <steamWorkshopId>3256974620</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ancot.ancotlibrary</packageId>
+            <steamWorkshopId>2988801276</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.royalty</packageId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+        </dependencies>
+        <things>
+          <li>MiliraLithographyMachine</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>fxz.glitterworlddestroyer.mk5</packageId>
+        <name>Glitterworld Destroyer 5 - Mechanoid Addon</name>
+        <version></version>
+        <modorder>55</modorder>
+        <steamWorkshopId>3550544871</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.royalty</packageId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+        </dependencies>
+        <things>
+          <li>GD_CommunicationStation</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>tot.celetech.mkiii</packageId>
+        <name>CeleTech Arsenal MKIII</name>
+        <version></version>
+        <modorder>36</modorder>
+        <steamWorkshopId>3446237098</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+        </dependencies>
+        <things>
+          <li>CMC_CommConsole</li>
         </things>
       </mod>
       <mod>
         <packageId>ancot.milirarace</packageId>
         <name>Milira Race</name>
         <version></version>
-        <modorder>182</modorder>
+        <modorder>176</modorder>
         <steamWorkshopId>3256974620</steamWorkshopId>
         <dependencies>
           <li>
@@ -118,53 +599,89 @@
           </li>
         </dependencies>
         <things>
-          <li>Milian_Recharger</li>
+          <li>Milira_UniversalBench</li>
+          <li>Milira_DroneBench</li>
           <li>Milira_DroneRecharger</li>
-          <li>Milira_SplendidSteel</li>
+          <li>Milian_Recharger</li>
         </things>
       </mod>
       <mod>
-        <packageId>fxz.moelotlzombie.update</packageId>
-        <name>MoeLotl: Rigor Mortis</name>
+        <packageId>valeries.miliraexpansion</packageId>
+        <name>瓦莱丽的米莉拉扩展包</name>
         <version></version>
-        <modorder>260</modorder>
-        <steamWorkshopId>3454053400</steamWorkshopId>
+        <modorder>231</modorder>
+        <steamWorkshopId>3422615030</steamWorkshopId>
         <dependencies>
           <li>
-            <packageId>brrainz.harmony</packageId>
-            <steamWorkshopId>2009463077</steamWorkshopId>
-          </li>
-          <li>
-            <packageId>hentailoliteam.axolotl</packageId>
-            <steamWorkshopId>3292351432</steamWorkshopId>
+            <packageId>ancot.milirarace</packageId>
+            <steamWorkshopId>3256974620</steamWorkshopId>
           </li>
           <li>
             <packageId>erdelf.humanoidalienraces</packageId>
             <steamWorkshopId>839005762</steamWorkshopId>
           </li>
           <li>
-            <packageId>hailuan.customquestframework</packageId>
-            <steamWorkshopId>2978572782</steamWorkshopId>
+            <packageId>ancot.ancotlibrary</packageId>
+            <steamWorkshopId>2988801276</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.royalty</packageId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
           </li>
         </dependencies>
         <things>
-          <li>RM_OvercastWood</li>
+          <li>Milira_CVDFurnace</li>
         </things>
       </mod>
       <mod>
-        <packageId>ninedaylongbow.pigeonsframework</packageId>
-        <name><![CDATA[Pigeon's Framework：Old World Remains]]></name>
+        <packageId>epona.eponadynasticrise</packageId>
+        <name>Epona Dynastic Rise</name>
         <version></version>
-        <modorder>231</modorder>
-        <steamWorkshopId>3580914069</steamWorkshopId>
+        <modorder>170</modorder>
+        <steamWorkshopId>3514746737</steamWorkshopId>
         <dependencies>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Carrotium</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.odyssey</packageId>
+        <name>Odyssey</name>
+        <version></version>
+        <modorder>6</modorder>
+        <things>
+          <li>EggSac</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>w.zhp</packageId>
+        <name>Ratkin Misc+ 鼠族拓展:边缘杂货铺</name>
+        <version></version>
+        <modorder>221</modorder>
+        <steamWorkshopId>3452928337</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>fxz.solaris.ratkinracemod.odyssey</packageId>
+            <steamWorkshopId>3497673755</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
           <li>
             <packageId>brrainz.harmony</packageId>
             <steamWorkshopId>2009463077</steamWorkshopId>
           </li>
         </dependencies>
         <things>
-          <li>Pigeon_MeteoriteCrystal</li>
+          <li>ZHP_mianbei_two</li>
         </things>
       </mod>
       <mod>
@@ -188,527 +705,3335 @@
         </things>
       </mod>
       <mod>
-        <packageId>roo.antyracemod</packageId>
-        <name>Anty the war ant race</name>
+        <packageId>lof.astrologer</packageId>
+        <name>占星师 Astrologer</name>
         <version></version>
-        <modorder>167</modorder>
-        <steamWorkshopId>2297729625</steamWorkshopId>
+        <modorder>230</modorder>
+        <steamWorkshopId>3574358036</steamWorkshopId>
         <dependencies>
-          <li>
-            <packageId>erdelf.humanoidalienraces</packageId>
-            <steamWorkshopId>839005762</steamWorkshopId>
-          </li>
-        </dependencies>
-        <things>
-          <li>AntyExoskeleton</li>
-        </things>
-      </mod>
-      <mod>
-        <packageId>dubwise.rimefeller</packageId>
-        <name>Rimefeller</name>
-        <version>1.2.1634</version>
-        <modorder>72</modorder>
-        <steamWorkshopId>1321849735</steamWorkshopId>
-        <things>
-          <li>Wood_ParquetVersailles</li>
-        </things>
-      </mod>
-      <mod>
-        <packageId>oark.ratkinfaction.scenarioexpand.snowstorm</packageId>
-        <name>[OA]Ratkin Scenario: Snowstorm Orphan</name>
-        <version></version>
-        <modorder>269</modorder>
-        <steamWorkshopId>3381392312</steamWorkshopId>
-        <dependencies>
-          <li>
-            <packageId>fxz.solaris.ratkinracemod.odyssey</packageId>
-            <steamWorkshopId>3497673755</steamWorkshopId>
-          </li>
-          <li>
-            <packageId>erdelf.humanoidalienraces</packageId>
-            <steamWorkshopId>839005762</steamWorkshopId>
-          </li>
           <li>
             <packageId>brrainz.harmony</packageId>
             <steamWorkshopId>2009463077</steamWorkshopId>
-          </li>
-          <li>
-            <packageId>oark.ratkinfaction.geneexpand</packageId>
-            <steamWorkshopId>3300291918</steamWorkshopId>
           </li>
           <li>
             <packageId>ludeon.rimworld.biotech</packageId>
           </li>
+          <li>
+            <packageId>mis.framework</packageId>
+            <steamWorkshopId>2910194921</steamWorkshopId>
+          </li>
         </dependencies>
         <things>
-          <li>OA_RK_FloorSnow</li>
+          <li>LOF_StarlightSteel</li>
         </things>
       </mod>
       <mod>
-        <packageId>oark.ratkinknightorderfurniture</packageId>
-        <name>[OA]Ratkin : Knight Order(Furniture)</name>
+        <packageId>tourswen.arachnaeswarm</packageId>
+        <name>Arachnae Swarm</name>
         <version></version>
-        <modorder>211</modorder>
-        <steamWorkshopId>3492088220</steamWorkshopId>
+        <modorder>162</modorder>
+        <steamWorkshopId>3584635117</steamWorkshopId>
         <dependencies>
           <li>
-            <packageId>fxz.solaris.ratkinracemod.odyssey</packageId>
-            <steamWorkshopId>3497673755</steamWorkshopId>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
           </li>
           <li>
             <packageId>erdelf.humanoidalienraces</packageId>
             <steamWorkshopId>839005762</steamWorkshopId>
           </li>
           <li>
-            <packageId>brrainz.harmony</packageId>
-            <steamWorkshopId>2009463077</steamWorkshopId>
+            <packageId>nals.facialanimation</packageId>
+            <steamWorkshopId>1635901197</steamWorkshopId>
           </li>
         </dependencies>
         <things>
-          <li>OARO_OrderFloor_Wood</li>
+          <li>ARA_InteractiveEggSac_Techprint</li>
+          <li>ARA_InsectWall</li>
+          <li>ARA_Chair</li>
+          <li>ARA_SkillTraining_Building</li>
+          <li>ARA_Table1x2c</li>
+          <li>ARA_InsectDoor</li>
+          <li>ARA_ResearchBench</li>
+          <li>ARA_NodeNest</li>
+          <li>ARA_Pawn_Ootheca</li>
+          <li>ARA_SmoothedInsectWall</li>
+          <li>ARA_NutrientNetworkTower</li>
+          <li>ARA_RefuelingVat</li>
+          <li>ARA_InsectCreep</li>
+          <li>ARA_Incubator_Nutrient_Solution</li>
         </things>
       </mod>
       <mod>
-        <packageId>oark.ratkinfaction.oberoniaaurea</packageId>
-        <name>[OA]Ratkin Faction: Oberonia aurea</name>
+        <packageId>sui.moretemperaturecontrol</packageId>
+        <name>更多温控</name>
         <version></version>
-        <modorder>212</modorder>
-        <steamWorkshopId>3159926804</steamWorkshopId>
+        <modorder>102</modorder>
+        <steamWorkshopId>3555501422</steamWorkshopId>
+        <things>
+          <li>More_Temperature_Control_Cooler_III</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>windchime.giverthecolonyhelper</packageId>
+        <name>Giver</name>
+        <version>3.3.1.4</version>
+        <modorder>54</modorder>
+        <steamWorkshopId>3265068668</steamWorkshopId>
         <dependencies>
-          <li>
-            <packageId>fxz.solaris.ratkinracemod.odyssey</packageId>
-            <steamWorkshopId>3497673755</steamWorkshopId>
-          </li>
-          <li>
-            <packageId>erdelf.humanoidalienraces</packageId>
-            <steamWorkshopId>839005762</steamWorkshopId>
-          </li>
           <li>
             <packageId>brrainz.harmony</packageId>
             <steamWorkshopId>2009463077</steamWorkshopId>
           </li>
         </dependencies>
         <things>
-          <li>OA_RK_Floor</li>
+          <li>WB_Giver_Wool</li>
         </things>
       </mod>
     </modPackages>
     <multiLanguage>
       <name>
-        <default>核能区</default>
-        <zh-CN>核能区</zh-CN>
+        <default>基地4</default>
+        <zh-CN>基地4</zh-CN>
       </name>
     </multiLanguage>
   </extraInfo>
   <things>
-    <RadiationShielding>
+    <Sandstone>
       <rects>
-        <li>(0,0,11,0)</li>
-        <li>(0,1,0,27)</li>
-        <li>(10,1,11,9)</li>
-        <li>(10,10,10,13)</li>
-        <li>(17,10,17,10)</li>
-        <li>(19,10,27,10)</li>
-        <li>(27,11,27,27)</li>
-        <li>(10,15,10,27)</li>
-        <li>(1,27,9,27)</li>
-        <li>(11,27,26,27)</li>
+        <li>(0,0,0,45)</li>
+        <li>(1,45,16,45)</li>
+        <li>(18,45,140,45)</li>
+        <li>(199,45,205,45)</li>
       </rects>
-      <hp>1000</hp>
-    </RadiationShielding>
-    <airPipeHidden>
+      <hp>400</hp>
+      <color>RGBA(0.494, 0.408, 0.369, 1.000)</color>
+    </Sandstone>
+    <LSK_RB_Fortified_WallWall>
       <rects>
-        <li>(6,0,6,16)</li>
-        <li>(27,15,27,27)</li>
-        <li>(7,16,26,16)</li>
+        <li>(1,0,43,0)</li>
+        <li>(46,0,125,0)</li>
+        <li>(129,0,250,0)</li>
+        <li>(1,1,1,44)</li>
+        <li>(18,1,18,11)</li>
+        <li>(31,1,31,10)</li>
+        <li>(43,1,43,10)</li>
+        <li>(46,1,46,10)</li>
+        <li>(58,1,58,10)</li>
+        <li>(71,1,71,11)</li>
+        <li>(73,1,73,8)</li>
+        <li>(88,1,88,8)</li>
+        <li>(90,1,90,2)</li>
+        <li>(92,1,92,2)</li>
+        <li>(94,1,94,2)</li>
+        <li>(96,1,96,2)</li>
+        <li>(98,1,98,2)</li>
+        <li>(100,1,100,2)</li>
+        <li>(102,1,102,2)</li>
+        <li>(104,1,104,2)</li>
+        <li>(106,1,106,2)</li>
+        <li>(108,1,108,2)</li>
+        <li>(111,1,111,8)</li>
+        <li>(125,1,125,8)</li>
+        <li>(129,1,129,8)</li>
+        <li>(144,1,144,8)</li>
+        <li>(168,1,168,12)</li>
+        <li>(177,1,177,2)</li>
+        <li>(190,1,190,6)</li>
+        <li>(192,1,192,22)</li>
+        <li>(205,1,205,4)</li>
+        <li>(208,1,208,4)</li>
+        <li>(221,1,221,22)</li>
+        <li>(234,1,234,4)</li>
+        <li>(237,1,237,4)</li>
+        <li>(250,1,250,44)</li>
+        <li>(94,5,94,8)</li>
+        <li>(96,5,96,8)</li>
+        <li>(98,5,98,8)</li>
+        <li>(90,6,90,8)</li>
+        <li>(92,6,92,8)</li>
+        <li>(177,6,177,8)</li>
+        <li>(205,7,205,15)</li>
+        <li>(208,7,208,15)</li>
+        <li>(234,7,234,15)</li>
+        <li>(237,7,237,15)</li>
+        <li>(74,8,77,8)</li>
+        <li>(81,8,87,8)</li>
+        <li>(89,8,89,8)</li>
+        <li>(91,8,91,8)</li>
+        <li>(93,8,93,8)</li>
+        <li>(95,8,95,8)</li>
+        <li>(97,8,97,8)</li>
+        <li>(102,8,110,8)</li>
+        <li>(112,8,116,8)</li>
+        <li>(120,8,124,8)</li>
+        <li>(130,8,134,8)</li>
+        <li>(138,8,143,8)</li>
+        <li>(145,8,154,8)</li>
+        <li>(158,8,167,8)</li>
+        <li>(174,8,176,8)</li>
+        <li>(178,8,178,8)</li>
+        <li>(181,8,190,8)</li>
+        <li>(174,9,174,10)</li>
+        <li>(19,10,26,10)</li>
+        <li>(30,10,30,10)</li>
+        <li>(32,10,32,10)</li>
+        <li>(36,10,42,10)</li>
+        <li>(47,10,53,10)</li>
+        <li>(57,10,57,10)</li>
+        <li>(59,10,59,10)</li>
+        <li>(63,10,70,10)</li>
+        <li>(73,10,77,10)</li>
+        <li>(81,10,98,10)</li>
+        <li>(102,10,116,10)</li>
+        <li>(120,10,125,10)</li>
+        <li>(129,10,134,10)</li>
+        <li>(138,10,154,10)</li>
+        <li>(158,10,167,10)</li>
+        <li>(169,10,173,10)</li>
+        <li>(175,10,177,10)</li>
+        <li>(181,10,190,10)</li>
+        <li>(73,11,73,16)</li>
+        <li>(88,11,88,16)</li>
+        <li>(111,11,111,23)</li>
+        <li>(114,11,114,13)</li>
+        <li>(116,11,116,13)</li>
+        <li>(120,11,120,13)</li>
+        <li>(122,11,122,13)</li>
+        <li>(125,11,125,23)</li>
+        <li>(129,11,129,23)</li>
+        <li>(144,11,144,23)</li>
+        <li>(190,11,190,23)</li>
+        <li>(193,11,204,11)</li>
+        <li>(209,11,220,11)</li>
+        <li>(222,11,233,11)</li>
+        <li>(238,11,249,11)</li>
+        <li>(112,13,112,13)</li>
+        <li>(124,13,124,13)</li>
+        <li>(112,15,112,15)</li>
+        <li>(114,15,114,17)</li>
+        <li>(116,15,116,17)</li>
+        <li>(118,15,118,17)</li>
+        <li>(120,15,120,17)</li>
+        <li>(122,15,122,17)</li>
+        <li>(124,15,124,15)</li>
+        <li>(168,16,168,23)</li>
+        <li>(89,17,110,17)</li>
+        <li>(112,17,113,17)</li>
+        <li>(115,17,115,17)</li>
+        <li>(117,17,117,17)</li>
+        <li>(119,17,119,17)</li>
+        <li>(121,17,121,17)</li>
+        <li>(123,17,124,17)</li>
+        <li>(130,17,143,17)</li>
+        <li>(145,17,167,17)</li>
+        <li>(169,17,189,17)</li>
+        <li>(205,18,205,22)</li>
+        <li>(208,18,208,22)</li>
+        <li>(234,18,234,22)</li>
+        <li>(237,18,237,22)</li>
+        <li>(193,22,204,22)</li>
+        <li>(209,22,220,22)</li>
+        <li>(222,22,233,22)</li>
+        <li>(238,22,249,22)</li>
+        <li>(89,23,98,23)</li>
+        <li>(102,23,110,23)</li>
+        <li>(112,23,116,23)</li>
+        <li>(120,23,124,23)</li>
+        <li>(130,23,134,23)</li>
+        <li>(138,23,143,23)</li>
+        <li>(145,23,154,23)</li>
+        <li>(158,23,167,23)</li>
+        <li>(169,23,179,23)</li>
+        <li>(183,23,189,23)</li>
+        <li>(192,24,205,24)</li>
+        <li>(208,24,234,24)</li>
+        <li>(237,24,249,24)</li>
+        <li>(18,25,43,25)</li>
+        <li>(46,25,71,25)</li>
+        <li>(73,25,78,25)</li>
+        <li>(82,25,98,25)</li>
+        <li>(102,25,116,25)</li>
+        <li>(120,25,125,25)</li>
+        <li>(129,25,134,25)</li>
+        <li>(138,25,154,25)</li>
+        <li>(158,25,179,25)</li>
+        <li>(183,25,190,25)</li>
+        <li>(192,25,192,44)</li>
+        <li>(205,25,205,25)</li>
+        <li>(208,25,208,25)</li>
+        <li>(221,25,221,44)</li>
+        <li>(234,25,234,25)</li>
+        <li>(237,25,237,25)</li>
+        <li>(18,26,18,44)</li>
+        <li>(71,26,71,29)</li>
+        <li>(73,26,73,38)</li>
+        <li>(88,26,88,31)</li>
+        <li>(111,26,111,31)</li>
+        <li>(125,26,125,31)</li>
+        <li>(129,26,129,31)</li>
+        <li>(144,26,144,31)</li>
+        <li>(168,26,168,31)</li>
+        <li>(190,26,190,38)</li>
+        <li>(205,28,205,30)</li>
+        <li>(208,28,208,30)</li>
+        <li>(234,28,234,30)</li>
+        <li>(237,28,237,30)</li>
+        <li>(193,29,204,29)</li>
+        <li>(209,29,220,29)</li>
+        <li>(222,29,233,29)</li>
+        <li>(238,29,249,29)</li>
+        <li>(71,31,71,44)</li>
+        <li>(74,31,87,31)</li>
+        <li>(89,31,110,31)</li>
+        <li>(112,31,124,31)</li>
+        <li>(130,31,143,31)</li>
+        <li>(145,31,167,31)</li>
+        <li>(169,31,189,31)</li>
+        <li>(205,33,205,35)</li>
+        <li>(208,33,208,35)</li>
+        <li>(234,33,234,35)</li>
+        <li>(237,33,237,35)</li>
+        <li>(193,34,204,34)</li>
+        <li>(209,34,220,34)</li>
+        <li>(222,34,233,34)</li>
+        <li>(238,34,249,34)</li>
+        <li>(205,38,205,40)</li>
+        <li>(208,38,208,40)</li>
+        <li>(234,38,234,40)</li>
+        <li>(237,38,237,40)</li>
+        <li>(193,39,204,39)</li>
+        <li>(209,39,220,39)</li>
+        <li>(222,39,233,39)</li>
+        <li>(238,39,249,39)</li>
+        <li>(73,42,73,44)</li>
+        <li>(190,42,190,44)</li>
+        <li>(205,43,205,44)</li>
+        <li>(208,43,208,44)</li>
+        <li>(234,43,234,45)</li>
+        <li>(237,43,237,44)</li>
+        <li>(2,44,17,44)</li>
+        <li>(19,44,70,44)</li>
+        <li>(72,44,72,44)</li>
+        <li>(74,44,189,44)</li>
+        <li>(191,44,191,44)</li>
+        <li>(193,44,204,44)</li>
+        <li>(206,44,207,44)</li>
+        <li>(209,44,220,44)</li>
+        <li>(222,44,233,44)</li>
+        <li>(235,44,236,44)</li>
+        <li>(238,44,249,44)</li>
+        <li>(17,45,17,45)</li>
+      </rects>
+      <stuff>TWRL_Resource_PinkCrystal</stuff>
+      <hp>3000</hp>
+      <color>RGBA(0.949, 0.714, 0.820, 1.000)</color>
+    </LSK_RB_Fortified_WallWall>
+    <OilPipelineHidden>
+      <rects>
+        <li>(2,0,2,0)</li>
+        <li>(19,0,19,2)</li>
+        <li>(6,1,6,1)</li>
+        <li>(13,1,14,1)</li>
+        <li>(20,2,82,2)</li>
+        <li>(15,22,15,25)</li>
+        <li>(18,32,74,32)</li>
+        <li>(6,43,6,43)</li>
+        <li>(13,43,13,43)</li>
       </rects>
       <hp>100</hp>
       <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
-    </airPipeHidden>
+    </OilPipelineHidden>
+    <HiddenConduit>
+      <rects>
+        <li>(8,0,43,0)</li>
+        <li>(46,0,71,0)</li>
+        <li>(73,0,250,0)</li>
+        <li>(8,1,8,25)</li>
+        <li>(11,1,11,25)</li>
+        <li>(30,1,30,10)</li>
+        <li>(73,1,73,44)</li>
+        <li>(190,1,190,44)</li>
+        <li>(25,2,25,10)</li>
+        <li>(65,4,65,10)</li>
+        <li>(74,9,189,9)</li>
+        <li>(18,10,24,10)</li>
+        <li>(26,10,29,10)</li>
+        <li>(31,10,64,10)</li>
+        <li>(66,10,72,10)</li>
+        <li>(18,11,18,44)</li>
+        <li>(191,11,250,11)</li>
+        <li>(19,12,35,12)</li>
+        <li>(35,13,35,19)</li>
+        <li>(74,17,189,17)</li>
+        <li>(43,20,43,29)</li>
+        <li>(46,20,46,29)</li>
+        <li>(14,22,14,43)</li>
+        <li>(40,23,40,24)</li>
+        <li>(191,23,250,23)</li>
+        <li>(19,24,39,24)</li>
+        <li>(41,24,42,24)</li>
+        <li>(44,24,45,24)</li>
+        <li>(47,24,72,24)</li>
+        <li>(74,24,189,24)</li>
+        <li>(5,25,7,25)</li>
+        <li>(9,25,10,25)</li>
+        <li>(12,25,13,25)</li>
+        <li>(86,25,86,25)</li>
+        <li>(100,25,100,27)</li>
+        <li>(5,26,5,43)</li>
+        <li>(95,27,99,27)</li>
+        <li>(101,27,105,27)</li>
+        <li>(43,31,43,38)</li>
+        <li>(46,31,46,38)</li>
+        <li>(74,31,189,31)</li>
+        <li>(191,34,249,34)</li>
+        <li>(63,35,72,35)</li>
+        <li>(63,36,63,39)</li>
+        <li>(74,37,189,37)</li>
+        <li>(43,40,43,43)</li>
+        <li>(46,40,46,43)</li>
+        <li>(63,41,63,43)</li>
+        <li>(6,43,13,43)</li>
+        <li>(64,43,72,43)</li>
+        <li>(74,44,189,44)</li>
+        <li>(191,44,250,44)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <PH_AutodoorTriple>
+      <positions>
+        <li>(127, 0, 0)</li>
+        <li>(79, 0, 8)</li>
+        <li>(100, 0, 8)</li>
+        <li>(118, 0, 8)</li>
+        <li>(127, 0, 8)</li>
+        <li>(136, 0, 8)</li>
+        <li>(156, 0, 8)</li>
+        <li>(28, 0, 10)</li>
+        <li>(34, 0, 10)</li>
+        <li>(55, 0, 10)</li>
+        <li>(61, 0, 10)</li>
+        <li>(79, 0, 10)</li>
+        <li>(100, 0, 10)</li>
+        <li>(118, 0, 10)</li>
+        <li>(127, 0, 10)</li>
+        <li>(179, 0, 10)</li>
+        <li>(100, 0, 23)</li>
+        <li>(118, 0, 23)</li>
+        <li>(127, 0, 23)</li>
+        <li>(136, 0, 23)</li>
+        <li>(156, 0, 23)</li>
+        <li>(181, 0, 23)</li>
+        <li>(80, 0, 25)</li>
+        <li>(100, 0, 25)</li>
+        <li>(118, 0, 25)</li>
+        <li>(127, 0, 25)</li>
+        <li>(136, 0, 25)</li>
+        <li>(156, 0, 25)</li>
+        <li>(181, 0, 25)</li>
+        <li>(127, 0, 31)</li>
+      </positions>
+      <stuff>TWRL_Resource_PinkCrystal</stuff>
+      <hp>1920</hp>
+      <color>RGBA(0.949, 0.714, 0.820, 1.000)</color>
+    </PH_AutodoorTriple>
+    <coolingPipeHidden>
+      <rects>
+        <li>(127,0,127,14)</li>
+        <li>(43,14,126,14)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </coolingPipeHidden>
+    <sewagePipeHidden>
+      <rects>
+        <li>(127,0,127,12)</li>
+        <li>(13,1,19,1)</li>
+        <li>(70,1,90,1)</li>
+        <li>(92,1,92,1)</li>
+        <li>(94,1,94,1)</li>
+        <li>(96,1,96,1)</li>
+        <li>(98,1,98,1)</li>
+        <li>(100,1,100,1)</li>
+        <li>(102,1,102,1)</li>
+        <li>(104,1,104,1)</li>
+        <li>(106,1,106,1)</li>
+        <li>(108,1,108,1)</li>
+        <li>(110,1,110,2)</li>
+        <li>(161,1,161,1)</li>
+        <li>(163,1,163,1)</li>
+        <li>(165,1,165,1)</li>
+        <li>(167,1,168,1)</li>
+        <li>(89,2,89,7)</li>
+        <li>(168,2,168,8)</li>
+        <li>(30,3,32,3)</li>
+        <li>(42,3,47,3)</li>
+        <li>(57,3,59,3)</li>
+        <li>(102,4,109,4)</li>
+        <li>(69,6,69,8)</li>
+        <li>(110,6,110,7)</li>
+        <li>(90,7,90,7)</li>
+        <li>(92,7,92,7)</li>
+        <li>(94,7,94,7)</li>
+        <li>(96,7,96,7)</li>
+        <li>(109,7,109,7)</li>
+        <li>(160,7,160,7)</li>
+        <li>(162,7,162,7)</li>
+        <li>(163,8,163,8)</li>
+        <li>(70,9,126,9)</li>
+        <li>(158,20,159,20)</li>
+        <li>(166,20,166,20)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>100</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </sewagePipeHidden>
+    <HeatingPipeHidden>
+      <rects>
+        <li>(127,0,127,7)</li>
+        <li>(128,7,130,7)</li>
+      </rects>
+      <stuff>BlocksSandstone</stuff>
+      <hp>140</hp>
+      <color>RGBA(0.494, 0.408, 0.369, 1.000)</color>
+    </HeatingPipeHidden>
+    <FuelStorage>
+      <positions>
+        <li>(3, 0, 1)</li>
+        <li>(3, 0, 3)</li>
+        <li>(3, 0, 5)</li>
+        <li>(3, 0, 7)</li>
+        <li>(3, 0, 9)</li>
+        <li>(3, 0, 11)</li>
+        <li>(3, 0, 13)</li>
+        <li>(3, 0, 15)</li>
+        <li>(3, 0, 17)</li>
+        <li>(3, 0, 19)</li>
+        <li>(3, 0, 21)</li>
+        <li>(3, 0, 23)</li>
+      </positions>
+      <hp>150</hp>
+    </FuelStorage>
+    <RadiationShielding>
+      <rects>
+        <li>(6,1,6,24)</li>
+        <li>(13,1,13,21)</li>
+        <li>(18,12,43,12)</li>
+        <li>(46,12,71,12)</li>
+        <li>(18,13,18,23)</li>
+        <li>(43,13,43,20)</li>
+        <li>(46,13,46,20)</li>
+        <li>(71,13,71,23)</li>
+        <li>(73,17,88,17)</li>
+        <li>(73,18,73,23)</li>
+        <li>(88,18,88,23)</li>
+        <li>(19,19,28,19)</li>
+        <li>(28,20,28,20)</li>
+        <li>(28,22,28,23)</li>
+        <li>(43,22,43,23)</li>
+        <li>(46,22,46,23)</li>
+        <li>(19,23,27,23)</li>
+        <li>(29,23,42,23)</li>
+        <li>(47,23,70,23)</li>
+        <li>(74,23,79,23)</li>
+        <li>(81,23,87,23)</li>
+        <li>(6,26,6,26)</li>
+        <li>(13,26,13,26)</li>
+        <li>(6,28,6,29)</li>
+        <li>(13,28,13,29)</li>
+        <li>(6,31,6,32)</li>
+        <li>(13,31,13,32)</li>
+        <li>(6,34,6,35)</li>
+        <li>(13,34,13,35)</li>
+        <li>(6,37,6,38)</li>
+        <li>(13,37,13,38)</li>
+        <li>(6,40,6,41)</li>
+        <li>(13,40,13,41)</li>
+        <li>(6,43,6,43)</li>
+        <li>(13,43,13,43)</li>
+      </rects>
+      <hp>1000</hp>
+    </RadiationShielding>
+    <CrudeCracker>
+      <positions>
+        <li>(9, 0, 3)</li>
+        <li>(9, 0, 9)</li>
+        <li>(9, 0, 15)</li>
+        <li>(9, 0, 21)</li>
+      </positions>
+      <hp>150</hp>
+    </CrudeCracker>
+    <OA_RK_Zhuzi>
+      <rects>
+        <li>(14,1,14,21)</li>
+        <li>(19,1,19,1)</li>
+        <li>(30,1,30,1)</li>
+        <li>(32,1,32,1)</li>
+        <li>(42,1,42,1)</li>
+        <li>(47,1,47,1)</li>
+        <li>(57,1,57,1)</li>
+        <li>(59,1,59,1)</li>
+        <li>(70,1,70,1)</li>
+        <li>(72,1,72,1)</li>
+        <li>(74,1,74,1)</li>
+        <li>(87,1,87,1)</li>
+        <li>(89,1,89,1)</li>
+        <li>(110,1,110,1)</li>
+        <li>(112,1,112,1)</li>
+        <li>(124,1,124,1)</li>
+        <li>(130,1,130,1)</li>
+        <li>(143,1,143,1)</li>
+        <li>(145,1,145,1)</li>
+        <li>(167,1,167,1)</li>
+        <li>(189,1,189,1)</li>
+        <li>(191,1,191,1)</li>
+        <li>(193,1,193,1)</li>
+        <li>(204,1,204,1)</li>
+        <li>(206,1,207,1)</li>
+        <li>(209,1,209,1)</li>
+        <li>(220,1,220,1)</li>
+        <li>(222,1,222,1)</li>
+        <li>(233,1,233,1)</li>
+        <li>(235,1,236,1)</li>
+        <li>(238,1,238,1)</li>
+        <li>(249,1,249,1)</li>
+        <li>(74,7,74,7)</li>
+        <li>(87,7,87,7)</li>
+        <li>(89,7,89,7)</li>
+        <li>(110,7,110,7)</li>
+        <li>(112,7,112,7)</li>
+        <li>(124,7,124,7)</li>
+        <li>(130,7,130,7)</li>
+        <li>(143,7,143,7)</li>
+        <li>(145,7,145,7)</li>
+        <li>(167,7,167,7)</li>
+        <li>(189,7,189,7)</li>
+        <li>(19,9,19,9)</li>
+        <li>(30,9,30,9)</li>
+        <li>(32,9,32,9)</li>
+        <li>(42,9,42,9)</li>
+        <li>(47,9,47,9)</li>
+        <li>(57,9,57,9)</li>
+        <li>(59,9,59,9)</li>
+        <li>(70,9,70,9)</li>
+        <li>(88,9,88,9)</li>
+        <li>(111,9,111,9)</li>
+        <li>(125,9,125,9)</li>
+        <li>(129,9,129,9)</li>
+        <li>(144,9,144,9)</li>
+        <li>(193,10,193,10)</li>
+        <li>(204,10,204,10)</li>
+        <li>(209,10,209,10)</li>
+        <li>(220,10,220,10)</li>
+        <li>(222,10,222,10)</li>
+        <li>(233,10,233,10)</li>
+        <li>(238,10,238,10)</li>
+        <li>(249,10,249,10)</li>
+        <li>(74,11,74,11)</li>
+        <li>(87,11,87,11)</li>
+        <li>(89,11,89,11)</li>
+        <li>(110,11,110,11)</li>
+        <li>(112,11,112,11)</li>
+        <li>(124,11,124,11)</li>
+        <li>(130,11,130,11)</li>
+        <li>(143,11,143,11)</li>
+        <li>(145,11,145,11)</li>
+        <li>(167,11,167,11)</li>
+        <li>(169,11,169,11)</li>
+        <li>(189,11,189,11)</li>
+        <li>(193,12,193,12)</li>
+        <li>(204,12,204,12)</li>
+        <li>(220,12,220,12)</li>
+        <li>(222,12,222,12)</li>
+        <li>(233,12,233,12)</li>
+        <li>(238,12,238,12)</li>
+        <li>(249,12,249,12)</li>
+        <li>(29,13,29,13)</li>
+        <li>(32,13,32,13)</li>
+        <li>(74,16,74,16)</li>
+        <li>(87,16,87,16)</li>
+        <li>(89,16,89,16)</li>
+        <li>(110,16,110,16)</li>
+        <li>(112,16,112,16)</li>
+        <li>(124,16,124,16)</li>
+        <li>(130,16,130,16)</li>
+        <li>(143,16,143,16)</li>
+        <li>(145,16,145,16)</li>
+        <li>(167,16,167,16)</li>
+        <li>(169,16,169,16)</li>
+        <li>(189,16,189,16)</li>
+        <li>(29,18,29,18)</li>
+        <li>(32,18,32,18)</li>
+        <li>(74,18,74,18)</li>
+        <li>(87,18,87,18)</li>
+        <li>(89,18,89,18)</li>
+        <li>(110,18,110,18)</li>
+        <li>(112,18,112,18)</li>
+        <li>(124,18,124,18)</li>
+        <li>(130,18,130,18)</li>
+        <li>(143,18,143,18)</li>
+        <li>(145,18,145,18)</li>
+        <li>(167,18,167,18)</li>
+        <li>(169,18,169,18)</li>
+        <li>(189,18,189,18)</li>
+        <li>(33,19,33,19)</li>
+        <li>(36,19,36,19)</li>
+        <li>(47,19,47,19)</li>
+        <li>(52,19,52,19)</li>
+        <li>(193,21,193,21)</li>
+        <li>(204,21,204,21)</li>
+        <li>(209,21,209,21)</li>
+        <li>(220,21,220,21)</li>
+        <li>(222,21,222,21)</li>
+        <li>(233,21,233,21)</li>
+        <li>(238,21,238,21)</li>
+        <li>(249,21,249,21)</li>
+        <li>(17,22,17,23)</li>
+        <li>(33,22,33,22)</li>
+        <li>(42,22,42,22)</li>
+        <li>(47,22,47,22)</li>
+        <li>(70,22,70,22)</li>
+        <li>(74,22,74,22)</li>
+        <li>(87,22,87,22)</li>
+        <li>(89,22,89,22)</li>
+        <li>(110,22,110,22)</li>
+        <li>(112,22,112,22)</li>
+        <li>(124,22,124,22)</li>
+        <li>(130,22,130,22)</li>
+        <li>(143,22,143,22)</li>
+        <li>(145,22,145,22)</li>
+        <li>(167,22,167,22)</li>
+        <li>(169,22,169,22)</li>
+        <li>(189,22,189,22)</li>
+        <li>(88,24,88,24)</li>
+        <li>(111,24,111,24)</li>
+        <li>(144,24,144,24)</li>
+        <li>(168,24,168,24)</li>
+        <li>(8,25,8,25)</li>
+        <li>(11,25,11,25)</li>
+        <li>(17,25,17,25)</li>
+        <li>(193,25,193,25)</li>
+        <li>(204,25,204,25)</li>
+        <li>(209,25,209,25)</li>
+        <li>(220,25,220,25)</li>
+        <li>(222,25,222,25)</li>
+        <li>(233,25,233,25)</li>
+        <li>(238,25,238,25)</li>
+        <li>(249,25,249,25)</li>
+        <li>(19,26,19,26)</li>
+        <li>(42,26,42,26)</li>
+        <li>(47,26,47,26)</li>
+        <li>(74,26,74,26)</li>
+        <li>(87,26,87,26)</li>
+        <li>(89,26,89,26)</li>
+        <li>(110,26,110,26)</li>
+        <li>(112,26,112,26)</li>
+        <li>(124,26,124,26)</li>
+        <li>(130,26,130,26)</li>
+        <li>(143,26,143,26)</li>
+        <li>(145,26,145,26)</li>
+        <li>(167,26,167,26)</li>
+        <li>(169,26,169,26)</li>
+        <li>(189,26,189,26)</li>
+        <li>(74,30,74,30)</li>
+        <li>(87,30,87,30)</li>
+        <li>(89,30,89,30)</li>
+        <li>(110,30,110,30)</li>
+        <li>(112,30,112,30)</li>
+        <li>(124,30,124,30)</li>
+        <li>(130,30,130,30)</li>
+        <li>(143,30,143,30)</li>
+        <li>(145,30,145,30)</li>
+        <li>(167,30,167,30)</li>
+        <li>(169,30,169,30)</li>
+        <li>(189,30,189,30)</li>
+        <li>(74,32,74,32)</li>
+        <li>(77,32,77,32)</li>
+        <li>(82,32,82,32)</li>
+        <li>(88,32,88,32)</li>
+        <li>(94,32,94,32)</li>
+        <li>(100,32,100,32)</li>
+        <li>(106,32,106,32)</li>
+        <li>(112,32,112,32)</li>
+        <li>(118,32,118,32)</li>
+        <li>(124,32,124,32)</li>
+        <li>(130,32,130,32)</li>
+        <li>(136,32,136,32)</li>
+        <li>(142,32,142,32)</li>
+        <li>(148,32,148,32)</li>
+        <li>(154,32,154,32)</li>
+        <li>(160,32,160,32)</li>
+        <li>(166,32,166,32)</li>
+        <li>(172,32,172,32)</li>
+        <li>(178,32,178,32)</li>
+        <li>(184,32,184,32)</li>
+        <li>(189,32,189,32)</li>
+        <li>(19,33,19,33)</li>
+        <li>(42,33,42,33)</li>
+        <li>(47,33,47,33)</li>
+        <li>(70,33,70,33)</li>
+        <li>(193,33,193,33)</li>
+        <li>(204,33,204,33)</li>
+        <li>(209,33,209,33)</li>
+        <li>(220,33,220,33)</li>
+        <li>(222,33,222,33)</li>
+        <li>(233,33,233,33)</li>
+        <li>(238,33,238,33)</li>
+        <li>(249,33,249,33)</li>
+        <li>(19,35,19,35)</li>
+        <li>(42,35,42,35)</li>
+        <li>(47,35,47,35)</li>
+        <li>(193,35,193,35)</li>
+        <li>(204,35,204,35)</li>
+        <li>(220,35,220,35)</li>
+        <li>(222,35,222,35)</li>
+        <li>(233,35,233,35)</li>
+        <li>(238,35,238,35)</li>
+        <li>(249,35,249,35)</li>
+        <li>(74,37,74,37)</li>
+        <li>(77,37,77,37)</li>
+        <li>(82,37,82,37)</li>
+        <li>(88,37,88,37)</li>
+        <li>(94,37,94,37)</li>
+        <li>(100,37,100,37)</li>
+        <li>(106,37,106,37)</li>
+        <li>(112,37,112,37)</li>
+        <li>(118,37,118,37)</li>
+        <li>(124,37,124,37)</li>
+        <li>(130,37,130,37)</li>
+        <li>(136,37,136,37)</li>
+        <li>(142,37,142,37)</li>
+        <li>(148,37,148,37)</li>
+        <li>(154,37,154,37)</li>
+        <li>(160,37,160,37)</li>
+        <li>(166,37,166,37)</li>
+        <li>(172,37,172,37)</li>
+        <li>(178,37,178,37)</li>
+        <li>(184,37,184,37)</li>
+        <li>(189,37,189,37)</li>
+        <li>(19,43,19,43)</li>
+        <li>(42,43,42,43)</li>
+        <li>(47,43,47,43)</li>
+        <li>(64,43,64,43)</li>
+        <li>(70,43,70,43)</li>
+        <li>(72,43,72,43)</li>
+        <li>(74,43,74,43)</li>
+        <li>(77,43,77,43)</li>
+        <li>(82,43,82,43)</li>
+        <li>(88,43,88,43)</li>
+        <li>(94,43,94,43)</li>
+        <li>(100,43,100,43)</li>
+        <li>(106,43,106,43)</li>
+        <li>(112,43,112,43)</li>
+        <li>(118,43,118,43)</li>
+        <li>(124,43,124,43)</li>
+        <li>(130,43,130,43)</li>
+        <li>(136,43,136,43)</li>
+        <li>(142,43,142,43)</li>
+        <li>(148,43,148,43)</li>
+        <li>(154,43,154,43)</li>
+        <li>(160,43,160,43)</li>
+        <li>(166,43,166,43)</li>
+        <li>(172,43,172,43)</li>
+        <li>(178,43,178,43)</li>
+        <li>(184,43,184,43)</li>
+        <li>(189,43,189,43)</li>
+        <li>(191,43,191,43)</li>
+        <li>(193,43,193,43)</li>
+        <li>(204,43,204,43)</li>
+        <li>(206,43,207,43)</li>
+        <li>(209,43,209,43)</li>
+        <li>(220,43,220,43)</li>
+        <li>(222,43,222,43)</li>
+        <li>(233,43,233,43)</li>
+        <li>(235,43,236,43)</li>
+        <li>(238,43,238,43)</li>
+        <li>(249,43,249,43)</li>
+      </rects>
+      <stuff>TWRL_Resource_FairyWood</stuff>
+      <hp>90</hp>
+      <color>RGBA(0.600, 0.741, 0.800, 1.000)</color>
+    </OA_RK_Zhuzi>
+    <OilStorage>
+      <positions>
+        <li>(16, 0, 2)</li>
+        <li>(16, 0, 5)</li>
+        <li>(16, 0, 8)</li>
+        <li>(16, 0, 11)</li>
+        <li>(16, 0, 14)</li>
+        <li>(16, 0, 17)</li>
+        <li>(16, 0, 20)</li>
+      </positions>
+      <hp>150</hp>
+    </OilStorage>
+    <PumpingStation>
+      <positions>
+        <li>(20, 0, 1)</li>
+        <li>(22, 0, 1)</li>
+        <li>(24, 0, 1)</li>
+        <li>(26, 0, 1)</li>
+        <li>(28, 0, 1)</li>
+        <li>(20, 0, 3)</li>
+        <li>(22, 0, 3)</li>
+        <li>(24, 0, 3)</li>
+        <li>(26, 0, 3)</li>
+        <li>(28, 0, 3)</li>
+        <li>(22, 0, 5)</li>
+        <li>(24, 0, 5)</li>
+        <li>(26, 0, 5)</li>
+        <li>(28, 0, 5)</li>
+        <li>(22, 0, 7)</li>
+        <li>(24, 0, 7)</li>
+        <li>(26, 0, 7)</li>
+        <li>(28, 0, 7)</li>
+      </positions>
+      <hp>150</hp>
+    </PumpingStation>
+    <WaterTowerL>
+      <positions>
+        <li>(34, 0, 2)</li>
+        <li>(37, 0, 2)</li>
+        <li>(40, 0, 2)</li>
+        <li>(49, 0, 2)</li>
+        <li>(52, 0, 2)</li>
+        <li>(55, 0, 2)</li>
+        <li>(34, 0, 5)</li>
+        <li>(37, 0, 5)</li>
+        <li>(40, 0, 5)</li>
+        <li>(49, 0, 5)</li>
+        <li>(52, 0, 5)</li>
+        <li>(55, 0, 5)</li>
+        <li>(34, 0, 8)</li>
+        <li>(37, 0, 8)</li>
+        <li>(40, 0, 8)</li>
+        <li>(49, 0, 8)</li>
+        <li>(52, 0, 8)</li>
+        <li>(55, 0, 8)</li>
+      </positions>
+      <hp>150</hp>
+    </WaterTowerL>
+    <SewageTreatment>
+      <positions>
+        <li>(62, 0, 3)</li>
+        <li>(67, 0, 3)</li>
+      </positions>
+      <hp>350</hp>
+    </SewageTreatment>
+    <ToiletAdvStuff>
+      <rects>
+        <li>(91,1,91,1)</li>
+        <li>(103,1,103,1)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+      <quality>Normal</quality>
+      <hp>90</hp>
+    </ToiletAdvStuff>
+    <WallLamp>
+      <rects>
+        <li>(91,1,91,1)</li>
+        <li>(93,1,93,1)</li>
+        <li>(95,1,95,1)</li>
+        <li>(97,1,97,1)</li>
+        <li>(99,1,99,1)</li>
+        <li>(101,1,101,1)</li>
+        <li>(103,1,103,1)</li>
+        <li>(105,1,105,1)</li>
+        <li>(107,1,107,1)</li>
+        <li>(125,24,125,24)</li>
+        <li>(129,24,129,24)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>35</hp>
+    </WallLamp>
+    <ToiletAdvStuff>
+      <rects>
+        <li>(93,1,93,1)</li>
+        <li>(99,1,99,1)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksSlate</stuff>
+      <quality>Poor</quality>
+      <hp>98</hp>
+    </ToiletAdvStuff>
+    <ToiletAdvStuff>
+      <rects>
+        <li>(95,1,95,1)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+      <quality>Good</quality>
+      <hp>90</hp>
+    </ToiletAdvStuff>
+    <ToiletAdvStuff>
+      <rects>
+        <li>(97,1,97,1)</li>
+        <li>(107,1,107,1)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksSlate</stuff>
+      <quality>Excellent</quality>
+      <hp>98</hp>
+    </ToiletAdvStuff>
+    <ToiletAdvStuff>
+      <rects>
+        <li>(101,1,101,1)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksSlate</stuff>
+      <quality>Good</quality>
+      <hp>98</hp>
+    </ToiletAdvStuff>
+    <ToiletAdvStuff>
+      <rects>
+        <li>(105,1,105,1)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksSlate</stuff>
+      <quality>Normal</quality>
+      <hp>98</hp>
+    </ToiletAdvStuff>
+    <HotWaterTank>
+      <rects>
+        <li>(109,1,109,1)</li>
+        <li>(63,9,69,9)</li>
+      </rects>
+      <hp>350</hp>
+    </HotWaterTank>
+    <HeatingPipeHidden>
+      <rects>
+        <li>(110,1,110,2)</li>
+        <li>(89,7,110,7)</li>
+        <li>(133,7,140,7)</li>
+        <li>(143,7,145,7)</li>
+        <li>(148,7,152,7)</li>
+        <li>(155,7,157,7)</li>
+        <li>(160,7,164,7)</li>
+        <li>(167,7,169,7)</li>
+        <li>(175,7,183,7)</li>
+        <li>(186,7,186,7)</li>
+        <li>(190,7,190,26)</li>
+        <li>(89,8,89,17)</li>
+        <li>(133,11,140,11)</li>
+        <li>(143,11,145,11)</li>
+        <li>(148,11,164,11)</li>
+        <li>(167,11,169,11)</li>
+        <li>(172,11,186,11)</li>
+        <li>(189,11,189,11)</li>
+        <li>(111,18,111,25)</li>
+        <li>(133,18,140,18)</li>
+        <li>(143,18,145,18)</li>
+        <li>(148,18,164,18)</li>
+        <li>(167,18,169,18)</li>
+        <li>(189,18,189,18)</li>
+        <li>(89,20,89,20)</li>
+        <li>(172,22,186,22)</li>
+        <li>(189,22,189,22)</li>
+        <li>(89,23,89,25)</li>
+        <li>(18,25,88,25)</li>
+        <li>(90,25,110,25)</li>
+        <li>(112,25,145,25)</li>
+        <li>(18,26,18,27)</li>
+        <li>(71,26,71,27)</li>
+        <li>(145,26,145,26)</li>
+        <li>(148,26,164,26)</li>
+        <li>(167,26,169,26)</li>
+        <li>(172,26,186,26)</li>
+        <li>(189,26,189,26)</li>
+        <li>(70,33,70,37)</li>
+        <li>(53,35,56,35)</li>
+        <li>(63,35,63,35)</li>
+        <li>(66,35,69,35)</li>
+        <li>(70,40,70,41)</li>
+      </rects>
+      <stuff>TWRL_Resource_PinkCrystal</stuff>
+      <hp>400</hp>
+      <color>RGBA(0.949, 0.714, 0.820, 1.000)</color>
+    </HeatingPipeHidden>
+    <WULA_WeaponArmor_Productor>
+      <position>(114, 0, 2)</position>
+      <hp>180</hp>
+    </WULA_WeaponArmor_Productor>
+    <CommsConsole>
+      <position>(120, 0, 1)</position>
+      <hp>250</hp>
+    </CommsConsole>
+    <WallLamp>
+      <rects>
+        <li>(126,1,126,1)</li>
+        <li>(126,7,126,7)</li>
+        <li>(126,11,126,11)</li>
+        <li>(126,22,126,22)</li>
+        <li>(126,26,126,26)</li>
+        <li>(126,30,126,30)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>35</hp>
+    </WallLamp>
+    <WallLamp>
+      <rects>
+        <li>(128,1,128,1)</li>
+        <li>(128,7,128,7)</li>
+        <li>(128,11,128,11)</li>
+        <li>(128,22,128,22)</li>
+        <li>(128,26,128,26)</li>
+        <li>(128,30,128,30)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>35</hp>
+    </WallLamp>
+    <AntyTableButcher>
+      <positions>
+        <li>(132, 0, 1)</li>
+        <li>(135, 0, 1)</li>
+        <li>(138, 0, 1)</li>
+        <li>(141, 0, 1)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>180</hp>
+    </AntyTableButcher>
+    <BB_BunkBedTriple>
+      <positions>
+        <li>(146, 0, 2)</li>
+        <li>(148, 0, 2)</li>
+        <li>(150, 0, 2)</li>
+        <li>(152, 0, 2)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>TWRL_Resource_PinkCrystal</stuff>
+      <quality>Normal</quality>
+      <hp>800</hp>
+      <color>RGBA(0.949, 0.714, 0.820, 1.000)</color>
+    </BB_BunkBedTriple>
     <Wall>
       <rects>
-        <li>(12,0,24,0)</li>
-        <li>(27,0,27,0)</li>
+        <li>(159,1,159,2)</li>
+        <li>(161,1,161,2)</li>
+        <li>(163,1,163,2)</li>
+        <li>(165,1,165,2)</li>
+        <li>(167,2,167,2)</li>
       </rects>
       <stuff>BlocksMarble</stuff>
       <hp>360</hp>
       <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
     </Wall>
-    <HiddenConduit>
+    <ToiletAdvStuff>
       <rects>
-        <li>(15,0,22,0)</li>
-        <li>(15,1,15,28)</li>
-        <li>(16,7,27,7)</li>
-        <li>(25,8,25,10)</li>
-        <li>(0,13,0,13)</li>
-        <li>(2,13,14,13)</li>
-        <li>(16,13,22,13)</li>
-        <li>(27,15,27,15)</li>
+        <li>(160,1,160,1)</li>
+        <li>(164,1,164,1)</li>
+        <li>(166,1,166,1)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksSandstone</stuff>
+      <quality>Normal</quality>
+      <hp>105</hp>
+    </ToiletAdvStuff>
+    <ToiletAdvStuff>
+      <rects>
+        <li>(162,1,162,1)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksSandstone</stuff>
+      <quality>Excellent</quality>
+      <hp>105</hp>
+    </ToiletAdvStuff>
+    <MissileSilo>
+      <position>(171, 0, 5)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Miho_Ceramics</stuff>
+      <hp>426</hp>
+      <color>RGBA(0.765, 0.765, 0.765, 1.000)</color>
+    </MissileSilo>
+    <BB_BunkBedTriple>
+      <positions>
+        <li>(182, 0, 2)</li>
+        <li>(184, 0, 2)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksSandstone</stuff>
+      <quality>Poor</quality>
+      <hp>280</hp>
+      <color>RGBA(0.494, 0.408, 0.369, 1.000)</color>
+    </BB_BunkBedTriple>
+    <sewagePipeHidden>
+      <rects>
+        <li>(185,1,185,1)</li>
+        <li>(187,1,187,1)</li>
+        <li>(189,1,189,4)</li>
+        <li>(183,7,183,7)</li>
+        <li>(185,7,185,7)</li>
+        <li>(187,7,189,7)</li>
+        <li>(189,8,189,9)</li>
+        <li>(128,9,188,9)</li>
+        <li>(71,10,71,35)</li>
+        <li>(65,35,65,35)</li>
+        <li>(67,35,67,35)</li>
+        <li>(69,35,69,35)</li>
+        <li>(70,36,70,37)</li>
+        <li>(64,40,64,40)</li>
+        <li>(70,42,70,43)</li>
+        <li>(64,43,64,43)</li>
+      </rects>
+      <stuff>BlocksSlate</stuff>
+      <hp>130</hp>
+      <color>RGBA(0.275, 0.275, 0.275, 1.000)</color>
+    </sewagePipeHidden>
+    <BB_BunkBedTriple>
+      <position>(186, 0, 2)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksSandstone</stuff>
+      <quality>Normal</quality>
+      <hp>280</hp>
+      <color>RGBA(0.494, 0.408, 0.369, 1.000)</color>
+    </BB_BunkBedTriple>
+    <BB_BunkBedTriple>
+      <position>(188, 0, 2)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksSandstone</stuff>
+      <quality>Excellent</quality>
+      <hp>280</hp>
+      <color>RGBA(0.494, 0.408, 0.369, 1.000)</color>
+    </BB_BunkBedTriple>
+    <Frame_FT_Centrifuge>
+      <position>(75, 0, 3)</position>
+      <hp>125</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Frame_FT_Centrifuge>
+    <PlutoniumProcessor>
+      <position>(84, 0, 3)</position>
+      <hp>450</hp>
+    </PlutoniumProcessor>
+    <ToiletStallDoor>
+      <rects>
+        <li>(91,2,91,2)</li>
+        <li>(93,2,93,2)</li>
+        <li>(95,2,95,2)</li>
+        <li>(97,2,97,2)</li>
+        <li>(99,2,99,2)</li>
+        <li>(101,2,101,2)</li>
+        <li>(103,2,103,2)</li>
+        <li>(105,2,105,2)</li>
+        <li>(107,2,107,2)</li>
+        <li>(95,5,95,5)</li>
+        <li>(97,5,97,5)</li>
+        <li>(91,6,91,6)</li>
+        <li>(93,6,93,6)</li>
+        <li>(113,13,113,13)</li>
+        <li>(115,13,115,13)</li>
+        <li>(121,13,121,13)</li>
+        <li>(123,13,123,13)</li>
+        <li>(113,15,113,15)</li>
+        <li>(115,15,115,15)</li>
+        <li>(117,15,117,15)</li>
+        <li>(119,15,119,15)</li>
+        <li>(121,15,121,15)</li>
+        <li>(123,15,123,15)</li>
+        <li>(64,36,64,36)</li>
+        <li>(66,36,66,36)</li>
+        <li>(68,36,68,36)</li>
+        <li>(70,36,70,36)</li>
+      </rects>
+      <stuff>TWRL_Resource_PinkCrystal</stuff>
+      <hp>1000</hp>
+      <color>RGBA(0.949, 0.714, 0.820, 1.000)</color>
+    </ToiletStallDoor>
+    <DiningChair>
+      <rects>
+        <li>(132,2,132,2)</li>
+        <li>(135,2,135,2)</li>
+        <li>(141,2,141,2)</li>
+        <li>(153,12,153,12)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>TWRL_Resource_FairyWood</stuff>
+      <quality>Good</quality>
+      <hp>50</hp>
+      <color>RGBA(0.600, 0.741, 0.800, 1.000)</color>
+    </DiningChair>
+    <DiningChair>
+      <rects>
+        <li>(138,2,138,2)</li>
+        <li>(148,12,148,12)</li>
+        <li>(164,13,164,13)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>TWRL_Resource_FairyWood</stuff>
+      <quality>Normal</quality>
+      <hp>50</hp>
+      <color>RGBA(0.600, 0.741, 0.800, 1.000)</color>
+    </DiningChair>
+    <ToiletStallDoor>
+      <rects>
+        <li>(160,2,160,2)</li>
+        <li>(162,2,162,2)</li>
+        <li>(164,2,164,2)</li>
+        <li>(166,2,166,2)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+      <hp>300</hp>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </ToiletStallDoor>
+    <RadiatorLarge>
+      <positions>
+        <li>(89, 0, 3)</li>
+        <li>(89, 0, 5)</li>
+        <li>(89, 0, 18)</li>
+        <li>(89, 0, 21)</li>
+        <li>(19, 0, 27)</li>
+        <li>(19, 0, 29)</li>
+        <li>(19, 0, 31)</li>
+        <li>(64, 0, 38)</li>
+        <li>(64, 0, 41)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>TWRL_Resource_PinkCrystal</stuff>
+      <hp>600</hp>
+    </RadiatorLarge>
+    <BasinStuff>
+      <rects>
+        <li>(110,3,110,5)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>TWRL_Resource_PinkCrystal</stuff>
+      <quality>Normal</quality>
+      <hp>300</hp>
+    </BasinStuff>
+    <RadiatorLarge>
+      <positions>
+        <li>(110, 0, 4)</li>
+        <li>(110, 0, 6)</li>
+        <li>(110, 0, 19)</li>
+        <li>(110, 0, 22)</li>
+        <li>(70, 0, 28)</li>
+        <li>(70, 0, 32)</li>
+        <li>(70, 0, 43)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>TWRL_Resource_PinkCrystal</stuff>
+      <hp>600</hp>
+    </RadiatorLarge>
+    <AT_Chart>
+      <rects>
+        <li>(134,3,134,3)</li>
+        <li>(139,3,139,3)</li>
+      </rects>
+      <hp>120</hp>
+    </AT_Chart>
+    <PH_AutodoorTriple>
+      <position>(177, 0, 4)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>TWRL_Resource_FairyWood</stuff>
+      <hp>240</hp>
+      <color>RGBA(0.600, 0.741, 0.800, 1.000)</color>
+    </PH_AutodoorTriple>
+    <WashBucket>
+      <rects>
+        <li>(102,4,108,4)</li>
+      </rects>
+      <stuff>DMS_Ceramics</stuff>
+      <hp>15</hp>
+    </WashBucket>
+    <SpacerWaterRecoverySystem>
+      <position>(20, 0, 5)</position>
+      <hp>100</hp>
+    </SpacerWaterRecoverySystem>
+    <OrnateDoor>
+      <positions>
+        <li>(205, 0, 5)</li>
+        <li>(208, 0, 5)</li>
+        <li>(234, 0, 5)</li>
+        <li>(237, 0, 5)</li>
+        <li>(234, 0, 16)</li>
+        <li>(237, 0, 16)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>GGl_Glorias_Crystal_Cluster</stuff>
+      <hp>290</hp>
+      <color>RGBA(0.980, 0.980, 0.824, 1.000)</color>
+    </OrnateDoor>
+    <BathtubStuff>
+      <position>(95, 0, 6)</position>
+      <stuff>BlocksLimestone</stuff>
+      <quality>Poor</quality>
+      <hp>116</hp>
+    </BathtubStuff>
+    <BathtubStuff>
+      <position>(97, 0, 6)</position>
+      <stuff>BlocksLimestone</stuff>
+      <quality>Good</quality>
+      <hp>116</hp>
+    </BathtubStuff>
+    <WaterTreatment>
+      <position>(20, 0, 7)</position>
+      <hp>120</hp>
+    </WaterTreatment>
+    <ShowerAdvStuff>
+      <rects>
+        <li>(91,7,91,7)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+      <quality>Normal</quality>
+      <hp>90</hp>
+    </ShowerAdvStuff>
+    <ShowerAdvStuff>
+      <rects>
+        <li>(93,7,93,7)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+      <quality>Good</quality>
+      <hp>90</hp>
+    </ShowerAdvStuff>
+    <WashingMachine>
+      <rects>
+        <li>(102,7,108,7)</li>
       </rects>
       <hp>100</hp>
-      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
-    </HiddenConduit>
+    </WashingMachine>
+    <RadiatorLarge>
+      <positions>
+        <li>(131, 0, 7)</li>
+        <li>(141, 0, 7)</li>
+        <li>(146, 0, 7)</li>
+        <li>(153, 0, 7)</li>
+        <li>(158, 0, 7)</li>
+        <li>(165, 0, 7)</li>
+        <li>(184, 0, 7)</li>
+        <li>(188, 0, 7)</li>
+        <li>(170, 0, 22)</li>
+        <li>(187, 0, 22)</li>
+      </positions>
+      <stuff>TWRL_Resource_PinkCrystal</stuff>
+      <hp>600</hp>
+    </RadiatorLarge>
+    <GD_DragonianFufu>
+      <rects>
+        <li>(149,7,149,7)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>300</hp>
+    </GD_DragonianFufu>
+    <OARO_BookcaseReading_B>
+      <position>(151, 0, 7)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>75</hp>
+    </OARO_BookcaseReading_B>
+    <ShowerAdvStuff>
+      <rects>
+        <li>(159,7,159,7)</li>
+      </rects>
+      <stuff>BlocksSandstone</stuff>
+      <quality>Good</quality>
+      <hp>105</hp>
+    </ShowerAdvStuff>
+    <ShowerAdvStuff>
+      <rects>
+        <li>(161,7,161,7)</li>
+      </rects>
+      <stuff>BlocksSandstone</stuff>
+      <quality>Poor</quality>
+      <hp>105</hp>
+    </ShowerAdvStuff>
+    <ShowerAdvStuff>
+      <rects>
+        <li>(163,7,163,7)</li>
+      </rects>
+      <stuff>BlocksSandstone</stuff>
+      <quality>Masterwork</quality>
+      <hp>105</hp>
+    </ShowerAdvStuff>
+    <HeatingPipeHidden>
+      <rects>
+        <li>(170,7,174,7)</li>
+        <li>(187,7,187,7)</li>
+        <li>(63,10,88,10)</li>
+        <li>(64,35,65,35)</li>
+        <li>(70,38,70,39)</li>
+        <li>(64,40,64,40)</li>
+        <li>(64,43,69,43)</li>
+      </rects>
+      <stuff>BlocksSlate</stuff>
+      <hp>130</hp>
+      <color>RGBA(0.275, 0.275, 0.275, 1.000)</color>
+    </HeatingPipeHidden>
+    <LSK_RB_Fortified_WallWall>
+      <rects>
+        <li>(190,7,190,7)</li>
+      </rects>
+      <stuff>TWRL_Resource_PinkCrystal</stuff>
+      <hp>2972</hp>
+      <color>RGBA(0.949, 0.714, 0.820, 1.000)</color>
+    </LSK_RB_Fortified_WallWall>
+    <PH_DoorBlastDoor>
+      <position>(179, 0, 8)</position>
+      <stuff>TWRL_Resource_PinkCrystal</stuff>
+      <hp>4000</hp>
+      <color>RGBA(0.949, 0.714, 0.820, 1.000)</color>
+    </PH_DoorBlastDoor>
+    <Autodoor>
+      <rects>
+        <li>(73,9,73,9)</li>
+        <li>(190,9,190,9)</li>
+        <li>(18,24,18,24)</li>
+        <li>(71,24,71,24)</li>
+        <li>(73,24,73,24)</li>
+        <li>(190,24,190,24)</li>
+        <li>(6,25,6,25)</li>
+        <li>(13,25,13,25)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>TWRL_Resource_PinkCrystal</stuff>
+      <hp>640</hp>
+      <color>RGBA(0.949, 0.714, 0.820, 1.000)</color>
+    </Autodoor>
+    <RoyalBed>
+      <positions>
+        <li>(195, 0, 10)</li>
+        <li>(211, 0, 10)</li>
+        <li>(224, 0, 10)</li>
+        <li>(240, 0, 10)</li>
+        <li>(195, 0, 21)</li>
+        <li>(211, 0, 21)</li>
+        <li>(224, 0, 21)</li>
+        <li>(240, 0, 21)</li>
+        <li>(195, 0, 26)</li>
+        <li>(240, 0, 26)</li>
+        <li>(195, 0, 33)</li>
+        <li>(211, 0, 33)</li>
+        <li>(224, 0, 33)</li>
+        <li>(240, 0, 33)</li>
+        <li>(195, 0, 36)</li>
+        <li>(195, 0, 43)</li>
+        <li>(211, 0, 43)</li>
+        <li>(224, 0, 43)</li>
+        <li>(240, 0, 43)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>TWRL_Resource_FairyWood</stuff>
+      <quality>Normal</quality>
+      <hp>100</hp>
+      <color>RGBA(0.600, 0.741, 0.800, 1.000)</color>
+    </RoyalBed>
+    <sewagePipeHidden>
+      <rects>
+        <li>(111,10,111,16)</li>
+        <li>(155,10,155,19)</li>
+        <li>(112,11,112,11)</li>
+        <li>(114,11,114,11)</li>
+        <li>(116,11,120,11)</li>
+        <li>(122,11,122,11)</li>
+        <li>(124,11,124,11)</li>
+        <li>(112,16,112,16)</li>
+        <li>(114,16,114,16)</li>
+        <li>(116,16,116,16)</li>
+        <li>(118,16,118,16)</li>
+        <li>(120,16,120,16)</li>
+        <li>(122,16,122,16)</li>
+        <li>(124,16,124,16)</li>
+      </rects>
+      <stuff>BlocksLimestone</stuff>
+      <hp>155</hp>
+      <color>RGBA(0.620, 0.600, 0.529, 1.000)</color>
+    </sewagePipeHidden>
+    <PH_AutodoorTriple>
+      <positions>
+        <li>(136, 0, 10)</li>
+        <li>(156, 0, 10)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>TWRL_Resource_PinkCrystal</stuff>
+      <hp>1920</hp>
+      <color>RGBA(0.949, 0.714, 0.820, 1.000)</color>
+    </PH_AutodoorTriple>
+    <WeaponsBench>
+      <position>(76, 0, 12)</position>
+      <hp>550</hp>
+    </WeaponsBench>
+    <ResearchReactor>
+      <position>(81, 0, 12)</position>
+      <hp>550</hp>
+    </ResearchReactor>
+    <AnimalBed>
+      <rects>
+        <li>(103,11,104,11)</li>
+        <li>(106,11,106,11)</li>
+        <li>(109,11,109,11)</li>
+      </rects>
+      <stuff>Leather_Light</stuff>
+      <quality>Normal</quality>
+      <hp>140</hp>
+      <color>RGBA(0.549, 0.333, 0.141, 1.000)</color>
+    </AnimalBed>
+    <AnimalBed>
+      <rects>
+        <li>(105,11,105,11)</li>
+        <li>(107,11,108,11)</li>
+      </rects>
+      <stuff>Leather_Light</stuff>
+      <quality>Good</quality>
+      <hp>140</hp>
+      <color>RGBA(0.549, 0.333, 0.141, 1.000)</color>
+    </AnimalBed>
+    <BathtubStuff>
+      <position>(113, 0, 12)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>TWRL_Resource_FairyWood</stuff>
+      <quality>Masterwork</quality>
+      <hp>38</hp>
+    </BathtubStuff>
+    <BathtubStuff>
+      <position>(115, 0, 12)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>TWRL_Resource_FairyWood</stuff>
+      <quality>Awful</quality>
+      <hp>38</hp>
+    </BathtubStuff>
+    <BathtubStuff>
+      <position>(121, 0, 12)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>TWRL_Resource_FairyWood</stuff>
+      <quality>Poor</quality>
+      <hp>38</hp>
+    </BathtubStuff>
+    <BathtubStuff>
+      <position>(123, 0, 12)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>TWRL_Resource_FairyWood</stuff>
+      <quality>Normal</quality>
+      <hp>38</hp>
+    </BathtubStuff>
+    <RadiatorLarge>
+      <positions>
+        <li>(132, 0, 11)</li>
+        <li>(142, 0, 11)</li>
+        <li>(147, 0, 11)</li>
+        <li>(166, 0, 11)</li>
+        <li>(171, 0, 11)</li>
+        <li>(188, 0, 11)</li>
+        <li>(132, 0, 18)</li>
+        <li>(142, 0, 18)</li>
+        <li>(147, 0, 18)</li>
+        <li>(166, 0, 18)</li>
+        <li>(147, 0, 26)</li>
+        <li>(166, 0, 26)</li>
+        <li>(171, 0, 26)</li>
+        <li>(188, 0, 26)</li>
+        <li>(48, 0, 35)</li>
+        <li>(50, 0, 35)</li>
+        <li>(52, 0, 35)</li>
+        <li>(58, 0, 35)</li>
+        <li>(60, 0, 35)</li>
+        <li>(62, 0, 35)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>TWRL_Resource_PinkCrystal</stuff>
+      <hp>600</hp>
+    </RadiatorLarge>
+    <OARO_OrderForgingBox_B>
+      <rects>
+        <li>(146,11,147,11)</li>
+      </rects>
+      <hp>150</hp>
+    </OARO_OrderForgingBox_B>
+    <RK_ElectricSmithy>
+      <positions>
+        <li>(149, 0, 11)</li>
+        <li>(151, 0, 11)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>117</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RK_ElectricSmithy>
+    <RB_MoonTableMachining>
+      <position>(153, 0, 11)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>180</hp>
+    </RB_MoonTableMachining>
+    <OARK_GravDataBeacon>
+      <position>(160, 0, 12)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>500</hp>
+    </OARK_GravDataBeacon>
+    <TableRimatomicsMachining>
+      <position>(164, 0, 12)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>180</hp>
+    </TableRimatomicsMachining>
+    <DiningChair>
+      <rects>
+        <li>(175,11,175,11)</li>
+        <li>(162,13,162,13)</li>
+        <li>(132,15,133,15)</li>
+        <li>(147,15,147,15)</li>
+        <li>(156,15,156,15)</li>
+        <li>(159,15,159,15)</li>
+        <li>(150,19,150,19)</li>
+        <li>(153,19,153,19)</li>
+        <li>(147,21,147,21)</li>
+        <li>(150,21,150,21)</li>
+        <li>(159,21,159,21)</li>
+      </rects>
+      <stuff>TWRL_Resource_FairyWood</stuff>
+      <quality>Good</quality>
+      <hp>50</hp>
+      <color>RGBA(0.600, 0.741, 0.800, 1.000)</color>
+    </DiningChair>
+    <DiningChair>
+      <rects>
+        <li>(183,11,183,11)</li>
+        <li>(147,13,147,13)</li>
+        <li>(153,13,153,13)</li>
+        <li>(77,14,77,14)</li>
+        <li>(84,14,84,14)</li>
+        <li>(179,14,179,14)</li>
+        <li>(186,14,186,14)</li>
+        <li>(134,15,134,15)</li>
+        <li>(165,15,165,15)</li>
+        <li>(147,19,147,19)</li>
+        <li>(153,21,153,21)</li>
+        <li>(165,21,165,21)</li>
+        <li>(77,28,77,28)</li>
+      </rects>
+      <stuff>TWRL_Resource_FairyWood</stuff>
+      <quality>Normal</quality>
+      <hp>50</hp>
+      <color>RGBA(0.600, 0.741, 0.800, 1.000)</color>
+    </DiningChair>
+    <DiningChair>
+      <rects>
+        <li>(150,12,150,12)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>TWRL_Resource_FairyWood</stuff>
+      <quality>Poor</quality>
+      <hp>50</hp>
+      <color>RGBA(0.600, 0.741, 0.800, 1.000)</color>
+    </DiningChair>
+    <FT_ENIAC>
+      <positions>
+        <li>(170, 0, 12)</li>
+        <li>(187, 0, 12)</li>
+      </positions>
+      <hp>2000</hp>
+    </FT_ENIAC>
+    <HiTechResearchBench>
+      <positions>
+        <li>(175, 0, 12)</li>
+        <li>(183, 0, 12)</li>
+        <li>(172, 0, 15)</li>
+        <li>(179, 0, 15)</li>
+        <li>(186, 0, 15)</li>
+      </positions>
+      <stuff>TWRL_Resource_PinkCrystal</stuff>
+      <hp>1000</hp>
+      <color>RGBA(0.949, 0.714, 0.820, 1.000)</color>
+    </HiTechResearchBench>
+    <GGl_Extension_Cabinet>
+      <rects>
+        <li>(178,12,178,13)</li>
+        <li>(180,12,180,13)</li>
+      </rects>
+      <hp>500</hp>
+    </GGl_Extension_Cabinet>
+    <BigTurbine>
+      <positions>
+        <li>(23, 0, 16)</li>
+        <li>(37, 0, 16)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>2000</hp>
+      <color>RGBA(0.215, 0.482, 0.650, 1.000)</color>
+    </BigTurbine>
     <controllerLoomHidden>
       <rects>
-        <li>(20,0,20,13)</li>
-        <li>(8,10,8,17)</li>
-        <li>(13,13,19,13)</li>
-        <li>(9,14,13,14)</li>
-        <li>(12,15,12,16)</li>
+        <li>(29,13,46,13)</li>
+        <li>(71,16,74,16)</li>
       </rects>
       <hp>100</hp>
       <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
     </controllerLoomHidden>
-    <PH_AutodoorDouble>
-      <position>(25, 0, 0)</position>
-      <stuff>SR_Ceramium</stuff>
-      <hp>176</hp>
-      <color>RGBA(0.902, 0.902, 0.902, 1.000)</color>
-    </PH_AutodoorDouble>
-    <ReactorCoreC>
-      <positions>
-        <li>(5, 0, 5)</li>
-        <li>(5, 0, 22)</li>
-      </positions>
-      <hp>1600</hp>
-    </ReactorCoreC>
-    <Milian_Recharger>
-      <rects>
-        <li>(12,1,12,1)</li>
-        <li>(14,1,14,1)</li>
-        <li>(16,1,16,1)</li>
-        <li>(18,1,18,1)</li>
-        <li>(20,1,20,1)</li>
-        <li>(22,1,22,1)</li>
-        <li>(24,1,24,1)</li>
-        <li>(26,1,26,1)</li>
-        <li>(12,3,12,3)</li>
-        <li>(14,3,14,3)</li>
-        <li>(16,3,16,3)</li>
-        <li>(20,3,20,3)</li>
-        <li>(22,3,22,3)</li>
-        <li>(24,3,24,3)</li>
-        <li>(26,3,26,3)</li>
-        <li>(12,5,12,5)</li>
-        <li>(14,5,14,5)</li>
-        <li>(16,5,16,5)</li>
-        <li>(20,5,20,5)</li>
-        <li>(22,5,22,5)</li>
-        <li>(24,5,24,5)</li>
-        <li>(26,5,26,5)</li>
-        <li>(12,7,12,7)</li>
-        <li>(14,7,14,7)</li>
-        <li>(16,7,16,7)</li>
-        <li>(20,7,20,7)</li>
-        <li>(22,7,22,7)</li>
-        <li>(24,7,24,7)</li>
-        <li>(26,7,26,7)</li>
-        <li>(12,9,12,9)</li>
-        <li>(14,9,14,9)</li>
-        <li>(16,9,16,9)</li>
-        <li>(20,9,20,9)</li>
-        <li>(22,9,22,9)</li>
-        <li>(24,9,24,9)</li>
-        <li>(26,9,26,9)</li>
-      </rects>
-      <hp>280</hp>
-    </Milian_Recharger>
-    <Wall>
-      <rects>
-        <li>(27,1,27,9)</li>
-      </rects>
-      <stuff>RM_OvercastWood</stuff>
-      <hp>195</hp>
-      <color>RGBA(0.380, 0.267, 0.282, 1.000)</color>
-    </Wall>
-    <FloodLight>
-      <rects>
-        <li>(18,3,18,3)</li>
-      </rects>
-      <hp>120</hp>
-    </FloodLight>
-    <Milira_DroneRecharger>
-      <rects>
-        <li>(13,5,13,5)</li>
-        <li>(15,5,15,5)</li>
-        <li>(13,7,13,7)</li>
-        <li>(15,7,15,7)</li>
-        <li>(21,7,21,7)</li>
-        <li>(23,7,23,7)</li>
-        <li>(25,7,25,7)</li>
-        <li>(13,9,13,9)</li>
-        <li>(15,9,15,9)</li>
-        <li>(21,9,21,9)</li>
-        <li>(23,9,23,9)</li>
-        <li>(25,9,25,9)</li>
-      </rects>
-      <hp>280</hp>
-    </Milira_DroneRecharger>
-    <waterPipeHidden>
-      <rects>
-        <li>(10,9,10,9)</li>
-        <li>(20,9,21,9)</li>
-        <li>(9,10,9,17)</li>
-        <li>(21,10,21,16)</li>
-        <li>(10,15,20,15)</li>
-        <li>(12,16,12,16)</li>
-      </rects>
-      <hp>100</hp>
-      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
-    </waterPipeHidden>
-    <RadiationDetector>
-      <rects>
-        <li>(1,10,1,10)</li>
-        <li>(9,10,9,10)</li>
-        <li>(11,11,11,11)</li>
-        <li>(22,11,22,11)</li>
-        <li>(11,16,11,16)</li>
-        <li>(22,16,22,16)</li>
-        <li>(1,17,1,17)</li>
-        <li>(9,17,9,17)</li>
-      </rects>
-      <hp>100</hp>
-    </RadiationDetector>
     <steamPipeHidden>
       <rects>
-        <li>(5,10,5,11)</li>
-        <li>(6,11,6,14)</li>
-        <li>(23,11,23,16)</li>
-        <li>(5,14,5,17)</li>
-        <li>(7,14,13,14)</li>
-        <li>(13,15,13,16)</li>
+        <li>(43,13,46,13)</li>
       </rects>
       <hp>100</hp>
       <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
     </steamPipeHidden>
-    <Wall>
+    <ReactorCoreB>
+      <position>(49, 0, 15)</position>
+      <hp>700</hp>
+    </ReactorCoreB>
+    <ReactorCoreC>
+      <positions>
+        <li>(57, 0, 17)</li>
+        <li>(66, 0, 17)</li>
+      </positions>
+      <hp>1600</hp>
+    </ReactorCoreC>
+    <Miho_WorkAI>
       <rects>
-        <li>(11,10,16,10)</li>
+        <li>(145,13,145,13)</li>
       </rects>
-      <stuff>Milira_SplendidSteel</stuff>
-      <hp>540</hp>
-    </Wall>
-    <DU_Blastdoor>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>100</hp>
+    </Miho_WorkAI>
+    <DiningChair>
       <rects>
-        <li>(18,10,18,10)</li>
+        <li>(150,13,150,13)</li>
+        <li>(162,15,162,15)</li>
       </rects>
+      <stuff>TWRL_Resource_FairyWood</stuff>
+      <quality>Excellent</quality>
+      <hp>50</hp>
+      <color>RGBA(0.600, 0.741, 0.800, 1.000)</color>
+    </DiningChair>
+    <PH_AutodoorTriple>
+      <positions>
+        <li>(168, 0, 14)</li>
+        <li>(73, 0, 40)</li>
+        <li>(190, 0, 40)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>TWRL_Resource_PinkCrystal</stuff>
+      <hp>1920</hp>
+      <color>RGBA(0.949, 0.714, 0.820, 1.000)</color>
+    </PH_AutodoorTriple>
+    <Altar_Grand>
+      <position>(94, 0, 15)</position>
+      <stuff>Steel</stuff>
+      <hp>350</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Altar_Grand>
+    <Milira_AuxiliaryReplicator>
+      <position>(130, 0, 14)</position>
+      <hp>1200</hp>
+    </Milira_AuxiliaryReplicator>
+    <FT_TableLathe>
+      <positions>
+        <li>(147, 0, 14)</li>
+        <li>(150, 0, 14)</li>
+      </positions>
+      <hp>180</hp>
+    </FT_TableLathe>
+    <TableMending>
+      <position>(153, 0, 14)</position>
+      <stuff>TWRL_Resource_FairyWood</stuff>
+      <hp>90</hp>
+      <color>RGBA(0.600, 0.741, 0.800, 1.000)</color>
+    </TableMending>
+    <ElectricTailoringBench>
+      <position>(159, 0, 14)</position>
+      <stuff>TWRL_Resource_FairyWood</stuff>
+      <hp>90</hp>
+      <color>RGBA(0.600, 0.741, 0.800, 1.000)</color>
+    </ElectricTailoringBench>
+    <DrugLab>
+      <position>(162, 0, 14)</position>
+      <stuff>TWRL_Resource_FairyWood</stuff>
+      <hp>60</hp>
+      <color>RGBA(0.600, 0.741, 0.800, 1.000)</color>
+    </DrugLab>
+    <FT_TableChemistry>
+      <position>(165, 0, 14)</position>
+      <hp>180</hp>
+    </FT_TableChemistry>
+    <DiningChair>
+      <rects>
+        <li>(172,14,172,14)</li>
+        <li>(150,15,150,15)</li>
+        <li>(153,15,153,15)</li>
+      </rects>
+      <stuff>TWRL_Resource_FairyWood</stuff>
+      <quality>Poor</quality>
+      <hp>50</hp>
+      <color>RGBA(0.600, 0.741, 0.800, 1.000)</color>
+    </DiningChair>
+    <ReactorControl>
+      <position>(77, 0, 15)</position>
+      <hp>250</hp>
+    </ReactorControl>
+    <NuclearResearchBench>
+      <position>(84, 0, 15)</position>
+      <hp>250</hp>
+    </NuclearResearchBench>
+    <Altar_Large>
+      <position>(91, 0, 15)</position>
+      <stuff>Steel</stuff>
+      <hp>250</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Altar_Large>
+    <AnimalBed>
+      <rects>
+        <li>(103,15,103,16)</li>
+        <li>(105,15,106,15)</li>
+        <li>(109,15,109,15)</li>
+        <li>(105,16,105,16)</li>
+        <li>(108,16,108,16)</li>
+      </rects>
+      <stuff>GGlPlastic_material</stuff>
+      <quality>Good</quality>
+      <hp>168</hp>
+      <color>RGBA(0.792, 0.792, 0.792, 1.000)</color>
+    </AnimalBed>
+    <AnimalBed>
+      <rects>
+        <li>(104,15,104,15)</li>
+        <li>(107,15,107,15)</li>
+      </rects>
+      <stuff>GGlPlastic_material</stuff>
+      <quality>Excellent</quality>
+      <hp>168</hp>
+      <color>RGBA(0.792, 0.792, 0.792, 1.000)</color>
+    </AnimalBed>
+    <AnimalBed>
+      <rects>
+        <li>(108,15,108,15)</li>
+        <li>(104,16,104,16)</li>
+        <li>(106,16,106,16)</li>
+        <li>(109,16,109,16)</li>
+      </rects>
+      <stuff>GGlPlastic_material</stuff>
+      <quality>Normal</quality>
+      <hp>168</hp>
+      <color>RGBA(0.792, 0.792, 0.792, 1.000)</color>
+    </AnimalBed>
+    <MiliraLithographyMachine>
+      <position>(141, 0, 15)</position>
+      <hp>2000</hp>
+    </MiliraLithographyMachine>
+    <GD_CommunicationStation>
+      <position>(170, 0, 15)</position>
+      <stuff>TWRL_Resource_PinkCrystal</stuff>
       <hp>1000</hp>
-    </DU_Blastdoor>
+      <color>RGBA(0.949, 0.714, 0.820, 1.000)</color>
+    </GD_CommunicationStation>
+    <CMC_CommConsole>
+      <position>(175, 0, 15)</position>
+      <hp>260</hp>
+    </CMC_CommConsole>
+    <MultiAnalyzer>
+      <position>(182, 0, 15)</position>
+      <hp>200</hp>
+    </MultiAnalyzer>
+    <AnimalBed>
+      <rects>
+        <li>(107,16,107,16)</li>
+      </rects>
+      <stuff>GGlPlastic_material</stuff>
+      <quality>Poor</quality>
+      <hp>168</hp>
+      <color>RGBA(0.792, 0.792, 0.792, 1.000)</color>
+    </AnimalBed>
+    <ShowerStuff>
+      <rects>
+        <li>(113,16,113,16)</li>
+        <li>(121,16,121,16)</li>
+        <li>(123,16,123,16)</li>
+      </rects>
+      <stuff>TWRL_Resource_FairyWood</stuff>
+      <quality>Good</quality>
+      <hp>38</hp>
+    </ShowerStuff>
+    <ShowerStuff>
+      <rects>
+        <li>(115,16,115,16)</li>
+        <li>(117,16,117,16)</li>
+        <li>(119,16,119,16)</li>
+      </rects>
+      <stuff>TWRL_Resource_FairyWood</stuff>
+      <quality>Normal</quality>
+      <hp>38</hp>
+    </ShowerStuff>
+    <Milira_UniversalBench>
+      <position>(131, 0, 16)</position>
+      <hp>420</hp>
+    </Milira_UniversalBench>
+    <Milira_DroneBench>
+      <rects>
+        <li>(133,16,134,16)</li>
+      </rects>
+      <hp>420</hp>
+    </Milira_DroneBench>
+    <Milira_CVDFurnace>
+      <position>(136, 0, 16)</position>
+      <hp>300</hp>
+    </Milira_CVDFurnace>
+    <MarriageSpot>
+      <position>(139, 0, 16)</position>
+    </MarriageSpot>
+    <WallLamp>
+      <rects>
+        <li>(146,16,146,16)</li>
+        <li>(156,16,156,16)</li>
+        <li>(166,16,166,16)</li>
+        <li>(125,24,125,24)</li>
+        <li>(129,24,129,24)</li>
+      </rects>
+      <hp>35</hp>
+    </WallLamp>
+    <TableMachining>
+      <positions>
+        <li>(147, 0, 16)</li>
+        <li>(150, 0, 16)</li>
+      </positions>
+      <hp>180</hp>
+    </TableMachining>
+    <TableStonecutter>
+      <positions>
+        <li>(153, 0, 16)</li>
+        <li>(159, 0, 16)</li>
+      </positions>
+      <stuff>TWRL_Resource_PinkCrystal</stuff>
+      <hp>720</hp>
+      <color>RGBA(0.949, 0.714, 0.820, 1.000)</color>
+    </TableStonecutter>
+    <TableStonecutter>
+      <position>(156, 0, 16)</position>
+      <stuff>TWRL_Resource_PinkCrystal</stuff>
+      <hp>677</hp>
+      <color>RGBA(0.949, 0.714, 0.820, 1.000)</color>
+    </TableStonecutter>
+    <ElectricSmelter>
+      <positions>
+        <li>(162, 0, 16)</li>
+        <li>(165, 0, 16)</li>
+      </positions>
+      <hp>180</hp>
+    </ElectricSmelter>
+    <OrnateDoor>
+      <positions>
+        <li>(205, 0, 17)</li>
+        <li>(208, 0, 17)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>GGl_Glorias_Crystal_Cluster</stuff>
+      <hp>290</hp>
+      <color>RGBA(0.980, 0.980, 0.824, 1.000)</color>
+    </OrnateDoor>
+    <waterPipeHidden>
+      <rects>
+        <li>(43,18,46,18)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </waterPipeHidden>
+    <storagePool>
+      <position>(77, 0, 20)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>350</hp>
+    </storagePool>
+    <storagePool>
+      <position>(84, 0, 20)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>350</hp>
+    </storagePool>
+    <HospitalBed>
+      <positions>
+        <li>(90, 0, 18)</li>
+        <li>(96, 0, 18)</li>
+      </positions>
+      <stuff>Carrotium</stuff>
+      <quality>Normal</quality>
+      <hp>150</hp>
+      <color>RGBA(0.678, 0.486, 0.220, 1.000)</color>
+    </HospitalBed>
+    <VitalsMonitor>
+      <rects>
+        <li>(91,18,91,18)</li>
+        <li>(93,18,93,18)</li>
+        <li>(95,18,95,18)</li>
+        <li>(97,18,97,18)</li>
+        <li>(99,18,99,18)</li>
+      </rects>
+      <hp>100</hp>
+    </VitalsMonitor>
+    <HospitalBed>
+      <positions>
+        <li>(92, 0, 18)</li>
+        <li>(94, 0, 18)</li>
+      </positions>
+      <stuff>Carrotium</stuff>
+      <quality>Excellent</quality>
+      <hp>150</hp>
+      <color>RGBA(0.678, 0.486, 0.220, 1.000)</color>
+    </HospitalBed>
+    <HospitalBed>
+      <position>(98, 0, 18)</position>
+      <stuff>Carrotium</stuff>
+      <quality>Good</quality>
+      <hp>150</hp>
+      <color>RGBA(0.678, 0.486, 0.220, 1.000)</color>
+    </HospitalBed>
+    <GlowPod>
+      <rects>
+        <li>(134,18,134,18)</li>
+      </rects>
+      <hp>19</hp>
+    </GlowPod>
+    <EggSac>
+      <rects>
+        <li>(136,18,136,18)</li>
+      </rects>
+      <hp>1</hp>
+    </EggSac>
+    <EggSac>
+      <rects>
+        <li>(137,18,137,18)</li>
+      </rects>
+      <hp>17</hp>
+    </EggSac>
+    <GlowPod>
+      <rects>
+        <li>(138,18,138,18)</li>
+        <li>(139,19,139,19)</li>
+      </rects>
+      <hp>47</hp>
+    </GlowPod>
+    <ElectricBoiler>
+      <rects>
+        <li>(170,18,188,18)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>125</hp>
+    </ElectricBoiler>
+    <RadiationDetector>
+      <rects>
+        <li>(35,19,35,19)</li>
+        <li>(48,19,48,19)</li>
+        <li>(51,19,51,19)</li>
+        <li>(69,22,69,22)</li>
+      </rects>
+      <hp>100</hp>
+    </RadiationDetector>
     <Transformer>
       <positions>
-        <li>(23, 0, 12)</li>
-        <li>(25, 0, 12)</li>
-        <li>(23, 0, 14)</li>
-        <li>(25, 0, 14)</li>
-        <li>(23, 0, 16)</li>
-        <li>(25, 0, 16)</li>
+        <li>(37, 0, 19)</li>
+        <li>(39, 0, 19)</li>
+        <li>(41, 0, 19)</li>
       </positions>
-      <relativeRotation>Clockwise</relativeRotation>
       <hp>250</hp>
     </Transformer>
-    <VanometricPowerCell>
-      <position>(1, 0, 13)</position>
-      <hp>200</hp>
-    </VanometricPowerCell>
-    <HighVoltageHidden>
+    <ZHP_mianbei_two>
       <rects>
-        <li>(16,13,22,13)</li>
-        <li>(22,14,22,16)</li>
-        <li>(15,15,15,16)</li>
+        <li>(90,19,90,19)</li>
+        <li>(92,19,92,19)</li>
+        <li>(94,19,94,19)</li>
+        <li>(96,19,96,19)</li>
+        <li>(98,19,98,19)</li>
       </rects>
       <hp>100</hp>
-      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
-    </HighVoltageHidden>
+    </ZHP_mianbei_two>
+    <GlowPod>
+      <rects>
+        <li>(130,19,130,19)</li>
+        <li>(131,20,131,21)</li>
+        <li>(160,26,160,26)</li>
+        <li>(150,28,151,28)</li>
+        <li>(155,28,155,28)</li>
+        <li>(161,28,161,28)</li>
+      </rects>
+      <hp>50</hp>
+    </GlowPod>
+    <GlowPod>
+      <rects>
+        <li>(132,19,132,19)</li>
+        <li>(138,19,138,19)</li>
+        <li>(153,29,153,29)</li>
+      </rects>
+      <hp>46</hp>
+    </GlowPod>
+    <GlowPod>
+      <rects>
+        <li>(133,19,133,19)</li>
+        <li>(134,24,134,24)</li>
+      </rects>
+      <hp>36</hp>
+    </GlowPod>
+    <PetWaterBowl>
+      <rects>
+        <li>(167,19,167,20)</li>
+      </rects>
+      <stuff>BlocksSandstone</stuff>
+      <hp>77</hp>
+      <color>RGBA(0.494, 0.408, 0.369, 1.000)</color>
+    </PetWaterBowl>
+    <MetalCrateD>
+      <positions>
+        <li>(20, 0, 21)</li>
+        <li>(22, 0, 21)</li>
+        <li>(24, 0, 21)</li>
+        <li>(26, 0, 21)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>GGl_Glorias_Crystal_Cluster</stuff>
+      <hp>1380</hp>
+      <color>RGBA(0.980, 0.980, 0.824, 1.000)</color>
+    </MetalCrateD>
+    <Table2x2c>
+      <position>(121, 0, 20)</position>
+      <stuff>FT_BlocksConcrete</stuff>
+      <quality>Normal</quality>
+      <hp>200</hp>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </Table2x2c>
+    <GlowPod>
+      <rects>
+        <li>(136,20,136,20)</li>
+      </rects>
+      <hp>44</hp>
+    </GlowPod>
+    <GlowPod>
+      <rects>
+        <li>(138,20,138,20)</li>
+        <li>(139,21,139,21)</li>
+      </rects>
+      <hp>45</hp>
+    </GlowPod>
+    <ElectricStove>
+      <positions>
+        <li>(147, 0, 20)</li>
+        <li>(150, 0, 20)</li>
+        <li>(153, 0, 20)</li>
+        <li>(147, 0, 22)</li>
+        <li>(150, 0, 22)</li>
+        <li>(153, 0, 22)</li>
+        <li>(159, 0, 22)</li>
+        <li>(162, 0, 22)</li>
+        <li>(165, 0, 22)</li>
+      </positions>
+      <hp>180</hp>
+    </ElectricStove>
+    <KitchenSink>
+      <position>(156, 0, 20)</position>
+      <stuff>TWRL_Resource_FairyWood</stuff>
+      <quality>Normal</quality>
+      <hp>38</hp>
+    </KitchenSink>
+    <WaterTrough>
+      <positions>
+        <li>(160, 0, 20)</li>
+        <li>(162, 0, 20)</li>
+        <li>(164, 0, 20)</li>
+      </positions>
+      <stuff>LOF_StarlightSteel</stuff>
+      <hp>112</hp>
+      <color>RGBA(0.863, 0.863, 0.863, 1.000)</color>
+    </WaterTrough>
     <DU_Blastdoor>
       <rects>
-        <li>(10,14,10,14)</li>
+        <li>(28,21,28,21)</li>
+        <li>(43,21,43,21)</li>
+        <li>(46,21,46,21)</li>
       </rects>
       <relativeRotation>Clockwise</relativeRotation>
       <hp>1000</hp>
     </DU_Blastdoor>
-    <ReactorCoreA>
+    <EggSac>
+      <rects>
+        <li>(135,21,135,21)</li>
+      </rects>
+      <hp>14</hp>
+    </EggSac>
+    <EggSac>
+      <rects>
+        <li>(136,21,136,21)</li>
+      </rects>
+      <hp>12</hp>
+    </EggSac>
+    <GlowPod>
+      <rects>
+        <li>(137,21,137,21)</li>
+      </rects>
+      <hp>41</hp>
+    </GlowPod>
+    <DiningChair>
+      <rects>
+        <li>(162,21,162,21)</li>
+      </rects>
+      <stuff>TWRL_Resource_FairyWood</stuff>
+      <quality>Masterwork</quality>
+      <hp>50</hp>
+      <color>RGBA(0.600, 0.741, 0.800, 1.000)</color>
+    </DiningChair>
+    <ResourceConsole>
+      <position>(14, 0, 23)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>250</hp>
+    </ResourceConsole>
+    <GD_BunFufu>
+      <rects>
+        <li>(94,22,94,22)</li>
+        <li>(96,22,96,22)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>300</hp>
+    </GD_BunFufu>
+    <TubeTelevision>
+      <rects>
+        <li>(95,22,95,22)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>100</hp>
+    </TubeTelevision>
+    <DiningChair>
+      <rects>
+        <li>(15,23,15,23)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>TWRL_Resource_FairyWood</stuff>
+      <quality>Normal</quality>
+      <hp>50</hp>
+      <color>RGBA(0.600, 0.741, 0.800, 1.000)</color>
+    </DiningChair>
+    <PH_AutodoorDouble>
       <positions>
-        <li>(13, 0, 19)</li>
-        <li>(18, 0, 19)</li>
-        <li>(13, 0, 24)</li>
-        <li>(18, 0, 24)</li>
+        <li>(44, 0, 23)</li>
+        <li>(44, 0, 25)</li>
       </positions>
-      <hp>500</hp>
-    </ReactorCoreA>
-    <BigTurbine>
-      <position>(23, 0, 21)</position>
-      <hp>2000</hp>
-      <color>RGBA(0.215, 0.482, 0.650, 1.000)</color>
-    </BigTurbine>
-    <coolingPipeHidden>
+      <stuff>TWRL_Resource_PinkCrystal</stuff>
+      <hp>1280</hp>
+      <color>RGBA(0.949, 0.714, 0.820, 1.000)</color>
+    </PH_AutodoorDouble>
+    <Autodoor>
       <rects>
-        <li>(27,23,27,23)</li>
+        <li>(72,23,72,23)</li>
+        <li>(72,25,72,25)</li>
       </rects>
-      <hp>100</hp>
-      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
-    </coolingPipeHidden>
-    <HeatingPipeHidden>
+      <stuff>TWRL_Resource_PinkCrystal</stuff>
+      <hp>640</hp>
+      <color>RGBA(0.949, 0.714, 0.820, 1.000)</color>
+    </Autodoor>
+    <DU_Blastdoor>
       <rects>
-        <li>(0,28,27,28)</li>
+        <li>(80,23,80,23)</li>
       </rects>
-      <stuff>Steel</stuff>
-      <hp>100</hp>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </HeatingPipeHidden>
-    <Wall>
+      <hp>1000</hp>
+    </DU_Blastdoor>
+    <EggSac>
       <rects>
-        <li>(0,28,0,28)</li>
+        <li>(141,24,141,24)</li>
+        <li>(164,28,164,28)</li>
+        <li>(150,29,150,29)</li>
       </rects>
-      <stuff>Pigeon_MeteoriteCrystal</stuff>
-      <hp>840</hp>
-      <color>RGBA(0.220, 0.529, 0.863, 1.000)</color>
-    </Wall>
-    <MetalCrateD>
-      <position>(1, 0, 29)</position>
-      <relativeRotation>Clockwise</relativeRotation>
-      <stuff>AntyExoskeleton</stuff>
-      <hp>1800</hp>
-    </MetalCrateD>
-    <MetalCrateD>
+      <hp>19</hp>
+    </EggSac>
+    <EggSac>
+      <rects>
+        <li>(153,24,153,24)</li>
+      </rects>
+      <hp>20</hp>
+    </EggSac>
+    <GlowPod>
+      <rects>
+        <li>(155,24,155,24)</li>
+        <li>(153,28,153,28)</li>
+      </rects>
+      <hp>48</hp>
+    </GlowPod>
+    <Filth_OilSlick>
+      <rects>
+        <li>(5,25,5,43)</li>
+        <li>(2,26,4,43)</li>
+        <li>(8,26,8,27)</li>
+        <li>(6,27,7,27)</li>
+        <li>(6,30,7,30)</li>
+        <li>(9,32,10,33)</li>
+        <li>(6,33,8,33)</li>
+        <li>(6,36,8,36)</li>
+        <li>(7,37,8,42)</li>
+        <li>(6,39,6,39)</li>
+        <li>(9,40,9,42)</li>
+        <li>(14,40,14,42)</li>
+        <li>(15,41,15,41)</li>
+        <li>(6,42,6,42)</li>
+        <li>(10,42,10,42)</li>
+        <li>(8,43,8,43)</li>
+      </rects>
+      <hp>15000</hp>
+    </Filth_OilSlick>
+    <DeepOilWell>
       <positions>
-        <li>(4, 0, 29)</li>
-        <li>(7, 0, 29)</li>
-        <li>(10, 0, 29)</li>
-        <li>(13, 0, 29)</li>
-        <li>(16, 0, 29)</li>
-        <li>(19, 0, 29)</li>
-        <li>(22, 0, 29)</li>
-        <li>(25, 0, 29)</li>
+        <li>(3, 0, 27)</li>
+        <li>(8, 0, 27)</li>
+        <li>(11, 0, 27)</li>
+        <li>(16, 0, 27)</li>
+        <li>(3, 0, 30)</li>
+        <li>(8, 0, 30)</li>
+        <li>(11, 0, 30)</li>
+        <li>(16, 0, 30)</li>
+        <li>(3, 0, 33)</li>
+        <li>(8, 0, 33)</li>
+        <li>(11, 0, 33)</li>
+        <li>(16, 0, 33)</li>
+        <li>(3, 0, 36)</li>
+        <li>(8, 0, 36)</li>
+        <li>(11, 0, 36)</li>
+        <li>(16, 0, 36)</li>
+        <li>(3, 0, 39)</li>
+        <li>(8, 0, 39)</li>
+        <li>(11, 0, 39)</li>
+        <li>(16, 0, 39)</li>
+        <li>(3, 0, 42)</li>
+        <li>(8, 0, 42)</li>
+        <li>(11, 0, 42)</li>
+        <li>(16, 0, 42)</li>
+      </positions>
+      <hp>100</hp>
+    </DeepOilWell>
+    <ARA_InteractiveEggSac_Techprint>
+      <position>(30, 0, 26)</position>
+      <hp>148</hp>
+    </ARA_InteractiveEggSac_Techprint>
+    <ARA_InteractiveEggSac_Techprint>
+      <position>(32, 0, 26)</position>
+      <hp>236</hp>
+    </ARA_InteractiveEggSac_Techprint>
+    <ARA_InteractiveEggSac_Techprint>
+      <positions>
+        <li>(34, 0, 26)</li>
+        <li>(38, 0, 26)</li>
+        <li>(40, 0, 26)</li>
+        <li>(30, 0, 28)</li>
+        <li>(32, 0, 28)</li>
+        <li>(34, 0, 28)</li>
+        <li>(36, 0, 28)</li>
+        <li>(38, 0, 28)</li>
+        <li>(40, 0, 28)</li>
+      </positions>
+      <hp>250</hp>
+    </ARA_InteractiveEggSac_Techprint>
+    <ARA_InteractiveEggSac_Techprint>
+      <position>(36, 0, 26)</position>
+      <hp>156</hp>
+    </ARA_InteractiveEggSac_Techprint>
+    <ARA_InsectWall>
+      <rects>
+        <li>(43,26,43,29)</li>
+        <li>(46,26,46,29)</li>
+        <li>(43,31,43,38)</li>
+        <li>(46,31,46,38)</li>
+        <li>(19,34,42,34)</li>
+        <li>(47,34,70,34)</li>
+        <li>(63,35,63,39)</li>
+        <li>(43,40,43,43)</li>
+        <li>(46,40,46,43)</li>
+        <li>(63,41,63,43)</li>
+      </rects>
+      <stuff>TWRL_Resource_PinkCrystal</stuff>
+      <hp>4000</hp>
+      <color>RGBA(0.949, 0.714, 0.820, 1.000)</color>
+    </ARA_InsectWall>
+    <PPC>
+      <position>(85, 0, 27)</position>
+      <stuff>TWRL_Resource_PinkCrystal</stuff>
+      <hp>800</hp>
+      <color>RGBA(0.949, 0.714, 0.820, 1.000)</color>
+    </PPC>
+    <Milira_DroneRecharger>
+      <rects>
+        <li>(162,26,164,26)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>280</hp>
+    </Milira_DroneRecharger>
+    <Couch>
+      <positions>
+        <li>(173, 0, 26)</li>
+        <li>(176, 0, 26)</li>
+      </positions>
+      <stuff>GGl_GreenSource_Rubber</stuff>
+      <quality>Normal</quality>
+      <hp>280</hp>
+      <color>RGBA(0.792, 0.792, 0.792, 1.000)</color>
+    </Couch>
+    <OARO_OrderSofa>
+      <position>(185, 0, 26)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>GGlPlastic_material</stuff>
+      <quality>Excellent</quality>
+      <hp>240</hp>
+      <color>RGBA(0.792, 0.792, 0.792, 1.000)</color>
+    </OARO_OrderSofa>
+    <DeepOilWellHead>
+      <rects>
+        <li>(3,27,3,27)</li>
+        <li>(8,27,8,27)</li>
+        <li>(11,27,11,27)</li>
+        <li>(16,27,16,27)</li>
+        <li>(3,30,3,30)</li>
+        <li>(8,30,8,30)</li>
+        <li>(11,30,11,30)</li>
+        <li>(16,30,16,30)</li>
+        <li>(3,33,3,33)</li>
+        <li>(8,33,8,33)</li>
+        <li>(11,33,11,33)</li>
+        <li>(16,33,16,33)</li>
+        <li>(3,36,3,36)</li>
+        <li>(8,36,8,36)</li>
+        <li>(11,36,11,36)</li>
+        <li>(16,36,16,36)</li>
+        <li>(3,39,3,39)</li>
+        <li>(8,39,8,39)</li>
+        <li>(11,39,11,39)</li>
+        <li>(16,39,16,39)</li>
+        <li>(3,42,3,42)</li>
+        <li>(8,42,8,42)</li>
+        <li>(11,42,11,42)</li>
+        <li>(16,42,16,42)</li>
+      </rects>
+      <hp>300</hp>
+    </DeepOilWellHead>
+    <ARA_Chair>
+      <rects>
+        <li>(60,27,60,27)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksSlate</stuff>
+      <quality>Poor</quality>
+      <hp>130</hp>
+      <color>RGBA(0.275, 0.275, 0.275, 1.000)</color>
+    </ARA_Chair>
+    <ARA_Chair>
+      <rects>
+        <li>(62,27,62,27)</li>
+        <li>(64,30,64,30)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksSlate</stuff>
+      <quality>Normal</quality>
+      <hp>130</hp>
+      <color>RGBA(0.275, 0.275, 0.275, 1.000)</color>
+    </ARA_Chair>
+    <ARA_Chair>
+      <rects>
+        <li>(64,27,64,27)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksSlate</stuff>
+      <quality>Awful</quality>
+      <hp>130</hp>
+      <color>RGBA(0.275, 0.275, 0.275, 1.000)</color>
+    </ARA_Chair>
+    <ARA_Chair>
+      <rects>
+        <li>(66,27,66,27)</li>
+        <li>(60,30,60,30)</li>
+        <li>(62,30,62,30)</li>
+        <li>(66,30,66,30)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksSlate</stuff>
+      <quality>Good</quality>
+      <hp>130</hp>
+      <color>RGBA(0.275, 0.275, 0.275, 1.000)</color>
+    </ARA_Chair>
+    <ARA_InteractiveEggSac_Techprint>
+      <position>(28, 0, 28)</position>
+      <hp>134</hp>
+    </ARA_InteractiveEggSac_Techprint>
+    <ARA_SkillTraining_Building>
+      <positions>
+        <li>(48, 0, 28)</li>
+        <li>(50, 0, 28)</li>
+        <li>(52, 0, 28)</li>
+        <li>(54, 0, 28)</li>
+        <li>(56, 0, 28)</li>
+        <li>(58, 0, 28)</li>
+      </positions>
+      <stuff>BlocksSandstone</stuff>
+      <hp>250</hp>
+      <color>RGBA(0.494, 0.408, 0.369, 1.000)</color>
+    </ARA_SkillTraining_Building>
+    <ARA_Table1x2c>
+      <positions>
+        <li>(60, 0, 28)</li>
+        <li>(62, 0, 28)</li>
+      </positions>
+      <stuff>BlocksSlate</stuff>
+      <quality>Good</quality>
+      <hp>98</hp>
+      <color>RGBA(0.275, 0.275, 0.275, 1.000)</color>
+    </ARA_Table1x2c>
+    <ARA_Table1x2c>
+      <positions>
+        <li>(64, 0, 28)</li>
+        <li>(66, 0, 28)</li>
+      </positions>
+      <stuff>BlocksSlate</stuff>
+      <quality>Normal</quality>
+      <hp>98</hp>
+      <color>RGBA(0.275, 0.275, 0.275, 1.000)</color>
+    </ARA_Table1x2c>
+    <Loudspeaker>
+      <rects>
+        <li>(95,28,98,28)</li>
+        <li>(102,28,105,28)</li>
+      </rects>
+      <hp>100</hp>
+    </Loudspeaker>
+    <LightBall>
+      <rects>
+        <li>(100,28,100,28)</li>
+      </rects>
+      <hp>100</hp>
+    </LightBall>
+    <PPCWeaponsConsole>
+      <position>(77, 0, 29)</position>
+      <hp>250</hp>
+    </PPCWeaponsConsole>
+    <ARA_InsectDoor>
+      <rects>
+        <li>(43,30,43,30)</li>
+        <li>(46,30,46,30)</li>
+        <li>(43,39,43,39)</li>
+        <li>(46,39,46,39)</li>
+        <li>(63,40,63,40)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>TWRL_Resource_PinkCrystal</stuff>
+      <hp>4800</hp>
+      <color>RGBA(0.949, 0.714, 0.820, 1.000)</color>
+    </ARA_InsectDoor>
+    <Milian_Recharger>
+      <rects>
+        <li>(156,30,156,30)</li>
+        <li>(158,30,158,30)</li>
+        <li>(160,30,160,30)</li>
+        <li>(162,30,162,30)</li>
+        <li>(164,30,164,30)</li>
+        <li>(166,30,166,30)</li>
+      </rects>
+      <hp>280</hp>
+    </Milian_Recharger>
+    <Bookcase>
+      <positions>
+        <li>(171, 0, 30)</li>
+        <li>(173, 0, 30)</li>
+        <li>(175, 0, 30)</li>
+        <li>(177, 0, 30)</li>
+        <li>(179, 0, 30)</li>
+        <li>(181, 0, 30)</li>
+        <li>(183, 0, 30)</li>
+        <li>(185, 0, 30)</li>
+        <li>(187, 0, 30)</li>
       </positions>
       <relativeRotation>Opposite</relativeRotation>
-      <stuff>AntyExoskeleton</stuff>
-      <hp>1800</hp>
+      <stuff>BlocksSlate</stuff>
+      <hp>130</hp>
+      <color>RGBA(0.275, 0.275, 0.275, 1.000)</color>
+    </Bookcase>
+    <ARA_ResearchBench>
+      <positions>
+        <li>(21, 0, 32)</li>
+        <li>(24, 0, 32)</li>
+        <li>(27, 0, 32)</li>
+        <li>(30, 0, 32)</li>
+        <li>(33, 0, 32)</li>
+        <li>(36, 0, 32)</li>
+        <li>(39, 0, 32)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>250</hp>
+    </ARA_ResearchBench>
+    <Frame_OrnateDoor>
+      <position>(234, 0, 32)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>TWRL_Resource_FairyWood</stuff>
+      <hp>31</hp>
+      <color>RGBA(0.600, 0.741, 0.800, 1.000)</color>
+    </Frame_OrnateDoor>
+    <ARA_NodeNest>
+      <positions>
+        <li>(48, 0, 33)</li>
+        <li>(49, 0, 33)</li>
+        <li>(50, 0, 33)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <quality>Normal</quality>
+      <hp>140</hp>
+      <color>RGBA(0.388, 0.388, 0.886, 1.000)</color>
+    </ARA_NodeNest>
+    <ARA_NodeNest>
+      <positions>
+        <li>(51, 0, 33)</li>
+        <li>(52, 0, 33)</li>
+        <li>(53, 0, 33)</li>
+        <li>(54, 0, 33)</li>
+        <li>(55, 0, 33)</li>
+        <li>(56, 0, 33)</li>
+        <li>(57, 0, 33)</li>
+        <li>(58, 0, 33)</li>
+        <li>(59, 0, 33)</li>
+        <li>(60, 0, 33)</li>
+        <li>(62, 0, 33)</li>
+        <li>(65, 0, 33)</li>
+        <li>(68, 0, 33)</li>
+        <li>(69, 0, 33)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <quality>Normal</quality>
+      <hp>140</hp>
+      <color>RGBA(0.631, 0.835, 0.706, 1.000)</color>
+    </ARA_NodeNest>
+    <ARA_NodeNest>
+      <positions>
+        <li>(61, 0, 33)</li>
+        <li>(63, 0, 33)</li>
+        <li>(64, 0, 33)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <quality>Poor</quality>
+      <hp>140</hp>
+      <color>RGBA(0.631, 0.835, 0.706, 1.000)</color>
+    </ARA_NodeNest>
+    <ARA_NodeNest>
+      <positions>
+        <li>(66, 0, 33)</li>
+        <li>(67, 0, 33)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <quality>Good</quality>
+      <hp>140</hp>
+      <color>RGBA(0.631, 0.835, 0.706, 1.000)</color>
+    </ARA_NodeNest>
+    <ChemfuelSiphon>
+      <rects>
+        <li>(75,32,75,32)</li>
+      </rects>
+      <hp>100</hp>
+    </ChemfuelSiphon>
+    <ChemfuelHopper>
+      <rects>
+        <li>(76,32,76,32)</li>
+      </rects>
+      <hp>100</hp>
+    </ChemfuelHopper>
+    <More_Temperature_Control_Cooler_III>
+      <rects>
+        <li>(185,32,188,32)</li>
+      </rects>
+      <hp>300</hp>
+    </More_Temperature_Control_Cooler_III>
+    <ARA_Pawn_Ootheca>
+      <rects>
+        <li>(21,35,41,35)</li>
+      </rects>
+      <hp>150</hp>
+    </ARA_Pawn_Ootheca>
+    <ToiletAdvStuff>
+      <rects>
+        <li>(64,35,64,35)</li>
+        <li>(66,35,66,35)</li>
+        <li>(68,35,68,35)</li>
+        <li>(70,35,70,35)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>TWRL_Resource_PinkCrystal</stuff>
+      <quality>Normal</quality>
+      <hp>300</hp>
+    </ToiletAdvStuff>
+    <ARA_SmoothedInsectWall>
+      <rects>
+        <li>(65,35,65,36)</li>
+        <li>(67,35,67,36)</li>
+        <li>(69,35,69,36)</li>
+      </rects>
+      <stuff>TWRL_Resource_PinkCrystal</stuff>
+      <hp>4000</hp>
+      <color>RGBA(0.949, 0.714, 0.820, 1.000)</color>
+    </ARA_SmoothedInsectWall>
+    <OrnateDoor>
+      <positions>
+        <li>(205, 0, 37)</li>
+        <li>(208, 0, 37)</li>
+        <li>(234, 0, 37)</li>
+        <li>(237, 0, 37)</li>
+        <li>(205, 0, 42)</li>
+        <li>(208, 0, 42)</li>
+        <li>(234, 0, 42)</li>
+        <li>(237, 0, 42)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>TWRL_Resource_FairyWood</stuff>
+      <hp>125</hp>
+      <color>RGBA(0.600, 0.741, 0.800, 1.000)</color>
+    </OrnateDoor>
+    <BasinStuff>
+      <rects>
+        <li>(64,38,64,39)</li>
+        <li>(64,41,64,42)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>TWRL_Resource_PinkCrystal</stuff>
+      <quality>Normal</quality>
+      <hp>300</hp>
+    </BasinStuff>
+    <BathtubStuff>
+      <positions>
+        <li>(69, 0, 38)</li>
+        <li>(69, 0, 39)</li>
+        <li>(69, 0, 40)</li>
+        <li>(69, 0, 41)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>TWRL_Resource_PinkCrystal</stuff>
+      <quality>Normal</quality>
+      <hp>300</hp>
+    </BathtubStuff>
+    <Filth_OilSlick>
+      <rects>
+        <li>(17,39,17,39)</li>
+        <li>(16,41,16,41)</li>
+        <li>(15,43,15,43)</li>
+        <li>(17,43,17,43)</li>
+        <li>(16,44,16,44)</li>
+      </rects>
+      <hp>14996</hp>
+    </Filth_OilSlick>
+    <Filth_OilSlick>
+      <rects>
+        <li>(15,40,17,40)</li>
+        <li>(16,43,16,43)</li>
+        <li>(17,44,17,44)</li>
+      </rects>
+      <hp>14992</hp>
+    </Filth_OilSlick>
+    <ARA_NutrientNetworkTower>
+      <positions>
+        <li>(21, 0, 41)</li>
+        <li>(39, 0, 41)</li>
+      </positions>
+      <hp>3000</hp>
+    </ARA_NutrientNetworkTower>
+    <BathMat>
+      <rects>
+        <li>(64,40,64,40)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WB_Giver_Wool</stuff>
+      <quality>Normal</quality>
+      <hp>50</hp>
+      <color>RGBA(0.259, 0.259, 0.259, 1.000)</color>
+    </BathMat>
+    <OrbitalTradeBeacon>
+      <rects>
+        <li>(82,40,82,40)</li>
+        <li>(97,40,97,40)</li>
+        <li>(112,40,112,40)</li>
+        <li>(127,40,127,40)</li>
+        <li>(142,40,142,40)</li>
+        <li>(157,40,157,40)</li>
+        <li>(172,40,172,40)</li>
+        <li>(187,40,187,40)</li>
+      </rects>
+      <hp>75</hp>
+    </OrbitalTradeBeacon>
+    <MetalCrateD>
+      <positions>
+        <li>(76, 0, 42)</li>
+        <li>(79, 0, 42)</li>
+        <li>(82, 0, 42)</li>
+        <li>(85, 0, 42)</li>
+        <li>(88, 0, 42)</li>
+        <li>(91, 0, 42)</li>
+        <li>(94, 0, 42)</li>
+        <li>(97, 0, 42)</li>
+        <li>(100, 0, 42)</li>
+        <li>(103, 0, 42)</li>
+        <li>(106, 0, 42)</li>
+        <li>(109, 0, 42)</li>
+        <li>(112, 0, 42)</li>
+        <li>(115, 0, 42)</li>
+        <li>(118, 0, 42)</li>
+        <li>(121, 0, 42)</li>
+        <li>(124, 0, 42)</li>
+        <li>(127, 0, 42)</li>
+        <li>(130, 0, 42)</li>
+        <li>(133, 0, 42)</li>
+        <li>(136, 0, 42)</li>
+        <li>(139, 0, 42)</li>
+        <li>(142, 0, 42)</li>
+        <li>(145, 0, 42)</li>
+        <li>(148, 0, 42)</li>
+        <li>(151, 0, 42)</li>
+        <li>(154, 0, 42)</li>
+        <li>(157, 0, 42)</li>
+        <li>(160, 0, 42)</li>
+        <li>(163, 0, 42)</li>
+        <li>(166, 0, 42)</li>
+        <li>(169, 0, 42)</li>
+        <li>(172, 0, 42)</li>
+        <li>(175, 0, 42)</li>
+        <li>(178, 0, 42)</li>
+        <li>(181, 0, 42)</li>
+        <li>(184, 0, 42)</li>
+        <li>(187, 0, 42)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>TWRL_Resource_PinkCrystal</stuff>
+      <hp>4800</hp>
+      <color>RGBA(0.949, 0.714, 0.820, 1.000)</color>
     </MetalCrateD>
+    <ARA_RefuelingVat>
+      <positions>
+        <li>(52, 0, 42)</li>
+        <li>(58, 0, 42)</li>
+      </positions>
+      <hp>500</hp>
+    </ARA_RefuelingVat>
+    <ShowerStuff>
+      <rects>
+        <li>(65,43,69,43)</li>
+      </rects>
+      <stuff>TWRL_Resource_PinkCrystal</stuff>
+      <quality>Normal</quality>
+      <hp>300</hp>
+    </ShowerStuff>
+    <Filth_OilSlick>
+      <rects>
+        <li>(15,44,15,44)</li>
+      </rects>
+      <hp>14988</hp>
+    </Filth_OilSlick>
+    <Marble>
+      <rects>
+        <li>(141,45,198,45)</li>
+        <li>(206,45,233,45)</li>
+        <li>(235,45,250,45)</li>
+      </rects>
+      <hp>450</hp>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </Marble>
   </things>
   <terrain>
-    <OA_RK_FloorSnow>
+    <LSK_RB_Fortress_Floor_A>
       <rects>
-        <li>(1,1,10,26)</li>
-        <li>(11,11,26,26)</li>
+        <li>(18,0,162,16)</li>
+        <li>(190,0,249,43)</li>
+        <li>(1,1,17,45)</li>
+        <li>(163,1,189,43)</li>
+        <li>(18,17,58,25)</li>
+        <li>(60,17,162,24)</li>
+        <li>(59,18,59,25)</li>
+        <li>(60,25,134,25)</li>
+        <li>(138,25,162,25)</li>
+        <li>(18,26,18,45)</li>
+        <li>(71,26,129,43)</li>
+        <li>(144,26,162,43)</li>
+        <li>(130,31,143,43)</li>
+        <li>(19,44,75,44)</li>
+        <li>(19,45,26,45)</li>
       </rects>
-    </OA_RK_FloorSnow>
-    <OARO_OrderFloor_Wood>
+    </LSK_RB_Fortress_Floor_A>
+    <LSK_RB_Fortress_Floor_B>
       <rects>
-        <li>(12,1,26,9)</li>
-        <li>(18,10,18,10)</li>
+        <li>(135,25,137,30)</li>
+        <li>(130,26,134,30)</li>
+        <li>(138,26,143,30)</li>
       </rects>
-    </OARO_OrderFloor_Wood>
-    <OA_RK_Floor>
-      <rects>
-        <li>(1,28,27,28)</li>
-      </rects>
-    </OA_RK_Floor>
+    </LSK_RB_Fortress_Floor_B>
   </terrain>
   <terrainLayers>
     <terrainLayerDetail layer="topGrid">
-      <Wood_ParquetVersailles>
+      <LSK_RB_Fortress_Floor_A>
         <rects>
-          <li>(12,0,27,0)</li>
+          <li>(18,0,162,16)</li>
+          <li>(190,0,249,43)</li>
+          <li>(1,1,17,45)</li>
+          <li>(163,1,189,43)</li>
+          <li>(18,17,58,25)</li>
+          <li>(60,17,162,24)</li>
+          <li>(59,18,59,25)</li>
+          <li>(60,25,134,25)</li>
+          <li>(138,25,162,25)</li>
+          <li>(18,26,18,45)</li>
+          <li>(71,26,129,43)</li>
+          <li>(144,26,162,43)</li>
+          <li>(130,31,143,43)</li>
+          <li>(19,44,75,44)</li>
+          <li>(19,45,26,45)</li>
         </rects>
-      </Wood_ParquetVersailles>
-      <OA_RK_FloorSnow>
+      </LSK_RB_Fortress_Floor_A>
+      <ARA_InsectCreep>
         <rects>
-          <li>(1,1,10,26)</li>
-          <li>(11,11,26,26)</li>
+          <li>(59,17,59,17)</li>
+          <li>(19,26,70,34)</li>
+          <li>(19,35,19,43)</li>
+          <li>(42,35,70,43)</li>
+          <li>(20,40,41,43)</li>
         </rects>
-      </OA_RK_FloorSnow>
-      <OARO_OrderFloor_Wood>
+      </ARA_InsectCreep>
+      <LSK_RB_Fortress_Floor_B>
         <rects>
-          <li>(12,1,26,9)</li>
-          <li>(18,10,18,10)</li>
+          <li>(135,25,137,30)</li>
+          <li>(130,26,134,30)</li>
+          <li>(138,26,143,30)</li>
         </rects>
-      </OARO_OrderFloor_Wood>
-      <OA_RK_Floor>
+      </LSK_RB_Fortress_Floor_B>
+      <ARA_Incubator_Nutrient_Solution>
         <rects>
-          <li>(1,28,27,28)</li>
+          <li>(20,35,41,39)</li>
         </rects>
-      </OA_RK_Floor>
+      </ARA_Incubator_Nutrient_Solution>
     </terrainLayerDetail>
     <terrainLayerDetail layer="underGrid">
-      <Soil>
+      <Slate_RoughHewn>
         <rects>
-          <li>(12,0,27,0)</li>
-          <li>(1,1,9,1)</li>
-          <li>(12,1,26,9)</li>
-          <li>(1,2,3,2)</li>
-          <li>(7,2,10,17)</li>
-          <li>(1,3,2,3)</li>
-          <li>(1,4,1,4)</li>
-          <li>(5,6,6,16)</li>
-          <li>(4,7,4,17)</li>
-          <li>(3,8,3,18)</li>
-          <li>(2,9,2,13)</li>
-          <li>(18,10,18,26)</li>
-          <li>(11,11,17,22)</li>
-          <li>(19,11,26,26)</li>
-          <li>(1,16,2,18)</li>
-          <li>(5,17,5,17)</li>
-          <li>(8,18,10,21)</li>
-          <li>(7,19,7,19)</li>
-          <li>(9,22,9,22)</li>
-          <li>(12,23,17,23)</li>
-          <li>(13,24,17,26)</li>
-          <li>(12,26,12,26)</li>
-          <li>(11,28,22,28)</li>
+          <li>(18,0,22,0)</li>
+          <li>(20,1,21,1)</li>
         </rects>
-      </Soil>
-      <Gravel>
+      </Slate_RoughHewn>
+      <Sandstone_RoughHewn>
         <rects>
-          <li>(10,1,10,1)</li>
-          <li>(4,2,6,5)</li>
-          <li>(3,3,3,7)</li>
-          <li>(2,4,2,8)</li>
-          <li>(1,5,1,15)</li>
-          <li>(4,6,4,6)</li>
-          <li>(2,14,2,15)</li>
-          <li>(6,17,6,21)</li>
-          <li>(4,18,5,18)</li>
-          <li>(7,18,7,18)</li>
-          <li>(1,19,3,19)</li>
-          <li>(5,19,5,19)</li>
-          <li>(7,20,7,22)</li>
-          <li>(8,22,8,22)</li>
-          <li>(10,22,10,24)</li>
-          <li>(9,23,9,23)</li>
-          <li>(11,23,11,26)</li>
-          <li>(12,24,12,25)</li>
-          <li>(1,25,1,26)</li>
-          <li>(4,26,4,26)</li>
-          <li>(1,28,5,28)</li>
-          <li>(8,28,10,28)</li>
-          <li>(23,28,27,28)</li>
+          <li>(23,0,39,12)</li>
+          <li>(46,0,106,6)</li>
+          <li>(112,0,162,4)</li>
+          <li>(193,0,194,1)</li>
+          <li>(1,1,19,44)</li>
+          <li>(22,1,22,44)</li>
+          <li>(163,1,170,14)</li>
+          <li>(174,1,185,1)</li>
+          <li>(192,1,192,3)</li>
+          <li>(20,2,21,44)</li>
+          <li>(107,2,108,43)</li>
+          <li>(111,2,111,43)</li>
+          <li>(174,2,179,13)</li>
+          <li>(182,2,186,2)</li>
+          <li>(109,3,110,43)</li>
+          <li>(171,3,171,14)</li>
+          <li>(183,3,189,8)</li>
+          <li>(172,4,173,14)</li>
+          <li>(180,4,180,14)</li>
+          <li>(190,4,191,4)</li>
+          <li>(40,5,40,14)</li>
+          <li>(44,5,45,44)</li>
+          <li>(112,5,126,18)</li>
+          <li>(129,5,162,6)</li>
+          <li>(190,5,190,8)</li>
+          <li>(41,6,43,44)</li>
+          <li>(181,6,182,13)</li>
+          <li>(46,7,69,7)</li>
+          <li>(73,7,79,8)</li>
+          <li>(82,7,106,11)</li>
+          <li>(129,7,150,28)</li>
+          <li>(152,7,162,7)</li>
+          <li>(191,7,191,8)</li>
+          <li>(46,8,65,9)</li>
+          <li>(127,8,128,43)</li>
+          <li>(153,8,162,20)</li>
+          <li>(192,8,193,8)</li>
+          <li>(75,9,81,22)</li>
+          <li>(151,9,152,26)</li>
+          <li>(183,9,188,9)</li>
+          <li>(46,10,58,10)</li>
+          <li>(62,10,66,10)</li>
+          <li>(183,10,186,10)</li>
+          <li>(46,11,56,22)</li>
+          <li>(63,11,67,11)</li>
+          <li>(183,11,185,11)</li>
+          <li>(64,12,67,22)</li>
+          <li>(70,12,72,44)</li>
+          <li>(82,12,98,14)</li>
+          <li>(104,12,106,43)</li>
+          <li>(183,12,183,12)</li>
+          <li>(23,13,34,15)</li>
+          <li>(39,13,39,14)</li>
+          <li>(68,13,69,22)</li>
+          <li>(57,14,57,22)</li>
+          <li>(63,14,63,22)</li>
+          <li>(73,14,73,44)</li>
+          <li>(179,14,179,14)</li>
+          <li>(181,14,181,14)</li>
+          <li>(58,15,59,22)</li>
+          <li>(74,15,74,44)</li>
+          <li>(82,15,97,23)</li>
+          <li>(163,15,169,15)</li>
+          <li>(23,16,33,44)</li>
+          <li>(60,16,62,22)</li>
+          <li>(163,16,167,16)</li>
+          <li>(40,17,40,44)</li>
+          <li>(98,17,99,43)</li>
+          <li>(163,17,166,17)</li>
+          <li>(34,18,35,44)</li>
+          <li>(39,18,39,44)</li>
+          <li>(100,18,100,38)</li>
+          <li>(103,18,103,38)</li>
+          <li>(163,18,165,18)</li>
+          <li>(101,19,102,38)</li>
+          <li>(112,19,117,43)</li>
+          <li>(124,19,126,43)</li>
+          <li>(163,19,164,19)</li>
+          <li>(36,20,36,44)</li>
+          <li>(37,21,38,44)</li>
+          <li>(118,21,118,43)</li>
+          <li>(123,21,123,43)</li>
+          <li>(153,21,159,21)</li>
+          <li>(153,22,158,22)</li>
+          <li>(46,23,55,24)</li>
+          <li>(69,23,69,24)</li>
+          <li>(75,23,78,43)</li>
+          <li>(153,23,157,23)</li>
+          <li>(84,24,97,24)</li>
+          <li>(153,24,155,24)</li>
+          <li>(46,25,54,25)</li>
+          <li>(85,25,97,25)</li>
+          <li>(121,25,122,26)</li>
+          <li>(153,25,154,25)</li>
+          <li>(46,26,46,44)</li>
+          <li>(50,26,54,32)</li>
+          <li>(86,26,97,43)</li>
+          <li>(119,26,120,43)</li>
+          <li>(153,26,153,26)</li>
+          <li>(151,27,151,27)</li>
+          <li>(47,28,49,32)</li>
+          <li>(55,28,55,34)</li>
+          <li>(69,28,69,36)</li>
+          <li>(85,28,85,43)</li>
+          <li>(82,29,84,43)</li>
+          <li>(121,29,122,43)</li>
+          <li>(129,29,149,29)</li>
+          <li>(79,30,81,43)</li>
+          <li>(129,30,148,30)</li>
+          <li>(56,31,56,33)</li>
+          <li>(68,31,68,33)</li>
+          <li>(129,31,147,31)</li>
+          <li>(129,32,146,32)</li>
+          <li>(47,33,48,44)</li>
+          <li>(52,33,54,33)</li>
+          <li>(129,33,145,34)</li>
+          <li>(129,35,144,35)</li>
+          <li>(129,36,143,37)</li>
+          <li>(49,38,49,44)</li>
+          <li>(54,38,54,44)</li>
+          <li>(129,38,142,39)</li>
+          <li>(202,39,202,43)</li>
+          <li>(50,40,53,44)</li>
+          <li>(55,40,55,44)</li>
+          <li>(69,40,69,44)</li>
+          <li>(129,40,141,42)</li>
+          <li>(201,40,201,43)</li>
+          <li>(203,40,203,43)</li>
+          <li>(204,41,204,43)</li>
+          <li>(56,42,68,44)</li>
+          <li>(100,42,103,43)</li>
+          <li>(200,42,200,43)</li>
+          <li>(129,43,140,43)</li>
+          <li>(199,43,199,43)</li>
+          <li>(205,43,205,43)</li>
+          <li>(75,44,75,44)</li>
+          <li>(17,45,17,45)</li>
         </rects>
-      </Gravel>
-      <Limestone_Rough>
+      </Sandstone_RoughHewn>
+      <Sandstone_Rough>
         <rects>
-          <li>(4,19,4,25)</li>
-          <li>(1,20,3,24)</li>
-          <li>(5,20,5,26)</li>
-          <li>(6,22,6,26)</li>
-          <li>(7,23,8,26)</li>
-          <li>(9,24,9,26)</li>
-          <li>(2,25,3,26)</li>
-          <li>(10,25,10,26)</li>
-          <li>(6,28,7,28)</li>
+          <li>(40,0,45,4)</li>
+          <li>(107,0,111,1)</li>
+          <li>(190,0,192,0)</li>
+          <li>(171,1,173,2)</li>
+          <li>(186,1,191,1)</li>
+          <li>(109,2,110,2)</li>
+          <li>(180,2,181,3)</li>
+          <li>(187,2,191,2)</li>
+          <li>(193,2,194,7)</li>
+          <li>(172,3,173,3)</li>
+          <li>(182,3,182,5)</li>
+          <li>(190,3,191,3)</li>
+          <li>(181,4,181,5)</li>
+          <li>(192,4,192,7)</li>
+          <li>(41,5,43,5)</li>
+          <li>(127,5,128,7)</li>
+          <li>(191,5,191,6)</li>
+          <li>(70,7,72,11)</li>
+          <li>(80,7,81,8)</li>
+          <li>(151,7,151,8)</li>
+          <li>(66,8,69,9)</li>
+          <li>(152,8,152,8)</li>
+          <li>(73,9,74,13)</li>
+          <li>(59,10,61,14)</li>
+          <li>(67,10,69,10)</li>
+          <li>(57,11,58,13)</li>
+          <li>(62,11,62,15)</li>
+          <li>(68,11,69,12)</li>
+          <li>(63,12,63,13)</li>
+          <li>(99,12,103,16)</li>
+          <li>(35,13,38,17)</li>
+          <li>(58,14,58,14)</li>
+          <li>(74,14,74,14)</li>
+          <li>(39,15,40,16)</li>
+          <li>(60,15,61,15)</li>
+          <li>(98,15,98,16)</li>
+          <li>(34,16,34,17)</li>
+          <li>(39,17,39,17)</li>
+          <li>(100,17,103,17)</li>
+          <li>(36,18,38,19)</li>
+          <li>(101,18,102,18)</li>
+          <li>(118,19,123,20)</li>
+          <li>(37,20,38,20)</li>
+          <li>(119,21,122,24)</li>
+          <li>(56,23,68,30)</li>
+          <li>(79,23,81,29)</li>
+          <li>(82,24,83,28)</li>
+          <li>(55,25,55,27)</li>
+          <li>(69,25,69,27)</li>
+          <li>(84,25,84,28)</li>
+          <li>(119,25,120,25)</li>
+          <li>(47,26,49,27)</li>
+          <li>(85,26,85,27)</li>
+          <li>(121,27,122,28)</li>
+          <li>(57,31,67,41)</li>
+          <li>(49,33,51,37)</li>
+          <li>(52,34,54,37)</li>
+          <li>(56,34,56,41)</li>
+          <li>(68,34,68,41)</li>
+          <li>(55,35,55,39)</li>
+          <li>(69,37,69,39)</li>
+          <li>(50,38,53,39)</li>
+          <li>(100,39,103,41)</li>
+          <li>(1,45,16,45)</li>
+          <li>(18,45,26,45)</li>
         </rects>
-      </Limestone_Rough>
+      </Sandstone_Rough>
+      <Marble_RoughHewn>
+        <rects>
+          <li>(195,0,217,2)</li>
+          <li>(220,0,249,10)</li>
+          <li>(218,1,219,43)</li>
+          <li>(198,3,217,27)</li>
+          <li>(195,7,197,43)</li>
+          <li>(194,8,194,43)</li>
+          <li>(189,9,193,36)</li>
+          <li>(187,10,188,33)</li>
+          <li>(186,11,186,43)</li>
+          <li>(220,11,235,12)</li>
+          <li>(238,11,249,43)</li>
+          <li>(184,12,185,43)</li>
+          <li>(183,13,183,43)</li>
+          <li>(220,13,225,43)</li>
+          <li>(227,13,237,43)</li>
+          <li>(174,14,178,19)</li>
+          <li>(182,14,182,43)</li>
+          <li>(170,15,173,19)</li>
+          <li>(179,15,181,31)</li>
+          <li>(226,15,226,43)</li>
+          <li>(168,16,169,43)</li>
+          <li>(167,17,167,23)</li>
+          <li>(166,18,166,23)</li>
+          <li>(165,19,165,43)</li>
+          <li>(163,20,164,43)</li>
+          <li>(170,20,172,25)</li>
+          <li>(175,20,178,43)</li>
+          <li>(160,21,162,43)</li>
+          <li>(159,22,159,43)</li>
+          <li>(158,23,158,43)</li>
+          <li>(173,23,174,25)</li>
+          <li>(156,24,157,43)</li>
+          <li>(155,25,155,43)</li>
+          <li>(154,26,154,43)</li>
+          <li>(170,26,171,43)</li>
+          <li>(152,27,153,43)</li>
+          <li>(166,27,167,43)</li>
+          <li>(151,28,151,43)</li>
+          <li>(198,28,208,28)</li>
+          <li>(212,28,217,43)</li>
+          <li>(150,29,150,43)</li>
+          <li>(172,29,174,43)</li>
+          <li>(198,29,201,39)</li>
+          <li>(207,29,208,31)</li>
+          <li>(149,30,149,43)</li>
+          <li>(148,31,148,43)</li>
+          <li>(147,32,147,43)</li>
+          <li>(179,32,179,43)</li>
+          <li>(209,32,211,43)</li>
+          <li>(146,33,146,43)</li>
+          <li>(180,34,181,43)</li>
+          <li>(145,35,145,43)</li>
+          <li>(202,35,203,38)</li>
+          <li>(207,35,208,43)</li>
+          <li>(144,36,144,43)</li>
+          <li>(204,36,206,40)</li>
+          <li>(190,37,193,43)</li>
+          <li>(143,38,143,43)</li>
+          <li>(189,38,189,43)</li>
+          <li>(187,39,188,43)</li>
+          <li>(203,39,203,39)</li>
+          <li>(142,40,142,43)</li>
+          <li>(198,40,200,41)</li>
+          <li>(205,41,206,42)</li>
+          <li>(198,42,199,42)</li>
+          <li>(141,43,141,43)</li>
+          <li>(198,43,198,43)</li>
+          <li>(206,43,206,43)</li>
+        </rects>
+      </Marble_RoughHewn>
+      <Marble_Rough>
+        <rects>
+          <li>(218,0,219,0)</li>
+          <li>(195,3,197,6)</li>
+          <li>(236,11,237,12)</li>
+          <li>(226,13,226,14)</li>
+          <li>(173,20,174,22)</li>
+          <li>(166,24,167,26)</li>
+          <li>(172,26,174,28)</li>
+          <li>(209,28,211,31)</li>
+          <li>(202,29,206,34)</li>
+          <li>(180,32,181,33)</li>
+          <li>(207,32,208,34)</li>
+          <li>(187,34,188,38)</li>
+          <li>(204,35,206,35)</li>
+          <li>(189,37,189,37)</li>
+        </rects>
+      </Marble_Rough>
     </terrainLayerDetail>
   </terrainLayers>
   <roofs>
+    <RoofRockThick>
+      <rects>
+        <li>(0,0,167,45)</li>
+        <li>(177,0,250,5)</li>
+        <li>(168,3,168,45)</li>
+        <li>(178,6,250,45)</li>
+        <li>(177,7,177,45)</li>
+        <li>(176,9,176,45)</li>
+        <li>(175,10,175,45)</li>
+        <li>(173,11,174,45)</li>
+        <li>(169,12,169,45)</li>
+        <li>(172,12,172,45)</li>
+        <li>(170,13,171,45)</li>
+      </rects>
+    </RoofRockThick>
+    <RoofRockThin>
+      <rects>
+        <li>(168,0,169,0)</li>
+        <li>(175,0,176,0)</li>
+        <li>(168,1,168,2)</li>
+        <li>(174,8,176,8)</li>
+        <li>(174,9,175,9)</li>
+        <li>(174,10,174,10)</li>
+        <li>(169,11,169,11)</li>
+        <li>(170,12,171,12)</li>
+      </rects>
+    </RoofRockThin>
     <RoofConstructed>
       <rects>
-        <li>(0,0,27,28)</li>
+        <li>(170,0,174,0)</li>
+        <li>(174,1,176,7)</li>
+        <li>(177,6,177,6)</li>
       </rects>
     </RoofConstructed>
     <PlayerRoofZone>
       <rects>
-        <li>(0,0,27,28)</li>
+        <li>(174,1,176,7)</li>
+        <li>(177,6,177,6)</li>
+        <li>(168,8,168,8)</li>
+        <li>(177,8,178,8)</li>
       </rects>
     </PlayerRoofZone>
+    <NoRoofZone>
+      <rects>
+        <li>(169,1,173,10)</li>
+      </rects>
+    </NoRoofZone>
   </roofs>
 </PrefabDef>
