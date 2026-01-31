@@ -1,7 +1,7 @@
 ### User Agreement for Remote Blueprint Service
 
-**Version:** 1.2
-**Last Updated:** December 17, 2025
+**Version:** 1.3
+**Last Updated:** January 31, 2026
 
 #### 0. Priority & Compliance
 **IMPORTANT NOTICE:** This service operates based on the game *RimWorld*. **The End User License Agreement (EULA) and related content policies of Ludeon Studios hold the highest priority.**
@@ -15,7 +15,7 @@ Welcome to the "Remote Blueprint Sharing" feature provided by this mod. This ser
 #### 2. Authentication & Privacy Security
 To identify your uploads and prevent malicious voting manipulation, this service requires basic authentication:
 *   **Encrypted Credentials:** The system generates a unique **Obfuscated Credential** based on your **Steam ID** using an **Encryption Algorithm (AES)**.
-*   **Decryption Notice:** The primary purpose of this process is to prevent ordinary users from directly viewing your Steam ID. However, in cases of technical necessity (e.g., data migration) or serious violations (e.g., illegal content), **the administrator reserves the right to decrypt the credential back to the original Steam ID** for investigation purposes. Please be aware that in a client-side environment, it is technically impossible to guarantee that the credential cannot be reverse-engineered by third parties.
+*   **Decryption Notice:** The primary purpose of this process is to prevent ordinary users from directly viewing your Steam ID. However, in cases of technical necessity (e.g., data migration) or serious violations (e.g., illegal content), **the administrator reserves the right to decrypt the credential back to the original Steam ID** for investigation purposes.
 *   **Acknowledgment:** While we encrypt your credentials, please be aware that a Steam ID is inherently public information.
 *   **Usage Limits:** This key is used solely to verify the uploader's identity, record voting data (likes/dislikes), and manage the blueprints you upload.
 *   **Privacy Commitment:** We will not publicly associate your IP address with your game identity. IP addresses are recorded and used solely for maintaining server security (e.g., defending against DDoS attacks or banning abusive users).
@@ -28,7 +28,7 @@ This service advocates free sharing with respect for the author. Regarding the b
     *   **ShareAlike:** If others remix, transform, or build upon your blueprint, they must distribute their contributions under the same license as the original.
     *   **Attribution:** Users must give appropriate **credit** (i.e., retaining your name as the original author) when using or distributing your blueprint.
 *   **Operational License:** You grant the mod author a perpetual right to store, organize, and display your uploaded content on the server, and to perform technical transcoding or compression as necessary to adapt to the service.
-*   **Copyright Declaration:** The layout design of the blueprint belongs to the uploader. In the event of a copyright dispute, you shall bear the responsibility alone; the mod author acts solely as a service platform provider and assumes no joint liability.
+*   **Copyright Declaration:** The layout design of the blueprint is provided by the uploader. In the event of a copyright dispute, you shall bear the responsibility alone; the mod author acts solely as a service platform provider and assumes no joint liability.
 
 #### 4. Community Standards & Access Restrictions
 To maintain a healthy community environment, the server will **reject your request (Access Denied)** if the system detects, or if reports verify, the following violations:
