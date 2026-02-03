@@ -1,0 +1,747 @@
+<PrefabDef>
+  <defName>Prefab_20260203_232728</defName>
+  <size>(30,20)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>“Food Storehouse with a Pub”</name>
+    <description>“Food Storehouse with a Pub”</description>
+    <tags></tags>
+    <author>Gold-Comet</author>
+    <category>Dormitory</category>
+    <BuildingID>f38b7c28-d63a-4386-8c58-af2a4178a18a</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>gloomy.furniture.fix</packageId>
+        <name>Gloomy Furniture Fix</name>
+        <version></version>
+        <modorder>297</modorder>
+        <steamWorkshopId>2987876242</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>GL_Wall_Lamp</li>
+          <li>RGK_MiniTableA</li>
+          <li>RGK_SimpleChair</li>
+          <li>RGK_DoorOld</li>
+          <li>RGKDiningChair</li>
+          <li>RGK_TableF</li>
+          <li>GL_ChessTable</li>
+          <li>GL_TableButcher</li>
+          <li>RGK_bucketr</li>
+          <li>RGK_TableE</li>
+          <li>GL_PokerTable</li>
+          <li>GL_Bonfire</li>
+          <li>GL_BilliardsTable</li>
+          <li>RGK_orc</li>
+          <li>GL_ElectricStove</li>
+          <li>GL_Cupboard</li>
+          <li>RGK_Fireplace</li>
+          <li>RGK_Terrain</li>
+          <li>GL_Terrain</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>sbz.neatstorage</packageId>
+        <name>[sbz] Neat Storage</name>
+        <version></version>
+        <modorder>25</modorder>
+        <steamWorkshopId>3416243474</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>adaptive.storage.framework</packageId>
+            <steamWorkshopId>3033901359</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>sbz_MeatHook</li>
+          <li>sbz_OpenShelf</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>adaptive.simplestorage</packageId>
+        <name>Adaptive Simple Storage</name>
+        <version></version>
+        <modorder>28</modorder>
+        <steamWorkshopId>3297307747</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>adaptive.storage.framework</packageId>
+            <steamWorkshopId>3033901359</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>BarrelB</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>“Food Storehouse with a Pub”</default>
+        <ko>“Food Storehouse with a Pub”</ko>
+      </name>
+      <description>
+        <default>“Food Storehouse with a Pub”</default>
+        <ko>“Food Storehouse with a Pub”</ko>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,19,0)</li>
+        <li>(0,1,0,8)</li>
+        <li>(4,1,4,3)</li>
+        <li>(8,1,8,3)</li>
+        <li>(11,1,11,3)</li>
+        <li>(15,1,15,3)</li>
+        <li>(19,1,19,3)</li>
+        <li>(1,3,1,3)</li>
+        <li>(3,3,3,3)</li>
+        <li>(5,3,5,3)</li>
+        <li>(7,3,7,3)</li>
+        <li>(12,3,12,3)</li>
+        <li>(14,3,14,3)</li>
+        <li>(16,3,16,3)</li>
+        <li>(18,3,18,3)</li>
+        <li>(1,5,1,5)</li>
+        <li>(3,5,5,5)</li>
+        <li>(7,5,8,5)</li>
+        <li>(11,5,12,5)</li>
+        <li>(14,5,16,5)</li>
+        <li>(18,5,29,5)</li>
+        <li>(4,6,4,8)</li>
+        <li>(8,6,8,8)</li>
+        <li>(11,6,11,8)</li>
+        <li>(15,6,15,8)</li>
+        <li>(19,6,19,10)</li>
+        <li>(29,6,29,10)</li>
+        <li>(1,8,3,8)</li>
+        <li>(5,8,7,8)</li>
+        <li>(12,8,14,8)</li>
+        <li>(16,8,18,8)</li>
+        <li>(1,9,1,19)</li>
+        <li>(12,9,12,15)</li>
+        <li>(13,12,17,12)</li>
+        <li>(19,12,19,12)</li>
+        <li>(21,12,29,12)</li>
+        <li>(19,14,19,19)</li>
+        <li>(29,14,29,19)</li>
+        <li>(12,17,12,18)</li>
+        <li>(8,18,10,18)</li>
+        <li>(13,18,18,18)</li>
+        <li>(2,19,8,19)</li>
+        <li>(20,19,28,19)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+      <hp>360</hp>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </Wall>
+    <Bed>
+      <position>(1, 0, 1)</position>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <hp>91</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed>
+    <EndTable>
+      <rects>
+        <li>(2,1,2,1)</li>
+        <li>(17,7,17,7)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>49</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </EndTable>
+    <GL_Wall_Lamp>
+      <rects>
+        <li>(2,1,2,1)</li>
+        <li>(6,1,6,1)</li>
+        <li>(13,1,13,1)</li>
+        <li>(17,1,17,1)</li>
+        <li>(20,6,20,6)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>35</hp>
+    </GL_Wall_Lamp>
+    <RGK_MiniTableA>
+      <rects>
+        <li>(3,1,3,1)</li>
+        <li>(18,1,18,1)</li>
+        <li>(18,7,18,7)</li>
+        <li>(18,17,18,17)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>49</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGK_MiniTableA>
+    <Bed>
+      <positions>
+        <li>(5, 0, 1)</li>
+        <li>(12, 0, 1)</li>
+      </positions>
+      <stuff>WoodLog</stuff>
+      <quality>Masterwork</quality>
+      <hp>91</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed>
+    <EndTable>
+      <rects>
+        <li>(6,1,6,1)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Masterwork</quality>
+      <hp>49</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </EndTable>
+    <RGK_MiniTableA>
+      <rects>
+        <li>(7,1,7,1)</li>
+        <li>(14,1,14,1)</li>
+        <li>(14,7,14,7)</li>
+        <li>(13,11,13,11)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <hp>49</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGK_MiniTableA>
+    <EndTable>
+      <rects>
+        <li>(13,1,13,1)</li>
+        <li>(17,1,17,1)</li>
+        <li>(2,7,2,7)</li>
+        <li>(13,7,13,7)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <hp>49</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </EndTable>
+    <Bed>
+      <position>(16, 0, 1)</position>
+      <stuff>WoodLog</stuff>
+      <quality>Legendary</quality>
+      <hp>91</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed>
+    <RGK_SimpleChair>
+      <rects>
+        <li>(3,2,3,2)</li>
+        <li>(14,2,14,2)</li>
+        <li>(18,2,18,2)</li>
+        <li>(3,6,3,6)</li>
+        <li>(7,6,7,6)</li>
+        <li>(18,6,18,6)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <hp>55</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGK_SimpleChair>
+    <RGK_SimpleChair>
+      <rects>
+        <li>(7,2,7,2)</li>
+        <li>(14,6,14,6)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Masterwork</quality>
+      <hp>55</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGK_SimpleChair>
+    <RGK_DoorOld>
+      <rects>
+        <li>(2,3,2,3)</li>
+        <li>(6,3,6,3)</li>
+        <li>(13,3,13,3)</li>
+        <li>(17,3,17,3)</li>
+        <li>(2,5,2,5)</li>
+        <li>(6,5,6,5)</li>
+        <li>(13,5,13,5)</li>
+        <li>(17,5,17,5)</li>
+        <li>(11,18,11,18)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGK_DoorOld>
+    <GL_Wall_Lamp>
+      <rects>
+        <li>(8,4,8,4)</li>
+        <li>(11,4,11,4)</li>
+        <li>(2,7,2,7)</li>
+        <li>(6,7,6,7)</li>
+        <li>(13,7,13,7)</li>
+        <li>(17,7,17,7)</li>
+        <li>(16,11,16,11)</li>
+        <li>(9,17,9,17)</li>
+        <li>(16,17,16,17)</li>
+        <li>(20,18,20,18)</li>
+      </rects>
+      <hp>35</hp>
+    </GL_Wall_Lamp>
+    <RGK_DoorOld>
+      <rects>
+        <li>(19,4,19,4)</li>
+        <li>(19,11,19,11)</li>
+        <li>(29,11,29,11)</li>
+        <li>(19,13,19,13)</li>
+        <li>(29,13,29,13)</li>
+        <li>(12,16,12,16)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGK_DoorOld>
+    <Bed>
+      <position>(1, 0, 7)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <hp>91</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed>
+    <Bed>
+      <positions>
+        <li>(5, 0, 7)</li>
+        <li>(12, 0, 7)</li>
+        <li>(16, 0, 7)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>91</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed>
+    <sbz_MeatHook>
+      <positions>
+        <li>(22, 0, 6)</li>
+        <li>(24, 0, 6)</li>
+        <li>(26, 0, 6)</li>
+        <li>(28, 0, 6)</li>
+        <li>(22, 0, 8)</li>
+        <li>(24, 0, 8)</li>
+        <li>(26, 0, 8)</li>
+        <li>(28, 0, 8)</li>
+        <li>(22, 0, 10)</li>
+        <li>(24, 0, 10)</li>
+        <li>(26, 0, 10)</li>
+        <li>(28, 0, 10)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>200</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </sbz_MeatHook>
+    <RGK_MiniTableA>
+      <rects>
+        <li>(3,7,3,7)</li>
+        <li>(7,7,7,7)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Masterwork</quality>
+      <hp>49</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGK_MiniTableA>
+    <EndTable>
+      <rects>
+        <li>(6,7,6,7)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Legendary</quality>
+      <hp>49</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </EndTable>
+    <RGKDiningChair>
+      <rects>
+        <li>(2,9,2,9)</li>
+        <li>(2,14,3,14)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <hp>110</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGKDiningChair>
+    <RGKDiningChair>
+      <rects>
+        <li>(3,9,3,9)</li>
+        <li>(4,14,4,14)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>110</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGKDiningChair>
+    <RGKDiningChair>
+      <rects>
+        <li>(5,9,5,9)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>110</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGKDiningChair>
+    <RGK_TableF>
+      <position>(6, 0, 10)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <hp>162</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGK_TableF>
+    <RGKDiningChair>
+      <rects>
+        <li>(8,9,8,9)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <hp>110</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGKDiningChair>
+    <GL_ChessTable>
+      <rects>
+        <li>(11,9,11,9)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+      <quality>Masterwork</quality>
+      <hp>120</hp>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </GL_ChessTable>
+    <GL_TableButcher>
+      <position>(13, 0, 9)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>117</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </GL_TableButcher>
+    <RGK_bucketr>
+      <rects>
+        <li>(14,9,14,9)</li>
+        <li>(5,18,5,18)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <hp>55</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGK_bucketr>
+    <RGK_TableE>
+      <position>(15, 0, 9)</position>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>98</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGK_TableE>
+    <BarrelB>
+      <positions>
+        <li>(18, 0, 9)</li>
+        <li>(14, 0, 17)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>39</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </BarrelB>
+    <GL_PokerTable>
+      <position>(2, 0, 10)</position>
+      <stuff>BlocksMarble</stuff>
+      <quality>Good</quality>
+      <hp>300</hp>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </GL_PokerTable>
+    <RGKDiningChair>
+      <rects>
+        <li>(5,10,5,10)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <hp>110</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGKDiningChair>
+    <RGKDiningChair>
+      <rects>
+        <li>(8,10,8,10)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>110</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGKDiningChair>
+    <RGKDiningChair>
+      <rects>
+        <li>(11,10,11,10)</li>
+        <li>(2,12,3,12)</li>
+        <li>(7,12,7,12)</li>
+        <li>(4,17,4,17)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <hp>110</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGKDiningChair>
+    <GL_TableButcher>
+      <position>(14, 0, 11)</position>
+      <stuff>WoodLog</stuff>
+      <hp>117</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </GL_TableButcher>
+    <RGK_bucketr>
+      <rects>
+        <li>(16,11,16,11)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Legendary</quality>
+      <hp>55</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGK_bucketr>
+    <RGKDiningChair>
+      <rects>
+        <li>(6,12,6,12)</li>
+        <li>(2,17,2,17)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>110</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGKDiningChair>
+    <HiddenConduit>
+      <rects>
+        <li>(3,13,12,13)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <GL_Bonfire>
+      <position>(14, 0, 14)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+      <hp>240</hp>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </GL_Bonfire>
+    <GL_BilliardsTable>
+      <position>(8, 0, 14)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+      <quality>Masterwork</quality>
+      <hp>300</hp>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </GL_BilliardsTable>
+    <RGK_orc>
+      <rects>
+        <li>(18,14,18,14)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>55</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGK_orc>
+    <sbz_OpenShelf>
+      <positions>
+        <li>(22, 0, 14)</li>
+        <li>(24, 0, 14)</li>
+        <li>(26, 0, 14)</li>
+        <li>(28, 0, 14)</li>
+        <li>(22, 0, 16)</li>
+        <li>(24, 0, 16)</li>
+        <li>(26, 0, 16)</li>
+        <li>(28, 0, 16)</li>
+        <li>(22, 0, 18)</li>
+        <li>(24, 0, 18)</li>
+        <li>(26, 0, 18)</li>
+        <li>(28, 0, 18)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>130</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </sbz_OpenShelf>
+    <RGK_TableF>
+      <position>(3, 0, 15)</position>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <hp>162</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGK_TableF>
+    <GL_ElectricStove>
+      <position>(18, 0, 16)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>117</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </GL_ElectricStove>
+    <GL_Cupboard>
+      <rects>
+        <li>(15,17,15,17)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>78</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </GL_Cupboard>
+    <GL_ElectricStove>
+      <position>(16, 0, 17)</position>
+      <stuff>WoodLog</stuff>
+      <hp>117</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </GL_ElectricStove>
+    <RGK_Fireplace>
+      <position>(7, 0, 18)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+      <hp>300</hp>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </RGK_Fireplace>
+  </things>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <RGK_Terrain>
+        <rects>
+          <li>(1,1,3,2)</li>
+          <li>(5,1,7,2)</li>
+          <li>(12,1,14,2)</li>
+          <li>(16,1,18,2)</li>
+          <li>(2,3,2,3)</li>
+          <li>(6,3,6,3)</li>
+          <li>(13,3,13,3)</li>
+          <li>(17,3,17,3)</li>
+          <li>(2,5,2,7)</li>
+          <li>(6,5,6,7)</li>
+          <li>(13,5,13,7)</li>
+          <li>(17,5,17,7)</li>
+          <li>(1,6,1,7)</li>
+          <li>(3,6,3,7)</li>
+          <li>(5,6,5,7)</li>
+          <li>(7,6,7,7)</li>
+          <li>(12,6,12,7)</li>
+          <li>(14,6,14,7)</li>
+          <li>(16,6,16,7)</li>
+          <li>(18,6,18,7)</li>
+          <li>(13,9,18,11)</li>
+          <li>(18,12,18,17)</li>
+          <li>(13,13,17,17)</li>
+          <li>(12,16,12,16)</li>
+        </rects>
+      </RGK_Terrain>
+      <GL_Terrain>
+        <rects>
+          <li>(9,1,10,17)</li>
+          <li>(1,4,8,4)</li>
+          <li>(11,4,19,4)</li>
+          <li>(20,6,28,11)</li>
+          <li>(2,9,8,17)</li>
+          <li>(11,9,11,18)</li>
+          <li>(19,11,19,11)</li>
+          <li>(29,11,29,11)</li>
+          <li>(20,12,20,18)</li>
+          <li>(19,13,19,13)</li>
+          <li>(21,13,29,13)</li>
+          <li>(21,14,28,18)</li>
+          <li>(2,18,7,18)</li>
+        </rects>
+      </GL_Terrain>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(1,1,3,2)</li>
+          <li>(5,1,7,2)</li>
+          <li>(9,1,10,17)</li>
+          <li>(12,1,14,2)</li>
+          <li>(16,1,18,2)</li>
+          <li>(2,3,2,5)</li>
+          <li>(6,3,6,7)</li>
+          <li>(13,3,13,7)</li>
+          <li>(17,3,17,7)</li>
+          <li>(1,4,1,4)</li>
+          <li>(3,4,5,4)</li>
+          <li>(7,4,8,4)</li>
+          <li>(11,4,12,4)</li>
+          <li>(14,4,16,4)</li>
+          <li>(18,4,19,4)</li>
+          <li>(1,6,1,7)</li>
+          <li>(5,6,5,7)</li>
+          <li>(7,6,7,7)</li>
+          <li>(12,6,12,7)</li>
+          <li>(14,6,14,7)</li>
+          <li>(16,6,16,7)</li>
+          <li>(18,6,18,7)</li>
+          <li>(20,6,28,11)</li>
+          <li>(2,9,8,9)</li>
+          <li>(11,9,11,18)</li>
+          <li>(13,9,18,11)</li>
+          <li>(2,10,2,10)</li>
+          <li>(4,10,8,10)</li>
+          <li>(6,11,8,14)</li>
+          <li>(19,11,19,11)</li>
+          <li>(29,11,29,11)</li>
+          <li>(5,12,5,12)</li>
+          <li>(18,12,18,17)</li>
+          <li>(20,12,20,18)</li>
+          <li>(13,13,17,17)</li>
+          <li>(19,13,19,13)</li>
+          <li>(21,13,29,13)</li>
+          <li>(21,14,28,18)</li>
+          <li>(7,15,8,17)</li>
+          <li>(6,16,6,18)</li>
+          <li>(12,16,12,16)</li>
+          <li>(2,17,2,18)</li>
+          <li>(3,18,4,18)</li>
+          <li>(7,18,7,18)</li>
+        </rects>
+      </Soil>
+      <SoilRich>
+        <rects>
+          <li>(2,6,3,7)</li>
+          <li>(3,10,3,17)</li>
+          <li>(2,11,2,16)</li>
+          <li>(4,11,5,11)</li>
+          <li>(4,12,4,17)</li>
+          <li>(5,13,5,18)</li>
+          <li>(6,15,6,15)</li>
+        </rects>
+      </SoilRich>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,19,8)</li>
+        <li>(20,5,29,19)</li>
+        <li>(1,9,19,18)</li>
+        <li>(1,19,8,19)</li>
+        <li>(19,19,19,19)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,19,8)</li>
+        <li>(20,5,29,19)</li>
+        <li>(1,9,19,18)</li>
+        <li>(1,19,8,19)</li>
+        <li>(19,19,19,19)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
