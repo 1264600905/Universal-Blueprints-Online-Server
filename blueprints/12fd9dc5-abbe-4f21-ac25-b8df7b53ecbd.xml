@@ -1,0 +1,74 @@
+<PrefabDef>
+  <defName>Prefab_20260205_080957</defName>
+  <size>(3,3)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>salle de bain</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>Dormitory</category>
+    <BuildingID>12fd9dc5-abbe-4f21-ac25-b8df7b53ecbd</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>dubwise.dubsbadhygiene</packageId>
+        <name>Dubs Bad Hygiene</name>
+        <version>3.1.2800</version>
+        <modorder>57</modorder>
+        <steamWorkshopId>836308268</steamWorkshopId>
+        <things>
+          <li>ToiletStuff</li>
+          <li>BasinStuff</li>
+          <li>BathMat</li>
+          <li>BathtubStuff</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>salle de bain</default>
+        <fr>salle de bain</fr>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <ToiletStuff>
+      <rects>
+        <li>(0,0,0,0)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksGranite</stuff>
+      <hp>128</hp>
+    </ToiletStuff>
+    <BasinStuff>
+      <rects>
+        <li>(1,0,1,0)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksGranite</stuff>
+      <hp>128</hp>
+    </BasinStuff>
+    <BathMat>
+      <rects>
+        <li>(1,1,1,1)</li>
+      </rects>
+      <stuff>Cloth</stuff>
+      <hp>50</hp>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </BathMat>
+    <BathtubStuff>
+      <position>(1, 0, 2)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>BlocksGranite</stuff>
+      <hp>128</hp>
+    </BathtubStuff>
+  </things>
+  <terrainLayers></terrainLayers>
+  <roofs>
+    <RoofRockThick>
+      <rects>
+        <li>(0,0,2,2)</li>
+      </rects>
+    </RoofRockThick>
+  </roofs>
+</PrefabDef>
