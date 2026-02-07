@@ -1,0 +1,238 @@
+<PrefabDef>
+  <defName>Prefab_20260207_161039</defName>
+  <size>(15,19)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>发电室</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>电力</category>
+    <BuildingID>321b4cf0-80a5-457b-8eed-62e117bce22e</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>meltup.advancedpowerplus</packageId>
+        <name>Advanced Power Plus</name>
+        <version></version>
+        <modorder>55</modorder>
+        <steamWorkshopId>2032409628</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>advanced_nuclear_generator</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>spdskatr.ssbiggerbatteries</packageId>
+        <name>SS Bigger Batteries</name>
+        <version></version>
+        <modorder>57</modorder>
+        <steamWorkshopId>2024086401</steamWorkshopId>
+        <things>
+          <li>Battery256k</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>yexiaoyang.rimskyblock</packageId>
+        <name>RimSkyBlock - Vassal Outposts, Establish Empire</name>
+        <version></version>
+        <modorder>194</modorder>
+        <steamWorkshopId>3564083626</steamWorkshopId>
+        <things>
+          <li>RSB_SkySanctuaryAmplifier</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>andery233xj.order.compositefurniture</packageId>
+        <name>多合一家具</name>
+        <version></version>
+        <modorder>60</modorder>
+        <steamWorkshopId>3398391354</steamWorkshopId>
+        <things>
+          <li>XFXF_CompositeFurniture</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>migcorp.skiptech</packageId>
+        <name>MigCorp - Skiptech</name>
+        <version></version>
+        <modorder>162</modorder>
+        <steamWorkshopId>3626074566</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>MigcorpSkipdoor</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>发电室</default>
+        <zh-CN>发电室</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,6,0)</li>
+        <li>(8,0,14,0)</li>
+        <li>(0,1,0,8)</li>
+        <li>(14,1,14,8)</li>
+        <li>(0,10,0,18)</li>
+        <li>(14,10,14,18)</li>
+        <li>(1,18,6,18)</li>
+        <li>(8,18,13,18)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+      <hp>360</hp>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </Wall>
+    <HiddenConduit>
+      <rects>
+        <li>(7,0,7,8)</li>
+        <li>(13,0,13,0)</li>
+        <li>(0,9,3,9)</li>
+        <li>(11,9,14,9)</li>
+        <li>(7,10,7,18)</li>
+        <li>(13,18,13,18)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <Autodoor>
+      <rects>
+        <li>(7,0,7,0)</li>
+        <li>(7,18,7,18)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>160</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Autodoor>
+    <advanced_nuclear_generator>
+      <positions>
+        <li>(3, 0, 3)</li>
+        <li>(10, 0, 3)</li>
+        <li>(3, 0, 14)</li>
+        <li>(10, 0, 14)</li>
+      </positions>
+      <hp>1500</hp>
+    </advanced_nuclear_generator>
+    <Battery256k>
+      <positions>
+        <li>(1, 0, 7)</li>
+        <li>(12, 0, 7)</li>
+        <li>(1, 0, 10)</li>
+        <li>(12, 0, 10)</li>
+      </positions>
+      <hp>100</hp>
+    </Battery256k>
+    <RSB_SkySanctuaryAmplifier>
+      <positions>
+        <li>(5, 0, 8)</li>
+        <li>(9, 0, 8)</li>
+      </positions>
+      <hp>500</hp>
+    </RSB_SkySanctuaryAmplifier>
+    <Column>
+      <rects>
+        <li>(7,7,7,7)</li>
+        <li>(7,11,7,11)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+      <hp>192</hp>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </Column>
+    <Autodoor>
+      <rects>
+        <li>(0,9,0,9)</li>
+        <li>(14,9,14,9)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>160</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Autodoor>
+    <XFXF_CompositeFurniture>
+      <rects>
+        <li>(7,9,7,9)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+      <hp>120</hp>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </XFXF_CompositeFurniture>
+    <MigcorpSkipdoor>
+      <rects>
+        <li>(13,9,13,9)</li>
+      </rects>
+      <hp>120</hp>
+    </MigcorpSkipdoor>
+  </things>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <FlagstoneMarble>
+        <rects>
+          <li>(7,0,7,18)</li>
+          <li>(6,1,6,17)</li>
+          <li>(8,1,8,17)</li>
+          <li>(1,6,3,12)</li>
+          <li>(11,6,13,12)</li>
+          <li>(4,7,4,12)</li>
+          <li>(10,7,10,12)</li>
+          <li>(0,9,0,9)</li>
+          <li>(5,9,5,12)</li>
+          <li>(9,9,9,12)</li>
+          <li>(14,9,14,9)</li>
+        </rects>
+      </FlagstoneMarble>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(7,0,7,18)</li>
+          <li>(6,1,6,17)</li>
+          <li>(8,1,8,17)</li>
+          <li>(1,6,1,9)</li>
+          <li>(11,6,13,12)</li>
+          <li>(2,7,4,12)</li>
+          <li>(10,7,10,12)</li>
+          <li>(0,9,0,9)</li>
+          <li>(5,9,5,12)</li>
+          <li>(9,9,9,12)</li>
+          <li>(14,9,14,9)</li>
+          <li>(1,12,1,12)</li>
+        </rects>
+      </Soil>
+      <MossyTerrain>
+        <rects>
+          <li>(2,6,3,6)</li>
+        </rects>
+      </MossyTerrain>
+      <SoilRich>
+        <rects>
+          <li>(1,10,1,11)</li>
+        </rects>
+      </SoilRich>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,14,18)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,14,18)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
