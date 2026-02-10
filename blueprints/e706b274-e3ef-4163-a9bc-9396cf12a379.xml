@@ -1,0 +1,129 @@
+<PrefabDef>
+  <defName>Prefab_20260209_203350</defName>
+  <size>(6,6)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>Small Bedroom (East side)</name>
+    <description><![CDATA["Small Bedroom" that's compact (East side of base).]]></description>
+    <tags></tags>
+    <author>jpinard</author>
+    <category>Dormitory</category>
+    <BuildingID>e706b274-e3ef-4163-a9bc-9396cf12a379</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>ludeon.rimworld.biotech</packageId>
+        <name>Biotech</name>
+        <version></version>
+        <modorder>5</modorder>
+        <things>
+          <li>BabyDecoration</li>
+          <li>ToyBox</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>xercaine.wallheater</packageId>
+        <name>Wall Heater</name>
+        <version></version>
+        <modorder>237</modorder>
+        <steamWorkshopId>3286518227</steamWorkshopId>
+        <things>
+          <li>WallHeater</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>Small Bedroom (East side)</default>
+        <en>Small Bedroom (East side)</en>
+      </name>
+      <description>
+        <default><![CDATA["Small Bedroom" that's compact (East side of base).]]></default>
+        <en><![CDATA["Small Bedroom" that's compact (East side of base).]]></en>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <HiddenConduit>
+      <rects>
+        <li>(0,0,0,5)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <Autodoor>
+      <rects>
+        <li>(0,0,0,0)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Autodoor>
+    <Wall>
+      <rects>
+        <li>(5,0,5,3)</li>
+        <li>(5,5,5,5)</li>
+      </rects>
+      <stuff>Plasteel</stuff>
+      <hp>840</hp>
+      <color>RGBA(0.627, 0.698, 0.710, 1.000)</color>
+    </Wall>
+    <Wall>
+      <rects>
+        <li>(0,1,0,3)</li>
+        <li>(0,5,4,5)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <hp>510</hp>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Wall>
+    <Vent>
+      <rects>
+        <li>(0,4,0,4)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>100</hp>
+    </Vent>
+    <BabyDecoration>
+      <rects>
+        <li>(1,4,1,4)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>20</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </BabyDecoration>
+    <WallHeater>
+      <rects>
+        <li>(1,4,1,4)</li>
+      </rects>
+      <hp>70</hp>
+    </WallHeater>
+    <ToyBox>
+      <rects>
+        <li>(2,4,2,4)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>32</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </ToyBox>
+    <Cooler>
+      <rects>
+        <li>(5,4,5,4)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>100</hp>
+    </Cooler>
+  </things>
+  <terrainLayers></terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,5,5)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,5,5)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
