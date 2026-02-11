@@ -1,0 +1,462 @@
+<PrefabDef>
+  <defName>Prefab_20260212_000730</defName>
+  <size>(25,25)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>水电工作间</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>电力</category>
+    <BuildingID>a6cd2249-bf78-43de-bb5e-2c54b3348dbd</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>zerowhite.dailyfurniture</packageId>
+        <name>Daily furniture 塔林家具</name>
+        <version></version>
+        <modorder>198</modorder>
+        <steamWorkshopId>3024562670</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>ludeon.rimworld</packageId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>ADH_A_A_WALLs_A_WALL</li>
+          <li>ADH_C_Door</li>
+          <li>ADH_C_DoorB</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>aoba.fortress.industrial.concrete</packageId>
+        <name>Industrial concrete</name>
+        <version></version>
+        <modorder>251</modorder>
+        <steamWorkshopId>2888037450</steamWorkshopId>
+        <things>
+          <li>FT_BlocksConcrete</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>dubwise.dubsbadhygiene</packageId>
+        <name>Dubs Bad Hygiene</name>
+        <version>3.1.2800</version>
+        <modorder>85</modorder>
+        <steamWorkshopId>836308268</steamWorkshopId>
+        <things>
+          <li>airPipeHidden</li>
+          <li>sewagePipeHidden</li>
+          <li>HotWaterTank</li>
+          <li>WaterTowerL</li>
+          <li>WaterTreatment</li>
+          <li>SpacerWaterRecoverySystem</li>
+          <li>GasBoiler</li>
+          <li>ElectricBoiler</li>
+          <li>plumbingValve</li>
+          <li>SewageSepticTank</li>
+          <li>SewageTreatment</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>solaris.furniturebase</packageId>
+        <name>GloomyFurniture</name>
+        <version></version>
+        <modorder>81</modorder>
+        <steamWorkshopId>1558635181</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>GL_Wall_Lamp</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>neronix17.clutterstructures</packageId>
+        <name>Clutter Structures</name>
+        <version></version>
+        <modorder>194</modorder>
+        <steamWorkshopId>2008681009</steamWorkshopId>
+        <things>
+          <li>ClutterMetalTileB</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>水电工作间</default>
+        <zh-CN>水电工作间</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <ADH_A_A_WALLs_A_WALL>
+      <rects>
+        <li>(0,0,24,0)</li>
+        <li>(0,1,0,5)</li>
+        <li>(12,1,12,5)</li>
+        <li>(24,1,24,5)</li>
+        <li>(0,7,0,24)</li>
+        <li>(12,7,12,24)</li>
+        <li>(24,7,24,16)</li>
+        <li>(1,12,5,12)</li>
+        <li>(7,12,11,12)</li>
+        <li>(13,12,17,12)</li>
+        <li>(19,12,23,12)</li>
+        <li>(24,18,24,24)</li>
+        <li>(1,24,11,24)</li>
+        <li>(13,24,23,24)</li>
+      </rects>
+      <stuff>FT_BlocksConcrete</stuff>
+      <hp>400</hp>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </ADH_A_A_WALLs_A_WALL>
+    <airPipeHidden>
+      <rects>
+        <li>(0,0,12,0)</li>
+        <li>(0,1,0,12)</li>
+        <li>(12,1,12,12)</li>
+        <li>(1,12,11,12)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </airPipeHidden>
+    <HiddenConduit>
+      <rects>
+        <li>(0,0,24,0)</li>
+        <li>(0,1,0,24)</li>
+        <li>(12,1,12,24)</li>
+        <li>(17,1,17,12)</li>
+        <li>(24,1,24,24)</li>
+        <li>(13,4,16,4)</li>
+        <li>(5,7,5,8)</li>
+        <li>(13,7,16,7)</li>
+        <li>(5,10,5,13)</li>
+        <li>(1,12,4,13)</li>
+        <li>(6,12,11,12)</li>
+        <li>(13,12,16,12)</li>
+        <li>(18,12,23,12)</li>
+        <li>(13,24,23,24)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <GL_Wall_Lamp>
+      <rects>
+        <li>(3,0,3,0)</li>
+        <li>(6,0,6,0)</li>
+        <li>(9,0,9,0)</li>
+        <li>(12,0,12,0)</li>
+        <li>(15,0,15,0)</li>
+        <li>(18,0,18,0)</li>
+        <li>(22,0,22,0)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>45</hp>
+    </GL_Wall_Lamp>
+    <sewagePipeHidden>
+      <rects>
+        <li>(14,0,16,0)</li>
+        <li>(20,0,22,0)</li>
+        <li>(24,0,24,12)</li>
+        <li>(0,1,0,24)</li>
+        <li>(6,1,6,1)</li>
+        <li>(12,1,12,1)</li>
+        <li>(16,1,16,1)</li>
+        <li>(20,1,20,1)</li>
+        <li>(1,12,9,12)</li>
+        <li>(11,12,23,12)</li>
+        <li>(12,13,12,24)</li>
+        <li>(1,24,11,24)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>100</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </sewagePipeHidden>
+    <HotWaterTank>
+      <rects>
+        <li>(1,1,5,1)</li>
+        <li>(7,1,11,1)</li>
+        <li>(1,3,5,4)</li>
+        <li>(7,3,11,4)</li>
+      </rects>
+      <hp>350</hp>
+    </HotWaterTank>
+    <WallLamp>
+      <rects>
+        <li>(6,1,6,1)</li>
+        <li>(15,1,15,1)</li>
+        <li>(20,1,20,1)</li>
+        <li>(9,13,9,13)</li>
+        <li>(15,13,15,13)</li>
+        <li>(21,13,21,13)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>35</hp>
+    </WallLamp>
+    <WaterTowerL>
+      <positions>
+        <li>(14, 0, 2)</li>
+        <li>(18, 0, 2)</li>
+        <li>(22, 0, 2)</li>
+        <li>(14, 0, 10)</li>
+        <li>(18, 0, 10)</li>
+        <li>(22, 0, 10)</li>
+      </positions>
+      <hp>150</hp>
+    </WaterTowerL>
+    <GL_Wall_Lamp>
+      <rects>
+        <li>(0,2,0,2)</li>
+        <li>(0,11,0,11)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>45</hp>
+    </GL_Wall_Lamp>
+    <sewagePipeHidden>
+      <rects>
+        <li>(12,2,12,11)</li>
+      </rects>
+      <stuff>FT_BlocksConcrete</stuff>
+      <hp>200</hp>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </sewagePipeHidden>
+    <WallLamp>
+      <rects>
+        <li>(1,3,1,3)</li>
+        <li>(13,3,13,3)</li>
+        <li>(1,9,1,9)</li>
+        <li>(13,9,13,9)</li>
+        <li>(1,15,1,15)</li>
+        <li>(13,17,13,17)</li>
+        <li>(1,20,1,20)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>35</hp>
+    </WallLamp>
+    <WallLamp>
+      <rects>
+        <li>(11,3,11,3)</li>
+        <li>(23,3,23,3)</li>
+        <li>(11,9,11,9)</li>
+        <li>(23,9,23,9)</li>
+        <li>(11,15,11,15)</li>
+        <li>(11,21,11,21)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>35</hp>
+    </WallLamp>
+    <WaterTreatment>
+      <positions>
+        <li>(13, 0, 4)</li>
+        <li>(22, 0, 4)</li>
+        <li>(13, 0, 7)</li>
+        <li>(22, 0, 7)</li>
+      </positions>
+      <hp>120</hp>
+    </WaterTreatment>
+    <SpacerWaterRecoverySystem>
+      <positions>
+        <li>(15, 0, 4)</li>
+        <li>(20, 0, 4)</li>
+        <li>(15, 0, 7)</li>
+        <li>(20, 0, 7)</li>
+      </positions>
+      <hp>100</hp>
+    </SpacerWaterRecoverySystem>
+    <ADH_C_Door>
+      <rects>
+        <li>(0,6,0,6)</li>
+        <li>(12,6,12,6)</li>
+        <li>(24,6,24,6)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Silver</stuff>
+      <hp>350</hp>
+      <color>RGBA(0.706, 0.678, 0.588, 1.000)</color>
+    </ADH_C_Door>
+    <GasBoiler>
+      <rects>
+        <li>(1,7,5,8)</li>
+        <li>(7,7,11,8)</li>
+      </rects>
+      <hp>150</hp>
+    </GasBoiler>
+    <ElectricBoiler>
+      <rects>
+        <li>(1,10,5,11)</li>
+        <li>(7,10,11,11)</li>
+      </rects>
+      <hp>125</hp>
+    </ElectricBoiler>
+    <WallLamp>
+      <rects>
+        <li>(3,11,3,11)</li>
+        <li>(9,11,9,11)</li>
+        <li>(15,11,15,11)</li>
+        <li>(20,11,20,11)</li>
+        <li>(3,23,3,23)</li>
+        <li>(8,23,8,23)</li>
+        <li>(15,23,15,23)</li>
+        <li>(21,23,21,23)</li>
+      </rects>
+      <hp>35</hp>
+    </WallLamp>
+    <ADH_C_Door>
+      <rects>
+        <li>(6,12,6,12)</li>
+      </rects>
+      <stuff>Silver</stuff>
+      <hp>350</hp>
+      <color>RGBA(0.706, 0.678, 0.588, 1.000)</color>
+    </ADH_C_Door>
+    <plumbingValve>
+      <rects>
+        <li>(10,12,10,12)</li>
+      </rects>
+      <hp>80</hp>
+    </plumbingValve>
+    <ADH_C_DoorB>
+      <rects>
+        <li>(18,12,18,12)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>325</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </ADH_C_DoorB>
+    <SewageSepticTank>
+      <positions>
+        <li>(1, 0, 13)</li>
+        <li>(3, 0, 13)</li>
+        <li>(1, 0, 16)</li>
+        <li>(3, 0, 16)</li>
+        <li>(1, 0, 19)</li>
+        <li>(3, 0, 19)</li>
+        <li>(1, 0, 22)</li>
+        <li>(3, 0, 22)</li>
+      </positions>
+      <stuff>Steel</stuff>
+      <hp>200</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </SewageSepticTank>
+    <SewageTreatment>
+      <positions>
+        <li>(9, 0, 15)</li>
+        <li>(9, 0, 21)</li>
+      </positions>
+      <hp>350</hp>
+    </SewageTreatment>
+    <ChemfuelPoweredGenerator>
+      <positions>
+        <li>(13, 0, 13)</li>
+        <li>(16, 0, 13)</li>
+        <li>(19, 0, 13)</li>
+        <li>(22, 0, 13)</li>
+        <li>(13, 0, 15)</li>
+        <li>(16, 0, 15)</li>
+        <li>(19, 0, 15)</li>
+        <li>(22, 0, 15)</li>
+        <li>(13, 0, 18)</li>
+        <li>(16, 0, 18)</li>
+        <li>(19, 0, 18)</li>
+        <li>(22, 0, 18)</li>
+        <li>(13, 0, 20)</li>
+        <li>(16, 0, 20)</li>
+        <li>(19, 0, 20)</li>
+        <li>(22, 0, 20)</li>
+        <li>(13, 0, 22)</li>
+        <li>(16, 0, 22)</li>
+        <li>(19, 0, 22)</li>
+        <li>(22, 0, 22)</li>
+      </positions>
+      <hp>300</hp>
+    </ChemfuelPoweredGenerator>
+    <ADH_C_DoorB>
+      <rects>
+        <li>(24,17,24,17)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>325</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </ADH_C_DoorB>
+  </things>
+  <terrain>
+    <ClutterMetalTileB>
+      <rects>
+        <li>(0,0,24,24)</li>
+      </rects>
+    </ClutterMetalTileB>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <ClutterMetalTileB>
+        <rects>
+          <li>(0,0,24,24)</li>
+        </rects>
+      </ClutterMetalTileB>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Limestone_RoughHewn>
+        <rects>
+          <li>(0,0,1,2)</li>
+          <li>(5,0,6,0)</li>
+          <li>(2,1,5,1)</li>
+          <li>(2,2,2,2)</li>
+        </rects>
+      </Limestone_RoughHewn>
+      <Limestone_Rough>
+        <rects>
+          <li>(2,0,4,0)</li>
+          <li>(7,0,9,0)</li>
+          <li>(6,1,8,1)</li>
+          <li>(3,2,7,2)</li>
+          <li>(0,3,4,3)</li>
+          <li>(0,4,0,4)</li>
+        </rects>
+      </Limestone_Rough>
+      <Gravel>
+        <rects>
+          <li>(10,0,11,0)</li>
+          <li>(9,1,10,1)</li>
+          <li>(8,2,9,2)</li>
+          <li>(5,3,8,3)</li>
+          <li>(1,4,6,4)</li>
+          <li>(0,5,4,5)</li>
+          <li>(3,6,3,7)</li>
+        </rects>
+      </Gravel>
+      <Soil>
+        <rects>
+          <li>(12,0,24,24)</li>
+          <li>(11,1,11,24)</li>
+          <li>(10,2,10,24)</li>
+          <li>(9,3,9,24)</li>
+          <li>(7,4,8,24)</li>
+          <li>(5,5,6,24)</li>
+          <li>(0,6,2,24)</li>
+          <li>(4,6,4,24)</li>
+          <li>(3,8,3,24)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,24,24)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,24,24)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
