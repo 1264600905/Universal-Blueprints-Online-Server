@@ -100,8 +100,8 @@ def fetch_from_database():
     }
 
     print("🔌 Attempting to connect to Database...")
-    # 只获取活跃的蓝图（包含精选状态）
-    url = f"{SUPABASE_URL}/rest/v1/blueprints?select=id,name,author,author_steam_id,category,tags,width,height,version,github_path,stat_likes,stat_dislikes,stat_added_to_library,created_at,updated_at,featured_blueprints(*)&is_active=eq.true"
+    # 只获取活跃的蓝图（包含精选和奖章状态）
+    url = f"{SUPABASE_URL}/rest/v1/blueprints?select=id,name,author,author_steam_id,category,tags,width,height,version,github_path,stat_likes,stat_dislikes,stat_added_to_library,created_at,updated_at,featured_blueprints(*),architectural_medals(*)&is_active=eq.true"
     
     response = requests.get(url, headers=headers, timeout=10) # 设置超时防止卡死
     if response.status_code != 200:
@@ -160,6 +160,11 @@ def main():
             if record.get("featured_blueprints") and len(record["featured_blueprints"]) > 0:
                 is_featured = True
 
+            # 检查是否有建筑学奖章
+            is_medal = False
+            if record.get("architectural_medals") and len(record["architectural_medals"]) > 0:
+                is_medal = True
+
             entry = {
                 "id": record["id"],
                 "n": record["name"],
@@ -177,7 +182,8 @@ def main():
                 "s_dl": record.get("stat_added_to_library", 0),
                 "dt": record["created_at"],
                 "ut": record.get("updated_at", record["created_at"]), # 新增：更新时间
-                "fe": 1 if is_featured else 0  # 精选状态
+                "fe": 1 if is_featured else 0,  # 精选状态
+                "am": 1 if is_medal else 0      # 奖章状态
             }
             final_list.append(entry)
 
