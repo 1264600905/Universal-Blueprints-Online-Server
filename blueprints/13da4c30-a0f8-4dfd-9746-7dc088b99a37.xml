@@ -1,0 +1,177 @@
+<PrefabDef>
+  <defName>Prefab_20260215_185344</defName>
+  <size>(13,13)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>1313水栽培</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>种植区</category>
+    <BuildingID>13da4c30-a0f8-4dfd-9746-7dc088b99a37</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>void.szstonesandterrains</packageId>
+        <name>SZ_StonesAndTerrains</name>
+        <version></version>
+        <modorder>68</modorder>
+        <steamWorkshopId>1874663469</steamWorkshopId>
+        <things>
+          <li>TileDrySandstone</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>1313水栽培</default>
+        <zh-CN>1313水栽培</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <HiddenConduit>
+      <rects>
+        <li>(0,0,0,0)</li>
+        <li>(12,0,12,12)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <Wall>
+      <rects>
+        <li>(0,0,5,0)</li>
+        <li>(7,0,12,0)</li>
+        <li>(0,1,0,12)</li>
+        <li>(12,1,12,12)</li>
+        <li>(1,12,5,12)</li>
+        <li>(7,12,11,12)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+      <hp>360</hp>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </Wall>
+    <PowerConduit>
+      <rects>
+        <li>(1,0,11,0)</li>
+        <li>(0,1,0,12)</li>
+      </rects>
+      <hp>80</hp>
+    </PowerConduit>
+    <Autodoor>
+      <rects>
+        <li>(6,0,6,0)</li>
+        <li>(6,12,6,12)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+      <hp>192</hp>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </Autodoor>
+    <HydroponicsBasin>
+      <positions>
+        <li>(5, 0, 1)</li>
+        <li>(3, 0, 2)</li>
+        <li>(3, 0, 3)</li>
+        <li>(2, 0, 4)</li>
+        <li>(3, 0, 5)</li>
+        <li>(3, 0, 6)</li>
+        <li>(8, 0, 6)</li>
+        <li>(8, 0, 7)</li>
+        <li>(9, 0, 8)</li>
+        <li>(8, 0, 9)</li>
+        <li>(8, 0, 10)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>180</hp>
+    </HydroponicsBasin>
+    <HydroponicsBasin>
+      <positions>
+        <li>(8, 0, 3)</li>
+        <li>(9, 0, 4)</li>
+        <li>(10, 0, 4)</li>
+        <li>(11, 0, 6)</li>
+        <li>(1, 0, 7)</li>
+        <li>(2, 0, 9)</li>
+        <li>(3, 0, 9)</li>
+        <li>(4, 0, 10)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>180</hp>
+    </HydroponicsBasin>
+    <HydroponicsBasin>
+      <positions>
+        <li>(6, 0, 3)</li>
+        <li>(7, 0, 3)</li>
+        <li>(5, 0, 8)</li>
+        <li>(6, 0, 8)</li>
+      </positions>
+      <hp>180</hp>
+    </HydroponicsBasin>
+    <SunLamp>
+      <rects>
+        <li>(6,6,6,6)</li>
+      </rects>
+      <hp>50</hp>
+    </SunLamp>
+    <FirefoamPopper>
+      <rects>
+        <li>(4,7,4,7)</li>
+      </rects>
+      <hp>50</hp>
+    </FirefoamPopper>
+    <HydroponicsBasin>
+      <position>(7, 0, 11)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>180</hp>
+    </HydroponicsBasin>
+  </things>
+  <terrain>
+    <TileDrySandstone>
+      <rects>
+        <li>(7,0,12,0)</li>
+        <li>(12,1,12,2)</li>
+        <li>(12,4,12,9)</li>
+      </rects>
+    </TileDrySandstone>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <Concrete>
+        <rects>
+          <li>(6,0,6,12)</li>
+          <li>(1,1,5,11)</li>
+          <li>(7,1,11,11)</li>
+        </rects>
+      </Concrete>
+      <TileDrySandstone>
+        <rects>
+          <li>(7,0,12,0)</li>
+          <li>(12,1,12,2)</li>
+          <li>(12,4,12,9)</li>
+        </rects>
+      </TileDrySandstone>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(6,0,12,2)</li>
+          <li>(1,1,5,11)</li>
+          <li>(6,3,11,11)</li>
+          <li>(12,4,12,9)</li>
+          <li>(6,12,6,12)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
