@@ -1,10 +1,10 @@
 <PrefabDef>
-  <defName>Prefab_20260214_214517</defName>
-  <size>(13,15)</size>
+  <defName>Prefab_20260108_223025</defName>
+  <size>(13,13)</size>
   <extraInfo>
     <version>1.6.9438.37837</version>
-    <name>工业时代开局用工作间</name>
-    <description>工业时代开局用的工作间，加工台都是耗电的，没有的科技不会被拍下去。工作台之间进出不减速，厨房有地板是为了降低食物中毒率，避免刚落地没两天就食物中毒，</description>
+    <name>中世纪开局用工作间</name>
+    <description>中世纪开局用的工作间，存储区我直接设在里面的地上，开局第一天就可以拍下去，部落开局也能用，因为没有的科技不会被拍下去。虽然空间利用率可能不是那么高，但是他好看啊（手动狗头</description>
     <tags></tags>
     <author>rainystar</author>
     <category>车间</category>
@@ -12,12 +12,12 @@
     <modPackages></modPackages>
     <multiLanguage>
       <name>
-        <default>工业时代开局用工作间</default>
-        <zh-CN>工业时代开局用工作间</zh-CN>
+        <default>中世纪开局用工作间</default>
+        <zh-CN>中世纪开局用工作间</zh-CN>
       </name>
       <description>
-        <default>工业时代开局用的工作间，加工台都是耗电的，没有的科技不会被拍下去。工作台之间进出不减速，厨房有地板是为了降低食物中毒率，避免刚落地没两天就食物中毒，</default>
-        <zh-CN>工业时代开局用的工作间，加工台都是耗电的，没有的科技不会被拍下去。工作台之间进出不减速，厨房有地板是为了降低食物中毒率，避免刚落地没两天就食物中毒，</zh-CN>
+        <default>中世纪开局用的工作间，存储区我直接设在里面的地上，开局第一天就可以拍下去，部落开局也能用，因为没有的科技不会被拍下去。虽然空间利用率可能不是那么高，但是他好看啊（手动狗头</default>
+        <zh-CN>中世纪开局用的工作间，存储区我直接设在里面的地上，开局第一天就可以拍下去，部落开局也能用，因为没有的科技不会被拍下去。虽然空间利用率可能不是那么高，但是他好看啊（手动狗头</zh-CN>
       </description>
     </multiLanguage>
   </extraInfo>
@@ -52,45 +52,35 @@
       <hp>104</hp>
       <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
     </Door>
-    <HiddenConduit>
-      <rects>
-        <li>(6,0,6,12)</li>
-        <li>(0,6,5,6)</li>
-        <li>(7,6,12,6)</li>
-        <li>(7,12,12,12)</li>
-      </rects>
-      <hp>100</hp>
-      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
-    </HiddenConduit>
     <DiningChair>
       <rects>
         <li>(2,1,2,1)</li>
         <li>(10,1,11,1)</li>
-        <li>(8,8,8,8)</li>
+        <li>(10,8,10,8)</li>
         <li>(2,9,2,9)</li>
-        <li>(8,10,8,10)</li>
+        <li>(10,10,10,10)</li>
       </rects>
       <stuff>WoodLog</stuff>
       <quality>Normal</quality>
       <hp>65</hp>
       <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
     </DiningChair>
-    <ElectricTailoringBench>
+    <HandTailoringBench>
       <position>(8, 0, 1)</position>
       <relativeRotation>Opposite</relativeRotation>
       <stuff>WoodLog</stuff>
       <hp>117</hp>
       <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
-    </ElectricTailoringBench>
-    <ElectricStove>
+    </HandTailoringBench>
+    <FueledStove>
       <position>(2, 0, 2)</position>
       <hp>180</hp>
-    </ElectricStove>
-    <ElectricSmithy>
+    </FueledStove>
+    <FueledSmithy>
       <position>(7, 0, 3)</position>
       <relativeRotation>Counterclockwise</relativeRotation>
       <hp>180</hp>
-    </ElectricSmithy>
+    </FueledSmithy>
     <DiningChair>
       <rects>
         <li>(8,2,8,2)</li>
@@ -109,6 +99,14 @@
       <hp>65</hp>
       <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
     </Table2x2c>
+    <TorchLamp>
+      <rects>
+        <li>(1,3,1,3)</li>
+        <li>(6,6,6,6)</li>
+        <li>(1,8,1,8)</li>
+      </rects>
+      <hp>75</hp>
+    </TorchLamp>
     <Door>
       <rects>
         <li>(5,3,5,3)</li>
@@ -131,89 +129,26 @@
       <hp>65</hp>
       <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
     </DiningChair>
-    <WallLamp>
-      <rects>
-        <li>(2,4,2,4)</li>
-      </rects>
-      <hp>35</hp>
-    </WallLamp>
-    <StandingLamp>
-      <rects>
-        <li>(6,6,6,6)</li>
-      </rects>
-      <hp>50</hp>
-    </StandingLamp>
-    <WallLamp>
-      <rects>
-        <li>(2,8,2,8)</li>
-      </rects>
-      <relativeRotation>Opposite</relativeRotation>
-      <hp>35</hp>
-    </WallLamp>
-    <TableStonecutter>
-      <position>(8, 0, 9)</position>
+    <TableButcher>
+      <position>(10, 0, 9)</position>
       <stuff>WoodLog</stuff>
       <hp>117</hp>
       <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
-    </TableStonecutter>
-    <TableMachining>
-      <position>(11, 0, 10)</position>
-      <relativeRotation>Clockwise</relativeRotation>
-      <hp>180</hp>
-    </TableMachining>
+    </TableButcher>
     <SimpleResearchBench>
       <position>(2, 0, 10)</position>
       <stuff>WoodLog</stuff>
       <hp>162</hp>
       <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
     </SimpleResearchBench>
-    <DiningChair>
-      <rects>
-        <li>(10,10,10,10)</li>
-      </rects>
-      <relativeRotation>Clockwise</relativeRotation>
-      <stuff>WoodLog</stuff>
-      <quality>Normal</quality>
-      <hp>65</hp>
-      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
-    </DiningChair>
-    <TableButcher>
-      <position>(8, 0, 11)</position>
+    <TableStonecutter>
+      <position>(10, 0, 11)</position>
       <stuff>WoodLog</stuff>
       <hp>117</hp>
       <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
-    </TableButcher>
-    <WoodFiredGenerator>
-      <position>(10, 0, 13)</position>
-      <hp>300</hp>
-    </WoodFiredGenerator>
+    </TableStonecutter>
   </things>
-  <terrain>
-    <WoodPlankFloor>
-      <rects>
-        <li>(1,1,4,4)</li>
-        <li>(5,3,5,3)</li>
-      </rects>
-    </WoodPlankFloor>
-  </terrain>
-  <terrainLayers>
-    <terrainLayerDetail layer="topGrid">
-      <WoodPlankFloor>
-        <rects>
-          <li>(1,1,4,4)</li>
-          <li>(5,3,5,3)</li>
-        </rects>
-      </WoodPlankFloor>
-    </terrainLayerDetail>
-    <terrainLayerDetail layer="underGrid">
-      <Soil>
-        <rects>
-          <li>(1,1,4,4)</li>
-          <li>(5,3,5,3)</li>
-        </rects>
-      </Soil>
-    </terrainLayerDetail>
-  </terrainLayers>
+  <terrainLayers></terrainLayers>
   <roofs>
     <RoofConstructed>
       <rects>
