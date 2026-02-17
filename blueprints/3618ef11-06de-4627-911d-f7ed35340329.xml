@@ -1,0 +1,576 @@
+<PrefabDef>
+  <defName>Prefab_20260216_182459</defName>
+  <size>(21,20)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>Warehouse</name>
+    <description> large commercial building designed for storing raw materials, parts, or finished goods</description>
+    <tags>
+      <li>FullExport</li>
+    </tags>
+    <author>Galew2</author>
+    <category>Storage</category>
+    <BuildingID>3618ef11-06de-4627-911d-f7ed35340329</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>dracoix.o2.r14</packageId>
+        <name>Oversimplified Optimizations</name>
+        <version></version>
+        <modorder>123</modorder>
+        <steamWorkshopId>3021168493</steamWorkshopId>
+        <things>
+          <li>OO_BlocksStone</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.odyssey</packageId>
+        <name>Odyssey</name>
+        <version></version>
+        <modorder>8</modorder>
+        <things>
+          <li>AncientDoubleBed</li>
+          <li>AncientEmergencyLight_Blue</li>
+          <li>AncientSingleBed</li>
+          <li>AncientFilingCabinet</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.royalty</packageId>
+        <name>Royalty</name>
+        <version></version>
+        <modorder>4</modorder>
+        <things>
+          <li>Drape</li>
+          <li>FineTileSandstone</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>vanillaexpanded.vfecore</packageId>
+        <name>Vanilla Furniture Expanded</name>
+        <version></version>
+        <modorder>25</modorder>
+        <steamWorkshopId>1718190143</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Table_Wardrobe</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>Warehouse</default>
+        <en>Warehouse</en>
+      </name>
+      <description>
+        <default> large commercial building designed for storing raw materials, parts, or finished goods</default>
+        <en> large commercial building designed for storing raw materials, parts, or finished goods</en>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,20,0)</li>
+        <li>(0,1,0,19)</li>
+        <li>(10,1,10,4)</li>
+        <li>(20,1,20,7)</li>
+        <li>(10,6,10,9)</li>
+        <li>(11,7,11,7)</li>
+        <li>(13,7,17,7)</li>
+        <li>(19,7,19,7)</li>
+        <li>(17,8,17,10)</li>
+        <li>(1,9,9,9)</li>
+        <li>(18,9,20,10)</li>
+        <li>(20,11,20,19)</li>
+        <li>(12,14,17,14)</li>
+        <li>(19,14,19,14)</li>
+        <li>(12,15,12,19)</li>
+        <li>(1,19,11,19)</li>
+        <li>(13,19,17,19)</li>
+        <li>(19,19,19,19)</li>
+      </rects>
+      <stuff>OO_BlocksStone</stuff>
+      <hp>510</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Wall>
+    <AncientDoubleBed>
+      <positions>
+        <li>(1, 0, 1)</li>
+        <li>(4, 0, 1)</li>
+        <li>(7, 0, 1)</li>
+      </positions>
+      <hp>130</hp>
+      <color>RGBA(0.631, 0.835, 0.706, 1.000)</color>
+    </AncientDoubleBed>
+    <EndTable>
+      <rects>
+        <li>(3,1,3,1)</li>
+        <li>(6,1,6,1)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>49</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </EndTable>
+    <Dresser>
+      <position>(9, 0, 1)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>78</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Dresser>
+    <PlantPot>
+      <rects>
+        <li>(11,1,11,1)</li>
+        <li>(19,1,19,1)</li>
+        <li>(19,6,19,6)</li>
+      </rects>
+      <stuff>OO_BlocksStone</stuff>
+      <quality>Normal</quality>
+      <hp>128</hp>
+      <colorDef>Structure_GreenMuddy</colorDef>
+      <color>RGBA(0.376, 0.380, 0.282, 1.000)</color>
+    </PlantPot>
+    <AncientEmergencyLight_Blue>
+      <rects>
+        <li>(16,1,16,1)</li>
+        <li>(18,9,19,9)</li>
+        <li>(6,10,6,10)</li>
+        <li>(12,14,12,14)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>35</hp>
+    </AncientEmergencyLight_Blue>
+    <Drape>
+      <positions>
+        <li>(11, 0, 3)</li>
+        <li>(19, 0, 17)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Cloth</stuff>
+      <hp>100</hp>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </Drape>
+    <DiningChair>
+      <rects>
+        <li>(14,2,15,2)</li>
+        <li>(17,2,18,2)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>65</hp>
+      <colorDef>Structure_BlueIce</colorDef>
+      <color>RGBA(0.549, 0.580, 0.682, 1.000)</color>
+    </DiningChair>
+    <AncientEmergencyLight_Blue>
+      <rects>
+        <li>(1,3,1,3)</li>
+        <li>(1,6,1,6)</li>
+        <li>(1,14,1,14)</li>
+        <li>(13,16,13,16)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>35</hp>
+    </AncientEmergencyLight_Blue>
+    <AncientEmergencyLight_Blue>
+      <rects>
+        <li>(9,3,9,3)</li>
+        <li>(9,6,9,6)</li>
+        <li>(19,12,19,12)</li>
+        <li>(11,14,11,14)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>35</hp>
+    </AncientEmergencyLight_Blue>
+    <Table1x2c>
+      <position>(14, 0, 3)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>49</hp>
+      <colorDef>Structure_Marble</colorDef>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </Table1x2c>
+    <PokerTable>
+      <position>(17, 0, 3)</position>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>162</hp>
+      <colorDef>Structure_Red</colorDef>
+      <color>RGBA(0.463, 0.192, 0.224, 1.000)</color>
+    </PokerTable>
+    <Table_Wardrobe>
+      <position>(1, 0, 5)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>91</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Table_Wardrobe>
+    <AncientLockerBank>
+      <position>(5, 0, 4)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>200</hp>
+    </AncientLockerBank>
+    <AncientMicrowave>
+      <rects>
+        <li>(7,4,7,4)</li>
+      </rects>
+      <hp>50</hp>
+    </AncientMicrowave>
+    <Column>
+      <rects>
+        <li>(11,4,11,4)</li>
+        <li>(11,6,11,6)</li>
+        <li>(13,6,13,6)</li>
+      </rects>
+      <stuff>OO_BlocksStone</stuff>
+      <hp>270</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Column>
+    <DiningChair>
+      <rects>
+        <li>(14,4,15,4)</li>
+        <li>(17,5,18,5)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>65</hp>
+      <colorDef>Structure_BlueIce</colorDef>
+      <color>RGBA(0.549, 0.580, 0.682, 1.000)</color>
+    </DiningChair>
+    <AncientLockerBank>
+      <position>(5, 0, 5)</position>
+      <hp>200</hp>
+    </AncientLockerBank>
+    <AncientSpacerCrate>
+      <rects>
+        <li>(7,5,7,5)</li>
+      </rects>
+      <hp>100</hp>
+    </AncientSpacerCrate>
+    <Door>
+      <rects>
+        <li>(10,5,10,5)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>320</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Door>
+    <AncientEmergencyLight_Blue>
+      <rects>
+        <li>(16,6,16,6)</li>
+        <li>(6,18,6,18)</li>
+      </rects>
+      <hp>35</hp>
+    </AncientEmergencyLight_Blue>
+    <AncientSingleBed>
+      <positions>
+        <li>(1, 0, 8)</li>
+        <li>(3, 0, 8)</li>
+        <li>(5, 0, 8)</li>
+        <li>(7, 0, 8)</li>
+        <li>(9, 0, 8)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>90</hp>
+      <color>RGBA(0.631, 0.835, 0.706, 1.000)</color>
+    </AncientSingleBed>
+    <Door>
+      <rects>
+        <li>(12,7,12,7)</li>
+        <li>(18,14,18,14)</li>
+        <li>(18,19,18,19)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>320</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Door>
+    <Autodoor>
+      <rects>
+        <li>(18,7,18,7)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>320</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Autodoor>
+    <EndTable>
+      <rects>
+        <li>(2,8,2,8)</li>
+        <li>(4,8,4,8)</li>
+        <li>(6,8,6,8)</li>
+        <li>(8,8,8,8)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>49</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </EndTable>
+    <ShelfSmall>
+      <rects>
+        <li>(14,8,14,8)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>OO_BlocksStone</stuff>
+      <hp>85</hp>
+      <colorDef>Structure_RedSubtle</colorDef>
+      <color>RGBA(0.518, 0.329, 0.282, 1.000)</color>
+    </ShelfSmall>
+    <Chemfuel>
+      <rects>
+        <li>(14,8,14,8)</li>
+      </rects>
+      <hp>50</hp>
+      <stackCount>150</stackCount>
+    </Chemfuel>
+    <ChemfuelPoweredGenerator>
+      <position>(15, 0, 8)</position>
+      <hp>300</hp>
+    </ChemfuelPoweredGenerator>
+    <MealSimple>
+      <rects>
+        <li>(18,8,18,8)</li>
+      </rects>
+      <hp>50</hp>
+      <stackCount>10</stackCount>
+    </MealSimple>
+    <Shelf>
+      <position>(19, 0, 8)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>200</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Shelf>
+    <MealFine>
+      <rects>
+        <li>(19,8,19,8)</li>
+      </rects>
+      <hp>50</hp>
+      <stackCount>10</stackCount>
+    </MealFine>
+    <Cooler>
+      <rects>
+        <li>(20,8,20,8)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>100</hp>
+    </Cooler>
+    <Shelf>
+      <positions>
+        <li>(2, 0, 11)</li>
+        <li>(9, 0, 11)</li>
+        <li>(2, 0, 13)</li>
+        <li>(2, 0, 15)</li>
+        <li>(6, 0, 15)</li>
+        <li>(11, 0, 17)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Shelf>
+    <Shelf>
+      <positions>
+        <li>(3, 0, 12)</li>
+        <li>(10, 0, 12)</li>
+        <li>(3, 0, 14)</li>
+        <li>(3, 0, 16)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Shelf>
+    <Shelf>
+      <positions>
+        <li>(7, 0, 11)</li>
+        <li>(6, 0, 14)</li>
+        <li>(10, 0, 14)</li>
+        <li>(9, 0, 17)</li>
+        <li>(4, 0, 18)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Shelf>
+    <Shelf>
+      <positions>
+        <li>(6, 0, 12)</li>
+        <li>(9, 0, 15)</li>
+      </positions>
+      <stuff>WoodLog</stuff>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Shelf>
+    <Column>
+      <rects>
+        <li>(19,15,19,15)</li>
+        <li>(19,18,19,18)</li>
+      </rects>
+      <stuff>OO_BlocksStone</stuff>
+      <hp>270</hp>
+      <colorDef>Structure_Sandstone</colorDef>
+      <color>RGBA(0.494, 0.408, 0.369, 1.000)</color>
+    </Column>
+    <SimpleResearchBench>
+      <position>(15, 0, 17)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>162</hp>
+      <colorDef>Structure_Limestone</colorDef>
+      <color>RGBA(0.620, 0.600, 0.529, 1.000)</color>
+    </SimpleResearchBench>
+    <Armchair>
+      <rects>
+        <li>(14,17,14,17)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Normal</quality>
+      <hp>120</hp>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </Armchair>
+    <ShelfSmall>
+      <rects>
+        <li>(5,18,5,18)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>32</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </ShelfSmall>
+    <AncientFilingCabinet>
+      <rects>
+        <li>(13,18,14,18)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>50</hp>
+    </AncientFilingCabinet>
+  </things>
+  <terrain>
+    <TileGranite>
+      <rects>
+        <li>(0,0,20,1)</li>
+        <li>(0,2,11,2)</li>
+        <li>(13,2,13,11)</li>
+        <li>(19,2,20,15)</li>
+        <li>(0,3,2,3)</li>
+        <li>(9,3,11,4)</li>
+        <li>(0,4,1,19)</li>
+        <li>(2,6,2,19)</li>
+        <li>(9,6,11,19)</li>
+        <li>(14,6,18,11)</li>
+        <li>(3,7,8,19)</li>
+        <li>(12,13,17,15)</li>
+        <li>(12,16,16,19)</li>
+        <li>(20,16,20,19)</li>
+        <li>(17,18,17,19)</li>
+        <li>(19,18,19,19)</li>
+      </rects>
+    </TileGranite>
+    <FineTileSandstone>
+      <rects>
+        <li>(12,2,12,12)</li>
+        <li>(14,2,18,5)</li>
+        <li>(3,3,8,6)</li>
+        <li>(2,4,2,5)</li>
+        <li>(9,5,11,5)</li>
+        <li>(13,12,18,12)</li>
+        <li>(18,13,18,19)</li>
+        <li>(17,16,17,17)</li>
+        <li>(19,16,19,17)</li>
+      </rects>
+    </FineTileSandstone>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <TileGranite>
+        <rects>
+          <li>(0,0,20,1)</li>
+          <li>(0,2,11,2)</li>
+          <li>(13,2,13,11)</li>
+          <li>(19,2,20,15)</li>
+          <li>(0,3,2,3)</li>
+          <li>(9,3,11,4)</li>
+          <li>(0,4,1,19)</li>
+          <li>(2,6,2,19)</li>
+          <li>(9,6,11,19)</li>
+          <li>(14,6,18,11)</li>
+          <li>(3,7,8,19)</li>
+          <li>(12,13,17,15)</li>
+          <li>(12,16,16,19)</li>
+          <li>(20,16,20,19)</li>
+          <li>(17,18,17,19)</li>
+          <li>(19,18,19,19)</li>
+        </rects>
+      </TileGranite>
+      <FineTileSandstone>
+        <rects>
+          <li>(12,2,12,12)</li>
+          <li>(14,2,18,5)</li>
+          <li>(3,3,8,6)</li>
+          <li>(2,4,2,5)</li>
+          <li>(9,5,11,5)</li>
+          <li>(13,12,18,12)</li>
+          <li>(18,13,18,19)</li>
+          <li>(17,16,17,17)</li>
+          <li>(19,16,19,17)</li>
+        </rects>
+      </FineTileSandstone>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(0,0,12,0)</li>
+          <li>(0,1,11,2)</li>
+          <li>(0,3,10,3)</li>
+          <li>(0,4,9,19)</li>
+          <li>(10,5,10,19)</li>
+          <li>(11,9,11,19)</li>
+          <li>(12,10,12,19)</li>
+          <li>(13,11,16,19)</li>
+          <li>(17,13,18,19)</li>
+          <li>(19,14,19,19)</li>
+          <li>(20,15,20,19)</li>
+        </rects>
+      </Soil>
+      <MossyTerrain>
+        <rects>
+          <li>(13,0,20,10)</li>
+          <li>(12,1,12,9)</li>
+          <li>(11,3,11,8)</li>
+          <li>(10,4,10,4)</li>
+          <li>(17,11,20,12)</li>
+          <li>(19,13,20,13)</li>
+          <li>(20,14,20,14)</li>
+        </rects>
+      </MossyTerrain>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,20,19)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,20,19)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
