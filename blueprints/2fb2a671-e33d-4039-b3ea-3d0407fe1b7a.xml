@@ -1,0 +1,141 @@
+<PrefabDef>
+  <defName>Prefab_20260216_122255</defName>
+  <size>(7,7)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>民房</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>宿舍</category>
+    <BuildingID>2fb2a671-e33d-4039-b3ea-3d0407fe1b7a</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>simple.tech</packageId>
+        <name>简易科技</name>
+        <version></version>
+        <modorder>85</modorder>
+        <steamWorkshopId>2881334421</steamWorkshopId>
+        <things>
+          <li>JY_WallPower</li>
+          <li>JYAutodoor</li>
+          <li>SoilRich</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>民房</default>
+        <zh-CN>民房</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <JY_WallPower>
+      <rects>
+        <li>(0,0,4,0)</li>
+        <li>(6,0,6,6)</li>
+        <li>(0,1,0,6)</li>
+        <li>(1,6,5,6)</li>
+      </rects>
+      <stuff>Plasteel</stuff>
+      <hp>56000</hp>
+      <color>RGBA(0.627, 0.698, 0.710, 1.000)</color>
+    </JY_WallPower>
+    <JYAutodoor>
+      <rects>
+        <li>(5,0,5,0)</li>
+      </rects>
+      <stuff>Plasteel</stuff>
+      <hp>56000</hp>
+      <color>RGBA(0.627, 0.698, 0.710, 1.000)</color>
+    </JYAutodoor>
+    <Table1x2c>
+      <position>(2, 0, 1)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Gold</stuff>
+      <quality>Legendary</quality>
+      <hp>45</hp>
+      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
+    </Table1x2c>
+    <DiningChair>
+      <rects>
+        <li>(1,2,2,2)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Gold</stuff>
+      <quality>Legendary</quality>
+      <hp>60</hp>
+      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
+    </DiningChair>
+    <RoyalBed>
+      <position>(2, 0, 5)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Gold</stuff>
+      <quality>Masterwork</quality>
+      <hp>120</hp>
+      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
+    </RoyalBed>
+    <EndTable>
+      <rects>
+        <li>(3,5,3,5)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Gold</stuff>
+      <quality>Legendary</quality>
+      <hp>45</hp>
+      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
+    </EndTable>
+    <Dresser>
+      <position>(5, 0, 5)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Gold</stuff>
+      <quality>Legendary</quality>
+      <hp>72</hp>
+      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
+    </Dresser>
+  </things>
+  <terrain>
+    <SterileTile>
+      <rects>
+        <li>(5,0,5,5)</li>
+        <li>(1,1,4,5)</li>
+      </rects>
+    </SterileTile>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <SterileTile>
+        <rects>
+          <li>(5,0,5,5)</li>
+          <li>(1,1,4,5)</li>
+        </rects>
+      </SterileTile>
+      <SoilRich>
+        <rects>
+          <li>(6,2,6,4)</li>
+        </rects>
+      </SoilRich>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(5,0,5,5)</li>
+          <li>(1,1,4,5)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,6,6)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,6,6)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
