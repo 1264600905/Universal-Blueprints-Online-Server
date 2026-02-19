@@ -1,0 +1,439 @@
+<PrefabDef>
+  <defName>Prefab_20260219_224215</defName>
+  <size>(13,18)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>联合轻工科研室</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>科研</category>
+    <BuildingID>c4142275-5bbf-4aa1-a80e-1af31989bd44</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>kindseal.ufli</packageId>
+        <name>联合轻工家具拓展-UF Light Industries Furniture</name>
+        <version></version>
+        <modorder>120</modorder>
+        <steamWorkshopId>3651799915</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFLI_StreetlightB</li>
+          <li>UFLI_Wall_Cable</li>
+          <li>UFLI_1_Autodoor</li>
+          <li>UFLI_1_Frame_DOOR</li>
+          <li>UFLI_Wall</li>
+          <li>UFLI_Chair</li>
+          <li>UFLI_2_Autodoor</li>
+          <li>UFLI_2_Frame_DOOR</li>
+          <li>UFLI_Walllamp</li>
+          <li>UFLI_Decoration_Big_Holographic</li>
+          <li>UFLI_CarpetB</li>
+          <li>UFLI_CabinetA</li>
+          <li>UFLI_FLOORB</li>
+          <li>UFLI_FLOORK</li>
+          <li>UFLI_FLOORE</li>
+          <li>UFLI_FLOORF</li>
+          <li>UFLI_FLOORD</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>tot.celetech.mkiii</packageId>
+        <name>CeleTech Arsenal MKIII</name>
+        <version></version>
+        <modorder>38</modorder>
+        <steamWorkshopId>3446237098</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+        </dependencies>
+        <things>
+          <li>CMC_WallTempController</li>
+          <li>TradeInfoConsole</li>
+          <li>CMC_CommConsole</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>sbz.neatstorage</packageId>
+        <name>[sbz] Neat Storage</name>
+        <version></version>
+        <modorder>25</modorder>
+        <steamWorkshopId>3416243474</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>adaptive.storage.framework</packageId>
+            <steamWorkshopId>3033901359</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>sbz_OpenShelf</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ancot.milirarace</packageId>
+        <name>Milira Race</name>
+        <version></version>
+        <modorder>72</modorder>
+        <steamWorkshopId>3256974620</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ancot.ancotlibrary</packageId>
+            <steamWorkshopId>2988801276</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.royalty</packageId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Milira_SplendidSteel</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>kindseal.lol</packageId>
+        <name>联合重工-UF Heavy Industries</name>
+        <version></version>
+        <modorder>121</modorder>
+        <steamWorkshopId>3555662938</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+          <li>
+            <packageId>dizhuan.sralib</packageId>
+            <steamWorkshopId>3565275325</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>KT_Sandbox_Table</li>
+          <li>KT_wallTV</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>联合轻工科研室</default>
+        <zh-CN>联合轻工科研室</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <UFLI_StreetlightB>
+      <rects>
+        <li>(12,0,12,0)</li>
+      </rects>
+      <hp>200</hp>
+    </UFLI_StreetlightB>
+    <UFLI_Wall_Cable>
+      <rects>
+        <li>(1,1,11,1)</li>
+        <li>(1,2,1,16)</li>
+        <li>(11,2,11,5)</li>
+        <li>(8,8,11,8)</li>
+        <li>(11,9,11,16)</li>
+        <li>(2,16,10,16)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>2400</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Wall_Cable>
+    <UFLI_1_Autodoor>
+      <rects>
+        <li>(5,2,5,2)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>1200</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_1_Autodoor>
+    <UFLI_1_Frame_DOOR>
+      <rects>
+        <li>(5,2,5,2)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>60</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_1_Frame_DOOR>
+    <TableMachining>
+      <position>(9, 0, 2)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>180</hp>
+    </TableMachining>
+    <UFLI_Wall>
+      <rects>
+        <li>(5,3,5,6)</li>
+        <li>(2,8,5,8)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>2500</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Wall>
+    <CMC_WallTempController>
+      <rects>
+        <li>(6,3,6,3)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>300</hp>
+    </CMC_WallTempController>
+    <UFLI_Chair>
+      <rects>
+        <li>(9,3,9,3)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>120</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Chair>
+    <ToolCabinet>
+      <position>(10, 0, 4)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>100</hp>
+      <color>RGBA(0.376, 0.447, 0.373, 1.000)</color>
+    </ToolCabinet>
+    <ElectricTailoringBench>
+      <position>(6, 0, 5)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>117</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </ElectricTailoringBench>
+    <sbz_OpenShelf>
+      <positions>
+        <li>(3, 0, 5)</li>
+        <li>(3, 0, 6)</li>
+        <li>(3, 0, 7)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Milira_SplendidSteel</stuff>
+      <hp>360</hp>
+    </sbz_OpenShelf>
+    <UFLI_Chair>
+      <rects>
+        <li>(7,5,7,5)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>120</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Chair>
+    <UFLI_2_Autodoor>
+      <position>(11, 0, 7)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>1400</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_2_Autodoor>
+    <UFLI_2_Frame_DOOR>
+      <position>(11, 0, 7)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>100</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_2_Frame_DOOR>
+    <UFLI_Walllamp>
+      <rects>
+        <li>(4,7,4,7)</li>
+        <li>(8,7,8,7)</li>
+        <li>(8,15,8,15)</li>
+      </rects>
+      <hp>150</hp>
+    </UFLI_Walllamp>
+    <Vent>
+      <rects>
+        <li>(5,7,5,7)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>100</hp>
+    </Vent>
+    <UFLI_2_Autodoor>
+      <position>(6, 0, 8)</position>
+      <stuff>Steel</stuff>
+      <hp>1400</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_2_Autodoor>
+    <UFLI_2_Frame_DOOR>
+      <position>(6, 0, 8)</position>
+      <stuff>Steel</stuff>
+      <hp>100</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_2_Frame_DOOR>
+    <HiddenConduit>
+      <rects>
+        <li>(12,8,12,8)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <TradeInfoConsole>
+      <position>(2, 0, 9)</position>
+      <hp>80</hp>
+    </TradeInfoConsole>
+    <UFLI_Decoration_Big_Holographic>
+      <position>(4, 0, 9)</position>
+      <hp>100</hp>
+    </UFLI_Decoration_Big_Holographic>
+    <CMC_WallTempController>
+      <rects>
+        <li>(8,9,8,9)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>300</hp>
+    </CMC_WallTempController>
+    <HiTechResearchBench>
+      <position>(9, 0, 11)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>250</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HiTechResearchBench>
+    <KT_Sandbox_Table>
+      <position>(4, 0, 12)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>500</hp>
+    </KT_Sandbox_Table>
+    <UFLI_CarpetB>
+      <position>(7, 0, 12)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Normal</quality>
+      <hp>400</hp>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </UFLI_CarpetB>
+    <UFLI_Chair>
+      <rects>
+        <li>(8,11,8,11)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>120</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Chair>
+    <CMC_CommConsole>
+      <position>(2, 0, 13)</position>
+      <hp>260</hp>
+    </CMC_CommConsole>
+    <UFLI_Chair>
+      <rects>
+        <li>(6,13,6,13)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>120</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Chair>
+    <HiTechResearchBench>
+      <position>(6, 0, 14)</position>
+      <stuff>Steel</stuff>
+      <hp>250</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HiTechResearchBench>
+    <MultiAnalyzer>
+      <position>(9, 0, 14)</position>
+      <hp>200</hp>
+    </MultiAnalyzer>
+    <UFLI_CabinetA>
+      <position>(3, 0, 15)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>180</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_CabinetA>
+    <KT_wallTV>
+      <positions>
+        <li>(4, 0, 15)</li>
+        <li>(6, 0, 15)</li>
+        <li>(9, 0, 15)</li>
+      </positions>
+      <hp>120</hp>
+    </KT_wallTV>
+  </things>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <UFLI_FLOORB>
+        <rects>
+          <li>(0,0,12,0)</li>
+          <li>(0,1,0,17)</li>
+          <li>(12,1,12,17)</li>
+          <li>(1,17,11,17)</li>
+        </rects>
+      </UFLI_FLOORB>
+      <UFLI_FLOORK>
+        <rects>
+          <li>(1,1,11,1)</li>
+          <li>(1,2,1,7)</li>
+          <li>(11,2,11,5)</li>
+        </rects>
+      </UFLI_FLOORK>
+      <UFLI_FLOORE>
+        <rects>
+          <li>(2,2,10,7)</li>
+        </rects>
+      </UFLI_FLOORE>
+      <UFLI_FLOORF>
+        <rects>
+          <li>(11,6,11,7)</li>
+          <li>(6,8,7,8)</li>
+        </rects>
+      </UFLI_FLOORF>
+      <UFLI_FLOORD>
+        <rects>
+          <li>(1,8,5,16)</li>
+          <li>(8,8,11,16)</li>
+          <li>(6,9,7,16)</li>
+        </rects>
+      </UFLI_FLOORD>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Sand>
+        <rects>
+          <li>(0,0,12,17)</li>
+        </rects>
+      </Sand>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(1,1,11,16)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(1,1,11,16)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
