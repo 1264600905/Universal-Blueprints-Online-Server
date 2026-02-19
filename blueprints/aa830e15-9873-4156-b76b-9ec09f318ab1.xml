@@ -1,0 +1,225 @@
+<PrefabDef>
+  <defName>Prefab_20260219_134752</defName>
+  <size>(13,13)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>机械体改装兼研究室[13x13]</name>
+    <description>机械体改装设施只占用一半的空间，另一半空间可用作小型研究室使用</description>
+    <tags></tags>
+    <author>Meowang</author>
+    <category>生物科技DLC</category>
+    <BuildingID>aa830e15-9873-4156-b76b-9ec09f318ab1</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>aoba.fortress.industrial</packageId>
+        <name>Fortifications - Industrial</name>
+        <version></version>
+        <modorder>206</modorder>
+        <steamWorkshopId>2561619583</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>aoba.framework</packageId>
+            <steamWorkshopId>3498575851</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>FT_BlocksConcrete</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>gogatio.mechanoidupgrades</packageId>
+        <name>Mechanoid Upgrades</name>
+        <version></version>
+        <modorder>56</modorder>
+        <steamWorkshopId>3365118555</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>MU_MechUpgrader</li>
+          <li>MU_UpgradesFabricator</li>
+          <li>MU_BasicUpgradesAssembler</li>
+          <li>MU_AdvancedUpgradesAssembler</li>
+          <li>MU_UpgradesStorage</li>
+          <li>MU_LargeUpgradesStorage</li>
+          <li>MU_AssemblyCentrifuge</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>机械体改装兼研究室[13x13]</default>
+        <zh-CN>机械体改装兼研究室[13x13]</zh-CN>
+      </name>
+      <description>
+        <default>机械体改装设施只占用一半的空间，另一半空间可用作小型研究室使用</default>
+        <zh-CN>机械体改装设施只占用一半的空间，另一半空间可用作小型研究室使用</zh-CN>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <HiddenConduit>
+      <rects>
+        <li>(0,0,12,0)</li>
+        <li>(0,1,0,12)</li>
+        <li>(12,1,12,12)</li>
+        <li>(1,12,11,12)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <Wall>
+      <rects>
+        <li>(0,0,5,0)</li>
+        <li>(7,0,12,0)</li>
+        <li>(0,1,0,5)</li>
+        <li>(12,1,12,5)</li>
+        <li>(0,7,0,12)</li>
+        <li>(12,7,12,12)</li>
+        <li>(1,12,5,12)</li>
+        <li>(7,12,11,12)</li>
+      </rects>
+      <stuff>FT_BlocksConcrete</stuff>
+      <hp>600</hp>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </Wall>
+    <Door>
+      <rects>
+        <li>(6,0,6,0)</li>
+        <li>(6,12,6,12)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <MU_MechUpgrader>
+      <position>(2, 0, 2)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>300</hp>
+    </MU_MechUpgrader>
+    <MU_UpgradesFabricator>
+      <position>(5, 0, 2)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>200</hp>
+    </MU_UpgradesFabricator>
+    <MU_BasicUpgradesAssembler>
+      <position>(8, 0, 2)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>200</hp>
+    </MU_BasicUpgradesAssembler>
+    <MU_AdvancedUpgradesAssembler>
+      <position>(10, 0, 3)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>250</hp>
+    </MU_AdvancedUpgradesAssembler>
+    <MU_UpgradesStorage>
+      <position>(1, 0, 5)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>200</hp>
+    </MU_UpgradesStorage>
+    <MU_LargeUpgradesStorage>
+      <position>(4, 0, 4)</position>
+      <hp>300</hp>
+    </MU_LargeUpgradesStorage>
+    <MU_AssemblyCentrifuge>
+      <rects>
+        <li>(8,4,9,5)</li>
+      </rects>
+      <hp>100</hp>
+    </MU_AssemblyCentrifuge>
+    <Door>
+      <rects>
+        <li>(0,6,0,6)</li>
+        <li>(12,6,12,6)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <StandingLamp>
+      <rects>
+        <li>(6,6,6,6)</li>
+      </rects>
+      <hp>50</hp>
+    </StandingLamp>
+    <MultiAnalyzer>
+      <position>(4, 0, 8)</position>
+      <hp>200</hp>
+    </MultiAnalyzer>
+    <Misc_FileCabinet>
+      <rects>
+        <li>(7,9,7,9)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>39</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Misc_FileCabinet>
+    <HiTechResearchBench>
+      <positions>
+        <li>(3, 0, 10)</li>
+        <li>(9, 0, 10)</li>
+      </positions>
+      <stuff>Steel</stuff>
+      <hp>250</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HiTechResearchBench>
+  </things>
+  <terrain>
+    <PavedTile>
+      <rects>
+        <li>(1,1,11,11)</li>
+      </rects>
+    </PavedTile>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <Concrete>
+        <rects>
+          <li>(6,0,6,0)</li>
+          <li>(0,6,0,6)</li>
+          <li>(12,6,12,6)</li>
+        </rects>
+      </Concrete>
+      <PavedTile>
+        <rects>
+          <li>(1,1,11,11)</li>
+        </rects>
+      </PavedTile>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(6,0,6,11)</li>
+          <li>(1,1,5,11)</li>
+          <li>(7,1,11,11)</li>
+          <li>(0,6,0,6)</li>
+          <li>(12,6,12,6)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
