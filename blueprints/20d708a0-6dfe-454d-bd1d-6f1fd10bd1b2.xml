@@ -1,0 +1,261 @@
+<PrefabDef>
+  <defName>Prefab_20260219_135250</defName>
+  <size>(13,13)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>大型机兵培育室[13x13]</name>
+    <description>实际上是大型机兵培育室蓝图的改型，适配13x13，四个置物架可用于存放机兵改件</description>
+    <tags></tags>
+    <author>Meowang</author>
+    <category>生物科技DLC</category>
+    <BuildingID>20d708a0-6dfe-454d-bd1d-6f1fd10bd1b2</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>aoba.fortress.industrial</packageId>
+        <name>Fortifications - Industrial</name>
+        <version></version>
+        <modorder>206</modorder>
+        <steamWorkshopId>2561619583</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>aoba.framework</packageId>
+            <steamWorkshopId>3498575851</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>FT_BlocksConcrete</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>aoba.deadmanswitch.core</packageId>
+        <name><![CDATA[The Dead Man's Switch]]></name>
+        <version>1.8.20</version>
+        <modorder>205</modorder>
+        <steamWorkshopId>3121742525</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+          <li>
+            <packageId>aoba.framework</packageId>
+            <steamWorkshopId>3498575851</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>DMS_Recharger</li>
+          <li>DMS_MechGestatorSmall</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>vanillaexpanded.vfearchitect</packageId>
+        <name>Vanilla Furniture Expanded - Architect</name>
+        <version></version>
+        <modorder>156</modorder>
+        <steamWorkshopId>2608762624</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VFEArch_ConcreteFoundation</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>大型机兵培育室[13x13]</default>
+        <zh-CN>大型机兵培育室[13x13]</zh-CN>
+      </name>
+      <description>
+        <default>实际上是大型机兵培育室蓝图的改型，适配13x13，四个置物架可用于存放机兵改件</default>
+        <zh-CN>实际上是大型机兵培育室蓝图的改型，适配13x13，四个置物架可用于存放机兵改件</zh-CN>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,5,0)</li>
+        <li>(7,0,12,0)</li>
+        <li>(0,1,0,5)</li>
+        <li>(12,1,12,5)</li>
+        <li>(0,7,0,12)</li>
+        <li>(12,7,12,12)</li>
+        <li>(1,12,5,12)</li>
+        <li>(7,12,11,12)</li>
+      </rects>
+      <stuff>FT_BlocksConcrete</stuff>
+      <hp>600</hp>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </Wall>
+    <HiddenConduit>
+      <rects>
+        <li>(0,0,12,0)</li>
+        <li>(0,1,0,12)</li>
+        <li>(12,12,12,12)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <Door>
+      <rects>
+        <li>(6,0,6,0)</li>
+        <li>(6,12,6,12)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <ShelfSmall>
+      <rects>
+        <li>(2,2,2,2)</li>
+        <li>(2,10,2,10)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>32</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </ShelfSmall>
+    <DMS_Recharger>
+      <positions>
+        <li>(4, 0, 2)</li>
+        <li>(8, 0, 2)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>300</hp>
+    </DMS_Recharger>
+    <ShelfSmall>
+      <rects>
+        <li>(10,2,10,2)</li>
+        <li>(10,10,10,10)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>32</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </ShelfSmall>
+    <DMS_Recharger>
+      <positions>
+        <li>(2, 0, 4)</li>
+        <li>(2, 0, 8)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>300</hp>
+    </DMS_Recharger>
+    <DMS_MechGestatorSmall>
+      <positions>
+        <li>(4, 0, 4)</li>
+        <li>(8, 0, 4)</li>
+      </positions>
+      <hp>350</hp>
+    </DMS_MechGestatorSmall>
+    <DMS_Recharger>
+      <positions>
+        <li>(10, 0, 4)</li>
+        <li>(10, 0, 8)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>300</hp>
+    </DMS_Recharger>
+    <Door>
+      <rects>
+        <li>(0,6,0,6)</li>
+        <li>(12,6,12,6)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <StandingLamp>
+      <rects>
+        <li>(6,6,6,6)</li>
+      </rects>
+      <hp>50</hp>
+    </StandingLamp>
+    <DMS_MechGestatorSmall>
+      <positions>
+        <li>(4, 0, 8)</li>
+        <li>(8, 0, 8)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>350</hp>
+    </DMS_MechGestatorSmall>
+    <DMS_Recharger>
+      <positions>
+        <li>(4, 0, 10)</li>
+        <li>(8, 0, 10)</li>
+      </positions>
+      <hp>300</hp>
+    </DMS_Recharger>
+  </things>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <Concrete>
+        <rects>
+          <li>(6,0,6,12)</li>
+          <li>(12,0,12,0)</li>
+          <li>(1,1,5,11)</li>
+          <li>(7,1,11,11)</li>
+          <li>(0,6,0,6)</li>
+          <li>(12,6,12,6)</li>
+        </rects>
+      </Concrete>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(6,0,6,12)</li>
+          <li>(1,1,5,11)</li>
+          <li>(7,1,10,11)</li>
+          <li>(11,2,11,11)</li>
+          <li>(0,6,0,6)</li>
+          <li>(12,6,12,6)</li>
+        </rects>
+      </Soil>
+      <Mud>
+        <rects>
+          <li>(12,0,12,0)</li>
+        </rects>
+      </Mud>
+      <SoilRich>
+        <rects>
+          <li>(11,1,11,1)</li>
+        </rects>
+      </SoilRich>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="foundationGrid">
+      <VFEArch_ConcreteFoundation>
+        <rects>
+          <li>(12,0,12,0)</li>
+        </rects>
+      </VFEArch_ConcreteFoundation>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
