@@ -1,0 +1,343 @@
+<PrefabDef>
+  <defName>Prefab_20260220_141707</defName>
+  <size>(23,22)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>炮阵</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>防御工事</category>
+    <BuildingID>f5b799d1-c167-49e2-bbf4-4971c1521c9c</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>aoba.fortress.industrial</packageId>
+        <name>Fortifications - Industrial</name>
+        <version></version>
+        <modorder>466</modorder>
+        <steamWorkshopId>2561619583</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>aoba.framework</packageId>
+            <steamWorkshopId>3498575851</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>FT_BlocksConcrete</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>aoba.fortress.frontier</packageId>
+        <name>Fortification Industrial - Frontier</name>
+        <version></version>
+        <modorder>467</modorder>
+        <steamWorkshopId>3093455596</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>aoba.fortress.industrial</packageId>
+            <steamWorkshopId>2561619583</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>aoba.framework</packageId>
+            <steamWorkshopId>3498575851</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>FT_BarbedWire</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>kindseal.lol</packageId>
+        <name>联合重工-UF Heavy Industries</name>
+        <version></version>
+        <modorder>527</modorder>
+        <steamWorkshopId>3555662938</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+          <li>
+            <packageId>dizhuan.sralib</packageId>
+            <steamWorkshopId>3565275325</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>KTMACHINEGUN</li>
+          <li>KT100MMCANNON</li>
+          <li>KTPLASMAAC</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>fxz.ratkinanomaly.update</packageId>
+        <name>Ratkin Anomaly+</name>
+        <version></version>
+        <modorder>346</modorder>
+        <steamWorkshopId>3293914637</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>solaris.ratkinracemod</packageId>
+            <steamWorkshopId>3639976572</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>fxz.solaris.ratkinracemod.odyssey</packageId>
+            <steamWorkshopId>3497673755</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.anomaly</packageId>
+          </li>
+        </dependencies>
+        <things>
+          <li>RA_DrillTunnel</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>buildable.terrain</packageId>
+        <name>Buildable Terrain v1</name>
+        <version></version>
+        <modorder>494</modorder>
+        <steamWorkshopId>1420979918</steamWorkshopId>
+        <things>
+          <li>Gravel</li>
+          <li>Sand</li>
+          <li>SoilRich</li>
+          <li>Soil</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>炮阵</default>
+        <zh-CN>炮阵</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,1,0)</li>
+        <li>(0,1,0,1)</li>
+      </rects>
+      <stuff>FT_BlocksConcrete</stuff>
+      <hp>600</hp>
+    </Wall>
+    <HiddenConduit>
+      <rects>
+        <li>(2,0,3,0)</li>
+        <li>(3,1,3,3)</li>
+        <li>(4,2,5,3)</li>
+        <li>(6,3,6,5)</li>
+        <li>(7,5,7,6)</li>
+        <li>(8,6,10,7)</li>
+        <li>(16,6,16,7)</li>
+        <li>(11,7,15,7)</li>
+        <li>(8,8,8,8)</li>
+        <li>(13,8,15,15)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <FT_BarbedWire>
+      <positions>
+        <li>(3, 0, 0)</li>
+        <li>(6, 0, 0)</li>
+        <li>(9, 0, 0)</li>
+        <li>(12, 0, 0)</li>
+        <li>(15, 0, 0)</li>
+        <li>(17, 0, 1)</li>
+      </positions>
+      <hp>300</hp>
+      <color>RGBA(0.608, 0.608, 0.510, 1.000)</color>
+    </FT_BarbedWire>
+    <FT_BarbedWire>
+      <positions>
+        <li>(1, 0, 2)</li>
+        <li>(20, 0, 2)</li>
+        <li>(1, 0, 5)</li>
+        <li>(21, 0, 5)</li>
+        <li>(1, 0, 8)</li>
+        <li>(22, 0, 8)</li>
+        <li>(1, 0, 11)</li>
+        <li>(22, 0, 11)</li>
+        <li>(1, 0, 14)</li>
+        <li>(22, 0, 14)</li>
+        <li>(2, 0, 16)</li>
+        <li>(22, 0, 17)</li>
+        <li>(22, 0, 20)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>300</hp>
+      <color>RGBA(0.608, 0.608, 0.510, 1.000)</color>
+    </FT_BarbedWire>
+    <Barricade>
+      <rects>
+        <li>(2,1,15,1)</li>
+        <li>(2,2,2,14)</li>
+        <li>(17,2,19,2)</li>
+        <li>(3,3,3,3)</li>
+        <li>(19,3,19,4)</li>
+        <li>(20,4,20,7)</li>
+        <li>(21,7,21,20)</li>
+        <li>(3,14,3,18)</li>
+        <li>(4,18,5,18)</li>
+        <li>(19,18,20,18)</li>
+        <li>(5,19,8,19)</li>
+        <li>(19,19,19,20)</li>
+        <li>(8,20,18,20)</li>
+        <li>(20,20,20,20)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>300</hp>
+      <color>RGBA(0.545, 0.478, 0.341, 1.000)</color>
+    </Barricade>
+    <KTMACHINEGUN>
+      <rects>
+        <li>(3,2,3,2)</li>
+        <li>(8,2,8,2)</li>
+        <li>(18,3,18,3)</li>
+        <li>(3,7,3,7)</li>
+        <li>(20,8,20,8)</li>
+        <li>(3,10,3,10)</li>
+        <li>(3,13,3,13)</li>
+        <li>(20,14,20,14)</li>
+        <li>(4,17,4,17)</li>
+        <li>(9,19,9,19)</li>
+        <li>(15,19,15,19)</li>
+        <li>(20,19,20,19)</li>
+      </rects>
+      <hp>1200</hp>
+    </KTMACHINEGUN>
+    <KT100MMCANNON>
+      <positions>
+        <li>(12, 0, 6)</li>
+        <li>(8, 0, 8)</li>
+        <li>(12, 0, 10)</li>
+        <li>(8, 0, 12)</li>
+        <li>(16, 0, 12)</li>
+        <li>(12, 0, 14)</li>
+      </positions>
+      <hp>3600</hp>
+    </KT100MMCANNON>
+    <KTPLASMAAC>
+      <position>(16, 0, 8)</position>
+      <hp>3000</hp>
+    </KTPLASMAAC>
+    <RA_DrillTunnel>
+      <rects>
+        <li>(6,16,6,16)</li>
+      </rects>
+      <hp>840</hp>
+    </RA_DrillTunnel>
+    <FT_BarbedWire>
+      <positions>
+        <li>(3, 0, 19)</li>
+        <li>(6, 0, 20)</li>
+        <li>(8, 0, 21)</li>
+        <li>(11, 0, 21)</li>
+        <li>(14, 0, 21)</li>
+        <li>(17, 0, 21)</li>
+        <li>(20, 0, 21)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>300</hp>
+      <color>RGBA(0.608, 0.608, 0.510, 1.000)</color>
+    </FT_BarbedWire>
+  </things>
+  <terrain>
+    <PavedTile>
+      <rects>
+        <li>(4,3,18,18)</li>
+        <li>(3,4,3,9)</li>
+        <li>(19,5,20,17)</li>
+        <li>(9,19,18,19)</li>
+      </rects>
+    </PavedTile>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <PavedTile>
+        <rects>
+          <li>(4,3,18,18)</li>
+          <li>(3,4,3,9)</li>
+          <li>(19,5,20,17)</li>
+          <li>(9,19,18,19)</li>
+        </rects>
+      </PavedTile>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Gravel>
+        <rects>
+          <li>(4,3,7,7)</li>
+          <li>(9,3,10,3)</li>
+          <li>(3,4,3,9)</li>
+          <li>(8,4,9,4)</li>
+          <li>(8,5,8,7)</li>
+          <li>(4,8,5,9)</li>
+          <li>(8,9,9,9)</li>
+          <li>(5,10,5,10)</li>
+          <li>(9,10,9,12)</li>
+          <li>(8,11,8,14)</li>
+          <li>(7,15,7,16)</li>
+          <li>(6,16,6,18)</li>
+        </rects>
+      </Gravel>
+      <Limestone_Rough>
+        <rects>
+          <li>(8,3,8,3)</li>
+          <li>(6,9,7,14)</li>
+          <li>(4,10,4,18)</li>
+          <li>(8,10,8,10)</li>
+          <li>(5,11,5,18)</li>
+          <li>(6,15,6,15)</li>
+        </rects>
+      </Limestone_Rough>
+      <Sand>
+        <rects>
+          <li>(11,3,18,3)</li>
+          <li>(17,4,18,16)</li>
+          <li>(9,5,9,7)</li>
+          <li>(11,5,15,6)</li>
+          <li>(19,5,20,15)</li>
+          <li>(12,7,15,19)</li>
+          <li>(10,8,11,19)</li>
+          <li>(16,8,16,19)</li>
+          <li>(9,13,9,19)</li>
+          <li>(8,15,8,18)</li>
+          <li>(7,17,7,18)</li>
+          <li>(17,17,17,19)</li>
+          <li>(18,19,18,19)</li>
+        </rects>
+      </Sand>
+      <SoilRich>
+        <rects>
+          <li>(10,4,15,4)</li>
+          <li>(10,5,10,7)</li>
+          <li>(11,7,11,7)</li>
+          <li>(6,8,9,8)</li>
+        </rects>
+      </SoilRich>
+      <Soil>
+        <rects>
+          <li>(16,4,16,7)</li>
+          <li>(19,16,20,17)</li>
+          <li>(18,17,18,18)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+</PrefabDef>
