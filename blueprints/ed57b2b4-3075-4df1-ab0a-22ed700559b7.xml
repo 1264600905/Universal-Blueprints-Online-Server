@@ -1,0 +1,440 @@
+<PrefabDef>
+  <defName>Prefab_20260123_212131</defName>
+  <size>(13,13)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>公共营房</name>
+    <description></description>
+    <tags></tags>
+    <author>YorkZZ</author>
+    <category>宿舍</category>
+    <BuildingID>ed57b2b4-3075-4df1-ab0a-22ed700559b7</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>gloomy.furniture.fix</packageId>
+        <name>Gloomy Furniture Fix</name>
+        <version></version>
+        <modorder>285</modorder>
+        <steamWorkshopId>2987876242</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>RGK_Wall</li>
+          <li>RGK_WindowWall</li>
+          <li>RGK_EndTable</li>
+          <li>RGK_bedSingle</li>
+          <li>GL_Wall_LampE</li>
+          <li>RGK_Dresser</li>
+          <li>RGKDiningChair</li>
+          <li>RGK_AutodoorOld</li>
+          <li>RGK_TableE</li>
+          <li>RGK_FireplaceE</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>dubwise.dubsbadhygiene</packageId>
+        <name>Dubs Bad Hygiene</name>
+        <version>3.1.2800</version>
+        <modorder>78</modorder>
+        <steamWorkshopId>836308268</steamWorkshopId>
+        <things>
+          <li>sewagePipeHidden</li>
+          <li>airPipeHidden</li>
+          <li>AirconIndoorUnit</li>
+          <li>RadiatorLarge</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>migcorp.skiptech</packageId>
+        <name>MigCorp - Skiptech</name>
+        <version></version>
+        <modorder>119</modorder>
+        <steamWorkshopId>3626074566</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>MigcorpSkipdoor</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>公共营房</default>
+        <zh-CN>公共营房</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <RGK_Wall>
+      <rects>
+        <li>(0,0,2,0)</li>
+        <li>(4,0,5,0)</li>
+        <li>(7,0,8,0)</li>
+        <li>(10,0,12,0)</li>
+        <li>(0,1,0,2)</li>
+        <li>(12,1,12,2)</li>
+        <li>(0,4,0,5)</li>
+        <li>(12,4,12,5)</li>
+        <li>(0,7,0,8)</li>
+        <li>(12,7,12,8)</li>
+        <li>(0,10,0,12)</li>
+        <li>(12,10,12,12)</li>
+        <li>(1,12,2,12)</li>
+        <li>(4,12,5,12)</li>
+        <li>(7,12,8,12)</li>
+        <li>(10,12,11,12)</li>
+      </rects>
+      <hp>300</hp>
+    </RGK_Wall>
+    <HiddenConduit>
+      <rects>
+        <li>(0,0,12,0)</li>
+        <li>(0,1,0,12)</li>
+        <li>(6,1,6,12)</li>
+        <li>(12,1,12,12)</li>
+        <li>(1,6,5,6)</li>
+        <li>(7,6,11,6)</li>
+        <li>(1,12,5,12)</li>
+        <li>(7,12,11,12)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <sewagePipeHidden>
+      <rects>
+        <li>(0,0,0,2)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>100</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </sewagePipeHidden>
+    <airPipeHidden>
+      <rects>
+        <li>(0,0,0,1)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </airPipeHidden>
+    <RGK_WindowWall>
+      <rects>
+        <li>(3,0,3,0)</li>
+        <li>(6,0,6,0)</li>
+        <li>(9,0,9,0)</li>
+      </rects>
+      <hp>300</hp>
+    </RGK_WindowWall>
+    <RGK_EndTable>
+      <rects>
+        <li>(1,1,1,1)</li>
+        <li>(7,1,7,1)</li>
+        <li>(10,1,10,1)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>91</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGK_EndTable>
+    <AirconIndoorUnit>
+      <rects>
+        <li>(1,1,1,1)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>100</hp>
+    </AirconIndoorUnit>
+    <RGK_bedSingle>
+      <positions>
+        <li>(2, 0, 1)</li>
+        <li>(5, 0, 1)</li>
+        <li>(9, 0, 1)</li>
+      </positions>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <hp>295</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGK_bedSingle>
+    <RGK_bedSingle>
+      <positions>
+        <li>(3, 0, 1)</li>
+        <li>(6, 0, 1)</li>
+        <li>(8, 0, 1)</li>
+      </positions>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>171</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGK_bedSingle>
+    <GL_Wall_LampE>
+      <rects>
+        <li>(4,1,4,1)</li>
+        <li>(8,1,8,1)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>35</hp>
+    </GL_Wall_LampE>
+    <RGK_EndTable>
+      <rects>
+        <li>(4,1,4,1)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <hp>156</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGK_EndTable>
+    <RadiatorLarge>
+      <position>(1, 0, 2)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>150</hp>
+    </RadiatorLarge>
+    <RGK_WindowWall>
+      <rects>
+        <li>(0,3,0,3)</li>
+        <li>(12,3,12,3)</li>
+        <li>(12,6,12,6)</li>
+        <li>(0,9,0,9)</li>
+        <li>(12,9,12,9)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>300</hp>
+    </RGK_WindowWall>
+    <RGK_Dresser>
+      <position>(2, 0, 3)</position>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <hp>195</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGK_Dresser>
+    <RGK_Dresser>
+      <positions>
+        <li>(5, 0, 3)</li>
+        <li>(8, 0, 3)</li>
+      </positions>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>114</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGK_Dresser>
+    <GL_Wall_LampE>
+      <rects>
+        <li>(1,4,1,4)</li>
+        <li>(1,8,1,8)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>35</hp>
+    </GL_Wall_LampE>
+    <GL_Wall_LampE>
+      <rects>
+        <li>(11,4,11,4)</li>
+        <li>(11,8,11,8)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>35</hp>
+    </GL_Wall_LampE>
+    <MigcorpSkipdoor>
+      <rects>
+        <li>(4,5,4,5)</li>
+      </rects>
+      <hp>120</hp>
+    </MigcorpSkipdoor>
+    <RGKDiningChair>
+      <rects>
+        <li>(5,5,6,5)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>193</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGKDiningChair>
+    <RGK_AutodoorOld>
+      <rects>
+        <li>(0,6,0,6)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGK_AutodoorOld>
+    <RGKDiningChair>
+      <rects>
+        <li>(4,6,4,6)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <hp>330</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGKDiningChair>
+    <RGK_TableE>
+      <position>(5, 0, 6)</position>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <hp>295</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGK_TableE>
+    <RGKDiningChair>
+      <rects>
+        <li>(7,6,7,6)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>193</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGKDiningChair>
+    <RGK_FireplaceE>
+      <position>(11, 0, 6)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>BlocksLimestone</stuff>
+      <hp>390</hp>
+      <color>RGBA(0.620, 0.600, 0.529, 1.000)</color>
+    </RGK_FireplaceE>
+    <RGKDiningChair>
+      <rects>
+        <li>(5,7,6,7)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>193</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGKDiningChair>
+    <RGK_Dresser>
+      <positions>
+        <li>(3, 0, 9)</li>
+        <li>(6, 0, 9)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>114</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGK_Dresser>
+    <RGK_Dresser>
+      <position>(9, 0, 9)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Masterwork</quality>
+      <hp>390</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGK_Dresser>
+    <RGK_bedSingle>
+      <positions>
+        <li>(2, 0, 11)</li>
+        <li>(3, 0, 11)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>171</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGK_bedSingle>
+    <RGK_bedSingle>
+      <positions>
+        <li>(5, 0, 11)</li>
+        <li>(6, 0, 11)</li>
+        <li>(8, 0, 11)</li>
+        <li>(9, 0, 11)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <hp>295</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGK_bedSingle>
+    <RGK_EndTable>
+      <rects>
+        <li>(1,11,1,11)</li>
+        <li>(10,11,10,11)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <hp>156</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGK_EndTable>
+    <GL_Wall_LampE>
+      <rects>
+        <li>(4,11,4,11)</li>
+        <li>(8,11,8,11)</li>
+      </rects>
+      <hp>35</hp>
+    </GL_Wall_LampE>
+    <RGK_EndTable>
+      <rects>
+        <li>(4,11,4,11)</li>
+        <li>(7,11,7,11)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>91</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGK_EndTable>
+    <RGK_WindowWall>
+      <rects>
+        <li>(3,12,3,12)</li>
+        <li>(6,12,6,12)</li>
+        <li>(9,12,9,12)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>300</hp>
+    </RGK_WindowWall>
+  </things>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <VFEArch_WoolCarpetViridian>
+        <rects>
+          <li>(1,1,11,11)</li>
+          <li>(0,6,0,6)</li>
+        </rects>
+      </VFEArch_WoolCarpetViridian>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <SoilRich>
+        <rects>
+          <li>(1,1,11,2)</li>
+          <li>(1,3,10,3)</li>
+          <li>(1,4,9,4)</li>
+          <li>(1,5,8,6)</li>
+          <li>(0,6,0,6)</li>
+          <li>(1,7,7,8)</li>
+          <li>(8,8,8,8)</li>
+          <li>(1,9,5,9)</li>
+          <li>(1,10,3,10)</li>
+          <li>(1,11,2,11)</li>
+        </rects>
+      </SoilRich>
+      <Soil>
+        <rects>
+          <li>(11,3,11,11)</li>
+          <li>(10,4,10,11)</li>
+          <li>(9,5,9,11)</li>
+          <li>(8,7,8,7)</li>
+          <li>(6,9,8,11)</li>
+          <li>(4,10,5,11)</li>
+          <li>(3,11,3,11)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
