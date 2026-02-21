@@ -1,0 +1,249 @@
+<PrefabDef>
+  <defName>Prefab_20260221_154117</defName>
+  <size>(13,13)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>저장고</name>
+    <description><![CDATA[jeong's 저장고]]></description>
+    <tags></tags>
+    <author>JEONG</author>
+    <category>Storage</category>
+    <BuildingID>5669b85c-f915-4a40-8414-500c149cba2d</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>sbz.neatstorage</packageId>
+        <name>[sbz] Neat Storage</name>
+        <version></version>
+        <modorder>254</modorder>
+        <steamWorkshopId>3416243474</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>adaptive.storage.framework</packageId>
+            <steamWorkshopId>3033901359</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>sbz_Pallet</li>
+          <li>sbz_VerticalWeaponRack</li>
+          <li>sbz_WideHangerShelf</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ks.flooringfloors</packageId>
+        <name>Flooring Floors</name>
+        <version>11</version>
+        <modorder>259</modorder>
+        <steamWorkshopId>3531114826</steamWorkshopId>
+        <things>
+          <li>KS_StoneFishScaleGranite</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>저장고</default>
+        <ko>저장고</ko>
+      </name>
+      <description>
+        <default><![CDATA[jeong's 저장고]]></default>
+        <ko><![CDATA[jeong's 저장고]]></ko>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,12,0)</li>
+        <li>(0,1,0,12)</li>
+        <li>(12,1,12,12)</li>
+        <li>(1,12,5,12)</li>
+        <li>(7,12,11,12)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <hp>510</hp>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Wall>
+    <HiddenConduit>
+      <rects>
+        <li>(0,0,12,0)</li>
+        <li>(0,1,0,12)</li>
+        <li>(1,12,12,12)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <sbz_Pallet>
+      <positions>
+        <li>(2, 0, 2)</li>
+        <li>(4, 0, 2)</li>
+        <li>(9, 0, 2)</li>
+        <li>(11, 0, 2)</li>
+        <li>(2, 0, 5)</li>
+        <li>(4, 0, 5)</li>
+        <li>(2, 0, 8)</li>
+        <li>(4, 0, 8)</li>
+        <li>(2, 0, 11)</li>
+        <li>(4, 0, 11)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>130</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </sbz_Pallet>
+    <WallLamp>
+      <rects>
+        <li>(5,1,5,1)</li>
+        <li>(7,1,7,1)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>70</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </WallLamp>
+    <sbz_VerticalWeaponRack>
+      <positions>
+        <li>(9, 0, 4)</li>
+        <li>(11, 0, 4)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>400</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </sbz_VerticalWeaponRack>
+    <sbz_WideHangerShelf>
+      <positions>
+        <li>(9, 0, 7)</li>
+        <li>(11, 0, 7)</li>
+        <li>(9, 0, 10)</li>
+        <li>(11, 0, 10)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>130</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </sbz_WideHangerShelf>
+    <WallLamp>
+      <rects>
+        <li>(5,11,5,11)</li>
+        <li>(7,11,7,11)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>70</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </WallLamp>
+    <Door>
+      <rects>
+        <li>(6,12,6,12)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <hp>270</hp>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Door>
+  </things>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <KS_StoneFishScaleGranite>
+        <rects>
+          <li>(1,1,11,11)</li>
+        </rects>
+      </KS_StoneFishScaleGranite>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Sandstone_RoughHewn>
+        <rects>
+          <li>(1,1,5,4)</li>
+          <li>(1,5,4,5)</li>
+          <li>(1,6,2,10)</li>
+          <li>(3,8,4,9)</li>
+          <li>(1,11,1,11)</li>
+        </rects>
+      </Sandstone_RoughHewn>
+      <Granite_RoughHewn>
+        <rects>
+          <li>(6,1,9,1)</li>
+          <li>(6,2,8,3)</li>
+          <li>(6,4,7,4)</li>
+          <li>(5,5,5,6)</li>
+        </rects>
+      </Granite_RoughHewn>
+      <SoilRich>
+        <rects>
+          <li>(10,1,11,9)</li>
+          <li>(9,2,9,9)</li>
+          <li>(8,4,8,8)</li>
+          <li>(6,5,7,6)</li>
+          <li>(7,7,7,8)</li>
+          <li>(11,10,11,11)</li>
+          <li>(9,11,10,11)</li>
+        </rects>
+      </SoilRich>
+      <Sandstone_Rough>
+        <rects>
+          <li>(3,6,4,7)</li>
+          <li>(5,7,5,10)</li>
+          <li>(6,9,6,11)</li>
+          <li>(3,10,4,10)</li>
+          <li>(7,10,8,10)</li>
+          <li>(2,11,3,11)</li>
+          <li>(7,11,7,11)</li>
+        </rects>
+      </Sandstone_Rough>
+      <Gravel>
+        <rects>
+          <li>(6,7,6,8)</li>
+          <li>(7,9,8,9)</li>
+          <li>(9,10,10,10)</li>
+          <li>(4,11,5,11)</li>
+          <li>(8,11,8,11)</li>
+        </rects>
+      </Gravel>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofRockThick>
+      <rects>
+        <li>(0,0,5,2)</li>
+        <li>(0,3,4,5)</li>
+        <li>(0,6,3,7)</li>
+        <li>(0,8,2,9)</li>
+        <li>(0,10,0,10)</li>
+      </rects>
+    </RoofRockThick>
+    <RoofRockThin>
+      <rects>
+        <li>(6,0,6,0)</li>
+        <li>(5,3,5,4)</li>
+        <li>(4,6,4,7)</li>
+        <li>(3,8,3,9)</li>
+        <li>(1,10,2,10)</li>
+        <li>(0,11,0,11)</li>
+      </rects>
+    </RoofRockThin>
+    <RoofConstructed>
+      <rects>
+        <li>(7,0,12,12)</li>
+        <li>(6,1,6,12)</li>
+        <li>(5,5,5,12)</li>
+        <li>(4,8,4,12)</li>
+        <li>(3,10,3,12)</li>
+        <li>(1,11,2,12)</li>
+        <li>(0,12,0,12)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(7,0,12,12)</li>
+        <li>(6,1,6,12)</li>
+        <li>(5,5,5,12)</li>
+        <li>(4,8,4,12)</li>
+        <li>(3,10,3,12)</li>
+        <li>(1,11,2,12)</li>
+        <li>(0,12,0,12)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
