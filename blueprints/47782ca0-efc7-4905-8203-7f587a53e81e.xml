@@ -1,0 +1,322 @@
+<PrefabDef>
+  <defName>Prefab_20260221_175306</defName>
+  <size>(13,13)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>연구소</name>
+    <description><![CDATA[Jeong's 연구소]]></description>
+    <tags></tags>
+    <author>Jeong</author>
+    <category>Research</category>
+    <BuildingID>47782ca0-efc7-4905-8203-7f587a53e81e</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>scorpio.biotechnology</packageId>
+        <name>Biotechnology</name>
+        <version></version>
+        <modorder>265</modorder>
+        <steamWorkshopId>2869798632</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Biotechnology_SpecialLab</li>
+          <li>Biotechnology_InsectoidsLab</li>
+          <li>Biotechnology_PetLab</li>
+          <li>Biotechnology_MediumLab</li>
+          <li>Biotechnology_LargeLab</li>
+          <li>Biotechnology_SmallLab</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>mlie.bioreactor</packageId>
+        <name>BioReactor (Continued)</name>
+        <version>1.6.1</version>
+        <modorder>263</modorder>
+        <steamWorkshopId>3307031939</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>BioReactor</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>omni.smallworkbenches</packageId>
+        <name><![CDATA[Omni's Small Workbenches]]></name>
+        <version>1.2</version>
+        <modorder>282</modorder>
+        <steamWorkshopId>3454070559</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Omni_HiTechResearchBenchSmol</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>lingluo.customizeroomrole</packageId>
+        <name>Customize Room Role</name>
+        <version></version>
+        <modorder>198</modorder>
+        <steamWorkshopId>3596244156</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>MSRR_RoomSign</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>연구소</default>
+        <ko>연구소</ko>
+      </name>
+      <description>
+        <default><![CDATA[Jeong's 연구소]]></default>
+        <ko><![CDATA[Jeong's 연구소]]></ko>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <HiddenConduit>
+      <rects>
+        <li>(0,0,12,0)</li>
+        <li>(0,1,0,12)</li>
+        <li>(6,1,6,12)</li>
+        <li>(12,1,12,12)</li>
+        <li>(1,12,5,12)</li>
+        <li>(7,12,11,12)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <Wall>
+      <rects>
+        <li>(0,0,5,0)</li>
+        <li>(7,0,12,0)</li>
+        <li>(0,1,0,12)</li>
+        <li>(12,1,12,12)</li>
+        <li>(1,12,5,12)</li>
+        <li>(7,12,11,12)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <hp>510</hp>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Wall>
+    <Door>
+      <rects>
+        <li>(6,0,6,0)</li>
+        <li>(6,12,6,12)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <hp>270</hp>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Door>
+    <Biotechnology_SpecialLab>
+      <position>(3, 0, 2)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>300</hp>
+    </Biotechnology_SpecialLab>
+    <WallLamp>
+      <rects>
+        <li>(5,1,5,1)</li>
+        <li>(7,1,7,1)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>70</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </WallLamp>
+    <Biotechnology_InsectoidsLab>
+      <position>(8, 0, 1)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>200</hp>
+    </Biotechnology_InsectoidsLab>
+    <Biotechnology_PetLab>
+      <position>(11, 0, 1)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>100</hp>
+    </Biotechnology_PetLab>
+    <Biotechnology_MediumLab>
+      <position>(11, 0, 3)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>200</hp>
+    </Biotechnology_MediumLab>
+    <Biotechnology_LargeLab>
+      <position>(2, 0, 5)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>300</hp>
+    </Biotechnology_LargeLab>
+    <BioReactor>
+      <positions>
+        <li>(5, 0, 5)</li>
+        <li>(8, 0, 5)</li>
+        <li>(5, 0, 8)</li>
+        <li>(8, 0, 8)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>150</hp>
+    </BioReactor>
+    <Biotechnology_SmallLab>
+      <position>(11, 0, 6)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>100</hp>
+    </Biotechnology_SmallLab>
+    <DiningChair>
+      <rects>
+        <li>(3,9,3,9)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Legendary</quality>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DiningChair>
+    <MultiAnalyzer>
+      <positions>
+        <li>(3, 0, 10)</li>
+        <li>(8, 0, 10)</li>
+      </positions>
+      <hp>200</hp>
+    </MultiAnalyzer>
+    <Omni_HiTechResearchBenchSmol>
+      <positions>
+        <li>(1, 0, 11)</li>
+        <li>(10, 0, 11)</li>
+      </positions>
+      <stuff>Steel</stuff>
+      <hp>320</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Omni_HiTechResearchBenchSmol>
+    <MSRR_RoomSign>
+      <rects>
+        <li>(4,11,4,11)</li>
+      </rects>
+      <hp>150</hp>
+    </MSRR_RoomSign>
+    <WallLamp>
+      <rects>
+        <li>(5,11,5,11)</li>
+        <li>(7,11,7,11)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>70</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </WallLamp>
+    <Heater>
+      <rects>
+        <li>(5,11,5,11)</li>
+      </rects>
+      <hp>100</hp>
+    </Heater>
+  </things>
+  <terrain>
+    <TileMarble>
+      <rects>
+        <li>(6,0,6,12)</li>
+        <li>(1,1,5,11)</li>
+        <li>(7,1,11,11)</li>
+      </rects>
+    </TileMarble>
+    <WoodPlankFloor>
+      <rects>
+        <li>(12,2,12,10)</li>
+      </rects>
+    </WoodPlankFloor>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <TileMarble>
+        <rects>
+          <li>(6,0,6,12)</li>
+          <li>(1,1,5,11)</li>
+          <li>(7,1,11,11)</li>
+        </rects>
+      </TileMarble>
+      <WoodPlankFloor>
+        <rects>
+          <li>(12,2,12,10)</li>
+        </rects>
+      </WoodPlankFloor>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <SoilRich>
+        <rects>
+          <li>(6,0,6,6)</li>
+          <li>(1,1,5,6)</li>
+          <li>(7,1,11,4)</li>
+          <li>(12,2,12,4)</li>
+          <li>(7,5,10,5)</li>
+          <li>(7,6,8,6)</li>
+          <li>(2,7,5,7)</li>
+          <li>(2,8,3,11)</li>
+          <li>(1,9,1,11)</li>
+          <li>(4,11,4,11)</li>
+        </rects>
+      </SoilRich>
+      <Gravel>
+        <rects>
+          <li>(11,5,11,5)</li>
+          <li>(9,6,10,6)</li>
+          <li>(1,7,1,8)</li>
+          <li>(6,7,8,7)</li>
+          <li>(4,8,7,8)</li>
+          <li>(4,9,5,10)</li>
+          <li>(5,11,5,11)</li>
+        </rects>
+      </Gravel>
+      <Sandstone_Rough>
+        <rects>
+          <li>(12,5,12,7)</li>
+          <li>(11,6,11,11)</li>
+          <li>(9,7,10,11)</li>
+          <li>(8,8,8,11)</li>
+          <li>(6,9,7,11)</li>
+          <li>(12,9,12,10)</li>
+          <li>(6,12,6,12)</li>
+        </rects>
+      </Sandstone_Rough>
+      <Sandstone_RoughHewn>
+        <rects>
+          <li>(12,8,12,8)</li>
+        </rects>
+      </Sandstone_RoughHewn>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,12,10)</li>
+        <li>(0,11,11,12)</li>
+        <li>(12,12,12,12)</li>
+      </rects>
+    </RoofConstructed>
+    <RoofRockThin>
+      <rects>
+        <li>(12,11,12,11)</li>
+      </rects>
+    </RoofRockThin>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
