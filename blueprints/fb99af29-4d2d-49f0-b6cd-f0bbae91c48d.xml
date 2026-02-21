@@ -1,0 +1,251 @@
+<PrefabDef>
+  <defName>Prefab_20260221_150441</defName>
+  <size>(13,13)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>주방</name>
+    <description><![CDATA[jeong's 주방]]></description>
+    <tags></tags>
+    <author>JEONG</author>
+    <category>Canteen</category>
+    <BuildingID>fb99af29-4d2d-49f0-b6cd-f0bbae91c48d</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>sbz.neatstorage</packageId>
+        <name>[sbz] Neat Storage</name>
+        <version></version>
+        <modorder>254</modorder>
+        <steamWorkshopId>3416243474</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>adaptive.storage.framework</packageId>
+            <steamWorkshopId>3033901359</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>sbz_OpenShelf</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>sbz.neatstoragefridge</packageId>
+        <name>[sbz] Fridge</name>
+        <version></version>
+        <modorder>240</modorder>
+        <steamWorkshopId>3486264784</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>adaptive.storage.framework</packageId>
+            <steamWorkshopId>3033901359</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>sbz_LargeFridge</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>lingluo.coolheater</packageId>
+        <name>Variable Temp Controller变频温控器</name>
+        <version></version>
+        <modorder>252</modorder>
+        <steamWorkshopId>2012792039</steamWorkshopId>
+        <things>
+          <li>CoolHeater</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ks.flooringfloors</packageId>
+        <name>Flooring Floors</name>
+        <version>11</version>
+        <modorder>259</modorder>
+        <steamWorkshopId>3531114826</steamWorkshopId>
+        <things>
+          <li>KS_StoneHexagonMixedMarble</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>주방</default>
+        <ko>주방</ko>
+      </name>
+      <description>
+        <default><![CDATA[jeong's 주방]]></default>
+        <ko><![CDATA[jeong's 주방]]></ko>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,5,1)</li>
+        <li>(7,0,12,1)</li>
+        <li>(0,2,1,12)</li>
+        <li>(5,2,5,2)</li>
+        <li>(7,2,7,2)</li>
+        <li>(11,2,12,12)</li>
+        <li>(2,11,10,12)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <hp>510</hp>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Wall>
+    <Door>
+      <rects>
+        <li>(6,0,6,0)</li>
+        <li>(6,2,6,2)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <hp>270</hp>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Door>
+    <HiddenConduit>
+      <rects>
+        <li>(2,1,12,1)</li>
+        <li>(2,2,2,8)</li>
+        <li>(12,2,12,12)</li>
+        <li>(11,9,11,9)</li>
+        <li>(2,10,2,12)</li>
+        <li>(3,11,11,11)</li>
+        <li>(0,12,1,12)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <TableButcher>
+      <position>(3, 0, 2)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>117</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </TableButcher>
+    <ElectricStove>
+      <position>(9, 0, 2)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>180</hp>
+    </ElectricStove>
+    <WallLamp>
+      <rects>
+        <li>(5,3,5,3)</li>
+        <li>(7,3,7,3)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>70</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </WallLamp>
+    <sbz_OpenShelf>
+      <positions>
+        <li>(4, 0, 6)</li>
+        <li>(9, 0, 6)</li>
+        <li>(4, 0, 8)</li>
+        <li>(9, 0, 8)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>130</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </sbz_OpenShelf>
+    <sbz_LargeFridge>
+      <positions>
+        <li>(2, 0, 10)</li>
+        <li>(4, 0, 10)</li>
+        <li>(7, 0, 10)</li>
+        <li>(9, 0, 10)</li>
+      </positions>
+      <hp>200</hp>
+    </sbz_LargeFridge>
+    <CoolHeater>
+      <rects>
+        <li>(6,10,6,10)</li>
+      </rects>
+      <hp>100</hp>
+    </CoolHeater>
+  </things>
+  <terrain>
+    <WoodPlankFloor>
+      <rects>
+        <li>(5,2,5,2)</li>
+        <li>(7,2,7,2)</li>
+      </rects>
+    </WoodPlankFloor>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <KS_StoneHexagonMixedMarble>
+        <rects>
+          <li>(2,2,4,10)</li>
+          <li>(6,2,6,10)</li>
+          <li>(8,2,10,10)</li>
+          <li>(5,3,5,10)</li>
+          <li>(7,3,7,10)</li>
+        </rects>
+      </KS_StoneHexagonMixedMarble>
+      <WoodPlankFloor>
+        <rects>
+          <li>(5,2,5,2)</li>
+          <li>(7,2,7,2)</li>
+        </rects>
+      </WoodPlankFloor>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Granite_RoughHewn>
+        <rects>
+          <li>(2,2,6,2)</li>
+          <li>(2,3,5,3)</li>
+          <li>(2,4,4,4)</li>
+          <li>(2,5,2,5)</li>
+        </rects>
+      </Granite_RoughHewn>
+      <Soil>
+        <rects>
+          <li>(7,2,7,6)</li>
+          <li>(10,2,10,8)</li>
+          <li>(6,3,6,6)</li>
+          <li>(8,3,9,6)</li>
+          <li>(5,4,5,6)</li>
+          <li>(3,5,4,7)</li>
+          <li>(2,6,2,9)</li>
+          <li>(9,7,9,7)</li>
+          <li>(3,8,3,8)</li>
+        </rects>
+      </Soil>
+      <SoilRich>
+        <rects>
+          <li>(8,2,9,2)</li>
+          <li>(5,7,8,10)</li>
+          <li>(4,8,4,10)</li>
+          <li>(9,8,9,10)</li>
+          <li>(3,9,3,10)</li>
+          <li>(10,9,10,10)</li>
+          <li>(2,10,2,10)</li>
+        </rects>
+      </SoilRich>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(5,0,8,12)</li>
+        <li>(1,1,4,12)</li>
+        <li>(9,1,11,12)</li>
+        <li>(0,9,0,12)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(5,0,8,12)</li>
+        <li>(1,1,4,12)</li>
+        <li>(9,1,11,12)</li>
+        <li>(0,9,0,12)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
