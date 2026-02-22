@@ -1,0 +1,495 @@
+<PrefabDef>
+  <defName>Prefab_20260222_041125</defName>
+  <size>(17,31)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>multirooms</name>
+    <description>12</description>
+    <tags></tags>
+    <author></author>
+    <category>BaseBlueprint</category>
+    <BuildingID>1e8fdc71-e22e-4744-b089-5258b49de317</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>vanillaexpanded.vfearchitect</packageId>
+        <name>Vanilla Furniture Expanded - Architect</name>
+        <version></version>
+        <modorder>72</modorder>
+        <steamWorkshopId>2608762624</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VFEArch_ArmoredWall</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>vanillaexpanded.vfecore</packageId>
+        <name>Vanilla Furniture Expanded</name>
+        <version></version>
+        <modorder>71</modorder>
+        <steamWorkshopId>1718190143</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Seat_ModernChair</li>
+          <li>Bed_DoubleErgonomic</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>vanillaexpanded.vfespacer</packageId>
+        <name>Vanilla Furniture Expanded - Spacer Module</name>
+        <version></version>
+        <modorder>79</modorder>
+        <steamWorkshopId>2028381079</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Table_IlluminatedEndTable</li>
+          <li>VFES_WallMountedTelevision</li>
+          <li>VFES_Table_IlluminatedWardrobe</li>
+          <li>Table_IlluminatedDresser</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>vanillaquestsexpanded.ancients</packageId>
+        <name>Vanilla Quests Expanded - Ancients</name>
+        <version></version>
+        <modorder>97</modorder>
+        <steamWorkshopId>3618306875</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VQEA_AncientVaultWall</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>multirooms</default>
+        <en>multirooms</en>
+      </name>
+      <description>
+        <default>12</default>
+        <en>12</en>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <VFEArch_ArmoredWall>
+      <rects>
+        <li>(0,0,3,0)</li>
+        <li>(5,0,11,0)</li>
+        <li>(13,0,16,0)</li>
+        <li>(0,1,0,1)</li>
+        <li>(8,1,8,2)</li>
+        <li>(16,1,16,7)</li>
+        <li>(0,3,0,7)</li>
+        <li>(8,4,8,9)</li>
+        <li>(1,5,7,5)</li>
+        <li>(9,5,15,5)</li>
+        <li>(0,9,0,9)</li>
+        <li>(16,9,16,9)</li>
+        <li>(0,11,0,16)</li>
+        <li>(8,11,8,17)</li>
+        <li>(16,11,16,22)</li>
+        <li>(1,15,3,15)</li>
+        <li>(5,15,7,15)</li>
+        <li>(9,15,11,15)</li>
+        <li>(13,15,15,15)</li>
+        <li>(0,18,0,22)</li>
+        <li>(8,19,8,24)</li>
+        <li>(1,20,7,20)</li>
+        <li>(9,20,15,20)</li>
+        <li>(0,24,0,24)</li>
+        <li>(16,24,16,24)</li>
+        <li>(0,26,0,30)</li>
+        <li>(8,26,8,30)</li>
+        <li>(16,26,16,30)</li>
+        <li>(1,30,3,30)</li>
+        <li>(5,30,7,30)</li>
+        <li>(9,30,11,30)</li>
+        <li>(13,30,15,30)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>800</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </VFEArch_ArmoredWall>
+    <PowerConduit>
+      <rects>
+        <li>(0,0,16,0)</li>
+        <li>(0,1,0,30)</li>
+        <li>(8,1,8,10)</li>
+        <li>(16,1,16,30)</li>
+        <li>(1,5,7,5)</li>
+        <li>(9,5,15,5)</li>
+        <li>(1,10,7,10)</li>
+        <li>(9,10,15,10)</li>
+        <li>(1,15,15,15)</li>
+        <li>(8,16,8,25)</li>
+        <li>(1,20,7,20)</li>
+        <li>(9,20,15,20)</li>
+        <li>(1,25,7,25)</li>
+        <li>(9,25,15,25)</li>
+        <li>(1,30,15,30)</li>
+      </rects>
+      <hp>80</hp>
+    </PowerConduit>
+    <Door>
+      <rects>
+        <li>(4,0,4,0)</li>
+        <li>(12,0,12,0)</li>
+        <li>(4,15,4,15)</li>
+        <li>(12,15,12,15)</li>
+        <li>(4,30,4,30)</li>
+        <li>(12,30,12,30)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <Table1x2c>
+      <positions>
+        <li>(1, 0, 1)</li>
+        <li>(15, 0, 1)</li>
+        <li>(1, 0, 6)</li>
+        <li>(15, 0, 6)</li>
+        <li>(1, 0, 13)</li>
+        <li>(15, 0, 13)</li>
+        <li>(1, 0, 16)</li>
+        <li>(15, 0, 16)</li>
+        <li>(1, 0, 21)</li>
+        <li>(15, 0, 21)</li>
+        <li>(1, 0, 28)</li>
+        <li>(15, 0, 28)</li>
+      </positions>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>49</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Table1x2c>
+    <Seat_ModernChair>
+      <rects>
+        <li>(2,1,2,2)</li>
+        <li>(2,6,2,7)</li>
+        <li>(2,13,2,14)</li>
+        <li>(2,16,2,17)</li>
+        <li>(2,21,2,22)</li>
+        <li>(2,28,2,29)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>130</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Seat_ModernChair>
+    <Table_IlluminatedEndTable>
+      <rects>
+        <li>(7,1,7,1)</li>
+        <li>(7,4,7,4)</li>
+        <li>(7,6,7,6)</li>
+        <li>(7,9,7,9)</li>
+        <li>(7,11,7,11)</li>
+        <li>(7,14,7,14)</li>
+        <li>(7,16,7,16)</li>
+        <li>(7,19,7,19)</li>
+        <li>(7,21,7,21)</li>
+        <li>(7,24,7,24)</li>
+        <li>(7,26,7,26)</li>
+        <li>(7,29,7,29)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>52</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Table_IlluminatedEndTable>
+    <Table_IlluminatedEndTable>
+      <rects>
+        <li>(9,1,9,1)</li>
+        <li>(9,4,9,4)</li>
+        <li>(9,6,9,6)</li>
+        <li>(9,9,9,9)</li>
+        <li>(9,11,9,11)</li>
+        <li>(9,14,9,14)</li>
+        <li>(9,16,9,16)</li>
+        <li>(9,19,9,19)</li>
+        <li>(9,21,9,21)</li>
+        <li>(9,24,9,24)</li>
+        <li>(9,26,9,26)</li>
+        <li>(9,29,9,29)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>52</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Table_IlluminatedEndTable>
+    <Seat_ModernChair>
+      <rects>
+        <li>(14,1,14,2)</li>
+        <li>(14,6,14,7)</li>
+        <li>(14,13,14,14)</li>
+        <li>(14,16,14,17)</li>
+        <li>(14,21,14,22)</li>
+        <li>(14,28,14,29)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>130</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Seat_ModernChair>
+    <VFES_WallMountedTelevision>
+      <positions>
+        <li>(15, 0, 2)</li>
+        <li>(15, 0, 7)</li>
+        <li>(15, 0, 14)</li>
+        <li>(15, 0, 17)</li>
+        <li>(15, 0, 22)</li>
+        <li>(15, 0, 29)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>75</hp>
+    </VFES_WallMountedTelevision>
+    <Vent>
+      <rects>
+        <li>(0,2,0,2)</li>
+        <li>(8,3,8,3)</li>
+        <li>(0,17,0,17)</li>
+        <li>(8,18,8,18)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>100</hp>
+    </Vent>
+    <Bed_DoubleErgonomic>
+      <positions>
+        <li>(7, 0, 2)</li>
+        <li>(7, 0, 7)</li>
+        <li>(7, 0, 12)</li>
+        <li>(7, 0, 17)</li>
+        <li>(7, 0, 22)</li>
+        <li>(7, 0, 27)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>195</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed_DoubleErgonomic>
+    <Bed_DoubleErgonomic>
+      <positions>
+        <li>(9, 0, 3)</li>
+        <li>(9, 0, 8)</li>
+        <li>(9, 0, 13)</li>
+        <li>(9, 0, 18)</li>
+        <li>(9, 0, 23)</li>
+        <li>(9, 0, 28)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>195</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed_DoubleErgonomic>
+    <VFES_Table_IlluminatedWardrobe>
+      <positions>
+        <li>(2, 0, 4)</li>
+        <li>(15, 0, 4)</li>
+        <li>(2, 0, 9)</li>
+        <li>(15, 0, 9)</li>
+        <li>(2, 0, 19)</li>
+        <li>(15, 0, 19)</li>
+        <li>(2, 0, 24)</li>
+        <li>(15, 0, 24)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </VFES_Table_IlluminatedWardrobe>
+    <Table_IlluminatedDresser>
+      <positions>
+        <li>(4, 0, 4)</li>
+        <li>(13, 0, 4)</li>
+        <li>(4, 0, 9)</li>
+        <li>(13, 0, 9)</li>
+        <li>(4, 0, 19)</li>
+        <li>(13, 0, 19)</li>
+        <li>(4, 0, 24)</li>
+        <li>(13, 0, 24)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>84</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Table_IlluminatedDresser>
+    <VFES_WallMountedTelevision>
+      <positions>
+        <li>(1, 0, 6)</li>
+        <li>(1, 0, 13)</li>
+        <li>(1, 0, 21)</li>
+        <li>(1, 0, 28)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>75</hp>
+    </VFES_WallMountedTelevision>
+    <Door>
+      <rects>
+        <li>(0,8,0,8)</li>
+        <li>(16,8,16,8)</li>
+        <li>(0,23,0,23)</li>
+        <li>(16,23,16,23)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <VQEA_AncientVaultWall>
+      <rects>
+        <li>(0,10,16,10)</li>
+        <li>(0,25,16,25)</li>
+      </rects>
+    </VQEA_AncientVaultWall>
+    <VFES_Table_IlluminatedWardrobe>
+      <positions>
+        <li>(1, 0, 11)</li>
+        <li>(14, 0, 11)</li>
+        <li>(1, 0, 26)</li>
+        <li>(14, 0, 26)</li>
+      </positions>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </VFES_Table_IlluminatedWardrobe>
+    <Table_IlluminatedDresser>
+      <positions>
+        <li>(3, 0, 11)</li>
+        <li>(12, 0, 11)</li>
+        <li>(3, 0, 26)</li>
+        <li>(12, 0, 26)</li>
+      </positions>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>84</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Table_IlluminatedDresser>
+  </things>
+  <terrain>
+    <WoodPlankFloor>
+      <rects>
+        <li>(0,0,16,30)</li>
+      </rects>
+    </WoodPlankFloor>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <WoodPlankFloor>
+        <rects>
+          <li>(0,0,16,30)</li>
+        </rects>
+      </WoodPlankFloor>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Sandstone_RoughHewn>
+        <rects>
+          <li>(0,0,16,9)</li>
+          <li>(16,10,16,10)</li>
+          <li>(2,12,4,24)</li>
+          <li>(16,12,16,25)</li>
+          <li>(1,13,1,24)</li>
+          <li>(5,13,7,24)</li>
+          <li>(12,13,15,24)</li>
+          <li>(0,14,0,24)</li>
+          <li>(8,14,11,24)</li>
+          <li>(2,27,4,30)</li>
+          <li>(16,27,16,30)</li>
+          <li>(1,28,1,30)</li>
+          <li>(5,28,7,30)</li>
+          <li>(12,28,15,30)</li>
+          <li>(0,29,0,30)</li>
+          <li>(8,29,11,30)</li>
+        </rects>
+      </Sandstone_RoughHewn>
+      <Soil>
+        <rects>
+          <li>(0,10,15,10)</li>
+          <li>(0,25,15,25)</li>
+        </rects>
+      </Soil>
+      <Granite_RoughHewn>
+        <rects>
+          <li>(0,11,16,11)</li>
+          <li>(0,12,1,12)</li>
+          <li>(5,12,15,12)</li>
+          <li>(0,13,0,13)</li>
+          <li>(8,13,11,13)</li>
+          <li>(0,26,16,26)</li>
+          <li>(0,27,1,27)</li>
+          <li>(5,27,15,27)</li>
+          <li>(0,28,0,28)</li>
+          <li>(8,28,11,28)</li>
+        </rects>
+      </Granite_RoughHewn>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,16,30)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,11,16,11)</li>
+        <li>(0,12,1,12)</li>
+        <li>(5,12,15,12)</li>
+        <li>(0,13,0,13)</li>
+        <li>(8,13,11,13)</li>
+        <li>(0,26,16,26)</li>
+        <li>(0,27,1,27)</li>
+        <li>(5,27,15,27)</li>
+        <li>(0,28,0,28)</li>
+        <li>(8,28,11,28)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
