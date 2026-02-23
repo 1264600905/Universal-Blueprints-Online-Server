@@ -1,0 +1,124 @@
+<PrefabDef>
+  <defName>Prefab_20260224_005209</defName>
+  <size>(9,11)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>Road high</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>Other</category>
+    <BuildingID>1eca7c3d-5113-43fa-9843-9dd0565d95e4</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>vanillaexpanded.vfepropsanddecor</packageId>
+        <name>Vanilla Furniture Expanded - Props and Decor</name>
+        <version></version>
+        <modorder>155</modorder>
+        <steamWorkshopId>2102143149</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VFE_StoneBorder_Straight</li>
+          <li>VFEPD_DecalArrowDouble</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>Road high</default>
+        <ru>Road high</ru>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <StandingLamp>
+      <rects>
+        <li>(1,0,1,0)</li>
+        <li>(7,0,7,0)</li>
+        <li>(1,10,1,10)</li>
+        <li>(7,10,7,10)</li>
+      </rects>
+      <hp>50</hp>
+    </StandingLamp>
+    <VFE_StoneBorder_Straight>
+      <rects>
+        <li>(2,0,2,10)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>50</hp>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </VFE_StoneBorder_Straight>
+    <HiddenConduit>
+      <rects>
+        <li>(4,0,4,10)</li>
+        <li>(0,6,3,6)</li>
+        <li>(5,6,8,6)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <VFE_StoneBorder_Straight>
+      <rects>
+        <li>(6,0,6,10)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>50</hp>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </VFE_StoneBorder_Straight>
+    <VFEPD_DecalArrowDouble>
+      <rects>
+        <li>(4,2,4,2)</li>
+        <li>(4,6,4,6)</li>
+        <li>(4,10,4,10)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <color>RGBA(1.000, 1.000, 1.000, 0.255)</color>
+    </VFEPD_DecalArrowDouble>
+  </things>
+  <terrain>
+    <PavedTile>
+      <rects>
+        <li>(0,0,1,10)</li>
+        <li>(7,0,8,10)</li>
+      </rects>
+    </PavedTile>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <PavedTile>
+        <rects>
+          <li>(0,0,1,10)</li>
+          <li>(7,0,8,10)</li>
+        </rects>
+      </PavedTile>
+      <Concrete>
+        <rects>
+          <li>(2,0,6,10)</li>
+        </rects>
+      </Concrete>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(0,0,8,5)</li>
+          <li>(1,6,8,10)</li>
+          <li>(0,7,0,10)</li>
+        </rects>
+      </Soil>
+      <MarshyTerrain>
+        <rects>
+          <li>(0,6,0,6)</li>
+        </rects>
+      </MarshyTerrain>
+    </terrainLayerDetail>
+  </terrainLayers>
+</PrefabDef>
