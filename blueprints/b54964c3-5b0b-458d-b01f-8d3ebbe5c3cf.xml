@@ -1,0 +1,151 @@
+<PrefabDef>
+  <defName>Prefab_20260225_201640</defName>
+  <size>(13,13)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>单人宿舍</name>
+    <description></description>
+    <tags>
+      <li>FullExport</li>
+    </tags>
+    <author></author>
+    <category>宿舍</category>
+    <BuildingID>b54964c3-5b0b-458d-b01f-8d3ebbe5c3cf</BuildingID>
+    <modPackages></modPackages>
+    <multiLanguage>
+      <name>
+        <default>单人宿舍</default>
+        <zh-CN>单人宿舍</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,12,0)</li>
+        <li>(6,1,6,4)</li>
+        <li>(0,2,0,6)</li>
+        <li>(12,2,12,6)</li>
+        <li>(1,6,4,6)</li>
+        <li>(6,6,6,6)</li>
+        <li>(8,6,11,6)</li>
+        <li>(0,8,0,12)</li>
+        <li>(6,8,6,12)</li>
+        <li>(12,8,12,12)</li>
+        <li>(1,12,5,12)</li>
+        <li>(7,12,11,12)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>195</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Wall>
+    <Door>
+      <rects>
+        <li>(0,1,0,1)</li>
+        <li>(12,1,12,1)</li>
+        <li>(0,7,0,7)</li>
+        <li>(12,7,12,7)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <Dresser>
+      <positions>
+        <li>(5, 0, 3)</li>
+        <li>(11, 0, 3)</li>
+        <li>(5, 0, 9)</li>
+        <li>(11, 0, 9)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>78</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Dresser>
+    <DoubleBed>
+      <positions>
+        <li>(5, 0, 5)</li>
+        <li>(11, 0, 5)</li>
+        <li>(5, 0, 11)</li>
+        <li>(11, 0, 11)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>130</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DoubleBed>
+    <EndTable>
+      <rects>
+        <li>(3,5,3,5)</li>
+        <li>(9,5,9,5)</li>
+        <li>(3,11,3,11)</li>
+        <li>(9,11,9,11)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>49</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </EndTable>
+    <Vent>
+      <rects>
+        <li>(6,5,6,5)</li>
+        <li>(6,7,6,7)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>100</hp>
+    </Vent>
+    <Vent>
+      <rects>
+        <li>(5,6,5,6)</li>
+        <li>(7,6,7,6)</li>
+      </rects>
+      <hp>100</hp>
+    </Vent>
+  </things>
+  <terrain>
+    <Soil>
+      <rects>
+        <li>(0,0,0,12)</li>
+        <li>(3,0,12,0)</li>
+        <li>(12,1,12,12)</li>
+        <li>(3,12,11,12)</li>
+      </rects>
+    </Soil>
+    <WoodPlankFloor>
+      <rects>
+        <li>(1,0,2,12)</li>
+        <li>(3,1,11,11)</li>
+      </rects>
+    </WoodPlankFloor>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <Soil>
+        <rects>
+          <li>(0,0,0,12)</li>
+          <li>(3,0,12,0)</li>
+          <li>(12,1,12,12)</li>
+          <li>(3,12,11,12)</li>
+        </rects>
+      </Soil>
+      <WoodPlankFloor>
+        <rects>
+          <li>(1,0,2,12)</li>
+          <li>(3,1,11,11)</li>
+        </rects>
+      </WoodPlankFloor>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(1,0,2,12)</li>
+          <li>(3,1,11,11)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+</PrefabDef>
