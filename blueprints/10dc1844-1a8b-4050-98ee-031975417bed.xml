@@ -1,0 +1,162 @@
+<PrefabDef>
+  <defName>Prefab_20260227_210427</defName>
+  <size>(11,11)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>金鸢尾兰恒温水培箱</name>
+    <description></description>
+    <tags></tags>
+    <author>MGBZ</author>
+    <category>种植区</category>
+    <BuildingID>10dc1844-1a8b-4050-98ee-031975417bed</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>oark.ratkinfaction.oberoniaaurea</packageId>
+        <name>[OA]Ratkin Faction: Oberonia aurea</name>
+        <version></version>
+        <modorder>261</modorder>
+        <steamWorkshopId>3159926804</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>fxz.solaris.ratkinracemod.odyssey</packageId>
+            <steamWorkshopId>3497673755</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>OA_RK_Constant_Temperature_Hydroponics</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>vanillaexpanded.vnutriente</packageId>
+        <name>Vanilla Nutrient Paste Expanded</name>
+        <version></version>
+        <modorder>237</modorder>
+        <steamWorkshopId>2920385763</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VNPE_UndergroundNutrientPastePipe</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>金鸢尾兰恒温水培箱</default>
+        <zh-CN>金鸢尾兰恒温水培箱</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <HiddenConduit>
+      <rects>
+        <li>(4,0,4,10)</li>
+        <li>(6,0,6,1)</li>
+        <li>(5,4,10,4)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <OA_RK_Constant_Temperature_Hydroponics>
+      <positions>
+        <li>(4, 0, 1)</li>
+        <li>(6, 0, 1)</li>
+        <li>(3, 0, 6)</li>
+        <li>(1, 0, 8)</li>
+        <li>(3, 0, 9)</li>
+        <li>(5, 0, 9)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>200</hp>
+    </OA_RK_Constant_Temperature_Hydroponics>
+    <VNPE_UndergroundNutrientPastePipe>
+      <rects>
+        <li>(5,0,5,10)</li>
+      </rects>
+      <hp>48</hp>
+    </VNPE_UndergroundNutrientPastePipe>
+    <OA_RK_Constant_Temperature_Hydroponics>
+      <positions>
+        <li>(2, 0, 1)</li>
+        <li>(6, 0, 6)</li>
+        <li>(8, 0, 8)</li>
+      </positions>
+      <hp>200</hp>
+    </OA_RK_Constant_Temperature_Hydroponics>
+    <OA_RK_Constant_Temperature_Hydroponics>
+      <positions>
+        <li>(9, 0, 2)</li>
+        <li>(7, 0, 4)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>200</hp>
+    </OA_RK_Constant_Temperature_Hydroponics>
+    <OA_RK_Constant_Temperature_Hydroponics>
+      <positions>
+        <li>(1, 0, 4)</li>
+        <li>(4, 0, 4)</li>
+        <li>(9, 0, 5)</li>
+        <li>(1, 0, 6)</li>
+        <li>(9, 0, 7)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>200</hp>
+    </OA_RK_Constant_Temperature_Hydroponics>
+    <SunLamp>
+      <rects>
+        <li>(5,5,5,5)</li>
+      </rects>
+      <hp>50</hp>
+    </SunLamp>
+  </things>
+  <terrain>
+    <PavedTile>
+      <rects>
+        <li>(0,0,10,10)</li>
+      </rects>
+    </PavedTile>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <PavedTile>
+        <rects>
+          <li>(0,0,10,10)</li>
+        </rects>
+      </PavedTile>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(0,0,10,10)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,10,10)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,10,10)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
