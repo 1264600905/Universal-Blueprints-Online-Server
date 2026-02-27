@@ -1,0 +1,241 @@
+<PrefabDef>
+  <defName>Prefab_20260227_190058</defName>
+  <size>(13,13)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>13X13收容室</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>异常DLC</category>
+    <BuildingID>dcc539d4-8db5-41f1-9c48-9dcdc0a6d4d5</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>ludeon.rimworld.anomaly</packageId>
+        <name>Anomaly</name>
+        <version></version>
+        <modorder>6</modorder>
+        <things>
+          <li>HoldingPlatform</li>
+          <li>SecurityDoor</li>
+          <li>Electroharvester</li>
+          <li>BioferriteHarvester</li>
+          <li>ElectricInhibitor</li>
+          <li>ShardInhibitor</li>
+          <li>BioferritePlate</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.odyssey</packageId>
+        <name>Odyssey</name>
+        <version></version>
+        <modorder>7</modorder>
+        <things>
+          <li>GrasslandSoil</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>13X13收容室</default>
+        <zh-CN>13X13收容室</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,12,0)</li>
+        <li>(0,1,0,1)</li>
+        <li>(12,1,12,12)</li>
+        <li>(0,4,0,9)</li>
+        <li>(1,5,5,5)</li>
+        <li>(5,6,5,12)</li>
+        <li>(6,7,11,7)</li>
+        <li>(0,12,4,12)</li>
+        <li>(6,12,9,12)</li>
+      </rects>
+      <stuff>BlocksSlate</stuff>
+      <hp>390</hp>
+      <color>RGBA(0.275, 0.275, 0.275, 1.000)</color>
+    </Wall>
+    <HoldingPlatform>
+      <positions>
+        <li>(4, 0, 2)</li>
+        <li>(7, 0, 2)</li>
+        <li>(10, 0, 2)</li>
+        <li>(10, 0, 5)</li>
+        <li>(7, 0, 9)</li>
+        <li>(10, 0, 9)</li>
+        <li>(3, 0, 10)</li>
+      </positions>
+      <hp>500</hp>
+    </HoldingPlatform>
+    <WallLamp>
+      <rects>
+        <li>(7,1,7,1)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>35</hp>
+    </WallLamp>
+    <SecurityDoor>
+      <positions>
+        <li>(0, 0, 3)</li>
+        <li>(0, 0, 11)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>800</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </SecurityDoor>
+    <PowerConduit>
+      <rects>
+        <li>(0,4,0,9)</li>
+        <li>(1,5,6,5)</li>
+        <li>(5,6,5,7)</li>
+        <li>(0,12,8,12)</li>
+      </rects>
+      <hp>80</hp>
+    </PowerConduit>
+    <Electroharvester>
+      <positions>
+        <li>(7, 0, 4)</li>
+        <li>(9, 0, 11)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>250</hp>
+    </Electroharvester>
+    <BioferriteHarvester>
+      <position>(6, 0, 5)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>200</hp>
+    </BioferriteHarvester>
+    <BioferriteHarvester>
+      <position>(1, 0, 7)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>200</hp>
+    </BioferriteHarvester>
+    <ElectricInhibitor>
+      <positions>
+        <li>(2, 0, 7)</li>
+        <li>(3, 0, 7)</li>
+        <li>(4, 0, 7)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>100</hp>
+    </ElectricInhibitor>
+    <ShardInhibitor>
+      <rects>
+        <li>(6,6,6,6)</li>
+      </rects>
+      <hp>100</hp>
+    </ShardInhibitor>
+    <Electroharvester>
+      <position>(1, 0, 9)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>250</hp>
+    </Electroharvester>
+    <HiddenConduit>
+      <rects>
+        <li>(0,10,0,11)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <WallLamp>
+      <rects>
+        <li>(3,11,3,11)</li>
+        <li>(8,11,8,11)</li>
+      </rects>
+      <hp>35</hp>
+    </WallLamp>
+    <BioferriteHarvester>
+      <position>(7, 0, 11)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>200</hp>
+    </BioferriteHarvester>
+    <SecurityDoor>
+      <position>(10, 0, 12)</position>
+      <hp>800</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </SecurityDoor>
+  </things>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <BioferritePlate>
+        <rects>
+          <li>(1,1,11,4)</li>
+          <li>(0,2,0,3)</li>
+          <li>(6,5,11,6)</li>
+          <li>(1,6,4,11)</li>
+          <li>(6,8,11,11)</li>
+          <li>(0,10,0,11)</li>
+          <li>(10,12,11,12)</li>
+        </rects>
+      </BioferritePlate>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <GrasslandSoil>
+        <rects>
+          <li>(1,1,3,1)</li>
+          <li>(0,2,2,3)</li>
+          <li>(1,4,2,4)</li>
+          <li>(1,6,1,11)</li>
+          <li>(2,8,2,11)</li>
+          <li>(0,10,0,11)</li>
+          <li>(3,11,3,11)</li>
+        </rects>
+      </GrasslandSoil>
+      <Sand>
+        <rects>
+          <li>(4,1,8,1)</li>
+          <li>(5,2,8,2)</li>
+          <li>(6,3,7,3)</li>
+          <li>(7,4,7,4)</li>
+        </rects>
+      </Sand>
+      <Limestone_Rough>
+        <rects>
+          <li>(9,1,11,2)</li>
+          <li>(4,3,5,4)</li>
+          <li>(8,3,9,3)</li>
+          <li>(6,4,6,6)</li>
+          <li>(8,4,8,6)</li>
+          <li>(7,5,7,5)</li>
+          <li>(3,6,4,6)</li>
+          <li>(3,7,3,9)</li>
+          <li>(4,10,4,11)</li>
+        </rects>
+      </Limestone_Rough>
+      <Gravel>
+        <rects>
+          <li>(3,2,4,2)</li>
+          <li>(3,3,3,4)</li>
+          <li>(2,6,2,7)</li>
+          <li>(3,10,3,10)</li>
+        </rects>
+      </Gravel>
+      <Limestone_RoughHewn>
+        <rects>
+          <li>(10,3,11,6)</li>
+          <li>(9,4,9,6)</li>
+          <li>(7,6,7,6)</li>
+          <li>(4,7,4,9)</li>
+          <li>(6,8,11,11)</li>
+          <li>(10,12,11,12)</li>
+        </rects>
+      </Limestone_RoughHewn>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
