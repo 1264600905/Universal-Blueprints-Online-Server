@@ -1,0 +1,408 @@
+<PrefabDef>
+  <defName>Prefab_20260228_224619</defName>
+  <size>(21,13)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>j</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>其他</category>
+    <BuildingID>3b2a10d4-17e9-4925-af49-889a6cee4af1</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>dubwise.dubsbadhygiene</packageId>
+        <name>Dubs Bad Hygiene</name>
+        <version>3.1.2800</version>
+        <modorder>30</modorder>
+        <steamWorkshopId>836308268</steamWorkshopId>
+        <things>
+          <li>airPipe</li>
+          <li>sewagePipeStuff</li>
+          <li>AirconIndoorUnit</li>
+          <li>airPipeHidden</li>
+          <li>RadiatorStuffed</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>vanillaexpanded.vbrewe</packageId>
+        <name>Vanilla Brewing Expanded</name>
+        <version></version>
+        <modorder>123</modorder>
+        <steamWorkshopId>2186560858</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VBE_GinStill</li>
+          <li>VBE_TequilaBarrel</li>
+          <li>VBE_VodkaDrum</li>
+          <li>VBE_WhiskeyCask</li>
+          <li>VBE_Bar</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>memegoddess.replacestuff</packageId>
+        <name>Replace Stuff - Continued</name>
+        <version></version>
+        <modorder>194</modorder>
+        <steamWorkshopId>3526354009</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Cooler_Over</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.anomaly</packageId>
+        <name>Anomaly</name>
+        <version></version>
+        <modorder>6</modorder>
+        <things>
+          <li>SecurityDoor</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>rebuild.cotr.doorsandcorners</packageId>
+        <name>ReBuild: Doors and Corners</name>
+        <version>1.5-Miller-rev1</version>
+        <modorder>196</modorder>
+        <steamWorkshopId>3262718980</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>RB_FinePlankWood</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>j</default>
+        <zh-CN>j</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Granite>
+      <rects>
+        <li>(0,0,10,0)</li>
+        <li>(0,1,0,8)</li>
+      </rects>
+      <hp>900</hp>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Granite>
+    <Wall>
+      <rects>
+        <li>(11,0,20,0)</li>
+        <li>(1,1,11,1)</li>
+        <li>(20,1,20,12)</li>
+        <li>(1,2,1,9)</li>
+        <li>(8,2,8,9)</li>
+        <li>(11,4,11,7)</li>
+        <li>(12,5,19,5)</li>
+        <li>(0,9,0,9)</li>
+        <li>(2,9,5,9)</li>
+        <li>(11,10,11,12)</li>
+        <li>(0,12,8,12)</li>
+        <li>(12,12,19,12)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+      <hp>360</hp>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </Wall>
+    <airPipe>
+      <rects>
+        <li>(11,0,20,0)</li>
+        <li>(8,1,11,1)</li>
+        <li>(20,1,20,12)</li>
+        <li>(8,2,8,9)</li>
+        <li>(11,4,11,7)</li>
+        <li>(18,5,19,5)</li>
+        <li>(11,10,11,12)</li>
+        <li>(6,12,10,12)</li>
+        <li>(12,12,19,12)</li>
+      </rects>
+      <hp>80</hp>
+    </airPipe>
+    <sewagePipeStuff>
+      <rects>
+        <li>(11,0,20,0)</li>
+        <li>(4,1,11,1)</li>
+        <li>(20,1,20,12)</li>
+        <li>(18,5,19,5)</li>
+        <li>(6,12,19,12)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>80</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </sewagePipeStuff>
+    <PowerConduit>
+      <rects>
+        <li>(1,1,11,1)</li>
+        <li>(11,4,11,7)</li>
+        <li>(11,10,11,12)</li>
+        <li>(6,12,10,12)</li>
+        <li>(12,12,20,12)</li>
+      </rects>
+      <hp>80</hp>
+    </PowerConduit>
+    <VBE_GinStill>
+      <rects>
+        <li>(12,1,16,1)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>100</hp>
+    </VBE_GinStill>
+    <WallLamp>
+      <rects>
+        <li>(17,1,17,1)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+      <hp>42</hp>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </WallLamp>
+    <AirconIndoorUnit>
+      <rects>
+        <li>(18,1,18,1)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>100</hp>
+    </AirconIndoorUnit>
+    <VBE_TequilaBarrel>
+      <rects>
+        <li>(19,1,19,4)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>100</hp>
+    </VBE_TequilaBarrel>
+    <Shelf>
+      <positions>
+        <li>(2, 0, 2)</li>
+        <li>(6, 0, 2)</li>
+        <li>(2, 0, 3)</li>
+        <li>(6, 0, 3)</li>
+        <li>(2, 0, 4)</li>
+        <li>(6, 0, 4)</li>
+        <li>(2, 0, 5)</li>
+        <li>(6, 0, 5)</li>
+        <li>(6, 0, 6)</li>
+      </positions>
+      <stuff>WoodLog</stuff>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Shelf>
+    <airPipeHidden>
+      <rects>
+        <li>(11,2,11,3)</li>
+        <li>(11,8,11,9)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </airPipeHidden>
+    <HiddenConduit>
+      <rects>
+        <li>(11,2,11,3)</li>
+        <li>(11,8,11,9)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <OrnateDoor>
+      <positions>
+        <li>(11, 0, 3)</li>
+        <li>(11, 0, 9)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>162</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </OrnateDoor>
+    <VBE_VodkaDrum>
+      <rects>
+        <li>(12,4,16,4)</li>
+      </rects>
+      <hp>30</hp>
+    </VBE_VodkaDrum>
+    <RadiatorStuffed>
+      <rects>
+        <li>(18,4,18,4)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>150</hp>
+    </RadiatorStuffed>
+    <WallLamp>
+      <rects>
+        <li>(2,5,2,5)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+      <hp>42</hp>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </WallLamp>
+    <Brewery>
+      <position>(2, 0, 7)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>180</hp>
+    </Brewery>
+    <WallLamp>
+      <rects>
+        <li>(10,6,10,6)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+      <hp>42</hp>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </WallLamp>
+    <VBE_WhiskeyCask>
+      <positions>
+        <li>(13, 0, 7)</li>
+        <li>(15, 0, 7)</li>
+        <li>(17, 0, 7)</li>
+        <li>(19, 0, 7)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>200</hp>
+    </VBE_WhiskeyCask>
+    <Cooler_Over>
+      <rects>
+        <li>(8,7,8,7)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>100</hp>
+    </Cooler_Over>
+    <VBE_Bar>
+      <position>(4, 0, 8)</position>
+      <stuff>WoodLog</stuff>
+      <hp>130</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </VBE_Bar>
+    <OrnateDoor>
+      <positions>
+        <li>(6, 0, 9)</li>
+        <li>(9, 0, 12)</li>
+      </positions>
+      <stuff>WoodLog</stuff>
+      <hp>162</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </OrnateDoor>
+    <StandingLamp>
+      <rects>
+        <li>(19,9,19,9)</li>
+      </rects>
+      <hp>50</hp>
+    </StandingLamp>
+    <RadiatorStuffed>
+      <rects>
+        <li>(19,9,19,9)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>150</hp>
+    </RadiatorStuffed>
+    <SecurityDoor>
+      <position>(0, 0, 11)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>800</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </SecurityDoor>
+    <VBE_WhiskeyCask>
+      <positions>
+        <li>(12, 0, 10)</li>
+        <li>(14, 0, 10)</li>
+        <li>(16, 0, 10)</li>
+        <li>(18, 0, 10)</li>
+      </positions>
+      <hp>200</hp>
+    </VBE_WhiskeyCask>
+    <WallLamp>
+      <rects>
+        <li>(4,11,4,11)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+      <hp>42</hp>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </WallLamp>
+  </things>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <RB_FinePlankWood>
+        <rects>
+          <li>(12,1,19,4)</li>
+          <li>(2,2,7,8)</li>
+          <li>(12,6,19,11)</li>
+        </rects>
+      </RB_FinePlankWood>
+      <CarpetFineRed>
+        <rects>
+          <li>(9,2,10,12)</li>
+          <li>(1,10,8,11)</li>
+        </rects>
+      </CarpetFineRed>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Granite_RoughHewn>
+        <rects>
+          <li>(12,1,19,4)</li>
+          <li>(2,2,7,8)</li>
+          <li>(9,3,9,11)</li>
+          <li>(10,4,10,12)</li>
+          <li>(12,6,19,7)</li>
+          <li>(12,8,18,8)</li>
+          <li>(12,9,17,9)</li>
+          <li>(4,10,8,10)</li>
+          <li>(12,10,15,10)</li>
+          <li>(8,11,8,11)</li>
+          <li>(12,11,13,11)</li>
+        </rects>
+      </Granite_RoughHewn>
+      <Granite_Rough>
+        <rects>
+          <li>(9,2,10,2)</li>
+          <li>(10,3,10,3)</li>
+        </rects>
+      </Granite_Rough>
+      <Marble_RoughHewn>
+        <rects>
+          <li>(19,8,19,11)</li>
+          <li>(18,9,18,11)</li>
+          <li>(16,10,17,11)</li>
+          <li>(14,11,15,11)</li>
+        </rects>
+      </Marble_RoughHewn>
+      <Limestone_RoughHewn>
+        <rects>
+          <li>(1,10,3,11)</li>
+          <li>(4,11,7,11)</li>
+          <li>(9,12,9,12)</li>
+        </rects>
+      </Limestone_RoughHewn>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofRockThick>
+      <rects>
+        <li>(0,0,20,12)</li>
+      </rects>
+    </RoofRockThick>
+  </roofs>
+</PrefabDef>
