@@ -1,0 +1,967 @@
+<PrefabDef>
+  <defName>Prefab_20260302_162429</defName>
+  <size>(35,19)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>基地测试</name>
+    <description>基地测试用于快速测试基地的效果，袭击等。需要角色编辑器才能放下去，建议测试阵地的时候使用，不要在正常的游戏流程使用，仅供模组开发快速测试使用。</description>
+    <tags>
+      <li>FullExport</li>
+      <li>FullExport</li>
+    </tags>
+    <author>白金trigger</author>
+    <category>其他</category>
+    <BuildingID>64ab4b02-87ec-4ef6-bd0d-24cb3907907b</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>ludeon.rimworld.biotech</packageId>
+        <name>Biotech</name>
+        <version></version>
+        <modorder>5</modorder>
+        <things>
+          <li>ToxifierGenerator</li>
+          <li>GeneExtractor</li>
+          <li>SubcoreRipscanner</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.ideology</packageId>
+        <name>Ideology</name>
+        <version></version>
+        <modorder>4</modorder>
+        <things>
+          <li>PlantPot_Bonsai</li>
+          <li>Plant_TreeBonsai</li>
+          <li>StylingStation</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.royalty</packageId>
+        <name>Royalty</name>
+        <version></version>
+        <modorder>3</modorder>
+        <things>
+          <li>GrandThrone</li>
+          <li>Brazier</li>
+          <li>Harp</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.anomaly</packageId>
+        <name>Anomaly</name>
+        <version></version>
+        <modorder>6</modorder>
+        <things>
+          <li>VoidsightSerum</li>
+          <li>MindNumbSerum</li>
+          <li>JuggernautSerum</li>
+          <li>MetalbloodSerum</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld</packageId>
+        <name>Core</name>
+        <version></version>
+        <modorder>2</modorder>
+        <things></things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.odyssey</packageId>
+        <name>Odyssey</name>
+        <version></version>
+        <modorder>8</modorder>
+        <things></things>
+      </mod>
+    </modPackages>
+    <foldGroup>
+      <groupKey>白金的测试蓝图</groupKey>
+      <displayOrder>3</displayOrder>
+      <isCover>false</isCover>
+    </foldGroup>
+    <multiLanguage>
+      <name>
+        <default>基地测试</default>
+        <zh-CN>基地测试</zh-CN>
+      </name>
+      <description>
+        <default>基地测试用于快速测试基地的效果，袭击等。需要角色编辑器才能放下去，建议测试阵地的时候使用，不要在正常的游戏流程使用，仅供模组开发快速测试使用。</default>
+        <zh-CN>基地测试用于快速测试基地的效果，袭击等。需要角色编辑器才能放下去，建议测试阵地的时候使用，不要在正常的游戏流程使用，仅供模组开发快速测试使用。</zh-CN>
+      </description>
+      <tags>
+        <default>FullExport</default>
+      </tags>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,6,0)</li>
+        <li>(8,0,26,0)</li>
+        <li>(28,0,34,0)</li>
+        <li>(0,1,0,18)</li>
+        <li>(6,1,6,2)</li>
+        <li>(8,1,8,6)</li>
+        <li>(14,1,14,2)</li>
+        <li>(20,1,20,2)</li>
+        <li>(26,1,26,6)</li>
+        <li>(28,1,28,2)</li>
+        <li>(34,1,34,18)</li>
+        <li>(6,4,6,7)</li>
+        <li>(14,4,14,6)</li>
+        <li>(20,4,20,6)</li>
+        <li>(28,4,28,8)</li>
+        <li>(1,6,2,6)</li>
+        <li>(4,6,5,6)</li>
+        <li>(9,6,10,6)</li>
+        <li>(12,6,13,6)</li>
+        <li>(15,6,16,6)</li>
+        <li>(19,6,19,6)</li>
+        <li>(21,6,22,6)</li>
+        <li>(24,6,25,6)</li>
+        <li>(29,6,30,6)</li>
+        <li>(32,6,33,6)</li>
+        <li>(6,10,6,14)</li>
+        <li>(28,11,28,14)</li>
+        <li>(1,12,2,12)</li>
+        <li>(4,12,5,12)</li>
+        <li>(8,12,9,12)</li>
+        <li>(12,12,16,12)</li>
+        <li>(18,12,21,12)</li>
+        <li>(24,12,26,12)</li>
+        <li>(29,12,30,12)</li>
+        <li>(32,12,33,12)</li>
+        <li>(8,13,8,18)</li>
+        <li>(14,13,14,18)</li>
+        <li>(20,13,20,18)</li>
+        <li>(26,13,26,18)</li>
+        <li>(6,16,6,18)</li>
+        <li>(28,16,28,18)</li>
+        <li>(1,18,5,18)</li>
+        <li>(11,18,13,18)</li>
+        <li>(15,18,16,18)</li>
+        <li>(18,18,19,18)</li>
+        <li>(21,18,23,18)</li>
+        <li>(29,18,33,18)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+      <hp>360</hp>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </Wall>
+    <PowerConduit>
+      <rects>
+        <li>(0,0,0,3)</li>
+        <li>(9,0,25,0)</li>
+        <li>(28,0,34,0)</li>
+        <li>(8,1,8,5)</li>
+        <li>(34,1,34,18)</li>
+        <li>(0,5,0,18)</li>
+        <li>(14,13,14,17)</li>
+        <li>(26,13,26,17)</li>
+        <li>(1,18,6,18)</li>
+        <li>(8,18,13,18)</li>
+        <li>(15,18,25,18)</li>
+      </rects>
+      <hp>80</hp>
+    </PowerConduit>
+    <HiddenConduit>
+      <rects>
+        <li>(1,0,8,0)</li>
+        <li>(26,0,27,0)</li>
+        <li>(26,1,26,12)</li>
+        <li>(0,4,0,4)</li>
+        <li>(8,6,25,6)</li>
+        <li>(8,7,8,12)</li>
+        <li>(9,12,25,12)</li>
+        <li>(7,18,7,18)</li>
+        <li>(14,18,14,18)</li>
+        <li>(26,18,33,18)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <Door>
+      <rects>
+        <li>(7,0,7,0)</li>
+        <li>(27,0,27,0)</li>
+        <li>(11,6,11,6)</li>
+        <li>(17,6,17,6)</li>
+        <li>(23,6,23,6)</li>
+        <li>(11,12,11,12)</li>
+        <li>(17,12,17,12)</li>
+        <li>(23,12,23,12)</li>
+        <li>(7,18,7,18)</li>
+        <li>(27,18,27,18)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <Dresser>
+      <position>(1, 0, 2)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Masterwork</quality>
+      <hp>78</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Dresser>
+    <DoubleBed>
+      <positions>
+        <li>(9, 0, 1)</li>
+        <li>(15, 0, 1)</li>
+      </positions>
+      <stuff>WoodLog</stuff>
+      <quality>Masterwork</quality>
+      <hp>130</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DoubleBed>
+    <EndTable>
+      <rects>
+        <li>(11,1,11,1)</li>
+        <li>(17,1,17,1)</li>
+        <li>(23,1,23,1)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>49</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </EndTable>
+    <Dresser>
+      <positions>
+        <li>(12, 0, 1)</li>
+        <li>(18, 0, 1)</li>
+      </positions>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <hp>78</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Dresser>
+    <DoubleBed>
+      <position>(21, 0, 1)</position>
+      <stuff>WoodLog</stuff>
+      <quality>Legendary</quality>
+      <hp>130</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DoubleBed>
+    <Dresser>
+      <position>(24, 0, 1)</position>
+      <stuff>WoodLog</stuff>
+      <quality>Masterwork</quality>
+      <hp>78</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Dresser>
+    <DoubleBed>
+      <positions>
+        <li>(33, 0, 1)</li>
+        <li>(33, 0, 7)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Masterwork</quality>
+      <hp>130</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DoubleBed>
+    <ToxifierGenerator>
+      <positions>
+        <li>(24, 0, 2)</li>
+        <li>(9, 0, 4)</li>
+        <li>(24, 0, 4)</li>
+        <li>(29, 0, 16)</li>
+      </positions>
+      <hp>300</hp>
+    </ToxifierGenerator>
+    <WallLamp>
+      <rects>
+        <li>(29,2,29,2)</li>
+        <li>(7,6,7,6)</li>
+        <li>(29,8,29,8)</li>
+        <li>(7,12,7,12)</li>
+        <li>(29,14,29,14)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>35</hp>
+    </WallLamp>
+    <EndTable>
+      <rects>
+        <li>(1,3,1,3)</li>
+        <li>(1,9,1,9)</li>
+        <li>(1,15,1,15)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>49</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </EndTable>
+    <Door>
+      <rects>
+        <li>(6,3,6,3)</li>
+        <li>(28,3,28,3)</li>
+        <li>(6,9,6,9)</li>
+        <li>(28,9,28,9)</li>
+        <li>(6,15,6,15)</li>
+        <li>(28,15,28,15)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <Vent>
+      <rects>
+        <li>(14,3,14,3)</li>
+        <li>(20,3,20,3)</li>
+        <li>(28,10,28,10)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>100</hp>
+    </Vent>
+    <EndTable>
+      <rects>
+        <li>(33,3,33,3)</li>
+        <li>(33,9,33,9)</li>
+        <li>(33,15,33,15)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>49</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </EndTable>
+    <DoubleBed>
+      <position>(1, 0, 5)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Legendary</quality>
+      <hp>130</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DoubleBed>
+    <WallLamp>
+      <rects>
+        <li>(5,4,5,4)</li>
+        <li>(27,6,27,6)</li>
+        <li>(5,10,5,10)</li>
+        <li>(27,12,27,12)</li>
+        <li>(5,16,5,16)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>35</hp>
+    </WallLamp>
+    <Dresser>
+      <positions>
+        <li>(33, 0, 4)</li>
+        <li>(33, 0, 10)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <hp>78</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Dresser>
+    <PlantPot_Bonsai>
+      <rects>
+        <li>(5,5,5,5)</li>
+        <li>(13,5,13,5)</li>
+        <li>(19,5,19,5)</li>
+        <li>(21,5,21,5)</li>
+        <li>(29,5,29,5)</li>
+        <li>(5,7,5,7)</li>
+        <li>(29,11,29,11)</li>
+        <li>(29,13,29,13)</li>
+        <li>(5,17,5,17)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>52</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </PlantPot_Bonsai>
+    <Plant_TreeBonsai>
+      <rects>
+        <li>(5,5,5,5)</li>
+        <li>(13,5,13,5)</li>
+        <li>(19,5,19,5)</li>
+        <li>(21,5,21,5)</li>
+        <li>(29,5,29,5)</li>
+        <li>(5,7,5,7)</li>
+        <li>(29,11,29,11)</li>
+        <li>(29,13,29,13)</li>
+        <li>(5,17,5,17)</li>
+      </rects>
+      <hp>85</hp>
+    </Plant_TreeBonsai>
+    <WallLamp>
+      <rects>
+        <li>(10,5,10,5)</li>
+        <li>(16,5,16,5)</li>
+        <li>(22,5,22,5)</li>
+      </rects>
+      <hp>35</hp>
+    </WallLamp>
+    <Heater>
+      <rects>
+        <li>(15,5,15,5)</li>
+        <li>(29,7,29,7)</li>
+        <li>(5,11,5,11)</li>
+      </rects>
+      <hp>100</hp>
+    </Heater>
+    <Vent>
+      <rects>
+        <li>(3,6,3,6)</li>
+        <li>(18,6,18,6)</li>
+        <li>(3,12,3,12)</li>
+        <li>(10,12,10,12)</li>
+        <li>(22,12,22,12)</li>
+      </rects>
+      <hp>100</hp>
+    </Vent>
+    <Vent>
+      <rects>
+        <li>(31,6,31,6)</li>
+        <li>(31,12,31,12)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>100</hp>
+    </Vent>
+    <Dresser>
+      <positions>
+        <li>(1, 0, 8)</li>
+        <li>(1, 0, 14)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <hp>78</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Dresser>
+    <WallLamp>
+      <rects>
+        <li>(20,7,20,7)</li>
+        <li>(12,13,12,13)</li>
+        <li>(18,13,18,13)</li>
+        <li>(24,13,24,13)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>35</hp>
+    </WallLamp>
+    <Bookcase>
+      <position>(25, 0, 7)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bookcase>
+    <AnimalBed>
+      <rects>
+        <li>(26,7,26,7)</li>
+      </rects>
+      <stuff>Cloth</stuff>
+      <quality>Normal</quality>
+      <hp>140</hp>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </AnimalBed>
+    <Vent>
+      <rects>
+        <li>(6,8,6,8)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>100</hp>
+    </Vent>
+    <GrandThrone>
+      <position>(8, 0, 9)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>350</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </GrandThrone>
+    <Column>
+      <rects>
+        <li>(10,8,12,8)</li>
+        <li>(10,10,12,10)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>160</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Column>
+    <Filth_Dirt>
+      <rects>
+        <li>(12,8,12,8)</li>
+      </rects>
+      <color>RGBA(0.357, 0.294, 0.255, 0.380)</color>
+    </Filth_Dirt>
+    <Brazier>
+      <rects>
+        <li>(13,8,13,8)</li>
+        <li>(13,10,13,10)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>80</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Brazier>
+    <BilliardsTable>
+      <position>(15, 0, 9)</position>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>162</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </BilliardsTable>
+    <Armchair>
+      <rects>
+        <li>(18,8,18,8)</li>
+        <li>(18,10,18,10)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Normal</quality>
+      <hp>120</hp>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </Armchair>
+    <Table3x3c>
+      <position>(20, 0, 9)</position>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>114</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Table3x3c>
+    <Armchair>
+      <rects>
+        <li>(22,8,22,10)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Normal</quality>
+      <hp>120</hp>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </Armchair>
+    <Harp>
+      <rects>
+        <li>(12,9,12,9)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <quality>Excellent</quality>
+      <hp>70</hp>
+    </Harp>
+    <ChessTable>
+      <rects>
+        <li>(18,9,18,9)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </ChessTable>
+    <FlatscreenTelevision>
+      <position>(24, 0, 9)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>80</hp>
+    </FlatscreenTelevision>
+    <HorseshoesPin>
+      <rects>
+        <li>(26,9,26,9)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>49</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </HorseshoesPin>
+    <DoubleBed>
+      <positions>
+        <li>(1, 0, 11)</li>
+        <li>(1, 0, 17)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Masterwork</quality>
+      <hp>130</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DoubleBed>
+    <StylingStation>
+      <position>(25, 0, 11)</position>
+      <stuff>WoodLog</stuff>
+      <hp>78</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </StylingStation>
+    <GeneExtractor>
+      <position>(9, 0, 14)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>350</hp>
+    </GeneExtractor>
+    <SubcoreRipscanner>
+      <position>(12, 0, 14)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>250</hp>
+    </SubcoreRipscanner>
+    <Shelf>
+      <positions>
+        <li>(16, 0, 13)</li>
+        <li>(19, 0, 13)</li>
+        <li>(22, 0, 13)</li>
+        <li>(16, 0, 14)</li>
+        <li>(19, 0, 14)</li>
+        <li>(16, 0, 15)</li>
+        <li>(19, 0, 15)</li>
+        <li>(22, 0, 17)</li>
+        <li>(25, 0, 17)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Shelf>
+    <WoodLog>
+      <rects>
+        <li>(15,13,15,17)</li>
+        <li>(19,13,19,13)</li>
+        <li>(18,14,18,15)</li>
+        <li>(16,15,16,15)</li>
+        <li>(19,16,19,16)</li>
+      </rects>
+      <hp>150</hp>
+      <stackCount>75</stackCount>
+    </WoodLog>
+    <ComponentIndustrial>
+      <rects>
+        <li>(15,13,15,14)</li>
+      </rects>
+      <hp>70</hp>
+      <stackCount>50</stackCount>
+    </ComponentIndustrial>
+    <Steel>
+      <rects>
+        <li>(15,13,16,15)</li>
+        <li>(18,13,18,14)</li>
+      </rects>
+      <stackCount>75</stackCount>
+    </Steel>
+    <Pemmican>
+      <rects>
+        <li>(16,13,16,13)</li>
+        <li>(18,15,18,15)</li>
+      </rects>
+      <hp>60</hp>
+      <stackCount>61</stackCount>
+    </Pemmican>
+    <Pemmican>
+      <rects>
+        <li>(18,13,18,15)</li>
+        <li>(21,13,21,13)</li>
+        <li>(16,14,16,14)</li>
+        <li>(19,14,19,17)</li>
+        <li>(15,16,15,17)</li>
+        <li>(21,17,22,17)</li>
+        <li>(24,17,25,17)</li>
+      </rects>
+      <hp>60</hp>
+      <stackCount>75</stackCount>
+    </Pemmican>
+    <VoidsightSerum>
+      <rects>
+        <li>(22,13,22,13)</li>
+      </rects>
+      <hp>60</hp>
+      <stackCount>3</stackCount>
+    </VoidsightSerum>
+    <MindNumbSerum>
+      <rects>
+        <li>(22,13,22,13)</li>
+      </rects>
+      <hp>60</hp>
+      <stackCount>3</stackCount>
+    </MindNumbSerum>
+    <FlatscreenTelevision>
+      <position>(24, 0, 13)</position>
+      <hp>80</hp>
+    </FlatscreenTelevision>
+    <DoubleBed>
+      <position>(33, 0, 13)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Legendary</quality>
+      <hp>130</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DoubleBed>
+    <JuggernautSerum>
+      <rects>
+        <li>(19,14,19,14)</li>
+      </rects>
+      <hp>60</hp>
+      <stackCount>2</stackCount>
+    </JuggernautSerum>
+    <Bed>
+      <positions>
+        <li>(10, 0, 15)</li>
+        <li>(10, 0, 16)</li>
+        <li>(10, 0, 17)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>140</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Bed>
+    <Steel>
+      <rects>
+        <li>(19,15,19,15)</li>
+      </rects>
+      <stackCount>25</stackCount>
+    </Steel>
+    <JuggernautSerum>
+      <rects>
+        <li>(19,15,19,15)</li>
+      </rects>
+      <hp>60</hp>
+    </JuggernautSerum>
+    <HospitalBed>
+      <positions>
+        <li>(22, 0, 15)</li>
+        <li>(22, 0, 16)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>150</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HospitalBed>
+    <VitalsMonitor>
+      <rects>
+        <li>(23,15,23,15)</li>
+        <li>(11,17,11,17)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>100</hp>
+    </VitalsMonitor>
+    <HospitalBed>
+      <positions>
+        <li>(24, 0, 15)</li>
+        <li>(12, 0, 16)</li>
+        <li>(24, 0, 16)</li>
+        <li>(12, 0, 17)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>150</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HospitalBed>
+    <Shelf>
+      <position>(15, 0, 16)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Shelf>
+    <Pemmican>
+      <rects>
+        <li>(15,16,15,16)</li>
+      </rects>
+      <hp>60</hp>
+      <stackCount>57</stackCount>
+    </Pemmican>
+    <Shelf>
+      <position>(19, 0, 17)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Shelf>
+    <MetalbloodSerum>
+      <rects>
+        <li>(19,16,19,16)</li>
+      </rects>
+      <hp>60</hp>
+      <stackCount>3</stackCount>
+    </MetalbloodSerum>
+    <HospitalBed>
+      <position>(23, 0, 16)</position>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>150</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HospitalBed>
+    <Dresser>
+      <position>(33, 0, 16)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Masterwork</quality>
+      <hp>78</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Dresser>
+    <ElectricStove>
+      <position>(17, 0, 17)</position>
+      <hp>180</hp>
+    </ElectricStove>
+    <WoodLog>
+      <rects>
+        <li>(19,17,19,17)</li>
+      </rects>
+      <hp>150</hp>
+      <stackCount>40</stackCount>
+    </WoodLog>
+    <Pemmican>
+      <rects>
+        <li>(21,17,21,17)</li>
+      </rects>
+      <hp>60</hp>
+      <stackCount>10</stackCount>
+    </Pemmican>
+    <Cooler>
+      <rects>
+        <li>(9,18,10,18)</li>
+        <li>(17,18,17,18)</li>
+        <li>(24,18,25,18)</li>
+      </rects>
+      <hp>100</hp>
+    </Cooler>
+  </things>
+  <terrain>
+    <MossyTerrain>
+      <rects>
+        <li>(0,0,0,4)</li>
+        <li>(6,0,6,0)</li>
+        <li>(34,12,34,18)</li>
+        <li>(4,18,6,18)</li>
+        <li>(28,18,33,18)</li>
+      </rects>
+    </MossyTerrain>
+    <Soil>
+      <rects>
+        <li>(1,0,5,0)</li>
+        <li>(28,0,34,0)</li>
+        <li>(34,1,34,11)</li>
+        <li>(0,5,0,18)</li>
+        <li>(1,18,3,18)</li>
+      </rects>
+    </Soil>
+    <WoodPlankFloor>
+      <rects>
+        <li>(7,0,27,12)</li>
+        <li>(1,1,6,17)</li>
+        <li>(28,1,33,17)</li>
+        <li>(7,13,8,18)</li>
+        <li>(14,13,14,18)</li>
+        <li>(20,13,20,18)</li>
+        <li>(26,13,27,18)</li>
+        <li>(9,18,13,18)</li>
+        <li>(15,18,19,18)</li>
+        <li>(21,18,25,18)</li>
+      </rects>
+    </WoodPlankFloor>
+    <SterileTile>
+      <rects>
+        <li>(9,13,13,17)</li>
+        <li>(15,13,19,17)</li>
+        <li>(21,13,25,17)</li>
+      </rects>
+    </SterileTile>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <MossyTerrain>
+        <rects>
+          <li>(0,0,0,4)</li>
+          <li>(6,0,6,0)</li>
+          <li>(34,12,34,18)</li>
+          <li>(4,18,6,18)</li>
+          <li>(28,18,33,18)</li>
+        </rects>
+      </MossyTerrain>
+      <Soil>
+        <rects>
+          <li>(1,0,5,0)</li>
+          <li>(28,0,34,0)</li>
+          <li>(34,1,34,11)</li>
+          <li>(0,5,0,18)</li>
+          <li>(1,18,3,18)</li>
+        </rects>
+      </Soil>
+      <WoodPlankFloor>
+        <rects>
+          <li>(7,0,27,12)</li>
+          <li>(1,1,6,17)</li>
+          <li>(28,1,33,17)</li>
+          <li>(7,13,8,18)</li>
+          <li>(14,13,14,18)</li>
+          <li>(20,13,20,18)</li>
+          <li>(26,13,27,18)</li>
+          <li>(9,18,13,18)</li>
+          <li>(15,18,19,18)</li>
+          <li>(21,18,25,18)</li>
+        </rects>
+      </WoodPlankFloor>
+      <SterileTile>
+        <rects>
+          <li>(9,13,13,17)</li>
+          <li>(15,13,19,17)</li>
+          <li>(21,13,25,17)</li>
+        </rects>
+      </SterileTile>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(7,0,27,6)</li>
+          <li>(1,1,6,17)</li>
+          <li>(28,1,33,17)</li>
+          <li>(7,7,14,7)</li>
+          <li>(22,7,27,18)</li>
+          <li>(7,8,13,8)</li>
+          <li>(21,8,21,18)</li>
+          <li>(7,9,12,9)</li>
+          <li>(20,9,20,18)</li>
+          <li>(7,10,11,10)</li>
+          <li>(19,10,19,18)</li>
+          <li>(7,11,10,18)</li>
+          <li>(18,11,18,18)</li>
+          <li>(11,12,17,18)</li>
+        </rects>
+      </Soil>
+      <Gravel>
+        <rects>
+          <li>(15,7,21,7)</li>
+          <li>(14,8,20,8)</li>
+          <li>(13,9,19,9)</li>
+          <li>(12,10,18,10)</li>
+          <li>(11,11,17,11)</li>
+        </rects>
+      </Gravel>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,34,18)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,34,18)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+  <pawns>
+    <pawn>
+      <name>Levine</name>
+      <position>(12, 0, 3)</position>
+      <data><![CDATA[Levine*Colonist*新移民|PlayerColony*Earl?Levine?Levine*165549479*-488891093*1*Male**0***Lackland**C6-96-57-FF*FF-FF-FF-FF*-1*FF-EF-D5-FF*FF-EF-D5-FF*FF-FF-FF-FF*Shooting|1|0|0|0:Melee|4|0|0|0:Construction|1|0|0|0:Mining|5|0|0|0:Cooking|7|1|0|0:Plants|6|1|345.4431|345.4431:Animals|3|0|0|0:Crafting|6|1|0|0:Artistic|4|0|0|0:Medicine|1|0|0|0:Social|9|1|8|4:Intellectual|0|0|0|0*Kind|0:PsychicSensitivity|-2:Neurotic|1*Stab|2|Torso|0|1|-1|6|-1|*ChildSpy47*LowWageWorker7*Firefighter|3:Patient|3:Doctor|0:PatientBedRest|3:BasicWorker|3:Warden|3:Handling|0:Cooking|3:Hunting|0:Construction|0:Growing|3:Mining|0:PlantCutting|3:Smithing|3:Tailoring|3:Art|0:Crafting|0:Hauling|3:Cleaning|3:Research|0:Childcare|3:DarkStudy|0:Fishing|0**Apparel_CollarShirt|Synthread|AE-DB-E4-FF|2|1|129:Apparel_Pants|Synthread|AE-DB-E4-FF|2|1|129*Pemmican||FF-FF-FF-FF|0|20|60*Kills|0:KillsHumanlikes|0:KillsAnimals|0:KillsMechanoids|0:PawnsDowned|0:PawnsDownedHumanlikes|0:PawnsDownedAnimals|0:PawnsDownedMechanoids|0:ShotsFired|0:Headshots|0:DamageDealt|0:DamageTaken|0:TimesInMentalState|0:TimesOnFire|0:FiresExtinguished|0:OperationsReceived|0:OperationsPerformed|0:TimesTendedTo|0:TimesTendedOther|0:PeopleCaptured|0:PrisonersRecruited|0:PrisonersChatted|0:AnimalsTamed|0:AnimalsSlaughtered|0:MealsCooked|0:ThingsConstructed|0:ThingsInstalled|0:ThingsRepaired|0:ThingsCrafted|0:ThingsHauled|4:PlantsSown|5:PlantsHarvested|0:CellsMined|0:MessesCleaned|7:ResearchPointsResearched|0:CorpsesBuried|0:NutritionEaten|0.8:BodiesStripped|0:ThingsUninstalled|0:ThingsDeconstructed|0:ArtifactsActivated|0:ContainersOpened|0:SwitchesFlicked|0:TimeAsColonistOrColonyAnimal|38560:TimeAsQuestLodger|0:TimeAsPrisoner|0:TimeInBed|0:TimeInBedForMedicalReasons|0:TimeDowned|0:TimeGettingFood|1280:TimeGettingJoy|4960:TimeUnderRoof|13520:TimeDrafted|560:TimeOnFire|0:TimeInMentalState|0:TimeHauling|3440:TimeHandlingAnimals|0:TimeFirefighting|0:TimeWardening|0:TimeHunting|0:TimeConstructing|0:TimeTreatingAndFeeding|0:TimeResearching|0:TimeCleaning|2000:TimeRepairing|0:TimeMining|0:TimeSowingAndHarvesting|5120:TimeAsChildInColony|0:KillsEntities|0:PawnsDownedEntities|0*Mood|0.46:Food|0.5999992:Rest|0.7339993:Joy|0.8124407:Beauty|0.5377778:Comfort|0.03439915:DrugDesire|0.5:RoomSize|0.815:Outdoors|0.9823997*CrashedTogether|Vitaly?Vitaly?Volkov|0||1|25|38700:NewColonyOptimism||0||1|0|38700:SleepDisturbed||0||1|0|25200:SleepDisturbed||0||1|0|24450:SleptOutside||0||1|0|16800:SleptOnGround||0||1|0|16800:AteInImpressiveDiningRoom||4||1|0|15000:Chitchat|Gil?链式?Durnin|0||0.82|0.5412|4950:SoakingWet||0||1|0|3450:Chitchat|Gil?狙击?Durnin|0||0.82|0.5412|2550*NeedFood||-1||1|0|0:NeedJoy||3||1|0|0:NeedRoomSize||2||1|0|0:Pain||0||1|0|0:Expectations||2||1|0|0:WearingDesiredApparel_Soft||-1||1|0|0:IdeoRoleEmpty||-1||1|0|0:EnvironmentDark||-1||1|0|0:DoingPassionateWork||-1||1|0|0:NeedComfort||0||1|0|0***SideWhiskers*NoTattoo_Face*NoTattoo_Body*0*0**94-43-73-FF*Astropolitan*集体集体*[ludeon.rimworld]***Male_NarrowPointy*Baseliner**Skin_Melanin2:Hair_SandyBlonde***FF-FF-FF-FF***DarkPink]]></data>
+    </pawn>
+    <pawn>
+      <name>链式</name>
+      <position>(12, 0, 10)</position>
+      <data><![CDATA[链式*Colonist*新移民|PlayerColony*Gil?链式?Durnin*234012169*-525075751*2*Hulk**0***Shaved**A4-A4-A4-FF*FF-FF-FF-FF*-1*FF-ED-C7-FF*FF-ED-C7-FF*FF-FF-FF-FF*Shooting|20|1|-640.2014|-640.2014:Melee|20|1|-640.2014|-640.2014:Construction|0|0|0|0:Mining|0|0|0|0:Cooking|0|0|0|0:Plants|3|0|-182.9997|-77.99988:Animals|0|0|0|0:Crafting|0|0|0|0:Artistic|1|0|0|0:Medicine|16|1|0|0:Social|0|0|0|0:Intellectual|0|0|0|0*SlowLearner|0:Nerves|2:NaturalMood|2:ShootingAccuracy|-1:Tough|0:SpeedOffset|2:Ascetic|0:GreatMemory|0:QuickSleeper|0*GeneticDrugNeed|0.06799997|||0|-1|-1|-1|:GeneticDrugNeed|0.05266667|||0|-1|-1|-1|:ArchotechArm|0.5|Shoulder|23|0|-1|-1|-1|:MissingBodyPart|0.5|Clavicle|24|0|-1|-1|-1|:MissingBodyPart|0.5|Arm|25|0|-1|-1|-1|:MissingBodyPart|0.5|Humerus|26|0|-1|-1|-1|:MissingBodyPart|0.5|Radius|27|0|-1|-1|-1|:MissingBodyPart|0.5|Hand|28|0|-1|-1|-1|:MissingBodyPart|0.5|Finger|29|0|-1|-1|-1|:MissingBodyPart|0.5|Finger|30|0|-1|-1|-1|:MissingBodyPart|0.5|Finger|31|0|-1|-1|-1|:MissingBodyPart|0.5|Finger|32|0|-1|-1|-1|:MissingBodyPart|0.5|Finger|33|0|-1|-1|-1|:ArchotechArm|0.5|Shoulder|34|0|-1|-1|-1|:MissingBodyPart|0.5|Clavicle|35|0|-1|-1|-1|:MissingBodyPart|0.5|Arm|36|0|-1|-1|-1|:MissingBodyPart|0.5|Humerus|37|0|-1|-1|-1|:MissingBodyPart|0.5|Radius|38|0|-1|-1|-1|:MissingBodyPart|0.5|Hand|39|0|-1|-1|-1|:MissingBodyPart|0.5|Finger|40|0|-1|-1|-1|:MissingBodyPart|0.5|Finger|41|0|-1|-1|-1|:MissingBodyPart|0.5|Finger|42|0|-1|-1|-1|:MissingBodyPart|0.5|Finger|43|0|-1|-1|-1|:MissingBodyPart|0.5|Finger|44|0|-1|-1|-1|:ArchotechEye|0.5|Eye|16|0|-1|-1|-1|:ArchotechEye|0.5|Eye|17|0|-1|-1|-1|:ArchotechLeg|0.5|Leg|46|0|-1|-1|-1|:MissingBodyPart|0.5|Femur|47|0|-1|-1|-1|:MissingBodyPart|0.5|Tibia|48|0|-1|-1|-1|:MissingBodyPart|0.5|Foot|49|0|-1|-1|-1|:MissingBodyPart|0.5|Toe|50|0|-1|-1|-1|:MissingBodyPart|0.5|Toe|51|0|-1|-1|-1|:MissingBodyPart|0.5|Toe|52|0|-1|-1|-1|:MissingBodyPart|0.5|Toe|53|0|-1|-1|-1|:MissingBodyPart|0.5|Toe|54|0|-1|-1|-1|:ArchotechLeg|0.5|Leg|55|0|-1|-1|-1|:MissingBodyPart|0.5|Femur|56|0|-1|-1|-1|:MissingBodyPart|0.5|Tibia|57|0|-1|-1|-1|:MissingBodyPart|0.5|Foot|58|0|-1|-1|-1|:MissingBodyPart|0.5|Toe|59|0|-1|-1|-1|:MissingBodyPart|0.5|Toe|60|0|-1|-1|-1|:MissingBodyPart|0.5|Toe|61|0|-1|-1|-1|:MissingBodyPart|0.5|Toe|62|0|-1|-1|-1|:MissingBodyPart|0.5|Toe|63|0|-1|-1|-1|:Metalblood|0.5|||0|-1|-1|264073|:Coagulator|0.5|Torso|0|0|-1|-1|-1|:Psychophage|1|||0|-1|-1|184073|:DeathRefusal|99|||0|-1|-1|-1|:RapidRegeneration|1|||0|-1|-1|-1|:PsychicAmplifier|6|Brain|15|0|6|-1|-1|:StoneskinGland|0.5|Torso|0|0|-1|-1|-1|*TraumatizedYouth87*MentalPatient69*Firefighter|0:Patient|3:Doctor|3:PatientBedRest|3:BasicWorker|3:Warden|0:Handling|3:Cooking|0:Hunting|3:Construction|0:Growing|3:Mining|0:PlantCutting|3:Smithing|0:Tailoring|0:Art|3:Crafting|0:Hauling|3:Cleaning|3:Research|0:Childcare|0:DarkStudy|0:Fishing|0*Gun_ChainShotgun||FF-FF-FF-FF|6|1|100*Apparel_BasicShirt|Hyperweave|8F-FF-73-FF|6|1|38:Apparel_Pants|Hyperweave|8F-FF-73-FF|6|1|56:Apparel_ArmorCataphractPrestige||8F-FF-73-FF|6|1|239:Apparel_ArmorHelmetCataphractPrestige||8F-FF-73-FF|6|1|180*GoJuice||FF-FF-FF-FF|0|2|50:WakeUp||FF-FF-FF-FF|0|1|50:Pemmican||FF-FF-FF-FF|0|20|60*Kills|0:KillsHumanlikes|0:KillsAnimals|0:KillsMechanoids|0:PawnsDowned|0:PawnsDownedHumanlikes|0:PawnsDownedAnimals|0:PawnsDownedMechanoids|0:ShotsFired|6:Headshots|0:DamageDealt|162:DamageTaken|120:TimesInMentalState|0:TimesOnFire|0:FiresExtinguished|0:OperationsReceived|0:OperationsPerformed|0:TimesTendedTo|0:TimesTendedOther|0:PeopleCaptured|0:PrisonersRecruited|0:PrisonersChatted|0:AnimalsTamed|0:AnimalsSlaughtered|0:MealsCooked|0:ThingsConstructed|0:ThingsInstalled|0:ThingsRepaired|0:ThingsCrafted|0:ThingsHauled|38:PlantsSown|0:PlantsHarvested|0:CellsMined|0:MessesCleaned|16:ResearchPointsResearched|0:CorpsesBuried|0:NutritionEaten|1.65:BodiesStripped|0:ThingsUninstalled|0:ThingsDeconstructed|0:ArtifactsActivated|0:ContainersOpened|0:SwitchesFlicked|0:TimeAsColonistOrColonyAnimal|201120:TimeAsQuestLodger|0:TimeAsPrisoner|0:TimeInBed|0:TimeInBedForMedicalReasons|0:TimeDowned|0:TimeGettingFood|1520:TimeGettingJoy|12080:TimeUnderRoof|25840:TimeDrafted|24560:TimeOnFire|0:TimeInMentalState|0:TimeHauling|20720:TimeHandlingAnimals|0:TimeFirefighting|0:TimeWardening|0:TimeHunting|0:TimeConstructing|0:TimeTreatingAndFeeding|2080:TimeResearching|0:TimeCleaning|2160:TimeRepairing|0:TimeMining|0:TimeSowingAndHarvesting|0:TimeAsChildInColony|0:KillsEntities|0:PawnsDownedEntities|0*Mood|0.6904:Food|0.9079993:Rest|0.3729982:Joy|0.6039972:Beauty|0.5116935:Comfort|0.596805:DrugDesire|0.5:RoomSize|0.84:KillThirst|0.4794181:Outdoors|0.9775996*UsedDespisedWeapon||0||1|0|37350:Chitchat|Gil?狙击?Durnin|0||0.82|1.6236|13200:Chitchat|Vitaly?Vitaly?Volkov|0||0.82|0.5412|10800:Chitchat|Earl?Levine?Levine|0||1.0675|0.70455|4950:AteInImpressiveDiningRoom||6||1|0|1050*EnvironmentDark||-1||1|0|0:ApparelDamaged||1||1|0|0:NeedFood||-1||1|0|0:NeedJoy||-1||1|0|0:NeedComfort||-1||1|0|0:MoodOffsetSanguine||0||1|0|0:Expectations||2||1|0|0:WearingDesiredApparel_Soft||-1||1|0|0:MoodOffsetVeryHappy||0||1|0|0:IdeoRoleEmpty||-1||1|0|0:NeedRoomSize||2||1|0|0***NoBeard*NoTattoo_Face*NoTattoo_Body*0*0.9579964*ReimplantXenogerm:FoamSpray:Coagulate:Bloodfeed:Longjump:MarksmanCommand*3F-33-26-FF*Astropolitan*集体集体*[ludeon.rimworld|ludeon.rimworld.royalty|ludeon.rimworld.biotech|ludeon.rimworld.ideology|ludeon.rimworld.anomaly]***Female_NarrowPointy*Baseliner*传奇射手*Deathless:Ageless:DiseaseFree:XenogermReimplanter:PerfectImmunity:TotalHealing:ArchiteMetabolism:VacuumResistance_Total:FoamSpray:Hemogenic:Coagulate:Bloodfeeder:LongjumpLegs:WoundHealing_SuperFast:Superclotting:MoveSpeed_VeryQuick:Mood_Sanguine:MinTemp_LargeDecrease:MaxTemp_LargeIncrease:FireResistant:Aggression_DeadCalm:MeleeDamage_Strong:KillThirst:Robust:Pain_Reduced:Beauty_Beautiful:StrongStomach:Learning_Slow:DarkVision:Inbred:Instability_Major:Unstoppable:Tail_Smooth:AptitudeRemarkable_Shooting:AptitudeRemarkable_Melee:AptitudeTerrible_Construction:AptitudeTerrible_Mining:AptitudeTerrible_Cooking:AptitudeTerrible_Plants:AptitudeTerrible_Animals:AptitudeTerrible_Crafting:AptitudeTerrible_Artistic:AptitudeRemarkable_Medicine:AptitudeTerrible_Social:AptitudeTerrible_Intellectual:ChemicalDependency_GoJuice:ChemicalDependency_WakeUp***FF-FF-FF-FF***DarkReddish]]></data>
+    </pawn>
+    <pawn>
+      <name>狙击</name>
+      <position>(12, 0, 10)</position>
+      <data><![CDATA[狙击*Colonist*新移民|PlayerColony*Gil?狙击?Durnin*234012169*-525075751*2*Hulk**0***Lisa**A4-A4-A4-FF*FF-FF-FF-FF*-1*FF-ED-C7-FF*FF-ED-C7-FF*FF-FF-FF-FF*Shooting|20|1|-308.602|-308.602:Melee|20|1|-308.602|-308.602:Construction|0|0|0|0:Mining|0|0|0|0:Cooking|0|0|0|0:Plants|3|0|-182.4996|-77.49989:Animals|0|0|0|0:Crafting|0|0|0|0:Artistic|1|0|0|0:Medicine|16|1|0|0:Social|0|0|0|0:Intellectual|0|0|0|0*SlowLearner|0:Nerves|2:NaturalMood|2:Tough|0:SpeedOffset|2:Ascetic|0:GreatMemory|0:QuickSleeper|0:ShootingAccuracy|1*GeneticDrugNeed|0.06799997|||0|-1|-1|-1|:GeneticDrugNeed|0.05266667|||0|-1|-1|-1|:ArchotechArm|0.5|Shoulder|23|0|-1|-1|-1|:MissingBodyPart|0.5|Clavicle|24|0|-1|-1|-1|:MissingBodyPart|0.5|Arm|25|0|-1|-1|-1|:MissingBodyPart|0.5|Humerus|26|0|-1|-1|-1|:MissingBodyPart|0.5|Radius|27|0|-1|-1|-1|:MissingBodyPart|0.5|Hand|28|0|-1|-1|-1|:MissingBodyPart|0.5|Finger|29|0|-1|-1|-1|:MissingBodyPart|0.5|Finger|30|0|-1|-1|-1|:MissingBodyPart|0.5|Finger|31|0|-1|-1|-1|:MissingBodyPart|0.5|Finger|32|0|-1|-1|-1|:MissingBodyPart|0.5|Finger|33|0|-1|-1|-1|:ArchotechArm|0.5|Shoulder|34|0|-1|-1|-1|:MissingBodyPart|0.5|Clavicle|35|0|-1|-1|-1|:MissingBodyPart|0.5|Arm|36|0|-1|-1|-1|:MissingBodyPart|0.5|Humerus|37|0|-1|-1|-1|:MissingBodyPart|0.5|Radius|38|0|-1|-1|-1|:MissingBodyPart|0.5|Hand|39|0|-1|-1|-1|:MissingBodyPart|0.5|Finger|40|0|-1|-1|-1|:MissingBodyPart|0.5|Finger|41|0|-1|-1|-1|:MissingBodyPart|0.5|Finger|42|0|-1|-1|-1|:MissingBodyPart|0.5|Finger|43|0|-1|-1|-1|:MissingBodyPart|0.5|Finger|44|0|-1|-1|-1|:ArchotechEye|0.5|Eye|16|0|-1|-1|-1|:ArchotechEye|0.5|Eye|17|0|-1|-1|-1|:ArchotechLeg|0.5|Leg|46|0|-1|-1|-1|:MissingBodyPart|0.5|Femur|47|0|-1|-1|-1|:MissingBodyPart|0.5|Tibia|48|0|-1|-1|-1|:MissingBodyPart|0.5|Foot|49|0|-1|-1|-1|:MissingBodyPart|0.5|Toe|50|0|-1|-1|-1|:MissingBodyPart|0.5|Toe|51|0|-1|-1|-1|:MissingBodyPart|0.5|Toe|52|0|-1|-1|-1|:MissingBodyPart|0.5|Toe|53|0|-1|-1|-1|:MissingBodyPart|0.5|Toe|54|0|-1|-1|-1|:ArchotechLeg|0.5|Leg|55|0|-1|-1|-1|:MissingBodyPart|0.5|Femur|56|0|-1|-1|-1|:MissingBodyPart|0.5|Tibia|57|0|-1|-1|-1|:MissingBodyPart|0.5|Foot|58|0|-1|-1|-1|:MissingBodyPart|0.5|Toe|59|0|-1|-1|-1|:MissingBodyPart|0.5|Toe|60|0|-1|-1|-1|:MissingBodyPart|0.5|Toe|61|0|-1|-1|-1|:MissingBodyPart|0.5|Toe|62|0|-1|-1|-1|:MissingBodyPart|0.5|Toe|63|0|-1|-1|-1|:Metalblood|0.5|||0|-1|-1|265017|:Coagulator|0.5|Torso|0|0|-1|-1|-1|:Psychophage|1|||0|-1|-1|185017|:DeathRefusal|99|||0|-1|-1|-1|:RapidRegeneration|1|||0|-1|-1|-1|:PsychicAmplifier|6|Brain|15|0|6|-1|-1|:StoneskinGland|0.5|Torso|0|0|-1|-1|-1|*TraumatizedYouth87*MentalPatient69*Firefighter|0:Patient|3:Doctor|3:PatientBedRest|3:BasicWorker|3:Warden|0:Handling|3:Cooking|0:Hunting|3:Construction|0:Growing|3:Mining|0:PlantCutting|3:Smithing|0:Tailoring|0:Art|3:Crafting|0:Hauling|3:Cleaning|3:Research|0:Childcare|0:DarkStudy|0:Fishing|0*Gun_SniperRifle||FF-FF-FF-FF|6|1|100*Apparel_BasicShirt|Hyperweave|73-FF-FF-FF|6|1|38:Apparel_Pants|Hyperweave|73-FF-FF-FF|6|1|56:Apparel_ArmorCataphractPrestige||73-FF-FF-FF|6|1|239:Apparel_ArmorHelmetCataphractPrestige||73-FF-FF-FF|6|1|180*GoJuice||FF-FF-FF-FF|0|2|50:WakeUp||FF-FF-FF-FF|0|1|50:Pemmican||FF-FF-FF-FF|0|20|60*Kills|0:KillsHumanlikes|0:KillsAnimals|0:KillsMechanoids|0:PawnsDowned|0:PawnsDownedHumanlikes|0:PawnsDownedAnimals|0:PawnsDownedMechanoids|0:ShotsFired|6:Headshots|0:DamageDealt|162:DamageTaken|120:TimesInMentalState|0:TimesOnFire|0:FiresExtinguished|0:OperationsReceived|0:OperationsPerformed|0:TimesTendedTo|0:TimesTendedOther|0:PeopleCaptured|0:PrisonersRecruited|0:PrisonersChatted|0:AnimalsTamed|0:AnimalsSlaughtered|0:MealsCooked|0:ThingsConstructed|0:ThingsInstalled|0:ThingsRepaired|0:ThingsCrafted|0:ThingsHauled|41:PlantsSown|0:PlantsHarvested|0:CellsMined|0:MessesCleaned|43:ResearchPointsResearched|0:CorpsesBuried|0:NutritionEaten|1.65:BodiesStripped|0:ThingsUninstalled|0:ThingsDeconstructed|0:ArtifactsActivated|0:ContainersOpened|0:SwitchesFlicked|0:TimeAsColonistOrColonyAnimal|199920:TimeAsQuestLodger|0:TimeAsPrisoner|0:TimeInBed|0:TimeInBedForMedicalReasons|0:TimeDowned|0:TimeGettingFood|1520:TimeGettingJoy|12080:TimeUnderRoof|24160:TimeDrafted|23520:TimeOnFire|0:TimeInMentalState|0:TimeHauling|19360:TimeHandlingAnimals|0:TimeFirefighting|0:TimeWardening|0:TimeHunting|0:TimeConstructing|0:TimeTreatingAndFeeding|2080:TimeResearching|0:TimeCleaning|3680:TimeRepairing|0:TimeMining|0:TimeSowingAndHarvesting|0:TimeAsChildInColony|0:KillsEntities|0:PawnsDownedEntities|0*Mood|0.7:Food|0.8913144:Rest|0.3896232:Joy|0.6144974:Beauty|0.5133373:Comfort|0.6136048:DrugDesire|0.5:RoomSize|0.79:KillThirst|0.4800014:Outdoors|0.9799997*UsedDespisedWeapon||0||1|0|36300:Chitchat|Gil?链式?Durnin|0||0.82|1.6236|13350:Chitchat|Vitaly?Vitaly?Volkov|0||0.82|0.5412|7350:Chitchat|Earl?Levine?Levine|0||1.0675|0.70455|2400:AteInImpressiveDiningRoom||6||1|0|1350*EnvironmentDark||-1||1|0|0:ApparelDamaged||1||1|0|0:NeedFood||-1||1|0|0:NeedJoy||-1||1|0|0:NeedComfort||1||1|0|0:MoodOffsetSanguine||0||1|0|0:Expectations||2||1|0|0:WearingDesiredApparel_Soft||-1||1|0|0:MoodOffsetVeryHappy||0||1|0|0:IdeoRoleEmpty||-1||1|0|0:NeedRoomSize||2||1|0|0***NoBeard*NoTattoo_Face*NoTattoo_Body*0*0.6874339*ReimplantXenogerm:FoamSpray:Coagulate:Bloodfeed:Longjump*3F-33-26-FF*Astropolitan*集体集体*[ludeon.rimworld|ludeon.rimworld.royalty|ludeon.rimworld.biotech|ludeon.rimworld.anomaly|ludeon.rimworld.ideology]***Female_NarrowPointy*Baseliner*传奇射手*Deathless:Ageless:DiseaseFree:XenogermReimplanter:PerfectImmunity:TotalHealing:ArchiteMetabolism:VacuumResistance_Total:FoamSpray:Hemogenic:Coagulate:Bloodfeeder:LongjumpLegs:WoundHealing_SuperFast:Superclotting:MoveSpeed_VeryQuick:Mood_Sanguine:MinTemp_LargeDecrease:MaxTemp_LargeIncrease:FireResistant:Aggression_DeadCalm:MeleeDamage_Strong:KillThirst:Robust:Pain_Reduced:Beauty_Beautiful:StrongStomach:Learning_Slow:DarkVision:Inbred:Instability_Major:Unstoppable:Tail_Smooth:AptitudeRemarkable_Shooting:AptitudeRemarkable_Melee:AptitudeTerrible_Construction:AptitudeTerrible_Mining:AptitudeTerrible_Cooking:AptitudeTerrible_Plants:AptitudeTerrible_Animals:AptitudeTerrible_Crafting:AptitudeTerrible_Artistic:AptitudeRemarkable_Medicine:AptitudeTerrible_Social:AptitudeTerrible_Intellectual:ChemicalDependency_GoJuice:ChemicalDependency_WakeUp***FF-FF-FF-FF***DarkReddish]]></data>
+    </pawn>
+    <pawn>
+      <name>Vitaly</name>
+      <position>(17, 0, 10)</position>
+      <data><![CDATA[Vitaly*Colonist*新移民|PlayerColony*Vitaly?Vitaly?Volkov*130672241*-367613854*1*Hulk**0***Messy**8B-57-31-FF*FF-FF-FF-FF*-1*FF-EF-C9-FF*FF-EF-C9-FF*FF-FF-FF-FF*Shooting|6|2|0|0:Melee|4|1|0|0:Construction|6|1|0|0:Mining|8|2|0|0:Cooking|4|0|0|0:Plants|3|0|0|0:Animals|3|0|0|0:Crafting|0|0|0|0:Artistic|0|0|0|0:Medicine|4|0|0|0:Social|0|0|2.8|2.8:Intellectual|0|0|0|0*BodyPurist|0*Sterilized|1|||0|-1|-1|-1|*ApocalypseSurvivor23*UrbworldDrone32*Firefighter|3:Patient|3:Doctor|3:PatientBedRest|3:BasicWorker|3:Warden|0:Handling|3:Cooking|3:Hunting|3:Construction|3:Growing|0:Mining|3:PlantCutting|0:Smithing|0:Tailoring|0:Art|0:Crafting|0:Hauling|3:Cleaning|3:Research|0:Childcare|3:DarkStudy|0:Fishing|0**Apparel_Pants|Synthread|AE-DB-E4-FF|2|1|129:Apparel_BasicShirt|Synthread|AE-DB-E4-FF|2|1|129*Pemmican||FF-FF-FF-FF|0|20|60*Kills|0:KillsHumanlikes|0:KillsAnimals|0:KillsMechanoids|0:PawnsDowned|0:PawnsDownedHumanlikes|0:PawnsDownedAnimals|0:PawnsDownedMechanoids|0:ShotsFired|0:Headshots|0:DamageDealt|0:DamageTaken|0:TimesInMentalState|0:TimesOnFire|0:FiresExtinguished|0:OperationsReceived|0:OperationsPerformed|0:TimesTendedTo|0:TimesTendedOther|0:PeopleCaptured|0:PrisonersRecruited|0:PrisonersChatted|0:AnimalsTamed|0:AnimalsSlaughtered|0:MealsCooked|0:ThingsConstructed|0:ThingsInstalled|0:ThingsRepaired|0:ThingsCrafted|0:ThingsHauled|20:PlantsSown|0:PlantsHarvested|0:CellsMined|0:MessesCleaned|15:ResearchPointsResearched|0:CorpsesBuried|0:NutritionEaten|0.8:BodiesStripped|0:ThingsUninstalled|0:ThingsDeconstructed|0:ArtifactsActivated|0:ContainersOpened|0:SwitchesFlicked|0:TimeAsColonistOrColonyAnimal|38400:TimeAsQuestLodger|0:TimeAsPrisoner|0:TimeInBed|0:TimeInBedForMedicalReasons|0:TimeDowned|0:TimeGettingFood|880:TimeGettingJoy|4960:TimeUnderRoof|13120:TimeDrafted|560:TimeOnFire|0:TimeInMentalState|0:TimeHauling|5840:TimeHandlingAnimals|0:TimeFirefighting|0:TimeWardening|0:TimeHunting|0:TimeConstructing|0:TimeTreatingAndFeeding|0:TimeResearching|0:TimeCleaning|2400:TimeRepairing|0:TimeMining|0:TimeSowingAndHarvesting|0:TimeAsChildInColony|0:KillsEntities|0:PawnsDownedEntities|0*Mood|0.56:Food|0.5999992:Rest|0.685653:Joy|0.7944986:Beauty|0.5149572:Comfort|0:DrugDesire|0.5:RoomSize|0.875:Outdoors|0.9791996*NewColonyOptimism||0||1|0|38550:SleptOutside||0||1|0|16500:SleptOnGround||0||1|0|16500:AteInImpressiveDiningRoom||4||1|0|15000:Chitchat|Gil?链式?Durnin|0||0.82|0.5412|10800:Chitchat|Gil?狙击?Durnin|0||0.82|0.5412|7350*NeedFood||-1||1|0|0:NeedJoy||3||1|0|0:NeedRoomSize||2||1|0|0:Expectations||2||1|0|0:WearingDesiredApparel_Soft||-1||1|0|0:IdeoRoleEmpty||-1||1|0|0:EnvironmentDark||-1||1|0|0:NeedComfort||0||1|0|0*Parent|Shiro?Sugar?Chapman|71:Parent|曼曼?蝎子?拉巴布里|71**Ducktail*NoTattoo_Face*NoTattoo_Body*0*0**84-53-2F-FF*Astropolitan*集体集体*[ludeon.rimworld]***Male_NarrowNormal*Baseliner**Skin_Melanin3:Hair_ReddishBrown***FF-FF-FF-FF***ReddishBrown]]></data>
+    </pawn>
+    <pawn>
+      <name>机械师</name>
+      <position>(7, 0, 13)</position>
+      <data><![CDATA[机械师*Colonist*新移民|PlayerColony*Gil?机械师?Durnin*234012169*-525075751*2*Hulk**0***Victoria**A4-A4-A4-FF*FF-FF-FF-FF*-1*FF-ED-C7-FF*FF-ED-C7-FF*FF-FF-FF-FF*Shooting|20|1|-324.403|-23.40002:Melee|20|1|-324.403|-23.40002:Construction|0|0|0|0:Mining|0|0|0|0:Cooking|0|0|0|0:Plants|3|0|-190.4001|-11.70001:Animals|0|0|0|0:Crafting|0|0|0|0:Artistic|1|0|0|0:Medicine|16|1|0|0:Social|0|0|0|0:Intellectual|0|0|0|0*SlowLearner|0:Nerves|2:NaturalMood|2:ShootingAccuracy|-1:Tough|0:SpeedOffset|2:Ascetic|0:GreatMemory|0:QuickSleeper|0*GeneticDrugNeed|0.06799997|||0|-1|-1|-1|:GeneticDrugNeed|0.05266667|||0|-1|-1|-1|:ArchotechArm|0.5|Shoulder|23|0|-1|-1|-1|:MissingBodyPart|0.5|Clavicle|24|0|-1|-1|-1|:MissingBodyPart|0.5|Arm|25|0|-1|-1|-1|:MissingBodyPart|0.5|Humerus|26|0|-1|-1|-1|:MissingBodyPart|0.5|Radius|27|0|-1|-1|-1|:MissingBodyPart|0.5|Hand|28|0|-1|-1|-1|:MissingBodyPart|0.5|Finger|29|0|-1|-1|-1|:MissingBodyPart|0.5|Finger|30|0|-1|-1|-1|:MissingBodyPart|0.5|Finger|31|0|-1|-1|-1|:MissingBodyPart|0.5|Finger|32|0|-1|-1|-1|:MissingBodyPart|0.5|Finger|33|0|-1|-1|-1|:ArchotechArm|0.5|Shoulder|34|0|-1|-1|-1|:MissingBodyPart|0.5|Clavicle|35|0|-1|-1|-1|:MissingBodyPart|0.5|Arm|36|0|-1|-1|-1|:MissingBodyPart|0.5|Humerus|37|0|-1|-1|-1|:MissingBodyPart|0.5|Radius|38|0|-1|-1|-1|:MissingBodyPart|0.5|Hand|39|0|-1|-1|-1|:MissingBodyPart|0.5|Finger|40|0|-1|-1|-1|:MissingBodyPart|0.5|Finger|41|0|-1|-1|-1|:MissingBodyPart|0.5|Finger|42|0|-1|-1|-1|:MissingBodyPart|0.5|Finger|43|0|-1|-1|-1|:MissingBodyPart|0.5|Finger|44|0|-1|-1|-1|:ArchotechEye|0.5|Eye|16|0|-1|-1|-1|:ArchotechEye|0.5|Eye|17|0|-1|-1|-1|:ArchotechLeg|0.5|Leg|46|0|-1|-1|-1|:MissingBodyPart|0.5|Femur|47|0|-1|-1|-1|:MissingBodyPart|0.5|Tibia|48|0|-1|-1|-1|:MissingBodyPart|0.5|Foot|49|0|-1|-1|-1|:MissingBodyPart|0.5|Toe|50|0|-1|-1|-1|:MissingBodyPart|0.5|Toe|51|0|-1|-1|-1|:MissingBodyPart|0.5|Toe|52|0|-1|-1|-1|:MissingBodyPart|0.5|Toe|53|0|-1|-1|-1|:MissingBodyPart|0.5|Toe|54|0|-1|-1|-1|:ArchotechLeg|0.5|Leg|55|0|-1|-1|-1|:MissingBodyPart|0.5|Femur|56|0|-1|-1|-1|:MissingBodyPart|0.5|Tibia|57|0|-1|-1|-1|:MissingBodyPart|0.5|Foot|58|0|-1|-1|-1|:MissingBodyPart|0.5|Toe|59|0|-1|-1|-1|:MissingBodyPart|0.5|Toe|60|0|-1|-1|-1|:MissingBodyPart|0.5|Toe|61|0|-1|-1|-1|:MissingBodyPart|0.5|Toe|62|0|-1|-1|-1|:MissingBodyPart|0.5|Toe|63|0|-1|-1|-1|:Metalblood|0.5|||0|-1|-1|249338|:Coagulator|0.5|Torso|0|0|-1|-1|-1|:Psychophage|1|||0|-1|-1|169338|:DeathRefusal|99|||0|-1|-1|-1|:RapidRegeneration|1|||0|-1|-1|-1|:PsychicAmplifier|6|Brain|15|0|6|-1|-1|:StoneskinGland|0.5|Torso|0|0|-1|-1|-1|:MechlinkImplant|0.5|||0|-1|-1|-1|*TraumatizedYouth87*MentalPatient69*Firefighter|0:Patient|3:Doctor|3:PatientBedRest|3:BasicWorker|3:Warden|0:Handling|3:Cooking|0:Hunting|3:Construction|0:Growing|3:Mining|0:PlantCutting|3:Smithing|0:Tailoring|0:Art|3:Crafting|0:Hauling|3:Cleaning|3:Research|0:Childcare|0:DarkStudy|0:Fishing|0*Gun_Minigun||FF-FF-FF-FF|6|1|100*Apparel_BasicShirt|Hyperweave|BF-7F-7F-FF|6|1|38:Apparel_Pants|Hyperweave|BF-7F-7F-FF|6|1|56:Apparel_MechlordSuit||E5-E5-E5-FF|6|1|340:Apparel_CerebrexNode||FF-FF-FF-FF|0|1|100:Apparel_ArmorHelmetMechlordHelmet||E5-E5-E5-FF|6|1|240*GoJuice||FF-FF-FF-FF|0|2|50:WakeUp||FF-FF-FF-FF|0|1|50:Pemmican||FF-FF-FF-FF|0|20|60*Kills|0:KillsHumanlikes|0:KillsAnimals|0:KillsMechanoids|0:PawnsDowned|0:PawnsDownedHumanlikes|0:PawnsDownedAnimals|0:PawnsDownedMechanoids|0:ShotsFired|6:Headshots|0:DamageDealt|162:DamageTaken|120:TimesInMentalState|0:TimesOnFire|0:FiresExtinguished|0:OperationsReceived|0:OperationsPerformed|0:TimesTendedTo|0:TimesTendedOther|0:PeopleCaptured|0:PrisonersRecruited|0:PrisonersChatted|0:AnimalsTamed|0:AnimalsSlaughtered|0:MealsCooked|0:ThingsConstructed|0:ThingsInstalled|0:ThingsRepaired|0:ThingsCrafted|0:ThingsHauled|34:PlantsSown|0:PlantsHarvested|0:CellsMined|0:MessesCleaned|0:ResearchPointsResearched|0:CorpsesBuried|0:NutritionEaten|1.9:BodiesStripped|0:ThingsUninstalled|0:ThingsDeconstructed|0:ArtifactsActivated|0:ContainersOpened|0:SwitchesFlicked|0:TimeAsColonistOrColonyAnimal|215680:TimeAsQuestLodger|0:TimeAsPrisoner|0:TimeInBed|7360:TimeInBedForMedicalReasons|0:TimeDowned|0:TimeGettingFood|1680:TimeGettingJoy|12080:TimeUnderRoof|27680:TimeDrafted|38400:TimeOnFire|0:TimeInMentalState|0:TimeHauling|17920:TimeHandlingAnimals|0:TimeFirefighting|0:TimeWardening|0:TimeHunting|0:TimeConstructing|0:TimeTreatingAndFeeding|2080:TimeResearching|0:TimeCleaning|800:TimeRepairing|0:TimeMining|0:TimeSowingAndHarvesting|0:TimeAsChildInColony|0:KillsEntities|0:PawnsDownedEntities|0*Mood|0.4540001:Food|0.9199998:Rest|0.681373:Joy|0.5334968:Beauty|0.5351191:Comfort|0.7760002:DrugDesire|0.5:RoomSize|0.7179999:KillThirst|0.4714186:Outdoors|0.9551992*UsedDespisedWeapon||0||1|0|51750:AteInImpressiveDiningRoom||6||1|0|1500*EnvironmentDark||-1||1|0|0:ApparelDamaged||1||1|0|0:NeedFood||-1||1|0|0:NeedRoomSize||2||1|0|0:MoodOffsetSanguine||0||1|0|0:Expectations||2||1|0|0:WearingDesiredApparel_Soft||-1||1|0|0:MoodOffsetVeryHappy||0||1|0|0:IdeoRoleEmpty||-1||1|0|0:NeedComfort||2||1|0|0*Overseer|机械辅兵 2|94135:Overseer|机械辅兵 1|95139:Overseer|百机长 1|98226:Overseer|炼狱魔王 1|100504:Overseer|战争女皇 1|71**NoBeard*NoTattoo_Face*NoTattoo_Body*0*0.9398073*ReimplantXenogerm:FoamSpray:Coagulate:Bloodfeed:Longjump*3F-33-26-FF*Astropolitan*集体集体*[ludeon.rimworld|ludeon.rimworld.royalty|ludeon.rimworld.biotech|ludeon.rimworld.odyssey|ludeon.rimworld.anomaly|ludeon.rimworld.ideology]***Female_NarrowPointy*Baseliner*传奇射手*Deathless:Ageless:DiseaseFree:XenogermReimplanter:PerfectImmunity:TotalHealing:ArchiteMetabolism:VacuumResistance_Total:FoamSpray:Hemogenic:Coagulate:Bloodfeeder:LongjumpLegs:WoundHealing_SuperFast:Superclotting:MoveSpeed_VeryQuick:Mood_Sanguine:MinTemp_LargeDecrease:MaxTemp_LargeIncrease:FireResistant:Aggression_DeadCalm:MeleeDamage_Strong:KillThirst:Robust:Pain_Reduced:Beauty_Beautiful:StrongStomach:Learning_Slow:DarkVision:Inbred:Instability_Major:Unstoppable:Tail_Smooth:AptitudeRemarkable_Shooting:AptitudeRemarkable_Melee:AptitudeTerrible_Construction:AptitudeTerrible_Mining:AptitudeTerrible_Cooking:AptitudeTerrible_Plants:AptitudeTerrible_Animals:AptitudeTerrible_Crafting:AptitudeTerrible_Artistic:AptitudeRemarkable_Medicine:AptitudeTerrible_Social:AptitudeTerrible_Intellectual:ChemicalDependency_GoJuice:ChemicalDependency_WakeUp***FF-FF-FF-FF***DarkReddish]]></data>
+    </pawn>
+  </pawns>
+</PrefabDef>
