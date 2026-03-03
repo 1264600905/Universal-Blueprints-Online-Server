@@ -1,10 +1,10 @@
 <PrefabDef>
-  <defName>Prefab_20260302_224632</defName>
-  <size>(21,25)</size>
+  <defName>Prefab_20260303_153922</defName>
+  <size>(51,53)</size>
   <extraInfo>
     <version>1.6.9438.37837</version>
-    <name>test</name>
-    <description>test</description>
+    <name>SOS 손상된 초계함</name>
+    <description>SOS 손상된 초계함</description>
     <tags></tags>
     <author></author>
     <category>Other</category>
@@ -14,7 +14,7 @@
         <packageId>kentington.saveourship2</packageId>
         <name>Save Our Ship 2</name>
         <version></version>
-        <modorder>244</modorder>
+        <modorder>257</modorder>
         <steamWorkshopId>1909914131</steamWorkshopId>
         <dependencies>
           <li>
@@ -27,242 +27,1175 @@
           </li>
         </dependencies>
         <things>
-          <li>ShipHardpoint</li>
-          <li>Ship_Beam</li>
-          <li>ShipInside_SolarGenerator</li>
+          <li>Ship_Corner_OneOneFlip</li>
+          <li>Ship_Corner_OneThreeFlip</li>
+          <li>Ship_Corner_OneTwoFlip</li>
           <li>Ship_Beam_Unpowered</li>
-          <li>ShipHullTile</li>
-          <li>Ship_Engine</li>
+          <li>Ship_Corner_OneOne</li>
           <li>Ship_Engine_Small</li>
-          <li>Ship_Engine_Interplanetary</li>
+          <li>Ship_Beam</li>
+          <li>ShipAirlock</li>
+          <li>ShipHullTile</li>
+          <li>Ship_Thruster</li>
+          <li>ShipInside_PassiveVent</li>
+          <li>Ship_Beam_Wrecked</li>
+          <li>ShipHeatsink</li>
+          <li>ShipTorpedoOne</li>
+          <li>ShipHullTileWrecked</li>
+          <li>ShipHeatManifold</li>
+          <li>Ship_Corner_OneTwo</li>
+          <li>ShipCapacitorSmall</li>
+          <li>ShipTurret_Laser</li>
+          <li>Ship_CryptosleepCasket</li>
+          <li>ShipConsoleScience</li>
+          <li>ShipPilotSeatMini</li>
+          <li>Ship_Reactor</li>
+          <li>ShipSalvageBay</li>
+          <li>Ship_SensorCluster</li>
+          <li>ShipCombatShieldGenerator</li>
+          <li>Ship_LifeSupport</li>
+          <li>ShipAirlockBeam</li>
+          <li>ShipAirlockWrecked</li>
           <li>FakeFloorInsideShip</li>
-        </things>
-      </mod>
-      <mod>
-        <packageId>buildable.terrain</packageId>
-        <name>Buildable Terrain v1</name>
-        <version></version>
-        <modorder>51</modorder>
-        <steamWorkshopId>1420979918</steamWorkshopId>
-        <things>
-          <li>Soil</li>
-          <li>SoilRich</li>
+          <li>EmptySpace</li>
+          <li>ShipWreckageTerrain</li>
         </things>
       </mod>
     </modPackages>
     <multiLanguage>
       <name>
-        <default>test</default>
-        <ko>test</ko>
+        <default>SOS 손상된 초계함</default>
+        <zh-CN>test</zh-CN>
+        <ko>SOS 손상된 초계함</ko>
       </name>
       <description>
-        <default>test</default>
-        <ko>test</ko>
+        <default>SOS 손상된 초계함</default>
+        <zh-CN>test</zh-CN>
+        <ko>SOS 손상된 초계함</ko>
       </description>
     </multiLanguage>
   </extraInfo>
   <things>
-    <ShipHardpoint>
-      <positions>
-        <li>(8, 0, 1)</li>
-        <li>(8, 0, 22)</li>
-      </positions>
-      <hp>3200</hp>
-    </ShipHardpoint>
-    <Ship_Beam>
+    <Ship_Corner_OneOneFlip>
       <rects>
-        <li>(7,2,7,7)</li>
-        <li>(4,7,6,7)</li>
-        <li>(5,8,5,10)</li>
-        <li>(4,10,4,10)</li>
-        <li>(6,10,6,14)</li>
-        <li>(4,14,5,14)</li>
-        <li>(5,15,5,17)</li>
-        <li>(4,17,4,17)</li>
-        <li>(6,17,7,17)</li>
-        <li>(7,18,7,22)</li>
+        <li>(8,2,8,2)</li>
+        <li>(11,10,11,10)</li>
+        <li>(7,15,7,15)</li>
+        <li>(6,20,6,20)</li>
+        <li>(5,21,5,21)</li>
+        <li>(4,22,4,22)</li>
+        <li>(3,23,3,23)</li>
+        <li>(7,34,7,34)</li>
+        <li>(11,39,11,39)</li>
       </rects>
-      <hp>1000</hp>
-    </Ship_Beam>
-    <ShipInside_SolarGenerator>
-      <rects>
-        <li>(10,2,13,2)</li>
-      </rects>
+      <relativeRotation>Opposite</relativeRotation>
       <hp>500</hp>
-    </ShipInside_SolarGenerator>
+    </Ship_Corner_OneOneFlip>
+    <Ship_Corner_OneThreeFlip>
+      <positions>
+        <li>(10, 0, 2)</li>
+        <li>(13, 0, 3)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>1500</hp>
+    </Ship_Corner_OneThreeFlip>
+    <Ship_Corner_OneTwoFlip>
+      <positions>
+        <li>(7, 0, 3)</li>
+        <li>(2, 0, 24)</li>
+      </positions>
+      <hp>1000</hp>
+    </Ship_Corner_OneTwoFlip>
     <Ship_Beam_Unpowered>
       <rects>
-        <li>(6,3,6,3)</li>
+        <li>(8,3,11,4)</li>
+        <li>(12,4,14,4)</li>
+        <li>(15,5,15,6)</li>
+        <li>(16,6,18,6)</li>
+        <li>(20,6,24,6)</li>
+        <li>(12,13,13,13)</li>
+        <li>(8,15,9,15)</li>
+        <li>(25,16,25,17)</li>
+        <li>(8,18,9,18)</li>
+        <li>(7,20,7,20)</li>
+        <li>(27,20,29,20)</li>
         <li>(6,21,6,21)</li>
+        <li>(31,21,36,21)</li>
+        <li>(5,22,5,22)</li>
+        <li>(3,24,3,28)</li>
+        <li>(2,26,2,26)</li>
+        <li>(5,30,5,30)</li>
+        <li>(6,31,6,31)</li>
+        <li>(30,31,35,31)</li>
+        <li>(7,32,7,32)</li>
+        <li>(8,34,9,34)</li>
+        <li>(25,35,25,36)</li>
+        <li>(8,37,9,37)</li>
+        <li>(12,39,13,39)</li>
+        <li>(28,41,28,42)</li>
+        <li>(26,44,26,44)</li>
+        <li>(21,46,24,46)</li>
+        <li>(8,48,9,49)</li>
       </rects>
       <hp>1000</hp>
     </Ship_Beam_Unpowered>
-    <ShipHullTile>
+    <Ship_Corner_OneOne>
       <rects>
-        <li>(8,3,18,21)</li>
-        <li>(6,7,7,17)</li>
+        <li>(15,4,15,4)</li>
+        <li>(25,6,25,6)</li>
+        <li>(10,14,10,14)</li>
+        <li>(25,15,25,15)</li>
+        <li>(25,34,25,34)</li>
+        <li>(28,40,28,40)</li>
       </rects>
-      <hp>300</hp>
-    </ShipHullTile>
-    <Ship_Engine>
-      <positions>
-        <li>(5, 0, 5)</li>
-        <li>(5, 0, 19)</li>
-      </positions>
-      <relativeRotation>Clockwise</relativeRotation>
-      <hp>1500</hp>
-    </Ship_Engine>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>500</hp>
+    </Ship_Corner_OneOne>
     <Ship_Engine_Small>
       <positions>
-        <li>(3, 0, 9)</li>
-        <li>(3, 0, 16)</li>
+        <li>(8, 0, 6)</li>
+        <li>(10, 0, 9)</li>
+        <li>(12, 0, 12)</li>
+        <li>(8, 0, 17)</li>
+        <li>(8, 0, 36)</li>
+        <li>(12, 0, 41)</li>
+        <li>(10, 0, 44)</li>
+        <li>(8, 0, 47)</li>
       </positions>
       <relativeRotation>Clockwise</relativeRotation>
       <hp>1000</hp>
     </Ship_Engine_Small>
-    <Ship_Engine_Interplanetary>
-      <position>(4, 0, 12)</position>
-      <relativeRotation>Clockwise</relativeRotation>
-      <hp>600</hp>
-    </Ship_Engine_Interplanetary>
-    <Sandstone>
+    <Ship_Beam>
       <rects>
-        <li>(0,21,2,24)</li>
-        <li>(3,22,4,24)</li>
-        <li>(5,23,6,24)</li>
-        <li>(7,24,8,24)</li>
+        <li>(10,5,14,5)</li>
+        <li>(14,6,14,7)</li>
+        <li>(10,7,12,7)</li>
+        <li>(16,7,24,7)</li>
+        <li>(12,8,12,8)</li>
+        <li>(12,10,14,10)</li>
+        <li>(14,12,14,15)</li>
+        <li>(22,12,24,12)</li>
+        <li>(16,13,20,13)</li>
+        <li>(22,13,22,15)</li>
+        <li>(16,14,16,15)</li>
+        <li>(20,14,20,15)</li>
+        <li>(10,15,13,15)</li>
+        <li>(17,15,19,15)</li>
+        <li>(23,15,24,15)</li>
+        <li>(10,16,10,16)</li>
+        <li>(24,16,24,18)</li>
+        <li>(10,18,16,18)</li>
+        <li>(18,18,18,18)</li>
+        <li>(20,18,23,18)</li>
+        <li>(10,19,11,20)</li>
+        <li>(17,19,17,20)</li>
+        <li>(21,19,22,20)</li>
+        <li>(8,20,9,20)</li>
+        <li>(23,20,26,20)</li>
+        <li>(7,21,8,21)</li>
+        <li>(21,21,21,23)</li>
+        <li>(26,21,30,21)</li>
+        <li>(6,22,7,22)</li>
+        <li>(11,22,11,25)</li>
+        <li>(17,22,17,23)</li>
+        <li>(26,22,26,23)</li>
+        <li>(30,22,38,22)</li>
+        <li>(4,23,6,23)</li>
+        <li>(12,23,16,23)</li>
+        <li>(20,23,20,23)</li>
+        <li>(31,23,31,24)</li>
+        <li>(37,23,38,23)</li>
+        <li>(4,24,4,29)</li>
+        <li>(22,24,23,24)</li>
+        <li>(37,24,37,25)</li>
+        <li>(21,25,21,29)</li>
+        <li>(27,25,27,25)</li>
+        <li>(30,25,30,25)</li>
+        <li>(11,27,11,28)</li>
+        <li>(27,27,27,29)</li>
+        <li>(31,27,31,30)</li>
+        <li>(5,29,6,29)</li>
+        <li>(12,29,17,29)</li>
+        <li>(20,29,20,29)</li>
+        <li>(6,30,7,30)</li>
+        <li>(11,30,11,30)</li>
+        <li>(17,30,17,30)</li>
+        <li>(26,30,26,30)</li>
+        <li>(28,30,30,30)</li>
+        <li>(32,30,35,30)</li>
+        <li>(7,31,8,31)</li>
+        <li>(21,31,21,34)</li>
+        <li>(29,31,29,31)</li>
+        <li>(8,32,11,32)</li>
+        <li>(17,32,17,33)</li>
+        <li>(22,32,26,32)</li>
+        <li>(10,33,11,34)</li>
+        <li>(22,33,22,34)</li>
+        <li>(12,34,16,34)</li>
+        <li>(18,34,18,34)</li>
+        <li>(20,34,20,34)</li>
+        <li>(23,34,24,34)</li>
+        <li>(24,35,24,37)</li>
+        <li>(10,36,10,37)</li>
+        <li>(11,37,14,37)</li>
+        <li>(16,37,20,37)</li>
+        <li>(22,37,23,37)</li>
+        <li>(14,38,14,40)</li>
+        <li>(16,38,16,39)</li>
+        <li>(20,38,20,39)</li>
+        <li>(22,38,22,40)</li>
+        <li>(17,39,19,39)</li>
+        <li>(23,40,27,40)</li>
+        <li>(27,41,27,43)</li>
+        <li>(12,42,14,42)</li>
+        <li>(25,43,26,43)</li>
+        <li>(25,44,25,45)</li>
+        <li>(10,45,10,45)</li>
+        <li>(20,45,24,45)</li>
       </rects>
-      <hp>400</hp>
-      <color>RGBA(0.494, 0.408, 0.369, 1.000)</color>
-    </Sandstone>
-    <ShipInside_SolarGenerator>
+      <hp>1000</hp>
+    </Ship_Beam>
+    <Ship_Corner_OneTwoFlip>
+      <positions>
+        <li>(17, 0, 5)</li>
+        <li>(31, 0, 20)</li>
+        <li>(38, 0, 21)</li>
+        <li>(40, 0, 22)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>1000</hp>
+    </Ship_Corner_OneTwoFlip>
+    <ShipAirlock>
       <rects>
-        <li>(12,22,12,22)</li>
+        <li>(10,6,10,6)</li>
+        <li>(12,9,12,9)</li>
+        <li>(14,11,14,11)</li>
+        <li>(10,17,10,17)</li>
+        <li>(17,21,17,21)</li>
+        <li>(11,26,11,26)</li>
+        <li>(27,26,27,26)</li>
+        <li>(31,26,31,26)</li>
+        <li>(37,26,37,26)</li>
+        <li>(21,30,21,30)</li>
+        <li>(17,31,17,31)</li>
+        <li>(26,31,26,31)</li>
+        <li>(10,35,10,35)</li>
+        <li>(14,41,14,41)</li>
+        <li>(12,43,12,43)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>500</hp>
+    </ShipAirlock>
+    <ShipHullTile>
+      <rects>
+        <li>(11,6,13,6)</li>
+        <li>(13,7,13,9)</li>
+        <li>(14,8,23,9)</li>
+        <li>(15,10,23,11)</li>
+        <li>(24,11,24,11)</li>
+        <li>(15,12,21,12)</li>
+        <li>(15,14,15,14)</li>
+        <li>(21,14,21,14)</li>
+        <li>(11,16,23,17)</li>
+        <li>(12,19,20,22)</li>
+        <li>(9,21,10,31)</li>
+        <li>(22,21,25,31)</li>
+        <li>(8,22,8,30)</li>
+        <li>(26,22,29,29)</li>
+        <li>(7,23,7,29)</li>
+        <li>(30,23,37,26)</li>
+        <li>(5,24,6,28)</li>
+        <li>(12,24,20,28)</li>
+        <li>(38,24,38,25)</li>
+        <li>(4,26,4,26)</li>
+        <li>(30,27,36,27)</li>
+        <li>(30,28,35,29)</li>
+        <li>(12,30,20,33)</li>
+        <li>(26,30,28,30)</li>
+        <li>(27,31,28,31)</li>
+        <li>(11,35,23,36)</li>
+        <li>(15,38,15,38)</li>
+        <li>(21,38,21,38)</li>
+        <li>(15,40,21,42)</li>
+        <li>(22,41,26,42)</li>
+        <li>(18,43,24,43)</li>
+        <li>(19,44,24,44)</li>
+      </rects>
+      <hp>300</hp>
+    </ShipHullTile>
+    <Ship_Thruster>
+      <rects>
+        <li>(19,6,19,6)</li>
+      </rects>
+      <hp>300</hp>
+    </Ship_Thruster>
+    <Ship_Corner_OneOne>
+      <rects>
+        <li>(9,7,9,7)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>500</hp>
+    </Ship_Corner_OneOne>
+    <ShipInside_PassiveVent>
+      <rects>
+        <li>(15,7,15,7)</li>
+        <li>(26,25,26,25)</li>
+        <li>(28,25,28,25)</li>
+        <li>(18,29,18,29)</li>
+        <li>(27,30,27,30)</li>
+        <li>(17,34,17,34)</li>
+      </rects>
+      <hp>500</hp>
+    </ShipInside_PassiveVent>
+    <Ship_Beam_Wrecked>
+      <rects>
+        <li>(25,7,25,7)</li>
+        <li>(25,12,26,12)</li>
+        <li>(39,23,39,23)</li>
+        <li>(42,26,42,28)</li>
+        <li>(46,26,46,26)</li>
+        <li>(37,27,37,28)</li>
+        <li>(43,27,43,27)</li>
+        <li>(36,30,36,31)</li>
+        <li>(12,44,12,44)</li>
+        <li>(11,45,11,45)</li>
+        <li>(19,45,19,45)</li>
+        <li>(20,46,20,46)</li>
+        <li>(10,47,10,49)</li>
+      </rects>
+      <hp>500</hp>
+    </Ship_Beam_Wrecked>
+    <Shelf>
+      <positions>
+        <li>(14, 0, 8)</li>
+        <li>(11, 0, 16)</li>
+        <li>(13, 0, 16)</li>
+        <li>(15, 0, 30)</li>
+      </positions>
+      <stuff>Steel</stuff>
+      <hp>100</hp>
+    </Shelf>
+    <ShipHeatsink>
+      <positions>
+        <li>(16, 0, 8)</li>
+        <li>(18, 0, 8)</li>
+        <li>(20, 0, 8)</li>
+        <li>(18, 0, 11)</li>
+        <li>(18, 0, 40)</li>
+        <li>(18, 0, 43)</li>
+        <li>(20, 0, 43)</li>
+      </positions>
+      <hp>800</hp>
+    </ShipHeatsink>
+    <ShipTorpedoOne>
+      <positions>
+        <li>(23, 0, 9)</li>
+        <li>(23, 0, 43)</li>
+      </positions>
+      <hp>1000</hp>
+    </ShipTorpedoOne>
+    <ShipHullTileWrecked>
+      <rects>
+        <li>(24,8,24,10)</li>
+        <li>(25,11,25,11)</li>
+        <li>(39,24,39,26)</li>
+        <li>(38,26,38,27)</li>
+        <li>(40,26,41,27)</li>
+        <li>(36,28,36,29)</li>
+        <li>(13,43,17,43)</li>
+        <li>(18,44,18,44)</li>
+      </rects>
+      <hp>200</hp>
+    </ShipHullTileWrecked>
+    <WallLamp>
+      <rects>
+        <li>(14,9,14,9)</li>
+        <li>(22,11,22,11)</li>
+        <li>(16,17,16,17)</li>
+        <li>(34,29,34,29)</li>
+        <li>(24,31,24,31)</li>
+        <li>(14,33,14,33)</li>
+      </rects>
+      <hp>35</hp>
+    </WallLamp>
+    <ShipHeatManifold>
+      <positions>
+        <li>(16, 0, 11)</li>
+        <li>(16, 0, 40)</li>
+      </positions>
+      <hp>800</hp>
+    </ShipHeatManifold>
+    <Shelf>
+      <positions>
+        <li>(20, 0, 12)</li>
+        <li>(22, 0, 26)</li>
+        <li>(22, 0, 29)</li>
+        <li>(20, 0, 41)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>100</hp>
+    </Shelf>
+    <Ship_Corner_OneOne>
+      <rects>
+        <li>(11,13,11,13)</li>
+        <li>(7,18,7,18)</li>
+        <li>(3,29,3,29)</li>
+        <li>(4,30,4,30)</li>
+        <li>(5,31,5,31)</li>
+        <li>(6,32,6,32)</li>
+        <li>(7,37,7,37)</li>
+        <li>(11,42,11,42)</li>
+        <li>(9,45,9,45)</li>
+        <li>(8,50,8,50)</li>
+      </rects>
+      <hp>500</hp>
+    </Ship_Corner_OneOne>
+    <ShipAirlock>
+      <rects>
+        <li>(15,13,15,13)</li>
+        <li>(21,13,21,13)</li>
+        <li>(15,15,15,15)</li>
+        <li>(21,15,21,15)</li>
+        <li>(19,18,19,18)</li>
+        <li>(19,23,19,23)</li>
+        <li>(24,24,24,24)</li>
+        <li>(29,25,29,25)</li>
+        <li>(19,29,19,29)</li>
+        <li>(28,32,28,32)</li>
+        <li>(19,34,19,34)</li>
+        <li>(15,37,15,37)</li>
+        <li>(21,37,21,37)</li>
+        <li>(15,39,15,39)</li>
+        <li>(21,39,21,39)</li>
+      </rects>
+      <hp>500</hp>
+    </ShipAirlock>
+    <Ship_Corner_OneTwo>
+      <position>(9, 0, 14)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>1000</hp>
+    </Ship_Corner_OneTwo>
+    <WallLamp>
+      <rects>
+        <li>(15,14,15,14)</li>
+        <li>(20,21,20,21)</li>
+        <li>(10,25,10,25)</li>
+        <li>(20,26,20,26)</li>
+        <li>(20,31,20,31)</li>
+        <li>(15,38,15,38)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>35</hp>
+    </WallLamp>
+    <WallLamp>
+      <rects>
+        <li>(21,14,21,14)</li>
+        <li>(22,22,22,22)</li>
+        <li>(27,23,27,23)</li>
+        <li>(38,25,38,25)</li>
+        <li>(12,27,12,27)</li>
+        <li>(21,38,21,38)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>35</hp>
+    </WallLamp>
+    <ShipCapacitorSmall>
+      <positions>
+        <li>(17, 0, 16)</li>
+        <li>(19, 0, 16)</li>
+        <li>(17, 0, 36)</li>
+        <li>(19, 0, 36)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>100</hp>
+    </ShipCapacitorSmall>
+    <ShipTurret_Laser>
+      <positions>
+        <li>(23, 0, 17)</li>
+        <li>(10, 0, 22)</li>
+        <li>(10, 0, 31)</li>
+        <li>(23, 0, 36)</li>
+        <li>(26, 0, 42)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>1000</hp>
+    </ShipTurret_Laser>
+    <ShipInside_PassiveVent>
+      <rects>
+        <li>(17,18,17,18)</li>
+        <li>(18,23,18,23)</li>
+        <li>(25,24,25,24)</li>
       </rects>
       <relativeRotation>Opposite</relativeRotation>
       <hp>500</hp>
-    </ShipInside_SolarGenerator>
-    <Marble>
+    </ShipInside_PassiveVent>
+    <Ship_Corner_OneOneFlip>
       <rects>
-        <li>(19,22,20,24)</li>
-        <li>(17,23,18,24)</li>
-        <li>(16,24,16,24)</li>
+        <li>(25,18,25,18)</li>
+        <li>(25,37,25,37)</li>
+        <li>(10,38,10,38)</li>
+        <li>(28,43,28,43)</li>
+        <li>(27,44,27,44)</li>
+        <li>(26,45,26,45)</li>
+        <li>(25,46,25,46)</li>
       </rects>
-      <hp>450</hp>
-      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
-    </Marble>
+      <hp>500</hp>
+    </Ship_Corner_OneOneFlip>
+    <Bed>
+      <positions>
+        <li>(12, 0, 19)</li>
+        <li>(16, 0, 19)</li>
+      </positions>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>140</hp>
+    </Bed>
+    <EndTable>
+      <rects>
+        <li>(13,19,13,19)</li>
+        <li>(15,19,15,19)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>75</hp>
+    </EndTable>
+    <Bed>
+      <position>(14, 0, 19)</position>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <hp>140</hp>
+    </Bed>
+    <WallLamp>
+      <rects>
+        <li>(14,19,14,19)</li>
+        <li>(34,23,34,23)</li>
+        <li>(23,25,23,25)</li>
+        <li>(30,26,30,26)</li>
+        <li>(28,31,28,31)</li>
+        <li>(16,35,16,35)</li>
+        <li>(22,41,22,41)</li>
+        <li>(14,43,14,43)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>35</hp>
+    </WallLamp>
+    <Ship_CryptosleepCasket>
+      <positions>
+        <li>(18, 0, 19)</li>
+        <li>(18, 0, 32)</li>
+      </positions>
+      <hp>250</hp>
+    </Ship_CryptosleepCasket>
+    <Ship_CryptosleepCasket>
+      <positions>
+        <li>(20, 0, 20)</li>
+        <li>(20, 0, 33)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>250</hp>
+    </Ship_CryptosleepCasket>
+    <ShipInside_PassiveVent>
+      <rects>
+        <li>(11,21,11,21)</li>
+        <li>(26,24,26,24)</li>
+        <li>(31,25,31,25)</li>
+        <li>(11,31,11,31)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>500</hp>
+    </ShipInside_PassiveVent>
+    <Shelf>
+      <positions>
+        <li>(20, 0, 21)</li>
+        <li>(30, 0, 23)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>100</hp>
+    </Shelf>
+    <Bed>
+      <positions>
+        <li>(22, 0, 21)</li>
+        <li>(22, 0, 23)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>140</hp>
+    </Bed>
+    <Dresser>
+      <position>(25, 0, 21)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Good</quality>
+      <hp>120</hp>
+    </Dresser>
+    <Dresser>
+      <position>(13, 0, 22)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Poor</quality>
+      <hp>120</hp>
+    </Dresser>
+    <BookcaseSmall>
+      <rects>
+        <li>(14,22,14,22)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>50</hp>
+    </BookcaseSmall>
+    <Shelf>
+      <positions>
+        <li>(16, 0, 22)</li>
+        <li>(23, 0, 31)</li>
+        <li>(12, 0, 36)</li>
+        <li>(14, 0, 36)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>100</hp>
+    </Shelf>
+    <EndTable>
+      <rects>
+        <li>(22,22,22,22)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>75</hp>
+    </EndTable>
+    <HospitalBed>
+      <positions>
+        <li>(27, 0, 22)</li>
+        <li>(27, 0, 24)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>150</hp>
+    </HospitalBed>
+    <ShipCapacitorSmall>
+      <positions>
+        <li>(7, 0, 23)</li>
+        <li>(38, 0, 24)</li>
+        <li>(7, 0, 29)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>100</hp>
+    </ShipCapacitorSmall>
+    <VitalsMonitor>
+      <rects>
+        <li>(27,23,27,23)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>100</hp>
+    </VitalsMonitor>
+    <ShipConsoleScience>
+      <position>(33, 0, 23)</position>
+      <hp>120</hp>
+    </ShipConsoleScience>
+    <ShipPilotSeatMini>
+      <position>(36, 0, 24)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>120</hp>
+    </ShipPilotSeatMini>
+    <Ship_Reactor>
+      <position>(7, 0, 26)</position>
+      <hp>500</hp>
+    </Ship_Reactor>
+    <ShipSalvageBay>
+      <position>(14, 0, 26)</position>
+      <hp>500</hp>
+    </ShipSalvageBay>
+    <OrbitalTradeBeacon>
+      <rects>
+        <li>(20,24,20,24)</li>
+      </rects>
+      <hp>75</hp>
+    </OrbitalTradeBeacon>
+    <ShipInside_PassiveVent>
+      <rects>
+        <li>(21,24,21,24)</li>
+        <li>(11,29,11,29)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>500</hp>
+    </ShipInside_PassiveVent>
+    <Ship_SensorCluster>
+      <rects>
+        <li>(32,24,32,24)</li>
+      </rects>
+      <hp>100</hp>
+    </Ship_SensorCluster>
+    <Armchair>
+      <rects>
+        <li>(33,24,33,24)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Synthread</stuff>
+      <quality>Normal</quality>
+      <hp>156</hp>
+    </Armchair>
+    <Armchair>
+      <rects>
+        <li>(35,24,35,24)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Synthread</stuff>
+      <quality>Normal</quality>
+      <hp>156</hp>
+    </Armchair>
+    <ShipCombatShieldGenerator>
+      <position>(19, 0, 26)</position>
+      <hp>600</hp>
+    </ShipCombatShieldGenerator>
+    <BookcaseSmall>
+      <rects>
+        <li>(25,25,25,25)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>50</hp>
+    </BookcaseSmall>
+    <Ship_Corner_OneTwo>
+      <positions>
+        <li>(2, 0, 27)</li>
+        <li>(7, 0, 48)</li>
+      </positions>
+      <hp>1000</hp>
+    </Ship_Corner_OneTwo>
+    <TubeTelevision>
+      <rects>
+        <li>(22,27,22,27)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>100</hp>
+    </TubeTelevision>
+    <DiningChair>
+      <rects>
+        <li>(25,27,25,27)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <quality>Good</quality>
+      <hp>100</hp>
+    </DiningChair>
+    <Ship_LifeSupport>
+      <position>(29, 0, 28)</position>
+      <hp>100</hp>
+    </Ship_LifeSupport>
+    <Armchair>
+      <rects>
+        <li>(33,27,33,27)</li>
+      </rects>
+      <stuff>Synthread</stuff>
+      <quality>Normal</quality>
+      <hp>156</hp>
+    </Armchair>
+    <Ship_Corner_OneTwo>
+      <positions>
+        <li>(45, 0, 27)</li>
+        <li>(43, 0, 28)</li>
+        <li>(30, 0, 32)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>1000</hp>
+    </Ship_Corner_OneTwo>
+    <FirefoamPopper>
+      <rects>
+        <li>(20,28,20,28)</li>
+      </rects>
+      <hp>50</hp>
+    </FirefoamPopper>
+    <Table1x2c>
+      <position>(25, 0, 28)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>75</hp>
+    </Table1x2c>
+    <DiningChair>
+      <rects>
+        <li>(26,28,26,28)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Good</quality>
+      <hp>100</hp>
+    </DiningChair>
+    <CommsConsole>
+      <position>(33, 0, 29)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>250</hp>
+    </CommsConsole>
+    <Armchair>
+      <rects>
+        <li>(35,28,35,28)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Synthread</stuff>
+      <quality>Poor</quality>
+      <hp>156</hp>
+    </Armchair>
+    <DiningChair>
+      <rects>
+        <li>(24,29,25,29)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>100</hp>
+    </DiningChair>
+    <Dresser>
+      <position>(12, 0, 30)</position>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>120</hp>
+    </Dresser>
+    <Bed>
+      <positions>
+        <li>(12, 0, 33)</li>
+        <li>(14, 0, 33)</li>
+        <li>(16, 0, 33)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>140</hp>
+    </Bed>
+    <ShipAirlockBeam>
+      <rects>
+        <li>(27,32,27,32)</li>
+        <li>(29,32,29,32)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>500</hp>
+    </ShipAirlockBeam>
+    <EndTable>
+      <rects>
+        <li>(13,33,13,33)</li>
+        <li>(15,33,15,33)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Poor</quality>
+      <hp>75</hp>
+    </EndTable>
+    <Ship_Corner_OneTwoFlip>
+      <position>(8, 0, 38)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>1000</hp>
+    </Ship_Corner_OneTwoFlip>
+    <ShipAirlockWrecked>
+      <rects>
+        <li>(10,46,10,46)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>500</hp>
+    </ShipAirlockWrecked>
   </things>
   <terrain>
     <FakeFloorInsideShip>
       <rects>
-        <li>(8,1,9,23)</li>
-        <li>(7,2,7,22)</li>
-        <li>(10,2,13,21)</li>
-        <li>(6,3,6,3)</li>
-        <li>(14,3,18,21)</li>
-        <li>(4,7,6,7)</li>
-        <li>(5,8,6,10)</li>
-        <li>(4,10,4,10)</li>
-        <li>(6,11,6,17)</li>
-        <li>(4,14,5,14)</li>
-        <li>(5,15,5,17)</li>
-        <li>(4,17,4,17)</li>
-        <li>(6,21,6,21)</li>
-        <li>(12,22,12,22)</li>
+        <li>(8,3,11,4)</li>
+        <li>(12,4,14,10)</li>
+        <li>(10,5,11,7)</li>
+        <li>(15,5,15,42)</li>
+        <li>(16,6,18,13)</li>
+        <li>(20,6,24,7)</li>
+        <li>(19,7,19,13)</li>
+        <li>(20,8,23,12)</li>
+        <li>(14,11,14,42)</li>
+        <li>(24,11,24,12)</li>
+        <li>(12,13,13,13)</li>
+        <li>(20,13,22,45)</li>
+        <li>(16,14,16,42)</li>
+        <li>(8,15,13,15)</li>
+        <li>(17,15,19,37)</li>
+        <li>(23,15,24,18)</li>
+        <li>(10,16,13,37)</li>
+        <li>(25,16,25,17)</li>
+        <li>(8,18,9,18)</li>
+        <li>(7,20,9,32)</li>
+        <li>(23,20,29,21)</li>
+        <li>(6,21,6,31)</li>
+        <li>(30,21,36,22)</li>
+        <li>(5,22,5,30)</li>
+        <li>(23,22,26,32)</li>
+        <li>(37,22,38,25)</li>
+        <li>(4,23,4,29)</li>
+        <li>(31,23,36,27)</li>
+        <li>(3,24,3,28)</li>
+        <li>(27,25,30,31)</li>
+        <li>(2,26,2,26)</li>
+        <li>(37,26,37,26)</li>
+        <li>(31,28,35,31)</li>
+        <li>(27,32,29,32)</li>
+        <li>(8,34,9,34)</li>
+        <li>(23,34,24,37)</li>
+        <li>(25,35,25,36)</li>
+        <li>(8,37,9,37)</li>
+        <li>(12,39,13,39)</li>
+        <li>(17,39,19,42)</li>
+        <li>(23,40,27,43)</li>
+        <li>(28,41,28,42)</li>
+        <li>(12,42,13,42)</li>
+        <li>(12,43,12,43)</li>
+        <li>(18,43,19,43)</li>
+        <li>(19,44,19,44)</li>
+        <li>(23,44,26,44)</li>
+        <li>(10,45,10,45)</li>
+        <li>(23,45,25,45)</li>
+        <li>(21,46,24,46)</li>
+        <li>(8,48,9,49)</li>
       </rects>
     </FakeFloorInsideShip>
+    <SterileTile>
+      <rects>
+        <li>(27,22,29,24)</li>
+        <li>(30,23,30,24)</li>
+      </rects>
+    </SterileTile>
   </terrain>
   <terrainLayers>
     <terrainLayerDetail layer="topGrid">
       <FakeFloorInsideShip>
         <rects>
-          <li>(8,1,9,23)</li>
-          <li>(7,2,7,22)</li>
-          <li>(10,2,13,21)</li>
-          <li>(6,3,6,3)</li>
-          <li>(14,3,18,21)</li>
-          <li>(4,7,6,7)</li>
-          <li>(5,8,6,10)</li>
-          <li>(4,10,4,10)</li>
-          <li>(6,11,6,17)</li>
-          <li>(4,14,5,14)</li>
-          <li>(5,15,5,17)</li>
-          <li>(4,17,4,17)</li>
-          <li>(6,21,6,21)</li>
-          <li>(12,22,12,22)</li>
+          <li>(8,3,11,4)</li>
+          <li>(12,4,14,10)</li>
+          <li>(10,5,11,7)</li>
+          <li>(15,5,15,42)</li>
+          <li>(16,6,18,13)</li>
+          <li>(20,6,24,7)</li>
+          <li>(19,7,19,13)</li>
+          <li>(20,8,23,12)</li>
+          <li>(14,11,14,42)</li>
+          <li>(24,11,24,12)</li>
+          <li>(12,13,13,13)</li>
+          <li>(20,13,22,45)</li>
+          <li>(16,14,16,42)</li>
+          <li>(8,15,13,15)</li>
+          <li>(17,15,19,37)</li>
+          <li>(23,15,24,18)</li>
+          <li>(10,16,13,37)</li>
+          <li>(25,16,25,17)</li>
+          <li>(8,18,9,18)</li>
+          <li>(7,20,9,32)</li>
+          <li>(23,20,29,21)</li>
+          <li>(6,21,6,31)</li>
+          <li>(30,21,36,22)</li>
+          <li>(5,22,5,30)</li>
+          <li>(23,22,26,32)</li>
+          <li>(37,22,38,25)</li>
+          <li>(4,23,4,29)</li>
+          <li>(31,23,36,27)</li>
+          <li>(3,24,3,28)</li>
+          <li>(27,25,30,31)</li>
+          <li>(2,26,2,26)</li>
+          <li>(37,26,37,26)</li>
+          <li>(31,28,35,31)</li>
+          <li>(27,32,29,32)</li>
+          <li>(8,34,9,34)</li>
+          <li>(23,34,24,37)</li>
+          <li>(25,35,25,36)</li>
+          <li>(8,37,9,37)</li>
+          <li>(12,39,13,39)</li>
+          <li>(17,39,19,42)</li>
+          <li>(23,40,27,43)</li>
+          <li>(28,41,28,42)</li>
+          <li>(12,42,13,42)</li>
+          <li>(12,43,12,43)</li>
+          <li>(18,43,19,43)</li>
+          <li>(19,44,19,44)</li>
+          <li>(23,44,26,44)</li>
+          <li>(10,45,10,45)</li>
+          <li>(23,45,25,45)</li>
+          <li>(21,46,24,46)</li>
+          <li>(8,48,9,49)</li>
         </rects>
       </FakeFloorInsideShip>
+      <ShipWreckageTerrain>
+        <rects>
+          <li>(25,7,25,7)</li>
+          <li>(24,8,24,10)</li>
+          <li>(25,11,25,12)</li>
+          <li>(26,12,26,12)</li>
+          <li>(39,23,39,26)</li>
+          <li>(38,26,38,27)</li>
+          <li>(40,26,42,27)</li>
+          <li>(46,26,46,26)</li>
+          <li>(37,27,37,28)</li>
+          <li>(43,27,43,27)</li>
+          <li>(36,28,36,31)</li>
+          <li>(42,28,42,28)</li>
+          <li>(13,43,17,43)</li>
+          <li>(12,44,12,44)</li>
+          <li>(18,44,18,44)</li>
+          <li>(11,45,11,45)</li>
+          <li>(19,45,19,45)</li>
+          <li>(10,46,10,49)</li>
+          <li>(20,46,20,46)</li>
+        </rects>
+      </ShipWreckageTerrain>
+      <SterileTile>
+        <rects>
+          <li>(27,22,29,24)</li>
+          <li>(30,23,30,24)</li>
+        </rects>
+      </SterileTile>
     </terrainLayerDetail>
     <terrainLayerDetail layer="underGrid">
-      <Soil>
+      <EmptySpace>
         <rects>
-          <li>(8,1,9,22)</li>
-          <li>(7,2,7,21)</li>
-          <li>(10,2,13,21)</li>
-          <li>(6,3,6,3)</li>
-          <li>(14,3,18,21)</li>
-          <li>(4,7,6,7)</li>
-          <li>(5,8,6,10)</li>
-          <li>(4,10,4,10)</li>
-          <li>(6,11,6,17)</li>
-          <li>(4,14,5,14)</li>
-          <li>(5,15,5,17)</li>
-          <li>(4,17,4,17)</li>
-          <li>(6,21,6,21)</li>
-          <li>(12,22,12,22)</li>
+          <li>(8,3,11,4)</li>
+          <li>(12,4,14,10)</li>
+          <li>(10,5,11,7)</li>
+          <li>(15,5,15,43)</li>
+          <li>(16,6,18,13)</li>
+          <li>(20,6,24,12)</li>
+          <li>(19,7,19,13)</li>
+          <li>(25,7,25,7)</li>
+          <li>(14,11,14,43)</li>
+          <li>(25,11,25,12)</li>
+          <li>(26,12,26,12)</li>
+          <li>(12,13,13,13)</li>
+          <li>(20,13,22,46)</li>
+          <li>(16,14,16,43)</li>
+          <li>(8,15,13,15)</li>
+          <li>(17,15,19,37)</li>
+          <li>(23,15,24,18)</li>
+          <li>(10,16,13,37)</li>
+          <li>(25,16,25,17)</li>
+          <li>(8,18,9,18)</li>
+          <li>(7,20,9,32)</li>
+          <li>(23,20,29,32)</li>
+          <li>(6,21,6,31)</li>
+          <li>(30,21,36,31)</li>
+          <li>(5,22,5,30)</li>
+          <li>(37,22,38,27)</li>
+          <li>(4,23,4,29)</li>
+          <li>(39,23,39,26)</li>
+          <li>(3,24,3,28)</li>
+          <li>(2,26,2,26)</li>
+          <li>(40,26,42,27)</li>
+          <li>(46,26,46,26)</li>
+          <li>(43,27,43,27)</li>
+          <li>(37,28,37,28)</li>
+          <li>(42,28,42,28)</li>
+          <li>(8,34,9,34)</li>
+          <li>(23,34,24,37)</li>
+          <li>(25,35,25,36)</li>
+          <li>(8,37,9,37)</li>
+          <li>(12,39,13,39)</li>
+          <li>(17,39,19,43)</li>
+          <li>(23,40,27,43)</li>
+          <li>(28,41,28,42)</li>
+          <li>(12,42,13,43)</li>
+          <li>(12,44,12,44)</li>
+          <li>(18,44,19,44)</li>
+          <li>(23,44,26,44)</li>
+          <li>(10,45,11,45)</li>
+          <li>(19,45,19,45)</li>
+          <li>(23,45,25,45)</li>
+          <li>(10,46,10,49)</li>
+          <li>(23,46,24,46)</li>
+          <li>(8,48,9,49)</li>
         </rects>
-      </Soil>
-      <SoilRich>
-        <rects>
-          <li>(7,22,7,22)</li>
-          <li>(8,23,9,23)</li>
-        </rects>
-      </SoilRich>
+      </EmptySpace>
     </terrainLayerDetail>
   </terrainLayers>
   <roofs>
     <RoofShip>
       <rects>
-        <li>(7,2,7,6)</li>
-        <li>(10,2,13,21)</li>
-        <li>(6,3,6,3)</li>
-        <li>(8,3,9,21)</li>
-        <li>(14,3,18,21)</li>
-        <li>(6,8,7,9)</li>
-        <li>(7,10,7,16)</li>
-        <li>(6,15,6,16)</li>
-        <li>(7,18,7,22)</li>
-        <li>(6,21,6,21)</li>
-        <li>(12,22,12,22)</li>
+        <li>(8,3,11,4)</li>
+        <li>(12,4,14,10)</li>
+        <li>(10,5,11,7)</li>
+        <li>(15,5,15,42)</li>
+        <li>(16,6,18,13)</li>
+        <li>(20,6,24,7)</li>
+        <li>(19,7,19,13)</li>
+        <li>(20,8,23,12)</li>
+        <li>(14,11,14,42)</li>
+        <li>(24,11,24,12)</li>
+        <li>(12,13,13,13)</li>
+        <li>(20,13,22,23)</li>
+        <li>(16,14,16,42)</li>
+        <li>(8,15,13,15)</li>
+        <li>(17,15,19,18)</li>
+        <li>(23,15,24,18)</li>
+        <li>(10,16,13,37)</li>
+        <li>(25,16,25,17)</li>
+        <li>(8,18,9,18)</li>
+        <li>(18,19,19,37)</li>
+        <li>(7,20,9,32)</li>
+        <li>(23,20,29,21)</li>
+        <li>(6,21,6,31)</li>
+        <li>(30,21,36,22)</li>
+        <li>(5,22,5,30)</li>
+        <li>(23,22,25,23)</li>
+        <li>(27,22,29,24)</li>
+        <li>(37,22,38,22)</li>
+        <li>(4,23,4,25)</li>
+        <li>(17,23,17,29)</li>
+        <li>(30,23,30,24)</li>
+        <li>(32,23,36,27)</li>
+        <li>(38,23,38,25)</li>
+        <li>(3,24,3,28)</li>
+        <li>(20,24,21,45)</li>
+        <li>(22,25,25,32)</li>
+        <li>(2,26,2,26)</li>
+        <li>(26,26,26,29)</li>
+        <li>(28,26,30,29)</li>
+        <li>(4,27,4,29)</li>
+        <li>(32,28,35,31)</li>
+        <li>(29,30,31,31)</li>
+        <li>(26,31,28,32)</li>
+        <li>(29,32,29,32)</li>
+        <li>(22,33,22,46)</li>
+        <li>(8,34,9,34)</li>
+        <li>(17,34,17,37)</li>
+        <li>(23,34,24,37)</li>
+        <li>(25,35,25,36)</li>
+        <li>(8,37,9,37)</li>
+        <li>(12,39,13,39)</li>
+        <li>(17,39,19,42)</li>
+        <li>(23,40,27,43)</li>
+        <li>(28,41,28,42)</li>
+        <li>(12,42,13,42)</li>
+        <li>(12,43,12,43)</li>
+        <li>(18,43,19,43)</li>
+        <li>(19,44,19,44)</li>
+        <li>(23,44,26,44)</li>
+        <li>(10,45,10,45)</li>
+        <li>(23,45,25,45)</li>
+        <li>(21,46,21,46)</li>
+        <li>(23,46,24,46)</li>
+        <li>(8,48,9,49)</li>
       </rects>
     </RoofShip>
     <RoofConstructed>
       <rects>
-        <li>(4,7,7,7)</li>
-        <li>(5,8,5,10)</li>
-        <li>(4,10,4,10)</li>
-        <li>(6,10,6,14)</li>
-        <li>(4,14,5,14)</li>
-        <li>(5,15,5,17)</li>
-        <li>(4,17,4,17)</li>
-        <li>(6,17,7,17)</li>
+        <li>(24,8,24,10)</li>
+        <li>(25,11,25,11)</li>
+        <li>(17,19,17,22)</li>
+        <li>(26,22,26,25)</li>
+        <li>(31,23,31,29)</li>
+        <li>(37,23,37,26)</li>
+        <li>(22,24,25,24)</li>
+        <li>(39,24,39,26)</li>
+        <li>(27,25,30,25)</li>
+        <li>(4,26,4,26)</li>
+        <li>(27,26,27,30)</li>
+        <li>(38,26,38,27)</li>
+        <li>(40,26,41,27)</li>
+        <li>(36,28,36,29)</li>
+        <li>(17,30,17,33)</li>
+        <li>(26,30,26,30)</li>
+        <li>(28,30,28,30)</li>
+        <li>(13,43,17,43)</li>
+        <li>(18,44,18,44)</li>
+        <li>(10,46,10,46)</li>
       </rects>
     </RoofConstructed>
-    <RoofRockThin>
-      <rects>
-        <li>(0,21,2,23)</li>
-        <li>(3,22,4,24)</li>
-        <li>(19,22,20,24)</li>
-        <li>(5,23,6,24)</li>
-        <li>(17,23,18,24)</li>
-        <li>(7,24,8,24)</li>
-        <li>(16,24,16,24)</li>
-      </rects>
-    </RoofRockThin>
-    <RoofRockThick>
-      <rects>
-        <li>(0,24,2,24)</li>
-      </rects>
-    </RoofRockThick>
   </roofs>
 </PrefabDef>
