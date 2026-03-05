@@ -1,0 +1,94 @@
+<PrefabDef>
+  <defName>Prefab_20260305_175755</defName>
+  <size>(13,13)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>斜角墙房间</name>
+    <description>斜角墙房间</description>
+    <tags></tags>
+    <author>麦丫Maiya</author>
+    <category>宿舍</category>
+    <BuildingID>fddfd60d-5481-43f5-9c69-bfc604fcb31d</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>oels.nanamewalls</packageId>
+        <name>Hull Style: NANAME Walls</name>
+        <version>1.6.34</version>
+        <modorder>197</modorder>
+        <steamWorkshopId>3543791340</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Wall_NAWDiagonal</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>斜角墙房间</default>
+        <zh-CN>斜角墙房间</zh-CN>
+        <zh-TW>斜角牆房間</zh-TW>
+        <en>Angled Wall Room</en>
+        <ru>Комната с наклонными стенами</ru>
+        <fr>Pièce à murs inclinés</fr>
+        <de>Raum mit abgeschrägten Wänden</de>
+        <es>Habitación con paredes en ángulo</es>
+        <ja>斜め壁の部屋</ja>
+        <ko>사각 벽 방</ko>
+      </name>
+      <description>
+        <default>斜角墙房间</default>
+        <zh-CN>斜角墙房间</zh-CN>
+        <zh-TW>斜角牆房間</zh-TW>
+        <en>Angled Wall Room</en>
+        <ru>Комната с наклонными стенами</ru>
+        <fr>Pièce à murs inclinés</fr>
+        <de>Raum mit abgeschrägten Wänden</de>
+        <es>Habitación con paredes en ángulo</es>
+        <ja>斜め壁の部屋</ja>
+        <ko>사각 벽 방</ko>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall_NAWDiagonal>
+      <rects>
+        <li>(1,0,5,0)</li>
+        <li>(7,0,11,0)</li>
+        <li>(0,1,0,5)</li>
+        <li>(12,1,12,5)</li>
+        <li>(0,7,0,11)</li>
+        <li>(12,7,12,11)</li>
+        <li>(1,12,5,12)</li>
+        <li>(7,12,11,12)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>195</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Wall_NAWDiagonal>
+    <Door>
+      <rects>
+        <li>(6,0,6,0)</li>
+        <li>(6,12,6,12)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <Door>
+      <rects>
+        <li>(0,6,0,6)</li>
+        <li>(12,6,12,6)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+  </things>
+  <terrainLayers></terrainLayers>
+</PrefabDef>
