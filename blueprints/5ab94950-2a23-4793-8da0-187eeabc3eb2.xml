@@ -1,0 +1,482 @@
+<PrefabDef>
+  <defName>Prefab_20260309_002913</defName>
+  <size>(19,19)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>19x19工作间</name>
+    <description>大工作间兼顾储存</description>
+    <tags></tags>
+    <author>施斯卡</author>
+    <category>车间</category>
+    <BuildingID>5ab94950-2a23-4793-8da0-187eeabc3eb2</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>lwm.deepstorage</packageId>
+        <name><![CDATA[LWM's Deep Storage]]></name>
+        <version></version>
+        <modorder>79</modorder>
+        <steamWorkshopId>3532608331</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>LWM_BigShelf</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>aoba.deadmanswitch.core</packageId>
+        <name><![CDATA[The Dead Man's Switch]]></name>
+        <version>1.8.20</version>
+        <modorder>22</modorder>
+        <steamWorkshopId>3121742525</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+          <li>
+            <packageId>aoba.framework</packageId>
+            <steamWorkshopId>3498575851</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>DMS_ReactionChamber</li>
+          <li>DMS_Furnace</li>
+          <li>DMS_TableMachinePrinter</li>
+          <li>DMS_TableAmmoPrinter</li>
+          <li>DMS_TableArtifuscle</li>
+          <li>DMS_MachineCabinet</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>19x19工作间</default>
+        <zh-CN>19x19工作间</zh-CN>
+        <zh-TW>9×9娛樂室</zh-TW>
+        <en>9×9 Recreation Room</en>
+        <ru>Развлекательная Комната 9×9</ru>
+        <fr>Salle de Loisirs 9×9</fr>
+        <ja>9×9娯楽室</ja>
+      </name>
+      <description>
+        <default>大工作间兼顾储存</default>
+        <zh-CN>大工作间兼顾储存</zh-CN>
+        <zh-TW>來自B站up主「納玆琳」設計的9×9迷你模組小房間，這是一個娛樂室</zh-TW>
+        <en><![CDATA[A 9×9 mini modular room designed by Bilibili UP master "Nazlin", this is a recreation room]]></en>
+        <ru><![CDATA[Маленькая модульная комната 9×9, разработанная Bilibili UP мастером "Назлин", это развлекательная комната]]></ru>
+        <fr><![CDATA[Une petite pièce modulaire mini de 9×9 conçue par le maître UP de Bilibili "Nazlin", c'est une salle de loisirs]]></fr>
+        <ja>BilibiliのUP主「ナズリン」が設計した9×9ミニモジュラー小部屋で、これは娯楽室です</ja>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,0,0)</li>
+        <li>(2,0,8,0)</li>
+        <li>(10,0,16,0)</li>
+        <li>(18,0,18,0)</li>
+        <li>(0,2,0,8)</li>
+        <li>(18,2,18,8)</li>
+        <li>(0,10,0,16)</li>
+        <li>(18,10,18,16)</li>
+        <li>(0,18,0,18)</li>
+        <li>(2,18,8,18)</li>
+        <li>(10,18,16,18)</li>
+        <li>(18,18,18,18)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>195</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Wall>
+    <PowerConduit>
+      <rects>
+        <li>(0,0,18,0)</li>
+        <li>(0,1,0,18)</li>
+        <li>(9,1,9,18)</li>
+        <li>(18,1,18,18)</li>
+        <li>(1,9,8,9)</li>
+        <li>(10,9,17,9)</li>
+        <li>(1,18,8,18)</li>
+        <li>(10,18,17,18)</li>
+      </rects>
+      <hp>80</hp>
+    </PowerConduit>
+    <Cooler>
+      <rects>
+        <li>(1,0,1,0)</li>
+        <li>(17,0,17,0)</li>
+        <li>(17,18,17,18)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>100</hp>
+    </Cooler>
+    <Autodoor>
+      <rects>
+        <li>(9,0,9,0)</li>
+        <li>(9,18,9,18)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Autodoor>
+    <Cooler>
+      <rects>
+        <li>(0,1,0,1)</li>
+        <li>(0,17,0,17)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>100</hp>
+    </Cooler>
+    <Heater>
+      <rects>
+        <li>(1,1,1,1)</li>
+        <li>(17,1,17,1)</li>
+        <li>(1,17,1,17)</li>
+        <li>(17,17,17,17)</li>
+      </rects>
+      <hp>100</hp>
+    </Heater>
+    <Cooler>
+      <rects>
+        <li>(18,1,18,1)</li>
+        <li>(18,17,18,17)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>100</hp>
+    </Cooler>
+    <LWM_BigShelf>
+      <positions>
+        <li>(3, 0, 2)</li>
+        <li>(6, 0, 2)</li>
+        <li>(13, 0, 2)</li>
+        <li>(16, 0, 2)</li>
+        <li>(16, 0, 8)</li>
+        <li>(3, 0, 10)</li>
+        <li>(16, 0, 10)</li>
+        <li>(3, 0, 11)</li>
+        <li>(16, 0, 11)</li>
+        <li>(8, 0, 12)</li>
+        <li>(11, 0, 12)</li>
+        <li>(3, 0, 13)</li>
+        <li>(16, 0, 13)</li>
+        <li>(3, 0, 14)</li>
+        <li>(16, 0, 14)</li>
+        <li>(3, 0, 15)</li>
+        <li>(5, 0, 15)</li>
+        <li>(14, 0, 15)</li>
+        <li>(16, 0, 15)</li>
+        <li>(3, 0, 17)</li>
+        <li>(5, 0, 17)</li>
+        <li>(7, 0, 17)</li>
+        <li>(12, 0, 17)</li>
+        <li>(14, 0, 17)</li>
+        <li>(16, 0, 17)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>52</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </LWM_BigShelf>
+    <DiningChair>
+      <rects>
+        <li>(4,2,4,2)</li>
+        <li>(7,2,7,2)</li>
+        <li>(11,2,11,2)</li>
+        <li>(14,2,14,2)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DiningChair>
+    <LWM_BigShelf>
+      <positions>
+        <li>(2, 0, 3)</li>
+        <li>(2, 0, 5)</li>
+        <li>(6, 0, 14)</li>
+        <li>(8, 0, 14)</li>
+        <li>(10, 0, 14)</li>
+        <li>(12, 0, 14)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>52</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </LWM_BigShelf>
+    <DMS_ReactionChamber>
+      <positions>
+        <li>(4, 0, 4)</li>
+        <li>(7, 0, 4)</li>
+      </positions>
+      <hp>1200</hp>
+    </DMS_ReactionChamber>
+    <DMS_Furnace>
+      <positions>
+        <li>(11, 0, 4)</li>
+        <li>(14, 0, 4)</li>
+      </positions>
+      <hp>2000</hp>
+    </DMS_Furnace>
+    <LWM_BigShelf>
+      <positions>
+        <li>(16, 0, 4)</li>
+        <li>(16, 0, 6)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>52</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </LWM_BigShelf>
+    <FirefoamPopper>
+      <rects>
+        <li>(9,5,9,5)</li>
+        <li>(9,13,9,13)</li>
+      </rects>
+      <hp>50</hp>
+    </FirefoamPopper>
+    <DMS_TableMachinePrinter>
+      <position>(3, 0, 7)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>500</hp>
+    </DMS_TableMachinePrinter>
+    <DMS_TableMachinePrinter>
+      <position>(6, 0, 7)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>500</hp>
+    </DMS_TableMachinePrinter>
+    <ToolCabinet>
+      <positions>
+        <li>(7, 0, 6)</li>
+        <li>(10, 0, 6)</li>
+        <li>(7, 0, 10)</li>
+        <li>(10, 0, 10)</li>
+      </positions>
+      <hp>100</hp>
+      <color>RGBA(0.376, 0.447, 0.373, 1.000)</color>
+    </ToolCabinet>
+    <Column>
+      <rects>
+        <li>(9,6,9,6)</li>
+        <li>(6,9,6,9)</li>
+        <li>(12,9,12,9)</li>
+        <li>(9,12,9,12)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Column>
+    <DMS_TableAmmoPrinter>
+      <position>(12, 0, 7)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>500</hp>
+    </DMS_TableAmmoPrinter>
+    <DMS_TableArtifuscle>
+      <position>(14, 0, 7)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>200</hp>
+    </DMS_TableArtifuscle>
+    <DiningChair>
+      <rects>
+        <li>(2,7,2,7)</li>
+        <li>(11,7,11,7)</li>
+        <li>(15,7,15,7)</li>
+        <li>(3,12,3,12)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DiningChair>
+    <DiningChair>
+      <rects>
+        <li>(7,7,7,7)</li>
+        <li>(7,11,7,11)</li>
+        <li>(11,11,11,11)</li>
+        <li>(7,14,7,14)</li>
+        <li>(11,14,11,14)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DiningChair>
+    <DMS_MachineCabinet>
+      <positions>
+        <li>(7, 0, 8)</li>
+        <li>(10, 0, 8)</li>
+      </positions>
+      <hp>250</hp>
+    </DMS_MachineCabinet>
+    <Autodoor>
+      <rects>
+        <li>(0,9,0,9)</li>
+        <li>(18,9,18,9)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Autodoor>
+    <FloodLight>
+      <rects>
+        <li>(9,9,9,9)</li>
+      </rects>
+      <hp>120</hp>
+    </FloodLight>
+    <FabricationBench>
+      <position>(4, 0, 12)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>300</hp>
+    </FabricationBench>
+    <TableStonecutter>
+      <position>(6, 0, 11)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>117</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </TableStonecutter>
+    <DMS_TableArtifuscle>
+      <position>(12, 0, 11)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>200</hp>
+    </DMS_TableArtifuscle>
+    <FabricationBench>
+      <position>(14, 0, 12)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>300</hp>
+    </FabricationBench>
+    <DiningChair>
+      <rects>
+        <li>(15,12,15,12)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DiningChair>
+    <ElectricSmithy>
+      <position>(7, 0, 13)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>180</hp>
+    </ElectricSmithy>
+    <TableSculpting>
+      <position>(11, 0, 13)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>117</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </TableSculpting>
+    <Cooler>
+      <rects>
+        <li>(1,18,1,18)</li>
+      </rects>
+      <hp>100</hp>
+    </Cooler>
+  </things>
+  <terrain>
+    <MetalTile>
+      <rects>
+        <li>(0,0,18,18)</li>
+      </rects>
+    </MetalTile>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <MetalTile>
+        <rects>
+          <li>(0,0,18,18)</li>
+        </rects>
+      </MetalTile>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(0,0,2,3)</li>
+          <li>(18,1,18,3)</li>
+          <li>(17,2,17,3)</li>
+          <li>(0,4,0,4)</li>
+          <li>(15,5,15,6)</li>
+          <li>(11,6,11,6)</li>
+          <li>(13,6,14,6)</li>
+          <li>(16,6,18,6)</li>
+          <li>(0,7,10,8)</li>
+          <li>(18,7,18,18)</li>
+          <li>(0,9,8,18)</li>
+          <li>(9,10,9,18)</li>
+          <li>(10,11,10,18)</li>
+          <li>(12,11,14,18)</li>
+          <li>(16,11,17,18)</li>
+          <li>(11,12,11,18)</li>
+          <li>(15,12,15,18)</li>
+        </rects>
+      </Soil>
+      <Gravel>
+        <rects>
+          <li>(3,0,4,0)</li>
+          <li>(17,0,18,0)</li>
+          <li>(3,1,3,4)</li>
+          <li>(14,1,17,1)</li>
+          <li>(14,2,16,4)</li>
+          <li>(1,4,2,6)</li>
+          <li>(17,4,18,5)</li>
+          <li>(0,5,0,6)</li>
+          <li>(4,5,5,6)</li>
+          <li>(8,5,14,5)</li>
+          <li>(16,5,16,5)</li>
+          <li>(3,6,3,6)</li>
+          <li>(6,6,10,6)</li>
+        </rects>
+      </Gravel>
+      <Granite_Rough>
+        <rects>
+          <li>(5,0,16,0)</li>
+          <li>(4,1,13,3)</li>
+          <li>(5,4,13,4)</li>
+          <li>(6,5,7,5)</li>
+        </rects>
+      </Granite_Rough>
+      <Sandstone_Rough>
+        <rects>
+          <li>(4,4,4,4)</li>
+          <li>(3,5,3,5)</li>
+        </rects>
+      </Sandstone_Rough>
+      <SoilRich>
+        <rects>
+          <li>(12,6,12,10)</li>
+          <li>(11,7,11,11)</li>
+          <li>(13,7,17,10)</li>
+          <li>(9,9,10,9)</li>
+          <li>(10,10,10,10)</li>
+          <li>(15,11,15,11)</li>
+        </rects>
+      </SoilRich>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,18,6)</li>
+        <li>(0,7,6,18)</li>
+        <li>(12,7,18,18)</li>
+        <li>(7,12,11,18)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,18,18)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
