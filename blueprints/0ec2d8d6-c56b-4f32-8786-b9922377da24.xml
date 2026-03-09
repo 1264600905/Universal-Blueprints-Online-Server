@@ -1,0 +1,224 @@
+<PrefabDef>
+  <defName>Prefab_20260309_150001</defName>
+  <size>(13,13)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>仓库</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>储藏室</category>
+    <BuildingID>0ec2d8d6-c56b-4f32-8786-b9922377da24</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>tot.celetech.mkiii</packageId>
+        <name>CeleTech Arsenal MKIII</name>
+        <version></version>
+        <modorder>65</modorder>
+        <steamWorkshopId>3446237098</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+        </dependencies>
+        <things>
+          <li>CMC_WallTempController</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>仓库</default>
+        <zh-CN>仓库</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,0,12)</li>
+        <li>(2,0,10,0)</li>
+        <li>(12,0,12,12)</li>
+        <li>(1,12,11,12)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>300</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Wall>
+    <HiddenConduit>
+      <rects>
+        <li>(0,0,12,0)</li>
+        <li>(0,1,0,12)</li>
+        <li>(12,1,12,12)</li>
+        <li>(1,12,11,12)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <Door>
+      <rects>
+        <li>(1,0,1,0)</li>
+        <li>(11,0,11,0)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>160</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Door>
+    <Shelf>
+      <positions>
+        <li>(2, 0, 1)</li>
+        <li>(4, 0, 1)</li>
+        <li>(6, 0, 1)</li>
+        <li>(8, 0, 1)</li>
+        <li>(10, 0, 1)</li>
+        <li>(3, 0, 2)</li>
+        <li>(5, 0, 2)</li>
+        <li>(7, 0, 2)</li>
+        <li>(9, 0, 2)</li>
+        <li>(7, 0, 7)</li>
+        <li>(6, 0, 8)</li>
+        <li>(8, 0, 8)</li>
+        <li>(5, 0, 9)</li>
+        <li>(7, 0, 9)</li>
+        <li>(9, 0, 9)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>100</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Shelf>
+    <Shelf>
+      <positions>
+        <li>(1, 0, 2)</li>
+        <li>(9, 0, 3)</li>
+        <li>(1, 0, 4)</li>
+        <li>(8, 0, 4)</li>
+        <li>(7, 0, 5)</li>
+        <li>(9, 0, 5)</li>
+        <li>(1, 0, 6)</li>
+        <li>(8, 0, 6)</li>
+        <li>(9, 0, 7)</li>
+        <li>(1, 0, 8)</li>
+        <li>(1, 0, 10)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>100</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Shelf>
+    <Shelf>
+      <positions>
+        <li>(10, 0, 3)</li>
+        <li>(2, 0, 4)</li>
+        <li>(11, 0, 4)</li>
+        <li>(3, 0, 5)</li>
+        <li>(10, 0, 5)</li>
+        <li>(2, 0, 6)</li>
+        <li>(4, 0, 6)</li>
+        <li>(11, 0, 6)</li>
+        <li>(3, 0, 7)</li>
+        <li>(5, 0, 7)</li>
+        <li>(10, 0, 7)</li>
+        <li>(2, 0, 8)</li>
+        <li>(4, 0, 8)</li>
+        <li>(11, 0, 8)</li>
+        <li>(3, 0, 9)</li>
+        <li>(10, 0, 9)</li>
+        <li>(2, 0, 10)</li>
+        <li>(11, 0, 10)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>100</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Shelf>
+    <CMC_WallTempController>
+      <rects>
+        <li>(11,2,11,2)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>300</hp>
+    </CMC_WallTempController>
+    <Shelf>
+      <positions>
+        <li>(3, 0, 3)</li>
+        <li>(5, 0, 3)</li>
+        <li>(7, 0, 3)</li>
+        <li>(4, 0, 4)</li>
+        <li>(6, 0, 4)</li>
+        <li>(5, 0, 5)</li>
+        <li>(3, 0, 10)</li>
+        <li>(5, 0, 10)</li>
+        <li>(7, 0, 10)</li>
+        <li>(9, 0, 10)</li>
+        <li>(2, 0, 11)</li>
+        <li>(4, 0, 11)</li>
+        <li>(6, 0, 11)</li>
+        <li>(8, 0, 11)</li>
+        <li>(10, 0, 11)</li>
+      </positions>
+      <stuff>Steel</stuff>
+      <hp>100</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Shelf>
+    <OrbitalTradeBeacon>
+      <rects>
+        <li>(6,6,6,6)</li>
+      </rects>
+      <hp>75</hp>
+    </OrbitalTradeBeacon>
+  </things>
+  <terrainLayers></terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,12,1)</li>
+        <li>(3,2,12,2)</li>
+        <li>(4,3,12,6)</li>
+        <li>(4,7,11,7)</li>
+        <li>(5,8,11,8)</li>
+        <li>(6,9,8,9)</li>
+        <li>(10,9,10,9)</li>
+      </rects>
+    </RoofConstructed>
+    <RoofRockThin>
+      <rects>
+        <li>(0,2,2,12)</li>
+        <li>(3,3,3,12)</li>
+        <li>(12,7,12,9)</li>
+        <li>(4,8,4,12)</li>
+        <li>(5,9,5,12)</li>
+        <li>(9,9,9,11)</li>
+        <li>(11,9,11,10)</li>
+        <li>(6,10,8,10)</li>
+        <li>(10,10,10,10)</li>
+        <li>(6,11,6,12)</li>
+        <li>(8,11,8,11)</li>
+        <li>(7,12,7,12)</li>
+      </rects>
+    </RoofRockThin>
+    <RoofRockThick>
+      <rects>
+        <li>(12,10,12,12)</li>
+        <li>(7,11,7,11)</li>
+        <li>(10,11,11,12)</li>
+        <li>(8,12,9,12)</li>
+      </rects>
+    </RoofRockThick>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,12,1)</li>
+        <li>(3,2,12,2)</li>
+        <li>(4,3,12,6)</li>
+        <li>(4,7,11,7)</li>
+        <li>(5,8,11,8)</li>
+        <li>(6,9,8,9)</li>
+        <li>(10,9,10,9)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
