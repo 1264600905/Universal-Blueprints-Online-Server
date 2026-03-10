@@ -1,0 +1,852 @@
+<PrefabDef>
+  <defName>Prefab_20260310_122419</defName>
+  <size>(23,19)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>谒见厅</name>
+    <description>帝国扩展</description>
+    <tags>
+      <li>FullExport</li>
+    </tags>
+    <author></author>
+    <category>皇权DLC</category>
+    <BuildingID>6fb72afd-481d-443a-82be-77345dc5d9ba</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>oskarpotocki.vfe.empire</packageId>
+        <name>Vanilla Factions Expanded - Empire</name>
+        <version></version>
+        <modorder>101</modorder>
+        <steamWorkshopId>2938820380</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.royalty</packageId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VFEE_ImperialSlab</li>
+          <li>VFEE_RoyalSculptureGrand</li>
+          <li>VFEE_RoyalStool</li>
+          <li>VFEE_PipeOrgan</li>
+          <li>VFEE_GrandTable</li>
+          <li>VFEE_Candelabra</li>
+          <li>VFEE_GrandChair</li>
+          <li>VFEE_RoyalSculptureSmall</li>
+          <li>VFEE_RoyalSculptureLarge</li>
+          <li>VFEE_SteleSmall</li>
+          <li>VFEE_StellicThrone</li>
+          <li>VFEE_ImperialBanner</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.royalty</packageId>
+        <name>Royalty</name>
+        <version></version>
+        <modorder>2</modorder>
+        <things>
+          <li>Piano</li>
+          <li>Brazier</li>
+          <li>Drape</li>
+          <li>Throne</li>
+          <li>FineTileLimestone</li>
+          <li>FineTileMarble</li>
+          <li>FineTileSlate</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.odyssey</packageId>
+        <name>Odyssey</name>
+        <version></version>
+        <modorder>6</modorder>
+        <things>
+          <li>Obsidian</li>
+          <li>LifeSupportUnit</li>
+          <li>Leather_AlphaThrumbo</li>
+          <li>HeavyBridge</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld</packageId>
+        <name>Core</name>
+        <version></version>
+        <modorder>1</modorder>
+        <things></things>
+      </mod>
+      <mod>
+        <packageId>rimsenal.hair</packageId>
+        <name>Rimsenal - Hair pack</name>
+        <version></version>
+        <modorder>46</modorder>
+        <steamWorkshopId>725949967</steamWorkshopId>
+        <things></things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.biotech</packageId>
+        <name>Biotech</name>
+        <version></version>
+        <modorder>4</modorder>
+        <things></things>
+      </mod>
+      <mod>
+        <packageId>vanillaracesexpanded.highmate</packageId>
+        <name>Vanilla Races Expanded - Highmate</name>
+        <version></version>
+        <modorder>62</modorder>
+        <steamWorkshopId>2995385834</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+        </dependencies>
+        <things></things>
+      </mod>
+      <mod>
+        <packageId>cj.rimtalk</packageId>
+        <name>RimTalk</name>
+        <version>1.0.5</version>
+        <modorder>75</modorder>
+        <steamWorkshopId>3551203752</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>jaxe.bubbles</packageId>
+            <steamWorkshopId>1516158345</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things></things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.anomaly</packageId>
+        <name>Anomaly</name>
+        <version></version>
+        <modorder>5</modorder>
+        <things></things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.ideology</packageId>
+        <name>Ideology</name>
+        <version></version>
+        <modorder>3</modorder>
+        <things></things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>谒见厅</default>
+        <zh-CN>谒见厅</zh-CN>
+        <zh-TW>小型倉庫</zh-TW>
+        <en>Small Warehouse</en>
+        <ru>Маленький Склад</ru>
+        <fr>Petit Entrepôt</fr>
+        <ja>小型倉庫</ja>
+      </name>
+      <description>
+        <default>帝国扩展</default>
+        <zh-CN>帝国扩展</zh-CN>
+        <zh-TW>標準的倉庫單元，支持交易功能，同時滅火器防火。</zh-TW>
+        <en>Standard warehouse unit with trading functionality, equipped with fire extinguishers for fire protection.</en>
+        <ru>Стандартная складская единица с функцией торговли, оборудованная огнетушителями для противопожарной защиты.</ru>
+        <fr><![CDATA[Unité d'entrepôt standard avec fonctionnalité de commerce, équipée d'extincteurs pour la protection contre l'incendie.]]></fr>
+        <ja>取引機能をサポートする標準的な倉庫ユニットで、消火器で防火対策を施しています。</ja>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,0,9)</li>
+        <li>(2,0,3,0)</li>
+        <li>(6,0,10,0)</li>
+        <li>(12,0,16,0)</li>
+        <li>(19,0,20,0)</li>
+        <li>(22,0,22,9)</li>
+        <li>(0,11,0,18)</li>
+        <li>(22,11,22,18)</li>
+        <li>(1,18,4,18)</li>
+        <li>(6,18,16,18)</li>
+        <li>(18,18,21,18)</li>
+      </rects>
+      <stuff>Plasteel</stuff>
+      <hp>840</hp>
+      <color>RGBA(0.627, 0.698, 0.710, 1.000)</color>
+    </Wall>
+    <HiddenConduit>
+      <rects>
+        <li>(0,0,22,0)</li>
+        <li>(1,1,1,18)</li>
+        <li>(5,1,5,18)</li>
+        <li>(17,1,17,18)</li>
+        <li>(21,1,21,18)</li>
+        <li>(0,10,0,10)</li>
+        <li>(2,10,4,10)</li>
+        <li>(0,18,0,18)</li>
+        <li>(2,18,4,18)</li>
+        <li>(6,18,16,18)</li>
+        <li>(22,18,22,18)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <Wall>
+      <rects>
+        <li>(1,0,1,0)</li>
+        <li>(5,0,5,0)</li>
+        <li>(17,0,17,0)</li>
+        <li>(21,0,21,0)</li>
+        <li>(5,18,5,18)</li>
+        <li>(17,18,17,18)</li>
+      </rects>
+      <stuff>Gold</stuff>
+      <hp>180</hp>
+      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
+    </Wall>
+    <Vent>
+      <rects>
+        <li>(4,0,4,0)</li>
+        <li>(18,0,18,0)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>100</hp>
+    </Vent>
+    <Autodoor>
+      <rects>
+        <li>(11,0,11,0)</li>
+      </rects>
+      <stuff>Plasteel</stuff>
+      <hp>450</hp>
+      <color>RGBA(0.627, 0.698, 0.710, 1.000)</color>
+    </Autodoor>
+    <Column>
+      <rects>
+        <li>(1,1,1,9)</li>
+        <li>(21,1,21,9)</li>
+        <li>(6,10,6,10)</li>
+        <li>(16,10,16,10)</li>
+        <li>(1,11,1,17)</li>
+        <li>(21,11,21,17)</li>
+        <li>(6,13,6,13)</li>
+        <li>(16,13,16,13)</li>
+        <li>(3,15,4,15)</li>
+        <li>(6,15,6,15)</li>
+        <li>(16,15,16,15)</li>
+        <li>(18,15,19,15)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Column>
+    <VFEE_ImperialSlab>
+      <positions>
+        <li>(3, 0, 2)</li>
+        <li>(19, 0, 2)</li>
+        <li>(3, 0, 6)</li>
+        <li>(19, 0, 6)</li>
+        <li>(3, 0, 12)</li>
+        <li>(19, 0, 12)</li>
+        <li>(3, 0, 16)</li>
+        <li>(19, 0, 16)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+      <hp>120</hp>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </VFEE_ImperialSlab>
+    <Piano>
+      <position>(3, 0, 2)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <quality>Normal</quality>
+      <hp>180</hp>
+    </Piano>
+    <VFEE_RoyalSculptureGrand>
+      <position>(7, 0, 1)</position>
+      <stuff>Obsidian</stuff>
+      <quality>Masterwork</quality>
+      <hp>150</hp>
+      <color>RGBA(0.196, 0.196, 0.196, 1.000)</color>
+    </VFEE_RoyalSculptureGrand>
+    <LifeSupportUnit>
+      <rects>
+        <li>(10,1,10,1)</li>
+        <li>(12,1,12,1)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>35</hp>
+    </LifeSupportUnit>
+    <VFEE_RoyalStool>
+      <rects>
+        <li>(10,1,10,1)</li>
+        <li>(12,1,12,1)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Normal</quality>
+      <hp>75</hp>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </VFEE_RoyalStool>
+    <VFEE_RoyalSculptureGrand>
+      <position>(14, 0, 1)</position>
+      <stuff>BlocksSlate</stuff>
+      <quality>Good</quality>
+      <hp>390</hp>
+      <color>RGBA(0.275, 0.275, 0.275, 1.000)</color>
+    </VFEE_RoyalSculptureGrand>
+    <VFEE_PipeOrgan>
+      <position>(19, 0, 3)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <quality>Poor</quality>
+      <hp>280</hp>
+    </VFEE_PipeOrgan>
+    <VFEE_RoyalStool>
+      <rects>
+        <li>(5,2,5,2)</li>
+        <li>(9,2,9,7)</li>
+        <li>(17,2,17,3)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Normal</quality>
+      <hp>75</hp>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </VFEE_RoyalStool>
+    <VFEE_GrandTable>
+      <position>(11, 0, 4)</position>
+      <stuff>Gold</stuff>
+      <quality>Normal</quality>
+      <hp>120</hp>
+      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
+    </VFEE_GrandTable>
+    <VFEE_RoyalStool>
+      <rects>
+        <li>(13,2,13,7)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Normal</quality>
+      <hp>75</hp>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </VFEE_RoyalStool>
+    <VFEE_Candelabra>
+      <rects>
+        <li>(5,4,5,4)</li>
+        <li>(17,4,17,4)</li>
+        <li>(5,7,5,7)</li>
+        <li>(17,7,17,7)</li>
+        <li>(5,10,5,10)</li>
+        <li>(17,10,17,10)</li>
+        <li>(5,13,5,13)</li>
+        <li>(17,13,17,13)</li>
+        <li>(6,17,6,17)</li>
+        <li>(16,17,16,17)</li>
+      </rects>
+      <stuff>Plasteel</stuff>
+      <hp>140</hp>
+      <color>RGBA(0.627, 0.698, 0.710, 1.000)</color>
+    </VFEE_Candelabra>
+    <Brazier>
+      <rects>
+        <li>(8,4,8,4)</li>
+        <li>(14,4,14,4)</li>
+        <li>(8,6,8,6)</li>
+        <li>(14,6,14,6)</li>
+        <li>(8,8,8,8)</li>
+        <li>(14,8,14,8)</li>
+        <li>(8,10,8,10)</li>
+        <li>(14,10,14,10)</li>
+        <li>(6,12,6,12)</li>
+        <li>(8,12,8,12)</li>
+        <li>(14,12,14,12)</li>
+        <li>(16,12,16,12)</li>
+        <li>(6,14,6,14)</li>
+        <li>(16,14,16,14)</li>
+      </rects>
+      <stuff>Silver</stuff>
+      <hp>56</hp>
+      <color>RGBA(0.706, 0.678, 0.588, 1.000)</color>
+    </Brazier>
+    <Drape>
+      <positions>
+        <li>(5, 0, 6)</li>
+        <li>(17, 0, 6)</li>
+        <li>(5, 0, 9)</li>
+        <li>(17, 0, 9)</li>
+        <li>(5, 0, 12)</li>
+        <li>(17, 0, 12)</li>
+        <li>(5, 0, 15)</li>
+        <li>(17, 0, 15)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Leather_AlphaThrumbo</stuff>
+      <hp>220</hp>
+      <color>RGBA(0.949, 0.949, 0.949, 1.000)</color>
+    </Drape>
+    <VFEE_RoyalStool>
+      <rects>
+        <li>(10,8,10,8)</li>
+        <li>(12,8,12,8)</li>
+      </rects>
+      <stuff>Cloth</stuff>
+      <quality>Normal</quality>
+      <hp>75</hp>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </VFEE_RoyalStool>
+    <VFEE_GrandChair>
+      <rects>
+        <li>(9,9,9,14)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Gold</stuff>
+      <quality>Normal</quality>
+      <hp>60</hp>
+      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
+    </VFEE_GrandChair>
+    <VFEE_GrandChair>
+      <rects>
+        <li>(13,9,13,14)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Gold</stuff>
+      <quality>Normal</quality>
+      <hp>60</hp>
+      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
+    </VFEE_GrandChair>
+    <Autodoor>
+      <rects>
+        <li>(0,10,0,10)</li>
+        <li>(22,10,22,10)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Plasteel</stuff>
+      <hp>450</hp>
+      <color>RGBA(0.627, 0.698, 0.710, 1.000)</color>
+    </Autodoor>
+    <VFEE_RoyalSculptureSmall>
+      <rects>
+        <li>(2,11,2,11)</li>
+      </rects>
+      <stuff>BlocksLimestone</stuff>
+      <quality>Good</quality>
+      <hp>140</hp>
+      <colorDef>Structure_Cream</colorDef>
+      <color>RGBA(0.765, 0.753, 0.690, 1.000)</color>
+    </VFEE_RoyalSculptureSmall>
+    <VFEE_RoyalSculptureLarge>
+      <rects>
+        <li>(3,11,3,11)</li>
+        <li>(19,11,19,11)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <hp>98</hp>
+      <colorDef>Structure_Cream</colorDef>
+      <color>RGBA(0.765, 0.753, 0.690, 1.000)</color>
+    </VFEE_RoyalSculptureLarge>
+    <VFEE_RoyalSculptureSmall>
+      <rects>
+        <li>(4,11,4,11)</li>
+      </rects>
+      <stuff>Jade</stuff>
+      <quality>Excellent</quality>
+      <hp>45</hp>
+      <colorDef>Structure_Cream</colorDef>
+      <color>RGBA(0.765, 0.753, 0.690, 1.000)</color>
+    </VFEE_RoyalSculptureSmall>
+    <VFEE_RoyalSculptureSmall>
+      <rects>
+        <li>(20,11,20,11)</li>
+      </rects>
+      <stuff>BlocksLimestone</stuff>
+      <quality>Legendary</quality>
+      <hp>140</hp>
+      <color>RGBA(0.620, 0.600, 0.529, 1.000)</color>
+    </VFEE_RoyalSculptureSmall>
+    <VFEE_SteleSmall>
+      <rects>
+        <li>(2,12,3,13)</li>
+        <li>(19,12,20,13)</li>
+        <li>(4,13,4,13)</li>
+        <li>(18,13,18,13)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+      <hp>120</hp>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </VFEE_SteleSmall>
+    <VFEE_RoyalSculptureSmall>
+      <rects>
+        <li>(18,12,18,12)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Legendary</quality>
+      <hp>58</hp>
+      <colorDef>Structure_Cream</colorDef>
+      <color>RGBA(0.765, 0.753, 0.690, 1.000)</color>
+    </VFEE_RoyalSculptureSmall>
+    <StandingLamp>
+      <rects>
+        <li>(19,14,19,14)</li>
+      </rects>
+      <hp>50</hp>
+    </StandingLamp>
+    <Throne>
+      <rects>
+        <li>(7,15,8,15)</li>
+        <li>(14,15,15,15)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+      <quality>Normal</quality>
+      <hp>180</hp>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </Throne>
+    <VFEE_StellicThrone>
+      <position>(11, 0, 16)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Plasteel</stuff>
+      <quality>Normal</quality>
+      <hp>980</hp>
+      <color>RGBA(0.627, 0.698, 0.710, 1.000)</color>
+    </VFEE_StellicThrone>
+    <VFEE_RoyalSculptureGrand>
+      <position>(2, 0, 16)</position>
+      <stuff>BlocksLimestone</stuff>
+      <quality>Excellent</quality>
+      <hp>465</hp>
+      <colorDef>Structure_Cream</colorDef>
+      <color>RGBA(0.765, 0.753, 0.690, 1.000)</color>
+    </VFEE_RoyalSculptureGrand>
+    <VFEE_ImperialBanner>
+      <rects>
+        <li>(4,16,8,16)</li>
+        <li>(14,16,18,16)</li>
+      </rects>
+      <stuff>Leather_Thrumbo</stuff>
+      <hp>200</hp>
+      <color>RGBA(0.914, 0.914, 0.914, 1.000)</color>
+    </VFEE_ImperialBanner>
+    <VFEE_RoyalSculptureGrand>
+      <position>(19, 0, 16)</position>
+      <stuff>Gold</stuff>
+      <quality>Excellent</quality>
+      <hp>180</hp>
+      <colorDef>Structure_Cream</colorDef>
+      <color>RGBA(0.765, 0.753, 0.690, 1.000)</color>
+    </VFEE_RoyalSculptureGrand>
+    <Drape>
+      <positions>
+        <li>(4, 0, 17)</li>
+        <li>(7, 0, 17)</li>
+        <li>(14, 0, 17)</li>
+        <li>(17, 0, 17)</li>
+      </positions>
+      <stuff>Leather_AlphaThrumbo</stuff>
+      <hp>220</hp>
+      <color>RGBA(0.949, 0.949, 0.949, 1.000)</color>
+    </Drape>
+    <PowerConduit>
+      <rects>
+        <li>(18,18,20,18)</li>
+      </rects>
+      <hp>80</hp>
+    </PowerConduit>
+  </things>
+  <terrain>
+    <HeavyBridge>
+      <rects>
+        <li>(0,0,10,0)</li>
+        <li>(12,0,22,0)</li>
+        <li>(5,18,9,18)</li>
+        <li>(13,18,21,18)</li>
+      </rects>
+    </HeavyBridge>
+    <CarpetRed>
+      <rects>
+        <li>(11,0,11,0)</li>
+      </rects>
+    </CarpetRed>
+    <CarpetFineBlack>
+      <rects>
+        <li>(0,1,0,17)</li>
+        <li>(22,1,22,17)</li>
+      </rects>
+    </CarpetFineBlack>
+    <FineTileLimestone>
+      <rects>
+        <li>(1,1,1,17)</li>
+      </rects>
+    </FineTileLimestone>
+    <FineTileMarble>
+      <rects>
+        <li>(2,1,2,17)</li>
+        <li>(4,1,4,17)</li>
+        <li>(6,1,6,17)</li>
+        <li>(8,1,8,17)</li>
+        <li>(14,1,14,17)</li>
+        <li>(16,1,16,17)</li>
+        <li>(18,1,18,17)</li>
+        <li>(20,1,20,17)</li>
+        <li>(21,2,21,17)</li>
+      </rects>
+    </FineTileMarble>
+    <FineTileMarble>
+      <color>Structure_Black</color>
+      <rects>
+        <li>(3,1,3,17)</li>
+        <li>(5,1,5,17)</li>
+        <li>(17,1,17,17)</li>
+        <li>(19,1,19,17)</li>
+      </rects>
+    </FineTileMarble>
+    <FineTileSlate>
+      <rects>
+        <li>(7,1,7,17)</li>
+        <li>(9,1,9,17)</li>
+        <li>(13,1,13,17)</li>
+        <li>(15,1,15,17)</li>
+      </rects>
+    </FineTileSlate>
+    <CarpetFineOrangePastel>
+      <rects>
+        <li>(10,1,12,17)</li>
+        <li>(10,18,10,18)</li>
+        <li>(12,18,12,18)</li>
+      </rects>
+    </CarpetFineOrangePastel>
+    <CarpetFineSlate>
+      <rects>
+        <li>(21,1,21,1)</li>
+      </rects>
+    </CarpetFineSlate>
+    <FlagstoneSlate>
+      <rects>
+        <li>(0,18,1,18)</li>
+        <li>(3,18,4,18)</li>
+      </rects>
+    </FlagstoneSlate>
+    <CarpetOrangePastel>
+      <rects>
+        <li>(2,18,2,18)</li>
+        <li>(22,18,22,18)</li>
+      </rects>
+    </CarpetOrangePastel>
+    <MetalTile>
+      <rects>
+        <li>(11,18,11,18)</li>
+      </rects>
+    </MetalTile>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <WaterShallow>
+        <rects>
+          <li>(0,0,10,0)</li>
+          <li>(12,0,22,0)</li>
+          <li>(5,18,9,18)</li>
+          <li>(13,18,15,18)</li>
+        </rects>
+      </WaterShallow>
+      <CarpetRed>
+        <rects>
+          <li>(11,0,11,0)</li>
+        </rects>
+      </CarpetRed>
+      <CarpetFineBlack>
+        <rects>
+          <li>(0,1,0,17)</li>
+          <li>(22,1,22,17)</li>
+        </rects>
+      </CarpetFineBlack>
+      <FineTileLimestone>
+        <rects>
+          <li>(1,1,1,17)</li>
+        </rects>
+      </FineTileLimestone>
+      <FineTileMarble>
+        <rects>
+          <li>(2,1,2,17)</li>
+          <li>(4,1,4,17)</li>
+          <li>(6,1,6,17)</li>
+          <li>(8,1,8,17)</li>
+          <li>(14,1,14,17)</li>
+          <li>(16,1,16,17)</li>
+          <li>(18,1,18,17)</li>
+          <li>(20,1,20,17)</li>
+          <li>(21,2,21,17)</li>
+        </rects>
+      </FineTileMarble>
+      <FineTileMarble>
+        <color>RGBA(0.235, 0.235, 0.235, 1.000)</color>
+        <rects>
+          <li>(3,1,3,17)</li>
+          <li>(5,1,5,17)</li>
+          <li>(17,1,17,17)</li>
+          <li>(19,1,19,17)</li>
+        </rects>
+      </FineTileMarble>
+      <FineTileSlate>
+        <rects>
+          <li>(7,1,7,17)</li>
+          <li>(9,1,9,17)</li>
+          <li>(13,1,13,17)</li>
+          <li>(15,1,15,17)</li>
+        </rects>
+      </FineTileSlate>
+      <CarpetFineOrangePastel>
+        <rects>
+          <li>(10,1,12,17)</li>
+          <li>(10,18,10,18)</li>
+          <li>(12,18,12,18)</li>
+        </rects>
+      </CarpetFineOrangePastel>
+      <CarpetFineSlate>
+        <rects>
+          <li>(21,1,21,1)</li>
+        </rects>
+      </CarpetFineSlate>
+      <FlagstoneSlate>
+        <rects>
+          <li>(0,18,1,18)</li>
+          <li>(3,18,4,18)</li>
+        </rects>
+      </FlagstoneSlate>
+      <CarpetOrangePastel>
+        <rects>
+          <li>(2,18,2,18)</li>
+          <li>(22,18,22,18)</li>
+        </rects>
+      </CarpetOrangePastel>
+      <MetalTile>
+        <rects>
+          <li>(11,18,11,18)</li>
+        </rects>
+      </MetalTile>
+      <Marsh>
+        <rects>
+          <li>(16,18,21,18)</li>
+        </rects>
+      </Marsh>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(11,0,11,0)</li>
+        </rects>
+      </Soil>
+      <WaterShallow>
+        <rects>
+          <li>(0,1,2,18)</li>
+          <li>(4,1,4,18)</li>
+          <li>(6,1,16,16)</li>
+          <li>(18,1,18,13)</li>
+          <li>(20,1,22,11)</li>
+          <li>(6,17,15,17)</li>
+          <li>(3,18,3,18)</li>
+          <li>(10,18,12,18)</li>
+        </rects>
+      </WaterShallow>
+      <WaterShallow>
+        <color>RGBA(0.235, 0.235, 0.235, 1.000)</color>
+        <rects>
+          <li>(3,1,3,17)</li>
+          <li>(5,1,5,17)</li>
+          <li>(17,1,17,14)</li>
+          <li>(19,1,19,12)</li>
+        </rects>
+      </WaterShallow>
+      <Marsh>
+        <rects>
+          <li>(20,12,22,17)</li>
+          <li>(18,14,18,17)</li>
+          <li>(16,17,16,17)</li>
+          <li>(22,18,22,18)</li>
+        </rects>
+      </Marsh>
+      <Marsh>
+        <color>RGBA(0.235, 0.235, 0.235, 1.000)</color>
+        <rects>
+          <li>(19,13,19,17)</li>
+          <li>(17,15,17,17)</li>
+        </rects>
+      </Marsh>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="foundationGrid">
+      <HeavyBridge>
+        <rects>
+          <li>(0,0,10,0)</li>
+          <li>(12,0,22,0)</li>
+          <li>(0,1,2,4)</li>
+          <li>(4,1,4,10)</li>
+          <li>(0,5,0,10)</li>
+          <li>(1,8,2,10)</li>
+          <li>(21,16,22,16)</li>
+          <li>(0,17,1,17)</li>
+          <li>(4,17,4,17)</li>
+          <li>(21,17,21,18)</li>
+          <li>(5,18,9,18)</li>
+          <li>(13,18,20,18)</li>
+        </rects>
+      </HeavyBridge>
+      <HeavyBridge>
+        <color>RGBA(0.235, 0.235, 0.235, 1.000)</color>
+        <rects>
+          <li>(3,1,3,1)</li>
+          <li>(5,1,5,14)</li>
+          <li>(17,1,17,14)</li>
+          <li>(3,4,3,10)</li>
+          <li>(5,16,5,17)</li>
+          <li>(17,16,17,17)</li>
+          <li>(3,17,3,17)</li>
+        </rects>
+      </HeavyBridge>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,22,18)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(5,0,17,17)</li>
+        <li>(0,1,4,9)</li>
+        <li>(18,1,20,17)</li>
+        <li>(2,10,4,17)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+  <pawns>
+    <pawn>
+      <name>维多利亚</name>
+      <position>(17, 0, 3)</position>
+      <data><![CDATA[维多利亚*Empire_Common_Laborer*伊恩艾尔|VFEE_NewFamily*格奈乌斯?维多利亚?维多利亚*97723516*-93877057*1*Hulk**0***Breaker**39-24-12-FF*FF-FF-FF-FF*-1*82-5B-30-FF*82-5B-30-FF*FF-FF-FF-FF*Shooting|0|0|0|0:Melee|0|0|0|0:Construction|2|0|0|0:Mining|3|0|0|0:Cooking|3|0|0|0:Plants|3|0|182.1575|0:Animals|0|2|0|0:Crafting|4|1|175.5|0:Artistic|3|0|0|0:Medicine|6|1|0|0:Social|0|0|0|0:Intellectual|0|2|0|0*VRE_Distressed|0*Scratch|4|Leg|46|1|-1|0|-1|:RimTalk_PersonaData|0.5|||0|-1|-1|-1|:FrenzyField|0.1200049|||0|-1|-1|-1|:RIMTALK_PERSONA:%E8%BF%87%E5%BA%A6%E8%AD%A6%E8%A7%89%20%20-%20%E7%B4%A7%E7%BB%B7%E3%80%81%E6%89%AB%E6%8F%8F%E5%A8%81%E8%83%81%E3%80%82%E8%AF%B4%E8%AF%9D%E7%AE%80%E7%9F%AD%E3%80%81%E6%80%A5%E4%BF%83%EF%BC%8C%E6%80%BB%E6%98%AF%E5%85%B3%E6%B3%A8%E5%AE%89%E5%85%A8%E5%87%BA%E5%8F%A3%E3%80%81%E6%AD%A6%E5%99%A8%E4%BD%8D%E7%BD%AE%E5%92%8C%E6%BD%9C%E5%9C%A8%E7%9A%84%E5%8D%B1%E9%99%A9%EF%BC%8C%E6%97%A0%E6%B3%95%E6%94%BE%E6%9D%BE%E3%80%82|0.2*SicklyChild55*Bartender62*Firefighter|3:Patient|3:Doctor|3:PatientBedRest|3:BasicWorker|3:Warden|0:Handling|0:Cooking|3:Hunting|0:Construction|0:Growing|3:Mining|0:PlantCutting|0:Smithing|3:Tailoring|3:Art|0:Crafting|3:Hauling|3:Cleaning|3:Research|0:Childcare|0:DarkStudy|0:Fishing|0:Learning|3:OgRepairGearType|3**Apparel_BasicShirt|Cloth|99-99-99-FF|2|1|99:Apparel_Pants|Cloth|6A-78-68-FF|2|1|97:Apparel_Sash|Leather_Light|6A-78-68-FF|2|1|49:Apparel_Parka|Cloth|6B-5E-40-FF|2|1|177:Apparel_Tuque|Cloth|68-78-77-FF|2|1|80*MealSurvivalPack||FF-FF-FF-FF|0|1|50*Kills|0:KillsHumanlikes|0:KillsAnimals|0:KillsMechanoids|0:PawnsDowned|0:PawnsDownedHumanlikes|0:PawnsDownedAnimals|0:PawnsDownedMechanoids|0:ShotsFired|0:Headshots|0:DamageDealt|0:DamageTaken|0:TimesInMentalState|0:TimesOnFire|0:FiresExtinguished|0:OperationsReceived|0:OperationsPerformed|0:TimesTendedTo|0:TimesTendedOther|0:PeopleCaptured|0:PrisonersRecruited|0:PrisonersChatted|0:AnimalsTamed|0:AnimalsSlaughtered|0:MealsCooked|0:ThingsConstructed|0:ThingsInstalled|0:ThingsRepaired|0:ThingsCrafted|0:ThingsHauled|32:PlantsSown|2:PlantsHarvested|9:CellsMined|0:MessesCleaned|0:ResearchPointsResearched|0:CorpsesBuried|0:NutritionEaten|7:BodiesStripped|0:ThingsUninstalled|0:ThingsDeconstructed|0:ArtifactsActivated|0:ContainersOpened|0:SwitchesFlicked|0:TimeAsColonistOrColonyAnimal|0:TimeAsQuestLodger|230320:TimeAsPrisoner|0:TimeInBed|64000:TimeInBedForMedicalReasons|0:TimeDowned|0:TimeGettingFood|10960:TimeGettingJoy|14640:TimeUnderRoof|180960:TimeDrafted|0:TimeOnFire|0:TimeInMentalState|0:TimeHauling|54560:TimeHandlingAnimals|0:TimeFirefighting|0:TimeWardening|0:TimeHunting|0:TimeConstructing|0:TimeTreatingAndFeeding|0:TimeResearching|0:TimeCleaning|0:TimeRepairing|0:TimeMining|0:TimeSowingAndHarvesting|13040:TimeAsChildInColony|0:KillsEntities|0:PawnsDownedEntities|0*Mood|1:Food|0.7479995:Rest|0.7933744:Joy|0.5183417:Beauty|1:Comfort|0.7:Outdoors|0.9703995:DrugDesire|0.5:RoomSize|1:VRE_Pollution|0.3756008:RomanceOnTheRim_Need_Romance|0.5*OnDuty||0||1|0|230400:AteHumanMeat_Know_Horrible|公猞猁 1|0||1|-5|216750:AteHumanMeat_Know_Horrible|Nevil?Dude?Dillon|0||1|-5|216450:AteHumanMeat_Know_Horrible|公猞猁 1|0||1|-5|216150:AteLavishMeal||0||1|0|9450:AteHumanMeat_Know_Horrible||0||1|-5|195000:AteHumanMeat_Know_Horrible||0||1|-5|194550:DeepTalk|伯尔阿里马阿莱?帕洛斯?帕洛斯|0||0.82|12.3|192450:AteHumanMeat_Know_Horrible||0||1|-5|186600:AteHumanMeat_Know_Horrible||0||1|-5|186150:AteHumanMeat_Know_Horrible||0||1|-5|184950:AteHumanMeat_Know_Horrible||0||1|-5|184350:Chitchat|Elijah?Augustus?Augustus|0||1.15|2.554|58800:AteHumanMeat_Know_Horrible|Tynan?Tynan?Sylvester|0||1|-5|160800:AteHumanMeat_Know_Horrible|Spruce?Spruce?torreya|0||1|-5|157050:IngestedDrug_Know_Horrible|Teddy?Teddy?Morton|0||1|-3|141750:IngestedDrug_Know_Horrible|Spruce?Spruce?torreya|0||1|-3|132750:AteHumanMeat_Know_Horrible|皇族巨型蜘蛛 1|0||1|-5|128100:Chitchat|Spruce?Spruce?torreya|0||0.8475|0.2374001|7800:DeepTalk|Elijah?Augustus?Augustus|0||1.15|17.25|127200:Chitchat|普拉艾尔?勒伯斯尼克?勒伯斯尼克|0||0.82|0.7060003|1800:AttendedConcert||0||0.9250219|0|118800:AteHumanMeat_Know_Horrible|Spruce?Spruce?torreya|0||1|-5|118200:DeepTalk|奥斯泽伊?奥斯泽伊?厄拉巴斯帕斯|0||0.82|12.3|115050:Insulted|Spruce?Spruce?torreya|0||0.8475|-12.7125|109350:InsultedMood|Spruce?Spruce?torreya|0||1|0|109350:EncouragingSpeech|Elijah?Augustus?Augustus|0||0.5|20|101250:IngestedDrug_Know_Horrible|格里戈斯?格里戈斯?西艾维诺斯|0||1|-3|99600:AteHumanMeat_Know_Horrible|皇族巨型蜘蛛 1|0||1|-5|99300:AteHumanMeat_Know_Horrible|皇族巨型蜘蛛 1|0||1|-5|98700:SleepDisturbed||0||1|0|25650:SleepDisturbed||0||1|0|23550:IngestedDrug_Know_Horrible|公猞猁 1|0||1|-3|73650:DeepTalk|Spruce?Spruce?torreya|0||0.8475|12.7125|68850:Chitchat|美厄帕斯?卡斯洛斯?卡斯洛斯|0||0.82|0.08240008|1950:DefeatedInsectHive||0||1|0|57900:DefeatedInsectHive||0||1|0|57900:AteHumanMeat_Know_Horrible||0||1|-5|45150:AteHumanMeat_Know_Horrible||0||1|-5|45150:AteHumanMeat_Know_Horrible||0||1|-5|44700:AteHumanMeat_Know_Horrible||0||1|-5|44550:AteHumanMeat_Know_Horrible||0||1|-5|43950:AteHumanMeat_Know_Horrible||0||1|-5|39900:Chitchat|爱德华?爱德华?齐米塞克斯|0||0.82|0.5412|39750:AteHumanMeat_Know_Horrible||0||1|-5|39450:Chitchat|Nevil?Dude?Dillon|0||1.248|0.82368|39300:Chitchat|Tynan?Tynan?Sylvester|0||0.82|0.5412|34050:IngestedDrug_Know_Horrible|Spruce?Spruce?torreya|0||1|-3|23100:Lovin_Know_Abhorrent|Daichi?Daichi?Roy|0||1|-20|19350:Lovin_Know_Abhorrent|Tynan?Tynan?Sylvester|0||1|-20|19350:SleptInBarracks||7||1|0|13050:JoyActivityInImpressiveRecRoom||8||1|0|10500:AteInImpressiveDiningRoom||8||1|0|9450:Chitchat|Yakov|0||1.26|0.8316|8250:AteHumanMeat_Know_Horrible||0||1|-5|4800:DeepTalk|尤利安娜?厄丰斯?厄丰斯|0||0.82|12.3|1950:Chitchat|Teddy?Teddy?Morton|0||0.82|0.5412|1200:RimTalk_Slighted|Teddy?Teddy?Morton|0||1|-3|300*NeedComfort||2||1|0|0:NeedBeauty||5||1|0|0:NeedRoomSize||2||1|0|0:Expectations||0||1|0|0:YoungstersHappy||0||1|0|0:JoyousPresence||0||1|0|0:IdeoBuildingMissing||-1||1|0|0:IdeoBuildingMissing||-1||1|0|0***NoBeard*NoTattoo_Face*NoTattoo_Body*0*0**56-BF-80-FF*Sophian*古-超凡科技*[ludeon.rimworld.royalty|ludeon.rimworld|rimsenal.hair|ludeon.rimworld.biotech|vanillaracesexpanded.highmate|cj.rimtalk|ludeon.rimworld.anomaly|ludeon.rimworld.ideology]***Male_AverageNormal*Baseliner**Skin_Melanin8:Hair_DarkSaturatedReddish***FF-FF-FF-FF***Teal]]></data>
+    </pawn>
+    <pawn>
+      <name>杜斯戴欧</name>
+      <position>(16, 0, 5)</position>
+      <data><![CDATA[杜斯戴欧*Empire_Common_Laborer*伊恩艾尔|VFEE_NewFamily*勒多斯?杜斯戴欧?杜斯戴欧*142719876*-138873417*1*Hulk**0***Recruit**4A-43-3E-FF*FF-FF-FF-FF*-1*FF-EF-D5-FF*FF-EF-D5-FF*FF-FF-FF-FF*Shooting|0|0|0|0:Melee|0|2|0|0:Construction|1|0|568.9683|0:Mining|4|1|0|0:Cooking|4|1|0|0:Plants|4|1|0|0:Animals|0|0|0|0:Crafting|1|0|70.37698|54.69802:Artistic|4|1|0|0:Medicine|0|0|0|0:Social|0|0|0|0:Intellectual|0|1|0|0*Nimble|0*RimTalk_PersonaData|0.5|||0|-1|-1|-1|:RIMTALK_PERSONA:%E8%A1%A8%E6%BC%94%E5%9E%8B%20%20-%20%E6%83%85%E7%BB%AA%E8%BF%87%E6%BF%80%EF%BC%8C%E8%82%A4%E6%B5%85%E3%80%82%E8%AF%B4%E8%AF%9D%E5%83%8F%E6%98%AF%E5%9C%A8%E6%BC%94%E8%88%9E%E5%8F%B0%E5%89%A7%EF%BC%8C%E6%9E%81%E5%BA%A6%E6%B8%B4%E6%9C%9B%E5%85%B3%E6%B3%A8%EF%BC%8C%E4%B8%80%E7%82%B9%E5%B0%8F%E4%BA%8B%E4%B9%9F%E8%A6%81%E7%94%A8%E6%83%8A%E5%8F%B9%E5%8F%B7%E5%92%8C%E5%A4%B8%E5%BC%A0%E7%9A%84%E5%BD%A2%E5%AE%B9%E8%AF%8D%E3%80%82|0.2*ServingBoy97*Mailman2*Firefighter|3:Patient|3:Doctor|0:PatientBedRest|3:BasicWorker|3:Warden|0:Handling|0:Cooking|3:Hunting|0:Construction|3:Growing|3:Mining|3:PlantCutting|3:Smithing|0:Tailoring|0:Art|3:Crafting|0:Hauling|3:Cleaning|3:Research|0:Childcare|0:DarkStudy|0:Fishing|0:Learning|3:OgRepairGearType|3**Apparel_BasicShirt|Cloth|68-78-77-FF|2|1|100:Apparel_Pants|Cloth|62-56-43-FF|2|1|99:Apparel_Sash|Leather_Dog|80-74-53-FF|2|1|64:Apparel_Tuque|Cloth|80-74-53-FF|2|1|78*MealSimple||FF-FF-FF-FF|0|1|50*Kills|0:KillsHumanlikes|0:KillsAnimals|0:KillsMechanoids|0:PawnsDowned|0:PawnsDownedHumanlikes|0:PawnsDownedAnimals|0:PawnsDownedMechanoids|0:ShotsFired|0:Headshots|0:DamageDealt|0:DamageTaken|0:TimesInMentalState|0:TimesOnFire|0:FiresExtinguished|0:OperationsReceived|0:OperationsPerformed|0:TimesTendedTo|0:TimesTendedOther|0:PeopleCaptured|0:PrisonersRecruited|0:PrisonersChatted|0:AnimalsTamed|0:AnimalsSlaughtered|0:MealsCooked|0:ThingsConstructed|23:ThingsInstalled|0:ThingsRepaired|0:ThingsCrafted|0:ThingsHauled|15:PlantsSown|0:PlantsHarvested|0:CellsMined|0:MessesCleaned|0:ResearchPointsResearched|0:CorpsesBuried|0:NutritionEaten|6:BodiesStripped|0:ThingsUninstalled|0:ThingsDeconstructed|0:ArtifactsActivated|0:ContainersOpened|0:SwitchesFlicked|0:TimeAsColonistOrColonyAnimal|0:TimeAsQuestLodger|230560:TimeAsPrisoner|0:TimeInBed|66960:TimeInBedForMedicalReasons|0:TimeDowned|0:TimeGettingFood|7760:TimeGettingJoy|18720:TimeUnderRoof|132800:TimeDrafted|0:TimeOnFire|0:TimeInMentalState|0:TimeHauling|49840:TimeHandlingAnimals|0:TimeFirefighting|0:TimeWardening|0:TimeHunting|0:TimeConstructing|30960:TimeTreatingAndFeeding|0:TimeResearching|0:TimeCleaning|0:TimeRepairing|0:TimeMining|0:TimeSowingAndHarvesting|0:TimeAsChildInColony|0:KillsEntities|0:PawnsDownedEntities|0*Mood|1:Food|0.9520001:Rest|0.9406248:Joy|0.9414539:Beauty|0.889872:Comfort|0.7900005:Outdoors|0.9751989:DrugDesire|0.5:RoomSize|1:VRE_Pollution|0.3750234:RomanceOnTheRim_Need_Romance|0.5*OnDuty||0||1|0|230550:AteHumanMeat_Know_Horrible|公猞猁 1|0||1|-5|216900:AteHumanMeat_Know_Horrible|Nevil?Dude?Dillon|0||1|-5|216600:AteHumanMeat_Know_Horrible|公猞猁 1|0||1|-5|216300:SleepDisturbed||0||1|0|6600:AteLavishMeal||0||1|0|2250:AteHumanMeat_Know_Horrible||0||1|-5|195000:AteHumanMeat_Know_Horrible||0||1|-5|194550:AteHumanMeat_Know_Horrible||0||1|-5|186600:AteHumanMeat_Know_Horrible||0||1|-5|186150:AteHumanMeat_Know_Horrible||0||1|-5|184950:AteHumanMeat_Know_Horrible||0||1|-5|184350:Chitchat|尤利安娜?厄丰斯?厄丰斯|0||0.82|1.2472|59400:AteHumanMeat_Know_Horrible|Tynan?Tynan?Sylvester|0||1|-5|160650:Chitchat|Takumi?Breath?Hargrove|0||0.8475|0.2374001|37650:AteHumanMeat_Know_Horrible|Spruce?Spruce?torreya|0||1|-5|156900:IngestedDrug_Know_Horrible|Teddy?Teddy?Morton|0||1|-3|141750:IngestedDrug_Know_Horrible|Spruce?Spruce?torreya|0||1|-3|132750:Slighted|尤利安娜?厄丰斯?厄丰斯|0||0.82|-4.1|130200:AteHumanMeat_Know_Horrible|皇族巨型蜘蛛 1|0||1|-5|128100:DeepTalk|Spruce?Spruce?torreya|0||0.8475|12.7125|126000:Chitchat|伯尔阿里马阿莱?帕洛斯?帕洛斯|0||0.82|0.7060003|150:AttendedConcert||0||1|0|118800:AteHumanMeat_Know_Horrible|Spruce?Spruce?torreya|0||1|-5|118200:DeepTalk|Teddy?Teddy?Morton|0||0.82|12.3|114750:Chitchat|Yakov|0||1.26|0.6632|50400:EncouragingSpeech|Elijah?Augustus?Augustus|0||0.5|20|101100:IngestedDrug_Know_Horrible|格里戈斯?格里戈斯?西艾维诺斯|0||1|-3|99450:AteHumanMeat_Know_Horrible|皇族巨型蜘蛛 1|0||1|-5|99150:AteHumanMeat_Know_Horrible|皇族巨型蜘蛛 1|0||1|-5|98550:Chitchat|尤金妮娅?尤金妮娅?艾斯厄里|0||0.82|0.08240008|36000:IngestedDrug_Know_Horrible|公猞猁 1|0||1|-3|73500:DeepTalk|奥斯泽伊?奥斯泽伊?厄拉巴斯帕斯|0||0.82|12.3|69000:Chitchat|彼得罗尼娅?彼得罗尼娅?坎迪斯|0||0.82|0.08240008|8550:DefeatedInsectHive||0||1|0|57600:DefeatedInsectHive||0||1|0|57600:Chitchat|Teddy?Teddy?Morton|0||0.82|0.5412|55050:AteHumanMeat_Know_Horrible||0||1|-5|45150:AteHumanMeat_Know_Horrible||0||1|-5|45150:AteHumanMeat_Know_Horrible||0||1|-5|44550:AteHumanMeat_Know_Horrible||0||1|-5|44550:AteHumanMeat_Know_Horrible||0||1|-5|43950:RimTalk_Chitchat|尤利安娜?厄丰斯?厄丰斯|0||1|0.2|43500:AteHumanMeat_Know_Horrible||0||1|-5|39900:Chitchat|康斯坦斯?康斯坦斯?拉格贝|0||0.82|1.0824|39600:AteHumanMeat_Know_Horrible||0||1|-5|39450:AteWithoutTable||0||1|0|36600:Chitchat|Daichi?Daichi?Roy|0||1.314|2.60172|36150:JoyActivityInImpressiveRecRoom||8||1|0|26400:IngestedDrug_Know_Horrible|Spruce?Spruce?torreya|0||1|-3|23100:Lovin_Know_Abhorrent|Daichi?Daichi?Roy|0||1|-20|19350:Lovin_Know_Abhorrent|Tynan?Tynan?Sylvester|0||1|-20|19350:SleepDisturbed||0||1|0|10950:SleepDisturbed||0||1|0|7350:AteHumanMeat_Know_Horrible||0||1|-5|4650:SleptInBarracks||7||1|0|3750:AteInImpressiveDiningRoom||7||1|0|2250:DeepTalk|普拉艾尔?勒伯斯尼克?勒伯斯尼克|0||0.82|12.3|1500*NeedJoy||4||1|0|0:NeedComfort||2||1|0|0:NeedBeauty||4||1|0|0:NeedRoomSize||2||1|0|0:Expectations||0||1|0|0:YoungstersHappy||0||1|0|0:JoyousPresence||0||1|0|0:IdeoBuildingMissing||-1||1|0|0:IdeoBuildingMissing||-1||1|0|0***NoBeard*NoTattoo_Face*NoTattoo_Body*0*0**E3-FF-73-FF*Sophian*古-超凡科技*[ludeon.rimworld.royalty|ludeon.rimworld|ludeon.rimworld.biotech|cj.rimtalk|ludeon.rimworld.ideology]***Male_HeavyJawNormal*Neanderthal**Body_Standard:Body_Fat:Body_Hulk:Jaw_Heavy:Brow_Heavy:MeleeDamage_Strong:Robust:Immunity_Strong:Aggression_Aggressive:Learning_Slow:MoveSpeed_Slow:Pain_Reduced:MinTemp_SmallDecrease:MaxTemp_SmallIncrease:AptitudePoor_Intellectual:AptitudePoor_Social:AptitudePoor_Shooting:Skin_Melanin2:Hair_MidBlack***FF-FF-FF-FF***LightOlive]]></data>
+    </pawn>
+    <pawn>
+      <name>公猞猁 1</name>
+      <position>(17, 0, 9)</position>
+      <data><![CDATA[公猞猁 1*Lynx*伊恩艾尔|VFEE_NewFamily*公猞猁 1*8381625*-4535426*1***0*****FF-FF-FF-FF*FF-FF-FF-FF*-1*FF-FF-FF-FF*FF-FF-FF-FF*FF-FF-FF-FF***RIMTALK_PERSONA:%E5%8A%A8%E7%89%A9%EF%BC%9A%E7%AE%80%E5%8D%95%E3%80%81%E6%84%9F%E6%80%A7%E3%80%81%E6%9C%AC%E8%83%BD%E4%BC%98%E5%85%88%E2%80%94%E2%80%94%E7%94%A8%E7%AE%80%E7%9F%AD%E7%9A%84%E6%84%9F%E5%AE%98%E5%8F%A5%E5%BC%8F%E6%8F%8F%E8%BF%B0%E6%B0%94%E5%91%B3%E3%80%81%E9%A5%A5%E9%A5%BF%E4%B8%8E%E5%8D%B1%E9%99%A9%E3%80%82|0.2*******Kills|0:KillsHumanlikes|0:KillsAnimals|0:KillsMechanoids|0:PawnsDowned|0:PawnsDownedHumanlikes|0:PawnsDownedAnimals|0:PawnsDownedMechanoids|0:ShotsFired|0:Headshots|0:DamageDealt|0:DamageTaken|0:TimesInMentalState|0:TimesOnFire|0:FiresExtinguished|0:OperationsReceived|0:OperationsPerformed|0:TimesTendedTo|0:TimesTendedOther|0:PeopleCaptured|0:PrisonersRecruited|0:PrisonersChatted|0:AnimalsTamed|0:AnimalsSlaughtered|0:MealsCooked|0:ThingsConstructed|0:ThingsInstalled|0:ThingsRepaired|0:ThingsCrafted|0:ThingsHauled|0:PlantsSown|0:PlantsHarvested|0:CellsMined|0:MessesCleaned|0:ResearchPointsResearched|0:CorpsesBuried|0:NutritionEaten|3.5:BodiesStripped|0:ThingsUninstalled|0:ThingsDeconstructed|0:ArtifactsActivated|0:ContainersOpened|0:SwitchesFlicked|0:TimeAsColonistOrColonyAnimal|650480:TimeAsQuestLodger|0:TimeAsPrisoner|0:TimeInBed|0:TimeInBedForMedicalReasons|0:TimeDowned|0:TimeGettingFood|5760:TimeGettingJoy|0:TimeUnderRoof|386640:TimeDrafted|0:TimeOnFire|0:TimeInMentalState|0:TimeHauling|0:TimeHandlingAnimals|0:TimeFirefighting|0:TimeWardening|0:TimeHunting|0:TimeConstructing|0:TimeTreatingAndFeeding|0:TimeResearching|0:TimeCleaning|0:TimeRepairing|0:TimeMining|0:TimeSowingAndHarvesting|0:TimeAsChildInColony|0:KillsEntities|0:PawnsDownedEntities|0*Food|0.7248022:Rest|0.8147495********0*0**FF-FF-FF-FF***[ludeon.rimworld|cj.rimtalk]*********FF-FF-FF-FF***]]></data>
+    </pawn>
+  </pawns>
+</PrefabDef>
