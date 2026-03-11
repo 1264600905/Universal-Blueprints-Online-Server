@@ -1,0 +1,64 @@
+<PrefabDef>
+  <defName>Prefab_20260311_170113</defName>
+  <size>(4,4)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>爆炸陷阱阵最小单位</name>
+    <description>可无限重叠放置的最小单位，蓝图放置完以后需要手动优化，否则原料和工作量会炸，详见链接视频</description>
+    <tags></tags>
+    <author>乱紫</author>
+    <category>防御工事</category>
+    <BuildingID>b10af7bc-4a9d-4961-bef9-99971712b8e9</BuildingID>
+    <modPackages></modPackages>
+    <multiLanguage>
+      <name>
+        <default>爆炸陷阱阵最小单位</default>
+        <zh-CN>爆炸陷阱阵最小单位</zh-CN>
+      </name>
+      <description>
+        <default>可无限重叠放置的最小单位，蓝图放置完以后需要手动优化，否则原料和工作量会炸，详见链接视频</default>
+        <zh-CN>可无限重叠放置的最小单位，蓝图放置完以后需要手动优化，否则原料和工作量会炸，详见链接视频</zh-CN>
+      </description>
+    </multiLanguage>
+    <url name="环世界1.6第一个实用的爆炸陷阱阵"><![CDATA[https://www.bilibili.com/video/BV1p6hqzzEzr/?vd_source=e358c617f73313cee6304649a7ff8bf5]]></url>
+  </extraInfo>
+  <things>
+    <Door>
+      <rects>
+        <li>(0,0,0,2)</li>
+        <li>(3,2,3,3)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>BlocksSandstone</stuff>
+      <hp>225</hp>
+      <color>RGBA(0.494, 0.408, 0.369, 1.000)</color>
+    </Door>
+    <TrapIED_HighExplosive>
+      <rects>
+        <li>(1,0,1,0)</li>
+        <li>(2,2,2,2)</li>
+      </rects>
+      <hp>40</hp>
+    </TrapIED_HighExplosive>
+    <Door>
+      <rects>
+        <li>(3,0,3,0)</li>
+        <li>(2,1,2,1)</li>
+        <li>(1,3,1,3)</li>
+      </rects>
+      <stuff>BlocksSandstone</stuff>
+      <hp>225</hp>
+      <color>RGBA(0.494, 0.408, 0.369, 1.000)</color>
+    </Door>
+    <Barricade>
+      <rects>
+        <li>(1,1,1,1)</li>
+        <li>(2,3,2,3)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>195</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Barricade>
+  </things>
+  <terrainLayers></terrainLayers>
+</PrefabDef>
