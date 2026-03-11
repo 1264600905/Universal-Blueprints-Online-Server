@@ -1,0 +1,416 @@
+<PrefabDef>
+  <defName>Prefab_20260312_045926</defName>
+  <size>(13,13)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>联合轻工13x13多人宿舍房带迁跃版</name>
+    <description></description>
+    <tags></tags>
+    <author>琥珀</author>
+    <category>宿舍</category>
+    <BuildingID>f180ad01-0cce-4993-ab10-396eb73df7e2</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>kindseal.ufli</packageId>
+        <name>联合轻工家具拓展-UF Light Industries Furniture</name>
+        <version></version>
+        <modorder>230</modorder>
+        <steamWorkshopId>3651799915</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFLI_Wall</li>
+          <li>UFLI_1_Autodoor</li>
+          <li>UFLI_Walllamp</li>
+          <li>UFLI_Bed</li>
+          <li>UFLI_Chair</li>
+          <li>UFLI_Endtable</li>
+          <li>UFLI_1X2_Table</li>
+          <li>UFLI_ChessTable</li>
+          <li>UFLI_TempControler</li>
+          <li>UFLI_FLOORH</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>migcorp.skiptech</packageId>
+        <name>MigCorp - Skiptech</name>
+        <version></version>
+        <modorder>84</modorder>
+        <steamWorkshopId>3626074566</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>MigcorpSkipdoor</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>联合轻工13x13多人宿舍房带迁跃版</default>
+        <zh-CN>联合轻工13x13多人宿舍房带迁跃版</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <UFLI_Wall>
+      <rects>
+        <li>(0,0,5,0)</li>
+        <li>(7,0,12,0)</li>
+        <li>(0,1,0,5)</li>
+        <li>(12,1,12,5)</li>
+        <li>(0,7,0,12)</li>
+        <li>(12,7,12,12)</li>
+        <li>(1,12,5,12)</li>
+        <li>(7,12,11,12)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>2500</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Wall>
+    <UFLI_1_Autodoor>
+      <rects>
+        <li>(6,0,6,0)</li>
+        <li>(6,12,6,12)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>1200</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_1_Autodoor>
+    <UFLI_Walllamp>
+      <rects>
+        <li>(5,1,5,1)</li>
+        <li>(7,1,7,1)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>150</hp>
+    </UFLI_Walllamp>
+    <UFLI_Bed>
+      <position>(3, 0, 2)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <quality>Good</quality>
+      <hp>200</hp>
+      <color>RGBA(0.388, 0.624, 0.886, 1.000)</color>
+    </UFLI_Bed>
+    <UFLI_Bed>
+      <positions>
+        <li>(4, 0, 3)</li>
+        <li>(8, 0, 9)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <quality>Masterwork</quality>
+      <hp>200</hp>
+      <color>RGBA(0.388, 0.624, 0.886, 1.000)</color>
+    </UFLI_Bed>
+    <UFLI_Chair>
+      <rects>
+        <li>(6,2,6,2)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <hp>120</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Chair>
+    <UFLI_Bed>
+      <positions>
+        <li>(8, 0, 3)</li>
+        <li>(2, 0, 9)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <quality>Excellent</quality>
+      <hp>200</hp>
+      <color>RGBA(0.388, 0.624, 0.886, 1.000)</color>
+    </UFLI_Bed>
+    <UFLI_Bed>
+      <positions>
+        <li>(10, 0, 2)</li>
+        <li>(9, 0, 4)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <quality>Excellent</quality>
+      <hp>200</hp>
+      <color>RGBA(0.388, 0.624, 0.886, 1.000)</color>
+    </UFLI_Bed>
+    <UFLI_Bed>
+      <positions>
+        <li>(2, 0, 4)</li>
+        <li>(10, 0, 4)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <quality>Good</quality>
+      <hp>200</hp>
+      <color>RGBA(0.388, 0.624, 0.886, 1.000)</color>
+    </UFLI_Bed>
+    <UFLI_Endtable>
+      <rects>
+        <li>(3,3,3,3)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Masterwork</quality>
+      <hp>90</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Endtable>
+    <UFLI_Chair>
+      <rects>
+        <li>(5,3,5,4)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Good</quality>
+      <hp>120</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Chair>
+    <UFLI_1X2_Table>
+      <positions>
+        <li>(6, 0, 4)</li>
+        <li>(6, 0, 9)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Masterwork</quality>
+      <hp>100</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_1X2_Table>
+    <UFLI_Chair>
+      <rects>
+        <li>(7,3,7,3)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <hp>120</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Chair>
+    <UFLI_Endtable>
+      <rects>
+        <li>(9,3,9,3)</li>
+        <li>(3,9,3,9)</li>
+        <li>(9,9,9,9)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <hp>90</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Endtable>
+    <UFLI_Bed>
+      <position>(4, 0, 4)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <quality>Masterwork</quality>
+      <hp>200</hp>
+      <color>RGBA(0.388, 0.624, 0.886, 1.000)</color>
+    </UFLI_Bed>
+    <UFLI_ChessTable>
+      <rects>
+        <li>(7,4,7,4)</li>
+      </rects>
+      <quality>Masterwork</quality>
+      <hp>100</hp>
+    </UFLI_ChessTable>
+    <UFLI_Walllamp>
+      <rects>
+        <li>(1,5,1,5)</li>
+        <li>(1,7,1,7)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>150</hp>
+    </UFLI_Walllamp>
+    <UFLI_Walllamp>
+      <rects>
+        <li>(11,5,11,5)</li>
+        <li>(11,7,11,7)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>150</hp>
+    </UFLI_Walllamp>
+    <UFLI_1_Autodoor>
+      <rects>
+        <li>(0,6,0,6)</li>
+        <li>(12,6,12,6)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>1200</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_1_Autodoor>
+    <HorseshoesPin>
+      <rects>
+        <li>(4,6,4,6)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>49</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </HorseshoesPin>
+    <MigcorpSkipdoor>
+      <rects>
+        <li>(6,6,6,6)</li>
+      </rects>
+      <hp>120</hp>
+    </MigcorpSkipdoor>
+    <HoopstoneRing>
+      <rects>
+        <li>(8,6,8,6)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </HoopstoneRing>
+    <UFLI_Bed>
+      <positions>
+        <li>(3, 0, 8)</li>
+        <li>(9, 0, 8)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <quality>Good</quality>
+      <hp>200</hp>
+      <color>RGBA(0.388, 0.624, 0.886, 1.000)</color>
+    </UFLI_Bed>
+    <UFLI_ChessTable>
+      <rects>
+        <li>(5,8,5,8)</li>
+      </rects>
+      <quality>Excellent</quality>
+      <hp>100</hp>
+    </UFLI_ChessTable>
+    <UFLI_Chair>
+      <rects>
+        <li>(7,8,7,9)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Masterwork</quality>
+      <hp>120</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Chair>
+    <Bed>
+      <position>(4, 0, 9)</position>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <hp>91</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed>
+    <UFLI_Chair>
+      <rects>
+        <li>(5,9,5,9)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <hp>120</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Chair>
+    <UFLI_Bed>
+      <position>(10, 0, 9)</position>
+      <quality>Masterwork</quality>
+      <hp>200</hp>
+      <color>RGBA(0.388, 0.624, 0.886, 1.000)</color>
+    </UFLI_Bed>
+    <UFLI_Bed>
+      <positions>
+        <li>(2, 0, 10)</li>
+        <li>(8, 0, 10)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <quality>Excellent</quality>
+      <hp>200</hp>
+      <color>RGBA(0.388, 0.624, 0.886, 1.000)</color>
+    </UFLI_Bed>
+    <UFLI_Chair>
+      <rects>
+        <li>(6,10,6,10)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Good</quality>
+      <hp>120</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Chair>
+    <UFLI_TempControler>
+      <rects>
+        <li>(4,11,4,11)</li>
+      </rects>
+      <hp>100</hp>
+    </UFLI_TempControler>
+    <UFLI_Walllamp>
+      <rects>
+        <li>(5,11,5,11)</li>
+        <li>(7,11,7,11)</li>
+      </rects>
+      <hp>150</hp>
+    </UFLI_Walllamp>
+  </things>
+  <terrain>
+    <WoodPlankFloor>
+      <rects>
+        <li>(12,6,12,6)</li>
+      </rects>
+    </WoodPlankFloor>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <UFLI_FLOORH>
+        <rects>
+          <li>(6,0,6,12)</li>
+          <li>(1,1,5,11)</li>
+          <li>(7,1,11,11)</li>
+          <li>(0,6,0,6)</li>
+        </rects>
+      </UFLI_FLOORH>
+      <WoodPlankFloor>
+        <rects>
+          <li>(12,6,12,6)</li>
+        </rects>
+      </WoodPlankFloor>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(6,0,6,8)</li>
+          <li>(1,1,5,8)</li>
+          <li>(7,1,7,7)</li>
+          <li>(8,3,8,7)</li>
+          <li>(9,4,9,5)</li>
+          <li>(11,5,11,5)</li>
+          <li>(0,6,0,6)</li>
+          <li>(1,9,4,10)</li>
+          <li>(1,11,2,11)</li>
+        </rects>
+      </Soil>
+      <Sand>
+        <rects>
+          <li>(8,1,11,2)</li>
+          <li>(9,3,11,3)</li>
+          <li>(10,4,11,4)</li>
+          <li>(10,5,10,11)</li>
+          <li>(9,6,9,11)</li>
+          <li>(11,6,12,6)</li>
+          <li>(11,7,11,11)</li>
+          <li>(7,8,8,11)</li>
+          <li>(5,9,6,11)</li>
+          <li>(3,11,4,11)</li>
+          <li>(6,12,6,12)</li>
+        </rects>
+      </Sand>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
