@@ -1,0 +1,108 @@
+<PrefabDef>
+  <defName>Prefab_20260311_185457</defName>
+  <size>(7,6)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>спальня стандарт</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>BaseBlueprint</category>
+    <BuildingID>1c0a78be-7003-4f14-8762-3dec8eed4da1</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>vanillaexpanded.vfearchitect</packageId>
+        <name>Vanilla Furniture Expanded - Architect</name>
+        <version></version>
+        <modorder>56</modorder>
+        <steamWorkshopId>2608762624</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VFEArch_FineWall</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.ideology</packageId>
+        <name>Ideology</name>
+        <version></version>
+        <modorder>4</modorder>
+        <things>
+          <li>SleepAccelerator</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>спальня стандарт</default>
+        <ru>спальня стандарт</ru>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <VFEArch_FineWall>
+      <rects>
+        <li>(0,0,6,0)</li>
+        <li>(0,1,0,5)</li>
+        <li>(6,1,6,2)</li>
+        <li>(1,5,6,5)</li>
+      </rects>
+      <stuff>BlocksSlate</stuff>
+      <hp>390</hp>
+      <color>RGBA(0.275, 0.275, 0.275, 1.000)</color>
+    </VFEArch_FineWall>
+    <SleepAccelerator>
+      <rects>
+        <li>(1,1,1,1)</li>
+      </rects>
+      <hp>100</hp>
+    </SleepAccelerator>
+    <Bed>
+      <position>(1, 0, 2)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>91</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed>
+    <Door>
+      <rects>
+        <li>(6,3,6,3)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <Table_Wardrobe>
+      <position>(2, 0, 4)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>78</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Table_Wardrobe>
+    <Vent>
+      <rects>
+        <li>(6,4,6,4)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>100</hp>
+    </Vent>
+  </things>
+  <terrainLayers></terrainLayers>
+  <roofs>
+    <RoofRockThick>
+      <rects>
+        <li>(0,0,6,5)</li>
+      </rects>
+    </RoofRockThick>
+  </roofs>
+</PrefabDef>
