@@ -1,0 +1,496 @@
+<PrefabDef>
+  <defName>Prefab_20260320_221841</defName>
+  <size>(26,15)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>Medium Mech Loading Bay</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>DefenseWorks</category>
+    <BuildingID>350f3a27-76e0-4916-8b65-8218f95fba10</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>vanillaexpanded.vfepropsanddecor</packageId>
+        <name>Vanilla Furniture Expanded - Props and Decor</name>
+        <version></version>
+        <modorder>40</modorder>
+        <steamWorkshopId>2102143149</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VFEPD_GasTank</li>
+          <li>VFEPD_WaterTank</li>
+          <li>VFEPD_BarrelGreen</li>
+          <li>VFEPD_PalletBarrelGreen</li>
+          <li>VFEPD_Cone</li>
+          <li>VFEPD_PalletBoxes</li>
+          <li>VFEPD_ConcreteBags</li>
+          <li>VFEPD_ContainerGreen</li>
+          <li>VFEPD_DecalSymbolA</li>
+          <li>VFEPD_DecalSymbolB</li>
+          <li>VFEPD_DecalSymbolC</li>
+          <li>VFEPD_DecalSymbolD</li>
+          <li>VFE_WarningBorder_Corner</li>
+          <li>VFE_WarningBorder_Straight</li>
+          <li>VFEPD_DecalArrowWide</li>
+          <li>VFEPD_ChemfuelTank</li>
+          <li>VCHE_FakePipes</li>
+          <li>VFEPD_LiquidTank</li>
+          <li>VFEPD_SteelTank</li>
+          <li>VFEPD_GasStorageUnit</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>aoba.exosuit.framework</packageId>
+        <name>Exosuit Framework</name>
+        <version></version>
+        <modorder>10</modorder>
+        <steamWorkshopId>3352894993</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>MF_Building_ComponentStorage</li>
+          <li>MF_Building_PayloadStorage</li>
+          <li>MF_Building_ScaffoldStair</li>
+          <li>MF_Building_MaintenanceBay</li>
+          <li>MF_Building_Scaffold</li>
+          <li>MF_Building_AutoRepairArm</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>gt.sam.basicdoubledoors</packageId>
+        <name>Basic Double Doors</name>
+        <version></version>
+        <modorder>8</modorder>
+        <steamWorkshopId>3223646936</steamWorkshopId>
+        <things>
+          <li>BDD_AutoDoor</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>vanillaexpanded.vfearchitect</packageId>
+        <name>Vanilla Furniture Expanded - Architect</name>
+        <version></version>
+        <modorder>35</modorder>
+        <steamWorkshopId>2608762624</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VFEArch_ConcreteFoundation</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>Medium Mech Loading Bay</default>
+        <en>Medium Mech Loading Bay</en>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,25,0)</li>
+        <li>(0,1,0,5)</li>
+        <li>(25,1,25,5)</li>
+        <li>(0,8,0,14)</li>
+        <li>(25,8,25,14)</li>
+        <li>(1,14,24,14)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>300</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Wall>
+    <HiddenConduit>
+      <rects>
+        <li>(22,0,22,12)</li>
+        <li>(1,1,1,11)</li>
+        <li>(23,1,25,1)</li>
+        <li>(2,2,21,2)</li>
+        <li>(23,2,23,2)</li>
+        <li>(2,11,21,11)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <VFEPD_GasTank>
+      <position>(1, 0, 1)</position>
+      <hp>300</hp>
+    </VFEPD_GasTank>
+    <VFEPD_WaterTank>
+      <rects>
+        <li>(3,1,3,1)</li>
+      </rects>
+      <hp>100</hp>
+    </VFEPD_WaterTank>
+    <WallLamp>
+      <rects>
+        <li>(6,1,6,1)</li>
+        <li>(11,1,11,1)</li>
+        <li>(16,1,16,1)</li>
+        <li>(21,1,21,1)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>35</hp>
+    </WallLamp>
+    <VFEPD_BarrelGreen>
+      <rects>
+        <li>(21,1,21,1)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.459, 0.663, 0.467, 1.000)</color>
+    </VFEPD_BarrelGreen>
+    <VFEPD_BarrelGreen>
+      <rects>
+        <li>(22,1,22,1)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>100</hp>
+      <color>RGBA(0.459, 0.663, 0.467, 1.000)</color>
+    </VFEPD_BarrelGreen>
+    <VFEPD_PalletBarrelGreen>
+      <position>(23, 0, 1)</position>
+      <hp>200</hp>
+      <color>RGBA(0.459, 0.663, 0.467, 1.000)</color>
+    </VFEPD_PalletBarrelGreen>
+    <VFEPD_Cone>
+      <rects>
+        <li>(21,2,21,2)</li>
+        <li>(20,3,20,3)</li>
+      </rects>
+      <hp>10</hp>
+      <color>RGBA(1.000, 0.533, 0.275, 1.000)</color>
+    </VFEPD_Cone>
+    <VFEPD_BarrelGreen>
+      <rects>
+        <li>(22,2,22,2)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>100</hp>
+      <color>RGBA(0.459, 0.663, 0.467, 1.000)</color>
+    </VFEPD_BarrelGreen>
+    <MF_Building_ComponentStorage>
+      <positions>
+        <li>(4, 0, 4)</li>
+        <li>(13, 0, 4)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>100</hp>
+    </MF_Building_ComponentStorage>
+    <ToolCabinet>
+      <position>(5, 0, 3)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>100</hp>
+      <color>RGBA(0.376, 0.447, 0.373, 1.000)</color>
+    </ToolCabinet>
+    <MF_Building_ComponentStorage>
+      <positions>
+        <li>(8, 0, 4)</li>
+        <li>(17, 0, 4)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>100</hp>
+    </MF_Building_ComponentStorage>
+    <VFEPD_PalletBoxes>
+      <position>(9, 0, 3)</position>
+      <hp>150</hp>
+      <color>RGBA(1.000, 0.812, 0.682, 1.000)</color>
+    </VFEPD_PalletBoxes>
+    <VFEPD_ConcreteBags>
+      <rects>
+        <li>(11,3,11,4)</li>
+        <li>(10,5,10,5)</li>
+      </rects>
+      <hp>80</hp>
+    </VFEPD_ConcreteBags>
+    <ToolCabinet>
+      <position>(16, 0, 4)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>100</hp>
+      <color>RGBA(0.376, 0.447, 0.373, 1.000)</color>
+    </ToolCabinet>
+    <VFEPD_ContainerGreen>
+      <position>(22, 0, 4)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>600</hp>
+      <color>RGBA(0.459, 0.663, 0.467, 1.000)</color>
+    </VFEPD_ContainerGreen>
+    <ToolCabinet>
+      <positions>
+        <li>(6, 0, 4)</li>
+        <li>(14, 0, 4)</li>
+      </positions>
+      <hp>100</hp>
+      <color>RGBA(0.376, 0.447, 0.373, 1.000)</color>
+    </ToolCabinet>
+    <WallLamp>
+      <rects>
+        <li>(1,5,1,5)</li>
+        <li>(1,8,1,8)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>35</hp>
+    </WallLamp>
+    <MF_Building_ComponentStorage>
+      <positions>
+        <li>(6, 0, 5)</li>
+        <li>(15, 0, 5)</li>
+      </positions>
+      <hp>100</hp>
+    </MF_Building_ComponentStorage>
+    <WallLamp>
+      <rects>
+        <li>(24,5,24,5)</li>
+        <li>(24,8,24,8)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>35</hp>
+    </WallLamp>
+    <BDD_AutoDoor>
+      <positions>
+        <li>(0, 0, 6)</li>
+        <li>(25, 0, 6)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>200</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </BDD_AutoDoor>
+    <MF_Building_PayloadStorage>
+      <rects>
+        <li>(4,6,8,6)</li>
+        <li>(13,6,17,6)</li>
+      </rects>
+      <hp>50</hp>
+    </MF_Building_PayloadStorage>
+    <VFEPD_DecalSymbolA>
+      <rects>
+        <li>(4,7,4,7)</li>
+      </rects>
+      <color>RGBA(1.000, 1.000, 1.000, 0.255)</color>
+    </VFEPD_DecalSymbolA>
+    <VFEPD_DecalSymbolB>
+      <rects>
+        <li>(9,7,9,7)</li>
+      </rects>
+      <color>RGBA(1.000, 1.000, 1.000, 0.255)</color>
+    </VFEPD_DecalSymbolB>
+    <VFEPD_DecalSymbolC>
+      <rects>
+        <li>(14,7,14,7)</li>
+      </rects>
+      <color>RGBA(1.000, 1.000, 1.000, 0.255)</color>
+    </VFEPD_DecalSymbolC>
+    <VFEPD_DecalSymbolD>
+      <rects>
+        <li>(19,7,19,7)</li>
+      </rects>
+      <color>RGBA(1.000, 1.000, 1.000, 0.255)</color>
+    </VFEPD_DecalSymbolD>
+    <VFE_WarningBorder_Corner>
+      <rects>
+        <li>(2,8,2,8)</li>
+      </rects>
+      <hp>50</hp>
+      <color>RGBA(0.604, 0.573, 0.290, 1.000)</color>
+    </VFE_WarningBorder_Corner>
+    <VFE_WarningBorder_Straight>
+      <rects>
+        <li>(3,8,20,8)</li>
+      </rects>
+      <hp>50</hp>
+      <color>RGBA(0.604, 0.573, 0.290, 1.000)</color>
+    </VFE_WarningBorder_Straight>
+    <VFEPD_DecalArrowWide>
+      <rects>
+        <li>(4,8,4,8)</li>
+        <li>(9,8,9,8)</li>
+        <li>(14,8,14,8)</li>
+        <li>(19,8,19,8)</li>
+      </rects>
+      <color>RGBA(1.000, 1.000, 1.000, 0.255)</color>
+    </VFEPD_DecalArrowWide>
+    <VFE_WarningBorder_Corner>
+      <rects>
+        <li>(21,8,21,8)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>50</hp>
+      <color>RGBA(0.604, 0.573, 0.290, 1.000)</color>
+    </VFE_WarningBorder_Corner>
+    <VFE_WarningBorder_Straight>
+      <rects>
+        <li>(2,9,2,13)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>50</hp>
+      <color>RGBA(0.604, 0.573, 0.290, 1.000)</color>
+    </VFE_WarningBorder_Straight>
+    <MF_Building_ScaffoldStair>
+      <positions>
+        <li>(7, 0, 9)</li>
+        <li>(12, 0, 9)</li>
+        <li>(17, 0, 9)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>100</hp>
+    </MF_Building_ScaffoldStair>
+    <VFE_WarningBorder_Straight>
+      <rects>
+        <li>(21,9,21,13)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>50</hp>
+      <color>RGBA(0.604, 0.573, 0.290, 1.000)</color>
+    </VFE_WarningBorder_Straight>
+    <VFEPD_ChemfuelTank>
+      <position>(21, 0, 10)</position>
+      <hp>300</hp>
+    </VFEPD_ChemfuelTank>
+    <VCHE_FakePipes>
+      <rects>
+        <li>(22,9,23,11)</li>
+        <li>(21,11,21,13)</li>
+        <li>(22,12,22,13)</li>
+        <li>(2,13,20,13)</li>
+      </rects>
+      <hp>40</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </VCHE_FakePipes>
+    <VFEPD_LiquidTank>
+      <position>(23, 0, 10)</position>
+      <hp>200</hp>
+    </VFEPD_LiquidTank>
+    <MF_Building_MaintenanceBay>
+      <positions>
+        <li>(4, 0, 11)</li>
+        <li>(9, 0, 11)</li>
+        <li>(14, 0, 11)</li>
+        <li>(19, 0, 11)</li>
+      </positions>
+      <hp>200</hp>
+    </MF_Building_MaintenanceBay>
+    <MF_Building_Scaffold>
+      <positions>
+        <li>(6, 0, 11)</li>
+        <li>(11, 0, 11)</li>
+        <li>(16, 0, 11)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>100</hp>
+    </MF_Building_Scaffold>
+    <MF_Building_Scaffold>
+      <positions>
+        <li>(7, 0, 10)</li>
+        <li>(12, 0, 10)</li>
+        <li>(17, 0, 10)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>100</hp>
+    </MF_Building_Scaffold>
+    <VFEPD_SteelTank>
+      <position>(1, 0, 12)</position>
+      <hp>200</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </VFEPD_SteelTank>
+    <VFEPD_GasStorageUnit>
+      <position>(22, 0, 12)</position>
+      <hp>400</hp>
+      <color>RGBA(0.380, 0.463, 0.365, 1.000)</color>
+    </VFEPD_GasStorageUnit>
+    <MF_Building_AutoRepairArm>
+      <positions>
+        <li>(4, 0, 13)</li>
+        <li>(9, 0, 13)</li>
+        <li>(14, 0, 13)</li>
+        <li>(19, 0, 13)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>150</hp>
+    </MF_Building_AutoRepairArm>
+    <WallLamp>
+      <rects>
+        <li>(6,13,6,13)</li>
+        <li>(11,13,11,13)</li>
+        <li>(16,13,16,13)</li>
+        <li>(21,13,21,13)</li>
+      </rects>
+      <hp>35</hp>
+    </WallLamp>
+  </things>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <Concrete>
+        <rects>
+          <li>(1,1,24,13)</li>
+          <li>(0,6,0,7)</li>
+          <li>(25,6,25,7)</li>
+        </rects>
+      </Concrete>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Sand>
+        <rects>
+          <li>(1,1,8,13)</li>
+          <li>(12,1,24,13)</li>
+          <li>(9,3,11,13)</li>
+          <li>(0,6,0,7)</li>
+          <li>(25,6,25,7)</li>
+        </rects>
+      </Sand>
+      <SoftSand>
+        <rects>
+          <li>(9,1,11,2)</li>
+        </rects>
+      </SoftSand>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="foundationGrid">
+      <VFEArch_ConcreteFoundation>
+        <rects>
+          <li>(9,0,11,13)</li>
+          <li>(1,1,8,13)</li>
+          <li>(12,1,24,13)</li>
+        </rects>
+      </VFEArch_ConcreteFoundation>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,25,6)</li>
+        <li>(0,7,6,14)</li>
+        <li>(19,7,25,14)</li>
+        <li>(7,8,18,14)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,25,6)</li>
+        <li>(0,7,6,14)</li>
+        <li>(11,7,25,14)</li>
+        <li>(7,8,10,14)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
