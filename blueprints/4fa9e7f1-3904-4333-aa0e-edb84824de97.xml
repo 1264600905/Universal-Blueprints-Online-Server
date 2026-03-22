@@ -1,0 +1,245 @@
+<PrefabDef>
+  <defName>Prefab_20260322_210436</defName>
+  <size>(25,25)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>大核电站</name>
+    <description>发电站</description>
+    <tags></tags>
+    <author>果</author>
+    <category>电力</category>
+    <BuildingID>4fa9e7f1-3904-4333-aa0e-edb84824de97</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>dubwise.rimatomics</packageId>
+        <name>Dubs Rimatomics</name>
+        <version>1.7.3551</version>
+        <modorder>42</modorder>
+        <steamWorkshopId>1127530465</steamWorkshopId>
+        <things>
+          <li>RadiationShielding</li>
+          <li>DU_Blastdoor</li>
+          <li>ReactorCoreC</li>
+          <li>waterPipeHidden</li>
+          <li>BigTurbine</li>
+          <li>steamPipeHidden</li>
+          <li>controllerLoomHidden</li>
+          <li>coolingPipeHidden</li>
+          <li>Transformer</li>
+          <li>storagePool</li>
+          <li>ReactorControl</li>
+          <li>HighVoltageHidden</li>
+          <li>PPC</li>
+          <li>CoolingTower</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>gt.sam.tilledsoil</packageId>
+        <name>Tilled Soil</name>
+        <version></version>
+        <modorder>48</modorder>
+        <steamWorkshopId>725747149</steamWorkshopId>
+        <things>
+          <li>Dirt</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>大核电站</default>
+        <zh-CN>大核电站</zh-CN>
+      </name>
+      <description>
+        <default>发电站</default>
+        <zh-CN>发电站</zh-CN>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <RadiationShielding>
+      <rects>
+        <li>(0,0,10,0)</li>
+        <li>(12,0,24,0)</li>
+        <li>(0,1,0,24)</li>
+        <li>(10,1,10,4)</li>
+        <li>(24,1,24,24)</li>
+        <li>(10,6,10,10)</li>
+        <li>(1,10,9,10)</li>
+        <li>(6,11,6,11)</li>
+        <li>(6,13,6,15)</li>
+        <li>(1,15,5,15)</li>
+        <li>(1,24,12,24)</li>
+        <li>(14,24,23,24)</li>
+      </rects>
+      <hp>1000</hp>
+    </RadiationShielding>
+    <HiddenConduit>
+      <rects>
+        <li>(0,0,24,0)</li>
+        <li>(0,1,0,24)</li>
+        <li>(12,1,12,13)</li>
+        <li>(24,1,24,24)</li>
+        <li>(1,10,11,10)</li>
+        <li>(13,10,23,10)</li>
+        <li>(1,24,23,24)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <DU_Blastdoor>
+      <rects>
+        <li>(11,0,11,0)</li>
+        <li>(13,24,13,24)</li>
+      </rects>
+      <hp>1000</hp>
+    </DU_Blastdoor>
+    <ReactorCoreC>
+      <position>(5, 0, 5)</position>
+      <hp>1600</hp>
+    </ReactorCoreC>
+    <waterPipeHidden>
+      <rects>
+        <li>(10,1,11,1)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </waterPipeHidden>
+    <BigTurbine>
+      <positions>
+        <li>(14, 0, 5)</li>
+        <li>(20, 0, 5)</li>
+      </positions>
+      <hp>2000</hp>
+      <color>RGBA(0.215, 0.482, 0.650, 1.000)</color>
+    </BigTurbine>
+    <steamPipeHidden>
+      <rects>
+        <li>(10,2,11,2)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </steamPipeHidden>
+    <DU_Blastdoor>
+      <rects>
+        <li>(10,5,10,5)</li>
+        <li>(6,12,6,12)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>1000</hp>
+    </DU_Blastdoor>
+    <controllerLoomHidden>
+      <rects>
+        <li>(2,10,2,12)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </controllerLoomHidden>
+    <coolingPipeHidden>
+      <rects>
+        <li>(13,11,13,19)</li>
+        <li>(9,19,12,19)</li>
+        <li>(14,19,15,19)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </coolingPipeHidden>
+    <Transformer>
+      <positions>
+        <li>(15, 0, 11)</li>
+        <li>(17, 0, 11)</li>
+        <li>(15, 0, 14)</li>
+        <li>(17, 0, 14)</li>
+      </positions>
+      <hp>250</hp>
+    </Transformer>
+    <storagePool>
+      <position>(21, 0, 13)</position>
+      <hp>350</hp>
+    </storagePool>
+    <FloodLight>
+      <rects>
+        <li>(12,12,12,12)</li>
+      </rects>
+      <hp>120</hp>
+    </FloodLight>
+    <ReactorControl>
+      <position>(3, 0, 13)</position>
+      <hp>250</hp>
+    </ReactorControl>
+    <HighVoltageHidden>
+      <rects>
+        <li>(17,13,17,13)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HighVoltageHidden>
+    <Battery>
+      <positions>
+        <li>(7, 0, 14)</li>
+        <li>(8, 0, 14)</li>
+      </positions>
+      <hp>100</hp>
+    </Battery>
+    <PPC>
+      <positions>
+        <li>(10, 0, 15)</li>
+        <li>(10, 0, 17)</li>
+        <li>(10, 0, 19)</li>
+        <li>(10, 0, 21)</li>
+        <li>(10, 0, 23)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>200</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </PPC>
+    <CoolingTower>
+      <positions>
+        <li>(4, 0, 19)</li>
+        <li>(19, 0, 19)</li>
+      </positions>
+      <hp>1050</hp>
+      <color>RGBA(0.658, 0.615, 0.525, 1.000)</color>
+    </CoolingTower>
+    <PPC>
+      <positions>
+        <li>(15, 0, 18)</li>
+        <li>(15, 0, 22)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>200</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </PPC>
+  </things>
+  <terrain>
+    <MetalTile>
+      <rects>
+        <li>(0,0,24,24)</li>
+      </rects>
+    </MetalTile>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <MetalTile>
+        <rects>
+          <li>(0,0,24,24)</li>
+        </rects>
+      </MetalTile>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Dirt>
+        <rects>
+          <li>(0,0,24,8)</li>
+          <li>(0,9,16,24)</li>
+          <li>(17,23,24,24)</li>
+        </rects>
+      </Dirt>
+      <Soil>
+        <rects>
+          <li>(17,9,24,22)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+</PrefabDef>
