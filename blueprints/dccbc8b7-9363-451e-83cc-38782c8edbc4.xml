@@ -1,0 +1,212 @@
+<PrefabDef>
+  <defName>Prefab_20260325_204746</defName>
+  <size>(13,13)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>小核电站</name>
+    <description>核能发电站 初始 </description>
+    <tags></tags>
+    <author>果</author>
+    <category>电力</category>
+    <BuildingID>dccbc8b7-9363-451e-83cc-38782c8edbc4</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>dubwise.rimatomics</packageId>
+        <name>Dubs Rimatomics</name>
+        <version>1.7.3551</version>
+        <modorder>42</modorder>
+        <steamWorkshopId>1127530465</steamWorkshopId>
+        <things>
+          <li>RadiationShielding</li>
+          <li>ReactorCoreA</li>
+          <li>ReactorControl</li>
+          <li>controllerLoom</li>
+          <li>DU_Blastdoor</li>
+          <li>steamPipe</li>
+          <li>steamPipeHidden</li>
+          <li>Turbine</li>
+          <li>waterPipe</li>
+          <li>CoolingRadiator</li>
+          <li>Transformer</li>
+          <li>HighVoltage</li>
+          <li>coolingPipeHidden</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>gt.sam.tilledsoil</packageId>
+        <name>Tilled Soil</name>
+        <version></version>
+        <modorder>51</modorder>
+        <steamWorkshopId>725747149</steamWorkshopId>
+        <things>
+          <li>Dirt</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>小核电站</default>
+        <zh-CN>小核电站</zh-CN>
+      </name>
+      <description>
+        <default>核能发电站 初始 </default>
+        <zh-CN>核能发电站 初始 </zh-CN>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <RadiationShielding>
+      <rects>
+        <li>(0,0,12,0)</li>
+        <li>(0,1,0,12)</li>
+        <li>(6,1,6,2)</li>
+        <li>(12,1,12,12)</li>
+        <li>(6,4,6,6)</li>
+        <li>(1,6,5,6)</li>
+        <li>(1,12,11,12)</li>
+      </rects>
+      <hp>1000</hp>
+    </RadiationShielding>
+    <HiddenConduit>
+      <rects>
+        <li>(0,0,12,0)</li>
+        <li>(0,1,0,12)</li>
+        <li>(6,1,6,12)</li>
+        <li>(12,1,12,12)</li>
+        <li>(1,6,5,6)</li>
+        <li>(7,6,11,6)</li>
+        <li>(1,12,5,12)</li>
+        <li>(7,12,11,12)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <ReactorCoreA>
+      <position>(3, 0, 3)</position>
+      <hp>500</hp>
+    </ReactorCoreA>
+    <ReactorControl>
+      <position>(9, 0, 2)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>250</hp>
+    </ReactorControl>
+    <controllerLoom>
+      <rects>
+        <li>(6,3,7,3)</li>
+      </rects>
+      <hp>80</hp>
+    </controllerLoom>
+    <DU_Blastdoor>
+      <rects>
+        <li>(6,3,6,3)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>1000</hp>
+    </DU_Blastdoor>
+    <Armchair>
+      <rects>
+        <li>(9,3,9,3)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Normal</quality>
+      <hp>120</hp>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </Armchair>
+    <steamPipe>
+      <rects>
+        <li>(6,4,8,4)</li>
+      </rects>
+      <hp>80</hp>
+    </steamPipe>
+    <steamPipeHidden>
+      <rects>
+        <li>(6,5,7,5)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </steamPipeHidden>
+    <Turbine>
+      <position>(10, 0, 8)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>700</hp>
+      <color>RGBA(0.215, 0.482, 0.650, 1.000)</color>
+    </Turbine>
+    <waterPipe>
+      <rects>
+        <li>(6,6,7,6)</li>
+      </rects>
+      <hp>80</hp>
+    </waterPipe>
+    <StandingLamp>
+      <rects>
+        <li>(6,7,6,7)</li>
+      </rects>
+      <hp>50</hp>
+    </StandingLamp>
+    <CoolingRadiator>
+      <position>(2, 0, 10)</position>
+      <hp>250</hp>
+      <color>RGBA(0.230, 0.230, 0.230, 1.000)</color>
+    </CoolingRadiator>
+    <Transformer>
+      <position>(4, 0, 9)</position>
+      <hp>250</hp>
+    </Transformer>
+    <HighVoltage>
+      <rects>
+        <li>(6,10,7,10)</li>
+      </rects>
+      <hp>80</hp>
+    </HighVoltage>
+    <coolingPipeHidden>
+      <rects>
+        <li>(4,11,7,11)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </coolingPipeHidden>
+  </things>
+  <terrain>
+    <MetalTile>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </MetalTile>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <MetalTile>
+        <rects>
+          <li>(0,0,12,12)</li>
+        </rects>
+      </MetalTile>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Dirt>
+        <rects>
+          <li>(0,0,12,5)</li>
+          <li>(0,6,11,12)</li>
+          <li>(12,7,12,12)</li>
+        </rects>
+      </Dirt>
+      <Slate_RoughHewn>
+        <rects>
+          <li>(12,6,12,6)</li>
+        </rects>
+      </Slate_RoughHewn>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(12,0,12,12)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
