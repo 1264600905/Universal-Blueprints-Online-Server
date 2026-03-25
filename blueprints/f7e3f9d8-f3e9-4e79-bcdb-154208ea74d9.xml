@@ -1,0 +1,133 @@
+<PrefabDef>
+  <defName>Prefab_20260325_205323</defName>
+  <size>(15,16)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>边缘核能电池</name>
+    <description>15×16 大小</description>
+    <tags></tags>
+    <author>果</author>
+    <category>电力</category>
+    <BuildingID>f7e3f9d8-f3e9-4e79-bcdb-154208ea74d9</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>dubwise.rimatomics</packageId>
+        <name>Dubs Rimatomics</name>
+        <version>1.7.3551</version>
+        <modorder>42</modorder>
+        <steamWorkshopId>1127530465</steamWorkshopId>
+        <things>
+          <li>PPC</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>gt.sam.tilledsoil</packageId>
+        <name>Tilled Soil</name>
+        <version></version>
+        <modorder>51</modorder>
+        <steamWorkshopId>725747149</steamWorkshopId>
+        <things>
+          <li>Dirt</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>边缘核能电池</default>
+        <zh-CN>边缘核能电池</zh-CN>
+      </name>
+      <description>
+        <default>15×16 大小</default>
+        <zh-CN>15×16 大小</zh-CN>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,6,0)</li>
+        <li>(8,0,14,0)</li>
+        <li>(0,1,0,4)</li>
+        <li>(14,1,14,4)</li>
+        <li>(0,6,0,9)</li>
+        <li>(14,6,14,9)</li>
+        <li>(0,11,0,15)</li>
+        <li>(14,11,14,15)</li>
+        <li>(1,15,6,15)</li>
+        <li>(8,15,13,15)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+      <hp>360</hp>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </Wall>
+    <Autodoor>
+      <rects>
+        <li>(7,0,7,0)</li>
+        <li>(7,15,7,15)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>160</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Autodoor>
+    <PPC>
+      <positions>
+        <li>(1, 0, 2)</li>
+        <li>(3, 0, 2)</li>
+        <li>(5, 0, 2)</li>
+        <li>(8, 0, 2)</li>
+        <li>(10, 0, 2)</li>
+        <li>(12, 0, 2)</li>
+        <li>(1, 0, 7)</li>
+        <li>(3, 0, 7)</li>
+        <li>(5, 0, 7)</li>
+        <li>(8, 0, 7)</li>
+        <li>(10, 0, 7)</li>
+        <li>(12, 0, 7)</li>
+        <li>(1, 0, 12)</li>
+        <li>(3, 0, 12)</li>
+        <li>(5, 0, 12)</li>
+        <li>(8, 0, 12)</li>
+        <li>(10, 0, 12)</li>
+        <li>(12, 0, 12)</li>
+      </positions>
+      <stuff>Steel</stuff>
+      <hp>200</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </PPC>
+    <Autodoor>
+      <rects>
+        <li>(0,5,0,5)</li>
+        <li>(14,5,14,5)</li>
+        <li>(0,10,0,10)</li>
+        <li>(14,10,14,10)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>160</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Autodoor>
+  </things>
+  <terrain>
+    <MetalTile>
+      <rects>
+        <li>(0,0,14,15)</li>
+      </rects>
+    </MetalTile>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <MetalTile>
+        <rects>
+          <li>(0,0,14,15)</li>
+        </rects>
+      </MetalTile>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Dirt>
+        <rects>
+          <li>(0,0,14,15)</li>
+        </rects>
+      </Dirt>
+    </terrainLayerDetail>
+  </terrainLayers>
+</PrefabDef>
