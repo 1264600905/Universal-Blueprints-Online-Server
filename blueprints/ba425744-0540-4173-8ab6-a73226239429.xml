@@ -1,0 +1,129 @@
+<PrefabDef>
+  <defName>Prefab_20260326_125310</defName>
+  <size>(16,10)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>Battery bay</name>
+    <description>The best for a start, I think. </description>
+    <tags></tags>
+    <author></author>
+    <category>Power</category>
+    <BuildingID>ba425744-0540-4173-8ab6-a73226239429</BuildingID>
+    <modPackages></modPackages>
+    <multiLanguage>
+      <name>
+        <default>Battery bay</default>
+        <en>Battery bay</en>
+      </name>
+      <description>
+        <default>The best for a start, I think. </default>
+        <en>The best for a start, I think. </en>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,10,0)</li>
+        <li>(0,1,0,5)</li>
+        <li>(10,1,10,1)</li>
+        <li>(10,3,10,5)</li>
+        <li>(1,5,9,5)</li>
+      </rects>
+      <stuff>Uranium</stuff>
+      <hp>750</hp>
+      <color>RGBA(0.392, 0.392, 0.392, 1.000)</color>
+    </Wall>
+    <Battery>
+      <positions>
+        <li>(1, 0, 1)</li>
+        <li>(2, 0, 1)</li>
+        <li>(3, 0, 1)</li>
+        <li>(4, 0, 1)</li>
+        <li>(5, 0, 1)</li>
+        <li>(6, 0, 1)</li>
+        <li>(7, 0, 1)</li>
+        <li>(8, 0, 1)</li>
+        <li>(9, 0, 1)</li>
+        <li>(1, 0, 3)</li>
+        <li>(2, 0, 3)</li>
+        <li>(3, 0, 3)</li>
+        <li>(4, 0, 3)</li>
+        <li>(5, 0, 3)</li>
+        <li>(6, 0, 3)</li>
+        <li>(7, 0, 3)</li>
+        <li>(8, 0, 3)</li>
+        <li>(9, 0, 3)</li>
+      </positions>
+      <hp>100</hp>
+    </Battery>
+    <Door>
+      <rects>
+        <li>(10,2,10,2)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>BlocksGranite</stuff>
+      <hp>270</hp>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Door>
+    <HiddenConduit>
+      <rects>
+        <li>(4,5,4,5)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <SolarGenerator>
+      <positions>
+        <li>(1, 0, 7)</li>
+        <li>(5, 0, 7)</li>
+        <li>(9, 0, 7)</li>
+        <li>(13, 0, 7)</li>
+      </positions>
+      <hp>300</hp>
+    </SolarGenerator>
+  </things>
+  <terrain>
+    <WoodPlankFloor>
+      <rects>
+        <li>(0,0,10,5)</li>
+      </rects>
+    </WoodPlankFloor>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <WoodPlankFloor>
+        <rects>
+          <li>(0,0,10,5)</li>
+        </rects>
+      </WoodPlankFloor>
+      <StrawMatting>
+        <rects>
+          <li>(11,0,11,4)</li>
+          <li>(12,2,15,2)</li>
+        </rects>
+      </StrawMatting>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(0,0,11,4)</li>
+          <li>(12,2,15,2)</li>
+          <li>(0,5,10,5)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,10,5)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,10,5)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
