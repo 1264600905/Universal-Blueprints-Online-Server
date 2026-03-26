@@ -1,0 +1,326 @@
+<PrefabDef>
+  <defName>Prefab_20260318_182955</defName>
+  <size>(15,10)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>The Tavern</name>
+    <description>The best for a start, I think. </description>
+    <tags></tags>
+    <author></author>
+    <category>Canteen</category>
+    <BuildingID>93e9af1f-516a-4512-9383-9b7f63f67ecc</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>abrolo.grimstone.beasts</packageId>
+        <name>Grimstone : Beasts</name>
+        <version>1.1.0</version>
+        <modorder>26</modorder>
+        <steamWorkshopId>3535302121</steamWorkshopId>
+        <things>
+          <li>Grimstone_Ivory</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ponpeco.pfsf</packageId>
+        <name>Ponpeco Furnitures : Sci-Fi</name>
+        <version>1.2</version>
+        <modorder>136</modorder>
+        <steamWorkshopId>3610234567</steamWorkshopId>
+        <things>
+          <li>PFS_TriLight</li>
+          <li>PFS_Heater</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>poncho.automatichydroponics</packageId>
+        <name>Automatic Hydroponics</name>
+        <version></version>
+        <modorder>105</modorder>
+        <steamWorkshopId>3528490718</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>AutoHydroponic</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>hmc.wall.furniture</packageId>
+        <name>[HMC]Wall Furniture</name>
+        <version></version>
+        <modorder>146</modorder>
+        <steamWorkshopId>3533512691</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>HMC_Wall_OrbitalTradeBeacon</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>farxmai2.vfestandalone</packageId>
+        <name>[FM] Furniture Expanded Pack</name>
+        <version></version>
+        <modorder>122</modorder>
+        <steamWorkshopId>3537360590</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>FFE_CookingTable</li>
+          <li>FFE_MeatMincer</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>5tratz.wallheatercooler</packageId>
+        <name>Wall Heater/Cooler</name>
+        <version></version>
+        <modorder>147</modorder>
+        <steamWorkshopId>3543503264</steamWorkshopId>
+        <things>
+          <li>WallCooler</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ks.flooringfloors</packageId>
+        <name>Flooring Floors</name>
+        <version>11</version>
+        <modorder>84</modorder>
+        <steamWorkshopId>3531114826</steamWorkshopId>
+        <things>
+          <li>KS_StoneTinySimpleMosaicSlate</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>The Tavern</default>
+        <en>The Tavern</en>
+      </name>
+      <description>
+        <default>The best for a start, I think. </default>
+        <en>The best for a start, I think. </en>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,8,0)</li>
+        <li>(10,0,14,0)</li>
+        <li>(0,1,0,9)</li>
+        <li>(14,1,14,9)</li>
+        <li>(1,9,13,9)</li>
+      </rects>
+      <stuff>Silver</stuff>
+      <hp>210</hp>
+      <color>RGBA(0.706, 0.678, 0.588, 1.000)</color>
+    </Wall>
+    <HiddenConduit>
+      <rects>
+        <li>(0,0,14,1)</li>
+        <li>(0,2,0,9)</li>
+        <li>(12,2,12,9)</li>
+        <li>(14,2,14,9)</li>
+        <li>(1,9,11,9)</li>
+        <li>(13,9,13,9)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <Door>
+      <rects>
+        <li>(9,0,9,0)</li>
+      </rects>
+      <stuff>Grimstone_Ivory</stuff>
+      <hp>192</hp>
+      <color>RGBA(0.698, 0.659, 0.592, 1.000)</color>
+    </Door>
+    <PFS_TriLight>
+      <rects>
+        <li>(1,1,1,1)</li>
+        <li>(13,1,13,1)</li>
+        <li>(7,5,7,5)</li>
+        <li>(1,8,1,8)</li>
+      </rects>
+      <hp>50</hp>
+    </PFS_TriLight>
+    <DiningChair>
+      <rects>
+        <li>(2,2,2,2)</li>
+        <li>(5,2,5,2)</li>
+        <li>(8,2,8,2)</li>
+        <li>(2,5,2,5)</li>
+        <li>(4,5,4,5)</li>
+        <li>(9,5,9,5)</li>
+        <li>(4,7,4,7)</li>
+        <li>(10,7,10,7)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DiningChair>
+    <AutoHydroponic>
+      <positions>
+        <li>(12, 0, 3)</li>
+        <li>(12, 0, 6)</li>
+      </positions>
+      <hp>500</hp>
+    </AutoHydroponic>
+    <TableStonecutter>
+      <position>(2, 0, 3)</position>
+      <stuff>WoodLog</stuff>
+      <hp>117</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </TableStonecutter>
+    <ElectricStove>
+      <position>(5, 0, 3)</position>
+      <hp>180</hp>
+    </ElectricStove>
+    <ElectricSmelter>
+      <position>(8, 0, 3)</position>
+      <hp>180</hp>
+    </ElectricSmelter>
+    <HMC_Wall_OrbitalTradeBeacon>
+      <rects>
+        <li>(1,4,1,4)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>100</hp>
+    </HMC_Wall_OrbitalTradeBeacon>
+    <FFE_CookingTable>
+      <position>(2, 0, 6)</position>
+      <stuff>WoodLog</stuff>
+      <hp>117</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </FFE_CookingTable>
+    <FFE_MeatMincer>
+      <rects>
+        <li>(4,6,4,6)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>130</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </FFE_MeatMincer>
+    <CraftingSpot>
+      <rects>
+        <li>(5,6,5,6)</li>
+      </rects>
+    </CraftingSpot>
+    <ButcherSpot>
+      <rects>
+        <li>(6,6,6,6)</li>
+      </rects>
+    </ButcherSpot>
+    <TableButcher>
+      <position>(9, 0, 6)</position>
+      <stuff>WoodLog</stuff>
+      <hp>117</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </TableButcher>
+    <WallCooler>
+      <rects>
+        <li>(3,8,3,8)</li>
+      </rects>
+      <hp>70</hp>
+    </WallCooler>
+    <TableSculpting>
+      <position>(4, 0, 8)</position>
+      <stuff>WoodLog</stuff>
+      <hp>117</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </TableSculpting>
+    <DrugLab>
+      <position>(7, 0, 8)</position>
+      <stuff>WoodLog</stuff>
+      <hp>78</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DrugLab>
+    <HandTailoringBench>
+      <position>(10, 0, 8)</position>
+      <stuff>WoodLog</stuff>
+      <hp>117</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </HandTailoringBench>
+    <HMC_Wall_OrbitalTradeBeacon>
+      <rects>
+        <li>(11,8,11,8)</li>
+      </rects>
+      <hp>100</hp>
+    </HMC_Wall_OrbitalTradeBeacon>
+    <PFS_Heater>
+      <rects>
+        <li>(13,8,13,8)</li>
+      </rects>
+      <hp>100</hp>
+    </PFS_Heater>
+  </things>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <KS_StoneTinySimpleMosaicSlate>
+        <rects>
+          <li>(0,0,14,9)</li>
+        </rects>
+      </KS_StoneTinySimpleMosaicSlate>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Gravel>
+        <rects>
+          <li>(0,0,0,7)</li>
+          <li>(1,1,1,6)</li>
+          <li>(2,2,2,3)</li>
+          <li>(13,2,13,9)</li>
+          <li>(12,3,12,9)</li>
+          <li>(14,3,14,9)</li>
+          <li>(11,4,11,9)</li>
+          <li>(10,5,10,9)</li>
+          <li>(9,8,9,9)</li>
+        </rects>
+      </Gravel>
+      <Soil>
+        <rects>
+          <li>(1,0,14,0)</li>
+          <li>(2,1,14,1)</li>
+          <li>(3,2,12,2)</li>
+          <li>(14,2,14,2)</li>
+          <li>(3,3,11,3)</li>
+          <li>(2,4,10,4)</li>
+          <li>(2,5,9,7)</li>
+          <li>(1,7,1,9)</li>
+          <li>(0,8,0,9)</li>
+          <li>(2,8,8,9)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,14,9)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,14,9)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
