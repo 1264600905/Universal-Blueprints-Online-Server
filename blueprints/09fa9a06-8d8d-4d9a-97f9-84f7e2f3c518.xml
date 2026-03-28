@@ -1,0 +1,196 @@
+<PrefabDef>
+  <defName>Prefab_20260328_140045</defName>
+  <size>(13,13)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>电池</name>
+    <description>13×13 边缘核能</description>
+    <tags></tags>
+    <author>果</author>
+    <category>电力</category>
+    <BuildingID>09fa9a06-8d8d-4d9a-97f9-84f7e2f3c518</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>dubwise.rimatomics</packageId>
+        <name>Dubs Rimatomics</name>
+        <version>1.7.3551</version>
+        <modorder>97</modorder>
+        <steamWorkshopId>1127530465</steamWorkshopId>
+        <things>
+          <li>PPC</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>gt.sam.tilledsoil</packageId>
+        <name>Tilled Soil</name>
+        <version></version>
+        <modorder>236</modorder>
+        <steamWorkshopId>725747149</steamWorkshopId>
+        <things>
+          <li>Dirt</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>电池</default>
+        <zh-CN>电池</zh-CN>
+      </name>
+      <description>
+        <default>13×13 边缘核能</default>
+        <zh-CN>13×13 边缘核能</zh-CN>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,12,0)</li>
+        <li>(0,1,0,5)</li>
+        <li>(12,1,12,5)</li>
+        <li>(0,7,0,12)</li>
+        <li>(12,7,12,12)</li>
+        <li>(1,12,11,12)</li>
+      </rects>
+      <stuff>Plasteel</stuff>
+      <hp>840</hp>
+      <color>RGBA(0.627, 0.698, 0.710, 1.000)</color>
+    </Wall>
+    <HiddenConduit>
+      <rects>
+        <li>(11,0,12,0)</li>
+        <li>(12,1,12,12)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <PPC>
+      <positions>
+        <li>(2, 0, 2)</li>
+        <li>(6, 0, 2)</li>
+        <li>(2, 0, 5)</li>
+        <li>(6, 0, 5)</li>
+        <li>(2, 0, 8)</li>
+        <li>(6, 0, 8)</li>
+        <li>(2, 0, 11)</li>
+        <li>(6, 0, 11)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>200</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </PPC>
+    <Battery>
+      <positions>
+        <li>(9, 0, 2)</li>
+        <li>(9, 0, 11)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>100</hp>
+    </Battery>
+    <PPC>
+      <position>(10, 0, 2)</position>
+      <stuff>Steel</stuff>
+      <hp>200</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </PPC>
+    <Battery>
+      <positions>
+        <li>(10, 0, 5)</li>
+        <li>(10, 0, 7)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>100</hp>
+    </Battery>
+    <Autodoor>
+      <rects>
+        <li>(0,6,0,6)</li>
+        <li>(12,6,12,6)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Plasteel</stuff>
+      <hp>450</hp>
+      <color>RGBA(0.627, 0.698, 0.710, 1.000)</color>
+    </Autodoor>
+    <PPC>
+      <position>(11, 0, 10)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>200</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </PPC>
+  </things>
+  <terrain>
+    <TileMarble>
+      <rects>
+        <li>(0,0,12,5)</li>
+        <li>(0,6,11,12)</li>
+        <li>(12,7,12,12)</li>
+      </rects>
+    </TileMarble>
+    <TileMarble>
+      <color>Structure_White</color>
+      <rects>
+        <li>(12,6,12,6)</li>
+      </rects>
+    </TileMarble>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <TileMarble>
+        <rects>
+          <li>(0,0,12,5)</li>
+          <li>(0,6,11,12)</li>
+          <li>(12,7,12,12)</li>
+        </rects>
+      </TileMarble>
+      <TileMarble>
+        <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
+        <rects>
+          <li>(12,6,12,6)</li>
+        </rects>
+      </TileMarble>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(0,0,8,1)</li>
+          <li>(10,2,12,5)</li>
+          <li>(10,6,11,6)</li>
+          <li>(10,7,10,7)</li>
+          <li>(12,7,12,7)</li>
+        </rects>
+      </Soil>
+      <Dirt>
+        <rects>
+          <li>(9,0,12,1)</li>
+          <li>(0,2,9,12)</li>
+          <li>(10,8,12,12)</li>
+        </rects>
+      </Dirt>
+      <Soil>
+        <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
+        <rects>
+          <li>(12,6,12,6)</li>
+        </rects>
+      </Soil>
+      <SoilRich>
+        <rects>
+          <li>(11,7,11,7)</li>
+        </rects>
+      </SoilRich>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(12,0,12,12)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
