@@ -1,0 +1,251 @@
+<PrefabDef>
+  <defName>Prefab_20260401_000051</defName>
+  <size>(14,14)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>聯合重工石油的精煉室</name>
+    <description>聯合重工石油的精煉室,能滿足大部分的石化產品需求，同時改善操作者中暑的問題。</description>
+    <tags></tags>
+    <author>黑龍月</author>
+    <category>车间</category>
+    <BuildingID>f7aed437-6c20-4f8d-a706-0bb31b5fcd98</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>kindseal.ufli</packageId>
+        <name>联合轻工家具拓展-UF Light Industries Furniture</name>
+        <version></version>
+        <modorder>309</modorder>
+        <steamWorkshopId>3651799915</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFLI_Wall</li>
+          <li>UFLI_Walllamp</li>
+          <li>UFLI_Chair</li>
+          <li>UFLI_1_Autodoor</li>
+          <li>UFLI_FLOOR</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>dubwise.rimefeller</packageId>
+        <name>Rimefeller</name>
+        <version>1.2.1634</version>
+        <modorder>229</modorder>
+        <steamWorkshopId>1321849735</steamWorkshopId>
+        <things>
+          <li>NeutroamineRefiner</li>
+          <li>HyperweaveRefiner</li>
+          <li>Autoclave</li>
+          <li>RefineryLoadingBay</li>
+          <li>SynthyleneRefiner</li>
+          <li>SynthamideRefiner</li>
+          <li>LargeFuelPowerplant</li>
+          <li>CrudeCracker</li>
+          <li>FuelStorage</li>
+          <li>ChemfuelSiphon</li>
+          <li>ChemfuelHopper</li>
+          <li>OilStorage</li>
+          <li>ResourceConsole</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>聯合重工石油的精煉室</default>
+        <zh-CN>聯合重工石油的精煉室</zh-CN>
+      </name>
+      <description>
+        <default>聯合重工石油的精煉室,能滿足大部分的石化產品需求，同時改善操作者中暑的問題。</default>
+        <zh-CN>聯合重工石油的精煉室,能滿足大部分的石化產品需求，同時改善操作者中暑的問題。</zh-CN>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <UFLI_Wall>
+      <rects>
+        <li>(0,0,13,0)</li>
+        <li>(0,1,0,13)</li>
+        <li>(13,1,13,10)</li>
+        <li>(13,12,13,13)</li>
+        <li>(1,13,12,13)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>2500</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Wall>
+    <NeutroamineRefiner>
+      <positions>
+        <li>(1, 0, 1)</li>
+        <li>(3, 0, 1)</li>
+      </positions>
+      <hp>150</hp>
+    </NeutroamineRefiner>
+    <UFLI_Walllamp>
+      <rects>
+        <li>(3,1,3,1)</li>
+        <li>(11,1,11,1)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>150</hp>
+    </UFLI_Walllamp>
+    <HyperweaveRefiner>
+      <positions>
+        <li>(6, 0, 2)</li>
+        <li>(9, 0, 2)</li>
+      </positions>
+      <hp>150</hp>
+    </HyperweaveRefiner>
+    <Autoclave>
+      <positions>
+        <li>(11, 0, 1)</li>
+        <li>(11, 0, 3)</li>
+      </positions>
+      <hp>100</hp>
+    </Autoclave>
+    <RefineryLoadingBay>
+      <rects>
+        <li>(1,3,4,3)</li>
+        <li>(7,4,8,4)</li>
+      </rects>
+      <hp>100</hp>
+    </RefineryLoadingBay>
+    <SynthyleneRefiner>
+      <position>(2, 0, 5)</position>
+      <hp>150</hp>
+    </SynthyleneRefiner>
+    <SynthamideRefiner>
+      <position>(5, 0, 5)</position>
+      <hp>150</hp>
+    </SynthamideRefiner>
+    <StandingLamp>
+      <rects>
+        <li>(9,4,9,4)</li>
+      </rects>
+      <hp>50</hp>
+    </StandingLamp>
+    <LargeFuelPowerplant>
+      <position>(9, 0, 6)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>250</hp>
+    </LargeFuelPowerplant>
+    <Shelf>
+      <positions>
+        <li>(12, 0, 5)</li>
+        <li>(12, 0, 7)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Shelf>
+    <CrudeCracker>
+      <position>(3, 0, 9)</position>
+      <hp>150</hp>
+    </CrudeCracker>
+    <FuelStorage>
+      <position>(8, 0, 8)</position>
+      <hp>150</hp>
+    </FuelStorage>
+    <HiddenConduit>
+      <rects>
+        <li>(9,8,9,13)</li>
+        <li>(0,10,0,13)</li>
+        <li>(1,13,8,13)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <ChemfuelSiphon>
+      <rects>
+        <li>(11,8,11,8)</li>
+      </rects>
+      <hp>100</hp>
+    </ChemfuelSiphon>
+    <ChemfuelHopper>
+      <rects>
+        <li>(11,9,11,9)</li>
+      </rects>
+      <hp>100</hp>
+    </ChemfuelHopper>
+    <OilStorage>
+      <position>(8, 0, 11)</position>
+      <hp>150</hp>
+    </OilStorage>
+    <ResourceConsole>
+      <position>(11, 0, 11)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>250</hp>
+    </ResourceConsole>
+    <Cooler>
+      <rects>
+        <li>(12,10,12,10)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>100</hp>
+    </Cooler>
+    <UFLI_Chair>
+      <rects>
+        <li>(12,11,12,11)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>120</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Chair>
+    <UFLI_1_Autodoor>
+      <rects>
+        <li>(13,11,13,11)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>1200</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_1_Autodoor>
+    <UFLI_Walllamp>
+      <rects>
+        <li>(3,12,3,12)</li>
+        <li>(11,12,11,12)</li>
+      </rects>
+      <hp>150</hp>
+    </UFLI_Walllamp>
+    <Cooler>
+      <rects>
+        <li>(12,12,12,12)</li>
+      </rects>
+      <hp>100</hp>
+    </Cooler>
+  </things>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <UFLI_FLOOR>
+        <rects>
+          <li>(0,0,13,13)</li>
+        </rects>
+      </UFLI_FLOOR>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(0,0,13,13)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,13,13)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,13,13)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
