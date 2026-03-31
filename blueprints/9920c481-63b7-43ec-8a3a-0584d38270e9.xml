@@ -1,5 +1,5 @@
 <PrefabDef>
-  <defName>Prefab_20260330_232337</defName>
+  <defName>Prefab_20260331_234743</defName>
   <size>(32,39)</size>
   <extraInfo>
     <version>1.6.9438.37837</version>
@@ -304,9 +304,10 @@
   <things>
     <UFLI_Wall>
       <rects>
-        <li>(0,0,22,0)</li>
+        <li>(0,0,2,0)</li>
+        <li>(5,0,22,0)</li>
         <li>(25,0,31,0)</li>
-        <li>(0,1,0,37)</li>
+        <li>(0,1,0,29)</li>
         <li>(22,1,22,1)</li>
         <li>(25,1,25,1)</li>
         <li>(31,1,31,37)</li>
@@ -342,6 +343,7 @@
         <li>(23,27,30,27)</li>
         <li>(17,28,17,31)</li>
         <li>(10,31,16,31)</li>
+        <li>(0,33,0,37)</li>
         <li>(5,33,8,33)</li>
         <li>(10,33,17,33)</li>
         <li>(8,34,8,37)</li>
@@ -352,6 +354,22 @@
       </rects>
       <stuff>Steel</stuff>
       <hp>2500</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Wall>
+    <UFLI_Wall>
+      <rects>
+        <li>(3,0,3,0)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>2449</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Wall>
+    <UFLI_Wall>
+      <rects>
+        <li>(4,0,4,0)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>2437</hp>
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </UFLI_Wall>
     <UFLI_2_Autodoor>
@@ -388,7 +406,7 @@
         <li>(5,1,5,2)</li>
         <li>(7,1,7,2)</li>
         <li>(9,1,9,2)</li>
-        <li>(11,1,11,1)</li>
+        <li>(11,1,11,2)</li>
         <li>(13,1,13,2)</li>
         <li>(5,4,5,5)</li>
         <li>(7,4,7,5)</li>
@@ -431,7 +449,6 @@
         <li>(7,14,7,14)</li>
         <li>(30,14,30,14)</li>
         <li>(21,16,21,16)</li>
-        <li>(30,20,30,20)</li>
         <li>(30,24,30,24)</li>
         <li>(7,25,7,25)</li>
         <li>(7,30,7,30)</li>
@@ -532,6 +549,8 @@
         <li>(5,20,5,26)</li>
         <li>(5,28,5,30)</li>
         <li>(9,31,9,31)</li>
+        <li>(30,32,31,32)</li>
+        <li>(0,33,4,33)</li>
         <li>(9,33,9,33)</li>
       </rects>
       <hp>100</hp>
@@ -1020,15 +1039,27 @@
     <BB_BunkBedDouble>
       <positions>
         <li>(20, 0, 28)</li>
-        <li>(22, 0, 28)</li>
         <li>(24, 0, 28)</li>
         <li>(26, 0, 28)</li>
         <li>(28, 0, 28)</li>
-        <li>(30, 0, 28)</li>
       </positions>
       <stuff>Steel</stuff>
       <quality>Normal</quality>
       <hp>500</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </BB_BunkBedDouble>
+    <BB_BunkBedDouble>
+      <position>(22, 0, 28)</position>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>442</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </BB_BunkBedDouble>
+    <BB_BunkBedDouble>
+      <position>(30, 0, 28)</position>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>399</hp>
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </BB_BunkBedDouble>
     <UFLI_Couch>
@@ -1041,6 +1072,14 @@
       <hp>200</hp>
       <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
     </UFLI_Couch>
+    <UFLI_Wall>
+      <rects>
+        <li>(0,30,0,30)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>2461</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Wall>
     <RS_Sofachair>
       <rects>
         <li>(1,30,3,30)</li>
@@ -1071,13 +1110,11 @@
         <li>(20,30,20,30)</li>
         <li>(22,30,22,30)</li>
         <li>(24,30,24,30)</li>
-        <li>(26,30,26,30)</li>
         <li>(28,30,28,30)</li>
         <li>(30,30,30,30)</li>
         <li>(20,34,20,34)</li>
         <li>(22,34,22,34)</li>
         <li>(24,34,24,34)</li>
-        <li>(26,34,26,34)</li>
         <li>(28,34,28,34)</li>
         <li>(30,34,30,34)</li>
       </rects>
@@ -1087,6 +1124,24 @@
       <hp>275</hp>
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </RH2_ClassicFootlocker>
+    <RH2_ClassicFootlocker>
+      <rects>
+        <li>(26,30,26,30)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>232</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </RH2_ClassicFootlocker>
+    <UFLI_Wall>
+      <rects>
+        <li>(0,31,0,31)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>2431</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Wall>
     <RS_smallTableClothe>
       <rects>
         <li>(1,31,3,31)</li>
@@ -1128,6 +1183,14 @@
       <hp>1200</hp>
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </UFLI_1_Autodoor>
+    <UFLI_Wall>
+      <rects>
+        <li>(0,32,0,32)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>2319</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Wall>
     <UFLI_1_Autodoor>
       <rects>
         <li>(17,32,17,32)</li>
@@ -1236,6 +1299,16 @@
       <hp>425</hp>
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </RH2_DoubleWardrobe>
+    <RH2_ClassicFootlocker>
+      <rects>
+        <li>(26,34,26,34)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>223</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </RH2_ClassicFootlocker>
     <UFLI_Couch>
       <rects>
         <li>(13,35,13,35)</li>
@@ -1246,11 +1319,39 @@
       <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
     </UFLI_Couch>
     <BB_BunkBedDouble>
+      <position>(20, 0, 36)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>473</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </BB_BunkBedDouble>
+    <BB_BunkBedDouble>
+      <position>(22, 0, 36)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>460</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </BB_BunkBedDouble>
+    <BB_BunkBedDouble>
+      <position>(24, 0, 36)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>446</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </BB_BunkBedDouble>
+    <BB_BunkBedDouble>
+      <position>(26, 0, 36)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>464</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </BB_BunkBedDouble>
+    <BB_BunkBedDouble>
       <positions>
-        <li>(20, 0, 36)</li>
-        <li>(22, 0, 36)</li>
-        <li>(24, 0, 36)</li>
-        <li>(26, 0, 36)</li>
         <li>(28, 0, 36)</li>
         <li>(30, 0, 36)</li>
       </positions>
@@ -1336,8 +1437,10 @@
           <li>(0,10,0,32)</li>
           <li>(24,10,26,37)</li>
           <li>(31,10,31,37)</li>
-          <li>(17,11,23,37)</li>
+          <li>(17,11,23,17)</li>
           <li>(27,11,30,37)</li>
+          <li>(19,18,23,37)</li>
+          <li>(17,19,18,37)</li>
           <li>(1,31,1,31)</li>
         </rects>
       </Soil>
@@ -1362,6 +1465,11 @@
           <li>(28,10,30,10)</li>
         </rects>
       </MossyTerrain>
+      <Marble_RoughHewn>
+        <rects>
+          <li>(17,18,18,18)</li>
+        </rects>
+      </Marble_RoughHewn>
     </terrainLayerDetail>
   </terrainLayers>
   <roofs>
