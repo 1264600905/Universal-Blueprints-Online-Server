@@ -1,0 +1,124 @@
+<PrefabDef>
+  <defName>Prefab_20260402_012312</defName>
+  <size>(6,6)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>小号卧室</name>
+    <description>最基础的小号体面卧室</description>
+    <tags></tags>
+    <author>k</author>
+    <category>宿舍</category>
+    <BuildingID>1cf7c35c-975a-4965-92f0-8e9fb4054093</BuildingID>
+    <modPackages></modPackages>
+    <multiLanguage>
+      <name>
+        <default>小号卧室</default>
+        <zh-CN>小号卧室</zh-CN>
+      </name>
+      <description>
+        <default>最基础的小号体面卧室</default>
+        <zh-CN>最基础的小号体面卧室</zh-CN>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,5,0)</li>
+        <li>(0,1,0,5)</li>
+        <li>(5,1,5,5)</li>
+        <li>(1,5,1,5)</li>
+        <li>(3,5,4,5)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>195</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Wall>
+    <Dresser>
+      <position>(1, 0, 2)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>78</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Dresser>
+    <EndTable>
+      <rects>
+        <li>(2,1,2,1)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>49</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </EndTable>
+    <WallLamp>
+      <rects>
+        <li>(2,1,2,1)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>35</hp>
+    </WallLamp>
+    <DoubleBed>
+      <position>(3, 0, 1)</position>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>130</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DoubleBed>
+    <SculptureSmall>
+      <rects>
+        <li>(1,3,1,3)</li>
+      </rects>
+      <stuff>BlocksSlate</stuff>
+      <quality>Normal</quality>
+      <hp>117</hp>
+      <color>RGBA(0.275, 0.275, 0.275, 1.000)</color>
+    </SculptureSmall>
+    <Door>
+      <rects>
+        <li>(2,5,2,5)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+  </things>
+  <terrain>
+    <WoodPlankFloor>
+      <rects>
+        <li>(1,1,4,4)</li>
+        <li>(2,5,2,5)</li>
+      </rects>
+    </WoodPlankFloor>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <WoodPlankFloor>
+        <rects>
+          <li>(1,1,4,4)</li>
+          <li>(2,5,2,5)</li>
+        </rects>
+      </WoodPlankFloor>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(1,1,4,4)</li>
+          <li>(2,5,2,5)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,5,5)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,5,5)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
