@@ -1,0 +1,97 @@
+<PrefabDef>
+  <defName>Prefab_20260404_001457</defName>
+  <size>(7,7)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>normal room</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>Dormitory</category>
+    <BuildingID>901d8c6d-1d6b-47ad-acfa-e634515808cf</BuildingID>
+    <modPackages></modPackages>
+    <multiLanguage>
+      <name>
+        <default>normal room</default>
+        <en>normal room</en>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,6,0)</li>
+        <li>(0,1,0,2)</li>
+        <li>(6,1,6,6)</li>
+        <li>(0,4,0,6)</li>
+        <li>(1,6,5,6)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>195</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Wall>
+    <TorchWallLamp>
+      <rects>
+        <li>(5,1,5,1)</li>
+        <li>(5,5,5,5)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>50</hp>
+    </TorchWallLamp>
+    <Door>
+      <rects>
+        <li>(0,3,0,3)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <Bed>
+      <position>(5, 0, 3)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>91</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed>
+  </things>
+  <terrain>
+    <WoodPlankFloor>
+      <rects>
+        <li>(1,1,5,5)</li>
+        <li>(0,3,0,3)</li>
+      </rects>
+    </WoodPlankFloor>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <WoodPlankFloor>
+        <rects>
+          <li>(1,1,5,5)</li>
+          <li>(0,3,0,3)</li>
+        </rects>
+      </WoodPlankFloor>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(1,1,5,5)</li>
+          <li>(0,3,0,3)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,6,6)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,6,6)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
