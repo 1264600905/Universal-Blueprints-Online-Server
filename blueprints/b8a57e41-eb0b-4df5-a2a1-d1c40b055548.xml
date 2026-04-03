@@ -1,0 +1,91 @@
+<PrefabDef>
+  <defName>Prefab_20260402_221712</defName>
+  <size>(5,5)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>水栽培</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>种植区</category>
+    <BuildingID>b8a57e41-eb0b-4df5-a2a1-d1c40b055548</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>oark.ratkinfaction.oberoniaaurea</packageId>
+        <name>[OA]Ratkin Faction: Oberonia aurea</name>
+        <version></version>
+        <modorder>116</modorder>
+        <steamWorkshopId>3159926804</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>fxz.solaris.ratkinracemod.odyssey</packageId>
+            <steamWorkshopId>3497673755</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>OA_RK_Constant_Temperature_Hydroponics</li>
+          <li>OA_RK_Zhuzi_New</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>水栽培</default>
+        <zh-CN>水栽培</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <OA_RK_Constant_Temperature_Hydroponics>
+      <positions>
+        <li>(1, 0, 1)</li>
+        <li>(4, 0, 3)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>200</hp>
+    </OA_RK_Constant_Temperature_Hydroponics>
+    <OA_RK_Constant_Temperature_Hydroponics>
+      <positions>
+        <li>(3, 0, 1)</li>
+        <li>(1, 0, 4)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>200</hp>
+    </OA_RK_Constant_Temperature_Hydroponics>
+    <OA_RK_Zhuzi_New>
+      <rects>
+        <li>(2,2,2,2)</li>
+      </rects>
+      <hp>180</hp>
+    </OA_RK_Zhuzi_New>
+    <HiddenConduit>
+      <rects>
+        <li>(0,3,3,3)</li>
+        <li>(2,4,4,4)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+  </things>
+  <terrainLayers></terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,4,4)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,4,4)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
