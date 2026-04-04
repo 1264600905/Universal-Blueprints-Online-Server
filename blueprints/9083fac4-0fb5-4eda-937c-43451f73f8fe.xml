@@ -1,0 +1,70 @@
+<PrefabDef>
+  <defName>Prefab_20260404_184548</defName>
+  <size>(5,5)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>prison room v2</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>Dormitory</category>
+    <BuildingID>9083fac4-0fb5-4eda-937c-43451f73f8fe</BuildingID>
+    <modPackages></modPackages>
+    <multiLanguage>
+      <name>
+        <default>prison room v2</default>
+        <en>prison room v2</en>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,4,0)</li>
+        <li>(0,1,0,4)</li>
+        <li>(4,1,4,4)</li>
+        <li>(1,4,1,4)</li>
+        <li>(3,4,3,4)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>300</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Wall>
+    <Bed>
+      <position>(2, 0, 1)</position>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>140</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Bed>
+    <Autodoor>
+      <rects>
+        <li>(2,4,2,4)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>160</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Autodoor>
+  </things>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <Concrete>
+        <rects>
+          <li>(0,0,4,4)</li>
+        </rects>
+      </Concrete>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <SoilRich>
+        <rects>
+          <li>(0,0,2,4)</li>
+        </rects>
+      </SoilRich>
+      <Soil>
+        <rects>
+          <li>(3,0,4,4)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+</PrefabDef>
