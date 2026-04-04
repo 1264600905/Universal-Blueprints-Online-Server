@@ -1,14 +1,14 @@
 <PrefabDef>
-  <defName>Prefab_20260405_014754</defName>
+  <defName>Prefab_20260405_014918</defName>
   <size>(32,39)</size>
   <extraInfo>
     <version>1.6.9438.37837</version>
-    <name>未來軍事指揮中心(米莉拉輝鋼建築)</name>
+    <name>未來軍事指揮中心</name>
     <description>未來軍事指揮中心，不只有掃描與通訊功能、配備了士兵宿舍、2個高層軍官的房間、會議、倉庫、浴室、廁所、醫療站等，需要15000W電量確保完整運作！</description>
     <tags></tags>
     <author>黑龍月</author>
     <category>基地蓝图</category>
-    <BuildingID>9920c481-63b7-43ec-8a3a-0584d38270e9</BuildingID>
+    <BuildingID>2392f8f8-61fe-4c44-8583-cd3c576ac16f</BuildingID>
     <modPackages>
       <mod>
         <packageId>kindseal.ufli</packageId>
@@ -24,14 +24,14 @@
         </dependencies>
         <things>
           <li>UFLI_Wall</li>
-          <li>UFLI_2_Frame_DOOR</li>
           <li>UFLI_2_Autodoor</li>
+          <li>UFLI_2_Frame_DOOR</li>
           <li>UFLI_Walllamp</li>
           <li>UFLI_Chair</li>
           <li>UFLI_1X2_Table</li>
           <li>UFLI_Bookcase</li>
-          <li>UFLI_3_Frame_DOOR</li>
           <li>UFLI_3_Autodoor</li>
+          <li>UFLI_3_Frame_DOOR</li>
           <li>UFLI_Decoration_Big_Holographic</li>
           <li>UFLI_Holographic_logo</li>
           <li>UFLI_CabinetB</li>
@@ -39,41 +39,11 @@
           <li>UFLI_Bed</li>
           <li>UFLI_Couch</li>
           <li>UFLI_WashingMachine</li>
-          <li>UFLI_1_Frame_DOOR</li>
           <li>UFLI_1_Autodoor</li>
+          <li>UFLI_1_Frame_DOOR</li>
           <li>UFLI_ChessTable</li>
           <li>UFLI_FLOORJ</li>
           <li>UFLI_FLOOR</li>
-        </things>
-      </mod>
-      <mod>
-        <packageId>ancot.milirarace</packageId>
-        <name>Milira Race</name>
-        <version></version>
-        <modorder>186</modorder>
-        <steamWorkshopId>3256974620</steamWorkshopId>
-        <dependencies>
-          <li>
-            <packageId>erdelf.humanoidalienraces</packageId>
-            <steamWorkshopId>839005762</steamWorkshopId>
-          </li>
-          <li>
-            <packageId>ancot.ancotlibrary</packageId>
-            <steamWorkshopId>2988801276</steamWorkshopId>
-          </li>
-          <li>
-            <packageId>brrainz.harmony</packageId>
-            <steamWorkshopId>2009463077</steamWorkshopId>
-          </li>
-          <li>
-            <packageId>ludeon.rimworld.royalty</packageId>
-          </li>
-          <li>
-            <packageId>ludeon.rimworld.biotech</packageId>
-          </li>
-        </dependencies>
-        <things>
-          <li>Milira_SplendidSteel</li>
         </things>
       </mod>
       <mod>
@@ -176,6 +146,7 @@
         <things>
           <li>KT_Communication</li>
           <li>KT_Tactical_Terminal</li>
+          <li>KT_wallTV</li>
         </things>
       </mod>
       <mod>
@@ -196,6 +167,21 @@
         </dependencies>
         <things>
           <li>ASF_WeaponsLocker</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>als.gravtech</packageId>
+        <name>GravTech</name>
+        <version>1.4.1</version>
+        <modorder>208</modorder>
+        <steamWorkshopId>3545374124</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>ludeon.rimworld.odyssey</packageId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Gravitonium</li>
         </things>
       </mod>
       <mod>
@@ -276,6 +262,7 @@
         </dependencies>
         <things>
           <li>RH2_MissionBoard</li>
+          <li>RH2_DoubleWardrobe</li>
           <li>RH2_ClassicFootlocker</li>
         </things>
       </mod>
@@ -296,8 +283,8 @@
         <modorder>106</modorder>
         <steamWorkshopId>1714572710</steamWorkshopId>
         <things>
+          <li>RS_CounterB</li>
           <li>RS_sink</li>
-          <li>RS_Counter</li>
           <li>RS_Microwave</li>
           <li>RS_KitchenHood</li>
           <li>RS_stove</li>
@@ -342,8 +329,8 @@
     </modPackages>
     <multiLanguage>
       <name>
-        <default>未來軍事指揮中心(米莉拉輝鋼建築)</default>
-        <zh-CN>未來軍事指揮中心(米莉拉輝鋼建築)</zh-CN>
+        <default>未來軍事指揮中心</default>
+        <zh-CN>未來軍事指揮中心</zh-CN>
       </name>
       <description>
         <default>未來軍事指揮中心，不只有掃描與通訊功能、配備了士兵宿舍、2個高層軍官的房間、會議、倉庫、浴室、廁所、醫療站等，需要15000W電量確保完整運作！</default>
@@ -364,13 +351,19 @@
         <li>(25,5,25,9)</li>
         <li>(1,6,21,6)</li>
         <li>(26,7,30,7)</li>
+        <li>(27,8,27,9)</li>
+        <li>(29,8,29,9)</li>
         <li>(1,11,5,11)</li>
         <li>(8,11,21,11)</li>
         <li>(25,12,25,16)</li>
+        <li>(27,12,27,14)</li>
+        <li>(29,12,29,14)</li>
         <li>(5,14,5,30)</li>
         <li>(8,14,14,14)</li>
         <li>(17,14,22,14)</li>
-        <li>(26,14,30,14)</li>
+        <li>(26,14,26,14)</li>
+        <li>(28,14,28,14)</li>
+        <li>(30,14,30,14)</li>
         <li>(1,15,3,15)</li>
         <li>(8,15,8,16)</li>
         <li>(22,15,22,16)</li>
@@ -394,27 +387,30 @@
         <li>(9,37,16,37)</li>
         <li>(18,37,30,37)</li>
       </rects>
-      <stuff>Milira_SplendidSteel</stuff>
-      <hp>4500</hp>
+      <stuff>Steel</stuff>
+      <hp>2500</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </UFLI_Wall>
-    <UFLI_2_Frame_DOOR>
-      <positions>
-        <li>(23, 0, 0)</li>
-        <li>(6, 0, 11)</li>
-        <li>(15, 0, 14)</li>
-      </positions>
-      <stuff>Milira_SplendidSteel</stuff>
-      <hp>180</hp>
-    </UFLI_2_Frame_DOOR>
     <UFLI_2_Autodoor>
       <positions>
         <li>(23, 0, 0)</li>
         <li>(6, 0, 11)</li>
         <li>(15, 0, 14)</li>
       </positions>
-      <stuff>Milira_SplendidSteel</stuff>
-      <hp>2520</hp>
+      <stuff>Steel</stuff>
+      <hp>1400</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </UFLI_2_Autodoor>
+    <UFLI_2_Frame_DOOR>
+      <positions>
+        <li>(23, 0, 0)</li>
+        <li>(6, 0, 11)</li>
+        <li>(15, 0, 14)</li>
+      </positions>
+      <stuff>Steel</stuff>
+      <hp>100</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_2_Frame_DOOR>
     <UFLI_Walllamp>
       <rects>
         <li>(3,1,3,1)</li>
@@ -424,7 +420,6 @@
         <li>(28,8,28,8)</li>
         <li>(30,8,30,8)</li>
         <li>(3,12,3,12)</li>
-        <li>(28,15,28,15)</li>
         <li>(2,24,2,24)</li>
         <li>(21,28,21,28)</li>
         <li>(27,28,27,28)</li>
@@ -453,9 +448,10 @@
         <li>(27,32,27,32)</li>
       </rects>
       <relativeRotation>Counterclockwise</relativeRotation>
-      <stuff>Milira_SplendidSteel</stuff>
+      <stuff>Steel</stuff>
       <quality>Normal</quality>
-      <hp>215</hp>
+      <hp>120</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </UFLI_Chair>
     <UFLI_Walllamp>
       <rects>
@@ -465,51 +461,57 @@
         <li>(23,16,23,16)</li>
         <li>(1,18,1,18)</li>
         <li>(1,20,1,20)</li>
-        <li>(23,20,23,20)</li>
+        <li>(23,21,23,21)</li>
         <li>(1,22,1,22)</li>
-        <li>(1,32,1,32)</li>
+        <li>(1,31,1,31)</li>
       </rects>
       <relativeRotation>Counterclockwise</relativeRotation>
       <hp>150</hp>
     </UFLI_Walllamp>
+    <UFLI_Walllamp>
+      <rects>
+        <li>(24,1,24,1)</li>
+        <li>(30,2,30,2)</li>
+        <li>(30,5,30,5)</li>
+        <li>(21,9,21,9)</li>
+        <li>(30,11,30,11)</li>
+        <li>(7,14,7,14)</li>
+        <li>(30,14,30,14)</li>
+        <li>(21,16,21,16)</li>
+        <li>(30,20,30,20)</li>
+        <li>(30,24,30,24)</li>
+        <li>(7,25,7,25)</li>
+        <li>(7,30,7,30)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>150</hp>
+    </UFLI_Walllamp>
     <UFLI_1X2_Table>
-      <positions>
-        <li>(27, 0, 1)</li>
-        <li>(17, 0, 22)</li>
-        <li>(10, 0, 28)</li>
-        <li>(12, 0, 28)</li>
-        <li>(10, 0, 36)</li>
-        <li>(12, 0, 36)</li>
-      </positions>
-      <stuff>Milira_SplendidSteel</stuff>
+      <position>(28, 0, 1)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
       <quality>Normal</quality>
-      <hp>180</hp>
+      <hp>100</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </UFLI_1X2_Table>
     <UFLI_Bookcase>
       <position>(29, 0, 1)</position>
-      <stuff>Milira_SplendidSteel</stuff>
-      <hp>360</hp>
+      <stuff>Steel</stuff>
+      <hp>200</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </UFLI_Bookcase>
-    <UFLI_3_Frame_DOOR>
-      <positions>
-        <li>(22, 0, 3)</li>
-        <li>(25, 0, 3)</li>
-      </positions>
-      <relativeRotation>Clockwise</relativeRotation>
-      <stuff>Milira_SplendidSteel</stuff>
-      <hp>215</hp>
-    </UFLI_3_Frame_DOOR>
     <UFLI_3_Autodoor>
-      <positions>
-        <li>(22, 0, 3)</li>
-        <li>(25, 0, 3)</li>
-      </positions>
+      <position>(22, 0, 3)</position>
       <relativeRotation>Clockwise</relativeRotation>
-      <stuff>Milira_SplendidSteel</stuff>
-      <hp>2700</hp>
+      <stuff>Steel</stuff>
+      <hp>1500</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </UFLI_3_Autodoor>
     <UFLI_3_Frame_DOOR>
-      <position>(25, 0, 3)</position>
+      <positions>
+        <li>(22, 0, 3)</li>
+        <li>(25, 0, 3)</li>
+      </positions>
       <relativeRotation>Clockwise</relativeRotation>
       <stuff>Steel</stuff>
       <hp>120</hp>
@@ -521,31 +523,19 @@
         <li>(17,23,18,23)</li>
       </rects>
       <relativeRotation>Opposite</relativeRotation>
-      <stuff>Milira_SplendidSteel</stuff>
+      <stuff>Steel</stuff>
       <quality>Normal</quality>
-      <hp>215</hp>
+      <hp>120</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </UFLI_Chair>
-    <UFLI_Walllamp>
-      <rects>
-        <li>(30,2,30,2)</li>
-        <li>(30,5,30,5)</li>
-        <li>(21,9,21,9)</li>
-        <li>(7,14,7,14)</li>
-        <li>(21,16,21,16)</li>
-        <li>(7,25,7,25)</li>
-        <li>(7,30,7,30)</li>
-        <li>(7,34,7,34)</li>
-      </rects>
-      <relativeRotation>Clockwise</relativeRotation>
-      <hp>150</hp>
-    </UFLI_Walllamp>
     <Lectern>
       <rects>
         <li>(3,3,3,3)</li>
       </rects>
       <relativeRotation>Clockwise</relativeRotation>
-      <stuff>Milira_SplendidSteel</stuff>
-      <hp>180</hp>
+      <stuff>Steel</stuff>
+      <hp>100</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </Lectern>
     <UFLI_Decoration_Big_Holographic>
       <position>(30, 0, 4)</position>
@@ -595,7 +585,7 @@
         <li>(29,28,29,32)</li>
         <li>(9,31,16,31)</li>
         <li>(30,32,31,32)</li>
-        <li>(0,33,7,33)</li>
+        <li>(5,33,7,33)</li>
         <li>(9,33,17,33)</li>
       </rects>
       <hp>100</hp>
@@ -610,29 +600,25 @@
     <UFLI_Bookcase>
       <position>(30, 0, 6)</position>
       <relativeRotation>Opposite</relativeRotation>
-      <stuff>Milira_SplendidSteel</stuff>
-      <hp>360</hp>
+      <stuff>Steel</stuff>
+      <hp>200</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </UFLI_Bookcase>
     <UFLI_CabinetB>
-      <positions>
-        <li>(1, 0, 7)</li>
-        <li>(15, 0, 34)</li>
-      </positions>
-      <stuff>Milira_SplendidSteel</stuff>
+      <position>(1, 0, 7)</position>
+      <stuff>Steel</stuff>
       <quality>Normal</quality>
-      <hp>360</hp>
+      <hp>200</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </UFLI_CabinetB>
     <VitalsMonitor>
       <rects>
         <li>(6,7,6,7)</li>
         <li>(8,7,8,7)</li>
         <li>(10,7,10,7)</li>
-        <li>(12,7,12,7)</li>
-        <li>(14,7,14,7)</li>
-        <li>(16,7,16,7)</li>
-        <li>(18,7,18,7)</li>
-        <li>(20,7,20,7)</li>
+        <li>(1,10,1,10)</li>
       </rects>
+      <relativeRotation>Opposite</relativeRotation>
       <hp>100</hp>
     </VitalsMonitor>
     <HospitalBed>
@@ -646,16 +632,28 @@
         <li>(19, 0, 7)</li>
         <li>(21, 0, 7)</li>
       </positions>
-      <stuff>Milira_SplendidSteel</stuff>
+      <stuff>Steel</stuff>
       <quality>Normal</quality>
-      <hp>270</hp>
+      <hp>150</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </HospitalBed>
+    <VitalsMonitor>
+      <rects>
+        <li>(12,7,12,7)</li>
+        <li>(14,7,14,7)</li>
+        <li>(16,7,16,7)</li>
+        <li>(18,7,18,7)</li>
+        <li>(20,7,20,7)</li>
+      </rects>
+      <hp>100</hp>
+    </VitalsMonitor>
     <VFEM2_SurgicalTools>
       <rects>
         <li>(1,8,1,8)</li>
       </rects>
-      <stuff>Milira_SplendidSteel</stuff>
-      <hp>180</hp>
+      <stuff>Steel</stuff>
+      <hp>100</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </VFEM2_SurgicalTools>
     <ShowerAdvStuff>
       <rects>
@@ -664,20 +662,9 @@
         <li>(30,8,30,8)</li>
       </rects>
       <relativeRotation>Opposite</relativeRotation>
-      <stuff>Milira_SplendidSteel</stuff>
-      <hp>135</hp>
-    </ShowerAdvStuff>
-    <UFLI_Wall>
-      <rects>
-        <li>(27,8,27,9)</li>
-        <li>(29,8,29,9)</li>
-        <li>(27,12,27,13)</li>
-        <li>(29,12,29,13)</li>
-      </rects>
       <stuff>Steel</stuff>
-      <hp>2500</hp>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </UFLI_Wall>
+      <hp>75</hp>
+    </ShowerAdvStuff>
     <sewagePipeHidden>
       <rects>
         <li>(0,9,30,9)</li>
@@ -693,9 +680,10 @@
     <HospitalBed>
       <position>(1, 0, 9)</position>
       <relativeRotation>Clockwise</relativeRotation>
-      <stuff>Milira_SplendidSteel</stuff>
+      <stuff>Steel</stuff>
       <quality>Normal</quality>
-      <hp>270</hp>
+      <hp>150</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </HospitalBed>
     <BathMat>
       <rects>
@@ -718,13 +706,6 @@
       <hp>80</hp>
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </sewagePipeStuff>
-    <VitalsMonitor>
-      <rects>
-        <li>(1,10,1,10)</li>
-      </rects>
-      <relativeRotation>Opposite</relativeRotation>
-      <hp>100</hp>
-    </VitalsMonitor>
     <ReelStorageNewMedicineCabinet>
       <positions>
         <li>(14, 0, 10)</li>
@@ -736,59 +717,57 @@
       <positions>
         <li>(17, 0, 10)</li>
         <li>(21, 0, 10)</li>
-        <li>(16, 0, 30)</li>
       </positions>
       <relativeRotation>Opposite</relativeRotation>
-      <stuff>Milira_SplendidSteel</stuff>
+      <stuff>Steel</stuff>
       <quality>Normal</quality>
-      <hp>360</hp>
+      <hp>200</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </UFLI_CabinetB>
-    <UFLI_2_Frame_DOOR>
-      <positions>
-        <li>(25, 0, 10)</li>
-        <li>(5, 0, 12)</li>
-        <li>(22, 0, 17)</li>
-        <li>(25, 0, 17)</li>
-        <li>(5, 0, 31)</li>
-      </positions>
-      <relativeRotation>Counterclockwise</relativeRotation>
-      <stuff>Milira_SplendidSteel</stuff>
-      <hp>180</hp>
-    </UFLI_2_Frame_DOOR>
     <UFLI_2_Autodoor>
       <positions>
         <li>(25, 0, 11)</li>
+        <li>(5, 0, 13)</li>
         <li>(8, 0, 18)</li>
         <li>(22, 0, 18)</li>
         <li>(25, 0, 18)</li>
         <li>(5, 0, 32)</li>
       </positions>
       <relativeRotation>Clockwise</relativeRotation>
-      <stuff>Milira_SplendidSteel</stuff>
-      <hp>2520</hp>
+      <stuff>Steel</stuff>
+      <hp>1400</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </UFLI_2_Autodoor>
+    <UFLI_2_Frame_DOOR>
+      <positions>
+        <li>(25, 0, 11)</li>
+        <li>(5, 0, 13)</li>
+        <li>(8, 0, 18)</li>
+        <li>(22, 0, 18)</li>
+        <li>(25, 0, 18)</li>
+        <li>(5, 0, 32)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>100</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_2_Frame_DOOR>
     <BasinStuff>
       <rects>
         <li>(1,12,1,14)</li>
       </rects>
       <relativeRotation>Counterclockwise</relativeRotation>
-      <stuff>Milira_SplendidSteel</stuff>
-      <hp>135</hp>
+      <stuff>Steel</stuff>
+      <hp>75</hp>
     </BasinStuff>
-    <UFLI_2_Autodoor>
-      <position>(5, 0, 12)</position>
-      <relativeRotation>Counterclockwise</relativeRotation>
-      <stuff>Milira_SplendidSteel</stuff>
-      <hp>2520</hp>
-    </UFLI_2_Autodoor>
     <ShowerAdvStuff>
       <rects>
         <li>(26,13,26,13)</li>
         <li>(28,13,28,13)</li>
         <li>(30,13,30,13)</li>
       </rects>
-      <stuff>Milira_SplendidSteel</stuff>
-      <hp>135</hp>
+      <stuff>Steel</stuff>
+      <hp>75</hp>
     </ShowerAdvStuff>
     <airPipeHidden>
       <rects>
@@ -831,10 +810,11 @@
     </ReelStorageNewLargeLocker>
     <ASF_WeaponsLocker>
       <rects>
-        <li>(17,15,18,15)</li>
+        <li>(18,15,19,15)</li>
       </rects>
-      <stuff>Milira_SplendidSteel</stuff>
-      <hp>270</hp>
+      <stuff>Gravitonium</stuff>
+      <hp>675</hp>
+      <color>RGBA(0.686, 0.725, 0.706, 1.000)</color>
     </ASF_WeaponsLocker>
     <sbz_Pallet>
       <positions>
@@ -844,8 +824,9 @@
         <li>(30, 0, 26)</li>
       </positions>
       <relativeRotation>Opposite</relativeRotation>
-      <stuff>Milira_SplendidSteel</stuff>
-      <hp>540</hp>
+      <stuff>Steel</stuff>
+      <hp>300</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </sbz_Pallet>
     <ToiletAdvStuff>
       <rects>
@@ -855,8 +836,8 @@
         <li>(1,22,1,22)</li>
       </rects>
       <relativeRotation>Counterclockwise</relativeRotation>
-      <stuff>Milira_SplendidSteel</stuff>
-      <hp>135</hp>
+      <stuff>Steel</stuff>
+      <hp>75</hp>
     </ToiletAdvStuff>
     <LTS_SimpleDoorOne>
       <rects>
@@ -870,12 +851,6 @@
       <hp>125</hp>
       <color>RGBA(0.784, 0.784, 0.784, 1.000)</color>
     </LTS_SimpleDoorOne>
-    <UFLI_2_Frame_DOOR>
-      <position>(8, 0, 18)</position>
-      <relativeRotation>Clockwise</relativeRotation>
-      <stuff>Milira_SplendidSteel</stuff>
-      <hp>180</hp>
-    </UFLI_2_Frame_DOOR>
     <NCLCommsConsole>
       <position>(9, 0, 20)</position>
       <relativeRotation>Clockwise</relativeRotation>
@@ -886,8 +861,9 @@
         <li>(21,19,21,19)</li>
       </rects>
       <relativeRotation>Counterclockwise</relativeRotation>
-      <stuff>Milira_SplendidSteel</stuff>
-      <hp>270</hp>
+      <stuff>Gravitonium</stuff>
+      <hp>675</hp>
+      <color>RGBA(0.686, 0.725, 0.706, 1.000)</color>
     </ASF_WeaponsLocker>
     <LongRangeMineralScanner>
       <position>(15, 0, 21)</position>
@@ -915,10 +891,32 @@
       <relativeRotation>Clockwise</relativeRotation>
       <hp>250</hp>
     </VTE_TradingTerminal>
+    <Table1x2c>
+      <positions>
+        <li>(18, 0, 22)</li>
+        <li>(11, 0, 28)</li>
+        <li>(13, 0, 28)</li>
+        <li>(11, 0, 36)</li>
+        <li>(13, 0, 36)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>75</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Table1x2c>
     <NCL_Overwatch_Nexus>
       <position>(25, 0, 24)</position>
       <hp>1000</hp>
     </NCL_Overwatch_Nexus>
+    <RS_CounterB>
+      <rects>
+        <li>(1,24,1,24)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>100</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </RS_CounterB>
     <RS_sink>
       <rects>
         <li>(1,24,1,24)</li>
@@ -927,13 +925,6 @@
       <quality>Normal</quality>
       <hp>100</hp>
     </RS_sink>
-    <RS_Counter>
-      <rects>
-        <li>(1,24,1,24)</li>
-      </rects>
-      <stuff>Milira_SplendidSteel</stuff>
-      <hp>180</hp>
-    </RS_Counter>
     <RS_Microwave>
       <rects>
         <li>(4,24,4,24)</li>
@@ -950,9 +941,10 @@
       <rects>
         <li>(12,24,12,24)</li>
       </rects>
-      <stuff>Milira_SplendidSteel</stuff>
+      <stuff>Steel</stuff>
       <quality>Normal</quality>
-      <hp>215</hp>
+      <hp>120</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </UFLI_Chair>
     <RS_KitchenHood>
       <position>(0, 0, 26)</position>
@@ -961,17 +953,12 @@
       <hp>120</hp>
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </RS_KitchenHood>
-    <RS_KitchenHood>
-      <position>(0, 0, 26)</position>
-      <relativeRotation>Clockwise</relativeRotation>
-      <stuff>Milira_SplendidSteel</stuff>
-      <hp>215</hp>
-    </RS_KitchenHood>
     <RS_stove>
       <position>(1, 0, 25)</position>
       <relativeRotation>Counterclockwise</relativeRotation>
-      <stuff>Milira_SplendidSteel</stuff>
-      <hp>325</hp>
+      <stuff>Steel</stuff>
+      <hp>180</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </RS_stove>
     <CommsConsole>
       <position>(12, 0, 26)</position>
@@ -988,8 +975,9 @@
     <TableButcher>
       <position>(4, 0, 27)</position>
       <relativeRotation>Clockwise</relativeRotation>
-      <stuff>Milira_SplendidSteel</stuff>
-      <hp>325</hp>
+      <stuff>Steel</stuff>
+      <hp>180</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </TableButcher>
     <FT_Radio>
       <rects>
@@ -1087,6 +1075,14 @@
       <hp>100</hp>
       <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
     </RS_Sofachair>
+    <RH2_DoubleWardrobe>
+      <position>(16, 0, 30)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>150</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </RH2_DoubleWardrobe>
     <UFLI_WashingMachine>
       <rects>
         <li>(18,30,18,31)</li>
@@ -1150,55 +1146,52 @@
       <hp>100</hp>
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </RS_smallTable>
-    <UFLI_1_Frame_DOOR>
-      <rects>
-        <li>(9,31,9,31)</li>
-        <li>(9,33,9,33)</li>
-      </rects>
-      <stuff>Milira_SplendidSteel</stuff>
-      <hp>108</hp>
-    </UFLI_1_Frame_DOOR>
-    <UFLI_1_Frame_DOOR>
-      <rects>
-        <li>(9,31,9,31)</li>
-      </rects>
-      <relativeRotation>Opposite</relativeRotation>
-      <stuff>Milira_SplendidSteel</stuff>
-      <hp>108</hp>
-    </UFLI_1_Frame_DOOR>
     <UFLI_1_Autodoor>
       <rects>
         <li>(9,31,9,31)</li>
         <li>(9,33,9,33)</li>
       </rects>
-      <stuff>Milira_SplendidSteel</stuff>
-      <hp>2160</hp>
+      <stuff>Steel</stuff>
+      <hp>1200</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </UFLI_1_Autodoor>
     <UFLI_1_Frame_DOOR>
       <rects>
-        <li>(17,32,17,32)</li>
+        <li>(9,31,9,31)</li>
+        <li>(9,33,9,33)</li>
       </rects>
-      <relativeRotation>Counterclockwise</relativeRotation>
-      <stuff>Milira_SplendidSteel</stuff>
-      <hp>108</hp>
+      <stuff>Steel</stuff>
+      <hp>60</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </UFLI_1_Frame_DOOR>
     <UFLI_1_Autodoor>
       <rects>
         <li>(17,32,17,32)</li>
       </rects>
       <relativeRotation>Clockwise</relativeRotation>
-      <stuff>Milira_SplendidSteel</stuff>
-      <hp>2160</hp>
+      <stuff>Steel</stuff>
+      <hp>1200</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </UFLI_1_Autodoor>
+    <UFLI_1_Frame_DOOR>
+      <rects>
+        <li>(17,32,17,32)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>60</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_1_Frame_DOOR>
     <UFLI_Chair>
       <rects>
         <li>(21,32,21,32)</li>
         <li>(25,32,25,32)</li>
       </rects>
       <relativeRotation>Clockwise</relativeRotation>
-      <stuff>Milira_SplendidSteel</stuff>
+      <stuff>Steel</stuff>
       <quality>Normal</quality>
-      <hp>215</hp>
+      <hp>120</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </UFLI_Chair>
     <UFLI_ChessTable>
       <rects>
@@ -1228,10 +1221,16 @@
     <UFLI_1X2_Table>
       <position>(30, 0, 33)</position>
       <relativeRotation>Clockwise</relativeRotation>
-      <stuff>Milira_SplendidSteel</stuff>
+      <stuff>Steel</stuff>
       <quality>Normal</quality>
-      <hp>180</hp>
+      <hp>100</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </UFLI_1X2_Table>
+    <KT_wallTV>
+      <position>(30, 0, 33)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>120</hp>
+    </KT_wallTV>
     <RS_Sofachair>
       <rects>
         <li>(1,33,3,33)</li>
@@ -1244,6 +1243,13 @@
       <hp>100</hp>
       <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
     </RS_Sofachair>
+    <RH2_DoubleWardrobe>
+      <position>(15, 0, 34)</position>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>150</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </RH2_DoubleWardrobe>
     <UFLI_Couch>
       <rects>
         <li>(13,35,13,35)</li>
@@ -1273,6 +1279,7 @@
         <li>(2,36,2,36)</li>
         <li>(10,36,10,36)</li>
         <li>(19,36,19,36)</li>
+        <li>(29,36,29,36)</li>
       </rects>
       <hp>100</hp>
     </AirconIndoorUnit>
@@ -1304,17 +1311,15 @@
     <terrainLayerDetail layer="topGrid">
       <UFLI_FLOORJ>
         <rects>
-          <li>(0,0,22,6)</li>
-          <li>(25,7,31,13)</li>
+          <li>(0,0,21,4)</li>
+          <li>(1,5,21,6)</li>
         </rects>
       </UFLI_FLOORJ>
       <UFLI_FLOOR>
         <rects>
-          <li>(23,0,31,6)</li>
-          <li>(0,7,0,37)</li>
-          <li>(22,7,24,37)</li>
+          <li>(22,0,31,37)</li>
+          <li>(0,5,0,37)</li>
           <li>(1,11,21,37)</li>
-          <li>(25,14,31,37)</li>
         </rects>
       </UFLI_FLOOR>
       <SterileTile>
@@ -1365,10 +1370,8 @@
           <li>(0,10,0,32)</li>
           <li>(24,10,26,37)</li>
           <li>(31,10,31,37)</li>
-          <li>(17,11,23,17)</li>
+          <li>(17,11,23,37)</li>
           <li>(27,11,30,37)</li>
-          <li>(19,18,23,37)</li>
-          <li>(17,19,18,37)</li>
           <li>(1,31,1,31)</li>
         </rects>
       </Soil>
@@ -1393,11 +1396,6 @@
           <li>(28,10,30,10)</li>
         </rects>
       </MossyTerrain>
-      <Marble_RoughHewn>
-        <rects>
-          <li>(17,18,18,18)</li>
-        </rects>
-      </Marble_RoughHewn>
     </terrainLayerDetail>
   </terrainLayers>
   <roofs>
