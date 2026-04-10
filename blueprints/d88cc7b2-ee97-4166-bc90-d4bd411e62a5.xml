@@ -1,0 +1,148 @@
+<PrefabDef>
+  <defName>Prefab_20260410_194834</defName>
+  <size>(12,15)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>聯合自動水耕室</name>
+    <description>自動水耕室，需要電力，全自動生產！</description>
+    <tags></tags>
+    <author>黑龍月</author>
+    <category>种植区</category>
+    <BuildingID>d88cc7b2-ee97-4166-bc90-d4bd411e62a5</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>kindseal.ufli</packageId>
+        <name>联合轻工家具拓展-UF Light Industries Furniture</name>
+        <version></version>
+        <modorder>325</modorder>
+        <steamWorkshopId>3651799915</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFLI_Wall</li>
+          <li>UFLI_2_Autodoor</li>
+          <li>UFLI_2_Frame_DOOR</li>
+          <li>UFLI_groundlight</li>
+          <li>UFLI_FLOORJ</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>poncho.automatichydroponics</packageId>
+        <name>Automatic Hydroponics</name>
+        <version></version>
+        <modorder>296</modorder>
+        <steamWorkshopId>3528490718</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>AutoHydroponic</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>聯合自動水耕室</default>
+        <zh-CN>聯合自動水耕室</zh-CN>
+      </name>
+      <description>
+        <default>自動水耕室，需要電力，全自動生產！</default>
+        <zh-CN>自動水耕室，需要電力，全自動生產！</zh-CN>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <UFLI_Wall>
+      <rects>
+        <li>(0,0,4,0)</li>
+        <li>(7,0,11,0)</li>
+        <li>(0,1,0,14)</li>
+        <li>(11,1,11,14)</li>
+        <li>(1,14,10,14)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>2500</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Wall>
+    <HiddenConduit>
+      <rects>
+        <li>(3,0,3,7)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <UFLI_2_Autodoor>
+      <position>(5, 0, 0)</position>
+      <stuff>Steel</stuff>
+      <hp>1400</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_2_Autodoor>
+    <UFLI_2_Frame_DOOR>
+      <position>(5, 0, 0)</position>
+      <stuff>Steel</stuff>
+      <hp>100</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_2_Frame_DOOR>
+    <UFLI_groundlight>
+      <rects>
+        <li>(1,1,1,1)</li>
+        <li>(10,1,10,1)</li>
+        <li>(1,7,1,7)</li>
+        <li>(10,7,10,7)</li>
+        <li>(1,13,1,13)</li>
+        <li>(10,13,10,13)</li>
+      </rects>
+      <hp>300</hp>
+    </UFLI_groundlight>
+    <AutoHydroponic>
+      <positions>
+        <li>(4, 0, 4)</li>
+        <li>(7, 0, 4)</li>
+        <li>(4, 0, 7)</li>
+        <li>(7, 0, 7)</li>
+        <li>(4, 0, 10)</li>
+        <li>(7, 0, 10)</li>
+      </positions>
+      <hp>500</hp>
+    </AutoHydroponic>
+  </things>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <UFLI_FLOORJ>
+        <rects>
+          <li>(1,1,10,13)</li>
+        </rects>
+      </UFLI_FLOORJ>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(1,1,10,13)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,11,14)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,11,14)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
