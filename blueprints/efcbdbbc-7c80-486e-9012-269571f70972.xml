@@ -1,0 +1,143 @@
+<PrefabDef>
+  <defName>Prefab_20260410_133500</defName>
+  <size>(5,5)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>单人小宿舍1</name>
+    <description>单人小宿舍1</description>
+    <tags></tags>
+    <author></author>
+    <category>宿舍</category>
+    <BuildingID>efcbdbbc-7c80-486e-9012-269571f70972</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>tw.tangsbiome.rainbowforest</packageId>
+        <name>[TW1.6]幻彩林地 Rainbow forest</name>
+        <version></version>
+        <modorder>385</modorder>
+        <steamWorkshopId>3532501549</steamWorkshopId>
+        <things>
+          <li>TWRL_Terrain_PinkLawn</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>单人小宿舍1</default>
+        <zh-CN>单人小宿舍1</zh-CN>
+      </name>
+      <description>
+        <default>单人小宿舍1</default>
+        <zh-CN>单人小宿舍1</zh-CN>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,4,0)</li>
+        <li>(0,1,0,4)</li>
+        <li>(4,2,4,4)</li>
+        <li>(1,4,3,4)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>195</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Wall>
+    <EndTable>
+      <rects>
+        <li>(1,1,1,1)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>49</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </EndTable>
+    <PlantPot>
+      <rects>
+        <li>(2,1,2,1)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>49</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </PlantPot>
+    <Door>
+      <rects>
+        <li>(4,1,4,1)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <Bed>
+      <position>(1, 0, 2)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>91</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed>
+    <TorchWallLamp>
+      <rects>
+        <li>(3,2,3,2)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>50</hp>
+    </TorchWallLamp>
+    <Dresser>
+      <position>(2, 0, 3)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>78</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Dresser>
+  </things>
+  <terrain>
+    <WoodPlankFloor>
+      <rects>
+        <li>(1,1,4,1)</li>
+        <li>(1,2,3,3)</li>
+      </rects>
+    </WoodPlankFloor>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <Concrete>
+        <rects>
+          <li>(0,0,4,0)</li>
+          <li>(0,1,0,3)</li>
+          <li>(4,2,4,3)</li>
+        </rects>
+      </Concrete>
+      <WoodPlankFloor>
+        <rects>
+          <li>(1,1,4,1)</li>
+          <li>(1,2,3,3)</li>
+        </rects>
+      </WoodPlankFloor>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <TWRL_Terrain_PinkLawn>
+        <rects>
+          <li>(0,0,4,3)</li>
+        </rects>
+      </TWRL_Terrain_PinkLawn>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,4,4)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,4,4)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
