@@ -1,0 +1,242 @@
+<PrefabDef>
+  <defName>Prefab_20260414_184752</defName>
+  <size>(31,30)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>基地防御</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>防御工事</category>
+    <BuildingID>2d857c0e-78cf-46cd-a431-fcaaf4c6c791</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>vanillaexpanded.vfesecurity</packageId>
+        <name>Vanilla Furniture Expanded - Security</name>
+        <version></version>
+        <modorder>247</modorder>
+        <steamWorkshopId>1845154007</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VFES_Turret_ArmoredTurret</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>cp.uncle.boris.used.furniture</packageId>
+        <name><![CDATA[[RH2] Uncle Boris' - Used Furniture]]></name>
+        <version></version>
+        <modorder>318</modorder>
+        <steamWorkshopId>2563508405</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>RH_Bunker_Wall_Embrasure</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>基地防御</default>
+        <zh-CN>基地防御</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Barricade>
+      <rects>
+        <li>(0,0,2,0)</li>
+        <li>(8,0,10,0)</li>
+        <li>(16,0,18,0)</li>
+        <li>(24,0,26,0)</li>
+        <li>(0,1,0,2)</li>
+        <li>(2,1,2,2)</li>
+        <li>(8,1,8,2)</li>
+        <li>(10,1,10,2)</li>
+        <li>(16,1,16,2)</li>
+        <li>(18,1,18,2)</li>
+        <li>(24,1,24,2)</li>
+        <li>(26,1,26,2)</li>
+        <li>(1,2,1,2)</li>
+        <li>(9,2,9,2)</li>
+        <li>(17,2,17,2)</li>
+        <li>(25,2,25,2)</li>
+        <li>(6,6,20,6)</li>
+        <li>(6,7,6,20)</li>
+        <li>(20,7,20,10)</li>
+        <li>(0,8,2,8)</li>
+        <li>(0,9,0,10)</li>
+        <li>(2,9,2,10)</li>
+        <li>(28,9,30,9)</li>
+        <li>(1,10,1,10)</li>
+        <li>(21,10,24,10)</li>
+        <li>(28,10,28,11)</li>
+        <li>(30,10,30,11)</li>
+        <li>(24,11,24,17)</li>
+        <li>(29,11,29,11)</li>
+        <li>(0,16,2,16)</li>
+        <li>(0,17,0,18)</li>
+        <li>(2,17,2,18)</li>
+        <li>(1,18,1,18)</li>
+        <li>(7,20,10,20)</li>
+        <li>(10,21,10,24)</li>
+        <li>(0,24,2,24)</li>
+        <li>(11,24,17,24)</li>
+        <li>(0,25,0,26)</li>
+        <li>(2,25,2,26)</li>
+        <li>(1,26,1,26)</li>
+        <li>(9,27,11,27)</li>
+        <li>(9,28,9,29)</li>
+        <li>(11,28,11,29)</li>
+        <li>(10,29,10,29)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <hp>510</hp>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Barricade>
+    <HiddenConduit>
+      <rects>
+        <li>(1,1,25,1)</li>
+        <li>(1,2,1,25)</li>
+        <li>(9,2,9,8)</li>
+        <li>(17,2,17,8)</li>
+        <li>(25,2,25,18)</li>
+        <li>(8,8,8,18)</li>
+        <li>(10,8,16,8)</li>
+        <li>(18,8,18,11)</li>
+        <li>(2,9,7,9)</li>
+        <li>(19,10,24,10)</li>
+        <li>(26,10,29,10)</li>
+        <li>(19,11,19,12)</li>
+        <li>(29,11,29,18)</li>
+        <li>(20,12,22,12)</li>
+        <li>(22,13,22,18)</li>
+        <li>(2,17,7,17)</li>
+        <li>(9,18,11,18)</li>
+        <li>(18,18,21,18)</li>
+        <li>(23,18,24,18)</li>
+        <li>(26,18,28,18)</li>
+        <li>(30,18,30,18)</li>
+        <li>(10,19,12,19)</li>
+        <li>(18,19,18,29)</li>
+        <li>(10,20,10,28)</li>
+        <li>(12,20,12,22)</li>
+        <li>(13,22,17,22)</li>
+        <li>(2,25,9,25)</li>
+        <li>(11,25,17,25)</li>
+        <li>(11,28,17,28)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <VFES_Turret_ArmoredTurret>
+      <rects>
+        <li>(1,1,1,1)</li>
+        <li>(9,1,9,1)</li>
+        <li>(17,1,17,1)</li>
+        <li>(25,1,25,1)</li>
+        <li>(1,9,1,9)</li>
+        <li>(29,10,29,10)</li>
+        <li>(1,17,1,17)</li>
+        <li>(1,25,1,25)</li>
+        <li>(10,28,10,28)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>250</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </VFES_Turret_ArmoredTurret>
+    <RH_Bunker_Wall_Embrasure>
+      <rects>
+        <li>(7,7,19,8)</li>
+        <li>(7,9,8,19)</li>
+        <li>(12,9,12,10)</li>
+        <li>(15,9,15,10)</li>
+        <li>(18,9,19,11)</li>
+        <li>(20,11,23,12)</li>
+        <li>(9,12,10,12)</li>
+        <li>(19,12,19,12)</li>
+        <li>(22,13,23,17)</li>
+        <li>(9,15,10,15)</li>
+        <li>(20,15,21,15)</li>
+        <li>(9,18,11,19)</li>
+        <li>(12,19,12,23)</li>
+        <li>(11,20,11,23)</li>
+        <li>(15,20,15,23)</li>
+        <li>(13,22,14,23)</li>
+        <li>(16,22,17,23)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <hp>850</hp>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </RH_Bunker_Wall_Embrasure>
+    <Turret_Autocannon>
+      <positions>
+        <li>(9, 0, 9)</li>
+        <li>(13, 0, 9)</li>
+        <li>(16, 0, 9)</li>
+        <li>(17, 0, 12)</li>
+        <li>(9, 0, 13)</li>
+        <li>(20, 0, 13)</li>
+        <li>(9, 0, 16)</li>
+        <li>(20, 0, 16)</li>
+        <li>(12, 0, 17)</li>
+        <li>(13, 0, 20)</li>
+        <li>(16, 0, 20)</li>
+      </positions>
+      <hp>380</hp>
+    </Turret_Autocannon>
+    <Turret_Sniper>
+      <positions>
+        <li>(14, 0, 12)</li>
+        <li>(12, 0, 14)</li>
+        <li>(17, 0, 15)</li>
+        <li>(15, 0, 17)</li>
+      </positions>
+      <hp>380</hp>
+    </Turret_Sniper>
+    <Wall>
+      <rects>
+        <li>(13,13,13,13)</li>
+        <li>(14,14,14,14)</li>
+        <li>(15,15,15,15)</li>
+        <li>(16,16,16,16)</li>
+        <li>(18,18,18,18)</li>
+        <li>(20,18,30,18)</li>
+        <li>(18,20,18,29)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <hp>510</hp>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Wall>
+    <Door>
+      <rects>
+        <li>(19,18,19,18)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <hp>270</hp>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Door>
+    <Door>
+      <rects>
+        <li>(18,19,18,19)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>BlocksGranite</stuff>
+      <hp>270</hp>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Door>
+  </things>
+  <terrainLayers></terrainLayers>
+</PrefabDef>
