@@ -1,0 +1,125 @@
+<PrefabDef>
+  <defName>Prefab_20260416_173450</defName>
+  <size>(19,19)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>ASeGS(Anti-Shuttle and GravShip</name>
+    <description>A  ODS(Orbital Defense System)</description>
+    <tags></tags>
+    <author>Hazmat_Inocente</author>
+    <category>DefenseWorks</category>
+    <BuildingID>dac6ae19-5aef-49d8-b015-1755f50f78b9</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>vanillaexpanded.vfearchitect</packageId>
+        <name>Vanilla Furniture Expanded - Architect</name>
+        <version></version>
+        <modorder>67</modorder>
+        <steamWorkshopId>2608762624</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VFEArch_CellWall</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>mrwireman.gausscannon</packageId>
+        <name>Buildable Orbital Cannon</name>
+        <version>2.0</version>
+        <modorder>190</modorder>
+        <steamWorkshopId>3529080834</steamWorkshopId>
+        <things>
+          <li>GaussCannon_Mortar</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>jecrell.doorsexpanded</packageId>
+        <name>Doors Expanded</name>
+        <version></version>
+        <modorder>92</modorder>
+        <steamWorkshopId>3532342422</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>PH_AutodoorDouble</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>rgbmods.misc.deepconcrete</packageId>
+        <name>RGBmods Deep Concrete</name>
+        <version></version>
+        <modorder>302</modorder>
+        <steamWorkshopId>3549649507</steamWorkshopId>
+        <things>
+          <li>RGBmods_DeepConcrete</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>ASeGS(Anti-Shuttle and GravShip</default>
+        <en>ASeGS(Anti-Shuttle and GravShip</en>
+      </name>
+      <description>
+        <default>A  ODS(Orbital Defense System)</default>
+        <en>A  ODS(Orbital Defense System)</en>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <VFEArch_CellWall>
+      <rects>
+        <li>(0,0,18,0)</li>
+        <li>(0,1,0,18)</li>
+        <li>(18,1,18,18)</li>
+        <li>(1,18,3,18)</li>
+        <li>(6,18,17,18)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>250</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </VFEArch_CellWall>
+    <GaussCannon_Mortar>
+      <positions>
+        <li>(3, 0, 3)</li>
+        <li>(9, 0, 3)</li>
+        <li>(15, 0, 3)</li>
+        <li>(3, 0, 9)</li>
+        <li>(9, 0, 9)</li>
+        <li>(15, 0, 9)</li>
+        <li>(3, 0, 15)</li>
+        <li>(9, 0, 15)</li>
+        <li>(15, 0, 15)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>180</hp>
+    </GaussCannon_Mortar>
+    <PH_AutodoorDouble>
+      <position>(4, 0, 18)</position>
+      <stuff>Steel</stuff>
+      <hp>320</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </PH_AutodoorDouble>
+  </things>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <RGBmods_DeepConcrete>
+        <rects>
+          <li>(0,0,18,18)</li>
+        </rects>
+      </RGBmods_DeepConcrete>
+    </terrainLayerDetail>
+  </terrainLayers>
+</PrefabDef>
