@@ -1,0 +1,357 @@
+<PrefabDef>
+  <defName>Prefab_20260418_112437</defName>
+  <size>(17,7)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>Rec Room</name>
+    <description>A fancy rec room with billiards, poker, chess, a piano, and a dance floor.</description>
+    <tags></tags>
+    <author>Xina</author>
+    <category>RecreationArea</category>
+    <BuildingID>83700feb-afa7-434c-8ce8-657273558a48</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>haplo.miscellaneous.training</packageId>
+        <name>Misc. Training</name>
+        <version>1.6.5</version>
+        <modorder>62</modorder>
+        <steamWorkshopId>717575199</steamWorkshopId>
+        <things>
+          <li>MartialArtsTarget</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.ideology</packageId>
+        <name>Ideology</name>
+        <version></version>
+        <modorder>3</modorder>
+        <things>
+          <li>LightBall</li>
+          <li>Loudspeaker</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>vanillaexpanded.vfecore</packageId>
+        <name>Vanilla Furniture Expanded</name>
+        <version></version>
+        <modorder>24</modorder>
+        <steamWorkshopId>1718190143</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Joy_Piano</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>telkir.tmods.morefloors</packageId>
+        <name>[T] MoreFloors</name>
+        <version></version>
+        <modorder>7</modorder>
+        <steamWorkshopId>2878200208</steamWorkshopId>
+        <things>
+          <li>FloorStoneChequeredSlate</li>
+          <li>FloorStoneDiamondSlate</li>
+          <li>FloorStoneSlabsSlate</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>vanillaexpanded.vfearchitect</packageId>
+        <name>Vanilla Furniture Expanded - Architect</name>
+        <version></version>
+        <modorder>25</modorder>
+        <steamWorkshopId>2608762624</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VFEArch_SlabsLimestone</li>
+          <li>VFEArch_BridgeLimestone</li>
+          <li>VFEArch_BridgeSlate</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>Rec Room</default>
+        <en>Rec Room</en>
+      </name>
+      <description>
+        <default>A fancy rec room with billiards, poker, chess, a piano, and a dance floor.</default>
+        <en>A fancy rec room with billiards, poker, chess, a piano, and a dance floor.</en>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,16,0)</li>
+        <li>(0,1,0,6)</li>
+        <li>(16,1,16,6)</li>
+        <li>(1,6,7,6)</li>
+        <li>(9,6,15,6)</li>
+      </rects>
+      <stuff>BlocksLimestone</stuff>
+      <hp>465</hp>
+      <color>RGBA(0.620, 0.600, 0.529, 1.000)</color>
+    </Wall>
+    <PowerConduit>
+      <rects>
+        <li>(0,0,16,0)</li>
+        <li>(0,1,0,6)</li>
+        <li>(16,1,16,4)</li>
+        <li>(1,6,7,6)</li>
+        <li>(9,6,16,6)</li>
+      </rects>
+      <hp>80</hp>
+    </PowerConduit>
+    <Stool>
+      <rects>
+        <li>(1,1,1,1)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>BlocksSlate</stuff>
+      <quality>Normal</quality>
+      <hp>98</hp>
+      <color>RGBA(0.275, 0.275, 0.275, 1.000)</color>
+    </Stool>
+    <ChessTable>
+      <rects>
+        <li>(2,1,2,1)</li>
+      </rects>
+      <stuff>BlocksSlate</stuff>
+      <quality>Normal</quality>
+      <hp>130</hp>
+      <colorDef>Structure_White</colorDef>
+      <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
+    </ChessTable>
+    <Stool>
+      <rects>
+        <li>(3,1,3,1)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>BlocksSlate</stuff>
+      <quality>Good</quality>
+      <hp>98</hp>
+      <color>RGBA(0.275, 0.275, 0.275, 1.000)</color>
+    </Stool>
+    <WallLamp>
+      <rects>
+        <li>(5,1,5,1)</li>
+        <li>(11,1,11,1)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>35</hp>
+    </WallLamp>
+    <BilliardsTable>
+      <position>(6, 0, 3)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>BlocksSlate</stuff>
+      <quality>Good</quality>
+      <hp>325</hp>
+      <color>RGBA(0.275, 0.275, 0.275, 1.000)</color>
+    </BilliardsTable>
+    <MartialArtsTarget>
+      <rects>
+        <li>(15,2,15,2)</li>
+        <li>(15,4,15,4)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Leather_Lizard</stuff>
+      <hp>1000</hp>
+      <color>RGBA(0.396, 0.455, 0.227, 1.000)</color>
+    </MartialArtsTarget>
+    <DiningChair>
+      <rects>
+        <li>(1,3,1,3)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>65</hp>
+      <colorDef>Structure_Slate</colorDef>
+      <color>RGBA(0.275, 0.275, 0.275, 1.000)</color>
+    </DiningChair>
+    <DiningChair>
+      <rects>
+        <li>(2,3,2,3)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <hp>65</hp>
+      <colorDef>Structure_Slate</colorDef>
+      <color>RGBA(0.275, 0.275, 0.275, 1.000)</color>
+    </DiningChair>
+    <LightBall>
+      <rects>
+        <li>(15,3,15,3)</li>
+      </rects>
+      <hp>100</hp>
+    </LightBall>
+    <PokerTable>
+      <position>(1, 0, 4)</position>
+      <stuff>BlocksSlate</stuff>
+      <quality>Excellent</quality>
+      <hp>325</hp>
+      <color>RGBA(0.275, 0.275, 0.275, 1.000)</color>
+    </PokerTable>
+    <DiningChair>
+      <rects>
+        <li>(3,4,3,5)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <hp>65</hp>
+      <colorDef>Structure_Slate</colorDef>
+      <color>RGBA(0.275, 0.275, 0.275, 1.000)</color>
+    </DiningChair>
+    <Joy_Piano>
+      <position>(6, 0, 5)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksSlate</stuff>
+      <quality>Normal</quality>
+      <hp>195</hp>
+      <color>RGBA(0.275, 0.275, 0.275, 1.000)</color>
+    </Joy_Piano>
+    <Loudspeaker>
+      <rects>
+        <li>(15,5,15,5)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>100</hp>
+    </Loudspeaker>
+    <HiddenConduit>
+      <rects>
+        <li>(16,5,16,5)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <Door>
+      <rects>
+        <li>(8,6,8,6)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+  </things>
+  <terrain>
+    <FloorStoneChequeredSlate>
+      <rects>
+        <li>(1,1,8,5)</li>
+      </rects>
+    </FloorStoneChequeredSlate>
+    <FloorStoneDiamondSlate>
+      <color>Structure_BlueSubtle</color>
+      <rects>
+        <li>(10,2,14,4)</li>
+      </rects>
+    </FloorStoneDiamondSlate>
+    <FloorStoneSlabsSlate>
+      <rects>
+        <li>(16,5,16,5)</li>
+        <li>(8,6,8,6)</li>
+      </rects>
+    </FloorStoneSlabsSlate>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <FloorStoneChequeredSlate>
+        <rects>
+          <li>(1,1,8,5)</li>
+        </rects>
+      </FloorStoneChequeredSlate>
+      <VFEArch_SlabsLimestone>
+        <color>RGBA(0.388, 0.196, 0.467, 1.000)</color>
+        <rects>
+          <li>(9,1,15,1)</li>
+          <li>(9,2,9,5)</li>
+          <li>(15,2,15,5)</li>
+          <li>(10,5,14,5)</li>
+        </rects>
+      </VFEArch_SlabsLimestone>
+      <FloorStoneDiamondSlate>
+        <color>RGBA(0.263, 0.318, 0.396, 1.000)</color>
+        <rects>
+          <li>(10,2,14,4)</li>
+        </rects>
+      </FloorStoneDiamondSlate>
+      <FloorStoneSlabsSlate>
+        <rects>
+          <li>(16,5,16,5)</li>
+          <li>(8,6,8,6)</li>
+        </rects>
+      </FloorStoneSlabsSlate>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(1,1,8,4)</li>
+          <li>(2,5,8,5)</li>
+          <li>(16,5,16,5)</li>
+          <li>(8,6,8,6)</li>
+        </rects>
+      </Soil>
+      <Soil>
+        <color>RGBA(0.388, 0.196, 0.467, 1.000)</color>
+        <rects>
+          <li>(9,1,15,1)</li>
+          <li>(9,2,9,5)</li>
+          <li>(15,2,15,5)</li>
+          <li>(10,5,14,5)</li>
+        </rects>
+      </Soil>
+      <Soil>
+        <color>RGBA(0.263, 0.318, 0.396, 1.000)</color>
+        <rects>
+          <li>(10,2,14,4)</li>
+        </rects>
+      </Soil>
+      <MarshyTerrain>
+        <rects>
+          <li>(1,5,1,5)</li>
+        </rects>
+      </MarshyTerrain>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="foundationGrid">
+      <VFEArch_BridgeLimestone>
+        <rects>
+          <li>(0,5,0,6)</li>
+          <li>(1,6,1,6)</li>
+        </rects>
+      </VFEArch_BridgeLimestone>
+      <VFEArch_BridgeSlate>
+        <rects>
+          <li>(1,5,1,5)</li>
+        </rects>
+      </VFEArch_BridgeSlate>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,16,6)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,16,6)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
