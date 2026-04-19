@@ -1,0 +1,155 @@
+<PrefabDef>
+  <defName>Prefab_20260419_123244</defName>
+  <size>(6,6)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>блок</name>
+    <description>блок</description>
+    <tags></tags>
+    <author>я</author>
+    <category>Dormitory</category>
+    <BuildingID>af206dbe-494f-4959-b893-c747da550aab</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>gt.sam.basicdoubledoors</packageId>
+        <name>Basic Double Doors</name>
+        <version></version>
+        <modorder>31</modorder>
+        <steamWorkshopId>3223646936</steamWorkshopId>
+        <things>
+          <li>BDD_DoubleDoor</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>vanillaexpanded.vfecore</packageId>
+        <name>Vanilla Furniture Expanded</name>
+        <version></version>
+        <modorder>15</modorder>
+        <steamWorkshopId>1718190143</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Table_Wardrobe</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>блок</default>
+        <ru>блок</ru>
+      </name>
+      <description>
+        <default>блок</default>
+        <ru>блок</ru>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,1,0)</li>
+        <li>(4,0,5,0)</li>
+        <li>(0,1,0,5)</li>
+        <li>(5,1,5,5)</li>
+        <li>(1,5,4,5)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>250</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Wall>
+    <BDD_DoubleDoor>
+      <position>(2, 0, 0)</position>
+      <stuff>Steel</stuff>
+      <hp>200</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </BDD_DoubleDoor>
+    <PlantPot>
+      <rects>
+        <li>(1,1,1,1)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <hp>49</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </PlantPot>
+    <EndTable>
+      <rects>
+        <li>(4,1,4,1)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <hp>49</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </EndTable>
+    <Dresser>
+      <position>(1, 0, 4)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <hp>78</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Dresser>
+    <DoubleBed>
+      <position>(3, 0, 4)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <hp>130</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DoubleBed>
+    <Table_Wardrobe>
+      <position>(4, 0, 3)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <hp>91</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Table_Wardrobe>
+  </things>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <BrokenAsphalt>
+        <rects>
+          <li>(0,0,1,0)</li>
+          <li>(5,0,5,0)</li>
+          <li>(0,1,0,1)</li>
+          <li>(5,2,5,5)</li>
+        </rects>
+      </BrokenAsphalt>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Gravel>
+        <rects>
+          <li>(0,0,1,0)</li>
+          <li>(5,2,5,5)</li>
+        </rects>
+      </Gravel>
+      <Soil>
+        <rects>
+          <li>(5,0,5,0)</li>
+          <li>(0,1,0,1)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,5,5)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,5,5)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
