@@ -1,0 +1,71 @@
+<PrefabDef>
+  <defName>Prefab_20260418_200235</defName>
+  <size>(9,9)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>함선 신호기 9x9</name>
+    <description>밀리라 함선 샘플</description>
+    <tags></tags>
+    <author>di</author>
+    <category>OdysseyDLC</category>
+    <BuildingID>60520365-31aa-4fbf-a26b-d8cca6ee9617</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>ludeon.rimworld.royalty</packageId>
+        <name>Royalty</name>
+        <version></version>
+        <modorder>2</modorder>
+        <things>
+          <li>ShipLandingBeacon</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>함선 신호기 9x9</default>
+        <ko>함선 신호기 9x9</ko>
+      </name>
+      <description>
+        <default>밀리라 함선 샘플</default>
+        <ko>밀리라 함선 샘플</ko>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <HiddenConduit>
+      <rects>
+        <li>(0,0,8,0)</li>
+        <li>(0,1,0,8)</li>
+        <li>(8,1,8,8)</li>
+        <li>(1,8,7,8)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <ShipLandingBeacon>
+      <rects>
+        <li>(0,0,0,0)</li>
+        <li>(8,0,8,0)</li>
+        <li>(0,8,0,8)</li>
+        <li>(8,8,8,8)</li>
+      </rects>
+      <hp>75</hp>
+    </ShipLandingBeacon>
+  </things>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <Concrete>
+        <rects>
+          <li>(0,0,8,8)</li>
+        </rects>
+      </Concrete>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <MossyTerrain>
+        <rects>
+          <li>(0,0,8,8)</li>
+        </rects>
+      </MossyTerrain>
+    </terrainLayerDetail>
+  </terrainLayers>
+</PrefabDef>
