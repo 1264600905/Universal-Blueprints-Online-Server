@@ -1,5 +1,5 @@
 <PrefabDef>
-  <defName>Prefab_20260421_220731</defName>
+  <defName>Prefab_20260421_221353</defName>
   <size>(33,22)</size>
   <extraInfo>
     <version>1.6.9438.37837</version>
@@ -74,6 +74,28 @@
           <li>Eccentric_SupplyConduit</li>
           <li>EccentricFurniture_AutofabricatorBasic</li>
           <li>EccentricFurniture_AutofabricatorAdvanced</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>oskarpotocki.vfe.medieval2</packageId>
+        <name>Vanilla Factions Expanded - Medieval 2</name>
+        <version></version>
+        <modorder>78</modorder>
+        <steamWorkshopId>3444347874</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VFEM2_StoneClamp</li>
+          <li>VFEM2_ChiselRack</li>
+          <li>VFEM2_TailoringLoom</li>
         </things>
       </mod>
       <mod>
@@ -170,26 +192,6 @@
         <things>
           <li>CMCCabinet</li>
           <li>CMC_FacBench</li>
-        </things>
-      </mod>
-      <mod>
-        <packageId>oskarpotocki.vfe.medieval2</packageId>
-        <name>Vanilla Factions Expanded - Medieval 2</name>
-        <version></version>
-        <modorder>78</modorder>
-        <steamWorkshopId>3444347874</steamWorkshopId>
-        <dependencies>
-          <li>
-            <packageId>brrainz.harmony</packageId>
-            <steamWorkshopId>2009463077</steamWorkshopId>
-          </li>
-          <li>
-            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
-            <steamWorkshopId>2023507013</steamWorkshopId>
-          </li>
-        </dependencies>
-        <things>
-          <li>VFEM2_TailoringLoom</li>
         </things>
       </mod>
       <mod>
@@ -419,6 +421,14 @@
       <hp>120</hp>
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </UFLI_Chair>
+    <VFEM2_StoneClamp>
+      <rects>
+        <li>(2,5,2,5)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>100</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </VFEM2_StoneClamp>
     <FT_TableConcreteMixer>
       <positions>
         <li>(28, 0, 5)</li>
@@ -426,6 +436,14 @@
       </positions>
       <hp>180</hp>
     </FT_TableConcreteMixer>
+    <VFEM2_ChiselRack>
+      <rects>
+        <li>(2,6,2,6)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>100</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </VFEM2_ChiselRack>
     <HiddenConduit>
       <rects>
         <li>(8,6,28,6)</li>
