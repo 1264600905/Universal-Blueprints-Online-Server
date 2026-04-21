@@ -1,5 +1,5 @@
 <PrefabDef>
-  <defName>Prefab_20260421_221353</defName>
+  <defName>Prefab_20260421_222019</defName>
   <size>(33,22)</size>
   <extraInfo>
     <version>1.6.9438.37837</version>
@@ -30,6 +30,29 @@
           <li>UFLI_Chair</li>
           <li>UFLI_FLOOR</li>
           <li>UFLI_FLOORF</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>aoba.deadmanswitch.core</packageId>
+        <name><![CDATA[The Dead Man's Switch]]></name>
+        <version>1.8.25</version>
+        <modorder>229</modorder>
+        <steamWorkshopId>3121742525</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+          <li>
+            <packageId>aoba.framework</packageId>
+            <steamWorkshopId>3498575851</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>DMS_TableMachinePrinter</li>
         </things>
       </mod>
       <mod>
@@ -315,6 +338,14 @@
       <hp>100</hp>
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </ToolCabinet>
+    <DMS_TableMachinePrinter>
+      <positions>
+        <li>(4, 0, 2)</li>
+        <li>(22, 0, 2)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>500</hp>
+    </DMS_TableMachinePrinter>
     <UFLI_groundlight>
       <rects>
         <li>(12,1,12,1)</li>
@@ -397,6 +428,22 @@
       <hp>180</hp>
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </TableStonecutter>
+    <UFLI_Chair>
+      <rects>
+        <li>(4,3,4,3)</li>
+        <li>(22,3,22,3)</li>
+        <li>(23,14,23,14)</li>
+        <li>(26,14,26,14)</li>
+        <li>(29,14,29,14)</li>
+        <li>(11,15,11,15)</li>
+        <li>(16,15,16,15)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>120</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Chair>
     <UFLI_Chair>
       <rects>
         <li>(28,4,28,4)</li>
@@ -506,6 +553,11 @@
       <relativeRotation>Counterclockwise</relativeRotation>
       <hp>1000</hp>
     </CMCCabinet>
+    <DMS_TableMachinePrinter>
+      <position>(4, 0, 10)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>500</hp>
+    </DMS_TableMachinePrinter>
     <KT_Workbench>
       <positions>
         <li>(11, 0, 10)</li>
@@ -514,6 +566,16 @@
       <relativeRotation>Opposite</relativeRotation>
       <hp>2500</hp>
     </KT_Workbench>
+    <UFLI_Chair>
+      <rects>
+        <li>(5,10,5,10)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>120</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Chair>
     <ToolCabinet>
       <positions>
         <li>(20, 0, 10)</li>
@@ -611,20 +673,6 @@
       <relativeRotation>Opposite</relativeRotation>
       <hp>180</hp>
     </CWF_Workbench>
-    <UFLI_Chair>
-      <rects>
-        <li>(23,14,23,14)</li>
-        <li>(26,14,26,14)</li>
-        <li>(29,14,29,14)</li>
-        <li>(11,15,11,15)</li>
-        <li>(16,15,16,15)</li>
-      </rects>
-      <relativeRotation>Opposite</relativeRotation>
-      <stuff>Steel</stuff>
-      <quality>Normal</quality>
-      <hp>120</hp>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </UFLI_Chair>
     <KT_UFGenerator>
       <position>(29, 0, 17)</position>
       <hp>200000</hp>
