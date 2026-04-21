@@ -1,5 +1,5 @@
 <PrefabDef>
-  <defName>Prefab_20260422_003823</defName>
+  <defName>Prefab_20260422_004754</defName>
   <size>(43,135)</size>
   <extraInfo>
     <version>1.6.9438.37837</version>
@@ -466,9 +466,9 @@
         <modorder>157</modorder>
         <steamWorkshopId>1714572710</steamWorkshopId>
         <things>
+          <li>RS_Pot</li>
           <li>RS_stove</li>
           <li>RS_KitchenHood</li>
-          <li>RS_Pot</li>
           <li>RS_Counter</li>
         </things>
       </mod>
@@ -846,14 +846,13 @@
         <li>(18,53,24,53)</li>
         <li>(5,56,15,56)</li>
         <li>(27,56,27,79)</li>
-        <li>(15,58,15,61)</li>
+        <li>(15,58,15,64)</li>
         <li>(18,59,19,59)</li>
         <li>(21,59,25,59)</li>
         <li>(25,60,25,64)</li>
+        <li>(17,62,17,64)</li>
         <li>(5,63,11,63)</li>
-        <li>(14,63,15,63)</li>
-        <li>(15,64,15,64)</li>
-        <li>(17,64,17,64)</li>
+        <li>(14,63,14,63)</li>
         <li>(15,66,15,75)</li>
         <li>(17,66,17,76)</li>
         <li>(25,66,25,76)</li>
@@ -1061,7 +1060,7 @@
         <li>(14,60,14,60)</li>
         <li>(18,63,18,63)</li>
         <li>(24,63,24,63)</li>
-        <li>(28,65,28,65)</li>
+        <li>(29,65,29,65)</li>
         <li>(37,65,37,65)</li>
         <li>(6,73,6,73)</li>
         <li>(13,73,13,73)</li>
@@ -1571,8 +1570,7 @@
         <li>(26,55,27,55)</li>
         <li>(16,56,16,56)</li>
         <li>(26,56,26,80)</li>
-        <li>(16,58,16,61)</li>
-        <li>(16,63,16,80)</li>
+        <li>(16,58,16,80)</li>
         <li>(14,65,15,65)</li>
         <li>(17,65,19,65)</li>
         <li>(23,65,25,65)</li>
@@ -1729,21 +1727,21 @@
     <PFS_Armchair>
       <rects>
         <li>(35,42,35,42)</li>
-        <li>(7,45,7,45)</li>
+        <li>(12,45,12,45)</li>
         <li>(35,45,35,45)</li>
-        <li>(30,46,30,46)</li>
-        <li>(30,48,30,48)</li>
-        <li>(30,58,30,58)</li>
-        <li>(13,66,13,67)</li>
-        <li>(13,70,13,71)</li>
-        <li>(20,71,20,71)</li>
-        <li>(35,75,35,75)</li>
-        <li>(35,81,35,81)</li>
-        <li>(10,83,10,83)</li>
-        <li>(13,83,13,83)</li>
-        <li>(35,87,35,87)</li>
+        <li>(31,49,31,49)</li>
+        <li>(35,49,35,49)</li>
+        <li>(31,54,31,54)</li>
+        <li>(35,54,35,54)</li>
+        <li>(33,61,33,61)</li>
+        <li>(6,66,6,67)</li>
+        <li>(22,68,22,68)</li>
+        <li>(6,70,6,71)</li>
+        <li>(22,71,22,71)</li>
+        <li>(7,82,7,82)</li>
+        <li>(10,82,10,82)</li>
       </rects>
-      <relativeRotation>Counterclockwise</relativeRotation>
+      <relativeRotation>Clockwise</relativeRotation>
       <stuff>Synthamide</stuff>
       <quality>Normal</quality>
       <hp>240</hp>
@@ -1800,20 +1798,22 @@
     </MechaniteAssemblySW>
     <PFS_Armchair>
       <rects>
-        <li>(12,45,12,45)</li>
-        <li>(31,49,31,49)</li>
-        <li>(35,49,35,49)</li>
-        <li>(31,54,31,54)</li>
-        <li>(35,54,35,54)</li>
-        <li>(33,61,33,61)</li>
-        <li>(6,66,6,67)</li>
-        <li>(22,68,22,68)</li>
-        <li>(6,70,6,71)</li>
-        <li>(22,71,22,71)</li>
-        <li>(7,82,7,82)</li>
-        <li>(10,82,10,82)</li>
+        <li>(7,45,7,45)</li>
+        <li>(30,46,30,46)</li>
+        <li>(30,48,30,48)</li>
+        <li>(30,58,30,58)</li>
+        <li>(29,62,29,62)</li>
+        <li>(31,62,31,62)</li>
+        <li>(13,66,13,67)</li>
+        <li>(13,70,13,71)</li>
+        <li>(20,71,20,71)</li>
+        <li>(35,75,35,75)</li>
+        <li>(35,81,35,81)</li>
+        <li>(10,83,10,83)</li>
+        <li>(13,83,13,83)</li>
+        <li>(35,87,35,87)</li>
       </rects>
-      <relativeRotation>Clockwise</relativeRotation>
+      <relativeRotation>Counterclockwise</relativeRotation>
       <stuff>Synthamide</stuff>
       <quality>Normal</quality>
       <hp>240</hp>
@@ -1947,6 +1947,13 @@
       <relativeRotation>Counterclockwise</relativeRotation>
       <hp>500</hp>
     </RT_AssemblyBench>
+    <RS_Pot>
+      <rects>
+        <li>(5,57,5,57)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>100</hp>
+    </RS_Pot>
     <RS_stove>
       <position>(6, 0, 57)</position>
       <relativeRotation>Opposite</relativeRotation>
@@ -1961,13 +1968,6 @@
       <hp>300</hp>
       <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
     </RS_KitchenHood>
-    <RS_Pot>
-      <rects>
-        <li>(5,57,5,57)</li>
-      </rects>
-      <relativeRotation>Opposite</relativeRotation>
-      <hp>100</hp>
-    </RS_Pot>
     <RS_Counter>
       <rects>
         <li>(7,57,7,57)</li>
@@ -2059,6 +2059,11 @@
       <hp>1097</hp>
       <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
     </GravshipHull_NAWDiagonal>
+    <RTC_BlastCabinet>
+      <position>(30, 0, 60)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>100</hp>
+    </RTC_BlastCabinet>
     <FT_ArcFurnace>
       <position>(35, 0, 61)</position>
       <relativeRotation>Clockwise</relativeRotation>
@@ -2099,7 +2104,7 @@
         <li>(17,61,17,61)</li>
       </rects>
       <stuff>FT_ReinforcedConcreteBag</stuff>
-      <hp>904</hp>
+      <hp>1015</hp>
       <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
     </GravshipHull_NAWDiagonal>
     <GravFieldExtender>
@@ -2108,33 +2113,14 @@
       </rects>
       <hp>110</hp>
     </GravFieldExtender>
-    <RTC_BlastCabinet>
-      <position>(29, 0, 61)</position>
-      <relativeRotation>Opposite</relativeRotation>
-      <hp>100</hp>
-    </RTC_BlastCabinet>
-    <GravshipHull_NAWDiagonal>
-      <rects>
-        <li>(15,62,15,62)</li>
-      </rects>
-      <stuff>FT_ReinforcedConcreteBag</stuff>
-      <hp>1209</hp>
-      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
-    </GravshipHull_NAWDiagonal>
-    <PFS_FloorlineLight>
-      <rects>
-        <li>(16,62,16,62)</li>
-      </rects>
-      <hp>57</hp>
-    </PFS_FloorlineLight>
-    <GravshipHull_NAWDiagonal>
-      <rects>
-        <li>(17,62,17,62)</li>
-      </rects>
-      <stuff>FT_ReinforcedConcreteBag</stuff>
-      <hp>907</hp>
-      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
-    </GravshipHull_NAWDiagonal>
+    <TableMachining>
+      <positions>
+        <li>(28, 0, 62)</li>
+        <li>(30, 0, 62)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>180</hp>
+    </TableMachining>
     <GravFieldExtender>
       <rects>
         <li>(20,62,20,62)</li>
@@ -2148,12 +2134,6 @@
       </rects>
       <hp>200</hp>
     </GravFieldExtender>
-    <RTC_ToolShelf>
-      <position>(29, 0, 62)</position>
-      <relativeRotation>Opposite</relativeRotation>
-      <hp>100</hp>
-      <color>RGBA(0.353, 0.353, 0.353, 1.000)</color>
-    </RTC_ToolShelf>
     <PFS_DoorFrameC>
       <rects>
         <li>(12,63,12,63)</li>
@@ -2170,25 +2150,12 @@
       <hp>891</hp>
       <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
     </GravshipHull_NAWDiagonal>
-    <GravshipHull_NAWDiagonal>
-      <rects>
-        <li>(17,63,17,63)</li>
-      </rects>
-      <stuff>FT_ReinforcedConcreteBag</stuff>
-      <hp>886</hp>
-      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
-    </GravshipHull_NAWDiagonal>
     <GravFieldExtender>
       <rects>
         <li>(20,63,20,63)</li>
       </rects>
       <hp>117</hp>
     </GravFieldExtender>
-    <RTC_ToolShelf>
-      <position>(28, 0, 63)</position>
-      <hp>100</hp>
-      <color>RGBA(0.353, 0.353, 0.353, 1.000)</color>
-    </RTC_ToolShelf>
     <FT_TableChemistry>
       <positions>
         <li>(33, 0, 63)</li>
@@ -2215,6 +2182,15 @@
       <position>(21, 0, 65)</position>
       <hp>756</hp>
     </GravEngine>
+    <RTC_ToolShelf>
+      <positions>
+        <li>(28, 0, 65)</li>
+        <li>(28, 0, 67)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>100</hp>
+      <color>RGBA(0.353, 0.353, 0.353, 1.000)</color>
+    </RTC_ToolShelf>
     <PFS_Table3x2a>
       <positions>
         <li>(8, 0, 67)</li>
@@ -2226,12 +2202,6 @@
       <quality>Normal</quality>
       <hp>150</hp>
     </PFS_Table3x2a>
-    <RTC_ToolShelf>
-      <position>(28, 0, 67)</position>
-      <relativeRotation>Clockwise</relativeRotation>
-      <hp>100</hp>
-      <color>RGBA(0.353, 0.353, 0.353, 1.000)</color>
-    </RTC_ToolShelf>
     <DMS_TableMachinePrinter>
       <positions>
         <li>(30, 0, 66)</li>
