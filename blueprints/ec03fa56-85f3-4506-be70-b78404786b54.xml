@@ -1,0 +1,473 @@
+<PrefabDef>
+  <defName>Prefab_20260421_161825</defName>
+  <size>(55,19)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>17</name>
+    <description>1131</description>
+    <tags></tags>
+    <author>зззіаі</author>
+    <category>Other</category>
+    <BuildingID>ec03fa56-85f3-4506-be70-b78404786b54</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>dankpyon.medieval.overhaul</packageId>
+        <name>Medieval Overhaul</name>
+        <version>1.6.2.1</version>
+        <modorder>30</modorder>
+        <steamWorkshopId>3219596926</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>syrchalis.processor.framework</packageId>
+            <steamWorkshopId>3210544395</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>DankPyon_CastleWall</li>
+          <li>DankPyon_LampPost</li>
+          <li>DankPyon_RoyalColumn</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.odyssey</packageId>
+        <name>Odyssey</name>
+        <version></version>
+        <modorder>6</modorder>
+        <things>
+          <li>Obsidian</li>
+          <li>HeavyBridge</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>dubwise.dubsbadhygiene</packageId>
+        <name>Dubs Bad Hygiene</name>
+        <version>3.1.2800</version>
+        <modorder>28</modorder>
+        <steamWorkshopId>836308268</steamWorkshopId>
+        <things>
+          <li>sewagePipeHidden</li>
+          <li>airPipeHidden</li>
+          <li>RadiatorLarge</li>
+          <li>AirconIndoorUnit</li>
+          <li>CeilingFan</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>17</default>
+        <ru>17</ru>
+      </name>
+      <description>
+        <default>1131</default>
+        <ru>1131</ru>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <DankPyon_CastleWall>
+      <rects>
+        <li>(0,0,0,0)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Obsidian</stuff>
+      <hp>500</hp>
+      <color>RGBA(0.196, 0.196, 0.196, 1.000)</color>
+    </DankPyon_CastleWall>
+    <HiddenConduit>
+      <rects>
+        <li>(54,0,54,18)</li>
+        <li>(0,1,53,1)</li>
+        <li>(0,2,0,18)</li>
+        <li>(28,2,28,18)</li>
+        <li>(1,9,27,9)</li>
+        <li>(29,9,53,9)</li>
+        <li>(1,18,27,18)</li>
+        <li>(29,18,53,18)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <sewagePipeHidden>
+      <rects>
+        <li>(54,0,54,1)</li>
+        <li>(26,1,53,1)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>100</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </sewagePipeHidden>
+    <DankPyon_CastleWall>
+      <rects>
+        <li>(0,1,54,1)</li>
+        <li>(0,2,0,18)</li>
+        <li>(54,3,54,18)</li>
+        <li>(1,18,53,18)</li>
+      </rects>
+      <stuff>Obsidian</stuff>
+      <hp>500</hp>
+      <color>RGBA(0.196, 0.196, 0.196, 1.000)</color>
+    </DankPyon_CastleWall>
+    <airPipeHidden>
+      <rects>
+        <li>(1,1,53,1)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </airPipeHidden>
+    <WallLamp>
+      <rects>
+        <li>(1,2,1,2)</li>
+        <li>(1,17,1,17)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>35</hp>
+    </WallLamp>
+    <RadiatorLarge>
+      <positions>
+        <li>(31, 0, 2)</li>
+        <li>(33, 0, 2)</li>
+        <li>(35, 0, 2)</li>
+        <li>(37, 0, 2)</li>
+        <li>(39, 0, 2)</li>
+        <li>(41, 0, 2)</li>
+        <li>(43, 0, 2)</li>
+        <li>(45, 0, 2)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>150</hp>
+    </RadiatorLarge>
+    <AirconIndoorUnit>
+      <rects>
+        <li>(47,2,52,2)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>100</hp>
+    </AirconIndoorUnit>
+    <Autodoor>
+      <rects>
+        <li>(54,2,54,2)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Obsidian</stuff>
+      <hp>80</hp>
+      <color>RGBA(0.196, 0.196, 0.196, 1.000)</color>
+    </Autodoor>
+    <DankPyon_LampPost>
+      <rects>
+        <li>(53,3,53,3)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Obsidian</stuff>
+      <hp>50</hp>
+      <color>RGBA(0.196, 0.196, 0.196, 1.000)</color>
+    </DankPyon_LampPost>
+    <SunLamp>
+      <rects>
+        <li>(4,9,4,9)</li>
+        <li>(11,9,11,9)</li>
+        <li>(18,9,18,9)</li>
+        <li>(25,9,25,9)</li>
+        <li>(32,9,32,9)</li>
+        <li>(39,9,39,9)</li>
+        <li>(46,9,46,9)</li>
+        <li>(4,14,4,14)</li>
+        <li>(11,14,11,14)</li>
+        <li>(18,14,18,14)</li>
+        <li>(25,14,25,14)</li>
+        <li>(32,14,32,14)</li>
+        <li>(39,14,39,14)</li>
+        <li>(46,14,46,14)</li>
+        <li>(52,14,52,14)</li>
+      </rects>
+      <hp>50</hp>
+    </SunLamp>
+    <DankPyon_RoyalColumn>
+      <rects>
+        <li>(5,9,5,9)</li>
+        <li>(12,9,12,9)</li>
+        <li>(19,9,19,9)</li>
+        <li>(26,9,26,9)</li>
+        <li>(33,9,33,9)</li>
+        <li>(40,9,40,9)</li>
+        <li>(47,9,47,9)</li>
+      </rects>
+      <stuff>Obsidian</stuff>
+      <hp>90</hp>
+      <color>RGBA(0.196, 0.196, 0.196, 1.000)</color>
+    </DankPyon_RoyalColumn>
+    <CeilingFan>
+      <positions>
+        <li>(14, 0, 9)</li>
+        <li>(29, 0, 9)</li>
+        <li>(43, 0, 9)</li>
+      </positions>
+      <hp>75</hp>
+    </CeilingFan>
+    <HydroponicsBasin>
+      <positions>
+        <li>(1, 0, 12)</li>
+        <li>(1, 0, 16)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>180</hp>
+    </HydroponicsBasin>
+    <HydroponicsBasin>
+      <positions>
+        <li>(4, 0, 10)</li>
+        <li>(8, 0, 10)</li>
+        <li>(12, 0, 10)</li>
+        <li>(16, 0, 10)</li>
+        <li>(20, 0, 10)</li>
+        <li>(24, 0, 10)</li>
+        <li>(28, 0, 10)</li>
+        <li>(4, 0, 11)</li>
+        <li>(8, 0, 11)</li>
+        <li>(12, 0, 11)</li>
+        <li>(16, 0, 11)</li>
+        <li>(20, 0, 11)</li>
+        <li>(24, 0, 11)</li>
+        <li>(28, 0, 11)</li>
+        <li>(4, 0, 12)</li>
+        <li>(8, 0, 12)</li>
+        <li>(12, 0, 12)</li>
+        <li>(16, 0, 12)</li>
+        <li>(20, 0, 12)</li>
+        <li>(24, 0, 12)</li>
+        <li>(28, 0, 12)</li>
+        <li>(4, 0, 13)</li>
+        <li>(8, 0, 13)</li>
+        <li>(12, 0, 13)</li>
+        <li>(16, 0, 13)</li>
+        <li>(20, 0, 13)</li>
+        <li>(24, 0, 13)</li>
+        <li>(28, 0, 13)</li>
+        <li>(8, 0, 14)</li>
+        <li>(16, 0, 14)</li>
+        <li>(22, 0, 14)</li>
+        <li>(28, 0, 14)</li>
+        <li>(50, 0, 14)</li>
+        <li>(4, 0, 15)</li>
+        <li>(8, 0, 15)</li>
+        <li>(12, 0, 15)</li>
+        <li>(16, 0, 15)</li>
+        <li>(20, 0, 15)</li>
+        <li>(24, 0, 15)</li>
+        <li>(28, 0, 15)</li>
+        <li>(4, 0, 17)</li>
+        <li>(8, 0, 17)</li>
+        <li>(12, 0, 17)</li>
+        <li>(16, 0, 17)</li>
+        <li>(20, 0, 17)</li>
+        <li>(24, 0, 17)</li>
+        <li>(28, 0, 17)</li>
+        <li>(32, 0, 17)</li>
+        <li>(36, 0, 17)</li>
+        <li>(40, 0, 17)</li>
+        <li>(44, 0, 17)</li>
+        <li>(48, 0, 17)</li>
+        <li>(52, 0, 17)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>180</hp>
+    </HydroponicsBasin>
+    <HydroponicsBasin>
+      <positions>
+        <li>(31, 0, 10)</li>
+        <li>(35, 0, 10)</li>
+        <li>(39, 0, 10)</li>
+        <li>(43, 0, 10)</li>
+        <li>(47, 0, 10)</li>
+        <li>(51, 0, 10)</li>
+        <li>(31, 0, 11)</li>
+        <li>(35, 0, 11)</li>
+        <li>(39, 0, 11)</li>
+        <li>(43, 0, 11)</li>
+        <li>(47, 0, 11)</li>
+        <li>(51, 0, 11)</li>
+        <li>(31, 0, 12)</li>
+        <li>(35, 0, 12)</li>
+        <li>(39, 0, 12)</li>
+        <li>(43, 0, 12)</li>
+        <li>(47, 0, 12)</li>
+        <li>(51, 0, 12)</li>
+        <li>(31, 0, 13)</li>
+        <li>(35, 0, 13)</li>
+        <li>(39, 0, 13)</li>
+        <li>(43, 0, 13)</li>
+        <li>(47, 0, 13)</li>
+        <li>(51, 0, 13)</li>
+        <li>(35, 0, 14)</li>
+        <li>(43, 0, 14)</li>
+        <li>(31, 0, 15)</li>
+        <li>(35, 0, 15)</li>
+        <li>(39, 0, 15)</li>
+        <li>(43, 0, 15)</li>
+        <li>(47, 0, 15)</li>
+        <li>(51, 0, 15)</li>
+        <li>(3, 0, 16)</li>
+        <li>(7, 0, 16)</li>
+        <li>(11, 0, 16)</li>
+        <li>(15, 0, 16)</li>
+        <li>(19, 0, 16)</li>
+        <li>(23, 0, 16)</li>
+        <li>(27, 0, 16)</li>
+        <li>(31, 0, 16)</li>
+        <li>(35, 0, 16)</li>
+        <li>(39, 0, 16)</li>
+        <li>(43, 0, 16)</li>
+        <li>(47, 0, 16)</li>
+        <li>(51, 0, 16)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>180</hp>
+    </HydroponicsBasin>
+    <WallLamp>
+      <rects>
+        <li>(53,17,53,17)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>35</hp>
+    </WallLamp>
+  </things>
+  <terrain>
+    <TileMarble>
+      <rects>
+        <li>(1,2,54,17)</li>
+        <li>(1,18,14,18)</li>
+        <li>(30,18,54,18)</li>
+      </rects>
+    </TileMarble>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <TileMarble>
+        <rects>
+          <li>(1,2,54,17)</li>
+          <li>(1,18,14,18)</li>
+          <li>(30,18,54,18)</li>
+        </rects>
+      </TileMarble>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <MarshyTerrain>
+        <rects>
+          <li>(1,2,3,2)</li>
+          <li>(23,2,32,4)</li>
+          <li>(1,3,2,3)</li>
+          <li>(1,4,1,5)</li>
+          <li>(23,5,30,5)</li>
+          <li>(32,5,32,5)</li>
+          <li>(24,6,29,6)</li>
+          <li>(24,7,27,7)</li>
+          <li>(25,8,26,8)</li>
+          <li>(22,11,22,17)</li>
+          <li>(19,12,21,17)</li>
+          <li>(24,12,26,17)</li>
+          <li>(23,13,23,17)</li>
+          <li>(27,13,27,17)</li>
+          <li>(18,14,18,17)</li>
+          <li>(17,15,17,17)</li>
+          <li>(16,16,16,17)</li>
+          <li>(28,16,28,17)</li>
+          <li>(29,17,29,17)</li>
+        </rects>
+      </MarshyTerrain>
+      <Soil>
+        <rects>
+          <li>(4,2,22,10)</li>
+          <li>(33,2,44,18)</li>
+          <li>(3,3,3,18)</li>
+          <li>(45,3,45,18)</li>
+          <li>(2,4,2,18)</li>
+          <li>(31,5,31,18)</li>
+          <li>(46,5,49,18)</li>
+          <li>(1,6,1,18)</li>
+          <li>(23,6,23,12)</li>
+          <li>(30,6,30,18)</li>
+          <li>(32,6,32,18)</li>
+          <li>(50,6,52,18)</li>
+          <li>(28,7,29,15)</li>
+          <li>(53,7,53,18)</li>
+          <li>(24,8,24,11)</li>
+          <li>(27,8,27,12)</li>
+          <li>(54,8,54,18)</li>
+          <li>(25,9,26,11)</li>
+          <li>(4,11,21,11)</li>
+          <li>(4,12,18,13)</li>
+          <li>(4,14,17,14)</li>
+          <li>(4,15,16,15)</li>
+          <li>(4,16,15,17)</li>
+          <li>(29,16,29,16)</li>
+          <li>(4,18,14,18)</li>
+        </rects>
+      </Soil>
+      <Gravel>
+        <rects>
+          <li>(45,2,45,2)</li>
+          <li>(52,2,54,5)</li>
+          <li>(46,3,47,4)</li>
+          <li>(48,4,51,4)</li>
+          <li>(50,5,51,5)</li>
+          <li>(53,6,54,6)</li>
+          <li>(54,7,54,7)</li>
+        </rects>
+      </Gravel>
+      <Sandstone_Rough>
+        <rects>
+          <li>(46,2,51,2)</li>
+          <li>(48,3,51,3)</li>
+        </rects>
+      </Sandstone_Rough>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="foundationGrid">
+      <HeavyBridge>
+        <rects>
+          <li>(1,1,1,5)</li>
+          <li>(23,1,24,5)</li>
+          <li>(2,2,3,2)</li>
+          <li>(25,2,32,4)</li>
+          <li>(2,3,2,3)</li>
+          <li>(25,5,30,5)</li>
+          <li>(32,5,32,5)</li>
+          <li>(24,6,29,6)</li>
+          <li>(24,7,27,7)</li>
+          <li>(25,8,26,8)</li>
+          <li>(22,11,22,17)</li>
+          <li>(19,12,21,17)</li>
+          <li>(24,12,26,17)</li>
+          <li>(23,13,23,17)</li>
+          <li>(27,13,27,17)</li>
+          <li>(18,14,18,17)</li>
+          <li>(17,15,17,17)</li>
+          <li>(16,16,16,17)</li>
+          <li>(28,16,28,17)</li>
+          <li>(29,17,29,17)</li>
+        </rects>
+      </HeavyBridge>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,0,18)</li>
+        <li>(1,1,54,18)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,0,18)</li>
+        <li>(1,1,54,18)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
