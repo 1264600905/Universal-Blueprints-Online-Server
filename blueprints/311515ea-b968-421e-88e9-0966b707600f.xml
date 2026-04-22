@@ -1,5 +1,5 @@
 <PrefabDef>
-  <defName>Prefab_20260422_231214</defName>
+  <defName>Prefab_20260422_232043</defName>
   <size>(51,138)</size>
   <extraInfo>
     <version>1.6.9438.37837</version>
@@ -229,9 +229,9 @@
           <li>MiliraImperiumTurret_MiniGun</li>
           <li>MiliraImperiumTurret_PointDefense</li>
           <li>MiliraImperiumTurret_MissileLauncher</li>
+          <li>Milira_PsionicCounterMeasure</li>
           <li>Milira_AuxiliaryReplicator</li>
           <li>MiliraImperiumTurret_Disruptor</li>
-          <li>Milira_PsionicCounterMeasure</li>
           <li>MI_Building_ImperiumBannerProjection</li>
           <li>Milira_NeutroniumFabric</li>
           <li>MI_Building_DoubleBed</li>
@@ -420,26 +420,6 @@
         </things>
       </mod>
       <mod>
-        <packageId>reel.turretpipeline</packageId>
-        <name><![CDATA[Reel's Turret Pipeline]]></name>
-        <version></version>
-        <modorder>333</modorder>
-        <steamWorkshopId>3424132769</steamWorkshopId>
-        <dependencies>
-          <li>
-            <packageId>brrainz.harmony</packageId>
-            <steamWorkshopId>2009463077</steamWorkshopId>
-          </li>
-          <li>
-            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
-            <steamWorkshopId>2023507013</steamWorkshopId>
-          </li>
-        </dependencies>
-        <things>
-          <li>REEL_AmmoTank</li>
-        </things>
-      </mod>
-      <mod>
         <packageId>aelanna.eccentrictech.defensegrid</packageId>
         <name>Eccentric Tech - Defense Grid</name>
         <version>1.4.1</version>
@@ -551,6 +531,16 @@
         </dependencies>
         <things>
           <li>Milira_ComponentBench</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.ideology</packageId>
+        <name>Ideology</name>
+        <version></version>
+        <modorder>5</modorder>
+        <things>
+          <li>Ideogram</li>
+          <li>Lectern</li>
         </things>
       </mod>
       <mod>
@@ -712,15 +702,6 @@
         </things>
       </mod>
       <mod>
-        <packageId>ludeon.rimworld.ideology</packageId>
-        <name>Ideology</name>
-        <version></version>
-        <modorder>5</modorder>
-        <things>
-          <li>Lectern</li>
-        </things>
-      </mod>
-      <mod>
         <packageId>kindseal.lol</packageId>
         <name>联合重工-UF Heavy Industries</name>
         <version></version>
@@ -821,7 +802,7 @@
         <li>(15,6,20,6)</li>
         <li>(30,6,35,6)</li>
         <li>(37,6,42,6)</li>
-        <li>(8,7,8,67)</li>
+        <li>(8,7,8,74)</li>
         <li>(20,7,20,29)</li>
         <li>(30,7,30,29)</li>
         <li>(42,7,42,95)</li>
@@ -863,19 +844,18 @@
         <li>(19,66,19,75)</li>
         <li>(21,66,21,76)</li>
         <li>(29,66,29,76)</li>
-        <li>(8,69,8,69)</li>
         <li>(32,70,41,70)</li>
         <li>(1,71,3,71)</li>
         <li>(35,71,35,74)</li>
         <li>(37,71,37,71)</li>
         <li>(47,71,49,71)</li>
         <li>(2,72,3,72)</li>
-        <li>(8,72,8,73)</li>
         <li>(47,72,48,72)</li>
         <li>(3,73,3,73)</li>
         <li>(7,73,7,73)</li>
         <li>(37,73,37,77)</li>
         <li>(47,73,47,73)</li>
+        <li>(4,74,5,74)</li>
         <li>(9,74,18,74)</li>
         <li>(44,74,46,74)</li>
         <li>(5,75,6,75)</li>
@@ -1114,6 +1094,7 @@
         <li>(24,6,24,6)</li>
         <li>(23,30,23,30)</li>
         <li>(25,54,25,54)</li>
+        <li>(12,57,12,57)</li>
         <li>(25,60,25,60)</li>
         <li>(15,75,15,75)</li>
         <li>(12,97,12,97)</li>
@@ -1698,6 +1679,10 @@
       <relativeRotation>Clockwise</relativeRotation>
       <hp>2800</hp>
     </Milira_SunBlastFurnace>
+    <Milira_PsionicCounterMeasure>
+      <position>(22, 0, 43)</position>
+      <hp>2500</hp>
+    </Milira_PsionicCounterMeasure>
     <AdvShip_ShieldGenerator>
       <positions>
         <li>(25, 0, 43)</li>
@@ -1773,13 +1758,6 @@
       <stuff>Milira_SplendidSteel</stuff>
       <hp>450</hp>
     </HiTechResearchBench>
-    <REEL_AmmoTank>
-      <positions>
-        <li>(22, 0, 43)</li>
-        <li>(28, 0, 43)</li>
-      </positions>
-      <hp>250</hp>
-    </REEL_AmmoTank>
     <FT_transformer>
       <positions>
         <li>(33, 0, 43)</li>
@@ -1993,10 +1971,23 @@
       <relativeRotation>Clockwise</relativeRotation>
       <hp>300</hp>
     </FabricationBench>
-    <Milira_PsionicCounterMeasure>
-      <position>(25, 0, 57)</position>
-      <hp>2500</hp>
-    </Milira_PsionicCounterMeasure>
+    <Ideogram>
+      <positions>
+        <li>(22, 0, 56)</li>
+        <li>(21, 0, 79)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>50</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Ideogram>
+    <Lectern>
+      <rects>
+        <li>(25,56,25,56)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Milira_SplendidSteel</stuff>
+      <hp>180</hp>
+    </Lectern>
     <RS_Pot>
       <rects>
         <li>(9,57,9,57)</li>
@@ -2023,19 +2014,11 @@
       <stuff>Milira_SplendidSteel</stuff>
       <hp>180</hp>
     </RS_Counter>
-    <WallLamp>
-      <rects>
-        <li>(12,57,12,57)</li>
-      </rects>
-      <relativeRotation>Opposite</relativeRotation>
-      <stuff>Milira_SplendidSteel</stuff>
-      <hp>32</hp>
-    </WallLamp>
     <TableButcher>
       <position>(16, 0, 57)</position>
       <relativeRotation>Opposite</relativeRotation>
       <stuff>Milira_SplendidSteel</stuff>
-      <hp>316</hp>
+      <hp>325</hp>
     </TableButcher>
     <VFEM2_CleaverRack>
       <rects>
@@ -2099,14 +2082,12 @@
       <hp>1500</hp>
     </FT_ArcFurnace>
     <AutoHydroponic>
-      <position>(10, 0, 61)</position>
+      <positions>
+        <li>(10, 0, 61)</li>
+        <li>(13, 0, 61)</li>
+      </positions>
       <relativeRotation>Clockwise</relativeRotation>
-      <hp>341</hp>
-    </AutoHydroponic>
-    <AutoHydroponic>
-      <position>(13, 0, 61)</position>
-      <relativeRotation>Clockwise</relativeRotation>
-      <hp>276</hp>
+      <hp>500</hp>
     </AutoHydroponic>
     <jdgg_RefCargoHold>
       <position>(15, 0, 62)</position>
@@ -2176,12 +2157,10 @@
       <hp>1200</hp>
     </DMS_ReactionChamber>
     <XLMiniGravshipThruster>
-      <position>(2, 0, 67)</position>
-      <hp>1117</hp>
-    </XLMiniGravshipThruster>
-    <XLMiniGravshipThruster>
       <positions>
+        <li>(2, 0, 67)</li>
         <li>(48, 0, 67)</li>
+        <li>(5, 0, 70)</li>
         <li>(45, 0, 70)</li>
       </positions>
       <hp>1500</hp>
@@ -2216,17 +2195,6 @@
       <relativeRotation>Clockwise</relativeRotation>
       <hp>800</hp>
     </GravForge>
-    <XLMiniGravshipThruster>
-      <position>(5, 0, 70)</position>
-      <hp>930</hp>
-    </XLMiniGravshipThruster>
-    <GravshipHull_NAWDiagonal>
-      <rects>
-        <li>(8,68,8,68)</li>
-      </rects>
-      <stuff>Milira_SplendidSteel</stuff>
-      <hp>744</hp>
-    </GravshipHull_NAWDiagonal>
     <SignalJammer>
       <position>(22, 0, 68)</position>
       <hp>400</hp>
@@ -2245,14 +2213,6 @@
       <stuff>Milira_SplendidSteel</stuff>
       <hp>510</hp>
     </GravshipHull_NAWDiagonal>
-    <GravshipHull_NAWDiagonal>
-      <rects>
-        <li>(8,70,8,70)</li>
-        <li>(5,74,5,74)</li>
-      </rects>
-      <stuff>Milira_SplendidSteel</stuff>
-      <hp>526</hp>
-    </GravshipHull_NAWDiagonal>
     <VTE_TradingTerminal>
       <position>(22, 0, 71)</position>
       <relativeRotation>Clockwise</relativeRotation>
@@ -2269,13 +2229,6 @@
       </rects>
       <stuff>Milira_SplendidSteel</stuff>
       <hp>692</hp>
-    </GravshipHull_NAWDiagonal>
-    <GravshipHull_NAWDiagonal>
-      <rects>
-        <li>(8,71,8,71)</li>
-      </rects>
-      <stuff>Milira_SplendidSteel</stuff>
-      <hp>620</hp>
     </GravshipHull_NAWDiagonal>
     <PFS_AnimalBed>
       <rects>
@@ -2353,13 +2306,6 @@
       <relativeRotation>Clockwise</relativeRotation>
       <hp>80</hp>
     </OxygenPump>
-    <GravshipHull_NAWDiagonal>
-      <rects>
-        <li>(4,74,4,74)</li>
-      </rects>
-      <stuff>Milira_SplendidSteel</stuff>
-      <hp>458</hp>
-    </GravshipHull_NAWDiagonal>
     <sewagePipeHidden>
       <rects>
         <li>(4,74,4,74)</li>
@@ -2389,13 +2335,6 @@
       </rects>
       <stuff>Milira_SplendidSteel</stuff>
       <hp>680</hp>
-    </GravshipHull_NAWDiagonal>
-    <GravshipHull_NAWDiagonal>
-      <rects>
-        <li>(8,74,8,74)</li>
-      </rects>
-      <stuff>Milira_SplendidSteel</stuff>
-      <hp>540</hp>
     </GravshipHull_NAWDiagonal>
     <MI_Building_ImperiumBannerProjection>
       <rects>
@@ -2554,10 +2493,7 @@
       <hp>100</hp>
     </ToiletSpacer>
     <PFS_HexaTable>
-      <positions>
-        <li>(28, 0, 78)</li>
-        <li>(33, 0, 92)</li>
-      </positions>
+      <position>(28, 0, 78)</position>
       <quality>Normal</quality>
       <hp>100</hp>
     </PFS_HexaTable>
@@ -2874,6 +2810,11 @@
       <quality>Legendary</quality>
       <hp>144</hp>
     </UFLI_TinyChair>
+    <Ideogram>
+      <position>(34, 0, 94)</position>
+      <hp>50</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Ideogram>
     <UFLI_Television>
       <position>(22, 0, 94)</position>
       <relativeRotation>Opposite</relativeRotation>
@@ -2938,14 +2879,6 @@
       <relativeRotation>Opposite</relativeRotation>
       <hp>120</hp>
     </UFLI_Telescope>
-    <Lectern>
-      <rects>
-        <li>(33,94,33,94)</li>
-      </rects>
-      <relativeRotation>Opposite</relativeRotation>
-      <stuff>Milira_SplendidSteel</stuff>
-      <hp>180</hp>
-    </Lectern>
     <VFEM2_SurgicalTools>
       <rects>
         <li>(39,94,39,94)</li>
