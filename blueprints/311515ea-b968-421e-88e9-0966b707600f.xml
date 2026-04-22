@@ -1,5 +1,5 @@
 <PrefabDef>
-  <defName>Prefab_20260422_232248</defName>
+  <defName>Prefab_20260422_232620</defName>
   <size>(51,138)</size>
   <extraInfo>
     <version>1.6.9438.37837</version>
@@ -225,6 +225,7 @@
           </li>
         </dependencies>
         <things>
+          <li>Milira_SunLightFruitGrowBox</li>
           <li>Milira_SolarCrystalGrowBox</li>
           <li>MiliraImperiumTurret_MiniGun</li>
           <li>MiliraImperiumTurret_PointDefense</li>
@@ -554,6 +555,34 @@
           <li>RS_KitchenHood</li>
           <li>RS_stove</li>
           <li>RS_Counter</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>vanillaexpanded.vcookesushi</packageId>
+        <name>Vanilla Cooking Expanded - Sushi</name>
+        <version></version>
+        <modorder>326</modorder>
+        <steamWorkshopId>2158539170</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>vanillaexpanded.vcooke</packageId>
+            <steamWorkshopId>2134308519</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>vanillaexpanded.vcef</packageId>
+            <steamWorkshopId>1914064942</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VCE_SushiPrepTable</li>
         </things>
       </mod>
       <mod>
@@ -1175,12 +1204,22 @@
       <stuff>Milira_SplendidSteel</stuff>
       <hp>900</hp>
     </ModularLargeThruster>
+    <Milira_SunLightFruitGrowBox>
+      <rects>
+        <li>(14,14,19,14)</li>
+        <li>(31,14,36,14)</li>
+      </rects>
+      <hp>400</hp>
+    </Milira_SunLightFruitGrowBox>
+    <Eccentric_FuelTankHelium>
+      <positions>
+        <li>(25, 0, 14)</li>
+        <li>(25, 0, 16)</li>
+      </positions>
+      <hp>300</hp>
+    </Eccentric_FuelTankHelium>
     <Milira_SolarCrystalGrowBox>
       <positions>
-        <li>(15, 0, 13)</li>
-        <li>(18, 0, 13)</li>
-        <li>(32, 0, 13)</li>
-        <li>(35, 0, 13)</li>
         <li>(15, 0, 16)</li>
         <li>(18, 0, 16)</li>
         <li>(32, 0, 16)</li>
@@ -1189,13 +1228,6 @@
       </positions>
       <hp>1200</hp>
     </Milira_SolarCrystalGrowBox>
-    <Eccentric_FuelTankHelium>
-      <positions>
-        <li>(25, 0, 14)</li>
-        <li>(25, 0, 16)</li>
-      </positions>
-      <hp>300</hp>
-    </Eccentric_FuelTankHelium>
     <GravshipFuelControlUnit>
       <rects>
         <li>(21,18,23,19)</li>
@@ -2013,6 +2045,11 @@
       <stuff>Milira_SplendidSteel</stuff>
       <hp>180</hp>
     </RS_Counter>
+    <VCE_SushiPrepTable>
+      <position>(13, 0, 57)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>50</hp>
+    </VCE_SushiPrepTable>
     <TableButcher>
       <position>(16, 0, 57)</position>
       <relativeRotation>Opposite</relativeRotation>
