@@ -1,0 +1,271 @@
+<PrefabDef>
+  <defName>Prefab_20260424_045828</defName>
+  <size>(15,8)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>图书馆</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>殖民地</category>
+    <BuildingID>6c8524c6-aefe-4a20-bb9d-279c6afdd885</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>oark.ratkinfaction.oberoniaaurea</packageId>
+        <name>[OA]Ratkin Faction: Oberonia aurea</name>
+        <version></version>
+        <modorder>156</modorder>
+        <steamWorkshopId>3159926804</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>fxz.solaris.ratkinracemod.odyssey</packageId>
+            <steamWorkshopId>3497673755</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>OA_RK_Hengwen</li>
+          <li>OA_RK_Zhuzi</li>
+          <li>OA_RK_Floor_Jishu</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ancot.milirarace</packageId>
+        <name>Milira Race</name>
+        <version></version>
+        <modorder>181</modorder>
+        <steamWorkshopId>3256974620</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ancot.ancotlibrary</packageId>
+            <steamWorkshopId>2988801276</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.royalty</packageId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Milira_FeatherThread</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>dracoix.doormat.r12a</packageId>
+        <name>Door Mat</name>
+        <version></version>
+        <modorder>45</modorder>
+        <steamWorkshopId>1505423207</steamWorkshopId>
+        <things>
+          <li>LT_DoorMatRed</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>hentailoliteam.axolotl</packageId>
+        <name>MoeLotl Race</name>
+        <version></version>
+        <modorder>117</modorder>
+        <steamWorkshopId>3292351432</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Axolotl_Bookcase</li>
+        </things>
+      </mod>
+    </modPackages>
+    <foldGroup>
+      <groupKey>殖民地</groupKey>
+      <displayOrder>0</displayOrder>
+      <isCover>true</isCover>
+    </foldGroup>
+    <multiLanguage>
+      <name>
+        <default>图书馆</default>
+        <zh-CN>图书馆</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,8,0)</li>
+        <li>(10,0,14,0)</li>
+        <li>(0,1,0,4)</li>
+        <li>(14,1,14,7)</li>
+        <li>(0,6,0,7)</li>
+        <li>(1,7,13,7)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+      <hp>360</hp>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </Wall>
+    <Cooler>
+      <rects>
+        <li>(9,0,9,0)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>100</hp>
+    </Cooler>
+    <OA_RK_Hengwen>
+      <rects>
+        <li>(1,1,1,1)</li>
+      </rects>
+      <hp>120</hp>
+    </OA_RK_Hengwen>
+    <Couch>
+      <positions>
+        <li>(13, 0, 1)</li>
+        <li>(13, 0, 3)</li>
+        <li>(13, 0, 5)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Milira_FeatherThread</stuff>
+      <quality>Good</quality>
+      <hp>350</hp>
+    </Couch>
+    <Bookcase>
+      <positions>
+        <li>(2, 0, 2)</li>
+        <li>(4, 0, 2)</li>
+        <li>(6, 0, 2)</li>
+        <li>(8, 0, 2)</li>
+        <li>(10, 0, 2)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bookcase>
+    <Bookcase>
+      <position>(11, 0, 3)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bookcase>
+    <Bookcase>
+      <position>(1, 0, 3)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bookcase>
+    <OA_RK_Zhuzi>
+      <rects>
+        <li>(7,3,7,3)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>117</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </OA_RK_Zhuzi>
+    <HiddenConduit>
+      <rects>
+        <li>(0,4,14,4)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <Bookcase>
+      <positions>
+        <li>(2, 0, 4)</li>
+        <li>(4, 0, 4)</li>
+        <li>(6, 0, 4)</li>
+        <li>(8, 0, 4)</li>
+        <li>(10, 0, 4)</li>
+      </positions>
+      <stuff>WoodLog</stuff>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bookcase>
+    <Door>
+      <rects>
+        <li>(0,5,0,5)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <LT_DoorMatRed>
+      <rects>
+        <li>(0,5,0,5)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <quality>Poor</quality>
+      <hp>50</hp>
+      <color>RGBA(0.463, 0.192, 0.224, 1.000)</color>
+    </LT_DoorMatRed>
+    <Axolotl_Bookcase>
+      <positions>
+        <li>(2, 0, 6)</li>
+        <li>(4, 0, 6)</li>
+        <li>(6, 0, 6)</li>
+        <li>(8, 0, 6)</li>
+        <li>(10, 0, 6)</li>
+        <li>(12, 0, 6)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Axolotl_Bookcase>
+  </things>
+  <terrain>
+    <OA_RK_Floor_Jishu>
+      <rects>
+        <li>(1,1,13,6)</li>
+        <li>(0,5,0,5)</li>
+      </rects>
+    </OA_RK_Floor_Jishu>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <OA_RK_Floor_Jishu>
+        <rects>
+          <li>(1,1,13,6)</li>
+          <li>(0,5,0,5)</li>
+        </rects>
+      </OA_RK_Floor_Jishu>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(1,1,13,6)</li>
+          <li>(0,5,0,5)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,14,7)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,14,7)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
