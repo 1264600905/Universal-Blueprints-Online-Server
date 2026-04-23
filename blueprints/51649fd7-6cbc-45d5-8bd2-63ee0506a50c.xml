@@ -1,0 +1,485 @@
+<PrefabDef>
+  <defName>Prefab_20260424_045711</defName>
+  <size>(13,13)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>工作间3</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>殖民地</category>
+    <BuildingID>51649fd7-6cbc-45d5-8bd2-63ee0506a50c</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>dracoix.doormat.r12a</packageId>
+        <name>Door Mat</name>
+        <version></version>
+        <modorder>45</modorder>
+        <steamWorkshopId>1505423207</steamWorkshopId>
+        <things>
+          <li>LT_DoorMatRed</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>rooandgloomy.yuranracemod</packageId>
+        <name>Yuran race</name>
+        <version></version>
+        <modorder>146</modorder>
+        <steamWorkshopId>2844129100</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>YR_P_Smithy</li>
+          <li>YR_P_sewingmachine</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>hentailoliteam.axolotl</packageId>
+        <name>MoeLotl Race</name>
+        <version></version>
+        <modorder>117</modorder>
+        <steamWorkshopId>3292351432</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Axolotl_GrindingTable</li>
+          <li>Axolotl_ElectricHandBench</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>oark.ratkinfaction.oberoniaaurea</packageId>
+        <name>[OA]Ratkin Faction: Oberonia aurea</name>
+        <version></version>
+        <modorder>156</modorder>
+        <steamWorkshopId>3159926804</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>fxz.solaris.ratkinracemod.odyssey</packageId>
+            <steamWorkshopId>3497673755</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>OA_RK_Zhuzi</li>
+          <li>OA_RK_Hengwen</li>
+          <li>OA_RK_Cloth_Processing</li>
+          <li>OA_RK_Cloth_Processing_B</li>
+          <li>OA_RK_Tailor</li>
+          <li>OA_RK_Floor_Jishu</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>fxz.solaris.ratkinracemod.odyssey</packageId>
+        <name>NewRatkinPlus[1.6]</name>
+        <version></version>
+        <modorder>80</modorder>
+        <steamWorkshopId>3497673755</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>RK_ElectricTailoringBench</li>
+          <li>RK_ElectricSmithy</li>
+        </things>
+      </mod>
+    </modPackages>
+    <foldGroup>
+      <groupKey>殖民地</groupKey>
+      <displayOrder>0</displayOrder>
+      <isCover>true</isCover>
+    </foldGroup>
+    <multiLanguage>
+      <name>
+        <default>工作间3</default>
+        <zh-CN>工作间3</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,5,0)</li>
+        <li>(7,0,12,0)</li>
+        <li>(0,1,0,4)</li>
+        <li>(12,1,12,5)</li>
+        <li>(0,7,0,12)</li>
+        <li>(12,7,12,12)</li>
+        <li>(1,12,5,12)</li>
+        <li>(7,12,11,12)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <hp>510</hp>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Wall>
+    <HiddenConduit>
+      <rects>
+        <li>(6,0,6,12)</li>
+        <li>(0,7,5,7)</li>
+        <li>(7,7,12,7)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <Door>
+      <rects>
+        <li>(6,0,6,0)</li>
+        <li>(6,12,6,12)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <LT_DoorMatRed>
+      <rects>
+        <li>(6,0,6,0)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <quality>Good</quality>
+      <hp>50</hp>
+      <color>RGBA(0.463, 0.192, 0.224, 1.000)</color>
+    </LT_DoorMatRed>
+    <FabricationBench>
+      <position>(3, 0, 2)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>300</hp>
+    </FabricationBench>
+    <ElectricSmithy>
+      <position>(8, 0, 2)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>180</hp>
+    </ElectricSmithy>
+    <BiofuelRefinery>
+      <position>(10, 0, 2)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>200</hp>
+    </BiofuelRefinery>
+    <DiningChair>
+      <rects>
+        <li>(7,2,7,2)</li>
+        <li>(10,4,10,4)</li>
+        <li>(9,8,9,8)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DiningChair>
+    <CommsConsole>
+      <position>(1, 0, 4)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>250</hp>
+    </CommsConsole>
+    <DiningChair>
+      <rects>
+        <li>(3,3,3,3)</li>
+        <li>(9,4,9,4)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DiningChair>
+    <YR_P_Smithy>
+      <position>(5, 0, 3)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>117</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </YR_P_Smithy>
+    <Axolotl_GrindingTable>
+      <rects>
+        <li>(9,3,9,3)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksGranite</stuff>
+      <hp>85</hp>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Axolotl_GrindingTable>
+    <DiningChair>
+      <rects>
+        <li>(10,3,10,3)</li>
+        <li>(5,4,5,4)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DiningChair>
+    <YR_P_sewingmachine>
+      <position>(11, 0, 4)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>117</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </YR_P_sewingmachine>
+    <DiningChair>
+      <rects>
+        <li>(3,4,3,4)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DiningChair>
+    <Cooler>
+      <rects>
+        <li>(0,5,0,5)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>100</hp>
+    </Cooler>
+    <ToolCabinet>
+      <position>(6, 0, 5)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>100</hp>
+      <color>RGBA(0.376, 0.447, 0.373, 1.000)</color>
+    </ToolCabinet>
+    <ToolCabinet>
+      <position>(7, 0, 5)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>100</hp>
+      <color>RGBA(0.376, 0.447, 0.373, 1.000)</color>
+    </ToolCabinet>
+    <Door>
+      <rects>
+        <li>(0,6,0,6)</li>
+        <li>(12,6,12,6)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <LT_DoorMatRed>
+      <rects>
+        <li>(0,6,0,6)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <quality>Masterwork</quality>
+      <hp>50</hp>
+      <color>RGBA(0.463, 0.192, 0.224, 1.000)</color>
+    </LT_DoorMatRed>
+    <OA_RK_Zhuzi>
+      <rects>
+        <li>(6,6,6,6)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>117</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </OA_RK_Zhuzi>
+    <LT_DoorMatRed>
+      <rects>
+        <li>(12,6,12,6)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <quality>Good</quality>
+      <hp>50</hp>
+      <color>RGBA(0.463, 0.192, 0.224, 1.000)</color>
+    </LT_DoorMatRed>
+    <TableSculpting>
+      <position>(2, 0, 7)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>117</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </TableSculpting>
+    <TableMachining>
+      <position>(4, 0, 8)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>180</hp>
+    </TableMachining>
+    <OA_RK_Hengwen>
+      <rects>
+        <li>(6,7,6,7)</li>
+      </rects>
+      <hp>120</hp>
+    </OA_RK_Hengwen>
+    <OA_RK_Cloth_Processing>
+      <position>(8, 0, 7)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>100</hp>
+    </OA_RK_Cloth_Processing>
+    <DiningChair>
+      <rects>
+        <li>(9,7,9,7)</li>
+        <li>(3,8,3,8)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DiningChair>
+    <Axolotl_ElectricHandBench>
+      <positions>
+        <li>(10, 0, 7)</li>
+        <li>(10, 0, 8)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>300</hp>
+    </Axolotl_ElectricHandBench>
+    <DrugLab>
+      <position>(1, 0, 9)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>78</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DrugLab>
+    <DiningChair>
+      <rects>
+        <li>(2,8,2,8)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DiningChair>
+    <OA_RK_Cloth_Processing_B>
+      <position>(7, 0, 8)</position>
+      <hp>250</hp>
+    </OA_RK_Cloth_Processing_B>
+    <DiningChair>
+      <rects>
+        <li>(2,9,2,9)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DiningChair>
+    <DiningChair>
+      <rects>
+        <li>(10,9,10,9)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DiningChair>
+    <RK_ElectricTailoringBench>
+      <position>(11, 0, 10)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>117</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RK_ElectricTailoringBench>
+    <DiningChair>
+      <rects>
+        <li>(2,10,2,10)</li>
+        <li>(5,10,5,10)</li>
+        <li>(8,10,8,10)</li>
+        <li>(10,10,10,10)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DiningChair>
+    <TableStonecutter>
+      <position>(2, 0, 11)</position>
+      <stuff>WoodLog</stuff>
+      <hp>117</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </TableStonecutter>
+    <RK_ElectricSmithy>
+      <position>(4, 0, 11)</position>
+      <stuff>WoodLog</stuff>
+      <hp>117</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RK_ElectricSmithy>
+    <OA_RK_Tailor>
+      <position>(7, 0, 11)</position>
+      <hp>200</hp>
+    </OA_RK_Tailor>
+    <HandTailoringBench>
+      <position>(10, 0, 11)</position>
+      <stuff>WoodLog</stuff>
+      <hp>117</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </HandTailoringBench>
+    <LT_DoorMatRed>
+      <rects>
+        <li>(6,12,6,12)</li>
+      </rects>
+      <quality>Good</quality>
+      <hp>50</hp>
+      <color>RGBA(0.463, 0.192, 0.224, 1.000)</color>
+    </LT_DoorMatRed>
+  </things>
+  <terrain>
+    <OA_RK_Floor_Jishu>
+      <rects>
+        <li>(6,0,6,12)</li>
+        <li>(1,1,5,11)</li>
+        <li>(7,1,11,11)</li>
+        <li>(0,6,0,6)</li>
+        <li>(12,6,12,6)</li>
+      </rects>
+    </OA_RK_Floor_Jishu>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <OA_RK_Floor_Jishu>
+        <rects>
+          <li>(6,0,6,12)</li>
+          <li>(1,1,5,11)</li>
+          <li>(7,1,11,11)</li>
+          <li>(0,6,0,6)</li>
+          <li>(12,6,12,6)</li>
+        </rects>
+      </OA_RK_Floor_Jishu>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(6,0,6,12)</li>
+          <li>(1,1,5,11)</li>
+          <li>(7,1,11,11)</li>
+          <li>(0,6,0,6)</li>
+          <li>(12,6,12,6)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
