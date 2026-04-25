@@ -1,0 +1,335 @@
+<PrefabDef>
+  <defName>Prefab_20260425_233020</defName>
+  <size>(20,13)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>兽耳屋房间</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>其他</category>
+    <BuildingID>0c3aa794-6086-443a-8475-37e12d0d51ac</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>sm.mimikko</packageId>
+        <name>兽耳助手（Mimikko）</name>
+        <version>2.0.135</version>
+        <modorder>264</modorder>
+        <steamWorkshopId>2682319213</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>MimikkoSeaBed</li>
+          <li>MimikkoYouthBed</li>
+          <li>MimikkoGenerator</li>
+          <li>MimikkoPrincessBed</li>
+          <li>MimikkoGirlBed</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>oark.ratkinfaction.oberoniaaurea</packageId>
+        <name>[OA]Ratkin Faction: Oberonia aurea</name>
+        <version></version>
+        <modorder>27</modorder>
+        <steamWorkshopId>3159926804</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>oark.oberoniaaurea.framework</packageId>
+            <steamWorkshopId>3713589764</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>OA_RK_Hengwen</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.biotech</packageId>
+        <name>Biotech</name>
+        <version></version>
+        <modorder>5</modorder>
+        <things>
+          <li>SchoolDesk</li>
+          <li>ToyBox</li>
+          <li>Crib</li>
+          <li>BabyDecoration</li>
+          <li>Blackboard</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>solaris.ratkinracemod</packageId>
+        <name>NewRatkinPlus</name>
+        <version></version>
+        <modorder>26</modorder>
+        <steamWorkshopId>1578693166</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>RK_Pulpit</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>兽耳屋房间</default>
+        <zh-CN>兽耳屋房间</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,19,0)</li>
+        <li>(0,1,0,5)</li>
+        <li>(19,1,19,5)</li>
+        <li>(0,7,0,12)</li>
+        <li>(19,7,19,12)</li>
+        <li>(1,12,18,12)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <hp>510</hp>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Wall>
+    <MimikkoSeaBed>
+      <position>(1, 0, 1)</position>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>130</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </MimikkoSeaBed>
+    <MimikkoSeaBed>
+      <positions>
+        <li>(3, 0, 1)</li>
+        <li>(5, 0, 1)</li>
+      </positions>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <hp>130</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </MimikkoSeaBed>
+    <MimikkoYouthBed>
+      <positions>
+        <li>(8, 0, 1)</li>
+        <li>(10, 0, 1)</li>
+      </positions>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <hp>130</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </MimikkoYouthBed>
+    <Shelf>
+      <position>(15, 0, 1)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Shelf>
+    <MimikkoGenerator>
+      <position>(17, 0, 2)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>800</hp>
+    </MimikkoGenerator>
+    <MimikkoYouthBed>
+      <positions>
+        <li>(1, 0, 3)</li>
+        <li>(3, 0, 3)</li>
+        <li>(5, 0, 3)</li>
+        <li>(8, 0, 3)</li>
+      </positions>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>130</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </MimikkoYouthBed>
+    <MimikkoYouthBed>
+      <position>(10, 0, 3)</position>
+      <stuff>WoodLog</stuff>
+      <quality>Masterwork</quality>
+      <hp>130</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </MimikkoYouthBed>
+    <Door>
+      <rects>
+        <li>(0,6,0,6)</li>
+        <li>(19,6,19,6)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <StandingLamp>
+      <rects>
+        <li>(10,6,10,6)</li>
+      </rects>
+      <hp>50</hp>
+    </StandingLamp>
+    <OA_RK_Hengwen>
+      <rects>
+        <li>(10,7,10,7)</li>
+      </rects>
+      <hp>120</hp>
+    </OA_RK_Hengwen>
+    <DiningChair>
+      <rects>
+        <li>(14,7,17,7)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DiningChair>
+    <MimikkoPrincessBed>
+      <position>(1, 0, 8)</position>
+      <stuff>WoodLog</stuff>
+      <quality>Masterwork</quality>
+      <hp>130</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </MimikkoPrincessBed>
+    <MimikkoPrincessBed>
+      <position>(3, 0, 8)</position>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <hp>130</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </MimikkoPrincessBed>
+    <MimikkoPrincessBed>
+      <position>(5, 0, 8)</position>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>130</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </MimikkoPrincessBed>
+    <SchoolDesk>
+      <positions>
+        <li>(14, 0, 8)</li>
+        <li>(16, 0, 8)</li>
+      </positions>
+      <stuff>WoodLog</stuff>
+      <hp>49</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </SchoolDesk>
+    <MimikkoGirlBed>
+      <position>(1, 0, 10)</position>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <hp>130</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </MimikkoGirlBed>
+    <MimikkoGirlBed>
+      <positions>
+        <li>(3, 0, 10)</li>
+        <li>(5, 0, 10)</li>
+      </positions>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>130</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </MimikkoGirlBed>
+    <ToyBox>
+      <rects>
+        <li>(8,11,8,11)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>32</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </ToyBox>
+    <Crib>
+      <rects>
+        <li>(9,11,9,11)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>46</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Crib>
+    <BabyDecoration>
+      <rects>
+        <li>(10,11,10,11)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>20</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </BabyDecoration>
+    <RK_Pulpit>
+      <rects>
+        <li>(11,11,11,11)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <hp>98</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RK_Pulpit>
+    <Blackboard>
+      <position>(16, 0, 11)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>39</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Blackboard>
+    <HiddenConduit>
+      <rects>
+        <li>(0,12,7,12)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+  </things>
+  <terrain>
+    <WoodPlankFloor>
+      <rects>
+        <li>(1,1,18,11)</li>
+        <li>(0,6,0,6)</li>
+        <li>(19,6,19,6)</li>
+      </rects>
+    </WoodPlankFloor>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <WoodPlankFloor>
+        <rects>
+          <li>(1,1,18,11)</li>
+          <li>(0,6,0,6)</li>
+          <li>(19,6,19,6)</li>
+        </rects>
+      </WoodPlankFloor>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(1,1,18,11)</li>
+          <li>(0,6,0,6)</li>
+          <li>(19,6,19,6)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,19,12)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,19,12)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
