@@ -1,5 +1,5 @@
 <PrefabDef>
-  <defName>Prefab_20260425_234946</defName>
+  <defName>Prefab_20260426_010829</defName>
   <size>(21,91)</size>
   <extraInfo>
     <version>1.6.9438.37837</version>
@@ -88,6 +88,7 @@
           <li>UFLI_Couch</li>
           <li>UFLI_CabinetC</li>
           <li>UFLI_Hugescreen</li>
+          <li>UFLI_Endtable</li>
           <li>UFLI_Bed</li>
         </things>
       </mod>
@@ -317,44 +318,6 @@
         </dependencies>
         <things>
           <li>jdgg_RefCargoHold</li>
-        </things>
-      </mod>
-      <mod>
-        <packageId>ariandel.miliraimperium</packageId>
-        <name>Milira Faction: Milira Imperium</name>
-        <version></version>
-        <modorder>254</modorder>
-        <steamWorkshopId>3588393755</steamWorkshopId>
-        <dependencies>
-          <li>
-            <packageId>ancot.milirarace</packageId>
-            <steamWorkshopId>3256974620</steamWorkshopId>
-          </li>
-          <li>
-            <packageId>erdelf.humanoidalienraces</packageId>
-            <steamWorkshopId>839005762</steamWorkshopId>
-          </li>
-          <li>
-            <packageId>ancot.ancotlibrary</packageId>
-            <steamWorkshopId>2988801276</steamWorkshopId>
-          </li>
-          <li>
-            <packageId>ludeon.rimworld.royalty</packageId>
-          </li>
-          <li>
-            <packageId>ludeon.rimworld.biotech</packageId>
-          </li>
-          <li>
-            <packageId>ariandel.ariandellibrary</packageId>
-            <steamWorkshopId>3665997350</steamWorkshopId>
-          </li>
-          <li>
-            <packageId>brrainz.harmony</packageId>
-            <steamWorkshopId>2009463077</steamWorkshopId>
-          </li>
-        </dependencies>
-        <things>
-          <li>MI_Building_EndTable</li>
         </things>
       </mod>
       <mod>
@@ -704,8 +667,8 @@
         <li>(9,12,11,12)</li>
         <li>(7,13,8,15)</li>
         <li>(12,13,13,15)</li>
-        <li>(5,15,6,15)</li>
-        <li>(14,15,14,15)</li>
+        <li>(5,15,6,16)</li>
+        <li>(14,15,15,16)</li>
         <li>(10,16,10,52)</li>
         <li>(10,54,10,54)</li>
       </rects>
@@ -1364,13 +1327,16 @@
       <relativeRotation>Opposite</relativeRotation>
       <hp>400</hp>
     </UFLI_Hugescreen>
-    <MI_Building_EndTable>
+    <UFLI_Endtable>
       <rects>
         <li>(5,70,5,70)</li>
       </rects>
       <relativeRotation>Clockwise</relativeRotation>
-      <hp>200</hp>
-    </MI_Building_EndTable>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>90</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Endtable>
     <UFLI_Bed>
       <position>(6, 0, 70)</position>
       <relativeRotation>Clockwise</relativeRotation>
@@ -1430,8 +1396,9 @@
         <li>(16,15,17,16)</li>
         <li>(3,18,17,19)</li>
         <li>(5,20,15,24)</li>
-        <li>(11,25,11,42)</li>
+        <li>(10,25,11,25)</li>
         <li>(5,26,8,29)</li>
+        <li>(11,26,11,42)</li>
         <li>(13,26,15,26)</li>
         <li>(9,27,9,29)</li>
         <li>(13,27,13,34)</li>
@@ -1523,8 +1490,9 @@
           <li>(16,15,17,16)</li>
           <li>(3,18,17,19)</li>
           <li>(5,20,15,24)</li>
-          <li>(11,25,11,42)</li>
+          <li>(10,25,11,25)</li>
           <li>(5,26,8,29)</li>
+          <li>(11,26,11,42)</li>
           <li>(13,26,15,26)</li>
           <li>(9,27,9,29)</li>
           <li>(13,27,13,34)</li>
@@ -1696,8 +1664,9 @@
           <li>(12,22,12,24)</li>
           <li>(6,23,6,24)</li>
           <li>(7,24,11,24)</li>
-          <li>(11,25,11,30)</li>
+          <li>(10,25,11,25)</li>
           <li>(7,26,8,29)</li>
+          <li>(11,26,11,30)</li>
           <li>(13,26,15,26)</li>
           <li>(9,27,9,29)</li>
           <li>(13,27,13,27)</li>
@@ -1836,15 +1805,17 @@
     </PlayerRoofZone>
     <NoRoofZone>
       <rects>
+        <li>(18,3,19,3)</li>
+        <li>(19,4,19,4)</li>
         <li>(3,11,4,12)</li>
         <li>(16,11,17,12)</li>
         <li>(19,12,20,12)</li>
         <li>(3,13,3,13)</li>
         <li>(17,13,17,13)</li>
-        <li>(20,13,20,13)</li>
+        <li>(20,13,20,31)</li>
+        <li>(19,14,19,31)</li>
         <li>(1,21,3,30)</li>
-        <li>(17,21,19,31)</li>
-        <li>(20,23,20,31)</li>
+        <li>(17,21,18,31)</li>
         <li>(1,31,2,31)</li>
         <li>(9,86,11,87)</li>
       </rects>
