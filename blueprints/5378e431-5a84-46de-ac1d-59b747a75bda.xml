@@ -1,10 +1,10 @@
 <PrefabDef>
-  <defName>Prefab_20260426_011145</defName>
+  <defName>Prefab_20260426_154544</defName>
   <size>(51,138)</size>
   <extraInfo>
     <version>1.6.9438.37837</version>
     <name>海姆達爾號泰坦戰艦</name>
-    <description><![CDATA[大型移動軍事重火力平台的泰坦戰艦，配備了多個生產設施以及高效率研發中心，也配備大型載具與機動騎兵機庫來進行重武裝行動，一台泰坦戰艦可以征服一個地圖...至少要有Bigger Gravships (and other Odyssey spaceship related settings)有中文並設置"重力引擎支撐結構"為1000、"重力引擎支撐範圍"為50、"逆重延展器作用半徑"為50]]></description>
+    <description><![CDATA[大型移動軍事重火力平台的泰坦戰艦，配備了多個生產設施以及高效率研發中心，也配備大型載具與機動騎兵機庫來進行重武裝行動，一台泰坦戰艦可以征服一個地圖...至少要有Bigger Gravships (and other Odyssey spaceship related settings)有中文並設置"重力引擎支撐結構"為1000、"重力引擎支撐範圍"為52、"逆重延展器作用半徑"為50]]></description>
     <tags></tags>
     <author>黑龍月</author>
     <category>奥德赛DLC</category>
@@ -217,6 +217,7 @@
           <li>GravshipHull</li>
           <li>VacBarrier</li>
           <li>GravFieldExtender</li>
+          <li>GravEngine</li>
           <li>PilotSubpersonaCore</li>
           <li>SignalJammer</li>
           <li>PilotConsole</li>
@@ -584,25 +585,6 @@
         </things>
       </mod>
       <mod>
-        <packageId>btd.remix.gravshipblueprints</packageId>
-        <name>[BTD] Gravship Blueprints</name>
-        <version></version>
-        <modorder>196</modorder>
-        <steamWorkshopId>3575162262</steamWorkshopId>
-        <dependencies>
-          <li>
-            <packageId>ludeon.rimworld.odyssey</packageId>
-          </li>
-          <li>
-            <packageId>brrainz.harmony</packageId>
-            <steamWorkshopId>2009463077</steamWorkshopId>
-          </li>
-        </dependencies>
-        <things>
-          <li>BTD_GravEngine_Dormant</li>
-        </things>
-      </mod>
-      <mod>
         <packageId>vanillaexpanded.vanillatradingexpanded</packageId>
         <name>Vanilla Trading Expanded</name>
         <version></version>
@@ -796,8 +778,8 @@
         <zh-CN>海姆達爾號泰坦戰艦</zh-CN>
       </name>
       <description>
-        <default><![CDATA[大型移動軍事重火力平台的泰坦戰艦，配備了多個生產設施以及高效率研發中心，也配備大型載具與機動騎兵機庫來進行重武裝行動，一台泰坦戰艦可以征服一個地圖...至少要有Bigger Gravships (and other Odyssey spaceship related settings)有中文並設置"重力引擎支撐結構"為1000、"重力引擎支撐範圍"為50、"逆重延展器作用半徑"為50]]></default>
-        <zh-CN><![CDATA[大型移動軍事重火力平台的泰坦戰艦，配備了多個生產設施以及高效率研發中心，也配備大型載具與機動騎兵機庫來進行重武裝行動，一台泰坦戰艦可以征服一個地圖...至少要有Bigger Gravships (and other Odyssey spaceship related settings)有中文並設置"重力引擎支撐結構"為1000、"重力引擎支撐範圍"為50、"逆重延展器作用半徑"為50]]></zh-CN>
+        <default><![CDATA[大型移動軍事重火力平台的泰坦戰艦，配備了多個生產設施以及高效率研發中心，也配備大型載具與機動騎兵機庫來進行重武裝行動，一台泰坦戰艦可以征服一個地圖...至少要有Bigger Gravships (and other Odyssey spaceship related settings)有中文並設置"重力引擎支撐結構"為1000、"重力引擎支撐範圍"為52、"逆重延展器作用半徑"為50]]></default>
+        <zh-CN><![CDATA[大型移動軍事重火力平台的泰坦戰艦，配備了多個生產設施以及高效率研發中心，也配備大型載具與機動騎兵機庫來進行重武裝行動，一台泰坦戰艦可以征服一個地圖...至少要有Bigger Gravships (and other Odyssey spaceship related settings)有中文並設置"重力引擎支撐結構"為1000、"重力引擎支撐範圍"為52、"逆重延展器作用半徑"為50]]></zh-CN>
       </description>
     </multiLanguage>
   </extraInfo>
@@ -2100,10 +2082,10 @@
       </rects>
       <hp>50</hp>
     </PFS_TriLight>
-    <BTD_GravEngine_Dormant>
+    <GravEngine>
       <position>(25, 0, 65)</position>
-      <hp>500</hp>
-    </BTD_GravEngine_Dormant>
+      <hp>1000</hp>
+    </GravEngine>
     <DMS_Furnace>
       <position>(33, 0, 65)</position>
       <relativeRotation>Counterclockwise</relativeRotation>
@@ -2931,11 +2913,6 @@
       </rects>
       <hp>75</hp>
     </OrbitalTradeBeacon>
-    <ShipChunk>
-      <position>(2, 0, 135)</position>
-      <relativeRotation>Opposite</relativeRotation>
-      <hp>300</hp>
-    </ShipChunk>
   </things>
   <terrain>
     <MetalTile>
