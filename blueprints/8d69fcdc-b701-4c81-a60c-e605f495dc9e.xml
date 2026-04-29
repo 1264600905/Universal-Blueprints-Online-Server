@@ -1,0 +1,313 @@
+<PrefabDef>
+  <defName>Prefab_20260429_172243</defName>
+  <size>(49,48)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name><![CDATA[It's a TRAP]]></name>
+    <description>1500飞船</description>
+    <tags></tags>
+    <author>感应带师法拉第</author>
+    <category>奥德赛DLC</category>
+    <BuildingID>8d69fcdc-b701-4c81-a60c-e605f495dc9e</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>ludeon.rimworld.odyssey</packageId>
+        <name>Odyssey</name>
+        <version></version>
+        <modorder>6</modorder>
+        <things>
+          <li>PassengerShuttle</li>
+          <li>GravshipHull</li>
+          <li>LargeThruster</li>
+          <li>SmallThruster</li>
+          <li>VacBarrier</li>
+          <li>LargeChemfuelTank</li>
+          <li>GravFieldExtender</li>
+          <li>PilotConsole</li>
+          <li>GravEngine</li>
+          <li>BlocksVacstone</li>
+          <li>Substructure</li>
+          <li>Vacstone_Rough</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>metalocif.skyislands</packageId>
+        <name>Sky Islands</name>
+        <version>1.1.2</version>
+        <modorder>28</modorder>
+        <steamWorkshopId>3550602990</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>ludeon.rimworld.odyssey</packageId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Avatar_SkyIslandsBeacon</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default><![CDATA[It's a TRAP]]></default>
+        <zh-CN><![CDATA[It's a TRAP]]></zh-CN>
+      </name>
+      <description>
+        <default>1500飞船</default>
+        <zh-CN>1500飞船</zh-CN>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <PassengerShuttle>
+      <position>(24, 0, 2)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>600</hp>
+    </PassengerShuttle>
+    <GravshipHull>
+      <rects>
+        <li>(21,2,21,4)</li>
+        <li>(27,2,27,4)</li>
+        <li>(17,5,17,6)</li>
+        <li>(20,5,20,5)</li>
+        <li>(22,5,23,5)</li>
+        <li>(25,5,26,5)</li>
+        <li>(28,5,28,5)</li>
+        <li>(31,5,31,6)</li>
+        <li>(3,6,5,6)</li>
+        <li>(23,6,23,6)</li>
+        <li>(25,6,25,6)</li>
+        <li>(43,6,45,6)</li>
+        <li>(1,7,1,29)</li>
+        <li>(7,7,7,10)</li>
+        <li>(16,7,16,7)</li>
+        <li>(32,7,32,7)</li>
+        <li>(41,7,41,10)</li>
+        <li>(47,7,47,29)</li>
+        <li>(15,8,15,8)</li>
+        <li>(33,8,33,8)</li>
+        <li>(8,11,8,11)</li>
+        <li>(12,11,12,11)</li>
+        <li>(36,11,36,11)</li>
+        <li>(40,11,40,11)</li>
+        <li>(9,12,11,12)</li>
+        <li>(37,12,39,12)</li>
+        <li>(8,21,17,21)</li>
+        <li>(31,21,40,21)</li>
+        <li>(7,22,7,29)</li>
+        <li>(17,22,17,35)</li>
+        <li>(31,22,31,38)</li>
+        <li>(41,22,41,29)</li>
+        <li>(2,29,2,30)</li>
+        <li>(6,29,6,30)</li>
+        <li>(42,29,42,30)</li>
+        <li>(46,29,46,30)</li>
+        <li>(3,30,3,30)</li>
+        <li>(5,30,5,30)</li>
+        <li>(43,30,43,30)</li>
+        <li>(45,30,45,30)</li>
+        <li>(17,37,17,38)</li>
+        <li>(10,38,10,38)</li>
+        <li>(13,38,16,38)</li>
+        <li>(32,38,35,38)</li>
+        <li>(38,38,38,38)</li>
+        <li>(8,39,9,39)</li>
+        <li>(39,39,40,39)</li>
+        <li>(8,40,8,42)</li>
+        <li>(40,40,40,42)</li>
+        <li>(9,42,9,42)</li>
+        <li>(39,42,39,42)</li>
+        <li>(10,43,11,43)</li>
+        <li>(37,43,38,43)</li>
+        <li>(12,44,13,44)</li>
+        <li>(35,44,36,44)</li>
+        <li>(14,45,16,45)</li>
+        <li>(32,45,34,45)</li>
+        <li>(17,46,31,46)</li>
+      </rects>
+      <stuff>Uranium</stuff>
+      <hp>1050</hp>
+      <color>RGBA(0.392, 0.392, 0.392, 1.000)</color>
+    </GravshipHull>
+    <LargeThruster>
+      <positions>
+        <li>(18, 0, 5)</li>
+        <li>(29, 0, 5)</li>
+        <li>(13, 0, 9)</li>
+        <li>(34, 0, 9)</li>
+        <li>(11, 0, 38)</li>
+        <li>(36, 0, 38)</li>
+      </positions>
+      <hp>500</hp>
+    </LargeThruster>
+    <Door>
+      <rects>
+        <li>(24,5,24,5)</li>
+        <li>(4,30,4,30)</li>
+        <li>(44,30,44,30)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>160</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Door>
+    <SmallThruster>
+      <positions>
+        <li>(2, 0, 6)</li>
+        <li>(6, 0, 6)</li>
+        <li>(42, 0, 6)</li>
+        <li>(46, 0, 6)</li>
+      </positions>
+      <hp>250</hp>
+    </SmallThruster>
+    <VacBarrier>
+      <rects>
+        <li>(24,6,24,6)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.557, 0.557, 0.557, 1.000)</color>
+    </VacBarrier>
+    <LargeChemfuelTank>
+      <positions>
+        <li>(4, 0, 8)</li>
+        <li>(44, 0, 8)</li>
+      </positions>
+      <hp>300</hp>
+    </LargeChemfuelTank>
+    <GravFieldExtender>
+      <rects>
+        <li>(24,8,24,8)</li>
+        <li>(6,17,6,17)</li>
+        <li>(42,17,42,17)</li>
+        <li>(24,40,24,40)</li>
+      </rects>
+      <hp>200</hp>
+    </GravFieldExtender>
+    <PilotConsole>
+      <position>(24, 0, 19)</position>
+      <hp>150</hp>
+    </PilotConsole>
+    <GravEngine>
+      <position>(24, 0, 22)</position>
+      <hp>800</hp>
+    </GravEngine>
+    <SolarGenerator>
+      <positions>
+        <li>(14, 0, 23)</li>
+        <li>(33, 0, 23)</li>
+        <li>(14, 0, 27)</li>
+        <li>(33, 0, 27)</li>
+        <li>(14, 0, 31)</li>
+        <li>(33, 0, 31)</li>
+        <li>(14, 0, 35)</li>
+        <li>(33, 0, 35)</li>
+      </positions>
+      <hp>300</hp>
+    </SolarGenerator>
+    <Barricade>
+      <rects>
+        <li>(1,30,1,32)</li>
+        <li>(7,30,7,32)</li>
+        <li>(41,30,41,32)</li>
+        <li>(47,30,47,32)</li>
+        <li>(2,33,6,33)</li>
+        <li>(42,33,46,33)</li>
+      </rects>
+      <stuff>Uranium</stuff>
+      <hp>750</hp>
+      <color>RGBA(0.392, 0.392, 0.392, 1.000)</color>
+    </Barricade>
+    <Turret_Sniper>
+      <positions>
+        <li>(2, 0, 31)</li>
+        <li>(5, 0, 31)</li>
+        <li>(42, 0, 31)</li>
+        <li>(45, 0, 31)</li>
+      </positions>
+      <hp>380</hp>
+    </Turret_Sniper>
+    <FirefoamPopper>
+      <rects>
+        <li>(4,32,4,32)</li>
+        <li>(44,32,44,32)</li>
+      </rects>
+      <hp>50</hp>
+    </FirefoamPopper>
+    <Avatar_SkyIslandsBeacon>
+      <rects>
+        <li>(48,40,48,40)</li>
+        <li>(48,44,48,44)</li>
+      </rects>
+      <stuff>BlocksVacstone</stuff>
+      <hp>180</hp>
+      <color>RGBA(0.451, 0.416, 0.384, 1.000)</color>
+    </Avatar_SkyIslandsBeacon>
+  </things>
+  <terrain>
+    <AncientTile>
+      <rects>
+        <li>(48,40,48,44)</li>
+      </rects>
+    </AncientTile>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <AncientTile>
+        <rects>
+          <li>(48,40,48,44)</li>
+        </rects>
+      </AncientTile>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(48,40,48,43)</li>
+        </rects>
+      </Soil>
+      <Vacstone_Rough>
+        <rects>
+          <li>(48,44,48,44)</li>
+        </rects>
+      </Vacstone_Rough>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="foundationGrid">
+      <Substructure>
+        <rects>
+          <li>(22,1,26,46)</li>
+          <li>(21,2,21,46)</li>
+          <li>(27,2,27,46)</li>
+          <li>(17,5,20,46)</li>
+          <li>(28,5,31,46)</li>
+          <li>(2,6,6,33)</li>
+          <li>(42,6,46,33)</li>
+          <li>(1,7,1,32)</li>
+          <li>(7,7,7,32)</li>
+          <li>(16,7,16,45)</li>
+          <li>(32,7,32,45)</li>
+          <li>(41,7,41,32)</li>
+          <li>(47,7,47,32)</li>
+          <li>(15,8,15,45)</li>
+          <li>(33,8,33,45)</li>
+          <li>(13,9,14,44)</li>
+          <li>(34,9,35,44)</li>
+          <li>(8,11,8,21)</li>
+          <li>(12,11,12,21)</li>
+          <li>(36,11,36,21)</li>
+          <li>(40,11,40,21)</li>
+          <li>(9,12,11,21)</li>
+          <li>(37,12,39,21)</li>
+          <li>(10,38,12,43)</li>
+          <li>(36,38,38,43)</li>
+          <li>(8,39,9,42)</li>
+          <li>(39,39,40,42)</li>
+          <li>(12,44,12,44)</li>
+          <li>(36,44,36,44)</li>
+          <li>(14,45,14,45)</li>
+          <li>(34,45,34,45)</li>
+        </rects>
+      </Substructure>
+    </terrainLayerDetail>
+  </terrainLayers>
+</PrefabDef>
