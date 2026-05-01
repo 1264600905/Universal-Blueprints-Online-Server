@@ -1,0 +1,271 @@
+<PrefabDef>
+  <defName>Prefab_20260502_032455</defName>
+  <size>(25,19)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>空岛联合轻工议事厅</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>其他</category>
+    <BuildingID>885d6ea3-373d-4b8e-baab-865a1d86db68</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>none1637.hkjblacktech.core</packageId>
+        <name>黑科技</name>
+        <version></version>
+        <modorder>143</modorder>
+        <steamWorkshopId>1298507261</steamWorkshopId>
+        <things>
+          <li>HKJ_AutoRepairWall</li>
+          <li>HKJ_AutoRepairdoor</li>
+          <li>HKJ_SterileTile</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.anomaly</packageId>
+        <name>Anomaly</name>
+        <version></version>
+        <modorder>7</modorder>
+        <things>
+          <li>SecurityDoor</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>kindseal.ufli</packageId>
+        <name>联合轻工家具拓展-UF Light Industries Furniture</name>
+        <version></version>
+        <modorder>194</modorder>
+        <steamWorkshopId>3651799915</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFLI_Floorlight</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>yexiaoyang.rimskyblock</packageId>
+        <name>RimSkyBlock - Vassal Outposts, Establish Empire</name>
+        <version></version>
+        <modorder>175</modorder>
+        <steamWorkshopId>3564083626</steamWorkshopId>
+        <things>
+          <li>RSB_CouncilChair</li>
+          <li>RSB_CouncilTable_Left</li>
+          <li>RSB_CouncilTable_Right</li>
+          <li>RSB_HighLordCouncilDais</li>
+          <li>RSB_CouncilTable_Center</li>
+          <li>RSB_FloatingStoneGround</li>
+          <li>RSB_VoidWithClouds</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>空岛联合轻工议事厅</default>
+        <zh-CN>空岛联合轻工议事厅</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <HKJ_AutoRepairWall>
+      <rects>
+        <li>(0,0,10,0)</li>
+        <li>(13,0,24,0)</li>
+        <li>(0,1,0,18)</li>
+        <li>(24,1,24,9)</li>
+        <li>(24,11,24,18)</li>
+        <li>(1,18,10,18)</li>
+        <li>(13,18,23,18)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>1000</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HKJ_AutoRepairWall>
+    <HiddenConduit>
+      <rects>
+        <li>(11,0,12,0)</li>
+        <li>(24,10,24,10)</li>
+        <li>(11,16,23,16)</li>
+        <li>(11,17,11,18)</li>
+        <li>(12,18,12,18)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <SecurityDoor>
+      <positions>
+        <li>(11, 0, 0)</li>
+        <li>(11, 0, 18)</li>
+      </positions>
+      <hp>800</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </SecurityDoor>
+    <UFLI_Floorlight>
+      <rects>
+        <li>(1,1,1,1)</li>
+        <li>(23,1,23,1)</li>
+        <li>(10,8,10,8)</li>
+        <li>(13,8,13,8)</li>
+        <li>(1,17,1,17)</li>
+        <li>(23,17,23,17)</li>
+      </rects>
+      <hp>150</hp>
+    </UFLI_Floorlight>
+    <Column>
+      <rects>
+        <li>(5,1,5,1)</li>
+        <li>(9,1,9,1)</li>
+        <li>(14,1,14,1)</li>
+        <li>(18,1,18,1)</li>
+        <li>(7,13,7,13)</li>
+        <li>(15,13,15,13)</li>
+        <li>(3,14,3,14)</li>
+        <li>(20,14,20,14)</li>
+        <li>(9,17,9,17)</li>
+        <li>(14,17,14,17)</li>
+      </rects>
+      <stuff>Plasteel</stuff>
+      <hp>450</hp>
+      <color>RGBA(0.627, 0.698, 0.710, 1.000)</color>
+    </Column>
+    <WallLamp>
+      <rects>
+        <li>(8,1,8,1)</li>
+        <li>(15,1,15,1)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>35</hp>
+    </WallLamp>
+    <RSB_CouncilChair>
+      <positions>
+        <li>(2, 0, 3)</li>
+        <li>(2, 0, 6)</li>
+        <li>(2, 0, 9)</li>
+        <li>(2, 0, 12)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>350</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </RSB_CouncilChair>
+    <RSB_CouncilChair>
+      <positions>
+        <li>(21, 0, 3)</li>
+        <li>(21, 0, 6)</li>
+        <li>(21, 0, 9)</li>
+        <li>(21, 0, 12)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>350</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </RSB_CouncilChair>
+    <RSB_CouncilTable_Left>
+      <position>(5, 0, 7)</position>
+      <hp>400</hp>
+    </RSB_CouncilTable_Left>
+    <RSB_CouncilTable_Right>
+      <position>(16, 0, 7)</position>
+      <hp>400</hp>
+    </RSB_CouncilTable_Right>
+    <WallLamp>
+      <rects>
+        <li>(1,6,1,6)</li>
+        <li>(1,12,1,12)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>35</hp>
+    </WallLamp>
+    <WallLamp>
+      <rects>
+        <li>(23,6,23,6)</li>
+        <li>(23,12,23,12)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>35</hp>
+    </WallLamp>
+    <RSB_HighLordCouncilDais>
+      <position>(11, 0, 7)</position>
+      <hp>200</hp>
+    </RSB_HighLordCouncilDais>
+    <HKJ_AutoRepairdoor>
+      <rects>
+        <li>(24,10,24,10)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>1000</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HKJ_AutoRepairdoor>
+    <RSB_CouncilTable_Center>
+      <position>(11, 0, 13)</position>
+      <hp>400</hp>
+    </RSB_CouncilTable_Center>
+    <RSB_CouncilChair>
+      <positions>
+        <li>(5, 0, 16)</li>
+        <li>(8, 0, 16)</li>
+        <li>(15, 0, 16)</li>
+        <li>(18, 0, 16)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>350</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </RSB_CouncilChair>
+    <WallLamp>
+      <rects>
+        <li>(8,17,8,17)</li>
+        <li>(15,17,15,17)</li>
+      </rects>
+      <hp>35</hp>
+    </WallLamp>
+  </things>
+  <terrain>
+    <HKJ_SterileTile>
+      <rects>
+        <li>(24,10,24,10)</li>
+      </rects>
+    </HKJ_SterileTile>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <HKJ_SterileTile>
+        <rects>
+          <li>(24,10,24,10)</li>
+        </rects>
+      </HKJ_SterileTile>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <RSB_VoidWithClouds>
+        <rects>
+          <li>(24,10,24,10)</li>
+        </rects>
+      </RSB_VoidWithClouds>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="foundationGrid">
+      <RSB_FloatingStoneGround>
+        <rects>
+          <li>(0,0,24,18)</li>
+        </rects>
+      </RSB_FloatingStoneGround>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,24,18)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,24,18)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
