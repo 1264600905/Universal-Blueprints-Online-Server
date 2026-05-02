@@ -1,0 +1,264 @@
+<PrefabDef>
+  <defName>Prefab_20260502_210848</defName>
+  <size>(13,13)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>700种植</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>种植区</category>
+    <BuildingID>483dbb3b-4a15-4e70-99ea-443cd38a58ed</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>claymoresun.generalstone.forked</packageId>
+        <name>通用科技V1.6</name>
+        <version></version>
+        <modorder>377</modorder>
+        <steamWorkshopId>3199402471</steamWorkshopId>
+        <things>
+          <li>BlockCurrencyStone</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>simple.tech</packageId>
+        <name>简易科技</name>
+        <version></version>
+        <modorder>346</modorder>
+        <steamWorkshopId>2881334421</steamWorkshopId>
+        <things>
+          <li>JYAutodoor</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>kindseal.ufpc</packageId>
+        <name>联合重工派系拓展-UFPC</name>
+        <version></version>
+        <modorder>389</modorder>
+        <steamWorkshopId>3698316804</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>kindseal.lol</packageId>
+            <steamWorkshopId>3555662938</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+          <li>
+            <packageId>dizhuan.sralib</packageId>
+            <steamWorkshopId>3565275325</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFC_1X2_Hydroponics</li>
+          <li>UFC_2X3_Hydroponics</li>
+          <li>UFC_1X1_Hydroponics</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>kindseal.ufli</packageId>
+        <name>联合轻工家具拓展-UF Light Industries Furniture</name>
+        <version></version>
+        <modorder>388</modorder>
+        <steamWorkshopId>3651799915</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFLI_FLOOR</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>700种植</default>
+        <zh-CN>700种植</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,5,0)</li>
+        <li>(7,0,12,0)</li>
+        <li>(0,1,0,5)</li>
+        <li>(12,1,12,5)</li>
+        <li>(0,7,0,12)</li>
+        <li>(12,7,12,12)</li>
+        <li>(1,12,5,12)</li>
+        <li>(7,12,11,12)</li>
+      </rects>
+      <stuff>BlockCurrencyStone</stuff>
+      <hp>540</hp>
+      <color>RGBA(0.741, 0.741, 0.741, 1.000)</color>
+    </Wall>
+    <HiddenConduit>
+      <rects>
+        <li>(0,0,5,0)</li>
+        <li>(7,0,12,0)</li>
+        <li>(0,1,0,5)</li>
+        <li>(12,1,12,5)</li>
+        <li>(0,7,0,12)</li>
+        <li>(12,7,12,12)</li>
+        <li>(1,12,5,12)</li>
+        <li>(7,12,11,12)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <JYAutodoor>
+      <rects>
+        <li>(6,0,6,0)</li>
+        <li>(6,12,6,12)</li>
+      </rects>
+      <stuff>BlockCurrencyStone</stuff>
+      <hp>36000</hp>
+      <color>RGBA(0.741, 0.741, 0.741, 1.000)</color>
+    </JYAutodoor>
+    <UFC_1X2_Hydroponics>
+      <positions>
+        <li>(1, 0, 1)</li>
+        <li>(1, 0, 3)</li>
+        <li>(2, 0, 3)</li>
+        <li>(3, 0, 3)</li>
+        <li>(4, 0, 3)</li>
+        <li>(5, 0, 3)</li>
+        <li>(1, 0, 8)</li>
+        <li>(2, 0, 8)</li>
+        <li>(3, 0, 8)</li>
+        <li>(4, 0, 8)</li>
+        <li>(5, 0, 8)</li>
+        <li>(1, 0, 10)</li>
+        <li>(2, 0, 10)</li>
+        <li>(3, 0, 10)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>800</hp>
+    </UFC_1X2_Hydroponics>
+    <UFC_1X2_Hydroponics>
+      <positions>
+        <li>(2, 0, 1)</li>
+        <li>(4, 0, 1)</li>
+        <li>(2, 0, 2)</li>
+        <li>(4, 0, 2)</li>
+        <li>(7, 0, 4)</li>
+        <li>(7, 0, 5)</li>
+        <li>(10, 0, 5)</li>
+      </positions>
+      <hp>800</hp>
+    </UFC_1X2_Hydroponics>
+    <UFC_2X3_Hydroponics>
+      <position>(8, 0, 2)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>2400</hp>
+    </UFC_2X3_Hydroponics>
+    <UFC_2X3_Hydroponics>
+      <positions>
+        <li>(10, 0, 1)</li>
+        <li>(10, 0, 3)</li>
+      </positions>
+      <hp>2400</hp>
+    </UFC_2X3_Hydroponics>
+    <UFC_1X2_Hydroponics>
+      <positions>
+        <li>(2, 0, 5)</li>
+        <li>(5, 0, 5)</li>
+        <li>(2, 0, 7)</li>
+        <li>(5, 0, 7)</li>
+        <li>(8, 0, 7)</li>
+        <li>(11, 0, 7)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>800</hp>
+    </UFC_1X2_Hydroponics>
+    <UFC_1X1_Hydroponics>
+      <rects>
+        <li>(9,5,9,5)</li>
+      </rects>
+      <hp>400</hp>
+    </UFC_1X1_Hydroponics>
+    <JYAutodoor>
+      <rects>
+        <li>(0,6,0,6)</li>
+        <li>(12,6,12,6)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>BlockCurrencyStone</stuff>
+      <hp>36000</hp>
+      <color>RGBA(0.741, 0.741, 0.741, 1.000)</color>
+    </JYAutodoor>
+    <UFC_1X2_Hydroponics>
+      <positions>
+        <li>(7, 0, 9)</li>
+        <li>(8, 0, 9)</li>
+        <li>(9, 0, 9)</li>
+        <li>(10, 0, 9)</li>
+        <li>(11, 0, 9)</li>
+        <li>(4, 0, 11)</li>
+        <li>(5, 0, 11)</li>
+        <li>(7, 0, 11)</li>
+        <li>(8, 0, 11)</li>
+        <li>(9, 0, 11)</li>
+        <li>(10, 0, 11)</li>
+        <li>(11, 0, 11)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>800</hp>
+    </UFC_1X2_Hydroponics>
+  </things>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <UFLI_FLOOR>
+        <rects>
+          <li>(6,0,6,12)</li>
+          <li>(1,1,5,11)</li>
+          <li>(7,1,11,11)</li>
+          <li>(0,6,0,6)</li>
+          <li>(12,6,12,6)</li>
+        </rects>
+      </UFLI_FLOOR>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Sandstone_RoughHewn>
+        <rects>
+          <li>(6,0,6,2)</li>
+          <li>(1,1,5,3)</li>
+          <li>(7,1,11,1)</li>
+          <li>(7,2,7,2)</li>
+          <li>(1,4,4,4)</li>
+          <li>(1,5,3,6)</li>
+          <li>(0,6,0,6)</li>
+          <li>(1,7,2,7)</li>
+          <li>(1,8,1,8)</li>
+        </rects>
+      </Sandstone_RoughHewn>
+      <Marble_RoughHewn>
+        <rects>
+          <li>(8,2,11,11)</li>
+          <li>(6,3,7,11)</li>
+          <li>(5,4,5,11)</li>
+          <li>(4,5,4,11)</li>
+          <li>(12,6,12,6)</li>
+          <li>(3,7,3,11)</li>
+          <li>(2,8,2,11)</li>
+          <li>(1,9,1,11)</li>
+          <li>(6,12,6,12)</li>
+        </rects>
+      </Marble_RoughHewn>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofRockThick>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </RoofRockThick>
+  </roofs>
+</PrefabDef>
