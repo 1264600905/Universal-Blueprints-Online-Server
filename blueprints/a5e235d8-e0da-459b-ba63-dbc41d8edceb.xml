@@ -1,0 +1,75 @@
+<PrefabDef>
+  <defName>Prefab_20260504_001109</defName>
+  <size>(3,4)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>睡袋</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>防御工事</category>
+    <BuildingID>a5e235d8-e0da-459b-ba63-dbc41d8edceb</BuildingID>
+    <modPackages></modPackages>
+    <multiLanguage>
+      <name>
+        <default>睡袋</default>
+        <zh-CN>睡袋</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <PowerConduit>
+      <rects>
+        <li>(0,0,0,3)</li>
+      </rects>
+      <hp>80</hp>
+    </PowerConduit>
+    <Bedroll>
+      <positions>
+        <li>(0, 0, 1)</li>
+        <li>(0, 0, 3)</li>
+        <li>(1, 0, 3)</li>
+        <li>(2, 0, 3)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Excellent</quality>
+      <hp>75</hp>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </Bedroll>
+    <Bedroll>
+      <positions>
+        <li>(1, 0, 1)</li>
+        <li>(2, 0, 1)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Good</quality>
+      <hp>75</hp>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </Bedroll>
+  </things>
+  <terrain>
+    <TileMarble>
+      <rects>
+        <li>(0,1,2,1)</li>
+      </rects>
+    </TileMarble>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <TileMarble>
+        <rects>
+          <li>(0,1,2,1)</li>
+        </rects>
+      </TileMarble>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(0,1,2,1)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+</PrefabDef>
