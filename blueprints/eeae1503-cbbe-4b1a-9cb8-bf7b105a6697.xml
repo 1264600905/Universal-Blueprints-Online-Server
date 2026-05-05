@@ -1,0 +1,281 @@
+<PrefabDef>
+  <defName>Prefab_20260506_044020</defName>
+  <size>(13,13)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>工作间（无dlc）</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>车间</category>
+    <BuildingID>eeae1503-cbbe-4b1a-9cb8-bf7b105a6697</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>aoba.fortress.industrial.concrete</packageId>
+        <name>Industrial concrete</name>
+        <version></version>
+        <modorder>48</modorder>
+        <steamWorkshopId>2888037450</steamWorkshopId>
+        <things>
+          <li>FT_BlocksConcrete</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>sbz.neatstorage</packageId>
+        <name>[sbz] Neat Storage</name>
+        <version></version>
+        <modorder>15</modorder>
+        <steamWorkshopId>3416243474</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>adaptive.storage.framework</packageId>
+            <steamWorkshopId>3033901359</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>sbz_SmallCrate</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>工作间（无dlc）</default>
+        <zh-CN>工作间（无dlc）</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,5,0)</li>
+        <li>(7,0,12,0)</li>
+        <li>(0,1,0,5)</li>
+        <li>(12,1,12,5)</li>
+        <li>(0,7,0,12)</li>
+        <li>(12,7,12,12)</li>
+        <li>(1,12,5,12)</li>
+        <li>(7,12,11,12)</li>
+      </rects>
+      <stuff>FT_BlocksConcrete</stuff>
+      <hp>600</hp>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </Wall>
+    <Door>
+      <rects>
+        <li>(6,0,6,0)</li>
+        <li>(6,12,6,12)</li>
+      </rects>
+      <stuff>FT_BlocksConcrete</stuff>
+      <hp>320</hp>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </Door>
+    <ElectricStove>
+      <position>(1, 0, 2)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>180</hp>
+    </ElectricStove>
+    <sbz_SmallCrate>
+      <rects>
+        <li>(2,1,2,1)</li>
+        <li>(5,2,5,3)</li>
+        <li>(10,4,11,5)</li>
+        <li>(1,5,4,5)</li>
+        <li>(2,7,2,7)</li>
+        <li>(4,7,4,7)</li>
+        <li>(8,7,8,7)</li>
+        <li>(10,7,10,7)</li>
+        <li>(2,9,2,9)</li>
+        <li>(4,9,4,9)</li>
+        <li>(8,9,8,9)</li>
+        <li>(10,9,10,9)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>FT_BlocksConcrete</stuff>
+      <hp>200</hp>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </sbz_SmallCrate>
+    <BiofuelRefinery>
+      <position>(10, 0, 2)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>200</hp>
+    </BiofuelRefinery>
+    <Stool>
+      <rects>
+        <li>(2,2,2,2)</li>
+        <li>(9,2,9,3)</li>
+        <li>(2,8,2,8)</li>
+        <li>(4,8,4,8)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>FT_BlocksConcrete</stuff>
+      <quality>Normal</quality>
+      <hp>150</hp>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </Stool>
+    <TableSculpting>
+      <position>(4, 0, 3)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>117</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </TableSculpting>
+    <ElectricCrematorium>
+      <position>(8, 0, 3)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>BlocksGranite</stuff>
+      <hp>510</hp>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </ElectricCrematorium>
+    <Stool>
+      <rects>
+        <li>(2,3,2,3)</li>
+        <li>(9,9,9,9)</li>
+      </rects>
+      <stuff>FT_BlocksConcrete</stuff>
+      <quality>Normal</quality>
+      <hp>150</hp>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </Stool>
+    <Stool>
+      <rects>
+        <li>(3,3,3,3)</li>
+        <li>(8,8,8,8)</li>
+        <li>(10,8,10,8)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>FT_BlocksConcrete</stuff>
+      <quality>Normal</quality>
+      <hp>150</hp>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </Stool>
+    <TableStonecutter>
+      <position>(2, 0, 4)</position>
+      <stuff>WoodLog</stuff>
+      <hp>117</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </TableStonecutter>
+    <ToolCabinet>
+      <position>(5, 0, 4)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>100</hp>
+      <color>RGBA(0.376, 0.447, 0.373, 1.000)</color>
+    </ToolCabinet>
+    <ToolCabinet>
+      <position>(7, 0, 5)</position>
+      <hp>100</hp>
+      <color>RGBA(0.376, 0.447, 0.373, 1.000)</color>
+    </ToolCabinet>
+    <FirefoamPopper>
+      <rects>
+        <li>(9,5,9,5)</li>
+      </rects>
+      <hp>50</hp>
+    </FirefoamPopper>
+    <Door>
+      <rects>
+        <li>(0,6,0,6)</li>
+        <li>(12,6,12,6)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>FT_BlocksConcrete</stuff>
+      <hp>320</hp>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </Door>
+    <SunLamp>
+      <rects>
+        <li>(6,6,6,6)</li>
+      </rects>
+      <hp>50</hp>
+    </SunLamp>
+    <TableMachining>
+      <position>(1, 0, 8)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>180</hp>
+    </TableMachining>
+    <ElectricSmithy>
+      <position>(5, 0, 8)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>180</hp>
+    </ElectricSmithy>
+    <ElectricSmelter>
+      <position>(7, 0, 8)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>180</hp>
+    </ElectricSmelter>
+    <ElectricTailoringBench>
+      <position>(11, 0, 8)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <hp>117</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </ElectricTailoringBench>
+    <Stool>
+      <rects>
+        <li>(3,9,3,9)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>FT_BlocksConcrete</stuff>
+      <quality>Normal</quality>
+      <hp>150</hp>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </Stool>
+    <FabricationBench>
+      <positions>
+        <li>(3, 0, 10)</li>
+        <li>(9, 0, 10)</li>
+      </positions>
+      <hp>300</hp>
+    </FabricationBench>
+  </things>
+  <terrain>
+    <TileMarble>
+      <rects>
+        <li>(6,0,6,12)</li>
+        <li>(1,1,5,11)</li>
+        <li>(7,1,11,11)</li>
+        <li>(0,6,0,6)</li>
+        <li>(12,6,12,6)</li>
+      </rects>
+    </TileMarble>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <TileMarble>
+        <rects>
+          <li>(6,0,6,12)</li>
+          <li>(1,1,5,11)</li>
+          <li>(7,1,11,11)</li>
+          <li>(0,6,0,6)</li>
+          <li>(12,6,12,6)</li>
+        </rects>
+      </TileMarble>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(6,0,6,12)</li>
+          <li>(1,1,5,11)</li>
+          <li>(7,1,11,11)</li>
+          <li>(0,6,0,6)</li>
+          <li>(12,6,12,6)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
