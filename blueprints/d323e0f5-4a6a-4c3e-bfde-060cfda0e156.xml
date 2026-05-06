@@ -1,0 +1,98 @@
+<PrefabDef>
+  <defName>Prefab_20260506_190656</defName>
+  <size>(15,15)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>研究</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>文化DLC</category>
+    <BuildingID>d323e0f5-4a6a-4c3e-bfde-060cfda0e156</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>tot.celetech.mkiii</packageId>
+        <name>CeleTech Arsenal MKIII</name>
+        <version></version>
+        <modorder>150</modorder>
+        <steamWorkshopId>3446237098</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+        </dependencies>
+        <things>
+          <li>CMC_CommConsole</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>研究</default>
+        <zh-CN>研究</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(1,1,13,1)</li>
+        <li>(1,2,1,13)</li>
+        <li>(13,2,13,13)</li>
+        <li>(2,13,12,13)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>300</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Wall>
+    <HiTechResearchBench>
+      <position>(4, 0, 3)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>250</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HiTechResearchBench>
+    <HiTechResearchBench>
+      <position>(3, 0, 6)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>250</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HiTechResearchBench>
+    <CMC_CommConsole>
+      <position>(5, 0, 4)</position>
+      <hp>260</hp>
+    </CMC_CommConsole>
+    <MultiAnalyzer>
+      <position>(4, 0, 7)</position>
+      <hp>200</hp>
+    </MultiAnalyzer>
+  </things>
+  <terrain>
+    <MetalTile>
+      <rects>
+        <li>(0,0,14,14)</li>
+      </rects>
+    </MetalTile>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <MetalTile>
+        <rects>
+          <li>(0,0,14,14)</li>
+        </rects>
+      </MetalTile>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(0,0,14,14)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+</PrefabDef>
