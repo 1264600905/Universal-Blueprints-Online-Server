@@ -1,9 +1,9 @@
 <PrefabDef>
-  <defName>Prefab_20260331_112021</defName>
-  <size>(36,43)</size>
+  <defName>Prefab_20260331_112049</defName>
+  <size>(37,37)</size>
   <extraInfo>
     <version>1.6.9438.37837</version>
-    <name>战列舰侧翼</name>
+    <name>战列舰剑桥</name>
     <description></description>
     <tags></tags>
     <author>zzy</author>
@@ -11,11 +11,11 @@
     <BuildingID>9fa4f273-5a43-436e-836f-28693f11e1b1</BuildingID>
     <modPackages>
       <mod>
-        <packageId>kindseal.ufli</packageId>
-        <name>联合轻工家具拓展-UF Light Industries Furniture</name>
-        <version></version>
-        <modorder>70</modorder>
-        <steamWorkshopId>3651799915</steamWorkshopId>
+        <packageId>oels.nanamewalls</packageId>
+        <name>Hull Style: NANAME Walls</name>
+        <version>1.6.34</version>
+        <modorder>177</modorder>
+        <steamWorkshopId>3543791340</steamWorkshopId>
         <dependencies>
           <li>
             <packageId>brrainz.harmony</packageId>
@@ -23,9 +23,7 @@
           </li>
         </dependencies>
         <things>
-          <li>UFLI_Wall</li>
-          <li>UFLI_1_Autodoor</li>
-          <li>UFLI_3_Autodoor</li>
+          <li>UFLI_Wall_NAWDiagonal</li>
         </things>
       </mod>
       <mod>
@@ -49,49 +47,34 @@
         </things>
       </mod>
       <mod>
-        <packageId>aoba.deadmanswitch.expedition</packageId>
-        <name><![CDATA[The Dead Man's Switch - Expedition]]></name>
+        <packageId>kindseal.ufli</packageId>
+        <name>联合轻工家具拓展-UF Light Industries Furniture</name>
         <version></version>
-        <modorder>117</modorder>
-        <steamWorkshopId>3689879335</steamWorkshopId>
+        <modorder>70</modorder>
+        <steamWorkshopId>3651799915</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFLI_Wall</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>nebulae.biggervacbarriers</packageId>
+        <name>Bigger Vac Barriers</name>
+        <version>1.1.2</version>
+        <modorder>72</modorder>
+        <steamWorkshopId>3529344737</steamWorkshopId>
         <dependencies>
           <li>
             <packageId>ludeon.rimworld.odyssey</packageId>
           </li>
-          <li>
-            <packageId>aoba.deadmanswitch.core</packageId>
-            <steamWorkshopId>3121742525</steamWorkshopId>
-          </li>
-          <li>
-            <packageId>brrainz.harmony</packageId>
-            <steamWorkshopId>2009463077</steamWorkshopId>
-          </li>
-          <li>
-            <packageId>ludeon.rimworld.biotech</packageId>
-          </li>
-          <li>
-            <packageId>aoba.framework</packageId>
-            <steamWorkshopId>3498575851</steamWorkshopId>
-          </li>
         </dependencies>
         <things>
-          <li>DMSE_NuclearThruster</li>
-        </things>
-      </mod>
-      <mod>
-        <packageId>oels.nanamewalls</packageId>
-        <name>Hull Style: NANAME Walls</name>
-        <version>1.6.34</version>
-        <modorder>177</modorder>
-        <steamWorkshopId>3543791340</steamWorkshopId>
-        <dependencies>
-          <li>
-            <packageId>brrainz.harmony</packageId>
-            <steamWorkshopId>2009463077</steamWorkshopId>
-          </li>
-        </dependencies>
-        <things>
-          <li>UFLI_Wall_NAWDiagonal</li>
+          <li>BVB_QuantumStasisBarrier3x1c</li>
         </things>
       </mod>
       <mod>
@@ -106,119 +89,66 @@
     </modPackages>
     <multiLanguage>
       <name>
-        <default>战列舰侧翼</default>
-        <zh-CN>战列舰侧翼</zh-CN>
+        <default>战列舰剑桥</default>
+        <zh-CN>战列舰剑桥</zh-CN>
       </name>
     </multiLanguage>
   </extraInfo>
   <things>
-    <UFLI_Wall>
-      <rects>
-        <li>(0,0,0,10)</li>
-        <li>(3,0,3,6)</li>
-        <li>(7,0,7,6)</li>
-        <li>(28,0,31,0)</li>
-        <li>(28,1,28,42)</li>
-        <li>(2,2,2,6)</li>
-        <li>(33,2,33,3)</li>
-        <li>(1,3,1,6)</li>
-        <li>(8,3,8,22)</li>
-        <li>(4,4,6,6)</li>
-        <li>(9,4,15,4)</li>
-        <li>(15,5,15,22)</li>
-        <li>(35,7,35,35)</li>
-        <li>(16,8,16,8)</li>
-        <li>(18,8,27,8)</li>
-        <li>(19,9,19,22)</li>
-        <li>(0,12,0,15)</li>
-        <li>(9,13,14,13)</li>
-        <li>(1,14,7,14)</li>
-        <li>(20,15,27,15)</li>
-        <li>(0,17,0,20)</li>
-        <li>(2,22,7,22)</li>
-        <li>(9,22,14,22)</li>
-        <li>(20,22,27,22)</li>
-        <li>(2,26,4,26)</li>
-        <li>(8,26,10,26)</li>
-        <li>(14,26,16,26)</li>
-        <li>(18,26,27,26)</li>
-        <li>(18,27,18,36)</li>
-        <li>(0,28,0,36)</li>
-        <li>(6,28,6,38)</li>
-        <li>(19,36,27,36)</li>
-        <li>(2,38,4,38)</li>
-        <li>(7,38,17,38)</li>
-      </rects>
-      <stuff>FT_ReinforcedConcreteBag</stuff>
-      <hp>6250</hp>
-      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
-    </UFLI_Wall>
-    <DMSE_NuclearThruster>
-      <position>(5, 0, 1)</position>
-      <hp>1000</hp>
-    </DMSE_NuclearThruster>
     <UFLI_Wall_NAWDiagonal>
       <rects>
-        <li>(32,0,32,0)</li>
-        <li>(33,1,33,1)</li>
-        <li>(33,4,33,4)</li>
-        <li>(34,5,34,5)</li>
-        <li>(35,6,35,6)</li>
-        <li>(17,8,17,8)</li>
-        <li>(0,21,0,21)</li>
-        <li>(1,22,1,22)</li>
-        <li>(1,26,1,26)</li>
-        <li>(5,26,7,26)</li>
-        <li>(17,26,17,26)</li>
-        <li>(0,27,0,27)</li>
-        <li>(6,27,6,27)</li>
-        <li>(35,36,35,36)</li>
-        <li>(0,37,0,37)</li>
-        <li>(18,37,18,37)</li>
-        <li>(34,37,34,37)</li>
-        <li>(1,38,1,38)</li>
-        <li>(5,38,5,38)</li>
-        <li>(33,38,33,41)</li>
-        <li>(29,42,32,42)</li>
+        <li>(0,0,0,0)</li>
+        <li>(36,0,36,0)</li>
+        <li>(6,15,6,15)</li>
+        <li>(30,15,30,15)</li>
+        <li>(7,16,7,16)</li>
+        <li>(29,16,29,16)</li>
+        <li>(7,20,7,20)</li>
+        <li>(29,20,29,20)</li>
+        <li>(6,21,6,21)</li>
+        <li>(30,21,30,21)</li>
       </rects>
       <stuff>FT_ReinforcedConcreteBag</stuff>
       <hp>6250</hp>
       <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
     </UFLI_Wall_NAWDiagonal>
-    <UFLI_1_Autodoor>
+    <UFLI_Wall>
       <rects>
-        <li>(0,11,0,11)</li>
-        <li>(0,16,0,16)</li>
+        <li>(1,0,6,0)</li>
+        <li>(30,0,35,0)</li>
+        <li>(6,1,6,6)</li>
+        <li>(30,1,30,6)</li>
+        <li>(6,10,6,14)</li>
+        <li>(30,10,30,14)</li>
+        <li>(7,17,7,19)</li>
+        <li>(29,17,29,19)</li>
+        <li>(6,22,6,36)</li>
+        <li>(30,22,30,36)</li>
+        <li>(7,36,29,36)</li>
       </rects>
+      <stuff>FT_ReinforcedConcreteBag</stuff>
+      <hp>6250</hp>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </UFLI_Wall>
+    <BVB_QuantumStasisBarrier3x1c>
+      <positions>
+        <li>(6, 0, 8)</li>
+        <li>(30, 0, 8)</li>
+      </positions>
       <relativeRotation>Clockwise</relativeRotation>
-      <stuff>Steel</stuff>
-      <hp>1200</hp>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </UFLI_1_Autodoor>
-    <UFLI_3_Autodoor>
-      <position>(12, 0, 26)</position>
-      <stuff>Steel</stuff>
-      <hp>1500</hp>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </UFLI_3_Autodoor>
+      <hp>960</hp>
+      <color>RGBA(0.557, 0.557, 0.557, 1.000)</color>
+    </BVB_QuantumStasisBarrier3x1c>
   </things>
   <terrainLayers>
     <terrainLayerDetail layer="foundationGrid">
       <Substructure>
         <rects>
-          <li>(0,0,0,37)</li>
-          <li>(3,0,7,38)</li>
-          <li>(28,0,32,42)</li>
-          <li>(33,1,33,41)</li>
-          <li>(2,2,2,38)</li>
-          <li>(1,3,1,38)</li>
-          <li>(8,3,8,38)</li>
-          <li>(9,4,15,38)</li>
-          <li>(34,5,34,37)</li>
-          <li>(35,6,35,36)</li>
-          <li>(16,8,27,36)</li>
-          <li>(16,37,18,37)</li>
-          <li>(16,38,17,38)</li>
+          <li>(0,0,36,0)</li>
+          <li>(6,1,30,15)</li>
+          <li>(7,16,29,36)</li>
+          <li>(6,21,6,36)</li>
+          <li>(30,21,30,36)</li>
         </rects>
       </Substructure>
     </terrainLayerDetail>
