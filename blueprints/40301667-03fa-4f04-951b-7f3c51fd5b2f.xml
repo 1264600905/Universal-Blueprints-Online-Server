@@ -1,6 +1,6 @@
 <PrefabDef>
-  <defName>Prefab_20260501_013639</defName>
-  <size>(15,16)</size>
+  <defName>Prefab_20260507_200137</defName>
+  <size>(15,14)</size>
   <extraInfo>
     <version>1.6.9438.37837</version>
     <name>失能机关标准步兵机兵格纳库 DMS Standard Infantry Mech Hangar</name>
@@ -14,7 +14,7 @@
         <packageId>aoba.deadmanswitch.expedition</packageId>
         <name><![CDATA[The Dead Man's Switch - Expedition]]></name>
         <version>0.35</version>
-        <modorder>93</modorder>
+        <modorder>106</modorder>
         <steamWorkshopId>3689879335</steamWorkshopId>
         <dependencies>
           <li>
@@ -44,8 +44,8 @@
       <mod>
         <packageId>oels.nanamewalls</packageId>
         <name>Hull Style: NANAME Walls</name>
-        <version>1.6.39</version>
-        <modorder>286</modorder>
+        <version>1.6.40</version>
+        <modorder>34</modorder>
         <steamWorkshopId>3543791340</steamWorkshopId>
         <dependencies>
           <li>
@@ -61,7 +61,7 @@
         <packageId>aoba.fortress.industrial</packageId>
         <name>Fortifications - Industrial</name>
         <version></version>
-        <modorder>167</modorder>
+        <modorder>184</modorder>
         <steamWorkshopId>2561619583</steamWorkshopId>
         <dependencies>
           <li>
@@ -81,7 +81,7 @@
         <packageId>vanillaexpanded.vfearchitect</packageId>
         <name>Vanilla Furniture Expanded - Architect</name>
         <version></version>
-        <modorder>151</modorder>
+        <modorder>167</modorder>
         <steamWorkshopId>2608762624</steamWorkshopId>
         <dependencies>
           <li>
@@ -98,10 +98,30 @@
         </things>
       </mod>
       <mod>
+        <packageId>vanillaexpanded.vfecore</packageId>
+        <name>Vanilla Furniture Expanded</name>
+        <version></version>
+        <modorder>158</modorder>
+        <steamWorkshopId>1718190143</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VFE_FloorLamp</li>
+        </things>
+      </mod>
+      <mod>
         <packageId>aoba.deadmanswitch.core</packageId>
         <name><![CDATA[The Dead Man's Switch]]></name>
         <version>1.8.25</version>
-        <modorder>90</modorder>
+        <modorder>102</modorder>
         <steamWorkshopId>3121742525</steamWorkshopId>
         <dependencies>
           <li>
@@ -121,51 +141,10 @@
         </things>
       </mod>
       <mod>
-        <packageId>vanillaexpanded.vfecore</packageId>
-        <name>Vanilla Furniture Expanded</name>
-        <version></version>
-        <modorder>145</modorder>
-        <steamWorkshopId>1718190143</steamWorkshopId>
-        <dependencies>
-          <li>
-            <packageId>brrainz.harmony</packageId>
-            <steamWorkshopId>2009463077</steamWorkshopId>
-          </li>
-          <li>
-            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
-            <steamWorkshopId>2023507013</steamWorkshopId>
-          </li>
-        </dependencies>
-        <things>
-          <li>VFE_FloorLamp</li>
-        </things>
-      </mod>
-      <mod>
-        <packageId>vanillaexpanded.vfepropsanddecor</packageId>
-        <name>Vanilla Furniture Expanded - Props and Decor</name>
-        <version></version>
-        <modorder>150</modorder>
-        <steamWorkshopId>2102143149</steamWorkshopId>
-        <dependencies>
-          <li>
-            <packageId>brrainz.harmony</packageId>
-            <steamWorkshopId>2009463077</steamWorkshopId>
-          </li>
-          <li>
-            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
-            <steamWorkshopId>2023507013</steamWorkshopId>
-          </li>
-        </dependencies>
-        <things>
-          <li>VFE_WarningBorder_Straight</li>
-          <li>VFE_MetalBorder_Straight</li>
-        </things>
-      </mod>
-      <mod>
         <packageId>adaptive.simplestorage</packageId>
         <name>Adaptive Simple Storage</name>
         <version></version>
-        <modorder>201</modorder>
+        <modorder>218</modorder>
         <steamWorkshopId>3297307747</steamWorkshopId>
         <dependencies>
           <li>
@@ -185,27 +164,19 @@
         <packageId>mingtuwuxiang.spacebasedecorative</packageId>
         <name>[MUS]太空基地家具Space Base Furniture</name>
         <version></version>
-        <modorder>304</modorder>
+        <modorder>310</modorder>
         <steamWorkshopId>3523916780</steamWorkshopId>
         <things>
           <li>MUS_SpaceBase_LadderModule</li>
-          <li>MUS_SpaceBase_MetalFlooringTransverse</li>
-        </things>
-      </mod>
-      <mod>
-        <packageId>ludeon.rimworld.anomaly</packageId>
-        <name>Anomaly</name>
-        <version></version>
-        <modorder>5</modorder>
-        <things>
-          <li>SecurityDoor</li>
+          <li>MUS_SpaceBase_MetalFlooringVertical</li>
+          <li>MUS_SpaceBase_MetalFlooring</li>
         </things>
       </mod>
       <mod>
         <packageId>cp.uncle.boris.used.furniture</packageId>
         <name><![CDATA[[RH2] Uncle Boris' - Used Furniture]]></name>
         <version></version>
-        <modorder>176</modorder>
+        <modorder>193</modorder>
         <steamWorkshopId>2563508405</steamWorkshopId>
         <dependencies>
           <li>
@@ -218,10 +189,19 @@
         </things>
       </mod>
       <mod>
+        <packageId>ludeon.rimworld.anomaly</packageId>
+        <name>Anomaly</name>
+        <version></version>
+        <modorder>5</modorder>
+        <things>
+          <li>SecurityDoor</li>
+        </things>
+      </mod>
+      <mod>
         <packageId>adaptive.ideology.storage</packageId>
         <name>Adaptive Ideology Storage</name>
         <version></version>
-        <modorder>206</modorder>
+        <modorder>223</modorder>
         <steamWorkshopId>3301337278</steamWorkshopId>
         <dependencies>
           <li>
@@ -241,46 +221,10 @@
         </things>
       </mod>
       <mod>
-        <packageId>rimthunder.core</packageId>
-        <name>RimThunder - Core</name>
-        <version></version>
-        <modorder>14</modorder>
-        <steamWorkshopId>3070495204</steamWorkshopId>
-        <dependencies>
-          <li>
-            <packageId>smashphil.vehicleframework</packageId>
-            <steamWorkshopId>3014915404</steamWorkshopId>
-          </li>
-          <li>
-            <packageId>brrainz.harmony</packageId>
-            <steamWorkshopId>2009463077</steamWorkshopId>
-          </li>
-        </dependencies>
-        <things>
-          <li>RTC_ToolShelf</li>
-        </things>
-      </mod>
-      <mod>
-        <packageId>oels.nanamefloors</packageId>
-        <name>NANAME Floors</name>
-        <version></version>
-        <modorder>287</modorder>
-        <steamWorkshopId>3293767181</steamWorkshopId>
-        <dependencies>
-          <li>
-            <packageId>brrainz.harmony</packageId>
-            <steamWorkshopId>2009463077</steamWorkshopId>
-          </li>
-        </dependencies>
-        <things>
-          <li>Soil_HalfBlend_SouthWest_Gravel</li>
-        </things>
-      </mod>
-      <mod>
         <packageId>ks.flooringfloors</packageId>
         <name>Flooring Floors</name>
         <version>11</version>
-        <modorder>353</modorder>
+        <modorder>360</modorder>
         <steamWorkshopId>3531114826</steamWorkshopId>
         <things>
           <li>KS_MetalIndustrialSteel</li>
@@ -313,10 +257,10 @@
         <li>(13,1,13,1)</li>
         <li>(0,2,0,2)</li>
         <li>(14,2,14,2)</li>
-        <li>(0,13,0,13)</li>
-        <li>(14,13,14,13)</li>
-        <li>(1,14,1,14)</li>
-        <li>(13,14,13,14)</li>
+        <li>(0,11,0,11)</li>
+        <li>(14,11,14,11)</li>
+        <li>(1,12,1,12)</li>
+        <li>(13,12,13,12)</li>
       </rects>
       <stuff>FT_ReinforcedConcreteBag</stuff>
       <hp>2000</hp>
@@ -325,11 +269,11 @@
     <VFEArch_ArmoredWall>
       <rects>
         <li>(2,1,12,1)</li>
-        <li>(0,3,0,6)</li>
-        <li>(14,3,14,6)</li>
-        <li>(0,9,0,12)</li>
-        <li>(14,9,14,12)</li>
-        <li>(2,14,12,14)</li>
+        <li>(0,3,0,5)</li>
+        <li>(14,3,14,5)</li>
+        <li>(0,8,0,10)</li>
+        <li>(14,8,14,10)</li>
+        <li>(2,12,12,12)</li>
       </rects>
       <stuff>FT_ReinforcedConcreteBag</stuff>
       <hp>2000</hp>
@@ -341,21 +285,23 @@
         <li>(5,2,5,2)</li>
         <li>(9,2,9,2)</li>
         <li>(13,2,13,2)</li>
-        <li>(1,6,1,6)</li>
-        <li>(5,6,5,6)</li>
-        <li>(9,6,9,6)</li>
-        <li>(13,6,13,6)</li>
-        <li>(1,9,1,9)</li>
-        <li>(5,9,5,9)</li>
-        <li>(9,9,9,9)</li>
-        <li>(13,9,13,9)</li>
-        <li>(1,13,1,13)</li>
-        <li>(5,13,5,13)</li>
-        <li>(9,13,9,13)</li>
-        <li>(13,13,13,13)</li>
+        <li>(1,11,1,11)</li>
+        <li>(5,11,5,11)</li>
+        <li>(9,11,9,11)</li>
+        <li>(13,11,13,11)</li>
       </rects>
       <hp>325</hp>
     </DMSE_StructuralFrame_Center>
+    <VFE_FloorLamp>
+      <rects>
+        <li>(1,2,1,2)</li>
+        <li>(13,2,13,2)</li>
+        <li>(1,11,1,11)</li>
+        <li>(13,11,13,11)</li>
+      </rects>
+      <hp>40</hp>
+      <glowColor>RGBA(0.839, 0.839, 0.839, 0.000)</glowColor>
+    </VFE_FloorLamp>
     <DMS_Recharger>
       <positions>
         <li>(3, 0, 2)</li>
@@ -364,46 +310,6 @@
       </positions>
       <hp>300</hp>
     </DMS_Recharger>
-    <VFE_FloorLamp>
-      <rects>
-        <li>(5,2,5,2)</li>
-        <li>(9,2,9,2)</li>
-        <li>(1,6,1,6)</li>
-        <li>(13,6,13,6)</li>
-        <li>(1,9,1,9)</li>
-        <li>(13,9,13,9)</li>
-        <li>(5,13,5,13)</li>
-        <li>(9,13,9,13)</li>
-      </rects>
-      <hp>40</hp>
-      <glowColor>RGBA(0.839, 0.839, 0.839, 0.000)</glowColor>
-    </VFE_FloorLamp>
-    <VFE_WarningBorder_Straight>
-      <rects>
-        <li>(1,3,1,5)</li>
-        <li>(5,3,5,5)</li>
-        <li>(9,3,9,5)</li>
-        <li>(1,10,1,12)</li>
-        <li>(5,10,5,12)</li>
-        <li>(9,10,9,12)</li>
-      </rects>
-      <relativeRotation>Clockwise</relativeRotation>
-      <hp>50</hp>
-      <color>RGBA(0.604, 0.573, 0.290, 1.000)</color>
-    </VFE_WarningBorder_Straight>
-    <VFE_WarningBorder_Straight>
-      <rects>
-        <li>(5,3,5,5)</li>
-        <li>(9,3,9,5)</li>
-        <li>(13,3,13,5)</li>
-        <li>(5,10,5,12)</li>
-        <li>(9,10,9,12)</li>
-        <li>(13,10,13,12)</li>
-      </rects>
-      <relativeRotation>Counterclockwise</relativeRotation>
-      <hp>50</hp>
-      <color>RGBA(0.604, 0.573, 0.290, 1.000)</color>
-    </VFE_WarningBorder_Straight>
     <MetalCrateA>
       <rects>
         <li>(1,4,1,5)</li>
@@ -415,9 +321,9 @@
     </MetalCrateA>
     <MUS_SpaceBase_LadderModule>
       <rects>
-        <li>(2,6,4,6)</li>
-        <li>(6,6,8,6)</li>
-        <li>(10,6,12,6)</li>
+        <li>(2,5,4,5)</li>
+        <li>(6,5,8,5)</li>
+        <li>(10,5,12,5)</li>
       </rects>
       <relativeRotation>Opposite</relativeRotation>
       <stuff>Steel</stuff>
@@ -425,19 +331,16 @@
       <hp>500</hp>
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </MUS_SpaceBase_LadderModule>
-    <VFE_MetalBorder_Straight>
+    <RH2_Floodlight_Big>
       <rects>
-        <li>(2,6,4,6)</li>
-        <li>(6,6,8,6)</li>
-        <li>(10,6,12,6)</li>
+        <li>(9,5,9,5)</li>
       </rects>
       <hp>50</hp>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </VFE_MetalBorder_Straight>
+    </RH2_Floodlight_Big>
     <SecurityDoor>
       <positions>
-        <li>(0, 0, 8)</li>
-        <li>(14, 0, 8)</li>
+        <li>(0, 0, 7)</li>
+        <li>(14, 0, 7)</li>
       </positions>
       <relativeRotation>Clockwise</relativeRotation>
       <hp>800</hp>
@@ -445,150 +348,153 @@
     </SecurityDoor>
     <MUS_SpaceBase_LadderModule>
       <rects>
-        <li>(2,9,4,9)</li>
-        <li>(6,9,8,9)</li>
-        <li>(10,9,12,9)</li>
+        <li>(2,8,4,8)</li>
+        <li>(6,8,8,8)</li>
+        <li>(10,8,12,8)</li>
       </rects>
       <stuff>Steel</stuff>
       <quality>Normal</quality>
       <hp>500</hp>
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </MUS_SpaceBase_LadderModule>
-    <VFE_MetalBorder_Straight>
-      <rects>
-        <li>(2,9,4,9)</li>
-        <li>(6,9,8,9)</li>
-        <li>(10,9,12,9)</li>
-      </rects>
-      <relativeRotation>Opposite</relativeRotation>
-      <hp>50</hp>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </VFE_MetalBorder_Straight>
-    <RH2_Floodlight_Big>
-      <rects>
-        <li>(9,10,9,10)</li>
-      </rects>
-      <relativeRotation>Counterclockwise</relativeRotation>
-      <hp>50</hp>
-    </RH2_Floodlight_Big>
     <BarrelD>
       <rects>
-        <li>(5,11,5,12)</li>
+        <li>(5,9,5,10)</li>
       </rects>
       <relativeRotation>Opposite</relativeRotation>
       <hp>20</hp>
     </BarrelD>
-    <RTC_ToolShelf>
-      <position>(13, 0, 11)</position>
-      <relativeRotation>Counterclockwise</relativeRotation>
-      <hp>100</hp>
-      <color>RGBA(0.353, 0.353, 0.353, 1.000)</color>
-    </RTC_ToolShelf>
     <DMS_Recharger>
       <positions>
-        <li>(3, 0, 13)</li>
-        <li>(7, 0, 13)</li>
-        <li>(11, 0, 13)</li>
+        <li>(3, 0, 11)</li>
+        <li>(7, 0, 11)</li>
+        <li>(11, 0, 11)</li>
       </positions>
       <relativeRotation>Opposite</relativeRotation>
       <hp>300</hp>
     </DMS_Recharger>
     <DMSE_StructuralFrame_End>
       <rects>
-        <li>(2,15,4,15)</li>
-        <li>(10,15,12,15)</li>
+        <li>(2,13,4,13)</li>
+        <li>(10,13,12,13)</li>
       </rects>
       <hp>325</hp>
     </DMSE_StructuralFrame_End>
   </things>
   <terrain>
-    <MUS_SpaceBase_MetalFlooringTransverse>
-      <rects>
-        <li>(2,3,4,3)</li>
-        <li>(6,3,8,3)</li>
-        <li>(10,3,12,3)</li>
-        <li>(2,12,4,12)</li>
-        <li>(6,12,8,12)</li>
-        <li>(10,12,12,12)</li>
-      </rects>
-    </MUS_SpaceBase_MetalFlooringTransverse>
     <PavedTile>
       <rects>
-        <li>(2,4,4,5)</li>
-        <li>(6,4,8,5)</li>
-        <li>(10,4,12,5)</li>
-        <li>(2,10,4,11)</li>
-        <li>(6,10,8,11)</li>
-        <li>(10,10,12,11)</li>
+        <li>(2,2,4,4)</li>
+        <li>(6,2,8,4)</li>
+        <li>(10,2,12,4)</li>
+        <li>(2,9,4,11)</li>
+        <li>(6,9,8,11)</li>
+        <li>(10,9,12,11)</li>
       </rects>
     </PavedTile>
+    <MUS_SpaceBase_MetalFlooringVertical>
+      <rects>
+        <li>(1,3,1,4)</li>
+        <li>(5,3,5,4)</li>
+        <li>(9,3,9,4)</li>
+        <li>(13,3,13,4)</li>
+        <li>(1,9,1,10)</li>
+        <li>(5,9,5,10)</li>
+        <li>(9,9,9,10)</li>
+        <li>(13,9,13,10)</li>
+      </rects>
+    </MUS_SpaceBase_MetalFlooringVertical>
+    <MUS_SpaceBase_MetalFlooring>
+      <rects>
+        <li>(1,5,1,5)</li>
+        <li>(5,5,5,5)</li>
+        <li>(9,5,9,5)</li>
+        <li>(13,5,13,5)</li>
+        <li>(1,8,1,8)</li>
+        <li>(5,8,5,8)</li>
+        <li>(9,8,9,8)</li>
+        <li>(13,8,13,8)</li>
+      </rects>
+    </MUS_SpaceBase_MetalFlooring>
   </terrain>
   <terrainLayers>
     <terrainLayerDetail layer="topGrid">
       <Concrete>
         <rects>
-          <li>(0,0,14,2)</li>
-          <li>(0,3,1,6)</li>
-          <li>(5,3,5,6)</li>
-          <li>(9,3,9,6)</li>
-          <li>(13,3,14,6)</li>
-          <li>(2,6,4,6)</li>
-          <li>(6,6,8,6)</li>
-          <li>(10,6,12,6)</li>
-          <li>(0,7,0,15)</li>
-          <li>(1,9,14,9)</li>
-          <li>(1,10,1,15)</li>
-          <li>(5,10,5,15)</li>
-          <li>(9,10,9,15)</li>
-          <li>(13,10,14,15)</li>
-          <li>(2,13,4,15)</li>
-          <li>(6,13,8,15)</li>
-          <li>(10,13,12,15)</li>
+          <li>(0,0,14,0)</li>
+          <li>(0,1,0,1)</li>
+          <li>(14,1,14,1)</li>
+          <li>(1,2,1,2)</li>
+          <li>(5,2,5,2)</li>
+          <li>(9,2,9,2)</li>
+          <li>(13,2,13,2)</li>
+          <li>(2,5,4,5)</li>
+          <li>(6,5,8,5)</li>
+          <li>(10,5,12,5)</li>
+          <li>(2,8,4,8)</li>
+          <li>(6,8,8,8)</li>
+          <li>(10,8,12,8)</li>
+          <li>(1,11,1,11)</li>
+          <li>(5,11,5,11)</li>
+          <li>(9,11,9,11)</li>
+          <li>(13,11,13,11)</li>
+          <li>(0,12,0,13)</li>
+          <li>(14,12,14,13)</li>
+          <li>(1,13,13,13)</li>
         </rects>
       </Concrete>
-      <MUS_SpaceBase_MetalFlooringTransverse>
-        <rects>
-          <li>(2,3,4,3)</li>
-          <li>(6,3,8,3)</li>
-          <li>(10,3,12,3)</li>
-          <li>(2,12,4,12)</li>
-          <li>(6,12,8,12)</li>
-          <li>(10,12,12,12)</li>
-        </rects>
-      </MUS_SpaceBase_MetalFlooringTransverse>
       <PavedTile>
         <rects>
-          <li>(2,4,4,5)</li>
-          <li>(6,4,8,5)</li>
-          <li>(10,4,12,5)</li>
-          <li>(2,10,4,11)</li>
-          <li>(6,10,8,11)</li>
-          <li>(10,10,12,11)</li>
+          <li>(2,2,4,4)</li>
+          <li>(6,2,8,4)</li>
+          <li>(10,2,12,4)</li>
+          <li>(2,9,4,11)</li>
+          <li>(6,9,8,11)</li>
+          <li>(10,9,12,11)</li>
         </rects>
       </PavedTile>
+      <MUS_SpaceBase_MetalFlooringVertical>
+        <rects>
+          <li>(1,3,1,4)</li>
+          <li>(5,3,5,4)</li>
+          <li>(9,3,9,4)</li>
+          <li>(13,3,13,4)</li>
+          <li>(1,9,1,10)</li>
+          <li>(5,9,5,10)</li>
+          <li>(9,9,9,10)</li>
+          <li>(13,9,13,10)</li>
+        </rects>
+      </MUS_SpaceBase_MetalFlooringVertical>
+      <MUS_SpaceBase_MetalFlooring>
+        <rects>
+          <li>(1,5,1,5)</li>
+          <li>(5,5,5,5)</li>
+          <li>(9,5,9,5)</li>
+          <li>(13,5,13,5)</li>
+          <li>(1,8,1,8)</li>
+          <li>(5,8,5,8)</li>
+          <li>(9,8,9,8)</li>
+          <li>(13,8,13,8)</li>
+        </rects>
+      </MUS_SpaceBase_MetalFlooring>
       <KS_MetalIndustrialSteel>
         <rects>
-          <li>(1,7,14,8)</li>
+          <li>(0,6,14,7)</li>
         </rects>
       </KS_MetalIndustrialSteel>
     </terrainLayerDetail>
     <terrainLayerDetail layer="underGrid">
-      <Gravel>
-        <rects>
-          <li>(0,0,0,0)</li>
-        </rects>
-      </Gravel>
-      <Soil_HalfBlend_SouthWest_Gravel>
-        <rects>
-          <li>(1,0,1,0)</li>
-          <li>(0,1,0,1)</li>
-        </rects>
-      </Soil_HalfBlend_SouthWest_Gravel>
       <Soil>
         <rects>
-          <li>(2,0,14,15)</li>
-          <li>(1,1,1,15)</li>
-          <li>(0,2,0,15)</li>
+          <li>(0,0,14,0)</li>
+          <li>(0,1,0,1)</li>
+          <li>(14,1,14,1)</li>
+          <li>(1,2,13,11)</li>
+          <li>(0,6,0,7)</li>
+          <li>(14,6,14,7)</li>
+          <li>(0,12,0,13)</li>
+          <li>(14,12,14,13)</li>
+          <li>(1,13,13,13)</li>
         </rects>
       </Soil>
     </terrainLayerDetail>
@@ -596,16 +502,16 @@
   <roofs>
     <RoofConstructed>
       <rects>
-        <li>(1,1,13,14)</li>
-        <li>(0,2,0,13)</li>
-        <li>(14,2,14,13)</li>
+        <li>(1,1,13,12)</li>
+        <li>(0,2,0,11)</li>
+        <li>(14,2,14,11)</li>
       </rects>
     </RoofConstructed>
     <PlayerRoofZone>
       <rects>
-        <li>(1,1,14,14)</li>
-        <li>(0,2,0,13)</li>
-        <li>(8,15,14,15)</li>
+        <li>(0,0,14,11)</li>
+        <li>(1,12,14,12)</li>
+        <li>(8,13,14,13)</li>
       </rects>
     </PlayerRoofZone>
   </roofs>
