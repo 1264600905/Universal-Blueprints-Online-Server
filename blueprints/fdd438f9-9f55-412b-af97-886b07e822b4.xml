@@ -1,20 +1,46 @@
 <PrefabDef>
-  <defName>Prefab_20260503_205451</defName>
-  <size>(20,22)</size>
+  <defName>Prefab_20260510_175444</defName>
+  <size>(100,53)</size>
   <extraInfo>
     <version>1.6.9438.37837</version>
-    <name>樂克西小屋</name>
-    <description>某位風雪遺孤的小屋                                          </description>
+    <name>多功能</name>
+    <description></description>
     <tags></tags>
     <author>咕咕嘎嘎</author>
-    <category>宿舍</category>
+    <category>其他</category>
     <BuildingID>fdd438f9-9f55-412b-af97-886b07e822b4</BuildingID>
     <modPackages>
+      <mod>
+        <packageId>sarg.alphabiomes</packageId>
+        <name>Alpha Biomes</name>
+        <version></version>
+        <modorder>432</modorder>
+        <steamWorkshopId>1841354677</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>AB_SlimeStone</li>
+          <li>AB_SlimyMud</li>
+          <li>AB_LiquidSlime</li>
+          <li>AB_SlimeGrass</li>
+          <li>AB_Slime</li>
+          <li>AB_SlimeStone_Rough</li>
+          <li>AB_SlimeStone_RoughHewn</li>
+        </things>
+      </mod>
       <mod>
         <packageId>oels.nanamewalls</packageId>
         <name>Hull Style: NANAME Walls</name>
         <version>1.6.40</version>
-        <modorder>496</modorder>
+        <modorder>502</modorder>
         <steamWorkshopId>3543791340</steamWorkshopId>
         <dependencies>
           <li>
@@ -30,7 +56,7 @@
         <packageId>ariandel.miliraimperium</packageId>
         <name>Milira Faction: Milira Imperium</name>
         <version></version>
-        <modorder>285</modorder>
+        <modorder>287</modorder>
         <steamWorkshopId>3588393755</steamWorkshopId>
         <dependencies>
           <li>
@@ -65,15 +91,15 @@
           <li>MI_Building_FloodLight</li>
           <li>MI_Building_Laptop</li>
           <li>Milira_SunLightFruitGrowBox</li>
-          <li>Milira_NeutroniumFabric</li>
           <li>MI_Building_EndTable</li>
+          <li>Milira_NeutroniumFabric</li>
         </things>
       </mod>
       <mod>
         <packageId>kindseal.ufli</packageId>
         <name>联合轻工家具拓展-UF Light Industries Furniture</name>
         <version></version>
-        <modorder>674</modorder>
+        <modorder>680</modorder>
         <steamWorkshopId>3651799915</steamWorkshopId>
         <dependencies>
           <li>
@@ -82,43 +108,672 @@
           </li>
         </dependencies>
         <things>
-          <li>UFLI_3_Frame_DOOR</li>
-          <li>UFLI_3_Autodoor</li>
-          <li>UFLI_Walllamp</li>
-          <li>UFLI_Couch</li>
-          <li>UFLI_1_Autodoor</li>
-          <li>UFLI_Refrigerator_AS</li>
-          <li>UFLI_PokerTable</li>
-          <li>UFLI_Big_Window</li>
-          <li>UFLI_CabinetF</li>
-          <li>UFLI_CabinetC</li>
-          <li>UFLI_Doorcurtain</li>
+          <li>UFLI_DoubleBed</li>
           <li>UFLI_CouchDouble</li>
-          <li>UFLI_TempControler</li>
-          <li>UFLI_InfiniteNutrientPasteDispenser</li>
-          <li>UFLI_groundlight</li>
-          <li>UFLI_2X4_Table</li>
           <li>UFLI_laptop</li>
-          <li>UFLI_Bookcase</li>
-          <li>UFLI_Decoration_Big_garbagecan</li>
-          <li>UFLI_Decoration_Model</li>
+          <li>UFLI_2X4_Table</li>
           <li>UFLI_Hugescreen</li>
+          <li>UFLI_Walllamp</li>
+          <li>UFLI_PokerTable</li>
+          <li>UFLI_CabinetC</li>
+          <li>UFLI_1_Autodoor</li>
+          <li>UFLI_Couch</li>
+          <li>UFLI_1X1_Table</li>
+          <li>UFLI_Decoration_Goldencube</li>
+          <li>UFLI_CarpetB</li>
+          <li>UFLI_CabinetF</li>
+          <li>UFLI_CabinetE</li>
+          <li>UFLI_TempControler</li>
+          <li>UFLI_Decoration_Big_Flower</li>
+          <li>UFLI_Container_2X2_AS</li>
+          <li>UFLI_Endtable</li>
+          <li>UFLI_2_Autodoor</li>
+          <li>UFLI_3_Autodoor</li>
+          <li>UFLI_Bed</li>
+          <li>UFLI_TinyChair</li>
+          <li>UFLI_ChessTable</li>
+          <li>UFLI_Decoration_Flower</li>
+          <li>UFLI_Bookshelf_AS</li>
+          <li>UFLI_3_Frame_DOOR</li>
+          <li>UFLI_Refrigerator_AS</li>
+          <li>UFLI_Decoration_Big_garbagecan</li>
+          <li>UFLI_Doorcurtain</li>
+          <li>UFLI_Bookcase</li>
+          <li>UFLI_InfiniteNutrientPasteDispenser</li>
+          <li>UFLI_Decoration_Model</li>
           <li>UFLI_WashingMachine</li>
+          <li>UFLI_Decoration_Holographic</li>
           <li>UFLI_Wardrobe_AS</li>
           <li>UFLI_Floorlight</li>
           <li>UFLI_1X2_Table</li>
-          <li>UFLI_Bookshelf_AS</li>
           <li>UFLI_CabinetD</li>
-          <li>UFLI_FLOORH</li>
           <li>UFLI_FLOORI</li>
-          <li>UFLI_FLOORJ</li>
+          <li>UFLI_FLOORH</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>gloomy.furniture.fix</packageId>
+        <name>Gloomy Furniture Fix</name>
+        <version></version>
+        <modorder>819</modorder>
+        <steamWorkshopId>2987876242</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>RGKDiningChair</li>
+          <li>RGK_TableB</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>kongkim.advbridgesfloors</packageId>
+        <name><![CDATA[Advanced Bridges & Floors]]></name>
+        <version></version>
+        <modorder>322</modorder>
+        <steamWorkshopId>3590124341</steamWorkshopId>
+        <things>
+          <li>AdvBF_HeavyPlatform</li>
+          <li>AdvBF_PlatformHeavyGround</li>
+          <li>AdvBF_PlatformHeavyWater</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>dubwise.dubsbadhygiene</packageId>
+        <name>Dubs Bad Hygiene</name>
+        <version>3.1.2800</version>
+        <modorder>14</modorder>
+        <steamWorkshopId>836308268</steamWorkshopId>
+        <things>
+          <li>DBHSwimmingPool</li>
+          <li>sewagePipeHidden</li>
+          <li>ShowerAdvStuff</li>
+          <li>HotTub</li>
+          <li>ToiletAdvStuff</li>
+          <li>BathMat</li>
+          <li>SewageOutlet</li>
+          <li>RadiatorTowelRail</li>
+          <li>SewageTreatment</li>
+          <li>WaterTowerL</li>
+          <li>HotWaterTank</li>
+          <li>WaterTreatment</li>
+          <li>ElectricBoiler</li>
+          <li>PumpingStation</li>
+          <li>DeepWaterWellInlet</li>
+          <li>SpacerWaterRecoverySystem</li>
+          <li>PoolWater</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>vanillaexpanded.vfecore</packageId>
+        <name>Vanilla Furniture Expanded</name>
+        <version></version>
+        <modorder>137</modorder>
+        <steamWorkshopId>1718190143</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VFE_Lounger</li>
+          <li>VFE_FloorLamp</li>
+          <li>VFE_CoffeeTable</li>
+          <li>VFE_RoyalWardrobe</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>aelanna.eccentrictech.beachstuff</packageId>
+        <name>Eccentric Extras - Beach Stuff</name>
+        <version>1.2.1</version>
+        <modorder>485</modorder>
+        <steamWorkshopId>3066838193</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>BeachStuff_BeachUmbrella</li>
+          <li>BeachStuff_BeachBall</li>
+          <li>BeachStuff_BeachChair</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ri.rimimmortal.living</packageId>
+        <name>边缘仙路-俗世仙工 RimImmortal-Living[1.6]</name>
+        <version></version>
+        <modorder>691</modorder>
+        <steamWorkshopId>3326145525</steamWorkshopId>
+        <things>
+          <li>RI_Resource_GoldenSilk</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>piggytech.cleantechexpanded</packageId>
+        <name>CleanTechExpanded</name>
+        <version>1.10-release</version>
+        <modorder>49</modorder>
+        <steamWorkshopId>3550586162</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>ludeon.rimworld</packageId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>CTE_NanoSweep_Mark_III</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>har.mugirlrace</packageId>
+        <name>MuGirlRace</name>
+        <version></version>
+        <modorder>539</modorder>
+        <steamWorkshopId>3578882219</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>MooGirl_Wool</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>tyll.valley</packageId>
+        <name>[TY2.0]溪谷联邦 Aquila2.0-Valley</name>
+        <version></version>
+        <modorder>429</modorder>
+        <steamWorkshopId>3280990469</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>tyll.core</packageId>
+            <steamWorkshopId>3280989190</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>TY_A_window_Building</li>
+          <li>TY_XGDZQ</li>
+          <li>TY_A_XGLB_sofa_DK</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ponpeco.pfkidsroom</packageId>
+        <name><![CDATA[Ponpeco Furnitures : Kids' Room]]></name>
+        <version>1.7</version>
+        <modorder>334</modorder>
+        <steamWorkshopId>3367310887</steamWorkshopId>
+        <things>
+          <li>PFK_FairyLights</li>
+          <li>PFK_BedAb</li>
+          <li>PFK_Dresser</li>
+          <li>PFK_GiantPlushieM</li>
+          <li>PFK_AnimalLamp</li>
+          <li>PFK_ShaggyRug_D</li>
+          <li>PFK_WoodenToySD</li>
+          <li>PFK_PKCDog</li>
+          <li>PFK_DiningChair</li>
+          <li>PFK_AnimalLampB</li>
+          <li>PFK_Bunting</li>
+          <li>PFK_WoodenToyB</li>
+          <li>PFK_WoodenToy</li>
+          <li>PFK_GiantPlushie</li>
+          <li>PFK_Ball</li>
+          <li>PFK_GiantPlushieB</li>
+          <li>PFK_Armchair</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>akn.decorations</packageId>
+        <name>Akeron - Decorations</name>
+        <version></version>
+        <modorder>326</modorder>
+        <steamWorkshopId>2755025925</steamWorkshopId>
+        <things>
+          <li>AKN_ComfortingPlush</li>
+          <li>AKN_RestoringPlush</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>resurrectionem.furniture</packageId>
+        <name><![CDATA[RR's Furniture pack-Collection Rapture]]></name>
+        <version></version>
+        <modorder>360</modorder>
+        <steamWorkshopId>3310690878</steamWorkshopId>
+        <things>
+          <li>RRPalermoBasin</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>hmc.wall.furniture</packageId>
+        <name>[HMC]Wall Furniture</name>
+        <version></version>
+        <modorder>174</modorder>
+        <steamWorkshopId>3533512691</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>HMC_Wall_Vitals_Monitor</li>
+          <li>HMC_Wall_OrbitalTradeBeacon</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>albion.sparklingworlds.full</packageId>
+        <name>Sparkling Worlds - Full Mod</name>
+        <version></version>
+        <modorder>593</modorder>
+        <steamWorkshopId>1123043922</steamWorkshopId>
+        <things>
+          <li>GlitterworldHospitalBedSW</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>vanillaexpanded.vfemedical</packageId>
+        <name>Vanilla Furniture Expanded - Medical Module</name>
+        <version></version>
+        <modorder>140</modorder>
+        <steamWorkshopId>1718191613</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Facility_IVDrip</li>
+          <li>Facility_VitalsCentre</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>epona.eponadynasticrise</packageId>
+        <name>Epona Dynastic Rise</name>
+        <version></version>
+        <modorder>853</modorder>
+        <steamWorkshopId>3514746737</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Shirehorseium</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>biomesteam.biomesfossils</packageId>
+        <name>Biomes! Fossils</name>
+        <version></version>
+        <modorder>371</modorder>
+        <steamWorkshopId>3100958580</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>BMT_AmberResource</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>mlmlmlm.bluearchivefurniture</packageId>
+        <name>Blue Archive Furniture</name>
+        <version></version>
+        <modorder>31</modorder>
+        <steamWorkshopId>3491176484</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>adaptive.storage.framework</packageId>
+            <steamWorkshopId>3033901359</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Classic_Candles</li>
+          <li>Tea_Party_Album_Storage_Shelf</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>jxw.dailyfurniturecontinued</packageId>
+        <name>Daily furniture 塔林家具 1.6</name>
+        <version></version>
+        <modorder>434</modorder>
+        <steamWorkshopId>3526616523</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>ludeon.rimworld</packageId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>ADH_chair_C_A_FURNITURE</li>
+          <li>ADH_rug_C_A_FURNITURE</li>
+          <li>ADH_rug_E_A_FURNITURE</li>
+          <li>ADH_tea_table_A_A_FURNITURE</li>
+          <li>ADH_rug_G_A_FURNITURE</li>
+          <li>ADH_table_lamp_A_A_FURNITURE</li>
+          <li>ADH_doormat_A_A_FURNITURE</li>
+          <li>ADH_light_B_A_FURNITURE</li>
+          <li>ADH_door_frame_A_FURNITURE</li>
+          <li>ADH_footstep_A_A_FURNITURE</li>
+          <li>ADH_A_TubeTelevision</li>
+          <li>ADH_rug_I_A_FURNITURE</li>
+          <li>ADH_light_E_A_FURNITURE</li>
+          <li>ADH_flower_A_A_FURNITURE</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>nephlite.orbitaltradecolumn</packageId>
+        <name>Utility Columns</name>
+        <version></version>
+        <modorder>345</modorder>
+        <steamWorkshopId>2013476665</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>DarkColumnMod</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>resurrectionem.furnitureasia</packageId>
+        <name><![CDATA[RR's Furniture pack-Collection Longyun]]></name>
+        <version></version>
+        <modorder>359</modorder>
+        <steamWorkshopId>3364971921</steamWorkshopId>
+        <things>
+          <li>RRShanghaiSofa</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>migcorp.skiptech</packageId>
+        <name>MigCorp - Skiptech</name>
+        <version></version>
+        <modorder>199</modorder>
+        <steamWorkshopId>3626074566</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>MigcorpSkipdoor</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>vanillaexpanded.vfeproduction</packageId>
+        <name>Vanilla Furniture Expanded - Production</name>
+        <version></version>
+        <modorder>143</modorder>
+        <steamWorkshopId>1880253632</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VFE_TableStonecutterElectric</li>
+          <li>VFE_TableButcherElectric</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ny.smeltedloong</packageId>
+        <name>中式龙娘——冶龍 SMELTED LOONG</name>
+        <version></version>
+        <modorder>647</modorder>
+        <steamWorkshopId>3578170180</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+        </dependencies>
+        <things>
+          <li>NY_RefinedIron</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>oskarpotocki.vanillafactionsexpanded.settlersmodule</packageId>
+        <name>Vanilla Factions Expanded - Settlers</name>
+        <version></version>
+        <modorder>165</modorder>
+        <steamWorkshopId>2052918119</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>TableFaro</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ninedaylongbow.chinesecomprehensiveexpansion</packageId>
+        <name>华夏扩展 Chinese Comprehensive Expansion</name>
+        <version></version>
+        <modorder>280</modorder>
+        <steamWorkshopId>3221850511</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>HX_MilitaryCeramics</li>
+          <li>HX_Quartz_RoughHewn</li>
+          <li>HX_Quartz_Rough</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ucp.tabletopdecorations</packageId>
+        <name>Tabletop Decorations</name>
+        <version></version>
+        <modorder>351</modorder>
+        <steamWorkshopId>2535771403</steamWorkshopId>
+        <things>
+          <li>ucp_tablelamp</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ucp.lavalamps</packageId>
+        <name>Lava Lamps</name>
+        <version></version>
+        <modorder>513</modorder>
+        <steamWorkshopId>2532491738</steamWorkshopId>
+        <things>
+          <li>LavalampB</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>kentington.saveourship2</packageId>
+        <name>Save Our Ship 2</name>
+        <version></version>
+        <modorder>251</modorder>
+        <steamWorkshopId>1909914131</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>smashphil.vehicleframework</packageId>
+            <steamWorkshopId>3014915404</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Holodeck_AI</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>vaguelysexual.modpackageid.goeshere</packageId>
+        <name>Knick Knacks - Let your colonists decorate!</name>
+        <version></version>
+        <modorder>510</modorder>
+        <steamWorkshopId>3595196942</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>SEX_Paper</li>
+          <li>SEX_PictureFrame</li>
+          <li>SEX_Box</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>mlmlmlm.bluearchivejoybojects</packageId>
+        <name>Blue Archive Joy Objects</name>
+        <version></version>
+        <modorder>35</modorder>
+        <steamWorkshopId>3668590151</steamWorkshopId>
+        <things>
+          <li>Colorful_Multi_Screen_TV</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>mingtuwuxiang.spacebasedecorative</packageId>
+        <name>[MUS]太空基地家具Space Base Furniture</name>
+        <version></version>
+        <modorder>295</modorder>
+        <steamWorkshopId>3523916780</steamWorkshopId>
+        <things>
+          <li>MUS_SpaceBase_TropicalPotted</li>
+          <li>MUS_SpaceBase_BarCounter</li>
+          <li>MUS_SpaceBase_WallDecorPlants</li>
+          <li>MUS_SpaceBase_CabinetV</li>
+          <li>MUS_SpaceBase_StylingStation</li>
+          <li>MUS_SpaceBase_LockersV</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>warshipgirlr.alienraces</packageId>
+        <name>[Race]WarShipGirl R|战舰少女R</name>
+        <version></version>
+        <modorder>546</modorder>
+        <steamWorkshopId>2801742438</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+        </dependencies>
+        <things>
+          <li>WSGR_Armorsteel</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>limetreesnake.furnishing</packageId>
+        <name>[LTS]Furnishing</name>
+        <version></version>
+        <modorder>293</modorder>
+        <steamWorkshopId>2567438519</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>LTS_TilesBorderEdge</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>fxz.moelotlzombie.update</packageId>
+        <name>MoeLotl: Rigor Mortis</name>
+        <version></version>
+        <modorder>283</modorder>
+        <steamWorkshopId>3454053400</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>hentailoliteam.axolotl</packageId>
+            <steamWorkshopId>3292351432</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>hailuan.customquestframework</packageId>
+            <steamWorkshopId>2978572782</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>RM_MoelotlCallBoard</li>
+          <li>GD_BrideFufu</li>
+          <li>GD_TaoistFufu</li>
         </things>
       </mod>
       <mod>
         <packageId>kindseal.lol</packageId>
         <name>联合重工-UF Heavy Industries</name>
         <version></version>
-        <modorder>283</modorder>
+        <modorder>285</modorder>
         <steamWorkshopId>3555662938</steamWorkshopId>
         <dependencies>
           <li>
@@ -140,52 +795,10 @@
         </things>
       </mod>
       <mod>
-        <packageId>jxw.dailyfurniturecontinued</packageId>
-        <name>Daily furniture 塔林家具 1.6</name>
-        <version></version>
-        <modorder>428</modorder>
-        <steamWorkshopId>3526616523</steamWorkshopId>
-        <dependencies>
-          <li>
-            <packageId>ludeon.rimworld</packageId>
-          </li>
-          <li>
-            <packageId>brrainz.harmony</packageId>
-            <steamWorkshopId>2009463077</steamWorkshopId>
-          </li>
-        </dependencies>
-        <things>
-          <li>ADH_rug_C_A_FURNITURE</li>
-          <li>ADH_rug_E_A_FURNITURE</li>
-          <li>ADH_rug_D_A_FURNITURE</li>
-          <li>ADH_tea_table_A_A_FURNITURE</li>
-          <li>ADH_rug_G_A_FURNITURE</li>
-          <li>ADH_table_lamp_A_A_FURNITURE</li>
-          <li>ADH_doormat_A_A_FURNITURE</li>
-          <li>ADH_light_B_A_FURNITURE</li>
-          <li>ADH_door_frame_A_FURNITURE</li>
-          <li>ADH_footstep_A_A_FURNITURE</li>
-          <li>ADH_A_TubeTelevision</li>
-          <li>ADH_rug_I_A_FURNITURE</li>
-          <li>ADH_light_E_A_FURNITURE</li>
-          <li>ADH_flower_A_A_FURNITURE</li>
-        </things>
-      </mod>
-      <mod>
-        <packageId>ri.rimimmortal.living</packageId>
-        <name>边缘仙路-俗世仙工 RimImmortal-Living[1.6]</name>
-        <version></version>
-        <modorder>685</modorder>
-        <steamWorkshopId>3326145525</steamWorkshopId>
-        <things>
-          <li>RI_Resource_GoldenSilk</li>
-        </things>
-      </mod>
-      <mod>
         <packageId>ancot.milirarace</packageId>
         <name>Milira Race</name>
         <version></version>
-        <modorder>218</modorder>
+        <modorder>220</modorder>
         <steamWorkshopId>3256974620</steamWorkshopId>
         <dependencies>
           <li>
@@ -211,16 +824,71 @@
           <li>Milira_FeatherThread</li>
           <li>Milira_SplendidSteel</li>
           <li>Milira_SunPlateSteel</li>
+          <li>Milian_Recharger</li>
+          <li>Milian_Gestator</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>fxz.myafufu</packageId>
+        <name><![CDATA[Mya's fufu]]></name>
+        <version></version>
+        <modorder>282</modorder>
+        <steamWorkshopId>3266224389</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>GD_MoyuguFufu</li>
+          <li>GD_BaizhiFufu</li>
+          <li>GD_KiiroFufu</li>
+          <li>GD_QiuciFufu</li>
+          <li>GD_ZixiadieFufu</li>
+          <li>GD_MiliraFufu</li>
+          <li>GD_BaimudanFufu</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>melondove.wolfeinrace</packageId>
+        <name>Wolfein Race</name>
+        <version></version>
+        <modorder>638</modorder>
+        <steamWorkshopId>3473140562</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ancot.ancotlibrary</packageId>
+            <steamWorkshopId>2988801276</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Wolfein_2x3_Carpet</li>
+          <li>Wolfein_1x2_Table</li>
+          <li>Wolfein_LowCabinet</li>
+          <li>Wolfein_OfficeChair</li>
+          <li>Wolfein_OfficeDesk</li>
+          <li>Wolfein_Floor_CeramicTile</li>
+          <li>Wolfein_Floor_CarpetTile</li>
         </things>
       </mod>
       <mod>
         <packageId>leo.propsdecor</packageId>
         <name>Miniature Props and Decor</name>
         <version></version>
-        <modorder>333</modorder>
+        <modorder>335</modorder>
         <steamWorkshopId>3579351912</steamWorkshopId>
         <things>
           <li>PNC_Winter_Feast</li>
+          <li>Prop_TowelRack</li>
           <li>Prop_SpiceRack</li>
           <li>Prop_Black_Forest_Cake</li>
           <li>Prop_Roll_Cake</li>
@@ -231,74 +899,36 @@
           <li>Prop_Opera_Cake</li>
           <li>Prop_ReedDiffuser</li>
           <li>Prop_SoapRack</li>
-          <li>Prop_TowelRack</li>
           <li>Prop_Coffee_Mill</li>
           <li>Prop_ShampooRack</li>
           <li>Prop_ToothbrushSet</li>
           <li>Prop_Hair_Iron</li>
+          <li>GFL_Sz2017_03_deco</li>
+          <li>GFL2_Ceramic_Doll</li>
+          <li>GFL_Anniversary2020_butterfly</li>
+          <li>Logo_PNC_Cyber_Media_3x</li>
           <li>Props_Slippers</li>
+          <li>Prop_GameConsole</li>
           <li>GFL2_Zuccheros_Protection</li>
+          <li>GFL_M4_SOPMOD_II_Jr</li>
           <li>GFL_Orange_Cat_Doll</li>
-          <li>GFL2_Dinergate_B</li>
+          <li>GFL_Fast_Food_B</li>
+          <li>GFL_SPzh3000Architect</li>
+          <li>GFL_Fast_Food_C</li>
+          <li>GFL_Strawberry_Custard_Cheesecake</li>
+          <li>Prop_Macaron</li>
+          <li>Prop_Gamepad</li>
           <li>Prop_Clock_Electronic</li>
-        </things>
-      </mod>
-      <mod>
-        <packageId>fxz.myafufu</packageId>
-        <name><![CDATA[Mya's fufu]]></name>
-        <version></version>
-        <modorder>280</modorder>
-        <steamWorkshopId>3266224389</steamWorkshopId>
-        <dependencies>
-          <li>
-            <packageId>brrainz.harmony</packageId>
-            <steamWorkshopId>2009463077</steamWorkshopId>
-          </li>
-        </dependencies>
-        <things>
-          <li>GD_QiuciFufu</li>
-          <li>GD_ZixiadieFufu</li>
-          <li>GD_MiliraFufu</li>
-          <li>GD_KiiroFufu</li>
-          <li>GD_MoyuguFufu</li>
-          <li>GD_BaizhiFufu</li>
-          <li>GD_BaimudanFufu</li>
-        </things>
-      </mod>
-      <mod>
-        <packageId>fxz.moelotlzombie.update</packageId>
-        <name>MoeLotl: Rigor Mortis</name>
-        <version></version>
-        <modorder>281</modorder>
-        <steamWorkshopId>3454053400</steamWorkshopId>
-        <dependencies>
-          <li>
-            <packageId>brrainz.harmony</packageId>
-            <steamWorkshopId>2009463077</steamWorkshopId>
-          </li>
-          <li>
-            <packageId>hentailoliteam.axolotl</packageId>
-            <steamWorkshopId>3292351432</steamWorkshopId>
-          </li>
-          <li>
-            <packageId>erdelf.humanoidalienraces</packageId>
-            <steamWorkshopId>839005762</steamWorkshopId>
-          </li>
-          <li>
-            <packageId>hailuan.customquestframework</packageId>
-            <steamWorkshopId>2978572782</steamWorkshopId>
-          </li>
-        </dependencies>
-        <things>
-          <li>GD_BrideFufu</li>
-          <li>GD_TaoistFufu</li>
+          <li>GFL2_Dinergate_B</li>
+          <li>Prop_Trumpet</li>
+          <li>Prop_Piggy_Bank</li>
         </things>
       </mod>
       <mod>
         <packageId>ve.vanillachristmasexpanded</packageId>
         <name>Vanilla Christmas Expanded</name>
         <version></version>
-        <modorder>353</modorder>
+        <modorder>355</modorder>
         <steamWorkshopId>3380695249</steamWorkshopId>
         <dependencies>
           <li>
@@ -319,17 +949,20 @@
         <packageId>ponpeco.pfsf</packageId>
         <name>Ponpeco Furnitures : Sci-Fi</name>
         <version>1.3</version>
-        <modorder>334</modorder>
+        <modorder>336</modorder>
         <steamWorkshopId>3610234567</steamWorkshopId>
         <things>
           <li>PFS_CubeLight</li>
+          <li>PFS_StoolB</li>
+          <li>PFS_ColumnC</li>
+          <li>PFS_HoloGlassPanel</li>
         </things>
       </mod>
       <mod>
         <packageId>oark.ratkinknightorderfurniture</packageId>
         <name>[OA]Ratkin : Knight Order(Furniture)</name>
         <version></version>
-        <modorder>792</modorder>
+        <modorder>796</modorder>
         <steamWorkshopId>3492088220</steamWorkshopId>
         <dependencies>
           <li>
@@ -350,14 +983,37 @@
           <li>OARO_OrderFloorClock_B</li>
           <li>OARO_FlowerCabinet_A</li>
           <li>OARO_GroomingMirror</li>
+          <li>OARO_FileCabinet</li>
           <li>OARO_DutyRecordTable</li>
+          <li>OARO_BookcaseReading_C</li>
+          <li>OARO_OrderFloorClock_A</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>mlmlmlm.bluearchivefurniture3</packageId>
+        <name>Blue Archive Furniture 3</name>
+        <version></version>
+        <modorder>33</modorder>
+        <steamWorkshopId>3610152668</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>adaptive.storage.framework</packageId>
+            <steamWorkshopId>3033901359</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Mosaic_Pattern_Carpet</li>
         </things>
       </mod>
       <mod>
         <packageId>fxz.glitterworlddestroyer.mk5</packageId>
         <name>Glitterworld Destroyer 5 - Mechanoid Addon</name>
         <version></version>
-        <modorder>279</modorder>
+        <modorder>281</modorder>
         <steamWorkshopId>3550544871</steamWorkshopId>
         <dependencies>
           <li>
@@ -383,7 +1039,7 @@
         <packageId>vanillaexpanded.vcooke</packageId>
         <name>Vanilla Cooking Expanded</name>
         <version></version>
-        <modorder>124</modorder>
+        <modorder>126</modorder>
         <steamWorkshopId>2134308519</steamWorkshopId>
         <dependencies>
           <li>
@@ -400,23 +1056,24 @@
         </things>
       </mod>
       <mod>
-        <packageId>mingtuwuxiang.spacebasedecorative</packageId>
-        <name>[MUS]太空基地家具Space Base Furniture</name>
+        <packageId>ludeon.rimworld.biotech</packageId>
+        <name>Biotech</name>
         <version></version>
-        <modorder>293</modorder>
-        <steamWorkshopId>3523916780</steamWorkshopId>
+        <modorder>7</modorder>
         <things>
-          <li>MUS_SpaceBase_WallDecorPlants</li>
-          <li>MUS_SpaceBase_CabinetV</li>
-          <li>MUS_SpaceBase_StylingStation</li>
-          <li>MUS_SpaceBase_LockersV</li>
+          <li>MechBooster</li>
+          <li>LargeMechGestator</li>
+          <li>BabyDecoration</li>
+          <li>ToyBox</li>
+          <li>Blackboard</li>
+          <li>SchoolDesk</li>
         </things>
       </mod>
       <mod>
         <packageId>migua.miliradailyexpend</packageId>
         <name>Milira Daily Expend</name>
         <version></version>
-        <modorder>515</modorder>
+        <modorder>521</modorder>
         <steamWorkshopId>3604490167</steamWorkshopId>
         <dependencies>
           <li>
@@ -443,35 +1100,10 @@
         </things>
       </mod>
       <mod>
-        <packageId>tyll.valley</packageId>
-        <name>[TY2.0]溪谷联邦 Aquila2.0-Valley</name>
-        <version></version>
-        <modorder>423</modorder>
-        <steamWorkshopId>3280990469</steamWorkshopId>
-        <dependencies>
-          <li>
-            <packageId>ludeon.rimworld.biotech</packageId>
-          </li>
-          <li>
-            <packageId>erdelf.humanoidalienraces</packageId>
-            <steamWorkshopId>839005762</steamWorkshopId>
-          </li>
-          <li>
-            <packageId>tyll.core</packageId>
-            <steamWorkshopId>3280989190</steamWorkshopId>
-          </li>
-        </dependencies>
-        <things>
-          <li>TY_XGDZQ</li>
-          <li>TY_A_XGLB_sofa_DK</li>
-          <li>TY_A_window_Building</li>
-        </things>
-      </mod>
-      <mod>
         <packageId>fxz.ratkinlifestyle.update</packageId>
         <name>Ratkin Lifestyle+</name>
         <version></version>
-        <modorder>396</modorder>
+        <modorder>402</modorder>
         <steamWorkshopId>3263391066</steamWorkshopId>
         <dependencies>
           <li>
@@ -498,49 +1130,32 @@
         </things>
       </mod>
       <mod>
-        <packageId>piggytech.cleantechexpanded</packageId>
-        <name>CleanTechExpanded</name>
-        <version>1.10-release</version>
-        <modorder>47</modorder>
-        <steamWorkshopId>3550586162</steamWorkshopId>
-        <dependencies>
-          <li>
-            <packageId>ludeon.rimworld</packageId>
-          </li>
-          <li>
-            <packageId>brrainz.harmony</packageId>
-            <steamWorkshopId>2009463077</steamWorkshopId>
-          </li>
-        </dependencies>
-        <things>
-          <li>CTE_NanoSweep_Mark_III</li>
-        </things>
-      </mod>
-      <mod>
-        <packageId>vanillaexpanded.vfecore</packageId>
-        <name>Vanilla Furniture Expanded</name>
-        <version></version>
-        <modorder>135</modorder>
-        <steamWorkshopId>1718190143</steamWorkshopId>
+        <packageId>telardo.multifloors</packageId>
+        <name>MultiFloors</name>
+        <version>1.6.1.3</version>
+        <modorder>375</modorder>
+        <steamWorkshopId>3384660931</steamWorkshopId>
         <dependencies>
           <li>
             <packageId>brrainz.harmony</packageId>
             <steamWorkshopId>2009463077</steamWorkshopId>
           </li>
           <li>
-            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
-            <steamWorkshopId>2023507013</steamWorkshopId>
+            <packageId>jikulopo.prepatcher</packageId>
+            <steamWorkshopId>3563469557</steamWorkshopId>
           </li>
         </dependencies>
         <things>
-          <li>VFE_CoffeeTable</li>
+          <li>MF_BrickStairsMDownA</li>
+          <li>MF_ModernElevatorA</li>
+          <li>MF_BrickStairsMUpAFlipped</li>
         </things>
       </mod>
       <mod>
         <packageId>lat.rimstro</packageId>
         <name>Rimstro</name>
         <version></version>
-        <modorder>14</modorder>
+        <modorder>15</modorder>
         <steamWorkshopId>1714572710</steamWorkshopId>
         <things>
           <li>RS_stove</li>
@@ -549,118 +1164,20 @@
         </things>
       </mod>
       <mod>
-        <packageId>vanillaexpanded.vfeproduction</packageId>
-        <name>Vanilla Furniture Expanded - Production</name>
-        <version></version>
-        <modorder>141</modorder>
-        <steamWorkshopId>1880253632</steamWorkshopId>
-        <dependencies>
-          <li>
-            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
-            <steamWorkshopId>2023507013</steamWorkshopId>
-          </li>
-          <li>
-            <packageId>brrainz.harmony</packageId>
-            <steamWorkshopId>2009463077</steamWorkshopId>
-          </li>
-        </dependencies>
-        <things>
-          <li>VFE_TableButcherElectric</li>
-        </things>
-      </mod>
-      <mod>
         <packageId>ri.rimimmortal.furniture</packageId>
         <name>边缘仙路-雕梁画栋 RimImmortal-Furniture[1.6]</name>
         <version></version>
-        <modorder>686</modorder>
+        <modorder>692</modorder>
         <steamWorkshopId>3478098371</steamWorkshopId>
         <things>
           <li>RI_Building_KitchenToolShelf</li>
         </things>
       </mod>
       <mod>
-        <packageId>unagi.funiture.build.window</packageId>
-        <name>UNAGI Decorative Furniture</name>
-        <version></version>
-        <modorder>354</modorder>
-        <steamWorkshopId>3379047800</steamWorkshopId>
-        <things>
-          <li>UNA_chandelier</li>
-        </things>
-      </mod>
-      <mod>
-        <packageId>dubwise.dubsbadhygiene</packageId>
-        <name>Dubs Bad Hygiene</name>
-        <version>3.1.2800</version>
-        <modorder>13</modorder>
-        <steamWorkshopId>836308268</steamWorkshopId>
-        <things>
-          <li>ElectricBoiler</li>
-          <li>HotTub</li>
-          <li>ShowerAdvStuff</li>
-          <li>ToiletAdvStuff</li>
-          <li>Thermostat</li>
-          <li>RadiatorTowelRail</li>
-          <li>BathMat</li>
-        </things>
-      </mod>
-      <mod>
-        <packageId>tyll.core</packageId>
-        <name>[TY2.0]天鹰核心 Aquila2.0 Core </name>
-        <version></version>
-        <modorder>421</modorder>
-        <steamWorkshopId>3280989190</steamWorkshopId>
-        <dependencies>
-          <li>
-            <packageId>ludeon.rimworld.biotech</packageId>
-          </li>
-        </dependencies>
-        <things>
-          <li>TY_A_strange_and_peculiar_doll</li>
-        </things>
-      </mod>
-      <mod>
-        <packageId>resurrectionem.furniture</packageId>
-        <name><![CDATA[RR's Furniture pack-Collection Rapture]]></name>
-        <version></version>
-        <modorder>358</modorder>
-        <steamWorkshopId>3310690878</steamWorkshopId>
-        <things>
-          <li>RRPalermoBasin</li>
-        </things>
-      </mod>
-      <mod>
-        <packageId>ponpeco.pfkidsroom</packageId>
-        <name><![CDATA[Ponpeco Furnitures : Kids' Room]]></name>
-        <version>1.7</version>
-        <modorder>332</modorder>
-        <steamWorkshopId>3367310887</steamWorkshopId>
-        <things>
-          <li>PFK_ShaggyRug_D</li>
-          <li>PFK_Dresser</li>
-          <li>PFK_Ball</li>
-          <li>PFK_Bunting</li>
-          <li>PFK_RoyalBed</li>
-          <li>PFK_GiantPlushieM</li>
-          <li>PFK_EndTable</li>
-          <li>PFK_FairyLights</li>
-        </things>
-      </mod>
-      <mod>
-        <packageId>ludeon.rimworld.biotech</packageId>
-        <name>Biotech</name>
-        <version></version>
-        <modorder>6</modorder>
-        <things>
-          <li>BabyDecoration</li>
-          <li>SchoolDesk</li>
-        </things>
-      </mod>
-      <mod>
         <packageId>elsa.cakefurniture.fdf</packageId>
         <name>Cake! Furniture-蛋糕家具</name>
         <version></version>
-        <modorder>373</modorder>
+        <modorder>379</modorder>
         <steamWorkshopId>3629632481</steamWorkshopId>
         <dependencies>
           <li>
@@ -672,20 +1189,111 @@
           </li>
         </dependencies>
         <things>
+          <li>FDF_Carpet_Macaron</li>
+          <li>FDF_CakeBed</li>
           <li>FDF_Cake_Cheese</li>
           <li>FDF_Deco_Cup</li>
           <li>FDF_Couch</li>
           <li>FDF_Couch_PillowA</li>
+          <li>FDF_Carrot</li>
           <li>FDF_Carpet_Paw</li>
           <li>FDF_HeartCrystal</li>
           <li>FDF_FloorRabbitCookieIceCream</li>
         </things>
       </mod>
       <mod>
+        <packageId>unagi.funiture.build.window</packageId>
+        <name>UNAGI Decorative Furniture</name>
+        <version></version>
+        <modorder>356</modorder>
+        <steamWorkshopId>3379047800</steamWorkshopId>
+        <things>
+          <li>UNA_chandelier</li>
+          <li>UNA_OsakanaGranite</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>w.zhp</packageId>
+        <name>Ratkin Misc+ 鼠族拓展:边缘杂货铺</name>
+        <version></version>
+        <modorder>798</modorder>
+        <steamWorkshopId>3452928337</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>solaris.ratkinracemod</packageId>
+            <steamWorkshopId>1578693166</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.royalty</packageId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.anomaly</packageId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.odyssey</packageId>
+          </li>
+        </dependencies>
+        <things>
+          <li>ZHP_mianbei_two</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>tyll.core</packageId>
+        <name>[TY2.0]天鹰核心 Aquila2.0 Core </name>
+        <version></version>
+        <modorder>427</modorder>
+        <steamWorkshopId>3280989190</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+        </dependencies>
+        <things>
+          <li>TY_A_strange_and_peculiar_doll</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>silversol.consti</packageId>
+        <name><![CDATA[Silversol's maidnoid]]></name>
+        <version></version>
+        <modorder>764</modorder>
+        <steamWorkshopId>3565656194</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VivianRechargerB</li>
+          <li>VivianRecharger</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>dmitry.cookieplayru.infinitefreegenerator</packageId>
+        <name>Infinite Free Generator</name>
+        <version></version>
+        <modorder>452</modorder>
+        <steamWorkshopId>3671602146</steamWorkshopId>
+        <things>
+          <li>InfiniteFreeGenerator</li>
+        </things>
+      </mod>
+      <mod>
         <packageId>mlmlmlm.bluearchivefurniture4</packageId>
         <name>Blue Archive Furniture 4</name>
         <version></version>
-        <modorder>33</modorder>
+        <modorder>34</modorder>
         <steamWorkshopId>3685138265</steamWorkshopId>
         <dependencies>
           <li>
@@ -702,30 +1310,28 @@
         </things>
       </mod>
       <mod>
-        <packageId>akn.decorations</packageId>
-        <name>Akeron - Decorations</name>
-        <version></version>
-        <modorder>324</modorder>
-        <steamWorkshopId>2755025925</steamWorkshopId>
-        <things>
-          <li>AKN_ComfortingPlush</li>
-          <li>AKN_RestoringPlush</li>
-        </things>
-      </mod>
-      <mod>
         <packageId>ludeon.rimworld.royalty</packageId>
         <name>Royalty</name>
         <version></version>
-        <modorder>4</modorder>
+        <modorder>5</modorder>
         <things>
           <li>MeditationSpot</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.odyssey</packageId>
+        <name>Odyssey</name>
+        <version></version>
+        <modorder>9</modorder>
+        <things>
+          <li>Leather_AlphaThrumbo</li>
         </things>
       </mod>
       <mod>
         <packageId>cj.rimtalk.toddlers</packageId>
         <name>RimTalk - Expand Toddlers</name>
         <version></version>
-        <modorder>245</modorder>
+        <modorder>247</modorder>
         <steamWorkshopId>3659064387</steamWorkshopId>
         <dependencies>
           <li>
@@ -738,163 +1344,1597 @@
           </li>
         </dependencies>
         <things>
+          <li>RimTalk_ToyPuzzleTable</li>
           <li>RimTalk_ToyBlockPile</li>
         </things>
       </mod>
       <mod>
-        <packageId>warshipgirlr.alienraces</packageId>
-        <name>[Race]WarShipGirl R|战舰少女R</name>
+        <packageId>meltup.polyamorybeds.vanilla</packageId>
+        <name>Polyamory Beds (Vanilla Edition)</name>
         <version></version>
-        <modorder>540</modorder>
-        <steamWorkshopId>2801742438</steamWorkshopId>
+        <modorder>374</modorder>
+        <steamWorkshopId>3276496684</steamWorkshopId>
+        <things>
+          <li>PentaRoyalBed</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>pupa.insectgirls</packageId>
+        <name>虫娘 Insect Girls</name>
+        <version>2.435</version>
+        <modorder>301</modorder>
+        <steamWorkshopId>2451340446</steamWorkshopId>
         <dependencies>
           <li>
-            <packageId>erdelf.humanoidalienraces</packageId>
-            <steamWorkshopId>839005762</steamWorkshopId>
-          </li>
-          <li>
-            <packageId>ludeon.rimworld.biotech</packageId>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
           </li>
         </dependencies>
         <things>
-          <li>R_chairA</li>
+          <li>IGGlowPod</li>
         </things>
       </mod>
       <mod>
         <packageId>leo.koyukidoll</packageId>
         <name>Koyuki Fufu</name>
         <version></version>
-        <modorder>378</modorder>
+        <modorder>384</modorder>
         <steamWorkshopId>3560685190</steamWorkshopId>
         <things>
           <li>KoyukiDoll</li>
         </things>
       </mod>
       <mod>
-        <packageId>melondove.wolfeinrace</packageId>
-        <name>Wolfein Race</name>
+        <packageId>nyar.nclvstw</packageId>
+        <name>Mechanoids: Total Warfare</name>
         <version></version>
-        <modorder>632</modorder>
-        <steamWorkshopId>3473140562</steamWorkshopId>
+        <modorder>353</modorder>
+        <steamWorkshopId>3555799437</steamWorkshopId>
         <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.royalty</packageId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Ancient_WarBeacon_PartsA</li>
+          <li>Building_Ancient_WarBeacon</li>
+          <li>Ancient_WarBeacon_PartsB</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>cp.uncle.boris.used.furniture</packageId>
+        <name><![CDATA[[RH2] Uncle Boris' - Used Furniture]]></name>
+        <version></version>
+        <modorder>306</modorder>
+        <steamWorkshopId>2563508405</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>RH2_LampEndTable</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>wwskyon.mediterranean.furniture</packageId>
+        <name>Mediterranean Furniture|地中海风格家具</name>
+        <version></version>
+        <modorder>386</modorder>
+        <steamWorkshopId>3293528946</steamWorkshopId>
+        <things>
+          <li>Mediterranean_TileSandstone_a</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>oark.ratkinfaction.scenarioexpand.snowstorm</packageId>
+        <name>[OA]Ratkin Scenario: Snowstorm Orphan</name>
+        <version></version>
+        <modorder>782</modorder>
+        <steamWorkshopId>3381392312</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oark.ratkinfaction.geneexpand</packageId>
+            <steamWorkshopId>3300291918</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oark.oberoniaaurea.framework</packageId>
+            <steamWorkshopId>3713589764</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>solaris.ratkinracemod</packageId>
+            <steamWorkshopId>1578693166</steamWorkshopId>
+          </li>
           <li>
             <packageId>erdelf.humanoidalienraces</packageId>
             <steamWorkshopId>839005762</steamWorkshopId>
           </li>
-          <li>
-            <packageId>ancot.ancotlibrary</packageId>
-            <steamWorkshopId>2988801276</steamWorkshopId>
-          </li>
-          <li>
-            <packageId>brrainz.harmony</packageId>
-            <steamWorkshopId>2009463077</steamWorkshopId>
-          </li>
         </dependencies>
         <things>
-          <li>Wolfein_OfficeChair</li>
-          <li>Wolfein_OfficeDesk</li>
+          <li>OA_RK_FloorSnow_B</li>
         </things>
       </mod>
       <mod>
-        <packageId>mlmlmlm.bluearchivefurniture</packageId>
-        <name>Blue Archive Furniture</name>
+        <packageId>wemd.expandedfloors</packageId>
+        <name>Expanded Floors</name>
         <version></version>
-        <modorder>30</modorder>
-        <steamWorkshopId>3491176484</steamWorkshopId>
-        <dependencies>
-          <li>
-            <packageId>adaptive.storage.framework</packageId>
-            <steamWorkshopId>3033901359</steamWorkshopId>
-          </li>
-          <li>
-            <packageId>brrainz.harmony</packageId>
-            <steamWorkshopId>2009463077</steamWorkshopId>
-          </li>
-        </dependencies>
+        <modorder>438</modorder>
+        <steamWorkshopId>1817862464</steamWorkshopId>
         <things>
-          <li>Tea_Party_Album_Storage_Shelf</li>
+          <li>WDMosaicWoodenFloor</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ks.flooringfloors</packageId>
+        <name>Flooring Floors</name>
+        <version>11</version>
+        <modorder>439</modorder>
+        <steamWorkshopId>3531114826</steamWorkshopId>
+        <things>
+          <li>KS_WoodThinStripMixedH</li>
+          <li>KS_StoneStaggeredMixedMarble</li>
         </things>
       </mod>
     </modPackages>
     <multiLanguage>
       <name>
-        <default>樂克西小屋</default>
-        <zh-CN>樂克西小屋</zh-CN>
+        <default>多功能</default>
+        <zh-CN>多功能</zh-CN>
       </name>
-      <description>
-        <default>某位風雪遺孤的小屋                                          </default>
-        <zh-CN>某位風雪遺孤的小屋                                          </zh-CN>
-      </description>
     </multiLanguage>
   </extraInfo>
   <things>
+    <AB_SlimeStone>
+      <rects>
+        <li>(53,0,59,1)</li>
+        <li>(60,1,60,1)</li>
+      </rects>
+      <hp>700</hp>
+      <color>RGBA(0.176, 0.259, 0.141, 1.000)</color>
+    </AB_SlimeStone>
     <UFLI_Wall_Cable_NAWDiagonal>
       <rects>
-        <li>(0,0,6,0)</li>
-        <li>(10,0,19,0)</li>
-        <li>(0,1,0,21)</li>
-        <li>(19,1,19,21)</li>
-        <li>(12,2,12,11)</li>
-        <li>(1,6,8,6)</li>
-        <li>(11,6,11,6)</li>
-        <li>(13,8,18,8)</li>
-        <li>(1,13,8,13)</li>
-        <li>(11,13,18,13)</li>
-        <li>(14,15,14,21)</li>
-        <li>(1,21,13,21)</li>
-        <li>(15,21,18,21)</li>
+        <li>(73,0,74,0)</li>
+        <li>(76,0,76,0)</li>
+        <li>(78,0,81,0)</li>
+        <li>(83,0,83,0)</li>
+        <li>(85,0,91,0)</li>
+        <li>(93,0,97,0)</li>
+        <li>(97,1,97,22)</li>
+        <li>(85,8,85,19)</li>
+        <li>(74,11,77,11)</li>
+        <li>(80,11,84,11)</li>
+        <li>(86,11,89,11)</li>
+        <li>(92,11,96,11)</li>
+        <li>(85,21,85,22)</li>
+        <li>(74,22,77,22)</li>
+        <li>(80,22,84,22)</li>
+        <li>(86,22,89,22)</li>
+        <li>(92,22,96,22)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Milira_Neutronium</stuff>
+      <hp>28800</hp>
+      <color>RGBA(0.800, 0.800, 0.800, 1.000)</color>
+    </UFLI_Wall_Cable_NAWDiagonal>
+    <UFLI_Wall_Cable_NAWDiagonal>
+      <rects>
+        <li>(75,0,75,0)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Milira_Neutronium</stuff>
+      <hp>28750</hp>
+      <color>RGBA(0.800, 0.800, 0.800, 1.000)</color>
+    </UFLI_Wall_Cable_NAWDiagonal>
+    <UFLI_Wall_Cable_NAWDiagonal>
+      <rects>
+        <li>(77,0,77,0)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Milira_Neutronium</stuff>
+      <hp>28755</hp>
+      <color>RGBA(0.800, 0.800, 0.800, 1.000)</color>
+    </UFLI_Wall_Cable_NAWDiagonal>
+    <UFLI_Wall_Cable_NAWDiagonal>
+      <rects>
+        <li>(82,0,82,0)</li>
+        <li>(84,0,84,0)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Milira_Neutronium</stuff>
+      <hp>26240</hp>
+      <color>RGBA(0.800, 0.800, 0.800, 1.000)</color>
+    </UFLI_Wall_Cable_NAWDiagonal>
+    <UFLI_Wall_Cable_NAWDiagonal>
+      <rects>
+        <li>(92,0,92,0)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Milira_Neutronium</stuff>
+      <hp>18200</hp>
+      <color>RGBA(0.800, 0.800, 0.800, 1.000)</color>
+    </UFLI_Wall_Cable_NAWDiagonal>
+    <UFLI_Wall_Cable_NAWDiagonal>
+      <rects>
+        <li>(73,1,73,1)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Milira_Neutronium</stuff>
+      <hp>17258</hp>
+      <color>RGBA(0.800, 0.800, 0.800, 1.000)</color>
+    </UFLI_Wall_Cable_NAWDiagonal>
+    <UFLI_DoubleBed>
+      <positions>
+        <li>(75, 0, 2)</li>
+        <li>(77, 0, 2)</li>
+        <li>(79, 0, 2)</li>
+        <li>(81, 0, 2)</li>
+        <li>(83, 0, 2)</li>
+        <li>(85, 0, 2)</li>
+        <li>(75, 0, 5)</li>
+        <li>(77, 0, 5)</li>
+        <li>(79, 0, 5)</li>
+        <li>(81, 0, 5)</li>
+        <li>(83, 0, 5)</li>
+        <li>(85, 0, 5)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <quality>Normal</quality>
+      <hp>300</hp>
+      <color>RGBA(1.000, 0.718, 0.129, 1.000)</color>
+    </UFLI_DoubleBed>
+    <RGKDiningChair>
+      <rects>
+        <li>(87,1,87,2)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Gold</stuff>
+      <quality>Normal</quality>
+      <hp>102</hp>
+      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
+    </RGKDiningChair>
+    <RGK_TableB>
+      <position>(88, 0, 1)</position>
+      <stuff>Gold</stuff>
+      <quality>Normal</quality>
+      <hp>60</hp>
+      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
+    </RGK_TableB>
+    <RGKDiningChair>
+      <rects>
+        <li>(90,1,90,2)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Gold</stuff>
+      <quality>Normal</quality>
+      <hp>102</hp>
+      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
+    </RGKDiningChair>
+    <UFLI_CouchDouble>
+      <positions>
+        <li>(93, 0, 2)</li>
+        <li>(93, 0, 4)</li>
+        <li>(93, 0, 6)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Normal</quality>
+      <hp>300</hp>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </UFLI_CouchDouble>
+    <UFLI_laptop>
+      <rects>
+        <li>(94,1,94,4)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>120</hp>
+    </UFLI_laptop>
+    <UFLI_2X4_Table>
+      <position>(94, 0, 3)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>250</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_2X4_Table>
+    <UFLI_Hugescreen>
+      <positions>
+        <li>(96, 0, 3)</li>
+        <li>(45, 0, 47)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>400</hp>
+    </UFLI_Hugescreen>
+    <UFLI_Wall_Cable_NAWDiagonal>
+      <rects>
+        <li>(49,2,73,2)</li>
+        <li>(49,3,49,22)</li>
+        <li>(73,3,73,22)</li>
+        <li>(80,7,80,10)</li>
+        <li>(82,7,84,7)</li>
+        <li>(1,10,48,10)</li>
+        <li>(1,11,1,22)</li>
+        <li>(13,11,13,12)</li>
+        <li>(25,11,25,22)</li>
+        <li>(37,11,37,22)</li>
+        <li>(78,11,79,11)</li>
+        <li>(13,16,13,22)</li>
+        <li>(59,16,59,22)</li>
+        <li>(61,16,63,16)</li>
+        <li>(65,16,67,16)</li>
+        <li>(69,16,71,16)</li>
+        <li>(63,17,63,22)</li>
+        <li>(66,17,66,22)</li>
+        <li>(70,17,70,22)</li>
+        <li>(0,22,0,22)</li>
+        <li>(2,22,8,22)</li>
+        <li>(12,22,12,22)</li>
+        <li>(15,22,24,22)</li>
+        <li>(26,22,33,22)</li>
+        <li>(38,22,45,22)</li>
+        <li>(50,22,50,22)</li>
+        <li>(54,22,58,22)</li>
+        <li>(60,22,62,22)</li>
+        <li>(64,22,65,22)</li>
+        <li>(67,22,69,22)</li>
+        <li>(71,22,72,22)</li>
+        <li>(98,22,98,27)</li>
+        <li>(47,26,47,26)</li>
+        <li>(0,27,3,27)</li>
+        <li>(7,27,19,27)</li>
+        <li>(23,27,32,27)</li>
+        <li>(35,27,39,27)</li>
+        <li>(43,27,46,27)</li>
+        <li>(48,27,48,41)</li>
+        <li>(1,28,1,48)</li>
+        <li>(7,28,7,28)</li>
+        <li>(13,28,13,40)</li>
+        <li>(32,28,32,41)</li>
+        <li>(35,28,35,41)</li>
+        <li>(25,29,25,38)</li>
+        <li>(49,30,49,30)</li>
+        <li>(52,30,64,30)</li>
+        <li>(67,30,71,30)</li>
+        <li>(7,31,12,31)</li>
+        <li>(59,31,59,41)</li>
+        <li>(71,31,71,41)</li>
+        <li>(98,31,98,41)</li>
+        <li>(14,33,21,33)</li>
+        <li>(24,33,24,33)</li>
+        <li>(26,35,31,35)</li>
+        <li>(87,35,87,37)</li>
+        <li>(89,35,89,35)</li>
+        <li>(90,36,90,37)</li>
+        <li>(88,38,89,38)</li>
+        <li>(2,39,12,39)</li>
+        <li>(14,40,21,40)</li>
+        <li>(24,40,31,40)</li>
+        <li>(33,41,34,41)</li>
+        <li>(36,41,47,41)</li>
+        <li>(49,41,58,41)</li>
+        <li>(60,41,70,41)</li>
+        <li>(72,41,97,41)</li>
+        <li>(27,42,27,52)</li>
+        <li>(46,42,46,52)</li>
+        <li>(2,48,26,48)</li>
+        <li>(28,52,45,52)</li>
       </rects>
       <stuff>Milira_Neutronium</stuff>
       <hp>28800</hp>
       <color>RGBA(0.800, 0.800, 0.800, 1.000)</color>
     </UFLI_Wall_Cable_NAWDiagonal>
-    <UFLI_3_Frame_DOOR>
-      <position>(8, 0, 0)</position>
-      <stuff>KT_steel</stuff>
-      <hp>12000</hp>
-    </UFLI_3_Frame_DOOR>
-    <UFLI_3_Autodoor>
-      <position>(8, 0, 0)</position>
-      <stuff>KT_steel</stuff>
-      <hp>150000</hp>
-    </UFLI_3_Autodoor>
+    <AdvBF_HeavyPlatform>
+      <rects>
+        <li>(49,2,72,2)</li>
+        <li>(49,3,49,22)</li>
+        <li>(59,3,63,22)</li>
+        <li>(50,8,58,22)</li>
+        <li>(64,8,72,21)</li>
+        <li>(25,10,48,22)</li>
+        <li>(90,11,91,11)</li>
+        <li>(73,12,73,21)</li>
+        <li>(64,22,71,22)</li>
+        <li>(77,22,80,41)</li>
+        <li>(90,22,92,41)</li>
+        <li>(72,23,76,41)</li>
+        <li>(81,23,89,41)</li>
+        <li>(93,23,98,41)</li>
+        <li>(32,27,35,40)</li>
+        <li>(36,28,47,40)</li>
+        <li>(59,30,71,41)</li>
+        <li>(25,48,26,48)</li>
+      </rects>
+      <stuff>Gold</stuff>
+      <hp>300</hp>
+      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
+    </AdvBF_HeavyPlatform>
+    <DBHSwimmingPool>
+      <positions>
+        <li>(54, 0, 5)</li>
+        <li>(68, 0, 5)</li>
+      </positions>
+      <stuff>Gold</stuff>
+      <hp>900</hp>
+    </DBHSwimmingPool>
     <UFLI_Walllamp>
       <rects>
-        <li>(1,1,1,1)</li>
-        <li>(10,1,10,1)</li>
+        <li>(52,3,52,3)</li>
+        <li>(63,3,63,3)</li>
+        <li>(84,12,84,12)</li>
+        <li>(65,17,65,17)</li>
+        <li>(67,17,67,17)</li>
+        <li>(69,17,69,17)</li>
+        <li>(71,17,71,17)</li>
+        <li>(0,23,0,23)</li>
+        <li>(16,23,16,23)</li>
+        <li>(57,23,57,23)</li>
+        <li>(67,23,67,23)</li>
+        <li>(81,23,81,23)</li>
+        <li>(93,23,93,23)</li>
+        <li>(60,31,60,31)</li>
+        <li>(70,31,70,31)</li>
       </rects>
       <relativeRotation>Opposite</relativeRotation>
       <hp>150</hp>
     </UFLI_Walllamp>
+    <sewagePipeHidden>
+      <rects>
+        <li>(59,3,63,3)</li>
+        <li>(50,8,50,9)</li>
+        <li>(72,8,72,10)</li>
+        <li>(83,9,83,9)</li>
+        <li>(73,10,80,10)</li>
+        <li>(50,16,50,19)</li>
+        <li>(49,18,49,28)</li>
+        <li>(51,19,59,19)</li>
+        <li>(60,20,60,20)</li>
+        <li>(64,20,64,20)</li>
+        <li>(67,20,67,20)</li>
+        <li>(71,20,71,20)</li>
+        <li>(61,21,61,21)</li>
+        <li>(63,21,63,21)</li>
+        <li>(66,21,66,21)</li>
+        <li>(68,21,68,21)</li>
+        <li>(70,21,70,21)</li>
+        <li>(48,28,48,28)</li>
+        <li>(45,38,45,38)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>100</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </sewagePipeHidden>
+    <VFE_Lounger>
+      <positions>
+        <li>(60, 0, 3)</li>
+        <li>(60, 0, 5)</li>
+        <li>(60, 0, 7)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Gold</stuff>
+      <quality>Normal</quality>
+      <hp>78</hp>
+      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
+    </VFE_Lounger>
+    <RGKDiningChair>
+      <rects>
+        <li>(88,3,89,3)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Gold</stuff>
+      <quality>Normal</quality>
+      <hp>102</hp>
+      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
+    </RGKDiningChair>
+    <BeachStuff_BeachUmbrella>
+      <rects>
+        <li>(61,4,61,4)</li>
+        <li>(61,6,61,6)</li>
+        <li>(67,10,67,10)</li>
+        <li>(71,10,71,10)</li>
+        <li>(69,11,69,11)</li>
+      </rects>
+      <stuff>RI_Resource_GoldenSilk</stuff>
+      <quality>Normal</quality>
+      <hp>130</hp>
+      <color>RGBA(0.839, 0.725, 0.220, 1.000)</color>
+    </BeachStuff_BeachUmbrella>
+    <MineableComponentsIndustrial>
+      <rects>
+        <li>(48,5,48,6)</li>
+      </rects>
+      <hp>2000</hp>
+    </MineableComponentsIndustrial>
+    <UFLI_PokerTable>
+      <positions>
+        <li>(94, 0, 5)</li>
+        <li>(42, 0, 18)</li>
+        <li>(15, 0, 29)</li>
+      </positions>
+      <quality>Normal</quality>
+      <hp>250</hp>
+    </UFLI_PokerTable>
+    <SteamGeyser>
+      <position>(30, 0, 6)</position>
+    </SteamGeyser>
+    <CTE_NanoSweep_Mark_III>
+      <rects>
+        <li>(85,6,85,6)</li>
+        <li>(86,10,88,10)</li>
+        <li>(16,11,16,11)</li>
+        <li>(44,17,44,17)</li>
+        <li>(4,21,4,21)</li>
+        <li>(29,21,29,21)</li>
+        <li>(58,21,58,21)</li>
+        <li>(2,32,2,32)</li>
+        <li>(31,33,31,33)</li>
+        <li>(42,33,42,33)</li>
+        <li>(53,37,53,37)</li>
+        <li>(19,39,19,39)</li>
+        <li>(60,40,60,40)</li>
+      </rects>
+      <hp>160</hp>
+    </CTE_NanoSweep_Mark_III>
+    <UFLI_Walllamp>
+      <rects>
+        <li>(74,7,74,7)</li>
+        <li>(86,7,86,7)</li>
+        <li>(50,8,50,8)</li>
+        <li>(14,11,14,11)</li>
+        <li>(38,13,38,14)</li>
+        <li>(26,14,26,14)</li>
+        <li>(50,16,50,16)</li>
+        <li>(74,16,74,16)</li>
+        <li>(86,16,86,16)</li>
+        <li>(38,17,38,17)</li>
+        <li>(14,19,14,19)</li>
+        <li>(64,20,64,20)</li>
+        <li>(71,20,71,20)</li>
+        <li>(14,21,14,21)</li>
+        <li>(74,21,74,21)</li>
+        <li>(72,35,72,35)</li>
+        <li>(60,40,60,40)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>150</hp>
+    </UFLI_Walllamp>
+    <UFLI_CabinetC>
+      <position>(74, 0, 8)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>250</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_CabinetC>
+    <UFLI_CabinetC>
+      <position>(79, 0, 7)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>250</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_CabinetC>
+    <UFLI_1_Autodoor>
+      <rects>
+        <li>(81,7,81,7)</li>
+        <li>(60,16,60,16)</li>
+        <li>(64,16,64,16)</li>
+        <li>(68,16,68,16)</li>
+        <li>(72,16,72,16)</li>
+        <li>(88,35,88,35)</li>
+      </rects>
+      <stuff>Gold</stuff>
+      <hp>720</hp>
+      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
+    </UFLI_1_Autodoor>
+    <UFLI_Walllamp>
+      <rects>
+        <li>(84,7,84,7)</li>
+        <li>(72,8,72,8)</li>
+        <li>(24,14,24,14)</li>
+        <li>(36,14,36,14)</li>
+        <li>(48,14,48,14)</li>
+        <li>(84,16,84,16)</li>
+        <li>(62,17,62,17)</li>
+        <li>(48,18,48,19)</li>
+        <li>(12,19,12,19)</li>
+        <li>(97,26,97,26)</li>
+        <li>(47,28,47,28)</li>
+        <li>(97,32,97,32)</li>
+        <li>(47,34,47,34)</li>
+        <li>(97,39,97,39)</li>
+        <li>(47,40,47,40)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>150</hp>
+    </UFLI_Walllamp>
+    <UFLI_Wall_Cable_NAWDiagonal>
+      <rects>
+        <li>(85,7,85,7)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Milira_Neutronium</stuff>
+      <hp>28675</hp>
+      <color>RGBA(0.800, 0.800, 0.800, 1.000)</color>
+    </UFLI_Wall_Cable_NAWDiagonal>
+    <UFLI_CouchDouble>
+      <position>(95, 0, 7)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Normal</quality>
+      <hp>300</hp>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </UFLI_CouchDouble>
+    <BeachStuff_BeachBall>
+      <position>(58, 0, 10)</position>
+      <quality>Normal</quality>
+      <hp>50</hp>
+    </BeachStuff_BeachBall>
+    <UFLI_Couch>
+      <rects>
+        <li>(75,8,75,8)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>RI_Resource_GoldenSilk</stuff>
+      <quality>Normal</quality>
+      <hp>260</hp>
+      <color>RGBA(0.839, 0.725, 0.220, 1.000)</color>
+    </UFLI_Couch>
+    <UFLI_1X1_Table>
+      <rects>
+        <li>(76,8,76,8)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>70</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_1X1_Table>
+    <UFLI_Decoration_Goldencube>
+      <rects>
+        <li>(76,8,76,8)</li>
+      </rects>
+      <hp>20</hp>
+    </UFLI_Decoration_Goldencube>
+    <ShowerAdvStuff>
+      <rects>
+        <li>(83,8,84,8)</li>
+        <li>(60,21,60,21)</li>
+        <li>(64,21,64,21)</li>
+        <li>(67,21,67,21)</li>
+        <li>(71,21,71,21)</li>
+      </rects>
+      <stuff>Gold</stuff>
+      <hp>45</hp>
+    </ShowerAdvStuff>
+    <BeachStuff_BeachChair>
+      <rects>
+        <li>(66,9,66,9)</li>
+        <li>(68,9,68,9)</li>
+        <li>(70,9,70,9)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>RI_Resource_GoldenSilk</stuff>
+      <quality>Normal</quality>
+      <hp>130</hp>
+      <color>RGBA(0.839, 0.725, 0.220, 1.000)</color>
+    </BeachStuff_BeachChair>
+    <UFLI_CarpetB>
+      <position>(91, 0, 10)</position>
+      <stuff>MooGirl_Wool</stuff>
+      <quality>Normal</quality>
+      <hp>700</hp>
+      <color>RGBA(0.718, 0.831, 0.871, 1.000)</color>
+    </UFLI_CarpetB>
+    <TY_A_window_Building>
+      <rects>
+        <li>(16,10,16,10)</li>
+        <li>(16,48,16,48)</li>
+      </rects>
+      <hp>350</hp>
+    </TY_A_window_Building>
+    <PFK_FairyLights>
+      <rects>
+        <li>(31,10,31,10)</li>
+        <li>(38,52,45,52)</li>
+      </rects>
+      <hp>50</hp>
+    </PFK_FairyLights>
+    <HotTub>
+      <positions>
+        <li>(50, 0, 10)</li>
+        <li>(50, 0, 12)</li>
+        <li>(50, 0, 14)</li>
+        <li>(11, 0, 29)</li>
+        <li>(26, 0, 36)</li>
+      </positions>
+      <stuff>Gold</stuff>
+      <hp>60</hp>
+    </HotTub>
+    <UFLI_Walllamp>
+      <rects>
+        <li>(74,10,74,10)</li>
+        <li>(84,10,84,10)</li>
+        <li>(59,15,59,15)</li>
+        <li>(66,15,66,15)</li>
+        <li>(70,15,70,15)</li>
+        <li>(2,21,2,21)</li>
+        <li>(7,21,7,21)</li>
+        <li>(19,21,19,21)</li>
+        <li>(30,21,30,21)</li>
+        <li>(57,21,58,21)</li>
+        <li>(61,21,61,21)</li>
+        <li>(86,21,86,21)</li>
+        <li>(0,26,0,26)</li>
+        <li>(14,26,14,26)</li>
+        <li>(45,26,45,26)</li>
+        <li>(56,29,56,29)</li>
+        <li>(64,29,64,29)</li>
+        <li>(69,29,70,29)</li>
+        <li>(64,40,64,40)</li>
+        <li>(70,40,70,40)</li>
+        <li>(73,40,74,40)</li>
+        <li>(83,40,83,40)</li>
+        <li>(97,40,97,40)</li>
+      </rects>
+      <hp>150</hp>
+    </UFLI_Walllamp>
+    <UFLI_CabinetF>
+      <rects>
+        <li>(74,10,74,10)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Awful</quality>
+      <hp>100</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_CabinetF>
+    <UFLI_CabinetF>
+      <rects>
+        <li>(75,10,76,10)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Legendary</quality>
+      <hp>100</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_CabinetF>
+    <UFLI_CabinetE>
+      <rects>
+        <li>(77,10,77,10)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>100</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_CabinetE>
+    <AKN_ComfortingPlush>
+      <rects>
+        <li>(78,10,78,10)</li>
+        <li>(15,44,15,44)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>RI_Resource_GoldenSilk</stuff>
+      <quality>Normal</quality>
+      <hp>39</hp>
+      <color>RGBA(0.839, 0.725, 0.220, 1.000)</color>
+    </AKN_ComfortingPlush>
+    <Dresser>
+      <position>(79, 0, 10)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Gold</stuff>
+      <quality>Normal</quality>
+      <hp>72</hp>
+      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
+    </Dresser>
+    <RRPalermoBasin>
+      <rects>
+        <li>(81,10,81,10)</li>
+        <li>(83,10,83,10)</li>
+        <li>(30,39,30,39)</li>
+      </rects>
+      <stuff>Gold</stuff>
+      <quality>Normal</quality>
+      <hp>45</hp>
+    </RRPalermoBasin>
+    <ToiletAdvStuff>
+      <rects>
+        <li>(82,10,82,10)</li>
+        <li>(84,10,84,10)</li>
+        <li>(62,21,62,21)</li>
+        <li>(65,21,65,21)</li>
+        <li>(69,21,69,21)</li>
+        <li>(72,21,72,21)</li>
+        <li>(9,30,9,30)</li>
+      </rects>
+      <stuff>Gold</stuff>
+      <hp>45</hp>
+    </ToiletAdvStuff>
+    <VFE_FloorLamp>
+      <rects>
+        <li>(86,10,86,10)</li>
+        <li>(96,10,96,10)</li>
+        <li>(86,16,86,16)</li>
+        <li>(96,16,96,16)</li>
+        <li>(26,21,26,21)</li>
+        <li>(3,26,3,26)</li>
+        <li>(11,26,11,26)</li>
+        <li>(18,26,18,26)</li>
+        <li>(24,26,24,26)</li>
+        <li>(32,26,32,26)</li>
+        <li>(39,26,39,26)</li>
+        <li>(45,26,45,26)</li>
+        <li>(2,28,2,28)</li>
+        <li>(8,28,8,28)</li>
+        <li>(31,28,31,28)</li>
+        <li>(33,28,33,28)</li>
+        <li>(11,30,11,30)</li>
+        <li>(37,30,37,30)</li>
+        <li>(40,30,40,30)</li>
+        <li>(44,30,44,30)</li>
+        <li>(46,30,46,30)</li>
+        <li>(26,31,26,31)</li>
+        <li>(29,31,29,31)</li>
+        <li>(33,31,33,31)</li>
+        <li>(49,31,49,31)</li>
+        <li>(58,31,58,31)</li>
+        <li>(15,32,15,32)</li>
+        <li>(10,34,10,34)</li>
+        <li>(24,34,24,34)</li>
+        <li>(26,34,26,34)</li>
+        <li>(28,34,28,34)</li>
+        <li>(49,34,49,34)</li>
+        <li>(2,35,2,35)</li>
+        <li>(41,35,41,35)</li>
+        <li>(14,36,14,36)</li>
+        <li>(26,36,26,36)</li>
+        <li>(33,36,33,36)</li>
+        <li>(2,38,2,38)</li>
+        <li>(7,38,7,38)</li>
+        <li>(12,38,12,38)</li>
+        <li>(36,38,36,40)</li>
+        <li>(46,38,46,38)</li>
+        <li>(14,39,14,39)</li>
+        <li>(26,39,26,39)</li>
+        <li>(31,39,31,39)</li>
+        <li>(33,39,33,39)</li>
+        <li>(37,39,37,40)</li>
+        <li>(52,39,55,39)</li>
+        <li>(2,40,2,40)</li>
+        <li>(12,40,12,40)</li>
+        <li>(14,41,14,41)</li>
+        <li>(22,41,23,41)</li>
+        <li>(28,42,28,42)</li>
+        <li>(45,42,45,42)</li>
+        <li>(6,43,6,43)</li>
+        <li>(37,46,37,46)</li>
+        <li>(2,47,2,47)</li>
+        <li>(14,47,14,47)</li>
+        <li>(26,47,26,47)</li>
+        <li>(28,47,28,47)</li>
+        <li>(31,47,31,47)</li>
+        <li>(28,51,28,51)</li>
+        <li>(45,51,45,51)</li>
+      </rects>
+      <hp>40</hp>
+    </VFE_FloorLamp>
+    <UFLI_TempControler>
+      <rects>
+        <li>(89,10,89,10)</li>
+        <li>(4,21,4,21)</li>
+        <li>(29,21,29,21)</li>
+        <li>(81,21,81,21)</li>
+        <li>(93,21,93,21)</li>
+        <li>(26,34,26,34)</li>
+        <li>(3,38,3,38)</li>
+        <li>(19,39,19,39)</li>
+        <li>(27,39,27,39)</li>
+        <li>(33,40,34,40)</li>
+        <li>(43,40,43,40)</li>
+        <li>(50,40,50,40)</li>
+        <li>(7,47,7,47)</li>
+        <li>(10,47,10,47)</li>
+        <li>(20,47,20,47)</li>
+      </rects>
+      <hp>100</hp>
+    </UFLI_TempControler>
+    <UFLI_Decoration_Big_Flower>
+      <rects>
+        <li>(96,10,96,10)</li>
+        <li>(48,11,48,11)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>80</hp>
+    </UFLI_Decoration_Big_Flower>
+    <UFLI_Container_2X2_AS>
+      <positions>
+        <li>(2, 0, 11)</li>
+        <li>(4, 0, 11)</li>
+        <li>(6, 0, 11)</li>
+        <li>(9, 0, 11)</li>
+        <li>(11, 0, 11)</li>
+        <li>(9, 0, 13)</li>
+        <li>(2, 0, 16)</li>
+        <li>(2, 0, 18)</li>
+        <li>(2, 0, 20)</li>
+        <li>(5, 0, 20)</li>
+        <li>(33, 0, 29)</li>
+        <li>(33, 0, 31)</li>
+        <li>(33, 0, 33)</li>
+        <li>(33, 0, 35)</li>
+        <li>(88, 0, 36)</li>
+        <li>(33, 0, 37)</li>
+        <li>(33, 0, 39)</li>
+      </positions>
+      <hp>500</hp>
+    </UFLI_Container_2X2_AS>
+    <HMC_Wall_Vitals_Monitor>
+      <rects>
+        <li>(14,11,14,11)</li>
+        <li>(17,11,17,11)</li>
+        <li>(20,11,20,11)</li>
+        <li>(23,11,23,11)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>100</hp>
+    </HMC_Wall_Vitals_Monitor>
+    <GlitterworldHospitalBedSW>
+      <positions>
+        <li>(15, 0, 11)</li>
+        <li>(18, 0, 11)</li>
+        <li>(21, 0, 11)</li>
+        <li>(24, 0, 11)</li>
+        <li>(15, 0, 17)</li>
+        <li>(18, 0, 17)</li>
+        <li>(21, 0, 17)</li>
+        <li>(24, 0, 17)</li>
+      </positions>
+      <quality>Normal</quality>
+      <hp>180</hp>
+      <color>RGBA(0.388, 0.624, 0.886, 1.000)</color>
+    </GlitterworldHospitalBedSW>
+    <UFLI_TempControler>
+      <rects>
+        <li>(16,11,16,11)</li>
+        <li>(14,28,14,28)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>100</hp>
+    </UFLI_TempControler>
+    <GlitterworldHospitalBedSW>
+      <positions>
+        <li>(26, 0, 11)</li>
+        <li>(29, 0, 11)</li>
+        <li>(32, 0, 11)</li>
+        <li>(36, 0, 11)</li>
+      </positions>
+      <quality>Normal</quality>
+      <hp>180</hp>
+      <color>RGBA(0.655, 0.376, 0.153, 1.000)</color>
+    </GlitterworldHospitalBedSW>
+    <Facility_IVDrip>
+      <rects>
+        <li>(27,11,27,11)</li>
+        <li>(30,11,30,11)</li>
+        <li>(33,11,33,11)</li>
+        <li>(35,11,35,11)</li>
+        <li>(15,13,15,13)</li>
+        <li>(18,13,18,13)</li>
+        <li>(21,13,21,13)</li>
+        <li>(24,13,24,13)</li>
+        <li>(15,16,15,16)</li>
+        <li>(18,16,18,16)</li>
+        <li>(21,16,21,16)</li>
+        <li>(24,16,24,16)</li>
+        <li>(15,19,15,19)</li>
+        <li>(18,19,18,19)</li>
+        <li>(21,19,21,19)</li>
+        <li>(24,19,24,19)</li>
+      </rects>
+      <hp>50</hp>
+    </Facility_IVDrip>
+    <UFLI_DoubleBed>
+      <positions>
+        <li>(38, 0, 11)</li>
+        <li>(40, 0, 11)</li>
+        <li>(43, 0, 11)</li>
+        <li>(46, 0, 11)</li>
+      </positions>
+      <quality>Normal</quality>
+      <hp>300</hp>
+      <color>RGBA(0.631, 0.835, 0.706, 1.000)</color>
+    </UFLI_DoubleBed>
+    <UFLI_Endtable>
+      <rects>
+        <li>(42,11,42,11)</li>
+        <li>(45,11,45,11)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>90</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Endtable>
+    <UFLI_2_Autodoor>
+      <positions>
+        <li>(91, 0, 11)</li>
+        <li>(79, 0, 22)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Shirehorseium</stuff>
+      <hp>25200</hp>
+      <color>RGBA(0.902, 0.910, 0.980, 1.000)</color>
+    </UFLI_2_Autodoor>
+    <Column>
+      <rects>
+        <li>(55,12,55,12)</li>
+        <li>(64,12,64,12)</li>
+      </rects>
+      <stuff>BMT_AmberResource</stuff>
+      <hp>64</hp>
+      <color>RGBA(1.000, 0.761, 0.000, 1.000)</color>
+    </Column>
+    <AdvBF_HeavyPlatform>
+      <rects>
+        <li>(74,12,97,21)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Gold</stuff>
+      <hp>300</hp>
+      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
+    </AdvBF_HeavyPlatform>
+    <UFLI_3_Autodoor>
+      <positions>
+        <li>(13, 0, 14)</li>
+        <li>(98, 0, 29)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Gold</stuff>
+      <hp>900</hp>
+      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
+    </UFLI_3_Autodoor>
+    <Facility_VitalsCentre>
+      <position>(32, 0, 14)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>150</hp>
+    </Facility_VitalsCentre>
+    <Classic_Candles>
+      <rects>
+        <li>(2,14,2,14)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>45</hp>
+    </Classic_Candles>
+    <GlitterworldHospitalBedSW>
+      <positions>
+        <li>(15, 0, 15)</li>
+        <li>(18, 0, 15)</li>
+        <li>(21, 0, 15)</li>
+        <li>(24, 0, 15)</li>
+        <li>(15, 0, 21)</li>
+        <li>(18, 0, 21)</li>
+        <li>(21, 0, 21)</li>
+        <li>(24, 0, 21)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <quality>Normal</quality>
+      <hp>180</hp>
+      <color>RGBA(0.388, 0.624, 0.886, 1.000)</color>
+    </GlitterworldHospitalBedSW>
+    <UFLI_Bed>
+      <position>(38, 0, 14)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <quality>Awful</quality>
+      <hp>200</hp>
+      <color>RGBA(0.631, 0.835, 0.706, 1.000)</color>
+    </UFLI_Bed>
+    <UFLI_Bed>
+      <position>(40, 0, 14)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <quality>Poor</quality>
+      <hp>200</hp>
+      <color>RGBA(0.631, 0.835, 0.706, 1.000)</color>
+    </UFLI_Bed>
+    <UFLI_Bed>
+      <position>(42, 0, 15)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <quality>Poor</quality>
+      <hp>200</hp>
+      <color>RGBA(0.631, 0.835, 0.706, 1.000)</color>
+    </UFLI_Bed>
+    <UFLI_Bed>
+      <positions>
+        <li>(43, 0, 15)</li>
+        <li>(44, 0, 15)</li>
+        <li>(45, 0, 15)</li>
+        <li>(46, 0, 15)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <quality>Normal</quality>
+      <hp>200</hp>
+      <color>RGBA(0.631, 0.835, 0.706, 1.000)</color>
+    </UFLI_Bed>
+    <ADH_chair_C_A_FURNITURE>
+      <rects>
+        <li>(6,15,6,15)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>325</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </ADH_chair_C_A_FURNITURE>
+    <DarkColumnMod>
+      <rects>
+        <li>(7,15,7,15)</li>
+      </rects>
+      <hp>200</hp>
+    </DarkColumnMod>
+    <Facility_VitalsCentre>
+      <position>(20, 0, 16)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>150</hp>
+    </Facility_VitalsCentre>
+    <RRShanghaiSofa>
+      <positions>
+        <li>(26, 0, 15)</li>
+        <li>(28, 0, 15)</li>
+      </positions>
+      <stuff>RI_Resource_GoldenSilk</stuff>
+      <quality>Normal</quality>
+      <hp>260</hp>
+      <color>RGBA(0.839, 0.725, 0.220, 1.000)</color>
+    </RRShanghaiSofa>
+    <UFLI_TempControler>
+      <rects>
+        <li>(38,15,38,15)</li>
+        <li>(28,42,28,42)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>100</hp>
+    </UFLI_TempControler>
+    <UFLI_CabinetC>
+      <positions>
+        <li>(39, 0, 15)</li>
+        <li>(41, 0, 15)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>250</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_CabinetC>
+    <HMC_Wall_OrbitalTradeBeacon>
+      <rects>
+        <li>(2,16,2,16)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>100</hp>
+    </HMC_Wall_OrbitalTradeBeacon>
+    <ElectricSmelter>
+      <position>(6, 0, 16)</position>
+      <hp>180</hp>
+    </ElectricSmelter>
+    <HiddenConduit>
+      <rects>
+        <li>(7,16,12,16)</li>
+        <li>(19,23,19,26)</li>
+        <li>(41,26,41,27)</li>
+        <li>(46,26,46,26)</li>
+        <li>(48,26,48,26)</li>
+        <li>(40,27,40,27)</li>
+        <li>(42,27,42,27)</li>
+        <li>(31,33,31,33)</li>
+        <li>(33,33,34,33)</li>
+        <li>(36,33,47,33)</li>
+        <li>(39,34,39,38)</li>
+        <li>(14,36,24,36)</li>
+        <li>(25,39,25,39)</li>
+        <li>(38,39,38,39)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <MigcorpSkipdoor>
+      <rects>
+        <li>(8,16,8,16)</li>
+        <li>(7,25,7,25)</li>
+        <li>(40,25,40,25)</li>
+        <li>(22,26,22,26)</li>
+        <li>(53,29,53,29)</li>
+      </rects>
+      <hp>120</hp>
+    </MigcorpSkipdoor>
+    <HMC_Wall_OrbitalTradeBeacon>
+      <rects>
+        <li>(12,16,12,16)</li>
+        <li>(34,34,34,34)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>100</hp>
+    </HMC_Wall_OrbitalTradeBeacon>
+    <HMC_Wall_Vitals_Monitor>
+      <rects>
+        <li>(14,16,14,16)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>100</hp>
+    </HMC_Wall_Vitals_Monitor>
+    <VFE_TableStonecutterElectric>
+      <position>(6, 0, 17)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Gold</stuff>
+      <hp>108</hp>
+      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
+    </VFE_TableStonecutterElectric>
+    <AKN_RestoringPlush>
+      <rects>
+        <li>(20,17,20,17)</li>
+        <li>(14,44,14,44)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>RI_Resource_GoldenSilk</stuff>
+      <quality>Normal</quality>
+      <hp>39</hp>
+      <color>RGBA(0.839, 0.725, 0.220, 1.000)</color>
+    </AKN_RestoringPlush>
+    <Table2x4c>
+      <position>(27, 0, 18)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>NY_RefinedIron</stuff>
+      <quality>Normal</quality>
+      <hp>225</hp>
+      <color>RGBA(0.863, 0.863, 0.863, 1.000)</color>
+    </Table2x4c>
+    <TableFaro>
+      <rects>
+        <li>(30,17,30,17)</li>
+      </rects>
+      <stuff>HX_MilitaryCeramics</stuff>
+      <quality>Normal</quality>
+      <hp>250</hp>
+      <color>RGBA(0.631, 0.792, 0.827, 1.000)</color>
+    </TableFaro>
+    <UFLI_CouchDouble>
+      <positions>
+        <li>(38, 0, 17)</li>
+        <li>(40, 0, 17)</li>
+      </positions>
+      <stuff>Cloth</stuff>
+      <quality>Normal</quality>
+      <hp>300</hp>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </UFLI_CouchDouble>
+    <UFLI_TinyChair>
+      <rects>
+        <li>(42,17,43,17)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>80</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_TinyChair>
+    <ucp_tablelamp>
+      <rects>
+        <li>(26,18,26,18)</li>
+      </rects>
+      <hp>50</hp>
+    </ucp_tablelamp>
+    <LavalampB>
+      <rects>
+        <li>(29,18,29,18)</li>
+      </rects>
+      <hp>50</hp>
+    </LavalampB>
+    <Holodeck_AI>
+      <rects>
+        <li>(33,18,33,18)</li>
+      </rects>
+      <hp>185</hp>
+    </Holodeck_AI>
+    <UFLI_laptop>
+      <rects>
+        <li>(38,18,38,18)</li>
+        <li>(40,18,40,18)</li>
+        <li>(14,36,15,36)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>120</hp>
+    </UFLI_laptop>
+    <UFLI_2X4_Table>
+      <position>(39, 0, 18)</position>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>250</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_2X4_Table>
+    <SEX_Paper>
+      <rects>
+        <li>(41,18,41,18)</li>
+      </rects>
+      <hp>20</hp>
+    </SEX_Paper>
+    <UFLI_ChessTable>
+      <rects>
+        <li>(44,18,44,18)</li>
+      </rects>
+      <quality>Normal</quality>
+      <hp>100</hp>
+    </UFLI_ChessTable>
+    <UFLI_Decoration_Flower>
+      <rects>
+        <li>(41,19,41,19)</li>
+        <li>(3,33,3,33)</li>
+        <li>(2,40,2,40)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>20</hp>
+    </UFLI_Decoration_Flower>
+    <UFLI_TinyChair>
+      <rects>
+        <li>(44,19,44,19)</li>
+        <li>(42,20,43,20)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>80</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_TinyChair>
+    <RRPalermoBasin>
+      <rects>
+        <li>(60,19,60,19)</li>
+        <li>(64,19,64,19)</li>
+        <li>(67,19,67,19)</li>
+        <li>(71,19,71,19)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Gold</stuff>
+      <quality>Normal</quality>
+      <hp>45</hp>
+    </RRPalermoBasin>
+    <UFLI_CarpetB>
+      <position>(47, 0, 21)</position>
+      <stuff>Cloth</stuff>
+      <quality>Normal</quality>
+      <hp>400</hp>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </UFLI_CarpetB>
+    <UFLI_Wall_Cable_NAWDiagonal>
+      <rects>
+        <li>(85,20,85,20)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Milira_Neutronium</stuff>
+      <hp>28775</hp>
+      <color>RGBA(0.800, 0.800, 0.800, 1.000)</color>
+    </UFLI_Wall_Cable_NAWDiagonal>
+    <Classic_Candles>
+      <rects>
+        <li>(5,21,5,21)</li>
+      </rects>
+      <hp>45</hp>
+    </Classic_Candles>
+    <HMC_Wall_Vitals_Monitor>
+      <rects>
+        <li>(16,21,17,21)</li>
+        <li>(20,21,20,21)</li>
+        <li>(23,21,23,21)</li>
+      </rects>
+      <hp>100</hp>
+    </HMC_Wall_Vitals_Monitor>
+    <Colorful_Multi_Screen_TV>
+      <rects>
+        <li>(27,21,27,21)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>100</hp>
+    </Colorful_Multi_Screen_TV>
+    <MUS_SpaceBase_TropicalPotted>
+      <rects>
+        <li>(28,21,28,21)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </MUS_SpaceBase_TropicalPotted>
+    <UFLI_Hugescreen>
+      <positions>
+        <li>(40, 0, 21)</li>
+        <li>(16, 0, 39)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>400</hp>
+    </UFLI_Hugescreen>
+    <UFLI_Bookshelf_AS>
+      <rects>
+        <li>(43,21,44,21)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>100</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Bookshelf_AS>
+    <MI_Building_FloodLight>
+      <rects>
+        <li>(45,21,45,21)</li>
+        <li>(2,28,2,28)</li>
+        <li>(21,32,21,32)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>240</hp>
+    </MI_Building_FloodLight>
+    <BathMat>
+      <rects>
+        <li>(51,21,53,21)</li>
+        <li>(26,38,27,38)</li>
+      </rects>
+      <stuff>RI_Resource_GoldenSilk</stuff>
+      <hp>65</hp>
+      <color>RGBA(0.839, 0.725, 0.220, 1.000)</color>
+    </BathMat>
+    <UFLI_3_Autodoor>
+      <positions>
+        <li>(10, 0, 22)</li>
+        <li>(35, 0, 22)</li>
+        <li>(47, 0, 22)</li>
+        <li>(52, 0, 22)</li>
+        <li>(5, 0, 27)</li>
+        <li>(21, 0, 27)</li>
+        <li>(41, 0, 27)</li>
+      </positions>
+      <stuff>Gold</stuff>
+      <hp>900</hp>
+      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
+    </UFLI_3_Autodoor>
+    <UFLI_1_Autodoor>
+      <rects>
+        <li>(14,22,14,22)</li>
+      </rects>
+      <stuff>WSGR_Armorsteel</stuff>
+      <hp>4200</hp>
+      <color>RGBA(0.600, 0.600, 0.600, 1.000)</color>
+    </UFLI_1_Autodoor>
+    <LTS_TilesBorderEdge>
+      <rects>
+        <li>(34,22,36,22)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksGranite</stuff>
+      <hp>17</hp>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </LTS_TilesBorderEdge>
+    <UFLI_2_Autodoor>
+      <positions>
+        <li>(90, 0, 22)</li>
+        <li>(50, 0, 30)</li>
+        <li>(65, 0, 30)</li>
+      </positions>
+      <stuff>Shirehorseium</stuff>
+      <hp>25200</hp>
+      <color>RGBA(0.902, 0.910, 0.980, 1.000)</color>
+    </UFLI_2_Autodoor>
+    <RM_MoelotlCallBoard>
+      <position>(17, 0, 26)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Gold</stuff>
+      <hp>69</hp>
+      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
+    </RM_MoelotlCallBoard>
+    <sewagePipeHidden>
+      <rects>
+        <li>(25,26,25,36)</li>
+        <li>(11,28,11,28)</li>
+        <li>(35,30,35,30)</li>
+        <li>(12,31,12,36)</li>
+        <li>(42,32,42,32)</li>
+        <li>(47,34,48,34)</li>
+        <li>(44,35,45,35)</li>
+        <li>(13,36,23,36)</li>
+        <li>(28,37,30,37)</li>
+        <li>(32,37,35,37)</li>
+        <li>(30,38,30,38)</li>
+      </rects>
+      <stuff>Milira_Neutronium</stuff>
+      <hp>1200</hp>
+      <color>RGBA(0.800, 0.800, 0.800, 1.000)</color>
+    </sewagePipeHidden>
+    <UFLI_3_Frame_DOOR>
+      <position>(21, 0, 27)</position>
+      <stuff>KT_steel</stuff>
+      <hp>12000</hp>
+    </UFLI_3_Frame_DOOR>
+    <UFLI_2_Autodoor>
+      <position>(33, 0, 27)</position>
+      <stuff>Gold</stuff>
+      <hp>840</hp>
+      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
+    </UFLI_2_Autodoor>
+    <SewageOutlet>
+      <rects>
+        <li>(47,27,47,27)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>150</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </SewageOutlet>
+    <RRPalermoBasin>
+      <rects>
+        <li>(10,28,10,28)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Gold</stuff>
+      <quality>Normal</quality>
+      <hp>45</hp>
+    </RRPalermoBasin>
+    <RadiatorTowelRail>
+      <rects>
+        <li>(12,28,12,28)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Gold</stuff>
+      <hp>90</hp>
+    </RadiatorTowelRail>
     <ADH_rug_C_A_FURNITURE>
-      <position>(2, 0, 2)</position>
+      <position>(15, 0, 29)</position>
       <stuff>RI_Resource_GoldenSilk</stuff>
       <hp>650</hp>
       <color>RGBA(0.839, 0.725, 0.220, 1.000)</color>
     </ADH_rug_C_A_FURNITURE>
     <UFLI_Couch>
       <rects>
-        <li>(2,1,3,1)</li>
+        <li>(15,28,16,28)</li>
       </rects>
       <stuff>Milira_FeatherThread</stuff>
       <quality>Normal</quality>
       <hp>440</hp>
     </UFLI_Couch>
+    <GD_MoyuguFufu>
+      <rects>
+        <li>(15,28,15,28)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>300</hp>
+    </GD_MoyuguFufu>
+    <GD_BaizhiFufu>
+      <rects>
+        <li>(16,28,16,28)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>300</hp>
+    </GD_BaizhiFufu>
     <KT_wallTV>
-      <position>(4, 0, 1)</position>
+      <position>(17, 0, 28)</position>
       <relativeRotation>Opposite</relativeRotation>
       <hp>120</hp>
     </KT_wallTV>
     <ADH_rug_E_A_FURNITURE>
-      <position>(8, 0, 1)</position>
+      <position>(21, 0, 28)</position>
       <stuff>Cloth</stuff>
       <hp>500</hp>
       <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
     </ADH_rug_E_A_FURNITURE>
     <UFLI_1_Autodoor>
       <rects>
-        <li>(12,1,12,1)</li>
-        <li>(12,12,12,12)</li>
+        <li>(25,28,25,28)</li>
+        <li>(25,39,25,39)</li>
       </rects>
       <relativeRotation>Clockwise</relativeRotation>
       <stuff>Milira_Neutronium</stuff>
@@ -903,32 +2943,55 @@
     </UFLI_1_Autodoor>
     <UFLI_Refrigerator_AS>
       <rects>
-        <li>(16,1,18,1)</li>
+        <li>(29,28,31,28)</li>
       </rects>
       <stuff>Milira_SplendidSteel</stuff>
       <hp>180</hp>
     </UFLI_Refrigerator_AS>
+    <SewageTreatment>
+      <position>(45, 0, 30)</position>
+      <hp>350</hp>
+    </SewageTreatment>
+    <Wolfein_2x3_Carpet>
+      <position>(4, 0, 30)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Cloth</stuff>
+      <hp>600</hp>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </Wolfein_2x3_Carpet>
+    <UFLI_2_Autodoor>
+      <position>(7, 0, 30)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Gold</stuff>
+      <hp>840</hp>
+      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
+    </UFLI_2_Autodoor>
     <UFLI_Couch>
       <rects>
-        <li>(1,2,1,3)</li>
+        <li>(14,29,14,30)</li>
       </rects>
       <relativeRotation>Clockwise</relativeRotation>
       <stuff>Milira_FeatherThread</stuff>
       <quality>Normal</quality>
       <hp>440</hp>
     </UFLI_Couch>
-    <UFLI_PokerTable>
-      <position>(2, 0, 2)</position>
-      <quality>Normal</quality>
-      <hp>250</hp>
-    </UFLI_PokerTable>
+    <GD_KiiroFufu>
+      <rects>
+        <li>(14,29,14,29)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>300</hp>
+    </GD_KiiroFufu>
     <PNC_Winter_Feast>
-      <position>(2, 0, 2)</position>
+      <positions>
+        <li>(15, 0, 29)</li>
+        <li>(2, 0, 42)</li>
+      </positions>
       <hp>10</hp>
     </PNC_Winter_Feast>
     <UFLI_Couch>
       <rects>
-        <li>(4,2,4,3)</li>
+        <li>(17,29,17,30)</li>
       </rects>
       <relativeRotation>Counterclockwise</relativeRotation>
       <stuff>Milira_FeatherThread</stuff>
@@ -937,78 +3000,98 @@
     </UFLI_Couch>
     <GD_QiuciFufu>
       <rects>
-        <li>(4,2,4,2)</li>
+        <li>(17,29,17,29)</li>
       </rects>
       <relativeRotation>Opposite</relativeRotation>
       <hp>300</hp>
     </GD_QiuciFufu>
     <SculptureLarge>
       <rects>
-        <li>(11,2,11,2)</li>
-        <li>(6,10,6,10)</li>
+        <li>(24,29,24,29)</li>
+        <li>(19,37,19,37)</li>
       </rects>
       <stuff>Gold</stuff>
       <quality>Legendary</quality>
       <hp>90</hp>
       <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
     </SculptureLarge>
-    <ADH_rug_D_A_FURNITURE>
-      <position>(15, 0, 4)</position>
-      <stuff>Cloth</stuff>
-      <hp>500</hp>
-      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
-    </ADH_rug_D_A_FURNITURE>
-    <UFLI_Walllamp>
-      <rects>
-        <li>(18,2,18,2)</li>
-        <li>(13,16,13,16)</li>
-        <li>(18,17,18,17)</li>
-      </rects>
-      <relativeRotation>Clockwise</relativeRotation>
+    <WaterTowerL>
+      <positions>
+        <li>(37, 0, 30)</li>
+        <li>(40, 0, 30)</li>
+        <li>(37, 0, 33)</li>
+        <li>(40, 0, 33)</li>
+      </positions>
       <hp>150</hp>
-    </UFLI_Walllamp>
+    </WaterTowerL>
+    <UFLI_Decoration_Big_garbagecan>
+      <rects>
+        <li>(8,30,8,30)</li>
+        <li>(31,36,31,36)</li>
+      </rects>
+      <hp>80</hp>
+    </UFLI_Decoration_Big_garbagecan>
+    <ShowerAdvStuff>
+      <rects>
+        <li>(10,30,10,30)</li>
+        <li>(28,36,28,36)</li>
+      </rects>
+      <stuff>Milira_Neutronium</stuff>
+      <hp>900</hp>
+    </ShowerAdvStuff>
+    <Prop_TowelRack>
+      <rects>
+        <li>(11,30,11,30)</li>
+      </rects>
+      <hp>10</hp>
+    </Prop_TowelRack>
     <GD_BrideFufu>
       <rects>
-        <li>(1,3,1,3)</li>
+        <li>(14,30,14,30)</li>
       </rects>
       <relativeRotation>Opposite</relativeRotation>
       <hp>300</hp>
     </GD_BrideFufu>
     <GD_ZixiadieFufu>
       <rects>
-        <li>(4,3,4,3)</li>
+        <li>(17,30,17,30)</li>
       </rects>
       <relativeRotation>Opposite</relativeRotation>
       <hp>300</hp>
     </GD_ZixiadieFufu>
     <VCE_GrandFestiveTree>
       <rects>
-        <li>(8,3,8,3)</li>
+        <li>(21,30,21,30)</li>
       </rects>
       <quality>Normal</quality>
       <hp>200</hp>
     </VCE_GrandFestiveTree>
+    <PFS_CubeLight>
+      <rects>
+        <li>(24,30,24,30)</li>
+      </rects>
+      <hp>50</hp>
+    </PFS_CubeLight>
     <ADH_tea_table_A_A_FURNITURE>
-      <position>(11, 0, 4)</position>
+      <position>(24, 0, 31)</position>
       <relativeRotation>Opposite</relativeRotation>
       <stuff>Gold</stuff>
       <quality>Normal</quality>
       <hp>300</hp>
       <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
     </ADH_tea_table_A_A_FURNITURE>
-    <PFS_CubeLight>
-      <rects>
-        <li>(11,3,11,3)</li>
-      </rects>
-      <hp>50</hp>
-    </PFS_CubeLight>
     <OARO_WineDisplayShelf>
-      <position>(13, 0, 3)</position>
+      <position>(26, 0, 30)</position>
       <hp>75</hp>
     </OARO_WineDisplayShelf>
+    <Mosaic_Pattern_Carpet>
+      <position>(28, 0, 31)</position>
+      <quality>Normal</quality>
+      <hp>140</hp>
+    </Mosaic_Pattern_Carpet>
     <UFLI_Couch>
       <rects>
-        <li>(2,4,3,4)</li>
+        <li>(15,31,16,31)</li>
       </rects>
       <relativeRotation>Opposite</relativeRotation>
       <stuff>Milira_FeatherThread</stuff>
@@ -1017,103 +3100,108 @@
     </UFLI_Couch>
     <GD_TaoistFufu>
       <rects>
-        <li>(2,4,2,4)</li>
+        <li>(15,31,15,31)</li>
       </rects>
       <relativeRotation>Opposite</relativeRotation>
       <hp>300</hp>
     </GD_TaoistFufu>
     <GD_MiliraFufu>
       <rects>
-        <li>(3,4,3,4)</li>
+        <li>(16,31,16,31)</li>
       </rects>
       <relativeRotation>Opposite</relativeRotation>
       <hp>300</hp>
     </GD_MiliraFufu>
+    <PFS_StoolB>
+      <rects>
+        <li>(18,31,20,31)</li>
+        <li>(26,33,26,33)</li>
+        <li>(29,33,29,33)</li>
+        <li>(3,35,3,35)</li>
+      </rects>
+      <quality>Normal</quality>
+      <hp>75</hp>
+    </PFS_StoolB>
     <VCE_FestiveRug_Broad>
-      <position>(9, 0, 5)</position>
+      <position>(22, 0, 32)</position>
       <hp>100</hp>
       <color>RGBA(0.900, 0.900, 0.900, 1.000)</color>
     </VCE_FestiveRug_Broad>
     <GD_LancerDoll>
       <rects>
-        <li>(11,4,11,4)</li>
+        <li>(24,31,24,31)</li>
       </rects>
       <hp>300</hp>
     </GD_LancerDoll>
-    <UFLI_Walllamp>
-      <rects>
-        <li>(13,4,13,4)</li>
-        <li>(1,16,1,16)</li>
-        <li>(15,17,15,17)</li>
-        <li>(15,20,15,20)</li>
-      </rects>
-      <relativeRotation>Counterclockwise</relativeRotation>
-      <hp>150</hp>
-    </UFLI_Walllamp>
     <VCE_CondimentPrepTable>
-      <position>(14, 0, 4)</position>
+      <position>(27, 0, 31)</position>
       <relativeRotation>Opposite</relativeRotation>
       <hp>50</hp>
     </VCE_CondimentPrepTable>
     <Prop_SpiceRack>
       <rects>
-        <li>(14,4,14,4)</li>
+        <li>(27,31,27,31)</li>
       </rects>
       <relativeRotation>Counterclockwise</relativeRotation>
       <hp>10</hp>
     </Prop_SpiceRack>
-    <Table1x2c>
-      <position>(15, 0, 4)</position>
-      <relativeRotation>Clockwise</relativeRotation>
-      <stuff>Milira_Neutronium</stuff>
-      <quality>Normal</quality>
-      <hp>900</hp>
-      <color>RGBA(0.800, 0.800, 0.800, 1.000)</color>
-    </Table1x2c>
     <Prop_Black_Forest_Cake>
       <rects>
-        <li>(15,4,15,4)</li>
+        <li>(28,31,28,31)</li>
+        <li>(36,45,36,45)</li>
       </rects>
       <hp>10</hp>
     </Prop_Black_Forest_Cake>
     <Prop_Roll_Cake>
       <rects>
-        <li>(15,4,15,4)</li>
+        <li>(28,31,28,31)</li>
       </rects>
       <relativeRotation>Clockwise</relativeRotation>
       <hp>10</hp>
     </Prop_Roll_Cake>
     <Prop_Tiramisu>
       <rects>
-        <li>(15,4,15,4)</li>
+        <li>(28,31,28,31)</li>
       </rects>
       <relativeRotation>Counterclockwise</relativeRotation>
       <hp>10</hp>
     </Prop_Tiramisu>
+    <MUS_SpaceBase_BarCounter>
+      <rects>
+        <li>(28,31,29,31)</li>
+      </rects>
+      <stuff>WSGR_Armorsteel</stuff>
+      <quality>Normal</quality>
+      <hp>700</hp>
+      <color>RGBA(0.600, 0.600, 0.600, 1.000)</color>
+    </MUS_SpaceBase_BarCounter>
     <Prop_BabyBottle>
       <rects>
-        <li>(16,4,16,4)</li>
+        <li>(29,31,29,31)</li>
       </rects>
       <relativeRotation>Opposite</relativeRotation>
       <hp>10</hp>
     </Prop_BabyBottle>
     <Prop_Toaster>
       <rects>
-        <li>(16,4,16,4)</li>
+        <li>(29,31,29,31)</li>
       </rects>
       <hp>10</hp>
     </Prop_Toaster>
-    <UFLI_Big_Window>
-      <rects>
-        <li>(1,5,1,6)</li>
-        <li>(1,18,1,18)</li>
-      </rects>
-      <relativeRotation>Counterclockwise</relativeRotation>
+    <MechBooster>
+      <position>(57, 0, 31)</position>
       <hp>150</hp>
-    </UFLI_Big_Window>
+    </MechBooster>
+    <UFLI_Hugescreen>
+      <positions>
+        <li>(10, 0, 32)</li>
+        <li>(10, 0, 40)</li>
+      </positions>
+      <hp>400</hp>
+    </UFLI_Hugescreen>
     <UFLI_CabinetF>
       <rects>
-        <li>(1,5,1,5)</li>
+        <li>(14,32,14,32)</li>
       </rects>
       <relativeRotation>Opposite</relativeRotation>
       <stuff>Gold</stuff>
@@ -1122,94 +3210,123 @@
       <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
     </UFLI_CabinetF>
     <UFLI_CabinetC>
-      <position>(3, 0, 5)</position>
+      <positions>
+        <li>(16, 0, 32)</li>
+        <li>(5, 0, 38)</li>
+      </positions>
       <relativeRotation>Opposite</relativeRotation>
       <stuff>Gold</stuff>
       <quality>Normal</quality>
       <hp>150</hp>
       <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
     </UFLI_CabinetC>
-    <MUS_SpaceBase_WallDecorPlants>
-      <rects>
-        <li>(4,5,4,5)</li>
-      </rects>
-      <hp>35</hp>
-    </MUS_SpaceBase_WallDecorPlants>
     <Milira_BeanBagSofa>
       <rects>
-        <li>(4,5,4,5)</li>
+        <li>(17,32,17,32)</li>
+        <li>(42,44,42,44)</li>
       </rects>
       <relativeRotation>Opposite</relativeRotation>
       <quality>Normal</quality>
       <hp>100</hp>
     </Milira_BeanBagSofa>
+    <MUS_SpaceBase_WallDecorPlants>
+      <rects>
+        <li>(17,32,17,32)</li>
+        <li>(4,47,4,47)</li>
+      </rects>
+      <hp>35</hp>
+    </MUS_SpaceBase_WallDecorPlants>
     <TY_XGDZQ>
-      <position>(6, 0, 5)</position>
+      <position>(19, 0, 32)</position>
       <quality>Normal</quality>
       <hp>70</hp>
     </TY_XGDZQ>
-    <MI_Building_FloodLight>
-      <rects>
-        <li>(8,5,8,5)</li>
-        <li>(15,20,15,20)</li>
-      </rects>
-      <relativeRotation>Opposite</relativeRotation>
-      <hp>240</hp>
-    </MI_Building_FloodLight>
     <OARO_OrderFloorClock_B>
       <rects>
-        <li>(11,5,11,5)</li>
+        <li>(24,32,24,32)</li>
       </rects>
       <quality>Normal</quality>
       <hp>150</hp>
     </OARO_OrderFloorClock_B>
-    <GD_KiiroFufu>
-      <rects>
-        <li>(13,5,13,5)</li>
-      </rects>
-      <relativeRotation>Counterclockwise</relativeRotation>
-      <hp>300</hp>
-    </GD_KiiroFufu>
+    <CommsConsole>
+      <position>(49, 0, 33)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>250</hp>
+    </CommsConsole>
+    <Wolfein_1x2_Table>
+      <position>(3, 0, 33)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <quality>Normal</quality>
+      <hp>400</hp>
+    </Wolfein_1x2_Table>
     <RL_Paint_Traveler>
       <rects>
-        <li>(5,6,5,6)</li>
+        <li>(18,33,18,33)</li>
       </rects>
       <quality>Normal</quality>
       <hp>120</hp>
     </RL_Paint_Traveler>
     <RL_Paint_MonaLisa>
       <rects>
-        <li>(6,6,6,6)</li>
+        <li>(19,33,19,33)</li>
       </rects>
       <quality>Normal</quality>
       <hp>120</hp>
     </RL_Paint_MonaLisa>
     <RL_Paint_VanGogh>
       <rects>
-        <li>(7,6,7,6)</li>
+        <li>(20,33,20,33)</li>
       </rects>
       <quality>Normal</quality>
       <hp>120</hp>
     </RL_Paint_VanGogh>
     <UFLI_Doorcurtain>
       <rects>
-        <li>(9,6,10,6)</li>
+        <li>(22,33,23,33)</li>
       </rects>
       <stuff>RI_Resource_GoldenSilk</stuff>
       <hp>78</hp>
       <color>RGBA(0.839, 0.725, 0.220, 1.000)</color>
     </UFLI_Doorcurtain>
-    <CTE_NanoSweep_Mark_III>
-      <rects>
-        <li>(18,6,18,6)</li>
-        <li>(6,12,6,12)</li>
-      </rects>
-      <hp>160</hp>
-    </CTE_NanoSweep_Mark_III>
+    <HiTechResearchBench>
+      <position>(56, 0, 33)</position>
+      <stuff>Gold</stuff>
+      <hp>150</hp>
+      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
+    </HiTechResearchBench>
+    <MF_BrickStairsMDownA>
+      <position>(69, 0, 33)</position>
+      <stuff>BMT_AmberResource</stuff>
+      <color>RGBA(1.000, 0.761, 0.000, 1.000)</color>
+    </MF_BrickStairsMDownA>
+    <TY_XGDZQ>
+      <position>(2, 0, 35)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <quality>Normal</quality>
+      <hp>70</hp>
+    </TY_XGDZQ>
+    <UFLI_Bookcase>
+      <position>(8, 0, 34)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Gold</stuff>
+      <hp>120</hp>
+      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
+    </UFLI_Bookcase>
+    <UFLI_2X4_Table>
+      <positions>
+        <li>(10, 0, 34)</li>
+        <li>(15, 0, 36)</li>
+        <li>(35, 0, 45)</li>
+      </positions>
+      <stuff>Gold</stuff>
+      <quality>Normal</quality>
+      <hp>150</hp>
+      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
+    </UFLI_2X4_Table>
     <UFLI_CouchDouble>
       <positions>
-        <li>(1, 0, 7)</li>
-        <li>(3, 0, 7)</li>
+        <li>(14, 0, 34)</li>
+        <li>(16, 0, 34)</li>
       </positions>
       <stuff>RI_Resource_GoldenSilk</stuff>
       <quality>Normal</quality>
@@ -1218,265 +3335,319 @@
     </UFLI_CouchDouble>
     <ADH_rug_G_A_FURNITURE>
       <positions>
-        <li>(2, 0, 8)</li>
-        <li>(3, 0, 8)</li>
+        <li>(15, 0, 35)</li>
+        <li>(16, 0, 35)</li>
       </positions>
       <stuff>Cloth</stuff>
       <hp>500</hp>
       <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
     </ADH_rug_G_A_FURNITURE>
     <VFE_CoffeeTable>
-      <position>(6, 0, 7)</position>
+      <position>(19, 0, 34)</position>
       <relativeRotation>Opposite</relativeRotation>
       <stuff>Gold</stuff>
       <quality>Normal</quality>
       <hp>45</hp>
       <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
     </VFE_CoffeeTable>
-    <GD_MoyuguFufu>
-      <rects>
-        <li>(5,7,5,7)</li>
-      </rects>
-      <relativeRotation>Opposite</relativeRotation>
-      <hp>300</hp>
-    </GD_MoyuguFufu>
-    <GD_BaizhiFufu>
-      <rects>
-        <li>(6,7,6,7)</li>
-      </rects>
-      <relativeRotation>Opposite</relativeRotation>
-      <hp>300</hp>
-    </GD_BaizhiFufu>
     <OARO_FlowerCabinet_A>
-      <position>(8, 0, 7)</position>
+      <positions>
+        <li>(21, 0, 34)</li>
+        <li>(3, 0, 38)</li>
+        <li>(29, 0, 48)</li>
+      </positions>
       <relativeRotation>Opposite</relativeRotation>
       <hp>80</hp>
     </OARO_FlowerCabinet_A>
-    <UFLI_TempControler>
-      <rects>
-        <li>(13,7,13,7)</li>
-        <li>(6,12,6,12)</li>
-        <li>(14,12,14,12)</li>
-        <li>(7,20,7,20)</li>
-      </rects>
-      <hp>100</hp>
-    </UFLI_TempControler>
     <RS_stove>
-      <position>(13, 0, 7)</position>
+      <position>(26, 0, 34)</position>
       <stuff>Milira_Neutronium</stuff>
       <hp>2160</hp>
       <color>RGBA(0.800, 0.800, 0.800, 1.000)</color>
     </RS_stove>
-    <UFLI_Walllamp>
-      <rects>
-        <li>(15,7,15,7)</li>
-        <li>(15,12,15,12)</li>
-        <li>(13,20,13,20)</li>
-      </rects>
-      <hp>150</hp>
-    </UFLI_Walllamp>
     <VFE_TableButcherElectric>
-      <position>(16, 0, 7)</position>
+      <position>(29, 0, 34)</position>
       <stuff>Milira_Neutronium</stuff>
       <hp>2160</hp>
       <color>RGBA(0.800, 0.800, 0.800, 1.000)</color>
     </VFE_TableButcherElectric>
     <RI_Building_KitchenToolShelf>
       <rects>
-        <li>(16,7,16,7)</li>
+        <li>(29,34,29,34)</li>
       </rects>
       <hp>100</hp>
     </RI_Building_KitchenToolShelf>
     <UFLI_InfiniteNutrientPasteDispenser>
       <rects>
-        <li>(18,7,18,7)</li>
+        <li>(31,34,31,34)</li>
       </rects>
       <relativeRotation>Opposite</relativeRotation>
       <hp>3200</hp>
     </UFLI_InfiniteNutrientPasteDispenser>
+    <PFS_ColumnC>
+      <rects>
+        <li>(42,34,42,34)</li>
+      </rects>
+      <hp>160</hp>
+    </PFS_ColumnC>
+    <UFLI_laptop>
+      <rects>
+        <li>(10,35,10,35)</li>
+        <li>(34,46,37,46)</li>
+      </rects>
+      <hp>120</hp>
+    </UFLI_laptop>
     <KT_UFGenerator_small>
       <rects>
-        <li>(11,8,11,8)</li>
+        <li>(24,35,24,35)</li>
+        <li>(24,37,24,37)</li>
       </rects>
       <hp>80000</hp>
     </KT_UFGenerator_small>
     <RS_TopShelf>
       <rects>
-        <li>(16,8,17,8)</li>
+        <li>(29,35,30,35)</li>
       </rects>
       <stuff>Milira_SunPlateSteel</stuff>
       <hp>455</hp>
       <color>RGBA(0.965, 0.957, 0.820, 1.000)</color>
     </RS_TopShelf>
-    <UFLI_groundlight>
+    <HotWaterTank>
       <rects>
-        <li>(0,9,1,9)</li>
+        <li>(36,35,43,35)</li>
       </rects>
-      <hp>300</hp>
-    </UFLI_groundlight>
-    <UFLI_2X4_Table>
-      <position>(2, 0, 9)</position>
-      <stuff>Gold</stuff>
-      <quality>Normal</quality>
-      <hp>150</hp>
-      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
-    </UFLI_2X4_Table>
-    <UFLI_laptop>
-      <rects>
-        <li>(1,9,2,9)</li>
-      </rects>
-      <relativeRotation>Opposite</relativeRotation>
+      <hp>350</hp>
+    </HotWaterTank>
+    <WaterTreatment>
+      <position>(46, 0, 35)</position>
       <hp>120</hp>
-    </UFLI_laptop>
+    </WaterTreatment>
+    <Milian_Recharger>
+      <rects>
+        <li>(57,35,58,35)</li>
+      </rects>
+      <hp>280</hp>
+    </Milian_Recharger>
+    <MF_ModernElevatorA>
+      <position>(64, 0, 36)</position>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </MF_ModernElevatorA>
+    <MF_BrickStairsMUpAFlipped>
+      <position>(69, 0, 35)</position>
+      <stuff>BMT_AmberResource</stuff>
+      <color>RGBA(1.000, 0.761, 0.000, 1.000)</color>
+    </MF_BrickStairsMUpAFlipped>
+    <UFLI_CouchDouble>
+      <position>(10, 0, 36)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>RI_Resource_GoldenSilk</stuff>
+      <quality>Normal</quality>
+      <hp>390</hp>
+      <color>RGBA(0.839, 0.725, 0.220, 1.000)</color>
+    </UFLI_CouchDouble>
+    <FDF_Carpet_Macaron>
+      <position>(11, 0, 37)</position>
+      <stuff>Cloth</stuff>
+      <quality>Normal</quality>
+      <hp>70</hp>
+      <color>RGBA(0.914, 0.894, 0.831, 1.000)</color>
+    </FDF_Carpet_Macaron>
     <GFL_White_Coffee_Cup>
       <rects>
-        <li>(3,9,3,9)</li>
+        <li>(16,36,16,36)</li>
       </rects>
       <relativeRotation>Counterclockwise</relativeRotation>
       <hp>10</hp>
     </GFL_White_Coffee_Cup>
     <Prop_Opera_Cake>
       <rects>
-        <li>(3,9,3,9)</li>
+        <li>(16,36,16,36)</li>
       </rects>
       <hp>10</hp>
     </Prop_Opera_Cake>
     <ADH_table_lamp_A_A_FURNITURE>
       <rects>
-        <li>(4,9,4,9)</li>
+        <li>(17,36,17,36)</li>
       </rects>
       <hp>500</hp>
     </ADH_table_lamp_A_A_FURNITURE>
     <MI_Building_Laptop>
       <rects>
-        <li>(4,9,4,9)</li>
+        <li>(17,36,17,36)</li>
       </rects>
       <relativeRotation>Opposite</relativeRotation>
       <hp>240</hp>
     </MI_Building_Laptop>
+    <Prop_ReedDiffuser>
+      <rects>
+        <li>(18,36,18,36)</li>
+      </rects>
+      <hp>10</hp>
+    </Prop_ReedDiffuser>
     <UFLI_Bookcase>
-      <position>(5, 0, 10)</position>
+      <position>(18, 0, 37)</position>
       <relativeRotation>Clockwise</relativeRotation>
       <stuff>Gold</stuff>
       <hp>120</hp>
       <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
     </UFLI_Bookcase>
-    <Prop_ReedDiffuser>
-      <rects>
-        <li>(5,9,5,9)</li>
-      </rects>
-      <hp>10</hp>
-    </Prop_ReedDiffuser>
     <UNA_chandelier>
-      <position>(8, 0, 10)</position>
-      <stuff>WoodLog</stuff>
+      <position>(21, 0, 37)</position>
+      <stuff>Gold</stuff>
       <quality>Normal</quality>
-      <hp>65</hp>
-      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+      <hp>60</hp>
+      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
     </UNA_chandelier>
     <ElectricBoiler>
       <rects>
-        <li>(11,9,11,9)</li>
+        <li>(24,36,24,36)</li>
       </rects>
       <relativeRotation>Clockwise</relativeRotation>
       <hp>125</hp>
     </ElectricBoiler>
-    <HotTub>
-      <position>(13, 0, 9)</position>
-      <stuff>Gold</stuff>
-      <hp>60</hp>
-    </HotTub>
     <Prop_SoapRack>
       <rects>
-        <li>(13,9,13,9)</li>
+        <li>(26,36,26,36)</li>
       </rects>
       <relativeRotation>Counterclockwise</relativeRotation>
       <hp>10</hp>
     </Prop_SoapRack>
-    <ShowerAdvStuff>
-      <rects>
-        <li>(15,9,15,9)</li>
-      </rects>
-      <stuff>Milira_Neutronium</stuff>
-      <hp>900</hp>
-    </ShowerAdvStuff>
     <Prop_TowelRack>
       <rects>
-        <li>(16,9,16,9)</li>
+        <li>(29,36,29,36)</li>
       </rects>
       <relativeRotation>Opposite</relativeRotation>
       <hp>10</hp>
     </Prop_TowelRack>
     <ToiletAdvStuff>
       <rects>
-        <li>(17,9,17,9)</li>
+        <li>(30,36,30,36)</li>
       </rects>
       <relativeRotation>Opposite</relativeRotation>
       <stuff>Gold</stuff>
       <hp>45</hp>
     </ToiletAdvStuff>
-    <UFLI_Decoration_Big_garbagecan>
+    <ElectricBoiler>
       <rects>
-        <li>(18,9,18,9)</li>
+        <li>(36,36,43,36)</li>
       </rects>
-      <hp>80</hp>
-    </UFLI_Decoration_Big_garbagecan>
+      <hp>125</hp>
+    </ElectricBoiler>
+    <ZHP_mianbei_two>
+      <rects>
+        <li>(12,37,12,37)</li>
+      </rects>
+      <hp>100</hp>
+    </ZHP_mianbei_two>
+    <PFK_BedAb>
+      <position>(12, 0, 38)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>91</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </PFK_BedAb>
     <Prop_Coffee_Mill>
       <rects>
-        <li>(1,10,1,10)</li>
+        <li>(14,37,14,37)</li>
       </rects>
       <relativeRotation>Opposite</relativeRotation>
       <hp>10</hp>
     </Prop_Coffee_Mill>
     <TY_A_strange_and_peculiar_doll>
       <rects>
-        <li>(3,10,3,10)</li>
+        <li>(16,37,16,37)</li>
       </rects>
       <hp>100</hp>
     </TY_A_strange_and_peculiar_doll>
+    <SEX_PictureFrame>
+      <rects>
+        <li>(17,37,17,37)</li>
+      </rects>
+      <hp>20</hp>
+    </SEX_PictureFrame>
     <UFLI_Decoration_Model>
       <rects>
-        <li>(5,10,5,10)</li>
+        <li>(18,37,18,37)</li>
       </rects>
       <hp>20</hp>
     </UFLI_Decoration_Model>
-    <Thermostat>
-      <rects>
-        <li>(11,10,11,10)</li>
-      </rects>
-      <relativeRotation>Clockwise</relativeRotation>
-      <hp>20</hp>
-    </Thermostat>
     <Prop_ShampooRack>
       <rects>
-        <li>(13,10,13,10)</li>
+        <li>(26,37,26,37)</li>
       </rects>
       <relativeRotation>Counterclockwise</relativeRotation>
       <hp>10</hp>
     </Prop_ShampooRack>
     <RadiatorTowelRail>
       <rects>
-        <li>(18,10,18,10)</li>
+        <li>(31,37,31,37)</li>
       </rects>
       <relativeRotation>Clockwise</relativeRotation>
       <stuff>Gold</stuff>
       <hp>90</hp>
     </RadiatorTowelRail>
-    <BathMat>
-      <rects>
-        <li>(13,11,14,11)</li>
-      </rects>
-      <stuff>RI_Resource_GoldenSilk</stuff>
-      <hp>65</hp>
-      <color>RGBA(0.839, 0.725, 0.220, 1.000)</color>
-    </BathMat>
-    <UFLI_Hugescreen>
-      <position>(3, 0, 12)</position>
+    <PumpingStation>
+      <positions>
+        <li>(36, 0, 37)</li>
+        <li>(38, 0, 37)</li>
+        <li>(40, 0, 37)</li>
+        <li>(42, 0, 37)</li>
+        <li>(46, 0, 37)</li>
+      </positions>
+      <hp>150</hp>
+    </PumpingStation>
+    <VivianRechargerB>
+      <position>(54, 0, 37)</position>
+      <hp>150</hp>
+    </VivianRechargerB>
+    <Wolfein_LowCabinet>
+      <position>(6, 0, 38)</position>
+      <quality>Normal</quality>
+      <hp>600</hp>
+    </Wolfein_LowCabinet>
+    <VFE_RoyalWardrobe>
+      <position>(9, 0, 38)</position>
       <relativeRotation>Opposite</relativeRotation>
-      <hp>400</hp>
-    </UFLI_Hugescreen>
+      <stuff>Gold</stuff>
+      <quality>Normal</quality>
+      <hp>96</hp>
+      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
+    </VFE_RoyalWardrobe>
+    <AKN_ComfortingPlush>
+      <rects>
+        <li>(9,38,9,38)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Normal</quality>
+      <hp>30</hp>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </AKN_ComfortingPlush>
+    <PFK_Dresser>
+      <position>(11, 0, 38)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>78</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </PFK_Dresser>
+    <DeepWaterWellInlet>
+      <rects>
+        <li>(44,38,44,38)</li>
+      </rects>
+      <hp>100</hp>
+    </DeepWaterWellInlet>
+    <LargeMechGestator>
+      <position>(54, 0, 39)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>350</hp>
+    </LargeMechGestator>
     <MUS_SpaceBase_CabinetV>
-      <position>(8, 0, 12)</position>
+      <positions>
+        <li>(21, 0, 39)</li>
+        <li>(31, 0, 51)</li>
+      </positions>
       <relativeRotation>Opposite</relativeRotation>
       <stuff>Gold</stuff>
       <quality>Normal</quality>
@@ -1485,7 +3656,7 @@
     </MUS_SpaceBase_CabinetV>
     <ADH_doormat_A_A_FURNITURE>
       <rects>
-        <li>(9,12,10,12)</li>
+        <li>(22,39,23,39)</li>
       </rects>
       <stuff>RI_Resource_GoldenSilk</stuff>
       <hp>650</hp>
@@ -1493,7 +3664,7 @@
     </ADH_doormat_A_A_FURNITURE>
     <ADH_light_B_A_FURNITURE>
       <rects>
-        <li>(11,12,11,12)</li>
+        <li>(24,39,24,39)</li>
       </rects>
       <stuff>Gold</stuff>
       <hp>300</hp>
@@ -1501,7 +3672,7 @@
     </ADH_light_B_A_FURNITURE>
     <ADH_door_frame_A_FURNITURE>
       <rects>
-        <li>(12,12,12,12)</li>
+        <li>(25,39,25,39)</li>
       </rects>
       <relativeRotation>Clockwise</relativeRotation>
       <stuff>Gold</stuff>
@@ -1510,7 +3681,7 @@
     </ADH_door_frame_A_FURNITURE>
     <OARO_GroomingMirror>
       <rects>
-        <li>(15,12,15,12)</li>
+        <li>(28,39,28,39)</li>
       </rects>
       <relativeRotation>Opposite</relativeRotation>
       <quality>Normal</quality>
@@ -1518,74 +3689,152 @@
     </OARO_GroomingMirror>
     <MUS_SpaceBase_StylingStation>
       <rects>
-        <li>(16,12,16,12)</li>
+        <li>(29,39,29,39)</li>
       </rects>
       <stuff>Milira_Neutronium</stuff>
       <hp>2400</hp>
       <color>RGBA(0.800, 0.800, 0.800, 1.000)</color>
     </MUS_SpaceBase_StylingStation>
-    <RRPalermoBasin>
-      <rects>
-        <li>(17,12,17,12)</li>
-      </rects>
-      <stuff>Gold</stuff>
-      <quality>Normal</quality>
-      <hp>45</hp>
-    </RRPalermoBasin>
     <Prop_ToothbrushSet>
       <rects>
-        <li>(17,12,17,12)</li>
+        <li>(30,39,30,39)</li>
       </rects>
       <hp>10</hp>
     </Prop_ToothbrushSet>
     <UFLI_WashingMachine>
       <rects>
-        <li>(18,12,18,12)</li>
+        <li>(31,39,31,39)</li>
       </rects>
       <hp>250</hp>
     </UFLI_WashingMachine>
     <Prop_Hair_Iron>
       <rects>
-        <li>(18,12,18,12)</li>
+        <li>(31,39,31,39)</li>
       </rects>
       <relativeRotation>Counterclockwise</relativeRotation>
       <hp>10</hp>
       <color>RGBA(0.800, 0.200, 0.200, 1.000)</color>
     </Prop_Hair_Iron>
+    <InfiniteFreeGenerator>
+      <position>(36, 0, 39)</position>
+      <hp>300</hp>
+    </InfiniteFreeGenerator>
+    <SpacerWaterRecoverySystem>
+      <position>(46, 0, 39)</position>
+      <hp>100</hp>
+    </SpacerWaterRecoverySystem>
+    <VivianRecharger>
+      <positions>
+        <li>(49, 0, 40)</li>
+        <li>(50, 0, 40)</li>
+        <li>(51, 0, 40)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>150</hp>
+    </VivianRecharger>
+    <Milian_Gestator>
+      <position>(57, 0, 40)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>450</hp>
+    </Milian_Gestator>
+    <UFLI_2X4_Table>
+      <position>(2, 0, 42)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Gold</stuff>
+      <quality>Normal</quality>
+      <hp>150</hp>
+      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
+    </UFLI_2X4_Table>
+    <GFL_Sz2017_03_deco>
+      <rects>
+        <li>(3,40,3,40)</li>
+      </rects>
+      <hp>10</hp>
+    </GFL_Sz2017_03_deco>
+    <UFLI_CouchDouble>
+      <positions>
+        <li>(4, 0, 40)</li>
+        <li>(4, 0, 42)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>RI_Resource_GoldenSilk</stuff>
+      <quality>Normal</quality>
+      <hp>390</hp>
+      <color>RGBA(0.839, 0.725, 0.220, 1.000)</color>
+    </UFLI_CouchDouble>
     <ADH_footstep_A_A_FURNITURE>
       <rects>
-        <li>(9,13,12,13)</li>
+        <li>(22,40,25,40)</li>
       </rects>
       <stuff>WoodLog</stuff>
       <hp>325</hp>
       <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
     </ADH_footstep_A_A_FURNITURE>
+    <UFLI_Decoration_Holographic>
+      <rects>
+        <li>(2,41,2,41)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>20</hp>
+    </UFLI_Decoration_Holographic>
+    <GFL2_Ceramic_Doll>
+      <rects>
+        <li>(2,41,2,41)</li>
+      </rects>
+      <hp>10</hp>
+    </GFL2_Ceramic_Doll>
+    <GFL_Anniversary2020_butterfly>
+      <rects>
+        <li>(2,41,2,41)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>10</hp>
+    </GFL_Anniversary2020_butterfly>
+    <UFLI_laptop>
+      <rects>
+        <li>(3,41,3,41)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>120</hp>
+    </UFLI_laptop>
+    <Logo_PNC_Cyber_Media_3x>
+      <position>(5, 0, 42)</position>
+      <color>RGBA(1.000, 1.000, 1.000, 0.800)</color>
+    </Logo_PNC_Cyber_Media_3x>
     <ADH_A_TubeTelevision>
-      <position>(2, 0, 14)</position>
+      <position>(15, 0, 41)</position>
       <stuff>Steel</stuff>
       <hp>500</hp>
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </ADH_A_TubeTelevision>
     <UFLI_Wardrobe_AS>
-      <position>(4, 0, 14)</position>
+      <position>(17, 0, 41)</position>
       <stuff>KT_steel</stuff>
       <hp>20000</hp>
     </UFLI_Wardrobe_AS>
     <UFLI_Floorlight>
       <rects>
-        <li>(6,14,6,14)</li>
+        <li>(19,41,19,41)</li>
       </rects>
       <hp>150</hp>
     </UFLI_Floorlight>
     <Milira_SunLightFruitGrowBox>
       <rects>
-        <li>(7,14,7,14)</li>
+        <li>(20,41,20,41)</li>
       </rects>
       <hp>400</hp>
     </Milira_SunLightFruitGrowBox>
+    <OARO_FileCabinet>
+      <rects>
+        <li>(21,41,21,41)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <quality>Legendary</quality>
+      <hp>125</hp>
+    </OARO_FileCabinet>
     <ADH_rug_I_A_FURNITURE>
       <rects>
-        <li>(9,14,10,14)</li>
+        <li>(22,41,23,41)</li>
       </rects>
       <stuff>RI_Resource_GoldenSilk</stuff>
       <hp>650</hp>
@@ -1593,57 +3842,108 @@
     </ADH_rug_I_A_FURNITURE>
     <Props_Slippers>
       <rects>
-        <li>(9,14,9,14)</li>
+        <li>(22,41,22,41)</li>
       </rects>
       <hp>10</hp>
     </Props_Slippers>
-    <UFLI_Doorcurtain>
+    <UFLI_1_Autodoor>
       <rects>
-        <li>(14,14,14,14)</li>
+        <li>(27,41,27,41)</li>
       </rects>
       <relativeRotation>Clockwise</relativeRotation>
-      <stuff>RI_Resource_GoldenSilk</stuff>
-      <hp>78</hp>
-      <color>RGBA(0.839, 0.725, 0.220, 1.000)</color>
-    </UFLI_Doorcurtain>
-    <PFK_ShaggyRug_D>
-      <position>(16, 0, 15)</position>
-      <stuff>Milira_NeutroniumFabric</stuff>
-      <quality>Normal</quality>
-      <hp>420</hp>
-      <color>RGBA(0.800, 0.800, 0.800, 1.000)</color>
-    </PFK_ShaggyRug_D>
+      <stuff>HX_MilitaryCeramics</stuff>
+      <hp>1200</hp>
+      <color>RGBA(0.631, 0.792, 0.827, 1.000)</color>
+    </UFLI_1_Autodoor>
     <BabyDecoration>
       <rects>
-        <li>(18,14,18,14)</li>
+        <li>(31,41,31,41)</li>
+        <li>(30,46,30,46)</li>
       </rects>
       <stuff>Gold</stuff>
       <hp>18</hp>
       <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
     </BabyDecoration>
-    <UFLI_TempControler>
+    <Prop_GameConsole>
       <rects>
-        <li>(15,15,15,15)</li>
+        <li>(3,42,3,42)</li>
+        <li>(36,45,36,45)</li>
       </rects>
-      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>10</hp>
+    </Prop_GameConsole>
+    <PFK_GiantPlushieM>
+      <rects>
+        <li>(28,42,28,42)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>RI_Resource_GoldenSilk</stuff>
+      <hp>78</hp>
+      <color>RGBA(0.839, 0.725, 0.220, 1.000)</color>
+    </PFK_GiantPlushieM>
+    <PFK_AnimalLamp>
+      <rects>
+        <li>(31,42,31,42)</li>
+      </rects>
+      <hp>50</hp>
+    </PFK_AnimalLamp>
+    <PFS_HoloGlassPanel>
+      <position>(36, 0, 42)</position>
+      <hp>50</hp>
+    </PFS_HoloGlassPanel>
+    <FDF_CakeBed>
+      <positions>
+        <li>(38, 0, 42)</li>
+        <li>(39, 0, 42)</li>
+      </positions>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>455</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </FDF_CakeBed>
+    <Milira_BeanBagSofa>
+      <rects>
+        <li>(41,42,41,42)</li>
+      </rects>
+      <quality>Normal</quality>
       <hp>100</hp>
-    </UFLI_TempControler>
+    </Milira_BeanBagSofa>
+    <ToyBox>
+      <rects>
+        <li>(42,42,42,42)</li>
+      </rects>
+      <stuff>Gold</stuff>
+      <hp>30</hp>
+      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
+    </ToyBox>
+    <GFL2_Zuccheros_Protection>
+      <rects>
+        <li>(2,43,2,43)</li>
+        <li>(16,43,16,43)</li>
+      </rects>
+      <hp>10</hp>
+    </GFL2_Zuccheros_Protection>
+    <GFL_M4_SOPMOD_II_Jr>
+      <rects>
+        <li>(3,43,3,43)</li>
+      </rects>
+      <hp>10</hp>
+    </GFL_M4_SOPMOD_II_Jr>
+    <FDF_Cake_Cheese>
+      <rects>
+        <li>(14,43,14,43)</li>
+      </rects>
+      <hp>70</hp>
+    </FDF_Cake_Cheese>
     <UFLI_1X2_Table>
-      <position>(1, 0, 16)</position>
+      <position>(14, 0, 43)</position>
       <stuff>Milira_Neutronium</stuff>
       <quality>Normal</quality>
       <hp>1200</hp>
       <color>RGBA(0.800, 0.800, 0.800, 1.000)</color>
     </UFLI_1X2_Table>
-    <FDF_Cake_Cheese>
-      <rects>
-        <li>(1,16,1,16)</li>
-      </rects>
-      <hp>70</hp>
-    </FDF_Cake_Cheese>
     <FDF_Deco_Cup>
       <rects>
-        <li>(2,16,2,16)</li>
+        <li>(15,43,15,43)</li>
       </rects>
       <stuff>Milira_Neutronium</stuff>
       <hp>840</hp>
@@ -1651,29 +3951,62 @@
     </FDF_Deco_Cup>
     <MI_Building_EndTable>
       <rects>
-        <li>(3,16,3,16)</li>
+        <li>(16,43,16,43)</li>
       </rects>
       <relativeRotation>Clockwise</relativeRotation>
       <hp>200</hp>
     </MI_Building_EndTable>
-    <GFL2_Zuccheros_Protection>
-      <rects>
-        <li>(3,16,3,16)</li>
-      </rects>
-      <hp>10</hp>
-    </GFL2_Zuccheros_Protection>
     <Bean_Bag_Chair_Blue>
       <rects>
-        <li>(15,16,16,16)</li>
-        <li>(6,17,6,17)</li>
+        <li>(28,43,29,43)</li>
+        <li>(19,44,19,44)</li>
+        <li>(41,44,41,44)</li>
+        <li>(42,46,42,46)</li>
+        <li>(39,48,40,48)</li>
       </rects>
       <relativeRotation>Opposite</relativeRotation>
       <quality>Normal</quality>
       <hp>130</hp>
     </Bean_Bag_Chair_Blue>
+    <PFK_ShaggyRug_D>
+      <positions>
+        <li>(29, 0, 44)</li>
+        <li>(33, 0, 44)</li>
+        <li>(37, 0, 44)</li>
+        <li>(41, 0, 44)</li>
+        <li>(29, 0, 48)</li>
+        <li>(33, 0, 48)</li>
+        <li>(37, 0, 48)</li>
+        <li>(41, 0, 48)</li>
+      </positions>
+      <stuff>Milira_NeutroniumFabric</stuff>
+      <quality>Normal</quality>
+      <hp>420</hp>
+      <color>RGBA(0.800, 0.800, 0.800, 1.000)</color>
+    </PFK_ShaggyRug_D>
+    <Bean_Bag_Chair_Blue>
+      <rects>
+        <li>(40,43,40,43)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <quality>Normal</quality>
+      <hp>130</hp>
+    </Bean_Bag_Chair_Blue>
+    <PFK_WoodenToySD>
+      <rects>
+        <li>(42,43,42,43)</li>
+      </rects>
+      <hp>20</hp>
+    </PFK_WoodenToySD>
+    <UFLI_Bookcase>
+      <position>(2, 0, 44)</position>
+      <stuff>Gold</stuff>
+      <hp>120</hp>
+      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
+    </UFLI_Bookcase>
     <FDF_Couch>
       <rects>
-        <li>(1,17,2,17)</li>
+        <li>(14,44,15,44)</li>
       </rects>
       <relativeRotation>Opposite</relativeRotation>
       <stuff>Cloth</stuff>
@@ -1683,37 +4016,28 @@
     </FDF_Couch>
     <FDF_Couch_PillowA>
       <rects>
-        <li>(2,17,2,17)</li>
+        <li>(15,44,15,44)</li>
       </rects>
       <relativeRotation>Opposite</relativeRotation>
       <stuff>Cloth</stuff>
       <hp>70</hp>
       <color>RGBA(0.914, 0.894, 0.831, 1.000)</color>
     </FDF_Couch_PillowA>
-    <AKN_ComfortingPlush>
-      <rects>
-        <li>(2,17,2,17)</li>
-      </rects>
-      <relativeRotation>Opposite</relativeRotation>
-      <stuff>RI_Resource_GoldenSilk</stuff>
-      <quality>Normal</quality>
-      <hp>39</hp>
-      <color>RGBA(0.839, 0.725, 0.220, 1.000)</color>
-    </AKN_ComfortingPlush>
     <MeditationSpot>
       <rects>
-        <li>(3,17,3,17)</li>
+        <li>(16,44,16,44)</li>
+        <li>(33,46,33,46)</li>
       </rects>
     </MeditationSpot>
     <GFL_Orange_Cat_Doll>
       <rects>
-        <li>(8,17,8,17)</li>
+        <li>(21,44,21,44)</li>
       </rects>
       <hp>10</hp>
     </GFL_Orange_Cat_Doll>
     <TY_A_XGLB_sofa_DK>
       <rects>
-        <li>(13,17,13,17)</li>
+        <li>(26,44,26,44)</li>
       </rects>
       <relativeRotation>Counterclockwise</relativeRotation>
       <quality>Normal</quality>
@@ -1721,13 +4045,19 @@
     </TY_A_XGLB_sofa_DK>
     <GD_BaimudanFufu>
       <rects>
-        <li>(13,17,13,17)</li>
+        <li>(26,44,26,44)</li>
       </rects>
       <relativeRotation>Opposite</relativeRotation>
       <hp>300</hp>
     </GD_BaimudanFufu>
+    <GFL_Anniversary2020_butterfly>
+      <rects>
+        <li>(28,44,28,44)</li>
+      </rects>
+      <hp>10</hp>
+    </GFL_Anniversary2020_butterfly>
     <PFK_Dresser>
-      <position>(16, 0, 17)</position>
+      <position>(29, 0, 44)</position>
       <relativeRotation>Opposite</relativeRotation>
       <stuff>Gold</stuff>
       <quality>Normal</quality>
@@ -1736,166 +4066,239 @@
     </PFK_Dresser>
     <RS_tableflower>
       <rects>
-        <li>(16,17,16,17)</li>
+        <li>(29,44,29,44)</li>
+        <li>(37,45,37,45)</li>
       </rects>
       <hp>100</hp>
     </RS_tableflower>
-    <RimTalk_ToyBlockPile>
+    <PFK_PKCDog>
       <rects>
-        <li>(17,17,17,17)</li>
+        <li>(32,44,32,44)</li>
       </rects>
-      <hp>100</hp>
-    </RimTalk_ToyBlockPile>
-    <PFK_Ball>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Cloth</stuff>
+      <hp>20</hp>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </PFK_PKCDog>
+    <PFK_DiningChair>
       <rects>
-        <li>(18,17,18,17)</li>
+        <li>(34,44,37,44)</li>
       </rects>
-      <relativeRotation>Clockwise</relativeRotation>
-      <stuff>RI_Resource_GoldenSilk</stuff>
-      <hp>26</hp>
-      <color>RGBA(0.839, 0.725, 0.220, 1.000)</color>
-    </PFK_Ball>
-    <ADH_rug_E_A_FURNITURE>
+      <stuff>FDF_Carrot</stuff>
+      <quality>Normal</quality>
+      <hp>700</hp>
+      <color>RGBA(1.000, 0.553, 0.200, 1.000)</color>
+    </PFK_DiningChair>
+    <PFK_AnimalLampB>
+      <rects>
+        <li>(45,44,45,44)</li>
+      </rects>
+      <hp>50</hp>
+    </PFK_AnimalLampB>
+    <ADH_rug_G_A_FURNITURE>
       <positions>
-        <li>(2, 0, 18)</li>
-        <li>(3, 0, 18)</li>
-        <li>(5, 0, 18)</li>
-        <li>(6, 0, 18)</li>
-        <li>(7, 0, 18)</li>
+        <li>(6, 0, 46)</li>
+        <li>(8, 0, 46)</li>
+        <li>(11, 0, 46)</li>
+        <li>(13, 0, 46)</li>
+        <li>(16, 0, 46)</li>
       </positions>
-      <stuff>Milira_NeutroniumFabric</stuff>
-      <hp>1500</hp>
-      <color>RGBA(0.800, 0.800, 0.800, 1.000)</color>
-    </ADH_rug_E_A_FURNITURE>
+      <stuff>Leather_AlphaThrumbo</stuff>
+      <hp>1100</hp>
+      <color>RGBA(0.949, 0.949, 0.949, 1.000)</color>
+    </ADH_rug_G_A_FURNITURE>
     <PFK_Bunting>
       <rects>
-        <li>(15,18,16,18)</li>
+        <li>(28,45,29,45)</li>
       </rects>
       <relativeRotation>Opposite</relativeRotation>
       <stuff>RI_Resource_GoldenSilk</stuff>
       <hp>26</hp>
       <color>RGBA(0.839, 0.725, 0.220, 1.000)</color>
     </PFK_Bunting>
-    <FDF_Carpet_Paw>
-      <position>(17, 0, 19)</position>
-      <stuff>Cloth</stuff>
+    <FDF_CakeBed>
+      <positions>
+        <li>(28, 0, 45)</li>
+        <li>(28, 0, 46)</li>
+        <li>(28, 0, 47)</li>
+        <li>(28, 0, 49)</li>
+        <li>(28, 0, 50)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
       <quality>Normal</quality>
-      <hp>70</hp>
-      <color>RGBA(0.914, 0.894, 0.831, 1.000)</color>
-    </FDF_Carpet_Paw>
-    <GFL2_Dinergate_B>
+      <hp>455</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </FDF_CakeBed>
+    <Prop_BabyBottle>
       <rects>
-        <li>(16,18,16,18)</li>
+        <li>(34,45,34,45)</li>
       </rects>
       <hp>10</hp>
-    </GFL2_Dinergate_B>
-    <PFK_RoyalBed>
-      <position>(2, 0, 20)</position>
+    </Prop_BabyBottle>
+    <GFL_Fast_Food_B>
+      <rects>
+        <li>(34,45,34,45)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>10</hp>
+    </GFL_Fast_Food_B>
+    <GFL_SPzh3000Architect>
+      <rects>
+        <li>(35,45,35,45)</li>
+      </rects>
+      <hp>10</hp>
+    </GFL_SPzh3000Architect>
+    <GFL_Fast_Food_C>
+      <rects>
+        <li>(35,45,35,45)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>10</hp>
+    </GFL_Fast_Food_C>
+    <GFL_Strawberry_Custard_Cheesecake>
+      <rects>
+        <li>(36,45,36,45)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>10</hp>
+    </GFL_Strawberry_Custard_Cheesecake>
+    <Prop_Macaron>
+      <rects>
+        <li>(36,45,36,45)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>10</hp>
+    </Prop_Macaron>
+    <Prop_Gamepad>
+      <rects>
+        <li>(37,45,37,45)</li>
+      </rects>
+      <hp>10</hp>
+    </Prop_Gamepad>
+    <SEX_Box>
+      <rects>
+        <li>(37,45,37,45)</li>
+      </rects>
+      <hp>20</hp>
+    </SEX_Box>
+    <RimTalk_ToyPuzzleTable>
+      <rects>
+        <li>(38,45,38,45)</li>
+      </rects>
+      <hp>160</hp>
+    </RimTalk_ToyPuzzleTable>
+    <PFK_WoodenToyB>
+      <rects>
+        <li>(43,45,43,45)</li>
+      </rects>
+      <hp>20</hp>
+    </PFK_WoodenToyB>
+    <PentaRoyalBed>
+      <position>(11, 0, 47)</position>
       <relativeRotation>Opposite</relativeRotation>
-      <stuff>Milira_Neutronium</stuff>
+      <stuff>Gold</stuff>
       <quality>Normal</quality>
-      <hp>2400</hp>
-      <color>RGBA(0.800, 0.800, 0.800, 1.000)</color>
-    </PFK_RoyalBed>
-    <R_chairA>
-      <rects>
-        <li>(3,19,3,19)</li>
-      </rects>
-      <stuff>Cloth</stuff>
+      <hp>230</hp>
+      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
+    </PentaRoyalBed>
+    <OARO_DutyRecordTable>
+      <position>(18, 0, 46)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
       <quality>Normal</quality>
-      <hp>140</hp>
-      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
-    </R_chairA>
-    <AKN_RestoringPlush>
-      <rects>
-        <li>(3,19,3,19)</li>
-      </rects>
-      <relativeRotation>Opposite</relativeRotation>
-      <stuff>RI_Resource_GoldenSilk</stuff>
-      <quality>Normal</quality>
-      <hp>39</hp>
-      <color>RGBA(0.839, 0.725, 0.220, 1.000)</color>
-    </AKN_RestoringPlush>
-    <KoyukiDoll>
-      <rects>
-        <li>(11,19,11,19)</li>
-      </rects>
       <hp>100</hp>
-    </KoyukiDoll>
+    </OARO_DutyRecordTable>
     <Wolfein_OfficeChair>
       <rects>
-        <li>(12,19,12,19)</li>
+        <li>(25,46,25,46)</li>
       </rects>
       <quality>Normal</quality>
       <hp>450</hp>
     </Wolfein_OfficeChair>
-    <PFK_GiantPlushieM>
+    <MUS_SpaceBase_WallDecorPlants>
       <rects>
-        <li>(15,19,15,19)</li>
+        <li>(28,46,28,47)</li>
       </rects>
-      <relativeRotation>Opposite</relativeRotation>
-      <stuff>RI_Resource_GoldenSilk</stuff>
-      <hp>78</hp>
-      <color>RGBA(0.839, 0.725, 0.220, 1.000)</color>
-    </PFK_GiantPlushieM>
-    <PFK_EndTable>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>35</hp>
+    </MUS_SpaceBase_WallDecorPlants>
+    <PFK_WoodenToy>
       <rects>
-        <li>(18,19,18,19)</li>
+        <li>(32,46,32,46)</li>
       </rects>
-      <relativeRotation>Opposite</relativeRotation>
-      <stuff>Gold</stuff>
+      <hp>20</hp>
+    </PFK_WoodenToy>
+    <IGGlowPod>
+      <rects>
+        <li>(37,46,37,46)</li>
+      </rects>
       <quality>Normal</quality>
-      <hp>45</hp>
-      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
-    </PFK_EndTable>
-    <OARO_DutyRecordTable>
-      <position>(4, 0, 20)</position>
-      <relativeRotation>Opposite</relativeRotation>
-      <quality>Normal</quality>
+      <hp>80</hp>
+    </IGGlowPod>
+    <RimTalk_ToyBlockPile>
+      <rects>
+        <li>(39,46,39,46)</li>
+      </rects>
       <hp>100</hp>
-    </OARO_DutyRecordTable>
+    </RimTalk_ToyBlockPile>
+    <PFK_GiantPlushie>
+      <rects>
+        <li>(40,46,40,46)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Cloth</stuff>
+      <hp>60</hp>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </PFK_GiantPlushie>
+    <OARO_BookcaseReading_C>
+      <position>(3, 0, 47)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>75</hp>
+    </OARO_BookcaseReading_C>
+    <UFLI_Endtable>
+      <rects>
+        <li>(4,47,4,47)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>90</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Endtable>
     <ADH_light_E_A_FURNITURE>
       <rects>
-        <li>(4,20,4,20)</li>
+        <li>(17,47,17,47)</li>
       </rects>
       <hp>500</hp>
     </ADH_light_E_A_FURNITURE>
-    <UFLI_Bookshelf_AS>
+    <ADH_flower_A_A_FURNITURE>
       <rects>
-        <li>(5,20,5,20)</li>
+        <li>(19,47,19,47)</li>
       </rects>
-      <relativeRotation>Opposite</relativeRotation>
-      <stuff>KT_steel</stuff>
-      <hp>10000</hp>
-    </UFLI_Bookshelf_AS>
+      <hp>500</hp>
+    </ADH_flower_A_A_FURNITURE>
     <UFLI_CabinetD>
-      <position>(7, 0, 20)</position>
+      <position>(20, 0, 47)</position>
       <relativeRotation>Opposite</relativeRotation>
       <stuff>Milira_SplendidSteel</stuff>
       <quality>Normal</quality>
       <hp>325</hp>
     </UFLI_CabinetD>
-    <ADH_flower_A_A_FURNITURE>
-      <rects>
-        <li>(6,20,6,20)</li>
-      </rects>
-      <hp>500</hp>
-    </ADH_flower_A_A_FURNITURE>
     <Prop_Clock_Electronic>
       <rects>
-        <li>(7,20,7,20)</li>
+        <li>(20,47,20,47)</li>
       </rects>
       <hp>10</hp>
     </Prop_Clock_Electronic>
     <Tea_Party_Album_Storage_Shelf>
-      <position>(9, 0, 20)</position>
+      <position>(22, 0, 47)</position>
       <relativeRotation>Opposite</relativeRotation>
       <quality>Normal</quality>
       <hp>300</hp>
     </Tea_Party_Album_Storage_Shelf>
     <MUS_SpaceBase_LockersV>
       <rects>
-        <li>(10,20,10,20)</li>
+        <li>(23,47,23,47)</li>
       </rects>
       <relativeRotation>Opposite</relativeRotation>
       <stuff>Milira_Neutronium</stuff>
@@ -1904,20 +4307,96 @@
       <color>RGBA(0.800, 0.800, 0.800, 1.000)</color>
     </MUS_SpaceBase_LockersV>
     <Wolfein_OfficeDesk>
-      <position>(12, 0, 20)</position>
+      <position>(25, 0, 47)</position>
       <relativeRotation>Opposite</relativeRotation>
       <quality>Normal</quality>
       <hp>450</hp>
     </Wolfein_OfficeDesk>
-    <SchoolDesk>
-      <position>(16, 0, 20)</position>
-      <stuff>Gold</stuff>
-      <hp>45</hp>
-      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
-    </SchoolDesk>
+    <PFK_DiningChair>
+      <rects>
+        <li>(34,47,37,47)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>FDF_Carrot</stuff>
+      <quality>Normal</quality>
+      <hp>700</hp>
+      <color>RGBA(1.000, 0.553, 0.200, 1.000)</color>
+    </PFK_DiningChair>
+    <PFK_Ball>
+      <rects>
+        <li>(35,47,35,47)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>RI_Resource_GoldenSilk</stuff>
+      <hp>26</hp>
+      <color>RGBA(0.839, 0.725, 0.220, 1.000)</color>
+    </PFK_Ball>
+    <GFL2_Dinergate_B>
+      <rects>
+        <li>(41,47,41,47)</li>
+        <li>(42,48,42,48)</li>
+      </rects>
+      <hp>10</hp>
+    </GFL2_Dinergate_B>
+    <Prop_Trumpet>
+      <rects>
+        <li>(33,48,33,48)</li>
+      </rects>
+      <hp>10</hp>
+    </Prop_Trumpet>
+    <Blackboard>
+      <position>(34, 0, 48)</position>
+      <stuff>FDF_Carrot</stuff>
+      <hp>420</hp>
+      <color>RGBA(1.000, 0.553, 0.200, 1.000)</color>
+    </Blackboard>
+    <PFK_GiantPlushieB>
+      <rects>
+        <li>(38,48,38,48)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Cloth</stuff>
+      <hp>60</hp>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </PFK_GiantPlushieB>
+    <FDF_Carpet_Paw>
+      <positions>
+        <li>(41, 0, 49)</li>
+        <li>(44, 0, 49)</li>
+      </positions>
+      <stuff>Cloth</stuff>
+      <quality>Normal</quality>
+      <hp>70</hp>
+      <color>RGBA(0.914, 0.894, 0.831, 1.000)</color>
+    </FDF_Carpet_Paw>
+    <KoyukiDoll>
+      <rects>
+        <li>(41,48,41,48)</li>
+      </rects>
+      <hp>100</hp>
+    </KoyukiDoll>
+    <PFK_Ball>
+      <rects>
+        <li>(35,49,35,49)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>RI_Resource_GoldenSilk</stuff>
+      <hp>26</hp>
+      <color>RGBA(0.839, 0.725, 0.220, 1.000)</color>
+    </PFK_Ball>
+    <PFK_Ball>
+      <rects>
+        <li>(38,49,38,49)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>RI_Resource_GoldenSilk</stuff>
+      <hp>26</hp>
+      <color>RGBA(0.839, 0.725, 0.220, 1.000)</color>
+    </PFK_Ball>
     <FDF_Cradle>
       <rects>
-        <li>(18,20,18,20)</li>
+        <li>(42,49,44,49)</li>
+        <li>(42,51,45,51)</li>
       </rects>
       <relativeRotation>Opposite</relativeRotation>
       <stuff>FDF_HeartCrystal</stuff>
@@ -1925,170 +4404,957 @@
       <hp>4900</hp>
       <color>RGBA(1.000, 0.847, 0.894, 1.000)</color>
     </FDF_Cradle>
-    <TY_A_window_Building>
+    <PFK_Armchair>
       <rects>
-        <li>(3,21,3,21)</li>
+        <li>(32,50,37,50)</li>
       </rects>
-      <hp>350</hp>
-    </TY_A_window_Building>
-    <PFK_FairyLights>
+      <stuff>Leather_AlphaThrumbo</stuff>
+      <quality>Normal</quality>
+      <hp>265</hp>
+      <color>RGBA(0.949, 0.949, 0.949, 1.000)</color>
+    </PFK_Armchair>
+    <FDF_CakeBed>
+      <positions>
+        <li>(38, 0, 51)</li>
+        <li>(39, 0, 51)</li>
+        <li>(40, 0, 51)</li>
+        <li>(41, 0, 51)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>455</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </FDF_CakeBed>
+    <AncientBarrel>
       <rects>
-        <li>(18,21,18,21)</li>
+        <li>(0,51,1,51)</li>
+        <li>(6,51,6,51)</li>
       </rects>
       <hp>50</hp>
-    </PFK_FairyLights>
+    </AncientBarrel>
+    <AncientStorageCylinder>
+      <position>(10, 0, 52)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>250</hp>
+    </AncientStorageCylinder>
+    <Ancient_WarBeacon_PartsA>
+      <position>(17, 0, 51)</position>
+      <hp>1000</hp>
+    </Ancient_WarBeacon_PartsA>
+    <RH2_LampEndTable>
+      <rects>
+        <li>(28,51,28,51)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Gold</stuff>
+      <quality>Normal</quality>
+      <hp>45</hp>
+      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
+    </RH2_LampEndTable>
+    <OARO_OrderFloorClock_A>
+      <rects>
+        <li>(29,51,29,51)</li>
+      </rects>
+      <quality>Normal</quality>
+      <hp>150</hp>
+    </OARO_OrderFloorClock_A>
+    <SchoolDesk>
+      <positions>
+        <li>(32, 0, 51)</li>
+        <li>(34, 0, 51)</li>
+        <li>(36, 0, 51)</li>
+      </positions>
+      <stuff>Gold</stuff>
+      <hp>45</hp>
+      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
+    </SchoolDesk>
+    <Prop_Piggy_Bank>
+      <rects>
+        <li>(36,51,36,51)</li>
+      </rects>
+      <hp>10</hp>
+    </Prop_Piggy_Bank>
+    <AncientStorageCylinder>
+      <position>(3, 0, 52)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>250</hp>
+    </AncientStorageCylinder>
+    <Building_Ancient_WarBeacon>
+      <position>(17, 0, 53)</position>
+    </Building_Ancient_WarBeacon>
+    <Ancient_WarBeacon_PartsB>
+      <position>(19, 0, 52)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>1000</hp>
+    </Ancient_WarBeacon_PartsB>
   </things>
   <terrain>
+    <GoldTile>
+      <rects>
+        <li>(73,0,97,10)</li>
+        <li>(73,11,89,11)</li>
+        <li>(92,11,97,11)</li>
+      </rects>
+    </GoldTile>
+    <Mediterranean_TileSandstone_a>
+      <rects>
+        <li>(0,5,0,6)</li>
+      </rects>
+    </Mediterranean_TileSandstone_a>
+    <OA_RK_FloorSnow_B>
+      <rects>
+        <li>(1,10,13,22)</li>
+      </rects>
+    </OA_RK_FloorSnow_B>
     <FDF_FloorRabbitCookieIceCream>
       <rects>
-        <li>(0,14,19,21)</li>
+        <li>(14,10,24,10)</li>
+        <li>(1,39,13,48)</li>
+        <li>(14,41,46,47)</li>
+        <li>(14,48,24,48)</li>
+        <li>(27,48,46,52)</li>
       </rects>
     </FDF_FloorRabbitCookieIceCream>
+    <SterileTile>
+      <rects>
+        <li>(14,11,24,22)</li>
+      </rects>
+    </SterileTile>
+    <Wolfein_Floor_CeramicTile>
+      <rects>
+        <li>(14,27,24,33)</li>
+        <li>(25,35,31,40)</li>
+      </rects>
+    </Wolfein_Floor_CeramicTile>
+    <WDMosaicWoodenFloor>
+      <rects>
+        <li>(40,27,42,27)</li>
+      </rects>
+    </WDMosaicWoodenFloor>
+    <Wolfein_Floor_CarpetTile>
+      <rects>
+        <li>(25,33,25,33)</li>
+        <li>(14,34,24,40)</li>
+      </rects>
+    </Wolfein_Floor_CarpetTile>
+    <AncientTile>
+      <rects>
+        <li>(58,42,64,42)</li>
+        <li>(58,43,58,48)</li>
+        <li>(61,43,61,48)</li>
+        <li>(64,43,64,46)</li>
+        <li>(59,44,60,44)</li>
+        <li>(62,44,63,44)</li>
+        <li>(59,46,60,46)</li>
+        <li>(62,46,63,46)</li>
+        <li>(59,48,60,48)</li>
+      </rects>
+    </AncientTile>
   </terrain>
   <terrainLayers>
     <terrainLayerDetail layer="topGrid">
-      <UFLI_FLOORH>
+      <GoldTile>
         <rects>
-          <li>(0,0,13,0)</li>
-          <li>(18,0,19,0)</li>
-          <li>(0,1,11,6)</li>
-          <li>(19,1,19,7)</li>
+          <li>(73,0,97,10)</li>
+          <li>(73,11,89,11)</li>
+          <li>(92,11,97,11)</li>
         </rects>
-      </UFLI_FLOORH>
-      <UFLI_FLOORI>
+      </GoldTile>
+      <AdvBF_PlatformHeavyGround>
         <rects>
-          <li>(12,1,18,6)</li>
-          <li>(13,7,18,7)</li>
+          <li>(49,2,59,2)</li>
+          <li>(67,2,72,2)</li>
+          <li>(49,3,49,5)</li>
+          <li>(63,5,63,22)</li>
+          <li>(61,6,62,22)</li>
+          <li>(59,7,60,22)</li>
+          <li>(58,8,58,22)</li>
+          <li>(64,8,72,21)</li>
+          <li>(55,9,57,22)</li>
+          <li>(25,10,54,22)</li>
+          <li>(90,11,91,41)</li>
+          <li>(73,12,89,21)</li>
+          <li>(92,12,97,21)</li>
+          <li>(64,22,71,22)</li>
+          <li>(77,22,80,26)</li>
+          <li>(92,22,92,41)</li>
+          <li>(72,23,76,33)</li>
+          <li>(81,23,89,25)</li>
+          <li>(93,23,98,41)</li>
+          <li>(83,26,89,26)</li>
+          <li>(32,27,35,40)</li>
+          <li>(77,27,79,27)</li>
+          <li>(85,27,89,28)</li>
+          <li>(36,28,47,40)</li>
+          <li>(77,28,77,41)</li>
+          <li>(78,29,78,30)</li>
+          <li>(86,29,89,30)</li>
+          <li>(59,30,71,41)</li>
+          <li>(85,30,85,41)</li>
+          <li>(79,31,84,41)</li>
+          <li>(86,31,86,41)</li>
+          <li>(88,31,89,31)</li>
+          <li>(78,32,78,41)</li>
+          <li>(89,32,89,41)</li>
+          <li>(72,34,74,41)</li>
+          <li>(88,34,88,41)</li>
+          <li>(75,35,75,41)</li>
+          <li>(87,35,87,41)</li>
+          <li>(76,36,76,41)</li>
+          <li>(25,48,26,48)</li>
         </rects>
-      </UFLI_FLOORI>
-      <KS_CarpetSunstarBluePastel>
+      </AdvBF_PlatformHeavyGround>
+      <AdvBF_PlatformHeavyWater>
         <rects>
-          <li>(0,7,11,13)</li>
+          <li>(60,2,66,2)</li>
+          <li>(59,3,63,4)</li>
+          <li>(59,5,62,5)</li>
+          <li>(49,6,49,9)</li>
+          <li>(59,6,60,6)</li>
+          <li>(50,8,57,8)</li>
+          <li>(50,9,54,9)</li>
+          <li>(81,26,82,30)</li>
+          <li>(80,27,80,30)</li>
+          <li>(83,27,84,30)</li>
+          <li>(78,28,79,28)</li>
+          <li>(79,29,79,30)</li>
+          <li>(85,29,85,29)</li>
+          <li>(78,31,78,31)</li>
+          <li>(87,31,87,34)</li>
+          <li>(88,32,88,33)</li>
+          <li>(75,34,76,34)</li>
+          <li>(76,35,76,35)</li>
         </rects>
-      </KS_CarpetSunstarBluePastel>
-      <KS_CarpetSeigaihaPurple>
+      </AdvBF_PlatformHeavyWater>
+      <AncientConcrete>
         <rects>
-          <li>(12,7,12,13)</li>
+          <li>(6,3,20,5)</li>
+          <li>(6,6,10,6)</li>
+          <li>(12,6,13,6)</li>
+          <li>(15,6,20,6)</li>
+          <li>(7,7,9,7)</li>
+          <li>(11,7,11,9)</li>
+          <li>(13,7,16,7)</li>
+          <li>(18,7,20,7)</li>
+          <li>(6,8,7,9)</li>
+          <li>(9,8,10,9)</li>
+          <li>(14,8,16,9)</li>
+          <li>(18,8,18,8)</li>
+          <li>(8,9,8,9)</li>
+          <li>(13,9,13,9)</li>
+          <li>(17,9,17,9)</li>
+          <li>(19,9,20,9)</li>
+          <li>(59,43,60,43)</li>
+          <li>(62,43,63,43)</li>
+          <li>(59,45,60,45)</li>
+          <li>(62,45,63,45)</li>
+          <li>(59,47,60,47)</li>
         </rects>
-      </KS_CarpetSeigaihaPurple>
-      <UFLI_FLOORJ>
+      </AncientConcrete>
+      <PoolWater>
         <rects>
-          <li>(13,8,19,13)</li>
+          <li>(50,3,58,7)</li>
+          <li>(64,3,72,7)</li>
         </rects>
-      </UFLI_FLOORJ>
+      </PoolWater>
+      <Mediterranean_TileSandstone_a>
+        <rects>
+          <li>(0,5,0,6)</li>
+        </rects>
+      </Mediterranean_TileSandstone_a>
+      <OA_RK_FloorSnow_B>
+        <rects>
+          <li>(1,10,13,22)</li>
+        </rects>
+      </OA_RK_FloorSnow_B>
       <FDF_FloorRabbitCookieIceCream>
         <rects>
-          <li>(0,14,19,21)</li>
+          <li>(14,10,24,10)</li>
+          <li>(1,39,13,48)</li>
+          <li>(14,41,46,47)</li>
+          <li>(14,48,24,48)</li>
+          <li>(27,48,46,52)</li>
         </rects>
       </FDF_FloorRabbitCookieIceCream>
+      <SterileTile>
+        <rects>
+          <li>(14,11,24,22)</li>
+        </rects>
+      </SterileTile>
+      <UFLI_FLOORI>
+        <rects>
+          <li>(72,22,76,22)</li>
+          <li>(81,22,89,22)</li>
+          <li>(93,22,98,22)</li>
+          <li>(0,23,71,26)</li>
+          <li>(0,27,0,27)</li>
+          <li>(49,27,71,29)</li>
+          <li>(25,28,31,32)</li>
+          <li>(26,33,31,34)</li>
+        </rects>
+      </UFLI_FLOORI>
+      <CarpetFineYellowPastel>
+        <rects>
+          <li>(1,27,13,38)</li>
+        </rects>
+      </CarpetFineYellowPastel>
+      <Wolfein_Floor_CeramicTile>
+        <rects>
+          <li>(14,27,24,33)</li>
+          <li>(25,35,31,40)</li>
+        </rects>
+      </Wolfein_Floor_CeramicTile>
+      <UFLI_FLOORH>
+        <rects>
+          <li>(25,27,26,27)</li>
+          <li>(31,27,31,27)</li>
+        </rects>
+      </UFLI_FLOORH>
+      <WDMosaicWoodenFloor>
+        <rects>
+          <li>(40,27,42,27)</li>
+        </rects>
+      </WDMosaicWoodenFloor>
+      <KS_WoodThinStripMixedH>
+        <rects>
+          <li>(48,30,58,41)</li>
+        </rects>
+      </KS_WoodThinStripMixedH>
+      <Wolfein_Floor_CarpetTile>
+        <rects>
+          <li>(25,33,25,33)</li>
+          <li>(14,34,24,40)</li>
+        </rects>
+      </Wolfein_Floor_CarpetTile>
+      <KS_CarpetSeigaihaPurple>
+        <rects>
+          <li>(25,34,25,34)</li>
+        </rects>
+      </KS_CarpetSeigaihaPurple>
+      <UNA_OsakanaGranite>
+        <rects>
+          <li>(54,42,57,45)</li>
+          <li>(56,46,57,46)</li>
+          <li>(57,47,57,47)</li>
+          <li>(62,47,64,52)</li>
+          <li>(57,49,61,51)</li>
+          <li>(56,50,56,51)</li>
+          <li>(55,51,55,51)</li>
+          <li>(60,52,61,52)</li>
+        </rects>
+      </UNA_OsakanaGranite>
+      <AncientTile>
+        <rects>
+          <li>(58,42,64,42)</li>
+          <li>(58,43,58,48)</li>
+          <li>(61,43,61,48)</li>
+          <li>(64,43,64,46)</li>
+          <li>(59,44,60,44)</li>
+          <li>(62,44,63,44)</li>
+          <li>(59,46,60,46)</li>
+          <li>(62,46,63,46)</li>
+          <li>(59,48,60,48)</li>
+        </rects>
+      </AncientTile>
+      <KS_StoneStaggeredMixedMarble>
+        <rects>
+          <li>(89,42,89,42)</li>
+          <li>(91,42,95,42)</li>
+          <li>(91,43,92,43)</li>
+          <li>(95,43,95,43)</li>
+          <li>(93,44,93,44)</li>
+          <li>(91,45,91,49)</li>
+          <li>(92,46,93,46)</li>
+          <li>(89,47,90,47)</li>
+          <li>(92,47,92,47)</li>
+          <li>(94,47,94,47)</li>
+          <li>(90,48,90,48)</li>
+          <li>(95,48,95,49)</li>
+          <li>(92,49,92,49)</li>
+          <li>(94,49,94,49)</li>
+        </rects>
+      </KS_StoneStaggeredMixedMarble>
     </terrainLayerDetail>
     <terrainLayerDetail layer="underGrid">
-      <MarshyTerrain>
+      <AB_SlimyMud>
         <rects>
-          <li>(0,0,5,1)</li>
-          <li>(7,0,8,0)</li>
-          <li>(11,0,13,1)</li>
-          <li>(18,0,19,1)</li>
-          <li>(6,1,6,2)</li>
-          <li>(8,1,9,7)</li>
-          <li>(14,1,14,2)</li>
-          <li>(17,1,17,2)</li>
-          <li>(0,2,4,2)</li>
-          <li>(7,2,7,7)</li>
-          <li>(10,2,10,3)</li>
-          <li>(12,2,13,2)</li>
-          <li>(15,2,16,2)</li>
-          <li>(1,3,5,6)</li>
-          <li>(0,4,0,6)</li>
-          <li>(6,4,6,7)</li>
-          <li>(10,5,10,6)</li>
-          <li>(1,7,3,7)</li>
-          <li>(1,8,2,8)</li>
+          <li>(73,0,75,1)</li>
+          <li>(77,0,80,0)</li>
+          <li>(76,1,79,1)</li>
+          <li>(74,2,78,3)</li>
+          <li>(74,4,75,4)</li>
+          <li>(77,16,77,27)</li>
+          <li>(76,17,76,27)</li>
+          <li>(78,17,78,23)</li>
+          <li>(75,18,75,20)</li>
+          <li>(79,20,80,20)</li>
+          <li>(79,21,79,22)</li>
+          <li>(75,22,75,27)</li>
+          <li>(74,23,74,27)</li>
+          <li>(80,23,81,25)</li>
+          <li>(82,24,84,25)</li>
+          <li>(79,25,79,27)</li>
+          <li>(85,25,86,27)</li>
+          <li>(78,26,78,27)</li>
+          <li>(80,26,80,26)</li>
+          <li>(83,26,84,26)</li>
+          <li>(87,26,87,27)</li>
+          <li>(88,27,88,28)</li>
+          <li>(89,31,89,37)</li>
+          <li>(90,32,91,33)</li>
+          <li>(88,34,88,36)</li>
+          <li>(90,34,90,34)</li>
         </rects>
-      </MarshyTerrain>
-      <Soil>
+      </AB_SlimyMud>
+      <AB_LiquidSlime>
         <rects>
-          <li>(6,0,6,0)</li>
-          <li>(9,0,10,0)</li>
-          <li>(7,1,7,1)</li>
-          <li>(10,1,10,1)</li>
-          <li>(11,2,11,8)</li>
-          <li>(18,2,19,21)</li>
-          <li>(0,3,0,3)</li>
-          <li>(12,3,17,8)</li>
-          <li>(10,4,10,4)</li>
-          <li>(0,7,0,8)</li>
-          <li>(4,7,5,8)</li>
-          <li>(10,7,10,8)</li>
-          <li>(3,8,3,8)</li>
-          <li>(6,8,9,8)</li>
-          <li>(13,9,17,21)</li>
+          <li>(76,0,76,0)</li>
+          <li>(81,26,82,30)</li>
+          <li>(80,27,80,30)</li>
+          <li>(83,27,84,30)</li>
+          <li>(78,28,79,28)</li>
+          <li>(79,29,79,30)</li>
+          <li>(85,29,85,29)</li>
+          <li>(78,31,78,31)</li>
+          <li>(87,31,87,34)</li>
+          <li>(88,32,88,33)</li>
+          <li>(75,34,76,34)</li>
+          <li>(76,35,76,35)</li>
         </rects>
-      </Soil>
-      <Marsh>
+      </AB_LiquidSlime>
+      <AB_SlimeGrass>
         <rects>
-          <li>(15,1,16,1)</li>
-          <li>(5,2,5,2)</li>
-          <li>(6,3,6,3)</li>
+          <li>(81,0,85,0)</li>
+          <li>(81,1,82,1)</li>
+          <li>(84,1,84,2)</li>
+          <li>(80,5,81,9)</li>
+          <li>(79,6,79,6)</li>
+          <li>(83,6,84,6)</li>
+          <li>(79,8,79,8)</li>
+          <li>(82,8,83,9)</li>
+          <li>(84,9,84,11)</li>
+          <li>(79,10,79,10)</li>
+          <li>(85,10,85,11)</li>
+          <li>(96,11,97,30)</li>
+          <li>(83,12,83,15)</li>
+          <li>(94,12,95,31)</li>
+          <li>(75,13,78,14)</li>
+          <li>(74,14,74,22)</li>
+          <li>(79,14,79,14)</li>
+          <li>(82,14,82,15)</li>
+          <li>(92,14,93,33)</li>
+          <li>(75,15,75,17)</li>
+          <li>(77,15,78,15)</li>
+          <li>(81,15,81,15)</li>
+          <li>(84,15,84,15)</li>
+          <li>(88,15,91,15)</li>
+          <li>(90,16,91,31)</li>
+          <li>(84,17,84,17)</li>
+          <li>(87,18,87,19)</li>
+          <li>(89,18,89,20)</li>
+          <li>(88,19,88,19)</li>
+          <li>(75,21,75,21)</li>
+          <li>(98,22,98,32)</li>
+          <li>(74,28,77,33)</li>
+          <li>(85,28,87,28)</li>
+          <li>(78,29,78,30)</li>
+          <li>(86,29,89,30)</li>
+          <li>(69,30,73,31)</li>
+          <li>(85,30,85,40)</li>
+          <li>(79,31,84,38)</li>
+          <li>(86,31,86,40)</li>
+          <li>(88,31,88,31)</li>
+          <li>(97,31,97,31)</li>
+          <li>(69,32,69,32)</li>
+          <li>(72,32,72,32)</li>
+          <li>(78,32,78,36)</li>
+          <li>(94,32,94,32)</li>
+          <li>(77,34,77,35)</li>
+          <li>(87,35,87,41)</li>
+          <li>(88,37,88,41)</li>
+          <li>(89,38,89,42)</li>
+          <li>(81,39,84,39)</li>
+          <li>(90,39,90,41)</li>
+          <li>(83,40,84,40)</li>
+          <li>(91,41,91,43)</li>
+          <li>(91,45,91,45)</li>
         </rects>
-      </Marsh>
-      <Ice>
-        <rects>
-          <li>(0,9,1,9)</li>
-          <li>(11,9,12,9)</li>
-          <li>(0,10,0,10)</li>
-          <li>(2,14,3,14)</li>
-          <li>(0,15,2,17)</li>
-          <li>(0,18,1,21)</li>
-          <li>(2,20,2,21)</li>
-          <li>(3,21,3,21)</li>
-        </rects>
-      </Ice>
+      </AB_SlimeGrass>
       <Gravel>
         <rects>
-          <li>(2,9,10,10)</li>
-          <li>(1,10,1,14)</li>
-          <li>(11,10,12,10)</li>
-          <li>(0,11,0,14)</li>
-          <li>(2,11,8,11)</li>
-          <li>(2,12,6,13)</li>
-          <li>(4,14,6,21)</li>
-          <li>(3,15,3,20)</li>
-          <li>(8,15,8,21)</li>
-          <li>(7,16,7,18)</li>
-          <li>(9,16,9,20)</li>
-          <li>(2,18,2,19)</li>
+          <li>(86,0,88,6)</li>
+          <li>(95,0,97,0)</li>
+          <li>(80,1,80,1)</li>
+          <li>(83,1,83,1)</li>
+          <li>(85,1,85,1)</li>
+          <li>(97,1,97,1)</li>
+          <li>(79,2,79,2)</li>
+          <li>(89,2,89,4)</li>
+          <li>(85,4,85,8)</li>
+          <li>(84,5,84,5)</li>
+          <li>(82,6,82,7)</li>
+          <li>(83,7,84,7)</li>
+          <li>(86,7,87,7)</li>
+          <li>(84,8,84,8)</li>
+          <li>(86,8,86,8)</li>
+          <li>(79,9,79,9)</li>
+          <li>(1,10,4,10)</li>
+          <li>(17,10,19,10)</li>
+          <li>(21,10,21,10)</li>
+          <li>(80,10,83,10)</li>
+          <li>(2,11,5,11)</li>
+          <li>(78,11,81,11)</li>
+          <li>(4,12,4,12)</li>
+          <li>(6,12,6,16)</li>
+          <li>(76,12,78,12)</li>
+          <li>(74,13,74,13)</li>
+          <li>(1,14,1,14)</li>
+          <li>(4,14,5,15)</li>
+          <li>(5,16,5,18)</li>
+          <li>(4,17,4,17)</li>
+          <li>(1,21,1,21)</li>
+          <li>(2,22,4,22)</li>
+          <li>(3,23,4,23)</li>
+          <li>(74,34,74,34)</li>
+          <li>(75,35,75,36)</li>
+          <li>(15,36,23,37)</li>
+          <li>(76,36,77,37)</li>
+          <li>(14,37,14,41)</li>
+          <li>(24,37,25,37)</li>
+          <li>(78,37,78,39)</li>
+          <li>(15,38,21,38)</li>
+          <li>(77,38,77,39)</li>
+          <li>(15,39,19,40)</li>
+          <li>(72,39,72,39)</li>
+          <li>(74,39,76,39)</li>
+          <li>(79,39,79,39)</li>
+          <li>(69,40,71,40)</li>
+          <li>(17,41,19,48)</li>
+          <li>(67,41,69,41)</li>
+          <li>(16,42,16,47)</li>
+          <li>(21,42,21,48)</li>
+          <li>(20,43,20,45)</li>
+          <li>(22,43,22,47)</li>
+          <li>(15,45,15,46)</li>
         </rects>
       </Gravel>
+      <AB_Slime>
+        <rects>
+          <li>(89,0,94,1)</li>
+          <li>(95,1,96,10)</li>
+          <li>(90,2,94,11)</li>
+          <li>(97,2,97,10)</li>
+          <li>(89,5,89,14)</li>
+          <li>(88,7,88,14)</li>
+          <li>(87,8,87,17)</li>
+          <li>(85,9,86,9)</li>
+          <li>(86,10,86,24)</li>
+          <li>(82,11,83,11)</li>
+          <li>(95,11,95,11)</li>
+          <li>(79,12,82,13)</li>
+          <li>(84,12,85,14)</li>
+          <li>(90,12,93,13)</li>
+          <li>(80,14,81,14)</li>
+          <li>(90,14,91,14)</li>
+          <li>(76,15,76,16)</li>
+          <li>(79,15,80,19)</li>
+          <li>(85,15,85,24)</li>
+          <li>(78,16,78,16)</li>
+          <li>(81,16,84,16)</li>
+          <li>(88,16,89,17)</li>
+          <li>(81,17,83,22)</li>
+          <li>(84,18,84,23)</li>
+          <li>(88,18,88,18)</li>
+          <li>(87,20,88,25)</li>
+          <li>(80,21,80,22)</li>
+          <li>(89,21,89,28)</li>
+          <li>(79,23,79,24)</li>
+          <li>(82,23,83,23)</li>
+          <li>(78,24,78,25)</li>
+          <li>(88,26,88,26)</li>
+          <li>(96,31,96,41)</li>
+          <li>(95,32,95,43)</li>
+          <li>(97,32,97,41)</li>
+          <li>(94,33,94,42)</li>
+          <li>(98,33,98,41)</li>
+          <li>(91,34,93,40)</li>
+          <li>(90,35,90,38)</li>
+          <li>(92,41,93,42)</li>
+          <li>(92,43,92,43)</li>
+          <li>(93,44,93,44)</li>
+          <li>(92,46,93,46)</li>
+          <li>(94,47,94,47)</li>
+          <li>(95,48,95,48)</li>
+        </rects>
+      </AB_Slime>
+      <Ice>
+        <rects>
+          <li>(49,2,59,2)</li>
+          <li>(67,2,73,2)</li>
+          <li>(14,3,20,4)</li>
+          <li>(49,3,57,3)</li>
+          <li>(66,3,71,3)</li>
+          <li>(49,4,56,4)</li>
+          <li>(65,4,70,4)</li>
+          <li>(16,5,20,5)</li>
+          <li>(49,5,54,5)</li>
+          <li>(63,5,67,6)</li>
+          <li>(17,6,20,6)</li>
+          <li>(50,6,52,6)</li>
+          <li>(61,6,62,29)</li>
+          <li>(18,7,20,7)</li>
+          <li>(59,7,60,29)</li>
+          <li>(63,7,66,29)</li>
+          <li>(18,8,18,8)</li>
+          <li>(58,8,58,41)</li>
+          <li>(67,8,67,29)</li>
+          <li>(19,9,20,9)</li>
+          <li>(55,9,57,41)</li>
+          <li>(68,9,68,29)</li>
+          <li>(13,10,16,10)</li>
+          <li>(50,10,54,41)</li>
+          <li>(69,11,70,29)</li>
+          <li>(71,12,72,29)</li>
+          <li>(12,13,12,48)</li>
+          <li>(73,13,73,29)</li>
+          <li>(11,14,11,48)</li>
+          <li>(10,15,10,48)</li>
+          <li>(8,16,9,47)</li>
+          <li>(13,16,13,17)</li>
+          <li>(6,17,7,47)</li>
+          <li>(5,20,5,46)</li>
+          <li>(13,22,13,25)</li>
+          <li>(14,23,49,25)</li>
+          <li>(4,24,4,43)</li>
+          <li>(3,25,3,36)</li>
+          <li>(1,26,2,27)</li>
+          <li>(33,26,34,52)</li>
+          <li>(49,26,49,41)</li>
+          <li>(2,28,2,35)</li>
+          <li>(1,29,1,33)</li>
+          <li>(48,30,48,41)</li>
+          <li>(59,30,59,41)</li>
+          <li>(14,36,14,36)</li>
+          <li>(24,36,25,36)</li>
+          <li>(15,41,16,41)</li>
+          <li>(40,41,46,41)</li>
+          <li>(14,42,15,44)</li>
+          <li>(35,42,45,42)</li>
+          <li>(35,43,42,43)</li>
+          <li>(35,44,40,44)</li>
+          <li>(14,45,14,48)</li>
+          <li>(35,45,39,47)</li>
+          <li>(15,47,15,48)</li>
+          <li>(9,48,9,48)</li>
+          <li>(13,48,13,48)</li>
+          <li>(16,48,16,48)</li>
+          <li>(35,48,38,52)</li>
+          <li>(27,49,32,52)</li>
+        </rects>
+      </Ice>
+      <WaterMovingShallow>
+        <rects>
+          <li>(60,2,66,2)</li>
+          <li>(58,3,65,3)</li>
+          <li>(57,4,64,4)</li>
+          <li>(55,5,62,5)</li>
+          <li>(49,6,49,9)</li>
+          <li>(53,6,60,6)</li>
+          <li>(50,7,58,7)</li>
+          <li>(50,8,57,8)</li>
+          <li>(50,9,54,9)</li>
+        </rects>
+      </WaterMovingShallow>
+      <AB_SlimeStone_Rough>
+        <rects>
+          <li>(80,2,83,4)</li>
+          <li>(85,2,85,3)</li>
+          <li>(79,3,79,5)</li>
+          <li>(84,3,84,4)</li>
+          <li>(76,4,78,10)</li>
+          <li>(74,5,75,7)</li>
+          <li>(82,5,83,5)</li>
+          <li>(0,6,0,6)</li>
+          <li>(79,7,79,7)</li>
+          <li>(75,8,75,8)</li>
+          <li>(75,11,77,11)</li>
+          <li>(74,12,75,12)</li>
+          <li>(0,24,0,27)</li>
+          <li>(65,30,68,32)</li>
+          <li>(70,32,71,33)</li>
+          <li>(66,33,69,33)</li>
+          <li>(67,34,70,34)</li>
+          <li>(69,35,71,35)</li>
+          <li>(74,35,74,38)</li>
+          <li>(61,37,63,52)</li>
+          <li>(75,37,75,38)</li>
+          <li>(76,38,76,38)</li>
+          <li>(60,39,60,52)</li>
+          <li>(64,39,71,39)</li>
+          <li>(64,40,68,40)</li>
+          <li>(64,41,66,41)</li>
+          <li>(54,42,59,45)</li>
+          <li>(64,42,64,52)</li>
+          <li>(56,46,59,46)</li>
+          <li>(57,47,59,47)</li>
+          <li>(58,48,59,51)</li>
+          <li>(57,49,57,51)</li>
+          <li>(56,50,56,51)</li>
+          <li>(55,51,55,51)</li>
+        </rects>
+      </AB_SlimeStone_Rough>
+      <Soil>
+        <rects>
+          <li>(6,3,13,5)</li>
+          <li>(14,5,15,5)</li>
+          <li>(6,6,10,6)</li>
+          <li>(12,6,13,6)</li>
+          <li>(15,6,16,9)</li>
+          <li>(7,7,9,7)</li>
+          <li>(11,7,11,13)</li>
+          <li>(13,7,14,7)</li>
+          <li>(6,8,7,11)</li>
+          <li>(9,8,10,14)</li>
+          <li>(14,8,14,9)</li>
+          <li>(8,9,8,13)</li>
+          <li>(13,9,13,9)</li>
+          <li>(17,9,17,9)</li>
+          <li>(5,10,5,10)</li>
+          <li>(12,10,12,12)</li>
+          <li>(26,10,49,22)</li>
+          <li>(13,11,25,14)</li>
+          <li>(7,12,7,13)</li>
+          <li>(15,15,25,22)</li>
+          <li>(13,18,14,21)</li>
+          <li>(1,22,1,25)</li>
+          <li>(14,22,14,22)</li>
+          <li>(2,23,2,25)</li>
+          <li>(3,24,3,24)</li>
+          <li>(23,26,32,26)</li>
+          <li>(35,26,48,26)</li>
+          <li>(19,27,19,27)</li>
+          <li>(22,27,23,27)</li>
+          <li>(35,27,35,41)</li>
+          <li>(40,27,42,33)</li>
+          <li>(1,28,1,28)</li>
+          <li>(13,28,13,47)</li>
+          <li>(20,28,20,28)</li>
+          <li>(23,28,23,28)</li>
+          <li>(36,28,39,41)</li>
+          <li>(43,28,47,32)</li>
+          <li>(24,29,24,35)</li>
+          <li>(31,29,32,48)</li>
+          <li>(25,30,30,35)</li>
+          <li>(23,31,23,31)</li>
+          <li>(43,33,43,33)</li>
+          <li>(45,33,47,40)</li>
+          <li>(1,34,1,48)</li>
+          <li>(17,34,18,35)</li>
+          <li>(23,34,23,35)</li>
+          <li>(40,34,41,40)</li>
+          <li>(16,35,16,35)</li>
+          <li>(19,35,22,35)</li>
+          <li>(2,36,2,48)</li>
+          <li>(26,36,30,48)</li>
+          <li>(3,37,3,41)</li>
+          <li>(42,37,44,40)</li>
+          <li>(80,39,80,41)</li>
+          <li>(72,40,72,41)</li>
+          <li>(74,40,79,41)</li>
+          <li>(81,40,82,41)</li>
+          <li>(70,41,71,41)</li>
+          <li>(83,41,86,41)</li>
+          <li>(3,45,3,48)</li>
+          <li>(4,46,4,48)</li>
+          <li>(91,46,91,49)</li>
+          <li>(5,47,5,48)</li>
+          <li>(89,47,90,47)</li>
+          <li>(92,47,92,47)</li>
+          <li>(6,48,7,48)</li>
+          <li>(90,48,90,48)</li>
+          <li>(92,49,92,49)</li>
+          <li>(94,49,95,49)</li>
+        </rects>
+      </Soil>
+      <HX_Quartz_RoughHewn>
+        <rects>
+          <li>(72,3,73,11)</li>
+          <li>(71,4,71,11)</li>
+          <li>(68,5,70,8)</li>
+          <li>(67,7,67,7)</li>
+          <li>(69,9,70,10)</li>
+          <li>(73,12,73,12)</li>
+          <li>(73,32,73,41)</li>
+          <li>(72,33,72,38)</li>
+          <li>(71,34,71,34)</li>
+          <li>(71,36,71,38)</li>
+          <li>(69,37,70,38)</li>
+          <li>(68,38,68,38)</li>
+          <li>(46,42,46,52)</li>
+          <li>(43,43,45,52)</li>
+          <li>(41,44,42,52)</li>
+          <li>(40,45,40,52)</li>
+          <li>(39,48,39,52)</li>
+        </rects>
+      </HX_Quartz_RoughHewn>
+      <SoilRich>
+        <rects>
+          <li>(0,5,0,5)</li>
+          <li>(7,14,8,15)</li>
+          <li>(9,15,9,15)</li>
+          <li>(7,16,7,16)</li>
+          <li>(14,26,22,26)</li>
+        </rects>
+      </SoilRich>
+      <AB_SlimeStone_RoughHewn>
+        <rects>
+          <li>(74,8,74,11)</li>
+          <li>(75,9,75,10)</li>
+          <li>(0,23,0,23)</li>
+          <li>(60,30,64,36)</li>
+          <li>(65,33,65,38)</li>
+          <li>(66,34,66,38)</li>
+          <li>(67,35,68,37)</li>
+          <li>(69,36,70,36)</li>
+          <li>(60,37,60,38)</li>
+          <li>(64,37,64,38)</li>
+          <li>(67,38,67,38)</li>
+        </rects>
+      </AB_SlimeStone_RoughHewn>
       <Slate_Rough>
         <rects>
-          <li>(9,11,12,12)</li>
-          <li>(7,12,8,14)</li>
-          <li>(9,13,10,15)</li>
-          <li>(7,15,7,15)</li>
-          <li>(10,16,10,21)</li>
-          <li>(7,19,7,21)</li>
-          <li>(11,19,11,21)</li>
-          <li>(9,21,9,21)</li>
+          <li>(20,10,20,10)</li>
+          <li>(22,10,24,10)</li>
+          <li>(22,38,25,39)</li>
+          <li>(20,39,21,41)</li>
+          <li>(22,40,23,42)</li>
+          <li>(20,42,20,42)</li>
+          <li>(23,43,23,48)</li>
+          <li>(20,46,20,48)</li>
+          <li>(24,46,24,48)</li>
+          <li>(22,48,22,48)</li>
         </rects>
       </Slate_Rough>
       <Slate_RoughHewn>
         <rects>
-          <li>(11,13,12,18)</li>
-          <li>(12,19,12,21)</li>
+          <li>(25,10,25,10)</li>
+          <li>(24,40,25,45)</li>
+          <li>(25,46,25,48)</li>
         </rects>
       </Slate_RoughHewn>
+      <HX_Quartz_Rough>
+        <rects>
+          <li>(1,11,1,13)</li>
+          <li>(2,12,3,21)</li>
+          <li>(5,12,5,13)</li>
+          <li>(4,13,4,13)</li>
+          <li>(1,15,1,20)</li>
+          <li>(4,16,4,16)</li>
+          <li>(4,18,4,21)</li>
+          <li>(5,19,5,19)</li>
+        </rects>
+      </HX_Quartz_Rough>
+      <MarshyTerrain>
+        <rects>
+          <li>(13,15,14,15)</li>
+          <li>(14,16,14,17)</li>
+          <li>(13,26,13,27)</li>
+          <li>(14,27,18,28)</li>
+          <li>(20,27,21,27)</li>
+          <li>(24,27,26,28)</li>
+          <li>(31,27,32,28)</li>
+          <li>(19,28,19,29)</li>
+          <li>(21,28,22,34)</li>
+          <li>(27,28,27,29)</li>
+          <li>(30,28,30,29)</li>
+          <li>(14,29,17,33)</li>
+          <li>(20,29,20,34)</li>
+          <li>(23,29,23,30)</li>
+          <li>(25,29,26,29)</li>
+          <li>(28,29,29,29)</li>
+          <li>(18,30,18,33)</li>
+          <li>(19,31,19,34)</li>
+          <li>(23,32,23,33)</li>
+          <li>(44,33,44,36)</li>
+          <li>(14,34,16,34)</li>
+          <li>(42,34,43,36)</li>
+          <li>(14,35,15,35)</li>
+        </rects>
+      </MarshyTerrain>
+      <Marsh>
+        <rects>
+          <li>(28,28,29,28)</li>
+          <li>(18,29,18,29)</li>
+          <li>(19,30,19,30)</li>
+        </rects>
+      </Marsh>
+      <MossyTerrain>
+        <rects>
+          <li>(3,42,3,44)</li>
+          <li>(4,44,4,45)</li>
+          <li>(8,48,8,48)</li>
+        </rects>
+      </MossyTerrain>
     </terrainLayerDetail>
   </terrainLayers>
   <roofs>
+    <RoofRockThin>
+      <rects>
+        <li>(54,0,56,1)</li>
+        <li>(57,1,58,1)</li>
+      </rects>
+    </RoofRockThin>
     <RoofConstructed>
       <rects>
-        <li>(0,0,19,21)</li>
+        <li>(73,0,97,22)</li>
+        <li>(49,2,72,22)</li>
+        <li>(0,4,1,7)</li>
+        <li>(0,8,0,19)</li>
+        <li>(1,10,48,22)</li>
+        <li>(13,26,32,48)</li>
+        <li>(35,26,48,42)</li>
+        <li>(1,27,12,48)</li>
+        <li>(33,27,34,52)</li>
+        <li>(49,30,71,41)</li>
+        <li>(87,35,89,37)</li>
+        <li>(90,36,90,37)</li>
+        <li>(88,38,89,38)</li>
+        <li>(49,42,52,43)</li>
+        <li>(35,43,46,52)</li>
+        <li>(51,44,52,46)</li>
+        <li>(27,49,32,52)</li>
       </rects>
     </RoofConstructed>
     <PlayerRoofZone>
       <rects>
-        <li>(0,0,19,21)</li>
+        <li>(73,0,97,8)</li>
+        <li>(0,1,0,19)</li>
+        <li>(1,2,1,7)</li>
+        <li>(73,9,73,22)</li>
+        <li>(76,9,97,22)</li>
+        <li>(1,10,49,22)</li>
+        <li>(69,10,71,14)</li>
+        <li>(72,11,72,14)</li>
+        <li>(74,11,75,22)</li>
+        <li>(59,16,72,22)</li>
+        <li>(13,26,13,48)</li>
+        <li>(47,26,47,42)</li>
+        <li>(1,27,12,39)</li>
+        <li>(14,27,46,42)</li>
+        <li>(48,27,48,42)</li>
+        <li>(49,30,71,41)</li>
+        <li>(87,35,89,37)</li>
+        <li>(90,36,90,37)</li>
+        <li>(88,38,89,38)</li>
+        <li>(49,42,52,43)</li>
+        <li>(14,43,42,43)</li>
+        <li>(14,44,41,45)</li>
+        <li>(51,44,52,46)</li>
+        <li>(14,46,40,46)</li>
+        <li>(14,47,39,48)</li>
+        <li>(27,49,39,52)</li>
+        <li>(55,49,55,49)</li>
       </rects>
     </PlayerRoofZone>
   </roofs>
