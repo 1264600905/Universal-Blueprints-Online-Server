@@ -1,0 +1,191 @@
+<PrefabDef>
+  <defName>Prefab_20260518_002745</defName>
+  <size>(8,8)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>房子</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>宿舍</category>
+    <BuildingID>09c2dde0-39da-418e-867e-648ef473e56d</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>ludeon.rimworld.ideology</packageId>
+        <name>Ideology</name>
+        <version></version>
+        <modorder>3</modorder>
+        <things>
+          <li>PlantPot_Bonsai</li>
+          <li>Tile_Transhumanist</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>kindseal.decorativepainting</packageId>
+        <name>装饰挂画-Decorative painting</name>
+        <version></version>
+        <modorder>33</modorder>
+        <steamWorkshopId>3587440566</steamWorkshopId>
+        <things>
+          <li>DecorativePainting_Modern</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>房子</default>
+        <zh-CN>房子</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,7,0)</li>
+        <li>(0,1,0,7)</li>
+        <li>(7,1,7,3)</li>
+        <li>(7,5,7,5)</li>
+        <li>(1,7,7,7)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+      <hp>360</hp>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </Wall>
+    <HiddenConduit>
+      <rects>
+        <li>(0,0,0,7)</li>
+        <li>(7,0,7,7)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <RoyalBed>
+      <position>(1, 0, 2)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>130</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RoyalBed>
+    <Dresser>
+      <position>(3, 0, 1)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>78</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Dresser>
+    <PlantPot_Bonsai>
+      <rects>
+        <li>(6,1,6,1)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <hp>52</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </PlantPot_Bonsai>
+    <WallLamp>
+      <rects>
+        <li>(1,2,1,2)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>35</hp>
+    </WallLamp>
+    <WallLamp>
+      <rects>
+        <li>(6,2,6,2)</li>
+        <li>(6,5,6,5)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>35</hp>
+    </WallLamp>
+    <Couch>
+      <position>(2, 0, 4)</position>
+      <stuff>Cloth</stuff>
+      <quality>Excellent</quality>
+      <hp>160</hp>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </Couch>
+    <Vent>
+      <rects>
+        <li>(7,4,7,4)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>100</hp>
+    </Vent>
+    <Armchair>
+      <rects>
+        <li>(1,5,1,5)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Normal</quality>
+      <hp>120</hp>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </Armchair>
+    <Table1x2c>
+      <position>(2, 0, 5)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>49</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Table1x2c>
+    <Couch>
+      <position>(3, 0, 6)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Excellent</quality>
+      <hp>160</hp>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </Couch>
+    <DecorativePainting_Modern>
+      <rects>
+        <li>(3,6,3,6)</li>
+      </rects>
+      <hp>120</hp>
+    </DecorativePainting_Modern>
+    <Door>
+      <rects>
+        <li>(7,6,7,6)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>160</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Door>
+  </things>
+  <terrain>
+    <Tile_Transhumanist>
+      <rects>
+        <li>(1,1,6,6)</li>
+        <li>(7,6,7,6)</li>
+      </rects>
+    </Tile_Transhumanist>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <Tile_Transhumanist>
+        <rects>
+          <li>(1,1,6,6)</li>
+          <li>(7,6,7,6)</li>
+        </rects>
+      </Tile_Transhumanist>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Marble_RoughHewn>
+        <rects>
+          <li>(1,1,6,6)</li>
+          <li>(7,6,7,6)</li>
+        </rects>
+      </Marble_RoughHewn>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofRockThick>
+      <rects>
+        <li>(0,0,7,7)</li>
+      </rects>
+    </RoofRockThick>
+  </roofs>
+</PrefabDef>
