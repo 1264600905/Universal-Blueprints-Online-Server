@@ -1,0 +1,59 @@
+<PrefabDef>
+  <defName>Prefab_20260518_171726</defName>
+  <size>(4,4)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>安全屋</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>其他</category>
+    <BuildingID>3bc30ed1-b2a3-4fc6-8742-21049c4e696c</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>xmb.ancienturbanruins.mo</packageId>
+        <name>Ancient urban ruins</name>
+        <version></version>
+        <modorder>296</modorder>
+        <steamWorkshopId>3316062206</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>AM_Entrance_Shelter</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>安全屋</default>
+        <zh-CN>安全屋</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <AM_Entrance_Shelter>
+      <position>(2, 0, 1)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </AM_Entrance_Shelter>
+  </things>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <Concrete>
+        <rects>
+          <li>(0,0,3,3)</li>
+        </rects>
+      </Concrete>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(0,0,3,3)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+</PrefabDef>
