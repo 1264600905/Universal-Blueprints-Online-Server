@@ -1,0 +1,173 @@
+<PrefabDef>
+  <defName>Prefab_20260519_040706</defName>
+  <size>(12,16)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>田</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>田地</category>
+    <BuildingID>51523eda-a63b-4d19-a756-902694e66c47</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>kindseal.ufpc</packageId>
+        <name>联合重工派系拓展-UFPC</name>
+        <version></version>
+        <modorder>646</modorder>
+        <steamWorkshopId>3698316804</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>kindseal.lol</packageId>
+            <steamWorkshopId>3555662938</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+          <li>
+            <packageId>dizhuan.sralib</packageId>
+            <steamWorkshopId>3565275325</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFC_1X1_Hydroponics_Super</li>
+          <li>UFC_2X3_Hydroponics_Super</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>tot.celetech.mkiii</packageId>
+        <name>CeleTech Arsenal MKIII</name>
+        <version></version>
+        <modorder>112</modorder>
+        <steamWorkshopId>3446237098</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+        </dependencies>
+        <things>
+          <li>CMC_WallTempController</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.odyssey</packageId>
+        <name>Odyssey</name>
+        <version></version>
+        <modorder>7</modorder>
+        <things>
+          <li>Substructure</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>田</default>
+        <zh-TW>田</zh-TW>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <UFC_1X1_Hydroponics_Super>
+      <rects>
+        <li>(0,0,11,0)</li>
+      </rects>
+      <hp>100</hp>
+    </UFC_1X1_Hydroponics_Super>
+    <UFC_2X3_Hydroponics_Super>
+      <positions>
+        <li>(1, 0, 2)</li>
+        <li>(3, 0, 2)</li>
+        <li>(5, 0, 2)</li>
+        <li>(7, 0, 2)</li>
+        <li>(9, 0, 2)</li>
+        <li>(11, 0, 2)</li>
+        <li>(1, 0, 5)</li>
+        <li>(3, 0, 5)</li>
+        <li>(5, 0, 5)</li>
+        <li>(7, 0, 5)</li>
+        <li>(9, 0, 5)</li>
+        <li>(11, 0, 5)</li>
+        <li>(1, 0, 8)</li>
+        <li>(3, 0, 8)</li>
+        <li>(5, 0, 8)</li>
+        <li>(7, 0, 8)</li>
+        <li>(9, 0, 8)</li>
+        <li>(11, 0, 8)</li>
+        <li>(1, 0, 11)</li>
+        <li>(3, 0, 11)</li>
+        <li>(5, 0, 11)</li>
+        <li>(7, 0, 11)</li>
+        <li>(9, 0, 11)</li>
+        <li>(11, 0, 11)</li>
+        <li>(1, 0, 14)</li>
+        <li>(3, 0, 14)</li>
+        <li>(5, 0, 14)</li>
+        <li>(7, 0, 14)</li>
+        <li>(9, 0, 14)</li>
+        <li>(11, 0, 14)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>600</hp>
+    </UFC_2X3_Hydroponics_Super>
+    <HiddenConduit>
+      <rects>
+        <li>(0,6,8,6)</li>
+        <li>(8,7,8,13)</li>
+        <li>(0,13,7,13)</li>
+        <li>(2,14,2,15)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <CMC_WallTempController>
+      <rects>
+        <li>(11,9,11,9)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>300</hp>
+    </CMC_WallTempController>
+  </things>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <Soil>
+        <rects>
+          <li>(0,0,11,14)</li>
+          <li>(0,15,0,15)</li>
+          <li>(2,15,11,15)</li>
+        </rects>
+      </Soil>
+      <SoilRich>
+        <rects>
+          <li>(1,15,1,15)</li>
+        </rects>
+      </SoilRich>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="foundationGrid">
+      <Substructure>
+        <rects>
+          <li>(0,0,11,15)</li>
+        </rects>
+      </Substructure>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,11,15)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,11,15)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
