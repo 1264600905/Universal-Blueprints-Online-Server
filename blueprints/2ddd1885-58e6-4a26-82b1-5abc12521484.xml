@@ -1,0 +1,357 @@
+<PrefabDef>
+  <defName>Prefab_20260520_003113</defName>
+  <size>(32,32)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>发电厂</name>
+    <description>以Heretic的大型绿色能源厂为基础进行的改进，更多电力，并配有一个大型蓄电站</description>
+    <tags></tags>
+    <author>至一</author>
+    <category>电力</category>
+    <BuildingID>2ddd1885-58e6-4a26-82b1-5abc12521484</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>kindseal.ufli</packageId>
+        <name>联合轻工家具拓展-UF Light Industries Furniture</name>
+        <version></version>
+        <modorder>239</modorder>
+        <steamWorkshopId>3651799915</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFLI_Wall</li>
+          <li>UFLI_1_Autodoor</li>
+          <li>UFLI_2_Autodoor</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.odyssey</packageId>
+        <name>Odyssey</name>
+        <version></version>
+        <modorder>9</modorder>
+        <things>
+          <li>GrasslandSoil</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>发电厂</default>
+        <zh-CN>发电厂</zh-CN>
+      </name>
+      <description>
+        <default>以Heretic的大型绿色能源厂为基础进行的改进，更多电力，并配有一个大型蓄电站</default>
+        <zh-CN>以Heretic的大型绿色能源厂为基础进行的改进，更多电力，并配有一个大型蓄电站</zh-CN>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <UFLI_Wall>
+      <rects>
+        <li>(0,0,10,0)</li>
+        <li>(12,0,19,0)</li>
+        <li>(21,0,31,0)</li>
+        <li>(0,1,0,10)</li>
+        <li>(31,1,31,10)</li>
+        <li>(10,10,14,10)</li>
+        <li>(17,10,21,10)</li>
+        <li>(10,11,10,14)</li>
+        <li>(21,11,21,14)</li>
+        <li>(0,12,0,19)</li>
+        <li>(31,12,31,19)</li>
+        <li>(10,17,10,21)</li>
+        <li>(21,17,21,21)</li>
+        <li>(0,21,0,31)</li>
+        <li>(11,21,14,21)</li>
+        <li>(17,21,20,21)</li>
+        <li>(31,21,31,31)</li>
+        <li>(1,31,10,31)</li>
+        <li>(12,31,19,31)</li>
+        <li>(21,31,30,31)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>2500</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Wall>
+    <HiddenConduit>
+      <rects>
+        <li>(0,0,31,0)</li>
+        <li>(0,1,0,31)</li>
+        <li>(31,1,31,31)</li>
+        <li>(11,5,11,5)</li>
+        <li>(20,5,20,5)</li>
+        <li>(10,9,10,22)</li>
+        <li>(12,9,12,11)</li>
+        <li>(19,9,19,11)</li>
+        <li>(21,9,21,22)</li>
+        <li>(9,10,9,10)</li>
+        <li>(11,10,11,10)</li>
+        <li>(13,10,18,10)</li>
+        <li>(20,10,20,10)</li>
+        <li>(22,10,22,10)</li>
+        <li>(5,11,5,11)</li>
+        <li>(26,11,26,11)</li>
+        <li>(9,12,9,12)</li>
+        <li>(11,12,11,12)</li>
+        <li>(20,12,20,12)</li>
+        <li>(22,12,22,12)</li>
+        <li>(9,19,9,19)</li>
+        <li>(11,19,11,19)</li>
+        <li>(20,19,20,19)</li>
+        <li>(22,19,22,19)</li>
+        <li>(5,20,5,20)</li>
+        <li>(12,20,12,22)</li>
+        <li>(19,20,19,22)</li>
+        <li>(26,20,26,20)</li>
+        <li>(9,21,9,21)</li>
+        <li>(11,21,11,21)</li>
+        <li>(13,21,18,21)</li>
+        <li>(20,21,20,21)</li>
+        <li>(22,21,22,21)</li>
+        <li>(11,26,11,26)</li>
+        <li>(20,26,20,26)</li>
+        <li>(1,31,30,31)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <UFLI_1_Autodoor>
+      <rects>
+        <li>(11,0,11,0)</li>
+        <li>(20,0,20,0)</li>
+        <li>(11,31,11,31)</li>
+        <li>(20,31,20,31)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>1200</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_1_Autodoor>
+    <SolarGenerator>
+      <positions>
+        <li>(2, 0, 2)</li>
+        <li>(6, 0, 2)</li>
+        <li>(13, 0, 2)</li>
+        <li>(17, 0, 2)</li>
+        <li>(24, 0, 2)</li>
+        <li>(28, 0, 2)</li>
+        <li>(2, 0, 6)</li>
+        <li>(6, 0, 6)</li>
+        <li>(13, 0, 6)</li>
+        <li>(17, 0, 6)</li>
+        <li>(24, 0, 6)</li>
+        <li>(28, 0, 6)</li>
+        <li>(2, 0, 13)</li>
+        <li>(6, 0, 13)</li>
+        <li>(24, 0, 13)</li>
+        <li>(28, 0, 13)</li>
+        <li>(2, 0, 17)</li>
+        <li>(6, 0, 17)</li>
+        <li>(24, 0, 17)</li>
+        <li>(28, 0, 17)</li>
+        <li>(2, 0, 24)</li>
+        <li>(6, 0, 24)</li>
+        <li>(13, 0, 24)</li>
+        <li>(17, 0, 24)</li>
+        <li>(24, 0, 24)</li>
+        <li>(28, 0, 24)</li>
+        <li>(2, 0, 28)</li>
+        <li>(6, 0, 28)</li>
+        <li>(13, 0, 28)</li>
+        <li>(17, 0, 28)</li>
+        <li>(24, 0, 28)</li>
+        <li>(28, 0, 28)</li>
+      </positions>
+      <hp>300</hp>
+    </SolarGenerator>
+    <WallLamp>
+      <rects>
+        <li>(10,1,10,1)</li>
+        <li>(21,1,21,1)</li>
+        <li>(14,11,14,11)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>35</hp>
+    </WallLamp>
+    <WindTurbine>
+      <positions>
+        <li>(9, 0, 5)</li>
+        <li>(9, 0, 26)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>150</hp>
+    </WindTurbine>
+    <WindTurbine>
+      <positions>
+        <li>(22, 0, 5)</li>
+        <li>(22, 0, 26)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>150</hp>
+    </WindTurbine>
+    <WindTurbine>
+      <positions>
+        <li>(5, 0, 9)</li>
+        <li>(26, 0, 9)</li>
+      </positions>
+      <hp>150</hp>
+    </WindTurbine>
+    <WallLamp>
+      <rects>
+        <li>(1,10,1,10)</li>
+        <li>(11,17,11,17)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>35</hp>
+    </WallLamp>
+    <UFLI_2_Autodoor>
+      <positions>
+        <li>(15, 0, 10)</li>
+        <li>(15, 0, 21)</li>
+      </positions>
+      <stuff>Steel</stuff>
+      <hp>1400</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_2_Autodoor>
+    <WallLamp>
+      <rects>
+        <li>(30,10,30,10)</li>
+        <li>(20,14,20,14)</li>
+        <li>(30,21,30,21)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>35</hp>
+    </WallLamp>
+    <UFLI_1_Autodoor>
+      <rects>
+        <li>(0,11,0,11)</li>
+        <li>(31,11,31,11)</li>
+        <li>(0,20,0,20)</li>
+        <li>(31,20,31,20)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>1200</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_1_Autodoor>
+    <Battery>
+      <positions>
+        <li>(12, 0, 12)</li>
+        <li>(13, 0, 12)</li>
+        <li>(14, 0, 12)</li>
+        <li>(15, 0, 12)</li>
+        <li>(16, 0, 12)</li>
+        <li>(17, 0, 12)</li>
+        <li>(18, 0, 12)</li>
+        <li>(19, 0, 12)</li>
+        <li>(12, 0, 14)</li>
+        <li>(13, 0, 14)</li>
+        <li>(14, 0, 14)</li>
+        <li>(15, 0, 14)</li>
+        <li>(16, 0, 14)</li>
+        <li>(17, 0, 14)</li>
+        <li>(18, 0, 14)</li>
+        <li>(19, 0, 14)</li>
+        <li>(12, 0, 16)</li>
+        <li>(13, 0, 16)</li>
+        <li>(14, 0, 16)</li>
+        <li>(15, 0, 16)</li>
+        <li>(16, 0, 16)</li>
+        <li>(17, 0, 16)</li>
+        <li>(18, 0, 16)</li>
+        <li>(19, 0, 16)</li>
+        <li>(12, 0, 18)</li>
+        <li>(13, 0, 18)</li>
+        <li>(14, 0, 18)</li>
+        <li>(15, 0, 18)</li>
+        <li>(16, 0, 18)</li>
+        <li>(17, 0, 18)</li>
+        <li>(18, 0, 18)</li>
+        <li>(19, 0, 18)</li>
+      </positions>
+      <hp>100</hp>
+    </Battery>
+    <UFLI_2_Autodoor>
+      <positions>
+        <li>(10, 0, 15)</li>
+        <li>(21, 0, 15)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>1400</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_2_Autodoor>
+    <WallLamp>
+      <rects>
+        <li>(17,20,17,20)</li>
+        <li>(10,30,10,30)</li>
+        <li>(21,30,21,30)</li>
+      </rects>
+      <hp>35</hp>
+    </WallLamp>
+    <WindTurbine>
+      <positions>
+        <li>(5, 0, 22)</li>
+        <li>(26, 0, 22)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>150</hp>
+    </WindTurbine>
+  </things>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <Concrete>
+        <rects>
+          <li>(0,0,31,31)</li>
+        </rects>
+      </Concrete>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <GrasslandSoil>
+        <rects>
+          <li>(0,0,0,31)</li>
+          <li>(16,0,31,31)</li>
+          <li>(1,1,1,31)</li>
+          <li>(2,2,2,31)</li>
+          <li>(15,2,15,31)</li>
+          <li>(3,4,3,31)</li>
+          <li>(14,4,14,31)</li>
+          <li>(4,5,4,31)</li>
+          <li>(13,5,13,31)</li>
+          <li>(5,6,5,31)</li>
+          <li>(6,7,6,31)</li>
+          <li>(12,7,12,31)</li>
+          <li>(7,8,8,31)</li>
+          <li>(9,9,11,31)</li>
+        </rects>
+      </GrasslandSoil>
+      <SoilRich>
+        <rects>
+          <li>(1,0,15,0)</li>
+          <li>(2,1,15,1)</li>
+          <li>(3,2,14,3)</li>
+          <li>(4,4,13,4)</li>
+          <li>(5,5,12,5)</li>
+          <li>(6,6,12,6)</li>
+          <li>(7,7,11,7)</li>
+          <li>(9,8,11,8)</li>
+        </rects>
+      </SoilRich>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(10,10,21,21)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(10,10,21,21)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
