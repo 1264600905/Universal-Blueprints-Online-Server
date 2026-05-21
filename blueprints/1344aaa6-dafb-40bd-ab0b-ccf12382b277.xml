@@ -1,0 +1,277 @@
+<PrefabDef>
+  <defName>Prefab_20260521_113927</defName>
+  <size>(15,15)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>仓库</name>
+    <description></description>
+    <tags></tags>
+    <author>秋分</author>
+    <category>储藏室</category>
+    <BuildingID>1344aaa6-dafb-40bd-ab0b-ccf12382b277</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>aoba.fortress.industrial.concrete</packageId>
+        <name>Industrial concrete</name>
+        <version></version>
+        <modorder>46</modorder>
+        <steamWorkshopId>2888037450</steamWorkshopId>
+        <things>
+          <li>FT_BlocksConcrete</li>
+          <li>FT_ConcreteTile</li>
+          <li>FT_Concrete</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>hmc.wall.furniture</packageId>
+        <name>[HMC]Wall Furniture</name>
+        <version></version>
+        <modorder>7</modorder>
+        <steamWorkshopId>3533512691</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>HMC_Wall_OrbitalTradeBeacon</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>dracoix.doormat.r12a</packageId>
+        <name>Door Mat</name>
+        <version></version>
+        <modorder>36</modorder>
+        <steamWorkshopId>1505423207</steamWorkshopId>
+        <things>
+          <li>LT_DoorMatCheckerLeather</li>
+        </things>
+      </mod>
+    </modPackages>
+    <foldGroup>
+      <groupKey></groupKey>
+      <displayOrder>0</displayOrder>
+      <isCover>false</isCover>
+    </foldGroup>
+    <multiLanguage>
+      <name>
+        <default>仓库</default>
+        <zh-CN>仓库</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,6,0)</li>
+        <li>(8,0,14,0)</li>
+        <li>(0,1,0,6)</li>
+        <li>(14,1,14,6)</li>
+        <li>(0,8,0,14)</li>
+        <li>(14,8,14,14)</li>
+        <li>(1,14,6,14)</li>
+        <li>(8,14,13,14)</li>
+      </rects>
+      <stuff>FT_BlocksConcrete</stuff>
+      <hp>600</hp>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </Wall>
+    <HiddenConduit>
+      <rects>
+        <li>(0,0,0,14)</li>
+        <li>(14,0,14,14)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <Door>
+      <rects>
+        <li>(7,0,7,0)</li>
+        <li>(7,14,7,14)</li>
+      </rects>
+      <stuff>FT_BlocksConcrete</stuff>
+      <hp>320</hp>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </Door>
+    <Shelf>
+      <positions>
+        <li>(1, 0, 1)</li>
+        <li>(3, 0, 1)</li>
+        <li>(5, 0, 1)</li>
+        <li>(1, 0, 2)</li>
+        <li>(3, 0, 2)</li>
+        <li>(5, 0, 2)</li>
+        <li>(1, 0, 3)</li>
+        <li>(3, 0, 3)</li>
+        <li>(5, 0, 3)</li>
+        <li>(1, 0, 4)</li>
+        <li>(3, 0, 4)</li>
+        <li>(5, 0, 4)</li>
+        <li>(1, 0, 5)</li>
+        <li>(3, 0, 5)</li>
+        <li>(5, 0, 5)</li>
+        <li>(1, 0, 6)</li>
+        <li>(3, 0, 6)</li>
+        <li>(5, 0, 6)</li>
+      </positions>
+      <stuff>FT_BlocksConcrete</stuff>
+      <hp>200</hp>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </Shelf>
+    <WallLamp>
+      <rects>
+        <li>(3,1,3,1)</li>
+        <li>(11,1,11,1)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>35</hp>
+    </WallLamp>
+    <HMC_Wall_OrbitalTradeBeacon>
+      <rects>
+        <li>(1,4,1,4)</li>
+        <li>(1,10,1,10)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>100</hp>
+    </HMC_Wall_OrbitalTradeBeacon>
+    <HMC_Wall_OrbitalTradeBeacon>
+      <rects>
+        <li>(13,4,13,4)</li>
+        <li>(13,10,13,10)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>100</hp>
+    </HMC_Wall_OrbitalTradeBeacon>
+    <Column>
+      <rects>
+        <li>(9,5,9,5)</li>
+      </rects>
+      <stuff>FT_BlocksConcrete</stuff>
+      <hp>320</hp>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </Column>
+    <Door>
+      <rects>
+        <li>(0,7,0,7)</li>
+        <li>(14,7,14,7)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>FT_BlocksConcrete</stuff>
+      <hp>320</hp>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </Door>
+    <Shelf>
+      <positions>
+        <li>(2, 0, 8)</li>
+        <li>(4, 0, 8)</li>
+        <li>(6, 0, 8)</li>
+        <li>(9, 0, 8)</li>
+        <li>(11, 0, 8)</li>
+        <li>(13, 0, 8)</li>
+        <li>(2, 0, 9)</li>
+        <li>(4, 0, 9)</li>
+        <li>(6, 0, 9)</li>
+        <li>(9, 0, 9)</li>
+        <li>(11, 0, 9)</li>
+        <li>(13, 0, 9)</li>
+        <li>(2, 0, 10)</li>
+        <li>(4, 0, 10)</li>
+        <li>(6, 0, 10)</li>
+        <li>(9, 0, 10)</li>
+        <li>(11, 0, 10)</li>
+        <li>(13, 0, 10)</li>
+        <li>(2, 0, 11)</li>
+        <li>(4, 0, 11)</li>
+        <li>(6, 0, 11)</li>
+        <li>(9, 0, 11)</li>
+        <li>(11, 0, 11)</li>
+        <li>(13, 0, 11)</li>
+        <li>(2, 0, 12)</li>
+        <li>(4, 0, 12)</li>
+        <li>(6, 0, 12)</li>
+        <li>(9, 0, 12)</li>
+        <li>(11, 0, 12)</li>
+        <li>(13, 0, 12)</li>
+        <li>(2, 0, 13)</li>
+        <li>(4, 0, 13)</li>
+        <li>(6, 0, 13)</li>
+        <li>(9, 0, 13)</li>
+        <li>(11, 0, 13)</li>
+        <li>(13, 0, 13)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>FT_BlocksConcrete</stuff>
+      <hp>200</hp>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </Shelf>
+    <WallLamp>
+      <rects>
+        <li>(3,13,3,13)</li>
+        <li>(11,13,11,13)</li>
+      </rects>
+      <hp>35</hp>
+    </WallLamp>
+    <LT_DoorMatCheckerLeather>
+      <rects>
+        <li>(7,14,7,14)</li>
+      </rects>
+      <stuff>Cloth</stuff>
+      <quality>Legendary</quality>
+      <hp>50</hp>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </LT_DoorMatCheckerLeather>
+  </things>
+  <terrain>
+    <FT_ConcreteTile>
+      <rects>
+        <li>(0,0,14,6)</li>
+        <li>(1,7,14,14)</li>
+        <li>(0,8,0,14)</li>
+      </rects>
+    </FT_ConcreteTile>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <FT_ConcreteTile>
+        <rects>
+          <li>(0,0,14,6)</li>
+          <li>(1,7,14,14)</li>
+          <li>(0,8,0,14)</li>
+        </rects>
+      </FT_ConcreteTile>
+      <FT_Concrete>
+        <rects>
+          <li>(0,7,0,7)</li>
+        </rects>
+      </FT_Concrete>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(0,0,14,11)</li>
+          <li>(0,12,1,13)</li>
+          <li>(3,12,14,14)</li>
+        </rects>
+      </Soil>
+      <SoilRich>
+        <rects>
+          <li>(2,12,2,14)</li>
+          <li>(0,14,1,14)</li>
+        </rects>
+      </SoilRich>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,14,14)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,14,14)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
