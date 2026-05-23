@@ -1,0 +1,267 @@
+<PrefabDef>
+  <defName>Prefab_20260523_200845</defName>
+  <size>(11,11)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>宿舍</name>
+    <description>住</description>
+    <tags></tags>
+    <author>MRM</author>
+    <category>宿舍</category>
+    <BuildingID>bd5ddc48-32d4-4f6a-86ac-8305705661e8</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>aoba.fortress.industrial</packageId>
+        <name>Fortifications - Industrial</name>
+        <version></version>
+        <modorder>81</modorder>
+        <steamWorkshopId>2561619583</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>aoba.framework</packageId>
+            <steamWorkshopId>3498575851</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>FT_BlocksConcrete</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>kindseal.ufli</packageId>
+        <name>联合轻工家具拓展-UF Light Industries Furniture</name>
+        <version></version>
+        <modorder>47</modorder>
+        <steamWorkshopId>3651799915</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFLI_Endtable</li>
+          <li>UFLI_Bed</li>
+          <li>UFLI_BilliardsTable</li>
+          <li>UFLI_ChessTable</li>
+          <li>UFLI_FLOORH</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>dubwise.dubscentralheating</packageId>
+        <name>Dubs Central Heating</name>
+        <version>1.1.1012</version>
+        <modorder>9</modorder>
+        <steamWorkshopId>2619214952</steamWorkshopId>
+        <things>
+          <li>RadiatorLarge</li>
+          <li>ElectricBoiler</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>buildable.terrain</packageId>
+        <name>Buildable Terrain v1</name>
+        <version></version>
+        <modorder>26</modorder>
+        <steamWorkshopId>1420979918</steamWorkshopId>
+        <things>
+          <li>Soil</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>宿舍</default>
+        <zh-TW>宿舍</zh-TW>
+      </name>
+      <description>
+        <default>住</default>
+        <zh-TW>住</zh-TW>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,4,0)</li>
+        <li>(6,0,10,0)</li>
+        <li>(0,1,0,10)</li>
+        <li>(10,1,10,10)</li>
+        <li>(1,10,9,10)</li>
+      </rects>
+      <stuff>FT_BlocksConcrete</stuff>
+      <hp>600</hp>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </Wall>
+    <Door>
+      <rects>
+        <li>(5,0,5,0)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>160</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Door>
+    <HiddenConduit>
+      <rects>
+        <li>(4,1,4,9)</li>
+        <li>(5,7,10,7)</li>
+        <li>(7,8,7,10)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <StandingLamp>
+      <rects>
+        <li>(4,1,4,1)</li>
+        <li>(6,1,6,1)</li>
+        <li>(5,9,5,9)</li>
+      </rects>
+      <hp>50</hp>
+    </StandingLamp>
+    <DiningChair>
+      <rects>
+        <li>(7,1,7,3)</li>
+        <li>(6,9,6,9)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DiningChair>
+    <Table2x4c>
+      <position>(8, 0, 2)</position>
+      <stuff>FT_BlocksConcrete</stuff>
+      <quality>Normal</quality>
+      <hp>300</hp>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </Table2x4c>
+    <UFLI_Endtable>
+      <rects>
+        <li>(1,2,1,2)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Good</quality>
+      <hp>90</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Endtable>
+    <UFLI_Bed>
+      <positions>
+        <li>(1, 0, 3)</li>
+        <li>(1, 0, 7)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <quality>Normal</quality>
+      <hp>200</hp>
+      <color>RGBA(0.631, 0.835, 0.706, 1.000)</color>
+    </UFLI_Bed>
+    <UFLI_Endtable>
+      <rects>
+        <li>(1,4,1,4)</li>
+        <li>(1,6,1,6)</li>
+        <li>(1,8,1,8)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>90</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Endtable>
+    <DiningChair>
+      <rects>
+        <li>(7,4,7,4)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DiningChair>
+    <UFLI_Bed>
+      <position>(1, 0, 5)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <quality>Excellent</quality>
+      <hp>200</hp>
+      <color>RGBA(0.631, 0.835, 0.706, 1.000)</color>
+    </UFLI_Bed>
+    <UFLI_BilliardsTable>
+      <position>(7, 0, 7)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <quality>Good</quality>
+      <hp>300</hp>
+    </UFLI_BilliardsTable>
+    <RadiatorLarge>
+      <position>(9, 0, 8)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>150</hp>
+    </RadiatorLarge>
+    <UFLI_Bed>
+      <position>(1, 0, 9)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <quality>Good</quality>
+      <hp>200</hp>
+      <color>RGBA(0.631, 0.835, 0.706, 1.000)</color>
+    </UFLI_Bed>
+    <UFLI_ChessTable>
+      <rects>
+        <li>(7,9,7,9)</li>
+      </rects>
+      <quality>Good</quality>
+      <hp>100</hp>
+    </UFLI_ChessTable>
+    <DiningChair>
+      <rects>
+        <li>(8,9,8,9)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Poor</quality>
+      <hp>65</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DiningChair>
+    <ElectricBoiler>
+      <rects>
+        <li>(9,9,9,9)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>125</hp>
+    </ElectricBoiler>
+  </things>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <UFLI_FLOORH>
+        <rects>
+          <li>(5,0,5,9)</li>
+          <li>(1,1,4,9)</li>
+          <li>(6,1,9,9)</li>
+        </rects>
+      </UFLI_FLOORH>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(5,0,5,9)</li>
+          <li>(1,1,4,9)</li>
+          <li>(6,1,9,9)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,10,10)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,10,10)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
