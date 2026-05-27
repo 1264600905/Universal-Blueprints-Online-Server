@@ -1,0 +1,112 @@
+<PrefabDef>
+  <defName>Prefab_20260527_201836</defName>
+  <size>(5,6)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>宿舍</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>宿舍</category>
+    <BuildingID>aa6e0455-8ed5-405a-bc64-4e650543ac3d</BuildingID>
+    <modPackages></modPackages>
+    <multiLanguage>
+      <name>
+        <default>宿舍</default>
+        <zh-CN>宿舍</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,1,0)</li>
+        <li>(3,0,4,0)</li>
+        <li>(0,1,0,5)</li>
+        <li>(4,1,4,5)</li>
+        <li>(1,5,3,5)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>195</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Wall>
+    <Door>
+      <rects>
+        <li>(2,0,2,0)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>104</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <PlantPot>
+      <rects>
+        <li>(3,1,3,1)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>49</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </PlantPot>
+    <Dresser>
+      <position>(3, 0, 2)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>78</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Dresser>
+    <DoubleBed>
+      <position>(3, 0, 4)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <hp>130</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DoubleBed>
+    <EndTable>
+      <rects>
+        <li>(1,4,1,4)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <hp>49</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </EndTable>
+  </things>
+  <terrain>
+    <WoodPlankFloor>
+      <rects>
+        <li>(0,0,3,4)</li>
+      </rects>
+    </WoodPlankFloor>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <WoodPlankFloor>
+        <rects>
+          <li>(0,0,3,4)</li>
+        </rects>
+      </WoodPlankFloor>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(0,0,3,4)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,4,5)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,4,5)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
