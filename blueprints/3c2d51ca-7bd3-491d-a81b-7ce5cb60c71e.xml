@@ -1,10 +1,10 @@
 <PrefabDef>
-  <defName>Prefab_20260525_234433</defName>
-  <size>(6,4)</size>
+  <defName>Prefab_20260529_024340</defName>
+  <size>(20,8)</size>
   <extraInfo>
     <version>1.6.9438.37837</version>
     <name>liseymimi的房间</name>
-    <description>楼梯</description>
+    <description>楼梯古堡</description>
     <tags></tags>
     <author>liseymimi</author>
     <category>宿舍</category>
@@ -14,35 +14,18 @@
         <packageId>milple.expertstairs</packageId>
         <name>Expert Stairs</name>
         <version>1.1.0</version>
-        <modorder>80</modorder>
+        <modorder>85</modorder>
         <steamWorkshopId>3688237449</steamWorkshopId>
         <things>
+          <li>milple_HandRailsPillarXLR</li>
           <li>milple_HandRailsDiagonal</li>
-          <li>milple_PlainWallBR</li>
-          <li>milple_PlainWallU</li>
-          <li>milple_HandRailsDiagonalL</li>
-          <li>milple_HandRailsPillarR</li>
-          <li>milple_DiagonalStairsL</li>
           <li>milple_HandRails</li>
-        </things>
-      </mod>
-      <mod>
-        <packageId>elsa.cakefurniture.fdf</packageId>
-        <name>Cake! Furniture-蛋糕家具</name>
-        <version></version>
-        <modorder>238</modorder>
-        <steamWorkshopId>3629632481</steamWorkshopId>
-        <dependencies>
-          <li>
-            <packageId>ludeon.rimworld</packageId>
-          </li>
-          <li>
-            <packageId>brrainz.harmony</packageId>
-            <steamWorkshopId>2009463077</steamWorkshopId>
-          </li>
-        </dependencies>
-        <things>
-          <li>FDF_Chocolate</li>
+          <li>milple_HandRailsPillarR</li>
+          <li>milple_HandRailsDiagonalL</li>
+          <li>milple_DiagonalStairsL</li>
+          <li>milple_Stairs</li>
+          <li>milple_HandRailsPillar</li>
+          <li>milple_HandRailsPillarXL</li>
         </things>
       </mod>
     </modPackages>
@@ -57,97 +40,147 @@
         <zh-CN>liseymimi的房间</zh-CN>
       </name>
       <description>
-        <default>楼梯</default>
-        <zh-CN>楼梯</zh-CN>
+        <default>楼梯古堡</default>
+        <zh-CN>楼梯古堡</zh-CN>
       </description>
     </multiLanguage>
   </extraInfo>
   <things>
+    <milple_HandRailsPillarXLR>
+      <positions>
+        <li>(18, 0, 0)</li>
+        <li>(0, 0, 1)</li>
+        <li>(6, 0, 1)</li>
+        <li>(9, 0, 1)</li>
+        <li>(18, 0, 1)</li>
+        <li>(0, 0, 2)</li>
+        <li>(6, 0, 2)</li>
+        <li>(9, 0, 2)</li>
+        <li>(18, 0, 2)</li>
+        <li>(0, 0, 3)</li>
+        <li>(6, 0, 3)</li>
+        <li>(9, 0, 3)</li>
+        <li>(18, 0, 3)</li>
+        <li>(0, 0, 4)</li>
+        <li>(6, 0, 4)</li>
+        <li>(9, 0, 4)</li>
+        <li>(18, 0, 4)</li>
+      </positions>
+      <stuff>BlocksMarble</stuff>
+    </milple_HandRailsPillarXLR>
     <milple_HandRailsDiagonal>
       <rects>
-        <li>(2,0,2,0)</li>
+        <li>(14,1,14,1)</li>
+        <li>(6,2,6,2)</li>
+        <li>(6,6,6,6)</li>
+        <li>(13,6,13,6)</li>
       </rects>
       <relativeRotation>Counterclockwise</relativeRotation>
-      <stuff>FDF_Chocolate</stuff>
-      <hp>700</hp>
-    </milple_HandRailsDiagonal>
-    <milple_PlainWallBR>
-      <rects>
-        <li>(2,0,2,1)</li>
-        <li>(3,2,3,2)</li>
-      </rects>
-      <stuff>Steel</stuff>
-      <hp>120</hp>
-    </milple_PlainWallBR>
-    <milple_PlainWallU>
-      <rects>
-        <li>(3,0,4,1)</li>
-        <li>(4,2,4,2)</li>
-      </rects>
-      <stuff>Steel</stuff>
-      <hp>120</hp>
-    </milple_PlainWallU>
-    <milple_HandRailsDiagonalL>
-      <rects>
-        <li>(1,1,1,1)</li>
-      </rects>
-      <stuff>FDF_Chocolate</stuff>
-      <hp>700</hp>
-    </milple_HandRailsDiagonalL>
-    <milple_HandRailsPillarR>
-      <positions>
-        <li>(1, 0, 1)</li>
-        <li>(2, 0, 1)</li>
-      </positions>
-      <stuff>FDF_Chocolate</stuff>
-      <hp>700</hp>
-    </milple_HandRailsPillarR>
-    <milple_DiagonalStairsL>
-      <rects>
-        <li>(1,1,1,1)</li>
-        <li>(2,2,2,2)</li>
-      </rects>
-      <stuff>Steel</stuff>
-    </milple_DiagonalStairsL>
-    <milple_HandRailsDiagonalL>
-      <rects>
-        <li>(2,1,2,1)</li>
-      </rects>
-      <relativeRotation>Opposite</relativeRotation>
-      <stuff>FDF_Chocolate</stuff>
-      <hp>700</hp>
-    </milple_HandRailsDiagonalL>
-    <milple_HandRailsDiagonal>
-      <rects>
-        <li>(2,2,2,2)</li>
-      </rects>
-      <stuff>FDF_Chocolate</stuff>
-      <hp>700</hp>
-    </milple_HandRailsDiagonal>
-    <milple_HandRailsDiagonal>
-      <rects>
-        <li>(3,2,3,2)</li>
-      </rects>
-      <relativeRotation>Opposite</relativeRotation>
-      <stuff>FDF_Chocolate</stuff>
-      <hp>700</hp>
+      <stuff>BlocksMarble</stuff>
     </milple_HandRailsDiagonal>
     <milple_HandRails>
       <rects>
-        <li>(4,2,4,2)</li>
+        <li>(15,1,18,1)</li>
+        <li>(7,2,9,2)</li>
+        <li>(2,3,2,3)</li>
+        <li>(5,3,5,3)</li>
+        <li>(7,6,9,6)</li>
+        <li>(18,6,18,6)</li>
+        <li>(2,7,2,7)</li>
+        <li>(5,7,5,7)</li>
+        <li>(11,7,12,7)</li>
       </rects>
-      <relativeRotation>Opposite</relativeRotation>
-      <stuff>FDF_Chocolate</stuff>
-      <hp>700</hp>
+      <stuff>BlocksMarble</stuff>
     </milple_HandRails>
     <milple_HandRailsDiagonal>
       <rects>
-        <li>(2,3,2,3)</li>
+        <li>(1,2,1,2)</li>
+        <li>(13,5,13,5)</li>
+        <li>(17,5,17,5)</li>
+        <li>(1,6,1,6)</li>
+        <li>(10,6,10,6)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+    </milple_HandRailsDiagonal>
+    <milple_HandRailsPillarR>
+      <positions>
+        <li>(2, 0, 2)</li>
+        <li>(4, 0, 2)</li>
+        <li>(0, 0, 5)</li>
+        <li>(6, 0, 5)</li>
+        <li>(9, 0, 5)</li>
+        <li>(18, 0, 5)</li>
+      </positions>
+      <stuff>BlocksMarble</stuff>
+    </milple_HandRailsPillarR>
+    <milple_HandRailsDiagonalL>
+      <rects>
+        <li>(10,2,10,2)</li>
+        <li>(14,2,14,2)</li>
+        <li>(11,3,11,3)</li>
+        <li>(15,3,15,3)</li>
+        <li>(12,4,12,4)</li>
+        <li>(16,4,16,4)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+    </milple_HandRailsDiagonalL>
+    <milple_DiagonalStairsL>
+      <rects>
+        <li>(10,2,10,2)</li>
+        <li>(11,3,11,3)</li>
+        <li>(12,4,12,4)</li>
+        <li>(13,5,13,5)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+    </milple_DiagonalStairsL>
+    <milple_Stairs>
+      <rects>
+        <li>(11,2,13,2)</li>
+        <li>(3,3,4,6)</li>
+        <li>(12,3,14,3)</li>
+        <li>(13,4,15,4)</li>
+        <li>(14,5,16,5)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+    </milple_Stairs>
+    <milple_HandRailsPillar>
+      <rects>
+        <li>(13,2,13,2)</li>
+        <li>(13,6,13,6)</li>
+        <li>(17,6,17,6)</li>
+        <li>(1,7,2,7)</li>
+        <li>(4,7,5,7)</li>
+        <li>(10,7,10,7)</li>
+        <li>(12,7,12,7)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+    </milple_HandRailsPillar>
+    <milple_DiagonalStairsL>
+      <rects>
+        <li>(14,2,14,2)</li>
+        <li>(15,3,15,3)</li>
+        <li>(16,4,16,4)</li>
+        <li>(17,5,17,5)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+    </milple_DiagonalStairsL>
+    <milple_HandRailsPillarXL>
+      <rects>
+        <li>(1,3,1,6)</li>
+        <li>(5,3,5,6)</li>
+        <li>(10,3,10,6)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+    </milple_HandRailsPillarXL>
+    <milple_HandRails>
+      <rects>
+        <li>(2,3,2,6)</li>
+        <li>(4,3,4,6)</li>
       </rects>
       <relativeRotation>Clockwise</relativeRotation>
-      <stuff>FDF_Chocolate</stuff>
-      <hp>700</hp>
-    </milple_HandRailsDiagonal>
+      <stuff>BlocksMarble</stuff>
+    </milple_HandRails>
   </things>
   <terrainLayers></terrainLayers>
 </PrefabDef>
