@@ -1,0 +1,448 @@
+<PrefabDef>
+  <defName>Prefab_20260530_201345</defName>
+  <size>(18,13)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>Vanilla Gravship Expanded 开局飞船PLUS</name>
+    <description>仅拥有一个逆重延展器时可以采取的飞船布局，空间利用率快拉满了</description>
+    <tags></tags>
+    <author>PB</author>
+    <category>奥德赛DLC</category>
+    <BuildingID>35a2c7ac-3bc7-4540-806e-b72b97706a99</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>ludeon.rimworld.odyssey</packageId>
+        <name>Odyssey</name>
+        <version></version>
+        <modorder>8</modorder>
+        <things>
+          <li>GravshipHull</li>
+          <li>SmallThruster</li>
+          <li>ChemfuelTank</li>
+          <li>GravFieldExtender</li>
+          <li>Substructure</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>vanillaexpanded.gravship</packageId>
+        <name>Vanilla Gravship Expanded - Chapter 1</name>
+        <version></version>
+        <modorder>43</modorder>
+        <steamWorkshopId>3609835606</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.odyssey</packageId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VGE_SmallHeatsink</li>
+          <li>VGE_FauxPlant</li>
+          <li>VGE_CommsTerminal</li>
+          <li>VGE_WallOrbitalTradeBeacon</li>
+          <li>VGE_GravjumperEngine</li>
+          <li>VGE_PilotCockpit</li>
+          <li>VGE_AstrofuelPipe</li>
+          <li>VGE_AstrofuelDrain</li>
+          <li>VGE_CompactStove</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.biotech</packageId>
+        <name>Biotech</name>
+        <version></version>
+        <modorder>6</modorder>
+        <things>
+          <li>BasicRecharger</li>
+          <li>MechGestator</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>Vanilla Gravship Expanded 开局飞船PLUS</default>
+        <zh-CN>Vanilla Gravship Expanded 开局飞船PLUS</zh-CN>
+      </name>
+      <description>
+        <default>仅拥有一个逆重延展器时可以采取的飞船布局，空间利用率快拉满了</default>
+        <zh-CN>仅拥有一个逆重延展器时可以采取的飞船布局，空间利用率快拉满了</zh-CN>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <GravshipHull>
+      <rects>
+        <li>(1,0,14,0)</li>
+        <li>(7,1,7,2)</li>
+        <li>(9,1,9,3)</li>
+        <li>(11,1,11,3)</li>
+        <li>(13,1,13,3)</li>
+        <li>(15,1,15,2)</li>
+        <li>(16,2,16,2)</li>
+        <li>(2,3,4,3)</li>
+        <li>(6,3,6,3)</li>
+        <li>(17,3,17,9)</li>
+        <li>(4,4,4,4)</li>
+        <li>(9,5,9,8)</li>
+        <li>(11,8,14,8)</li>
+        <li>(10,9,10,9)</li>
+        <li>(7,10,7,12)</li>
+        <li>(16,10,16,10)</li>
+        <li>(10,11,10,12)</li>
+        <li>(15,11,15,11)</li>
+        <li>(1,12,6,12)</li>
+        <li>(9,12,9,12)</li>
+        <li>(11,12,14,12)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </GravshipHull>
+    <SmallThruster>
+      <positions>
+        <li>(0, 0, 1)</li>
+        <li>(0, 0, 2)</li>
+        <li>(0, 0, 3)</li>
+        <li>(0, 0, 4)</li>
+        <li>(0, 0, 5)</li>
+        <li>(0, 0, 7)</li>
+        <li>(0, 0, 8)</li>
+        <li>(0, 0, 9)</li>
+        <li>(0, 0, 10)</li>
+        <li>(0, 0, 11)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+    </SmallThruster>
+    <VGE_SmallHeatsink>
+      <positions>
+        <li>(2, 0, 1)</li>
+        <li>(4, 0, 1)</li>
+      </positions>
+    </VGE_SmallHeatsink>
+    <Bed>
+      <positions>
+        <li>(6, 0, 1)</li>
+        <li>(8, 0, 1)</li>
+        <li>(10, 0, 1)</li>
+        <li>(12, 0, 1)</li>
+        <li>(14, 0, 1)</li>
+      </positions>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed>
+    <WallLamp>
+      <rects>
+        <li>(6,1,6,1)</li>
+        <li>(11,9,11,9)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </WallLamp>
+    <Door>
+      <rects>
+        <li>(5,3,5,3)</li>
+        <li>(8,3,8,3)</li>
+        <li>(10,3,10,3)</li>
+        <li>(12,3,12,3)</li>
+        <li>(14,3,14,3)</li>
+        <li>(8,9,8,9)</li>
+        <li>(15,9,15,9)</li>
+        <li>(8,12,8,12)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Door>
+    <HiddenConduit>
+      <rects>
+        <li>(5,3,8,3)</li>
+        <li>(9,4,9,9)</li>
+        <li>(10,6,10,6)</li>
+        <li>(6,9,8,9)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <VGE_FauxPlant>
+      <rects>
+        <li>(7,3,7,3)</li>
+      </rects>
+    </VGE_FauxPlant>
+    <Heater>
+      <rects>
+        <li>(15,3,15,3)</li>
+      </rects>
+    </Heater>
+    <VGE_CommsTerminal>
+      <position>(16, 0, 4)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </VGE_CommsTerminal>
+    <BasicRecharger>
+      <position>(2, 0, 5)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </BasicRecharger>
+    <VGE_WallOrbitalTradeBeacon>
+      <rects>
+        <li>(3,4,3,4)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </VGE_WallOrbitalTradeBeacon>
+    <Bed>
+      <position>(5, 0, 4)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed>
+    <VGE_GravjumperEngine>
+      <rects>
+        <li>(7,4,7,4)</li>
+      </rects>
+    </VGE_GravjumperEngine>
+    <Battery>
+      <position>(8, 0, 4)</position>
+    </Battery>
+    <Door>
+      <rects>
+        <li>(9,4,9,4)</li>
+        <li>(4,5,4,5)</li>
+        <li>(10,10,10,10)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Door>
+    <Shelf>
+      <positions>
+        <li>(10, 0, 4)</li>
+        <li>(15, 0, 7)</li>
+      </positions>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Shelf>
+    <MechGestator>
+      <position>(13, 0, 5)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </MechGestator>
+    <VGE_PilotCockpit>
+      <position>(6, 0, 5)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </VGE_PilotCockpit>
+    <BiofuelRefinery>
+      <position>(11, 0, 6)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </BiofuelRefinery>
+    <VGE_AstrofuelPipe>
+      <rects>
+        <li>(1,6,1,6)</li>
+      </rects>
+    </VGE_AstrofuelPipe>
+    <Cooler>
+      <rects>
+        <li>(1,6,1,6)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </Cooler>
+    <Hopper>
+      <rects>
+        <li>(3,6,3,6)</li>
+        <li>(3,9,3,9)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </Hopper>
+    <NutrientPasteDispenser>
+      <position>(5, 0, 8)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <color>RGBA(0.910, 1.000, 0.749, 1.000)</color>
+    </NutrientPasteDispenser>
+    <DiningChair>
+      <rects>
+        <li>(7,6,7,6)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </DiningChair>
+    <ChessTable>
+      <rects>
+        <li>(8,6,8,6)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </ChessTable>
+    <WallLamp>
+      <rects>
+        <li>(10,6,10,6)</li>
+        <li>(8,10,8,10)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </WallLamp>
+    <TableMachining>
+      <position>(15, 0, 6)</position>
+    </TableMachining>
+    <VGE_WallOrbitalTradeBeacon>
+      <rects>
+        <li>(16,6,16,6)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </VGE_WallOrbitalTradeBeacon>
+    <ChemfuelTank>
+      <position>(2, 0, 7)</position>
+    </ChemfuelTank>
+    <Table1x2c>
+      <position>(7, 0, 7)</position>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Table1x2c>
+    <DiningChair>
+      <rects>
+        <li>(8,7,8,8)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </DiningChair>
+    <ElectricTailoringBench>
+      <position>(13, 0, 7)</position>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </ElectricTailoringBench>
+    <PassiveCooler>
+      <rects>
+        <li>(10,8,10,8)</li>
+      </rects>
+    </PassiveCooler>
+    <ShelfSmall>
+      <rects>
+        <li>(15,8,15,8)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </ShelfSmall>
+    <Shelf>
+      <position>(16, 0, 8)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Shelf>
+    <VGE_AstrofuelDrain>
+      <rects>
+        <li>(2,9,2,9)</li>
+      </rects>
+    </VGE_AstrofuelDrain>
+    <DiningChair>
+      <rects>
+        <li>(7,9,7,9)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </DiningChair>
+    <GravFieldExtender>
+      <rects>
+        <li>(9,9,9,9)</li>
+      </rects>
+    </GravFieldExtender>
+    <SimpleResearchBench>
+      <position>(11, 0, 10)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </SimpleResearchBench>
+    <SimpleResearchBench>
+      <position>(14, 0, 10)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </SimpleResearchBench>
+    <Shelf>
+      <position>(2, 0, 11)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Shelf>
+    <ChemfuelPoweredGenerator>
+      <positions>
+        <li>(3, 0, 10)</li>
+        <li>(5, 0, 10)</li>
+      </positions>
+    </ChemfuelPoweredGenerator>
+    <VGE_CompactStove>
+      <position>(9, 0, 11)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </VGE_CompactStove>
+  </things>
+  <terrain>
+    <SterileTile>
+      <rects>
+        <li>(0,0,0,0)</li>
+        <li>(15,0,17,0)</li>
+        <li>(16,1,17,1)</li>
+        <li>(17,2,17,2)</li>
+        <li>(0,6,0,6)</li>
+        <li>(17,10,17,12)</li>
+        <li>(16,11,16,12)</li>
+        <li>(0,12,0,12)</li>
+        <li>(15,12,15,12)</li>
+      </rects>
+    </SterileTile>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="foundationGrid">
+      <Substructure>
+        <rects>
+          <li>(1,0,14,12)</li>
+          <li>(0,1,0,5)</li>
+          <li>(15,1,15,11)</li>
+          <li>(16,2,16,10)</li>
+          <li>(17,3,17,9)</li>
+          <li>(0,7,0,11)</li>
+        </rects>
+      </Substructure>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(1,0,14,0)</li>
+        <li>(0,1,1,5)</li>
+        <li>(6,1,15,11)</li>
+        <li>(16,2,16,10)</li>
+        <li>(2,3,5,5)</li>
+        <li>(17,3,17,9)</li>
+        <li>(1,6,1,12)</li>
+        <li>(3,6,5,12)</li>
+        <li>(0,7,0,11)</li>
+        <li>(2,7,2,12)</li>
+        <li>(6,12,14,12)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(1,0,14,0)</li>
+        <li>(0,1,1,5)</li>
+        <li>(6,1,15,11)</li>
+        <li>(16,2,16,10)</li>
+        <li>(2,3,5,12)</li>
+        <li>(17,3,17,9)</li>
+        <li>(1,6,1,12)</li>
+        <li>(0,7,0,11)</li>
+        <li>(6,12,14,12)</li>
+      </rects>
+    </PlayerRoofZone>
+    <NoRoofZone>
+      <rects>
+        <li>(2,1,5,2)</li>
+      </rects>
+    </NoRoofZone>
+  </roofs>
+</PrefabDef>
