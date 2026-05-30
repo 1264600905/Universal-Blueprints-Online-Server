@@ -1,6 +1,6 @@
 <PrefabDef>
-  <defName>Prefab_20260530_022720</defName>
-  <size>(26,11)</size>
+  <defName>Prefab_20260531_020856</defName>
+  <size>(31,28)</size>
   <extraInfo>
     <version>1.6.9438.37837</version>
     <name>liseymimi的房间</name>
@@ -40,6 +40,7 @@
         </dependencies>
         <things>
           <li>FDF_Cream</li>
+          <li>FDF_Chocolate</li>
         </things>
       </mod>
       <mod>
@@ -60,7 +61,11 @@
           <li>milple_DiagonalStairsL</li>
           <li>milple_Stairs</li>
           <li>milple_HandRailsPillar</li>
+          <li>milple_WindowR</li>
+          <li>milple_WindowLongRD</li>
+          <li>milple_WindowLongD</li>
           <li>milple_HandRailsSquare</li>
+          <li>milple_WindowRD</li>
         </things>
       </mod>
       <mod>
@@ -93,6 +98,26 @@
         </things>
       </mod>
       <mod>
+        <packageId>mingtuwuxiang.gothicdecorative</packageId>
+        <name>[MUS]哥特式吸血鬼家具 Gothicstyle Vampire Furniture</name>
+        <version></version>
+        <modorder>20</modorder>
+        <steamWorkshopId>3102678787</steamWorkshopId>
+        <things>
+          <li>MUS_Gothicstyle_MonsterStatueSmall</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>chv.diagonalwalls2</packageId>
+        <name>Diagonal Walls 2</name>
+        <version></version>
+        <modorder>75</modorder>
+        <steamWorkshopId>2859965620</steamWorkshopId>
+        <things>
+          <li>DiagonalTileMarble</li>
+        </things>
+      </mod>
+      <mod>
         <packageId>melondove.wolfeinrace</packageId>
         <name>Wolfein Race</name>
         <version></version>
@@ -117,23 +142,33 @@
         </things>
       </mod>
       <mod>
-        <packageId>oels.nanamefloors</packageId>
-        <name>NANAME Floors</name>
-        <version></version>
-        <modorder>124</modorder>
-        <steamWorkshopId>3293767181</steamWorkshopId>
+        <packageId>zav.glowstoneforked</packageId>
+        <name>[ZAV] Glowstone</name>
+        <version>1.3.0</version>
+        <modorder>28</modorder>
+        <steamWorkshopId>3231900626</steamWorkshopId>
+        <things>
+          <li>GLO_GlowstoneLamp</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>rebuild.cotr.doorsandcorners</packageId>
+        <name>ReBuild: Doors and Corners</name>
+        <version>1.5-Miller-rev1</version>
+        <modorder>411</modorder>
+        <steamWorkshopId>3262718980</steamWorkshopId>
         <dependencies>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
           <li>
             <packageId>brrainz.harmony</packageId>
             <steamWorkshopId>2009463077</steamWorkshopId>
           </li>
         </dependencies>
         <things>
-          <li>Soil_HalfTriangle_SouthEast_TileMarble</li>
-          <li>Soil_HalfTriangle_NorthWest_TileMarble</li>
-          <li>Soil_HalfTriangle_NorthWest_ADHFloor_R</li>
-          <li>Soil_HalfTriangle_NorthEast_ADHFloor_Q</li>
-          <li>Soil_HalfTriangle_NorthWest_FLDarkFarmableA</li>
+          <li>RB_ReinforcedGlassWall</li>
         </things>
       </mod>
       <mod>
@@ -152,7 +187,77 @@
           </li>
         </dependencies>
         <things>
-          <li>ADHFloor_Q</li>
+          <li>ADH_Wall_A</li>
+          <li>ADHFloor_O</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>lsk.rabbiefurnitureandfacilities.basic</packageId>
+        <name>[LSK]月兔扩展——基础家具和设施</name>
+        <version></version>
+        <modorder>19</modorder>
+        <steamWorkshopId>3155273482</steamWorkshopId>
+        <things>
+          <li>LSK_High_Glass_Door</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>oels.nanamewalls</packageId>
+        <name>Hull Style: NANAME Walls</name>
+        <version>1.6.49</version>
+        <modorder>104</modorder>
+        <steamWorkshopId>3543791340</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>ADH_Wall_A_NAWDiagonal</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>oels.nanamefloors</packageId>
+        <name>NANAME Floors</name>
+        <version></version>
+        <modorder>124</modorder>
+        <steamWorkshopId>3293767181</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Soil_HalfTriangle_NorthWest_TileMarble</li>
+          <li>Soil_HalfTriangle_SouthEast_TileMarble</li>
+          <li>Soil_HalfTriangle_NorthWest_ADHFloor_O</li>
+          <li>Soil_HalfTriangle_NorthEast_ADHFloor_O</li>
+          <li>FLStoneA_Limestone_HalfTriangle_NorthEast_ADHFloor_O</li>
+          <li>Soil_HalfTriangle_SouthWest_ADHFloor_O</li>
+          <li>Soil_HalfTriangle_SouthEast_ADHFloor_O</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ks.flooringfloors</packageId>
+        <name>Flooring Floors</name>
+        <version>11</version>
+        <modorder>92</modorder>
+        <steamWorkshopId>3531114826</steamWorkshopId>
+        <things>
+          <li>KS_StoneFishScaleMarble</li>
+          <li>KS_StoneRandomRoughMixedSlate</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>bellodhr.seamlessdoors</packageId>
+        <name>Seamless Doors</name>
+        <version></version>
+        <modorder>153</modorder>
+        <steamWorkshopId>3694533072</steamWorkshopId>
+        <things>
+          <li>SeamlessDoors_FloorProxy</li>
         </things>
       </mod>
     </modPackages>
@@ -175,342 +280,732 @@
   <things>
     <FLDarkTreeA>
       <rects>
-        <li>(20,1,20,1)</li>
+        <li>(19,1,19,1)</li>
+        <li>(5,2,5,2)</li>
       </rects>
     </FLDarkTreeA>
     <FLDarkWall>
       <rects>
-        <li>(21,1,24,1)</li>
-        <li>(1,2,6,2)</li>
-        <li>(1,7,6,7)</li>
-        <li>(24,7,24,9)</li>
-        <li>(1,8,1,8)</li>
+        <li>(20,1,30,1)</li>
+        <li>(0,2,4,2)</li>
+        <li>(0,7,5,7)</li>
+        <li>(24,7,30,7)</li>
+        <li>(0,8,0,8)</li>
+        <li>(30,8,30,8)</li>
+        <li>(0,16,2,16)</li>
+        <li>(0,17,0,27)</li>
+        <li>(30,19,30,27)</li>
+        <li>(1,27,29,27)</li>
       </rects>
       <stuff>FDF_Cream</stuff>
     </FLDarkWall>
     <milple_HandRailsPillarXLR>
       <positions>
-        <li>(0, 0, 2)</li>
-        <li>(6, 0, 2)</li>
-        <li>(12, 0, 2)</li>
-        <li>(15, 0, 2)</li>
-        <li>(0, 0, 3)</li>
-        <li>(6, 0, 3)</li>
-        <li>(12, 0, 3)</li>
-        <li>(15, 0, 3)</li>
-        <li>(0, 0, 4)</li>
-        <li>(6, 0, 4)</li>
-        <li>(12, 0, 4)</li>
-        <li>(15, 0, 4)</li>
-        <li>(0, 0, 5)</li>
-        <li>(6, 0, 5)</li>
-        <li>(12, 0, 5)</li>
-        <li>(15, 0, 5)</li>
+        <li>(-1, 0, 2)</li>
+        <li>(5, 0, 2)</li>
+        <li>(11, 0, 2)</li>
+        <li>(14, 0, 2)</li>
+        <li>(-1, 0, 3)</li>
+        <li>(5, 0, 3)</li>
+        <li>(11, 0, 3)</li>
+        <li>(14, 0, 3)</li>
+        <li>(-1, 0, 4)</li>
+        <li>(5, 0, 4)</li>
+        <li>(11, 0, 4)</li>
+        <li>(14, 0, 4)</li>
+        <li>(-1, 0, 5)</li>
+        <li>(5, 0, 5)</li>
+        <li>(11, 0, 5)</li>
+        <li>(14, 0, 5)</li>
+        <li>(11, 0, 10)</li>
+        <li>(14, 0, 10)</li>
+        <li>(7, 0, 11)</li>
+        <li>(11, 0, 11)</li>
+        <li>(14, 0, 11)</li>
+        <li>(18, 0, 11)</li>
+        <li>(7, 0, 12)</li>
+        <li>(11, 0, 12)</li>
+        <li>(14, 0, 12)</li>
+        <li>(18, 0, 12)</li>
+        <li>(7, 0, 13)</li>
+        <li>(11, 0, 13)</li>
+        <li>(14, 0, 13)</li>
+        <li>(18, 0, 13)</li>
+        <li>(7, 0, 14)</li>
+        <li>(18, 0, 14)</li>
       </positions>
       <stuff>BlocksMarble</stuff>
     </milple_HandRailsPillarXLR>
     <milple_HandRailsDiagonal>
       <rects>
-        <li>(20,2,20,2)</li>
-        <li>(12,3,12,3)</li>
-        <li>(12,7,12,7)</li>
-        <li>(19,7,19,7)</li>
+        <li>(19,2,19,2)</li>
+        <li>(11,3,11,3)</li>
+        <li>(11,7,11,7)</li>
+        <li>(18,7,18,7)</li>
+        <li>(11,11,11,11)</li>
+        <li>(2,12,2,12)</li>
+        <li>(11,15,11,15)</li>
       </rects>
       <relativeRotation>Counterclockwise</relativeRotation>
       <stuff>BlocksMarble</stuff>
     </milple_HandRailsDiagonal>
     <milple_PlainWallBR>
       <rects>
-        <li>(20,2,20,3)</li>
-        <li>(7,3,7,3)</li>
-        <li>(12,3,12,3)</li>
-        <li>(16,3,16,3)</li>
-        <li>(17,4,17,5)</li>
-        <li>(21,4,21,4)</li>
-        <li>(18,5,18,5)</li>
-        <li>(22,5,22,5)</li>
-        <li>(19,6,19,7)</li>
-        <li>(23,6,23,6)</li>
-        <li>(7,7,7,7)</li>
-        <li>(12,7,12,7)</li>
-        <li>(16,7,16,7)</li>
+        <li>(19,2,19,3)</li>
+        <li>(6,3,6,3)</li>
+        <li>(11,3,11,3)</li>
+        <li>(15,3,15,3)</li>
+        <li>(16,4,16,5)</li>
+        <li>(20,4,20,4)</li>
+        <li>(17,5,17,5)</li>
+        <li>(21,5,21,5)</li>
+        <li>(18,6,18,7)</li>
+        <li>(22,6,22,6)</li>
+        <li>(6,7,6,7)</li>
+        <li>(11,7,11,7)</li>
+        <li>(15,7,15,7)</li>
+        <li>(11,11,11,11)</li>
+        <li>(15,11,15,11)</li>
+        <li>(2,12,2,12)</li>
+        <li>(19,12,19,12)</li>
+        <li>(20,13,20,13)</li>
+        <li>(21,14,21,14)</li>
+        <li>(11,15,11,15)</li>
+        <li>(15,15,15,15)</li>
+        <li>(19,16,19,16)</li>
+        <li>(20,17,20,17)</li>
+        <li>(21,18,21,18)</li>
       </rects>
       <stuff>Miho_Ceramics</stuff>
     </milple_PlainWallBR>
     <milple_HandRails>
       <rects>
-        <li>(21,2,24,2)</li>
-        <li>(1,3,6,3)</li>
-        <li>(13,3,15,3)</li>
-        <li>(8,4,8,4)</li>
-        <li>(11,4,11,4)</li>
-        <li>(2,7,6,7)</li>
-        <li>(13,7,15,7)</li>
-        <li>(8,8,8,8)</li>
-        <li>(11,8,11,8)</li>
-        <li>(17,8,18,8)</li>
+        <li>(20,2,30,2)</li>
+        <li>(0,3,5,3)</li>
+        <li>(12,3,14,3)</li>
+        <li>(7,4,7,4)</li>
+        <li>(10,4,10,4)</li>
+        <li>(0,7,5,7)</li>
+        <li>(12,7,14,7)</li>
+        <li>(23,7,29,7)</li>
+        <li>(7,8,7,8)</li>
+        <li>(10,8,10,8)</li>
+        <li>(16,8,17,8)</li>
+        <li>(12,11,14,11)</li>
+        <li>(6,12,10,12)</li>
+        <li>(16,12,18,12)</li>
+        <li>(1,13,1,13)</li>
+        <li>(12,15,14,15)</li>
+        <li>(22,15,27,15)</li>
+        <li>(30,15,30,15)</li>
+        <li>(1,16,3,16)</li>
+        <li>(6,16,10,16)</li>
+        <li>(16,16,18,16)</li>
+        <li>(22,19,27,19)</li>
       </rects>
       <stuff>BlocksMarble</stuff>
     </milple_HandRails>
     <milple_PlainWallB>
       <rects>
-        <li>(21,2,24,3)</li>
-        <li>(1,3,6,6)</li>
-        <li>(13,3,15,6)</li>
-        <li>(7,4,8,6)</li>
-        <li>(11,4,12,6)</li>
-        <li>(16,4,16,6)</li>
-        <li>(22,4,24,4)</li>
-        <li>(23,5,24,5)</li>
-        <li>(17,6,18,7)</li>
-        <li>(24,6,24,6)</li>
-        <li>(8,7,8,7)</li>
-        <li>(11,7,11,7)</li>
+        <li>(20,2,30,3)</li>
+        <li>(0,3,5,6)</li>
+        <li>(12,3,14,6)</li>
+        <li>(6,4,7,6)</li>
+        <li>(10,4,11,6)</li>
+        <li>(15,4,15,6)</li>
+        <li>(21,4,30,4)</li>
+        <li>(22,5,30,5)</li>
+        <li>(16,6,17,7)</li>
+        <li>(23,6,30,6)</li>
+        <li>(7,7,7,7)</li>
+        <li>(10,7,10,7)</li>
+        <li>(12,11,14,14)</li>
+        <li>(3,12,3,15)</li>
+        <li>(6,12,11,14)</li>
+        <li>(15,12,18,14)</li>
+        <li>(0,13,2,15)</li>
+        <li>(19,13,19,15)</li>
+        <li>(20,14,20,16)</li>
+        <li>(6,15,10,15)</li>
+        <li>(16,15,18,15)</li>
+        <li>(21,15,27,17)</li>
+        <li>(30,15,30,18)</li>
+        <li>(22,18,27,18)</li>
       </rects>
       <stuff>Miho_Ceramics</stuff>
     </milple_PlainWallB>
     <milple_HandRailsPillarXL>
       <rects>
-        <li>(24,2,24,5)</li>
-        <li>(7,4,7,7)</li>
-        <li>(11,4,11,7)</li>
-        <li>(16,4,16,7)</li>
+        <li>(30,2,30,5)</li>
+        <li>(6,4,6,7)</li>
+        <li>(10,4,10,7)</li>
+        <li>(15,4,15,7)</li>
+        <li>(10,12,10,15)</li>
+        <li>(15,12,15,15)</li>
+        <li>(21,15,21,18)</li>
       </rects>
       <stuff>BlocksMarble</stuff>
     </milple_HandRailsPillarXL>
     <milple_HandRailsDiagonal>
       <rects>
-        <li>(7,3,7,3)</li>
-        <li>(19,6,19,6)</li>
-        <li>(23,6,23,6)</li>
-        <li>(7,7,7,7)</li>
-        <li>(16,7,16,7)</li>
+        <li>(6,3,6,3)</li>
+        <li>(18,6,18,6)</li>
+        <li>(22,6,22,6)</li>
+        <li>(6,7,6,7)</li>
+        <li>(15,7,15,7)</li>
+        <li>(15,11,15,11)</li>
+        <li>(21,14,21,14)</li>
+        <li>(15,15,15,15)</li>
+        <li>(21,18,21,18)</li>
       </rects>
       <stuff>BlocksMarble</stuff>
     </milple_HandRailsDiagonal>
+    <MUS_Gothicstyle_MonsterStatueSmall>
+      <rects>
+        <li>(7,3,7,3)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Miho_Ceramics</stuff>
+      <quality>Normal</quality>
+    </MUS_Gothicstyle_MonsterStatueSmall>
     <milple_HandRailsPillarR>
       <positions>
-        <li>(10, 0, 3)</li>
-        <li>(0, 0, 6)</li>
-        <li>(6, 0, 6)</li>
-        <li>(12, 0, 6)</li>
-        <li>(15, 0, 6)</li>
-        <li>(8, 0, 7)</li>
-        <li>(10, 0, 7)</li>
+        <li>(9, 0, 3)</li>
+        <li>(-1, 0, 6)</li>
+        <li>(5, 0, 6)</li>
+        <li>(11, 0, 6)</li>
+        <li>(14, 0, 6)</li>
+        <li>(9, 0, 7)</li>
+        <li>(11, 0, 14)</li>
+        <li>(14, 0, 14)</li>
+        <li>(7, 0, 15)</li>
+        <li>(18, 0, 15)</li>
       </positions>
       <stuff>BlocksMarble</stuff>
     </milple_HandRailsPillarR>
+    <MUS_Gothicstyle_MonsterStatueSmall>
+      <rects>
+        <li>(10,3,10,3)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Miho_Ceramics</stuff>
+      <quality>Normal</quality>
+    </MUS_Gothicstyle_MonsterStatueSmall>
     <milple_HandRailsDiagonalL>
       <rects>
-        <li>(16,3,16,3)</li>
-        <li>(20,3,20,3)</li>
-        <li>(17,4,17,4)</li>
-        <li>(21,4,21,4)</li>
-        <li>(18,5,18,5)</li>
-        <li>(22,5,22,5)</li>
+        <li>(15,3,15,3)</li>
+        <li>(19,3,19,3)</li>
+        <li>(16,4,16,4)</li>
+        <li>(20,4,20,4)</li>
+        <li>(17,5,17,5)</li>
+        <li>(21,5,21,5)</li>
+        <li>(19,12,19,12)</li>
+        <li>(20,13,20,13)</li>
+        <li>(19,16,19,16)</li>
+        <li>(20,17,20,17)</li>
       </rects>
       <stuff>BlocksMarble</stuff>
     </milple_HandRailsDiagonalL>
     <milple_DiagonalStairsL>
       <rects>
-        <li>(16,3,16,3)</li>
-        <li>(17,4,17,4)</li>
-        <li>(18,5,18,5)</li>
-        <li>(19,6,19,6)</li>
+        <li>(15,3,15,3)</li>
       </rects>
-      <stuff>Wolfein_AlloyMaterials</stuff>
+      <stuff>BlocksSlate</stuff>
     </milple_DiagonalStairsL>
     <milple_Stairs>
       <rects>
-        <li>(17,3,19,3)</li>
-        <li>(9,4,10,7)</li>
-        <li>(18,4,20,4)</li>
-        <li>(19,5,21,5)</li>
-        <li>(20,6,22,6)</li>
+        <li>(16,3,18,3)</li>
+        <li>(8,4,9,7)</li>
+        <li>(17,4,19,4)</li>
+        <li>(18,5,20,5)</li>
+        <li>(19,6,21,6)</li>
+        <li>(4,12,5,15)</li>
+        <li>(28,15,29,18)</li>
       </rects>
       <stuff>BlocksSlate</stuff>
     </milple_Stairs>
+    <DiagonalTileMarble>
+      <rects>
+        <li>(16,3,16,3)</li>
+        <li>(9,4,9,4)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </DiagonalTileMarble>
     <milple_HandRailsPillar>
       <rects>
-        <li>(19,3,19,3)</li>
-        <li>(8,4,8,4)</li>
-        <li>(19,7,19,7)</li>
-        <li>(23,7,23,7)</li>
-        <li>(7,8,7,8)</li>
-        <li>(11,8,11,8)</li>
-        <li>(16,8,16,8)</li>
-        <li>(18,8,18,8)</li>
+        <li>(18,3,18,3)</li>
+        <li>(7,4,7,4)</li>
+        <li>(18,7,18,7)</li>
+        <li>(22,7,22,7)</li>
+        <li>(6,8,7,8)</li>
+        <li>(15,8,15,8)</li>
+        <li>(17,8,17,8)</li>
+        <li>(30,15,30,15)</li>
+        <li>(15,16,15,16)</li>
+        <li>(21,19,21,19)</li>
       </rects>
       <stuff>BlocksMarble</stuff>
     </milple_HandRailsPillar>
     <milple_DiagonalStairsL>
       <rects>
-        <li>(20,3,20,3)</li>
-        <li>(21,4,21,4)</li>
-        <li>(22,5,22,5)</li>
-        <li>(23,6,23,6)</li>
+        <li>(19,3,19,3)</li>
+        <li>(20,4,20,4)</li>
+        <li>(21,5,21,5)</li>
       </rects>
       <relativeRotation>Opposite</relativeRotation>
       <stuff>Wolfein_AlloyMaterials</stuff>
     </milple_DiagonalStairsL>
     <milple_HandRails>
       <rects>
-        <li>(8,4,8,7)</li>
-        <li>(10,4,10,7)</li>
+        <li>(7,4,7,7)</li>
+        <li>(9,4,9,7)</li>
+        <li>(30,8,30,18)</li>
+        <li>(5,12,5,15)</li>
+        <li>(3,13,3,15)</li>
+        <li>(27,15,27,18)</li>
+        <li>(29,15,29,18)</li>
+        <li>(30,20,30,26)</li>
       </rects>
       <relativeRotation>Clockwise</relativeRotation>
       <stuff>BlocksMarble</stuff>
     </milple_HandRails>
+    <milple_DiagonalStairsL>
+      <rects>
+        <li>(16,4,16,4)</li>
+        <li>(17,5,17,5)</li>
+        <li>(18,6,18,6)</li>
+      </rects>
+      <stuff>Wolfein_AlloyMaterials</stuff>
+    </milple_DiagonalStairsL>
+    <DiagonalTileMarble>
+      <rects>
+        <li>(17,4,17,4)</li>
+        <li>(8,5,8,5)</li>
+        <li>(8,7,8,7)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </DiagonalTileMarble>
+    <milple_WindowR>
+      <rects>
+        <li>(13,5,13,6)</li>
+        <li>(13,13,13,14)</li>
+        <li>(1,15,1,15)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+    </milple_WindowR>
+    <milple_WindowLongRD>
+      <positions>
+        <li>(23, 0, 5)</li>
+        <li>(27, 0, 5)</li>
+        <li>(25, 0, 17)</li>
+      </positions>
+      <stuff>BlocksMarble</stuff>
+    </milple_WindowLongRD>
+    <milple_WindowLongD>
+      <position>(1, 0, 6)</position>
+      <stuff>BlocksMarble</stuff>
+    </milple_WindowLongD>
+    <DiagonalTileMarble>
+      <rects>
+        <li>(8,6,8,6)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </DiagonalTileMarble>
+    <milple_DiagonalStairsL>
+      <rects>
+        <li>(22,6,22,6)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksSlate</stuff>
+    </milple_DiagonalStairsL>
+    <milple_HandRails>
+      <rects>
+        <li>(0,7,0,12)</li>
+        <li>(0,14,0,15)</li>
+        <li>(0,17,0,26)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+    </milple_HandRails>
+    <GLO_GlowstoneLamp>
+      <rects>
+        <li>(23,7,23,7)</li>
+        <li>(7,8,7,8)</li>
+        <li>(10,8,10,8)</li>
+        <li>(3,16,3,16)</li>
+        <li>(6,16,6,16)</li>
+        <li>(27,19,27,19)</li>
+      </rects>
+      <stuff>FDF_Chocolate</stuff>
+    </GLO_GlowstoneLamp>
     <milple_HandRailsSquare>
       <rects>
-        <li>(1,7,1,7)</li>
+        <li>(30,7,30,7)</li>
+        <li>(3,12,3,12)</li>
+        <li>(30,19,30,19)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+    </milple_HandRailsSquare>
+    <milple_HandRailsPillar>
+      <rects>
+        <li>(11,8,11,8)</li>
+        <li>(0,13,0,13)</li>
+        <li>(2,13,2,13)</li>
+        <li>(0,16,0,16)</li>
+        <li>(11,16,11,16)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+    </milple_HandRailsPillar>
+    <RB_ReinforcedGlassWall>
+      <rects>
+        <li>(0,9,0,12)</li>
+        <li>(30,9,30,14)</li>
+      </rects>
+      <stuff>FDF_Cream</stuff>
+    </RB_ReinforcedGlassWall>
+    <milple_HandRailsPillar>
+      <rects>
+        <li>(3,12,3,12)</li>
+        <li>(5,12,5,12)</li>
+        <li>(27,15,27,15)</li>
+        <li>(29,15,29,15)</li>
+        <li>(3,16,3,16)</li>
+        <li>(5,16,5,16)</li>
+        <li>(27,19,27,19)</li>
+        <li>(29,19,29,19)</li>
+      </rects>
+      <stuff>Miho_Ceramics</stuff>
+    </milple_HandRailsPillar>
+    <milple_HandRailsSquare>
+      <rects>
+        <li>(0,13,0,13)</li>
+        <li>(0,16,0,16)</li>
       </rects>
       <relativeRotation>Counterclockwise</relativeRotation>
       <stuff>BlocksMarble</stuff>
     </milple_HandRailsSquare>
-    <milple_HandRailsSquare>
+    <milple_WindowRD>
       <rects>
-        <li>(24,7,24,7)</li>
+        <li>(9,14,9,14)</li>
+        <li>(20,16,20,16)</li>
       </rects>
       <stuff>BlocksMarble</stuff>
-    </milple_HandRailsSquare>
+    </milple_WindowRD>
+    <ADH_Wall_A>
+      <rects>
+        <li>(1,18,3,18)</li>
+        <li>(5,18,8,18)</li>
+        <li>(10,18,12,18)</li>
+        <li>(14,18,15,18)</li>
+        <li>(6,19,6,19)</li>
+        <li>(18,21,28,21)</li>
+        <li>(18,22,18,22)</li>
+      </rects>
+      <stuff>FDF_Cream</stuff>
+    </ADH_Wall_A>
+    <LSK_High_Glass_Door>
+      <rects>
+        <li>(4,18,4,18)</li>
+        <li>(13,18,13,18)</li>
+        <li>(29,21,29,21)</li>
+      </rects>
+    </LSK_High_Glass_Door>
+    <ADH_Wall_A_NAWDiagonal>
+      <rects>
+        <li>(9,18,9,18)</li>
+        <li>(16,18,16,18)</li>
+        <li>(17,19,17,19)</li>
+        <li>(18,20,18,20)</li>
+      </rects>
+      <stuff>FDF_Cream</stuff>
+    </ADH_Wall_A_NAWDiagonal>
   </things>
   <terrain>
-    <Soil_HalfTriangle_SouthEast_TileMarble>
+    <TileMarble>
+      <color>Structure_Marble</color>
       <rects>
-        <li>(16,3,16,3)</li>
-        <li>(17,4,17,4)</li>
-        <li>(18,5,18,5)</li>
-        <li>(19,6,19,6)</li>
+        <li>(15,3,15,3)</li>
+        <li>(9,4,9,4)</li>
+        <li>(8,7,8,7)</li>
       </rects>
-    </Soil_HalfTriangle_SouthEast_TileMarble>
+    </TileMarble>
     <TileMarble>
       <rects>
-        <li>(17,3,19,3)</li>
-        <li>(9,4,10,7)</li>
-        <li>(18,4,20,4)</li>
-        <li>(19,5,21,5)</li>
-        <li>(20,6,22,6)</li>
+        <li>(16,3,18,3)</li>
+        <li>(8,4,8,6)</li>
+        <li>(17,4,19,4)</li>
+        <li>(9,5,9,7)</li>
+        <li>(18,5,20,5)</li>
+        <li>(19,6,22,6)</li>
+        <li>(4,12,5,15)</li>
+        <li>(28,15,29,18)</li>
       </rects>
     </TileMarble>
     <Soil_HalfTriangle_NorthWest_TileMarble>
       <rects>
-        <li>(20,3,20,3)</li>
-        <li>(21,4,21,4)</li>
-        <li>(22,5,22,5)</li>
-        <li>(23,6,23,6)</li>
+        <li>(19,3,19,3)</li>
+        <li>(20,4,20,4)</li>
+        <li>(21,5,21,5)</li>
       </rects>
     </Soil_HalfTriangle_NorthWest_TileMarble>
-    <ADHFloor_Q>
+    <Soil_HalfTriangle_SouthEast_TileMarble>
       <rects>
-        <li>(1,7,6,9)</li>
-        <li>(13,7,15,9)</li>
-        <li>(20,7,24,9)</li>
-        <li>(7,8,12,9)</li>
-        <li>(16,8,19,9)</li>
+        <li>(16,4,16,4)</li>
+        <li>(17,5,17,5)</li>
+        <li>(18,6,18,6)</li>
       </rects>
-    </ADHFloor_Q>
-    <Soil_HalfTriangle_NorthWest_ADHFloor_R>
+    </Soil_HalfTriangle_SouthEast_TileMarble>
+    <ADHFloor_O>
       <rects>
-        <li>(7,7,7,7)</li>
+        <li>(0,7,5,11)</li>
+        <li>(12,7,14,10)</li>
+        <li>(19,7,30,11)</li>
+        <li>(6,8,11,10)</li>
+        <li>(15,8,18,10)</li>
+        <li>(6,11,10,11)</li>
+        <li>(16,11,18,11)</li>
+        <li>(0,12,3,15)</li>
+        <li>(20,12,30,12)</li>
+        <li>(21,13,30,13)</li>
+        <li>(22,14,30,14)</li>
+        <li>(30,15,30,18)</li>
       </rects>
-    </Soil_HalfTriangle_NorthWest_ADHFloor_R>
-    <Soil_HalfTriangle_NorthEast_ADHFloor_Q>
+    </ADHFloor_O>
+    <Soil_HalfTriangle_NorthWest_ADHFloor_O>
       <rects>
-        <li>(12,7,12,7)</li>
-        <li>(19,7,19,7)</li>
+        <li>(6,7,6,7)</li>
+        <li>(15,7,15,7)</li>
       </rects>
-    </Soil_HalfTriangle_NorthEast_ADHFloor_Q>
+    </Soil_HalfTriangle_NorthWest_ADHFloor_O>
+    <Soil_HalfTriangle_NorthEast_ADHFloor_O>
+      <rects>
+        <li>(11,7,11,7)</li>
+      </rects>
+    </Soil_HalfTriangle_NorthEast_ADHFloor_O>
+    <FLStoneA_Limestone_HalfTriangle_NorthEast_ADHFloor_O>
+      <rects>
+        <li>(18,7,18,7)</li>
+      </rects>
+    </FLStoneA_Limestone_HalfTriangle_NorthEast_ADHFloor_O>
+    <Soil_HalfTriangle_SouthWest_ADHFloor_O>
+      <rects>
+        <li>(11,11,11,11)</li>
+      </rects>
+    </Soil_HalfTriangle_SouthWest_ADHFloor_O>
+    <Soil_HalfTriangle_SouthEast_ADHFloor_O>
+      <rects>
+        <li>(15,11,15,11)</li>
+        <li>(19,12,19,12)</li>
+        <li>(20,13,20,13)</li>
+        <li>(21,14,21,14)</li>
+      </rects>
+    </Soil_HalfTriangle_SouthEast_ADHFloor_O>
+    <SeamlessDoors_FloorProxy>
+      <rects>
+        <li>(13,18,13,18)</li>
+        <li>(29,21,29,21)</li>
+      </rects>
+    </SeamlessDoors_FloorProxy>
   </terrain>
   <terrainLayers>
     <terrainLayerDetail layer="topGrid">
       <FLStoneA_Limestone>
         <rects>
-          <li>(1,1,19,1)</li>
-          <li>(7,2,20,2)</li>
-          <li>(7,3,12,3)</li>
+          <li>(0,0,30,0)</li>
+          <li>(0,1,18,1)</li>
+          <li>(6,2,13,2)</li>
+          <li>(19,2,19,2)</li>
+          <li>(6,3,11,3)</li>
+          <li>(23,6,23,6)</li>
         </rects>
       </FLStoneA_Limestone>
       <FLDarkFarmableA>
         <rects>
-          <li>(20,1,24,1)</li>
-          <li>(1,2,6,2)</li>
+          <li>(19,1,30,1)</li>
+          <li>(0,2,5,2)</li>
         </rects>
       </FLDarkFarmableA>
-      <Soil_HalfTriangle_SouthEast_TileMarble>
+      <FLStoneA_Limestone>
+        <color>RGBA(0.765, 0.753, 0.690, 1.000)</color>
         <rects>
-          <li>(16,3,16,3)</li>
-          <li>(17,4,17,4)</li>
-          <li>(18,5,18,5)</li>
-          <li>(19,6,19,6)</li>
+          <li>(14,2,18,2)</li>
         </rects>
-      </Soil_HalfTriangle_SouthEast_TileMarble>
+      </FLStoneA_Limestone>
+      <TileMarble>
+        <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+        <rects>
+          <li>(15,3,15,3)</li>
+          <li>(9,4,9,4)</li>
+          <li>(8,7,8,7)</li>
+        </rects>
+      </TileMarble>
       <TileMarble>
         <rects>
-          <li>(17,3,19,3)</li>
-          <li>(9,4,10,7)</li>
-          <li>(18,4,20,4)</li>
-          <li>(19,5,21,5)</li>
-          <li>(20,6,22,6)</li>
+          <li>(16,3,18,3)</li>
+          <li>(8,4,8,6)</li>
+          <li>(17,4,19,4)</li>
+          <li>(9,5,9,7)</li>
+          <li>(18,5,20,5)</li>
+          <li>(19,6,22,6)</li>
+          <li>(4,12,5,15)</li>
+          <li>(28,15,29,18)</li>
         </rects>
       </TileMarble>
       <Soil_HalfTriangle_NorthWest_TileMarble>
         <rects>
-          <li>(20,3,20,3)</li>
-          <li>(21,4,21,4)</li>
-          <li>(22,5,22,5)</li>
-          <li>(23,6,23,6)</li>
+          <li>(19,3,19,3)</li>
+          <li>(20,4,20,4)</li>
+          <li>(21,5,21,5)</li>
         </rects>
       </Soil_HalfTriangle_NorthWest_TileMarble>
-      <ADHFloor_Q>
+      <Soil_HalfTriangle_SouthEast_TileMarble>
         <rects>
-          <li>(1,7,6,9)</li>
-          <li>(13,7,15,9)</li>
-          <li>(20,7,24,9)</li>
-          <li>(7,8,12,9)</li>
-          <li>(16,8,19,9)</li>
+          <li>(16,4,16,4)</li>
+          <li>(17,5,17,5)</li>
+          <li>(18,6,18,6)</li>
         </rects>
-      </ADHFloor_Q>
-      <Soil_HalfTriangle_NorthWest_ADHFloor_R>
+      </Soil_HalfTriangle_SouthEast_TileMarble>
+      <ADHFloor_O>
         <rects>
-          <li>(7,7,7,7)</li>
+          <li>(0,7,5,11)</li>
+          <li>(12,7,14,10)</li>
+          <li>(19,7,30,11)</li>
+          <li>(6,8,11,10)</li>
+          <li>(15,8,18,10)</li>
+          <li>(6,11,10,11)</li>
+          <li>(16,11,18,11)</li>
+          <li>(0,12,3,15)</li>
+          <li>(20,12,30,12)</li>
+          <li>(21,13,30,13)</li>
+          <li>(22,14,30,14)</li>
+          <li>(30,15,30,18)</li>
         </rects>
-      </Soil_HalfTriangle_NorthWest_ADHFloor_R>
-      <CarpetBlack>
+      </ADHFloor_O>
+      <Soil_HalfTriangle_NorthWest_ADHFloor_O>
         <rects>
-          <li>(8,7,8,7)</li>
+          <li>(6,7,6,7)</li>
+          <li>(15,7,15,7)</li>
         </rects>
-      </CarpetBlack>
-      <Soil_HalfTriangle_NorthEast_ADHFloor_Q>
+      </Soil_HalfTriangle_NorthWest_ADHFloor_O>
+      <Soil_HalfTriangle_NorthEast_ADHFloor_O>
         <rects>
-          <li>(12,7,12,7)</li>
-          <li>(19,7,19,7)</li>
+          <li>(11,7,11,7)</li>
         </rects>
-      </Soil_HalfTriangle_NorthEast_ADHFloor_Q>
-      <Soil_HalfTriangle_NorthWest_FLDarkFarmableA>
+      </Soil_HalfTriangle_NorthEast_ADHFloor_O>
+      <FLStoneA_Limestone_HalfTriangle_NorthEast_ADHFloor_O>
         <rects>
-          <li>(16,7,16,7)</li>
+          <li>(18,7,18,7)</li>
         </rects>
-      </Soil_HalfTriangle_NorthWest_FLDarkFarmableA>
+      </FLStoneA_Limestone_HalfTriangle_NorthEast_ADHFloor_O>
+      <Soil_HalfTriangle_SouthWest_ADHFloor_O>
+        <rects>
+          <li>(11,11,11,11)</li>
+        </rects>
+      </Soil_HalfTriangle_SouthWest_ADHFloor_O>
+      <Soil_HalfTriangle_SouthEast_ADHFloor_O>
+        <rects>
+          <li>(15,11,15,11)</li>
+          <li>(19,12,19,12)</li>
+          <li>(20,13,20,13)</li>
+          <li>(21,14,21,14)</li>
+        </rects>
+      </Soil_HalfTriangle_SouthEast_ADHFloor_O>
+      <KS_StoneFishScaleMarble>
+        <rects>
+          <li>(11,15,15,17)</li>
+          <li>(0,16,10,17)</li>
+          <li>(16,16,19,17)</li>
+          <li>(20,17,20,20)</li>
+          <li>(0,18,8,18)</li>
+          <li>(17,18,19,18)</li>
+          <li>(21,18,21,20)</li>
+          <li>(18,19,19,19)</li>
+          <li>(22,19,30,20)</li>
+          <li>(19,20,19,20)</li>
+        </rects>
+      </KS_StoneFishScaleMarble>
+      <SeamlessDoors_FloorProxy>
+        <rects>
+          <li>(13,18,13,18)</li>
+          <li>(29,21,29,21)</li>
+        </rects>
+      </SeamlessDoors_FloorProxy>
+      <KS_StoneRandomRoughMixedSlate>
+        <rects>
+          <li>(14,24,14,24)</li>
+        </rects>
+      </KS_StoneRandomRoughMixedSlate>
     </terrainLayerDetail>
     <terrainLayerDetail layer="underGrid">
       <Soil>
         <rects>
-          <li>(1,1,24,1)</li>
-          <li>(1,2,20,2)</li>
-          <li>(7,3,12,3)</li>
-          <li>(16,3,20,3)</li>
-          <li>(9,4,10,9)</li>
-          <li>(17,4,21,4)</li>
-          <li>(18,5,22,5)</li>
-          <li>(19,6,23,9)</li>
-          <li>(1,7,8,9)</li>
-          <li>(12,7,16,9)</li>
-          <li>(24,7,24,9)</li>
-          <li>(11,8,11,9)</li>
-          <li>(17,8,18,9)</li>
+          <li>(0,0,30,1)</li>
+          <li>(0,2,13,2)</li>
+          <li>(19,2,19,12)</li>
+          <li>(6,3,11,3)</li>
+          <li>(16,3,18,4)</li>
+          <li>(8,4,8,6)</li>
+          <li>(20,4,20,13)</li>
+          <li>(9,5,9,11)</li>
+          <li>(17,5,18,5)</li>
+          <li>(21,5,21,14)</li>
+          <li>(18,6,18,11)</li>
+          <li>(22,6,23,14)</li>
+          <li>(0,7,6,11)</li>
+          <li>(11,7,15,10)</li>
+          <li>(24,7,30,14)</li>
+          <li>(7,8,8,11)</li>
+          <li>(10,8,10,11)</li>
+          <li>(16,8,17,11)</li>
+          <li>(11,11,11,11)</li>
+          <li>(15,11,15,11)</li>
+          <li>(0,12,5,18)</li>
+          <li>(11,15,15,17)</li>
+          <li>(28,15,30,20)</li>
+          <li>(6,16,10,17)</li>
+          <li>(16,16,19,17)</li>
+          <li>(20,17,20,20)</li>
+          <li>(6,18,8,18)</li>
+          <li>(13,18,13,18)</li>
+          <li>(17,18,19,18)</li>
+          <li>(21,18,21,20)</li>
+          <li>(18,19,19,19)</li>
+          <li>(22,19,27,20)</li>
+          <li>(19,20,19,20)</li>
+          <li>(29,21,29,21)</li>
+          <li>(14,24,14,24)</li>
+        </rects>
+      </Soil>
+      <Soil>
+        <color>RGBA(0.765, 0.753, 0.690, 1.000)</color>
+        <rects>
+          <li>(14,2,18,2)</li>
+        </rects>
+      </Soil>
+      <Soil>
+        <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+        <rects>
+          <li>(15,3,15,3)</li>
+          <li>(9,4,9,4)</li>
+          <li>(8,7,8,7)</li>
         </rects>
       </Soil>
     </terrainLayerDetail>
   </terrainLayers>
+  <roofs>
+    <PlayerRoofZone>
+      <rects>
+        <li>(10,15,16,27)</li>
+        <li>(6,16,9,27)</li>
+        <li>(17,16,20,27)</li>
+        <li>(21,17,21,27)</li>
+        <li>(0,18,5,27)</li>
+        <li>(22,18,22,27)</li>
+        <li>(23,19,28,27)</li>
+        <li>(30,19,30,27)</li>
+        <li>(29,20,29,27)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
 </PrefabDef>
