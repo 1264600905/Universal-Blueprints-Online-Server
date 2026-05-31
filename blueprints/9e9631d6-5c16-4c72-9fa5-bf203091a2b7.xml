@@ -1,0 +1,446 @@
+<PrefabDef>
+  <defName>Prefab_20260531_215055</defName>
+  <size>(25,15)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>失能機關車間</name>
+    <description>所有失能機關有關的東西都在這裡建造。</description>
+    <tags></tags>
+    <author>黑龍月</author>
+    <category>车间</category>
+    <BuildingID>9e9631d6-5c16-4c72-9fa5-bf203091a2b7</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>aoba.deadmanswitch.core</packageId>
+        <name><![CDATA[The Dead Man's Switch]]></name>
+        <version>1.8.25</version>
+        <modorder>225</modorder>
+        <steamWorkshopId>3121742525</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+          <li>
+            <packageId>aoba.framework</packageId>
+            <steamWorkshopId>3498575851</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Tungsteel</li>
+          <li>DMS_MachineCabinet</li>
+          <li>DMS_TableMachinePrinter</li>
+          <li>DMS_MechGestatorSmall</li>
+          <li>DMS_TableArtifuscle</li>
+          <li>DMS_ReactionChamber</li>
+          <li>DMS_Furnace</li>
+          <li>DMS_Recharger</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>aoba.fortress.industrial.citadel</packageId>
+        <name>Fortification Industrial - Citadel</name>
+        <version></version>
+        <modorder>306</modorder>
+        <steamWorkshopId>2887532326</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>aoba.fortress.industrial</packageId>
+            <steamWorkshopId>2561619583</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>aoba.framework</packageId>
+            <steamWorkshopId>3498575851</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>FTC_PowerConduit</li>
+          <li>FT_transformer</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>aoba.deadmanswitch.expedition</packageId>
+        <name><![CDATA[The Dead Man's Switch - Expedition]]></name>
+        <version>0.35</version>
+        <modorder>228</modorder>
+        <steamWorkshopId>3689879335</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>ludeon.rimworld.odyssey</packageId>
+          </li>
+          <li>
+            <packageId>aoba.deadmanswitch.core</packageId>
+            <steamWorkshopId>3121742525</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+          <li>
+            <packageId>aoba.framework</packageId>
+            <steamWorkshopId>3498575851</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>DMSE_MicrogravityFacility</li>
+          <li>DMSE_TableLathe</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>oskarpotocki.vanillafactionsexpanded.settlersmodule</packageId>
+        <name>Vanilla Factions Expanded - Settlers</name>
+        <version></version>
+        <modorder>91</modorder>
+        <steamWorkshopId>2052918119</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Post</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.biotech</packageId>
+        <name>Biotech</name>
+        <version></version>
+        <modorder>6</modorder>
+        <things>
+          <li>WastepackAtomizer</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>tw.is.industrialismstyle</packageId>
+        <name>[TW1.6]工业风格 Industrialism Style</name>
+        <version></version>
+        <modorder>209</modorder>
+        <steamWorkshopId>3676411167</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>ludeon.rimworld.ideology</packageId>
+          </li>
+        </dependencies>
+        <things>
+          <li>TW_Industrialism_FactoryFloor</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>失能機關車間</default>
+        <zh-CN>失能機關車間</zh-CN>
+      </name>
+      <description>
+        <default>所有失能機關有關的東西都在這裡建造。</default>
+        <zh-CN>所有失能機關有關的東西都在這裡建造。</zh-CN>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,11,0)</li>
+        <li>(13,0,24,0)</li>
+        <li>(0,1,0,14)</li>
+        <li>(24,1,24,14)</li>
+        <li>(1,14,23,14)</li>
+      </rects>
+      <stuff>Tungsteel</stuff>
+      <color>RGBA(0.314, 0.314, 0.314, 1.000)</color>
+    </Wall>
+    <HiddenConduit>
+      <rects>
+        <li>(0,0,11,0)</li>
+        <li>(13,0,24,0)</li>
+        <li>(0,1,0,14)</li>
+        <li>(12,1,12,7)</li>
+        <li>(24,1,24,14)</li>
+        <li>(1,14,23,14)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <Autodoor>
+      <rects>
+        <li>(12,0,12,0)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Autodoor>
+    <FTC_PowerConduit>
+      <rects>
+        <li>(12,0,12,0)</li>
+      </rects>
+    </FTC_PowerConduit>
+    <FT_transformer>
+      <positions>
+        <li>(1, 0, 1)</li>
+        <li>(22, 0, 1)</li>
+        <li>(1, 0, 2)</li>
+        <li>(22, 0, 2)</li>
+        <li>(7, 0, 8)</li>
+        <li>(9, 0, 8)</li>
+        <li>(14, 0, 8)</li>
+        <li>(16, 0, 8)</li>
+      </positions>
+    </FT_transformer>
+    <DMS_MachineCabinet>
+      <positions>
+        <li>(3, 0, 2)</li>
+        <li>(4, 0, 2)</li>
+        <li>(20, 0, 2)</li>
+        <li>(21, 0, 2)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+    </DMS_MachineCabinet>
+    <DMS_TableMachinePrinter>
+      <positions>
+        <li>(6, 0, 2)</li>
+        <li>(9, 0, 2)</li>
+        <li>(15, 0, 2)</li>
+        <li>(18, 0, 2)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+    </DMS_TableMachinePrinter>
+    <WallLamp>
+      <rects>
+        <li>(7,1,7,1)</li>
+        <li>(17,1,17,1)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+      <glowColor>RGBA(0.655, 0.741, 0.839, 0.000)</glowColor>
+    </WallLamp>
+    <DMS_MechGestatorSmall>
+      <positions>
+        <li>(2, 0, 4)</li>
+        <li>(2, 0, 7)</li>
+        <li>(2, 0, 10)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+    </DMS_MechGestatorSmall>
+    <DiningChair>
+      <rects>
+        <li>(6,3,6,3)</li>
+        <li>(9,3,9,3)</li>
+        <li>(15,3,15,3)</li>
+        <li>(18,3,18,3)</li>
+        <li>(9,11,9,11)</li>
+        <li>(12,11,12,11)</li>
+        <li>(17,11,17,11)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Tungsteel</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.314, 0.314, 0.314, 1.000)</color>
+    </DiningChair>
+    <DMS_MechGestatorSmall>
+      <positions>
+        <li>(22, 0, 4)</li>
+        <li>(22, 0, 7)</li>
+        <li>(22, 0, 10)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </DMS_MechGestatorSmall>
+    <DiningChair>
+      <rects>
+        <li>(6,4,6,4)</li>
+        <li>(9,4,9,4)</li>
+        <li>(12,4,12,4)</li>
+        <li>(15,4,15,4)</li>
+        <li>(18,4,18,4)</li>
+      </rects>
+      <stuff>Tungsteel</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.314, 0.314, 0.314, 1.000)</color>
+    </DiningChair>
+    <DMS_TableArtifuscle>
+      <positions>
+        <li>(6, 0, 5)</li>
+        <li>(9, 0, 5)</li>
+        <li>(15, 0, 5)</li>
+        <li>(18, 0, 5)</li>
+      </positions>
+    </DMS_TableArtifuscle>
+    <DMS_ReactionChamber>
+      <position>(12, 0, 6)</position>
+    </DMS_ReactionChamber>
+    <DMSE_MicrogravityFacility>
+      <position>(5, 0, 7)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </DMSE_MicrogravityFacility>
+    <DMS_MachineCabinet>
+      <positions>
+        <li>(7, 0, 6)</li>
+        <li>(9, 0, 6)</li>
+        <li>(14, 0, 6)</li>
+        <li>(16, 0, 6)</li>
+        <li>(7, 0, 7)</li>
+        <li>(9, 0, 7)</li>
+        <li>(14, 0, 7)</li>
+        <li>(16, 0, 7)</li>
+      </positions>
+    </DMS_MachineCabinet>
+    <DMSE_MicrogravityFacility>
+      <position>(19, 0, 7)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </DMSE_MicrogravityFacility>
+    <WallLamp>
+      <rects>
+        <li>(1,7,1,7)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+      <glowColor>RGBA(0.655, 0.741, 0.839, 0.000)</glowColor>
+    </WallLamp>
+    <DiningChair>
+      <rects>
+        <li>(4,7,4,7)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Tungsteel</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.314, 0.314, 0.314, 1.000)</color>
+    </DiningChair>
+    <DiningChair>
+      <rects>
+        <li>(20,7,20,7)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Tungsteel</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.314, 0.314, 0.314, 1.000)</color>
+    </DiningChair>
+    <WallLamp>
+      <rects>
+        <li>(23,7,23,7)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+      <glowColor>RGBA(0.655, 0.741, 0.839, 0.000)</glowColor>
+    </WallLamp>
+    <DMS_Furnace>
+      <position>(12, 0, 9)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </DMS_Furnace>
+    <Post>
+      <rects>
+        <li>(5,9,5,9)</li>
+        <li>(19,9,19,9)</li>
+      </rects>
+      <stuff>Tungsteel</stuff>
+      <color>RGBA(0.314, 0.314, 0.314, 1.000)</color>
+    </Post>
+    <DMSE_TableLathe>
+      <positions>
+        <li>(8, 0, 10)</li>
+        <li>(16, 0, 10)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+    </DMSE_TableLathe>
+    <WastepackAtomizer>
+      <positions>
+        <li>(6, 0, 12)</li>
+        <li>(9, 0, 12)</li>
+        <li>(15, 0, 12)</li>
+        <li>(18, 0, 12)</li>
+      </positions>
+    </WastepackAtomizer>
+    <DMS_Recharger>
+      <positions>
+        <li>(2, 0, 13)</li>
+        <li>(22, 0, 13)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+    </DMS_Recharger>
+    <WallLamp>
+      <rects>
+        <li>(7,13,7,13)</li>
+        <li>(17,13,17,13)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+      <glowColor>RGBA(0.655, 0.741, 0.839, 0.000)</glowColor>
+    </WallLamp>
+  </things>
+  <terrain>
+    <TW_Industrialism_FactoryFloor>
+      <rects>
+        <li>(0,0,24,14)</li>
+      </rects>
+    </TW_Industrialism_FactoryFloor>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <TW_Industrialism_FactoryFloor>
+        <rects>
+          <li>(0,0,24,14)</li>
+        </rects>
+      </TW_Industrialism_FactoryFloor>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(0,0,24,7)</li>
+          <li>(0,8,6,8)</li>
+          <li>(9,8,24,8)</li>
+          <li>(0,9,2,13)</li>
+          <li>(14,9,24,12)</li>
+          <li>(3,11,4,12)</li>
+          <li>(3,13,3,13)</li>
+          <li>(19,13,24,14)</li>
+          <li>(1,14,1,14)</li>
+        </rects>
+      </Soil>
+      <MossyTerrain>
+        <rects>
+          <li>(7,8,8,14)</li>
+          <li>(3,9,6,10)</li>
+          <li>(9,9,13,14)</li>
+          <li>(5,11,6,14)</li>
+          <li>(4,13,4,14)</li>
+          <li>(14,13,18,14)</li>
+          <li>(2,14,3,14)</li>
+        </rects>
+      </MossyTerrain>
+      <Gravel>
+        <rects>
+          <li>(0,14,0,14)</li>
+        </rects>
+      </Gravel>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,24,6)</li>
+        <li>(0,7,11,14)</li>
+        <li>(13,7,24,14)</li>
+        <li>(12,8,12,14)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,24,14)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
