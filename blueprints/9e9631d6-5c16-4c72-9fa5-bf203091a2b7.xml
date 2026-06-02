@@ -1,11 +1,13 @@
 <PrefabDef>
-  <defName>Prefab_20260602_234423</defName>
+  <defName>Prefab_20260602_234526</defName>
   <size>(25,15)</size>
   <extraInfo>
     <version>1.6.9438.37837</version>
     <name>失能機關車間</name>
     <description>所有失能機關有關的東西都在這裡建造。(除了精密製造中心)</description>
-    <tags></tags>
+    <tags>
+      <li>FullExport</li>
+    </tags>
     <author>黑龍月</author>
     <category>车间</category>
     <BuildingID>9e9631d6-5c16-4c72-9fa5-bf203091a2b7</BuildingID>
@@ -242,6 +244,14 @@
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
       <glowColor>RGBA(0.655, 0.741, 0.839, 0.000)</glowColor>
     </WallLamp>
+    <Filth_Dirt>
+      <rects>
+        <li>(13,2,13,2)</li>
+        <li>(17,4,17,4)</li>
+      </rects>
+      <color>RGBA(0.357, 0.294, 0.255, 0.380)</color>
+      <thickness>1</thickness>
+    </Filth_Dirt>
     <DMS_Furnace>
       <positions>
         <li>(2, 0, 4)</li>
@@ -410,6 +420,7 @@
     <WallLamp>
       <rects>
         <li>(7,13,7,13)</li>
+        <li>(17,13,17,13)</li>
       </rects>
       <stuff>Steel</stuff>
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
@@ -472,10 +483,7 @@
   <roofs>
     <RoofConstructed>
       <rects>
-        <li>(0,0,24,6)</li>
-        <li>(0,7,11,14)</li>
-        <li>(13,7,24,14)</li>
-        <li>(12,8,12,14)</li>
+        <li>(0,0,24,14)</li>
       </rects>
     </RoofConstructed>
     <PlayerRoofZone>
