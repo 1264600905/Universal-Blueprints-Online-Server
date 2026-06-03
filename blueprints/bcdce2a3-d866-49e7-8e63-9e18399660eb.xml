@@ -1,36 +1,72 @@
 <PrefabDef>
-  <defName>Prefab_20260322_154742</defName>
-  <size>(19,15)</size>
+  <defName>Prefab_20260603_202502</defName>
+  <size>(31,33)</size>
   <extraInfo>
     <version>1.6.9438.37837</version>
-    <name>住宅1</name>
-    <description></description>
+    <name>大图书馆</name>
+    <description>大图书馆，包含抄写室和一间教室</description>
     <tags></tags>
-    <author></author>
-    <category>宿舍</category>
+    <author>洛灵</author>
+    <category>其他</category>
     <BuildingID>bcdce2a3-d866-49e7-8e63-9e18399660eb</BuildingID>
     <modPackages>
       <mod>
-        <packageId>oels.nanamewalls</packageId>
-        <name>Hull Style: NANAME Walls</name>
-        <version>1.6.34</version>
-        <modorder>297</modorder>
-        <steamWorkshopId>3543791340</steamWorkshopId>
+        <packageId>rw.mod.gloomyanyversionsimplestairs</packageId>
+        <name>SimpleStairs Folk gloomy furniture patch</name>
+        <version></version>
+        <modorder>448</modorder>
+        <steamWorkshopId>3565659409</steamWorkshopId>
+        <things>
+          <li>Gomi_SimpleStair</li>
+          <li>Gomi_GLFloorFence</li>
+          <li>Gomi_GLHighWall</li>
+          <li>Gomi_GLHandrail</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>miho.fortifiedoutremer</packageId>
+        <name>Miho, the celestial fox</name>
+        <version></version>
+        <modorder>174</modorder>
+        <steamWorkshopId>2816826107</steamWorkshopId>
         <dependencies>
           <li>
             <packageId>brrainz.harmony</packageId>
             <steamWorkshopId>2009463077</steamWorkshopId>
           </li>
+          <li>
+            <packageId>ludeon.rimworld.royalty</packageId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.ideology</packageId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
         </dependencies>
         <things>
-          <li>AP_Hedge_Flowery_NAWDiagonal</li>
+          <li>Miho_CelestialScale</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>milple.expertstairs</packageId>
+        <name>Expert Stairs</name>
+        <version>1.1.0</version>
+        <modorder>158</modorder>
+        <steamWorkshopId>3688237449</steamWorkshopId>
+        <things>
+          <li>milple_PlainWallB</li>
         </things>
       </mod>
       <mod>
         <packageId>sarg.alphapropsparks</packageId>
         <name>Alpha Props - Parks and Gardens</name>
         <version></version>
-        <modorder>45</modorder>
+        <modorder>40</modorder>
         <steamWorkshopId>3146268928</steamWorkshopId>
         <dependencies>
           <li>
@@ -47,204 +83,15 @@
           </li>
         </dependencies>
         <things>
-          <li>AP_Hedge_Flowery</li>
+          <li>AP_PlanterShelvesD</li>
         </things>
       </mod>
       <mod>
-        <packageId>kindseal.ufli</packageId>
-        <name>联合轻工家具拓展-UF Light Industries Furniture</name>
+        <packageId>migua.miliradailyexpend</packageId>
+        <name>Milira Daily Expend</name>
         <version></version>
-        <modorder>641</modorder>
-        <steamWorkshopId>3651799915</steamWorkshopId>
-        <dependencies>
-          <li>
-            <packageId>brrainz.harmony</packageId>
-            <steamWorkshopId>2009463077</steamWorkshopId>
-          </li>
-        </dependencies>
-        <things>
-          <li>UFLI_Walllamp</li>
-          <li>UFLI_treelight</li>
-        </things>
-      </mod>
-      <mod>
-        <packageId>gloomy.furniture.continued.fix</packageId>
-        <name>GloomyFurniture (Continued) Unofficial Fix</name>
-        <version></version>
-        <modorder>193</modorder>
-        <steamWorkshopId>3532426842</steamWorkshopId>
-        <dependencies>
-          <li>
-            <packageId>brrainz.harmony</packageId>
-            <steamWorkshopId>2009463077</steamWorkshopId>
-          </li>
-        </dependencies>
-        <things>
-          <li>GL_Wall</li>
-          <li>RGK_DoorOld</li>
-          <li>GL_FlowerWall</li>
-        </things>
-      </mod>
-      <mod>
-        <packageId>elsa.cakefurniture.fdf</packageId>
-        <name>Cake! Furniture-蛋糕家具</name>
-        <version></version>
-        <modorder>86</modorder>
-        <steamWorkshopId>3629632481</steamWorkshopId>
-        <dependencies>
-          <li>
-            <packageId>ludeon.rimworld</packageId>
-          </li>
-          <li>
-            <packageId>brrainz.harmony</packageId>
-            <steamWorkshopId>2009463077</steamWorkshopId>
-          </li>
-        </dependencies>
-        <things>
-          <li>FDF_Chocolate</li>
-          <li>FDF_Cream</li>
-          <li>FDF_Dresser</li>
-          <li>FDF_Carpet_Flower</li>
-          <li>Leather_FDF_Rabbit</li>
-          <li>FDF_CakeBed</li>
-          <li>FDF_NightStand</li>
-          <li>FDF_Refinery</li>
-          <li>FDF_Stonecutter</li>
-          <li>FDF_Alchemy</li>
-          <li>FDF_Carpet_Square</li>
-          <li>FDF_Board</li>
-          <li>FDF_CakeBedDouble</li>
-          <li>FDF_LawnB</li>
-          <li>FDF_FloorRabbitCookieCandy</li>
-          <li>FDF_FloorCandy</li>
-          <li>FDF_FloorCheckPatternCandy</li>
-        </things>
-      </mod>
-      <mod>
-        <packageId>eeg.architecture</packageId>
-        <name>Architecture of the Rim (incl. corners)</name>
-        <version></version>
-        <modorder>69</modorder>
-        <steamWorkshopId>3330807313</steamWorkshopId>
-        <things>
-          <li>AR_EaveWoody</li>
-        </things>
-      </mod>
-      <mod>
-        <packageId>zerowhite.dailyfurniture</packageId>
-        <name>Daily furniture 塔林家具</name>
-        <version></version>
-        <modorder>115</modorder>
-        <steamWorkshopId>3024562670</steamWorkshopId>
-        <dependencies>
-          <li>
-            <packageId>ludeon.rimworld</packageId>
-          </li>
-          <li>
-            <packageId>brrainz.harmony</packageId>
-            <steamWorkshopId>2009463077</steamWorkshopId>
-          </li>
-        </dependencies>
-        <things>
-          <li>ADH_PowerConduit_A</li>
-        </things>
-      </mod>
-      <mod>
-        <packageId>vanillaexpanded.temperature</packageId>
-        <name>Vanilla Temperature Expanded</name>
-        <version></version>
-        <modorder>528</modorder>
-        <steamWorkshopId>3202046258</steamWorkshopId>
-        <dependencies>
-          <li>
-            <packageId>brrainz.harmony</packageId>
-            <steamWorkshopId>2009463077</steamWorkshopId>
-          </li>
-          <li>
-            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
-            <steamWorkshopId>2023507013</steamWorkshopId>
-          </li>
-        </dependencies>
-        <things>
-          <li>VTE_WallMountedCooler</li>
-          <li>VTE_WallMountedHeater</li>
-        </things>
-      </mod>
-      <mod>
-        <packageId>ancot.milirarace</packageId>
-        <name>Milira Race</name>
-        <version></version>
-        <modorder>62</modorder>
-        <steamWorkshopId>3256974620</steamWorkshopId>
-        <dependencies>
-          <li>
-            <packageId>erdelf.humanoidalienraces</packageId>
-            <steamWorkshopId>839005762</steamWorkshopId>
-          </li>
-          <li>
-            <packageId>ancot.ancotlibrary</packageId>
-            <steamWorkshopId>2988801276</steamWorkshopId>
-          </li>
-          <li>
-            <packageId>brrainz.harmony</packageId>
-            <steamWorkshopId>2009463077</steamWorkshopId>
-          </li>
-          <li>
-            <packageId>ludeon.rimworld.royalty</packageId>
-          </li>
-          <li>
-            <packageId>ludeon.rimworld.biotech</packageId>
-          </li>
-        </dependencies>
-        <things>
-          <li>Milian_Recharger</li>
-          <li>Milira_UniversalBench</li>
-        </things>
-      </mod>
-      <mod>
-        <packageId>jdgg.adaptive.cargoholds</packageId>
-        <name>Cargo Holds</name>
-        <version></version>
-        <modorder>87</modorder>
-        <steamWorkshopId>3536708812</steamWorkshopId>
-        <dependencies>
-          <li>
-            <packageId>adaptive.storage.framework</packageId>
-            <steamWorkshopId>3033901359</steamWorkshopId>
-          </li>
-          <li>
-            <packageId>brrainz.harmony</packageId>
-            <steamWorkshopId>2009463077</steamWorkshopId>
-          </li>
-        </dependencies>
-        <things>
-          <li>jdgg_CargoHold</li>
-          <li>jdgg_RefCargoHold</li>
-        </things>
-      </mod>
-      <mod>
-        <packageId>cp.uncle.boris.used.furniture</packageId>
-        <name><![CDATA[[RH2] Uncle Boris' - Used Furniture]]></name>
-        <version></version>
-        <modorder>593</modorder>
-        <steamWorkshopId>2563508405</steamWorkshopId>
-        <dependencies>
-          <li>
-            <packageId>brrainz.harmony</packageId>
-            <steamWorkshopId>2009463077</steamWorkshopId>
-          </li>
-        </dependencies>
-        <things>
-          <li>RH2_LaptopCommsConsole</li>
-          <li>RH2_DoubleWardrobe</li>
-        </things>
-      </mod>
-      <mod>
-        <packageId>ariandel.miliraimperium</packageId>
-        <name>Milira Faction: Milira Imperium</name>
-        <version></version>
-        <modorder>410</modorder>
-        <steamWorkshopId>3588393755</steamWorkshopId>
+        <modorder>265</modorder>
+        <steamWorkshopId>3604490167</steamWorkshopId>
         <dependencies>
           <li>
             <packageId>ancot.milirarace</packageId>
@@ -264,9 +111,21 @@
           <li>
             <packageId>ludeon.rimworld.biotech</packageId>
           </li>
+        </dependencies>
+        <things>
+          <li>Milira_WallDecorPotted</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>mlmlmlm.bluearchivefurniture</packageId>
+        <name>Blue Archive Furniture</name>
+        <version></version>
+        <modorder>72</modorder>
+        <steamWorkshopId>3491176484</steamWorkshopId>
+        <dependencies>
           <li>
-            <packageId>ariandel.ariandellibrary</packageId>
-            <steamWorkshopId>3665997350</steamWorkshopId>
+            <packageId>adaptive.storage.framework</packageId>
+            <steamWorkshopId>3033901359</steamWorkshopId>
           </li>
           <li>
             <packageId>brrainz.harmony</packageId>
@@ -274,15 +133,289 @@
           </li>
         </dependencies>
         <things>
-          <li>Milira_DarkMatterBattery</li>
+          <li>Classic_Candles</li>
+          <li>BAFloor_Lamp</li>
+          <li>Trinity_Large_Bookshelf</li>
+          <li>Trinity_Medium_Bookshelf</li>
+          <li>Mahogany_Three_Tier_Bookshelf</li>
+          <li>Trinity_Storage_Cabinet</li>
+          <li>BAWall_Clock</li>
+          <li>Trinity_Teaching_Desk</li>
+          <li>BA_Carpet_Trinity</li>
+          <li>BA_Floor_Trinity</li>
         </things>
       </mod>
       <mod>
-        <packageId>vanillaexpanded.vfeproduction</packageId>
-        <name>Vanilla Furniture Expanded - Production</name>
+        <packageId>mingtuwuxiang.gothicdecorative</packageId>
+        <name>[MUS]哥特式吸血鬼家具 Gothicstyle Vampire Furniture</name>
         <version></version>
-        <modorder>51</modorder>
-        <steamWorkshopId>1880253632</steamWorkshopId>
+        <modorder>596</modorder>
+        <steamWorkshopId>3102678787</steamWorkshopId>
+        <things>
+          <li>MUS_Gothicstyle_Wall</li>
+          <li>MUS_Gothicstyle_Pendant</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>rkk.ratknights.core</packageId>
+        <name>Ratkin Knights+</name>
+        <version></version>
+        <modorder>383</modorder>
+        <steamWorkshopId>3394862242</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>bbb.ratkinweapon.morefailure</packageId>
+            <steamWorkshopId>2779404660</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>RKK_AtlarWindow</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>elsa.cakefurniture.fdf</packageId>
+        <name>Cake! Furniture-蛋糕家具</name>
+        <version></version>
+        <modorder>84</modorder>
+        <steamWorkshopId>3629632481</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>ludeon.rimworld</packageId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>FDF_Cream</li>
+          <li>FDF_Carrot</li>
+          <li>FDF_LawnA</li>
+          <li>FDF_FloorBrickAIceCream</li>
+          <li>FDF_FloorCandy</li>
+          <li>FDF_FloorWoodALogA</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>limetreesnake.furnishing</packageId>
+        <name>[LTS]Furnishing</name>
+        <version></version>
+        <modorder>83</modorder>
+        <steamWorkshopId>2567438519</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>LTS_LargestArchStone</li>
+          <li>LTS_GiantMedievalGate</li>
+          <li>LTS_PatternEvenMarble</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>mlmlmlm.bluearchivefurniture3</packageId>
+        <name>Blue Archive Furniture 3</name>
+        <version></version>
+        <modorder>74</modorder>
+        <steamWorkshopId>3610152668</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>adaptive.storage.framework</packageId>
+            <steamWorkshopId>3033901359</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Stepped_Platform</li>
+          <li>Painting_shelf</li>
+          <li>BASimple_Rack</li>
+          <li>Wildhunt_Wooden_Pillar</li>
+          <li>Wildhunt_Wooden_Partition</li>
+          <li>Abstract_Pattern_Carpet</li>
+          <li>Green_Library_Chair</li>
+          <li>Art_Theory_Book_Shelf</li>
+          <li>Typewriter_Desk</li>
+          <li>Medium_Green_Light_Desk</li>
+          <li>Typewriter_Chair</li>
+          <li>Large_Green_Light_Desk</li>
+          <li>Wild_Hunt_Display_Shelf</li>
+          <li>Typewriter_Shelf</li>
+          <li>Wildhunt_Wooden_Gate</li>
+          <li>Wildhunt_Glass_Partition</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>reel.expanded.storage</packageId>
+        <name><![CDATA[Reel's Expanded Storage]]></name>
+        <version></version>
+        <modorder>392</modorder>
+        <steamWorkshopId>3237638097</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>adaptive.storage.framework</packageId>
+            <steamWorkshopId>3033901359</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>vanillaexpanded.vfepropsanddecor</packageId>
+            <steamWorkshopId>2102143149</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>ReelStorageBookshelf</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>lsk.rabbiefurnitureandfacilities.basic</packageId>
+        <name>[LSK]月兔扩展——基础家具和设施</name>
+        <version></version>
+        <modorder>586</modorder>
+        <steamWorkshopId>3155273482</steamWorkshopId>
+        <things>
+          <li>LSK_Board</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>zerowhite.dailyfurniture</packageId>
+        <name>Daily furniture 塔林家具</name>
+        <version></version>
+        <modorder>114</modorder>
+        <steamWorkshopId>3024562670</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>ludeon.rimworld</packageId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>ADH_A_DoorB</li>
+          <li>ADH_A_Door</li>
+          <li>ADH_C_DoorB</li>
+          <li>ADHFloor_Y</li>
+          <li>ADHFloor_T</li>
+          <li>ADHFloor_M</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>kindseal.ufli</packageId>
+        <name>联合轻工家具拓展-UF Light Industries Furniture</name>
+        <version></version>
+        <modorder>673</modorder>
+        <steamWorkshopId>3651799915</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFLI_TempControler</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>vanillaexpanded.vbookse</packageId>
+        <name>Vanilla Books Expanded</name>
+        <version></version>
+        <modorder>496</modorder>
+        <steamWorkshopId>2193152410</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VBE_TypewritersTable</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>mlmlmlm.bluearchivefurniture2</packageId>
+        <name>Blue Archive Furniture 2</name>
+        <version></version>
+        <modorder>73</modorder>
+        <steamWorkshopId>3541617529</steamWorkshopId>
+        <things>
+          <li>Masterpiece_Bookshelf</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>dubwise.dubsbadhygiene</packageId>
+        <name>Dubs Bad Hygiene</name>
+        <version>3.1.2800</version>
+        <modorder>23</modorder>
+        <steamWorkshopId>836308268</steamWorkshopId>
+        <things>
+          <li>BasinStuff</li>
+          <li>ToiletStallDoor</li>
+          <li>ToiletAdvStuff</li>
+          <li>ShowerAdvStuff</li>
+          <li>DBHMosaicTile</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.biotech</packageId>
+        <name>Biotech</name>
+        <version></version>
+        <modorder>5</modorder>
+        <things>
+          <li>Blackboard</li>
+          <li>SchoolDesk</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>vanillaexpanded.vfecore</packageId>
+        <name>Vanilla Furniture Expanded</name>
+        <version></version>
+        <modorder>48</modorder>
+        <steamWorkshopId>1718190143</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Seat_SquareChair</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.odyssey</packageId>
+        <name>Odyssey</name>
+        <version></version>
+        <modorder>29</modorder>
+        <things>
+          <li>Vacstone_Rough</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>vanillaexpanded.vfearchitect</packageId>
+        <name>Vanilla Furniture Expanded - Architect</name>
+        <version></version>
+        <modorder>41</modorder>
+        <steamWorkshopId>2608762624</steamWorkshopId>
         <dependencies>
           <li>
             <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
@@ -294,697 +427,1060 @@
           </li>
         </dependencies>
         <things>
-          <li>VFE_KitchenSinkCabinet</li>
+          <li>VFEArch_Grass</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>wemd.expandedfloors</packageId>
+        <name>Expanded Floors</name>
+        <version></version>
+        <modorder>628</modorder>
+        <steamWorkshopId>1817862464</steamWorkshopId>
+        <things>
+          <li>WDMosaicWoodenFloor</li>
+          <li>WDCheckWoodenFloor</li>
         </things>
       </mod>
       <mod>
         <packageId>lat.rimstro</packageId>
         <name>Rimstro</name>
         <version></version>
-        <modorder>27</modorder>
+        <modorder>24</modorder>
         <steamWorkshopId>1714572710</steamWorkshopId>
         <things>
-          <li>RS_Counter</li>
-          <li>RS_stove</li>
-          <li>RS_Pot</li>
-          <li>RS_TopShelf</li>
-          <li>RS_KitchenHood</li>
-        </things>
-      </mod>
-      <mod>
-        <packageId>dubwise.dubsbadhygiene</packageId>
-        <name>Dubs Bad Hygiene</name>
-        <version>3.1.2800</version>
-        <modorder>26</modorder>
-        <steamWorkshopId>836308268</steamWorkshopId>
-        <things>
-          <li>ToiletStallDoor</li>
-          <li>BathtubStuff</li>
-          <li>BasinStuff</li>
-          <li>PitLatrine</li>
-        </things>
-      </mod>
-      <mod>
-        <packageId>wwskyon.mediterranean.furniture</packageId>
-        <name>Mediterranean Furniture|地中海风格家具</name>
-        <version></version>
-        <modorder>253</modorder>
-        <steamWorkshopId>3293528946</steamWorkshopId>
-        <things>
-          <li>Mediterranean_TileClay_b</li>
-        </things>
-      </mod>
-      <mod>
-        <packageId>ninedaylongbow.chinesecomprehensiveexpansion</packageId>
-        <name>华夏扩展 Chinese Comprehensive Expansion</name>
-        <version></version>
-        <modorder>153</modorder>
-        <steamWorkshopId>3221850511</steamWorkshopId>
-        <dependencies>
-          <li>
-            <packageId>brrainz.harmony</packageId>
-            <steamWorkshopId>2009463077</steamWorkshopId>
-          </li>
-        </dependencies>
-        <things>
-          <li>HX_Quartz_Rough</li>
-        </things>
-      </mod>
-      <mod>
-        <packageId>dubwise.rimefeller</packageId>
-        <name>Rimefeller</name>
-        <version>1.2.1634</version>
-        <modorder>393</modorder>
-        <steamWorkshopId>1321849735</steamWorkshopId>
-        <things>
-          <li>Wood_ParquetHerring</li>
+          <li>RS_kitchenTileB</li>
         </things>
       </mod>
     </modPackages>
     <multiLanguage>
       <name>
-        <default>住宅1</default>
-        <zh-CN>住宅1</zh-CN>
+        <default>大图书馆</default>
+        <zh-CN>大图书馆</zh-CN>
       </name>
+      <description>
+        <default>大图书馆，包含抄写室和一间教室</default>
+        <zh-CN>大图书馆，包含抄写室和一间教室</zh-CN>
+      </description>
     </multiLanguage>
   </extraInfo>
   <things>
-    <AP_Hedge_Flowery_NAWDiagonal>
+    <Gomi_SimpleStair>
       <rects>
-        <li>(1,0,1,0)</li>
-        <li>(17,0,17,0)</li>
-        <li>(0,1,0,1)</li>
-        <li>(0,12,0,12)</li>
-        <li>(5,13,5,13)</li>
-        <li>(18,13,18,13)</li>
-        <li>(6,14,6,14)</li>
-        <li>(17,14,17,14)</li>
+        <li>(1,0,1,3)</li>
+        <li>(14,0,16,1)</li>
+        <li>(13,4,17,5)</li>
+        <li>(17,19,17,19)</li>
       </rects>
-      <hp>50</hp>
-    </AP_Hedge_Flowery_NAWDiagonal>
-    <AP_Hedge_Flowery>
+      <stuff>Miho_CelestialScale</stuff>
+      <color>RGBA(0.996, 0.996, 0.996, 1.000)</color>
+    </Gomi_SimpleStair>
+    <milple_PlainWallB>
       <rects>
-        <li>(2,0,6,0)</li>
-        <li>(8,0,16,0)</li>
-        <li>(18,1,18,12)</li>
-        <li>(0,2,0,11)</li>
-        <li>(1,13,4,13)</li>
-        <li>(7,14,16,14)</li>
+        <li>(1,0,13,0)</li>
+        <li>(17,0,29,0)</li>
+        <li>(24,31,30,32)</li>
       </rects>
-      <hp>50</hp>
-    </AP_Hedge_Flowery>
-    <FDF_AdaptiveShelfCakeRoll>
-      <positions>
-        <li>(5, 0, 2)</li>
-        <li>(4, 0, 4)</li>
-        <li>(12, 0, 7)</li>
-      </positions>
+      <stuff>BlocksMarble</stuff>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </milple_PlainWallB>
+    <HiddenConduit>
+      <rects>
+        <li>(15,0,15,6)</li>
+        <li>(1,6,14,6)</li>
+        <li>(16,6,29,6)</li>
+        <li>(5,7,5,24)</li>
+        <li>(17,7,17,24)</li>
+        <li>(29,7,29,27)</li>
+        <li>(6,15,16,15)</li>
+        <li>(18,15,28,15)</li>
+        <li>(6,24,16,24)</li>
+        <li>(18,24,28,24)</li>
+        <li>(11,25,11,32)</li>
+        <li>(23,25,23,32)</li>
+        <li>(30,27,30,27)</li>
+        <li>(12,32,22,32)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <Gomi_GLFloorFence>
+      <rects>
+        <li>(1,1,13,1)</li>
+        <li>(17,1,29,1)</li>
+        <li>(1,2,1,3)</li>
+        <li>(29,2,29,3)</li>
+      </rects>
       <stuff>WoodLog</stuff>
-      <hp>455</hp>
-      <color>RGBA(0.600, 0.510, 0.420, 1.000)</color>
-    </FDF_AdaptiveShelfCakeRoll>
-    <UFLI_Walllamp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Gomi_GLFloorFence>
+    <AP_PlanterShelvesD>
+      <positions>
+        <li>(3, 0, 2)</li>
+        <li>(7, 0, 2)</li>
+        <li>(11, 0, 2)</li>
+        <li>(19, 0, 2)</li>
+        <li>(23, 0, 2)</li>
+        <li>(27, 0, 2)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </AP_PlanterShelvesD>
+    <Gomi_GLHighWall>
       <rects>
-        <li>(6,2,6,2)</li>
+        <li>(1,4,12,5)</li>
+        <li>(18,4,29,5)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </Gomi_GLHighWall>
+    <Gomi_GLHandrail>
+      <rects>
+        <li>(13,4,13,5)</li>
+        <li>(17,4,17,5)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Gomi_GLHandrail>
+    <Milira_WallDecorPotted>
+      <rects>
+        <li>(11,5,12,5)</li>
+        <li>(18,5,19,5)</li>
+      </rects>
+    </Milira_WallDecorPotted>
+    <Classic_Candles>
+      <rects>
         <li>(13,5,13,5)</li>
-        <li>(6,9,6,9)</li>
-        <li>(13,11,13,11)</li>
+        <li>(17,5,17,5)</li>
+        <li>(5,9,5,9)</li>
+        <li>(10,23,10,23)</li>
+        <li>(17,23,17,23)</li>
+        <li>(24,23,24,23)</li>
       </rects>
-      <hp>150</hp>
-    </UFLI_Walllamp>
-    <FDF_AdaptiveShelfMacaron>
+    </Classic_Candles>
+    <MUS_Gothicstyle_Wall>
       <rects>
-        <li>(8,2,8,2)</li>
-      </rects>
-      <stuff>WoodLog</stuff>
-      <hp>455</hp>
-      <color>RGBA(0.600, 0.510, 0.420, 1.000)</color>
-    </FDF_AdaptiveShelfMacaron>
-    <GL_Wall>
-      <rects>
-        <li>(9,2,15,2)</li>
-        <li>(2,3,6,3)</li>
-        <li>(8,3,9,3)</li>
-        <li>(15,3,15,6)</li>
-        <li>(2,4,2,11)</li>
-        <li>(9,5,9,6)</li>
-        <li>(10,6,14,6)</li>
-        <li>(16,6,16,12)</li>
-        <li>(10,7,10,8)</li>
-        <li>(6,10,7,10)</li>
-        <li>(9,10,10,10)</li>
-        <li>(3,11,6,11)</li>
-        <li>(10,11,10,13)</li>
-        <li>(6,12,6,13)</li>
-        <li>(11,12,15,12)</li>
-        <li>(7,13,9,13)</li>
-      </rects>
-      <stuff>FDF_Chocolate</stuff>
-      <hp>2100</hp>
-      <color>RGBA(0.286, 0.204, 0.188, 1.000)</color>
-    </GL_Wall>
-    <AR_EaveWoody>
-      <rects>
-        <li>(16,2,16,5)</li>
-        <li>(17,6,17,12)</li>
-      </rects>
-      <relativeRotation>Counterclockwise</relativeRotation>
-      <stuff>WoodLog</stuff>
-      <hp>195</hp>
-      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
-    </AR_EaveWoody>
-    <ADH_PowerConduit_A>
-      <rects>
-        <li>(0,3,9,3)</li>
-        <li>(9,4,9,6)</li>
-        <li>(10,6,16,6)</li>
-      </rects>
-      <hp>80</hp>
-    </ADH_PowerConduit_A>
-    <AR_EaveWoody>
-      <rects>
-        <li>(1,3,1,11)</li>
-      </rects>
-      <relativeRotation>Clockwise</relativeRotation>
-      <stuff>WoodLog</stuff>
-      <hp>195</hp>
-      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
-    </AR_EaveWoody>
-    <VTE_WallMountedCooler>
-      <rects>
-        <li>(3,3,3,3)</li>
-      </rects>
-      <relativeRotation>Opposite</relativeRotation>
-      <hp>100</hp>
-    </VTE_WallMountedCooler>
-    <RGK_DoorOld>
-      <rects>
-        <li>(7,3,7,3)</li>
-      </rects>
-      <stuff>FDF_Cream</stuff>
-      <hp>1120</hp>
-      <color>RGBA(0.929, 0.929, 0.929, 1.000)</color>
-    </RGK_DoorOld>
-    <Milian_Recharger>
-      <rects>
-        <li>(10,3,10,3)</li>
-        <li>(10,5,10,5)</li>
-      </rects>
-      <hp>280</hp>
-    </Milian_Recharger>
-    <FDF_Dresser>
-      <position>(11, 0, 3)</position>
-      <stuff>FDF_Cream</stuff>
-      <quality>Normal</quality>
-      <hp>4900</hp>
-      <color>RGBA(1.000, 1.000, 0.933, 1.000)</color>
-    </FDF_Dresser>
-    <FDF_Carpet_Flower>
-      <position>(12, 0, 4)</position>
-      <stuff>Leather_FDF_Rabbit</stuff>
-      <quality>Normal</quality>
-      <hp>91</hp>
-      <color>RGBA(1.000, 0.847, 0.894, 1.000)</color>
-    </FDF_Carpet_Flower>
-    <FDF_CakeBed>
-      <position>(14, 0, 3)</position>
-      <relativeRotation>Counterclockwise</relativeRotation>
-      <stuff>FDF_Cream</stuff>
-      <quality>Excellent</quality>
-      <hp>4900</hp>
-      <color>RGBA(1.000, 1.000, 0.933, 1.000)</color>
-    </FDF_CakeBed>
-    <Milira_UniversalBench>
-      <position>(3, 0, 4)</position>
-      <relativeRotation>Counterclockwise</relativeRotation>
-      <hp>420</hp>
-    </Milira_UniversalBench>
-    <GL_FlowerWall>
-      <rects>
-        <li>(6,4,6,5)</li>
-      </rects>
-      <hp>150</hp>
-    </GL_FlowerWall>
-    <UFLI_Walllamp>
-      <rects>
-        <li>(8,4,8,4)</li>
-      </rects>
-      <relativeRotation>Opposite</relativeRotation>
-      <hp>150</hp>
-    </UFLI_Walllamp>
-    <RGK_DoorOld>
-      <rects>
-        <li>(9,4,9,4)</li>
-        <li>(10,9,10,9)</li>
-      </rects>
-      <relativeRotation>Clockwise</relativeRotation>
-      <stuff>FDF_Cream</stuff>
-      <hp>1120</hp>
-      <color>RGBA(0.929, 0.929, 0.929, 1.000)</color>
-    </RGK_DoorOld>
-    <FDF_NightStand>
-      <rects>
-        <li>(14,4,14,4)</li>
-      </rects>
-      <relativeRotation>Counterclockwise</relativeRotation>
-      <stuff>FDF_Cream</stuff>
-      <quality>Normal</quality>
-      <hp>4900</hp>
-      <color>RGBA(1.000, 1.000, 0.933, 1.000)</color>
-    </FDF_NightStand>
-    <FDF_Refinery>
-      <rects>
-        <li>(8,5,8,5)</li>
-      </rects>
-      <relativeRotation>Clockwise</relativeRotation>
-      <hp>880</hp>
-    </FDF_Refinery>
-    <VTE_WallMountedHeater>
-      <rects>
-        <li>(10,5,10,5)</li>
-      </rects>
-      <hp>100</hp>
-    </VTE_WallMountedHeater>
-    <Table_Wardrobe>
-      <position>(12, 0, 5)</position>
-      <relativeRotation>Opposite</relativeRotation>
-      <stuff>Steel</stuff>
-      <quality>Normal</quality>
-      <hp>120</hp>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </Table_Wardrobe>
-    <FDF_CakeBed>
-      <position>(14, 0, 5)</position>
-      <relativeRotation>Counterclockwise</relativeRotation>
-      <stuff>FDF_Cream</stuff>
-      <quality>Good</quality>
-      <hp>4900</hp>
-      <color>RGBA(1.000, 1.000, 0.933, 1.000)</color>
-    </FDF_CakeBed>
-    <VTE_WallMountedCooler>
-      <rects>
-        <li>(15,5,15,5)</li>
-        <li>(16,7,16,7)</li>
-      </rects>
-      <relativeRotation>Clockwise</relativeRotation>
-      <hp>100</hp>
-    </VTE_WallMountedCooler>
-    <jdgg_CargoHold>
-      <position>(3, 0, 7)</position>
-      <relativeRotation>Opposite</relativeRotation>
-      <stuff>Steel</stuff>
-      <hp>1200</hp>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </jdgg_CargoHold>
-    <DiningChair>
-      <rects>
+        <li>(1,6,2,6)</li>
         <li>(4,6,4,6)</li>
-      </rects>
-      <relativeRotation>Clockwise</relativeRotation>
-      <stuff>WoodLog</stuff>
-      <quality>Excellent</quality>
-      <hp>65</hp>
-      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
-    </DiningChair>
-    <RH2_LaptopCommsConsole>
-      <rects>
-        <li>(5,6,5,6)</li>
-      </rects>
-      <relativeRotation>Clockwise</relativeRotation>
-      <hp>80</hp>
-    </RH2_LaptopCommsConsole>
-    <Table1x2c>
-      <position>(5, 0, 6)</position>
-      <stuff>WoodLog</stuff>
-      <quality>Normal</quality>
-      <hp>49</hp>
-      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
-    </Table1x2c>
-    <DiningChair>
-      <rects>
-        <li>(6,6,6,7)</li>
-      </rects>
-      <relativeRotation>Counterclockwise</relativeRotation>
-      <stuff>WoodLog</stuff>
-      <quality>Good</quality>
-      <hp>65</hp>
-      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
-    </DiningChair>
-    <FDF_Stonecutter>
-      <rects>
+        <li>(6,6,6,6)</li>
         <li>(8,6,8,6)</li>
+        <li>(10,6,13,6)</li>
+        <li>(17,6,20,6)</li>
+        <li>(22,6,22,6)</li>
+        <li>(24,6,24,6)</li>
+        <li>(26,6,26,6)</li>
+        <li>(28,6,29,6)</li>
+        <li>(1,7,1,22)</li>
+        <li>(29,7,29,24)</li>
+        <li>(2,10,5,10)</li>
+        <li>(5,12,5,20)</li>
+        <li>(2,22,5,22)</li>
+        <li>(5,23,5,29)</li>
+        <li>(6,24,6,24)</li>
+        <li>(8,24,12,24)</li>
+        <li>(15,24,19,24)</li>
+        <li>(22,24,28,24)</li>
+        <li>(11,25,11,32)</li>
+        <li>(23,25,23,32)</li>
+        <li>(7,27,7,29)</li>
+        <li>(9,27,9,29)</li>
+        <li>(6,29,6,29)</li>
+        <li>(8,29,8,29)</li>
+        <li>(10,29,10,29)</li>
+        <li>(12,32,16,32)</li>
+        <li>(18,32,22,32)</li>
       </rects>
-      <relativeRotation>Clockwise</relativeRotation>
-      <stuff>WoodLog</stuff>
-      <hp>455</hp>
-      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
-    </FDF_Stonecutter>
-    <DiningChair>
+      <stuff>BlocksMarble</stuff>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </MUS_Gothicstyle_Wall>
+    <RKK_AtlarWindow>
       <rects>
-        <li>(4,7,4,7)</li>
+        <li>(3,6,3,6)</li>
+        <li>(5,6,5,6)</li>
+        <li>(7,6,7,6)</li>
+        <li>(9,6,9,6)</li>
+        <li>(21,6,21,6)</li>
+        <li>(23,6,23,6)</li>
+        <li>(25,6,25,6)</li>
+        <li>(27,6,27,6)</li>
+        <li>(17,32,17,32)</li>
       </rects>
-      <relativeRotation>Clockwise</relativeRotation>
-      <stuff>WoodLog</stuff>
-      <quality>Good</quality>
-      <hp>65</hp>
-      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
-    </DiningChair>
-    <FDF_Alchemy>
-      <rects>
-        <li>(5,7,5,7)</li>
-      </rects>
-      <relativeRotation>Clockwise</relativeRotation>
-      <stuff>WoodLog</stuff>
-      <hp>570</hp>
-      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
-    </FDF_Alchemy>
-    <Milira_DarkMatterBattery>
-      <rects>
-        <li>(9,7,9,7)</li>
-      </rects>
-      <hp>500</hp>
-    </Milira_DarkMatterBattery>
-    <FDF_Dresser>
-      <position>(11, 0, 8)</position>
-      <relativeRotation>Clockwise</relativeRotation>
       <stuff>FDF_Cream</stuff>
-      <quality>Normal</quality>
-      <hp>4900</hp>
-      <color>RGBA(1.000, 1.000, 0.933, 1.000)</color>
-    </FDF_Dresser>
-    <RH2_DoubleWardrobe>
-      <position>(14, 0, 7)</position>
-      <stuff>WoodLog</stuff>
-      <quality>Normal</quality>
-      <hp>98</hp>
-      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
-    </RH2_DoubleWardrobe>
-    <jdgg_RefCargoHold>
-      <position>(3, 0, 9)</position>
-      <relativeRotation>Opposite</relativeRotation>
-      <stuff>Steel</stuff>
-      <hp>1200</hp>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </jdgg_RefCargoHold>
-    <VTE_WallMountedHeater>
-      <rects>
-        <li>(11,8,11,8)</li>
-      </rects>
-      <relativeRotation>Counterclockwise</relativeRotation>
-      <hp>100</hp>
-    </VTE_WallMountedHeater>
-    <FDF_Carpet_Square>
-      <position>(13, 0, 9)</position>
-      <stuff>Leather_FDF_Rabbit</stuff>
-      <quality>Normal</quality>
-      <hp>91</hp>
-      <color>RGBA(1.000, 0.847, 0.894, 1.000)</color>
-    </FDF_Carpet_Square>
-    <Dresser>
-      <position>(15, 0, 8)</position>
-      <relativeRotation>Counterclockwise</relativeRotation>
-      <stuff>FDF_Cream</stuff>
-      <quality>Excellent</quality>
-      <hp>840</hp>
       <color>RGBA(0.929, 0.929, 0.929, 1.000)</color>
-    </Dresser>
-    <VFE_KitchenSinkCabinet>
-      <position>(6, 0, 9)</position>
-      <hp>100</hp>
-    </VFE_KitchenSinkCabinet>
-    <RS_Counter>
+    </RKK_AtlarWindow>
+    <LTS_LargestArchStone>
+      <position>(15, 0, 6)</position>
+      <stuff>BlocksGranite</stuff>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </LTS_LargestArchStone>
+    <LTS_GiantMedievalGate>
+      <position>(15, 0, 6)</position>
+      <stuff>FDF_Carrot</stuff>
+      <color>RGBA(1.000, 0.553, 0.200, 1.000)</color>
+    </LTS_GiantMedievalGate>
+    <BAFloor_Lamp>
       <rects>
-        <li>(3,10,3,10)</li>
+        <li>(2,7,2,7)</li>
+        <li>(28,7,28,7)</li>
+        <li>(6,16,6,16)</li>
+        <li>(28,16,28,16)</li>
+        <li>(23,18,23,18)</li>
+        <li>(6,23,6,23)</li>
+        <li>(28,23,28,23)</li>
+        <li>(12,31,12,31)</li>
       </rects>
-      <stuff>WoodLog</stuff>
-      <hp>65</hp>
-      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
-    </RS_Counter>
-    <FDF_Board>
-      <rects>
-        <li>(3,10,3,10)</li>
-      </rects>
-      <stuff>WoodLog</stuff>
-      <hp>570</hp>
-      <color>RGBA(0.941, 0.855, 0.859, 1.000)</color>
-    </FDF_Board>
-    <RS_stove>
-      <position>(4, 0, 10)</position>
-      <stuff>Steel</stuff>
-      <hp>180</hp>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </RS_stove>
-    <RS_Pot>
-      <rects>
-        <li>(5,10,5,10)</li>
-      </rects>
-      <hp>100</hp>
-    </RS_Pot>
-    <ToiletStallDoor>
-      <rects>
-        <li>(8,10,8,10)</li>
-      </rects>
-      <stuff>Steel</stuff>
-      <hp>250</hp>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </ToiletStallDoor>
-    <FDF_CakeBedDouble>
-      <position>(14, 0, 11)</position>
-      <relativeRotation>Opposite</relativeRotation>
-      <stuff>FDF_Cream</stuff>
-      <quality>Excellent</quality>
-      <hp>4900</hp>
-      <color>RGBA(1.000, 1.000, 0.933, 1.000)</color>
-    </FDF_CakeBedDouble>
-    <RS_TopShelf>
-      <rects>
-        <li>(3,11,3,11)</li>
-      </rects>
-      <stuff>WoodLog</stuff>
-      <hp>78</hp>
-      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
-    </RS_TopShelf>
-    <RS_KitchenHood>
+    </BAFloor_Lamp>
+    <Stepped_Platform>
       <positions>
-        <li>(3, 0, 11)</li>
-        <li>(4, 0, 11)</li>
+        <li>(4, 0, 7)</li>
+        <li>(12, 0, 18)</li>
       </positions>
-      <stuff>WoodLog</stuff>
-      <hp>78</hp>
-      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
-    </RS_KitchenHood>
-    <BathtubStuff>
-      <position>(7, 0, 11)</position>
-      <stuff>Steel</stuff>
-      <hp>75</hp>
-    </BathtubStuff>
-    <FDF_NightStand>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <quality>Normal</quality>
+    </Stepped_Platform>
+    <ReelStorageBookshelf>
+      <positions>
+        <li>(5, 0, 7)</li>
+        <li>(7, 0, 7)</li>
+        <li>(9, 0, 7)</li>
+        <li>(20, 0, 7)</li>
+        <li>(22, 0, 7)</li>
+        <li>(24, 0, 7)</li>
+      </positions>
+      <stuff>LSK_Board</stuff>
+      <color>RGBA(0.902, 0.784, 0.667, 1.000)</color>
+    </ReelStorageBookshelf>
+    <Stepped_Platform>
+      <positions>
+        <li>(11, 0, 7)</li>
+        <li>(26, 0, 7)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <quality>Excellent</quality>
+    </Stepped_Platform>
+    <Classic_Candles>
       <rects>
-        <li>(12,11,12,11)</li>
+        <li>(13,7,13,7)</li>
+        <li>(17,7,17,7)</li>
+        <li>(15,25,15,25)</li>
+        <li>(19,25,19,25)</li>
       </rects>
       <relativeRotation>Opposite</relativeRotation>
+    </Classic_Candles>
+    <Stepped_Platform>
+      <position>(19, 0, 7)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <quality>Excellent</quality>
+    </Stepped_Platform>
+    <MUS_Gothicstyle_Pendant>
+      <position>(8, 0, 8)</position>
       <stuff>FDF_Cream</stuff>
-      <quality>Normal</quality>
-      <hp>4900</hp>
-      <color>RGBA(1.000, 1.000, 0.933, 1.000)</color>
-    </FDF_NightStand>
-    <EndTable>
-      <rects>
-        <li>(15,11,15,11)</li>
-      </rects>
-      <relativeRotation>Opposite</relativeRotation>
-      <stuff>FDF_Cream</stuff>
-      <quality>Normal</quality>
-      <hp>525</hp>
+      <quality>Excellent</quality>
       <color>RGBA(0.929, 0.929, 0.929, 1.000)</color>
-    </EndTable>
-    <UFLI_treelight>
+      <glowColor>RGBA(1.000, 0.890, 0.671, 0.000)</glowColor>
+    </MUS_Gothicstyle_Pendant>
+    <MUS_Gothicstyle_Pendant>
+      <positions>
+        <li>(25, 0, 8)</li>
+        <li>(8, 0, 21)</li>
+        <li>(25, 0, 21)</li>
+        <li>(17, 0, 27)</li>
+      </positions>
+      <stuff>FDF_Cream</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.929, 0.929, 0.929, 1.000)</color>
+      <glowColor>RGBA(1.000, 0.890, 0.671, 0.000)</glowColor>
+    </MUS_Gothicstyle_Pendant>
+    <Painting_shelf>
       <rects>
-        <li>(5,12,5,12)</li>
-        <li>(17,13,17,13)</li>
+        <li>(28,8,28,9)</li>
       </rects>
-      <hp>180</hp>
-    </UFLI_treelight>
-    <BasinStuff>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </Painting_shelf>
+    <BASimple_Rack>
+      <positions>
+        <li>(3, 0, 9)</li>
+        <li>(5, 0, 9)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+    </BASimple_Rack>
+    <Wildhunt_Wooden_Pillar>
+      <rects>
+        <li>(10,10,10,10)</li>
+        <li>(24,10,24,10)</li>
+        <li>(17,15,17,15)</li>
+        <li>(10,20,10,20)</li>
+        <li>(24,20,24,20)</li>
+      </rects>
+    </Wildhunt_Wooden_Pillar>
+    <Wildhunt_Wooden_Partition>
+      <positions>
+        <li>(12, 0, 10)</li>
+        <li>(15, 0, 10)</li>
+        <li>(19, 0, 10)</li>
+        <li>(22, 0, 10)</li>
+        <li>(12, 0, 20)</li>
+        <li>(15, 0, 20)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+    </Wildhunt_Wooden_Partition>
+    <Gomi_SimpleStair>
+      <rects>
+        <li>(17,10,17,10)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Miho_CelestialScale</stuff>
+      <color>RGBA(0.996, 0.996, 0.996, 1.000)</color>
+    </Gomi_SimpleStair>
+    <BASimple_Rack>
+      <position>(28, 0, 10)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </BASimple_Rack>
+    <BASimple_Rack>
+      <position>(2, 0, 12)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </BASimple_Rack>
+    <Abstract_Pattern_Carpet>
+      <position>(3, 0, 13)</position>
+      <quality>Normal</quality>
+    </Abstract_Pattern_Carpet>
+    <ADH_A_DoorB>
+      <rects>
+        <li>(5,11,5,11)</li>
+        <li>(5,21,5,21)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </ADH_A_DoorB>
+    <Wildhunt_Wooden_Partition>
+      <positions>
+        <li>(10, 0, 12)</li>
+        <li>(24, 0, 12)</li>
+        <li>(10, 0, 15)</li>
+        <li>(24, 0, 15)</li>
+        <li>(10, 0, 18)</li>
+        <li>(24, 0, 18)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </Wildhunt_Wooden_Partition>
+    <Stepped_Platform>
+      <positions>
+        <li>(6, 0, 13)</li>
+        <li>(28, 0, 20)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <quality>Excellent</quality>
+    </Stepped_Platform>
+    <Green_Library_Chair>
       <rects>
         <li>(8,12,8,12)</li>
       </rects>
-      <stuff>Steel</stuff>
-      <hp>75</hp>
-    </BasinStuff>
-    <PitLatrine>
+      <quality>Normal</quality>
+    </Green_Library_Chair>
+    <Green_Library_Chair>
       <rects>
         <li>(9,12,9,12)</li>
+        <li>(26,12,26,12)</li>
+        <li>(8,17,9,17)</li>
+        <li>(26,17,26,17)</li>
+      </rects>
+      <quality>Excellent</quality>
+    </Green_Library_Chair>
+    <Stepped_Platform>
+      <position>(11, 0, 13)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <quality>Good</quality>
+    </Stepped_Platform>
+    <Stepped_Platform>
+      <position>(22, 0, 12)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <quality>Masterwork</quality>
+    </Stepped_Platform>
+    <Art_Theory_Book_Shelf>
+      <positions>
+        <li>(23, 0, 12)</li>
+        <li>(23, 0, 14)</li>
+        <li>(23, 0, 16)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </Art_Theory_Book_Shelf>
+    <Green_Library_Chair>
+      <rects>
+        <li>(25,12,25,12)</li>
+        <li>(25,17,25,17)</li>
+      </rects>
+      <quality>Good</quality>
+    </Green_Library_Chair>
+    <Stepped_Platform>
+      <positions>
+        <li>(28, 0, 12)</li>
+        <li>(6, 0, 19)</li>
+      </positions>
+      <quality>Excellent</quality>
+    </Stepped_Platform>
+    <Typewriter_Desk>
+      <position>(2, 0, 14)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </Typewriter_Desk>
+    <Classic_Candles>
+      <rects>
+        <li>(4,13,4,13)</li>
+        <li>(28,15,28,15)</li>
+        <li>(4,19,4,19)</li>
+        <li>(10,26,10,26)</li>
+        <li>(22,28,22,28)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </Classic_Candles>
+    <Medium_Green_Light_Desk>
+      <positions>
+        <li>(8, 0, 13)</li>
+        <li>(8, 0, 18)</li>
+      </positions>
+      <quality>Excellent</quality>
+    </Medium_Green_Light_Desk>
+    <Medium_Green_Light_Desk>
+      <position>(26, 0, 14)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <quality>Excellent</quality>
+    </Medium_Green_Light_Desk>
+    <Typewriter_Chair>
+      <rects>
+        <li>(3,14,3,14)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <quality>Normal</quality>
+    </Typewriter_Chair>
+    <ReelStorageBookshelf>
+      <positions>
+        <li>(6, 0, 15)</li>
+        <li>(6, 0, 18)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>LSK_Board</stuff>
+      <color>RGBA(0.902, 0.784, 0.667, 1.000)</color>
+    </ReelStorageBookshelf>
+    <Art_Theory_Book_Shelf>
+      <positions>
+        <li>(11, 0, 15)</li>
+        <li>(11, 0, 17)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+    </Art_Theory_Book_Shelf>
+    <Green_Library_Chair>
+      <rects>
+        <li>(13,14,13,14)</li>
+        <li>(18,15,18,15)</li>
+        <li>(13,16,13,16)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <quality>Good</quality>
+    </Green_Library_Chair>
+    <Large_Green_Light_Desk>
+      <positions>
+        <li>(14, 0, 15)</li>
+        <li>(19, 0, 15)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <quality>Good</quality>
+    </Large_Green_Light_Desk>
+    <Green_Library_Chair>
+      <rects>
+        <li>(16,14,16,14)</li>
+        <li>(21,15,21,15)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <quality>Good</quality>
+    </Green_Library_Chair>
+    <Green_Library_Chair>
+      <rects>
+        <li>(18,14,18,14)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <quality>Masterwork</quality>
+    </Green_Library_Chair>
+    <Green_Library_Chair>
+      <rects>
+        <li>(21,14,21,14)</li>
+        <li>(16,16,16,16)</li>
+        <li>(21,16,21,16)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <quality>Excellent</quality>
+    </Green_Library_Chair>
+    <ReelStorageBookshelf>
+      <positions>
+        <li>(28, 0, 14)</li>
+        <li>(28, 0, 17)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>LSK_Board</stuff>
+      <color>RGBA(0.902, 0.784, 0.667, 1.000)</color>
+    </ReelStorageBookshelf>
+    <UFLI_TempControler>
+      <rects>
+        <li>(4,15,4,15)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </UFLI_TempControler>
+    <Green_Library_Chair>
+      <rects>
+        <li>(8,15,8,15)</li>
+        <li>(9,20,9,20)</li>
+        <li>(26,20,26,20)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <quality>Good</quality>
+    </Green_Library_Chair>
+    <Green_Library_Chair>
+      <rects>
+        <li>(9,15,9,15)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <quality>Normal</quality>
+    </Green_Library_Chair>
+    <Green_Library_Chair>
+      <rects>
+        <li>(13,15,13,15)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <quality>Normal</quality>
+    </Green_Library_Chair>
+    <Green_Library_Chair>
+      <rects>
+        <li>(16,15,16,15)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <quality>Masterwork</quality>
+    </Green_Library_Chair>
+    <Green_Library_Chair>
+      <rects>
+        <li>(25,15,26,15)</li>
+        <li>(8,20,8,20)</li>
+        <li>(25,20,25,20)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <quality>Excellent</quality>
+    </Green_Library_Chair>
+    <Wild_Hunt_Display_Shelf>
+      <rects>
+        <li>(2,16,2,16)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </Wild_Hunt_Display_Shelf>
+    <MUS_Gothicstyle_Pendant>
+      <positions>
+        <li>(14, 0, 16)</li>
+        <li>(19, 0, 16)</li>
+      </positions>
+      <stuff>FDF_Cream</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.929, 0.929, 0.929, 1.000)</color>
+      <glowColor>RGBA(1.000, 0.890, 0.671, 0.000)</glowColor>
+    </MUS_Gothicstyle_Pendant>
+    <Green_Library_Chair>
+      <rects>
+        <li>(18,16,18,16)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <quality>Excellent</quality>
+    </Green_Library_Chair>
+    <Typewriter_Shelf>
+      <position>(2, 0, 18)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </Typewriter_Shelf>
+    <Abstract_Pattern_Carpet>
+      <position>(3, 0, 19)</position>
+      <quality>Good</quality>
+    </Abstract_Pattern_Carpet>
+    <ADH_A_Door>
+      <rects>
+        <li>(10,18,10,18)</li>
       </rects>
       <stuff>WoodLog</stuff>
-      <hp>49</hp>
-    </PitLatrine>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </ADH_A_Door>
+    <Medium_Green_Light_Desk>
+      <position>(26, 0, 19)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <quality>Good</quality>
+    </Medium_Green_Light_Desk>
+    <VBE_TypewritersTable>
+      <position>(2, 0, 20)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </VBE_TypewritersTable>
+    <Masterpiece_Bookshelf>
+      <positions>
+        <li>(12, 0, 19)</li>
+        <li>(14, 0, 19)</li>
+        <li>(16, 0, 19)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+    </Masterpiece_Bookshelf>
+    <Trinity_Large_Bookshelf>
+      <positions>
+        <li>(19, 0, 19)</li>
+        <li>(17, 0, 23)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+    </Trinity_Large_Bookshelf>
+    <Trinity_Medium_Bookshelf>
+      <positions>
+        <li>(22, 0, 19)</li>
+        <li>(21, 0, 31)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+    </Trinity_Medium_Bookshelf>
+    <Mahogany_Three_Tier_Bookshelf>
+      <rects>
+        <li>(23,19,23,19)</li>
+        <li>(15,23,15,23)</li>
+        <li>(19,23,19,23)</li>
+        <li>(13,31,13,31)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </Mahogany_Three_Tier_Bookshelf>
+    <Wildhunt_Wooden_Partition>
+      <positions>
+        <li>(19, 0, 20)</li>
+        <li>(22, 0, 20)</li>
+      </positions>
+    </Wildhunt_Wooden_Partition>
+    <UFLI_TempControler>
+      <rects>
+        <li>(8,23,8,23)</li>
+      </rects>
+    </UFLI_TempControler>
+    <Trinity_Storage_Cabinet>
+      <position>(23, 0, 23)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </Trinity_Storage_Cabinet>
+    <ShipChunk>
+      <position>(1, 0, 24)</position>
+    </ShipChunk>
+    <ADH_C_DoorB>
+      <rects>
+        <li>(7,24,7,24)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </ADH_C_DoorB>
+    <ADH_A_DoorB>
+      <rects>
+        <li>(13,24,14,24)</li>
+        <li>(20,24,21,24)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </ADH_A_DoorB>
+    <Wildhunt_Wooden_Gate>
+      <positions>
+        <li>(14, 0, 24)</li>
+        <li>(21, 0, 24)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+    </Wildhunt_Wooden_Gate>
+    <BasinStuff>
+      <rects>
+        <li>(6,25,6,25)</li>
+        <li>(8,25,8,25)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>FDF_Cream</stuff>
+    </BasinStuff>
+    <UFLI_TempControler>
+      <rects>
+        <li>(17,25,17,25)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </UFLI_TempControler>
+    <BAWall_Clock>
+      <rects>
+        <li>(22,25,22,25)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <quality>Normal</quality>
+    </BAWall_Clock>
+    <Blackboard>
+      <positions>
+        <li>(12, 0, 27)</li>
+        <li>(12, 0, 30)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Blackboard>
+    <Seat_SquareChair>
+      <rects>
+        <li>(13,26,13,26)</li>
+        <li>(15,26,15,26)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>FDF_Cream</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.929, 0.929, 0.929, 1.000)</color>
+    </Seat_SquareChair>
+    <SchoolDesk>
+      <positions>
+        <li>(14, 0, 27)</li>
+        <li>(16, 0, 27)</li>
+        <li>(18, 0, 27)</li>
+        <li>(14, 0, 30)</li>
+        <li>(16, 0, 30)</li>
+        <li>(18, 0, 30)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>FDF_Cream</stuff>
+      <color>RGBA(0.929, 0.929, 0.929, 1.000)</color>
+    </SchoolDesk>
+    <Seat_SquareChair>
+      <rects>
+        <li>(17,26,17,27)</li>
+        <li>(13,27,13,27)</li>
+        <li>(15,27,15,27)</li>
+        <li>(13,29,13,30)</li>
+        <li>(15,29,15,30)</li>
+        <li>(17,29,17,30)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>FDF_Cream</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.929, 0.929, 0.929, 1.000)</color>
+    </Seat_SquareChair>
+    <Blackboard>
+      <positions>
+        <li>(22, 0, 26)</li>
+        <li>(22, 0, 28)</li>
+        <li>(22, 0, 30)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Blackboard>
+    <ToiletStallDoor>
+      <rects>
+        <li>(6,27,6,27)</li>
+        <li>(8,27,8,27)</li>
+        <li>(10,27,10,27)</li>
+      </rects>
+      <stuff>FDF_Cream</stuff>
+      <color>RGBA(0.929, 0.929, 0.929, 1.000)</color>
+    </ToiletStallDoor>
+    <Trinity_Teaching_Desk>
+      <position>(20, 0, 28)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </Trinity_Teaching_Desk>
+    <ToiletAdvStuff>
+      <rects>
+        <li>(6,28,6,28)</li>
+        <li>(8,28,8,28)</li>
+      </rects>
+      <stuff>FDF_Cream</stuff>
+    </ToiletAdvStuff>
+    <ShowerAdvStuff>
+      <rects>
+        <li>(10,28,10,28)</li>
+      </rects>
+      <stuff>FDF_Cream</stuff>
+    </ShowerAdvStuff>
+    <Seat_SquareChair>
+      <rects>
+        <li>(21,28,21,28)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>FDF_Cream</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.929, 0.929, 0.929, 1.000)</color>
+    </Seat_SquareChair>
+    <Blackboard>
+      <positions>
+        <li>(15, 0, 31)</li>
+        <li>(17, 0, 31)</li>
+        <li>(19, 0, 31)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Blackboard>
+    <Wildhunt_Glass_Partition>
+      <positions>
+        <li>(14, 0, 32)</li>
+        <li>(20, 0, 32)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+    </Wildhunt_Glass_Partition>
   </things>
   <terrain>
-    <Mediterranean_TileClay_b>
+    <ADHFloor_Y>
       <rects>
-        <li>(0,0,18,0)</li>
-        <li>(0,1,0,14)</li>
-        <li>(7,1,7,2)</li>
-        <li>(1,13,4,14)</li>
+        <li>(1,0,12,0)</li>
+        <li>(17,0,28,0)</li>
       </rects>
-    </Mediterranean_TileClay_b>
-    <FDF_FloorRabbitCookieCandy>
+    </ADHFloor_Y>
+    <ADHFloor_T>
       <rects>
-        <li>(7,3,7,9)</li>
-        <li>(3,4,6,9)</li>
-        <li>(8,4,8,12)</li>
-        <li>(9,7,9,9)</li>
-        <li>(3,10,5,10)</li>
-        <li>(7,11,7,12)</li>
-        <li>(9,11,9,12)</li>
+        <li>(13,0,16,0)</li>
+        <li>(14,1,16,1)</li>
+        <li>(13,4,17,4)</li>
+        <li>(14,5,17,5)</li>
       </rects>
-    </FDF_FloorRabbitCookieCandy>
+    </ADHFloor_T>
+    <ADHFloor_M>
+      <rects>
+        <li>(9,4,12,4)</li>
+        <li>(18,4,21,4)</li>
+      </rects>
+    </ADHFloor_M>
+    <FDF_FloorBrickAIceCream>
+      <rects>
+        <li>(1,5,3,5)</li>
+        <li>(1,9,4,9)</li>
+      </rects>
+    </FDF_FloorBrickAIceCream>
     <FDF_FloorCandy>
       <rects>
-        <li>(10,3,14,5)</li>
-        <li>(9,4,9,4)</li>
+        <li>(4,5,12,5)</li>
+        <li>(18,5,28,5)</li>
+        <li>(28,6,28,6)</li>
       </rects>
     </FDF_FloorCandy>
-    <FDF_FloorCheckPatternCandy>
+    <WDMosaicWoodenFloor>
       <rects>
-        <li>(11,7,15,11)</li>
-        <li>(10,9,10,9)</li>
+        <li>(13,5,13,9)</li>
+        <li>(1,6,12,8)</li>
+        <li>(14,6,27,9)</li>
+        <li>(28,7,28,23)</li>
+        <li>(5,9,12,9)</li>
+        <li>(5,10,10,10)</li>
+        <li>(23,10,27,10)</li>
+        <li>(6,11,10,23)</li>
+        <li>(24,11,27,23)</li>
+        <li>(11,19,23,23)</li>
+        <li>(5,22,5,23)</li>
+        <li>(10,24,10,24)</li>
       </rects>
-    </FDF_FloorCheckPatternCandy>
+    </WDMosaicWoodenFloor>
+    <FDF_FloorWoodALogA>
+      <rects>
+        <li>(1,10,4,10)</li>
+        <li>(1,11,1,20)</li>
+      </rects>
+    </FDF_FloorWoodALogA>
+    <WDCheckWoodenFloor>
+      <rects>
+        <li>(2,11,5,21)</li>
+      </rects>
+    </WDCheckWoodenFloor>
+    <RS_kitchenTileB>
+      <rects>
+        <li>(1,21,1,21)</li>
+      </rects>
+    </RS_kitchenTileB>
+    <DBHMosaicTile>
+      <rects>
+        <li>(5,24,9,27)</li>
+        <li>(10,25,10,28)</li>
+        <li>(6,28,9,28)</li>
+      </rects>
+    </DBHMosaicTile>
+    <BA_Floor_Trinity>
+      <rects>
+        <li>(11,24,21,24)</li>
+        <li>(11,25,11,30)</li>
+      </rects>
+    </BA_Floor_Trinity>
   </terrain>
   <terrainLayers>
     <terrainLayerDetail layer="topGrid">
-      <Mediterranean_TileClay_b>
+      <FDF_LawnA>
         <rects>
-          <li>(0,0,18,0)</li>
-          <li>(0,1,0,14)</li>
-          <li>(7,1,7,2)</li>
-          <li>(1,13,4,14)</li>
+          <li>(0,0,0,23)</li>
+          <li>(1,23,4,23)</li>
+          <li>(4,24,4,30)</li>
+          <li>(5,30,10,30)</li>
         </rects>
-      </Mediterranean_TileClay_b>
-      <FDF_LawnB>
+      </FDF_LawnA>
+      <ADHFloor_Y>
         <rects>
-          <li>(1,1,6,2)</li>
-          <li>(8,1,17,1)</li>
-          <li>(8,2,8,2)</li>
-          <li>(16,2,17,5)</li>
-          <li>(1,3,1,12)</li>
-          <li>(17,6,17,14)</li>
-          <li>(2,12,5,12)</li>
-          <li>(5,13,5,14)</li>
-          <li>(11,13,16,14)</li>
-          <li>(6,14,10,14)</li>
-          <li>(18,14,18,14)</li>
+          <li>(1,0,12,0)</li>
+          <li>(17,0,28,0)</li>
         </rects>
-      </FDF_LawnB>
-      <FDF_FloorRabbitCookieCandy>
+      </ADHFloor_Y>
+      <ADHFloor_T>
         <rects>
-          <li>(7,3,7,9)</li>
-          <li>(3,4,6,9)</li>
-          <li>(8,4,8,12)</li>
-          <li>(9,7,9,9)</li>
-          <li>(3,10,5,10)</li>
-          <li>(7,11,7,12)</li>
-          <li>(9,11,9,12)</li>
+          <li>(13,0,16,0)</li>
+          <li>(14,1,16,1)</li>
+          <li>(13,4,17,4)</li>
+          <li>(14,5,17,5)</li>
         </rects>
-      </FDF_FloorRabbitCookieCandy>
+      </ADHFloor_T>
+      <LTS_PatternEvenMarble>
+        <rects>
+          <li>(1,1,13,3)</li>
+          <li>(17,1,29,3)</li>
+          <li>(14,2,16,3)</li>
+        </rects>
+      </LTS_PatternEvenMarble>
+      <VFEArch_Grass>
+        <rects>
+          <li>(7,4,7,4)</li>
+          <li>(22,4,28,4)</li>
+        </rects>
+      </VFEArch_Grass>
+      <ADHFloor_M>
+        <rects>
+          <li>(9,4,12,4)</li>
+          <li>(18,4,21,4)</li>
+        </rects>
+      </ADHFloor_M>
+      <FDF_FloorBrickAIceCream>
+        <rects>
+          <li>(1,5,3,5)</li>
+          <li>(1,9,4,9)</li>
+        </rects>
+      </FDF_FloorBrickAIceCream>
       <FDF_FloorCandy>
         <rects>
-          <li>(10,3,14,5)</li>
-          <li>(9,4,9,4)</li>
+          <li>(4,5,12,5)</li>
+          <li>(18,5,28,5)</li>
+          <li>(28,6,28,6)</li>
         </rects>
       </FDF_FloorCandy>
-      <FDF_FloorCheckPatternCandy>
+      <WDMosaicWoodenFloor>
         <rects>
-          <li>(11,7,15,11)</li>
-          <li>(10,9,10,9)</li>
+          <li>(13,5,13,9)</li>
+          <li>(1,6,12,8)</li>
+          <li>(14,6,27,9)</li>
+          <li>(28,7,28,23)</li>
+          <li>(5,9,12,9)</li>
+          <li>(5,10,10,10)</li>
+          <li>(23,10,27,10)</li>
+          <li>(6,11,10,23)</li>
+          <li>(24,11,27,23)</li>
+          <li>(11,19,23,23)</li>
+          <li>(5,22,5,23)</li>
+          <li>(10,24,10,24)</li>
         </rects>
-      </FDF_FloorCheckPatternCandy>
-      <Wood_ParquetHerring>
+      </WDMosaicWoodenFloor>
+      <FDF_FloorWoodALogA>
         <rects>
-          <li>(9,10,9,10)</li>
-          <li>(9,13,10,13)</li>
+          <li>(1,10,4,10)</li>
+          <li>(1,11,1,20)</li>
         </rects>
-      </Wood_ParquetHerring>
+      </FDF_FloorWoodALogA>
+      <BA_Carpet_Trinity>
+        <rects>
+          <li>(11,10,22,18)</li>
+          <li>(23,11,23,18)</li>
+          <li>(12,25,22,31)</li>
+        </rects>
+      </BA_Carpet_Trinity>
+      <WDCheckWoodenFloor>
+        <rects>
+          <li>(2,11,5,21)</li>
+        </rects>
+      </WDCheckWoodenFloor>
+      <RS_kitchenTileB>
+        <rects>
+          <li>(1,21,1,21)</li>
+        </rects>
+      </RS_kitchenTileB>
+      <DBHMosaicTile>
+        <rects>
+          <li>(5,24,9,27)</li>
+          <li>(10,25,10,28)</li>
+          <li>(6,28,9,28)</li>
+        </rects>
+      </DBHMosaicTile>
+      <BA_Floor_Trinity>
+        <rects>
+          <li>(11,24,21,24)</li>
+          <li>(11,25,11,30)</li>
+        </rects>
+      </BA_Floor_Trinity>
     </terrainLayerDetail>
     <terrainLayerDetail layer="underGrid">
-      <HX_Quartz_Rough>
-        <rects>
-          <li>(0,0,0,2)</li>
-          <li>(1,1,1,2)</li>
-        </rects>
-      </HX_Quartz_Rough>
-      <Gravel>
-        <rects>
-          <li>(1,0,7,0)</li>
-          <li>(2,1,8,2)</li>
-          <li>(0,3,1,3)</li>
-        </rects>
-      </Gravel>
       <Soil>
         <rects>
-          <li>(8,0,18,0)</li>
-          <li>(9,1,17,1)</li>
-          <li>(16,2,17,5)</li>
-          <li>(7,3,7,9)</li>
-          <li>(10,3,14,5)</li>
-          <li>(0,4,1,11)</li>
-          <li>(3,4,6,9)</li>
-          <li>(8,4,9,4)</li>
-          <li>(8,5,8,12)</li>
-          <li>(17,6,17,14)</li>
-          <li>(9,7,9,14)</li>
-          <li>(11,7,15,11)</li>
-          <li>(10,9,10,9)</li>
-          <li>(3,10,5,10)</li>
-          <li>(7,11,7,12)</li>
-          <li>(0,12,0,12)</li>
-          <li>(5,12,5,12)</li>
-          <li>(10,13,16,13)</li>
-          <li>(7,14,8,14)</li>
-          <li>(10,14,14,14)</li>
-          <li>(18,14,18,14)</li>
+          <li>(0,0,0,23)</li>
+          <li>(29,1,29,2)</li>
+          <li>(1,2,3,3)</li>
+          <li>(4,3,4,3)</li>
+          <li>(6,3,6,3)</li>
+          <li>(1,5,10,21)</li>
+          <li>(12,5,13,25)</li>
+          <li>(15,5,15,23)</li>
+          <li>(11,6,11,30)</li>
+          <li>(14,6,14,23)</li>
+          <li>(16,6,27,12)</li>
+          <li>(16,13,20,21)</li>
+          <li>(22,13,27,16)</li>
+          <li>(21,14,21,21)</li>
+          <li>(22,17,22,17)</li>
+          <li>(22,19,22,21)</li>
+          <li>(5,22,10,27)</li>
+          <li>(16,22,19,22)</li>
+          <li>(1,23,4,23)</li>
+          <li>(16,23,18,23)</li>
+          <li>(4,24,4,30)</li>
+          <li>(12,26,12,31)</li>
+          <li>(6,28,10,28)</li>
+          <li>(5,30,10,30)</li>
         </rects>
       </Soil>
-      <SoilRich>
+      <Vacstone_Rough>
         <rects>
-          <li>(1,12,4,14)</li>
-          <li>(0,13,0,14)</li>
-          <li>(5,13,5,14)</li>
-          <li>(6,14,6,14)</li>
-          <li>(15,14,16,14)</li>
+          <li>(1,0,28,1)</li>
+          <li>(4,2,28,2)</li>
+          <li>(5,3,5,3)</li>
+          <li>(7,3,28,3)</li>
+          <li>(7,4,7,4)</li>
+          <li>(9,4,28,4)</li>
+          <li>(11,5,11,5)</li>
+          <li>(14,5,14,5)</li>
+          <li>(16,5,28,5)</li>
+          <li>(28,6,28,21)</li>
+          <li>(21,13,21,13)</li>
+          <li>(23,17,27,21)</li>
+          <li>(22,18,22,18)</li>
         </rects>
-      </SoilRich>
+      </Vacstone_Rough>
+      <Sand>
+        <rects>
+          <li>(29,3,29,3)</li>
+          <li>(20,22,28,23)</li>
+          <li>(19,23,19,31)</li>
+          <li>(14,24,18,31)</li>
+          <li>(20,24,21,31)</li>
+          <li>(22,25,22,31)</li>
+          <li>(13,26,13,31)</li>
+        </rects>
+      </Sand>
     </terrainLayerDetail>
   </terrainLayers>
   <roofs>
     <RoofConstructed>
       <rects>
-        <li>(9,2,15,12)</li>
-        <li>(2,3,8,11)</li>
-        <li>(16,6,16,12)</li>
-        <li>(6,12,8,13)</li>
-        <li>(9,13,10,13)</li>
+        <li>(1,6,29,22)</li>
+        <li>(5,23,29,24)</li>
+        <li>(5,25,23,29)</li>
+        <li>(11,30,23,32)</li>
       </rects>
     </RoofConstructed>
     <PlayerRoofZone>
       <rects>
-        <li>(9,2,15,7)</li>
-        <li>(2,3,8,11)</li>
-        <li>(16,6,16,12)</li>
-        <li>(9,8,10,11)</li>
-        <li>(12,8,15,8)</li>
-        <li>(12,9,13,9)</li>
-        <li>(15,9,15,12)</li>
-        <li>(13,10,14,10)</li>
-        <li>(11,11,11,12)</li>
-        <li>(14,11,14,12)</li>
-        <li>(6,12,7,13)</li>
-        <li>(10,12,10,13)</li>
-        <li>(13,12,13,12)</li>
-        <li>(8,13,9,13)</li>
+        <li>(1,6,29,22)</li>
+        <li>(5,23,29,24)</li>
+        <li>(5,25,23,29)</li>
+        <li>(11,30,23,32)</li>
       </rects>
     </PlayerRoofZone>
+    <NoRoofZone>
+      <rects>
+        <li>(11,4,17,5)</li>
+        <li>(0,5,10,5)</li>
+        <li>(18,5,29,5)</li>
+        <li>(0,6,0,22)</li>
+      </rects>
+    </NoRoofZone>
   </roofs>
 </PrefabDef>
