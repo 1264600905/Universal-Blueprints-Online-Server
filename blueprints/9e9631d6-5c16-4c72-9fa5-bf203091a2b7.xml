@@ -1,10 +1,10 @@
 <PrefabDef>
-  <defName>Prefab_20260602_234526</defName>
+  <defName>Prefab_20260604_215938</defName>
   <size>(25,15)</size>
   <extraInfo>
     <version>1.6.9438.37837</version>
     <name>失能機關車間</name>
-    <description>所有失能機關有關的東西都在這裡建造。(除了精密製造中心)</description>
+    <description>所有失能機關有關的東西都在這裡建造。(除了精密製造中心)(機械組裝平台到6會變成非車間，因此拆了一台)</description>
     <tags>
       <li>FullExport</li>
     </tags>
@@ -35,10 +35,10 @@
           <li>Tungsteel</li>
           <li>DMS_MachineCabinet</li>
           <li>DMS_TableMachinePrinter</li>
-          <li>DMS_Furnace</li>
+          <li>DMS_MechGestatorSmall</li>
           <li>DMS_TableArtifuscle</li>
           <li>DMS_ReactionChamber</li>
-          <li>DMS_Recharger</li>
+          <li>DMS_Furnace</li>
         </things>
       </mod>
       <mod>
@@ -81,15 +81,6 @@
         <things>
           <li>Wall_HeatDevice</li>
           <li>Wall_CoolDevice</li>
-        </things>
-      </mod>
-      <mod>
-        <packageId>ludeon.rimworld.biotech</packageId>
-        <name>Biotech</name>
-        <version></version>
-        <modorder>6</modorder>
-        <things>
-          <li>WastepackAtomizer</li>
         </things>
       </mod>
       <mod>
@@ -143,6 +134,15 @@
         </things>
       </mod>
       <mod>
+        <packageId>ludeon.rimworld.biotech</packageId>
+        <name>Biotech</name>
+        <version></version>
+        <modorder>6</modorder>
+        <things>
+          <li>WastepackAtomizer</li>
+        </things>
+      </mod>
+      <mod>
         <packageId>tw.is.industrialismstyle</packageId>
         <name>[TW1.6]工业风格 Industrialism Style</name>
         <version></version>
@@ -164,9 +164,12 @@
         <zh-CN>失能機關車間</zh-CN>
       </name>
       <description>
-        <default>所有失能機關有關的東西都在這裡建造。(除了精密製造中心)</default>
-        <zh-CN>所有失能機關有關的東西都在這裡建造。(除了精密製造中心)</zh-CN>
+        <default>所有失能機關有關的東西都在這裡建造。(除了精密製造中心)(機械組裝平台到6會變成非車間，因此拆了一台)</default>
+        <zh-CN>所有失能機關有關的東西都在這裡建造。(除了精密製造中心)(機械組裝平台到6會變成非車間，因此拆了一台)</zh-CN>
       </description>
+      <tags>
+        <default>FullExport</default>
+      </tags>
     </multiLanguage>
   </extraInfo>
   <things>
@@ -244,21 +247,6 @@
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
       <glowColor>RGBA(0.655, 0.741, 0.839, 0.000)</glowColor>
     </WallLamp>
-    <Filth_Dirt>
-      <rects>
-        <li>(13,2,13,2)</li>
-        <li>(17,4,17,4)</li>
-      </rects>
-      <color>RGBA(0.357, 0.294, 0.255, 0.380)</color>
-      <thickness>1</thickness>
-    </Filth_Dirt>
-    <DMS_Furnace>
-      <positions>
-        <li>(2, 0, 4)</li>
-        <li>(2, 0, 7)</li>
-      </positions>
-      <relativeRotation>Counterclockwise</relativeRotation>
-    </DMS_Furnace>
     <DiningChair>
       <rects>
         <li>(6,3,6,3)</li>
@@ -274,13 +262,14 @@
       <quality>Normal</quality>
       <color>RGBA(0.314, 0.314, 0.314, 1.000)</color>
     </DiningChair>
-    <DMS_Furnace>
+    <DMS_MechGestatorSmall>
       <positions>
         <li>(22, 0, 4)</li>
         <li>(22, 0, 7)</li>
+        <li>(22, 0, 10)</li>
       </positions>
-      <relativeRotation>Clockwise</relativeRotation>
-    </DMS_Furnace>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </DMS_MechGestatorSmall>
     <DiningChair>
       <rects>
         <li>(9,4,9,4)</li>
@@ -302,10 +291,10 @@
       <positions>
         <li>(6, 0, 5)</li>
         <li>(17, 0, 5)</li>
-        <li>(4, 0, 13)</li>
-        <li>(6, 0, 13)</li>
-        <li>(17, 0, 13)</li>
-        <li>(19, 0, 13)</li>
+        <li>(1, 0, 12)</li>
+        <li>(22, 0, 12)</li>
+        <li>(1, 0, 13)</li>
+        <li>(22, 0, 13)</li>
       </positions>
       <stuff>Tungsteel</stuff>
       <color>RGBA(0.314, 0.314, 0.314, 1.000)</color>
@@ -326,6 +315,13 @@
       </rects>
       <relativeRotation>Clockwise</relativeRotation>
     </Wall_HeatDevice>
+    <DMS_MechGestatorSmall>
+      <positions>
+        <li>(2, 0, 7)</li>
+        <li>(2, 0, 10)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+    </DMS_MechGestatorSmall>
     <DMS_TableArtifuscle>
       <position>(6, 0, 7)</position>
       <relativeRotation>Clockwise</relativeRotation>
@@ -386,10 +382,6 @@
       <position>(12, 0, 9)</position>
       <relativeRotation>Opposite</relativeRotation>
     </DMS_Furnace>
-    <WastepackAtomizer>
-      <position>(2, 0, 10)</position>
-      <relativeRotation>Counterclockwise</relativeRotation>
-    </WastepackAtomizer>
     <Post>
       <rects>
         <li>(5,9,5,9)</li>
@@ -407,16 +399,13 @@
       <relativeRotation>Opposite</relativeRotation>
     </DMSE_TableLathe>
     <WastepackAtomizer>
-      <position>(22, 0, 10)</position>
-      <relativeRotation>Clockwise</relativeRotation>
-    </WastepackAtomizer>
-    <DMS_Recharger>
       <positions>
-        <li>(2, 0, 13)</li>
-        <li>(22, 0, 13)</li>
+        <li>(6, 0, 12)</li>
+        <li>(10, 0, 12)</li>
+        <li>(14, 0, 12)</li>
+        <li>(18, 0, 12)</li>
       </positions>
-      <relativeRotation>Opposite</relativeRotation>
-    </DMS_Recharger>
+    </WastepackAtomizer>
     <WallLamp>
       <rects>
         <li>(7,13,7,13)</li>
@@ -436,17 +425,31 @@
   <terrain>
     <TW_Industrialism_FactoryFloor>
       <rects>
-        <li>(0,0,24,14)</li>
+        <li>(0,0,24,0)</li>
+        <li>(0,1,0,14)</li>
+        <li>(1,14,24,14)</li>
       </rects>
     </TW_Industrialism_FactoryFloor>
+    <SterileTile>
+      <rects>
+        <li>(1,1,24,13)</li>
+      </rects>
+    </SterileTile>
   </terrain>
   <terrainLayers>
     <terrainLayerDetail layer="topGrid">
       <TW_Industrialism_FactoryFloor>
         <rects>
-          <li>(0,0,24,14)</li>
+          <li>(0,0,24,0)</li>
+          <li>(0,1,0,14)</li>
+          <li>(1,14,24,14)</li>
         </rects>
       </TW_Industrialism_FactoryFloor>
+      <SterileTile>
+        <rects>
+          <li>(1,1,24,13)</li>
+        </rects>
+      </SterileTile>
     </terrainLayerDetail>
     <terrainLayerDetail layer="underGrid">
       <Soil>
