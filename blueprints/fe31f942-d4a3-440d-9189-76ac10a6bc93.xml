@@ -1,110 +1,108 @@
 <PrefabDef>
-  <defName>Prefab_20260605_070735</defName>
+  <defName>Prefab_20260605_065402</defName>
   <size>(13,13)</size>
   <extraInfo>
     <version>1.6.9438.37837</version>
-    <name>阿凯的迫击炮阵</name>
-    <description>迫击炮阵</description>
+    <name>阿凯的养殖场</name>
+    <description>养殖场</description>
     <tags></tags>
     <author>Akai</author>
-    <category>防御工事</category>
+    <category>动物农场</category>
     <BuildingID>fe31f942-d4a3-440d-9189-76ac10a6bc93</BuildingID>
     <modPackages></modPackages>
     <multiLanguage>
       <name>
-        <default>阿凯的迫击炮阵</default>
-        <zh-CN>阿凯的迫击炮阵</zh-CN>
+        <default>阿凯的养殖场</default>
+        <zh-CN>阿凯的养殖场</zh-CN>
       </name>
       <description>
-        <default>迫击炮阵</default>
-        <zh-CN>迫击炮阵</zh-CN>
+        <default>养殖场</default>
+        <zh-CN>养殖场</zh-CN>
       </description>
     </multiLanguage>
   </extraInfo>
   <things>
     <Wall>
       <rects>
-        <li>(0,0,12,0)</li>
-        <li>(0,1,0,2)</li>
-        <li>(12,2,12,12)</li>
-        <li>(0,4,0,12)</li>
-        <li>(1,12,11,12)</li>
+        <li>(0,0,4,0)</li>
+        <li>(6,0,9,0)</li>
+        <li>(11,0,12,0)</li>
+        <li>(0,1,0,12)</li>
+        <li>(4,1,4,1)</li>
+        <li>(12,1,12,12)</li>
+        <li>(4,3,4,4)</li>
+        <li>(1,4,1,4)</li>
+        <li>(3,4,3,4)</li>
+        <li>(1,12,4,12)</li>
+        <li>(6,12,11,12)</li>
       </rects>
       <stuff>BlocksGranite</stuff>
       <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
     </Wall>
-    <HiddenConduit>
+    <Door>
       <rects>
-        <li>(10,0,10,5)</li>
-        <li>(0,5,4,5)</li>
-        <li>(7,5,9,5)</li>
+        <li>(5,0,5,0)</li>
+        <li>(10,0,10,0)</li>
+        <li>(5,12,5,12)</li>
       </rects>
-      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
-    </HiddenConduit>
-    <Turret_Mortar>
-      <positions>
-        <li>(2, 0, 2)</li>
-        <li>(4, 0, 2)</li>
-        <li>(2, 0, 8)</li>
-        <li>(4, 0, 8)</li>
-        <li>(9, 0, 8)</li>
-        <li>(11, 0, 8)</li>
-      </positions>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <EggBox>
+      <rects>
+        <li>(1,1,3,1)</li>
+        <li>(1,5,1,5)</li>
+        <li>(3,5,4,5)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </EggBox>
+    <TableButcher>
+      <position>(7, 0, 1)</position>
       <relativeRotation>Opposite</relativeRotation>
-      <stuff>Steel</stuff>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </Turret_Mortar>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </TableButcher>
     <Shelf>
-      <positions>
-        <li>(5, 0, 2)</li>
-        <li>(5, 0, 5)</li>
-        <li>(5, 0, 8)</li>
-        <li>(5, 0, 11)</li>
-      </positions>
+      <position>(1, 0, 2)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Shelf>
+    <Shelf>
+      <position>(3, 0, 3)</position>
       <relativeRotation>Clockwise</relativeRotation>
-      <stuff>BlocksGranite</stuff>
-      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
     </Shelf>
     <Door>
       <rects>
-        <li>(12,1,12,1)</li>
-        <li>(0,3,0,3)</li>
+        <li>(4,2,4,2)</li>
       </rects>
       <relativeRotation>Clockwise</relativeRotation>
       <stuff>WoodLog</stuff>
       <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
     </Door>
-    <Turret_Mortar>
-      <positions>
-        <li>(1, 0, 4)</li>
-        <li>(3, 0, 4)</li>
-        <li>(8, 0, 4)</li>
-        <li>(10, 0, 4)</li>
-        <li>(1, 0, 10)</li>
-        <li>(3, 0, 10)</li>
-        <li>(8, 0, 10)</li>
-        <li>(10, 0, 10)</li>
-      </positions>
-      <stuff>Steel</stuff>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </Turret_Mortar>
-    <Shelf>
-      <positions>
-        <li>(7, 0, 4)</li>
-        <li>(7, 0, 7)</li>
-        <li>(7, 0, 10)</li>
-      </positions>
-      <relativeRotation>Counterclockwise</relativeRotation>
-      <stuff>BlocksGranite</stuff>
-      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
-    </Shelf>
+    <AnimalFlap>
+      <rects>
+        <li>(2,4,2,4)</li>
+      </rects>
+      <stuff>Cloth</stuff>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </AnimalFlap>
   </things>
   <terrainLayers></terrainLayers>
   <roofs>
     <PlayerRoofZone>
       <rects>
-        <li>(0,0,12,12)</li>
+        <li>(0,0,12,4)</li>
+        <li>(2,5,12,12)</li>
       </rects>
     </PlayerRoofZone>
+    <NoRoofZone>
+      <rects>
+        <li>(0,5,1,12)</li>
+      </rects>
+    </NoRoofZone>
   </roofs>
 </PrefabDef>
