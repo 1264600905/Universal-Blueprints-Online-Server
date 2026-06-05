@@ -1,9 +1,9 @@
 <PrefabDef>
-  <defName>Prefab_20260604_222537</defName>
+  <defName>Prefab_20260605_224128</defName>
   <size>(37,38)</size>
   <extraInfo>
     <version>1.6.9438.37837</version>
-    <name>精密製造中心移動式太空站</name>
+    <name>失能機關精密製造中心移動式太空站</name>
     <description>精密製造中心車間，為了確保滿足製造材料環境需求，因此被設計成逆重飛船版本，只需單人高手工技能的宇航員殖民者可以穩定生產，建議帶上足夠的材料與食物後再上外太空進行生產作業！</description>
     <tags></tags>
     <author>黑龍月</author>
@@ -67,6 +67,7 @@
         <modorder>7</modorder>
         <things>
           <li>GravshipHull</li>
+          <li>SmallThruster</li>
           <li>GravEngine</li>
           <li>VacBarrier</li>
           <li>OxygenPump</li>
@@ -206,8 +207,8 @@
     </modPackages>
     <multiLanguage>
       <name>
-        <default>精密製造中心移動式太空站</default>
-        <zh-CN>精密製造中心移動式太空站</zh-CN>
+        <default>失能機關精密製造中心移動式太空站</default>
+        <zh-CN>失能機關精密製造中心移動式太空站</zh-CN>
       </name>
       <description>
         <default>精密製造中心車間，為了確保滿足製造材料環境需求，因此被設計成逆重飛船版本，只需單人高手工技能的宇航員殖民者可以穩定生產，建議帶上足夠的材料與食物後再上外太空進行生產作業！</default>
@@ -258,6 +259,10 @@
         <li>(18, 0, 7)</li>
         <li>(18, 0, 9)</li>
         <li>(18, 0, 11)</li>
+        <li>(10, 0, 13)</li>
+        <li>(26, 0, 13)</li>
+        <li>(10, 0, 27)</li>
+        <li>(26, 0, 27)</li>
       </positions>
     </DMSE_StructuralFrame_Section>
     <SolarGeneratorGravship>
@@ -275,6 +280,8 @@
         <li>(15,7,15,7)</li>
         <li>(18,7,18,18)</li>
         <li>(21,7,21,7)</li>
+        <li>(10,13,10,16)</li>
+        <li>(26,13,26,16)</li>
         <li>(6,16,9,16)</li>
         <li>(27,16,30,16)</li>
         <li>(9,17,9,20)</li>
@@ -287,6 +294,8 @@
         <li>(18,22,18,26)</li>
         <li>(27,22,27,26)</li>
         <li>(6,26,8,26)</li>
+        <li>(10,26,10,28)</li>
+        <li>(26,26,26,28)</li>
         <li>(28,26,30,26)</li>
         <li>(18,28,18,28)</li>
         <li>(18,30,18,34)</li>
@@ -298,6 +307,8 @@
         <li>(14,5,14,5)</li>
         <li>(6,6,6,6)</li>
         <li>(11,6,11,6)</li>
+        <li>(9,14,9,14)</li>
+        <li>(9,27,9,27)</li>
       </rects>
       <relativeRotation>Counterclockwise</relativeRotation>
     </DMSE_StructuralFrame_End>
@@ -312,6 +323,8 @@
         <li>(22,5,22,5)</li>
         <li>(8,6,8,6)</li>
         <li>(25,6,25,6)</li>
+        <li>(27,14,27,14)</li>
+        <li>(27,27,27,27)</li>
       </rects>
       <relativeRotation>Clockwise</relativeRotation>
     </DMSE_StructuralFrame_End>
@@ -348,8 +361,8 @@
         <li>(25,23,25,27)</li>
         <li>(27,23,27,26)</li>
         <li>(6,26,8,26)</li>
-        <li>(10,26,10,27)</li>
-        <li>(26,26,26,27)</li>
+        <li>(10,26,10,26)</li>
+        <li>(26,26,26,26)</li>
         <li>(28,26,30,26)</li>
         <li>(12,27,17,27)</li>
         <li>(19,27,24,27)</li>
@@ -387,6 +400,14 @@
         <li>(20, 0, 10)</li>
       </positions>
     </DMSE_FuelSiloTank>
+    <SmallThruster>
+      <positions>
+        <li>(9, 0, 12)</li>
+        <li>(27, 0, 12)</li>
+      </positions>
+      <stuff>Tungsteel</stuff>
+      <color>RGBA(0.314, 0.314, 0.314, 1.000)</color>
+    </SmallThruster>
     <sbz_LargeGravshipCrate>
       <position>(18, 0, 17)</position>
       <color>RGBA(0.863, 0.863, 0.863, 1.000)</color>
@@ -505,6 +526,15 @@
       <stuff>Steel</stuff>
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </VacAirlock>
+    <SmallThruster>
+      <positions>
+        <li>(9, 0, 29)</li>
+        <li>(27, 0, 29)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Tungsteel</stuff>
+      <color>RGBA(0.314, 0.314, 0.314, 1.000)</color>
+    </SmallThruster>
     <VacBarrier>
       <rects>
         <li>(18,28,18,28)</li>
@@ -707,93 +737,70 @@
       </TW_Industrialism_FactoryFloor>
     </terrainLayerDetail>
     <terrainLayerDetail layer="underGrid">
-      <WaterShallow>
-        <rects>
-          <li>(12,14,18,17)</li>
-          <li>(1,17,8,18)</li>
-          <li>(0,18,0,25)</li>
-          <li>(12,18,17,22)</li>
-          <li>(1,19,1,25)</li>
-          <li>(3,19,5,20)</li>
-          <li>(7,19,8,25)</li>
-          <li>(9,21,11,21)</li>
-          <li>(3,22,5,25)</li>
-          <li>(12,23,16,23)</li>
-          <li>(2,24,2,25)</li>
-          <li>(6,24,6,25)</li>
-          <li>(12,24,15,24)</li>
-          <li>(12,25,14,26)</li>
-        </rects>
-      </WaterShallow>
-      <Marsh>
-        <rects>
-          <li>(19,14,24,16)</li>
-          <li>(0,17,0,17)</li>
-          <li>(19,17,23,18)</li>
-          <li>(18,18,18,31)</li>
-          <li>(19,19,22,22)</li>
-          <li>(17,23,17,26)</li>
-          <li>(19,23,21,24)</li>
-          <li>(16,24,16,26)</li>
-          <li>(15,25,15,26)</li>
-          <li>(19,25,20,26)</li>
-          <li>(15,30,17,33)</li>
-          <li>(13,32,14,32)</li>
-          <li>(15,34,16,34)</li>
-        </rects>
-      </Marsh>
-      <MossyTerrain>
-        <rects>
-          <li>(24,17,24,26)</li>
-          <li>(28,17,35,17)</li>
-          <li>(28,18,34,18)</li>
-          <li>(23,19,23,26)</li>
-          <li>(28,19,29,23)</li>
-          <li>(31,19,33,20)</li>
-          <li>(25,21,27,21)</li>
-          <li>(22,23,22,26)</li>
-          <li>(28,24,28,24)</li>
-          <li>(21,25,21,26)</li>
-          <li>(19,30,21,34)</li>
-          <li>(23,30,23,32)</li>
-          <li>(18,32,18,36)</li>
-          <li>(22,32,22,32)</li>
-          <li>(17,34,17,36)</li>
-          <li>(19,35,19,36)</li>
-        </rects>
-      </MossyTerrain>
       <Soil>
         <rects>
-          <li>(36,17,36,25)</li>
-          <li>(35,18,35,25)</li>
-          <li>(31,22,33,25)</li>
-          <li>(29,24,30,25)</li>
+          <li>(12,14,24,26)</li>
+          <li>(0,17,8,18)</li>
+          <li>(32,17,36,18)</li>
+          <li>(28,18,28,25)</li>
+          <li>(0,19,1,25)</li>
+          <li>(3,19,5,20)</li>
+          <li>(7,19,8,25)</li>
+          <li>(32,19,33,20)</li>
+          <li>(35,19,36,25)</li>
+          <li>(29,20,29,24)</li>
+          <li>(9,21,11,21)</li>
+          <li>(25,21,27,21)</li>
+          <li>(3,22,5,25)</li>
+          <li>(31,22,33,24)</li>
+          <li>(2,24,2,25)</li>
+          <li>(6,24,6,25)</li>
+          <li>(30,24,30,24)</li>
           <li>(34,24,34,25)</li>
-          <li>(28,25,28,25)</li>
+          <li>(33,25,33,25)</li>
+          <li>(18,27,18,36)</li>
+          <li>(15,30,17,34)</li>
+          <li>(19,30,21,32)</li>
+          <li>(23,30,23,31)</li>
+          <li>(13,32,14,32)</li>
+          <li>(22,32,22,32)</li>
+          <li>(19,33,19,33)</li>
+          <li>(17,35,17,36)</li>
         </rects>
       </Soil>
-      <WaterShallow>
+      <SoilRich>
+        <rects>
+          <li>(28,17,31,17)</li>
+          <li>(29,18,31,18)</li>
+          <li>(29,19,29,19)</li>
+          <li>(31,19,31,20)</li>
+        </rects>
+      </SoilRich>
+      <Soil>
         <color>RGBA(0.800, 0.800, 0.392, 1.000)</color>
         <rects>
           <li>(2,19,2,23)</li>
           <li>(6,19,6,23)</li>
-          <li>(3,21,5,21)</li>
-        </rects>
-      </WaterShallow>
-      <MossyTerrain>
-        <color>RGBA(0.800, 0.800, 0.392, 1.000)</color>
-        <rects>
-          <li>(30,19,30,23)</li>
-          <li>(31,21,31,21)</li>
-        </rects>
-      </MossyTerrain>
-      <Soil>
-        <color>RGBA(0.800, 0.800, 0.392, 1.000)</color>
-        <rects>
           <li>(34,19,34,23)</li>
-          <li>(32,21,33,21)</li>
+          <li>(3,21,5,21)</li>
+          <li>(31,21,33,21)</li>
+          <li>(30,22,30,23)</li>
         </rects>
       </Soil>
+      <SoilRich>
+        <color>RGBA(0.800, 0.800, 0.392, 1.000)</color>
+        <rects>
+          <li>(30,19,30,21)</li>
+        </rects>
+      </SoilRich>
+      <Gravel>
+        <rects>
+          <li>(29,25,32,25)</li>
+          <li>(23,32,23,32)</li>
+          <li>(20,33,21,34)</li>
+          <li>(19,34,19,36)</li>
+        </rects>
+      </Gravel>
     </terrainLayerDetail>
     <terrainLayerDetail layer="foundationGrid">
       <Substructure>
@@ -816,13 +823,15 @@
           <li>(22,8,23,27)</li>
           <li>(12,11,12,27)</li>
           <li>(24,11,24,27)</li>
-          <li>(11,13,11,27)</li>
-          <li>(25,13,25,27)</li>
-          <li>(10,15,10,16)</li>
-          <li>(26,15,26,16)</li>
+          <li>(9,12,9,14)</li>
+          <li>(27,12,27,14)</li>
+          <li>(10,13,11,16)</li>
+          <li>(25,13,26,16)</li>
           <li>(6,16,9,18)</li>
           <li>(27,16,30,18)</li>
           <li>(0,17,5,18)</li>
+          <li>(11,17,11,27)</li>
+          <li>(25,17,25,27)</li>
           <li>(31,17,36,18)</li>
           <li>(0,19,1,25)</li>
           <li>(3,19,5,20)</li>
@@ -836,8 +845,10 @@
           <li>(6,24,9,26)</li>
           <li>(27,24,30,26)</li>
           <li>(34,24,34,25)</li>
-          <li>(10,26,10,27)</li>
-          <li>(26,26,26,27)</li>
+          <li>(10,26,10,28)</li>
+          <li>(26,26,26,28)</li>
+          <li>(9,27,9,29)</li>
+          <li>(27,27,27,29)</li>
           <li>(17,28,19,37)</li>
           <li>(12,29,16,32)</li>
           <li>(20,29,24,32)</li>
