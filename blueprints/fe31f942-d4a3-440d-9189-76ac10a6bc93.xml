@@ -1,99 +1,83 @@
 <PrefabDef>
-  <defName>Prefab_20260605_072851</defName>
-  <size>(13,7)</size>
+  <defName>Prefab_20260605_072422</defName>
+  <size>(13,13)</size>
   <extraInfo>
     <version>1.6.9438.37837</version>
-    <name>阿凯的基因工厂</name>
-    <description>基因工厂</description>
+    <name>阿凯的异常仪式广场</name>
+    <description>异常仪式广场</description>
     <tags></tags>
     <author>Akai</author>
-    <category>生物科技DLC</category>
+    <category>异常DLC</category>
     <BuildingID>fe31f942-d4a3-440d-9189-76ac10a6bc93</BuildingID>
     <modPackages>
       <mod>
-        <packageId>ludeon.rimworld.biotech</packageId>
-        <name>Biotech</name>
+        <packageId>ludeon.rimworld.anomaly</packageId>
+        <name>Anomaly</name>
         <version></version>
-        <modorder>4</modorder>
+        <modorder>5</modorder>
         <things>
-          <li>GeneProcessor</li>
-          <li>GeneBank</li>
-          <li>GeneExtractor</li>
-          <li>GeneAssembler</li>
+          <li>ShardBeacon</li>
+          <li>PsychicRitualSpot</li>
+          <li>AtmosphericHeater</li>
         </things>
       </mod>
     </modPackages>
     <multiLanguage>
       <name>
-        <default>阿凯的基因工厂</default>
-        <zh-CN>阿凯的基因工厂</zh-CN>
+        <default>阿凯的异常仪式广场</default>
+        <zh-CN>阿凯的异常仪式广场</zh-CN>
       </name>
       <description>
-        <default>基因工厂</default>
-        <zh-CN>基因工厂</zh-CN>
+        <default>异常仪式广场</default>
+        <zh-CN>异常仪式广场</zh-CN>
       </description>
     </multiLanguage>
   </extraInfo>
   <things>
     <Wall>
       <rects>
-        <li>(0,0,4,0)</li>
-        <li>(6,0,10,0)</li>
-        <li>(12,0,12,6)</li>
-        <li>(0,1,0,6)</li>
-        <li>(1,6,10,6)</li>
+        <li>(0,0,12,0)</li>
+        <li>(0,1,0,12)</li>
+        <li>(12,1,12,12)</li>
+        <li>(1,12,8,12)</li>
+        <li>(10,12,11,12)</li>
       </rects>
       <stuff>BlocksGranite</stuff>
       <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
     </Wall>
     <HiddenConduit>
       <rects>
-        <li>(1,0,1,6)</li>
+        <li>(1,0,1,12)</li>
       </rects>
       <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
     </HiddenConduit>
+    <ShardBeacon>
+      <rects>
+        <li>(1,2,1,2)</li>
+        <li>(8,2,8,2)</li>
+        <li>(1,8,1,8)</li>
+        <li>(8,8,8,8)</li>
+      </rects>
+    </ShardBeacon>
+    <PsychicRitualSpot>
+      <position>(5, 0, 5)</position>
+    </PsychicRitualSpot>
+    <AtmosphericHeater>
+      <position>(2, 0, 10)</position>
+    </AtmosphericHeater>
     <Door>
       <rects>
-        <li>(5,0,5,0)</li>
-        <li>(11,6,11,6)</li>
+        <li>(9,12,9,12)</li>
       </rects>
       <stuff>WoodLog</stuff>
       <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
     </Door>
-    <GeneProcessor>
-      <position>(1, 0, 1)</position>
-    </GeneProcessor>
-    <GeneBank>
-      <positions>
-        <li>(3, 0, 1)</li>
-        <li>(4, 0, 1)</li>
-        <li>(6, 0, 1)</li>
-        <li>(7, 0, 1)</li>
-        <li>(8, 0, 1)</li>
-        <li>(9, 0, 1)</li>
-        <li>(10, 0, 1)</li>
-        <li>(6, 0, 4)</li>
-        <li>(7, 0, 4)</li>
-        <li>(8, 0, 4)</li>
-        <li>(9, 0, 4)</li>
-        <li>(10, 0, 4)</li>
-      </positions>
-      <relativeRotation>Counterclockwise</relativeRotation>
-    </GeneBank>
-    <GeneExtractor>
-      <position>(2, 0, 5)</position>
-      <relativeRotation>Opposite</relativeRotation>
-    </GeneExtractor>
-    <GeneAssembler>
-      <position>(4, 0, 5)</position>
-      <relativeRotation>Opposite</relativeRotation>
-    </GeneAssembler>
   </things>
   <terrainLayers></terrainLayers>
   <roofs>
     <PlayerRoofZone>
       <rects>
-        <li>(0,0,12,6)</li>
+        <li>(0,0,12,12)</li>
       </rects>
     </PlayerRoofZone>
   </roofs>
