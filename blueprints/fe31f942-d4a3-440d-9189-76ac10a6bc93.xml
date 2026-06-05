@@ -1,113 +1,96 @@
 <PrefabDef>
-  <defName>Prefab_20260605_072152</defName>
-  <size>(13,14)</size>
+  <defName>Prefab_20260605_071612</defName>
+  <size>(13,13)</size>
   <extraInfo>
     <version>1.6.9438.37837</version>
-    <name>阿凯的异象收容室</name>
-    <description>异象收容室</description>
+    <name>阿凯的污染发电厂</name>
+    <description>污染发电厂</description>
     <tags></tags>
     <author>Akai</author>
-    <category>异常DLC</category>
+    <category>生物科技DLC</category>
     <BuildingID>fe31f942-d4a3-440d-9189-76ac10a6bc93</BuildingID>
     <modPackages>
       <mod>
-        <packageId>ludeon.rimworld.anomaly</packageId>
-        <name>Anomaly</name>
+        <packageId>ludeon.rimworld.biotech</packageId>
+        <name>Biotech</name>
         <version></version>
-        <modorder>5</modorder>
+        <modorder>4</modorder>
         <things>
-          <li>SecurityDoor</li>
-          <li>BioferriteHarvester</li>
-          <li>HoldingPlatform</li>
-          <li>ShardInhibitor</li>
+          <li>WastepackAtomizer</li>
+          <li>ToxifierGenerator</li>
+          <li>PollutionPump</li>
         </things>
       </mod>
     </modPackages>
     <multiLanguage>
       <name>
-        <default>阿凯的异象收容室</default>
-        <zh-CN>阿凯的异象收容室</zh-CN>
+        <default>阿凯的污染发电厂</default>
+        <zh-CN>阿凯的污染发电厂</zh-CN>
       </name>
       <description>
-        <default>异象收容室</default>
-        <zh-CN>异象收容室</zh-CN>
+        <default>污染发电厂</default>
+        <zh-CN>污染发电厂</zh-CN>
       </description>
     </multiLanguage>
   </extraInfo>
   <things>
     <Wall>
       <rects>
-        <li>(0,0,3,0)</li>
-        <li>(6,0,9,0)</li>
-        <li>(12,0,12,3)</li>
+        <li>(0,0,12,0)</li>
         <li>(0,1,0,12)</li>
-        <li>(7,1,7,7)</li>
-        <li>(1,5,6,5)</li>
-        <li>(5,6,5,8)</li>
-        <li>(12,6,12,12)</li>
-        <li>(6,7,6,7)</li>
-        <li>(8,7,8,7)</li>
-        <li>(11,7,11,7)</li>
-        <li>(5,11,5,12)</li>
-        <li>(1,12,4,12)</li>
-        <li>(6,12,11,12)</li>
+        <li>(12,1,12,5)</li>
+        <li>(12,7,12,12)</li>
+        <li>(1,12,11,12)</li>
       </rects>
       <stuff>BlocksGranite</stuff>
       <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
     </Wall>
-    <HiddenConduit>
-      <rects>
-        <li>(3,0,3,5)</li>
-      </rects>
-      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
-    </HiddenConduit>
-    <SecurityDoor>
+    <WastepackAtomizer>
       <positions>
-        <li>(4, 0, 0)</li>
-        <li>(10, 0, 0)</li>
-        <li>(9, 0, 7)</li>
-      </positions>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </SecurityDoor>
-    <BioferriteHarvester>
-      <positions>
-        <li>(2, 0, 1)</li>
-        <li>(7, 0, 8)</li>
-      </positions>
-      <relativeRotation>Counterclockwise</relativeRotation>
-    </BioferriteHarvester>
-    <HoldingPlatform>
-      <positions>
-        <li>(9, 0, 2)</li>
-        <li>(2, 0, 3)</li>
-        <li>(5, 0, 3)</li>
-        <li>(9, 0, 5)</li>
+        <li>(2, 0, 2)</li>
         <li>(2, 0, 7)</li>
         <li>(2, 0, 10)</li>
-        <li>(7, 0, 10)</li>
-        <li>(10, 0, 10)</li>
-      </positions>
-    </HoldingPlatform>
-    <SecurityDoor>
-      <positions>
-        <li>(12, 0, 4)</li>
-        <li>(5, 0, 9)</li>
       </positions>
       <relativeRotation>Counterclockwise</relativeRotation>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </SecurityDoor>
-    <BioferriteHarvester>
-      <position>(11, 0, 6)</position>
-      <relativeRotation>Opposite</relativeRotation>
-    </BioferriteHarvester>
-    <BioferriteHarvester>
-      <position>(4, 0, 6)</position>
-    </BioferriteHarvester>
-    <ShardInhibitor>
+    </WastepackAtomizer>
+    <WastepackAtomizer>
+      <positions>
+        <li>(4, 0, 2)</li>
+        <li>(4, 0, 7)</li>
+        <li>(4, 0, 10)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+    </WastepackAtomizer>
+    <ToxifierGenerator>
+      <positions>
+        <li>(6, 0, 1)</li>
+        <li>(8, 0, 1)</li>
+        <li>(10, 0, 1)</li>
+        <li>(6, 0, 3)</li>
+        <li>(8, 0, 3)</li>
+        <li>(10, 0, 3)</li>
+        <li>(6, 0, 8)</li>
+        <li>(8, 0, 8)</li>
+        <li>(10, 0, 8)</li>
+        <li>(6, 0, 10)</li>
+        <li>(8, 0, 10)</li>
+        <li>(10, 0, 10)</li>
+      </positions>
+    </ToxifierGenerator>
+    <PollutionPump>
       <rects>
-        <li>(6,6,6,6)</li>
+        <li>(8,5,9,5)</li>
+        <li>(8,7,9,7)</li>
       </rects>
-    </ShardInhibitor>
+    </PollutionPump>
+    <Door>
+      <rects>
+        <li>(12,6,12,6)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
   </things>
   <terrainLayers></terrainLayers>
   <roofs>
