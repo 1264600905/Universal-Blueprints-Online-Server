@@ -1,125 +1,377 @@
 <PrefabDef>
-  <defName>Prefab_20260605_071107</defName>
-  <size>(13,13)</size>
+  <defName>Prefab_20260605_070945</defName>
+  <size>(45,45)</size>
   <extraInfo>
     <version>1.6.9438.37837</version>
-    <name>阿凯的机械工厂</name>
-    <description>机械工厂</description>
+    <name>海星地联的广口狙击阵</name>
+    <description>搬运</description>
     <tags></tags>
     <author>Akai</author>
-    <category>生物科技DLC</category>
+    <category>防御工事</category>
     <BuildingID>fe31f942-d4a3-440d-9189-76ac10a6bc93</BuildingID>
     <modPackages>
       <mod>
-        <packageId>ludeon.rimworld.biotech</packageId>
-        <name>Biotech</name>
+        <packageId>ludeon.rimworld.royalty</packageId>
+        <name>Royalty</name>
         <version></version>
-        <modorder>4</modorder>
+        <modorder>2</modorder>
         <things>
-          <li>StandardRecharger</li>
-          <li>BasicRecharger</li>
-          <li>LargeMechGestator</li>
-          <li>SubcoreRipscanner</li>
-          <li>SubcoreEncoder</li>
-          <li>SubcoreSoftscanner</li>
-          <li>MechGestator</li>
+          <li>FineTileMarble</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.odyssey</packageId>
+        <name>Odyssey</name>
+        <version></version>
+        <modorder>6</modorder>
+        <things>
+          <li>GrasslandSoil</li>
         </things>
       </mod>
     </modPackages>
     <multiLanguage>
       <name>
-        <default>阿凯的机械工厂</default>
-        <zh-CN>阿凯的机械工厂</zh-CN>
+        <default>海星地联的广口狙击阵</default>
+        <zh-CN>海星地联的广口狙击阵</zh-CN>
       </name>
       <description>
-        <default>机械工厂</default>
-        <zh-CN>机械工厂</zh-CN>
+        <default>搬运</default>
+        <zh-CN>搬运</zh-CN>
       </description>
     </multiLanguage>
   </extraInfo>
   <things>
     <Wall>
       <rects>
-        <li>(0,0,12,0)</li>
-        <li>(0,1,0,5)</li>
-        <li>(12,1,12,2)</li>
-        <li>(12,4,12,12)</li>
-        <li>(0,7,0,12)</li>
-        <li>(1,12,11,12)</li>
+        <li>(0,0,19,1)</li>
+        <li>(25,0,43,1)</li>
+        <li>(0,2,1,44)</li>
+        <li>(18,2,19,2)</li>
+        <li>(25,2,26,2)</li>
+        <li>(43,2,44,2)</li>
+        <li>(17,3,18,5)</li>
+        <li>(26,3,27,5)</li>
+        <li>(43,3,43,42)</li>
+        <li>(2,4,3,4)</li>
+        <li>(41,4,42,4)</li>
+        <li>(16,6,17,8)</li>
+        <li>(27,6,28,8)</li>
+        <li>(2,7,3,7)</li>
+        <li>(41,7,42,7)</li>
+        <li>(44,9,44,42)</li>
+        <li>(2,10,3,10)</li>
+        <li>(41,10,42,10)</li>
+        <li>(2,13,3,13)</li>
+        <li>(41,13,42,13)</li>
+        <li>(2,16,3,16)</li>
+        <li>(41,16,42,16)</li>
+        <li>(2,19,3,19)</li>
+        <li>(41,19,42,19)</li>
+        <li>(2,22,3,22)</li>
+        <li>(41,22,42,22)</li>
+        <li>(2,25,3,25)</li>
+        <li>(41,25,42,25)</li>
+        <li>(2,28,3,28)</li>
+        <li>(41,28,42,28)</li>
+        <li>(2,31,3,31)</li>
+        <li>(41,31,42,31)</li>
+        <li>(2,34,3,34)</li>
+        <li>(41,34,42,34)</li>
+        <li>(4,36,4,37)</li>
+        <li>(7,36,7,37)</li>
+        <li>(37,36,37,37)</li>
+        <li>(40,36,40,37)</li>
+        <li>(2,37,3,37)</li>
+        <li>(10,37,10,38)</li>
+        <li>(34,37,34,38)</li>
+        <li>(41,37,42,37)</li>
+        <li>(13,38,13,41)</li>
+        <li>(31,38,31,41)</li>
+        <li>(2,44,44,44)</li>
       </rects>
       <stuff>BlocksGranite</stuff>
       <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
     </Wall>
+    <Door>
+      <rects>
+        <li>(20,0,24,1)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Door>
+    <Wall>
+      <rects>
+        <li>(44,0,44,1)</li>
+        <li>(44,3,44,8)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Wall>
     <HiddenConduit>
       <rects>
-        <li>(3,0,3,0)</li>
-        <li>(12,5,12,5)</li>
+        <li>(2,1,17,1)</li>
+        <li>(27,1,42,1)</li>
+        <li>(2,2,2,41)</li>
+        <li>(17,2,17,8)</li>
+        <li>(27,2,27,9)</li>
+        <li>(42,2,42,41)</li>
+        <li>(11,15,17,15)</li>
+        <li>(27,15,33,15)</li>
+        <li>(11,16,11,34)</li>
+        <li>(33,16,33,34)</li>
+        <li>(3,34,10,34)</li>
+        <li>(12,34,32,34)</li>
+        <li>(34,34,41,34)</li>
+        <li>(3,41,41,41)</li>
+        <li>(13,42,13,42)</li>
+        <li>(13,44,13,44)</li>
+        <li>(32,44,32,44)</li>
       </rects>
       <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
     </HiddenConduit>
-    <StandardRecharger>
+    <Turret_Autocannon>
       <positions>
-        <li>(2, 0, 1)</li>
-        <li>(2, 0, 7)</li>
+        <li>(2, 0, 2)</li>
+        <li>(41, 0, 2)</li>
+        <li>(2, 0, 5)</li>
+        <li>(41, 0, 5)</li>
+        <li>(2, 0, 8)</li>
+        <li>(41, 0, 8)</li>
+        <li>(2, 0, 11)</li>
+        <li>(41, 0, 11)</li>
+        <li>(2, 0, 14)</li>
+        <li>(41, 0, 14)</li>
+        <li>(2, 0, 17)</li>
+        <li>(41, 0, 17)</li>
+        <li>(2, 0, 20)</li>
+        <li>(41, 0, 20)</li>
+        <li>(2, 0, 23)</li>
+        <li>(41, 0, 23)</li>
       </positions>
-    </StandardRecharger>
-    <BasicRecharger>
-      <position>(5, 0, 2)</position>
-      <relativeRotation>Counterclockwise</relativeRotation>
-    </BasicRecharger>
-    <LargeMechGestator>
-      <position>(7, 0, 2)</position>
-    </LargeMechGestator>
+    </Turret_Autocannon>
+    <Barricade>
+      <rects>
+        <li>(4,2,4,35)</li>
+        <li>(40,2,40,35)</li>
+        <li>(16,9,16,11)</li>
+        <li>(28,9,28,11)</li>
+        <li>(16,13,16,15)</li>
+        <li>(28,13,28,15)</li>
+        <li>(16,38,16,38)</li>
+        <li>(19,38,19,38)</li>
+        <li>(22,38,22,38)</li>
+        <li>(25,38,25,38)</li>
+        <li>(28,38,28,38)</li>
+        <li>(14,40,30,40)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Barricade>
+    <Turret_MiniTurret>
+      <rects>
+        <li>(7,4,7,4)</li>
+        <li>(37,4,37,4)</li>
+        <li>(7,8,7,8)</li>
+        <li>(37,8,37,8)</li>
+        <li>(7,12,7,12)</li>
+        <li>(37,12,37,12)</li>
+        <li>(7,16,7,16)</li>
+        <li>(37,16,37,16)</li>
+        <li>(7,20,7,20)</li>
+        <li>(37,20,37,20)</li>
+        <li>(7,24,7,24)</li>
+        <li>(37,24,37,24)</li>
+        <li>(7,28,7,28)</li>
+        <li>(37,28,37,28)</li>
+        <li>(7,32,7,32)</li>
+        <li>(37,32,37,32)</li>
+        <li>(11,33,11,33)</li>
+        <li>(32,33,32,33)</li>
+        <li>(15,34,15,34)</li>
+        <li>(28,34,28,34)</li>
+        <li>(19,35,19,35)</li>
+        <li>(24,35,24,35)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Turret_MiniTurret>
+    <Sandbags>
+      <rects>
+        <li>(8,4,8,4)</li>
+        <li>(36,4,36,4)</li>
+        <li>(8,8,8,8)</li>
+        <li>(36,8,36,8)</li>
+        <li>(8,12,8,12)</li>
+        <li>(36,12,36,12)</li>
+        <li>(7,15,8,15)</li>
+        <li>(36,15,37,15)</li>
+        <li>(8,16,8,16)</li>
+        <li>(36,16,36,16)</li>
+        <li>(7,19,8,19)</li>
+        <li>(36,19,37,19)</li>
+        <li>(8,20,8,20)</li>
+        <li>(36,20,36,20)</li>
+        <li>(7,23,8,23)</li>
+        <li>(36,23,37,23)</li>
+        <li>(8,24,8,24)</li>
+        <li>(36,24,36,24)</li>
+        <li>(7,27,8,27)</li>
+        <li>(36,27,37,27)</li>
+        <li>(8,28,8,28)</li>
+        <li>(36,28,36,28)</li>
+        <li>(7,31,8,31)</li>
+        <li>(36,31,37,31)</li>
+        <li>(8,32,8,32)</li>
+        <li>(11,32,11,32)</li>
+        <li>(32,32,32,32)</li>
+        <li>(36,32,36,32)</li>
+        <li>(15,33,15,33)</li>
+        <li>(28,33,28,33)</li>
+        <li>(19,34,19,34)</li>
+        <li>(24,34,24,34)</li>
+      </rects>
+      <stuff>Cloth</stuff>
+      <color>RGBA(0.545, 0.478, 0.341, 1.000)</color>
+    </Sandbags>
+    <PowerConduit>
+      <rects>
+        <li>(17,9,17,14)</li>
+        <li>(27,10,27,14)</li>
+        <li>(18,12,19,12)</li>
+        <li>(25,12,26,12)</li>
+      </rects>
+    </PowerConduit>
+    <FirefoamPopper>
+      <rects>
+        <li>(6,10,6,10)</li>
+        <li>(38,10,38,10)</li>
+        <li>(6,26,6,26)</li>
+        <li>(38,26,38,26)</li>
+        <li>(13,36,13,36)</li>
+        <li>(31,36,31,36)</li>
+      </rects>
+    </FirefoamPopper>
+    <TrapIED_Incendiary>
+      <rects>
+        <li>(17,12,17,12)</li>
+        <li>(27,12,27,12)</li>
+      </rects>
+    </TrapIED_Incendiary>
+    <TrapIED_EMP>
+      <rects>
+        <li>(22,14,22,14)</li>
+        <li>(20,15,20,15)</li>
+        <li>(24,15,24,15)</li>
+        <li>(20,17,20,17)</li>
+        <li>(24,17,24,17)</li>
+      </rects>
+    </TrapIED_EMP>
+    <FloodLight>
+      <rects>
+        <li>(12,16,12,16)</li>
+        <li>(32,16,32,16)</li>
+        <li>(13,31,13,31)</li>
+        <li>(30,31,30,31)</li>
+      </rects>
+    </FloodLight>
+    <Turret_Sniper>
+      <positions>
+        <li>(2, 0, 26)</li>
+        <li>(41, 0, 26)</li>
+        <li>(2, 0, 29)</li>
+        <li>(41, 0, 29)</li>
+        <li>(2, 0, 32)</li>
+        <li>(41, 0, 32)</li>
+        <li>(2, 0, 35)</li>
+        <li>(41, 0, 35)</li>
+        <li>(5, 0, 36)</li>
+        <li>(38, 0, 36)</li>
+        <li>(8, 0, 37)</li>
+        <li>(35, 0, 37)</li>
+        <li>(11, 0, 38)</li>
+        <li>(32, 0, 38)</li>
+        <li>(11, 0, 40)</li>
+        <li>(32, 0, 40)</li>
+      </positions>
+    </Turret_Sniper>
+    <Turret_RocketswarmLauncher>
+      <positions>
+        <li>(14, 0, 38)</li>
+        <li>(17, 0, 38)</li>
+        <li>(20, 0, 38)</li>
+        <li>(23, 0, 38)</li>
+        <li>(26, 0, 38)</li>
+        <li>(29, 0, 38)</li>
+      </positions>
+    </Turret_RocketswarmLauncher>
+    <PowerSwitch>
+      <rects>
+        <li>(13,43,13,43)</li>
+      </rects>
+    </PowerSwitch>
     <Door>
       <rects>
-        <li>(12,3,12,3)</li>
-        <li>(0,6,0,6)</li>
+        <li>(43,43,44,43)</li>
       </rects>
       <relativeRotation>Clockwise</relativeRotation>
       <stuff>WoodLog</stuff>
       <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
     </Door>
-    <SubcoreRipscanner>
-      <position>(2, 0, 5)</position>
-      <relativeRotation>Opposite</relativeRotation>
-    </SubcoreRipscanner>
-    <BasicRecharger>
-      <positions>
-        <li>(5, 0, 5)</li>
-        <li>(8, 0, 5)</li>
-        <li>(5, 0, 7)</li>
-        <li>(8, 0, 7)</li>
-      </positions>
-      <relativeRotation>Opposite</relativeRotation>
-    </BasicRecharger>
-    <BasicRecharger>
-      <positions>
-        <li>(5, 0, 8)</li>
-        <li>(8, 0, 8)</li>
-      </positions>
-    </BasicRecharger>
-    <SubcoreEncoder>
-      <position>(2, 0, 10)</position>
-    </SubcoreEncoder>
-    <SubcoreSoftscanner>
-      <position>(5, 0, 10)</position>
-    </SubcoreSoftscanner>
-    <MechGestator>
-      <position>(8, 0, 11)</position>
-      <relativeRotation>Opposite</relativeRotation>
-    </MechGestator>
   </things>
-  <terrainLayers></terrainLayers>
+  <terrain>
+    <FineTileMarble>
+      <rects>
+        <li>(44,2,44,2)</li>
+      </rects>
+    </FineTileMarble>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <FineTileMarble>
+        <rects>
+          <li>(44,2,44,2)</li>
+        </rects>
+      </FineTileMarble>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <GrasslandSoil>
+        <rects>
+          <li>(44,2,44,2)</li>
+        </rects>
+      </GrasslandSoil>
+    </terrainLayerDetail>
+  </terrainLayers>
   <roofs>
     <RoofConstructed>
       <rects>
-        <li>(10,0,11,0)</li>
+        <li>(44,0,44,8)</li>
+        <li>(20,41,26,43)</li>
+        <li>(20,44,21,44)</li>
       </rects>
     </RoofConstructed>
     <PlayerRoofZone>
       <rects>
-        <li>(0,0,12,12)</li>
+        <li>(0,0,12,0)</li>
+        <li>(29,0,44,0)</li>
+        <li>(0,1,0,44)</li>
+        <li>(36,1,44,19)</li>
+        <li>(4,3,27,15)</li>
+        <li>(1,20,16,29)</li>
+        <li>(36,20,36,44)</li>
+        <li>(42,20,44,24)</li>
+        <li>(1,30,6,34)</li>
+        <li>(37,33,44,44)</li>
+        <li>(34,38,35,44)</li>
+        <li>(10,41,26,44)</li>
+        <li>(1,44,9,44)</li>
+        <li>(27,44,33,44)</li>
       </rects>
     </PlayerRoofZone>
+    <NoRoofZone>
+      <rects>
+        <li>(37,20,41,32)</li>
+        <li>(42,25,44,32)</li>
+      </rects>
+    </NoRoofZone>
   </roofs>
 </PrefabDef>
