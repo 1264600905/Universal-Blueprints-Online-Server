@@ -1,10 +1,10 @@
 <PrefabDef>
-  <defName>Prefab_20260605_071612</defName>
+  <defName>Prefab_20260605_071107</defName>
   <size>(13,13)</size>
   <extraInfo>
     <version>1.6.9438.37837</version>
-    <name>阿凯的污染发电厂</name>
-    <description>污染发电厂</description>
+    <name>阿凯的机械工厂</name>
+    <description>机械工厂</description>
     <tags></tags>
     <author>Akai</author>
     <category>生物科技DLC</category>
@@ -16,20 +16,24 @@
         <version></version>
         <modorder>4</modorder>
         <things>
-          <li>WastepackAtomizer</li>
-          <li>ToxifierGenerator</li>
-          <li>PollutionPump</li>
+          <li>StandardRecharger</li>
+          <li>BasicRecharger</li>
+          <li>LargeMechGestator</li>
+          <li>SubcoreRipscanner</li>
+          <li>SubcoreEncoder</li>
+          <li>SubcoreSoftscanner</li>
+          <li>MechGestator</li>
         </things>
       </mod>
     </modPackages>
     <multiLanguage>
       <name>
-        <default>阿凯的污染发电厂</default>
-        <zh-CN>阿凯的污染发电厂</zh-CN>
+        <default>阿凯的机械工厂</default>
+        <zh-CN>阿凯的机械工厂</zh-CN>
       </name>
       <description>
-        <default>污染发电厂</default>
-        <zh-CN>污染发电厂</zh-CN>
+        <default>机械工厂</default>
+        <zh-CN>机械工厂</zh-CN>
       </description>
     </multiLanguage>
   </extraInfo>
@@ -37,63 +41,81 @@
     <Wall>
       <rects>
         <li>(0,0,12,0)</li>
-        <li>(0,1,0,12)</li>
-        <li>(12,1,12,5)</li>
-        <li>(12,7,12,12)</li>
+        <li>(0,1,0,5)</li>
+        <li>(12,1,12,2)</li>
+        <li>(12,4,12,12)</li>
+        <li>(0,7,0,12)</li>
         <li>(1,12,11,12)</li>
       </rects>
       <stuff>BlocksGranite</stuff>
       <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
     </Wall>
-    <WastepackAtomizer>
-      <positions>
-        <li>(2, 0, 2)</li>
-        <li>(2, 0, 7)</li>
-        <li>(2, 0, 10)</li>
-      </positions>
-      <relativeRotation>Counterclockwise</relativeRotation>
-    </WastepackAtomizer>
-    <WastepackAtomizer>
-      <positions>
-        <li>(4, 0, 2)</li>
-        <li>(4, 0, 7)</li>
-        <li>(4, 0, 10)</li>
-      </positions>
-      <relativeRotation>Clockwise</relativeRotation>
-    </WastepackAtomizer>
-    <ToxifierGenerator>
-      <positions>
-        <li>(6, 0, 1)</li>
-        <li>(8, 0, 1)</li>
-        <li>(10, 0, 1)</li>
-        <li>(6, 0, 3)</li>
-        <li>(8, 0, 3)</li>
-        <li>(10, 0, 3)</li>
-        <li>(6, 0, 8)</li>
-        <li>(8, 0, 8)</li>
-        <li>(10, 0, 8)</li>
-        <li>(6, 0, 10)</li>
-        <li>(8, 0, 10)</li>
-        <li>(10, 0, 10)</li>
-      </positions>
-    </ToxifierGenerator>
-    <PollutionPump>
+    <HiddenConduit>
       <rects>
-        <li>(8,5,9,5)</li>
-        <li>(8,7,9,7)</li>
+        <li>(3,0,3,0)</li>
+        <li>(12,5,12,5)</li>
       </rects>
-    </PollutionPump>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <StandardRecharger>
+      <positions>
+        <li>(2, 0, 1)</li>
+        <li>(2, 0, 7)</li>
+      </positions>
+    </StandardRecharger>
+    <BasicRecharger>
+      <position>(5, 0, 2)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </BasicRecharger>
+    <LargeMechGestator>
+      <position>(7, 0, 2)</position>
+    </LargeMechGestator>
     <Door>
       <rects>
-        <li>(12,6,12,6)</li>
+        <li>(12,3,12,3)</li>
+        <li>(0,6,0,6)</li>
       </rects>
       <relativeRotation>Clockwise</relativeRotation>
       <stuff>WoodLog</stuff>
       <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
     </Door>
+    <SubcoreRipscanner>
+      <position>(2, 0, 5)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </SubcoreRipscanner>
+    <BasicRecharger>
+      <positions>
+        <li>(5, 0, 5)</li>
+        <li>(8, 0, 5)</li>
+        <li>(5, 0, 7)</li>
+        <li>(8, 0, 7)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+    </BasicRecharger>
+    <BasicRecharger>
+      <positions>
+        <li>(5, 0, 8)</li>
+        <li>(8, 0, 8)</li>
+      </positions>
+    </BasicRecharger>
+    <SubcoreEncoder>
+      <position>(2, 0, 10)</position>
+    </SubcoreEncoder>
+    <SubcoreSoftscanner>
+      <position>(5, 0, 10)</position>
+    </SubcoreSoftscanner>
+    <MechGestator>
+      <position>(8, 0, 11)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </MechGestator>
   </things>
   <terrainLayers></terrainLayers>
   <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(10,0,11,0)</li>
+      </rects>
+    </RoofConstructed>
     <PlayerRoofZone>
       <rects>
         <li>(0,0,12,12)</li>
