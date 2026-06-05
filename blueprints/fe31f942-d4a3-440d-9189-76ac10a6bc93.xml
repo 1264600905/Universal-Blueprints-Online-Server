@@ -1,10 +1,10 @@
 <PrefabDef>
-  <defName>Prefab_20260605_072422</defName>
+  <defName>Prefab_20260605_072229</defName>
   <size>(13,13)</size>
   <extraInfo>
     <version>1.6.9438.37837</version>
-    <name>阿凯的异常仪式广场</name>
-    <description>异常仪式广场</description>
+    <name>阿凯的活铁发电厂</name>
+    <description>活铁发电厂</description>
     <tags></tags>
     <author>Akai</author>
     <category>异常DLC</category>
@@ -16,30 +16,31 @@
         <version></version>
         <modorder>5</modorder>
         <things>
-          <li>ShardBeacon</li>
-          <li>PsychicRitualSpot</li>
-          <li>AtmosphericHeater</li>
+          <li>BioferriteGenerator</li>
+          <li>SecurityDoor</li>
         </things>
       </mod>
     </modPackages>
     <multiLanguage>
       <name>
-        <default>阿凯的异常仪式广场</default>
-        <zh-CN>阿凯的异常仪式广场</zh-CN>
+        <default>阿凯的活铁发电厂</default>
+        <zh-CN>阿凯的活铁发电厂</zh-CN>
       </name>
       <description>
-        <default>异常仪式广场</default>
-        <zh-CN>异常仪式广场</zh-CN>
+        <default>活铁发电厂</default>
+        <zh-CN>活铁发电厂</zh-CN>
       </description>
     </multiLanguage>
   </extraInfo>
   <things>
     <Wall>
       <rects>
-        <li>(0,0,12,0)</li>
+        <li>(0,0,8,0)</li>
+        <li>(10,0,12,0)</li>
         <li>(0,1,0,12)</li>
         <li>(12,1,12,12)</li>
-        <li>(1,12,8,12)</li>
+        <li>(1,12,1,12)</li>
+        <li>(4,12,7,12)</li>
         <li>(10,12,11,12)</li>
       </rects>
       <stuff>BlocksGranite</stuff>
@@ -47,31 +48,42 @@
     </Wall>
     <HiddenConduit>
       <rects>
-        <li>(1,0,1,12)</li>
+        <li>(1,0,1,1)</li>
+        <li>(1,12,1,12)</li>
       </rects>
       <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
     </HiddenConduit>
-    <ShardBeacon>
-      <rects>
-        <li>(1,2,1,2)</li>
-        <li>(8,2,8,2)</li>
-        <li>(1,8,1,8)</li>
-        <li>(8,8,8,8)</li>
-      </rects>
-    </ShardBeacon>
-    <PsychicRitualSpot>
-      <position>(5, 0, 5)</position>
-    </PsychicRitualSpot>
-    <AtmosphericHeater>
-      <position>(2, 0, 10)</position>
-    </AtmosphericHeater>
     <Door>
       <rects>
-        <li>(9,12,9,12)</li>
+        <li>(9,0,9,0)</li>
       </rects>
       <stuff>WoodLog</stuff>
       <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
     </Door>
+    <BioferriteGenerator>
+      <positions>
+        <li>(2, 0, 3)</li>
+        <li>(5, 0, 3)</li>
+        <li>(7, 0, 3)</li>
+        <li>(11, 0, 3)</li>
+        <li>(2, 0, 6)</li>
+        <li>(5, 0, 6)</li>
+        <li>(7, 0, 6)</li>
+        <li>(11, 0, 6)</li>
+        <li>(2, 0, 9)</li>
+        <li>(5, 0, 9)</li>
+        <li>(7, 0, 9)</li>
+        <li>(11, 0, 9)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </BioferriteGenerator>
+    <SecurityDoor>
+      <positions>
+        <li>(2, 0, 12)</li>
+        <li>(8, 0, 12)</li>
+      </positions>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </SecurityDoor>
   </things>
   <terrainLayers></terrainLayers>
   <roofs>
