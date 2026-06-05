@@ -1,95 +1,99 @@
 <PrefabDef>
-  <defName>Prefab_20260605_072229</defName>
-  <size>(13,13)</size>
+  <defName>Prefab_20260605_072851</defName>
+  <size>(13,7)</size>
   <extraInfo>
     <version>1.6.9438.37837</version>
-    <name>阿凯的活铁发电厂</name>
-    <description>活铁发电厂</description>
+    <name>阿凯的基因工厂</name>
+    <description>基因工厂</description>
     <tags></tags>
     <author>Akai</author>
-    <category>异常DLC</category>
+    <category>生物科技DLC</category>
     <BuildingID>fe31f942-d4a3-440d-9189-76ac10a6bc93</BuildingID>
     <modPackages>
       <mod>
-        <packageId>ludeon.rimworld.anomaly</packageId>
-        <name>Anomaly</name>
+        <packageId>ludeon.rimworld.biotech</packageId>
+        <name>Biotech</name>
         <version></version>
-        <modorder>5</modorder>
+        <modorder>4</modorder>
         <things>
-          <li>BioferriteGenerator</li>
-          <li>SecurityDoor</li>
+          <li>GeneProcessor</li>
+          <li>GeneBank</li>
+          <li>GeneExtractor</li>
+          <li>GeneAssembler</li>
         </things>
       </mod>
     </modPackages>
     <multiLanguage>
       <name>
-        <default>阿凯的活铁发电厂</default>
-        <zh-CN>阿凯的活铁发电厂</zh-CN>
+        <default>阿凯的基因工厂</default>
+        <zh-CN>阿凯的基因工厂</zh-CN>
       </name>
       <description>
-        <default>活铁发电厂</default>
-        <zh-CN>活铁发电厂</zh-CN>
+        <default>基因工厂</default>
+        <zh-CN>基因工厂</zh-CN>
       </description>
     </multiLanguage>
   </extraInfo>
   <things>
     <Wall>
       <rects>
-        <li>(0,0,8,0)</li>
-        <li>(10,0,12,0)</li>
-        <li>(0,1,0,12)</li>
-        <li>(12,1,12,12)</li>
-        <li>(1,12,1,12)</li>
-        <li>(4,12,7,12)</li>
-        <li>(10,12,11,12)</li>
+        <li>(0,0,4,0)</li>
+        <li>(6,0,10,0)</li>
+        <li>(12,0,12,6)</li>
+        <li>(0,1,0,6)</li>
+        <li>(1,6,10,6)</li>
       </rects>
       <stuff>BlocksGranite</stuff>
       <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
     </Wall>
     <HiddenConduit>
       <rects>
-        <li>(1,0,1,1)</li>
-        <li>(1,12,1,12)</li>
+        <li>(1,0,1,6)</li>
       </rects>
       <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
     </HiddenConduit>
     <Door>
       <rects>
-        <li>(9,0,9,0)</li>
+        <li>(5,0,5,0)</li>
+        <li>(11,6,11,6)</li>
       </rects>
       <stuff>WoodLog</stuff>
       <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
     </Door>
-    <BioferriteGenerator>
+    <GeneProcessor>
+      <position>(1, 0, 1)</position>
+    </GeneProcessor>
+    <GeneBank>
       <positions>
-        <li>(2, 0, 3)</li>
-        <li>(5, 0, 3)</li>
-        <li>(7, 0, 3)</li>
-        <li>(11, 0, 3)</li>
-        <li>(2, 0, 6)</li>
-        <li>(5, 0, 6)</li>
-        <li>(7, 0, 6)</li>
-        <li>(11, 0, 6)</li>
-        <li>(2, 0, 9)</li>
-        <li>(5, 0, 9)</li>
-        <li>(7, 0, 9)</li>
-        <li>(11, 0, 9)</li>
+        <li>(3, 0, 1)</li>
+        <li>(4, 0, 1)</li>
+        <li>(6, 0, 1)</li>
+        <li>(7, 0, 1)</li>
+        <li>(8, 0, 1)</li>
+        <li>(9, 0, 1)</li>
+        <li>(10, 0, 1)</li>
+        <li>(6, 0, 4)</li>
+        <li>(7, 0, 4)</li>
+        <li>(8, 0, 4)</li>
+        <li>(9, 0, 4)</li>
+        <li>(10, 0, 4)</li>
       </positions>
       <relativeRotation>Counterclockwise</relativeRotation>
-    </BioferriteGenerator>
-    <SecurityDoor>
-      <positions>
-        <li>(2, 0, 12)</li>
-        <li>(8, 0, 12)</li>
-      </positions>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </SecurityDoor>
+    </GeneBank>
+    <GeneExtractor>
+      <position>(2, 0, 5)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </GeneExtractor>
+    <GeneAssembler>
+      <position>(4, 0, 5)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </GeneAssembler>
   </things>
   <terrainLayers></terrainLayers>
   <roofs>
     <PlayerRoofZone>
       <rects>
-        <li>(0,0,12,12)</li>
+        <li>(0,0,12,6)</li>
       </rects>
     </PlayerRoofZone>
   </roofs>
