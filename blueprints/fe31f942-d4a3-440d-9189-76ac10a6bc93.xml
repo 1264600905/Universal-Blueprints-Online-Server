@@ -1,0 +1,95 @@
+<PrefabDef>
+  <defName>Prefab_20260605_072915</defName>
+  <size>(13,7)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>阿凯的研究室</name>
+    <description>研究室</description>
+    <tags></tags>
+    <author>Akai</author>
+    <category>科研</category>
+    <BuildingID>fe31f942-d4a3-440d-9189-76ac10a6bc93</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>ludeon.rimworld.anomaly</packageId>
+        <name>Anomaly</name>
+        <version></version>
+        <modorder>5</modorder>
+        <things>
+          <li>SerumCentrifuge</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>阿凯的研究室</default>
+        <zh-CN>阿凯的研究室</zh-CN>
+      </name>
+      <description>
+        <default>研究室</default>
+        <zh-CN>研究室</zh-CN>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,10,0)</li>
+        <li>(12,0,12,6)</li>
+        <li>(0,1,0,6)</li>
+        <li>(10,1,10,6)</li>
+        <li>(1,6,4,6)</li>
+        <li>(6,6,9,6)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Wall>
+    <HiddenConduit>
+      <rects>
+        <li>(1,0,1,6)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <Door>
+      <rects>
+        <li>(11,0,11,0)</li>
+        <li>(5,6,5,6)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <HiTechResearchBench>
+      <position>(2, 0, 3)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HiTechResearchBench>
+    <HiTechResearchBench>
+      <position>(5, 0, 2)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HiTechResearchBench>
+    <HiTechResearchBench>
+      <position>(8, 0, 3)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HiTechResearchBench>
+    <SerumCentrifuge>
+      <position>(4, 0, 4)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </SerumCentrifuge>
+    <MultiAnalyzer>
+      <position>(6, 0, 4)</position>
+    </MultiAnalyzer>
+  </things>
+  <terrainLayers></terrainLayers>
+  <roofs>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,12,6)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
