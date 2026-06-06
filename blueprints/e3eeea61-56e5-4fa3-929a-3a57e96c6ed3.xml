@@ -1,0 +1,171 @@
+<PrefabDef>
+  <defName>Prefab_20260606_183552</defName>
+  <size>(4,5)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>卧室</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>宿舍</category>
+    <BuildingID>e3eeea61-56e5-4fa3-929a-3a57e96c6ed3</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>zerowhite.dailyfurniture</packageId>
+        <name>Daily furniture 塔林家具</name>
+        <version></version>
+        <modorder>101</modorder>
+        <steamWorkshopId>3024562670</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>ludeon.rimworld</packageId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>ADH_bed_Single_B_A_FURNITURE</li>
+          <li>ADH_cabinet_A_D_FURNITURE</li>
+          <li>ADH_EndTable_A_A_FURNITURE</li>
+          <li>ADH_book_A_A_FURNITURE</li>
+          <li>ADH_book_A_B_FURNITURE</li>
+          <li>ADH_potting_A_A_FURNITURE</li>
+          <li>ADH_cabinet_A_B_FURNITURE</li>
+          <li>ADH_cabinet_A_C_FURNITURE</li>
+          <li>ADHFloor_Q</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>kindseal.ufli</packageId>
+        <name>联合轻工家具拓展-UF Light Industries Furniture</name>
+        <version></version>
+        <modorder>133</modorder>
+        <steamWorkshopId>3651799915</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFLI_Walllamp</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>dubwise.dubscentralheating</packageId>
+        <name>Dubs Central Heating</name>
+        <version>1.1.1012</version>
+        <modorder>78</modorder>
+        <steamWorkshopId>2619214952</steamWorkshopId>
+        <things>
+          <li>RadiatorStuffed</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>卧室</default>
+        <zh-CN>卧室</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <ADH_bed_Single_B_A_FURNITURE>
+      <position>(0, 0, 1)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </ADH_bed_Single_B_A_FURNITURE>
+    <ADH_cabinet_A_D_FURNITURE>
+      <position>(3, 0, 0)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </ADH_cabinet_A_D_FURNITURE>
+    <ADH_EndTable_A_A_FURNITURE>
+      <rects>
+        <li>(1,1,1,1)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </ADH_EndTable_A_A_FURNITURE>
+    <UFLI_Walllamp>
+      <rects>
+        <li>(0,2,0,2)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </UFLI_Walllamp>
+    <ADH_book_A_A_FURNITURE>
+      <position>(0, 0, 2)</position>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </ADH_book_A_A_FURNITURE>
+    <ADH_book_A_B_FURNITURE>
+      <rects>
+        <li>(2,2,2,2)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </ADH_book_A_B_FURNITURE>
+    <RadiatorStuffed>
+      <rects>
+        <li>(0,3,0,3)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+    </RadiatorStuffed>
+    <ADH_potting_A_A_FURNITURE>
+      <rects>
+        <li>(0,4,0,4)</li>
+      </rects>
+    </ADH_potting_A_A_FURNITURE>
+    <ADH_cabinet_A_B_FURNITURE>
+      <rects>
+        <li>(2,4,2,4)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </ADH_cabinet_A_B_FURNITURE>
+    <ADH_cabinet_A_C_FURNITURE>
+      <rects>
+        <li>(3,4,3,4)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </ADH_cabinet_A_C_FURNITURE>
+  </things>
+  <terrain>
+    <ADHFloor_Q>
+      <rects>
+        <li>(0,0,3,4)</li>
+      </rects>
+    </ADHFloor_Q>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <ADHFloor_Q>
+        <rects>
+          <li>(0,0,3,4)</li>
+        </rects>
+      </ADHFloor_Q>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Limestone_RoughHewn>
+        <rects>
+          <li>(0,0,3,4)</li>
+        </rects>
+      </Limestone_RoughHewn>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofRockThick>
+      <rects>
+        <li>(0,0,3,4)</li>
+      </rects>
+    </RoofRockThick>
+  </roofs>
+</PrefabDef>
