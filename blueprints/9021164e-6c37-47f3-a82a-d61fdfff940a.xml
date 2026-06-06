@@ -1,0 +1,163 @@
+<PrefabDef>
+  <defName>Prefab_20260606_170220</defName>
+  <size>(7,7)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>大狗多人宿舍</name>
+    <description></description>
+    <tags></tags>
+    <author>哈基米勇者</author>
+    <category>宿舍</category>
+    <BuildingID>9021164e-6c37-47f3-a82a-d61fdfff940a</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>melondove.wolfeinrace</packageId>
+        <name>Wolfein Race</name>
+        <version></version>
+        <modorder>74</modorder>
+        <steamWorkshopId>3473140562</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ancot.ancotlibrary</packageId>
+            <steamWorkshopId>2988801276</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Wolfein_DefenseWall</li>
+          <li>Wolfein_BedsideTable</li>
+          <li>Wolfein_SingleBed</li>
+          <li>Wolfein_3x3_Carpet</li>
+          <li>Wolfein_Floor_CeramicTile</li>
+          <li>Wolfein_Floor_CarpetTile</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>大狗多人宿舍</default>
+        <zh-CN>大狗多人宿舍</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wolfein_DefenseWall>
+      <rects>
+        <li>(0,0,6,0)</li>
+        <li>(0,1,0,2)</li>
+        <li>(6,1,6,6)</li>
+        <li>(0,4,0,6)</li>
+        <li>(1,6,2,6)</li>
+        <li>(4,6,5,6)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Wolfein_DefenseWall>
+    <Wolfein_BedsideTable>
+      <rects>
+        <li>(1,1,1,1)</li>
+        <li>(5,1,5,1)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <quality>Normal</quality>
+    </Wolfein_BedsideTable>
+    <Wolfein_SingleBed>
+      <positions>
+        <li>(2, 0, 1)</li>
+        <li>(4, 0, 1)</li>
+      </positions>
+      <quality>Normal</quality>
+      <color>RGBA(0.631, 0.835, 0.706, 1.000)</color>
+    </Wolfein_SingleBed>
+    <Wolfein_3x3_Carpet>
+      <position>(3, 0, 3)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Cloth</stuff>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </Wolfein_3x3_Carpet>
+    <Autodoor>
+      <rects>
+        <li>(0,3,0,3)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Autodoor>
+    <Wolfein_SingleBed>
+      <positions>
+        <li>(2, 0, 5)</li>
+        <li>(4, 0, 5)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <quality>Normal</quality>
+      <color>RGBA(0.631, 0.835, 0.706, 1.000)</color>
+    </Wolfein_SingleBed>
+    <Wolfein_BedsideTable>
+      <rects>
+        <li>(1,5,1,5)</li>
+        <li>(5,5,5,5)</li>
+      </rects>
+      <quality>Normal</quality>
+    </Wolfein_BedsideTable>
+    <Autodoor>
+      <rects>
+        <li>(3,6,3,6)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Autodoor>
+  </things>
+  <terrain>
+    <Wolfein_Floor_CeramicTile>
+      <rects>
+        <li>(0,0,6,0)</li>
+        <li>(0,1,0,6)</li>
+        <li>(6,1,6,6)</li>
+        <li>(1,6,5,6)</li>
+      </rects>
+    </Wolfein_Floor_CeramicTile>
+    <Wolfein_Floor_CarpetTile>
+      <rects>
+        <li>(1,1,5,5)</li>
+      </rects>
+    </Wolfein_Floor_CarpetTile>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <Wolfein_Floor_CeramicTile>
+        <rects>
+          <li>(0,0,6,0)</li>
+          <li>(0,1,0,6)</li>
+          <li>(6,1,6,6)</li>
+          <li>(1,6,5,6)</li>
+        </rects>
+      </Wolfein_Floor_CeramicTile>
+      <Wolfein_Floor_CarpetTile>
+        <rects>
+          <li>(1,1,5,5)</li>
+        </rects>
+      </Wolfein_Floor_CarpetTile>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(0,0,6,6)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,6,6)</li>
+      </rects>
+    </RoofConstructed>
+  </roofs>
+</PrefabDef>
