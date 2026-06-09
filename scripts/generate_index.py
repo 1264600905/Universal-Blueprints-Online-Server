@@ -100,14 +100,29 @@ def fetch_from_database():
     }
 
     print("🔌 Attempting to connect to Database...")
-    # 只获取活跃的蓝图（包含精选和奖章状态）
-    url = f"{SUPABASE_URL}/rest/v1/blueprints?select=id,name,author,author_steam_id,category,tags,width,height,version,github_path,stat_likes,stat_dislikes,stat_added_to_library,created_at,updated_at,featured_blueprints(*),architectural_medals(*)&is_active=eq.true"
+    # 只获取活跃的蓝图（包含精选和奖章状态）。Supabase REST 默认单次最多返回 1000 行，所以这里分页拉取。
+    base_url = f"{SUPABASE_URL}/rest/v1/blueprints?select=id,name,author,author_steam_id,category,tags,width,height,version,github_path,stat_likes,stat_dislikes,stat_added_to_library,created_at,updated_at,featured_blueprints(*),architectural_medals(*)&is_active=eq.true&order=created_at.desc"
     
-    response = requests.get(url, headers=headers, timeout=10) # 设置超时防止卡死
-    if response.status_code != 200:
-        raise Exception(f"DB Error {response.status_code}: {response.text}")
+    page_size = 1000
+    offset = 0
+    all_records = []
+
+    while True:
+        url = f"{base_url}&limit={page_size}&offset={offset}"
+        response = requests.get(url, headers=headers, timeout=10) # 设置超时防止卡死
+        if response.status_code != 200:
+            raise Exception(f"DB Error {response.status_code}: {response.text}")
+
+        batch = response.json()
+        all_records.extend(batch)
+        print(f"   Fetched {len(batch)} records, total {len(all_records)}")
+
+        if len(batch) < page_size:
+            break
+
+        offset += page_size
         
-    return response.json()
+    return all_records
 
 def scan_filesystem_fallback():
     """[防御策略] 文件系统扫描模式"""
