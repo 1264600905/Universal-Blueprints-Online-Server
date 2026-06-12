@@ -1,0 +1,73 @@
+<PrefabDef>
+  <defName>Prefab_20260528_160842</defName>
+  <size>(9,8)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>地热发电器</name>
+    <description>简单地热</description>
+    <tags></tags>
+    <author>FTX</author>
+    <category>电力</category>
+    <BuildingID>fde83893-96f0-477a-9ee0-d50938c73db3</BuildingID>
+    <modPackages></modPackages>
+    <multiLanguage>
+      <name>
+        <default>地热发电器</default>
+        <zh-CN>地热发电器</zh-CN>
+      </name>
+      <description>
+        <default>简单地热</default>
+        <zh-CN>简单地热</zh-CN>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,8,0)</li>
+        <li>(0,1,0,5)</li>
+        <li>(8,1,8,7)</li>
+        <li>(0,7,7,7)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+      <hp>360</hp>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </Wall>
+    <PowerConduit>
+      <rects>
+        <li>(1,1,1,6)</li>
+        <li>(0,6,0,6)</li>
+      </rects>
+      <hp>80</hp>
+    </PowerConduit>
+    <GeothermalGenerator>
+      <position>(4, 0, 3)</position>
+      <hp>500</hp>
+    </GeothermalGenerator>
+    <SteamGeyser>
+      <position>(4, 0, 3)</position>
+    </SteamGeyser>
+    <Door>
+      <rects>
+        <li>(0,6,0,6)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+      <hp>192</hp>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </Door>
+  </things>
+  <terrainLayers></terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,8,7)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,8,7)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
