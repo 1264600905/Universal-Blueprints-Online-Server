@@ -1,8 +1,8 @@
 <PrefabDef>
-  <defName>Prefab_20260531_211927</defName>
+  <defName>Prefab_20260613_233648</defName>
   <size>(7,5)</size>
   <extraInfo>
-    <version>1.6.9438.37837</version>
+    <version>1.6.9655.19392</version>
     <name>外骨框架整備機台</name>
     <description>一台外骨框架整備機台，可停靠一台外骨框架。</description>
     <tags></tags>
@@ -14,7 +14,7 @@
         <packageId>aoba.exosuit.framework</packageId>
         <name>Exosuit Framework</name>
         <version></version>
-        <modorder>231</modorder>
+        <modorder>237</modorder>
         <steamWorkshopId>3352894993</steamWorkshopId>
         <dependencies>
           <li>
@@ -29,36 +29,6 @@
           <li>MF_Building_ComponentStorage</li>
           <li>MF_Building_Scaffold</li>
           <li>MF_Building_AutoRepairArm</li>
-        </things>
-      </mod>
-      <mod>
-        <packageId>dubwise.dubsbadhygiene</packageId>
-        <name>Dubs Bad Hygiene</name>
-        <version>3.1.2800</version>
-        <modorder>47</modorder>
-        <steamWorkshopId>836308268</steamWorkshopId>
-        <things>
-          <li>airPipeHidden</li>
-        </things>
-      </mod>
-      <mod>
-        <packageId>aoba.fortress.industrial</packageId>
-        <name>Fortifications - Industrial</name>
-        <version></version>
-        <modorder>305</modorder>
-        <steamWorkshopId>2561619583</steamWorkshopId>
-        <dependencies>
-          <li>
-            <packageId>brrainz.harmony</packageId>
-            <steamWorkshopId>2009463077</steamWorkshopId>
-          </li>
-          <li>
-            <packageId>aoba.framework</packageId>
-            <steamWorkshopId>3498575851</steamWorkshopId>
-          </li>
-        </dependencies>
-        <things>
-          <li>FT_Concrete</li>
         </things>
       </mod>
     </modPackages>
@@ -90,12 +60,6 @@
     <MF_Building_MaintenanceBay>
       <position>(3, 0, 1)</position>
     </MF_Building_MaintenanceBay>
-    <airPipeHidden>
-      <rects>
-        <li>(6,0,6,0)</li>
-      </rects>
-      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
-    </airPipeHidden>
     <MF_Building_ComponentStorage>
       <positions>
         <li>(0, 0, 2)</li>
@@ -127,43 +91,14 @@
       <relativeRotation>Opposite</relativeRotation>
     </MF_Building_PayloadStorage>
   </things>
-  <terrainLayers>
-    <terrainLayerDetail layer="topGrid">
-      <FT_Concrete>
-        <rects>
-          <li>(0,0,6,4)</li>
-        </rects>
-      </FT_Concrete>
-    </terrainLayerDetail>
-    <terrainLayerDetail layer="underGrid">
-      <Soil>
-        <rects>
-          <li>(0,0,6,0)</li>
-        </rects>
-      </Soil>
-      <Granite_RoughHewn>
-        <rects>
-          <li>(0,1,6,3)</li>
-          <li>(0,4,1,4)</li>
-          <li>(6,4,6,4)</li>
-        </rects>
-      </Granite_RoughHewn>
-      <Granite_Rough>
-        <rects>
-          <li>(2,4,5,4)</li>
-        </rects>
-      </Granite_Rough>
-    </terrainLayerDetail>
-  </terrainLayers>
+  <terrainLayers></terrainLayers>
   <roofs>
-    <RoofRockThick>
-      <rects>
-        <li>(0,0,6,4)</li>
-      </rects>
-    </RoofRockThick>
     <PlayerRoofZone>
       <rects>
-        <li>(0,0,6,0)</li>
+        <li>(2,0,6,1)</li>
+        <li>(3,2,6,2)</li>
+        <li>(4,3,6,3)</li>
+        <li>(5,4,6,4)</li>
       </rects>
     </PlayerRoofZone>
   </roofs>
