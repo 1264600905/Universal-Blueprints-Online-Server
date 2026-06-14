@@ -1,0 +1,224 @@
+<PrefabDef>
+  <defName>Prefab_20260614_150041</defName>
+  <size>(10,6)</size>
+  <extraInfo>
+    <version>1.6.9655.19392</version>
+    <name>1</name>
+    <description>2</description>
+    <tags></tags>
+    <author></author>
+    <category>宿舍</category>
+    <BuildingID>917310be-ab56-47b5-b209-a931f2186bba</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>ludeon.rimworld.odyssey</packageId>
+        <name>Odyssey</name>
+        <version></version>
+        <modorder>9</modorder>
+        <things>
+          <li>GravshipHull</li>
+          <li>VacBarrier</li>
+          <li>Substructure</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>kindseal.lol</packageId>
+        <name>联合重工-UF Heavy Industries</name>
+        <version></version>
+        <modorder>305</modorder>
+        <steamWorkshopId>3555662938</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+          <li>
+            <packageId>dizhuan.sralib</packageId>
+            <steamWorkshopId>3565275325</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>KT_steel</li>
+          <li>KT_wallTV</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>kindseal.ufli</packageId>
+        <name>联合轻工家具拓展-UF Light Industries Furniture</name>
+        <version></version>
+        <modorder>306</modorder>
+        <steamWorkshopId>3651799915</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFLI_Floorlight</li>
+          <li>UFLI_Television</li>
+          <li>UFLI_Chair</li>
+          <li>UFLI_laptop</li>
+          <li>UFLI_1X2_Table</li>
+          <li>UFLI_CarpetB</li>
+          <li>UFLI_DoubleBed</li>
+          <li>UFLI_Decoration_Big_Holographic</li>
+          <li>UFLI_TempControler</li>
+          <li>UFLI_FLOORD</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>dubwise.dubsbadhygiene</packageId>
+        <name>Dubs Bad Hygiene</name>
+        <version>3.1.2800</version>
+        <modorder>247</modorder>
+        <steamWorkshopId>836308268</steamWorkshopId>
+        <things>
+          <li>sewagePipeHidden</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>1</default>
+        <zh-CN>1</zh-CN>
+      </name>
+      <description>
+        <default>2</default>
+        <zh-CN>2</zh-CN>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <GravshipHull>
+      <rects>
+        <li>(0,0,9,0)</li>
+        <li>(0,1,0,5)</li>
+        <li>(9,1,9,2)</li>
+        <li>(9,4,9,5)</li>
+        <li>(1,5,8,5)</li>
+      </rects>
+      <stuff>KT_steel</stuff>
+    </GravshipHull>
+    <HiddenConduit>
+      <rects>
+        <li>(5,0,5,5)</li>
+        <li>(6,5,9,5)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <UFLI_Floorlight>
+      <rects>
+        <li>(1,1,1,1)</li>
+      </rects>
+    </UFLI_Floorlight>
+    <UFLI_Television>
+      <position>(2, 0, 1)</position>
+    </UFLI_Television>
+    <UFLI_Chair>
+      <rects>
+        <li>(7,1,7,1)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Legendary</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Chair>
+    <UFLI_laptop>
+      <rects>
+        <li>(8,1,8,1)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </UFLI_laptop>
+    <UFLI_1X2_Table>
+      <position>(8, 0, 2)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Legendary</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_1X2_Table>
+    <UFLI_CarpetB>
+      <position>(2, 0, 3)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Legendary</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </UFLI_CarpetB>
+    <UFLI_CarpetB>
+      <position>(7, 0, 3)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Legendary</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </UFLI_CarpetB>
+    <UFLI_DoubleBed>
+      <position>(2, 0, 4)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <quality>Legendary</quality>
+      <color>RGBA(0.631, 0.835, 0.706, 1.000)</color>
+    </UFLI_DoubleBed>
+    <VacBarrier>
+      <rects>
+        <li>(9,3,9,3)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <color>RGBA(0.557, 0.557, 0.557, 1.000)</color>
+    </VacBarrier>
+    <UFLI_Decoration_Big_Holographic>
+      <position>(4, 0, 4)</position>
+    </UFLI_Decoration_Big_Holographic>
+    <UFLI_TempControler>
+      <rects>
+        <li>(6,4,6,4)</li>
+      </rects>
+    </UFLI_TempControler>
+    <KT_wallTV>
+      <position>(7, 0, 4)</position>
+    </KT_wallTV>
+    <sewagePipeHidden>
+      <rects>
+        <li>(4,5,9,5)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </sewagePipeHidden>
+  </things>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <UFLI_FLOORD>
+        <rects>
+          <li>(0,0,9,5)</li>
+        </rects>
+      </UFLI_FLOORD>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(0,0,9,5)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="foundationGrid">
+      <Substructure>
+        <rects>
+          <li>(0,0,9,5)</li>
+        </rects>
+      </Substructure>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,9,5)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,9,5)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
