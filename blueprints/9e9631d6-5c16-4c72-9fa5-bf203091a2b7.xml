@@ -1,8 +1,8 @@
 <PrefabDef>
-  <defName>Prefab_20260604_215938</defName>
+  <defName>Prefab_20260614_223834</defName>
   <size>(25,15)</size>
   <extraInfo>
-    <version>1.6.9438.37837</version>
+    <version>1.6.9655.19392</version>
     <name>失能機關車間</name>
     <description>所有失能機關有關的東西都在這裡建造。(除了精密製造中心)(機械組裝平台到6會變成非車間，因此拆了一台)</description>
     <tags>
@@ -16,7 +16,7 @@
         <packageId>aoba.deadmanswitch.core</packageId>
         <name><![CDATA[The Dead Man's Switch]]></name>
         <version>1.8.25</version>
-        <modorder>227</modorder>
+        <modorder>231</modorder>
         <steamWorkshopId>3121742525</steamWorkshopId>
         <dependencies>
           <li>
@@ -37,15 +37,15 @@
           <li>DMS_TableMachinePrinter</li>
           <li>DMS_MechGestatorSmall</li>
           <li>DMS_TableArtifuscle</li>
-          <li>DMS_ReactionChamber</li>
           <li>DMS_Furnace</li>
+          <li>DMS_ReactionChamber</li>
         </things>
       </mod>
       <mod>
         <packageId>aoba.fortress.industrial.citadel</packageId>
         <name>Fortification Industrial - Citadel</name>
         <version></version>
-        <modorder>308</modorder>
+        <modorder>312</modorder>
         <steamWorkshopId>2887532326</steamWorkshopId>
         <dependencies>
           <li>
@@ -62,7 +62,6 @@
           </li>
         </dependencies>
         <things>
-          <li>FTC_PowerConduit</li>
           <li>FT_transformer</li>
         </things>
       </mod>
@@ -70,7 +69,7 @@
         <packageId>nephlite.orbitaltradecolumn</packageId>
         <name>Utility Columns</name>
         <version></version>
-        <modorder>283</modorder>
+        <modorder>287</modorder>
         <steamWorkshopId>2013476665</steamWorkshopId>
         <dependencies>
           <li>
@@ -81,6 +80,37 @@
         <things>
           <li>Wall_HeatDevice</li>
           <li>Wall_CoolDevice</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>aoba.deadmanswitch.expedition</packageId>
+        <name><![CDATA[The Dead Man's Switch - Expedition]]></name>
+        <version>0.35</version>
+        <modorder>234</modorder>
+        <steamWorkshopId>3689879335</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>ludeon.rimworld.odyssey</packageId>
+          </li>
+          <li>
+            <packageId>aoba.deadmanswitch.core</packageId>
+            <steamWorkshopId>3121742525</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+          <li>
+            <packageId>aoba.framework</packageId>
+            <steamWorkshopId>3498575851</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>DMSE_TableArtifuscle</li>
+          <li>DMSE_TableLathe</li>
         </things>
       </mod>
       <mod>
@@ -104,36 +134,6 @@
         </things>
       </mod>
       <mod>
-        <packageId>aoba.deadmanswitch.expedition</packageId>
-        <name><![CDATA[The Dead Man's Switch - Expedition]]></name>
-        <version>0.35</version>
-        <modorder>230</modorder>
-        <steamWorkshopId>3689879335</steamWorkshopId>
-        <dependencies>
-          <li>
-            <packageId>ludeon.rimworld.odyssey</packageId>
-          </li>
-          <li>
-            <packageId>aoba.deadmanswitch.core</packageId>
-            <steamWorkshopId>3121742525</steamWorkshopId>
-          </li>
-          <li>
-            <packageId>brrainz.harmony</packageId>
-            <steamWorkshopId>2009463077</steamWorkshopId>
-          </li>
-          <li>
-            <packageId>ludeon.rimworld.biotech</packageId>
-          </li>
-          <li>
-            <packageId>aoba.framework</packageId>
-            <steamWorkshopId>3498575851</steamWorkshopId>
-          </li>
-        </dependencies>
-        <things>
-          <li>DMSE_TableLathe</li>
-        </things>
-      </mod>
-      <mod>
         <packageId>ludeon.rimworld.biotech</packageId>
         <name>Biotech</name>
         <version></version>
@@ -146,7 +146,7 @@
         <packageId>tw.is.industrialismstyle</packageId>
         <name>[TW1.6]工业风格 Industrialism Style</name>
         <version></version>
-        <modorder>211</modorder>
+        <modorder>215</modorder>
         <steamWorkshopId>3676411167</steamWorkshopId>
         <dependencies>
           <li>
@@ -186,8 +186,7 @@
     </Wall>
     <HiddenConduit>
       <rects>
-        <li>(0,0,11,0)</li>
-        <li>(13,0,24,0)</li>
+        <li>(0,0,24,0)</li>
         <li>(0,1,0,14)</li>
         <li>(12,1,12,7)</li>
         <li>(24,1,24,14)</li>
@@ -202,21 +201,16 @@
       <stuff>Steel</stuff>
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </Autodoor>
-    <FTC_PowerConduit>
-      <rects>
-        <li>(12,0,12,0)</li>
-      </rects>
-    </FTC_PowerConduit>
     <FT_transformer>
       <positions>
         <li>(1, 0, 1)</li>
         <li>(22, 0, 1)</li>
         <li>(1, 0, 2)</li>
         <li>(22, 0, 2)</li>
+        <li>(5, 0, 8)</li>
         <li>(7, 0, 8)</li>
-        <li>(9, 0, 8)</li>
-        <li>(14, 0, 8)</li>
         <li>(16, 0, 8)</li>
+        <li>(18, 0, 8)</li>
       </positions>
     </FT_transformer>
     <DMS_MachineCabinet>
@@ -247,6 +241,13 @@
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
       <glowColor>RGBA(0.655, 0.741, 0.839, 0.000)</glowColor>
     </WallLamp>
+    <DMS_MechGestatorSmall>
+      <positions>
+        <li>(2, 0, 4)</li>
+        <li>(2, 0, 7)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+    </DMS_MechGestatorSmall>
     <DiningChair>
       <rects>
         <li>(6,3,6,3)</li>
@@ -262,35 +263,29 @@
       <quality>Normal</quality>
       <color>RGBA(0.314, 0.314, 0.314, 1.000)</color>
     </DiningChair>
-    <DMS_MechGestatorSmall>
-      <positions>
-        <li>(22, 0, 4)</li>
-        <li>(22, 0, 7)</li>
-        <li>(22, 0, 10)</li>
-      </positions>
-      <relativeRotation>Counterclockwise</relativeRotation>
-    </DMS_MechGestatorSmall>
     <DiningChair>
       <rects>
-        <li>(9,4,9,4)</li>
+        <li>(8,3,8,3)</li>
+        <li>(16,3,16,3)</li>
         <li>(12,4,12,4)</li>
-        <li>(15,4,15,4)</li>
       </rects>
       <stuff>Tungsteel</stuff>
       <quality>Normal</quality>
       <color>RGBA(0.314, 0.314, 0.314, 1.000)</color>
     </DiningChair>
-    <Wall_HeatDevice>
-      <rects>
-        <li>(1,5,1,5)</li>
-        <li>(1,8,1,8)</li>
-      </rects>
+    <DMS_MechGestatorSmall>
+      <positions>
+        <li>(22, 0, 4)</li>
+        <li>(22, 0, 7)</li>
+      </positions>
       <relativeRotation>Counterclockwise</relativeRotation>
-    </Wall_HeatDevice>
+    </DMS_MechGestatorSmall>
     <ToolCabinet>
       <positions>
-        <li>(6, 0, 5)</li>
-        <li>(17, 0, 5)</li>
+        <li>(5, 0, 4)</li>
+        <li>(10, 0, 4)</li>
+        <li>(13, 0, 4)</li>
+        <li>(18, 0, 4)</li>
         <li>(1, 0, 12)</li>
         <li>(22, 0, 12)</li>
         <li>(1, 0, 13)</li>
@@ -301,13 +296,40 @@
     </ToolCabinet>
     <DMS_TableArtifuscle>
       <positions>
-        <li>(9, 0, 5)</li>
-        <li>(15, 0, 5)</li>
+        <li>(8, 0, 4)</li>
+        <li>(16, 0, 4)</li>
       </positions>
     </DMS_TableArtifuscle>
-    <DMS_ReactionChamber>
+    <Wall_HeatDevice>
+      <rects>
+        <li>(1,5,1,5)</li>
+        <li>(1,8,1,8)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </Wall_HeatDevice>
+    <DMSE_TableArtifuscle>
+      <position>(7, 0, 6)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </DMSE_TableArtifuscle>
+    <DMS_MachineCabinet>
+      <positions>
+        <li>(9, 0, 5)</li>
+        <li>(14, 0, 5)</li>
+        <li>(9, 0, 6)</li>
+        <li>(14, 0, 6)</li>
+        <li>(9, 0, 7)</li>
+        <li>(14, 0, 7)</li>
+        <li>(9, 0, 8)</li>
+        <li>(14, 0, 8)</li>
+      </positions>
+    </DMS_MachineCabinet>
+    <DMS_Furnace>
       <position>(12, 0, 6)</position>
-    </DMS_ReactionChamber>
+    </DMS_Furnace>
+    <DMSE_TableArtifuscle>
+      <position>(17, 0, 6)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </DMSE_TableArtifuscle>
     <Wall_HeatDevice>
       <rects>
         <li>(23,5,23,5)</li>
@@ -315,33 +337,24 @@
       </rects>
       <relativeRotation>Clockwise</relativeRotation>
     </Wall_HeatDevice>
-    <DMS_MechGestatorSmall>
-      <positions>
-        <li>(2, 0, 7)</li>
-        <li>(2, 0, 10)</li>
-      </positions>
+    <DiningChair>
+      <rects>
+        <li>(5,6,5,6)</li>
+      </rects>
       <relativeRotation>Clockwise</relativeRotation>
-    </DMS_MechGestatorSmall>
-    <DMS_TableArtifuscle>
-      <position>(6, 0, 7)</position>
-      <relativeRotation>Clockwise</relativeRotation>
-    </DMS_TableArtifuscle>
-    <DMS_MachineCabinet>
-      <positions>
-        <li>(7, 0, 6)</li>
-        <li>(9, 0, 6)</li>
-        <li>(14, 0, 6)</li>
-        <li>(16, 0, 6)</li>
-        <li>(7, 0, 7)</li>
-        <li>(9, 0, 7)</li>
-        <li>(14, 0, 7)</li>
-        <li>(16, 0, 7)</li>
-      </positions>
-    </DMS_MachineCabinet>
-    <DMS_TableArtifuscle>
-      <position>(18, 0, 7)</position>
+      <stuff>Tungsteel</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.314, 0.314, 0.314, 1.000)</color>
+    </DiningChair>
+    <DiningChair>
+      <rects>
+        <li>(19,6,19,6)</li>
+      </rects>
       <relativeRotation>Counterclockwise</relativeRotation>
-    </DMS_TableArtifuscle>
+      <stuff>Tungsteel</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.314, 0.314, 0.314, 1.000)</color>
+    </DiningChair>
     <WallLamp>
       <rects>
         <li>(1,7,1,7)</li>
@@ -351,24 +364,6 @@
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
       <glowColor>RGBA(0.655, 0.741, 0.839, 0.000)</glowColor>
     </WallLamp>
-    <DiningChair>
-      <rects>
-        <li>(5,7,5,7)</li>
-      </rects>
-      <relativeRotation>Clockwise</relativeRotation>
-      <stuff>Tungsteel</stuff>
-      <quality>Normal</quality>
-      <color>RGBA(0.314, 0.314, 0.314, 1.000)</color>
-    </DiningChair>
-    <DiningChair>
-      <rects>
-        <li>(19,7,19,7)</li>
-      </rects>
-      <relativeRotation>Counterclockwise</relativeRotation>
-      <stuff>Tungsteel</stuff>
-      <quality>Normal</quality>
-      <color>RGBA(0.314, 0.314, 0.314, 1.000)</color>
-    </DiningChair>
     <WallLamp>
       <rects>
         <li>(23,7,23,7)</li>
@@ -382,6 +377,10 @@
       <position>(12, 0, 9)</position>
       <relativeRotation>Opposite</relativeRotation>
     </DMS_Furnace>
+    <DMS_ReactionChamber>
+      <position>(2, 0, 10)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </DMS_ReactionChamber>
     <Post>
       <rects>
         <li>(5,9,5,9)</li>
@@ -398,6 +397,10 @@
       </positions>
       <relativeRotation>Opposite</relativeRotation>
     </DMSE_TableLathe>
+    <DMS_ReactionChamber>
+      <position>(22, 0, 10)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </DMS_ReactionChamber>
     <WastepackAtomizer>
       <positions>
         <li>(6, 0, 12)</li>
