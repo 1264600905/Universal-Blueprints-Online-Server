@@ -1,0 +1,133 @@
+<PrefabDef>
+  <defName>Prefab_20260615_193127</defName>
+  <size>(6,6)</size>
+  <extraInfo>
+    <version>1.6.9655.19392</version>
+    <name>白洋猫耳阵宿舍</name>
+    <description>白洋猫耳阵宿舍区区块</description>
+    <tags></tags>
+    <author></author>
+    <category>宿舍</category>
+    <BuildingID>73f5310d-d256-47a6-91a6-2d2e56767fe6</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>keeptpa.nivariandraconiture</packageId>
+        <name>Nivarian Race: Draconiture</name>
+        <version>20260607012343</version>
+        <modorder>362</modorder>
+        <steamWorkshopId>3686517288</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>keeptpa.nivarianrace</packageId>
+            <steamWorkshopId>3624805128</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>NivarianStatue</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>kindseal.ufli</packageId>
+        <name>联合轻工家具拓展-UF Light Industries Furniture</name>
+        <version></version>
+        <modorder>472</modorder>
+        <steamWorkshopId>3651799915</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFLI_FLOORH</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>白洋猫耳阵宿舍</default>
+        <zh-CN>白洋猫耳阵宿舍</zh-CN>
+      </name>
+      <description>
+        <default>白洋猫耳阵宿舍区区块</default>
+        <zh-CN>白洋猫耳阵宿舍区区块</zh-CN>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,2,0)</li>
+        <li>(4,0,5,0)</li>
+        <li>(0,1,0,5)</li>
+        <li>(5,1,5,5)</li>
+        <li>(1,5,4,5)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Wall>
+    <Door>
+      <rects>
+        <li>(3,0,3,0)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <DoubleBed>
+      <position>(4, 0, 4)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DoubleBed>
+    <NivarianStatue>
+      <rects>
+        <li>(1,4,1,4)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </NivarianStatue>
+    <EndTable>
+      <rects>
+        <li>(2,4,2,4)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Legendary</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </EndTable>
+  </things>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <UFLI_FLOORH>
+        <rects>
+          <li>(0,0,5,5)</li>
+        </rects>
+      </UFLI_FLOORH>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(0,0,5,5)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,5,5)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,5,5)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
