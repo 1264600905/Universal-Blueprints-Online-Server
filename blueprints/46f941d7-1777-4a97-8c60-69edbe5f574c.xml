@@ -1,0 +1,125 @@
+<PrefabDef>
+  <defName>Prefab_20260615_231032</defName>
+  <size>(6,6)</size>
+  <extraInfo>
+    <version>1.6.9655.19392</version>
+    <name>单人双人房间</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>宿舍</category>
+    <BuildingID>46f941d7-1777-4a97-8c60-69edbe5f574c</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>aoba.fortress.industrial.concrete</packageId>
+        <name>Industrial concrete</name>
+        <version></version>
+        <modorder>95</modorder>
+        <steamWorkshopId>2888037450</steamWorkshopId>
+        <things>
+          <li>FT_BlocksConcrete</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>vanillaexpanded.vfecore</packageId>
+        <name>Vanilla Furniture Expanded</name>
+        <version></version>
+        <modorder>211</modorder>
+        <steamWorkshopId>1718190143</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Table_Wardrobe</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>单人双人房间</default>
+        <zh-CN>单人双人房间</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,5,0)</li>
+        <li>(0,1,0,5)</li>
+        <li>(5,2,5,5)</li>
+        <li>(1,5,4,5)</li>
+      </rects>
+      <stuff>FT_BlocksConcrete</stuff>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </Wall>
+    <HiddenConduit>
+      <rects>
+        <li>(0,0,0,5)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <WallLamp>
+      <rects>
+        <li>(1,1,1,1)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </WallLamp>
+    <Door>
+      <rects>
+        <li>(5,1,5,1)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <EndTable>
+      <rects>
+        <li>(1,2,1,2)</li>
+      </rects>
+      <stuff>FT_BlocksConcrete</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </EndTable>
+    <DoubleBed>
+      <position>(1, 0, 4)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>FT_BlocksConcrete</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </DoubleBed>
+    <Dresser>
+      <position>(3, 0, 3)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>FT_BlocksConcrete</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </Dresser>
+    <Table_Wardrobe>
+      <position>(4, 0, 3)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>FT_BlocksConcrete</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </Table_Wardrobe>
+  </things>
+  <terrainLayers></terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,5,5)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,5,5)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
