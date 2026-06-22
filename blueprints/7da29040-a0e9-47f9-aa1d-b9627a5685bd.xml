@@ -1,0 +1,180 @@
+<PrefabDef>
+  <defName>Prefab_20260622_233705</defName>
+  <size>(7,7)</size>
+  <extraInfo>
+    <version>1.6.9655.19392</version>
+    <name>woshi2</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>宿舍</category>
+    <BuildingID>7da29040-a0e9-47f9-aa1d-b9627a5685bd</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>kindseal.ufli</packageId>
+        <name>联合轻工家具拓展-UF Light Industries Furniture</name>
+        <version></version>
+        <modorder>396</modorder>
+        <steamWorkshopId>3651799915</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFLI_Wall</li>
+          <li>UFLI_1_Frame_DOOR</li>
+          <li>UFLI_1_Autodoor</li>
+          <li>UFLI_TempControler</li>
+          <li>UFLI_Decoration_Big_Flower</li>
+          <li>UFLI_CarpetB</li>
+          <li>UFLI_Walllamp</li>
+          <li>UFLI_Chair</li>
+          <li>UFLI_Bed</li>
+          <li>UFLI_CabinetC</li>
+          <li>UFLI_Endtable</li>
+          <li>UFLI_laptop</li>
+          <li>UFLI_FLOOR</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>woshi2</default>
+        <zh-CN>woshi2</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <UFLI_Wall>
+      <rects>
+        <li>(0,0,2,0)</li>
+        <li>(4,0,6,0)</li>
+        <li>(0,1,0,6)</li>
+        <li>(6,1,6,6)</li>
+        <li>(1,6,5,6)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Wall>
+    <HiddenConduit>
+      <rects>
+        <li>(0,0,6,0)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <UFLI_1_Frame_DOOR>
+      <rects>
+        <li>(3,0,3,0)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_1_Frame_DOOR>
+    <UFLI_1_Autodoor>
+      <rects>
+        <li>(3,0,3,0)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_1_Autodoor>
+    <UFLI_TempControler>
+      <rects>
+        <li>(2,1,2,1)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </UFLI_TempControler>
+    <UFLI_Decoration_Big_Flower>
+      <rects>
+        <li>(2,1,2,1)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </UFLI_Decoration_Big_Flower>
+    <UFLI_CarpetB>
+      <position>(4, 0, 2)</position>
+      <stuff>Cloth</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </UFLI_CarpetB>
+    <UFLI_Walllamp>
+      <rects>
+        <li>(4,1,4,1)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </UFLI_Walllamp>
+    <UFLI_Chair>
+      <rects>
+        <li>(4,4,4,4)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Chair>
+    <UFLI_Bed>
+      <position>(5, 0, 5)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <quality>Excellent</quality>
+      <color>RGBA(0.631, 0.835, 0.706, 1.000)</color>
+    </UFLI_Bed>
+    <UFLI_CabinetC>
+      <position>(3, 0, 5)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_CabinetC>
+    <UFLI_Endtable>
+      <rects>
+        <li>(4,5,4,5)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Endtable>
+    <UFLI_laptop>
+      <rects>
+        <li>(4,5,4,5)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </UFLI_laptop>
+  </things>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <UFLI_FLOOR>
+        <rects>
+          <li>(3,0,3,5)</li>
+          <li>(1,1,2,5)</li>
+          <li>(4,1,5,5)</li>
+        </rects>
+      </UFLI_FLOOR>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Limestone_Rough>
+        <rects>
+          <li>(3,0,3,5)</li>
+          <li>(1,1,2,5)</li>
+          <li>(4,1,5,5)</li>
+        </rects>
+      </Limestone_Rough>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,6,5)</li>
+        <li>(3,6,6,6)</li>
+      </rects>
+    </RoofConstructed>
+    <RoofRockThin>
+      <rects>
+        <li>(0,6,2,6)</li>
+      </rects>
+    </RoofRockThin>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,6,6)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
