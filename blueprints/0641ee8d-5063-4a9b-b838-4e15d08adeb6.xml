@@ -1,5 +1,5 @@
 <PrefabDef>
-  <defName>Prefab_20260623_222414</defName>
+  <defName>Prefab_20260623_222532</defName>
   <size>(37,39)</size>
   <extraInfo>
     <version>1.6.9655.19392</version>
@@ -92,7 +92,6 @@
           <li>SmallThruster</li>
           <li>GravshipHull</li>
           <li>OxygenPump</li>
-          <li>GravEngine</li>
           <li>GravshipShieldGenerator</li>
           <li>VacBarrier</li>
           <li>PilotSubpersonaCore</li>
@@ -166,6 +165,25 @@
         <modorder>4</modorder>
         <things>
           <li>ShipLandingBeacon</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>btd.remix.gravshipblueprints</packageId>
+        <name>[BTD] Gravship Blueprints</name>
+        <version></version>
+        <modorder>202</modorder>
+        <steamWorkshopId>3575162262</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>ludeon.rimworld.odyssey</packageId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>BTD_GravEngine_Dormant</li>
         </things>
       </mod>
       <mod>
@@ -643,9 +661,9 @@
         <li>(24, 0, 21)</li>
       </positions>
     </DMS_MachineCabinet>
-    <GravEngine>
+    <BTD_GravEngine_Dormant>
       <position>(18, 0, 18)</position>
-    </GravEngine>
+    </BTD_GravEngine_Dormant>
     <Vent>
       <rects>
         <li>(9,18,9,18)</li>
@@ -713,7 +731,6 @@
       <positions>
         <li>(15, 0, 24)</li>
         <li>(22, 0, 24)</li>
-        <li>(4, 0, 27)</li>
       </positions>
       <relativeRotation>Counterclockwise</relativeRotation>
       <stuff>Steel</stuff>
