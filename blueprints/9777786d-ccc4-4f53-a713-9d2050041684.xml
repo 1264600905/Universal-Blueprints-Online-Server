@@ -1,5 +1,5 @@
 <PrefabDef>
-  <defName>Prefab_20260620_233453</defName>
+  <defName>Prefab_20260623_212016</defName>
   <size>(29,13)</size>
   <extraInfo>
     <version>1.6.9655.19392</version>
@@ -194,8 +194,8 @@
     <Shelf>
       <position>(6, 0, 1)</position>
       <relativeRotation>Counterclockwise</relativeRotation>
-      <stuff>Steel</stuff>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
     </Shelf>
     <SR_Building_Mattress>
       <positions>
@@ -262,7 +262,7 @@
     </Table1x2c>
     <Heater>
       <rects>
-        <li>(3,3,4,3)</li>
+        <li>(3,3,4,4)</li>
         <li>(6,4,6,5)</li>
       </rects>
     </Heater>
@@ -288,6 +288,9 @@
       <rects>
         <li>(23,3,24,3)</li>
         <li>(26,3,26,3)</li>
+        <li>(9,8,9,8)</li>
+        <li>(13,8,13,8)</li>
+        <li>(17,8,17,8)</li>
         <li>(20,9,20,9)</li>
       </rects>
       <stuff>WoodLog</stuff>
@@ -335,16 +338,6 @@
       </rects>
       <relativeRotation>Counterclockwise</relativeRotation>
     </Cooler>
-    <Door>
-      <rects>
-        <li>(14,5,14,5)</li>
-        <li>(10,7,10,7)</li>
-        <li>(14,7,14,7)</li>
-        <li>(18,7,18,7)</li>
-      </rects>
-      <stuff>BlocksMarble</stuff>
-      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
-    </Door>
     <sbz_DoubleChestFridge>
       <position>(1, 0, 6)</position>
     </sbz_DoubleChestFridge>
@@ -401,7 +394,7 @@
       <position>(5, 0, 9)</position>
       <relativeRotation>Opposite</relativeRotation>
       <stuff>Steel</stuff>
-      <quality>Masterwork</quality>
+      <quality>Normal</quality>
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </SR_Building_BondageBed>
     <SR_Building_BondageBed>
@@ -418,15 +411,6 @@
       <quality>Good</quality>
       <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
     </Table1x2c>
-    <DiningChair>
-      <rects>
-        <li>(9,8,9,8)</li>
-      </rects>
-      <relativeRotation>Counterclockwise</relativeRotation>
-      <stuff>WoodLog</stuff>
-      <quality>Excellent</quality>
-      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
-    </DiningChair>
     <Table1x2c>
       <position>(12, 0, 9)</position>
       <relativeRotation>Opposite</relativeRotation>
@@ -434,16 +418,6 @@
       <quality>Poor</quality>
       <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
     </Table1x2c>
-    <DiningChair>
-      <rects>
-        <li>(13,8,13,8)</li>
-        <li>(17,8,17,8)</li>
-      </rects>
-      <relativeRotation>Counterclockwise</relativeRotation>
-      <stuff>WoodLog</stuff>
-      <quality>Good</quality>
-      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
-    </DiningChair>
     <ChessTable>
       <rects>
         <li>(20,8,20,8)</li>
@@ -465,6 +439,7 @@
     <EndTable>
       <rects>
         <li>(9,10,9,10)</li>
+        <li>(17,10,17,10)</li>
       </rects>
       <relativeRotation>Opposite</relativeRotation>
       <stuff>WoodLog</stuff>
@@ -484,18 +459,9 @@
       <position>(16, 0, 11)</position>
       <relativeRotation>Opposite</relativeRotation>
       <stuff>WoodLog</stuff>
-      <quality>Masterwork</quality>
+      <quality>Excellent</quality>
       <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
     </Bed>
-    <EndTable>
-      <rects>
-        <li>(17,10,17,10)</li>
-      </rects>
-      <relativeRotation>Opposite</relativeRotation>
-      <stuff>WoodLog</stuff>
-      <quality>Normal</quality>
-      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
-    </EndTable>
     <sbz_MeatHook>
       <position>(2, 0, 11)</position>
       <relativeRotation>Opposite</relativeRotation>
@@ -656,23 +622,23 @@
   <roofs>
     <RoofConstructed>
       <rects>
-        <li>(0,0,28,0)</li>
-        <li>(0,1,19,12)</li>
-        <li>(28,1,28,12)</li>
-        <li>(20,12,27,12)</li>
+        <li>(0,0,28,6)</li>
+        <li>(0,7,21,12)</li>
+        <li>(27,7,28,12)</li>
+        <li>(22,11,26,12)</li>
       </rects>
     </RoofConstructed>
     <PlayerRoofZone>
       <rects>
-        <li>(0,0,28,0)</li>
-        <li>(0,1,19,12)</li>
-        <li>(28,1,28,12)</li>
-        <li>(20,12,27,12)</li>
+        <li>(0,0,28,6)</li>
+        <li>(0,7,21,12)</li>
+        <li>(27,7,28,12)</li>
+        <li>(22,11,26,12)</li>
       </rects>
     </PlayerRoofZone>
     <NoRoofZone>
       <rects>
-        <li>(20,1,27,11)</li>
+        <li>(22,7,26,10)</li>
       </rects>
     </NoRoofZone>
   </roofs>
