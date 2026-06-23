@@ -1,0 +1,765 @@
+<PrefabDef>
+  <defName>Prefab_20260623_175016</defName>
+  <size>(59,51)</size>
+  <extraInfo>
+    <version>1.6.9655.19392</version>
+    <name>仓库</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>储藏室</category>
+    <BuildingID>2b365235-65db-4ef7-b2d8-110cb0a980aa</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>mingtuwuxiang.spacebasedecorative</packageId>
+        <name>[MUS]太空基地家具Space Base Furniture</name>
+        <version></version>
+        <modorder>69</modorder>
+        <steamWorkshopId>3523916780</steamWorkshopId>
+        <things>
+          <li>MUS_SpaceBase_Wall</li>
+          <li>MUS_SpaceBase_AutoDoor</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>kindseal.lol</packageId>
+        <name>联合重工-UF Heavy Industries</name>
+        <version></version>
+        <modorder>252</modorder>
+        <steamWorkshopId>3555662938</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+          <li>
+            <packageId>dizhuan.sralib</packageId>
+            <steamWorkshopId>3565275325</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>KT_UFGenerator</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>kindseal.ufli</packageId>
+        <name>联合轻工家具拓展-UF Light Industries Furniture</name>
+        <version></version>
+        <modorder>44</modorder>
+        <steamWorkshopId>3651799915</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFLI_groundlight</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>vin.warehouse.storage</packageId>
+        <name>Warehouse Storage</name>
+        <version></version>
+        <modorder>217</modorder>
+        <steamWorkshopId>3519963835</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>adaptive.storage.framework</packageId>
+            <steamWorkshopId>3033901359</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Vin_TLR</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+        <name>Vanilla Expanded Framework</name>
+        <version></version>
+        <modorder>30</modorder>
+        <steamWorkshopId>2023507013</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VEF_OutpostDeliverySpot</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>tw.is.industrialismstyle</packageId>
+        <name>[TW1.6]工业风格 Industrialism Style</name>
+        <version></version>
+        <modorder>150</modorder>
+        <steamWorkshopId>3676411167</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>ludeon.rimworld.ideology</packageId>
+          </li>
+        </dependencies>
+        <things>
+          <li>TW_Industrialism_FactoryFloor</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>tiagocc0.justwoodfloor</packageId>
+        <name>JustWoodFloor</name>
+        <version></version>
+        <modorder>406</modorder>
+        <steamWorkshopId>3189695842</steamWorkshopId>
+        <things>
+          <li>WoodPlankFloorLight</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>dubwise.dubsbadhygiene</packageId>
+        <name>Dubs Bad Hygiene</name>
+        <version>3.1.2800</version>
+        <modorder>77</modorder>
+        <steamWorkshopId>836308268</steamWorkshopId>
+        <things>
+          <li>DBHMosaicTile</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>仓库</default>
+        <zh-CN>仓库</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <MUS_SpaceBase_Wall>
+      <rects>
+        <li>(0,0,24,0)</li>
+        <li>(26,0,58,0)</li>
+        <li>(0,1,0,44)</li>
+        <li>(4,1,4,1)</li>
+        <li>(21,1,21,2)</li>
+        <li>(29,1,29,2)</li>
+        <li>(54,1,54,1)</li>
+        <li>(58,1,58,44)</li>
+        <li>(4,3,4,5)</li>
+        <li>(54,3,54,5)</li>
+        <li>(1,4,3,4)</li>
+        <li>(55,4,57,4)</li>
+        <li>(4,7,4,10)</li>
+        <li>(21,7,21,9)</li>
+        <li>(29,7,29,9)</li>
+        <li>(54,7,54,10)</li>
+        <li>(5,8,20,8)</li>
+        <li>(30,8,53,8)</li>
+        <li>(4,12,4,16)</li>
+        <li>(54,12,54,16)</li>
+        <li>(21,13,21,15)</li>
+        <li>(29,13,29,15)</li>
+        <li>(5,14,20,14)</li>
+        <li>(30,14,53,14)</li>
+        <li>(4,18,4,22)</li>
+        <li>(54,18,54,22)</li>
+        <li>(21,19,21,21)</li>
+        <li>(29,19,29,21)</li>
+        <li>(5,20,20,20)</li>
+        <li>(30,20,53,20)</li>
+        <li>(4,24,4,28)</li>
+        <li>(54,24,54,28)</li>
+        <li>(21,25,21,27)</li>
+        <li>(29,25,29,27)</li>
+        <li>(5,26,20,26)</li>
+        <li>(30,26,53,26)</li>
+        <li>(4,30,4,34)</li>
+        <li>(54,30,54,34)</li>
+        <li>(21,31,21,33)</li>
+        <li>(29,31,29,33)</li>
+        <li>(5,32,20,32)</li>
+        <li>(30,32,53,32)</li>
+        <li>(4,36,4,40)</li>
+        <li>(54,36,54,40)</li>
+        <li>(21,37,21,39)</li>
+        <li>(29,37,29,39)</li>
+        <li>(5,38,20,38)</li>
+        <li>(30,38,53,38)</li>
+        <li>(4,42,4,44)</li>
+        <li>(54,42,54,44)</li>
+        <li>(21,43,21,45)</li>
+        <li>(29,43,29,45)</li>
+        <li>(1,44,3,44)</li>
+        <li>(5,44,20,44)</li>
+        <li>(30,44,53,44)</li>
+        <li>(55,44,57,44)</li>
+        <li>(0,46,1,46)</li>
+        <li>(3,46,4,46)</li>
+        <li>(54,46,54,50)</li>
+        <li>(56,46,58,46)</li>
+        <li>(0,47,0,50)</li>
+        <li>(4,47,4,50)</li>
+        <li>(58,47,58,50)</li>
+        <li>(21,48,21,50)</li>
+        <li>(29,48,29,50)</li>
+        <li>(1,50,3,50)</li>
+        <li>(5,50,20,50)</li>
+        <li>(22,50,24,50)</li>
+        <li>(26,50,28,50)</li>
+        <li>(30,50,53,50)</li>
+        <li>(55,50,57,50)</li>
+      </rects>
+      <stuff>Steel</stuff>
+    </MUS_SpaceBase_Wall>
+    <HiddenConduit>
+      <rects>
+        <li>(0,0,58,0)</li>
+        <li>(0,1,0,50)</li>
+        <li>(58,1,58,50)</li>
+        <li>(1,50,57,50)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <MUS_SpaceBase_AutoDoor>
+      <rects>
+        <li>(25,0,25,0)</li>
+        <li>(25,50,25,50)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+    </MUS_SpaceBase_AutoDoor>
+    <KT_UFGenerator>
+      <positions>
+        <li>(2, 0, 2)</li>
+        <li>(56, 0, 2)</li>
+        <li>(2, 0, 6)</li>
+        <li>(56, 0, 6)</li>
+        <li>(2, 0, 9)</li>
+        <li>(56, 0, 9)</li>
+        <li>(2, 0, 12)</li>
+        <li>(56, 0, 12)</li>
+        <li>(2, 0, 15)</li>
+        <li>(56, 0, 15)</li>
+        <li>(2, 0, 18)</li>
+        <li>(56, 0, 18)</li>
+        <li>(2, 0, 21)</li>
+        <li>(56, 0, 21)</li>
+        <li>(2, 0, 24)</li>
+        <li>(56, 0, 24)</li>
+        <li>(2, 0, 27)</li>
+        <li>(56, 0, 27)</li>
+        <li>(2, 0, 30)</li>
+        <li>(56, 0, 30)</li>
+        <li>(2, 0, 33)</li>
+        <li>(56, 0, 33)</li>
+        <li>(2, 0, 36)</li>
+        <li>(56, 0, 36)</li>
+        <li>(2, 0, 39)</li>
+        <li>(56, 0, 39)</li>
+        <li>(2, 0, 42)</li>
+        <li>(56, 0, 42)</li>
+        <li>(2, 0, 48)</li>
+        <li>(56, 0, 48)</li>
+      </positions>
+    </KT_UFGenerator>
+    <UFLI_groundlight>
+      <rects>
+        <li>(5,1,5,1)</li>
+        <li>(20,1,20,1)</li>
+        <li>(25,1,25,1)</li>
+        <li>(32,1,32,1)</li>
+        <li>(36,1,36,1)</li>
+        <li>(43,1,43,1)</li>
+        <li>(48,2,48,2)</li>
+        <li>(5,6,5,6)</li>
+        <li>(35,6,35,6)</li>
+        <li>(20,7,20,7)</li>
+        <li>(42,7,42,7)</li>
+        <li>(46,7,46,7)</li>
+        <li>(49,7,49,7)</li>
+        <li>(25,8,25,8)</li>
+        <li>(39,9,39,9)</li>
+        <li>(45,9,45,9)</li>
+        <li>(50,9,50,9)</li>
+        <li>(5,10,5,10)</li>
+        <li>(20,10,20,10)</li>
+        <li>(34,10,34,10)</li>
+        <li>(5,13,5,13)</li>
+        <li>(20,13,20,13)</li>
+        <li>(34,13,34,13)</li>
+        <li>(41,13,41,13)</li>
+        <li>(48,13,48,13)</li>
+        <li>(25,14,25,14)</li>
+        <li>(5,15,5,15)</li>
+        <li>(20,15,20,15)</li>
+        <li>(37,15,37,15)</li>
+        <li>(47,15,47,15)</li>
+        <li>(48,16,48,16)</li>
+        <li>(5,19,5,19)</li>
+        <li>(20,19,20,19)</li>
+        <li>(33,19,33,19)</li>
+        <li>(40,19,40,19)</li>
+        <li>(49,19,49,19)</li>
+        <li>(25,20,25,20)</li>
+        <li>(5,21,5,21)</li>
+        <li>(20,21,20,21)</li>
+        <li>(33,21,33,21)</li>
+        <li>(42,21,42,21)</li>
+        <li>(48,21,48,21)</li>
+        <li>(33,24,33,24)</li>
+        <li>(5,25,5,25)</li>
+        <li>(19,25,19,25)</li>
+        <li>(39,25,39,25)</li>
+        <li>(48,25,48,25)</li>
+        <li>(25,26,25,26)</li>
+        <li>(47,27,47,27)</li>
+        <li>(18,28,18,28)</li>
+        <li>(32,28,32,28)</li>
+        <li>(5,30,5,30)</li>
+        <li>(11,30,11,30)</li>
+        <li>(49,30,49,30)</li>
+        <li>(32,31,32,31)</li>
+        <li>(25,32,25,32)</li>
+        <li>(5,33,5,33)</li>
+        <li>(11,33,11,33)</li>
+        <li>(33,33,33,33)</li>
+        <li>(46,34,46,34)</li>
+        <li>(39,36,39,36)</li>
+        <li>(46,36,46,36)</li>
+        <li>(25,38,25,38)</li>
+        <li>(11,39,11,39)</li>
+        <li>(40,39,40,39)</li>
+        <li>(48,39,48,39)</li>
+        <li>(11,43,11,43)</li>
+        <li>(25,43,25,43)</li>
+        <li>(35,43,35,43)</li>
+        <li>(50,43,50,43)</li>
+        <li>(36,45,36,45)</li>
+        <li>(47,45,47,45)</li>
+        <li>(11,46,11,46)</li>
+        <li>(40,48,40,48)</li>
+        <li>(46,48,46,48)</li>
+        <li>(11,49,11,49)</li>
+        <li>(25,49,25,49)</li>
+      </rects>
+    </UFLI_groundlight>
+    <Vin_TLR>
+      <positions>
+        <li>(6, 0, 1)</li>
+        <li>(10, 0, 1)</li>
+        <li>(14, 0, 1)</li>
+        <li>(18, 0, 1)</li>
+        <li>(31, 0, 1)</li>
+        <li>(35, 0, 1)</li>
+        <li>(39, 0, 1)</li>
+        <li>(43, 0, 1)</li>
+        <li>(47, 0, 1)</li>
+        <li>(51, 0, 1)</li>
+        <li>(6, 0, 9)</li>
+        <li>(10, 0, 9)</li>
+        <li>(14, 0, 9)</li>
+        <li>(18, 0, 9)</li>
+        <li>(31, 0, 9)</li>
+        <li>(35, 0, 9)</li>
+        <li>(39, 0, 9)</li>
+        <li>(43, 0, 9)</li>
+        <li>(47, 0, 9)</li>
+        <li>(51, 0, 9)</li>
+        <li>(6, 0, 15)</li>
+        <li>(10, 0, 15)</li>
+        <li>(14, 0, 15)</li>
+        <li>(18, 0, 15)</li>
+        <li>(31, 0, 15)</li>
+        <li>(35, 0, 15)</li>
+        <li>(39, 0, 15)</li>
+        <li>(43, 0, 15)</li>
+        <li>(47, 0, 15)</li>
+        <li>(51, 0, 15)</li>
+        <li>(6, 0, 21)</li>
+        <li>(10, 0, 21)</li>
+        <li>(14, 0, 21)</li>
+        <li>(18, 0, 21)</li>
+        <li>(6, 0, 27)</li>
+        <li>(10, 0, 27)</li>
+        <li>(14, 0, 27)</li>
+        <li>(18, 0, 27)</li>
+        <li>(31, 0, 27)</li>
+      </positions>
+    </Vin_TLR>
+    <Column>
+      <rects>
+        <li>(25,4,25,4)</li>
+        <li>(25,11,25,11)</li>
+        <li>(25,18,25,18)</li>
+        <li>(25,23,25,23)</li>
+        <li>(25,30,25,30)</li>
+        <li>(25,35,25,35)</li>
+        <li>(25,41,25,41)</li>
+        <li>(25,46,25,46)</li>
+      </rects>
+      <stuff>Steel</stuff>
+    </Column>
+    <Vin_TLR>
+      <positions>
+        <li>(7, 0, 7)</li>
+        <li>(11, 0, 7)</li>
+        <li>(15, 0, 7)</li>
+        <li>(19, 0, 7)</li>
+        <li>(32, 0, 7)</li>
+        <li>(36, 0, 7)</li>
+        <li>(40, 0, 7)</li>
+        <li>(44, 0, 7)</li>
+        <li>(48, 0, 7)</li>
+        <li>(52, 0, 7)</li>
+        <li>(7, 0, 13)</li>
+        <li>(11, 0, 13)</li>
+        <li>(15, 0, 13)</li>
+        <li>(19, 0, 13)</li>
+        <li>(32, 0, 13)</li>
+        <li>(36, 0, 13)</li>
+        <li>(40, 0, 13)</li>
+        <li>(44, 0, 13)</li>
+        <li>(48, 0, 13)</li>
+        <li>(52, 0, 13)</li>
+        <li>(7, 0, 19)</li>
+        <li>(11, 0, 19)</li>
+        <li>(15, 0, 19)</li>
+        <li>(19, 0, 19)</li>
+        <li>(32, 0, 19)</li>
+        <li>(36, 0, 19)</li>
+        <li>(40, 0, 19)</li>
+        <li>(44, 0, 19)</li>
+        <li>(48, 0, 19)</li>
+        <li>(52, 0, 19)</li>
+        <li>(32, 0, 22)</li>
+        <li>(36, 0, 22)</li>
+        <li>(40, 0, 22)</li>
+        <li>(44, 0, 22)</li>
+        <li>(48, 0, 22)</li>
+        <li>(52, 0, 22)</li>
+        <li>(7, 0, 25)</li>
+        <li>(11, 0, 25)</li>
+        <li>(15, 0, 25)</li>
+        <li>(19, 0, 25)</li>
+        <li>(32, 0, 25)</li>
+        <li>(36, 0, 25)</li>
+        <li>(40, 0, 25)</li>
+        <li>(44, 0, 25)</li>
+        <li>(48, 0, 25)</li>
+        <li>(52, 0, 25)</li>
+        <li>(36, 0, 28)</li>
+        <li>(40, 0, 28)</li>
+        <li>(44, 0, 28)</li>
+        <li>(48, 0, 28)</li>
+        <li>(52, 0, 28)</li>
+        <li>(7, 0, 31)</li>
+        <li>(11, 0, 31)</li>
+        <li>(15, 0, 31)</li>
+        <li>(19, 0, 31)</li>
+        <li>(32, 0, 31)</li>
+        <li>(36, 0, 31)</li>
+        <li>(40, 0, 31)</li>
+        <li>(44, 0, 31)</li>
+        <li>(48, 0, 31)</li>
+        <li>(52, 0, 31)</li>
+        <li>(7, 0, 34)</li>
+        <li>(11, 0, 34)</li>
+        <li>(15, 0, 34)</li>
+        <li>(19, 0, 34)</li>
+        <li>(32, 0, 34)</li>
+        <li>(36, 0, 34)</li>
+        <li>(40, 0, 34)</li>
+        <li>(44, 0, 34)</li>
+        <li>(48, 0, 34)</li>
+        <li>(52, 0, 34)</li>
+        <li>(7, 0, 37)</li>
+        <li>(11, 0, 37)</li>
+        <li>(15, 0, 37)</li>
+        <li>(19, 0, 37)</li>
+        <li>(32, 0, 37)</li>
+        <li>(36, 0, 37)</li>
+        <li>(40, 0, 37)</li>
+        <li>(44, 0, 37)</li>
+        <li>(48, 0, 37)</li>
+        <li>(52, 0, 37)</li>
+        <li>(7, 0, 40)</li>
+        <li>(11, 0, 40)</li>
+        <li>(15, 0, 40)</li>
+        <li>(19, 0, 40)</li>
+        <li>(32, 0, 40)</li>
+        <li>(36, 0, 40)</li>
+        <li>(40, 0, 40)</li>
+        <li>(44, 0, 40)</li>
+        <li>(48, 0, 40)</li>
+        <li>(52, 0, 40)</li>
+        <li>(7, 0, 43)</li>
+        <li>(11, 0, 43)</li>
+        <li>(15, 0, 43)</li>
+        <li>(19, 0, 43)</li>
+        <li>(32, 0, 43)</li>
+        <li>(36, 0, 43)</li>
+        <li>(40, 0, 43)</li>
+        <li>(44, 0, 43)</li>
+        <li>(48, 0, 43)</li>
+        <li>(52, 0, 43)</li>
+        <li>(11, 0, 46)</li>
+        <li>(15, 0, 46)</li>
+        <li>(19, 0, 46)</li>
+        <li>(32, 0, 46)</li>
+        <li>(36, 0, 46)</li>
+        <li>(40, 0, 46)</li>
+        <li>(44, 0, 46)</li>
+        <li>(48, 0, 46)</li>
+        <li>(7, 0, 49)</li>
+        <li>(11, 0, 49)</li>
+        <li>(15, 0, 49)</li>
+        <li>(19, 0, 49)</li>
+        <li>(32, 0, 49)</li>
+        <li>(36, 0, 49)</li>
+        <li>(40, 0, 49)</li>
+        <li>(44, 0, 49)</li>
+        <li>(48, 0, 49)</li>
+        <li>(52, 0, 49)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+    </Vin_TLR>
+    <MUS_SpaceBase_AutoDoor>
+      <rects>
+        <li>(0,45,0,45)</li>
+        <li>(58,45,58,45)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+    </MUS_SpaceBase_AutoDoor>
+    <VEF_OutpostDeliverySpot>
+      <rects>
+        <li>(22,49,22,49)</li>
+      </rects>
+    </VEF_OutpostDeliverySpot>
+  </things>
+  <terrain>
+    <MetalTile>
+      <rects>
+        <li>(0,0,57,49)</li>
+        <li>(58,12,58,49)</li>
+        <li>(1,50,28,50)</li>
+      </rects>
+    </MetalTile>
+    <TW_Industrialism_FactoryFloor>
+      <rects>
+        <li>(58,0,58,11)</li>
+      </rects>
+    </TW_Industrialism_FactoryFloor>
+    <WoodPlankFloorLight>
+      <rects>
+        <li>(0,50,0,50)</li>
+      </rects>
+    </WoodPlankFloorLight>
+    <DBHMosaicTile>
+      <rects>
+        <li>(29,50,58,50)</li>
+      </rects>
+    </DBHMosaicTile>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <MetalTile>
+        <rects>
+          <li>(0,0,57,49)</li>
+          <li>(58,12,58,49)</li>
+          <li>(1,50,28,50)</li>
+        </rects>
+      </MetalTile>
+      <TW_Industrialism_FactoryFloor>
+        <rects>
+          <li>(58,0,58,11)</li>
+        </rects>
+      </TW_Industrialism_FactoryFloor>
+      <WoodPlankFloorLight>
+        <rects>
+          <li>(0,50,0,50)</li>
+        </rects>
+      </WoodPlankFloorLight>
+      <DBHMosaicTile>
+        <rects>
+          <li>(29,50,58,50)</li>
+        </rects>
+      </DBHMosaicTile>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(0,0,58,11)</li>
+          <li>(0,12,45,12)</li>
+          <li>(50,12,58,12)</li>
+          <li>(0,13,44,17)</li>
+          <li>(55,13,58,14)</li>
+          <li>(53,15,57,15)</li>
+          <li>(51,16,55,17)</li>
+          <li>(50,17,50,25)</li>
+          <li>(0,18,24,18)</li>
+          <li>(28,18,44,18)</li>
+          <li>(51,18,54,24)</li>
+          <li>(0,19,19,19)</li>
+          <li>(30,19,44,20)</li>
+          <li>(0,20,18,20)</li>
+          <li>(0,21,17,24)</li>
+          <li>(31,21,44,21)</li>
+          <li>(49,21,49,24)</li>
+          <li>(31,22,43,22)</li>
+          <li>(31,23,40,23)</li>
+          <li>(32,24,40,24)</li>
+          <li>(0,25,16,31)</li>
+          <li>(32,25,39,30)</li>
+          <li>(51,25,53,26)</li>
+          <li>(31,26,31,26)</li>
+          <li>(52,27,52,27)</li>
+          <li>(40,29,40,50)</li>
+          <li>(17,30,17,30)</li>
+          <li>(33,31,39,37)</li>
+          <li>(41,31,41,50)</li>
+          <li>(0,32,15,50)</li>
+          <li>(42,32,42,50)</li>
+          <li>(32,33,32,36)</li>
+          <li>(43,34,43,50)</li>
+          <li>(31,35,31,36)</li>
+          <li>(44,37,44,50)</li>
+          <li>(16,38,16,50)</li>
+          <li>(35,38,39,38)</li>
+          <li>(17,39,17,50)</li>
+          <li>(38,39,39,39)</li>
+          <li>(45,39,45,42)</li>
+          <li>(18,40,22,50)</li>
+          <li>(25,40,25,50)</li>
+          <li>(39,40,39,50)</li>
+          <li>(46,40,46,41)</li>
+          <li>(23,41,24,50)</li>
+          <li>(26,41,26,42)</li>
+          <li>(47,41,47,41)</li>
+          <li>(57,41,58,47)</li>
+          <li>(38,42,38,50)</li>
+          <li>(36,43,37,50)</li>
+          <li>(55,43,56,44)</li>
+          <li>(26,44,26,50)</li>
+          <li>(32,44,35,50)</li>
+          <li>(27,45,31,50)</li>
+          <li>(56,45,56,46)</li>
+          <li>(45,46,45,50)</li>
+          <li>(46,48,47,50)</li>
+          <li>(58,48,58,49)</li>
+          <li>(48,49,48,50)</li>
+        </rects>
+      </Soil>
+      <Gravel>
+        <rects>
+          <li>(46,12,49,20)</li>
+          <li>(45,13,45,29)</li>
+          <li>(50,13,54,14)</li>
+          <li>(50,15,52,15)</li>
+          <li>(58,15,58,15)</li>
+          <li>(50,16,50,16)</li>
+          <li>(56,16,57,16)</li>
+          <li>(56,17,56,25)</li>
+          <li>(25,18,27,39)</li>
+          <li>(55,18,55,26)</li>
+          <li>(20,19,24,39)</li>
+          <li>(28,19,29,44)</li>
+          <li>(19,20,19,39)</li>
+          <li>(18,21,18,39)</li>
+          <li>(30,21,30,44)</li>
+          <li>(46,21,48,31)</li>
+          <li>(44,22,44,28)</li>
+          <li>(41,23,43,24)</li>
+          <li>(31,24,31,25)</li>
+          <li>(17,25,17,29)</li>
+          <li>(40,25,41,28)</li>
+          <li>(43,25,43,26)</li>
+          <li>(49,25,49,30)</li>
+          <li>(54,25,54,28)</li>
+          <li>(50,26,50,30)</li>
+          <li>(31,27,31,34)</li>
+          <li>(51,27,51,30)</li>
+          <li>(53,27,53,29)</li>
+          <li>(52,28,52,29)</li>
+          <li>(41,29,41,30)</li>
+          <li>(42,30,42,31)</li>
+          <li>(17,31,17,38)</li>
+          <li>(32,31,32,32)</li>
+          <li>(43,31,43,33)</li>
+          <li>(16,32,16,37)</li>
+          <li>(44,33,44,36)</li>
+          <li>(45,34,45,38)</li>
+          <li>(46,35,46,39)</li>
+          <li>(31,37,32,43)</li>
+          <li>(47,37,47,40)</li>
+          <li>(58,37,58,40)</li>
+          <li>(33,38,34,43)</li>
+          <li>(48,38,48,41)</li>
+          <li>(54,38,54,43)</li>
+          <li>(57,38,57,40)</li>
+          <li>(35,39,37,42)</li>
+          <li>(49,39,49,41)</li>
+          <li>(53,39,53,43)</li>
+          <li>(55,39,56,42)</li>
+          <li>(23,40,24,40)</li>
+          <li>(26,40,27,40)</li>
+          <li>(38,40,38,41)</li>
+          <li>(50,40,52,42)</li>
+          <li>(27,41,27,44)</li>
+          <li>(26,43,26,43)</li>
+          <li>(35,43,35,43)</li>
+          <li>(31,44,31,44)</li>
+        </rects>
+      </Gravel>
+      <Slate_Rough>
+        <rects>
+          <li>(58,16,58,36)</li>
+          <li>(57,17,57,37)</li>
+          <li>(42,25,42,29)</li>
+          <li>(56,26,56,38)</li>
+          <li>(43,27,43,30)</li>
+          <li>(55,27,55,38)</li>
+          <li>(44,29,44,32)</li>
+          <li>(54,29,54,37)</li>
+          <li>(45,30,45,33)</li>
+          <li>(52,30,53,38)</li>
+          <li>(49,31,51,38)</li>
+          <li>(46,32,48,34)</li>
+          <li>(47,35,48,36)</li>
+          <li>(48,37,48,37)</li>
+          <li>(50,39,52,39)</li>
+        </rects>
+      </Slate_Rough>
+      <SoilRich>
+        <rects>
+          <li>(46,42,49,47)</li>
+          <li>(45,43,45,45)</li>
+          <li>(50,43,52,50)</li>
+          <li>(53,44,54,50)</li>
+          <li>(55,45,55,50)</li>
+          <li>(56,47,56,50)</li>
+          <li>(48,48,49,48)</li>
+          <li>(57,48,57,50)</li>
+          <li>(49,49,49,50)</li>
+          <li>(58,50,58,50)</li>
+        </rects>
+      </SoilRich>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,58,50)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,58,50)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
