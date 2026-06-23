@@ -1,5 +1,5 @@
 <PrefabDef>
-  <defName>Prefab_20260623_222532</defName>
+  <defName>Prefab_20260623_224822</defName>
   <size>(37,39)</size>
   <extraInfo>
     <version>1.6.9655.19392</version>
@@ -92,6 +92,7 @@
           <li>SmallThruster</li>
           <li>GravshipHull</li>
           <li>OxygenPump</li>
+          <li>GravEngine</li>
           <li>GravshipShieldGenerator</li>
           <li>VacBarrier</li>
           <li>PilotSubpersonaCore</li>
@@ -165,25 +166,6 @@
         <modorder>4</modorder>
         <things>
           <li>ShipLandingBeacon</li>
-        </things>
-      </mod>
-      <mod>
-        <packageId>btd.remix.gravshipblueprints</packageId>
-        <name>[BTD] Gravship Blueprints</name>
-        <version></version>
-        <modorder>202</modorder>
-        <steamWorkshopId>3575162262</steamWorkshopId>
-        <dependencies>
-          <li>
-            <packageId>ludeon.rimworld.odyssey</packageId>
-          </li>
-          <li>
-            <packageId>brrainz.harmony</packageId>
-            <steamWorkshopId>2009463077</steamWorkshopId>
-          </li>
-        </dependencies>
-        <things>
-          <li>BTD_GravEngine_Dormant</li>
         </things>
       </mod>
       <mod>
@@ -661,9 +643,9 @@
         <li>(24, 0, 21)</li>
       </positions>
     </DMS_MachineCabinet>
-    <BTD_GravEngine_Dormant>
+    <GravEngine>
       <position>(18, 0, 18)</position>
-    </BTD_GravEngine_Dormant>
+    </GravEngine>
     <Vent>
       <rects>
         <li>(9,18,9,18)</li>
@@ -1154,12 +1136,17 @@
     <terrainLayerDetail layer="foundationGrid">
       <Substructure>
         <rects>
-          <li>(9,0,27,0)</li>
-          <li>(9,1,11,30)</li>
-          <li>(13,1,27,30)</li>
+          <li>(9,0,11,30)</li>
+          <li>(13,0,16,34)</li>
+          <li>(20,0,23,34)</li>
+          <li>(25,0,27,30)</li>
+          <li>(17,1,17,38)</li>
+          <li>(19,1,19,38)</li>
           <li>(12,2,12,33)</li>
+          <li>(24,2,24,33)</li>
           <li>(4,5,4,18)</li>
           <li>(8,5,8,24)</li>
+          <li>(18,5,18,38)</li>
           <li>(28,5,28,24)</li>
           <li>(32,5,32,18)</li>
           <li>(5,7,7,16)</li>
@@ -1185,15 +1172,15 @@
           <li>(7,29,8,30)</li>
           <li>(28,29,29,30)</li>
           <li>(10,31,11,31)</li>
-          <li>(13,31,26,31)</li>
+          <li>(25,31,26,31)</li>
           <li>(11,32,11,32)</li>
-          <li>(13,32,25,32)</li>
-          <li>(13,33,24,33)</li>
-          <li>(13,34,23,34)</li>
-          <li>(14,35,22,35)</li>
-          <li>(15,36,21,36)</li>
-          <li>(16,37,20,37)</li>
-          <li>(17,38,19,38)</li>
+          <li>(25,32,25,32)</li>
+          <li>(14,35,16,35)</li>
+          <li>(20,35,22,35)</li>
+          <li>(15,36,16,36)</li>
+          <li>(20,36,21,36)</li>
+          <li>(16,37,16,37)</li>
+          <li>(20,37,20,37)</li>
         </rects>
       </Substructure>
       <Substructure>
