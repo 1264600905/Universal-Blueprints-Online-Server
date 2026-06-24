@@ -1,0 +1,150 @@
+<PrefabDef>
+  <defName>Prefab_20260624_213701</defName>
+  <size>(7,8)</size>
+  <extraInfo>
+    <version>1.6.9655.19392</version>
+    <name>医务室</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>宿舍</category>
+    <BuildingID>5ab2ed77-b6c6-47f6-b748-e93b5848c440</BuildingID>
+    <modPackages></modPackages>
+    <multiLanguage>
+      <name>
+        <default>医务室</default>
+        <zh-CN>医务室</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,0,1)</li>
+        <li>(6,0,6,7)</li>
+        <li>(0,3,0,7)</li>
+        <li>(1,7,5,7)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Wall>
+    <MegascreenTelevision>
+      <position>(3, 0, 0)</position>
+    </MegascreenTelevision>
+    <PowerConduit>
+      <rects>
+        <li>(6,1,6,7)</li>
+      </rects>
+    </PowerConduit>
+    <Door>
+      <rects>
+        <li>(0,2,0,2)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>BlocksGranite</stuff>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Door>
+    <ShelfSmall>
+      <rects>
+        <li>(2,2,2,2)</li>
+        <li>(5,2,5,2)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </ShelfSmall>
+    <HospitalBed>
+      <position>(3, 0, 3)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HospitalBed>
+    <StandingLamp>
+      <rects>
+        <li>(4,2,4,2)</li>
+      </rects>
+    </StandingLamp>
+    <HospitalBed>
+      <position>(2, 0, 3)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HospitalBed>
+    <HospitalBed>
+      <positions>
+        <li>(4, 0, 3)</li>
+        <li>(4, 0, 5)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HospitalBed>
+    <HospitalBed>
+      <positions>
+        <li>(2, 0, 4)</li>
+        <li>(2, 0, 5)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HospitalBed>
+    <VitalsMonitor>
+      <rects>
+        <li>(3,4,3,4)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </VitalsMonitor>
+    <HospitalBed>
+      <position>(4, 0, 4)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HospitalBed>
+    <HospitalBed>
+      <position>(3, 0, 5)</position>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HospitalBed>
+  </things>
+  <terrain>
+    <SterileTile>
+      <rects>
+        <li>(1,0,5,6)</li>
+      </rects>
+    </SterileTile>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <SterileTile>
+        <rects>
+          <li>(1,0,5,6)</li>
+        </rects>
+      </SterileTile>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(1,0,5,6)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,6,7)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,6,7)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
