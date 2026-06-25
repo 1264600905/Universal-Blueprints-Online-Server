@@ -1,10 +1,10 @@
 <PrefabDef>
-  <defName>Prefab_20260625_011804</defName>
+  <defName>Prefab_20260625_212721</defName>
   <size>(27,79)</size>
   <extraInfo>
     <version>1.6.9655.19392</version>
     <name>失能機關星際巡洋艦</name>
-    <description>機兵科技的重火力巡洋艦，適用於遠征作戰用途，沒有廚房，只有臥室、小型機兵車間、車庫，具有儲備6台龍騎兵機庫龍騎兵與跨地圖彈射裝置。</description>
+    <description>機兵科技的重火力巡洋艦，適用於遠征作戰用途，沒有廚房，只有臥室、小型機兵車間、車庫，具有儲備6台龍騎兵機庫龍騎兵與跨地圖彈射裝置。注意：逆重場支柱範圍MOD設置至少為25！</description>
     <tags></tags>
     <author>黑龍月</author>
     <category>奥德赛DLC</category>
@@ -128,6 +128,21 @@
         </dependencies>
         <things>
           <li>MF_Building_EjectorBay</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>als.gravtech</packageId>
+        <name>GravTech</name>
+        <version>1.4.3</version>
+        <modorder>283</modorder>
+        <steamWorkshopId>3545374124</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>ludeon.rimworld.odyssey</packageId>
+          </li>
+        </dependencies>
+        <things>
+          <li>GravFieldPylon</li>
         </things>
       </mod>
       <mod>
@@ -345,8 +360,8 @@
         <zh-CN>失能機關星際巡洋艦</zh-CN>
       </name>
       <description>
-        <default>機兵科技的重火力巡洋艦，適用於遠征作戰用途，沒有廚房，只有臥室、小型機兵車間、車庫，具有儲備6台龍騎兵機庫龍騎兵與跨地圖彈射裝置。</default>
-        <zh-CN>機兵科技的重火力巡洋艦，適用於遠征作戰用途，沒有廚房，只有臥室、小型機兵車間、車庫，具有儲備6台龍騎兵機庫龍騎兵與跨地圖彈射裝置。</zh-CN>
+        <default>機兵科技的重火力巡洋艦，適用於遠征作戰用途，沒有廚房，只有臥室、小型機兵車間、車庫，具有儲備6台龍騎兵機庫龍騎兵與跨地圖彈射裝置。注意：逆重場支柱範圍MOD設置至少為25！</default>
+        <zh-CN>機兵科技的重火力巡洋艦，適用於遠征作戰用途，沒有廚房，只有臥室、小型機兵車間、車庫，具有儲備6台龍騎兵機庫龍騎兵與跨地圖彈射裝置。注意：逆重場支柱範圍MOD設置至少為25！</zh-CN>
       </description>
     </multiLanguage>
   </extraInfo>
@@ -387,9 +402,7 @@
         <li>(5,19,5,27)</li>
         <li>(12,19,14,19)</li>
         <li>(21,19,21,27)</li>
-        <li>(12,20,12,21)</li>
-        <li>(14,20,14,21)</li>
-        <li>(13,21,13,21)</li>
+        <li>(12,21,14,21)</li>
         <li>(4,26,4,41)</li>
         <li>(22,26,22,41)</li>
         <li>(12,27,14,27)</li>
@@ -473,7 +486,7 @@
         <li>(10,19,12,19)</li>
         <li>(14,19,16,19)</li>
         <li>(21,19,21,40)</li>
-        <li>(13,21,13,38)</li>
+        <li>(13,21,13,37)</li>
         <li>(4,26,4,26)</li>
         <li>(22,26,22,26)</li>
         <li>(4,40,4,49)</li>
@@ -613,6 +626,7 @@
         <li>(9,44,9,44)</li>
         <li>(22,46,22,46)</li>
         <li>(15,47,15,47)</li>
+        <li>(14,67,14,67)</li>
         <li>(19,72,19,72)</li>
       </rects>
       <relativeRotation>Clockwise</relativeRotation>
@@ -726,17 +740,17 @@
       <stuff>Steel</stuff>
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </LargeThruster>
+    <ColdPump>
+      <rects>
+        <li>(10,15,10,15)</li>
+      </rects>
+    </ColdPump>
     <PowerSwitch>
       <rects>
         <li>(11,15,11,15)</li>
         <li>(15,15,15,15)</li>
       </rects>
     </PowerSwitch>
-    <ColdPump>
-      <rects>
-        <li>(11,15,11,15)</li>
-      </rects>
-    </ColdPump>
     <OxygenPump>
       <rects>
         <li>(12,15,12,15)</li>
@@ -850,6 +864,8 @@
         <li>(16,19,16,19)</li>
         <li>(13,43,13,43)</li>
         <li>(12,51,12,51)</li>
+        <li>(17,62,17,62)</li>
+        <li>(21,62,21,62)</li>
         <li>(13,70,13,70)</li>
         <li>(11,73,11,73)</li>
         <li>(14,73,14,73)</li>
@@ -897,12 +913,24 @@
       </positions>
       <relativeRotation>Clockwise</relativeRotation>
     </DMSE_Turret_Dawnblade_Striker>
-    <GravFieldExtender>
+    <GravshipHull>
+      <rects>
+        <li>(12,20,12,20)</li>
+        <li>(14,20,14,20)</li>
+        <li>(11,59,11,60)</li>
+        <li>(12,62,12,62)</li>
+        <li>(12,64,12,64)</li>
+        <li>(13,65,13,65)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </GravshipHull>
+    <GravFieldPylon>
       <rects>
         <li>(13,20,13,20)</li>
         <li>(13,60,13,60)</li>
       </rects>
-    </GravFieldExtender>
+    </GravFieldPylon>
     <jdgg_nMassCargoHold>
       <positions>
         <li>(13, 0, 24)</li>
@@ -1032,6 +1060,16 @@
     </MF_Building_AutoRepairArm>
     <DMSE_StructuralFrame_End>
       <rects>
+        <li>(2,30,2,30)</li>
+        <li>(2,36,2,36)</li>
+        <li>(2,55,2,55)</li>
+        <li>(2,61,2,61)</li>
+        <li>(6,77,6,77)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </DMSE_StructuralFrame_End>
+    <DMSE_StructuralFrame_End>
+      <rects>
         <li>(24,30,24,30)</li>
         <li>(24,36,24,36)</li>
         <li>(24,55,24,55)</li>
@@ -1059,6 +1097,11 @@
         <li>(13, 0, 35)</li>
       </positions>
     </MF_Building_ComponentStorage>
+    <GravFieldExtender>
+      <rects>
+        <li>(13,38,13,38)</li>
+      </rects>
+    </GravFieldExtender>
     <GravEngine>
       <position>(13, 0, 40)</position>
     </GravEngine>
@@ -1067,6 +1110,8 @@
         <li>(10,40,10,40)</li>
         <li>(16,40,16,40)</li>
         <li>(13,60,13,60)</li>
+        <li>(17,68,17,68)</li>
+        <li>(21,68,21,68)</li>
       </rects>
       <stuff>Steel</stuff>
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
@@ -1209,14 +1254,6 @@
       <colorDef>Structure_GreyDark</colorDef>
       <color>RGBA(0.318, 0.318, 0.318, 1.000)</color>
     </EccentricFurniture_EndTableIlluminated>
-    <DMSE_StructuralFrame_End>
-      <rects>
-        <li>(2,55,2,55)</li>
-        <li>(2,61,2,61)</li>
-        <li>(6,77,6,77)</li>
-      </rects>
-      <relativeRotation>Counterclockwise</relativeRotation>
-    </DMSE_StructuralFrame_End>
     <Vent>
       <rects>
         <li>(10,55,10,55)</li>
@@ -1287,16 +1324,6 @@
       <quality>Normal</quality>
       <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
     </Couch>
-    <GravshipHull>
-      <rects>
-        <li>(11,59,11,60)</li>
-        <li>(12,62,12,62)</li>
-        <li>(12,64,12,64)</li>
-        <li>(13,65,13,65)</li>
-      </rects>
-      <stuff>Steel</stuff>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </GravshipHull>
     <jdgg_RefCargoHold>
       <position>(12, 0, 60)</position>
       <relativeRotation>Opposite</relativeRotation>
@@ -1328,15 +1355,6 @@
       <position>(10, 0, 62)</position>
       <relativeRotation>Opposite</relativeRotation>
     </DMS_TableArtifuscle>
-    <WallLamp>
-      <rects>
-        <li>(17,62,17,62)</li>
-        <li>(21,62,21,62)</li>
-      </rects>
-      <relativeRotation>Opposite</relativeRotation>
-      <stuff>Steel</stuff>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </WallLamp>
     <VacBarrier>
       <rects>
         <li>(12,63,12,63)</li>
@@ -1394,14 +1412,6 @@
       <position>(11, 0, 66)</position>
       <relativeRotation>Opposite</relativeRotation>
     </DMS_MechGestatorSmall>
-    <WallLamp>
-      <rects>
-        <li>(14,67,14,67)</li>
-      </rects>
-      <relativeRotation>Clockwise</relativeRotation>
-      <stuff>Steel</stuff>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </WallLamp>
     <DMS_MachineCabinet>
       <positions>
         <li>(5, 0, 68)</li>
@@ -1410,14 +1420,6 @@
         <li>(11, 0, 68)</li>
       </positions>
     </DMS_MachineCabinet>
-    <WallLamp>
-      <rects>
-        <li>(17,68,17,68)</li>
-        <li>(21,68,21,68)</li>
-      </rects>
-      <stuff>Steel</stuff>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </WallLamp>
     <VacBarrier>
       <rects>
         <li>(8,73,8,73)</li>
