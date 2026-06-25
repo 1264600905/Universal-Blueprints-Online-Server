@@ -1,14 +1,14 @@
 <PrefabDef>
-  <defName>Prefab_20260625_232747</defName>
+  <defName>Prefab_20260625_233410</defName>
   <size>(27,78)</size>
   <extraInfo>
     <version>1.6.9655.19392</version>
-    <name>失能機關星際巡洋艦</name>
-    <description>機兵科技的重火力巡洋艦，適用於遠征作戰用途，沒有廚房，只有臥室、小型機兵車間、車庫，具有儲備6台龍騎兵機庫龍騎兵與跨地圖彈射裝置。注意：逆重場支柱範圍MOD設置至少為25！(新開的存檔會重置設定！)</description>
+    <name>失能機關星際巡洋艦(額外IRBM雷射強化版)</name>
+    <description>機兵科技的重火力巡洋艦，適用於遠征作戰用途，沒有廚房，只有臥室、小型機兵車間、車庫，具有儲備6台龍騎兵機庫龍騎兵與跨地圖彈射裝置。注意：逆重場支柱範圍MOD設置至少為25！(新開的存檔會重置設定！)#額外的IRBM雷射需要更多電力與電池、因此冷聚變發電蓋了更多一些並且有大電池。#</description>
     <tags></tags>
     <author>黑龍月</author>
     <category>奥德赛DLC</category>
-    <BuildingID>9dea2b58-1503-47a7-a2c8-8788021062f5</BuildingID>
+    <BuildingID>2b93d870-3af3-4f3d-8c8e-2d3a1334f1bb</BuildingID>
     <modPackages>
       <mod>
         <packageId>ludeon.rimworld.odyssey</packageId>
@@ -113,6 +113,7 @@
         <modorder>53</modorder>
         <steamWorkshopId>3538850569</steamWorkshopId>
         <things>
+          <li>SpaceshipBatteryTwo</li>
           <li>HeatPump</li>
           <li>ColdPump</li>
           <li>GravshipBlastDoor</li>
@@ -148,6 +149,16 @@
         </dependencies>
         <things>
           <li>MF_Building_EjectorBay</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>kazepsi.irbm</packageId>
+        <name>InterRim Ballistic Missile</name>
+        <version></version>
+        <modorder>379</modorder>
+        <steamWorkshopId>3682304832</steamWorkshopId>
+        <things>
+          <li>IRBM_CIWS_Laser</li>
         </things>
       </mod>
       <mod>
@@ -394,12 +405,12 @@
     </modPackages>
     <multiLanguage>
       <name>
-        <default>失能機關星際巡洋艦</default>
-        <zh-CN>失能機關星際巡洋艦</zh-CN>
+        <default>失能機關星際巡洋艦(額外IRBM雷射強化版)</default>
+        <zh-CN>失能機關星際巡洋艦(額外IRBM雷射強化版)</zh-CN>
       </name>
       <description>
-        <default>機兵科技的重火力巡洋艦，適用於遠征作戰用途，沒有廚房，只有臥室、小型機兵車間、車庫，具有儲備6台龍騎兵機庫龍騎兵與跨地圖彈射裝置。注意：逆重場支柱範圍MOD設置至少為25！(新開的存檔會重置設定！)</default>
-        <zh-CN>機兵科技的重火力巡洋艦，適用於遠征作戰用途，沒有廚房，只有臥室、小型機兵車間、車庫，具有儲備6台龍騎兵機庫龍騎兵與跨地圖彈射裝置。注意：逆重場支柱範圍MOD設置至少為25！(新開的存檔會重置設定！)</zh-CN>
+        <default>機兵科技的重火力巡洋艦，適用於遠征作戰用途，沒有廚房，只有臥室、小型機兵車間、車庫，具有儲備6台龍騎兵機庫龍騎兵與跨地圖彈射裝置。注意：逆重場支柱範圍MOD設置至少為25！(新開的存檔會重置設定！)#額外的IRBM雷射需要更多電力與電池、因此冷聚變發電蓋了更多一些並且有大電池。#</default>
+        <zh-CN>機兵科技的重火力巡洋艦，適用於遠征作戰用途，沒有廚房，只有臥室、小型機兵車間、車庫，具有儲備6台龍騎兵機庫龍騎兵與跨地圖彈射裝置。注意：逆重場支柱範圍MOD設置至少為25！(新開的存檔會重置設定！)#額外的IRBM雷射需要更多電力與電池、因此冷聚變發電蓋了更多一些並且有大電池。#</zh-CN>
       </description>
     </multiLanguage>
   </extraInfo>
@@ -593,8 +604,6 @@
         <li>(23,26,23,26)</li>
         <li>(3,32,3,32)</li>
         <li>(23,32,23,32)</li>
-        <li>(3,38,3,38)</li>
-        <li>(23,38,23,38)</li>
         <li>(3,57,3,57)</li>
         <li>(23,57,23,57)</li>
         <li>(3,63,3,63)</li>
@@ -647,8 +656,6 @@
         <li>(25, 0, 3)</li>
         <li>(7, 0, 14)</li>
         <li>(19, 0, 14)</li>
-        <li>(1, 0, 66)</li>
-        <li>(25, 0, 66)</li>
       </positions>
     </DMSE_StructuralFrame_Section>
     <DMSE_StructuralFrame_Section>
@@ -658,6 +665,8 @@
         <li>(8, 0, 11)</li>
         <li>(19, 0, 11)</li>
         <li>(22, 0, 11)</li>
+        <li>(2, 0, 54)</li>
+        <li>(25, 0, 54)</li>
         <li>(8, 0, 76)</li>
         <li>(19, 0, 76)</li>
       </positions>
@@ -699,8 +708,6 @@
         <li>(24, 0, 62)</li>
         <li>(2, 0, 65)</li>
         <li>(24, 0, 65)</li>
-        <li>(2, 0, 68)</li>
-        <li>(24, 0, 68)</li>
         <li>(5, 0, 74)</li>
         <li>(21, 0, 74)</li>
       </positions>
@@ -739,8 +746,8 @@
         <li>(18,12,18,12)</li>
         <li>(20,12,20,12)</li>
         <li>(22,12,22,12)</li>
-        <li>(1,68,1,68)</li>
-        <li>(25,68,25,68)</li>
+        <li>(1,55,1,55)</li>
+        <li>(25,55,25,55)</li>
         <li>(5,75,5,75)</li>
         <li>(21,75,21,75)</li>
       </rects>
@@ -751,19 +758,30 @@
         <li>(15, 0, 7)</li>
       </positions>
     </Eccentric_FuelTankCharge>
+    <ShipWallSmallColdNnclearGeneratorCabin>
+      <position>(12, 0, 8)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </ShipWallSmallColdNnclearGeneratorCabin>
+    <ShipWallSmallColdNnclearGeneratorCabin>
+      <positions>
+        <li>(14, 0, 7)</li>
+        <li>(10, 0, 12)</li>
+        <li>(16, 0, 12)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </ShipWallSmallColdNnclearGeneratorCabin>
     <DMSE_FusionCore>
       <positions>
         <li>(11, 0, 10)</li>
         <li>(15, 0, 10)</li>
       </positions>
     </DMSE_FusionCore>
-    <ShipWallSmallColdNnclearGeneratorCabin>
+    <SpaceshipBatteryTwo>
       <positions>
-        <li>(10, 0, 12)</li>
-        <li>(16, 0, 12)</li>
+        <li>(11, 0, 12)</li>
+        <li>(14, 0, 12)</li>
       </positions>
-      <relativeRotation>Counterclockwise</relativeRotation>
-    </ShipWallSmallColdNnclearGeneratorCabin>
+    </SpaceshipBatteryTwo>
     <HeatPump>
       <rects>
         <li>(10,13,10,13)</li>
@@ -872,14 +890,6 @@
       </rects>
       <relativeRotation>Opposite</relativeRotation>
     </OxygenPump>
-    <DMSE_Turret_Dawnblade_Striker>
-      <positions>
-        <li>(3, 0, 19)</li>
-        <li>(3, 0, 22)</li>
-        <li>(2, 0, 50)</li>
-      </positions>
-      <relativeRotation>Counterclockwise</relativeRotation>
-    </DMSE_Turret_Dawnblade_Striker>
     <MF_Building_EjectorBay>
       <positions>
         <li>(7, 0, 19)</li>
@@ -914,14 +924,18 @@
       </positions>
       <relativeRotation>Clockwise</relativeRotation>
     </MF_Building_EjectorBay>
-    <DMSE_Turret_Dawnblade_Striker>
+    <IRBM_CIWS_Laser>
       <positions>
-        <li>(23, 0, 19)</li>
-        <li>(23, 0, 22)</li>
-        <li>(24, 0, 50)</li>
+        <li>(3, 0, 19)</li>
+        <li>(22, 0, 19)</li>
+        <li>(2, 0, 38)</li>
+        <li>(23, 0, 38)</li>
+        <li>(0, 0, 52)</li>
+        <li>(25, 0, 52)</li>
+        <li>(1, 0, 67)</li>
+        <li>(24, 0, 67)</li>
       </positions>
-      <relativeRotation>Clockwise</relativeRotation>
-    </DMSE_Turret_Dawnblade_Striker>
+    </IRBM_CIWS_Laser>
     <HeatPump>
       <rects>
         <li>(11,19,11,19)</li>
@@ -940,6 +954,13 @@
         <li>(13,59,13,59)</li>
       </rects>
     </GravFieldPylon>
+    <DMSE_Turret_Dawnblade_Striker>
+      <positions>
+        <li>(3, 0, 22)</li>
+        <li>(2, 0, 50)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </DMSE_Turret_Dawnblade_Striker>
     <jdgg_nMassCargoHold>
       <positions>
         <li>(13, 0, 23)</li>
@@ -947,6 +968,13 @@
       </positions>
       <relativeRotation>Counterclockwise</relativeRotation>
     </jdgg_nMassCargoHold>
+    <DMSE_Turret_Dawnblade_Striker>
+      <positions>
+        <li>(23, 0, 22)</li>
+        <li>(24, 0, 50)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+    </DMSE_Turret_Dawnblade_Striker>
     <SmallThruster>
       <position>(2, 0, 25)</position>
       <relativeRotation>Clockwise</relativeRotation>
@@ -965,8 +993,6 @@
         <li>(24,26,24,26)</li>
         <li>(2,32,2,32)</li>
         <li>(24,32,24,32)</li>
-        <li>(2,38,2,38)</li>
-        <li>(24,38,24,38)</li>
         <li>(2,57,2,57)</li>
         <li>(24,57,24,57)</li>
         <li>(2,63,2,63)</li>
@@ -1071,8 +1097,8 @@
       <rects>
         <li>(2,29,2,29)</li>
         <li>(2,35,2,35)</li>
-        <li>(2,54,2,54)</li>
         <li>(2,60,2,60)</li>
+        <li>(1,66,1,66)</li>
         <li>(6,76,6,76)</li>
       </rects>
       <relativeRotation>Counterclockwise</relativeRotation>
@@ -1081,8 +1107,8 @@
       <rects>
         <li>(24,29,24,29)</li>
         <li>(24,35,24,35)</li>
-        <li>(24,54,24,54)</li>
         <li>(24,60,24,60)</li>
+        <li>(25,66,25,66)</li>
         <li>(20,76,20,76)</li>
       </rects>
       <relativeRotation>Clockwise</relativeRotation>
@@ -1773,10 +1799,12 @@
           <li>(23,40,24,47)</li>
           <li>(3,48,3,68)</li>
           <li>(23,48,23,68)</li>
-          <li>(1,49,2,51)</li>
-          <li>(24,49,25,51)</li>
-          <li>(2,52,2,68)</li>
-          <li>(24,52,24,68)</li>
+          <li>(1,49,2,55)</li>
+          <li>(24,49,25,55)</li>
+          <li>(0,52,0,53)</li>
+          <li>(26,52,26,53)</li>
+          <li>(2,56,2,68)</li>
+          <li>(24,56,24,68)</li>
           <li>(0,64,1,65)</li>
           <li>(25,64,26,65)</li>
           <li>(1,66,1,68)</li>
