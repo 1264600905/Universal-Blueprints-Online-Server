@@ -1,5 +1,5 @@
 <PrefabDef>
-  <defName>Prefab_20260625_233410</defName>
+  <defName>Prefab_20260625_233558</defName>
   <size>(27,78)</size>
   <extraInfo>
     <version>1.6.9655.19392</version>
@@ -159,6 +159,7 @@
         <steamWorkshopId>3682304832</steamWorkshopId>
         <things>
           <li>IRBM_CIWS_Laser</li>
+          <li>IRBM_AntiMissileRadar_Advanced</li>
         </things>
       </mod>
       <mod>
@@ -174,27 +175,6 @@
         </dependencies>
         <things>
           <li>GravFieldPylon</li>
-        </things>
-      </mod>
-      <mod>
-        <packageId>jdgg.adaptive.cargoholds</packageId>
-        <name>Cargo Holds</name>
-        <version></version>
-        <modorder>177</modorder>
-        <steamWorkshopId>3536708812</steamWorkshopId>
-        <dependencies>
-          <li>
-            <packageId>adaptive.storage.framework</packageId>
-            <steamWorkshopId>3033901359</steamWorkshopId>
-          </li>
-          <li>
-            <packageId>brrainz.harmony</packageId>
-            <steamWorkshopId>2009463077</steamWorkshopId>
-          </li>
-        </dependencies>
-        <things>
-          <li>jdgg_nMassCargoHold</li>
-          <li>jdgg_RefCargoHold</li>
         </things>
       </mod>
       <mod>
@@ -216,6 +196,27 @@
           <li>MF_Building_AutoRepairArm</li>
           <li>MF_Building_MaintenanceBay</li>
           <li>MF_Building_ComponentStorage</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>jdgg.adaptive.cargoholds</packageId>
+        <name>Cargo Holds</name>
+        <version></version>
+        <modorder>177</modorder>
+        <steamWorkshopId>3536708812</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>adaptive.storage.framework</packageId>
+            <steamWorkshopId>3033901359</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>jdgg_nMassCargoHold</li>
+          <li>jdgg_RefCargoHold</li>
         </things>
       </mod>
       <mod>
@@ -961,13 +962,9 @@
       </positions>
       <relativeRotation>Counterclockwise</relativeRotation>
     </DMSE_Turret_Dawnblade_Striker>
-    <jdgg_nMassCargoHold>
-      <positions>
-        <li>(13, 0, 23)</li>
-        <li>(13, 0, 29)</li>
-      </positions>
-      <relativeRotation>Counterclockwise</relativeRotation>
-    </jdgg_nMassCargoHold>
+    <IRBM_AntiMissileRadar_Advanced>
+      <position>(13, 0, 23)</position>
+    </IRBM_AntiMissileRadar_Advanced>
     <DMSE_Turret_Dawnblade_Striker>
       <positions>
         <li>(23, 0, 22)</li>
@@ -1042,6 +1039,10 @@
       </rects>
       <relativeRotation>Counterclockwise</relativeRotation>
     </MF_Building_PayloadStorage>
+    <jdgg_nMassCargoHold>
+      <position>(13, 0, 29)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </jdgg_nMassCargoHold>
     <MF_Building_PayloadStorage>
       <rects>
         <li>(17,27,17,27)</li>
