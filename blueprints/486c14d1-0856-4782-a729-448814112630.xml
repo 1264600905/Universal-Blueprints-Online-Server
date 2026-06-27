@@ -1,0 +1,145 @@
+<PrefabDef>
+  <defName>Prefab_20260628_011542</defName>
+  <size>(4,5)</size>
+  <extraInfo>
+    <version>1.6.9655.19392</version>
+    <name>Жилая комната 1</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>Dormitory</category>
+    <BuildingID>486c14d1-0856-4782-a729-448814112630</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>ludeon.rimworld.royalty</packageId>
+        <name>Royalty</name>
+        <version></version>
+        <modorder>3</modorder>
+        <things>
+          <li>FineTileSandstone</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>Жилая комната 1</default>
+        <ru>Жилая комната 1</ru>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <PlantPot>
+      <rects>
+        <li>(0,0,0,0)</li>
+        <li>(3,4,3,4)</li>
+      </rects>
+      <stuff>BlocksSandstone</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.494, 0.408, 0.369, 1.000)</color>
+    </PlantPot>
+    <Table1x2c>
+      <position>(1, 0, 0)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>BlocksSandstone</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.494, 0.408, 0.369, 1.000)</color>
+    </Table1x2c>
+    <PlantPot>
+      <rects>
+        <li>(3,0,3,0)</li>
+      </rects>
+      <stuff>BlocksSandstone</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.494, 0.408, 0.369, 1.000)</color>
+    </PlantPot>
+    <EndTable>
+      <rects>
+        <li>(0,1,0,1)</li>
+        <li>(0,4,0,4)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>BlocksSandstone</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.494, 0.408, 0.369, 1.000)</color>
+    </EndTable>
+    <DiningChair>
+      <rects>
+        <li>(1,1,1,1)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DiningChair>
+    <WallLamp>
+      <rects>
+        <li>(0,2,0,2)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <glowColor>RGBA(0.306, 0.886, 0.898, 1.000)</glowColor>
+    </WallLamp>
+    <DoubleBed>
+      <position>(0, 0, 3)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DoubleBed>
+    <Dresser>
+      <position>(2, 0, 3)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>BlocksSandstone</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.494, 0.408, 0.369, 1.000)</color>
+    </Dresser>
+  </things>
+  <terrain>
+    <FineTileSandstone>
+      <rects>
+        <li>(0,0,3,4)</li>
+      </rects>
+    </FineTileSandstone>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <FineTileSandstone>
+        <rects>
+          <li>(0,0,3,4)</li>
+        </rects>
+      </FineTileSandstone>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Sandstone_RoughHewn>
+        <rects>
+          <li>(0,0,3,2)</li>
+          <li>(0,3,1,4)</li>
+          <li>(3,3,3,3)</li>
+        </rects>
+      </Sandstone_RoughHewn>
+      <Sandstone_Rough>
+        <rects>
+          <li>(2,3,2,4)</li>
+          <li>(3,4,3,4)</li>
+        </rects>
+      </Sandstone_Rough>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofRockThick>
+      <rects>
+        <li>(0,0,3,4)</li>
+      </rects>
+    </RoofRockThick>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,1,4)</li>
+        <li>(2,1,3,4)</li>
+      </rects>
+    </PlayerRoofZone>
+    <NoRoofZone>
+      <rects>
+        <li>(2,0,3,0)</li>
+      </rects>
+    </NoRoofZone>
+  </roofs>
+</PrefabDef>
