@@ -1,10 +1,10 @@
 <PrefabDef>
-  <defName>Prefab_20260625_232747</defName>
+  <defName>Prefab_20260628_200100</defName>
   <size>(27,78)</size>
   <extraInfo>
     <version>1.6.9655.19392</version>
     <name>失能機關星際巡洋艦</name>
-    <description>機兵科技的重火力巡洋艦，適用於遠征作戰用途，沒有廚房，只有臥室、小型機兵車間、車庫，具有儲備6台龍騎兵機庫龍騎兵與跨地圖彈射裝置。注意：逆重場支柱範圍MOD設置至少為25！(新開的存檔會重置設定！)</description>
+    <description>機兵科技的重火力巡洋艦，適用於遠征作戰用途，沒有廚房，只有臥室、小型機兵車間、車庫，具有儲備6台龍騎兵機庫龍騎兵與跨地圖彈射裝置。至少要有Bigger Gravships (and other Odyssey spaceship related settings)</description>
     <tags></tags>
     <author>黑龍月</author>
     <category>奥德赛DLC</category>
@@ -113,8 +113,8 @@
         <modorder>53</modorder>
         <steamWorkshopId>3538850569</steamWorkshopId>
         <things>
-          <li>HeatPump</li>
           <li>ColdPump</li>
+          <li>HeatPump</li>
           <li>GravshipBlastDoor</li>
           <li>GravshipWallLamp</li>
         </things>
@@ -148,21 +148,6 @@
         </dependencies>
         <things>
           <li>MF_Building_EjectorBay</li>
-        </things>
-      </mod>
-      <mod>
-        <packageId>als.gravtech</packageId>
-        <name>GravTech</name>
-        <version>1.4.3</version>
-        <modorder>283</modorder>
-        <steamWorkshopId>3545374124</steamWorkshopId>
-        <dependencies>
-          <li>
-            <packageId>ludeon.rimworld.odyssey</packageId>
-          </li>
-        </dependencies>
-        <things>
-          <li>GravFieldPylon</li>
         </things>
       </mod>
       <mod>
@@ -398,8 +383,8 @@
         <zh-CN>失能機關星際巡洋艦</zh-CN>
       </name>
       <description>
-        <default>機兵科技的重火力巡洋艦，適用於遠征作戰用途，沒有廚房，只有臥室、小型機兵車間、車庫，具有儲備6台龍騎兵機庫龍騎兵與跨地圖彈射裝置。注意：逆重場支柱範圍MOD設置至少為25！(新開的存檔會重置設定！)</default>
-        <zh-CN>機兵科技的重火力巡洋艦，適用於遠征作戰用途，沒有廚房，只有臥室、小型機兵車間、車庫，具有儲備6台龍騎兵機庫龍騎兵與跨地圖彈射裝置。注意：逆重場支柱範圍MOD設置至少為25！(新開的存檔會重置設定！)</zh-CN>
+        <default>機兵科技的重火力巡洋艦，適用於遠征作戰用途，沒有廚房，只有臥室、小型機兵車間、車庫，具有儲備6台龍騎兵機庫龍騎兵與跨地圖彈射裝置。至少要有Bigger Gravships (and other Odyssey spaceship related settings)</default>
+        <zh-CN>機兵科技的重火力巡洋艦，適用於遠征作戰用途，沒有廚房，只有臥室、小型機兵車間、車庫，具有儲備6台龍騎兵機庫龍騎兵與跨地圖彈射裝置。至少要有Bigger Gravships (and other Odyssey spaceship related settings)</zh-CN>
       </description>
     </multiLanguage>
   </extraInfo>
@@ -487,10 +472,10 @@
         <li>(9,71,11,71)</li>
         <li>(14,71,17,71)</li>
         <li>(20,71,21,72)</li>
-        <li>(7,72,7,72)</li>
-        <li>(9,72,9,76)</li>
-        <li>(17,72,17,76)</li>
-        <li>(19,72,19,72)</li>
+        <li>(7,72,9,72)</li>
+        <li>(17,72,19,72)</li>
+        <li>(9,73,9,76)</li>
+        <li>(17,73,17,76)</li>
         <li>(10,77,16,77)</li>
       </rects>
       <stuff>Steel</stuff>
@@ -528,7 +513,7 @@
         <li>(10,41,10,49)</li>
         <li>(12,41,14,41)</li>
         <li>(16,41,16,49)</li>
-        <li>(13,42,13,61)</li>
+        <li>(13,42,13,58)</li>
         <li>(5,48,9,48)</li>
         <li>(17,48,21,48)</li>
         <li>(11,49,12,49)</li>
@@ -540,6 +525,7 @@
         <li>(16,54,22,54)</li>
         <li>(11,56,11,61)</li>
         <li>(4,60,10,60)</li>
+        <li>(13,60,13,61)</li>
         <li>(16,60,22,60)</li>
         <li>(4,61,4,68)</li>
         <li>(12,61,12,61)</li>
@@ -760,20 +746,12 @@
     <ShipWallSmallColdNnclearGeneratorCabin>
       <positions>
         <li>(10, 0, 12)</li>
+        <li>(11, 0, 12)</li>
+        <li>(15, 0, 12)</li>
         <li>(16, 0, 12)</li>
       </positions>
       <relativeRotation>Counterclockwise</relativeRotation>
     </ShipWallSmallColdNnclearGeneratorCabin>
-    <HeatPump>
-      <rects>
-        <li>(10,13,10,13)</li>
-        <li>(15,19,15,19)</li>
-        <li>(15,26,15,26)</li>
-        <li>(15,35,15,35)</li>
-        <li>(12,53,12,53)</li>
-      </rects>
-      <relativeRotation>Counterclockwise</relativeRotation>
-    </HeatPump>
     <LargeThruster>
       <positions>
         <li>(5, 0, 15)</li>
@@ -799,6 +777,11 @@
         <li>(12,14,12,14)</li>
       </rects>
     </OxygenPump>
+    <HeatPump>
+      <rects>
+        <li>(16,14,16,14)</li>
+      </rects>
+    </HeatPump>
     <LargeThruster>
       <positions>
         <li>(21, 0, 14)</li>
@@ -934,12 +917,22 @@
       </rects>
       <relativeRotation>Clockwise</relativeRotation>
     </HeatPump>
-    <GravFieldPylon>
+    <GravFieldExtender>
       <rects>
         <li>(13,19,13,19)</li>
+        <li>(13,37,13,37)</li>
         <li>(13,59,13,59)</li>
       </rects>
-    </GravFieldPylon>
+    </GravFieldExtender>
+    <HeatPump>
+      <rects>
+        <li>(15,19,15,19)</li>
+        <li>(15,26,15,26)</li>
+        <li>(15,35,15,35)</li>
+        <li>(12,53,12,53)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </HeatPump>
     <jdgg_nMassCargoHold>
       <positions>
         <li>(13, 0, 23)</li>
@@ -1106,11 +1099,6 @@
         <li>(13, 0, 34)</li>
       </positions>
     </MF_Building_ComponentStorage>
-    <GravFieldExtender>
-      <rects>
-        <li>(13,37,13,37)</li>
-      </rects>
-    </GravFieldExtender>
     <GravEngine>
       <position>(13, 0, 39)</position>
     </GravEngine>
@@ -1480,15 +1468,6 @@
       </rects>
       <relativeRotation>Clockwise</relativeRotation>
     </SewageDumpPort>
-    <VacBarrier>
-      <rects>
-        <li>(8,72,8,72)</li>
-        <li>(18,72,18,72)</li>
-      </rects>
-      <stuff>Steel</stuff>
-      <colorDef>Structure_GreyDark</colorDef>
-      <color>RGBA(0.318, 0.318, 0.318, 1.000)</color>
-    </VacBarrier>
     <DMSE_Turret_Dawnblade_Striker>
       <positions>
         <li>(7, 0, 74)</li>
