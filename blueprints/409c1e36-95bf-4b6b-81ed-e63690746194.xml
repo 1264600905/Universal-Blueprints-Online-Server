@@ -1,13 +1,13 @@
 <PrefabDef>
-  <defName>Prefab_20260712_193518</defName>
-  <size>(13,13)</size>
+  <defName>Prefab_20260713_185009</defName>
+  <size>(45,26)</size>
   <extraInfo>
     <version>1.6.9676.17735</version>
-    <name>建筑基地</name>
+    <name>宿舍集合</name>
     <description></description>
     <tags></tags>
     <author></author>
-    <category>基地蓝图</category>
+    <category>宿舍</category>
     <BuildingID>409c1e36-95bf-4b6b-81ed-e63690746194</BuildingID>
     <modPackages>
       <mod>
@@ -24,11 +24,6 @@
         </dependencies>
         <things>
           <li>OmniPhantomWall2_PowerLight</li>
-          <li>GlobalFireExtinguisher</li>
-          <li>RealityWeaver</li>
-          <li>OmniRectangleEnergyDefenseField</li>
-          <li>OmniBattery</li>
-          <li>OmniPowerGenerator</li>
         </things>
       </mod>
       <mod>
@@ -45,24 +40,8 @@
         </dependencies>
         <things>
           <li>LWOPSteel</li>
-          <li>LWOPWoodFiredGenerator</li>
+          <li>LWOPwool</li>
           <li>LWOPAirConditioner</li>
-        </things>
-      </mod>
-      <mod>
-        <packageId>cagier.digitalstorage</packageId>
-        <name>【CA】数字存储-Digital Storage 3.0</name>
-        <version></version>
-        <modorder>143</modorder>
-        <steamWorkshopId>3623684313</steamWorkshopId>
-        <dependencies>
-          <li>
-            <packageId>brrainz.harmony</packageId>
-            <steamWorkshopId>2009463077</steamWorkshopId>
-          </li>
-        </dependencies>
-        <things>
-          <li>DigitalStorage_InputInterface</li>
         </things>
       </mod>
       <mod>
@@ -72,62 +51,553 @@
         <modorder>146</modorder>
         <steamWorkshopId>1298507261</steamWorkshopId>
         <things>
+          <li>HKJ_AutoRepairdoor</li>
           <li>HKJ_SterileTile</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ponpeco.pfkidsroom</packageId>
+        <name><![CDATA[Ponpeco Furnitures : Kids' Room]]></name>
+        <version>1.7.2</version>
+        <modorder>199</modorder>
+        <steamWorkshopId>3367310887</steamWorkshopId>
+        <things>
+          <li>PFK_BedAb</li>
+          <li>PFK_EndTable</li>
+          <li>PFK_Cradle</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.biotech</packageId>
+        <name>Biotech</name>
+        <version></version>
+        <modorder>6</modorder>
+        <things>
+          <li>ToyBox</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.ideology</packageId>
+        <name>Ideology</name>
+        <version></version>
+        <modorder>5</modorder>
+        <things>
+          <li>PlantPot_Bonsai</li>
+          <li>StylingStation</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.royalty</packageId>
+        <name>Royalty</name>
+        <version></version>
+        <modorder>4</modorder>
+        <things>
+          <li>Drape</li>
+          <li>GrandThrone</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>mingtuwuxiang.spacebasedecorative</packageId>
+        <name>[MUS]太空基地家具Space Base Furniture</name>
+        <version></version>
+        <modorder>197</modorder>
+        <steamWorkshopId>3523916780</steamWorkshopId>
+        <things>
+          <li>MUS_SpaceBase_SchoolDesk</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>haplo.miscellaneous.training</packageId>
+        <name>Misc. Training</name>
+        <version>1.6.5</version>
+        <modorder>122</modorder>
+        <steamWorkshopId>717575199</steamWorkshopId>
+        <things>
+          <li>MartialArtsTarget</li>
         </things>
       </mod>
     </modPackages>
     <multiLanguage>
       <name>
-        <default>建筑基地</default>
-        <zh-CN>建筑基地</zh-CN>
+        <default>宿舍集合</default>
+        <zh-CN>宿舍集合</zh-CN>
       </name>
     </multiLanguage>
   </extraInfo>
   <things>
     <OmniPhantomWall2_PowerLight>
       <rects>
-        <li>(0,0,12,0)</li>
-        <li>(0,1,0,12)</li>
-        <li>(12,1,12,12)</li>
-        <li>(1,12,11,12)</li>
+        <li>(0,0,21,0)</li>
+        <li>(23,0,44,0)</li>
+        <li>(0,1,0,16)</li>
+        <li>(7,1,7,2)</li>
+        <li>(37,1,37,2)</li>
+        <li>(44,1,44,16)</li>
+        <li>(10,3,17,3)</li>
+        <li>(27,3,34,3)</li>
+        <li>(7,4,7,8)</li>
+        <li>(10,4,10,4)</li>
+        <li>(17,4,17,16)</li>
+        <li>(27,4,27,16)</li>
+        <li>(34,4,34,4)</li>
+        <li>(37,4,37,8)</li>
+        <li>(1,6,6,6)</li>
+        <li>(10,6,10,9)</li>
+        <li>(34,6,34,9)</li>
+        <li>(38,6,43,6)</li>
+        <li>(11,8,16,8)</li>
+        <li>(28,8,33,8)</li>
+        <li>(7,10,7,13)</li>
+        <li>(37,10,37,13)</li>
+        <li>(1,11,6,11)</li>
+        <li>(10,11,10,16)</li>
+        <li>(18,11,19,11)</li>
+        <li>(25,11,26,11)</li>
+        <li>(34,11,34,16)</li>
+        <li>(38,11,43,11)</li>
+        <li>(7,15,7,16)</li>
+        <li>(37,15,37,16)</li>
+        <li>(1,16,6,16)</li>
+        <li>(11,16,16,16)</li>
+        <li>(28,16,33,16)</li>
+        <li>(38,16,43,16)</li>
+        <li>(3,17,3,21)</li>
+        <li>(41,17,41,21)</li>
+        <li>(13,19,13,25)</li>
+        <li>(17,19,17,22)</li>
+        <li>(27,19,27,22)</li>
+        <li>(31,19,31,25)</li>
+        <li>(8,20,8,25)</li>
+        <li>(36,20,36,25)</li>
+        <li>(4,21,7,21)</li>
+        <li>(37,21,40,21)</li>
+        <li>(14,22,16,22)</li>
+        <li>(18,22,26,22)</li>
+        <li>(28,22,30,22)</li>
+        <li>(9,25,12,25)</li>
+        <li>(32,25,35,25)</li>
       </rects>
       <stuff>LWOPSteel</stuff>
     </OmniPhantomWall2_PowerLight>
-    <GlobalFireExtinguisher>
-      <position>(2, 0, 2)</position>
-    </GlobalFireExtinguisher>
-    <RealityWeaver>
-      <position>(6, 0, 2)</position>
-    </RealityWeaver>
-    <DigitalStorage_InputInterface>
+    <HKJ_AutoRepairdoor>
       <rects>
-        <li>(11,1,11,1)</li>
+        <li>(22,0,22,0)</li>
       </rects>
-    </DigitalStorage_InputInterface>
-    <LWOPWoodFiredGenerator>
-      <position>(1, 0, 4)</position>
-    </LWOPWoodFiredGenerator>
-    <OmniRectangleEnergyDefenseField>
+      <stuff>LWOPSteel</stuff>
+    </HKJ_AutoRepairdoor>
+    <PFK_BedAb>
+      <positions>
+        <li>(1, 0, 1)</li>
+        <li>(28, 0, 4)</li>
+        <li>(1, 0, 7)</li>
+        <li>(1, 0, 12)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Legendary</quality>
+    </PFK_BedAb>
+    <ToyBox>
       <rects>
-        <li>(6,6,6,6)</li>
+        <li>(5,1,5,1)</li>
+        <li>(39,1,39,1)</li>
+        <li>(12,4,12,4)</li>
+        <li>(32,4,32,4)</li>
+        <li>(5,7,5,7)</li>
+        <li>(39,7,39,7)</li>
+        <li>(13,9,13,9)</li>
+        <li>(31,9,31,9)</li>
+        <li>(5,12,5,12)</li>
+        <li>(39,12,39,12)</li>
       </rects>
-    </OmniRectangleEnergyDefenseField>
-    <OmniBattery>
-      <position>(3, 0, 9)</position>
-    </OmniBattery>
-    <OmniPowerGenerator>
-      <position>(9, 0, 9)</position>
-    </OmniPowerGenerator>
+      <stuff>LWOPSteel</stuff>
+    </ToyBox>
+    <PFK_EndTable>
+      <rects>
+        <li>(6,1,6,1)</li>
+        <li>(33,4,33,4)</li>
+        <li>(6,7,6,7)</li>
+        <li>(6,12,6,12)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>LWOPSteel</stuff>
+      <quality>Legendary</quality>
+    </PFK_EndTable>
+    <HiddenConduit>
+      <rects>
+        <li>(10,1,10,2)</li>
+        <li>(17,1,17,2)</li>
+        <li>(27,1,27,2)</li>
+        <li>(34,1,34,2)</li>
+        <li>(7,3,9,3)</li>
+        <li>(35,3,37,3)</li>
+        <li>(8,8,9,8)</li>
+        <li>(35,8,36,8)</li>
+        <li>(35,11,36,11)</li>
+        <li>(8,16,9,16)</li>
+        <li>(18,16,26,16)</li>
+        <li>(35,16,36,16)</li>
+        <li>(18,19,26,19)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <PFK_EndTable>
+      <rects>
+        <li>(38,1,38,1)</li>
+        <li>(11,4,11,4)</li>
+        <li>(38,7,38,7)</li>
+        <li>(38,12,38,12)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>LWOPSteel</stuff>
+      <quality>Legendary</quality>
+    </PFK_EndTable>
+    <PFK_BedAb>
+      <positions>
+        <li>(43, 0, 1)</li>
+        <li>(16, 0, 4)</li>
+        <li>(43, 0, 7)</li>
+        <li>(43, 0, 12)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Legendary</quality>
+    </PFK_BedAb>
+    <RoyalBed>
+      <positions>
+        <li>(1, 0, 3)</li>
+        <li>(28, 0, 6)</li>
+        <li>(1, 0, 9)</li>
+        <li>(1, 0, 14)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>LWOPSteel</stuff>
+      <quality>Legendary</quality>
+    </RoyalBed>
+    <PlantPot_Bonsai>
+      <rects>
+        <li>(6,2,6,2)</li>
+        <li>(38,2,38,2)</li>
+        <li>(33,6,33,6)</li>
+        <li>(6,8,6,8)</li>
+        <li>(38,8,38,8)</li>
+        <li>(11,9,11,9)</li>
+        <li>(33,9,33,9)</li>
+        <li>(6,13,6,13)</li>
+        <li>(38,13,38,13)</li>
+      </rects>
+      <stuff>LWOPSteel</stuff>
+      <quality>Legendary</quality>
+    </PlantPot_Bonsai>
+    <RoyalBed>
+      <positions>
+        <li>(43, 0, 2)</li>
+        <li>(16, 0, 5)</li>
+        <li>(43, 0, 8)</li>
+        <li>(43, 0, 13)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>LWOPSteel</stuff>
+      <quality>Legendary</quality>
+    </RoyalBed>
+    <HKJ_AutoRepairdoor>
+      <rects>
+        <li>(7,3,7,3)</li>
+        <li>(37,3,37,3)</li>
+        <li>(10,5,10,5)</li>
+        <li>(34,5,34,5)</li>
+        <li>(7,9,7,9)</li>
+        <li>(37,9,37,9)</li>
+        <li>(10,10,10,10)</li>
+        <li>(34,10,34,10)</li>
+        <li>(7,14,7,14)</li>
+        <li>(37,14,37,14)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>LWOPSteel</stuff>
+    </HKJ_AutoRepairdoor>
+    <Drape>
+      <positions>
+        <li>(18, 0, 4)</li>
+        <li>(26, 0, 4)</li>
+        <li>(18, 0, 7)</li>
+        <li>(26, 0, 7)</li>
+        <li>(18, 0, 10)</li>
+        <li>(26, 0, 10)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>LWOPwool</stuff>
+    </Drape>
+    <Armchair>
+      <rects>
+        <li>(19,3,20,3)</li>
+        <li>(22,3,22,3)</li>
+        <li>(24,3,25,3)</li>
+        <li>(3,4,3,4)</li>
+        <li>(41,4,41,4)</li>
+        <li>(14,6,14,6)</li>
+        <li>(30,6,30,6)</li>
+        <li>(3,9,3,9)</li>
+        <li>(41,9,41,9)</li>
+        <li>(21,12,23,12)</li>
+        <li>(3,14,3,14)</li>
+        <li>(41,14,41,14)</li>
+      </rects>
+      <stuff>LWOPwool</stuff>
+      <quality>Legendary</quality>
+    </Armchair>
+    <PFK_Cradle>
+      <rects>
+        <li>(1,4,1,4)</li>
+        <li>(13,4,13,4)</li>
+        <li>(40,7,40,7)</li>
+        <li>(40,12,40,12)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>LWOPSteel</stuff>
+      <quality>Legendary</quality>
+    </PFK_Cradle>
+    <PokerTable>
+      <positions>
+        <li>(19, 0, 4)</li>
+        <li>(24, 0, 4)</li>
+      </positions>
+      <stuff>LWOPSteel</stuff>
+      <quality>Legendary</quality>
+    </PokerTable>
+    <ChessTable>
+      <rects>
+        <li>(22,4,22,4)</li>
+      </rects>
+      <stuff>LWOPSteel</stuff>
+      <quality>Legendary</quality>
+    </ChessTable>
+    <PFK_Cradle>
+      <rects>
+        <li>(31,4,31,4)</li>
+        <li>(43,4,43,4)</li>
+        <li>(4,7,4,7)</li>
+        <li>(4,12,4,12)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>LWOPSteel</stuff>
+      <quality>Legendary</quality>
+    </PFK_Cradle>
     <LWOPAirConditioner>
       <rects>
-        <li>(6,11,6,11)</li>
+        <li>(1,5,1,5)</li>
+        <li>(43,5,43,5)</li>
+        <li>(16,7,16,7)</li>
+        <li>(28,7,28,7)</li>
+        <li>(14,9,14,9)</li>
+        <li>(30,9,30,9)</li>
+        <li>(1,10,1,10)</li>
+        <li>(43,10,43,10)</li>
+        <li>(18,12,18,12)</li>
+        <li>(26,12,26,12)</li>
+        <li>(1,15,1,15)</li>
+        <li>(43,15,43,15)</li>
       </rects>
     </LWOPAirConditioner>
+    <StylingStation>
+      <positions>
+        <li>(3, 0, 5)</li>
+        <li>(41, 0, 5)</li>
+        <li>(14, 0, 7)</li>
+        <li>(30, 0, 7)</li>
+        <li>(3, 0, 10)</li>
+        <li>(41, 0, 10)</li>
+        <li>(3, 0, 15)</li>
+        <li>(41, 0, 15)</li>
+      </positions>
+      <stuff>LWOPSteel</stuff>
+    </StylingStation>
+    <Dresser>
+      <positions>
+        <li>(6, 0, 5)</li>
+        <li>(39, 0, 5)</li>
+        <li>(12, 0, 7)</li>
+        <li>(33, 0, 7)</li>
+        <li>(6, 0, 10)</li>
+        <li>(39, 0, 10)</li>
+        <li>(6, 0, 15)</li>
+        <li>(12, 0, 15)</li>
+        <li>(33, 0, 15)</li>
+        <li>(39, 0, 15)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>LWOPSteel</stuff>
+      <quality>Legendary</quality>
+    </Dresser>
+    <Armchair>
+      <rects>
+        <li>(22,5,22,5)</li>
+        <li>(19,6,20,6)</li>
+        <li>(24,6,25,6)</li>
+        <li>(21,16,23,16)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>LWOPwool</stuff>
+      <quality>Legendary</quality>
+    </Armchair>
+    <HorseshoesPin>
+      <rects>
+        <li>(22,6,22,6)</li>
+      </rects>
+      <stuff>LWOPSteel</stuff>
+    </HorseshoesPin>
+    <BilliardsTable>
+      <position>(22, 0, 9)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>LWOPSteel</stuff>
+      <quality>Legendary</quality>
+    </BilliardsTable>
+    <MUS_SpaceBase_SchoolDesk>
+      <positions>
+        <li>(15, 0, 9)</li>
+        <li>(28, 0, 9)</li>
+      </positions>
+      <stuff>LWOPSteel</stuff>
+      <quality>Legendary</quality>
+    </MUS_SpaceBase_SchoolDesk>
+    <MartialArtsTarget>
+      <rects>
+        <li>(15,10,15,10)</li>
+        <li>(29,10,29,10)</li>
+      </rects>
+      <stuff>LWOPwool</stuff>
+    </MartialArtsTarget>
+    <StylingStation>
+      <position>(11, 0, 12)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>LWOPSteel</stuff>
+    </StylingStation>
+    <StylingStation>
+      <position>(33, 0, 12)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>LWOPSteel</stuff>
+    </StylingStation>
+    <Armchair>
+      <rects>
+        <li>(12,12,12,12)</li>
+        <li>(24,13,24,15)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>LWOPwool</stuff>
+      <quality>Legendary</quality>
+    </Armchair>
+    <Drape>
+      <positions>
+        <li>(13, 0, 12)</li>
+        <li>(30, 0, 12)</li>
+      </positions>
+      <stuff>LWOPwool</stuff>
+    </Drape>
+    <Armchair>
+      <rects>
+        <li>(32,12,32,12)</li>
+        <li>(20,13,20,15)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>LWOPwool</stuff>
+      <quality>Legendary</quality>
+    </Armchair>
+    <Table3x3c>
+      <position>(22, 0, 14)</position>
+      <stuff>LWOPSteel</stuff>
+      <quality>Legendary</quality>
+    </Table3x3c>
+    <RoyalBed>
+      <positions>
+        <li>(14, 0, 15)</li>
+        <li>(31, 0, 15)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>LWOPSteel</stuff>
+      <quality>Legendary</quality>
+    </RoyalBed>
+    <PFK_BedAb>
+      <positions>
+        <li>(15, 0, 15)</li>
+        <li>(29, 0, 15)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Legendary</quality>
+    </PFK_BedAb>
+    <PFK_Cradle>
+      <rects>
+        <li>(16,14,16,14)</li>
+        <li>(28,14,28,14)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>LWOPSteel</stuff>
+      <quality>Legendary</quality>
+    </PFK_Cradle>
+    <PFK_EndTable>
+      <rects>
+        <li>(16,15,16,15)</li>
+        <li>(28,15,28,15)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>LWOPSteel</stuff>
+      <quality>Legendary</quality>
+    </PFK_EndTable>
+    <FlatscreenTelevision>
+      <positions>
+        <li>(21, 0, 18)</li>
+        <li>(24, 0, 18)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+    </FlatscreenTelevision>
+    <GrandThrone>
+      <position>(29, 0, 21)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Gold</stuff>
+      <quality>Legendary</quality>
+    </GrandThrone>
   </things>
   <terrain>
     <HKJ_SterileTile>
       <rects>
-        <li>(1,1,11,11)</li>
+        <li>(22,0,22,21)</li>
+        <li>(1,1,6,5)</li>
+        <li>(8,1,21,2)</li>
+        <li>(23,1,36,2)</li>
+        <li>(38,1,43,5)</li>
+        <li>(7,3,9,3)</li>
+        <li>(17,3,21,18)</li>
+        <li>(23,3,27,18)</li>
+        <li>(35,3,37,3)</li>
+        <li>(8,4,9,19)</li>
+        <li>(11,4,16,7)</li>
+        <li>(28,4,33,7)</li>
+        <li>(35,4,36,19)</li>
+        <li>(10,5,10,5)</li>
+        <li>(34,5,34,5)</li>
+        <li>(1,7,6,10)</li>
+        <li>(38,7,43,10)</li>
+        <li>(7,9,7,9)</li>
+        <li>(10,9,16,10)</li>
+        <li>(28,9,34,10)</li>
+        <li>(37,9,37,9)</li>
+        <li>(11,11,16,15)</li>
+        <li>(28,11,33,15)</li>
+        <li>(1,12,6,15)</li>
+        <li>(38,12,43,15)</li>
+        <li>(7,14,7,14)</li>
+        <li>(37,14,37,14)</li>
+        <li>(4,17,7,20)</li>
+        <li>(10,17,16,18)</li>
+        <li>(28,17,34,18)</li>
+        <li>(37,17,40,20)</li>
+        <li>(10,19,12,24)</li>
+        <li>(14,19,16,21)</li>
+        <li>(18,19,21,21)</li>
+        <li>(23,19,26,21)</li>
+        <li>(28,19,30,21)</li>
+        <li>(32,19,34,24)</li>
+        <li>(9,20,9,24)</li>
+        <li>(35,20,35,24)</li>
       </rects>
     </HKJ_SterileTile>
   </terrain>
@@ -135,35 +605,220 @@
     <terrainLayerDetail layer="topGrid">
       <Soil>
         <rects>
-          <li>(0,0,12,0)</li>
-          <li>(0,1,0,12)</li>
-          <li>(12,1,12,12)</li>
-          <li>(1,12,11,12)</li>
+          <li>(0,0,21,0)</li>
+          <li>(23,0,29,0)</li>
+          <li>(0,1,0,25)</li>
+          <li>(7,1,7,2)</li>
+          <li>(44,1,44,5)</li>
+          <li>(10,3,16,3)</li>
+          <li>(28,3,30,3)</li>
+          <li>(7,4,7,8)</li>
+          <li>(10,4,10,4)</li>
+          <li>(1,6,6,6)</li>
+          <li>(10,6,10,8)</li>
+          <li>(11,8,16,8)</li>
+          <li>(28,8,29,8)</li>
+          <li>(7,10,7,13)</li>
+          <li>(1,11,6,11)</li>
+          <li>(10,11,10,16)</li>
+          <li>(44,13,44,25)</li>
+          <li>(34,14,34,16)</li>
+          <li>(7,15,7,16)</li>
+          <li>(37,15,37,16)</li>
+          <li>(1,16,6,16)</li>
+          <li>(11,16,16,16)</li>
+          <li>(28,16,33,16)</li>
+          <li>(38,16,43,16)</li>
+          <li>(1,17,3,25)</li>
+          <li>(41,17,43,25)</li>
+          <li>(13,19,13,25)</li>
+          <li>(17,19,17,25)</li>
+          <li>(27,19,27,25)</li>
+          <li>(31,19,31,25)</li>
+          <li>(8,20,8,25)</li>
+          <li>(36,20,36,25)</li>
+          <li>(4,21,7,25)</li>
+          <li>(37,21,40,25)</li>
+          <li>(14,22,16,25)</li>
+          <li>(18,22,26,25)</li>
+          <li>(28,22,30,25)</li>
+          <li>(9,25,12,25)</li>
+          <li>(32,25,35,25)</li>
         </rects>
       </Soil>
       <HKJ_SterileTile>
         <rects>
-          <li>(1,1,11,11)</li>
+          <li>(22,0,22,21)</li>
+          <li>(1,1,6,5)</li>
+          <li>(8,1,21,2)</li>
+          <li>(23,1,36,2)</li>
+          <li>(38,1,43,5)</li>
+          <li>(7,3,9,3)</li>
+          <li>(17,3,21,18)</li>
+          <li>(23,3,27,18)</li>
+          <li>(35,3,37,3)</li>
+          <li>(8,4,9,19)</li>
+          <li>(11,4,16,7)</li>
+          <li>(28,4,33,7)</li>
+          <li>(35,4,36,19)</li>
+          <li>(10,5,10,5)</li>
+          <li>(34,5,34,5)</li>
+          <li>(1,7,6,10)</li>
+          <li>(38,7,43,10)</li>
+          <li>(7,9,7,9)</li>
+          <li>(10,9,16,10)</li>
+          <li>(28,9,34,10)</li>
+          <li>(37,9,37,9)</li>
+          <li>(11,11,16,15)</li>
+          <li>(28,11,33,15)</li>
+          <li>(1,12,6,15)</li>
+          <li>(38,12,43,15)</li>
+          <li>(7,14,7,14)</li>
+          <li>(37,14,37,14)</li>
+          <li>(4,17,7,20)</li>
+          <li>(10,17,16,18)</li>
+          <li>(28,17,34,18)</li>
+          <li>(37,17,40,20)</li>
+          <li>(10,19,12,24)</li>
+          <li>(14,19,16,21)</li>
+          <li>(18,19,21,21)</li>
+          <li>(23,19,26,21)</li>
+          <li>(28,19,30,21)</li>
+          <li>(32,19,34,24)</li>
+          <li>(9,20,9,24)</li>
+          <li>(35,20,35,24)</li>
         </rects>
       </HKJ_SterileTile>
     </terrainLayerDetail>
     <terrainLayerDetail layer="underGrid">
       <Soil>
         <rects>
-          <li>(1,1,11,11)</li>
+          <li>(22,0,22,21)</li>
+          <li>(1,1,6,5)</li>
+          <li>(8,1,21,2)</li>
+          <li>(23,1,29,2)</li>
+          <li>(30,2,30,2)</li>
+          <li>(7,3,9,3)</li>
+          <li>(17,3,21,18)</li>
+          <li>(23,3,27,18)</li>
+          <li>(8,4,9,19)</li>
+          <li>(11,4,16,7)</li>
+          <li>(28,4,30,7)</li>
+          <li>(43,4,43,4)</li>
+          <li>(10,5,10,5)</li>
+          <li>(31,6,31,6)</li>
+          <li>(1,7,6,10)</li>
+          <li>(7,9,7,9)</li>
+          <li>(10,9,16,10)</li>
+          <li>(28,9,30,15)</li>
+          <li>(11,11,16,15)</li>
+          <li>(1,12,6,15)</li>
+          <li>(31,13,31,15)</li>
+          <li>(42,13,43,15)</li>
+          <li>(7,14,7,14)</li>
+          <li>(32,14,33,15)</li>
+          <li>(41,14,41,15)</li>
+          <li>(35,15,36,19)</li>
+          <li>(38,15,40,15)</li>
+          <li>(4,17,7,20)</li>
+          <li>(10,17,16,18)</li>
+          <li>(28,17,34,18)</li>
+          <li>(37,17,40,20)</li>
+          <li>(10,19,12,22)</li>
+          <li>(14,19,16,21)</li>
+          <li>(18,19,21,21)</li>
+          <li>(23,19,26,21)</li>
+          <li>(28,19,30,21)</li>
+          <li>(32,19,34,24)</li>
+          <li>(9,20,9,24)</li>
+          <li>(35,20,35,24)</li>
+          <li>(10,23,11,24)</li>
+          <li>(12,24,12,24)</li>
         </rects>
       </Soil>
+      <Gravel>
+        <rects>
+          <li>(30,1,30,1)</li>
+          <li>(42,1,43,3)</li>
+          <li>(31,4,31,5)</li>
+          <li>(42,4,42,5)</li>
+          <li>(32,5,32,7)</li>
+          <li>(41,5,41,5)</li>
+          <li>(43,5,43,5)</li>
+          <li>(31,7,31,7)</li>
+          <li>(42,7,43,8)</li>
+          <li>(31,9,32,9)</li>
+          <li>(43,9,43,10)</li>
+          <li>(31,10,31,10)</li>
+          <li>(31,12,31,12)</li>
+          <li>(42,12,43,12)</li>
+          <li>(40,13,41,13)</li>
+          <li>(35,14,40,14)</li>
+          <li>(12,23,12,23)</li>
+        </rects>
+      </Gravel>
+      <Limestone_Rough>
+        <rects>
+          <li>(31,1,31,2)</li>
+          <li>(32,4,32,4)</li>
+          <li>(32,10,32,13)</li>
+          <li>(31,11,31,11)</li>
+        </rects>
+      </Limestone_Rough>
+      <Sandstone_Rough>
+        <rects>
+          <li>(32,1,32,2)</li>
+          <li>(36,1,36,1)</li>
+          <li>(38,1,41,4)</li>
+          <li>(37,3,37,3)</li>
+          <li>(33,4,33,7)</li>
+          <li>(34,5,34,5)</li>
+          <li>(38,5,40,5)</li>
+          <li>(36,7,36,8)</li>
+          <li>(38,7,41,10)</li>
+          <li>(37,9,37,9)</li>
+          <li>(42,9,42,10)</li>
+          <li>(36,10,36,13)</li>
+          <li>(35,12,35,13)</li>
+          <li>(38,12,41,12)</li>
+          <li>(33,13,33,13)</li>
+          <li>(38,13,39,13)</li>
+        </rects>
+      </Sandstone_Rough>
+      <Sandstone_RoughHewn>
+        <rects>
+          <li>(33,1,35,2)</li>
+          <li>(36,2,36,6)</li>
+          <li>(35,3,35,11)</li>
+          <li>(34,9,34,10)</li>
+          <li>(36,9,36,9)</li>
+          <li>(33,12,33,12)</li>
+        </rects>
+      </Sandstone_RoughHewn>
+      <Limestone_RoughHewn>
+        <rects>
+          <li>(33,9,33,11)</li>
+        </rects>
+      </Limestone_RoughHewn>
     </terrainLayerDetail>
   </terrainLayers>
   <roofs>
     <RoofConstructed>
       <rects>
-        <li>(0,0,12,12)</li>
+        <li>(0,0,44,16)</li>
+        <li>(3,17,41,21)</li>
+        <li>(8,22,36,22)</li>
+        <li>(8,23,13,25)</li>
+        <li>(31,23,36,25)</li>
       </rects>
     </RoofConstructed>
     <PlayerRoofZone>
       <rects>
-        <li>(0,0,12,12)</li>
+        <li>(0,0,44,16)</li>
+        <li>(3,17,41,21)</li>
+        <li>(8,22,36,22)</li>
+        <li>(8,23,13,25)</li>
+        <li>(31,23,36,25)</li>
       </rects>
     </PlayerRoofZone>
   </roofs>
