@@ -1,0 +1,255 @@
+<PrefabDef>
+  <defName>Prefab_20260711_130438</defName>
+  <size>(17,17)</size>
+  <extraInfo>
+    <version>1.6.9348.31746</version>
+    <name>仓库</name>
+    <description>仓库</description>
+    <tags>
+      <li>FullExport</li>
+    </tags>
+    <author>未知晓七</author>
+    <category>储藏室</category>
+    <BuildingID>adf5320a-409c-4ed2-b829-b9ed3068d7a0</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>oels.nanamewalls</packageId>
+        <name>Hull Style: NANAME Walls</name>
+        <version>1.6.34</version>
+        <modorder>156</modorder>
+        <steamWorkshopId>3543791340</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>3515420793</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFLI_Wall_Cable_NAWDiagonal</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>kindseal.lol</packageId>
+        <name>联合重工-UF Heavy Industries</name>
+        <version></version>
+        <modorder>147</modorder>
+        <steamWorkshopId>3555662938</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>3515420793</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+          <li>
+            <packageId>dizhuan.sralib</packageId>
+            <steamWorkshopId>3565275325</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>KT_steel</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>kindseal.ufli</packageId>
+        <name>联合轻工家具拓展-UF Light Industries Furniture</name>
+        <version></version>
+        <modorder>221</modorder>
+        <steamWorkshopId>3651799915</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>3515420793</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFLI_3_Autodoor</li>
+          <li>UFLI_3_Frame_DOOR</li>
+          <li>UFLI_FLOORH</li>
+          <li>UFLI_HeavyBridge</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>jdgg.adaptive.cargoholds</packageId>
+        <name>Cargo Holds</name>
+        <version></version>
+        <modorder>59</modorder>
+        <steamWorkshopId>3536708812</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>adaptive.storage.framework</packageId>
+            <steamWorkshopId>3033901359</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>3515420793</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>jdgg_MassCargoHold</li>
+          <li>jdgg_nMassCargoHold</li>
+          <li>jdgg_XMCH</li>
+          <li>jdgg_XMCHVB</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.odyssey</packageId>
+        <name>Odyssey</name>
+        <version></version>
+        <modorder>6</modorder>
+        <things>
+          <li>Substructure</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>仓库</default>
+        <zh-CN>仓库</zh-CN>
+      </name>
+      <description>
+        <default>仓库</default>
+        <zh-CN>仓库</zh-CN>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <UFLI_Wall_Cable_NAWDiagonal>
+      <rects>
+        <li>(0,0,6,0)</li>
+        <li>(10,0,16,0)</li>
+        <li>(0,1,0,6)</li>
+        <li>(16,1,16,6)</li>
+        <li>(0,10,0,16)</li>
+        <li>(16,10,16,16)</li>
+        <li>(1,16,6,16)</li>
+        <li>(10,16,15,16)</li>
+      </rects>
+      <stuff>KT_steel</stuff>
+      <hp>240000</hp>
+    </UFLI_Wall_Cable_NAWDiagonal>
+    <UFLI_3_Autodoor>
+      <positions>
+        <li>(8, 0, 0)</li>
+        <li>(8, 0, 16)</li>
+      </positions>
+      <stuff>KT_steel</stuff>
+      <hp>150000</hp>
+    </UFLI_3_Autodoor>
+    <UFLI_3_Frame_DOOR>
+      <positions>
+        <li>(8, 0, 0)</li>
+        <li>(8, 0, 16)</li>
+      </positions>
+      <stuff>KT_steel</stuff>
+      <hp>12000</hp>
+    </UFLI_3_Frame_DOOR>
+    <jdgg_MassCargoHold>
+      <positions>
+        <li>(3, 0, 3)</li>
+        <li>(13, 0, 3)</li>
+        <li>(3, 0, 13)</li>
+        <li>(13, 0, 13)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>3000</hp>
+    </jdgg_MassCargoHold>
+    <jdgg_nMassCargoHold>
+      <positions>
+        <li>(8, 0, 3)</li>
+        <li>(8, 0, 13)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>3000</hp>
+    </jdgg_nMassCargoHold>
+    <jdgg_XMCH>
+      <positions>
+        <li>(3, 0, 8)</li>
+        <li>(13, 0, 8)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>3000</hp>
+    </jdgg_XMCH>
+    <jdgg_XMCHVB>
+      <position>(8, 0, 8)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <hp>3000</hp>
+    </jdgg_XMCHVB>
+    <UFLI_3_Autodoor>
+      <positions>
+        <li>(0, 0, 8)</li>
+        <li>(16, 0, 8)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>KT_steel</stuff>
+      <hp>150000</hp>
+    </UFLI_3_Autodoor>
+    <UFLI_3_Frame_DOOR>
+      <positions>
+        <li>(0, 0, 8)</li>
+        <li>(16, 0, 8)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>KT_steel</stuff>
+      <hp>12000</hp>
+    </UFLI_3_Frame_DOOR>
+  </things>
+  <terrain>
+    <UFLI_FLOORH>
+      <rects>
+        <li>(0,0,16,0)</li>
+        <li>(0,1,0,16)</li>
+        <li>(16,1,16,16)</li>
+        <li>(1,16,15,16)</li>
+      </rects>
+    </UFLI_FLOORH>
+    <Substructure>
+      <rects>
+        <li>(1,1,15,15)</li>
+      </rects>
+    </Substructure>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <UFLI_FLOORH>
+        <rects>
+          <li>(0,0,16,0)</li>
+          <li>(0,1,0,16)</li>
+          <li>(16,1,16,16)</li>
+          <li>(1,16,15,16)</li>
+        </rects>
+      </UFLI_FLOORH>
+      <WaterOceanShallow>
+        <rects>
+          <li>(1,1,15,15)</li>
+        </rects>
+      </WaterOceanShallow>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <WaterOceanShallow>
+        <rects>
+          <li>(0,0,16,0)</li>
+          <li>(0,1,0,16)</li>
+          <li>(16,1,16,16)</li>
+          <li>(1,16,15,16)</li>
+        </rects>
+      </WaterOceanShallow>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="foundationGrid">
+      <UFLI_HeavyBridge>
+        <rects>
+          <li>(0,0,16,0)</li>
+          <li>(0,1,0,16)</li>
+          <li>(16,1,16,16)</li>
+          <li>(1,16,15,16)</li>
+        </rects>
+      </UFLI_HeavyBridge>
+      <Substructure>
+        <rects>
+          <li>(1,1,15,15)</li>
+        </rects>
+      </Substructure>
+    </terrainLayerDetail>
+  </terrainLayers>
+</PrefabDef>
