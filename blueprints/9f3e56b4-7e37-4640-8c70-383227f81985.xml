@@ -1,10 +1,10 @@
 <PrefabDef>
-  <defName>Prefab_20260712_233430</defName>
+  <defName>Prefab_20260714_222034</defName>
   <size>(41,67)</size>
   <extraInfo>
     <version>1.6.9676.17735</version>
-    <name>米莉拉卡拉狄加級飛船</name>
-    <description>來自星際大爭霸科幻電視劇中的太空堡壘卡拉狄加，配置設備為未來風格，用於奧賽德任務，使用米莉拉科技。</description>
+    <name>米莉拉迷你卡拉狄加飛船</name>
+    <description>來自星際大爭霸科幻電視劇中的太空堡壘卡拉狄加迷你縮小版本，配置設備為未來風格，用於奧賽德任務，使用米莉拉科技。</description>
     <tags></tags>
     <author>黑龍月</author>
     <category>奥德赛DLC</category>
@@ -127,13 +127,21 @@
         </things>
       </mod>
       <mod>
-        <packageId>mingtuwuxiang.spacebasedecorative</packageId>
-        <name>[MUS]太空基地家具Space Base Furniture</name>
-        <version></version>
-        <modorder>197</modorder>
-        <steamWorkshopId>3523916780</steamWorkshopId>
+        <packageId>aelanna.eccentrictech.defensegrid</packageId>
+        <name>Eccentric Tech - Defense Grid</name>
+        <version>1.4.1</version>
+        <modorder>259</modorder>
+        <steamWorkshopId>3066838686</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
         <things>
-          <li>MUS_SpaceBase_ConnectModule</li>
+          <li>Eccentric_ShieldHeatsink</li>
+          <li>Eccentric_ShieldCapacitor</li>
+          <li>Eccentric_ShieldProjector3x3Wide</li>
         </things>
       </mod>
       <mod>
@@ -144,6 +152,7 @@
         <steamWorkshopId>3538850569</steamWorkshopId>
         <things>
           <li>HeatPump</li>
+          <li>ColdPump</li>
           <li>VacAirlock</li>
         </things>
       </mod>
@@ -374,20 +383,13 @@
         </things>
       </mod>
       <mod>
-        <packageId>aelanna.eccentrictech.defensegrid</packageId>
-        <name>Eccentric Tech - Defense Grid</name>
-        <version>1.4.1</version>
-        <modorder>259</modorder>
-        <steamWorkshopId>3066838686</steamWorkshopId>
-        <dependencies>
-          <li>
-            <packageId>brrainz.harmony</packageId>
-            <steamWorkshopId>2009463077</steamWorkshopId>
-          </li>
-        </dependencies>
+        <packageId>aelanna.eccentrictech.core</packageId>
+        <name>Eccentric Tech - Core</name>
+        <version>1.5.1</version>
+        <modorder>207</modorder>
+        <steamWorkshopId>2552623545</steamWorkshopId>
         <things>
-          <li>Eccentric_ShieldCapacitor</li>
-          <li>Eccentric_ShieldProjector3x3Wide</li>
+          <li>EccentricAuroraCore</li>
         </things>
       </mod>
       <mod>
@@ -444,12 +446,12 @@
     </modPackages>
     <multiLanguage>
       <name>
-        <default>米莉拉卡拉狄加級飛船</default>
-        <zh-CN>米莉拉卡拉狄加級飛船</zh-CN>
+        <default>米莉拉迷你卡拉狄加飛船</default>
+        <zh-CN>米莉拉迷你卡拉狄加飛船</zh-CN>
       </name>
       <description>
-        <default>來自星際大爭霸科幻電視劇中的太空堡壘卡拉狄加，配置設備為未來風格，用於奧賽德任務，使用米莉拉科技。</default>
-        <zh-CN>來自星際大爭霸科幻電視劇中的太空堡壘卡拉狄加，配置設備為未來風格，用於奧賽德任務，使用米莉拉科技。</zh-CN>
+        <default>來自星際大爭霸科幻電視劇中的太空堡壘卡拉狄加迷你縮小版本，配置設備為未來風格，用於奧賽德任務，使用米莉拉科技。</default>
+        <zh-CN>來自星際大爭霸科幻電視劇中的太空堡壘卡拉狄加迷你縮小版本，配置設備為未來風格，用於奧賽德任務，使用米莉拉科技。</zh-CN>
       </description>
     </multiLanguage>
   </extraInfo>
@@ -549,11 +551,10 @@
     <GravshipHullArmor_NAWDiagonal>
       <rects>
         <li>(4,2,4,2)</li>
-        <li>(12,2,12,2)</li>
+        <li>(7,2,12,2)</li>
         <li>(15,2,15,2)</li>
         <li>(25,2,25,2)</li>
-        <li>(28,2,28,2)</li>
-        <li>(33,2,33,2)</li>
+        <li>(28,2,33,2)</li>
         <li>(36,2,36,2)</li>
         <li>(3,3,3,14)</li>
         <li>(16,3,16,5)</li>
@@ -713,18 +714,48 @@
         <li>(20,12,20,30)</li>
         <li>(13,16,13,16)</li>
         <li>(27,16,27,16)</li>
-        <li>(10,29,13,29)</li>
-        <li>(27,29,30,29)</li>
-        <li>(10,30,10,41)</li>
+        <li>(5,21,9,21)</li>
+        <li>(31,21,35,21)</li>
+        <li>(4,22,5,22)</li>
+        <li>(9,22,10,22)</li>
+        <li>(30,22,31,22)</li>
+        <li>(35,22,36,22)</li>
+        <li>(4,23,4,25)</li>
+        <li>(10,23,10,48)</li>
+        <li>(30,23,30,48)</li>
+        <li>(36,23,36,25)</li>
+        <li>(3,25,3,28)</li>
+        <li>(11,25,13,25)</li>
+        <li>(27,25,29,25)</li>
+        <li>(37,25,37,28)</li>
+        <li>(1,28,2,28)</li>
+        <li>(38,28,39,28)</li>
+        <li>(1,29,1,42)</li>
+        <li>(11,29,13,29)</li>
+        <li>(27,29,29,29)</li>
+        <li>(39,29,39,42)</li>
         <li>(15,30,19,30)</li>
         <li>(21,30,25,30)</li>
-        <li>(30,30,30,41)</li>
         <li>(20,35,20,37)</li>
         <li>(11,41,13,41)</li>
         <li>(15,41,19,41)</li>
         <li>(21,41,25,41)</li>
         <li>(27,41,29,41)</li>
+        <li>(2,42,3,42)</li>
+        <li>(37,42,38,42)</li>
+        <li>(3,43,3,45)</li>
+        <li>(37,43,37,45)</li>
         <li>(15,44,25,44)</li>
+        <li>(4,45,4,48)</li>
+        <li>(11,45,13,45)</li>
+        <li>(27,45,29,45)</li>
+        <li>(36,45,36,48)</li>
+        <li>(5,48,5,49)</li>
+        <li>(9,48,9,49)</li>
+        <li>(31,48,31,49)</li>
+        <li>(35,48,35,49)</li>
+        <li>(6,49,8,49)</li>
+        <li>(32,49,34,49)</li>
         <li>(15,50,16,50)</li>
         <li>(18,50,22,50)</li>
         <li>(24,50,25,50)</li>
@@ -756,18 +787,16 @@
       <position>(5, 0, 4)</position>
       <relativeRotation>Counterclockwise</relativeRotation>
     </BiofuelRefinery>
-    <MUS_SpaceBase_ConnectModule>
+    <Eccentric_ShieldHeatsink>
       <positions>
-        <li>(8, 0, 4)</li>
-        <li>(10, 0, 4)</li>
-        <li>(12, 0, 4)</li>
-        <li>(29, 0, 4)</li>
-        <li>(31, 0, 4)</li>
-        <li>(33, 0, 4)</li>
+        <li>(7, 0, 3)</li>
+        <li>(9, 0, 3)</li>
+        <li>(11, 0, 3)</li>
+        <li>(28, 0, 3)</li>
+        <li>(30, 0, 3)</li>
+        <li>(32, 0, 3)</li>
       </positions>
-      <relativeRotation>Opposite</relativeRotation>
-      <stuff>Milira_SplendidSteel</stuff>
-    </MUS_SpaceBase_ConnectModule>
+    </Eccentric_ShieldHeatsink>
     <PFS_Shelf>
       <positions>
         <li>(15, 0, 4)</li>
@@ -831,16 +860,6 @@
       </rects>
       <relativeRotation>Clockwise</relativeRotation>
     </HeatPump>
-    <Eccentric_PlasmaConverter>
-      <positions>
-        <li>(5, 0, 7)</li>
-        <li>(8, 0, 7)</li>
-        <li>(11, 0, 7)</li>
-        <li>(29, 0, 7)</li>
-        <li>(32, 0, 7)</li>
-        <li>(35, 0, 7)</li>
-      </positions>
-    </Eccentric_PlasmaConverter>
     <WallLamp>
       <rects>
         <li>(4,6,4,6)</li>
@@ -853,6 +872,16 @@
       <relativeRotation>Counterclockwise</relativeRotation>
       <stuff>Milira_SplendidSteel</stuff>
     </WallLamp>
+    <Eccentric_PlasmaConverter>
+      <positions>
+        <li>(5, 0, 7)</li>
+        <li>(8, 0, 7)</li>
+        <li>(11, 0, 7)</li>
+        <li>(29, 0, 7)</li>
+        <li>(32, 0, 7)</li>
+        <li>(35, 0, 7)</li>
+      </positions>
+    </Eccentric_PlasmaConverter>
     <TableStonecutter>
       <positions>
         <li>(17, 0, 6)</li>
@@ -873,6 +902,12 @@
       <relativeRotation>Clockwise</relativeRotation>
       <stuff>Milira_SplendidSteel</stuff>
     </WallLamp>
+    <ColdPump>
+      <rects>
+        <li>(4,7,4,8)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </ColdPump>
     <Eccentric_UndergroundFuelPipe>
       <rects>
         <li>(13,7,27,8)</li>
@@ -923,6 +958,12 @@
       </rects>
       <relativeRotation>Opposite</relativeRotation>
     </HeatPump>
+    <ColdPump>
+      <rects>
+        <li>(36,7,36,8)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </ColdPump>
     <MiliraImperiumTurret_MiniGun>
       <positions>
         <li>(1, 0, 8)</li>
@@ -1078,6 +1119,8 @@
         <li>(20,22,20,22)</li>
         <li>(18,42,18,42)</li>
         <li>(22,42,22,42)</li>
+        <li>(19,52,19,52)</li>
+        <li>(21,52,21,52)</li>
       </rects>
       <relativeRotation>Opposite</relativeRotation>
       <stuff>Milira_SplendidSteel</stuff>
@@ -1123,6 +1166,106 @@
       <relativeRotation>Clockwise</relativeRotation>
       <stuff>Milira_SplendidSteel</stuff>
     </TableButcher>
+    <PFS_DoorFrameC>
+      <rects>
+        <li>(4,23,4,23)</li>
+        <li>(16,23,16,23)</li>
+        <li>(24,23,24,23)</li>
+        <li>(36,23,36,23)</li>
+        <li>(10,26,10,26)</li>
+        <li>(30,26,30,26)</li>
+        <li>(3,27,3,27)</li>
+        <li>(37,27,37,27)</li>
+        <li>(1,29,1,29)</li>
+        <li>(39,29,39,29)</li>
+        <li>(1,31,1,31)</li>
+        <li>(39,31,39,31)</li>
+        <li>(1,33,1,33)</li>
+        <li>(39,33,39,33)</li>
+        <li>(0,35,0,35)</li>
+        <li>(40,35,40,35)</li>
+        <li>(1,37,1,37)</li>
+        <li>(39,37,39,37)</li>
+        <li>(1,39,1,39)</li>
+        <li>(39,39,39,39)</li>
+        <li>(1,41,1,41)</li>
+        <li>(39,41,39,41)</li>
+        <li>(3,43,3,43)</li>
+        <li>(37,43,37,43)</li>
+        <li>(10,44,10,44)</li>
+        <li>(30,44,30,44)</li>
+        <li>(4,47,4,47)</li>
+        <li>(36,47,36,47)</li>
+        <li>(10,52,10,52)</li>
+        <li>(30,52,30,52)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </PFS_DoorFrameC>
+    <PFS_AutodoorB>
+      <rects>
+        <li>(4,23,4,23)</li>
+        <li>(16,23,16,23)</li>
+        <li>(24,23,24,23)</li>
+        <li>(36,23,36,23)</li>
+        <li>(10,26,10,26)</li>
+        <li>(30,26,30,26)</li>
+        <li>(3,27,3,27)</li>
+        <li>(37,27,37,27)</li>
+        <li>(1,29,1,29)</li>
+        <li>(39,29,39,29)</li>
+        <li>(1,31,1,31)</li>
+        <li>(39,31,39,31)</li>
+        <li>(1,33,1,33)</li>
+        <li>(39,33,39,33)</li>
+        <li>(0,35,0,35)</li>
+        <li>(40,35,40,35)</li>
+        <li>(1,37,1,37)</li>
+        <li>(39,37,39,37)</li>
+        <li>(1,39,1,39)</li>
+        <li>(39,39,39,39)</li>
+        <li>(1,41,1,41)</li>
+        <li>(39,41,39,41)</li>
+        <li>(3,43,3,43)</li>
+        <li>(37,43,37,43)</li>
+        <li>(10,44,10,44)</li>
+        <li>(30,44,30,44)</li>
+        <li>(4,47,4,47)</li>
+        <li>(36,47,36,47)</li>
+        <li>(10,52,10,52)</li>
+        <li>(30,52,30,52)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Milira_SplendidSteel</stuff>
+    </PFS_AutodoorB>
+    <PFS_DoorSlope>
+      <rects>
+        <li>(4,23,4,23)</li>
+        <li>(36,23,36,23)</li>
+        <li>(3,27,3,27)</li>
+        <li>(37,27,37,27)</li>
+        <li>(1,29,1,29)</li>
+        <li>(39,29,39,29)</li>
+        <li>(1,31,1,31)</li>
+        <li>(39,31,39,31)</li>
+        <li>(1,33,1,33)</li>
+        <li>(39,33,39,33)</li>
+        <li>(0,35,0,35)</li>
+        <li>(40,35,40,35)</li>
+        <li>(1,37,1,37)</li>
+        <li>(39,37,39,37)</li>
+        <li>(1,39,1,39)</li>
+        <li>(39,39,39,39)</li>
+        <li>(1,41,1,41)</li>
+        <li>(39,41,39,41)</li>
+        <li>(3,43,3,43)</li>
+        <li>(37,43,37,43)</li>
+        <li>(10,44,10,44)</li>
+        <li>(30,44,30,44)</li>
+        <li>(10,52,10,52)</li>
+        <li>(30,52,30,52)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </PFS_DoorSlope>
     <PFS_DoorSlope>
       <rects>
         <li>(16,23,16,23)</li>
@@ -1132,33 +1275,6 @@
       </rects>
       <relativeRotation>Counterclockwise</relativeRotation>
     </PFS_DoorSlope>
-    <PFS_AutodoorB>
-      <rects>
-        <li>(16,23,16,23)</li>
-        <li>(24,23,24,23)</li>
-        <li>(10,26,10,26)</li>
-        <li>(30,26,30,26)</li>
-        <li>(10,44,10,44)</li>
-        <li>(30,44,30,44)</li>
-        <li>(10,52,10,52)</li>
-        <li>(30,52,30,52)</li>
-      </rects>
-      <relativeRotation>Clockwise</relativeRotation>
-      <stuff>Milira_SplendidSteel</stuff>
-    </PFS_AutodoorB>
-    <PFS_DoorFrameC>
-      <rects>
-        <li>(16,23,16,23)</li>
-        <li>(24,23,24,23)</li>
-        <li>(10,26,10,26)</li>
-        <li>(30,26,30,26)</li>
-        <li>(10,44,10,44)</li>
-        <li>(30,44,30,44)</li>
-        <li>(10,52,10,52)</li>
-        <li>(30,52,30,52)</li>
-      </rects>
-      <relativeRotation>Clockwise</relativeRotation>
-    </PFS_DoorFrameC>
     <PFS_TableB>
       <positions>
         <li>(18, 0, 24)</li>
@@ -1254,7 +1370,6 @@
       <positions>
         <li>(17, 0, 35)</li>
         <li>(22, 0, 35)</li>
-        <li>(17, 0, 37)</li>
         <li>(22, 0, 37)</li>
       </positions>
     </Eccentric_ShieldCapacitor>
@@ -1267,6 +1382,9 @@
       <relativeRotation>Clockwise</relativeRotation>
       <stuff>Milira_SplendidSteel</stuff>
     </SimpleResearchBench>
+    <EccentricAuroraCore>
+      <position>(17, 0, 37)</position>
+    </EccentricAuroraCore>
     <ShipWallSmallColdNnclearGeneratorCabin>
       <positions>
         <li>(19, 0, 38)</li>
@@ -1312,15 +1430,6 @@
       <quality>Normal</quality>
       <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
     </MI_Building_Bed>
-    <PFS_DoorSlope>
-      <rects>
-        <li>(10,44,10,44)</li>
-        <li>(30,44,30,44)</li>
-        <li>(10,52,10,52)</li>
-        <li>(30,52,30,52)</li>
-      </rects>
-      <relativeRotation>Clockwise</relativeRotation>
-    </PFS_DoorSlope>
     <MI_Building_Bed>
       <positions>
         <li>(15, 0, 46)</li>
@@ -1382,17 +1491,17 @@
       </rects>
       <relativeRotation>Counterclockwise</relativeRotation>
     </VitalsMonitor>
-    <PFS_TableB>
-      <position>(29, 0, 55)</position>
-      <relativeRotation>Clockwise</relativeRotation>
-      <quality>Normal</quality>
-    </PFS_TableB>
     <PFS_DecoTablewareA>
       <rects>
         <li>(29,54,29,54)</li>
         <li>(19,62,19,62)</li>
       </rects>
     </PFS_DecoTablewareA>
+    <PFS_TableB>
+      <position>(29, 0, 55)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <quality>Normal</quality>
+    </PFS_TableB>
     <VitalsMonitor>
       <rects>
         <li>(11,55,11,55)</li>
@@ -2014,14 +2123,39 @@
         <li>(17,6,23,66)</li>
         <li>(6,17,6,17)</li>
         <li>(34,17,34,17)</li>
-        <li>(10,25,12,29)</li>
-        <li>(28,25,30,29)</li>
-        <li>(10,30,10,45)</li>
-        <li>(30,30,30,45)</li>
+        <li>(5,21,9,21)</li>
+        <li>(31,21,35,21)</li>
+        <li>(4,22,5,22)</li>
+        <li>(10,22,10,48)</li>
+        <li>(30,22,31,22)</li>
+        <li>(35,22,36,22)</li>
+        <li>(4,23,4,25)</li>
+        <li>(30,23,30,48)</li>
+        <li>(36,23,36,25)</li>
+        <li>(3,25,3,28)</li>
+        <li>(11,25,12,29)</li>
+        <li>(28,25,29,29)</li>
+        <li>(37,25,37,28)</li>
+        <li>(1,28,2,28)</li>
+        <li>(38,28,39,28)</li>
+        <li>(1,29,1,42)</li>
+        <li>(39,29,39,42)</li>
         <li>(12,31,12,39)</li>
         <li>(28,31,28,39)</li>
         <li>(11,41,12,45)</li>
         <li>(28,41,29,45)</li>
+        <li>(2,42,3,42)</li>
+        <li>(37,42,38,42)</li>
+        <li>(3,43,3,45)</li>
+        <li>(37,43,37,45)</li>
+        <li>(4,45,4,48)</li>
+        <li>(36,45,36,48)</li>
+        <li>(5,48,5,49)</li>
+        <li>(9,48,9,49)</li>
+        <li>(31,48,31,49)</li>
+        <li>(35,48,35,49)</li>
+        <li>(6,49,8,49)</li>
+        <li>(32,49,34,49)</li>
         <li>(10,51,12,55)</li>
         <li>(28,51,30,55)</li>
         <li>(11,56,12,60)</li>
@@ -2050,14 +2184,39 @@
         <li>(17,6,23,66)</li>
         <li>(6,17,6,17)</li>
         <li>(34,17,34,17)</li>
-        <li>(10,25,12,29)</li>
-        <li>(28,25,30,29)</li>
-        <li>(10,30,10,45)</li>
-        <li>(30,30,30,45)</li>
+        <li>(5,21,9,21)</li>
+        <li>(31,21,35,21)</li>
+        <li>(4,22,5,22)</li>
+        <li>(10,22,10,48)</li>
+        <li>(30,22,31,22)</li>
+        <li>(35,22,36,22)</li>
+        <li>(4,23,4,25)</li>
+        <li>(30,23,30,48)</li>
+        <li>(36,23,36,25)</li>
+        <li>(3,25,3,28)</li>
+        <li>(11,25,12,29)</li>
+        <li>(28,25,29,29)</li>
+        <li>(37,25,37,28)</li>
+        <li>(1,28,2,28)</li>
+        <li>(38,28,39,28)</li>
+        <li>(1,29,1,42)</li>
+        <li>(39,29,39,42)</li>
         <li>(12,31,12,39)</li>
         <li>(28,31,28,39)</li>
         <li>(11,41,12,45)</li>
         <li>(28,41,29,45)</li>
+        <li>(2,42,3,42)</li>
+        <li>(37,42,38,42)</li>
+        <li>(3,43,3,45)</li>
+        <li>(37,43,37,45)</li>
+        <li>(4,45,4,48)</li>
+        <li>(36,45,36,48)</li>
+        <li>(5,48,5,49)</li>
+        <li>(9,48,9,49)</li>
+        <li>(31,48,31,49)</li>
+        <li>(35,48,35,49)</li>
+        <li>(6,49,8,49)</li>
+        <li>(32,49,34,49)</li>
         <li>(10,51,12,55)</li>
         <li>(28,51,30,55)</li>
         <li>(11,56,12,60)</li>
@@ -2071,14 +2230,21 @@
     </PlayerRoofZone>
     <NoRoofZone>
       <rects>
-        <li>(4,22,9,48)</li>
-        <li>(31,22,36,48)</li>
-        <li>(2,25,3,44)</li>
-        <li>(37,25,37,45)</li>
-        <li>(1,26,1,44)</li>
+        <li>(6,22,9,47)</li>
+        <li>(32,22,34,48)</li>
+        <li>(5,23,5,47)</li>
+        <li>(31,23,31,47)</li>
+        <li>(35,23,35,47)</li>
+        <li>(2,25,2,27)</li>
+        <li>(1,26,1,27)</li>
+        <li>(4,26,4,44)</li>
+        <li>(36,26,36,44)</li>
         <li>(0,29,0,41)</li>
-        <li>(38,29,40,41)</li>
-        <li>(3,45,3,45)</li>
+        <li>(2,29,3,41)</li>
+        <li>(37,29,38,41)</li>
+        <li>(40,29,40,41)</li>
+        <li>(1,43,2,44)</li>
+        <li>(6,48,8,48)</li>
       </rects>
     </NoRoofZone>
   </roofs>
