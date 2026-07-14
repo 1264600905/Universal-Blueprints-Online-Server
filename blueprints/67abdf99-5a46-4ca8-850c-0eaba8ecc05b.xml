@@ -1,5 +1,5 @@
 <PrefabDef>
-  <defName>Prefab_20260714_224211</defName>
+  <defName>Prefab_20260714_234844</defName>
   <size>(53,235)</size>
   <extraInfo>
     <version>1.6.9676.17735</version>
@@ -185,8 +185,8 @@
           <li>PFS_EndTable</li>
           <li>PFS_DresserB</li>
           <li>PFS_Armchair</li>
-          <li>PFS_DecoTablewareC</li>
           <li>PFS_Table3x2a</li>
+          <li>PFS_DecoTablewareC</li>
           <li>PFS_HoloGlassPanel</li>
           <li>PFS_ShelfSmall</li>
           <li>PFS_HoloGlassDesktop</li>
@@ -523,9 +523,9 @@
         <steamWorkshopId>1714572710</steamWorkshopId>
         <things>
           <li>RS_stove</li>
+          <li>RS_KitchenHood</li>
           <li>RS_Microwave</li>
           <li>RS_Counter</li>
-          <li>RS_KitchenHood</li>
           <li>RS_kitchenTileB</li>
         </things>
       </mod>
@@ -1112,8 +1112,8 @@
         <li>(29,157,29,157)</li>
         <li>(20,158,20,167)</li>
         <li>(32,158,32,161)</li>
-        <li>(18,163,18,168)</li>
-        <li>(34,163,34,168)</li>
+        <li>(18,163,18,175)</li>
+        <li>(34,163,34,175)</li>
         <li>(32,164,32,167)</li>
         <li>(9,167,17,167)</li>
         <li>(21,167,31,167)</li>
@@ -1122,26 +1122,22 @@
         <li>(23,168,23,171)</li>
         <li>(29,168,29,171)</li>
         <li>(39,168,39,187)</li>
-        <li>(18,171,18,173)</li>
-        <li>(34,171,34,173)</li>
         <li>(23,173,24,177)</li>
         <li>(28,173,29,177)</li>
         <li>(25,176,27,177)</li>
-        <li>(18,177,18,178)</li>
+        <li>(18,177,18,187)</li>
         <li>(20,177,22,177)</li>
         <li>(30,177,32,177)</li>
-        <li>(34,177,34,179)</li>
+        <li>(34,177,34,187)</li>
         <li>(20,178,20,179)</li>
         <li>(32,178,32,179)</li>
-        <li>(18,181,18,184)</li>
         <li>(20,181,20,187)</li>
         <li>(32,181,32,187)</li>
-        <li>(34,182,34,184)</li>
         <li>(8,187,12,187)</li>
-        <li>(14,187,18,187)</li>
+        <li>(14,187,17,187)</li>
         <li>(21,187,25,187)</li>
         <li>(27,187,31,187)</li>
-        <li>(34,187,38,187)</li>
+        <li>(35,187,38,187)</li>
         <li>(40,187,44,187)</li>
         <li>(8,189,13,189)</li>
         <li>(17,189,20,189)</li>
@@ -1513,14 +1509,6 @@
         <li>(34,17,36,17)</li>
         <li>(19,18,19,18)</li>
         <li>(33,18,33,18)</li>
-        <li>(18,169,18,170)</li>
-        <li>(34,169,34,170)</li>
-        <li>(18,174,18,175)</li>
-        <li>(34,174,34,175)</li>
-        <li>(18,179,18,180)</li>
-        <li>(34,180,34,181)</li>
-        <li>(18,185,18,186)</li>
-        <li>(34,185,34,186)</li>
       </rects>
       <stuff>Steel</stuff>
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
@@ -1864,12 +1852,6 @@
       </rects>
       <relativeRotation>Counterclockwise</relativeRotation>
     </HeatPump>
-    <Eccentric_FuelPipe>
-      <rects>
-        <li>(27,24,32,25)</li>
-        <li>(26,28,26,29)</li>
-      </rects>
-    </Eccentric_FuelPipe>
     <ShipWallGravcorePowerCellCabin>
       <positions>
         <li>(28, 0, 24)</li>
@@ -1878,6 +1860,12 @@
       </positions>
       <relativeRotation>Opposite</relativeRotation>
     </ShipWallGravcorePowerCellCabin>
+    <Eccentric_FuelPipe>
+      <rects>
+        <li>(27,24,32,25)</li>
+        <li>(26,28,26,29)</li>
+      </rects>
+    </Eccentric_FuelPipe>
     <CMC_WallTempController>
       <rects>
         <li>(32,25,32,25)</li>
@@ -2432,6 +2420,13 @@
     <ComputingSystemSW>
       <position>(44, 0, 56)</position>
     </ComputingSystemSW>
+    <PFS_Table3x2a>
+      <positions>
+        <li>(26, 0, 57)</li>
+        <li>(26, 0, 59)</li>
+      </positions>
+      <quality>Normal</quality>
+    </PFS_Table3x2a>
     <PFS_DecoTablewareC>
       <rects>
         <li>(25,57,25,60)</li>
@@ -2446,13 +2441,6 @@
         <li>(39,205,39,205)</li>
       </rects>
     </PFS_DecoTablewareC>
-    <PFS_Table3x2a>
-      <positions>
-        <li>(26, 0, 57)</li>
-        <li>(26, 0, 59)</li>
-      </positions>
-      <quality>Normal</quality>
-    </PFS_Table3x2a>
     <PFS_Armchair>
       <rects>
         <li>(28,57,28,60)</li>
@@ -2770,6 +2758,9 @@
     <SignalJammer>
       <position>(23, 0, 75)</position>
     </SignalJammer>
+    <PilotConsole>
+      <position>(26, 0, 75)</position>
+    </PilotConsole>
     <PFS_MiniHoloGlass>
       <rects>
         <li>(25,75,25,75)</li>
@@ -2777,9 +2768,6 @@
       </rects>
       <relativeRotation>Opposite</relativeRotation>
     </PFS_MiniHoloGlass>
-    <PilotConsole>
-      <position>(26, 0, 75)</position>
-    </PilotConsole>
     <CMC_CommTower>
       <position>(28, 0, 75)</position>
     </CMC_CommTower>
@@ -3109,6 +3097,13 @@
       </rects>
       <relativeRotation>Clockwise</relativeRotation>
     </Wall_SunDevice>
+    <RS_KitchenHood>
+      <position>(24, 0, 138)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <colorDef>Structure_White</colorDef>
+      <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
+    </RS_KitchenHood>
     <RS_Microwave>
       <rects>
         <li>(24,137,24,137)</li>
@@ -3125,13 +3120,6 @@
       <colorDef>Structure_White</colorDef>
       <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
     </RS_Counter>
-    <RS_KitchenHood>
-      <position>(24, 0, 138)</position>
-      <relativeRotation>Clockwise</relativeRotation>
-      <stuff>Steel</stuff>
-      <colorDef>Structure_White</colorDef>
-      <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
-    </RS_KitchenHood>
     <VCE_StewPot>
       <rects>
         <li>(25,137,25,137)</li>
@@ -3362,9 +3350,17 @@
         <li>(14,181,14,181)</li>
         <li>(14,183,14,183)</li>
         <li>(14,185,14,185)</li>
+        <li>(10,191,10,191)</li>
+        <li>(17,191,17,191)</li>
+        <li>(10,205,10,205)</li>
+        <li>(17,205,17,205)</li>
+        <li>(10,208,10,208)</li>
+        <li>(17,208,17,208)</li>
       </rects>
       <relativeRotation>Clockwise</relativeRotation>
       <quality>Normal</quality>
+      <colorDef>Structure_White</colorDef>
+      <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
     </PFS_EndTable>
     <PFS_EndTable>
       <rects>
@@ -3377,9 +3373,17 @@
         <li>(38,181,38,181)</li>
         <li>(38,183,38,183)</li>
         <li>(38,185,38,185)</li>
+        <li>(35,191,35,191)</li>
+        <li>(42,191,42,191)</li>
+        <li>(35,205,35,205)</li>
+        <li>(42,205,42,205)</li>
+        <li>(35,208,35,208)</li>
+        <li>(42,208,42,208)</li>
       </rects>
       <relativeRotation>Counterclockwise</relativeRotation>
       <quality>Normal</quality>
+      <colorDef>Structure_White</colorDef>
+      <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
     </PFS_EndTable>
     <Vent>
       <rects>
@@ -3444,34 +3448,6 @@
       </rects>
       <relativeRotation>Opposite</relativeRotation>
     </VitalsMonitor>
-    <PFS_EndTable>
-      <rects>
-        <li>(10,191,10,191)</li>
-        <li>(17,191,17,191)</li>
-        <li>(10,205,10,205)</li>
-        <li>(17,205,17,205)</li>
-        <li>(10,208,10,208)</li>
-        <li>(17,208,17,208)</li>
-      </rects>
-      <relativeRotation>Clockwise</relativeRotation>
-      <quality>Normal</quality>
-      <colorDef>Structure_White</colorDef>
-      <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
-    </PFS_EndTable>
-    <PFS_EndTable>
-      <rects>
-        <li>(35,191,35,191)</li>
-        <li>(42,191,42,191)</li>
-        <li>(35,205,35,205)</li>
-        <li>(42,205,42,205)</li>
-        <li>(35,208,35,208)</li>
-        <li>(42,208,42,208)</li>
-      </rects>
-      <relativeRotation>Counterclockwise</relativeRotation>
-      <quality>Normal</quality>
-      <colorDef>Structure_White</colorDef>
-      <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
-    </PFS_EndTable>
     <PFS_DoubleBed>
       <positions>
         <li>(10, 0, 193)</li>
@@ -3672,7 +3648,8 @@
       </rects>
       <relativeRotation>Clockwise</relativeRotation>
       <stuff>Steel</stuff>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+      <colorDef>Structure_White</colorDef>
+      <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
     </Post>
     <Post>
       <rects>
