@@ -1,5 +1,5 @@
 <PrefabDef>
-  <defName>Prefab_20260717_003235</defName>
+  <defName>Prefab_20260717_004632</defName>
   <size>(53,235)</size>
   <extraInfo>
     <version>1.6.9676.17735</version>
@@ -71,6 +71,7 @@
           <li>PilotSubpersonaCore</li>
           <li>SignalJammer</li>
           <li>PilotConsole</li>
+          <li>GravEngine</li>
           <li>OrbitalScanner</li>
           <li>BlocksVacstone</li>
           <li>Substructure</li>
@@ -452,25 +453,6 @@
         </things>
       </mod>
       <mod>
-        <packageId>btd.remix.gravshipblueprints</packageId>
-        <name>[BTD] Gravship Blueprints</name>
-        <version></version>
-        <modorder>185</modorder>
-        <steamWorkshopId>3575162262</steamWorkshopId>
-        <dependencies>
-          <li>
-            <packageId>ludeon.rimworld.odyssey</packageId>
-          </li>
-          <li>
-            <packageId>brrainz.harmony</packageId>
-            <steamWorkshopId>2009463077</steamWorkshopId>
-          </li>
-        </dependencies>
-        <things>
-          <li>BTD_GravEngine_Dormant</li>
-        </things>
-      </mod>
-      <mod>
         <packageId>ratys.rtsolarflareshield</packageId>
         <name>RT Solar Flare Shield</name>
         <version></version>
@@ -534,24 +516,6 @@
         </things>
       </mod>
       <mod>
-        <packageId>nephlite.orbitaltradecolumn</packageId>
-        <name>Utility Columns</name>
-        <version></version>
-        <modorder>269</modorder>
-        <steamWorkshopId>2013476665</steamWorkshopId>
-        <dependencies>
-          <li>
-            <packageId>brrainz.harmony</packageId>
-            <steamWorkshopId>2009463077</steamWorkshopId>
-          </li>
-        </dependencies>
-        <things>
-          <li>Wall_SunDevice_light</li>
-          <li>Wall_SunDevice</li>
-          <li>UCStripedFloor</li>
-        </things>
-      </mod>
-      <mod>
         <packageId>vanillaexpanded.vcookesushi</packageId>
         <name>Vanilla Cooking Expanded - Sushi</name>
         <version></version>
@@ -601,6 +565,23 @@
         </dependencies>
         <things>
           <li>VCE_StewPot</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>nephlite.orbitaltradecolumn</packageId>
+        <name>Utility Columns</name>
+        <version></version>
+        <modorder>269</modorder>
+        <steamWorkshopId>2013476665</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Wall_SunDevice</li>
+          <li>UCStripedFloor</li>
         </things>
       </mod>
       <mod>
@@ -2757,9 +2738,9 @@
         <li>(25,84,27,84)</li>
       </rects>
     </PFS_Barricade>
-    <BTD_GravEngine_Dormant>
+    <GravEngine>
       <position>(26, 0, 82)</position>
-    </BTD_GravEngine_Dormant>
+    </GravEngine>
     <CMC_FunnelProgrammer>
       <rects>
         <li>(20,82,20,82)</li>
@@ -2990,12 +2971,6 @@
         <li>(30, 0, 140)</li>
       </positions>
     </HydroponicsBasin>
-    <Wall_SunDevice_light>
-      <rects>
-        <li>(30,135,30,142)</li>
-        <li>(22,139,22,142)</li>
-      </rects>
-    </Wall_SunDevice_light>
     <SW_AdaptiveFridgeStorageCabin>
       <positions>
         <li>(32, 0, 136)</li>
