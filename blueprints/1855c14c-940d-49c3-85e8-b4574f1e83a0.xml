@@ -1,5 +1,5 @@
 <PrefabDef>
-  <defName>Prefab_20260717_004500</defName>
+  <defName>Prefab_20260717_005748</defName>
   <size>(301,62)</size>
   <extraInfo>
     <version>1.6.9676.17735</version>
@@ -275,25 +275,6 @@
         </things>
       </mod>
       <mod>
-        <packageId>longrange.celetech.shuttleextension</packageId>
-        <name>CeleTech Arsenal - Shuttle Extension</name>
-        <version>0.9.2</version>
-        <modorder>248</modorder>
-        <steamWorkshopId>3760923537</steamWorkshopId>
-        <dependencies>
-          <li>
-            <packageId>ludeon.rimworld.odyssey</packageId>
-          </li>
-          <li>
-            <packageId>brrainz.harmony</packageId>
-            <steamWorkshopId>2009463077</steamWorkshopId>
-          </li>
-        </dependencies>
-        <things>
-          <li>CT_ModularShuttleHost</li>
-        </things>
-      </mod>
-      <mod>
         <packageId>dubwise.dubsbadhygiene</packageId>
         <name>Dubs Bad Hygiene</name>
         <version>3.1.2800</version>
@@ -313,6 +294,25 @@
           <li>ToiletAdvStuff</li>
           <li>HotWaterTank</li>
           <li>ElectricBoiler</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>longrange.celetech.shuttleextension</packageId>
+        <name>CeleTech Arsenal - Shuttle Extension</name>
+        <version>0.9.2</version>
+        <modorder>248</modorder>
+        <steamWorkshopId>3760923537</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>ludeon.rimworld.odyssey</packageId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>CT_ModularShuttleHost</li>
         </things>
       </mod>
       <mod>
@@ -2203,6 +2203,20 @@
       </rects>
       <relativeRotation>Opposite</relativeRotation>
     </CP_SteelExpansionTank>
+    <sewagePipeHidden>
+      <rects>
+        <li>(232,11,232,49)</li>
+        <li>(67,25,67,35)</li>
+        <li>(220,26,221,26)</li>
+        <li>(221,28,221,32)</li>
+        <li>(207,29,207,30)</li>
+        <li>(68,30,206,30)</li>
+        <li>(208,30,220,30)</li>
+        <li>(220,34,221,34)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </sewagePipeHidden>
     <MUS_SpaceBase_BigDoor>
       <positions>
         <li>(36, 0, 12)</li>
@@ -2216,7 +2230,10 @@
       <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
     </MUS_SpaceBase_BigDoor>
     <CT_ModularShuttleHost>
-      <position>(48, 0, 15)</position>
+      <positions>
+        <li>(48, 0, 15)</li>
+        <li>(48, 0, 45)</li>
+      </positions>
       <relativeRotation>Clockwise</relativeRotation>
       <colorDef>Structure_White</colorDef>
       <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
@@ -2338,20 +2355,6 @@
       <colorDef>Structure_White</colorDef>
       <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
     </CT_ModularShuttleHost>
-    <sewagePipeHidden>
-      <rects>
-        <li>(232,12,232,48)</li>
-        <li>(67,25,67,35)</li>
-        <li>(220,26,221,26)</li>
-        <li>(221,28,221,32)</li>
-        <li>(207,29,207,30)</li>
-        <li>(68,30,206,30)</li>
-        <li>(208,30,220,30)</li>
-        <li>(220,34,221,34)</li>
-      </rects>
-      <stuff>Steel</stuff>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </sewagePipeHidden>
     <CMCcannon_BF>
       <positions>
         <li>(235, 0, 14)</li>
@@ -4535,10 +4538,6 @@
       <quality>Normal</quality>
       <color>RGBA(0.631, 0.835, 0.706, 1.000)</color>
     </PFS_BedB>
-    <CT_ModularShuttleHost>
-      <position>(48, 0, 45)</position>
-      <relativeRotation>Clockwise</relativeRotation>
-    </CT_ModularShuttleHost>
     <MU_LargeUpgradesStorage>
       <positions>
         <li>(54, 0, 43)</li>
@@ -5305,6 +5304,7 @@
           <li>(260,36,263,39)</li>
           <li>(265,36,268,39)</li>
           <li>(270,36,273,39)</li>
+          <li>(108,39,127,48)</li>
           <li>(233,39,251,42)</li>
           <li>(42,41,42,41)</li>
           <li>(255,43,258,46)</li>
@@ -5762,7 +5762,7 @@
           <li>(97,39,97,43)</li>
           <li>(99,39,99,39)</li>
           <li>(105,39,105,50)</li>
-          <li>(107,39,107,48)</li>
+          <li>(107,39,127,48)</li>
           <li>(190,39,198,48)</li>
           <li>(200,39,213,48)</li>
           <li>(217,39,217,48)</li>
@@ -5858,11 +5858,11 @@
           <li>(157,11,188,49)</li>
           <li>(195,11,196,49)</li>
           <li>(203,11,212,49)</li>
-          <li>(220,11,231,49)</li>
+          <li>(220,11,232,49)</li>
           <li>(4,12,5,48)</li>
           <li>(25,12,33,48)</li>
           <li>(99,12,101,48)</li>
-          <li>(232,12,275,48)</li>
+          <li>(233,12,275,48)</li>
           <li>(288,12,289,48)</li>
           <li>(15,13,24,47)</li>
           <li>(276,13,284,47)</li>
@@ -5905,9 +5905,9 @@
         <li>(89,11,89,23)</li>
         <li>(103,11,103,50)</li>
         <li>(106,11,127,24)</li>
-        <li>(217,11,231,11)</li>
+        <li>(217,11,232,11)</li>
         <li>(90,12,102,16)</li>
-        <li>(232,12,232,48)</li>
+        <li>(232,12,232,49)</li>
         <li>(252,12,274,27)</li>
         <li>(15,13,33,47)</li>
         <li>(275,13,284,47)</li>
@@ -5977,7 +5977,7 @@
         <li>(106,11,127,24)</li>
         <li>(217,11,232,11)</li>
         <li>(90,12,102,16)</li>
-        <li>(232,12,232,48)</li>
+        <li>(232,12,232,49)</li>
         <li>(252,12,274,27)</li>
         <li>(15,13,33,47)</li>
         <li>(275,13,284,47)</li>
