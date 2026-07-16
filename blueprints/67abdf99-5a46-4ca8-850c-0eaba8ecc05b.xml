@@ -1,5 +1,5 @@
 <PrefabDef>
-  <defName>Prefab_20260716_214043</defName>
+  <defName>Prefab_20260716_214529</defName>
   <size>(53,235)</size>
   <extraInfo>
     <version>1.6.9676.17735</version>
@@ -71,7 +71,6 @@
           <li>PilotSubpersonaCore</li>
           <li>SignalJammer</li>
           <li>PilotConsole</li>
-          <li>GravEngine</li>
           <li>OrbitalScanner</li>
           <li>BlocksVacstone</li>
           <li>Substructure</li>
@@ -483,6 +482,25 @@
         </things>
       </mod>
       <mod>
+        <packageId>btd.remix.gravshipblueprints</packageId>
+        <name>[BTD] Gravship Blueprints</name>
+        <version></version>
+        <modorder>185</modorder>
+        <steamWorkshopId>3575162262</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>ludeon.rimworld.odyssey</packageId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>BTD_GravEngine_Dormant</li>
+        </things>
+      </mod>
+      <mod>
         <packageId>ratys.rtsolarflareshield</packageId>
         <name>RT Solar Flare Shield</name>
         <version></version>
@@ -764,12 +782,11 @@
         <li>(17,31,17,88)</li>
         <li>(26,31,26,31)</li>
         <li>(35,31,35,88)</li>
-        <li>(26,33,26,37)</li>
+        <li>(26,33,26,74)</li>
         <li>(4,34,16,34)</li>
         <li>(36,34,48,34)</li>
         <li>(4,37,16,37)</li>
         <li>(36,37,48,37)</li>
-        <li>(26,39,26,74)</li>
         <li>(18,48,18,48)</li>
         <li>(21,48,25,48)</li>
         <li>(27,48,31,48)</li>
@@ -1096,8 +1113,8 @@
         <li>(35,128,44,128)</li>
         <li>(23,129,23,130)</li>
         <li>(29,129,29,130)</li>
-        <li>(23,132,23,143)</li>
-        <li>(29,132,29,143)</li>
+        <li>(23,132,23,141)</li>
+        <li>(29,132,29,141)</li>
         <li>(22,134,22,134)</li>
         <li>(24,134,24,134)</li>
         <li>(28,134,28,134)</li>
@@ -1108,6 +1125,8 @@
         <li>(31,135,31,135)</li>
         <li>(21,137,21,143)</li>
         <li>(31,137,31,143)</li>
+        <li>(23,143,23,143)</li>
+        <li>(29,143,29,143)</li>
         <li>(18,145,18,152)</li>
         <li>(21,145,31,145)</li>
         <li>(34,145,34,152)</li>
@@ -1824,7 +1843,8 @@
         <li>(33,60,33,60)</li>
         <li>(23,131,23,131)</li>
         <li>(29,131,29,131)</li>
-        <li>(31,136,31,136)</li>
+        <li>(23,142,23,142)</li>
+        <li>(29,142,29,142)</li>
         <li>(21,153,21,153)</li>
         <li>(31,153,31,153)</li>
         <li>(32,163,32,163)</li>
@@ -2841,10 +2861,14 @@
     <CMC_TableMachining>
       <position>(37, 0, 81)</position>
       <relativeRotation>Counterclockwise</relativeRotation>
+      <colorDef>Structure_White</colorDef>
+      <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
     </CMC_TableMachining>
     <CMC_TableMachining>
       <position>(44, 0, 81)</position>
       <relativeRotation>Clockwise</relativeRotation>
+      <colorDef>Structure_White</colorDef>
+      <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
     </CMC_TableMachining>
     <PFS_Barricade>
       <rects>
@@ -2853,9 +2877,9 @@
         <li>(25,84,27,84)</li>
       </rects>
     </PFS_Barricade>
-    <GravEngine>
+    <BTD_GravEngine_Dormant>
       <position>(26, 0, 82)</position>
-    </GravEngine>
+    </BTD_GravEngine_Dormant>
     <CMC_FunnelProgrammer>
       <rects>
         <li>(20,82,20,82)</li>
@@ -2865,6 +2889,8 @@
     <CMC_FacBench>
       <position>(37, 0, 85)</position>
       <relativeRotation>Counterclockwise</relativeRotation>
+      <colorDef>Structure_White</colorDef>
+      <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
     </CMC_FacBench>
     <TableWeaverSW>
       <position>(40, 0, 85)</position>
@@ -3126,14 +3152,14 @@
       </positions>
       <relativeRotation>Clockwise</relativeRotation>
     </SW_AdaptiveFridgeStorageCabin>
-    <Vent>
+    <GravshipHullArmor_NAWDiagonal>
       <rects>
         <li>(21,136,21,136)</li>
-        <li>(18,176,18,176)</li>
-        <li>(34,176,34,176)</li>
+        <li>(31,136,31,136)</li>
       </rects>
-      <relativeRotation>Clockwise</relativeRotation>
-    </Vent>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </GravshipHullArmor_NAWDiagonal>
     <VCE_SushiPrepTable>
       <position>(25, 0, 136)</position>
     </VCE_SushiPrepTable>
@@ -3444,6 +3470,13 @@
       <colorDef>Structure_White</colorDef>
       <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
     </PFS_EndTable>
+    <Vent>
+      <rects>
+        <li>(18,176,18,176)</li>
+        <li>(34,176,34,176)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </Vent>
     <CMC_EMcannon>
       <positions>
         <li>(11, 0, 179)</li>
