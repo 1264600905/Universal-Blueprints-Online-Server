@@ -1,5 +1,5 @@
 <PrefabDef>
-  <defName>Prefab_20260717_005748</defName>
+  <defName>Prefab_20260717_175737</defName>
   <size>(301,62)</size>
   <extraInfo>
     <version>1.6.9676.17735</version>
@@ -118,8 +118,8 @@
           <li>PFS_AutodoorB</li>
           <li>PFS_EndTable</li>
           <li>PFS_DoubleBed</li>
-          <li>PFS_DresserB</li>
           <li>PFS_ObsidianFigurine</li>
+          <li>PFS_DresserB</li>
           <li>PFS_MetalTeddyBear</li>
           <li>PFS_TabletopPlant</li>
           <li>PFS_DresserA</li>
@@ -275,6 +275,25 @@
         </things>
       </mod>
       <mod>
+        <packageId>longrange.celetech.shuttleextension</packageId>
+        <name>CeleTech Arsenal - Shuttle Extension</name>
+        <version>0.9.2</version>
+        <modorder>248</modorder>
+        <steamWorkshopId>3760923537</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>ludeon.rimworld.odyssey</packageId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>CT_ModularShuttleHost</li>
+        </things>
+      </mod>
+      <mod>
         <packageId>dubwise.dubsbadhygiene</packageId>
         <name>Dubs Bad Hygiene</name>
         <version>3.1.2800</version>
@@ -294,25 +313,6 @@
           <li>ToiletAdvStuff</li>
           <li>HotWaterTank</li>
           <li>ElectricBoiler</li>
-        </things>
-      </mod>
-      <mod>
-        <packageId>longrange.celetech.shuttleextension</packageId>
-        <name>CeleTech Arsenal - Shuttle Extension</name>
-        <version>0.9.2</version>
-        <modorder>248</modorder>
-        <steamWorkshopId>3760923537</steamWorkshopId>
-        <dependencies>
-          <li>
-            <packageId>ludeon.rimworld.odyssey</packageId>
-          </li>
-          <li>
-            <packageId>brrainz.harmony</packageId>
-            <steamWorkshopId>2009463077</steamWorkshopId>
-          </li>
-        </dependencies>
-        <things>
-          <li>CT_ModularShuttleHost</li>
         </things>
       </mod>
       <mod>
@@ -368,6 +368,7 @@
         <things>
           <li>MechBooster</li>
           <li>LargeMechGestator</li>
+          <li>WastepackAtomizer</li>
           <li>MechGestator</li>
         </things>
       </mod>
@@ -527,12 +528,12 @@
         <steamWorkshopId>3537799933</steamWorkshopId>
         <dependencies>
           <li>
-            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
-            <steamWorkshopId>2023507013</steamWorkshopId>
-          </li>
-          <li>
             <packageId>brrainz.harmony</packageId>
             <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
           </li>
         </dependencies>
         <things>
@@ -2203,20 +2204,6 @@
       </rects>
       <relativeRotation>Opposite</relativeRotation>
     </CP_SteelExpansionTank>
-    <sewagePipeHidden>
-      <rects>
-        <li>(232,11,232,49)</li>
-        <li>(67,25,67,35)</li>
-        <li>(220,26,221,26)</li>
-        <li>(221,28,221,32)</li>
-        <li>(207,29,207,30)</li>
-        <li>(68,30,206,30)</li>
-        <li>(208,30,220,30)</li>
-        <li>(220,34,221,34)</li>
-      </rects>
-      <stuff>Steel</stuff>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </sewagePipeHidden>
     <MUS_SpaceBase_BigDoor>
       <positions>
         <li>(36, 0, 12)</li>
@@ -2355,6 +2342,20 @@
       <colorDef>Structure_White</colorDef>
       <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
     </CT_ModularShuttleHost>
+    <sewagePipeHidden>
+      <rects>
+        <li>(232,12,232,48)</li>
+        <li>(67,25,67,35)</li>
+        <li>(220,26,221,26)</li>
+        <li>(221,28,221,32)</li>
+        <li>(207,29,207,30)</li>
+        <li>(68,30,206,30)</li>
+        <li>(208,30,220,30)</li>
+        <li>(220,34,221,34)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </sewagePipeHidden>
     <CMCcannon_BF>
       <positions>
         <li>(235, 0, 14)</li>
@@ -2769,17 +2770,6 @@
       <quality>Normal</quality>
       <color>RGBA(0.631, 0.835, 0.706, 1.000)</color>
     </PFS_DoubleBed>
-    <PFS_DresserB>
-      <positions>
-        <li>(262, 0, 14)</li>
-        <li>(262, 0, 21)</li>
-        <li>(145, 0, 25)</li>
-        <li>(175, 0, 25)</li>
-      </positions>
-      <quality>Normal</quality>
-      <colorDef>Structure_White</colorDef>
-      <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
-    </PFS_DresserB>
     <PFS_ObsidianFigurine>
       <rects>
         <li>(262,14,262,14)</li>
@@ -2803,6 +2793,17 @@
       <colorDef>Structure_White</colorDef>
       <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
     </PFS_ObsidianFigurine>
+    <PFS_DresserB>
+      <positions>
+        <li>(262, 0, 14)</li>
+        <li>(262, 0, 21)</li>
+        <li>(145, 0, 25)</li>
+        <li>(175, 0, 25)</li>
+      </positions>
+      <quality>Normal</quality>
+      <colorDef>Structure_White</colorDef>
+      <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
+    </PFS_DresserB>
     <PFS_MetalTeddyBear>
       <rects>
         <li>(263,14,263,14)</li>
@@ -3954,6 +3955,16 @@
         <li>(271, 0, 30)</li>
       </positions>
     </CMC_EMcannon_Huge>
+    <WallLamp>
+      <rects>
+        <li>(194,28,194,28)</li>
+        <li>(198,28,198,28)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+      <glowColor>RGBA(0.000, 0.561, 0.839, 0.000)</glowColor>
+    </WallLamp>
     <jdgg_RefCargoHold>
       <positions>
         <li>(195, 0, 28)</li>
@@ -3967,16 +3978,6 @@
       <stuff>Steel</stuff>
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </jdgg_RefCargoHold>
-    <WallLamp>
-      <rects>
-        <li>(194,28,194,28)</li>
-        <li>(198,28,198,28)</li>
-      </rects>
-      <relativeRotation>Opposite</relativeRotation>
-      <stuff>Steel</stuff>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-      <glowColor>RGBA(0.000, 0.561, 0.839, 0.000)</glowColor>
-    </WallLamp>
     <RS_stove>
       <position>(201, 0, 28)</position>
       <relativeRotation>Opposite</relativeRotation>
@@ -4103,10 +4104,6 @@
       <colorDef>Structure_White</colorDef>
       <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
     </PFS_ShelfSmall>
-    <PilotConsole>
-      <position>(75, 0, 30)</position>
-      <relativeRotation>Clockwise</relativeRotation>
-    </PilotConsole>
     <PFS_MiniHoloGlass>
       <rects>
         <li>(75,29,75,29)</li>
@@ -4114,6 +4111,10 @@
       </rects>
       <relativeRotation>Counterclockwise</relativeRotation>
     </PFS_MiniHoloGlass>
+    <PilotConsole>
+      <position>(75, 0, 30)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </PilotConsole>
     <AdvShip_ComputerCore>
       <position>(82, 0, 30)</position>
     </AdvShip_ComputerCore>
@@ -4270,17 +4271,17 @@
       <relativeRotation>Opposite</relativeRotation>
       <stuff>Steel</stuff>
     </ShowerAdvStuff>
-    <PFS_TableC>
-      <position>(49, 0, 33)</position>
-      <relativeRotation>Clockwise</relativeRotation>
-      <quality>Normal</quality>
-    </PFS_TableC>
     <PFS_MetalTeddyBear>
       <rects>
         <li>(49,32,49,32)</li>
       </rects>
       <relativeRotation>Clockwise</relativeRotation>
     </PFS_MetalTeddyBear>
+    <PFS_TableC>
+      <position>(49, 0, 33)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <quality>Normal</quality>
+    </PFS_TableC>
     <TradeInfoConsole>
       <position>(67, 0, 32)</position>
     </TradeInfoConsole>
@@ -4491,18 +4492,15 @@
       <relativeRotation>Opposite</relativeRotation>
     </MU_AdvancedUpgradesAssembler>
     <LargeMechGestator>
-      <positions>
-        <li>(79, 0, 41)</li>
-        <li>(83, 0, 41)</li>
-      </positions>
+      <position>(79, 0, 41)</position>
     </LargeMechGestator>
-    <MechGestator>
+    <WastepackAtomizer>
       <positions>
+        <li>(83, 0, 41)</li>
         <li>(86, 0, 41)</li>
-        <li>(86, 0, 48)</li>
       </positions>
-      <relativeRotation>Clockwise</relativeRotation>
-    </MechGestator>
+      <relativeRotation>Opposite</relativeRotation>
+    </WastepackAtomizer>
     <CT_ModularShuttleHost>
       <positions>
         <li>(220, 0, 44)</li>
@@ -4567,6 +4565,13 @@
         <li>(72,47,72,47)</li>
       </rects>
     </MU_AssemblyCentrifuge>
+    <MechGestator>
+      <positions>
+        <li>(88, 0, 43)</li>
+        <li>(88, 0, 46)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </MechGestator>
     <MU_MechUpgrader>
       <positions>
         <li>(65, 0, 45)</li>
@@ -4581,10 +4586,7 @@
       </rects>
     </CP_OilExpansionTank>
     <LargeMechGestator>
-      <positions>
-        <li>(80, 0, 48)</li>
-        <li>(84, 0, 48)</li>
-      </positions>
+      <position>(80, 0, 48)</position>
       <relativeRotation>Opposite</relativeRotation>
     </LargeMechGestator>
     <CP_ClusterProjectionConsoleAdvanced>
@@ -4607,6 +4609,12 @@
         <li>(75, 0, 48)</li>
       </positions>
     </MU_AdvancedUpgradesAssembler>
+    <WastepackAtomizer>
+      <positions>
+        <li>(83, 0, 48)</li>
+        <li>(86, 0, 48)</li>
+      </positions>
+    </WastepackAtomizer>
   </things>
   <terrain>
     <UCStripedFloor>
@@ -5261,7 +5269,7 @@
       <PFS_WhitePanelB>
         <rects>
           <li>(107,12,127,21)</li>
-          <li>(107,39,107,48)</li>
+          <li>(107,39,127,48)</li>
         </rects>
       </PFS_WhitePanelB>
       <CP_LauncherFloor>
@@ -5304,7 +5312,6 @@
           <li>(260,36,263,39)</li>
           <li>(265,36,268,39)</li>
           <li>(270,36,273,39)</li>
-          <li>(108,39,127,48)</li>
           <li>(233,39,251,42)</li>
           <li>(42,41,42,41)</li>
           <li>(255,43,258,46)</li>
@@ -5858,11 +5865,11 @@
           <li>(157,11,188,49)</li>
           <li>(195,11,196,49)</li>
           <li>(203,11,212,49)</li>
-          <li>(220,11,232,49)</li>
+          <li>(220,11,231,49)</li>
           <li>(4,12,5,48)</li>
           <li>(25,12,33,48)</li>
           <li>(99,12,101,48)</li>
-          <li>(233,12,275,48)</li>
+          <li>(232,12,275,48)</li>
           <li>(288,12,289,48)</li>
           <li>(15,13,24,47)</li>
           <li>(276,13,284,47)</li>
