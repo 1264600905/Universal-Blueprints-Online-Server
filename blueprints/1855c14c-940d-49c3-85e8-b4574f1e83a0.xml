@@ -1,6 +1,6 @@
 <PrefabDef>
-  <defName>Prefab_20260717_175737</defName>
-  <size>(301,62)</size>
+  <defName>Prefab_20260717_231613</defName>
+  <size>(300,62)</size>
   <extraInfo>
     <version>1.6.9676.17735</version>
     <name>天工鑄造巨型方舟母艦</name>
@@ -771,36 +771,6 @@
         <steamWorkshopId>2785616901</steamWorkshopId>
         <things>
           <li>VTE_TradingTerminal</li>
-        </things>
-      </mod>
-      <mod>
-        <packageId>ancot.milirarace</packageId>
-        <name>Milira Race</name>
-        <version></version>
-        <modorder>233</modorder>
-        <steamWorkshopId>3256974620</steamWorkshopId>
-        <dependencies>
-          <li>
-            <packageId>erdelf.humanoidalienraces</packageId>
-            <steamWorkshopId>839005762</steamWorkshopId>
-          </li>
-          <li>
-            <packageId>ancot.ancotlibrary</packageId>
-            <steamWorkshopId>2988801276</steamWorkshopId>
-          </li>
-          <li>
-            <packageId>brrainz.harmony</packageId>
-            <steamWorkshopId>2009463077</steamWorkshopId>
-          </li>
-          <li>
-            <packageId>ludeon.rimworld.royalty</packageId>
-          </li>
-          <li>
-            <packageId>ludeon.rimworld.biotech</packageId>
-          </li>
-        </dependencies>
-        <things>
-          <li>Milira_SplendidSteel</li>
         </things>
       </mod>
       <mod>
@@ -2089,6 +2059,8 @@
         <li>(76,11,76,11)</li>
         <li>(83,11,83,11)</li>
         <li>(103,15,103,15)</li>
+        <li>(91,17,91,17)</li>
+        <li>(97,17,97,17)</li>
         <li>(249,25,249,25)</li>
         <li>(215,26,215,26)</li>
         <li>(81,27,81,27)</li>
@@ -2125,7 +2097,7 @@
     <ElectricTailoringBench>
       <position>(68, 0, 12)</position>
       <relativeRotation>Clockwise</relativeRotation>
-      <stuff>WoodLog</stuff>
+      <stuff>Steel</stuff>
       <colorDef>Structure_White</colorDef>
       <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
     </ElectricTailoringBench>
@@ -2296,7 +2268,7 @@
     <TableSculpting>
       <position>(69, 0, 13)</position>
       <relativeRotation>Counterclockwise</relativeRotation>
-      <stuff>WoodLog</stuff>
+      <stuff>Steel</stuff>
       <colorDef>Structure_White</colorDef>
       <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
     </TableSculpting>
@@ -2384,6 +2356,8 @@
         <li>(105,19,105,19)</li>
         <li>(58,21,58,21)</li>
         <li>(67,21,67,21)</li>
+        <li>(91,21,91,21)</li>
+        <li>(97,21,97,21)</li>
         <li>(240,22,240,22)</li>
         <li>(20,23,20,23)</li>
         <li>(51,23,51,23)</li>
@@ -2431,6 +2405,8 @@
         <li>(20,37,20,37)</li>
         <li>(51,37,51,37)</li>
         <li>(240,38,240,38)</li>
+        <li>(91,39,91,39)</li>
+        <li>(97,39,97,39)</li>
         <li>(105,41,105,41)</li>
         <li>(256,42,256,42)</li>
         <li>(262,42,262,42)</li>
@@ -2496,6 +2472,8 @@
         <li>(105,19,105,19)</li>
         <li>(58,21,58,21)</li>
         <li>(67,21,67,21)</li>
+        <li>(91,21,91,21)</li>
+        <li>(97,21,97,21)</li>
         <li>(20,23,20,23)</li>
         <li>(51,23,51,23)</li>
         <li>(227,24,227,24)</li>
@@ -2526,6 +2504,8 @@
         <li>(20,37,20,37)</li>
         <li>(51,37,51,37)</li>
         <li>(240,38,240,38)</li>
+        <li>(91,39,91,39)</li>
+        <li>(97,39,97,39)</li>
         <li>(105,41,105,41)</li>
         <li>(256,42,256,42)</li>
         <li>(262,42,262,42)</li>
@@ -2657,6 +2637,8 @@
         <li>(264,32,264,32)</li>
         <li>(237,33,237,33)</li>
         <li>(117,35,117,35)</li>
+        <li>(133,38,133,38)</li>
+        <li>(142,38,142,38)</li>
         <li>(151,38,151,38)</li>
         <li>(161,38,161,38)</li>
         <li>(171,38,171,38)</li>
@@ -3385,17 +3367,14 @@
       <colorDef>Structure_White</colorDef>
       <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
     </GravshipHull>
-    <MUS_SpaceBase_Door>
+    <PFS_DoorFrameB>
       <rects>
         <li>(91,21,91,21)</li>
         <li>(97,21,97,21)</li>
         <li>(91,39,91,39)</li>
         <li>(97,39,97,39)</li>
       </rects>
-      <stuff>Steel</stuff>
-      <colorDef>Structure_White</colorDef>
-      <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
-    </MUS_SpaceBase_Door>
+    </PFS_DoorFrameB>
     <HeatPump>
       <rects>
         <li>(130,21,130,21)</li>
@@ -4451,15 +4430,6 @@
       </rects>
       <relativeRotation>Opposite</relativeRotation>
     </HeatPump>
-    <VacBarrier>
-      <rects>
-        <li>(133,38,133,38)</li>
-        <li>(142,38,142,38)</li>
-      </rects>
-      <stuff>Milira_SplendidSteel</stuff>
-      <colorDef>Structure_White</colorDef>
-      <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
-    </VacBarrier>
     <IRBM_MissileSilo_Quad>
       <positions>
         <li>(136, 0, 43)</li>
