@@ -1,0 +1,196 @@
+<PrefabDef>
+  <defName>Prefab_20260722_192120</defName>
+  <size>(32,13)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>Mess Hall Log</name>
+    <description>Log Mess Hall For eating</description>
+    <tags></tags>
+    <author>B</author>
+    <category>Canteen</category>
+    <BuildingID>92236864-5231-4c00-b1d9-0f7977ff5594</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>vanillaexpanded.vfearchitect</packageId>
+        <name>Vanilla Furniture Expanded - Architect</name>
+        <version></version>
+        <modorder>10</modorder>
+        <steamWorkshopId>2608762624</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VFEArch_LogWall</li>
+          <li>VFEArch_SingleDoor</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>vanillaexpanded.vfecore</packageId>
+        <name>Vanilla Furniture Expanded</name>
+        <version></version>
+        <modorder>156</modorder>
+        <steamWorkshopId>1718190143</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Seat_Bench</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>owlchemist.ceilingutilities</packageId>
+        <name>Simple Utilities: Ceiling</name>
+        <version></version>
+        <modorder>139</modorder>
+        <steamWorkshopId>3231909012</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Owl_LongCeilingLight</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>Mess Hall Log</default>
+        <en>Mess Hall Log</en>
+      </name>
+      <description>
+        <default>Log Mess Hall For eating</default>
+        <en>Log Mess Hall For eating</en>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <VFEArch_LogWall>
+      <rects>
+        <li>(0,0,31,0)</li>
+        <li>(0,1,0,5)</li>
+        <li>(31,1,31,12)</li>
+        <li>(0,7,0,12)</li>
+        <li>(1,12,30,12)</li>
+      </rects>
+    </VFEArch_LogWall>
+    <HiddenConduit>
+      <rects>
+        <li>(0,0,31,0)</li>
+        <li>(0,1,0,12)</li>
+        <li>(31,1,31,12)</li>
+        <li>(1,6,30,6)</li>
+        <li>(1,12,30,12)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <Heater>
+      <rects>
+        <li>(1,1,1,1)</li>
+        <li>(1,11,1,11)</li>
+      </rects>
+    </Heater>
+    <Seat_Bench>
+      <rects>
+        <li>(2,2,13,2)</li>
+        <li>(18,2,29,2)</li>
+        <li>(2,5,13,5)</li>
+        <li>(18,5,29,5)</li>
+        <li>(2,7,13,7)</li>
+        <li>(18,7,29,7)</li>
+        <li>(2,10,13,10)</li>
+        <li>(18,10,29,10)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Seat_Bench>
+    <Table2x4c>
+      <positions>
+        <li>(3, 0, 4)</li>
+        <li>(7, 0, 4)</li>
+        <li>(11, 0, 4)</li>
+        <li>(19, 0, 4)</li>
+        <li>(23, 0, 4)</li>
+        <li>(27, 0, 4)</li>
+        <li>(3, 0, 9)</li>
+        <li>(7, 0, 9)</li>
+        <li>(11, 0, 9)</li>
+        <li>(19, 0, 9)</li>
+        <li>(23, 0, 9)</li>
+        <li>(27, 0, 9)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Table2x4c>
+    <VFEArch_SingleDoor>
+      <rects>
+        <li>(0,6,0,6)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </VFEArch_SingleDoor>
+    <Owl_LongCeilingLight>
+      <positions>
+        <li>(7, 0, 6)</li>
+        <li>(15, 0, 6)</li>
+        <li>(23, 0, 6)</li>
+      </positions>
+      <color>RGBA(1.000, 1.000, 1.000, 0.350)</color>
+    </Owl_LongCeilingLight>
+  </things>
+  <terrain>
+    <WoodPlankFloor>
+      <rects>
+        <li>(0,0,31,12)</li>
+      </rects>
+    </WoodPlankFloor>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <WoodPlankFloor>
+        <rects>
+          <li>(0,0,31,12)</li>
+        </rects>
+      </WoodPlankFloor>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(0,0,31,11)</li>
+          <li>(1,12,31,12)</li>
+        </rects>
+      </Soil>
+      <SoilRich>
+        <rects>
+          <li>(0,12,0,12)</li>
+        </rects>
+      </SoilRich>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,31,12)</li>
+      </rects>
+    </RoofConstructed>
+  </roofs>
+</PrefabDef>
