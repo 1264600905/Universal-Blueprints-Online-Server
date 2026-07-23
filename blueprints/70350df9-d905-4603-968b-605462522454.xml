@@ -1,0 +1,413 @@
+<PrefabDef>
+  <defName>Prefab_20260723_225258</defName>
+  <size>(13,13)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>医疗13×13</name>
+    <description>含涅瓦连建筑</description>
+    <tags>
+      <li>FullExport</li>
+    </tags>
+    <author>离</author>
+    <category>医疗</category>
+    <BuildingID>70350df9-d905-4603-968b-605462522454</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>aoba.fortress.industrial</packageId>
+        <name>Fortifications - Industrial</name>
+        <version></version>
+        <modorder>311</modorder>
+        <steamWorkshopId>2561619583</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>aoba.framework</packageId>
+            <steamWorkshopId>3498575851</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>FT_BlocksConcrete</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>keeptpa.nivarianrace</packageId>
+        <name>Nivarian Race</name>
+        <version>20260721111205</version>
+        <modorder>193</modorder>
+        <steamWorkshopId>3624805128</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Nivarian_DragonfrostSteel</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>kindseal.ufli</packageId>
+        <name>联合轻工家具拓展-UF Light Industries Furniture</name>
+        <version></version>
+        <modorder>275</modorder>
+        <steamWorkshopId>3651799915</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFLI_Walllamp</li>
+          <li>UFLI_TempControler</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>keeptpa.nivariandraconiture</packageId>
+        <name>Nivarian Race: Draconiture</name>
+        <version>20260706155846</version>
+        <modorder>194</modorder>
+        <steamWorkshopId>3686517288</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>keeptpa.nivarianrace</packageId>
+            <steamWorkshopId>3624805128</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Nivarian_Sterilizer</li>
+          <li>Nivarian_ReshapePod</li>
+          <li>NivarianColdCandleWallLight</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.biotech</packageId>
+        <name>Biotech</name>
+        <version></version>
+        <modorder>7</modorder>
+        <things>
+          <li>HemogenPack</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>医疗13×13</default>
+        <zh-CN>医疗13×13</zh-CN>
+      </name>
+      <description>
+        <default>含涅瓦连建筑</default>
+        <zh-CN>含涅瓦连建筑</zh-CN>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,12,0)</li>
+        <li>(0,1,0,12)</li>
+        <li>(12,1,12,12)</li>
+        <li>(4,4,8,4)</li>
+        <li>(4,5,4,6)</li>
+        <li>(8,5,8,6)</li>
+        <li>(4,8,4,10)</li>
+        <li>(8,8,8,10)</li>
+        <li>(5,10,7,10)</li>
+        <li>(6,11,6,12)</li>
+        <li>(1,12,4,12)</li>
+        <li>(8,12,11,12)</li>
+      </rects>
+      <stuff>FT_BlocksConcrete</stuff>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </Wall>
+    <HospitalBed>
+      <positions>
+        <li>(1, 0, 2)</li>
+        <li>(7, 0, 2)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Nivarian_DragonfrostSteel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.231, 0.463, 1.000, 1.000)</color>
+    </HospitalBed>
+    <HospitalBed>
+      <positions>
+        <li>(3, 0, 2)</li>
+        <li>(6, 0, 2)</li>
+        <li>(11, 0, 2)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Nivarian_DragonfrostSteel</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.231, 0.463, 1.000, 1.000)</color>
+    </HospitalBed>
+    <VitalsMonitor>
+      <rects>
+        <li>(4,1,4,1)</li>
+        <li>(8,1,8,1)</li>
+      </rects>
+    </VitalsMonitor>
+    <HospitalBed>
+      <positions>
+        <li>(5, 0, 2)</li>
+        <li>(9, 0, 2)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Nivarian_DragonfrostSteel</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.231, 0.463, 1.000, 1.000)</color>
+    </HospitalBed>
+    <VitalsMonitor>
+      <rects>
+        <li>(2,2,2,2)</li>
+        <li>(10,2,10,2)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </VitalsMonitor>
+    <UFLI_Walllamp>
+      <rects>
+        <li>(6,3,6,3)</li>
+      </rects>
+    </UFLI_Walllamp>
+    <UFLI_Walllamp>
+      <rects>
+        <li>(3,4,3,4)</li>
+        <li>(3,10,3,10)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </UFLI_Walllamp>
+    <UFLI_Walllamp>
+      <rects>
+        <li>(9,4,9,4)</li>
+        <li>(9,10,9,10)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </UFLI_Walllamp>
+    <Nivarian_Sterilizer>
+      <rects>
+        <li>(1,5,1,5)</li>
+        <li>(11,5,11,5)</li>
+        <li>(6,7,6,7)</li>
+      </rects>
+    </Nivarian_Sterilizer>
+    <VitalsMonitor>
+      <rects>
+        <li>(2,5,2,5)</li>
+        <li>(2,9,2,9)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </VitalsMonitor>
+    <Nivarian_ReshapePod>
+      <positions>
+        <li>(5, 0, 6)</li>
+        <li>(7, 0, 6)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+    </Nivarian_ReshapePod>
+    <NivarianColdCandleWallLight>
+      <rects>
+        <li>(6,5,6,5)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </NivarianColdCandleWallLight>
+    <VitalsMonitor>
+      <rects>
+        <li>(10,5,10,5)</li>
+        <li>(10,9,10,9)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </VitalsMonitor>
+    <HospitalBed>
+      <position>(2, 0, 6)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Nivarian_DragonfrostSteel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.231, 0.463, 1.000, 1.000)</color>
+    </HospitalBed>
+    <HospitalBed>
+      <position>(10, 0, 6)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Nivarian_DragonfrostSteel</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.231, 0.463, 1.000, 1.000)</color>
+    </HospitalBed>
+    <Door>
+      <rects>
+        <li>(4,7,4,7)</li>
+        <li>(8,7,8,7)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <HiddenConduit>
+      <rects>
+        <li>(6,7,6,12)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <Nivarian_ReshapePod>
+      <positions>
+        <li>(5, 0, 8)</li>
+        <li>(7, 0, 8)</li>
+      </positions>
+    </Nivarian_ReshapePod>
+    <NivarianColdCandleWallLight>
+      <rects>
+        <li>(6,9,6,9)</li>
+      </rects>
+    </NivarianColdCandleWallLight>
+    <HospitalBed>
+      <position>(2, 0, 10)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Nivarian_DragonfrostSteel</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.231, 0.463, 1.000, 1.000)</color>
+    </HospitalBed>
+    <HospitalBed>
+      <position>(10, 0, 10)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Nivarian_DragonfrostSteel</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.231, 0.463, 1.000, 1.000)</color>
+    </HospitalBed>
+    <UFLI_TempControler>
+      <rects>
+        <li>(5,11,5,11)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </UFLI_TempControler>
+    <HemogenPack>
+      <rects>
+        <li>(11,11,11,11)</li>
+      </rects>
+      <hp>57</hp>
+      <stackCount>14</stackCount>
+    </HemogenPack>
+    <Door>
+      <rects>
+        <li>(5,12,5,12)</li>
+        <li>(7,12,7,12)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+  </things>
+  <terrain>
+    <Soil>
+      <rects>
+        <li>(0,0,12,0)</li>
+        <li>(0,1,0,12)</li>
+        <li>(12,1,12,12)</li>
+        <li>(4,4,8,4)</li>
+        <li>(4,5,4,6)</li>
+        <li>(8,5,8,6)</li>
+        <li>(4,8,4,10)</li>
+        <li>(8,8,8,10)</li>
+        <li>(5,10,7,10)</li>
+        <li>(6,11,6,12)</li>
+        <li>(1,12,4,12)</li>
+        <li>(8,12,11,12)</li>
+      </rects>
+    </Soil>
+    <SterileTile>
+      <rects>
+        <li>(1,1,11,3)</li>
+        <li>(1,4,3,11)</li>
+        <li>(9,4,11,11)</li>
+        <li>(5,5,7,9)</li>
+        <li>(4,7,4,7)</li>
+        <li>(8,7,8,7)</li>
+        <li>(4,11,5,11)</li>
+        <li>(7,11,8,11)</li>
+        <li>(5,12,5,12)</li>
+        <li>(7,12,7,12)</li>
+      </rects>
+    </SterileTile>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <Soil>
+        <rects>
+          <li>(0,0,12,0)</li>
+          <li>(0,1,0,12)</li>
+          <li>(12,1,12,12)</li>
+          <li>(4,4,8,4)</li>
+          <li>(4,5,4,6)</li>
+          <li>(8,5,8,6)</li>
+          <li>(4,8,4,10)</li>
+          <li>(8,8,8,10)</li>
+          <li>(5,10,7,10)</li>
+          <li>(6,11,6,12)</li>
+          <li>(1,12,4,12)</li>
+          <li>(8,12,11,12)</li>
+        </rects>
+      </Soil>
+      <SterileTile>
+        <rects>
+          <li>(1,1,11,3)</li>
+          <li>(1,4,3,11)</li>
+          <li>(9,4,11,11)</li>
+          <li>(5,5,7,9)</li>
+          <li>(4,7,4,7)</li>
+          <li>(8,7,8,7)</li>
+          <li>(4,11,5,11)</li>
+          <li>(7,11,8,11)</li>
+          <li>(5,12,5,12)</li>
+          <li>(7,12,7,12)</li>
+        </rects>
+      </SterileTile>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(1,1,11,3)</li>
+          <li>(1,4,3,11)</li>
+          <li>(9,4,11,11)</li>
+          <li>(5,5,7,9)</li>
+          <li>(4,7,4,7)</li>
+          <li>(8,7,8,7)</li>
+          <li>(4,11,5,11)</li>
+          <li>(7,11,8,11)</li>
+          <li>(5,12,5,12)</li>
+          <li>(7,12,7,12)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+  <StorageAreaSettings>
+    <myStorageAreaSettings>
+      <SettingName>储存区 1</SettingName>
+      <PresetType>DefaultStockpile</PresetType>
+      <positions>
+        <li>(11,11,11,11)</li>
+      </positions>
+      <data><![CDATA[Version:1
+allowedDefs:HemogenPack
+allowedHitPointsPercents:0.0000:1.0000
+allowedQualities:Awful:Legendary
+disallowedSpecialFilters:
+Priority:Normal
+]]></data>
+    </myStorageAreaSettings>
+  </StorageAreaSettings>
+</PrefabDef>
