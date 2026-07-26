@@ -1,0 +1,202 @@
+<PrefabDef>
+  <defName>Prefab_20260726_185908</defName>
+  <size>(13,13)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>综合发电矩阵</name>
+    <description>一个简单的发电矩阵，面积相对最小化，随便搞的。</description>
+    <tags></tags>
+    <author>東方朔</author>
+    <category>电力</category>
+    <BuildingID>5ebdf738-8ad2-499c-94b8-c16ec9765188</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>meltup.advancedpowerplus</packageId>
+        <name>Advanced Power Plus</name>
+        <version></version>
+        <modorder>218</modorder>
+        <steamWorkshopId>2032409628</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>sd_adv_powergen_adv_geothermal_generator</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ponpeco.pfsf</packageId>
+        <name>Ponpeco Furnitures : Sci-Fi</name>
+        <version>1.3</version>
+        <modorder>230</modorder>
+        <steamWorkshopId>3610234567</steamWorkshopId>
+        <things>
+          <li>PFS_ColumnA</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>hobbes.bamba.evenmorelinkables16</packageId>
+        <name>Even More Linkables Reupload</name>
+        <version></version>
+        <modorder>285</modorder>
+        <steamWorkshopId>3536014093</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>HobbesLink_Alternator</li>
+          <li>HobbesLink_CoolingModule</li>
+          <li>HobbesLink_Pylon</li>
+          <li>HobbesLink_Spacer_Condensator</li>
+          <li>HobbesLink_Transformer</li>
+          <li>HobbesLink_Spacer_Console</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>综合发电矩阵</default>
+        <zh-CN>综合发电矩阵</zh-CN>
+      </name>
+      <description>
+        <default>一个简单的发电矩阵，面积相对最小化，随便搞的。</default>
+        <zh-CN>一个简单的发电矩阵，面积相对最小化，随便搞的。</zh-CN>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <sd_adv_powergen_adv_geothermal_generator>
+      <positions>
+        <li>(2, 0, 2)</li>
+        <li>(9, 0, 2)</li>
+        <li>(2, 0, 9)</li>
+        <li>(9, 0, 9)</li>
+      </positions>
+    </sd_adv_powergen_adv_geothermal_generator>
+    <PFS_ColumnA>
+      <rects>
+        <li>(6,0,6,0)</li>
+        <li>(0,6,0,6)</li>
+        <li>(12,6,12,6)</li>
+        <li>(6,12,6,12)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </PFS_ColumnA>
+    <HobbesLink_Alternator>
+      <rects>
+        <li>(6,1,6,1)</li>
+        <li>(6,11,6,11)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </HobbesLink_Alternator>
+    <SteamGeyser>
+      <positions>
+        <li>(2, 0, 2)</li>
+        <li>(9, 0, 2)</li>
+        <li>(2, 0, 9)</li>
+        <li>(9, 0, 9)</li>
+      </positions>
+    </SteamGeyser>
+    <HobbesLink_CoolingModule>
+      <position>(6, 0, 3)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </HobbesLink_CoolingModule>
+    <HobbesLink_Pylon>
+      <rects>
+        <li>(6,4,6,4)</li>
+        <li>(2,6,2,6)</li>
+        <li>(6,8,6,8)</li>
+      </rects>
+    </HobbesLink_Pylon>
+    <HobbesLink_Spacer_Condensator>
+      <rects>
+        <li>(6,5,6,5)</li>
+        <li>(7,6,7,6)</li>
+        <li>(6,7,6,7)</li>
+      </rects>
+    </HobbesLink_Spacer_Condensator>
+    <HobbesLink_Alternator>
+      <rects>
+        <li>(1,6,1,6)</li>
+        <li>(11,6,11,6)</li>
+      </rects>
+    </HobbesLink_Alternator>
+    <HobbesLink_Transformer>
+      <positions>
+        <li>(4, 0, 6)</li>
+        <li>(9, 0, 6)</li>
+      </positions>
+    </HobbesLink_Transformer>
+    <HobbesLink_Spacer_Console>
+      <rects>
+        <li>(6,6,6,6)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </HobbesLink_Spacer_Console>
+    <HobbesLink_CoolingModule>
+      <position>(6, 0, 9)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </HobbesLink_CoolingModule>
+  </things>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <Concrete>
+        <rects>
+          <li>(5,0,7,12)</li>
+          <li>(0,5,4,7)</li>
+          <li>(8,5,12,7)</li>
+        </rects>
+      </Concrete>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(5,0,7,12)</li>
+          <li>(0,5,4,7)</li>
+          <li>(8,5,12,7)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,5,5)</li>
+        <li>(7,0,12,5)</li>
+        <li>(6,2,6,5)</li>
+        <li>(2,6,5,12)</li>
+        <li>(7,6,10,12)</li>
+        <li>(0,7,1,12)</li>
+        <li>(6,7,6,10)</li>
+        <li>(11,7,12,12)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,5,5)</li>
+        <li>(7,0,12,5)</li>
+        <li>(6,2,6,5)</li>
+        <li>(2,6,5,12)</li>
+        <li>(7,6,10,12)</li>
+        <li>(0,7,1,12)</li>
+        <li>(6,7,6,10)</li>
+        <li>(11,7,12,12)</li>
+      </rects>
+    </PlayerRoofZone>
+    <NoRoofZone>
+      <rects>
+        <li>(6,0,6,1)</li>
+        <li>(0,6,1,6)</li>
+        <li>(6,6,6,6)</li>
+        <li>(11,6,12,6)</li>
+        <li>(6,11,6,12)</li>
+      </rects>
+    </NoRoofZone>
+  </roofs>
+</PrefabDef>
