@@ -1,0 +1,189 @@
+<PrefabDef>
+  <defName>Prefab_20260730_195208</defName>
+  <size>(13,13)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>初始小房间</name>
+    <description>基础</description>
+    <tags></tags>
+    <author></author>
+    <category>宿舍</category>
+    <BuildingID>0d0f458c-b82e-405b-bd30-d2c2b6fd3a60</BuildingID>
+    <modPackages></modPackages>
+    <multiLanguage>
+      <name>
+        <default>初始小房间</default>
+        <zh-CN>初始小房间</zh-CN>
+      </name>
+      <description>
+        <default>基础</default>
+        <zh-CN>基础</zh-CN>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,4,0)</li>
+        <li>(6,0,12,0)</li>
+        <li>(0,1,0,4)</li>
+        <li>(12,1,12,6)</li>
+        <li>(12,8,12,12)</li>
+        <li>(0,12,5,12)</li>
+        <li>(7,12,11,12)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Wall>
+    <Door>
+      <rects>
+        <li>(5,0,5,0)</li>
+        <li>(6,12,6,12)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <Bed>
+      <position>(1, 0, 2)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Poor</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed>
+    <Bed>
+      <position>(2, 0, 1)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Poor</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed>
+    <EndTable>
+      <rects>
+        <li>(2,2,2,2)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Poor</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </EndTable>
+    <Bed>
+      <position>(3, 0, 2)</position>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed>
+    <Bed>
+      <position>(2, 0, 3)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed>
+    <SimpleResearchBench>
+      <position>(10, 0, 4)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </SimpleResearchBench>
+    <Stool>
+      <rects>
+        <li>(9,4,9,4)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Stool>
+    <TorchLamp>
+      <rects>
+        <li>(6,6,6,6)</li>
+      </rects>
+    </TorchLamp>
+    <Door>
+      <rects>
+        <li>(12,7,12,7)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <Stool>
+      <rects>
+        <li>(8,9,8,9)</li>
+        <li>(10,11,10,11)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Stool>
+    <Table2x2c>
+      <position>(9, 0, 9)</position>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Table2x2c>
+    <Stool>
+      <rects>
+        <li>(8,10,8,10)</li>
+        <li>(9,11,9,11)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Stool>
+    <ChessTable>
+      <rects>
+        <li>(8,11,8,11)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </ChessTable>
+  </things>
+  <terrain>
+    <TileMarble>
+      <rects>
+        <li>(12,1,12,1)</li>
+      </rects>
+    </TileMarble>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <TileMarble>
+        <rects>
+          <li>(12,1,12,1)</li>
+        </rects>
+      </TileMarble>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(12,1,12,1)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,12,8)</li>
+        <li>(0,9,4,12)</li>
+        <li>(8,9,12,12)</li>
+        <li>(5,12,7,12)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,12,8)</li>
+        <li>(0,9,4,12)</li>
+        <li>(8,9,12,12)</li>
+        <li>(5,12,7,12)</li>
+      </rects>
+    </PlayerRoofZone>
+    <NoRoofZone>
+      <rects>
+        <li>(5,9,7,11)</li>
+      </rects>
+    </NoRoofZone>
+  </roofs>
+</PrefabDef>
