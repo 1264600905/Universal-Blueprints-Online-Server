@@ -1,0 +1,263 @@
+<PrefabDef>
+  <defName>Prefab_20260316_190354</defName>
+  <size>(7,10)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>飞船</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>其他</category>
+    <BuildingID>2a56ef7a-ba36-4945-a7cf-fc0c0c6ff7d8</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>sbz.neatstoragefridge</packageId>
+        <name>[sbz] Fridge</name>
+        <version></version>
+        <modorder>86</modorder>
+        <steamWorkshopId>3486264784</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>adaptive.storage.framework</packageId>
+            <steamWorkshopId>3033901359</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>sbz_DoubleChestFridge</li>
+          <li>sbz_LargeFridge</li>
+          <li>sbz_SingleChestFridge</li>
+          <li>sbz_Fridge</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>dubwise.dubsbadhygiene</packageId>
+        <name>Dubs Bad Hygiene</name>
+        <version>3.1.2800</version>
+        <modorder>59</modorder>
+        <steamWorkshopId>836308268</steamWorkshopId>
+        <things>
+          <li>sewagePipeHidden</li>
+          <li>KitchenSink</li>
+          <li>DBHMosaicTile</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.odyssey</packageId>
+        <name>Odyssey</name>
+        <version></version>
+        <modorder>6</modorder>
+        <things>
+          <li>GravshipHull</li>
+          <li>MechanoidPlatform</li>
+          <li>Substructure</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>飞船</default>
+        <zh-CN>飞船</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <ElectricStove>
+      <position>(0, 0, 1)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>180</hp>
+    </ElectricStove>
+    <HiddenConduit>
+      <rects>
+        <li>(1,0,1,1)</li>
+        <li>(3,0,3,5)</li>
+      </rects>
+      <hp>100</hp>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <sbz_DoubleChestFridge>
+      <positions>
+        <li>(1, 0, 0)</li>
+        <li>(3, 0, 6)</li>
+      </positions>
+      <hp>200</hp>
+    </sbz_DoubleChestFridge>
+    <sewagePipeHidden>
+      <rects>
+        <li>(2,0,2,4)</li>
+        <li>(3,4,6,4)</li>
+        <li>(2,6,2,9)</li>
+        <li>(3,8,5,8)</li>
+        <li>(5,9,5,9)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>100</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </sewagePipeHidden>
+    <sbz_DoubleChestFridge>
+      <positions>
+        <li>(4, 0, 1)</li>
+        <li>(1, 0, 3)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>200</hp>
+    </sbz_DoubleChestFridge>
+    <sbz_LargeFridge>
+      <positions>
+        <li>(6, 0, 1)</li>
+        <li>(6, 0, 3)</li>
+        <li>(6, 0, 5)</li>
+        <li>(6, 0, 7)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>200</hp>
+    </sbz_LargeFridge>
+    <DiningChair>
+      <rects>
+        <li>(1,1,1,1)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <hp>100</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </DiningChair>
+    <TableButcher>
+      <position>(0, 0, 4)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <hp>180</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </TableButcher>
+    <ElectricStove>
+      <position>(4, 0, 4)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>180</hp>
+    </ElectricStove>
+    <WallLamp>
+      <rects>
+        <li>(0,4,0,4)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>35</hp>
+    </WallLamp>
+    <DiningChair>
+      <rects>
+        <li>(1,4,1,4)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>100</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </DiningChair>
+    <DiningChair>
+      <rects>
+        <li>(3,4,3,4)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <hp>100</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </DiningChair>
+    <WallLamp>
+      <rects>
+        <li>(6,4,6,4)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <hp>35</hp>
+    </WallLamp>
+    <KitchenSink>
+      <position>(2, 0, 5)</position>
+      <stuff>Steel</stuff>
+      <hp>75</hp>
+    </KitchenSink>
+    <sbz_LargeFridge>
+      <position>(0, 0, 6)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <hp>200</hp>
+    </sbz_LargeFridge>
+    <sbz_SingleChestFridge>
+      <rects>
+        <li>(2,6,2,6)</li>
+      </rects>
+      <hp>100</hp>
+    </sbz_SingleChestFridge>
+    <GravshipHull>
+      <rects>
+        <li>(0,8,0,8)</li>
+        <li>(6,8,6,8)</li>
+        <li>(1,9,5,9)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <hp>420</hp>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </GravshipHull>
+    <sbz_LargeFridge>
+      <positions>
+        <li>(1, 0, 8)</li>
+        <li>(4, 0, 8)</li>
+      </positions>
+      <hp>200</hp>
+    </sbz_LargeFridge>
+    <sbz_Fridge>
+      <rects>
+        <li>(3,8,3,8)</li>
+      </rects>
+      <hp>100</hp>
+    </sbz_Fridge>
+  </things>
+  <terrain>
+    <DBHMosaicTile>
+      <rects>
+        <li>(0,0,6,7)</li>
+      </rects>
+    </DBHMosaicTile>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <DBHMosaicTile>
+        <rects>
+          <li>(0,0,6,7)</li>
+        </rects>
+      </DBHMosaicTile>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <MechanoidPlatform>
+        <rects>
+          <li>(0,0,6,7)</li>
+        </rects>
+      </MechanoidPlatform>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="foundationGrid">
+      <Substructure>
+        <rects>
+          <li>(0,0,6,8)</li>
+          <li>(1,9,5,9)</li>
+        </rects>
+      </Substructure>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofSolar>
+      <rects>
+        <li>(0,0,6,8)</li>
+      </rects>
+    </RoofSolar>
+    <RoofConstructed>
+      <rects>
+        <li>(1,9,5,9)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,6,8)</li>
+        <li>(1,9,5,9)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
