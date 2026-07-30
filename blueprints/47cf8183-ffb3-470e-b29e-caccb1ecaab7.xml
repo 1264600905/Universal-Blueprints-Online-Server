@@ -1,0 +1,181 @@
+<PrefabDef>
+  <defName>Prefab_20260730_172104</defName>
+  <size>(7,7)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>鼠</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>宿舍</category>
+    <BuildingID>47cf8183-ffb3-470e-b29e-caccb1ecaab7</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>gloomy.furniture.fix</packageId>
+        <name>Gloomy Furniture Fix</name>
+        <version></version>
+        <modorder>690</modorder>
+        <steamWorkshopId>2987876242</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>GL_Wall</li>
+          <li>RGK_DoorOld</li>
+          <li>RGK_Chair</li>
+          <li>RGK_Dresser</li>
+          <li>RGK_bedDouble</li>
+          <li>RGK_EndTable</li>
+          <li>WardrobeA</li>
+          <li>RGK_Terrain</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>cw.gloomy.textureupscale</packageId>
+        <name>Gloomy Furniture Upscale</name>
+        <version></version>
+        <modorder>691</modorder>
+        <steamWorkshopId>3231428653</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>solaris.furniturebase</packageId>
+            <steamWorkshopId>1558635181</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>GL_Wall_LampE</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>鼠</default>
+        <zh-CN>鼠</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <GL_Wall>
+      <rects>
+        <li>(0,0,2,0)</li>
+        <li>(4,0,6,0)</li>
+        <li>(0,1,0,6)</li>
+        <li>(6,1,6,6)</li>
+        <li>(1,6,5,6)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </GL_Wall>
+    <RGK_DoorOld>
+      <rects>
+        <li>(3,0,3,0)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGK_DoorOld>
+    <RGK_Chair>
+      <rects>
+        <li>(1,2,1,2)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Legendary</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGK_Chair>
+    <RGK_Dresser>
+      <position>(2, 0, 3)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Legendary</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGK_Dresser>
+    <GL_Wall_LampE>
+      <rects>
+        <li>(1,3,1,3)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </GL_Wall_LampE>
+    <GL_Wall_LampE>
+      <rects>
+        <li>(5,3,5,3)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </GL_Wall_LampE>
+    <RGK_bedDouble>
+      <position>(2, 0, 5)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Legendary</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGK_bedDouble>
+    <RGK_EndTable>
+      <rects>
+        <li>(3,5,3,5)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Legendary</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGK_EndTable>
+    <WardrobeA>
+      <rects>
+        <li>(4,5,4,5)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </WardrobeA>
+  </things>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <Soil>
+        <rects>
+          <li>(0,0,2,0)</li>
+          <li>(4,0,6,0)</li>
+          <li>(0,1,0,6)</li>
+          <li>(6,1,6,6)</li>
+          <li>(1,6,5,6)</li>
+        </rects>
+      </Soil>
+      <RGK_Terrain>
+        <rects>
+          <li>(3,0,3,5)</li>
+          <li>(1,1,2,5)</li>
+          <li>(4,1,5,5)</li>
+        </rects>
+      </RGK_Terrain>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(3,0,3,5)</li>
+          <li>(1,1,2,5)</li>
+          <li>(4,1,5,5)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,6,6)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,6,6)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
