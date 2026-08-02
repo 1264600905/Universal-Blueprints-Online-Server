@@ -1,0 +1,868 @@
+<PrefabDef>
+  <defName>Prefab_20260802_120649</defName>
+  <size>(55,69)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>飞船，科学1628号！</name>
+    <description>中等大小、非常像一艘飞船、多独立宿舍、封闭阵地，扩展性一般。
+(阵地具有手性！船头向北，阵地建于飞船右舷时，只能在阵地入口向右或向北时生效；建于飞船左舷时，只能在阵地入口向左向北时生效)
+</description>
+    <tags></tags>
+    <author>肆祀一一</author>
+    <category>奥德赛DLC</category>
+    <BuildingID>cdab819c-f13e-4632-8f71-a6589002a890</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>ludeon.rimworld.odyssey</packageId>
+        <name>Odyssey</name>
+        <version></version>
+        <modorder>7</modorder>
+        <things>
+          <li>SmallThruster</li>
+          <li>GravshipHull</li>
+          <li>LargeThruster</li>
+          <li>VacBarrier</li>
+          <li>LargeChemfuelTank</li>
+          <li>GravFieldExtender</li>
+          <li>GravEngine</li>
+          <li>SignalJammer</li>
+          <li>OrbitalScanner</li>
+          <li>PassengerShuttle</li>
+          <li>Substructure</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.biotech</packageId>
+        <name>Biotech</name>
+        <version></version>
+        <modorder>5</modorder>
+        <things>
+          <li>GrowthVat</li>
+          <li>StandardRecharger</li>
+          <li>LargeMechGestator</li>
+          <li>MechGestator</li>
+          <li>GeneAssembler</li>
+          <li>GeneProcessor</li>
+          <li>GeneBank</li>
+          <li>BasicRecharger</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.anomaly</packageId>
+        <name>Anomaly</name>
+        <version></version>
+        <modorder>6</modorder>
+        <things>
+          <li>BioferriteShaper</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.ideology</packageId>
+        <name>Ideology</name>
+        <version></version>
+        <modorder>4</modorder>
+        <things>
+          <li>Lectern</li>
+          <li>Altar_Grand</li>
+          <li>Reliquary</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.royalty</packageId>
+        <name>Royalty</name>
+        <version></version>
+        <modorder>3</modorder>
+        <things>
+          <li>GrandThrone</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>飞船，科学1628号！</default>
+        <zh-CN>飞船，科学1628号！</zh-CN>
+      </name>
+      <description>
+        <default>中等大小、非常像一艘飞船、多独立宿舍、封闭阵地，扩展性一般。
+(阵地具有手性！船头向北，阵地建于飞船右舷时，只能在阵地入口向右或向北时生效；建于飞船左舷时，只能在阵地入口向左向北时生效)
+</default>
+        <zh-CN>中等大小、非常像一艘飞船、多独立宿舍、封闭阵地，扩展性一般。
+(阵地具有手性！船头向北，阵地建于飞船右舷时，只能在阵地入口向右或向北时生效；建于飞船左舷时，只能在阵地入口向左向北时生效)
+</zh-CN>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <SmallThruster>
+      <positions>
+        <li>(20, 0, 2)</li>
+        <li>(34, 0, 2)</li>
+        <li>(3, 0, 7)</li>
+        <li>(51, 0, 7)</li>
+      </positions>
+    </SmallThruster>
+    <GravshipHull>
+      <rects>
+        <li>(20,4,20,8)</li>
+        <li>(34,4,34,8)</li>
+        <li>(21,6,21,8)</li>
+        <li>(33,6,33,8)</li>
+        <li>(19,8,19,9)</li>
+        <li>(22,8,23,8)</li>
+        <li>(31,8,32,8)</li>
+        <li>(35,8,35,9)</li>
+        <li>(3,9,3,13)</li>
+        <li>(24,9,26,9)</li>
+        <li>(28,9,30,9)</li>
+        <li>(51,9,51,13)</li>
+        <li>(17,10,18,10)</li>
+        <li>(26,10,26,11)</li>
+        <li>(28,10,28,11)</li>
+        <li>(36,10,37,10)</li>
+        <li>(4,11,5,11)</li>
+        <li>(15,11,16,11)</li>
+        <li>(38,11,39,11)</li>
+        <li>(49,11,50,11)</li>
+        <li>(6,12,14,12)</li>
+        <li>(40,12,48,12)</li>
+        <li>(6,13,6,16)</li>
+        <li>(10,13,10,16)</li>
+        <li>(14,13,14,16)</li>
+        <li>(26,13,26,15)</li>
+        <li>(28,13,28,15)</li>
+        <li>(40,13,40,15)</li>
+        <li>(2,14,2,24)</li>
+        <li>(52,14,52,24)</li>
+        <li>(15,15,19,15)</li>
+        <li>(21,15,25,15)</li>
+        <li>(29,15,33,15)</li>
+        <li>(35,15,39,15)</li>
+        <li>(7,16,7,16)</li>
+        <li>(9,16,9,16)</li>
+        <li>(11,16,11,16)</li>
+        <li>(13,16,13,16)</li>
+        <li>(18,16,18,19)</li>
+        <li>(33,16,33,22)</li>
+        <li>(40,17,40,22)</li>
+        <li>(3,18,6,18)</li>
+        <li>(14,18,14,19)</li>
+        <li>(6,19,6,19)</li>
+        <li>(15,19,17,19)</li>
+        <li>(6,21,6,22)</li>
+        <li>(14,21,18,21)</li>
+        <li>(3,22,5,22)</li>
+        <li>(14,22,14,22)</li>
+        <li>(18,22,19,22)</li>
+        <li>(21,22,26,22)</li>
+        <li>(28,22,32,22)</li>
+        <li>(41,22,51,22)</li>
+        <li>(18,23,18,25)</li>
+        <li>(21,23,21,37)</li>
+        <li>(3,24,3,26)</li>
+        <li>(6,24,7,24)</li>
+        <li>(9,24,11,24)</li>
+        <li>(13,24,14,24)</li>
+        <li>(33,24,33,26)</li>
+        <li>(40,24,40,34)</li>
+        <li>(51,24,51,26)</li>
+        <li>(6,25,6,28)</li>
+        <li>(10,25,10,29)</li>
+        <li>(14,25,17,25)</li>
+        <li>(34,25,39,25)</li>
+        <li>(4,26,4,27)</li>
+        <li>(14,26,14,36)</li>
+        <li>(37,26,37,28)</li>
+        <li>(50,26,50,27)</li>
+        <li>(5,27,5,27)</li>
+        <li>(48,27,49,27)</li>
+        <li>(7,28,8,28)</li>
+        <li>(19,28,19,28)</li>
+        <li>(33,28,34,28)</li>
+        <li>(46,28,48,28)</li>
+        <li>(8,29,9,29)</li>
+        <li>(11,29,11,30)</li>
+        <li>(33,29,33,34)</li>
+        <li>(43,29,46,29)</li>
+        <li>(12,30,12,31)</li>
+        <li>(34,30,34,33)</li>
+        <li>(37,30,37,33)</li>
+        <li>(42,30,43,30)</li>
+        <li>(13,31,13,32)</li>
+        <li>(41,31,42,31)</li>
+        <li>(39,32,39,32)</li>
+        <li>(41,32,41,32)</li>
+        <li>(22,34,22,34)</li>
+        <li>(24,34,30,34)</li>
+        <li>(32,34,32,34)</li>
+        <li>(38,34,38,34)</li>
+        <li>(24,35,24,36)</li>
+        <li>(30,35,30,36)</li>
+        <li>(34,35,34,35)</li>
+        <li>(15,36,15,37)</li>
+        <li>(33,36,33,38)</li>
+        <li>(38,36,40,36)</li>
+        <li>(16,37,17,37)</li>
+        <li>(19,37,20,37)</li>
+        <li>(34,37,34,37)</li>
+        <li>(36,37,39,37)</li>
+        <li>(24,38,24,42)</li>
+        <li>(30,38,30,42)</li>
+        <li>(15,39,15,40)</li>
+        <li>(21,39,21,51)</li>
+        <li>(38,39,39,39)</li>
+        <li>(16,40,16,42)</li>
+        <li>(33,40,33,51)</li>
+        <li>(39,40,39,40)</li>
+        <li>(18,41,20,41)</li>
+        <li>(34,41,36,41)</li>
+        <li>(38,41,38,42)</li>
+        <li>(17,42,18,45)</li>
+        <li>(22,42,22,42)</li>
+        <li>(25,42,29,42)</li>
+        <li>(32,42,32,42)</li>
+        <li>(36,42,37,45)</li>
+        <li>(18,46,18,50)</li>
+        <li>(36,46,36,50)</li>
+        <li>(20,51,20,56)</li>
+        <li>(22,51,23,51)</li>
+        <li>(25,51,29,51)</li>
+        <li>(31,51,32,51)</li>
+        <li>(34,51,34,56)</li>
+        <li>(21,56,21,57)</li>
+        <li>(33,56,33,57)</li>
+        <li>(22,57,22,58)</li>
+        <li>(32,57,32,58)</li>
+        <li>(23,58,23,59)</li>
+        <li>(31,58,31,59)</li>
+        <li>(24,59,24,60)</li>
+        <li>(30,59,30,60)</li>
+        <li>(25,60,25,62)</li>
+        <li>(29,60,29,62)</li>
+        <li>(26,62,26,63)</li>
+        <li>(28,62,28,63)</li>
+        <li>(27,63,27,66)</li>
+      </rects>
+      <stuff>Plasteel</stuff>
+      <color>RGBA(0.627, 0.698, 0.710, 1.000)</color>
+    </GravshipHull>
+    <LargeThruster>
+      <positions>
+        <li>(22, 0, 6)</li>
+        <li>(31, 0, 6)</li>
+        <li>(17, 0, 8)</li>
+        <li>(36, 0, 8)</li>
+        <li>(4, 0, 9)</li>
+        <li>(49, 0, 9)</li>
+      </positions>
+    </LargeThruster>
+    <DrugLab>
+      <position>(20, 0, 10)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Plasteel</stuff>
+      <color>RGBA(0.627, 0.698, 0.710, 1.000)</color>
+    </DrugLab>
+    <GrowthVat>
+      <positions>
+        <li>(22, 0, 9)</li>
+        <li>(22, 0, 10)</li>
+        <li>(22, 0, 11)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+    </GrowthVat>
+    <Autodoor>
+      <rects>
+        <li>(27,9,27,9)</li>
+        <li>(20,15,20,15)</li>
+        <li>(27,15,27,15)</li>
+        <li>(34,15,34,15)</li>
+        <li>(20,22,20,22)</li>
+        <li>(27,22,27,22)</li>
+        <li>(20,28,20,28)</li>
+        <li>(23,34,23,34)</li>
+        <li>(31,34,31,34)</li>
+        <li>(18,37,18,37)</li>
+        <li>(23,42,23,42)</li>
+        <li>(31,42,31,42)</li>
+        <li>(24,51,24,51)</li>
+        <li>(30,51,30,51)</li>
+      </rects>
+      <stuff>Plasteel</stuff>
+      <color>RGBA(0.627, 0.698, 0.710, 1.000)</color>
+    </Autodoor>
+    <ElectricSmithy>
+      <position>(32, 0, 9)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </ElectricSmithy>
+    <BioferriteShaper>
+      <position>(34, 0, 10)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </BioferriteShaper>
+    <ToolCabinet>
+      <position>(19, 0, 11)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <color>RGBA(0.376, 0.447, 0.373, 1.000)</color>
+    </ToolCabinet>
+    <MultiAnalyzer>
+      <position>(24, 0, 10)</position>
+    </MultiAnalyzer>
+    <VacBarrier>
+      <rects>
+        <li>(27,10,27,10)</li>
+      </rects>
+      <color>RGBA(0.557, 0.557, 0.557, 1.000)</color>
+    </VacBarrier>
+    <TableMachining>
+      <position>(30, 0, 10)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </TableMachining>
+    <ToolCabinet>
+      <position>(35, 0, 10)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <color>RGBA(0.376, 0.447, 0.373, 1.000)</color>
+    </ToolCabinet>
+    <ToolCabinet>
+      <position>(17, 0, 11)</position>
+      <color>RGBA(0.376, 0.447, 0.373, 1.000)</color>
+    </ToolCabinet>
+    <ShelfSmall>
+      <rects>
+        <li>(29,11,29,11)</li>
+        <li>(19,21,19,21)</li>
+        <li>(19,23,19,23)</li>
+        <li>(15,33,15,33)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </ShelfSmall>
+    <ToolCabinet>
+      <position>(37, 0, 11)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <color>RGBA(0.376, 0.447, 0.373, 1.000)</color>
+    </ToolCabinet>
+    <LargeChemfuelTank>
+      <position>(16, 0, 13)</position>
+    </LargeChemfuelTank>
+    <CommsConsole>
+      <position>(18, 0, 13)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </CommsConsole>
+    <Autodoor>
+      <rects>
+        <li>(26,12,26,12)</li>
+        <li>(28,12,28,12)</li>
+        <li>(40,16,40,16)</li>
+        <li>(14,20,14,20)</li>
+        <li>(18,20,18,20)</li>
+        <li>(33,23,33,23)</li>
+        <li>(40,23,40,23)</li>
+        <li>(33,27,33,27)</li>
+        <li>(37,29,37,29)</li>
+        <li>(40,35,40,35)</li>
+        <li>(15,38,15,38)</li>
+        <li>(38,38,38,38)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Plasteel</stuff>
+      <color>RGBA(0.627, 0.698, 0.710, 1.000)</color>
+    </Autodoor>
+    <ElectricTailoringBench>
+      <position>(36, 0, 12)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Plasteel</stuff>
+      <color>RGBA(0.627, 0.698, 0.710, 1.000)</color>
+    </ElectricTailoringBench>
+    <ShelfSmall>
+      <rects>
+        <li>(38,12,38,12)</li>
+        <li>(28,16,28,16)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </ShelfSmall>
+    <ElectricTailoringBench>
+      <position>(39, 0, 13)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Plasteel</stuff>
+      <color>RGBA(0.627, 0.698, 0.710, 1.000)</color>
+    </ElectricTailoringBench>
+    <HiTechResearchBench>
+      <position>(23, 0, 13)</position>
+      <stuff>Plasteel</stuff>
+      <color>RGBA(0.627, 0.698, 0.710, 1.000)</color>
+    </HiTechResearchBench>
+    <FabricationBench>
+      <position>(31, 0, 13)</position>
+    </FabricationBench>
+    <HydroponicsBasin>
+      <positions>
+        <li>(42, 0, 15)</li>
+        <li>(43, 0, 15)</li>
+        <li>(44, 0, 15)</li>
+        <li>(45, 0, 15)</li>
+        <li>(51, 0, 18)</li>
+        <li>(47, 0, 20)</li>
+        <li>(48, 0, 20)</li>
+        <li>(49, 0, 20)</li>
+        <li>(50, 0, 20)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+    </HydroponicsBasin>
+    <HydroponicsBasin>
+      <positions>
+        <li>(46, 0, 14)</li>
+        <li>(46, 0, 19)</li>
+      </positions>
+    </HydroponicsBasin>
+    <HydroponicsBasin>
+      <positions>
+        <li>(49, 0, 13)</li>
+        <li>(49, 0, 14)</li>
+        <li>(49, 0, 15)</li>
+        <li>(49, 0, 16)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </HydroponicsBasin>
+    <ShelfSmall>
+      <rects>
+        <li>(35,14,35,14)</li>
+        <li>(28,21,28,21)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </ShelfSmall>
+    <TableSculpting>
+      <position>(37, 0, 14)</position>
+      <stuff>Plasteel</stuff>
+      <color>RGBA(0.627, 0.698, 0.710, 1.000)</color>
+    </TableSculpting>
+    <Door>
+      <rects>
+        <li>(8,16,8,16)</li>
+        <li>(12,16,12,16)</li>
+        <li>(8,24,8,24)</li>
+        <li>(12,24,12,24)</li>
+        <li>(15,31,15,31)</li>
+        <li>(38,32,38,32)</li>
+        <li>(39,34,39,34)</li>
+        <li>(36,35,37,35)</li>
+        <li>(34,38,34,38)</li>
+      </rects>
+      <stuff>Plasteel</stuff>
+      <color>RGBA(0.627, 0.698, 0.710, 1.000)</color>
+    </Door>
+    <Shelf>
+      <positions>
+        <li>(19, 0, 17)</li>
+        <li>(19, 0, 19)</li>
+        <li>(21, 0, 19)</li>
+        <li>(22, 0, 19)</li>
+        <li>(23, 0, 19)</li>
+        <li>(24, 0, 19)</li>
+        <li>(25, 0, 19)</li>
+        <li>(26, 0, 19)</li>
+        <li>(15, 0, 35)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </Shelf>
+    <Shelf>
+      <positions>
+        <li>(21, 0, 16)</li>
+        <li>(23, 0, 16)</li>
+        <li>(25, 0, 16)</li>
+        <li>(29, 0, 16)</li>
+        <li>(31, 0, 16)</li>
+      </positions>
+      <stuff>BlocksMarble</stuff>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </Shelf>
+    <Door>
+      <rects>
+        <li>(6,17,6,17)</li>
+        <li>(14,17,14,17)</li>
+        <li>(6,20,6,20)</li>
+        <li>(6,23,6,23)</li>
+        <li>(14,23,14,23)</li>
+        <li>(35,26,35,26)</li>
+        <li>(37,34,37,34)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Plasteel</stuff>
+      <color>RGBA(0.627, 0.698, 0.710, 1.000)</color>
+    </Door>
+    <GravFieldExtender>
+      <rects>
+        <li>(32,17,32,17)</li>
+        <li>(15,18,15,18)</li>
+        <li>(41,20,41,20)</li>
+        <li>(41,30,41,30)</li>
+        <li>(15,32,15,32)</li>
+        <li>(27,50,27,50)</li>
+      </rects>
+    </GravFieldExtender>
+    <StandardRecharger>
+      <positions>
+        <li>(34, 0, 18)</li>
+        <li>(34, 0, 21)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+    </StandardRecharger>
+    <LargeMechGestator>
+      <position>(38, 0, 18)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </LargeMechGestator>
+    <HydroponicsBasin>
+      <positions>
+        <li>(43, 0, 17)</li>
+        <li>(48, 0, 17)</li>
+        <li>(43, 0, 18)</li>
+        <li>(43, 0, 19)</li>
+        <li>(43, 0, 20)</li>
+        <li>(43, 0, 21)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+    </HydroponicsBasin>
+    <SunLamp>
+      <rects>
+        <li>(46,17,46,17)</li>
+      </rects>
+    </SunLamp>
+    <ChessTable>
+      <rects>
+        <li>(9,18,9,18)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </ChessTable>
+    <Table2x2c>
+      <position>(11, 0, 18)</position>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Table2x2c>
+    <Shelf>
+      <positions>
+        <li>(28, 0, 18)</li>
+        <li>(29, 0, 18)</li>
+        <li>(30, 0, 18)</li>
+        <li>(31, 0, 18)</li>
+        <li>(32, 0, 18)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </Shelf>
+    <BilliardsTable>
+      <position>(8, 0, 21)</position>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </BilliardsTable>
+    <PokerTable>
+      <position>(11, 0, 21)</position>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </PokerTable>
+    <Shelf>
+      <positions>
+        <li>(22, 0, 21)</li>
+        <li>(24, 0, 21)</li>
+        <li>(26, 0, 21)</li>
+        <li>(30, 0, 21)</li>
+        <li>(32, 0, 21)</li>
+        <li>(17, 0, 30)</li>
+        <li>(20, 0, 30)</li>
+        <li>(17, 0, 31)</li>
+        <li>(20, 0, 31)</li>
+        <li>(17, 0, 32)</li>
+        <li>(20, 0, 32)</li>
+        <li>(17, 0, 33)</li>
+        <li>(20, 0, 33)</li>
+        <li>(17, 0, 34)</li>
+        <li>(20, 0, 34)</li>
+        <li>(17, 0, 35)</li>
+        <li>(20, 0, 35)</li>
+        <li>(17, 0, 36)</li>
+        <li>(20, 0, 36)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </Shelf>
+    <MechGestator>
+      <position>(38, 0, 21)</position>
+    </MechGestator>
+    <GeneAssembler>
+      <position>(43, 0, 24)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </GeneAssembler>
+    <GeneProcessor>
+      <positions>
+        <li>(44, 0, 23)</li>
+        <li>(46, 0, 23)</li>
+        <li>(44, 0, 25)</li>
+        <li>(46, 0, 25)</li>
+      </positions>
+    </GeneProcessor>
+    <GeneBank>
+      <positions>
+        <li>(49, 0, 23)</li>
+        <li>(43, 0, 26)</li>
+        <li>(42, 0, 27)</li>
+        <li>(45, 0, 27)</li>
+        <li>(47, 0, 27)</li>
+        <li>(45, 0, 28)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+    </GeneBank>
+    <GeneBank>
+      <positions>
+        <li>(50, 0, 23)</li>
+        <li>(48, 0, 26)</li>
+      </positions>
+    </GeneBank>
+    <ElectricStove>
+      <position>(19, 0, 25)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </ElectricStove>
+    <BasicRecharger>
+      <positions>
+        <li>(35, 0, 24)</li>
+        <li>(38, 0, 24)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+    </BasicRecharger>
+    <GeneBank>
+      <positions>
+        <li>(48, 0, 25)</li>
+        <li>(49, 0, 25)</li>
+        <li>(50, 0, 25)</li>
+        <li>(41, 0, 26)</li>
+        <li>(43, 0, 28)</li>
+        <li>(41, 0, 29)</li>
+        <li>(42, 0, 29)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+    </GeneBank>
+    <NutrientPasteDispenser>
+      <position>(16, 0, 27)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <color>RGBA(0.910, 1.000, 0.749, 1.000)</color>
+    </NutrientPasteDispenser>
+    <TableMachining>
+      <position>(39, 0, 27)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </TableMachining>
+    <Hopper>
+      <rects>
+        <li>(15,29,17,29)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </Hopper>
+    <ElectricSmelter>
+      <position>(39, 0, 30)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </ElectricSmelter>
+    <Cooler>
+      <rects>
+        <li>(15,30,15,30)</li>
+      </rects>
+    </Cooler>
+    <GravEngine>
+      <position>(27, 0, 32)</position>
+    </GravEngine>
+    <Turret_MiniTurret>
+      <rects>
+        <li>(39,33,39,33)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Turret_MiniTurret>
+    <Barricade>
+      <rects>
+        <li>(34,34,34,34)</li>
+        <li>(34,36,34,36)</li>
+        <li>(35,38,35,38)</li>
+      </rects>
+      <stuff>Plasteel</stuff>
+      <color>RGBA(0.627, 0.698, 0.710, 1.000)</color>
+    </Barricade>
+    <SignalJammer>
+      <position>(25, 0, 35)</position>
+    </SignalJammer>
+    <OrbitalScanner>
+      <position>(28, 0, 35)</position>
+    </OrbitalScanner>
+    <SteamGeyser>
+      <position>(51, 0, 36)</position>
+    </SteamGeyser>
+    <VacBarrier>
+      <rects>
+        <li>(24,37,24,37)</li>
+        <li>(30,37,30,37)</li>
+        <li>(21,38,21,38)</li>
+        <li>(33,39,33,39)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <color>RGBA(0.557, 0.557, 0.557, 1.000)</color>
+    </VacBarrier>
+    <PassengerShuttle>
+      <position>(27, 0, 40)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </PassengerShuttle>
+    <Lectern>
+      <rects>
+        <li>(28,46,28,46)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </Lectern>
+    <Altar_Grand>
+      <position>(27, 0, 48)</position>
+      <stuff>BlocksMarble</stuff>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </Altar_Grand>
+    <Reliquary>
+      <position>(21, 0, 54)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </Reliquary>
+    <Reliquary>
+      <position>(33, 0, 54)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </Reliquary>
+    <GrandThrone>
+      <position>(27, 0, 61)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </GrandThrone>
+  </things>
+  <terrain>
+    <BurnedWoodPlankFloor>
+      <rects>
+        <li>(39,35,39,35)</li>
+      </rects>
+    </BurnedWoodPlankFloor>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <BurnedWoodPlankFloor>
+        <rects>
+          <li>(39,35,39,35)</li>
+        </rects>
+      </BurnedWoodPlankFloor>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(39,35,39,35)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="foundationGrid">
+      <Substructure>
+        <rects>
+          <li>(20,2,20,41)</li>
+          <li>(34,2,34,41)</li>
+          <li>(21,6,23,57)</li>
+          <li>(31,6,33,57)</li>
+          <li>(3,7,3,26)</li>
+          <li>(51,7,51,26)</li>
+          <li>(17,8,19,41)</li>
+          <li>(35,8,37,41)</li>
+          <li>(4,9,5,27)</li>
+          <li>(24,9,30,60)</li>
+          <li>(49,9,50,27)</li>
+          <li>(15,11,16,40)</li>
+          <li>(38,11,39,40)</li>
+          <li>(6,12,14,28)</li>
+          <li>(40,12,48,28)</li>
+          <li>(2,14,2,24)</li>
+          <li>(52,14,52,24)</li>
+          <li>(8,29,14,29)</li>
+          <li>(40,29,46,29)</li>
+          <li>(11,30,14,30)</li>
+          <li>(40,30,43,30)</li>
+          <li>(12,31,14,31)</li>
+          <li>(40,31,42,31)</li>
+          <li>(13,32,14,32)</li>
+          <li>(40,32,41,32)</li>
+          <li>(14,33,14,36)</li>
+          <li>(40,33,40,36)</li>
+          <li>(16,41,16,42)</li>
+          <li>(38,41,38,42)</li>
+          <li>(17,42,18,45)</li>
+          <li>(36,42,37,45)</li>
+          <li>(18,46,18,50)</li>
+          <li>(36,46,36,50)</li>
+          <li>(20,51,20,56)</li>
+          <li>(34,51,34,56)</li>
+          <li>(22,58,23,58)</li>
+          <li>(31,58,32,58)</li>
+          <li>(23,59,23,59)</li>
+          <li>(31,59,31,59)</li>
+          <li>(25,61,29,62)</li>
+          <li>(26,63,28,63)</li>
+          <li>(27,64,27,66)</li>
+        </rects>
+      </Substructure>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <PlayerRoofZone>
+      <rects>
+        <li>(17,8,23,41)</li>
+        <li>(31,8,37,41)</li>
+        <li>(24,9,26,60)</li>
+        <li>(28,9,30,60)</li>
+        <li>(27,10,27,63)</li>
+        <li>(3,11,5,26)</li>
+        <li>(15,11,16,40)</li>
+        <li>(38,11,39,40)</li>
+        <li>(49,11,51,26)</li>
+        <li>(6,12,14,28)</li>
+        <li>(40,12,48,28)</li>
+        <li>(2,14,2,24)</li>
+        <li>(52,14,52,24)</li>
+        <li>(4,27,5,27)</li>
+        <li>(49,27,50,27)</li>
+        <li>(8,29,14,29)</li>
+        <li>(40,29,46,29)</li>
+        <li>(10,30,14,30)</li>
+        <li>(40,30,43,30)</li>
+        <li>(11,31,14,31)</li>
+        <li>(40,31,42,31)</li>
+        <li>(12,32,14,32)</li>
+        <li>(40,32,40,36)</li>
+        <li>(13,33,14,33)</li>
+        <li>(14,34,14,36)</li>
+        <li>(16,41,16,42)</li>
+        <li>(38,41,38,42)</li>
+        <li>(17,42,18,42)</li>
+        <li>(21,42,23,57)</li>
+        <li>(31,42,33,57)</li>
+        <li>(36,42,37,42)</li>
+        <li>(20,51,20,56)</li>
+        <li>(34,51,34,56)</li>
+        <li>(22,58,23,58)</li>
+        <li>(31,58,32,58)</li>
+        <li>(23,59,23,59)</li>
+        <li>(31,59,31,59)</li>
+        <li>(25,61,26,62)</li>
+        <li>(28,61,29,62)</li>
+        <li>(26,63,26,63)</li>
+        <li>(28,63,28,63)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
