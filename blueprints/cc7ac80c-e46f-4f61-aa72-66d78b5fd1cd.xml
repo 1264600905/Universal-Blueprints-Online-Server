@@ -1,0 +1,239 @@
+<PrefabDef>
+  <defName>Prefab_20260723_191005</defName>
+  <size>(13,7)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>厨房</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>其他</category>
+    <BuildingID>cc7ac80c-e46f-4f61-aa72-66d78b5fd1cd</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>sbz.neatstoragefridge</packageId>
+        <name>[sbz] Fridge</name>
+        <version></version>
+        <modorder>18</modorder>
+        <steamWorkshopId>3486264784</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>adaptive.storage.framework</packageId>
+            <steamWorkshopId>3033901359</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>sbz_DoubleChestFridge</li>
+          <li>sbz_SingleChestFridge</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>vanillaexpanded.vfeproduction</packageId>
+        <name>Vanilla Furniture Expanded - Production</name>
+        <version></version>
+        <modorder>130</modorder>
+        <steamWorkshopId>1880253632</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VFE_TableButcherElectric</li>
+          <li>VFE_TableStoveLarge</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>tw.bbqs.barbecue.star</packageId>
+        <name>[TW1.6]烧烤之星2.0 Barbecue~Star2.0</name>
+        <version></version>
+        <modorder>20</modorder>
+        <steamWorkshopId>3226645152</steamWorkshopId>
+        <things>
+          <li>TW_BBQS_ElectricOven</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>dubwise.dubscentralheating</packageId>
+        <name>Dubs Central Heating</name>
+        <version>1.1.1012</version>
+        <modorder>40</modorder>
+        <steamWorkshopId>2619214952</steamWorkshopId>
+        <things>
+          <li>AirconIndoorUnit</li>
+          <li>airPipeHidden</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>厨房</default>
+        <zh-CN>厨房</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,12,0)</li>
+        <li>(0,1,0,6)</li>
+        <li>(12,1,12,6)</li>
+        <li>(1,6,5,6)</li>
+        <li>(7,6,11,6)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Wall>
+    <HiddenConduit>
+      <rects>
+        <li>(6,0,6,6)</li>
+        <li>(0,6,5,6)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <sbz_DoubleChestFridge>
+      <positions>
+        <li>(1, 0, 2)</li>
+        <li>(11, 0, 3)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+    </sbz_DoubleChestFridge>
+    <sbz_DoubleChestFridge>
+      <positions>
+        <li>(2, 0, 1)</li>
+        <li>(10, 0, 5)</li>
+      </positions>
+    </sbz_DoubleChestFridge>
+    <sbz_SingleChestFridge>
+      <rects>
+        <li>(4,1,4,1)</li>
+        <li>(1,3,1,3)</li>
+        <li>(11,4,11,4)</li>
+      </rects>
+    </sbz_SingleChestFridge>
+    <VFE_TableButcherElectric>
+      <position>(6, 0, 1)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </VFE_TableButcherElectric>
+    <TW_BBQS_ElectricOven>
+      <position>(9, 0, 2)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </TW_BBQS_ElectricOven>
+    <sbz_DoubleChestFridge>
+      <position>(11, 0, 1)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </sbz_DoubleChestFridge>
+    <DiningChair>
+      <rects>
+        <li>(6,2,6,2)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Poor</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DiningChair>
+    <DiningChair>
+      <rects>
+        <li>(3,3,3,3)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DiningChair>
+    <DiningChair>
+      <rects>
+        <li>(9,3,9,3)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DiningChair>
+    <VFE_TableStoveLarge>
+      <position>(3, 0, 4)</position>
+    </VFE_TableStoveLarge>
+    <DiningChair>
+      <rects>
+        <li>(8,4,8,4)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DiningChair>
+    <AirconIndoorUnit>
+      <rects>
+        <li>(1,5,1,5)</li>
+      </rects>
+    </AirconIndoorUnit>
+    <WallLamp>
+      <rects>
+        <li>(5,5,5,5)</li>
+      </rects>
+    </WallLamp>
+    <ElectricStove>
+      <position>(8, 0, 5)</position>
+    </ElectricStove>
+    <airPipeHidden>
+      <rects>
+        <li>(0,6,1,6)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </airPipeHidden>
+    <Autodoor>
+      <rects>
+        <li>(6,6,6,6)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Autodoor>
+  </things>
+  <terrain>
+    <WoodPlankFloor>
+      <rects>
+        <li>(1,1,11,5)</li>
+        <li>(6,6,6,6)</li>
+      </rects>
+    </WoodPlankFloor>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <WoodPlankFloor>
+        <rects>
+          <li>(1,1,11,5)</li>
+          <li>(6,6,6,6)</li>
+        </rects>
+      </WoodPlankFloor>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(1,1,11,5)</li>
+          <li>(6,6,6,6)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,12,6)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,12,6)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
