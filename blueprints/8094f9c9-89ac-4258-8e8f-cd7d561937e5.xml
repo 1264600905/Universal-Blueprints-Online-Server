@@ -1,0 +1,257 @@
+<PrefabDef>
+  <defName>Prefab_20260802_125428</defName>
+  <size>(14,15)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>发电</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>宿舍</category>
+    <BuildingID>8094f9c9-89ac-4258-8e8f-cd7d561937e5</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>kindseal.ufli</packageId>
+        <name>联合轻工家具拓展-UF Light Industries Furniture</name>
+        <version></version>
+        <modorder>236</modorder>
+        <steamWorkshopId>3651799915</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFLI_Wall</li>
+          <li>UFLI_Walllamp</li>
+          <li>UFLI_FLOOR</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>vanillaexpanded.vfearchitect</packageId>
+        <name>Vanilla Furniture Expanded - Architect</name>
+        <version></version>
+        <modorder>181</modorder>
+        <steamWorkshopId>2608762624</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VFEArch_SingleDoor</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>vanillaexpanded.vfepower</packageId>
+        <name>Vanilla Furniture Expanded - Power</name>
+        <version></version>
+        <modorder>186</modorder>
+        <steamWorkshopId>2062943477</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VFE_LargeBattery</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>发电</default>
+        <zh-CN>发电</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <UFLI_Wall>
+      <rects>
+        <li>(0,0,13,0)</li>
+        <li>(13,1,13,14)</li>
+        <li>(0,2,0,14)</li>
+        <li>(1,14,12,14)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Wall>
+    <VFEArch_SingleDoor>
+      <rects>
+        <li>(0,1,0,1)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </VFEArch_SingleDoor>
+    <UFLI_Walllamp>
+      <rects>
+        <li>(1,1,1,1)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <glowColor>RGBA(0.306, 0.886, 0.898, 1.000)</glowColor>
+    </UFLI_Walllamp>
+    <VanometricPowerCell>
+      <position>(11, 0, 1)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </VanometricPowerCell>
+    <WoodFiredGenerator>
+      <positions>
+        <li>(11, 0, 2)</li>
+        <li>(11, 0, 4)</li>
+        <li>(11, 0, 6)</li>
+        <li>(11, 0, 8)</li>
+        <li>(11, 0, 10)</li>
+        <li>(11, 0, 12)</li>
+      </positions>
+    </WoodFiredGenerator>
+    <HiddenConduit>
+      <rects>
+        <li>(0,3,1,3)</li>
+        <li>(10,3,10,13)</li>
+        <li>(7,7,9,7)</li>
+        <li>(8,8,8,8)</li>
+        <li>(8,11,8,11)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <PowerConduit>
+      <rects>
+        <li>(1,4,1,8)</li>
+        <li>(1,11,1,11)</li>
+      </rects>
+    </PowerConduit>
+    <Column>
+      <rects>
+        <li>(7,7,7,7)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Column>
+    <VFE_LargeBattery>
+      <positions>
+        <li>(1, 0, 9)</li>
+        <li>(3, 0, 9)</li>
+        <li>(5, 0, 9)</li>
+        <li>(7, 0, 9)</li>
+        <li>(1, 0, 12)</li>
+        <li>(3, 0, 12)</li>
+        <li>(5, 0, 12)</li>
+        <li>(7, 0, 12)</li>
+      </positions>
+    </VFE_LargeBattery>
+  </things>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <UFLI_FLOOR>
+        <rects>
+          <li>(1,0,13,13)</li>
+        </rects>
+      </UFLI_FLOOR>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Marble_RoughHewn>
+        <rects>
+          <li>(1,0,13,0)</li>
+          <li>(4,1,4,1)</li>
+          <li>(7,1,9,1)</li>
+          <li>(13,1,13,8)</li>
+          <li>(8,2,9,2)</li>
+          <li>(7,6,7,6)</li>
+          <li>(8,7,8,7)</li>
+          <li>(9,8,12,8)</li>
+          <li>(10,9,11,9)</li>
+        </rects>
+      </Marble_RoughHewn>
+      <Granite_Rough>
+        <rects>
+          <li>(1,1,1,1)</li>
+          <li>(3,2,3,8)</li>
+          <li>(4,3,5,6)</li>
+          <li>(2,4,2,11)</li>
+          <li>(6,4,6,7)</li>
+          <li>(1,5,1,11)</li>
+          <li>(5,7,5,7)</li>
+          <li>(10,11,11,13)</li>
+          <li>(12,12,13,13)</li>
+        </rects>
+      </Granite_Rough>
+      <Granite_RoughHewn>
+        <rects>
+          <li>(2,1,3,1)</li>
+          <li>(1,2,2,3)</li>
+          <li>(1,4,1,4)</li>
+          <li>(4,7,4,13)</li>
+          <li>(7,7,7,13)</li>
+          <li>(5,8,6,13)</li>
+          <li>(8,8,8,13)</li>
+          <li>(3,9,3,13)</li>
+          <li>(9,9,9,13)</li>
+          <li>(10,10,10,10)</li>
+          <li>(1,12,2,13)</li>
+        </rects>
+      </Granite_RoughHewn>
+      <Marble_Rough>
+        <rects>
+          <li>(5,1,6,2)</li>
+          <li>(10,1,12,7)</li>
+          <li>(4,2,4,2)</li>
+          <li>(7,2,7,5)</li>
+          <li>(6,3,6,3)</li>
+          <li>(8,3,9,6)</li>
+          <li>(9,7,9,7)</li>
+          <li>(12,9,13,11)</li>
+          <li>(11,10,11,10)</li>
+        </rects>
+      </Marble_Rough>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(6,0,7,0)</li>
+        <li>(0,1,4,1)</li>
+      </rects>
+    </RoofConstructed>
+    <RoofRockThin>
+      <rects>
+        <li>(8,0,13,0)</li>
+        <li>(5,1,8,1)</li>
+        <li>(10,1,13,1)</li>
+        <li>(0,2,5,2)</li>
+        <li>(13,2,13,2)</li>
+      </rects>
+    </RoofRockThin>
+    <RoofRockThick>
+      <rects>
+        <li>(9,1,9,14)</li>
+        <li>(6,2,8,14)</li>
+        <li>(10,2,12,14)</li>
+        <li>(0,3,5,14)</li>
+        <li>(13,3,13,14)</li>
+      </rects>
+    </RoofRockThick>
+    <PlayerRoofZone>
+      <rects>
+        <li>(6,0,7,0)</li>
+        <li>(0,1,4,1)</li>
+      </rects>
+    </PlayerRoofZone>
+    <NoRoofZone>
+      <rects>
+        <li>(0,0,5,0)</li>
+      </rects>
+    </NoRoofZone>
+  </roofs>
+</PrefabDef>
