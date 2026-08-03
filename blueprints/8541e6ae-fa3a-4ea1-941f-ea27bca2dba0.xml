@@ -1,0 +1,229 @@
+<PrefabDef>
+  <defName>Prefab_20260803_163212</defName>
+  <size>(11,11)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>车间</name>
+    <description>13*13完美车间</description>
+    <tags></tags>
+    <author></author>
+    <category>车间</category>
+    <BuildingID>8541e6ae-fa3a-4ea1-941f-ea27bca2dba0</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>sbz.neatstorage</packageId>
+        <name>[sbz] Neat Storage</name>
+        <version></version>
+        <modorder>70</modorder>
+        <steamWorkshopId>3416243474</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>adaptive.storage.framework</packageId>
+            <steamWorkshopId>3033901359</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>sbz_HalfPallet</li>
+          <li>sbz_MiniPallet</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.anomaly</packageId>
+        <name>Anomaly</name>
+        <version></version>
+        <modorder>8</modorder>
+        <things>
+          <li>SleepSuppressor</li>
+          <li>FrenzyInducer</li>
+          <li>BioferriteShaper</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.biotech</packageId>
+        <name>Biotech</name>
+        <version></version>
+        <modorder>7</modorder>
+        <things>
+          <li>MechBooster</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.odyssey</packageId>
+        <name>Odyssey</name>
+        <version></version>
+        <modorder>9</modorder>
+        <things>
+          <li>Substructure</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>车间</default>
+        <zh-CN>车间</zh-CN>
+      </name>
+      <description>
+        <default>13*13完美车间</default>
+        <zh-CN>13*13完美车间</zh-CN>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <sbz_HalfPallet>
+      <positions>
+        <li>(0, 0, 0)</li>
+        <li>(10, 0, 0)</li>
+        <li>(0, 0, 2)</li>
+        <li>(10, 0, 2)</li>
+        <li>(0, 0, 7)</li>
+        <li>(10, 0, 7)</li>
+        <li>(0, 0, 9)</li>
+        <li>(10, 0, 9)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </sbz_HalfPallet>
+    <TableSculpting>
+      <position>(3, 0, 1)</position>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </TableSculpting>
+    <TableStonecutter>
+      <position>(7, 0, 1)</position>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </TableStonecutter>
+    <SleepSuppressor>
+      <position>(2, 0, 3)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </SleepSuppressor>
+    <FabricationBench>
+      <position>(5, 0, 2)</position>
+    </FabricationBench>
+    <ElectricTailoringBench>
+      <position>(8, 0, 3)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </ElectricTailoringBench>
+    <sbz_MiniPallet>
+      <rects>
+        <li>(0,4,0,4)</li>
+        <li>(10,4,10,4)</li>
+        <li>(0,6,0,6)</li>
+        <li>(10,6,10,6)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </sbz_MiniPallet>
+    <BiofuelRefinery>
+      <position>(2, 0, 5)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </BiofuelRefinery>
+    <FrenzyInducer>
+      <rects>
+        <li>(4,4,4,4)</li>
+      </rects>
+    </FrenzyInducer>
+    <ToolCabinet>
+      <position>(6, 0, 4)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <color>RGBA(0.376, 0.447, 0.373, 1.000)</color>
+    </ToolCabinet>
+    <Brewery>
+      <position>(7, 0, 5)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </Brewery>
+    <WallLamp>
+      <rects>
+        <li>(10,4,10,4)</li>
+        <li>(10,6,10,6)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </WallLamp>
+    <WallLamp>
+      <rects>
+        <li>(0,5,0,5)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </WallLamp>
+    <HiddenConduit>
+      <rects>
+        <li>(0,5,10,5)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <MechBooster>
+      <position>(4, 0, 5)</position>
+    </MechBooster>
+    <ToolCabinet>
+      <position>(6, 0, 6)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <color>RGBA(0.376, 0.447, 0.373, 1.000)</color>
+    </ToolCabinet>
+    <TableMachining>
+      <position>(8, 0, 7)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </TableMachining>
+    <OrbitalTradeBeacon>
+      <rects>
+        <li>(2,7,2,7)</li>
+      </rects>
+    </OrbitalTradeBeacon>
+    <FabricationBench>
+      <position>(5, 0, 8)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </FabricationBench>
+    <FirefoamPopper>
+      <rects>
+        <li>(2,8,2,8)</li>
+      </rects>
+    </FirefoamPopper>
+    <BioferriteShaper>
+      <position>(3, 0, 9)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </BioferriteShaper>
+    <ElectricSmithy>
+      <position>(7, 0, 9)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </ElectricSmithy>
+  </things>
+  <terrainLayers>
+    <terrainLayerDetail layer="foundationGrid">
+      <Substructure>
+        <rects>
+          <li>(0,0,10,10)</li>
+        </rects>
+      </Substructure>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,10,0)</li>
+        <li>(0,1,0,10)</li>
+        <li>(4,1,6,1)</li>
+        <li>(10,1,10,10)</li>
+        <li>(5,2,7,3)</li>
+        <li>(4,3,4,3)</li>
+        <li>(6,4,7,4)</li>
+        <li>(6,5,6,10)</li>
+        <li>(7,6,7,10)</li>
+        <li>(5,8,5,8)</li>
+        <li>(5,10,5,10)</li>
+        <li>(8,10,9,10)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,10,10)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
