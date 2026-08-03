@@ -1,0 +1,286 @@
+<PrefabDef>
+  <defName>Prefab_20260804_064402</defName>
+  <size>(13,13)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>失能机关 DMS 13x13 工作间</name>
+    <description>全部满工作速度。更推荐15x15，灯换支撑柱即可，右下还可以补个化学桌</description>
+    <tags></tags>
+    <author>PinkBourbon</author>
+    <category>车间</category>
+    <BuildingID>e5db9c94-ab0f-4780-80ae-238b3d0b62cc</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>aoba.fortress.industrial</packageId>
+        <name>Fortifications - Industrial</name>
+        <version></version>
+        <modorder>452</modorder>
+        <steamWorkshopId>2561619583</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>aoba.framework</packageId>
+            <steamWorkshopId>3498575851</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>FT_BlocksConcrete</li>
+          <li>FT_TableLathe</li>
+          <li>FT_TableConcreteMixer</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.odyssey</packageId>
+        <name>Odyssey</name>
+        <version></version>
+        <modorder>8</modorder>
+        <things>
+          <li>VacBarrier</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>aoba.deadmanswitch.core</packageId>
+        <name><![CDATA[The Dead Man's Switch]]></name>
+        <version>1.8.25</version>
+        <modorder>506</modorder>
+        <steamWorkshopId>3121742525</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+          <li>
+            <packageId>aoba.framework</packageId>
+            <steamWorkshopId>3498575851</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>DMS_Furnace</li>
+          <li>DMS_MachineCabinet</li>
+          <li>DMS_TableMachinePrinter</li>
+          <li>DMS_ReactionChamber</li>
+          <li>DMS_TableArtifuscle</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>aoba.deadmanswitch.expedition</packageId>
+        <name><![CDATA[The Dead Man's Switch - Expedition]]></name>
+        <version>0.35</version>
+        <modorder>514</modorder>
+        <steamWorkshopId>3689879335</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>ludeon.rimworld.odyssey</packageId>
+          </li>
+          <li>
+            <packageId>aoba.deadmanswitch.core</packageId>
+            <steamWorkshopId>3121742525</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+          <li>
+            <packageId>aoba.framework</packageId>
+            <steamWorkshopId>3498575851</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>DMSE_TableLathe</li>
+          <li>DMSE_MicrogravityFacility</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>aoba.fortress.industrial.citadel</packageId>
+        <name>Fortification Industrial - Citadel</name>
+        <version></version>
+        <modorder>453</modorder>
+        <steamWorkshopId>2887532326</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>aoba.fortress.industrial</packageId>
+            <steamWorkshopId>2561619583</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>aoba.framework</packageId>
+            <steamWorkshopId>3498575851</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>FT_transformer</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>失能机关 DMS 13x13 工作间</default>
+        <zh-CN>失能机关 DMS 13x13 工作间</zh-CN>
+      </name>
+      <description>
+        <default>全部满工作速度。更推荐15x15，灯换支撑柱即可，右下还可以补个化学桌</default>
+        <zh-CN>全部满工作速度。更推荐15x15，灯换支撑柱即可，右下还可以补个化学桌</zh-CN>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,5,0)</li>
+        <li>(7,0,12,0)</li>
+        <li>(0,1,0,5)</li>
+        <li>(12,1,12,5)</li>
+        <li>(0,7,0,12)</li>
+        <li>(12,7,12,12)</li>
+        <li>(1,12,5,12)</li>
+        <li>(7,12,11,12)</li>
+      </rects>
+      <stuff>FT_BlocksConcrete</stuff>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </Wall>
+    <HiddenConduit>
+      <rects>
+        <li>(6,0,6,12)</li>
+        <li>(0,6,5,6)</li>
+        <li>(7,6,12,6)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <VacBarrier>
+      <rects>
+        <li>(6,0,6,0)</li>
+        <li>(6,12,6,12)</li>
+      </rects>
+    </VacBarrier>
+    <DMS_Furnace>
+      <position>(2, 0, 3)</position>
+    </DMS_Furnace>
+    <DMSE_TableLathe>
+      <position>(6, 0, 2)</position>
+    </DMSE_TableLathe>
+    <DMSE_MicrogravityFacility>
+      <position>(10, 0, 4)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </DMSE_MicrogravityFacility>
+    <DMS_MachineCabinet>
+      <positions>
+        <li>(4, 0, 4)</li>
+        <li>(6, 0, 4)</li>
+      </positions>
+    </DMS_MachineCabinet>
+    <StandingLamp>
+      <rects>
+        <li>(8,4,8,4)</li>
+      </rects>
+    </StandingLamp>
+    <DMS_MachineCabinet>
+      <positions>
+        <li>(3, 0, 6)</li>
+        <li>(3, 0, 8)</li>
+        <li>(8, 0, 8)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+    </DMS_MachineCabinet>
+    <FT_transformer>
+      <positions>
+        <li>(4, 0, 5)</li>
+        <li>(6, 0, 5)</li>
+        <li>(4, 0, 6)</li>
+        <li>(6, 0, 6)</li>
+        <li>(4, 0, 7)</li>
+        <li>(6, 0, 7)</li>
+        <li>(4, 0, 8)</li>
+        <li>(6, 0, 8)</li>
+      </positions>
+    </FT_transformer>
+    <DMS_MachineCabinet>
+      <position>(8, 0, 5)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </DMS_MachineCabinet>
+    <VacBarrier>
+      <rects>
+        <li>(0,6,0,6)</li>
+        <li>(12,6,12,6)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </VacBarrier>
+    <FT_TableLathe>
+      <position>(2, 0, 7)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </FT_TableLathe>
+    <DMS_TableMachinePrinter>
+      <position>(10, 0, 7)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </DMS_TableMachinePrinter>
+    <FT_TableConcreteMixer>
+      <position>(2, 0, 10)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </FT_TableConcreteMixer>
+    <DMS_MachineCabinet>
+      <positions>
+        <li>(5, 0, 9)</li>
+        <li>(7, 0, 9)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+    </DMS_MachineCabinet>
+    <DMS_ReactionChamber>
+      <position>(9, 0, 10)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </DMS_ReactionChamber>
+    <DMS_TableArtifuscle>
+      <position>(5, 0, 10)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </DMS_TableArtifuscle>
+  </things>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <Concrete>
+        <rects>
+          <li>(0,0,12,12)</li>
+        </rects>
+      </Concrete>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Limestone_Rough>
+        <rects>
+          <li>(0,0,12,3)</li>
+          <li>(0,4,11,4)</li>
+          <li>(0,5,10,5)</li>
+          <li>(0,6,9,11)</li>
+          <li>(10,9,10,12)</li>
+          <li>(11,10,12,11)</li>
+          <li>(1,12,9,12)</li>
+          <li>(11,12,11,12)</li>
+        </rects>
+      </Limestone_Rough>
+      <Gravel>
+        <rects>
+          <li>(12,4,12,9)</li>
+          <li>(11,5,11,9)</li>
+          <li>(10,6,10,8)</li>
+          <li>(0,12,0,12)</li>
+          <li>(12,12,12,12)</li>
+        </rects>
+      </Gravel>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
