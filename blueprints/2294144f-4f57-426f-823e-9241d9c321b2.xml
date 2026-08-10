@@ -1,0 +1,173 @@
+<PrefabDef>
+  <defName>Prefab_20260810_210700</defName>
+  <size>(6,7)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>Спальня</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>Dormitory</category>
+    <BuildingID>2294144f-4f57-426f-823e-9241d9c321b2</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>vanillaexpanded.vfearchitect</packageId>
+        <name>Vanilla Furniture Expanded - Architect</name>
+        <version></version>
+        <modorder>290</modorder>
+        <steamWorkshopId>2608762624</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VFEArch_FineWall</li>
+          <li>VFEArch_FineWoodenFloorMahogany</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>vanillaexpanded.vfecore</packageId>
+        <name>Vanilla Furniture Expanded</name>
+        <version></version>
+        <modorder>289</modorder>
+        <steamWorkshopId>1718190143</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Table_Wardrobe</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>vaguelysexual.modpackageid.goeshere</packageId>
+        <name>Knick Knacks - Let your colonists decorate!</name>
+        <version></version>
+        <modorder>163</modorder>
+        <steamWorkshopId>3595196942</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>SEX_Vase</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>Спальня</default>
+        <ru>Спальня</ru>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <VFEArch_FineWall>
+      <rects>
+        <li>(0,0,5,0)</li>
+        <li>(5,1,5,6)</li>
+        <li>(0,2,0,6)</li>
+        <li>(1,6,4,6)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </VFEArch_FineWall>
+    <Autodoor>
+      <rects>
+        <li>(0,1,0,1)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Autodoor>
+    <Table_Wardrobe>
+      <position>(2, 0, 1)</position>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Table_Wardrobe>
+    <PlantPot>
+      <rects>
+        <li>(4,1,4,1)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </PlantPot>
+    <Dresser>
+      <position>(3, 0, 3)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Dresser>
+    <RoyalBed>
+      <position>(3, 0, 5)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RoyalBed>
+    <EndTable>
+      <rects>
+        <li>(4,5,4,5)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </EndTable>
+    <SEX_Vase>
+      <rects>
+        <li>(4,5,4,5)</li>
+      </rects>
+    </SEX_Vase>
+  </things>
+  <terrain>
+    <VFEArch_FineWoodenFloorMahogany>
+      <rects>
+        <li>(0,1,4,1)</li>
+        <li>(1,2,4,5)</li>
+      </rects>
+    </VFEArch_FineWoodenFloorMahogany>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <VFEArch_FineWoodenFloorMahogany>
+        <rects>
+          <li>(0,1,4,1)</li>
+          <li>(1,2,4,5)</li>
+        </rects>
+      </VFEArch_FineWoodenFloorMahogany>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Slate_RoughHewn>
+        <rects>
+          <li>(0,1,4,1)</li>
+          <li>(1,2,4,5)</li>
+        </rects>
+      </Slate_RoughHewn>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofRockThick>
+      <rects>
+        <li>(0,0,5,6)</li>
+      </rects>
+    </RoofRockThick>
+  </roofs>
+</PrefabDef>
