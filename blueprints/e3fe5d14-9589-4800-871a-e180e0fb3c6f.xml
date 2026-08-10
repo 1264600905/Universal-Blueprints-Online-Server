@@ -1,0 +1,147 @@
+<PrefabDef>
+  <defName>Prefab_20260811_024834</defName>
+  <size>(11,5)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>工作1x3</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>其他</category>
+    <BuildingID>e3fe5d14-9589-4800-871a-e180e0fb3c6f</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>temeez.floorlights2</packageId>
+        <name>Floor Lights 2</name>
+        <version></version>
+        <modorder>283</modorder>
+        <steamWorkshopId>2882927601</steamWorkshopId>
+        <things>
+          <li>FloorLightSquare</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>kindseal.ufli</packageId>
+        <name>联合轻工家具拓展-UF Light Industries Furniture</name>
+        <version></version>
+        <modorder>255</modorder>
+        <steamWorkshopId>3651799915</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFLI_Robotarm</li>
+          <li>UFLI_FLOOR</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>hobbes.bamba.evenmorelinkables16</packageId>
+        <name>Even More Linkables Reupload</name>
+        <version></version>
+        <modorder>400</modorder>
+        <steamWorkshopId>3536014093</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>HobbesLink_RobotAssistant</li>
+          <li>HobbesLink_IndustrialOven</li>
+          <li>HobbesLink_ConveyorBelt</li>
+          <li>HobbesLink_CNCMachine</li>
+          <li>HobbesLink_Incinerator</li>
+          <li>HobbesLink_Vice</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.odyssey</packageId>
+        <name>Odyssey</name>
+        <version></version>
+        <modorder>9</modorder>
+        <things>
+          <li>GrasslandSoil</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>工作1x3</default>
+        <zh-CN>工作1x3</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <FloorLightSquare>
+      <rects>
+        <li>(4,0,4,0)</li>
+        <li>(6,0,6,0)</li>
+      </rects>
+    </FloorLightSquare>
+    <UFLI_Robotarm>
+      <positions>
+        <li>(7, 0, 0)</li>
+        <li>(7, 0, 3)</li>
+      </positions>
+    </UFLI_Robotarm>
+    <HobbesLink_RobotAssistant>
+      <position>(1, 0, 2)</position>
+    </HobbesLink_RobotAssistant>
+    <ElectricSmelter>
+      <position>(5, 0, 1)</position>
+    </ElectricSmelter>
+    <HobbesLink_IndustrialOven>
+      <rects>
+        <li>(4,2,4,2)</li>
+      </rects>
+    </HobbesLink_IndustrialOven>
+    <HobbesLink_ConveyorBelt>
+      <position>(5, 0, 3)</position>
+    </HobbesLink_ConveyorBelt>
+    <HobbesLink_CNCMachine>
+      <position>(7, 0, 2)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </HobbesLink_CNCMachine>
+    <HobbesLink_Incinerator>
+      <position>(9, 0, 3)</position>
+    </HobbesLink_Incinerator>
+    <HobbesLink_Vice>
+      <rects>
+        <li>(4,4,4,4)</li>
+        <li>(6,4,6,4)</li>
+      </rects>
+    </HobbesLink_Vice>
+  </things>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <UFLI_FLOOR>
+        <rects>
+          <li>(0,0,10,4)</li>
+        </rects>
+      </UFLI_FLOOR>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <GrasslandSoil>
+        <rects>
+          <li>(0,0,10,4)</li>
+        </rects>
+      </GrasslandSoil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,10,4)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,10,4)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
