@@ -1,0 +1,215 @@
+<PrefabDef>
+  <defName>Prefab_20260811_175403</defName>
+  <size>(13,13)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>【sbz】W空调储存区</name>
+    <description></description>
+    <tags></tags>
+    <author>WhiteMagic4236</author>
+    <category>储藏室</category>
+    <BuildingID>54b9d9ac-7646-4a83-8c15-9d4606a5e20f</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>sbz.neatstorage</packageId>
+        <name>[sbz] Neat Storage</name>
+        <version></version>
+        <modorder>42</modorder>
+        <steamWorkshopId>3416243474</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>adaptive.storage.framework</packageId>
+            <steamWorkshopId>3033901359</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>sbz_Pallet</li>
+          <li>sbz_HalfPallet</li>
+          <li>sbz_SmallCrate</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>【sbz】W空调储存区</default>
+        <zh-CN>【sbz】W空调储存区</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,5,0)</li>
+        <li>(7,0,12,0)</li>
+        <li>(0,1,0,5)</li>
+        <li>(12,1,12,5)</li>
+        <li>(0,7,0,12)</li>
+        <li>(12,7,12,12)</li>
+        <li>(1,12,5,12)</li>
+        <li>(7,12,11,12)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </Wall>
+    <Door>
+      <rects>
+        <li>(6,0,6,0)</li>
+        <li>(11,3,11,3)</li>
+        <li>(6,12,6,12)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <sbz_Pallet>
+      <positions>
+        <li>(2, 0, 2)</li>
+        <li>(4, 0, 2)</li>
+        <li>(8, 0, 2)</li>
+        <li>(2, 0, 5)</li>
+        <li>(4, 0, 5)</li>
+        <li>(9, 0, 5)</li>
+        <li>(11, 0, 5)</li>
+        <li>(2, 0, 8)</li>
+        <li>(4, 0, 8)</li>
+        <li>(9, 0, 8)</li>
+        <li>(11, 0, 8)</li>
+        <li>(2, 0, 11)</li>
+        <li>(4, 0, 11)</li>
+        <li>(9, 0, 11)</li>
+        <li>(11, 0, 11)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </sbz_Pallet>
+    <sbz_HalfPallet>
+      <positions>
+        <li>(5, 0, 1)</li>
+        <li>(5, 0, 4)</li>
+        <li>(7, 0, 4)</li>
+        <li>(5, 0, 7)</li>
+        <li>(7, 0, 7)</li>
+        <li>(5, 0, 10)</li>
+        <li>(7, 0, 10)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </sbz_HalfPallet>
+    <Vent>
+      <rects>
+        <li>(9,1,9,1)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </Vent>
+    <Door>
+      <rects>
+        <li>(10,1,10,1)</li>
+        <li>(0,6,0,6)</li>
+        <li>(12,6,12,6)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <sbz_SmallCrate>
+      <rects>
+        <li>(9,2,9,2)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </sbz_SmallCrate>
+    <Vent>
+      <rects>
+        <li>(10,2,10,2)</li>
+      </rects>
+    </Vent>
+    <Cooler>
+      <rects>
+        <li>(11,2,11,2)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </Cooler>
+    <OrbitalTradeBeacon>
+      <rects>
+        <li>(6,5,6,5)</li>
+      </rects>
+    </OrbitalTradeBeacon>
+    <HiddenConduit>
+      <rects>
+        <li>(0,6,12,6)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <StandingLamp>
+      <rects>
+        <li>(6,7,6,7)</li>
+      </rects>
+      <glowColor>RGBA(0.306, 0.886, 0.898, 1.000)</glowColor>
+    </StandingLamp>
+  </things>
+  <terrain>
+    <PavedTile>
+      <rects>
+        <li>(6,0,6,12)</li>
+        <li>(1,1,5,11)</li>
+        <li>(7,1,8,11)</li>
+        <li>(10,1,11,1)</li>
+        <li>(9,2,9,11)</li>
+        <li>(10,3,11,11)</li>
+        <li>(0,6,0,6)</li>
+        <li>(12,6,12,6)</li>
+      </rects>
+    </PavedTile>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <PavedTile>
+        <rects>
+          <li>(6,0,6,12)</li>
+          <li>(1,1,5,11)</li>
+          <li>(7,1,8,11)</li>
+          <li>(10,1,11,1)</li>
+          <li>(9,2,9,11)</li>
+          <li>(10,3,11,11)</li>
+          <li>(0,6,0,6)</li>
+          <li>(12,6,12,6)</li>
+        </rects>
+      </PavedTile>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(6,0,6,12)</li>
+          <li>(1,1,5,11)</li>
+          <li>(7,1,8,11)</li>
+          <li>(10,1,11,1)</li>
+          <li>(9,2,9,11)</li>
+          <li>(10,3,11,11)</li>
+          <li>(0,6,0,6)</li>
+          <li>(12,6,12,6)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,12,0)</li>
+        <li>(0,1,8,12)</li>
+        <li>(10,1,12,12)</li>
+        <li>(9,2,9,12)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
