@@ -1,0 +1,195 @@
+<PrefabDef>
+  <defName>Prefab_20260811_173725</defName>
+  <size>(13,13)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>13×13机械工厂</name>
+    <description>两个机械培育器，两个大型机械培育器，三个大型机械充电站，五个机械充电站，次核编译器，差分扫描仪，裂解扫描仪各一个</description>
+    <tags></tags>
+    <author>WhiteMagic4236</author>
+    <category>生物科技DLC</category>
+    <BuildingID>8fa5e5a0-4e56-464e-b97f-a69e47e57182</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>ludeon.rimworld.biotech</packageId>
+        <name>Biotech</name>
+        <version></version>
+        <modorder>5</modorder>
+        <things>
+          <li>MechGestator</li>
+          <li>SubcoreRipscanner</li>
+          <li>SubcoreEncoder</li>
+          <li>SubcoreSoftscanner</li>
+          <li>BasicRecharger</li>
+          <li>StandardRecharger</li>
+          <li>LargeMechGestator</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>13×13机械工厂</default>
+        <zh-CN>13×13机械工厂</zh-CN>
+      </name>
+      <description>
+        <default>两个机械培育器，两个大型机械培育器，三个大型机械充电站，五个机械充电站，次核编译器，差分扫描仪，裂解扫描仪各一个</default>
+        <zh-CN>两个机械培育器，两个大型机械培育器，三个大型机械充电站，五个机械充电站，次核编译器，差分扫描仪，裂解扫描仪各一个</zh-CN>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <HiddenConduit>
+      <rects>
+        <li>(0,0,12,0)</li>
+        <li>(0,1,0,12)</li>
+        <li>(12,1,12,12)</li>
+        <li>(1,6,11,6)</li>
+        <li>(1,12,11,12)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <Wall>
+      <rects>
+        <li>(0,0,5,0)</li>
+        <li>(7,0,12,0)</li>
+        <li>(0,1,0,12)</li>
+        <li>(12,1,12,12)</li>
+        <li>(1,12,5,12)</li>
+        <li>(7,12,11,12)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </Wall>
+    <Door>
+      <rects>
+        <li>(6,0,6,0)</li>
+        <li>(6,12,6,12)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <MechGestator>
+      <position>(4, 0, 1)</position>
+    </MechGestator>
+    <SubcoreRipscanner>
+      <position>(8, 0, 2)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </SubcoreRipscanner>
+    <MechGestator>
+      <position>(11, 0, 2)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </MechGestator>
+    <SubcoreEncoder>
+      <position>(2, 0, 3)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </SubcoreEncoder>
+    <SubcoreSoftscanner>
+      <position>(4, 0, 4)</position>
+    </SubcoreSoftscanner>
+    <BasicRecharger>
+      <positions>
+        <li>(7, 0, 5)</li>
+        <li>(11, 0, 5)</li>
+        <li>(7, 0, 9)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </BasicRecharger>
+    <BasicRecharger>
+      <position>(8, 0, 5)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </BasicRecharger>
+    <StandardRecharger>
+      <positions>
+        <li>(1, 0, 6)</li>
+        <li>(4, 0, 10)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+    </StandardRecharger>
+    <StandingLamp>
+      <rects>
+        <li>(6,6,6,6)</li>
+      </rects>
+    </StandingLamp>
+    <BasicRecharger>
+      <position>(4, 0, 7)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </BasicRecharger>
+    <StandardRecharger>
+      <position>(10, 0, 8)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </StandardRecharger>
+    <LargeMechGestator>
+      <position>(2, 0, 10)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </LargeMechGestator>
+    <LargeMechGestator>
+      <position>(10, 0, 10)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </LargeMechGestator>
+  </things>
+  <terrain>
+    <TileMarble>
+      <rects>
+        <li>(1,0,1,12)</li>
+        <li>(6,0,6,12)</li>
+        <li>(2,1,5,11)</li>
+        <li>(7,1,11,11)</li>
+        <li>(12,6,12,6)</li>
+      </rects>
+    </TileMarble>
+    <TileMarble>
+      <color>Structure_White</color>
+      <rects>
+        <li>(0,6,0,6)</li>
+      </rects>
+    </TileMarble>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <TileMarble>
+        <rects>
+          <li>(1,0,1,12)</li>
+          <li>(6,0,6,12)</li>
+          <li>(2,1,5,11)</li>
+          <li>(7,1,11,11)</li>
+          <li>(12,6,12,6)</li>
+        </rects>
+      </TileMarble>
+      <TileMarble>
+        <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
+        <rects>
+          <li>(0,6,0,6)</li>
+        </rects>
+      </TileMarble>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(1,0,1,12)</li>
+          <li>(6,0,6,12)</li>
+          <li>(2,1,5,11)</li>
+          <li>(7,1,11,11)</li>
+          <li>(12,6,12,6)</li>
+        </rects>
+      </Soil>
+      <Soil>
+        <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
+        <rects>
+          <li>(0,6,0,6)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
