@@ -1,0 +1,136 @@
+<PrefabDef>
+  <defName>Prefab_20260805_164941</defName>
+  <size>(12,12)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>小公园</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>其他</category>
+    <BuildingID>04854166-aea4-4abb-8377-61f12b9e6e88</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>kindseal.ufli</packageId>
+        <name>联合轻工家具拓展-UF Light Industries Furniture</name>
+        <version></version>
+        <modorder>252</modorder>
+        <steamWorkshopId>3651799915</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFLI_treelight</li>
+          <li>UFLI_Wall_Shrub</li>
+          <li>UFLI_OutdoorDouble</li>
+          <li>UFLI_ATfountain</li>
+          <li>UFLI_Telescope</li>
+          <li>UFLI_FLOORN</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>小公园</default>
+        <zh-CN>小公园</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <UFLI_treelight>
+      <rects>
+        <li>(0,0,0,0)</li>
+        <li>(11,0,11,0)</li>
+        <li>(0,11,0,11)</li>
+        <li>(11,11,11,11)</li>
+      </rects>
+    </UFLI_treelight>
+    <UFLI_Wall_Shrub>
+      <rects>
+        <li>(2,0,9,0)</li>
+        <li>(0,2,0,9)</li>
+        <li>(11,2,11,9)</li>
+        <li>(2,11,9,11)</li>
+      </rects>
+    </UFLI_Wall_Shrub>
+    <UFLI_OutdoorDouble>
+      <positions>
+        <li>(3, 0, 1)</li>
+        <li>(7, 0, 1)</li>
+      </positions>
+      <stuff>WoodLog</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </UFLI_OutdoorDouble>
+    <UFLI_OutdoorDouble>
+      <positions>
+        <li>(1, 0, 4)</li>
+        <li>(1, 0, 8)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Legendary</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </UFLI_OutdoorDouble>
+    <UFLI_OutdoorDouble>
+      <positions>
+        <li>(10, 0, 3)</li>
+        <li>(10, 0, 7)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </UFLI_OutdoorDouble>
+    <UFLI_ATfountain>
+      <position>(6, 0, 5)</position>
+      <quality>Legendary</quality>
+    </UFLI_ATfountain>
+    <UFLI_Telescope>
+      <rects>
+        <li>(5,7,5,7)</li>
+      </rects>
+    </UFLI_Telescope>
+    <UFLI_OutdoorDouble>
+      <positions>
+        <li>(4, 0, 10)</li>
+        <li>(8, 0, 10)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </UFLI_OutdoorDouble>
+  </things>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <UFLI_FLOORN>
+        <rects>
+          <li>(0,0,11,11)</li>
+        </rects>
+      </UFLI_FLOORN>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <SoilRich>
+        <rects>
+          <li>(0,0,11,6)</li>
+          <li>(0,7,3,8)</li>
+          <li>(7,7,11,8)</li>
+          <li>(0,9,2,11)</li>
+          <li>(8,9,11,11)</li>
+          <li>(3,10,3,11)</li>
+        </rects>
+      </SoilRich>
+      <Gravel>
+        <rects>
+          <li>(4,7,6,11)</li>
+          <li>(3,9,3,9)</li>
+          <li>(7,9,7,11)</li>
+        </rects>
+      </Gravel>
+    </terrainLayerDetail>
+  </terrainLayers>
+</PrefabDef>
