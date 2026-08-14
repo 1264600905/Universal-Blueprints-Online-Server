@@ -1,0 +1,243 @@
+<PrefabDef>
+  <defName>Prefab_20260812_231921</defName>
+  <size>(17,12)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>advanced heavy artillery battery</name>
+    <description>4 autonomous mortars followed by 2 pieces of heavy artillery with a close ammor room for faster adcquisition.</description>
+    <tags>
+      <li>FullExport</li>
+    </tags>
+    <author>Galew2</author>
+    <category>DefenseWorks</category>
+    <BuildingID>366d35c9-5623-412c-aa23-c82f92426592</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>dracoix.o2.r14</packageId>
+        <name>Oversimplified Optimizations</name>
+        <version></version>
+        <modorder>127</modorder>
+        <steamWorkshopId>3021168493</steamWorkshopId>
+        <things>
+          <li>OO_BlocksStone</li>
+          <li>OO_Stone_Rough</li>
+          <li>OO_Stone_RoughHewn</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>vanillaexpanded.vfesecurity</packageId>
+        <name>Vanilla Furniture Expanded - Security</name>
+        <version></version>
+        <modorder>23</modorder>
+        <steamWorkshopId>1845154007</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VFES_Turret_AutomatedMortar</li>
+          <li>VFES_Turret_Artillery</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.biotech</packageId>
+        <name>Biotech</name>
+        <version></version>
+        <modorder>6</modorder>
+        <things>
+          <li>Shell_Toxic</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>advanced heavy artillery battery</default>
+        <en>advanced heavy artillery battery</en>
+      </name>
+      <description>
+        <default>4 autonomous mortars followed by 2 pieces of heavy artillery with a close ammor room for faster adcquisition.</default>
+        <en>4 autonomous mortars followed by 2 pieces of heavy artillery with a close ammor room for faster adcquisition.</en>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,1,1,1)</li>
+        <li>(3,1,4,1)</li>
+        <li>(6,1,7,1)</li>
+        <li>(9,1,10,1)</li>
+        <li>(12,1,12,10)</li>
+        <li>(0,2,0,10)</li>
+        <li>(3,2,3,4)</li>
+        <li>(6,2,6,10)</li>
+        <li>(9,2,9,4)</li>
+        <li>(14,3,16,3)</li>
+        <li>(1,4,2,4)</li>
+        <li>(4,4,5,4)</li>
+        <li>(7,4,8,4)</li>
+        <li>(10,4,11,4)</li>
+        <li>(16,4,16,9)</li>
+        <li>(14,5,14,7)</li>
+        <li>(15,6,15,6)</li>
+        <li>(14,9,15,9)</li>
+        <li>(1,10,3,10)</li>
+        <li>(5,10,5,10)</li>
+        <li>(7,10,9,10)</li>
+        <li>(11,10,11,10)</li>
+      </rects>
+      <stuff>OO_BlocksStone</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Wall>
+    <Door>
+      <rects>
+        <li>(2,1,2,1)</li>
+        <li>(5,1,5,1)</li>
+        <li>(8,1,8,1)</li>
+        <li>(11,1,11,1)</li>
+        <li>(4,10,4,10)</li>
+        <li>(10,10,10,10)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <VFES_Turret_AutomatedMortar>
+      <positions>
+        <li>(1, 0, 2)</li>
+        <li>(4, 0, 2)</li>
+        <li>(7, 0, 2)</li>
+        <li>(10, 0, 2)</li>
+      </positions>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </VFES_Turret_AutomatedMortar>
+    <Door>
+      <rects>
+        <li>(14,4,14,4)</li>
+        <li>(14,8,14,8)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <Shelf>
+      <positions>
+        <li>(15, 0, 4)</li>
+        <li>(15, 0, 7)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Shelf>
+    <Shell_HighExplosive>
+      <rects>
+        <li>(15,4,15,5)</li>
+      </rects>
+      <stackCount>25</stackCount>
+    </Shell_HighExplosive>
+    <VFES_Turret_Artillery>
+      <positions>
+        <li>(3, 0, 7)</li>
+        <li>(9, 0, 7)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </VFES_Turret_Artillery>
+    <Shell_Incendiary>
+      <rects>
+        <li>(15,7,15,7)</li>
+      </rects>
+      <stackCount>25</stackCount>
+    </Shell_Incendiary>
+    <Shell_Toxic>
+      <rects>
+        <li>(15,8,15,8)</li>
+      </rects>
+      <stackCount>25</stackCount>
+    </Shell_Toxic>
+  </things>
+  <terrain>
+    <Concrete>
+      <rects>
+        <li>(0,0,16,8)</li>
+        <li>(1,9,16,11)</li>
+        <li>(0,11,0,11)</li>
+      </rects>
+    </Concrete>
+    <OO_Stone_RoughHewn>
+      <rects>
+        <li>(0,9,0,10)</li>
+      </rects>
+    </OO_Stone_RoughHewn>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <Concrete>
+        <rects>
+          <li>(0,0,16,8)</li>
+          <li>(1,9,16,11)</li>
+          <li>(0,11,0,11)</li>
+        </rects>
+      </Concrete>
+      <OO_Stone_RoughHewn>
+        <rects>
+          <li>(0,9,0,10)</li>
+        </rects>
+      </OO_Stone_RoughHewn>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(0,0,16,6)</li>
+          <li>(2,7,16,7)</li>
+          <li>(3,8,16,8)</li>
+          <li>(4,9,16,9)</li>
+          <li>(5,10,11,10)</li>
+          <li>(14,10,16,10)</li>
+          <li>(15,11,16,11)</li>
+        </rects>
+      </Soil>
+      <OO_Stone_Rough>
+        <rects>
+          <li>(0,7,0,8)</li>
+          <li>(1,8,1,10)</li>
+          <li>(2,10,3,11)</li>
+        </rects>
+      </OO_Stone_Rough>
+      <Gravel>
+        <rects>
+          <li>(1,7,1,7)</li>
+          <li>(2,8,2,9)</li>
+          <li>(3,9,3,9)</li>
+          <li>(4,10,4,11)</li>
+          <li>(12,10,13,11)</li>
+          <li>(5,11,11,11)</li>
+          <li>(14,11,14,11)</li>
+        </rects>
+      </Gravel>
+      <OO_Stone_RoughHewn>
+        <rects>
+          <li>(0,11,1,11)</li>
+        </rects>
+      </OO_Stone_RoughHewn>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(14,3,16,9)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,4,6,10)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
