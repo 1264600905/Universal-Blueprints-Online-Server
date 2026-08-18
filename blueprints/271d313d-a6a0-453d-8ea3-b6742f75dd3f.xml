@@ -1,0 +1,166 @@
+<PrefabDef>
+  <defName>Prefab_20260818_184816</defName>
+  <size>(13,13)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>联合轻工仓库</name>
+    <description>联合轻工仓库 13X13</description>
+    <tags></tags>
+    <author>果</author>
+    <category>储藏室</category>
+    <BuildingID>271d313d-a6a0-453d-8ea3-b6742f75dd3f</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>kindseal.ufli</packageId>
+        <name>联合轻工家具拓展-UF Light Industries Furniture</name>
+        <version></version>
+        <modorder>127</modorder>
+        <steamWorkshopId>3651799915</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFLI_Wall_Cable</li>
+          <li>UFLI_Container_2X2_AS</li>
+          <li>UFLI_Container_1X2_AS</li>
+          <li>UFLI_groundlight</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>miho.fortifiedoutremer</packageId>
+        <name>Miho, the celestial fox</name>
+        <version></version>
+        <modorder>469</modorder>
+        <steamWorkshopId>2816826107</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.royalty</packageId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.ideology</packageId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Miho_Ceramics</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>联合轻工仓库</default>
+        <zh-CN>联合轻工仓库</zh-CN>
+      </name>
+      <description>
+        <default>联合轻工仓库 13X13</default>
+        <zh-CN>联合轻工仓库 13X13</zh-CN>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <UFLI_Wall_Cable>
+      <rects>
+        <li>(0,0,5,0)</li>
+        <li>(7,0,12,0)</li>
+        <li>(0,1,0,5)</li>
+        <li>(12,1,12,5)</li>
+        <li>(0,7,0,12)</li>
+        <li>(12,7,12,12)</li>
+        <li>(1,12,5,12)</li>
+        <li>(7,12,11,12)</li>
+      </rects>
+      <stuff>Miho_Ceramics</stuff>
+      <color>RGBA(0.765, 0.765, 0.765, 1.000)</color>
+    </UFLI_Wall_Cable>
+    <Door>
+      <rects>
+        <li>(6,0,6,0)</li>
+        <li>(6,12,6,12)</li>
+      </rects>
+      <stuff>Miho_Ceramics</stuff>
+      <color>RGBA(0.765, 0.765, 0.765, 1.000)</color>
+    </Door>
+    <HiddenConduit>
+      <rects>
+        <li>(6,0,6,0)</li>
+        <li>(0,6,0,6)</li>
+        <li>(12,6,12,6)</li>
+        <li>(6,12,6,12)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <UFLI_Container_2X2_AS>
+      <positions>
+        <li>(1, 0, 1)</li>
+        <li>(4, 0, 1)</li>
+        <li>(7, 0, 1)</li>
+        <li>(10, 0, 1)</li>
+        <li>(1, 0, 3)</li>
+        <li>(4, 0, 3)</li>
+        <li>(7, 0, 3)</li>
+        <li>(10, 0, 3)</li>
+        <li>(1, 0, 8)</li>
+        <li>(4, 0, 8)</li>
+        <li>(7, 0, 8)</li>
+        <li>(10, 0, 8)</li>
+        <li>(1, 0, 10)</li>
+        <li>(4, 0, 10)</li>
+        <li>(7, 0, 10)</li>
+        <li>(10, 0, 10)</li>
+      </positions>
+    </UFLI_Container_2X2_AS>
+    <UFLI_Container_1X2_AS>
+      <positions>
+        <li>(2, 0, 5)</li>
+        <li>(5, 0, 5)</li>
+        <li>(8, 0, 5)</li>
+        <li>(11, 0, 5)</li>
+        <li>(2, 0, 7)</li>
+        <li>(5, 0, 7)</li>
+        <li>(8, 0, 7)</li>
+        <li>(11, 0, 7)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+    </UFLI_Container_1X2_AS>
+    <Door>
+      <rects>
+        <li>(0,6,0,6)</li>
+        <li>(12,6,12,6)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Miho_Ceramics</stuff>
+      <color>RGBA(0.765, 0.765, 0.765, 1.000)</color>
+    </Door>
+    <UFLI_groundlight>
+      <rects>
+        <li>(6,6,6,6)</li>
+      </rects>
+    </UFLI_groundlight>
+  </things>
+  <terrainLayers></terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
