@@ -1,5 +1,5 @@
 <PrefabDef>
-  <defName>Prefab_20260817_203034</defName>
+  <defName>Prefab_20260818_185708</defName>
   <size>(27,26)</size>
   <extraInfo>
     <version>1.6.9676.17735</version>
@@ -53,7 +53,6 @@
           <li>UFLI_Wall_Shrub</li>
           <li>UFLI_PendantLIGHT</li>
           <li>UFLI_CabinetF</li>
-          <li>UFLI_Decoration_Big_Holographic</li>
           <li>UFLI_CeleTech</li>
           <li>UFLI_TempControler</li>
           <li>UFLI_2_Autodoor</li>
@@ -63,6 +62,22 @@
           <li>UFLI_FLOORD</li>
           <li>UFLI_FLOORK</li>
           <li>UFLI_FLOORI</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>oels.nanamewalls</packageId>
+        <name>Hull Style: NANAME Walls</name>
+        <version>1.6.53</version>
+        <modorder>90</modorder>
+        <steamWorkshopId>3543791340</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFLI_Wall_NAWDiagonal</li>
         </things>
       </mod>
       <mod>
@@ -172,6 +187,7 @@
         </dependencies>
         <things>
           <li>CMC_CommConsole</li>
+          <li>TradeInfoConsole</li>
         </things>
       </mod>
       <mod>
@@ -198,6 +214,34 @@
         </dependencies>
         <things>
           <li>GD_CommunicationStation</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>rku.ratkinunderground</packageId>
+        <name>Ratkin Underground+</name>
+        <version></version>
+        <modorder>170</modorder>
+        <steamWorkshopId>3613814532</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>solaris.ratkinracemod</packageId>
+            <steamWorkshopId>1578693166</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>fxz.ratkinfaction</packageId>
+            <steamWorkshopId>3036302713</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>RKU_Radio</li>
         </things>
       </mod>
       <mod>
@@ -267,22 +311,6 @@
           <li>VFEPD_LargeDecalWordSmallKeep</li>
           <li>VFEPD_LargeDecalWordSmallClear</li>
           <li>VFEPD_DecalWordResearch</li>
-        </things>
-      </mod>
-      <mod>
-        <packageId>oels.nanamewalls</packageId>
-        <name>Hull Style: NANAME Walls</name>
-        <version>1.6.53</version>
-        <modorder>90</modorder>
-        <steamWorkshopId>3543791340</steamWorkshopId>
-        <dependencies>
-          <li>
-            <packageId>brrainz.harmony</packageId>
-            <steamWorkshopId>2009463077</steamWorkshopId>
-          </li>
-        </dependencies>
-        <things>
-          <li>UFLI_Wall_NAWDiagonal</li>
         </things>
       </mod>
       <mod>
@@ -372,9 +400,9 @@
     </KT_Communication_tower>
     <UFLI_Wall>
       <rects>
-        <li>(4,1,26,1)</li>
+        <li>(4,1,24,1)</li>
         <li>(4,2,4,25)</li>
-        <li>(26,2,26,21)</li>
+        <li>(26,3,26,21)</li>
         <li>(18,11,20,11)</li>
         <li>(23,11,25,11)</li>
         <li>(15,14,15,14)</li>
@@ -384,6 +412,21 @@
       <stuff>Steel</stuff>
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </UFLI_Wall>
+    <UFLI_Wall_NAWDiagonal>
+      <rects>
+        <li>(25,1,25,1)</li>
+        <li>(26,2,26,2)</li>
+        <li>(17,11,17,11)</li>
+        <li>(16,12,16,12)</li>
+        <li>(15,13,15,13)</li>
+        <li>(26,22,26,22)</li>
+        <li>(25,23,25,23)</li>
+        <li>(24,24,24,24)</li>
+        <li>(23,25,23,25)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Wall_NAWDiagonal>
     <Elegant_Candle_Set>
       <rects>
         <li>(5,2,5,2)</li>
@@ -420,6 +463,7 @@
       <rects>
         <li>(14,3,14,3)</li>
         <li>(16,3,16,3)</li>
+        <li>(18,3,18,3)</li>
       </rects>
       <stuff>Leather_Thrumbo</stuff>
       <quality>Legendary</quality>
@@ -454,6 +498,11 @@
       <position>(16, 0, 4)</position>
       <stuff>Milira_SplendidSteel</stuff>
     </HiTechResearchBench>
+    <RKU_Radio>
+      <rects>
+        <li>(18,4,18,4)</li>
+      </rects>
+    </RKU_Radio>
     <MultiAnalyzer>
       <positions>
         <li>(19, 0, 4)</li>
@@ -660,22 +709,9 @@
         <li>(20,24,20,24)</li>
       </rects>
     </Classic_Candles>
-    <UFLI_Decoration_Big_Holographic>
+    <TradeInfoConsole>
       <position>(24, 0, 10)</position>
-    </UFLI_Decoration_Big_Holographic>
-    <UFLI_Wall_NAWDiagonal>
-      <rects>
-        <li>(17,11,17,11)</li>
-        <li>(16,12,16,12)</li>
-        <li>(15,13,15,13)</li>
-        <li>(26,22,26,22)</li>
-        <li>(25,23,25,23)</li>
-        <li>(24,24,24,24)</li>
-        <li>(23,25,23,25)</li>
-      </rects>
-      <stuff>Steel</stuff>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </UFLI_Wall_NAWDiagonal>
+    </TradeInfoConsole>
     <UFLI_CeleTech>
       <position>(19, 0, 13)</position>
       <quality>Legendary</quality>
@@ -910,16 +946,16 @@
   <roofs>
     <RoofConstructed>
       <rects>
-        <li>(4,1,26,22)</li>
-        <li>(4,23,25,23)</li>
+        <li>(4,1,25,23)</li>
+        <li>(26,2,26,22)</li>
         <li>(4,24,24,24)</li>
         <li>(4,25,23,25)</li>
       </rects>
     </RoofConstructed>
     <PlayerRoofZone>
       <rects>
-        <li>(4,1,26,22)</li>
-        <li>(4,23,25,23)</li>
+        <li>(4,1,25,23)</li>
+        <li>(26,2,26,22)</li>
         <li>(4,24,24,24)</li>
         <li>(4,25,23,25)</li>
       </rects>
