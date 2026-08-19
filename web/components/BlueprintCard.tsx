@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { ThumbsUp, Download, AlertCircle, Layers, Clock, Tag } from 'lucide-react';
 import { BlueprintListItem, Language } from '../types';
 import { TRANSLATIONS } from '../constants';
 import { formatBlueprintDate, resolveAssetUrl } from '../utils/blueprintUtils';
-import { getCachedImageObjectUrl, requestImage } from '../utils/imageLoadQueue';
+import { getCachedImageObjectUrl, ImageRequest, requestImage } from '../utils/imageLoadQueue';
 
 interface BlueprintCardProps {
   blueprint: BlueprintListItem;
@@ -23,6 +23,7 @@ const BlueprintCard: React.FC<BlueprintCardProps> = ({ blueprint, onClick, lang,
   const [imageLoading, setImageLoading] = useState(() => !getCachedImageObjectUrl(blueprint.imageMinimap));
   const [imageMissing, setImageMissing] = useState(false);
   const [downloading, setDownloading] = useState(false);
+  const imageRequestRef = useRef<ImageRequest | null>(null);
   const t = TRANSLATIONS[lang];
 
   useEffect(() => {
@@ -37,6 +38,7 @@ const BlueprintCard: React.FC<BlueprintCardProps> = ({ blueprint, onClick, lang,
     if (cachedObjectUrl) return () => { active = false; };
 
     const request = requestImage(imageUrl, imagePriority);
+    imageRequestRef.current = request;
     request.promise
       .then(objectUrl => {
         if (!active) return;
@@ -55,9 +57,16 @@ const BlueprintCard: React.FC<BlueprintCardProps> = ({ blueprint, onClick, lang,
 
     return () => {
       active = false;
+      if (imageRequestRef.current === request) imageRequestRef.current = null;
       request.cancel();
     };
-  }, [blueprint, imagePriority, imageStage]);
+  }, [blueprint, imageStage]);
+
+  // Scrolling changes priority, not the image URL. Reprioritize the existing
+  // queue entry instead of cancelling and restarting the network request.
+  useEffect(() => {
+    imageRequestRef.current?.setPriority(imagePriority);
+  }, [imagePriority]);
 
   const handleDownload = async (e: React.MouseEvent) => {
     e.stopPropagation();

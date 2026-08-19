@@ -7,7 +7,7 @@ interface QueueEntry {
   status: 'queued' | 'loading' | 'loaded';
   priority: number;
   sequence: number;
-  consumers: Set<symbol>;
+  consumers: Map<symbol, number>;
   controller?: AbortController;
   objectUrl?: string;
   resolve: (objectUrl: string) => void;
@@ -18,6 +18,7 @@ interface QueueEntry {
 
 export interface ImageRequest {
   promise: Promise<string>;
+  setPriority: (priority: number) => void;
   cancel: () => void;
 }
 
@@ -125,7 +126,7 @@ export const requestImage = (url: string, priority = 0): ImageRequest => {
       status: 'queued',
       priority,
       sequence: ++sequence,
-      consumers: new Set(),
+      consumers: new Map(),
       resolve,
       reject,
       promise,
@@ -137,18 +138,28 @@ export const requestImage = (url: string, priority = 0): ImageRequest => {
   }
 
   const consumer = Symbol(url);
-  entry.consumers.add(consumer);
+  entry.consumers.set(consumer, priority);
+  entry.priority = Math.min(...entry.consumers.values());
   pump();
 
   let cancelled = false;
   return {
     promise: entry.promise,
+    setPriority: (nextPriority: number) => {
+      if (cancelled || !entry?.consumers.has(consumer)) return;
+      entry.consumers.set(consumer, nextPriority);
+      entry.priority = Math.min(...entry.consumers.values());
+      pump();
+    },
     cancel: () => {
       if (cancelled) return;
       cancelled = true;
       entry?.consumers.delete(consumer);
 
-      if (!entry || entry.consumers.size > 0) return;
+      if (!entry || entry.consumers.size > 0) {
+        if (entry) entry.priority = Math.min(...entry.consumers.values());
+        return;
+      }
 
       if (entry.status === 'queued') {
         entries.delete(entry.url);
