@@ -19,6 +19,8 @@ interface VirtualGridResult {
   totalHeight: number;
   startIndex: number;
   endIndex: number;
+  visibleStartIndex: number;
+  visibleEndIndex: number;
   offsetTop: number;
 }
 
@@ -95,8 +97,10 @@ export const useVirtualGrid = ({
       : 0;
     const visibleTop = Math.max(0, viewport.scrollY - containerTop);
     const visibleBottom = Math.max(0, viewport.scrollY + viewport.height - containerTop);
-    const startRow = Math.max(0, Math.floor(visibleTop / rowHeight) - overscanRows);
-    const endRow = Math.min(rowCount, Math.ceil(visibleBottom / rowHeight) + overscanRows);
+    const visibleStartRow = Math.max(0, Math.floor(visibleTop / rowHeight));
+    const visibleEndRow = Math.min(rowCount, Math.max(visibleStartRow + 1, Math.ceil(visibleBottom / rowHeight)));
+    const startRow = Math.max(0, visibleStartRow - overscanRows);
+    const endRow = Math.min(rowCount, visibleEndRow + overscanRows);
 
     return {
       columnCount,
@@ -105,6 +109,8 @@ export const useVirtualGrid = ({
       totalHeight: Math.max(0, rowCount * rowHeight - gap),
       startIndex: Math.min(itemCount, startRow * columnCount),
       endIndex: Math.min(itemCount, endRow * columnCount),
+      visibleStartIndex: Math.min(itemCount, visibleStartRow * columnCount),
+      visibleEndIndex: Math.min(itemCount, visibleEndRow * columnCount),
       offsetTop: startRow * rowHeight,
     };
   }, [cardContentHeight, cardImageAspectRatio, containerRef, containerWidth, gap, itemCount, maxColumnCount, minColumnWidth, overscanRows, viewport]);

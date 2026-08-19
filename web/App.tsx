@@ -301,7 +301,14 @@ const App: React.FC = () => {
                         blueprint={bp}
                         onClick={() => setSelectedBlueprint(bp)}
                         lang={lang}
-                        imagePriority={Math.abs(index - Math.floor(virtualBlueprints.length / 2))}
+                        // Visible cards always outrank overscan cards. Within the
+                        // visible window, load from the top-left in reading order.
+                        imagePriority={
+                          virtualGrid.startIndex + index >= virtualGrid.visibleStartIndex &&
+                          virtualGrid.startIndex + index < virtualGrid.visibleEndIndex
+                            ? virtualGrid.startIndex + index - virtualGrid.visibleStartIndex
+                            : 100 + index
+                        }
                       />
                     ))}
                   </div>
