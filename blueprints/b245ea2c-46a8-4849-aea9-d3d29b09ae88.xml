@@ -1,0 +1,151 @@
+<PrefabDef>
+  <defName>Prefab_20260819_162934</defName>
+  <size>(7,7)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>钻井小屋</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>车间</category>
+    <BuildingID>b245ea2c-46a8-4849-aea9-d3d29b09ae88</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>ri.rimimmortal.living</packageId>
+        <name>边缘仙路-俗世仙工 RimImmortal-Living[1.6]</name>
+        <version></version>
+        <modorder>52</modorder>
+        <steamWorkshopId>3326145525</steamWorkshopId>
+        <things>
+          <li>RI_Building_IndustrialDrilling</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ri.rimimmortal.forge</packageId>
+        <name>边缘仙路-神机天纵 RimImmortal-Forge[1.6]</name>
+        <version></version>
+        <modorder>53</modorder>
+        <steamWorkshopId>3308873789</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>ri.rimimmortal.core</packageId>
+            <steamWorkshopId>3296476341</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.royalty</packageId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.ideology</packageId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+        </dependencies>
+        <things>
+          <li>RI_Building_YangBronzeBatteryBig</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>钻井小屋</default>
+        <zh-CN>钻井小屋</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,0,0)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <hp>110</hp>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Wall>
+    <Wall>
+      <rects>
+        <li>(1,0,6,0)</li>
+        <li>(0,1,0,4)</li>
+        <li>(6,2,6,6)</li>
+        <li>(0,6,5,6)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Wall>
+    <Door>
+      <rects>
+        <li>(6,1,6,1)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Door>
+    <RI_Building_IndustrialDrilling>
+      <positions>
+        <li>(1, 0, 2)</li>
+        <li>(3, 0, 2)</li>
+      </positions>
+    </RI_Building_IndustrialDrilling>
+    <RI_Building_YangBronzeBatteryBig>
+      <positions>
+        <li>(1, 0, 4)</li>
+        <li>(3, 0, 4)</li>
+      </positions>
+    </RI_Building_YangBronzeBatteryBig>
+    <Wall>
+      <rects>
+        <li>(0,5,0,5)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <hp>41</hp>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Wall>
+    <WallLamp>
+      <rects>
+        <li>(3,5,3,5)</li>
+      </rects>
+    </WallLamp>
+  </things>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <Concrete>
+        <rects>
+          <li>(1,1,6,1)</li>
+          <li>(1,2,5,5)</li>
+        </rects>
+      </Concrete>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(1,1,1,5)</li>
+          <li>(2,3,2,5)</li>
+          <li>(3,4,5,5)</li>
+        </rects>
+      </Soil>
+      <Gravel>
+        <rects>
+          <li>(2,1,6,1)</li>
+          <li>(2,2,5,2)</li>
+          <li>(3,3,5,3)</li>
+        </rects>
+      </Gravel>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,6,6)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,6,6)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
