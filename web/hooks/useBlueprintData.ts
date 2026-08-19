@@ -1,17 +1,19 @@
 import { useState, useEffect } from 'react';
-import { BlueprintIndex, BlueprintDerived } from '../types';
+import { BlueprintIndex, BlueprintListItem } from '../types';
 import { parseBlueprintData } from '../utils/blueprintUtils';
 import { DATA_PATH, REMOTE_BASE_URL } from '../constants';
 
 interface UseBlueprintDataReturn {
-  blueprints: BlueprintDerived[];
+  blueprints: BlueprintListItem[];
+  basePath: string;
   loading: boolean;
   error: string | null;
   refresh: () => void;
 }
 
 export const useBlueprintData = (): UseBlueprintDataReturn => {
-  const [blueprints, setBlueprints] = useState<BlueprintDerived[]>([]);
+  const [blueprints, setBlueprints] = useState<BlueprintListItem[]>([]);
+  const [basePath, setBasePath] = useState<string>('./');
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [trigger, setTrigger] = useState(0);
@@ -21,7 +23,7 @@ export const useBlueprintData = (): UseBlueprintDataReturn => {
       setLoading(true);
       setError(null);
       let data: BlueprintIndex;
-      let basePath = './';
+      let currentBasePath = './';
 
       try {
         // 1. Try fetching local index.json
@@ -51,11 +53,12 @@ export const useBlueprintData = (): UseBlueprintDataReturn => {
             }
 
             data = await response.json();
-            basePath = REMOTE_BASE_URL;
+            currentBasePath = REMOTE_BASE_URL;
         }
 
+        setBasePath(currentBasePath);
         // Parse and enhance data with the determined base path
-        const processed = data.blueprints.map(bp => parseBlueprintData(bp, basePath));
+        const processed = data.blueprints.map(bp => parseBlueprintData(bp, currentBasePath) as BlueprintListItem);
         setBlueprints(processed);
 
       } catch (err) {
@@ -71,5 +74,5 @@ export const useBlueprintData = (): UseBlueprintDataReturn => {
 
   const refresh = () => setTrigger(prev => prev + 1);
 
-  return { blueprints, loading, error, refresh };
+  return { blueprints, basePath, loading, error, refresh };
 };

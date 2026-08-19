@@ -2,11 +2,24 @@
 export const DATA_PATH = './index.json';
 export const REMOTE_BASE_URL = 'https://raw.githubusercontent.com/1264600905/Universal-Blueprints-Online-Server/main/';
 
+export const GITHUB_PAGES_PROJECT_NAME = 'Universal-Blueprints-Web';
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
+export const ASSET_BASE_URL = import.meta.env?.BASE_URL || '/';
+export const XML_FETCH_TIMEOUT_MS = 10000;
+export const APP_VERSION = '1.3';
+
+export const resolvePublicAssetUrl = (path: string): string => {
+  const cleanPath = path.replace(/^\//, '');
+  return `${ASSET_BASE_URL}${cleanPath}`;
+};
+
 export const TRANSLATIONS = {
   en: {
     title: "RimWorld Blueprint Library",
-    searchPlaceholder: "Name / Author / ID...",
+    searchPlaceholder: "Name / Author...",
     sort: "Sort",
+    timeRange: "Time",
     category: "Category",
     refresh: "Refresh",
     refreshing: "Refreshing...",
@@ -23,22 +36,45 @@ export const TRANSLATIONS = {
     copied: "ID Copied!",
     unknown: "Unknown",
     author: "Author",
+    sortPopularity: "Popularity",
     sortNewest: "Newest",
-    sortScore: "Recommended",
     sortDownloads: "Most Downloaded",
-    sortLikes: "Top Rated",
+    sortLikes: "Most Liked",
+    sortFeatured: "Featured Only",
+    sortMedal: "Medal Only",
+    timeAll: "All time",
+    time7d: "Last 7 days",
+    time15d: "Last 15 days",
+    time30d: "Last 30 days",
+    time3m: "Last 3 months",
+    time6m: "Last 6 months",
+    time1y: "Last year",
     error: "Error loading blueprints",
     empty: "No blueprints found matching your criteria.",
     footer: "RimWorld Universal Blueprint Library",
     unofficial: "Unofficial community tool.",
     imageMissing: "Image Missing",
     modsCount: "mods",
-    description: "Description"
+    description: "Description",
+    tutorialVideo: "Tutorial Video",
+    filters: "Filters",
+    applyFilters: "Apply Filters",
+    reset: "RESET",
+    blueprintId: "Blueprint ID",
+    loadingDetails: "Loading details...",
+    failedToLoad: "Failed to load details",
+    noDescription: "No description provided.",
+    agreement: "User Agreement",
+    tutorial: "Tutorial",
+    sponsorship: "Support",
+    showingResults: "Showing {visible} nearby cards of {total} results",
+    virtualizedHint: "Images load only near your current scroll position."
   },
   cn: {
     title: "RimWorld 蓝图库",
-    searchPlaceholder: "名称 / 作者 / ID...",
+    searchPlaceholder: "名称 / 作者...",
     sort: "排序",
+    timeRange: "时间",
     category: "分类",
     refresh: "刷新",
     refreshing: "正在刷新...",
@@ -55,16 +91,38 @@ export const TRANSLATIONS = {
     copied: "ID 已复制!",
     unknown: "未知",
     author: "作者",
+    sortPopularity: "综合人气",
     sortNewest: "最新发布",
-    sortScore: "综合推荐",
     sortDownloads: "最多下载",
-    sortLikes: "最多好评",
+    sortLikes: "最多点赞",
+    sortFeatured: "只看精选",
+    sortMedal: "只看勋章",
+    timeAll: "全部时间",
+    time7d: "7天内",
+    time15d: "15天内",
+    time30d: "30天内",
+    time3m: "3个月内",
+    time6m: "6个月内",
+    time1y: "1年内",
     error: "加载蓝图失败",
     empty: "未找到匹配的蓝图。",
     footer: "RimWorld 蓝图库",
     unofficial: "非官方社区工具。",
     imageMissing: "图片丢失",
     modsCount: "模组",
-    description: "描述"
+    description: "描述",
+    tutorialVideo: "教程视频",
+    filters: "筛选",
+    applyFilters: "应用筛选",
+    reset: "重置",
+    blueprintId: "蓝图 ID",
+    loadingDetails: "正在加载详情...",
+    failedToLoad: "加载详情失败",
+    noDescription: "暂无描述。",
+    agreement: "用户协议",
+    tutorial: "使用教程",
+    sponsorship: "赞助支持",
+    showingResults: "当前渲染附近 {visible} 张，共 {total} 个结果",
+    virtualizedHint: "图片仅在接近当前滚动位置时加载。"
   }
 };

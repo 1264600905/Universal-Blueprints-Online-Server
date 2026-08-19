@@ -1,20 +1,28 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# RimWorld Universal Blueprint Library (Web)
 
-# Run and deploy your AI Studio app
+This is the remote web frontend for the RimWorld Universal Blueprint Library.
 
-This contains everything you need to run your app locally.
+## Features
+- Displays a grid of blueprints with thumbnail, metadata, and statistics.
+- Sort by popularity, newest, downloads, likes, featured, and medals.
+- Filter by time range and category.
+- Search by name or author.
+- View detailed blueprint information dynamically fetched from XML files.
+- Full-screen image viewer.
+- Responsive design for mobile and desktop.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1mFfYZpnLzCXFwmgRUDqozxMUxuCx-bpg
+## Deployment
+This project is designed to be deployed to GitHub Pages.
 
-## Run Locally
+1. Ensure the `base` in `vite.config.ts` matches your repository name (e.g., `/Universal-Blueprints-Web/`).
+2. Push to the `main` branch.
+3. The GitHub Actions workflow (`.github/workflows/deploy.yml`) will automatically build and deploy to GitHub Pages.
 
-**Prerequisites:**  Node.js
+## Development
+```bash
+npm install
+npm run dev
+```
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Data Source
+It expects an `index.json` file to be present in the deployment root or fetches it remotely as a fallback. Detail data is loaded dynamically from XML files listed in `index.json`.

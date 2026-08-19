@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>RimWorld Universal Blueprint Library</title>
+    <title>RimWorld Universal Blueprint Library · v1.3</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -11,41 +11,87 @@
           extend: {
             colors: {
               rim: {
-                dark: '#111111',
-                panel: '#1e1e1e',
-                card: '#2b2b2b',
-                border: '#444444',
-                green: '#67c26c',
-                greenHover: '#58a85c',
-                orange: '#d68a28',
-                text: '#dddddd',
-                muted: '#888888'
+                dark: '#0f1115',
+                panel: '#16191f',
+                card: '#1c1f26',
+                border: '#2d323b',
+                green: '#4ade80',
+                greenHover: '#22c55e',
+                orange: '#fb923c',
+                text: '#e2e8f0',
+                muted: '#94a3b8'
               }
             },
             fontFamily: {
-              sans: ['Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif'],
+              sans: ['Inter', 'Segoe UI', 'system-ui', 'sans-serif'],
+              mono: ['Fira Code', 'Consolas', 'monospace']
             }
           }
         }
       }
     </script>
     <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap');
+      
       body {
-        background-color: #111111;
-        color: #dddddd;
+        background-color: #0f1115;
+        color: #e2e8f0;
       }
+      @keyframes shimmer {
+        100% { transform: translateX(250%); }
+      }
+      .agreement-content {
+        overflow-wrap: anywhere;
+      }
+      .agreement-content h1,
+      .agreement-content h2,
+      .agreement-content h3,
+      .agreement-content h4 {
+        color: #fff;
+        font-weight: 700;
+        line-height: 1.3;
+        margin: 1.8em 0 0.7em;
+      }
+      .agreement-content h1 { font-size: 1.9rem; }
+      .agreement-content h2 { font-size: 1.5rem; border-bottom: 1px solid #2d323b; padding-bottom: .45em; }
+      .agreement-content h3 { font-size: 1.2rem; color: #4ade80; }
+      .agreement-content h4 { font-size: 1rem; color: #fb923c; }
+      .agreement-content h1:first-child { margin-top: 0; }
+      .agreement-content p,
+      .agreement-content li { color: #cbd5e1; line-height: 1.85; }
+      .agreement-content p { margin: 1em 0; }
+      .agreement-content ul,
+      .agreement-content ol { padding-left: 1.5rem; margin: 1em 0; }
+      .agreement-content li { padding-left: .25rem; margin: .35em 0; }
+      .agreement-content strong { color: #fff; }
+      .agreement-content a { color: #fb923c; text-decoration: underline; text-underline-offset: 3px; }
+      .agreement-content blockquote { border-left: 3px solid #4ade80; margin: 1.2em 0; padding: .25rem 1rem; background: rgba(74,222,128,.06); }
+      .agreement-content hr { border: 0; border-top: 1px solid #2d323b; margin: 2rem 0; }
+      .agreement-content code { color: #86efac; background: rgba(0,0,0,.35); border-radius: .3rem; padding: .15rem .35rem; font-family: 'Fira Code', Consolas, monospace; font-size: .9em; }
+      .agreement-content pre { overflow-x: auto; background: #0a0a0c; border: 1px solid rgba(255,255,255,.08); border-radius: .75rem; padding: 1rem; }
+      .agreement-content pre code { background: transparent; padding: 0; }
+      .agreement-content table { display: block; width: 100%; overflow-x: auto; border-collapse: collapse; margin: 1.2em 0; }
+      .agreement-content th,
+      .agreement-content td { border: 1px solid #2d323b; padding: .65rem .8rem; text-align: left; white-space: nowrap; }
+      .agreement-content th { color: #fff; background: rgba(255,255,255,.06); }
+      .agreement-content td { color: #cbd5e1; }
       /* Custom scrollbar for that industrial feel */
       ::-webkit-scrollbar {
-        width: 10px;
+        width: 8px;
+        height: 8px;
       }
       ::-webkit-scrollbar-track {
-        background: #1e1e1e;
+        background: #0f1115;
       }
       ::-webkit-scrollbar-thumb {
-        background: #444444;
+        background: #2d323b;
+        border-radius: 4px;
       }
       ::-webkit-scrollbar-thumb:hover {
-        background: #555555;
+        background: #475569;
+      }
+      .custom-scrollbar::-webkit-scrollbar-track {
+        background: transparent;
       }
     </style>
   <script type="importmap">
