@@ -1,14 +1,14 @@
 <PrefabDef>
-  <defName>Prefab_20260823_004355</defName>
-  <size>(16,12)</size>
+  <defName>Prefab_20260823_004419</defName>
+  <size>(12,12)</size>
   <extraInfo>
     <version>1.6.9676.17735</version>
-    <name>豪宅A</name>
+    <name>豪宅C</name>
     <description>一座較大的豪宅，容納居民為1人(配偶或是情人關係時為2人)。</description>
     <tags></tags>
     <author>黑龍月</author>
     <category>現代城鎮</category>
-    <BuildingID>e30421a6-9a9e-4da6-8347-1ae0a35914a4</BuildingID>
+    <BuildingID>31fe5bb9-dd2b-4cdc-a1d6-fb690a1b231d</BuildingID>
     <modPackages>
       <mod>
         <packageId>rebuild.cotr.doorsandcorners</packageId>
@@ -28,7 +28,6 @@
         </dependencies>
         <things>
           <li>RB_DoubleAutodoor</li>
-          <li>RB_FinePlankWood</li>
         </things>
       </mod>
       <mod>
@@ -50,7 +49,8 @@
         <things>
           <li>VFE_RoyalLamp</li>
           <li>Table_Royal2x4c</li>
-          <li>VFE_LongPlantPot</li>
+          <li>VFE_CoffeeTable</li>
+          <li>Joy_ModernComputer</li>
         </things>
       </mod>
       <mod>
@@ -70,10 +70,11 @@
           </li>
         </dependencies>
         <things>
-          <li>Bed_AdvDoubleBed</li>
           <li>VFES_TelevisionSpeaker</li>
-          <li>VFES_ModernCouch</li>
           <li>VFES_WallMountedTelevision</li>
+          <li>VFES_ModernCouch</li>
+          <li>Bed_AdvDoubleBed</li>
+          <li>VFES_ModernArmchair</li>
         </things>
       </mod>
       <mod>
@@ -112,12 +113,11 @@
         <steamWorkshopId>836308268</steamWorkshopId>
         <things>
           <li>ShowerAdvStuff</li>
-          <li>BathtubStuff</li>
-          <li>sewagePipeHidden</li>
           <li>BathMat</li>
+          <li>BathtubStuff</li>
           <li>BasinStuff</li>
           <li>ToiletAdvStuff</li>
-          <li>sewagePipeStuff</li>
+          <li>sewagePipeHidden</li>
           <li>DBHMosaicTile</li>
         </things>
       </mod>
@@ -144,13 +144,13 @@
     </modPackages>
     <foldGroup>
       <groupKey>豪宅</groupKey>
-      <displayOrder>0</displayOrder>
-      <isCover>true</isCover>
+      <displayOrder>2</displayOrder>
+      <isCover>false</isCover>
     </foldGroup>
     <multiLanguage>
       <name>
-        <default>豪宅A</default>
-        <zh-CN>豪宅A</zh-CN>
+        <default>豪宅C</default>
+        <zh-CN>豪宅C</zh-CN>
       </name>
       <description>
         <default>一座較大的豪宅，容納居民為1人(配偶或是情人關係時為2人)。</default>
@@ -161,19 +161,18 @@
   <things>
     <Wall>
       <rects>
-        <li>(0,0,5,0)</li>
-        <li>(8,0,15,0)</li>
-        <li>(0,1,0,6)</li>
-        <li>(10,1,10,1)</li>
-        <li>(15,1,15,11)</li>
-        <li>(10,3,10,5)</li>
-        <li>(11,5,14,5)</li>
-        <li>(1,6,5,6)</li>
-        <li>(11,6,11,7)</li>
-        <li>(5,7,5,11)</li>
-        <li>(11,9,11,11)</li>
-        <li>(6,11,10,11)</li>
-        <li>(12,11,14,11)</li>
+        <li>(0,0,6,0)</li>
+        <li>(9,0,11,0)</li>
+        <li>(0,1,0,11)</li>
+        <li>(11,1,11,11)</li>
+        <li>(1,7,4,7)</li>
+        <li>(6,7,7,7)</li>
+        <li>(9,7,10,7)</li>
+        <li>(6,8,6,11)</li>
+        <li>(4,9,4,11)</li>
+        <li>(1,11,3,11)</li>
+        <li>(5,11,5,11)</li>
+        <li>(7,11,10,11)</li>
       </rects>
       <stuff>BlocksMarble</stuff>
       <colorDef>Structure_White</colorDef>
@@ -181,17 +180,13 @@
     </Wall>
     <HiddenConduit>
       <rects>
-        <li>(5,0,8,0)</li>
-        <li>(6,1,6,3)</li>
-        <li>(0,3,5,3)</li>
-        <li>(7,3,9,3)</li>
-        <li>(9,4,9,8)</li>
-        <li>(10,8,15,8)</li>
+        <li>(7,0,7,6)</li>
+        <li>(4,6,6,6)</li>
       </rects>
       <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
     </HiddenConduit>
     <RB_DoubleAutodoor>
-      <position>(6, 0, 0)</position>
+      <position>(7, 0, 0)</position>
       <stuff>BlocksMarble</stuff>
       <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
     </RB_DoubleAutodoor>
@@ -199,241 +194,257 @@
       <rects>
         <li>(1,1,1,1)</li>
         <li>(9,1,9,1)</li>
-        <li>(11,1,11,1)</li>
-        <li>(8,10,8,10)</li>
+        <li>(5,10,5,10)</li>
       </rects>
     </VFE_RoyalLamp>
-    <Bed_AdvDoubleBed>
-      <position>(13, 0, 1)</position>
-      <relativeRotation>Counterclockwise</relativeRotation>
-      <stuff>WoodLog</stuff>
-      <quality>Normal</quality>
-      <colorDef>Structure_White</colorDef>
-      <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
-    </Bed_AdvDoubleBed>
-    <VFE_RoyalWardrobe>
-      <position>(14, 0, 1)</position>
-      <relativeRotation>Counterclockwise</relativeRotation>
-      <stuff>WoodLog</stuff>
-      <quality>Normal</quality>
-      <colorDef>Structure_White</colorDef>
-      <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
-    </VFE_RoyalWardrobe>
     <VFES_TelevisionSpeaker>
       <rects>
-        <li>(1,2,1,2)</li>
-        <li>(1,5,1,5)</li>
+        <li>(2,1,2,1)</li>
+        <li>(5,1,5,1)</li>
       </rects>
-      <relativeRotation>Clockwise</relativeRotation>
     </VFES_TelevisionSpeaker>
+    <VFES_WallMountedTelevision>
+      <position>(4, 0, 1)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </VFES_WallMountedTelevision>
+    <PlantPot>
+      <rects>
+        <li>(10,1,10,1)</li>
+        <li>(1,2,1,2)</li>
+        <li>(6,2,6,2)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <colorDef>Structure_White</colorDef>
+      <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
+    </PlantPot>
+    <VFES_ModernCouch>
+      <positions>
+        <li>(2, 0, 2)</li>
+        <li>(4, 0, 2)</li>
+      </positions>
+      <stuff>Cloth</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </VFES_ModernCouch>
+    <VFES_ModernCouch>
+      <position>(1, 0, 4)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </VFES_ModernCouch>
     <Table_Royal2x4c>
-      <position>(3, 0, 3)</position>
+      <position>(4, 0, 3)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
       <stuff>BlocksMarble</stuff>
       <quality>Normal</quality>
       <colorDef>Structure_White</colorDef>
       <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
     </Table_Royal2x4c>
     <VFES_ModernCouch>
-      <positions>
-        <li>(5, 0, 2)</li>
-        <li>(5, 0, 4)</li>
-        <li>(9, 0, 7)</li>
-      </positions>
+      <position>(6, 0, 3)</position>
       <relativeRotation>Counterclockwise</relativeRotation>
       <stuff>Cloth</stuff>
       <quality>Normal</quality>
       <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
     </VFES_ModernCouch>
+    <VFE_CoffeeTable>
+      <positions>
+        <li>(9, 0, 3)</li>
+        <li>(9, 0, 5)</li>
+      </positions>
+      <stuff>BlocksMarble</stuff>
+      <quality>Normal</quality>
+      <colorDef>Structure_White</colorDef>
+      <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
+    </VFE_CoffeeTable>
+    <VFES_ModernCouch>
+      <positions>
+        <li>(10, 0, 4)</li>
+        <li>(3, 0, 5)</li>
+        <li>(5, 0, 5)</li>
+        <li>(10, 0, 6)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </VFES_ModernCouch>
+    <ReelStorageNewFridge>
+      <position>(1, 0, 6)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <colorDef>Structure_White</colorDef>
+      <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
+    </ReelStorageNewFridge>
     <Door>
       <rects>
-        <li>(10,2,10,2)</li>
-        <li>(11,8,11,8)</li>
+        <li>(8,7,8,7)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+      <colorDef>Structure_White</colorDef>
+      <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
+    </Door>
+    <ShowerAdvStuff>
+      <rects>
+        <li>(1,8,1,8)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+    </ShowerAdvStuff>
+    <WallLamp>
+      <rects>
+        <li>(2,8,2,8)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </WallLamp>
+    <BathMat>
+      <rects>
+        <li>(3,8,3,8)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Cloth</stuff>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </BathMat>
+    <Door>
+      <rects>
+        <li>(4,8,4,8)</li>
       </rects>
       <relativeRotation>Clockwise</relativeRotation>
       <stuff>BlocksMarble</stuff>
       <colorDef>Structure_White</colorDef>
       <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
     </Door>
-    <VFES_WallMountedTelevision>
-      <position>(1, 0, 3)</position>
-      <relativeRotation>Counterclockwise</relativeRotation>
-    </VFES_WallMountedTelevision>
-    <ReelStorageNewFridge>
-      <position>(9, 0, 3)</position>
-      <relativeRotation>Counterclockwise</relativeRotation>
-    </ReelStorageNewFridge>
-    <Table1x2c>
-      <position>(12, 0, 4)</position>
-      <relativeRotation>Counterclockwise</relativeRotation>
-      <stuff>WoodLog</stuff>
-      <quality>Normal</quality>
-      <colorDef>Structure_White</colorDef>
-      <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
-    </Table1x2c>
-    <Dresser>
-      <position>(14, 0, 4)</position>
-      <relativeRotation>Opposite</relativeRotation>
-      <stuff>WoodLog</stuff>
-      <quality>Normal</quality>
-      <colorDef>Structure_White</colorDef>
-      <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
-    </Dresser>
-    <VFES_ModernCouch>
-      <position>(7, 0, 6)</position>
-      <stuff>Cloth</stuff>
-      <quality>Normal</quality>
-      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
-    </VFES_ModernCouch>
-    <ShowerAdvStuff>
-      <rects>
-        <li>(12,6,12,6)</li>
-      </rects>
-      <relativeRotation>Opposite</relativeRotation>
-      <stuff>Steel</stuff>
-    </ShowerAdvStuff>
-    <BathtubStuff>
-      <position>(13, 0, 6)</position>
-      <relativeRotation>Clockwise</relativeRotation>
-      <stuff>Steel</stuff>
-    </BathtubStuff>
-    <sewagePipeHidden>
-      <rects>
-        <li>(15,6,15,9)</li>
-        <li>(13,10,13,10)</li>
-      </rects>
-      <stuff>Steel</stuff>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </sewagePipeHidden>
-    <VFES_ModernCouch>
-      <position>(6, 0, 8)</position>
-      <relativeRotation>Clockwise</relativeRotation>
-      <stuff>Cloth</stuff>
-      <quality>Normal</quality>
-      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
-    </VFES_ModernCouch>
-    <PokerTable>
-      <position>(7, 0, 7)</position>
-      <stuff>WoodLog</stuff>
-      <quality>Normal</quality>
-      <colorDef>Structure_White</colorDef>
-      <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
-    </PokerTable>
-    <BathMat>
-      <rects>
-        <li>(12,8,12,8)</li>
-      </rects>
-      <relativeRotation>Clockwise</relativeRotation>
-      <stuff>Cloth</stuff>
-      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
-    </BathMat>
-    <VFES_ModernCouch>
-      <position>(8, 0, 9)</position>
-      <relativeRotation>Opposite</relativeRotation>
-      <stuff>Cloth</stuff>
-      <quality>Normal</quality>
-      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
-    </VFES_ModernCouch>
     <WallLamp>
       <rects>
-        <li>(14,9,14,9)</li>
+        <li>(7,8,7,8)</li>
       </rects>
-      <relativeRotation>Clockwise</relativeRotation>
+      <relativeRotation>Counterclockwise</relativeRotation>
       <stuff>BlocksMarble</stuff>
       <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
     </WallLamp>
-    <VFE_LongPlantPot>
-      <rects>
-        <li>(6,10,7,10)</li>
-        <li>(9,10,10,10)</li>
-      </rects>
+    <Bed_AdvDoubleBed>
+      <position>(10, 0, 9)</position>
+      <relativeRotation>Opposite</relativeRotation>
       <stuff>WoodLog</stuff>
       <quality>Normal</quality>
       <colorDef>Structure_White</colorDef>
       <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
-    </VFE_LongPlantPot>
+    </Bed_AdvDoubleBed>
+    <BathtubStuff>
+      <position>(1, 0, 9)</position>
+      <stuff>Steel</stuff>
+    </BathtubStuff>
+    <VFES_ModernArmchair>
+      <rects>
+        <li>(8,9,8,9)</li>
+      </rects>
+      <stuff>Cloth</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </VFES_ModernArmchair>
     <BasinStuff>
       <rects>
-        <li>(12,10,12,10)</li>
+        <li>(2,10,2,10)</li>
       </rects>
       <stuff>Steel</stuff>
     </BasinStuff>
     <ToiletAdvStuff>
       <rects>
-        <li>(14,10,14,10)</li>
+        <li>(3,10,3,10)</li>
       </rects>
       <stuff>Steel</stuff>
     </ToiletAdvStuff>
-    <sewagePipeStuff>
+    <Joy_ModernComputer>
+      <position>(8, 0, 10)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <colorDef>Structure_White</colorDef>
+      <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
+    </Joy_ModernComputer>
+    <Table_RoyalDresser>
+      <position>(10, 0, 10)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <colorDef>Structure_White</colorDef>
+      <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
+    </Table_RoyalDresser>
+    <sewagePipeHidden>
       <rects>
-        <li>(15,10,15,10)</li>
+        <li>(1,11,1,11)</li>
       </rects>
       <stuff>Steel</stuff>
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </sewagePipeStuff>
+    </sewagePipeHidden>
   </things>
   <terrain>
     <DBHMosaicTile>
       <rects>
-        <li>(12,6,14,10)</li>
-        <li>(11,8,11,8)</li>
+        <li>(1,8,4,8)</li>
+        <li>(1,9,3,10)</li>
       </rects>
     </DBHMosaicTile>
   </terrain>
   <terrainLayers>
     <terrainLayerDetail layer="topGrid">
-      <RB_FinePlankWood>
-        <rects>
-          <li>(6,0,6,0)</li>
-        </rects>
-      </RB_FinePlankWood>
       <VFEArch_WoodenParquet>
         <rects>
-          <li>(1,1,9,5)</li>
-          <li>(11,1,14,4)</li>
-          <li>(10,2,10,2)</li>
-          <li>(6,6,10,10)</li>
+          <li>(7,0,8,6)</li>
+          <li>(1,1,6,6)</li>
+          <li>(9,1,10,6)</li>
+          <li>(5,7,5,10)</li>
+          <li>(8,7,8,10)</li>
+          <li>(7,8,7,10)</li>
+          <li>(9,8,10,10)</li>
         </rects>
       </VFEArch_WoodenParquet>
       <DBHMosaicTile>
         <rects>
-          <li>(12,6,14,10)</li>
-          <li>(11,8,11,8)</li>
+          <li>(1,8,4,8)</li>
+          <li>(1,9,3,10)</li>
         </rects>
       </DBHMosaicTile>
     </terrainLayerDetail>
     <terrainLayerDetail layer="underGrid">
       <Soil>
         <rects>
-          <li>(6,0,6,10)</li>
-          <li>(4,1,5,4)</li>
-          <li>(7,1,9,10)</li>
-          <li>(11,1,14,4)</li>
-          <li>(10,2,10,2)</li>
-          <li>(5,5,5,5)</li>
-          <li>(10,6,10,10)</li>
-          <li>(12,6,14,10)</li>
-          <li>(11,8,11,8)</li>
+          <li>(7,0,8,5)</li>
+          <li>(1,1,6,4)</li>
+          <li>(9,1,10,6)</li>
+          <li>(1,5,4,5)</li>
+          <li>(1,6,3,6)</li>
+          <li>(1,8,3,8)</li>
+          <li>(1,9,1,9)</li>
         </rects>
       </Soil>
-      <Gravel>
+      <MossyTerrain>
         <rects>
-          <li>(1,1,3,5)</li>
-          <li>(4,5,4,5)</li>
+          <li>(5,5,6,6)</li>
+          <li>(4,6,4,6)</li>
+          <li>(7,6,8,6)</li>
+          <li>(5,7,5,10)</li>
+          <li>(8,7,8,10)</li>
+          <li>(4,8,4,8)</li>
+          <li>(7,8,7,10)</li>
+          <li>(9,8,10,10)</li>
+          <li>(2,9,3,10)</li>
+          <li>(1,10,1,10)</li>
         </rects>
-      </Gravel>
+      </MossyTerrain>
     </terrainLayerDetail>
   </terrainLayers>
   <roofs>
     <RoofConstructed>
       <rects>
-        <li>(0,0,15,6)</li>
-        <li>(5,7,15,11)</li>
+        <li>(0,0,11,11)</li>
       </rects>
     </RoofConstructed>
     <PlayerRoofZone>
       <rects>
-        <li>(0,0,15,6)</li>
-        <li>(5,7,15,11)</li>
+        <li>(0,0,11,11)</li>
       </rects>
     </PlayerRoofZone>
   </roofs>
