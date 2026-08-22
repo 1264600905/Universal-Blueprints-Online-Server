@@ -1,5 +1,5 @@
 <PrefabDef>
-  <defName>Prefab_20260822_001530</defName>
+  <defName>Prefab_20260823_000505</defName>
   <size>(16,12)</size>
   <extraInfo>
     <version>1.6.9676.17735</version>
@@ -7,14 +7,14 @@
     <description>一座較大的豪宅，容納居民為1人(配偶或是情人關係時為2人)。</description>
     <tags></tags>
     <author>黑龍月</author>
-    <category>宿舍</category>
+    <category>現代城鎮</category>
     <BuildingID>e30421a6-9a9e-4da6-8347-1ae0a35914a4</BuildingID>
     <modPackages>
       <mod>
         <packageId>vanillaexpanded.vfecore</packageId>
         <name>Vanilla Furniture Expanded</name>
         <version></version>
-        <modorder>144</modorder>
+        <modorder>71</modorder>
         <steamWorkshopId>1718190143</steamWorkshopId>
         <dependencies>
           <li>
@@ -36,7 +36,7 @@
         <packageId>vanillaexpanded.vfespacer</packageId>
         <name>Vanilla Furniture Expanded - Spacer Module</name>
         <version></version>
-        <modorder>152</modorder>
+        <modorder>80</modorder>
         <steamWorkshopId>2028381079</steamWorkshopId>
         <dependencies>
           <li>
@@ -56,10 +56,38 @@
         </things>
       </mod>
       <mod>
+        <packageId>reel.expanded.storage</packageId>
+        <name><![CDATA[Reel's Expanded Storage]]></name>
+        <version></version>
+        <modorder>307</modorder>
+        <steamWorkshopId>3237638097</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>adaptive.storage.framework</packageId>
+            <steamWorkshopId>3033901359</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>vanillaexpanded.vfepropsanddecor</packageId>
+            <steamWorkshopId>2102143149</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>ReelStorageNewFridge</li>
+        </things>
+      </mod>
+      <mod>
         <packageId>dubwise.dubsbadhygiene</packageId>
         <name>Dubs Bad Hygiene</name>
         <version>3.1.2800</version>
-        <modorder>43</modorder>
+        <modorder>42</modorder>
         <steamWorkshopId>836308268</steamWorkshopId>
         <things>
           <li>ShowerAdvStuff</li>
@@ -76,7 +104,7 @@
         <packageId>rebuild.cotr.doorsandcorners</packageId>
         <name>ReBuild: Doors and Corners</name>
         <version>1.5-Miller-rev1</version>
-        <modorder>222</modorder>
+        <modorder>220</modorder>
         <steamWorkshopId>3262718980</steamWorkshopId>
         <dependencies>
           <li>
@@ -127,14 +155,16 @@
         <li>(12,11,14,11)</li>
       </rects>
       <stuff>BlocksMarble</stuff>
-      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+      <colorDef>Structure_White</colorDef>
+      <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
     </Wall>
     <Door>
       <rects>
         <li>(6,0,6,0)</li>
       </rects>
       <stuff>BlocksMarble</stuff>
-      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+      <colorDef>Structure_White</colorDef>
+      <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
     </Door>
     <HiddenConduit>
       <rects>
@@ -159,14 +189,16 @@
       <relativeRotation>Counterclockwise</relativeRotation>
       <stuff>WoodLog</stuff>
       <quality>Normal</quality>
-      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+      <colorDef>Structure_White</colorDef>
+      <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
     </Bed_AdvDoubleBed>
     <VFE_RoyalWardrobe>
       <position>(14, 0, 1)</position>
       <relativeRotation>Counterclockwise</relativeRotation>
       <stuff>WoodLog</stuff>
       <quality>Normal</quality>
-      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+      <colorDef>Structure_White</colorDef>
+      <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
     </VFE_RoyalWardrobe>
     <VFES_TelevisionSpeaker>
       <rects>
@@ -179,7 +211,8 @@
       <position>(3, 0, 3)</position>
       <stuff>BlocksMarble</stuff>
       <quality>Normal</quality>
-      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+      <colorDef>Structure_White</colorDef>
+      <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
     </Table_Royal2x4c>
     <VFES_ModernCouch>
       <positions>
@@ -199,25 +232,32 @@
       </rects>
       <relativeRotation>Clockwise</relativeRotation>
       <stuff>BlocksMarble</stuff>
-      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+      <colorDef>Structure_White</colorDef>
+      <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
     </Door>
     <VFES_WallMountedTelevision>
       <position>(1, 0, 3)</position>
       <relativeRotation>Counterclockwise</relativeRotation>
     </VFES_WallMountedTelevision>
+    <ReelStorageNewFridge>
+      <position>(9, 0, 3)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </ReelStorageNewFridge>
     <Table1x2c>
       <position>(12, 0, 4)</position>
       <relativeRotation>Counterclockwise</relativeRotation>
       <stuff>WoodLog</stuff>
       <quality>Normal</quality>
-      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+      <colorDef>Structure_White</colorDef>
+      <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
     </Table1x2c>
     <Dresser>
       <position>(14, 0, 4)</position>
       <relativeRotation>Opposite</relativeRotation>
       <stuff>WoodLog</stuff>
       <quality>Normal</quality>
-      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+      <colorDef>Structure_White</colorDef>
+      <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
     </Dresser>
     <VFES_ModernCouch>
       <position>(7, 0, 6)</position>
@@ -256,7 +296,8 @@
       <position>(7, 0, 7)</position>
       <stuff>WoodLog</stuff>
       <quality>Normal</quality>
-      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+      <colorDef>Structure_White</colorDef>
+      <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
     </PokerTable>
     <BathMat>
       <rects>
@@ -288,7 +329,8 @@
       </rects>
       <stuff>WoodLog</stuff>
       <quality>Normal</quality>
-      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+      <colorDef>Structure_White</colorDef>
+      <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
     </VFE_LongPlantPot>
     <BasinStuff>
       <rects>
