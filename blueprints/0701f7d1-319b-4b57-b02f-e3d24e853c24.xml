@@ -1,0 +1,198 @@
+<PrefabDef>
+  <defName>Prefab_20260823_233152</defName>
+  <size>(14,14)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>种植厂</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>种植区</category>
+    <BuildingID>0701f7d1-319b-4b57-b02f-e3d24e853c24</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>kindseal.ufli</packageId>
+        <name>联合轻工家具拓展-UF Light Industries Furniture</name>
+        <version></version>
+        <modorder>123</modorder>
+        <steamWorkshopId>3651799915</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFLI_Wall_Cable</li>
+          <li>UFLI_2_Autodoor</li>
+          <li>UFLI_groundlight_line</li>
+          <li>UFLI_Column_sun</li>
+          <li>UFLI_TempControler</li>
+          <li>UFLI_FLOORJ</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>kindseal.ufpc</packageId>
+        <name>联合重工派系拓展-UFPC</name>
+        <version></version>
+        <modorder>122</modorder>
+        <steamWorkshopId>3698316804</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>kindseal.lol</packageId>
+            <steamWorkshopId>3555662938</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+          <li>
+            <packageId>dizhuan.sralib</packageId>
+            <steamWorkshopId>3565275325</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFC_2X3_Hydroponics_Super_nolight</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>种植厂</default>
+        <zh-CN>种植厂</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <UFLI_Wall_Cable>
+      <rects>
+        <li>(0,0,5,0)</li>
+        <li>(8,0,13,0)</li>
+        <li>(0,1,0,13)</li>
+        <li>(13,1,13,13)</li>
+        <li>(1,13,12,13)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Wall_Cable>
+    <UFLI_2_Autodoor>
+      <position>(6, 0, 0)</position>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_2_Autodoor>
+    <UFC_2X3_Hydroponics_Super_nolight>
+      <positions>
+        <li>(2, 0, 2)</li>
+        <li>(12, 0, 4)</li>
+        <li>(2, 0, 9)</li>
+        <li>(9, 0, 9)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </UFC_2X3_Hydroponics_Super_nolight>
+    <UFC_2X3_Hydroponics_Super_nolight>
+      <positions>
+        <li>(4, 0, 2)</li>
+        <li>(9, 0, 5)</li>
+        <li>(4, 0, 9)</li>
+        <li>(11, 0, 9)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+    </UFC_2X3_Hydroponics_Super_nolight>
+    <UFLI_groundlight_line>
+      <rects>
+        <li>(6,1,6,5)</li>
+        <li>(7,6,7,7)</li>
+        <li>(6,8,6,12)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </UFLI_groundlight_line>
+    <UFLI_groundlight_line>
+      <rects>
+        <li>(7,1,7,5)</li>
+        <li>(6,6,6,7)</li>
+        <li>(7,8,7,12)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </UFLI_groundlight_line>
+    <UFC_2X3_Hydroponics_Super_nolight>
+      <positions>
+        <li>(8, 0, 2)</li>
+        <li>(4, 0, 4)</li>
+        <li>(4, 0, 11)</li>
+        <li>(11, 0, 11)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+    </UFC_2X3_Hydroponics_Super_nolight>
+    <UFC_2X3_Hydroponics_Super_nolight>
+      <positions>
+        <li>(11, 0, 1)</li>
+        <li>(2, 0, 4)</li>
+        <li>(2, 0, 11)</li>
+        <li>(9, 0, 11)</li>
+      </positions>
+    </UFC_2X3_Hydroponics_Super_nolight>
+    <UFLI_Column_sun>
+      <rects>
+        <li>(3,3,3,3)</li>
+        <li>(10,3,10,3)</li>
+        <li>(3,10,3,10)</li>
+        <li>(10,10,10,10)</li>
+      </rects>
+    </UFLI_Column_sun>
+    <UFLI_groundlight_line>
+      <rects>
+        <li>(1,6,5,6)</li>
+        <li>(8,6,12,6)</li>
+        <li>(6,7,7,7)</li>
+      </rects>
+    </UFLI_groundlight_line>
+    <UFLI_groundlight_line>
+      <rects>
+        <li>(6,6,7,6)</li>
+        <li>(1,7,5,7)</li>
+        <li>(8,7,12,7)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </UFLI_groundlight_line>
+    <UFLI_TempControler>
+      <rects>
+        <li>(7,12,7,12)</li>
+      </rects>
+    </UFLI_TempControler>
+  </things>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <UFLI_FLOORJ>
+        <rects>
+          <li>(6,0,7,12)</li>
+          <li>(1,1,5,12)</li>
+          <li>(8,1,12,12)</li>
+        </rects>
+      </UFLI_FLOORJ>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(6,0,7,12)</li>
+          <li>(1,1,5,12)</li>
+          <li>(8,1,12,12)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,13,13)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,13,13)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
