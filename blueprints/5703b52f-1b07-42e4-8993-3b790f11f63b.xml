@@ -1,14 +1,14 @@
 <PrefabDef>
-  <defName>Prefab_20260823_205409</defName>
-  <size>(9,6)</size>
+  <defName>Prefab_20260823_205708</defName>
+  <size>(9,9)</size>
   <extraInfo>
     <version>1.6.9676.17735</version>
-    <name>直線現代道路</name>
-    <description>一條直線的道路。</description>
+    <name>現代道路十字路口</name>
+    <description>一條十字路口的道路。</description>
     <tags></tags>
     <author>黑龍月</author>
     <category>現代城鎮</category>
-    <BuildingID>6f681ca5-ae3a-445a-bb07-5a1f0b1b3a8f</BuildingID>
+    <BuildingID>5703b52f-1b07-42e4-8993-3b790f11f63b</BuildingID>
     <modPackages>
       <mod>
         <packageId>vanillaexpanded.vfearchitect</packageId>
@@ -33,17 +33,17 @@
     </modPackages>
     <foldGroup>
       <groupKey>道路</groupKey>
-      <displayOrder>0</displayOrder>
-      <isCover>true</isCover>
+      <displayOrder>1</displayOrder>
+      <isCover>false</isCover>
     </foldGroup>
     <multiLanguage>
       <name>
-        <default>直線現代道路</default>
-        <zh-CN>直線現代道路</zh-CN>
+        <default>現代道路十字路口</default>
+        <zh-CN>現代道路十字路口</zh-CN>
       </name>
       <description>
-        <default>一條直線的道路。</default>
-        <zh-CN>一條直線的道路。</zh-CN>
+        <default>一條十字路口的道路。</default>
+        <zh-CN>一條十字路口的道路。</zh-CN>
       </description>
     </multiLanguage>
   </extraInfo>
@@ -51,8 +51,14 @@
   <terrain>
     <PavedTile>
       <rects>
-        <li>(1,0,1,5)</li>
-        <li>(7,0,7,5)</li>
+        <li>(1,0,1,1)</li>
+        <li>(7,0,7,1)</li>
+        <li>(0,1,0,1)</li>
+        <li>(8,1,8,1)</li>
+        <li>(0,7,1,7)</li>
+        <li>(7,7,8,7)</li>
+        <li>(1,8,1,8)</li>
+        <li>(7,8,7,8)</li>
       </rects>
     </PavedTile>
   </terrain>
@@ -60,37 +66,51 @@
     <terrainLayerDetail layer="topGrid">
       <Concrete>
         <rects>
-          <li>(0,0,0,5)</li>
-          <li>(8,0,8,5)</li>
+          <li>(0,0,0,0)</li>
+          <li>(8,0,8,0)</li>
+          <li>(0,8,0,8)</li>
+          <li>(8,8,8,8)</li>
         </rects>
       </Concrete>
       <PavedTile>
         <rects>
-          <li>(1,0,1,5)</li>
-          <li>(7,0,7,5)</li>
+          <li>(1,0,1,1)</li>
+          <li>(7,0,7,1)</li>
+          <li>(0,1,0,1)</li>
+          <li>(8,1,8,1)</li>
+          <li>(0,7,1,7)</li>
+          <li>(7,7,8,7)</li>
+          <li>(1,8,1,8)</li>
+          <li>(7,8,7,8)</li>
         </rects>
       </PavedTile>
       <VFEArch_Asphalt>
         <rects>
-          <li>(2,0,6,5)</li>
+          <li>(2,0,6,8)</li>
+          <li>(0,2,1,6)</li>
+          <li>(7,2,8,6)</li>
         </rects>
       </VFEArch_Asphalt>
     </terrainLayerDetail>
     <terrainLayerDetail layer="underGrid">
-      <Soil>
-        <rects>
-          <li>(0,0,0,5)</li>
-          <li>(8,0,8,4)</li>
-        </rects>
-      </Soil>
       <MossyTerrain>
         <rects>
-          <li>(1,0,7,5)</li>
+          <li>(0,0,1,1)</li>
+          <li>(0,2,0,2)</li>
+          <li>(1,3,7,8)</li>
         </rects>
       </MossyTerrain>
+      <Soil>
+        <rects>
+          <li>(2,0,8,2)</li>
+          <li>(1,2,1,2)</li>
+          <li>(0,3,0,8)</li>
+          <li>(8,3,8,7)</li>
+        </rects>
+      </Soil>
       <Gravel>
         <rects>
-          <li>(8,5,8,5)</li>
+          <li>(8,8,8,8)</li>
         </rects>
       </Gravel>
     </terrainLayerDetail>
