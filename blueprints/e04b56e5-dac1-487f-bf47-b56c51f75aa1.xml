@@ -1,10 +1,10 @@
 <PrefabDef>
-  <defName>Prefab_20260823_005406</defName>
+  <defName>Prefab_20260824_203528</defName>
   <size>(11,9)</size>
   <extraInfo>
     <version>1.6.9676.17735</version>
     <name>公共廁所</name>
-    <description>一座公寓的房間，與其他公寓模塊搭配就能建造大公寓，容納居民為1人(配偶或是情人關係時為2人)。</description>
+    <description>現代公共廁所，分了男廁與女廁。</description>
     <tags></tags>
     <author>黑龍月</author>
     <category>現代城鎮</category>
@@ -36,15 +36,17 @@
         <zh-CN>公共廁所</zh-CN>
       </name>
       <description>
-        <default>一座公寓的房間，與其他公寓模塊搭配就能建造大公寓，容納居民為1人(配偶或是情人關係時為2人)。</default>
-        <zh-CN>一座公寓的房間，與其他公寓模塊搭配就能建造大公寓，容納居民為1人(配偶或是情人關係時為2人)。</zh-CN>
+        <default>現代公共廁所，分了男廁與女廁。</default>
+        <zh-CN>現代公共廁所，分了男廁與女廁。</zh-CN>
       </description>
     </multiLanguage>
   </extraInfo>
   <things>
     <Wall>
       <rects>
-        <li>(0,0,10,0)</li>
+        <li>(0,0,2,0)</li>
+        <li>(4,0,6,0)</li>
+        <li>(8,0,10,0)</li>
         <li>(0,1,0,8)</li>
         <li>(5,1,5,8)</li>
         <li>(10,1,10,8)</li>
@@ -54,14 +56,20 @@
         <li>(8,4,9,4)</li>
         <li>(1,6,2,6)</li>
         <li>(8,6,9,6)</li>
-        <li>(1,8,2,8)</li>
-        <li>(4,8,4,8)</li>
-        <li>(6,8,6,8)</li>
-        <li>(8,8,9,8)</li>
+        <li>(1,8,4,8)</li>
+        <li>(6,8,9,8)</li>
       </rects>
       <stuff>BlocksMarble</stuff>
       <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
     </Wall>
+    <Door>
+      <rects>
+        <li>(3,0,3,0)</li>
+        <li>(7,0,7,0)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </Door>
     <HiddenConduit>
       <rects>
         <li>(5,0,5,8)</li>
@@ -71,11 +79,11 @@
     <sewagePipeHidden>
       <rects>
         <li>(0,1,0,7)</li>
-        <li>(2,1,8,1)</li>
+        <li>(2,1,3,1)</li>
+        <li>(5,1,5,1)</li>
+        <li>(7,1,8,1)</li>
         <li>(10,1,10,7)</li>
-        <li>(2,7,3,7)</li>
-        <li>(5,7,5,7)</li>
-        <li>(7,7,8,7)</li>
+        <li>(2,7,8,7)</li>
       </rects>
       <stuff>Steel</stuff>
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
@@ -105,6 +113,13 @@
       <stuff>Steel</stuff>
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </ToiletStallDoor>
+    <Fountain>
+      <rects>
+        <li>(4,1,4,2)</li>
+        <li>(6,1,6,2)</li>
+      </rects>
+      <stuff>Steel</stuff>
+    </Fountain>
     <WallLamp>
       <rects>
         <li>(4,1,4,1)</li>
@@ -133,37 +148,22 @@
       <relativeRotation>Clockwise</relativeRotation>
       <stuff>Steel</stuff>
     </ToiletAdvStuff>
-    <Fountain>
-      <rects>
-        <li>(4,6,4,7)</li>
-        <li>(6,6,6,7)</li>
-      </rects>
-      <stuff>Steel</stuff>
-    </Fountain>
-    <Door>
-      <rects>
-        <li>(3,8,3,8)</li>
-        <li>(7,8,7,8)</li>
-      </rects>
-      <stuff>BlocksMarble</stuff>
-      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
-    </Door>
   </things>
   <terrain>
     <DBHMosaicTile>
       <rects>
-        <li>(1,1,4,1)</li>
-        <li>(6,1,9,1)</li>
-        <li>(3,2,4,7)</li>
-        <li>(6,2,7,7)</li>
+        <li>(3,0,3,7)</li>
+        <li>(7,0,7,7)</li>
+        <li>(1,1,2,1)</li>
+        <li>(4,1,4,7)</li>
+        <li>(6,1,6,7)</li>
+        <li>(8,1,9,1)</li>
         <li>(1,3,2,3)</li>
         <li>(8,3,9,3)</li>
         <li>(1,5,2,5)</li>
         <li>(8,5,9,5)</li>
         <li>(1,7,2,7)</li>
         <li>(8,7,9,7)</li>
-        <li>(3,8,3,8)</li>
-        <li>(7,8,7,8)</li>
       </rects>
     </DBHMosaicTile>
   </terrain>
@@ -171,46 +171,47 @@
     <terrainLayerDetail layer="topGrid">
       <DBHMosaicTile>
         <rects>
-          <li>(1,1,4,1)</li>
-          <li>(6,1,9,1)</li>
-          <li>(3,2,4,7)</li>
-          <li>(6,2,7,7)</li>
+          <li>(3,0,3,7)</li>
+          <li>(7,0,7,7)</li>
+          <li>(1,1,2,1)</li>
+          <li>(4,1,4,7)</li>
+          <li>(6,1,6,7)</li>
+          <li>(8,1,9,1)</li>
           <li>(1,3,2,3)</li>
           <li>(8,3,9,3)</li>
           <li>(1,5,2,5)</li>
           <li>(8,5,9,5)</li>
           <li>(1,7,2,7)</li>
           <li>(8,7,9,7)</li>
-          <li>(3,8,3,8)</li>
-          <li>(7,8,7,8)</li>
         </rects>
       </DBHMosaicTile>
     </terrainLayerDetail>
     <terrainLayerDetail layer="underGrid">
-      <MossyTerrain>
-        <rects>
-          <li>(1,1,4,1)</li>
-          <li>(6,1,7,1)</li>
-          <li>(3,2,4,6)</li>
-          <li>(6,2,6,2)</li>
-          <li>(1,3,2,3)</li>
-          <li>(1,5,2,5)</li>
-          <li>(1,7,1,7)</li>
-          <li>(9,7,9,7)</li>
-        </rects>
-      </MossyTerrain>
       <Soil>
         <rects>
-          <li>(8,1,9,1)</li>
-          <li>(7,2,7,8)</li>
-          <li>(6,3,6,7)</li>
-          <li>(8,3,9,3)</li>
-          <li>(8,5,9,5)</li>
-          <li>(2,7,4,7)</li>
-          <li>(8,7,8,7)</li>
-          <li>(3,8,3,8)</li>
+          <li>(3,0,3,6)</li>
+          <li>(7,0,7,1)</li>
+          <li>(2,1,2,1)</li>
+          <li>(4,1,4,5)</li>
+          <li>(6,1,6,1)</li>
+          <li>(8,1,8,1)</li>
+          <li>(1,3,2,3)</li>
+          <li>(1,5,2,5)</li>
+          <li>(1,7,2,7)</li>
         </rects>
       </Soil>
+      <MossyTerrain>
+        <rects>
+          <li>(1,1,1,1)</li>
+          <li>(9,1,9,1)</li>
+          <li>(6,2,7,7)</li>
+          <li>(8,3,9,3)</li>
+          <li>(8,5,9,5)</li>
+          <li>(4,6,4,7)</li>
+          <li>(3,7,3,7)</li>
+          <li>(8,7,9,7)</li>
+        </rects>
+      </MossyTerrain>
     </terrainLayerDetail>
   </terrainLayers>
   <roofs>
