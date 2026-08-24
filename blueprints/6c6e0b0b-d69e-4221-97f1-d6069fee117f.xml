@@ -1,13 +1,12 @@
 <PrefabDef>
-  <defName>Prefab_20260824_204101</defName>
+  <defName>Prefab_20260824_210913</defName>
   <size>(8,21)</size>
   <extraInfo>
     <version>1.6.9676.17735</version>
-    <name>現代城鎮邊境入口管制站</name>
-    <description>在惡名昭彰的邊緣世界中的城鎮，想要近來城鎮必須授權，未授權者一律當場開火處決！</description>
-    <tags>
-      <li>FullExport</li>
-    </tags>
+    <name>現代城鎮邊境入口管制站 </name>
+    <description>在惡名昭彰的邊緣世界中的城鎮如果要進來必須授權申請，未授權者一律當場開火處決！
+</description>
+    <tags></tags>
     <author>黑龍月</author>
     <category>現代城鎮</category>
     <BuildingID>6c6e0b0b-d69e-4221-97f1-d6069fee117f</BuildingID>
@@ -55,6 +54,27 @@
           <li>VFEArch_ArmoredWall</li>
           <li>VFEArch_ArmoredDoor</li>
           <li>VFEArch_Asphalt</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>reel.turretpipeline</packageId>
+        <name><![CDATA[Reel's Turret Pipeline]]></name>
+        <version></version>
+        <modorder>342</modorder>
+        <steamWorkshopId>3424132769</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Reel_AmmoPipe</li>
+          <li>Reel_SubAmmoPipe</li>
         </things>
       </mod>
       <mod>
@@ -111,20 +131,19 @@
     <foldGroup>
       <groupKey>城鎮邊境防禦</groupKey>
       <displayOrder>0</displayOrder>
-      <isCover>true</isCover>
+      <isCover>false</isCover>
     </foldGroup>
     <multiLanguage>
       <name>
-        <default>現代城鎮邊境入口管制站</default>
-        <zh-CN>現代城鎮邊境入口管制站</zh-CN>
+        <default>現代城鎮邊境入口管制站 </default>
+        <zh-CN>現代城鎮邊境入口管制站 </zh-CN>
       </name>
       <description>
-        <default>在惡名昭彰的邊緣世界中的城鎮，想要近來城鎮必須授權，未授權者一律當場開火處決！</default>
-        <zh-CN>在惡名昭彰的邊緣世界中的城鎮，想要近來城鎮必須授權，未授權者一律當場開火處決！</zh-CN>
+        <default>在惡名昭彰的邊緣世界中的城鎮如果要進來必須授權申請，未授權者一律當場開火處決！
+</default>
+        <zh-CN>在惡名昭彰的邊緣世界中的城鎮如果要進來必須授權申請，未授權者一律當場開火處決！
+</zh-CN>
       </description>
-      <tags>
-        <default>FullExport</default>
-      </tags>
     </multiLanguage>
   </extraInfo>
   <things>
@@ -150,6 +169,12 @@
       <stuff>Steel</stuff>
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </VFEArch_ArmoredWall>
+    <Reel_AmmoPipe>
+      <rects>
+        <li>(3,0,3,7)</li>
+        <li>(3,13,3,20)</li>
+      </rects>
+    </Reel_AmmoPipe>
     <HiddenConduit>
       <rects>
         <li>(0,3,0,3)</li>
@@ -235,9 +260,14 @@
         <li>(4, 0, 13)</li>
       </positions>
     </VFES_Turret_AutocannonDouble>
+    <Reel_SubAmmoPipe>
+      <rects>
+        <li>(3,8,3,12)</li>
+      </rects>
+    </Reel_SubAmmoPipe>
     <IsolationGate_5x1_Closed>
       <position>(3, 0, 10)</position>
-      <relativeRotation>Counterclockwise</relativeRotation>
+      <relativeRotation>Clockwise</relativeRotation>
       <stuff>Steel</stuff>
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </IsolationGate_5x1_Closed>
