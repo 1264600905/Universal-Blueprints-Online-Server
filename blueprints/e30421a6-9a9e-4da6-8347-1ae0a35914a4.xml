@@ -1,5 +1,5 @@
 <PrefabDef>
-  <defName>Prefab_20260823_213742</defName>
+  <defName>Prefab_20260826_234049</defName>
   <size>(16,12)</size>
   <extraInfo>
     <version>1.6.9676.17735</version>
@@ -10,6 +10,27 @@
     <category>現代城鎮</category>
     <BuildingID>e30421a6-9a9e-4da6-8347-1ae0a35914a4</BuildingID>
     <modPackages>
+      <mod>
+        <packageId>vanillaexpanded.vfearchitect</packageId>
+        <name>Vanilla Furniture Expanded - Architect</name>
+        <version></version>
+        <modorder>73</modorder>
+        <steamWorkshopId>2608762624</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VFEArch_FineWall</li>
+          <li>VFEArch_WoodenParquet</li>
+        </things>
+      </mod>
       <mod>
         <packageId>rebuild.cotr.doorsandcorners</packageId>
         <name>ReBuild: Doors and Corners</name>
@@ -28,6 +49,7 @@
         </dependencies>
         <things>
           <li>RB_DoubleAutodoor</li>
+          <li>RB_FinePlankWood</li>
         </things>
       </mod>
       <mod>
@@ -104,6 +126,22 @@
         </things>
       </mod>
       <mod>
+        <packageId>memegoddess.replacestuff</packageId>
+        <name>Replace Stuff - Continued</name>
+        <version></version>
+        <modorder>319</modorder>
+        <steamWorkshopId>3526354009</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Vent_Over</li>
+        </things>
+      </mod>
+      <mod>
         <packageId>dubwise.dubsbadhygiene</packageId>
         <name>Dubs Bad Hygiene</name>
         <version>3.1.2800</version>
@@ -121,23 +159,20 @@
         </things>
       </mod>
       <mod>
-        <packageId>vanillaexpanded.vfearchitect</packageId>
-        <name>Vanilla Furniture Expanded - Architect</name>
+        <packageId>nephlite.orbitaltradecolumn</packageId>
+        <name>Utility Columns</name>
         <version></version>
-        <modorder>73</modorder>
-        <steamWorkshopId>2608762624</steamWorkshopId>
+        <modorder>291</modorder>
+        <steamWorkshopId>2013476665</steamWorkshopId>
         <dependencies>
-          <li>
-            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
-            <steamWorkshopId>2023507013</steamWorkshopId>
-          </li>
           <li>
             <packageId>brrainz.harmony</packageId>
             <steamWorkshopId>2009463077</steamWorkshopId>
           </li>
         </dependencies>
         <things>
-          <li>VFEArch_WoodenParquet</li>
+          <li>Wall_HeatDevice</li>
+          <li>Wall_CoolDevice</li>
         </things>
       </mod>
     </modPackages>
@@ -158,7 +193,7 @@
     </multiLanguage>
   </extraInfo>
   <things>
-    <Wall>
+    <VFEArch_FineWall>
       <rects>
         <li>(0,0,5,0)</li>
         <li>(8,0,15,0)</li>
@@ -177,7 +212,7 @@
       <stuff>BlocksMarble</stuff>
       <colorDef>Structure_White</colorDef>
       <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
-    </Wall>
+    </VFEArch_FineWall>
     <HiddenConduit>
       <rects>
         <li>(5,0,8,0)</li>
@@ -192,7 +227,8 @@
     <RB_DoubleAutodoor>
       <position>(6, 0, 0)</position>
       <stuff>BlocksMarble</stuff>
-      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+      <colorDef>Structure_White</colorDef>
+      <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
     </RB_DoubleAutodoor>
     <VFE_RoyalLamp>
       <rects>
@@ -260,7 +296,25 @@
     <ReelStorageNewFridge>
       <position>(9, 0, 3)</position>
       <relativeRotation>Counterclockwise</relativeRotation>
+      <colorDef>Structure_White</colorDef>
+      <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
     </ReelStorageNewFridge>
+    <WallLamp>
+      <rects>
+        <li>(14,3,14,3)</li>
+        <li>(9,5,9,5)</li>
+        <li>(14,8,14,8)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Gold</stuff>
+      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
+    </WallLamp>
+    <Vent_Over>
+      <rects>
+        <li>(10,4,10,4)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </Vent_Over>
     <Table1x2c>
       <position>(12, 0, 4)</position>
       <relativeRotation>Counterclockwise</relativeRotation>
@@ -277,6 +331,19 @@
       <colorDef>Structure_White</colorDef>
       <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
     </Dresser>
+    <WallLamp>
+      <rects>
+        <li>(1,5,1,5)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Gold</stuff>
+      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
+    </WallLamp>
+    <Vent_Over>
+      <rects>
+        <li>(13,5,13,5)</li>
+      </rects>
+    </Vent_Over>
     <VFES_ModernCouch>
       <position>(7, 0, 6)</position>
       <stuff>Cloth</stuff>
@@ -317,6 +384,12 @@
       <colorDef>Structure_White</colorDef>
       <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
     </PokerTable>
+    <Wall_HeatDevice>
+      <rects>
+        <li>(10,7,10,7)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </Wall_HeatDevice>
     <BathMat>
       <rects>
         <li>(12,8,12,8)</li>
@@ -332,14 +405,12 @@
       <quality>Normal</quality>
       <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
     </VFES_ModernCouch>
-    <WallLamp>
+    <Wall_CoolDevice>
       <rects>
-        <li>(14,9,14,9)</li>
+        <li>(10,9,10,9)</li>
       </rects>
       <relativeRotation>Clockwise</relativeRotation>
-      <stuff>BlocksMarble</stuff>
-      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
-    </WallLamp>
+    </Wall_CoolDevice>
     <VFE_LongPlantPot>
       <rects>
         <li>(6,10,7,10)</li>
@@ -380,14 +451,17 @@
   </terrain>
   <terrainLayers>
     <terrainLayerDetail layer="topGrid">
+      <RB_FinePlankWood>
+        <rects>
+          <li>(6,0,6,0)</li>
+        </rects>
+      </RB_FinePlankWood>
       <VFEArch_WoodenParquet>
         <rects>
-          <li>(6,0,7,10)</li>
-          <li>(1,1,5,5)</li>
-          <li>(8,1,9,10)</li>
+          <li>(1,1,9,5)</li>
           <li>(11,1,14,4)</li>
           <li>(10,2,10,2)</li>
-          <li>(10,6,10,10)</li>
+          <li>(6,6,10,10)</li>
         </rects>
       </VFEArch_WoodenParquet>
       <DBHMosaicTile>
@@ -400,9 +474,9 @@
     <terrainLayerDetail layer="underGrid">
       <Soil>
         <rects>
-          <li>(6,0,7,10)</li>
+          <li>(6,0,6,10)</li>
           <li>(4,1,5,4)</li>
-          <li>(8,1,9,10)</li>
+          <li>(7,1,9,10)</li>
           <li>(11,1,14,4)</li>
           <li>(10,2,10,2)</li>
           <li>(5,5,5,5)</li>

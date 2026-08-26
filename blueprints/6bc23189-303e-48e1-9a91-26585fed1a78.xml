@@ -1,5 +1,5 @@
 <PrefabDef>
-  <defName>Prefab_20260823_193816</defName>
+  <defName>Prefab_20260827_001518</defName>
   <size>(12,12)</size>
   <extraInfo>
     <version>1.6.9676.17735</version>
@@ -10,6 +10,27 @@
     <category>現代城鎮</category>
     <BuildingID>6bc23189-303e-48e1-9a91-26585fed1a78</BuildingID>
     <modPackages>
+      <mod>
+        <packageId>vanillaexpanded.vfearchitect</packageId>
+        <name>Vanilla Furniture Expanded - Architect</name>
+        <version></version>
+        <modorder>73</modorder>
+        <steamWorkshopId>2608762624</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VFEArch_FineWall</li>
+          <li>VFEArch_WoodenParquet</li>
+        </things>
+      </mod>
       <mod>
         <packageId>rebuild.cotr.doorsandcorners</packageId>
         <name>ReBuild: Doors and Corners</name>
@@ -72,7 +93,6 @@
         </dependencies>
         <things>
           <li>VFES_TelevisionSpeaker</li>
-          <li>VFES_WallMountedTelevision</li>
           <li>VFES_ModernCouch</li>
           <li>Bed_AdvDoubleBed</li>
         </things>
@@ -106,6 +126,23 @@
         </things>
       </mod>
       <mod>
+        <packageId>nephlite.orbitaltradecolumn</packageId>
+        <name>Utility Columns</name>
+        <version></version>
+        <modorder>291</modorder>
+        <steamWorkshopId>2013476665</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Wall_HeatDevice</li>
+          <li>Wall_CoolDevice</li>
+        </things>
+      </mod>
+      <mod>
         <packageId>dubwise.dubsbadhygiene</packageId>
         <name>Dubs Bad Hygiene</name>
         <version>3.1.2800</version>
@@ -122,23 +159,19 @@
         </things>
       </mod>
       <mod>
-        <packageId>vanillaexpanded.vfearchitect</packageId>
-        <name>Vanilla Furniture Expanded - Architect</name>
+        <packageId>memegoddess.replacestuff</packageId>
+        <name>Replace Stuff - Continued</name>
         <version></version>
-        <modorder>73</modorder>
-        <steamWorkshopId>2608762624</steamWorkshopId>
+        <modorder>319</modorder>
+        <steamWorkshopId>3526354009</steamWorkshopId>
         <dependencies>
-          <li>
-            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
-            <steamWorkshopId>2023507013</steamWorkshopId>
-          </li>
           <li>
             <packageId>brrainz.harmony</packageId>
             <steamWorkshopId>2009463077</steamWorkshopId>
           </li>
         </dependencies>
         <things>
-          <li>VFEArch_WoodenParquet</li>
+          <li>Vent_Over</li>
         </things>
       </mod>
     </modPackages>
@@ -159,7 +192,7 @@
     </multiLanguage>
   </extraInfo>
   <things>
-    <Wall>
+    <VFEArch_FineWall>
       <rects>
         <li>(0,0,2,0)</li>
         <li>(5,0,11,0)</li>
@@ -177,7 +210,7 @@
       <stuff>BlocksMarble</stuff>
       <colorDef>Structure_White</colorDef>
       <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
-    </Wall>
+    </VFEArch_FineWall>
     <HiddenConduit>
       <rects>
         <li>(2,0,5,0)</li>
@@ -189,7 +222,8 @@
     <RB_DoubleAutodoor>
       <position>(3, 0, 0)</position>
       <stuff>BlocksMarble</stuff>
-      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+      <colorDef>Structure_White</colorDef>
+      <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
     </RB_DoubleAutodoor>
     <PlantPot>
       <rects>
@@ -215,10 +249,6 @@
         <li>(9,1,9,1)</li>
       </rects>
     </VFES_TelevisionSpeaker>
-    <VFES_WallMountedTelevision>
-      <position>(8, 0, 1)</position>
-      <relativeRotation>Opposite</relativeRotation>
-    </VFES_WallMountedTelevision>
     <VFES_ModernCouch>
       <positions>
         <li>(1, 0, 2)</li>
@@ -278,6 +308,23 @@
       <colorDef>Structure_White</colorDef>
       <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
     </ReelStorageNewFridge>
+    <WallLamp>
+      <rects>
+        <li>(4,6,4,6)</li>
+      </rects>
+      <stuff>Gold</stuff>
+      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
+    </WallLamp>
+    <Wall_HeatDevice>
+      <rects>
+        <li>(5,6,5,6)</li>
+      </rects>
+    </Wall_HeatDevice>
+    <Wall_CoolDevice>
+      <rects>
+        <li>(7,6,7,6)</li>
+      </rects>
+    </Wall_CoolDevice>
     <Door>
       <rects>
         <li>(3,7,3,7)</li>
@@ -294,14 +341,6 @@
       <colorDef>Structure_White</colorDef>
       <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
     </Bed_AdvDoubleBed>
-    <WallLamp>
-      <rects>
-        <li>(4,8,4,8)</li>
-      </rects>
-      <relativeRotation>Clockwise</relativeRotation>
-      <stuff>BlocksMarble</stuff>
-      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
-    </WallLamp>
     <Door>
       <rects>
         <li>(7,8,7,8)</li>
@@ -319,14 +358,6 @@
       <stuff>Cloth</stuff>
       <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
     </BathMat>
-    <WallLamp>
-      <rects>
-        <li>(9,8,9,8)</li>
-      </rects>
-      <relativeRotation>Opposite</relativeRotation>
-      <stuff>BlocksMarble</stuff>
-      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
-    </WallLamp>
     <ShowerAdvStuff>
       <rects>
         <li>(10,8,10,8)</li>
@@ -334,18 +365,42 @@
       <relativeRotation>Clockwise</relativeRotation>
       <stuff>Steel</stuff>
     </ShowerAdvStuff>
+    <WallLamp>
+      <rects>
+        <li>(1,9,1,9)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Gold</stuff>
+      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
+    </WallLamp>
     <Seat_RoyalArmchair>
       <rects>
         <li>(4,9,4,9)</li>
       </rects>
       <stuff>Cloth</stuff>
       <quality>Normal</quality>
-      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+      <colorDef>Structure_White</colorDef>
+      <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
     </Seat_RoyalArmchair>
+    <Vent_Over>
+      <rects>
+        <li>(5,9,5,9)</li>
+        <li>(7,9,7,9)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </Vent_Over>
     <BathtubStuff>
       <position>(10, 0, 9)</position>
       <stuff>Steel</stuff>
     </BathtubStuff>
+    <WallLamp>
+      <rects>
+        <li>(10,9,10,9)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Gold</stuff>
+      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
+    </WallLamp>
     <Table_RoyalDresser>
       <position>(2, 0, 10)</position>
       <relativeRotation>Opposite</relativeRotation>
