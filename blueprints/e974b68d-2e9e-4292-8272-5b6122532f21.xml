@@ -1,0 +1,95 @@
+<PrefabDef>
+  <defName>Prefab_20260824_103746</defName>
+  <size>(15,15)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>房子</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>宿舍</category>
+    <BuildingID>e974b68d-2e9e-4292-8272-5b6122532f21</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>kindseal.ufli</packageId>
+        <name>联合轻工家具拓展-UF Light Industries Furniture</name>
+        <version></version>
+        <modorder>200</modorder>
+        <steamWorkshopId>3651799915</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFLI_DoubleBed</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>房子</default>
+        <zh-CN>房子</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,6,0)</li>
+        <li>(8,0,14,0)</li>
+        <li>(0,1,0,6)</li>
+        <li>(6,1,6,2)</li>
+        <li>(14,1,14,2)</li>
+        <li>(6,4,6,7)</li>
+        <li>(14,4,14,14)</li>
+        <li>(8,7,13,7)</li>
+        <li>(0,8,0,14)</li>
+        <li>(1,14,6,14)</li>
+        <li>(8,14,13,14)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Wall>
+    <Door>
+      <rects>
+        <li>(7,0,7,0)</li>
+        <li>(7,7,7,7)</li>
+        <li>(7,14,7,14)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <Door>
+      <rects>
+        <li>(6,3,6,3)</li>
+        <li>(14,3,14,3)</li>
+        <li>(0,7,0,7)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <UFLI_DoubleBed>
+      <position>(4, 0, 11)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_DoubleBed>
+  </things>
+  <terrainLayers></terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,14,14)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,14,14)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
