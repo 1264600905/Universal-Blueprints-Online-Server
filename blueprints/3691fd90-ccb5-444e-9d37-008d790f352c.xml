@@ -1,0 +1,147 @@
+<PrefabDef>
+  <defName>Prefab_20260827_102007</defName>
+  <size>(7,5)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>监狱</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>牢房</category>
+    <BuildingID>3691fd90-ccb5-444e-9d37-008d790f352c</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>kindseal.ufli</packageId>
+        <name>联合轻工家具拓展-UF Light Industries Furniture</name>
+        <version></version>
+        <modorder>584</modorder>
+        <steamWorkshopId>3651799915</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFLI_Prison_Wall</li>
+          <li>UFLI_PrisonGate</li>
+          <li>UFLI_1_Frame_DOOR</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>cp.uncle.boris.used.furniture</packageId>
+        <name><![CDATA[[RH2] Uncle Boris' - Used Furniture]]></name>
+        <version></version>
+        <modorder>151</modorder>
+        <steamWorkshopId>2563508405</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>RH2_DoubleWardrobe</li>
+          <li>RH2_LampEndTable</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>监狱</default>
+        <zh-CN>监狱</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <UFLI_Prison_Wall>
+      <rects>
+        <li>(0,0,2,0)</li>
+        <li>(4,0,6,0)</li>
+        <li>(0,1,0,4)</li>
+        <li>(6,1,6,4)</li>
+        <li>(1,4,5,4)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Prison_Wall>
+    <UFLI_PrisonGate>
+      <rects>
+        <li>(3,0,3,0)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_PrisonGate>
+    <UFLI_1_Frame_DOOR>
+      <rects>
+        <li>(3,0,3,0)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_1_Frame_DOOR>
+    <HiddenConduit>
+      <rects>
+        <li>(4,0,4,2)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <Bed>
+      <position>(3, 0, 3)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed>
+    <RH2_DoubleWardrobe>
+      <position>(2, 0, 3)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RH2_DoubleWardrobe>
+    <RH2_LampEndTable>
+      <rects>
+        <li>(4,3,4,3)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RH2_LampEndTable>
+  </things>
+  <terrain>
+    <WoodPlankFloor>
+      <rects>
+        <li>(1,1,5,3)</li>
+      </rects>
+    </WoodPlankFloor>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <WoodPlankFloor>
+        <rects>
+          <li>(1,1,5,3)</li>
+        </rects>
+      </WoodPlankFloor>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(1,1,5,3)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,6,4)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,6,4)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
