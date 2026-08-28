@@ -1,0 +1,940 @@
+<PrefabDef>
+  <defName>Prefab_20260829_000226</defName>
+  <size>(63,48)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>三叉戟补给舰最终（八）阶段</name>
+    <description>纯原版物品</description>
+    <tags></tags>
+    <author>葱3939</author>
+    <category>奥德赛DLC</category>
+    <BuildingID>8a2e5446-966a-493a-9399-89af12f05e11</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>ludeon.rimworld.odyssey</packageId>
+        <name>Odyssey</name>
+        <version></version>
+        <modorder>7</modorder>
+        <things>
+          <li>LargeThruster</li>
+          <li>GravshipHull</li>
+          <li>PassengerShuttle</li>
+          <li>VacBarrier</li>
+          <li>PilotConsole</li>
+          <li>LargeChemfuelTank</li>
+          <li>GravEngine</li>
+          <li>GravcorePowerCell</li>
+          <li>OrbitalScanner</li>
+          <li>Substructure</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>sbz.neatstorage</packageId>
+        <name>[sbz] Neat Storage</name>
+        <version></version>
+        <modorder>31</modorder>
+        <steamWorkshopId>3416243474</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>adaptive.storage.framework</packageId>
+            <steamWorkshopId>3033901359</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>sbz_MeatHook</li>
+          <li>sbz_VerticalWeaponRack</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.ideology</packageId>
+        <name>Ideology</name>
+        <version></version>
+        <modorder>4</modorder>
+        <things>
+          <li>PlantPot_Bonsai</li>
+          <li>StylingStation</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.royalty</packageId>
+        <name>Royalty</name>
+        <version></version>
+        <modorder>3</modorder>
+        <things>
+          <li>Brazier</li>
+          <li>GrandThrone</li>
+          <li>Harp</li>
+          <li>MeditationSpot</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>cagier.digitalstorage</packageId>
+        <name>【CA】数字存储-Digital Storage 3.0</name>
+        <version></version>
+        <modorder>11</modorder>
+        <steamWorkshopId>3623684313</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>DigitalStorage_StorageCore</li>
+          <li>DigitalStorage_BufferWarehouse</li>
+        </things>
+      </mod>
+    </modPackages>
+    <foldGroup>
+      <groupKey>三叉戟</groupKey>
+      <displayOrder>8</displayOrder>
+      <isCover>true</isCover>
+    </foldGroup>
+    <multiLanguage>
+      <name>
+        <default>三叉戟补给舰最终（八）阶段</default>
+        <zh-CN>三叉戟补给舰最终（八）阶段</zh-CN>
+        <zh-TW>三叉戟補給艦最終（八）階段</zh-TW>
+        <en>Trident Supply Ship Final (Stage 8)</en>
+        <ru>Трезубец: Корабль снабжения, финальный этап (8)</ru>
+        <fr>Vaisseau de ravitaillement Trident - Phase finale (8)</fr>
+        <ja>トライデント補給船 最終（第8段階）</ja>
+      </name>
+      <description>
+        <default>纯原版物品</default>
+        <zh-CN>纯原版物品</zh-CN>
+        <zh-TW>純原版物品</zh-TW>
+        <en>Pure vanilla items</en>
+        <ru>Только предметы из оригинальной игры</ru>
+        <fr>Objets purement vanilla</fr>
+        <ja>純粋なバニラアイテム</ja>
+      </description>
+    </multiLanguage>
+    <url name="【边缘世界】三叉戟补给舰的演进建造过程"><![CDATA[https://www.bilibili.com/video/BV1PvgNzcEsY]]></url>
+  </extraInfo>
+  <things>
+    <LargeThruster>
+      <positions>
+        <li>(19, 0, 3)</li>
+        <li>(56, 0, 3)</li>
+      </positions>
+    </LargeThruster>
+    <PowerConduit>
+      <rects>
+        <li>(21,3,21,20)</li>
+        <li>(30,3,40,3)</li>
+        <li>(42,3,47,3)</li>
+        <li>(49,3,55,3)</li>
+        <li>(29,4,29,8)</li>
+        <li>(41,4,41,8)</li>
+        <li>(55,4,55,16)</li>
+        <li>(47,16,47,20)</li>
+        <li>(55,18,55,20)</li>
+      </rects>
+    </PowerConduit>
+    <GravshipHull>
+      <rects>
+        <li>(21,3,29,3)</li>
+        <li>(32,3,55,3)</li>
+        <li>(21,4,21,21)</li>
+        <li>(27,4,27,5)</li>
+        <li>(41,4,41,9)</li>
+        <li>(47,4,47,9)</li>
+        <li>(49,4,49,5)</li>
+        <li>(55,4,55,21)</li>
+        <li>(39,9,40,9)</li>
+        <li>(42,9,43,9)</li>
+        <li>(46,9,46,9)</li>
+        <li>(27,19,27,21)</li>
+        <li>(18,21,18,26)</li>
+        <li>(57,21,57,46)</li>
+        <li>(18,28,18,46)</li>
+        <li>(44,29,44,29)</li>
+        <li>(19,46,56,46)</li>
+      </rects>
+      <stuff>Plasteel</stuff>
+      <color>RGBA(0.627, 0.698, 0.710, 1.000)</color>
+    </GravshipHull>
+    <HiddenConduit>
+      <rects>
+        <li>(22,3,29,3)</li>
+        <li>(41,3,41,3)</li>
+        <li>(48,3,48,3)</li>
+        <li>(29,9,47,9)</li>
+        <li>(29,10,29,21)</li>
+        <li>(47,10,47,15)</li>
+        <li>(30,15,46,15)</li>
+        <li>(55,17,55,17)</li>
+        <li>(18,21,28,21)</li>
+        <li>(30,21,57,21)</li>
+        <li>(18,22,18,46)</li>
+        <li>(31,22,31,33)</li>
+        <li>(44,22,44,46)</li>
+        <li>(57,22,57,46)</li>
+        <li>(19,33,30,33)</li>
+        <li>(32,33,43,33)</li>
+        <li>(45,33,56,33)</li>
+        <li>(19,46,43,46)</li>
+        <li>(45,46,56,46)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <Cooler>
+      <rects>
+        <li>(30,3,31,3)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </Cooler>
+    <Dresser>
+      <position>(22, 0, 5)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Dresser>
+    <Heater>
+      <rects>
+        <li>(26,4,26,4)</li>
+        <li>(50,8,50,8)</li>
+        <li>(50,10,50,10)</li>
+        <li>(26,14,26,14)</li>
+        <li>(40,16,40,16)</li>
+        <li>(26,20,26,20)</li>
+        <li>(50,20,50,20)</li>
+      </rects>
+    </Heater>
+    <Wall>
+      <rects>
+        <li>(29,4,29,9)</li>
+        <li>(35,4,35,9)</li>
+        <li>(27,7,27,10)</li>
+        <li>(49,7,49,11)</li>
+        <li>(22,9,23,9)</li>
+        <li>(25,9,26,9)</li>
+        <li>(30,9,31,9)</li>
+        <li>(34,9,34,9)</li>
+        <li>(36,9,37,9)</li>
+        <li>(50,9,51,9)</li>
+        <li>(53,9,54,9)</li>
+        <li>(27,13,27,17)</li>
+        <li>(49,14,49,17)</li>
+        <li>(22,15,23,15)</li>
+        <li>(25,15,26,15)</li>
+        <li>(29,15,31,15)</li>
+        <li>(33,15,36,15)</li>
+        <li>(39,15,43,15)</li>
+        <li>(45,15,47,15)</li>
+        <li>(50,15,51,15)</li>
+        <li>(53,15,54,15)</li>
+        <li>(29,16,29,21)</li>
+        <li>(35,16,35,17)</li>
+        <li>(41,16,41,17)</li>
+        <li>(47,16,47,21)</li>
+        <li>(35,19,35,21)</li>
+        <li>(41,19,41,21)</li>
+        <li>(49,19,49,21)</li>
+        <li>(22,21,26,21)</li>
+        <li>(30,21,34,21)</li>
+        <li>(36,21,40,21)</li>
+        <li>(42,21,46,21)</li>
+        <li>(50,21,54,21)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </Wall>
+    <EndTable>
+      <rects>
+        <li>(30,4,31,4)</li>
+        <li>(32,20,32,20)</li>
+        <li>(38,20,38,20)</li>
+        <li>(44,20,44,20)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </EndTable>
+    <HospitalBed>
+      <position>(32, 0, 5)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HospitalBed>
+    <Dresser>
+      <position>(34, 0, 4)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Dresser>
+    <ElectricStove>
+      <position>(37, 0, 4)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </ElectricStove>
+    <sbz_MeatHook>
+      <position>(40, 0, 4)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </sbz_MeatHook>
+    <PlantPot_Bonsai>
+      <rects>
+        <li>(50,4,50,4)</li>
+        <li>(26,8,26,8)</li>
+        <li>(26,10,26,10)</li>
+        <li>(50,14,50,14)</li>
+        <li>(26,16,26,16)</li>
+        <li>(34,16,34,16)</li>
+        <li>(36,16,36,16)</li>
+        <li>(42,16,42,16)</li>
+        <li>(50,16,50,16)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </PlantPot_Bonsai>
+    <DoubleBed>
+      <positions>
+        <li>(54, 0, 4)</li>
+        <li>(54, 0, 10)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DoubleBed>
+    <HospitalBed>
+      <positions>
+        <li>(31, 0, 5)</li>
+        <li>(31, 0, 6)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HospitalBed>
+    <HospitalBed>
+      <positions>
+        <li>(33, 0, 5)</li>
+        <li>(33, 0, 6)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HospitalBed>
+    <DiningChair>
+      <rects>
+        <li>(37,5,37,5)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Plasteel</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.627, 0.698, 0.710, 1.000)</color>
+    </DiningChair>
+    <WallLamp>
+      <rects>
+        <li>(50,5,50,5)</li>
+        <li>(28,9,28,9)</li>
+        <li>(50,11,50,11)</li>
+        <li>(28,15,28,15)</li>
+        <li>(50,17,50,17)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </WallLamp>
+    <EndTable>
+      <rects>
+        <li>(22,6,22,6)</li>
+        <li>(22,12,22,12)</li>
+        <li>(22,18,22,18)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </EndTable>
+    <Autodoor>
+      <rects>
+        <li>(27,6,27,6)</li>
+        <li>(49,6,49,6)</li>
+        <li>(27,12,27,12)</li>
+        <li>(49,12,49,12)</li>
+        <li>(27,18,27,18)</li>
+        <li>(49,18,49,18)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Autodoor>
+    <VitalsMonitor>
+      <rects>
+        <li>(32,6,32,6)</li>
+      </rects>
+    </VitalsMonitor>
+    <TableButcher>
+      <position>(36, 0, 7)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </TableButcher>
+    <DrugLab>
+      <position>(40, 0, 7)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DrugLab>
+    <EndTable>
+      <rects>
+        <li>(54,6,54,6)</li>
+        <li>(54,12,54,12)</li>
+        <li>(54,18,54,18)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </EndTable>
+    <DoubleBed>
+      <position>(22, 0, 8)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Legendary</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DoubleBed>
+    <WallLamp>
+      <rects>
+        <li>(26,7,26,7)</li>
+        <li>(48,9,48,9)</li>
+        <li>(26,13,26,13)</li>
+        <li>(48,15,48,15)</li>
+        <li>(26,19,26,19)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </WallLamp>
+    <DiningChair>
+      <rects>
+        <li>(37,7,37,7)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Plasteel</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.627, 0.698, 0.710, 1.000)</color>
+    </DiningChair>
+    <DiningChair>
+      <rects>
+        <li>(39,7,39,7)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Plasteel</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.627, 0.698, 0.710, 1.000)</color>
+    </DiningChair>
+    <Dresser>
+      <positions>
+        <li>(54, 0, 7)</li>
+        <li>(54, 0, 13)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Dresser>
+    <FlatscreenTelevision>
+      <position>(31, 0, 8)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </FlatscreenTelevision>
+    <WallLamp>
+      <rects>
+        <li>(31,8,31,8)</li>
+        <li>(37,8,37,8)</li>
+        <li>(43,8,43,8)</li>
+        <li>(35,14,35,14)</li>
+      </rects>
+    </WallLamp>
+    <Vent>
+      <rects>
+        <li>(24,9,24,9)</li>
+        <li>(24,15,24,15)</li>
+      </rects>
+    </Vent>
+    <Autodoor>
+      <rects>
+        <li>(32,9,32,9)</li>
+        <li>(38,9,38,9)</li>
+        <li>(44,9,44,9)</li>
+        <li>(32,15,32,15)</li>
+        <li>(38,15,38,15)</li>
+        <li>(44,15,44,15)</li>
+        <li>(28,21,28,21)</li>
+        <li>(48,21,48,21)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Autodoor>
+    <Vent>
+      <rects>
+        <li>(33,9,33,9)</li>
+        <li>(45,9,45,9)</li>
+        <li>(52,9,52,9)</li>
+        <li>(37,15,37,15)</li>
+        <li>(52,15,52,15)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </Vent>
+    <Dresser>
+      <positions>
+        <li>(22, 0, 11)</li>
+        <li>(22, 0, 17)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Dresser>
+    <StylingStation>
+      <position>(30, 0, 10)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </StylingStation>
+    <Vent>
+      <rects>
+        <li>(27,11,27,11)</li>
+        <li>(35,18,35,18)</li>
+        <li>(41,18,41,18)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </Vent>
+    <FlatscreenTelevision>
+      <position>(31, 0, 12)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </FlatscreenTelevision>
+    <Armchair>
+      <rects>
+        <li>(33,11,33,13)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </Armchair>
+    <Armchair>
+      <rects>
+        <li>(37,11,37,11)</li>
+        <li>(37,13,37,13)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </Armchair>
+    <BilliardsTable>
+      <position>(40, 0, 12)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </BilliardsTable>
+    <Brazier>
+      <rects>
+        <li>(42,11,42,11)</li>
+        <li>(42,13,42,13)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Brazier>
+    <Column>
+      <rects>
+        <li>(43,11,45,11)</li>
+        <li>(43,13,45,13)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Column>
+    <GrandThrone>
+      <position>(47, 0, 12)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </GrandThrone>
+    <HorseshoesPin>
+      <rects>
+        <li>(29,12,29,12)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </HorseshoesPin>
+    <ChessTable>
+      <rects>
+        <li>(37,12,37,12)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </ChessTable>
+    <Harp>
+      <rects>
+        <li>(43,12,43,12)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <quality>Excellent</quality>
+    </Harp>
+    <MeditationSpot>
+      <rects>
+        <li>(44,12,45,12)</li>
+      </rects>
+    </MeditationSpot>
+    <DoubleBed>
+      <positions>
+        <li>(22, 0, 14)</li>
+        <li>(22, 0, 20)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DoubleBed>
+    <Vent>
+      <rects>
+        <li>(49,13,49,13)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </Vent>
+    <AnimalBed>
+      <rects>
+        <li>(29,14,29,14)</li>
+      </rects>
+      <stuff>Cloth</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </AnimalBed>
+    <Bookcase>
+      <position>(30, 0, 14)</position>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bookcase>
+    <WallLamp>
+      <rects>
+        <li>(33,16,33,16)</li>
+        <li>(39,16,39,16)</li>
+        <li>(45,16,45,16)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </WallLamp>
+    <DoubleBed>
+      <position>(54, 0, 16)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DoubleBed>
+    <Turret_Autocannon>
+      <positions>
+        <li>(18, 0, 19)</li>
+        <li>(56, 0, 19)</li>
+      </positions>
+    </Turret_Autocannon>
+    <DoubleBed>
+      <position>(34, 0, 20)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Legendary</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DoubleBed>
+    <DoubleBed>
+      <positions>
+        <li>(40, 0, 20)</li>
+        <li>(46, 0, 20)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DoubleBed>
+    <Dresser>
+      <position>(54, 0, 19)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Dresser>
+    <Dresser>
+      <position>(31, 0, 20)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Dresser>
+    <Dresser>
+      <positions>
+        <li>(37, 0, 20)</li>
+        <li>(43, 0, 20)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Dresser>
+    <GravshipHull>
+      <rects>
+        <li>(19,21,20,21)</li>
+        <li>(56,21,56,21)</li>
+        <li>(31,22,31,26)</li>
+        <li>(44,22,44,26)</li>
+        <li>(31,28,31,38)</li>
+        <li>(44,28,44,28)</li>
+        <li>(44,30,44,38)</li>
+        <li>(19,33,23,33)</li>
+        <li>(25,33,30,33)</li>
+        <li>(32,33,37,33)</li>
+        <li>(39,33,43,33)</li>
+        <li>(45,33,50,33)</li>
+        <li>(52,33,56,33)</li>
+        <li>(31,40,31,45)</li>
+        <li>(44,40,44,45)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </GravshipHull>
+    <sbz_VerticalWeaponRack>
+      <positions>
+        <li>(30, 0, 22)</li>
+        <li>(30, 0, 24)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </sbz_VerticalWeaponRack>
+    <DigitalStorage_StorageCore>
+      <position>(33, 0, 23)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </DigitalStorage_StorageCore>
+    <HydroponicsBasin>
+      <positions>
+        <li>(46, 0, 22)</li>
+        <li>(54, 0, 22)</li>
+        <li>(46, 0, 23)</li>
+        <li>(54, 0, 23)</li>
+        <li>(46, 0, 24)</li>
+        <li>(54, 0, 24)</li>
+        <li>(46, 0, 25)</li>
+        <li>(54, 0, 25)</li>
+        <li>(46, 0, 26)</li>
+        <li>(54, 0, 26)</li>
+        <li>(46, 0, 28)</li>
+        <li>(54, 0, 28)</li>
+        <li>(46, 0, 29)</li>
+        <li>(54, 0, 29)</li>
+        <li>(46, 0, 30)</li>
+        <li>(54, 0, 30)</li>
+        <li>(46, 0, 31)</li>
+        <li>(54, 0, 31)</li>
+        <li>(46, 0, 32)</li>
+        <li>(54, 0, 32)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+    </HydroponicsBasin>
+    <PassengerShuttle>
+      <position>(15, 0, 24)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </PassengerShuttle>
+    <VacBarrier>
+      <rects>
+        <li>(18,27,18,27)</li>
+        <li>(31,27,31,27)</li>
+        <li>(44,27,44,27)</li>
+        <li>(31,39,31,39)</li>
+        <li>(44,39,44,39)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <color>RGBA(0.557, 0.557, 0.557, 1.000)</color>
+    </VacBarrier>
+    <StandingLamp>
+      <rects>
+        <li>(25,27,25,27)</li>
+        <li>(36,27,36,27)</li>
+        <li>(51,27,51,27)</li>
+        <li>(38,39,38,39)</li>
+        <li>(51,39,51,39)</li>
+        <li>(24,40,24,40)</li>
+      </rects>
+    </StandingLamp>
+    <DiningChair>
+      <rects>
+        <li>(38,27,38,27)</li>
+      </rects>
+      <stuff>Plasteel</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.627, 0.698, 0.710, 1.000)</color>
+    </DiningChair>
+    <PilotConsole>
+      <position>(38, 0, 28)</position>
+    </PilotConsole>
+    <Battery>
+      <positions>
+        <li>(40, 0, 28)</li>
+        <li>(41, 0, 28)</li>
+        <li>(42, 0, 28)</li>
+        <li>(43, 0, 28)</li>
+      </positions>
+    </Battery>
+    <LargeChemfuelTank>
+      <positions>
+        <li>(35, 0, 31)</li>
+        <li>(41, 0, 31)</li>
+      </positions>
+    </LargeChemfuelTank>
+    <GravEngine>
+      <position>(38, 0, 31)</position>
+    </GravEngine>
+    <GravcorePowerCell>
+      <rects>
+        <li>(43,30,43,32)</li>
+      </rects>
+    </GravcorePowerCell>
+    <OrbitalScanner>
+      <position>(16, 0, 32)</position>
+    </OrbitalScanner>
+    <DigitalStorage_BufferWarehouse>
+      <rects>
+        <li>(19,32,19,32)</li>
+      </rects>
+    </DigitalStorage_BufferWarehouse>
+    <VacBarrier>
+      <rects>
+        <li>(24,33,24,33)</li>
+        <li>(38,33,38,33)</li>
+        <li>(51,33,51,33)</li>
+      </rects>
+      <color>RGBA(0.557, 0.557, 0.557, 1.000)</color>
+    </VacBarrier>
+  </things>
+  <terrain>
+    <SterileTile>
+      <rects>
+        <li>(19,9,19,45)</li>
+        <li>(56,9,56,45)</li>
+        <li>(20,21,20,45)</li>
+        <li>(21,22,55,45)</li>
+      </rects>
+    </SterileTile>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <SterileTile>
+        <rects>
+          <li>(19,9,19,45)</li>
+          <li>(56,9,56,45)</li>
+          <li>(20,21,20,45)</li>
+          <li>(21,22,55,45)</li>
+        </rects>
+      </SterileTile>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <SoilRich>
+        <rects>
+          <li>(19,9,19,11)</li>
+          <li>(23,22,29,23)</li>
+          <li>(20,23,22,41)</li>
+          <li>(19,24,19,43)</li>
+          <li>(23,24,28,31)</li>
+          <li>(33,25,36,25)</li>
+          <li>(32,26,35,26)</li>
+          <li>(32,27,34,27)</li>
+          <li>(33,28,34,29)</li>
+          <li>(35,29,35,36)</li>
+          <li>(29,30,30,30)</li>
+          <li>(36,30,36,35)</li>
+          <li>(34,31,34,31)</li>
+          <li>(23,32,27,32)</li>
+          <li>(31,32,32,32)</li>
+          <li>(23,33,26,33)</li>
+          <li>(34,33,34,35)</li>
+          <li>(37,33,37,35)</li>
+          <li>(23,34,25,34)</li>
+          <li>(23,35,24,35)</li>
+          <li>(23,36,23,36)</li>
+          <li>(23,39,23,40)</li>
+          <li>(20,42,21,42)</li>
+          <li>(20,43,20,43)</li>
+        </rects>
+      </SoilRich>
+      <Soil>
+        <rects>
+          <li>(56,9,56,45)</li>
+          <li>(19,12,19,23)</li>
+          <li>(20,21,20,22)</li>
+          <li>(21,22,22,22)</li>
+          <li>(30,22,55,24)</li>
+          <li>(29,24,29,29)</li>
+          <li>(30,25,32,25)</li>
+          <li>(37,25,55,32)</li>
+          <li>(30,26,31,29)</li>
+          <li>(36,26,36,29)</li>
+          <li>(35,27,35,28)</li>
+          <li>(32,28,32,31)</li>
+          <li>(31,30,31,31)</li>
+          <li>(33,30,34,30)</li>
+          <li>(29,31,30,45)</li>
+          <li>(33,31,33,45)</li>
+          <li>(28,32,28,45)</li>
+          <li>(34,32,34,32)</li>
+          <li>(27,33,27,45)</li>
+          <li>(31,33,32,45)</li>
+          <li>(38,33,55,45)</li>
+          <li>(26,34,26,45)</li>
+          <li>(25,35,25,45)</li>
+          <li>(24,36,24,45)</li>
+          <li>(34,36,34,45)</li>
+          <li>(36,36,37,45)</li>
+          <li>(23,37,23,38)</li>
+          <li>(35,37,35,45)</li>
+          <li>(23,41,23,45)</li>
+          <li>(22,42,22,45)</li>
+          <li>(21,43,21,45)</li>
+          <li>(19,44,20,45)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="foundationGrid">
+      <Substructure>
+        <rects>
+          <li>(21,2,55,46)</li>
+          <li>(19,3,20,46)</li>
+          <li>(56,3,57,46)</li>
+          <li>(18,5,18,46)</li>
+          <li>(5,21,17,33)</li>
+        </rects>
+      </Substructure>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(20,2,54,46)</li>
+        <li>(55,3,55,46)</li>
+        <li>(18,8,19,46)</li>
+        <li>(56,8,57,46)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(20,2,54,24)</li>
+        <li>(55,3,55,46)</li>
+        <li>(18,8,19,46)</li>
+        <li>(56,8,57,46)</li>
+        <li>(20,25,44,25)</li>
+        <li>(51,25,54,46)</li>
+        <li>(20,26,43,46)</li>
+        <li>(44,34,45,46)</li>
+        <li>(46,35,50,46)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
