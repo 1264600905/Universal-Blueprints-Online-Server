@@ -1,0 +1,143 @@
+<PrefabDef>
+  <defName>Prefab_20260829_140837</defName>
+  <size>(13,13)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>温室</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>储藏室</category>
+    <BuildingID>fc45dc5a-cd4d-4af2-a128-7640b7daeb18</BuildingID>
+    <modPackages></modPackages>
+    <multiLanguage>
+      <name>
+        <default>温室</default>
+        <zh-CN>温室</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,12,0)</li>
+        <li>(0,1,0,12)</li>
+        <li>(12,1,12,5)</li>
+        <li>(12,7,12,12)</li>
+        <li>(1,12,5,12)</li>
+        <li>(7,12,11,12)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Wall>
+    <HiddenConduit>
+      <rects>
+        <li>(6,0,6,12)</li>
+        <li>(0,6,5,6)</li>
+        <li>(7,6,12,6)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <HydroponicsBasin>
+      <positions>
+        <li>(2, 0, 1)</li>
+        <li>(9, 0, 1)</li>
+        <li>(2, 0, 3)</li>
+        <li>(9, 0, 3)</li>
+        <li>(2, 0, 5)</li>
+        <li>(9, 0, 5)</li>
+        <li>(2, 0, 7)</li>
+        <li>(9, 0, 7)</li>
+        <li>(2, 0, 9)</li>
+        <li>(9, 0, 9)</li>
+        <li>(2, 0, 11)</li>
+        <li>(9, 0, 11)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+    </HydroponicsBasin>
+    <HydroponicsBasin>
+      <positions>
+        <li>(6, 0, 3)</li>
+        <li>(6, 0, 9)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+    </HydroponicsBasin>
+    <SunLamp>
+      <rects>
+        <li>(5,3,5,3)</li>
+        <li>(7,3,7,3)</li>
+        <li>(5,9,5,9)</li>
+        <li>(7,9,7,9)</li>
+      </rects>
+    </SunLamp>
+    <Heater>
+      <rects>
+        <li>(6,6,6,6)</li>
+      </rects>
+    </Heater>
+    <Door>
+      <rects>
+        <li>(12,6,12,6)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>BlocksGranite</stuff>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Door>
+    <Door>
+      <rects>
+        <li>(6,12,6,12)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Door>
+  </things>
+  <terrain>
+    <WoodPlankFloor>
+      <rects>
+        <li>(1,1,11,11)</li>
+        <li>(12,6,12,6)</li>
+        <li>(6,12,6,12)</li>
+      </rects>
+    </WoodPlankFloor>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <AncientConcrete>
+        <rects>
+          <li>(0,0,2,0)</li>
+          <li>(0,1,0,7)</li>
+        </rects>
+      </AncientConcrete>
+      <WoodPlankFloor>
+        <rects>
+          <li>(1,1,11,11)</li>
+          <li>(12,6,12,6)</li>
+          <li>(6,12,6,12)</li>
+        </rects>
+      </WoodPlankFloor>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(0,0,2,7)</li>
+          <li>(3,1,11,11)</li>
+          <li>(12,6,12,6)</li>
+          <li>(1,8,2,11)</li>
+          <li>(6,12,6,12)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
