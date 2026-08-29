@@ -1,0 +1,136 @@
+<PrefabDef>
+  <defName>Prefab_20260829_183908</defName>
+  <size>(5,7)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>231312</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>医疗</category>
+    <BuildingID>481e9d46-ab29-4c9e-b87f-2f439bbb1019</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>kindseal.ufli</packageId>
+        <name>联合轻工家具拓展-UF Light Industries Furniture</name>
+        <version></version>
+        <modorder>258</modorder>
+        <steamWorkshopId>3651799915</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFLI_CabinetC</li>
+          <li>UFLI_Refrigerator_medical_AS</li>
+          <li>UFLI_groundlight</li>
+          <li>UFLI_TempControler</li>
+          <li>UFLI_FLOORJ</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>dubwise.dubsbadhygiene</packageId>
+        <name>Dubs Bad Hygiene</name>
+        <version>3.1.2800</version>
+        <modorder>250</modorder>
+        <steamWorkshopId>836308268</steamWorkshopId>
+        <things>
+          <li>BasinStuff</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.ideology</packageId>
+        <name>Ideology</name>
+        <version></version>
+        <modorder>7</modorder>
+        <things>
+          <li>BiosculpterPod</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>231312</default>
+        <zh-CN>231312</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <VitalsMonitor>
+      <rects>
+        <li>(0,0,0,0)</li>
+      </rects>
+    </VitalsMonitor>
+    <HospitalBed>
+      <position>(1, 0, 0)</position>
+      <stuff>Steel</stuff>
+      <quality>Legendary</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HospitalBed>
+    <UFLI_CabinetC>
+      <position>(2, 0, 0)</position>
+      <stuff>Steel</stuff>
+      <quality>Legendary</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_CabinetC>
+    <BasinStuff>
+      <rects>
+        <li>(0,3,0,3)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+    </BasinStuff>
+    <UFLI_Refrigerator_medical_AS>
+      <rects>
+        <li>(0,4,0,4)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Refrigerator_medical_AS>
+    <UFLI_groundlight>
+      <rects>
+        <li>(1,5,1,5)</li>
+      </rects>
+    </UFLI_groundlight>
+    <BiosculpterPod>
+      <position>(3, 0, 6)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </BiosculpterPod>
+    <UFLI_TempControler>
+      <rects>
+        <li>(3,6,3,6)</li>
+      </rects>
+    </UFLI_TempControler>
+  </things>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <UFLI_FLOORJ>
+        <rects>
+          <li>(0,0,4,6)</li>
+        </rects>
+      </UFLI_FLOORJ>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(0,0,4,6)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,4,6)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,4,6)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
