@@ -1,0 +1,129 @@
+<PrefabDef>
+  <defName>Prefab_20260830_231941</defName>
+  <size>(13,13)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>天线</name>
+    <description>用于带宽基地</description>
+    <tags></tags>
+    <author>jooi</author>
+    <category>生物科技DLC</category>
+    <BuildingID>2f7f2a1e-8e04-4187-86d4-12c0250ef65d</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>aoba.fortress.industrial.concrete</packageId>
+        <name>Industrial concrete</name>
+        <version></version>
+        <modorder>149</modorder>
+        <steamWorkshopId>2888037450</steamWorkshopId>
+        <things>
+          <li>FT_BlocksConcrete</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.biotech</packageId>
+        <name>Biotech</name>
+        <version></version>
+        <modorder>5</modorder>
+        <things>
+          <li>BandNode</li>
+          <li>Frame_BandNode</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.anomaly</packageId>
+        <name>Anomaly</name>
+        <version></version>
+        <modorder>6</modorder>
+        <things>
+          <li>Flesh</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>天线</default>
+        <zh-CN>天线</zh-CN>
+      </name>
+      <description>
+        <default>用于带宽基地</default>
+        <zh-CN>用于带宽基地</zh-CN>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,0,0)</li>
+        <li>(6,0,6,0)</li>
+        <li>(12,0,12,0)</li>
+        <li>(0,6,0,6)</li>
+        <li>(12,6,12,6)</li>
+        <li>(0,12,0,12)</li>
+        <li>(6,12,6,12)</li>
+        <li>(12,12,12,12)</li>
+      </rects>
+      <stuff>FT_BlocksConcrete</stuff>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </Wall>
+    <HiddenConduit>
+      <rects>
+        <li>(6,0,6,12)</li>
+        <li>(0,6,5,6)</li>
+        <li>(7,6,12,6)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <BandNode>
+      <positions>
+        <li>(1, 0, 1)</li>
+        <li>(4, 0, 1)</li>
+        <li>(7, 0, 1)</li>
+        <li>(1, 0, 4)</li>
+        <li>(4, 0, 4)</li>
+        <li>(7, 0, 4)</li>
+        <li>(10, 0, 4)</li>
+        <li>(1, 0, 7)</li>
+        <li>(4, 0, 7)</li>
+        <li>(7, 0, 7)</li>
+        <li>(10, 0, 7)</li>
+        <li>(1, 0, 10)</li>
+        <li>(4, 0, 10)</li>
+        <li>(7, 0, 10)</li>
+        <li>(10, 0, 10)</li>
+      </positions>
+    </BandNode>
+    <Frame_BandNode>
+      <position>(10, 0, 1)</position>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Frame_BandNode>
+  </things>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <Flesh>
+        <rects>
+          <li>(0,12,0,12)</li>
+        </rects>
+      </Flesh>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Sand>
+        <rects>
+          <li>(0,12,0,12)</li>
+        </rects>
+      </Sand>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
