@@ -1,42 +1,44 @@
 <PrefabDef>
-  <defName>Prefab_20260824_211825</defName>
+  <defName>Prefab_20260904_200349</defName>
   <size>(7,7)</size>
   <extraInfo>
     <version>1.6.9676.17735</version>
     <name>現代城鎮邊境防禦設施(牆角)</name>
     <description>在惡名昭彰的邊緣世界中的城鎮必定會有外牆防禦設施。</description>
-    <tags>
-      <li>FullExport</li>
-    </tags>
+    <tags></tags>
     <author>黑龍月</author>
     <category>現代城鎮</category>
     <BuildingID>92fcad00-0589-4285-a477-a3b73ec33550</BuildingID>
     <modPackages>
       <mod>
-        <packageId>vanillaexpanded.vfearchitect</packageId>
-        <name>Vanilla Furniture Expanded - Architect</name>
+        <packageId>aoba.fortress.industrial.citadel</packageId>
+        <name>Fortification Industrial - Citadel</name>
         <version></version>
-        <modorder>73</modorder>
-        <steamWorkshopId>2608762624</steamWorkshopId>
+        <modorder>338</modorder>
+        <steamWorkshopId>2887532326</steamWorkshopId>
         <dependencies>
           <li>
-            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
-            <steamWorkshopId>2023507013</steamWorkshopId>
+            <packageId>aoba.fortress.industrial</packageId>
+            <steamWorkshopId>2561619583</steamWorkshopId>
           </li>
           <li>
             <packageId>brrainz.harmony</packageId>
             <steamWorkshopId>2009463077</steamWorkshopId>
           </li>
+          <li>
+            <packageId>aoba.framework</packageId>
+            <steamWorkshopId>3498575851</steamWorkshopId>
+          </li>
         </dependencies>
         <things>
-          <li>VFEArch_ArmoredWall</li>
+          <li>FTC_PowerConduit</li>
         </things>
       </mod>
       <mod>
         <packageId>reel.turretpipeline</packageId>
         <name><![CDATA[Reel's Turret Pipeline]]></name>
         <version></version>
-        <modorder>342</modorder>
+        <modorder>360</modorder>
         <steamWorkshopId>3424132769</steamWorkshopId>
         <dependencies>
           <li>
@@ -53,10 +55,30 @@
         </things>
       </mod>
       <mod>
+        <packageId>vanillaexpanded.vfearchitect</packageId>
+        <name>Vanilla Furniture Expanded - Architect</name>
+        <version></version>
+        <modorder>84</modorder>
+        <steamWorkshopId>2608762624</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VFEArch_ArmoredWall</li>
+        </things>
+      </mod>
+      <mod>
         <packageId>vanillaexpanded.vfesecurity</packageId>
         <name>Vanilla Furniture Expanded - Security</name>
         <version></version>
-        <modorder>78</modorder>
+        <modorder>89</modorder>
         <steamWorkshopId>1845154007</steamWorkshopId>
         <dependencies>
           <li>
@@ -77,7 +99,7 @@
         <packageId>vanillaexpanded.vfepower</packageId>
         <name>Vanilla Furniture Expanded - Power</name>
         <version></version>
-        <modorder>76</modorder>
+        <modorder>87</modorder>
         <steamWorkshopId>2062943477</steamWorkshopId>
         <dependencies>
           <li>
@@ -96,7 +118,7 @@
     </modPackages>
     <foldGroup>
       <groupKey>城鎮邊境防禦</groupKey>
-      <displayOrder>1</displayOrder>
+      <displayOrder>0</displayOrder>
       <isCover>false</isCover>
     </foldGroup>
     <multiLanguage>
@@ -108,12 +130,23 @@
         <default>在惡名昭彰的邊緣世界中的城鎮必定會有外牆防禦設施。</default>
         <zh-CN>在惡名昭彰的邊緣世界中的城鎮必定會有外牆防禦設施。</zh-CN>
       </description>
-      <tags>
-        <default>FullExport</default>
-      </tags>
     </multiLanguage>
   </extraInfo>
   <things>
+    <FTC_PowerConduit>
+      <rects>
+        <li>(0,0,0,1)</li>
+        <li>(1,1,1,2)</li>
+        <li>(2,2,2,3)</li>
+      </rects>
+    </FTC_PowerConduit>
+    <Reel_AmmoPipe>
+      <rects>
+        <li>(2,0,2,3)</li>
+        <li>(0,2,1,2)</li>
+        <li>(3,2,3,3)</li>
+      </rects>
+    </Reel_AmmoPipe>
     <VFEArch_ArmoredWall>
       <rects>
         <li>(2,0,3,2)</li>
@@ -123,13 +156,6 @@
       <stuff>Steel</stuff>
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </VFEArch_ArmoredWall>
-    <Reel_AmmoPipe>
-      <rects>
-        <li>(2,0,2,3)</li>
-        <li>(0,2,1,2)</li>
-        <li>(3,2,3,3)</li>
-      </rects>
-    </Reel_AmmoPipe>
     <Sandbags>
       <rects>
         <li>(4,0,6,0)</li>
