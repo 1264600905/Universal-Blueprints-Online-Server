@@ -1,13 +1,11 @@
 <PrefabDef>
-  <defName>Prefab_20260824_181250</defName>
+  <defName>Prefab_20260904_195736</defName>
   <size>(22,31)</size>
   <extraInfo>
     <version>1.6.9676.17735</version>
     <name>現代醫院</name>
     <description>大型現代醫院，可容納24名病患，有廁所。</description>
-    <tags>
-      <li>FullExport</li>
-    </tags>
+    <tags></tags>
     <author>黑龍月</author>
     <category>現代城鎮</category>
     <BuildingID>aaf4c726-7ffe-479b-aec8-0633b65d62e2</BuildingID>
@@ -16,7 +14,7 @@
         <packageId>vanillaexpanded.vfemedical</packageId>
         <name>Vanilla Furniture Expanded - Medical Module</name>
         <version></version>
-        <modorder>74</modorder>
+        <modorder>85</modorder>
         <steamWorkshopId>1718191613</steamWorkshopId>
         <dependencies>
           <li>
@@ -39,7 +37,7 @@
         <packageId>rebuild.cotr.doorsandcorners</packageId>
         <name>ReBuild: Doors and Corners</name>
         <version>1.5-Miller-rev1</version>
-        <modorder>219</modorder>
+        <modorder>246</modorder>
         <steamWorkshopId>3262718980</steamWorkshopId>
         <dependencies>
           <li>
@@ -59,7 +57,7 @@
         <packageId>vanillaexpanded.vfecore</packageId>
         <name>Vanilla Furniture Expanded</name>
         <version></version>
-        <modorder>71</modorder>
+        <modorder>82</modorder>
         <steamWorkshopId>1718190143</steamWorkshopId>
         <dependencies>
           <li>
@@ -79,7 +77,7 @@
         <packageId>memegoddess.replacestuff</packageId>
         <name>Replace Stuff - Continued</name>
         <version></version>
-        <modorder>319</modorder>
+        <modorder>221</modorder>
         <steamWorkshopId>3526354009</steamWorkshopId>
         <dependencies>
           <li>
@@ -95,7 +93,7 @@
         <packageId>reel.expanded.storage</packageId>
         <name><![CDATA[Reel's Expanded Storage]]></name>
         <version></version>
-        <modorder>306</modorder>
+        <modorder>331</modorder>
         <steamWorkshopId>3237638097</steamWorkshopId>
         <dependencies>
           <li>
@@ -123,7 +121,7 @@
         <packageId>lite.gravships</packageId>
         <name>Mini Gravships Lite</name>
         <version></version>
-        <modorder>43</modorder>
+        <modorder>54</modorder>
         <steamWorkshopId>3538850569</steamWorkshopId>
         <things>
           <li>GravshipLifeSupportUnit</li>
@@ -133,7 +131,7 @@
         <packageId>dubwise.dubsbadhygiene</packageId>
         <name>Dubs Bad Hygiene</name>
         <version>3.1.2800</version>
-        <modorder>42</modorder>
+        <modorder>50</modorder>
         <steamWorkshopId>836308268</steamWorkshopId>
         <things>
           <li>AirConOutdoorUnit</li>
@@ -150,7 +148,7 @@
         <packageId>vanillaexpanded.vfearchitect</packageId>
         <name>Vanilla Furniture Expanded - Architect</name>
         <version></version>
-        <modorder>73</modorder>
+        <modorder>84</modorder>
         <steamWorkshopId>2608762624</steamWorkshopId>
         <dependencies>
           <li>
@@ -181,9 +179,6 @@
         <default>大型現代醫院，可容納24名病患，有廁所。</default>
         <zh-CN>大型現代醫院，可容納24名病患，有廁所。</zh-CN>
       </description>
-      <tags>
-        <default>FullExport</default>
-      </tags>
     </multiLanguage>
   </extraInfo>
   <things>
@@ -690,6 +685,12 @@
   </terrain>
   <terrainLayers>
     <terrainLayerDetail layer="topGrid">
+      <Concrete>
+        <rects>
+          <li>(0,0,0,30)</li>
+          <li>(21,0,21,30)</li>
+        </rects>
+      </Concrete>
       <SterileTile>
         <rects>
           <li>(10,0,11,29)</li>
@@ -746,11 +747,22 @@
           <li>(19,30,19,30)</li>
         </rects>
       </VFEArch_Grass>
+      <AncientConcrete>
+        <rects>
+          <li>(13,15,15,15)</li>
+          <li>(14,16,14,17)</li>
+          <li>(12,19,13,19)</li>
+          <li>(14,20,14,20)</li>
+          <li>(13,23,13,23)</li>
+        </rects>
+      </AncientConcrete>
     </terrainLayerDetail>
     <terrainLayerDetail layer="underGrid">
       <Soil>
         <rects>
+          <li>(0,0,0,30)</li>
           <li>(10,0,11,0)</li>
+          <li>(21,0,21,30)</li>
           <li>(2,1,6,2)</li>
           <li>(2,4,7,5)</li>
           <li>(8,5,9,5)</li>
@@ -766,25 +778,25 @@
           <li>(9,10,9,22)</li>
           <li>(6,11,6,14)</li>
           <li>(8,11,8,14)</li>
-          <li>(12,11,13,14)</li>
-          <li>(15,11,15,14)</li>
+          <li>(12,11,13,22)</li>
+          <li>(15,11,15,18)</li>
           <li>(16,12,17,22)</li>
           <li>(20,12,20,30)</li>
           <li>(18,13,18,25)</li>
           <li>(19,14,19,30)</li>
-          <li>(12,15,12,18)</li>
+          <li>(14,15,14,17)</li>
           <li>(6,16,6,18)</li>
           <li>(8,16,8,18)</li>
-          <li>(13,16,13,18)</li>
-          <li>(15,16,15,18)</li>
           <li>(6,20,6,22)</li>
           <li>(8,20,8,22)</li>
-          <li>(12,20,13,22)</li>
-          <li>(15,20,15,22)</li>
+          <li>(14,20,15,20)</li>
+          <li>(15,21,15,22)</li>
+          <li>(13,23,13,25)</li>
           <li>(17,23,17,25)</li>
           <li>(2,24,2,25)</li>
           <li>(5,24,9,25)</li>
-          <li>(12,24,16,25)</li>
+          <li>(12,24,12,25)</li>
+          <li>(14,24,16,25)</li>
           <li>(2,27,9,27)</li>
           <li>(12,27,18,27)</li>
           <li>(4,28,4,29)</li>
