@@ -1,0 +1,327 @@
+<PrefabDef>
+  <defName>Prefab_20260907_040556</defName>
+  <size>(13,12)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>6单间宿舍</name>
+    <description>6个单间宿舍，每个宿舍观感为平庸，可以满足殖民者的心情。</description>
+    <tags></tags>
+    <author>白金trigger</author>
+    <category>宿舍</category>
+    <BuildingID>d91c2425-ab31-494d-a50c-ad5d2b0936e6</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>oels.nanamewalls</packageId>
+        <name>Hull Style: NANAME Walls</name>
+        <version>1.6.54</version>
+        <modorder>84</modorder>
+        <steamWorkshopId>3543791340</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFLI_Wall_NAWDiagonal</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>kindseal.ufli</packageId>
+        <name>联合轻工家具拓展-UF Light Industries Furniture</name>
+        <version></version>
+        <modorder>203</modorder>
+        <steamWorkshopId>3651799915</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFLI_Bed</li>
+          <li>UFLI_Endtable</li>
+          <li>UFLI_CabinetD</li>
+          <li>UFLI_TempControler</li>
+          <li>UFLI_FLOORH</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.odyssey</packageId>
+        <name>Odyssey</name>
+        <version></version>
+        <modorder>11</modorder>
+        <things>
+          <li>GrasslandSoil</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>6单间宿舍</default>
+        <zh-CN>6单间宿舍</zh-CN>
+        <zh-TW>6單間宿舍</zh-TW>
+        <en>6 Single-Room Dorms</en>
+        <ru>6 Одноместных общежитий</ru>
+        <fr>6 Dortoirs à chambre unique</fr>
+        <de>6 Einzelzimmer-Schlafsäle</de>
+        <es>6 Dormitorios de habitación individual</es>
+        <ja>6つの個室寮</ja>
+        <ko>6개인실 기숙사</ko>
+      </name>
+      <description>
+        <default>6个单间宿舍，每个宿舍观感为平庸，可以满足殖民者的心情。</default>
+        <zh-CN>6个单间宿舍，每个宿舍观感为平庸，可以满足殖民者的心情。</zh-CN>
+        <zh-TW>6個單間宿舍，每個宿舍觀感平庸，可以滿足殖民者的心情。</zh-TW>
+        <en>6 single-room dorms, each with mediocre appearance, satisfying the mood of colonists.</en>
+        <ru>6 одноместных общежитий, каждое с посредственным внешним видом, удовлетворяющим настроение колонистов.</ru>
+        <fr><![CDATA[6 dortoirs à chambre unique, chacun avec une apparence médiocre, satisfaisant l'humeur des colons.]]></fr>
+        <de>6 Einzelzimmer-Schlafsäle, jeder mit mittelmäßigem Aussehen, das die Stimmung der Kolonisten erfüllt.</de>
+        <es>6 dormitorios de habitación individual, cada uno con apariencia mediocre, satisfaciendo el ánimo de los colonos.</es>
+        <ja>6つの個室寮、各寮は平凡な印象で、入植者の気持ちを満たすことができる。</ja>
+        <ko>6개의 개인실 기숙사, 각 기숙사는 평범한 외관으로, 식민지 주민들의 기분을 만족시킬 수 있다.</ko>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <UFLI_Wall_NAWDiagonal>
+      <rects>
+        <li>(0,0,0,4)</li>
+        <li>(4,0,4,4)</li>
+        <li>(8,0,8,4)</li>
+        <li>(12,0,12,4)</li>
+        <li>(3,4,3,4)</li>
+        <li>(7,4,7,4)</li>
+        <li>(11,4,11,4)</li>
+        <li>(0,6,0,10)</li>
+        <li>(3,6,4,6)</li>
+        <li>(7,6,8,6)</li>
+        <li>(11,6,12,6)</li>
+        <li>(4,7,4,11)</li>
+        <li>(8,7,8,11)</li>
+        <li>(12,7,12,10)</li>
+        <li>(1,11,3,11)</li>
+        <li>(5,11,7,11)</li>
+        <li>(9,11,11,11)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Wall_NAWDiagonal>
+    <HiddenConduit>
+      <rects>
+        <li>(0,0,0,5)</li>
+        <li>(1,5,12,5)</li>
+        <li>(6,6,6,11)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <UFLI_Bed>
+      <positions>
+        <li>(1, 0, 0)</li>
+        <li>(5, 0, 0)</li>
+        <li>(9, 0, 0)</li>
+      </positions>
+      <stuff>Steel</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Bed>
+    <UFLI_Endtable>
+      <rects>
+        <li>(2,0,2,0)</li>
+        <li>(6,10,6,10)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Endtable>
+    <WallLamp>
+      <rects>
+        <li>(2,0,2,0)</li>
+        <li>(6,0,6,0)</li>
+        <li>(10,0,10,0)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </WallLamp>
+    <UFLI_CabinetD>
+      <position>(3, 0, 0)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_CabinetD>
+    <UFLI_Endtable>
+      <rects>
+        <li>(6,0,6,0)</li>
+        <li>(10,10,10,10)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Endtable>
+    <UFLI_CabinetD>
+      <positions>
+        <li>(7, 0, 0)</li>
+        <li>(11, 0, 0)</li>
+        <li>(7, 0, 9)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_CabinetD>
+    <UFLI_Endtable>
+      <rects>
+        <li>(10,0,10,0)</li>
+        <li>(2,10,2,10)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Endtable>
+    <Vent>
+      <rects>
+        <li>(1,4,1,4)</li>
+        <li>(5,4,5,4)</li>
+        <li>(9,4,9,4)</li>
+        <li>(1,6,1,6)</li>
+        <li>(5,6,5,6)</li>
+        <li>(9,6,9,6)</li>
+      </rects>
+    </Vent>
+    <Door>
+      <rects>
+        <li>(2,4,2,4)</li>
+        <li>(6,4,6,4)</li>
+        <li>(10,4,10,4)</li>
+        <li>(2,6,2,6)</li>
+        <li>(6,6,6,6)</li>
+        <li>(10,6,10,6)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <Autodoor>
+      <rects>
+        <li>(0,5,0,5)</li>
+        <li>(12,5,12,5)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Autodoor>
+    <UFLI_TempControler>
+      <rects>
+        <li>(7,5,7,5)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </UFLI_TempControler>
+    <UFLI_Bed>
+      <positions>
+        <li>(1, 0, 10)</li>
+        <li>(5, 0, 10)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Bed>
+    <UFLI_CabinetD>
+      <positions>
+        <li>(3, 0, 9)</li>
+        <li>(11, 0, 9)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_CabinetD>
+    <UFLI_Bed>
+      <position>(9, 0, 10)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Bed>
+    <WallLamp>
+      <rects>
+        <li>(2,10,2,10)</li>
+        <li>(6,10,6,10)</li>
+        <li>(10,10,10,10)</li>
+      </rects>
+    </WallLamp>
+  </things>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <UFLI_FLOORH>
+        <rects>
+          <li>(1,0,3,3)</li>
+          <li>(5,0,7,3)</li>
+          <li>(9,0,11,3)</li>
+          <li>(2,4,2,10)</li>
+          <li>(6,4,6,10)</li>
+          <li>(10,4,10,10)</li>
+          <li>(0,5,1,5)</li>
+          <li>(3,5,5,5)</li>
+          <li>(7,5,9,5)</li>
+          <li>(11,5,12,5)</li>
+          <li>(1,7,1,10)</li>
+          <li>(3,7,3,10)</li>
+          <li>(5,7,5,10)</li>
+          <li>(7,7,7,10)</li>
+          <li>(9,7,9,10)</li>
+          <li>(11,7,11,10)</li>
+        </rects>
+      </UFLI_FLOORH>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <GrasslandSoil>
+        <rects>
+          <li>(1,0,3,3)</li>
+          <li>(5,0,7,2)</li>
+          <li>(9,0,11,0)</li>
+          <li>(9,1,10,2)</li>
+          <li>(5,3,6,3)</li>
+          <li>(2,4,2,8)</li>
+          <li>(0,5,1,5)</li>
+          <li>(3,5,4,5)</li>
+          <li>(1,7,1,10)</li>
+          <li>(3,7,3,7)</li>
+          <li>(2,10,2,10)</li>
+        </rects>
+      </GrasslandSoil>
+      <SoilRich>
+        <rects>
+          <li>(11,1,11,3)</li>
+          <li>(7,3,7,3)</li>
+          <li>(9,3,10,3)</li>
+          <li>(6,4,6,10)</li>
+          <li>(10,4,10,10)</li>
+          <li>(5,5,5,5)</li>
+          <li>(7,5,9,5)</li>
+          <li>(11,5,12,5)</li>
+          <li>(5,7,5,10)</li>
+          <li>(7,7,7,10)</li>
+          <li>(9,7,9,10)</li>
+          <li>(11,7,11,10)</li>
+          <li>(3,8,3,10)</li>
+          <li>(2,9,2,9)</li>
+        </rects>
+      </SoilRich>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,12,11)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,12,11)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
