@@ -1,0 +1,210 @@
+<PrefabDef>
+  <defName>Prefab_20260909_064133</defName>
+  <size>(23,11)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>边缘核能-标准快堆机房</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>电力</category>
+    <BuildingID>9a0ef76f-2ffe-48a9-993b-9fedfd4415d9</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>dubwise.rimatomics</packageId>
+        <name>Dubs Rimatomics</name>
+        <version>1.7.3551</version>
+        <modorder>45</modorder>
+        <steamWorkshopId>1127530465</steamWorkshopId>
+        <things>
+          <li>BigTurbine</li>
+          <li>ReactorControl</li>
+          <li>PlutoniumProcessor</li>
+          <li>controllerLoomHidden</li>
+          <li>steamPipeHidden</li>
+          <li>waterPipeHidden</li>
+          <li>ReactorCoreB</li>
+          <li>PPC</li>
+          <li>Transformer</li>
+          <li>storagePool</li>
+          <li>HighVoltageHidden</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>cp.uncle.boris.used.furniture</packageId>
+        <name><![CDATA[[RH2] Uncle Boris' - Used Furniture]]></name>
+        <version></version>
+        <modorder>19</modorder>
+        <steamWorkshopId>2563508405</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>RH2_MEP007B_Generator</li>
+          <li>RH2_Floodlight_Big</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>边缘核能-标准快堆机房</default>
+        <zh-CN>边缘核能-标准快堆机房</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <BigTurbine>
+      <position>(5, 0, 2)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <color>RGBA(0.215, 0.482, 0.650, 1.000)</color>
+    </BigTurbine>
+    <RH2_MEP007B_Generator>
+      <positions>
+        <li>(11, 0, 0)</li>
+        <li>(11, 0, 3)</li>
+      </positions>
+    </RH2_MEP007B_Generator>
+    <ReactorControl>
+      <position>(13, 0, 2)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </ReactorControl>
+    <PlutoniumProcessor>
+      <positions>
+        <li>(16, 0, 1)</li>
+        <li>(20, 0, 1)</li>
+      </positions>
+    </PlutoniumProcessor>
+    <controllerLoomHidden>
+      <rects>
+        <li>(6,2,6,6)</li>
+        <li>(15,4,17,4)</li>
+        <li>(5,6,5,6)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </controllerLoomHidden>
+    <HiddenConduit>
+      <rects>
+        <li>(11,2,11,2)</li>
+        <li>(5,5,9,5)</li>
+        <li>(11,5,22,5)</li>
+        <li>(4,6,4,6)</li>
+        <li>(6,8,6,8)</li>
+        <li>(4,10,4,10)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <steamPipeHidden>
+      <rects>
+        <li>(10,4,17,4)</li>
+        <li>(5,10,6,10)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </steamPipeHidden>
+    <waterPipeHidden>
+      <rects>
+        <li>(10,4,17,4)</li>
+        <li>(5,10,6,10)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </waterPipeHidden>
+    <RH2_Floodlight_Big>
+      <rects>
+        <li>(22,4,22,4)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </RH2_Floodlight_Big>
+    <PowerSwitch>
+      <rects>
+        <li>(10,5,10,5)</li>
+      </rects>
+    </PowerSwitch>
+    <PRF_MiniHelperAtomic>
+      <rects>
+        <li>(16,5,16,5)</li>
+      </rects>
+    </PRF_MiniHelperAtomic>
+    <ReactorCoreB>
+      <position>(19, 0, 7)</position>
+    </ReactorCoreB>
+    <PPC>
+      <positions>
+        <li>(2, 0, 6)</li>
+        <li>(9, 0, 6)</li>
+        <li>(2, 0, 9)</li>
+        <li>(9, 0, 9)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </PPC>
+    <Transformer>
+      <positions>
+        <li>(5, 0, 6)</li>
+        <li>(5, 0, 9)</li>
+      </positions>
+    </Transformer>
+    <storagePool>
+      <position>(14, 0, 8)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </storagePool>
+    <HighVoltageHidden>
+      <rects>
+        <li>(6,8,6,8)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HighVoltageHidden>
+  </things>
+  <terrainLayers></terrainLayers>
+  <roofs>
+    <RoofRockThick>
+      <rects>
+        <li>(0,0,22,2)</li>
+        <li>(0,3,8,3)</li>
+        <li>(12,3,22,10)</li>
+        <li>(0,4,6,4)</li>
+        <li>(11,4,11,10)</li>
+        <li>(1,5,1,5)</li>
+        <li>(10,5,10,10)</li>
+        <li>(9,7,9,10)</li>
+        <li>(8,8,8,10)</li>
+        <li>(7,9,7,10)</li>
+        <li>(5,10,6,10)</li>
+      </rects>
+    </RoofRockThick>
+    <RoofRockThin>
+      <rects>
+        <li>(9,3,11,3)</li>
+        <li>(7,4,10,4)</li>
+        <li>(0,5,0,6)</li>
+        <li>(2,5,5,5)</li>
+        <li>(9,5,9,6)</li>
+        <li>(1,6,1,6)</li>
+        <li>(8,6,8,7)</li>
+        <li>(7,7,7,8)</li>
+        <li>(5,9,6,9)</li>
+        <li>(4,10,4,10)</li>
+      </rects>
+    </RoofRockThin>
+    <RoofConstructed>
+      <rects>
+        <li>(6,5,8,5)</li>
+        <li>(2,6,7,6)</li>
+        <li>(0,7,6,8)</li>
+        <li>(0,9,4,9)</li>
+        <li>(0,10,3,10)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(6,5,8,5)</li>
+        <li>(2,6,7,6)</li>
+        <li>(0,7,6,8)</li>
+        <li>(0,9,4,9)</li>
+        <li>(0,10,3,10)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
