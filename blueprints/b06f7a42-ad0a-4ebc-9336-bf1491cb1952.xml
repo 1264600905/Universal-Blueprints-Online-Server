@@ -1,10 +1,10 @@
 <PrefabDef>
-  <defName>Prefab_20260907_145342</defName>
+  <defName>Prefab_20260910_183125</defName>
   <size>(61,61)</size>
   <extraInfo>
     <version>1.6.9676.17735</version>
     <name>第二基地-完整版</name>
-    <description>为了在美观的同时尽可能的简洁而高效，大量设施已尽量使用活铁压低财富并且使用了低角护盾和高角护盾以及生命维持装置来保证可观的战斗力，可根据喜好自行更改移除（按原版全DLC设计，理论上可以做到无模组运行）</description>
+    <description>为了在美观的同时尽可能的简洁而高效，大量设施已尽量使用活铁压低财富并且使用了低角护盾和高角护盾以及生命维持装置来保证可观的战斗力，可根据喜好自行更改移除（按原版全DLC设计，理论上可以做到无模组运行）不定期更新</description>
     <tags>
       <li>FullExport</li>
     </tags>
@@ -53,6 +53,7 @@
           <li>PassengerShuttle</li>
           <li>BlocksVacstone</li>
           <li>Substructure</li>
+          <li>ThinIce</li>
         </things>
       </mod>
       <mod>
@@ -67,8 +68,10 @@
           <li>PlantPot_Bonsai</li>
           <li>SleepAccelerator</li>
           <li>KneelPillow</li>
-          <li>Altar_Large</li>
+          <li>ChristmasTree</li>
+          <li>Reliquary</li>
           <li>Lectern</li>
+          <li>Altar_Small</li>
           <li>Loudspeaker</li>
           <li>LightBall</li>
           <li>Tile_Transhumanist</li>
@@ -104,6 +107,16 @@
           <li>BasicRecharger</li>
         </things>
       </mod>
+      <mod>
+        <packageId>vanillaexpanded.vanillatradingexpanded</packageId>
+        <name>Vanilla Trading Expanded</name>
+        <version></version>
+        <modorder>54</modorder>
+        <steamWorkshopId>2785616901</steamWorkshopId>
+        <things>
+          <li>VTE_TradingTerminal</li>
+        </things>
+      </mod>
     </modPackages>
     <multiLanguage>
       <name>
@@ -111,12 +124,74 @@
         <zh-CN>第二基地-完整版</zh-CN>
       </name>
       <description>
-        <default>为了在美观的同时尽可能的简洁而高效，大量设施已尽量使用活铁压低财富并且使用了低角护盾和高角护盾以及生命维持装置来保证可观的战斗力，可根据喜好自行更改移除（按原版全DLC设计，理论上可以做到无模组运行）</default>
-        <zh-CN>为了在美观的同时尽可能的简洁而高效，大量设施已尽量使用活铁压低财富并且使用了低角护盾和高角护盾以及生命维持装置来保证可观的战斗力，可根据喜好自行更改移除（按原版全DLC设计，理论上可以做到无模组运行）</zh-CN>
+        <default>为了在美观的同时尽可能的简洁而高效，大量设施已尽量使用活铁压低财富并且使用了低角护盾和高角护盾以及生命维持装置来保证可观的战斗力，可根据喜好自行更改移除（按原版全DLC设计，理论上可以做到无模组运行）不定期更新</default>
+        <zh-CN>为了在美观的同时尽可能的简洁而高效，大量设施已尽量使用活铁压低财富并且使用了低角护盾和高角护盾以及生命维持装置来保证可观的战斗力，可根据喜好自行更改移除（按原版全DLC设计，理论上可以做到无模组运行）不定期更新</zh-CN>
       </description>
     </multiLanguage>
   </extraInfo>
   <things>
+    <Barricade>
+      <rects>
+        <li>(12,1,22,1)</li>
+        <li>(38,1,48,1)</li>
+        <li>(10,2,11,2)</li>
+        <li>(23,2,23,2)</li>
+        <li>(37,2,37,2)</li>
+        <li>(49,2,50,2)</li>
+        <li>(8,3,9,3)</li>
+        <li>(51,3,52,3)</li>
+        <li>(7,4,7,5)</li>
+        <li>(53,4,53,5)</li>
+        <li>(6,5,6,5)</li>
+        <li>(54,5,54,5)</li>
+        <li>(5,6,5,7)</li>
+        <li>(55,6,55,7)</li>
+        <li>(4,7,4,7)</li>
+        <li>(56,7,56,7)</li>
+        <li>(3,8,3,9)</li>
+        <li>(57,8,57,9)</li>
+        <li>(2,10,2,11)</li>
+        <li>(58,10,58,11)</li>
+        <li>(1,12,1,22)</li>
+        <li>(59,12,59,22)</li>
+        <li>(25,22,26,22)</li>
+        <li>(34,22,35,22)</li>
+        <li>(2,23,2,23)</li>
+        <li>(58,23,58,23)</li>
+        <li>(22,25,22,26)</li>
+        <li>(38,25,38,26)</li>
+        <li>(22,34,22,35)</li>
+        <li>(38,34,38,35)</li>
+        <li>(2,37,2,37)</li>
+        <li>(58,37,58,37)</li>
+        <li>(1,38,1,48)</li>
+        <li>(25,38,26,38)</li>
+        <li>(34,38,35,38)</li>
+        <li>(59,38,59,48)</li>
+        <li>(2,49,2,50)</li>
+        <li>(58,49,58,50)</li>
+        <li>(3,51,3,52)</li>
+        <li>(57,51,57,52)</li>
+        <li>(4,53,5,53)</li>
+        <li>(55,53,56,53)</li>
+        <li>(5,54,5,54)</li>
+        <li>(55,54,55,54)</li>
+        <li>(6,55,7,55)</li>
+        <li>(53,55,54,55)</li>
+        <li>(7,56,7,56)</li>
+        <li>(53,56,53,56)</li>
+        <li>(8,57,9,57)</li>
+        <li>(51,57,52,57)</li>
+        <li>(10,58,11,58)</li>
+        <li>(23,58,23,58)</li>
+        <li>(37,58,37,58)</li>
+        <li>(49,58,50,58)</li>
+        <li>(12,59,22,59)</li>
+        <li>(38,59,48,59)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Barricade>
     <HiddenConduit>
       <rects>
         <li>(12,1,22,1)</li>
@@ -351,68 +426,6 @@
       </rects>
       <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
     </HiddenConduit>
-    <Barricade>
-      <rects>
-        <li>(12,1,22,1)</li>
-        <li>(38,1,48,1)</li>
-        <li>(10,2,11,2)</li>
-        <li>(23,2,23,2)</li>
-        <li>(37,2,37,2)</li>
-        <li>(49,2,50,2)</li>
-        <li>(8,3,9,3)</li>
-        <li>(51,3,52,3)</li>
-        <li>(7,4,7,5)</li>
-        <li>(53,4,53,5)</li>
-        <li>(6,5,6,5)</li>
-        <li>(54,5,54,5)</li>
-        <li>(5,6,5,7)</li>
-        <li>(55,6,55,7)</li>
-        <li>(4,7,4,7)</li>
-        <li>(56,7,56,7)</li>
-        <li>(3,8,3,9)</li>
-        <li>(57,8,57,9)</li>
-        <li>(2,10,2,11)</li>
-        <li>(58,10,58,11)</li>
-        <li>(1,12,1,22)</li>
-        <li>(59,12,59,22)</li>
-        <li>(25,22,26,22)</li>
-        <li>(34,22,35,22)</li>
-        <li>(2,23,2,23)</li>
-        <li>(58,23,58,23)</li>
-        <li>(22,25,22,26)</li>
-        <li>(38,25,38,26)</li>
-        <li>(22,34,22,35)</li>
-        <li>(38,34,38,35)</li>
-        <li>(2,37,2,37)</li>
-        <li>(58,37,58,37)</li>
-        <li>(1,38,1,48)</li>
-        <li>(25,38,26,38)</li>
-        <li>(34,38,35,38)</li>
-        <li>(59,38,59,48)</li>
-        <li>(2,49,2,50)</li>
-        <li>(58,49,58,50)</li>
-        <li>(3,51,3,52)</li>
-        <li>(57,51,57,52)</li>
-        <li>(4,53,5,53)</li>
-        <li>(55,53,56,53)</li>
-        <li>(5,54,5,54)</li>
-        <li>(55,54,55,54)</li>
-        <li>(6,55,7,55)</li>
-        <li>(53,55,54,55)</li>
-        <li>(7,56,7,56)</li>
-        <li>(53,56,53,56)</li>
-        <li>(8,57,9,57)</li>
-        <li>(51,57,52,57)</li>
-        <li>(10,58,11,58)</li>
-        <li>(23,58,23,58)</li>
-        <li>(37,58,37,58)</li>
-        <li>(49,58,50,58)</li>
-        <li>(12,59,22,59)</li>
-        <li>(38,59,48,59)</li>
-      </rects>
-      <stuff>Steel</stuff>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </Barricade>
     <Turret_MiniTurret>
       <rects>
         <li>(12,2,12,2)</li>
@@ -507,15 +520,16 @@
         <li>(35,9,35,9)</li>
         <li>(24,15,24,15)</li>
         <li>(36,15,36,15)</li>
-        <li>(25,16,25,18)</li>
-        <li>(35,16,35,17)</li>
+        <li>(18,16,18,16)</li>
+        <li>(21,16,21,16)</li>
+        <li>(25,16,26,18)</li>
+        <li>(34,16,35,18)</li>
         <li>(3,18,3,18)</li>
         <li>(5,18,5,18)</li>
-        <li>(26,18,28,18)</li>
-        <li>(32,18,32,18)</li>
-        <li>(34,18,34,18)</li>
         <li>(55,18,55,18)</li>
         <li>(57,18,57,18)</li>
+        <li>(21,19,21,20)</li>
+        <li>(19,20,19,20)</li>
         <li>(8,24,8,24)</li>
         <li>(15,24,15,24)</li>
         <li>(52,24,52,24)</li>
@@ -578,18 +592,22 @@
         <li>(42,56,42,56)</li>
       </rects>
     </FirefoamPopper>
-    <Turret_Sniper>
+    <Turret_RocketswarmLauncher>
       <positions>
         <li>(24, 0, 5)</li>
         <li>(35, 0, 5)</li>
+        <li>(6, 0, 6)</li>
+        <li>(53, 0, 6)</li>
         <li>(5, 0, 24)</li>
         <li>(54, 0, 24)</li>
         <li>(5, 0, 35)</li>
         <li>(54, 0, 35)</li>
+        <li>(6, 0, 53)</li>
+        <li>(53, 0, 53)</li>
         <li>(24, 0, 54)</li>
         <li>(35, 0, 54)</li>
       </positions>
-    </Turret_Sniper>
+    </Turret_RocketswarmLauncher>
     <GravshipHull>
       <rects>
         <li>(26,5,26,5)</li>
@@ -642,14 +660,6 @@
         <li>(32, 0, 54)</li>
       </positions>
     </Turret_Autocannon>
-    <Turret_RocketswarmLauncher>
-      <positions>
-        <li>(6, 0, 6)</li>
-        <li>(53, 0, 6)</li>
-        <li>(6, 0, 53)</li>
-        <li>(53, 0, 53)</li>
-      </positions>
-    </Turret_RocketswarmLauncher>
     <Autodoor>
       <rects>
         <li>(26,6,26,6)</li>
@@ -661,6 +671,29 @@
       <stuff>Uranium</stuff>
       <color>RGBA(0.392, 0.392, 0.392, 1.000)</color>
     </Autodoor>
+    <Filth_Dirt>
+      <rects>
+        <li>(34,6,34,6)</li>
+        <li>(26,8,26,8)</li>
+        <li>(34,10,34,10)</li>
+        <li>(28,14,28,14)</li>
+        <li>(29,15,29,15)</li>
+        <li>(30,16,31,16)</li>
+        <li>(45,17,45,17)</li>
+        <li>(30,18,30,18)</li>
+        <li>(37,20,37,20)</li>
+        <li>(43,20,43,20)</li>
+        <li>(30,24,30,24)</li>
+        <li>(9,27,9,27)</li>
+        <li>(36,30,36,30)</li>
+        <li>(41,36,41,37)</li>
+        <li>(42,37,42,37)</li>
+        <li>(46,38,46,38)</li>
+        <li>(47,46,47,46)</li>
+      </rects>
+      <color>RGBA(0.357, 0.294, 0.255, 0.380)</color>
+      <thickness>1</thickness>
+    </Filth_Dirt>
     <GravshipHull>
       <rects>
         <li>(24,7,25,7)</li>
@@ -767,7 +800,8 @@
     <Shelf>
       <positions>
         <li>(25, 0, 9)</li>
-        <li>(25, 0, 17)</li>
+        <li>(26, 0, 17)</li>
+        <li>(35, 0, 17)</li>
         <li>(37, 0, 38)</li>
         <li>(17, 0, 49)</li>
         <li>(18, 0, 49)</li>
@@ -809,7 +843,8 @@
     <Shelf>
       <positions>
         <li>(35, 0, 8)</li>
-        <li>(35, 0, 16)</li>
+        <li>(25, 0, 16)</li>
+        <li>(34, 0, 16)</li>
       </positions>
       <relativeRotation>Counterclockwise</relativeRotation>
       <stuff>Bioferrite</stuff>
@@ -895,12 +930,17 @@
       <stuff>Steel</stuff>
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </GravshipHull>
-    <Steel>
+    <Filth_Dirt>
       <rects>
-        <li>(25,9,25,9)</li>
+        <li>(26,9,26,9)</li>
+        <li>(28,13,28,13)</li>
+        <li>(30,21,30,21)</li>
+        <li>(30,23,30,23)</li>
+        <li>(44,38,44,38)</li>
       </rects>
-      <stackCount>59</stackCount>
-    </Steel>
+      <color>RGBA(0.357, 0.294, 0.255, 0.380)</color>
+      <thickness>2</thickness>
+    </Filth_Dirt>
     <BiosculpterPod>
       <position>(38, 0, 9)</position>
     </BiosculpterPod>
@@ -923,6 +963,12 @@
       </positions>
       <relativeRotation>Counterclockwise</relativeRotation>
     </CryptosleepCasket>
+    <Filth_Trash>
+      <rects>
+        <li>(33,11,33,11)</li>
+      </rects>
+      <thickness>1</thickness>
+    </Filth_Trash>
     <Drape>
       <positions>
         <li>(20, 0, 12)</li>
@@ -949,7 +995,6 @@
         <li>(25, 0, 13)</li>
         <li>(35, 0, 13)</li>
       </positions>
-      <relativeRotation>Opposite</relativeRotation>
     </NeuralSupercharger>
     <WastepackAtomizer>
       <positions>
@@ -1020,8 +1065,8 @@
         <li>(37,18,37,18)</li>
         <li>(10,19,10,19)</li>
         <li>(10,41,10,41)</li>
+        <li>(46,41,46,41)</li>
         <li>(37,42,37,42)</li>
-        <li>(46,42,46,42)</li>
       </rects>
       <relativeRotation>Counterclockwise</relativeRotation>
     </LifeSupportUnit>
@@ -1113,6 +1158,7 @@
         <li>(44,20,44,20)</li>
         <li>(35,22,35,22)</li>
         <li>(52,30,52,30)</li>
+        <li>(35,38,35,38)</li>
         <li>(14,39,14,39)</li>
         <li>(8,41,8,41)</li>
         <li>(35,44,35,44)</li>
@@ -1177,27 +1223,34 @@
         <li>(44,44,44,44)</li>
       </rects>
     </ShieldGeneratorBullets>
-    <Uranium>
+    <Chemfuel>
       <rects>
         <li>(17,16,17,16)</li>
-        <li>(17,19,17,20)</li>
-        <li>(10,33,11,34)</li>
       </rects>
-      <stackCount>75</stackCount>
-    </Uranium>
+      <stackCount>15</stackCount>
+    </Chemfuel>
     <Uranium>
       <rects>
-        <li>(20,16,20,16)</li>
+        <li>(19,16,19,16)</li>
       </rects>
-      <stackCount>25</stackCount>
+      <stackCount>56</stackCount>
     </Uranium>
     <MechGestator>
-      <positions>
-        <li>(27, 0, 17)</li>
-        <li>(33, 0, 17)</li>
-      </positions>
-      <relativeRotation>Opposite</relativeRotation>
+      <position>(27, 0, 17)</position>
+      <relativeRotation>Clockwise</relativeRotation>
     </MechGestator>
+    <MechGestator>
+      <position>(33, 0, 17)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </MechGestator>
+    <Filth_AnimalFilth>
+      <rects>
+        <li>(43,16,43,16)</li>
+        <li>(48,38,50,38)</li>
+      </rects>
+      <color>RGBA(0.380, 0.255, 0.188, 0.380)</color>
+      <thickness>1</thickness>
+    </Filth_AnimalFilth>
     <Autodoor>
       <rects>
         <li>(15,17,15,17)</li>
@@ -1219,16 +1272,20 @@
         <li>(36,45,36,45)</li>
       </rects>
     </GravFieldExtender>
-    <Steel>
+    <WoodLog>
       <rects>
-        <li>(35,17,35,17)</li>
+        <li>(18,17,19,17)</li>
+        <li>(23,17,23,17)</li>
+        <li>(18,18,18,18)</li>
+        <li>(20,22,20,22)</li>
+        <li>(14,33,14,34)</li>
+        <li>(13,34,13,34)</li>
       </rects>
-    </Steel>
+      <stackCount>75</stackCount>
+    </WoodLog>
     <Shelf>
       <positions>
         <li>(26, 0, 18)</li>
-        <li>(28, 0, 18)</li>
-        <li>(33, 0, 18)</li>
         <li>(35, 0, 18)</li>
         <li>(14, 0, 41)</li>
         <li>(23, 0, 43)</li>
@@ -1242,12 +1299,6 @@
       <colorDef>Structure_White</colorDef>
       <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
     </Shelf>
-    <Steel>
-      <rects>
-        <li>(33,18,33,18)</li>
-      </rects>
-      <stackCount>60</stackCount>
-    </Steel>
     <KneelPillow>
       <rects>
         <li>(47,18,49,20)</li>
@@ -1257,6 +1308,12 @@
       <quality>Normal</quality>
       <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
     </KneelPillow>
+    <WoodLog>
+      <rects>
+        <li>(20,19,20,19)</li>
+      </rects>
+      <stackCount>36</stackCount>
+    </WoodLog>
     <SecurityDoor>
       <position>(24, 0, 20)</position>
       <relativeRotation>Clockwise</relativeRotation>
@@ -1281,6 +1338,12 @@
       <relativeRotation>Counterclockwise</relativeRotation>
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </SecurityDoor>
+    <Steel>
+      <rects>
+        <li>(20,20,20,20)</li>
+      </rects>
+      <stackCount>46</stackCount>
+    </Steel>
     <ProximityDetector>
       <rects>
         <li>(30,20,30,20)</li>
@@ -1297,34 +1360,42 @@
         <li>(29,40,29,40)</li>
       </rects>
     </ShieldGeneratorMortar>
-    <Silver>
+    <Uranium>
       <rects>
-        <li>(30,21,30,27)</li>
-        <li>(22,30,27,30)</li>
-        <li>(30,34,30,34)</li>
-        <li>(30,36,30,36)</li>
-        <li>(30,39,30,39)</li>
+        <li>(19,21,19,21)</li>
+        <li>(21,21,21,21)</li>
       </rects>
-      <stackCount>500</stackCount>
-    </Silver>
+      <stackCount>75</stackCount>
+    </Uranium>
+    <ChristmasTree>
+      <rects>
+        <li>(46,21,46,21)</li>
+        <li>(51,21,51,21)</li>
+      </rects>
+    </ChristmasTree>
+    <VTE_TradingTerminal>
+      <position>(17, 0, 23)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </VTE_TradingTerminal>
     <MechBooster>
       <positions>
         <li>(22, 0, 22)</li>
+        <li>(37, 0, 22)</li>
         <li>(14, 0, 30)</li>
         <li>(19, 0, 38)</li>
       </positions>
     </MechBooster>
-    <Altar_Large>
-      <position>(48, 0, 22)</position>
+    <Reliquary>
+      <position>(48, 0, 23)</position>
+      <relativeRotation>Opposite</relativeRotation>
       <stuff>Bioferrite</stuff>
       <colorDef>Structure_White</colorDef>
       <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
-    </Altar_Large>
+    </Reliquary>
     <Lectern>
       <rects>
         <li>(50,22,50,22)</li>
       </rects>
-      <relativeRotation>Opposite</relativeRotation>
       <stuff>Bioferrite</stuff>
       <colorDef>Structure_White</colorDef>
       <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
@@ -1337,6 +1408,13 @@
         <li>(47,35,47,35)</li>
       </rects>
     </LifeSupportUnit>
+    <Altar_Small>
+      <rects>
+        <li>(50,23,50,23)</li>
+      </rects>
+      <stuff>Plasteel</stuff>
+      <color>RGBA(0.627, 0.698, 0.710, 1.000)</color>
+    </Altar_Small>
     <ShelfSmall>
       <rects>
         <li>(8,24,8,24)</li>
@@ -1349,12 +1427,6 @@
       <colorDef>Structure_Slate</colorDef>
       <color>RGBA(0.275, 0.275, 0.275, 1.000)</color>
     </ShelfSmall>
-    <Steel>
-      <rects>
-        <li>(15,24,15,24)</li>
-      </rects>
-      <stackCount>55</stackCount>
-    </Steel>
     <SecurityDoor>
       <positions>
         <li>(20, 0, 24)</li>
@@ -1512,6 +1584,12 @@
       <colorDef>Structure_Slate</colorDef>
       <color>RGBA(0.275, 0.275, 0.275, 1.000)</color>
     </Shelf>
+    <ComponentIndustrial>
+      <rects>
+        <li>(16,26,16,26)</li>
+      </rects>
+      <stackCount>43</stackCount>
+    </ComponentIndustrial>
     <ElectricSmelter>
       <positions>
         <li>(8, 0, 28)</li>
@@ -1552,6 +1630,12 @@
       <colorDef>Structure_White</colorDef>
       <color>RGBA(0.722, 0.722, 0.722, 1.000)</color>
     </BilliardsTable>
+    <Plasteel>
+      <rects>
+        <li>(9,28,9,28)</li>
+      </rects>
+      <stackCount>23</stackCount>
+    </Plasteel>
     <OrbitalTradeBeacon>
       <rects>
         <li>(28,28,28,28)</li>
@@ -1595,7 +1679,6 @@
         <li>(10,40,10,40)</li>
         <li>(43,42,43,42)</li>
         <li>(18,44,18,44)</li>
-        <li>(47,46,47,46)</li>
       </rects>
     </Heater>
     <FrenzyInducer>
@@ -1605,27 +1688,33 @@
     </FrenzyInducer>
     <Gold>
       <rects>
-        <li>(21,30,21,30)</li>
+        <li>(25,30,25,30)</li>
       </rects>
-      <stackCount>7</stackCount>
-    </Gold>
-    <Gold>
-      <rects>
-        <li>(36,30,36,30)</li>
-      </rects>
-      <stackCount>200</stackCount>
+      <stackCount>176</stackCount>
     </Gold>
     <Silver>
       <rects>
-        <li>(37,30,37,30)</li>
+        <li>(26,30,26,30)</li>
       </rects>
-      <stackCount>171</stackCount>
+      <stackCount>284</stackCount>
     </Silver>
+    <Gold>
+      <rects>
+        <li>(33,30,33,30)</li>
+      </rects>
+      <stackCount>39</stackCount>
+    </Gold>
     <LightBall>
       <rects>
         <li>(50,30,50,30)</li>
       </rects>
     </LightBall>
+    <Plasteel>
+      <rects>
+        <li>(9,32,9,32)</li>
+      </rects>
+      <stackCount>40</stackCount>
+    </Plasteel>
     <BasicRecharger>
       <position>(30, 0, 32)</position>
     </BasicRecharger>
@@ -1636,29 +1725,12 @@
     </Piano>
     <Plasteel>
       <rects>
-        <li>(13,33,13,34)</li>
-        <li>(10,34,11,34)</li>
+        <li>(10,33,11,34)</li>
+        <li>(13,33,14,33)</li>
+        <li>(13,34,13,34)</li>
       </rects>
       <stackCount>75</stackCount>
     </Plasteel>
-    <Plasteel>
-      <rects>
-        <li>(14,33,14,33)</li>
-      </rects>
-      <stackCount>17</stackCount>
-    </Plasteel>
-    <WoodLog>
-      <rects>
-        <li>(14,33,14,33)</li>
-      </rects>
-      <stackCount>53</stackCount>
-    </WoodLog>
-    <Gold>
-      <rects>
-        <li>(30,33,30,33)</li>
-      </rects>
-      <stackCount>27</stackCount>
-    </Gold>
     <Throne>
       <rects>
         <li>(43,33,43,33)</li>
@@ -1680,9 +1752,15 @@
     </SculptureLarge>
     <Plasteel>
       <rects>
-        <li>(13,34,13,34)</li>
+        <li>(9,34,9,34)</li>
       </rects>
-      <stackCount>4</stackCount>
+      <stackCount>73</stackCount>
+    </Plasteel>
+    <Plasteel>
+      <rects>
+        <li>(12,34,12,34)</li>
+      </rects>
+      <stackCount>48</stackCount>
     </Plasteel>
     <ShelfSmall>
       <rects>
@@ -1819,24 +1897,6 @@
       <position>(23, 0, 39)</position>
       <relativeRotation>Opposite</relativeRotation>
     </PodLauncher>
-    <Silver>
-      <rects>
-        <li>(30,38,30,38)</li>
-      </rects>
-      <stackCount>295</stackCount>
-    </Silver>
-    <WallLamp>
-      <rects>
-        <li>(35,38,35,38)</li>
-      </rects>
-      <relativeRotation>Clockwise</relativeRotation>
-    </WallLamp>
-    <Chemfuel>
-      <rects>
-        <li>(37,38,37,38)</li>
-      </rects>
-      <stackCount>50</stackCount>
-    </Chemfuel>
     <PassengerShuttle>
       <position>(41, 0, 39)</position>
       <relativeRotation>Clockwise</relativeRotation>
@@ -1917,6 +1977,12 @@
       <position>(12, 0, 41)</position>
       <relativeRotation>Opposite</relativeRotation>
     </FlatscreenTelevision>
+    <MedicineIndustrial>
+      <rects>
+        <li>(14,41,14,41)</li>
+      </rects>
+      <stackCount>7</stackCount>
+    </MedicineIndustrial>
     <Cooler>
       <rects>
         <li>(44,41,44,41)</li>
@@ -2094,6 +2160,18 @@
         <li>(46,45,46,45)</li>
       </rects>
     </Vent>
+    <MealLavish_Veg>
+      <rects>
+        <li>(18,46,18,46)</li>
+      </rects>
+      <stackCount>5</stackCount>
+    </MealLavish_Veg>
+    <MealLavish_Meat>
+      <rects>
+        <li>(18,46,18,46)</li>
+      </rects>
+      <stackCount>8</stackCount>
+    </MealLavish_Meat>
     <NutrientPasteDispenser>
       <position>(23, 0, 47)</position>
       <relativeRotation>Counterclockwise</relativeRotation>
@@ -2156,6 +2234,11 @@
       <quality>Normal</quality>
       <color>RGBA(0.392, 0.314, 0.314, 1.000)</color>
     </DiningChair>
+    <SleepingSpot>
+      <position>(46, 0, 46)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <color>RGBA(1.000, 0.718, 0.129, 1.000)</color>
+    </SleepingSpot>
     <HydroponicsBasin>
       <positions>
         <li>(28, 0, 47)</li>
@@ -2188,6 +2271,19 @@
       <quality>Good</quality>
       <color>RGBA(0.392, 0.314, 0.314, 1.000)</color>
     </Table1x2c>
+    <Milk>
+      <rects>
+        <li>(16,48,16,48)</li>
+        <li>(23,49,23,49)</li>
+      </rects>
+      <stackCount>75</stackCount>
+    </Milk>
+    <Milk>
+      <rects>
+        <li>(16,48,16,48)</li>
+      </rects>
+      <stackCount>62</stackCount>
+    </Milk>
     <BioferriteHarvester>
       <position>(40, 0, 49)</position>
       <relativeRotation>Opposite</relativeRotation>
@@ -2387,18 +2483,21 @@
         <li>(55,55,55,60)</li>
         <li>(6,56,6,60)</li>
         <li>(9,56,10,56)</li>
-        <li>(24,56,28,60)</li>
+        <li>(24,56,28,56)</li>
         <li>(32,56,36,60)</li>
         <li>(50,56,51,56)</li>
         <li>(54,56,54,60)</li>
         <li>(7,57,7,60)</li>
+        <li>(24,57,25,60)</li>
         <li>(53,57,53,60)</li>
         <li>(8,58,9,60)</li>
         <li>(21,58,21,58)</li>
+        <li>(26,58,26,60)</li>
         <li>(39,58,39,58)</li>
         <li>(51,58,52,60)</li>
         <li>(10,59,11,60)</li>
         <li>(23,59,23,60)</li>
+        <li>(27,59,28,60)</li>
         <li>(37,59,37,60)</li>
         <li>(49,59,50,60)</li>
         <li>(12,60,22,60)</li>
@@ -2614,6 +2713,7 @@
         <li>(25,42,27,42)</li>
         <li>(33,42,35,42)</li>
         <li>(58,42,58,42)</li>
+        <li>(14,43,14,43)</li>
         <li>(25,43,25,44)</li>
         <li>(35,43,35,44)</li>
         <li>(2,45,2,45)</li>
@@ -2961,6 +3061,10 @@
         <li>(17,41,18,44)</li>
         <li>(16,42,16,44)</li>
         <li>(19,42,23,44)</li>
+        <li>(41,46,47,46)</li>
+        <li>(41,47,46,47)</li>
+        <li>(42,48,44,48)</li>
+        <li>(42,49,43,49)</li>
       </rects>
     </SterileTile>
     <CarpetFineSlate>
@@ -3051,11 +3155,11 @@
         <li>(46,37,51,39)</li>
         <li>(45,40,50,41)</li>
         <li>(46,42,49,43)</li>
-        <li>(14,43,14,45)</li>
-        <li>(12,44,13,44)</li>
+        <li>(12,44,14,44)</li>
         <li>(46,44,48,44)</li>
-        <li>(13,45,13,46)</li>
+        <li>(13,45,14,45)</li>
         <li>(46,45,46,45)</li>
+        <li>(13,46,13,46)</li>
       </rects>
     </StrawMatting>
     <SilverTile>
@@ -3074,14 +3178,26 @@
     </BioferritePlate>
     <WoodPlankFloor>
       <rects>
-        <li>(40,46,47,46)</li>
-        <li>(40,47,46,47)</li>
-        <li>(41,48,44,48)</li>
-        <li>(42,49,43,49)</li>
+        <li>(40,46,40,47)</li>
+        <li>(41,48,41,48)</li>
       </rects>
     </WoodPlankFloor>
+    <ThinIce>
+      <rects>
+        <li>(26,57,28,57)</li>
+        <li>(27,58,28,58)</li>
+      </rects>
+    </ThinIce>
   </terrain>
   <terrainLayers>
+    <terrainLayerDetail layer="tempGrid">
+      <ThinIce>
+        <rects>
+          <li>(26,57,28,57)</li>
+          <li>(27,58,28,58)</li>
+        </rects>
+      </ThinIce>
+    </terrainLayerDetail>
     <terrainLayerDetail layer="topGrid">
       <Ice>
         <rects>
@@ -3333,7 +3449,7 @@
           <li>(41,54,41,58)</li>
           <li>(56,54,56,60)</li>
           <li>(5,55,5,60)</li>
-          <li>(26,55,26,60)</li>
+          <li>(26,55,26,56)</li>
           <li>(29,55,29,60)</li>
           <li>(31,55,31,60)</li>
           <li>(34,55,34,60)</li>
@@ -3341,7 +3457,7 @@
           <li>(6,56,6,60)</li>
           <li>(9,56,10,56)</li>
           <li>(24,56,25,60)</li>
-          <li>(27,56,28,60)</li>
+          <li>(27,56,28,56)</li>
           <li>(32,56,33,60)</li>
           <li>(35,56,36,60)</li>
           <li>(50,56,51,56)</li>
@@ -3351,11 +3467,13 @@
           <li>(8,58,9,60)</li>
           <li>(16,58,16,58)</li>
           <li>(20,58,21,58)</li>
+          <li>(26,58,26,60)</li>
           <li>(39,58,40,58)</li>
           <li>(44,58,44,58)</li>
           <li>(51,58,52,60)</li>
           <li>(10,59,11,60)</li>
           <li>(23,59,23,60)</li>
+          <li>(27,59,28,60)</li>
           <li>(37,59,37,60)</li>
           <li>(49,59,50,60)</li>
           <li>(12,60,22,60)</li>
@@ -3571,6 +3689,7 @@
           <li>(25,42,27,42)</li>
           <li>(33,42,35,42)</li>
           <li>(58,42,58,42)</li>
+          <li>(14,43,14,43)</li>
           <li>(25,43,25,44)</li>
           <li>(35,43,35,44)</li>
           <li>(2,45,2,45)</li>
@@ -3790,6 +3909,10 @@
           <li>(17,41,18,44)</li>
           <li>(16,42,16,44)</li>
           <li>(19,42,23,44)</li>
+          <li>(41,46,47,46)</li>
+          <li>(41,47,46,47)</li>
+          <li>(42,48,44,48)</li>
+          <li>(42,49,43,49)</li>
         </rects>
       </SterileTile>
       <CarpetFineSlate>
@@ -3880,11 +4003,11 @@
           <li>(46,37,51,39)</li>
           <li>(45,40,50,41)</li>
           <li>(46,42,49,43)</li>
-          <li>(14,43,14,45)</li>
-          <li>(12,44,13,44)</li>
+          <li>(12,44,14,44)</li>
           <li>(46,44,48,44)</li>
-          <li>(13,45,13,46)</li>
+          <li>(13,45,14,45)</li>
           <li>(46,45,46,45)</li>
+          <li>(13,46,13,46)</li>
         </rects>
       </StrawMatting>
       <SilverTile>
@@ -3903,12 +4026,16 @@
       </BioferritePlate>
       <WoodPlankFloor>
         <rects>
-          <li>(40,46,47,46)</li>
-          <li>(40,47,46,47)</li>
-          <li>(41,48,44,48)</li>
-          <li>(42,49,43,49)</li>
+          <li>(40,46,40,47)</li>
+          <li>(41,48,41,48)</li>
         </rects>
       </WoodPlankFloor>
+      <WaterShallow>
+        <rects>
+          <li>(26,57,28,57)</li>
+          <li>(27,58,28,58)</li>
+        </rects>
+      </WaterShallow>
     </terrainLayerDetail>
     <terrainLayerDetail layer="underGrid">
       <Ice>
@@ -4398,15 +4525,15 @@
   <roofs>
     <RoofConstructed>
       <rects>
-        <li>(24,5,28,19)</li>
-        <li>(32,5,36,19)</li>
+        <li>(24,5,28,20)</li>
+        <li>(32,5,36,20)</li>
         <li>(29,6,29,19)</li>
         <li>(31,6,31,19)</li>
-        <li>(30,7,30,21)</li>
+        <li>(30,7,30,20)</li>
         <li>(21,8,23,24)</li>
         <li>(37,8,39,24)</li>
-        <li>(19,9,20,26)</li>
-        <li>(40,9,41,26)</li>
+        <li>(19,9,20,28)</li>
+        <li>(40,9,41,28)</li>
         <li>(17,10,18,36)</li>
         <li>(42,10,43,37)</li>
         <li>(16,11,16,36)</li>
@@ -4423,9 +4550,9 @@
         <li>(50,17,50,43)</li>
         <li>(9,19,9,41)</li>
         <li>(51,19,51,41)</li>
-        <li>(24,20,26,21)</li>
-        <li>(34,20,36,21)</li>
         <li>(8,21,8,39)</li>
+        <li>(24,21,26,21)</li>
+        <li>(34,21,36,21)</li>
         <li>(52,21,52,39)</li>
         <li>(24,22,24,23)</li>
         <li>(36,22,36,23)</li>
@@ -4433,53 +4560,54 @@
         <li>(53,24,55,28)</li>
         <li>(21,25,21,26)</li>
         <li>(39,25,39,26)</li>
-        <li>(19,27,19,51)</li>
-        <li>(41,27,41,37)</li>
         <li>(6,29,7,29)</li>
+        <li>(19,29,19,51)</li>
+        <li>(41,29,41,37)</li>
         <li>(53,29,54,29)</li>
         <li>(7,30,7,36)</li>
-        <li>(20,30,21,30)</li>
-        <li>(39,30,40,30)</li>
+        <li>(20,30,20,30)</li>
+        <li>(40,30,40,30)</li>
         <li>(53,30,53,36)</li>
         <li>(6,31,6,36)</li>
         <li>(54,31,54,36)</li>
         <li>(5,32,5,36)</li>
+        <li>(20,32,20,51)</li>
+        <li>(40,32,40,37)</li>
         <li>(55,32,55,36)</li>
-        <li>(20,34,21,36)</li>
-        <li>(39,34,40,37)</li>
+        <li>(21,34,21,36)</li>
+        <li>(39,34,39,37)</li>
         <li>(22,36,23,36)</li>
         <li>(37,36,38,52)</li>
-        <li>(20,37,20,51)</li>
         <li>(24,37,24,55)</li>
         <li>(36,37,36,55)</li>
         <li>(25,39,26,55)</li>
-        <li>(30,39,30,53)</li>
         <li>(34,39,35,55)</li>
         <li>(16,40,18,49)</li>
         <li>(21,40,23,52)</li>
-        <li>(27,41,29,54)</li>
-        <li>(31,41,33,54)</li>
+        <li>(27,40,28,55)</li>
+        <li>(30,40,30,53)</li>
+        <li>(32,40,33,55)</li>
+        <li>(29,41,29,54)</li>
+        <li>(31,41,31,54)</li>
         <li>(39,41,44,49)</li>
         <li>(13,47,13,47)</li>
         <li>(17,50,18,50)</li>
         <li>(39,50,43,50)</li>
         <li>(39,51,41,51)</li>
         <li>(39,52,39,52)</li>
-        <li>(27,55,28,55)</li>
-        <li>(32,55,33,55)</li>
       </rects>
     </RoofConstructed>
     <PlayerRoofZone>
       <rects>
-        <li>(24,5,28,19)</li>
-        <li>(32,5,36,19)</li>
+        <li>(24,5,28,20)</li>
+        <li>(32,5,36,20)</li>
         <li>(29,6,29,19)</li>
         <li>(31,6,31,19)</li>
-        <li>(30,7,30,21)</li>
+        <li>(30,7,30,20)</li>
         <li>(21,8,23,24)</li>
         <li>(37,8,39,24)</li>
-        <li>(19,9,20,26)</li>
-        <li>(40,9,41,26)</li>
+        <li>(19,9,20,28)</li>
+        <li>(40,9,41,28)</li>
         <li>(17,10,18,36)</li>
         <li>(42,10,43,37)</li>
         <li>(16,11,16,36)</li>
@@ -4496,9 +4624,9 @@
         <li>(50,17,50,43)</li>
         <li>(9,19,9,41)</li>
         <li>(51,19,51,41)</li>
-        <li>(24,20,26,21)</li>
-        <li>(34,20,36,21)</li>
         <li>(8,21,8,39)</li>
+        <li>(24,21,26,21)</li>
+        <li>(34,21,36,21)</li>
         <li>(52,21,52,39)</li>
         <li>(24,22,24,23)</li>
         <li>(36,22,36,23)</li>
@@ -4506,60 +4634,61 @@
         <li>(53,24,55,28)</li>
         <li>(21,25,21,26)</li>
         <li>(39,25,39,26)</li>
-        <li>(19,27,19,51)</li>
-        <li>(41,27,41,37)</li>
         <li>(6,29,7,29)</li>
+        <li>(19,29,19,51)</li>
+        <li>(41,29,41,37)</li>
         <li>(53,29,54,29)</li>
         <li>(7,30,7,36)</li>
-        <li>(20,30,21,30)</li>
-        <li>(39,30,40,30)</li>
+        <li>(20,30,20,30)</li>
+        <li>(40,30,40,30)</li>
         <li>(53,30,53,36)</li>
         <li>(6,31,6,36)</li>
         <li>(54,31,54,36)</li>
         <li>(5,32,5,36)</li>
+        <li>(20,32,20,51)</li>
+        <li>(40,32,40,37)</li>
         <li>(55,32,55,36)</li>
-        <li>(20,34,21,36)</li>
-        <li>(39,34,40,37)</li>
+        <li>(21,34,21,36)</li>
+        <li>(39,34,39,37)</li>
         <li>(22,36,23,36)</li>
         <li>(37,36,38,52)</li>
-        <li>(20,37,20,51)</li>
         <li>(24,37,24,55)</li>
         <li>(36,37,36,55)</li>
         <li>(25,39,26,55)</li>
-        <li>(30,39,30,53)</li>
         <li>(34,39,35,55)</li>
         <li>(16,40,18,49)</li>
         <li>(21,40,23,52)</li>
-        <li>(27,41,29,54)</li>
-        <li>(31,41,33,54)</li>
+        <li>(27,40,28,55)</li>
+        <li>(30,40,30,53)</li>
+        <li>(32,40,33,55)</li>
+        <li>(29,41,29,54)</li>
+        <li>(31,41,31,54)</li>
         <li>(39,41,44,49)</li>
         <li>(13,47,13,47)</li>
         <li>(17,50,18,50)</li>
         <li>(39,50,43,50)</li>
         <li>(39,51,41,51)</li>
         <li>(39,52,39,52)</li>
-        <li>(27,55,28,55)</li>
-        <li>(32,55,33,55)</li>
       </rects>
     </PlayerRoofZone>
     <NoRoofZone>
       <rects>
-        <li>(27,20,29,20)</li>
-        <li>(31,20,33,20)</li>
+        <li>(29,20,29,20)</li>
+        <li>(31,20,31,20)</li>
+        <li>(30,21,30,39)</li>
         <li>(25,22,26,22)</li>
-        <li>(30,22,30,38)</li>
         <li>(34,22,35,22)</li>
         <li>(22,25,22,26)</li>
         <li>(38,25,38,26)</li>
-        <li>(20,27,20,29)</li>
-        <li>(40,27,40,29)</li>
         <li>(28,28,29,31)</li>
         <li>(31,28,31,32)</li>
+        <li>(20,29,20,29)</li>
         <li>(32,29,32,32)</li>
-        <li>(22,30,27,30)</li>
-        <li>(33,30,38,30)</li>
-        <li>(20,31,20,33)</li>
-        <li>(40,31,40,33)</li>
+        <li>(40,29,40,29)</li>
+        <li>(21,30,27,30)</li>
+        <li>(33,30,39,30)</li>
+        <li>(20,31,20,31)</li>
+        <li>(40,31,40,31)</li>
         <li>(29,32,29,32)</li>
         <li>(22,34,22,35)</li>
         <li>(38,34,38,35)</li>
@@ -4569,8 +4698,8 @@
         <li>(34,38,35,38)</li>
         <li>(39,38,43,40)</li>
         <li>(44,39,44,40)</li>
-        <li>(27,40,29,40)</li>
-        <li>(31,40,33,40)</li>
+        <li>(29,40,29,40)</li>
+        <li>(31,40,31,40)</li>
         <li>(13,45,13,46)</li>
       </rects>
     </NoRoofZone>
@@ -4635,23 +4764,48 @@ allowedHitPointsPercents:0.0000:1.0000
 allowedQualities:Awful:Legendary
 disallowedSpecialFilters:AllowCorpsesColonist/AllowCorpsesStranger/AllowCorpsesSlave/AllowCorpsesMechFriendly/AllowCorpsesMechEnemy/AllowCorpsesUnnatural
 ---:---
+bill:Make_GhoulResurrectionSerum
+recipeDefName:Make_GhoulResurrectionSerum
+skillRange:0~20
+suspended:False
+ingSearchRadius:999
+storeMode:BestStockpile
+repeatMode:TargetCount
+repeatCount:1
+targetCount:1
+includeEquipped:False
+includeTainted:False
+limitToAllowedStuff:False
+pauseWhenSatisfied:False
+unpauseWhenYouHave:1
+hpRange:0~1
+qualityRange:Awful~Legendary
+slavesOnly:False
+mechsOnly:False
+nonMechsOnly:False
+ingredientFilter:
+allowedDefs:
+allowedHitPointsPercents:0.0000:1.0000
+allowedQualities:Awful:Legendary
+disallowedSpecialFilters:AllowCorpsesColonist/AllowCorpsesStranger/AllowCorpsesSlave/AllowCorpsesMechFriendly/AllowCorpsesMechEnemy/AllowCorpsesUnnatural
+---:---
 ]]></Data>
     </MyCraftingSetting>
     <MyCraftingSetting>
       <ThingName>MechGestator</ThingName>
       <Positions>
-        <li>(26,16)</li>
         <li>(27,16)</li>
         <li>(28,16)</li>
         <li>(32,16)</li>
         <li>(33,16)</li>
-        <li>(34,16)</li>
-        <li>(26,17)</li>
         <li>(27,17)</li>
         <li>(28,17)</li>
         <li>(32,17)</li>
         <li>(33,17)</li>
-        <li>(34,17)</li>
+        <li>(27,18)</li>
+        <li>(28,18)</li>
+        <li>(32,18)</li>
+        <li>(33,18)</li>
       </Positions>
       <Data><![CDATA[Version:2
 bill:ResurrectLightMech
@@ -4709,7 +4863,7 @@ slavesOnly:False
 mechsOnly:False
 nonMechsOnly:True
 ingredientFilter:
-allowedDefs:Cloth/DevilstrandCloth/WoolSheep/WoolAlpaca/WoolMegasloth/WoolMuffalo/WoolBison/Leather_Plain/Leather_Dog/Leather_Wolf/Leather_Panthera/Leather_Camel/Leather_Bluefur/Leather_Bear/Leather_GuineaPig/Leather_Human/Leather_Pig/Leather_Light/Leather_Bird/Leather_Chinchilla/Leather_Fox/Leather_Lizard/Leather_Elephant/Leather_Heavy/Leather_Rhinoceros/Leather_Thrumbo/Leather_Patch/Leather_Dread/WoolMastodon/WoolMuskox/Leather_Mastodon/Leather_Sealskin/Leather_Mink/Leather_Hippo/Leather_Armadillo/Mugirl_Wool
+allowedDefs:Cloth/DevilstrandCloth/WoolSheep/WoolAlpaca/WoolMegasloth/WoolMuffalo/WoolBison/Leather_Plain/Leather_Dog/Leather_Wolf/Leather_Panthera/Leather_Camel/Leather_Bluefur/Leather_Bear/Leather_GuineaPig/Leather_Human/Leather_Pig/Leather_Light/Leather_Bird/Leather_Chinchilla/Leather_Fox/Leather_Lizard/Leather_Elephant/Leather_Heavy/Leather_Rhinoceros/Leather_Thrumbo/Leather_Patch/Leather_Dread/WoolMastodon/WoolMuskox/Leather_Mastodon/Leather_Sealskin/Leather_Mink/Leather_Hippo/Leather_Armadillo
 allowedHitPointsPercents:0.0000:1.0000
 allowedQualities:Awful:Legendary
 disallowedSpecialFilters:
@@ -4772,7 +4926,7 @@ ingredientFilter:
 allowedDefs:Apparel_CowboyHat/Apparel_BowlerHat/Apparel_TribalHeaddress/Apparel_Tuque/Apparel_WarMask/Apparel_WarVeil/Apparel_SimpleHelmet/Apparel_AdvancedHelmet/Apparel_PowerArmorHelmet/Apparel_ArmorHelmetRecon/Apparel_PsychicFoilHelmet/Apparel_HatHood/Apparel_ClothMask/Apparel_TribalA/Apparel_Parka/Apparel_Pants/Apparel_BasicShirt/Apparel_CollarShirt/Apparel_Duster/Apparel_Jacket/Apparel_PlateArmor/Apparel_FlakVest/Apparel_FlakPants/Apparel_FlakJacket/Apparel_PowerArmor/Apparel_ArmorRecon/Apparel_Cape/Apparel_Robe/Apparel_PsyfocusHelmet/Apparel_EltexSkullcap/Apparel_PsyfocusShirt/Apparel_PsyfocusVest/Apparel_PsyfocusRobe/Apparel_ShirtRuffle/Apparel_Corset/Apparel_VestRoyal/Apparel_RobeRoyal/Apparel_HatLadies/Apparel_HatTop/Apparel_Coronet/Apparel_Crown/Apparel_CrownStellic/Apparel_Beret/Apparel_ArmorReconPrestige/Apparel_ArmorHelmetReconPrestige/Apparel_ArmorMarinePrestige/Apparel_ArmorMarineHelmetPrestige/Apparel_ArmorCataphract/Apparel_ArmorHelmetCataphract/Apparel_ArmorCataphractPrestige/Apparel_ArmorHelmetCataphractPrestige/Apparel_ArmorLocust/Apparel_ArmorMarineGrenadier/Apparel_ArmorCataphractPhoenix/Apparel_Gunlink/Apparel_Headwrap/Apparel_Broadwrap/Apparel_VisageMask/Apparel_Slicecap/Apparel_Collar/Apparel_AuthorityCap/Apparel_Tailcap/Apparel_Shadecone/Apparel_Flophat/Apparel_BodyStrap/Apparel_Burka/Apparel_TortureCrown/Apparel_Blindfold/Apparel_KidRomper/Apparel_KidShirt/Apparel_KidPants/Apparel_KidParka/Apparel_KidTribal/Apparel_KidHelmet/Apparel_AirwireHeadset/Apparel_ArrayHeadset/Apparel_IntegratorHeadset/Apparel_ArmorHelmetMechCommander/Apparel_ArmorHelmetMechlordHelmet/Apparel_GasMask/Apparel_MechlordSuit/Apparel_Bandolier/Apparel_Sash/Apparel_CultistMask/Apparel_CeremonialCultistMask/Apparel_LabCoat/Apparel_VacsuitHelmet/Apparel_Vacsuit/Apparel_VacsuitChildren
 allowedHitPointsPercents:0.0000:0.9800
 allowedQualities:Legendary:Legendary
-disallowedSpecialFilters:AllowCorpsesColonist/AllowCorpsesStranger/AllowCorpsesSlave/AllowCorpsesMechFriendly/AllowCorpsesMechEnemy/AllowCorpsesUnnatural/AllowDeadmansApparel
+disallowedSpecialFilters:AllowCorpsesColonist/AllowCorpsesStranger/AllowDeadmansApparel/AllowCorpsesSlave/AllowCorpsesMechFriendly/AllowCorpsesMechEnemy/AllowCorpsesUnnatural
 ---:---
 bill:Make_Apparel_RobeRoyal
 recipeDefNameUft:Make_Apparel_RobeRoyal
@@ -4794,7 +4948,7 @@ slavesOnly:False
 mechsOnly:False
 nonMechsOnly:True
 ingredientFilter:
-allowedDefs:Cloth/DevilstrandCloth/WoolSheep/WoolAlpaca/WoolMegasloth/WoolMuffalo/WoolBison/Leather_Plain/Leather_Dog/Leather_Wolf/Leather_Panthera/Leather_Camel/Leather_Bluefur/Leather_Bear/Leather_GuineaPig/Leather_Human/Leather_Pig/Leather_Light/Leather_Bird/Leather_Chinchilla/Leather_Fox/Leather_Lizard/Leather_Elephant/Leather_Heavy/Leather_Rhinoceros/Leather_Thrumbo/Leather_Patch/Leather_Dread/WoolMastodon/WoolMuskox/Leather_Mastodon/Leather_Sealskin/Leather_Mink/Leather_Hippo/Leather_Armadillo/Mugirl_Wool
+allowedDefs:Cloth/DevilstrandCloth/WoolSheep/WoolAlpaca/WoolMegasloth/WoolMuffalo/WoolBison/Leather_Plain/Leather_Dog/Leather_Wolf/Leather_Panthera/Leather_Camel/Leather_Bluefur/Leather_Bear/Leather_GuineaPig/Leather_Human/Leather_Pig/Leather_Light/Leather_Bird/Leather_Chinchilla/Leather_Fox/Leather_Lizard/Leather_Elephant/Leather_Heavy/Leather_Rhinoceros/Leather_Thrumbo/Leather_Patch/Leather_Dread/WoolMastodon/WoolMuskox/Leather_Mastodon/Leather_Sealskin/Leather_Mink/Leather_Hippo/Leather_Armadillo
 allowedHitPointsPercents:0.0000:1.0000
 allowedQualities:Awful:Legendary
 disallowedSpecialFilters:
@@ -4884,31 +5038,6 @@ allowedHitPointsPercents:0.0000:1.0000
 allowedQualities:Awful:Legendary
 disallowedSpecialFilters:AllowCorpsesColonist/AllowCorpsesStranger/AllowCorpsesSlave/AllowCorpsesMechFriendly/AllowCorpsesMechEnemy/AllowCorpsesUnnatural
 ---:---
-bill:Make_RavenItem_AbilityTome
-recipeDefName:Make_RavenItem_AbilityTome
-skillRange:0~20
-suspended:False
-ingSearchRadius:999
-storeMode:BestStockpile
-repeatMode:RepeatCount
-repeatCount:0
-targetCount:10
-includeEquipped:False
-includeTainted:False
-limitToAllowedStuff:False
-pauseWhenSatisfied:False
-unpauseWhenYouHave:5
-hpRange:0~1
-qualityRange:Awful~Legendary
-slavesOnly:False
-mechsOnly:False
-nonMechsOnly:False
-ingredientFilter:
-allowedDefs:
-allowedHitPointsPercents:0.0000:1.0000
-allowedQualities:Awful:Legendary
-disallowedSpecialFilters:AllowCorpsesColonist/AllowCorpsesStranger/AllowCorpsesSlave/AllowCorpsesMechFriendly/AllowCorpsesMechEnemy/AllowCorpsesUnnatural
----:---
 ]]></Data>
     </MyCraftingSetting>
     <MyCraftingSetting>
@@ -4924,11 +5053,21 @@ disallowedSpecialFilters:AllowCorpsesColonist/AllowCorpsesStranger/AllowCorpsesS
         <li>(18,28)</li>
         <li>(17,29)</li>
         <li>(18,29)</li>
+        <li>(17,31)</li>
+        <li>(18,31)</li>
+        <li>(17,32)</li>
+        <li>(18,32)</li>
+        <li>(17,33)</li>
+        <li>(18,33)</li>
+        <li>(17,34)</li>
+        <li>(18,34)</li>
+        <li>(17,35)</li>
+        <li>(18,35)</li>
       </Positions>
       <Data><![CDATA[Version:2
 bill:Make_ComponentIndustrial
 recipeDefNameUft:Make_ComponentIndustrial
-skillRange:0~20
+skillRange:10~20
 suspended:False
 ingSearchRadius:999
 storeMode:BestStockpile
@@ -5056,7 +5195,7 @@ slavesOnly:False
 mechsOnly:False
 nonMechsOnly:False
 ingredientFilter:
-allowedDefs:PMC_Helmet/PMC_CaptainHelmet/PMC_CombatUniform
+allowedDefs:
 allowedHitPointsPercents:0.0000:1.0000
 allowedQualities:Awful:Masterwork
 disallowedSpecialFilters:
@@ -5094,7 +5233,7 @@ slavesOnly:False
 mechsOnly:True
 nonMechsOnly:False
 ingredientFilter:
-allowedDefs:Meat_Twisted/Meat_Megaspider/Meat_Human
+allowedDefs:RawRice/Meat_Twisted/Meat_Megaspider/Meat_Human
 allowedHitPointsPercents:0.0000:1.0000
 allowedQualities:Awful:Legendary
 disallowedSpecialFilters:
@@ -5154,7 +5293,7 @@ slavesOnly:False
 mechsOnly:True
 nonMechsOnly:False
 ingredientFilter:
-allowedDefs:Gun_ChargeBlasterHeavyTurret/Gun_InfernoCannonTurret/Apparel_ShieldBelt/Apparel_CowboyHat/Apparel_BowlerHat/Apparel_TribalHeaddress/Apparel_Tuque/Apparel_WarMask/Apparel_WarVeil/Apparel_SimpleHelmet/Apparel_AdvancedHelmet/Apparel_PowerArmorHelmet/Apparel_ArmorHelmetRecon/Apparel_PsychicFoilHelmet/Apparel_HatHood/Apparel_ClothMask/Apparel_SmokepopBelt/Apparel_FirefoampopPack/Apparel_TribalA/Apparel_Parka/Apparel_Pants/Apparel_BasicShirt/Apparel_CollarShirt/Apparel_Duster/Apparel_Jacket/Apparel_PlateArmor/Apparel_FlakVest/Apparel_FlakPants/Apparel_FlakJacket/Apparel_PowerArmor/Apparel_ArmorRecon/Apparel_Robe/MeleeWeapon_BreachAxe/MeleeWeapon_Mace/MeleeWeapon_Gladius/MeleeWeapon_LongSword/MeleeWeapon_Club/MeleeWeapon_Knife/MeleeWeapon_Ikwa/MeleeWeapon_Spear/Gun_Revolver/Gun_Autopistol/Gun_MachinePistol/Gun_IncendiaryLauncher/Gun_SmokeLauncher/Gun_EmpLauncher/Gun_BoltActionRifle/Gun_PumpShotgun/Gun_ChainShotgun/Gun_HeavySMG/Gun_LMG/Gun_AssaultRifle/Gun_SniperRifle/Gun_Minigun/Gun_TripleRocket/Gun_DoomsdayRocket/Weapon_GrenadeFrag/Weapon_GrenadeMolotov/Weapon_GrenadeEMP/Gun_ChargeBlasterHeavy/Gun_InfernoCannon/Gun_Needle/Bow_Short/Pila/Bow_Recurve/Bow_Great/Gun_ChargeRifle/Gun_ChargeLance/Gun_ThumpCannon/Apparel_PackJump/Apparel_PsyfocusHelmet/Apparel_EltexSkullcap/Apparel_PsyfocusShirt/Apparel_PsyfocusVest/Apparel_PsyfocusRobe/Apparel_ArmorReconPrestige/Apparel_ArmorHelmetReconPrestige/Apparel_ArmorMarinePrestige/Apparel_ArmorMarineHelmetPrestige/Apparel_ArmorCataphract/Apparel_ArmorHelmetCataphract/Apparel_ArmorCataphractPrestige/Apparel_ArmorHelmetCataphractPrestige/Apparel_ArmorLocust/Apparel_ArmorMarineGrenadier/Apparel_ArmorCataphractPhoenix/Apparel_Gunlink/MeleeWeapon_MonoSwordBladelink/MeleeWeapon_ZeusHammerBladelink/MeleeWeapon_PlasmaSwordBladelink/MeleeWeapon_Axe/MeleeWeapon_Warhammer/MeleeWeapon_MonoSword/MeleeWeapon_Zeushammer/MeleeWeapon_PlasmaSword/MeleeWeapon_PsyfocusStaff/Apparel_Headwrap/Apparel_Broadwrap/Apparel_VisageMask/Apparel_Slicecap/Apparel_Collar/Apparel_AuthorityCap/Apparel_Tailcap/Apparel_Shadecone/Apparel_Flophat/Apparel_BodyStrap/Apparel_Burka/Apparel_TortureCrown/Apparel_Blindfold/Apparel_KidRomper/Apparel_KidShirt/Apparel_KidPants/Apparel_KidParka/Apparel_KidTribal/Apparel_KidHelmet/Apparel_AirwireHeadset/Apparel_ArrayHeadset/Apparel_IntegratorHeadset/Apparel_ArmorHelmetMechCommander/Apparel_ArmorHelmetMechlordHelmet/Apparel_GasMask/Apparel_PackTox/Apparel_MechlordSuit/Apparel_Bandolier/Apparel_Sash/Gun_ToxbombLauncher/Weapon_GrenadeTox/Flamebow/Gun_HellsphereCannon/Gun_MiniShotgun/Gun_Slugthrower/Gun_Spiner/Gun_MiniFlameblaster/Gun_BeamGraser/Gun_ToxicNeedle/Gun_NeedleLauncher/Apparel_CultistMask/Apparel_CeremonialCultistMask/Apparel_LabCoat/Gun_HellcatRifle/Gun_Incinerator/NerveSpiker/Gun_Revolver_Unique/Gun_BoltActionRifle_Unique/Gun_ChainShotgun_Unique/Gun_HeavySMG_Unique/Gun_LMG_Unique/Gun_AssaultRifle_Unique/Gun_SniperRifle_Unique/Gun_Minigun_Unique/Bow_Great_Unique/Gun_ChargeRifle_Unique/Gun_ChargeLance_Unique/Gun_HellcatRifle_Unique/Gun_BeamRepeater_Unique/Apparel_VacsuitHelmet/Apparel_Vacsuit/Apparel_VacsuitChildren/Gun_BeamRepeater/Gun_Scattergun/AM_Weebstick/Mugirl_ArmorHelmetRecon/Mugirl_RA_MechanicRecon/Mugirl_Combatant_BulletproofVest/Mugirl_Combatant_Helmet/PMC_Helmet/PMC_CaptainHelmet/PMC_CombatUniform/Mugirl_ReconArmor/Mugirl_RA_PowerArmor/Mugirl_PlateArmor/Mugirl_PowerArmorHelmet/Mugirl_KnightHelmet/Mugirl_WarriorCombatHelmet/Mugirl_PowerArmor/Mugirl_WarriorCombatArmor/Mugirl_Gun_Support_Assault_Rifle/Mugirl_Gun_Machine_Pistol/Mugirl_Gun_Defense_Rifle/Mugirl_Gun_Flame_Thrower/PMC_Carbine/PMC_Assault_Rifle/PMC_DMR/PMC_LMG/OPC_Tranquilizer_Pistol/OPC_Defense_Rifle/OPC_Tactical_Shotgun/OPC_Assault_Rifle/WFF_StormtrooperCap/WFF_ChurchMaidenDress/WFF_Ironhide/WFF_Ironhelm/WFF_ChurchMaidenVeil/WFF_VanguardPickhat/WFF_GuardBearskin_Old/WFF_GeneralPickhat/WFF_Ancestralwear/WFF_FurHat/WFF_MSBra/WFF_MSPanties/WFF_MSTightPants/WFF_Civilianwear/WFF_CeremonialDress/WFF_Flowercrown/WFF_FarmOveralls/WFF_FarmerSunhelm/WFF_MilitiaOutfit/WFF_MilitiaCap/WFF_InfirmierUniform/WFF_SurgicalApron/WFF_WarriorUniform/WFF_WarriorShako/WFF_VanguardUniform/WFF_VanguardShako/WFF_SkirmishShako/WFF_GuardUniform/WFF_GuardShako/WFF_GuardBearskin/WFF_GeneralUniform/WFF_GeneralBicorne/WFF_MSSlaveOutfit/WFF_Anvilstaff/WFF_Conductor_Wand/WFF_Headcutter/WFF_Horsepole/WFF_Ironheap/WFF_Manchaser/WFF_Pikebreaker/WFF_Signal_Saber/WFF_AlouisRifle/WFF_Antkiller/WFF_Antlerbreaker/WFF_Antrifle/WFF_Archwood/WFF_AutoRatling/WFF_BLG/WFF_BranchGun/WFF_Dieselboiler/WFF_Dieselwork/WFF_Firefly/WFF_Firehorn/WFF_Firespitter/WFF_HandRatling/WFF_Metalbuss/WFF_Rakali/WFF_Rokali/WFF_Spinner/WFF_TrunkGun/Cinder_Apparel_BrokenGhoulUnitGear/Cinder_HeadGear_ProjectionVisor/Cinder_HeadGear_AssaultHelmet/Cinder_HeadGear_AssaultHelmetTan/Cinder_HeadGear_GhoulUnitHelmet/Cinder_HeadGear_FullyEnclosedMask/Cinder_HeadGear_BrokenMask/Cinder_Apparel_BulletproofEquipment/Cinder_Apparel_HeavyArmorDress/Cinder_Apparel_LowVisibilityDress/Cinder_ImpactBreaker/Cinder_ElectricScythe/Cinder_HighFrequencySaw/Cinder_Magistrate/Cinder_MP12A/Cinder_PCX33A/Cinder_Flint50A/Cinder_Dragonslayer/Cinder_ErosionGourd/Cinder_PlasticGrenades/Cinder_FumeGreatsword/Cinder_FumeGreatswordM/Cinder_MechGun_EXOGun/Cinder_MechGun_GiantHEATRifle/Cinder_MechGun_AnvilDiscipline/Cinder_MechGun_GiantMiniGun/Cinder_Mounted_AA/Cinder_Mounted_Tentacle/Cinder_Mounted_Rocket/Cinder_Mounted_EXOminigun/Cinder_Mounted_EXOturret/Cinder_Mounted_KPVTurret/Raven_Weapon_GoheiRanged/Raven_Weapon_GoheiMelee/Raven_Weapon_Kageame/Raven_Weapon_BlackGoldRevolver/Raven_Weapon_FusangHeavyLance/Raven_Weapon_PipeWrench/Raven_Weapon_RavenLiquidLasso/Raven_Weapon_RetributionGunlance/Raven_Weapon_Blowgun/Raven_Weapon_HiddenBlade/Raven_Weapon_SilentSniper/Raven_Weapon_StandardCleaver/Raven_Weapon_FusangSuppressionMG/Raven_Weapon_AyayaFan/Raven_Weapon_ImperialGreatsword/Raven_Weapon_SpiritBeads/Raven_Weapon_CiAnBiAn
+allowedDefs:Gun_ChargeBlasterHeavyTurret/Gun_InfernoCannonTurret/Apparel_ShieldBelt/Apparel_CowboyHat/Apparel_BowlerHat/Apparel_TribalHeaddress/Apparel_Tuque/Apparel_WarMask/Apparel_WarVeil/Apparel_SimpleHelmet/Apparel_AdvancedHelmet/Apparel_PowerArmorHelmet/Apparel_ArmorHelmetRecon/Apparel_PsychicFoilHelmet/Apparel_HatHood/Apparel_ClothMask/Apparel_SmokepopBelt/Apparel_FirefoampopPack/Apparel_TribalA/Apparel_Parka/Apparel_Pants/Apparel_BasicShirt/Apparel_CollarShirt/Apparel_Duster/Apparel_Jacket/Apparel_PlateArmor/Apparel_FlakVest/Apparel_FlakPants/Apparel_FlakJacket/Apparel_PowerArmor/Apparel_ArmorRecon/Apparel_Robe/MeleeWeapon_BreachAxe/MeleeWeapon_Mace/MeleeWeapon_Gladius/MeleeWeapon_LongSword/MeleeWeapon_Club/MeleeWeapon_Knife/MeleeWeapon_Ikwa/MeleeWeapon_Spear/Gun_Revolver/Gun_Autopistol/Gun_MachinePistol/Gun_IncendiaryLauncher/Gun_SmokeLauncher/Gun_EmpLauncher/Gun_BoltActionRifle/Gun_PumpShotgun/Gun_ChainShotgun/Gun_HeavySMG/Gun_LMG/Gun_AssaultRifle/Gun_SniperRifle/Gun_Minigun/Gun_TripleRocket/Gun_DoomsdayRocket/Weapon_GrenadeFrag/Weapon_GrenadeMolotov/Weapon_GrenadeEMP/Gun_ChargeBlasterHeavy/Gun_InfernoCannon/Gun_Needle/Bow_Short/Pila/Bow_Recurve/Bow_Great/Gun_ChargeRifle/Gun_ChargeLance/Gun_ThumpCannon/Apparel_PackJump/Apparel_PsyfocusHelmet/Apparel_EltexSkullcap/Apparel_PsyfocusShirt/Apparel_PsyfocusVest/Apparel_PsyfocusRobe/Apparel_ArmorReconPrestige/Apparel_ArmorHelmetReconPrestige/Apparel_ArmorMarinePrestige/Apparel_ArmorMarineHelmetPrestige/Apparel_ArmorCataphract/Apparel_ArmorHelmetCataphract/Apparel_ArmorCataphractPrestige/Apparel_ArmorHelmetCataphractPrestige/Apparel_ArmorLocust/Apparel_ArmorMarineGrenadier/Apparel_ArmorCataphractPhoenix/Apparel_Gunlink/MeleeWeapon_MonoSwordBladelink/MeleeWeapon_ZeusHammerBladelink/MeleeWeapon_PlasmaSwordBladelink/MeleeWeapon_Axe/MeleeWeapon_Warhammer/MeleeWeapon_MonoSword/MeleeWeapon_Zeushammer/MeleeWeapon_PlasmaSword/MeleeWeapon_PsyfocusStaff/Apparel_Headwrap/Apparel_Broadwrap/Apparel_VisageMask/Apparel_Slicecap/Apparel_Collar/Apparel_AuthorityCap/Apparel_Tailcap/Apparel_Shadecone/Apparel_Flophat/Apparel_BodyStrap/Apparel_Burka/Apparel_TortureCrown/Apparel_Blindfold/Apparel_KidRomper/Apparel_KidShirt/Apparel_KidPants/Apparel_KidParka/Apparel_KidTribal/Apparel_KidHelmet/Apparel_AirwireHeadset/Apparel_ArrayHeadset/Apparel_IntegratorHeadset/Apparel_ArmorHelmetMechCommander/Apparel_ArmorHelmetMechlordHelmet/Apparel_GasMask/Apparel_PackTox/Apparel_MechlordSuit/Apparel_Bandolier/Apparel_Sash/Gun_ToxbombLauncher/Weapon_GrenadeTox/Flamebow/Gun_HellsphereCannon/Gun_MiniShotgun/Gun_Slugthrower/Gun_Spiner/Gun_MiniFlameblaster/Gun_BeamGraser/Gun_ToxicNeedle/Gun_NeedleLauncher/Apparel_CultistMask/Apparel_CeremonialCultistMask/Apparel_LabCoat/Gun_HellcatRifle/Gun_Incinerator/NerveSpiker/Gun_Revolver_Unique/Gun_BoltActionRifle_Unique/Gun_ChainShotgun_Unique/Gun_HeavySMG_Unique/Gun_LMG_Unique/Gun_AssaultRifle_Unique/Gun_SniperRifle_Unique/Gun_Minigun_Unique/Bow_Great_Unique/Gun_ChargeRifle_Unique/Gun_ChargeLance_Unique/Gun_HellcatRifle_Unique/Gun_BeamRepeater_Unique/Apparel_VacsuitHelmet/Apparel_Vacsuit/Apparel_VacsuitChildren/Gun_BeamRepeater/Gun_Scattergun/AM_Weebstick
 allowedHitPointsPercents:0.0000:1.0000
 allowedQualities:Awful:Masterwork
 disallowedSpecialFilters:AllowCorpsesColonist/AllowCorpsesStranger/AllowCorpsesSlave/AllowCorpsesMechFriendly/AllowCorpsesMechEnemy/AllowCorpsesUnnatural
@@ -5179,77 +5318,10 @@ slavesOnly:False
 mechsOnly:False
 nonMechsOnly:False
 ingredientFilter:
-allowedDefs:PMC_Helmet/PMC_CaptainHelmet/PMC_CombatUniform/WFF_StormtrooperCap/WFF_ChurchMaidenDress/WFF_Ironhide/WFF_Ironhelm/WFF_ChurchMaidenVeil/WFF_VanguardPickhat/WFF_GuardBearskin_Old/WFF_GeneralPickhat/WFF_Ancestralwear/WFF_FurHat/WFF_MSBra/WFF_MSPanties/WFF_MSTightPants/WFF_Civilianwear/WFF_CeremonialDress/WFF_Flowercrown/WFF_FarmOveralls/WFF_FarmerSunhelm/WFF_MilitiaOutfit/WFF_MilitiaCap/WFF_InfirmierUniform/WFF_SurgicalApron/WFF_WarriorUniform/WFF_WarriorShako/WFF_VanguardUniform/WFF_VanguardShako/WFF_SkirmishShako/WFF_GuardUniform/WFF_GuardShako/WFF_GuardBearskin/WFF_GeneralUniform/WFF_GeneralBicorne/WFF_MSSlaveOutfit
+allowedDefs:
 allowedHitPointsPercents:0.0000:1.0000
 allowedQualities:Awful:Masterwork
 disallowedSpecialFilters:
----:---
-]]></Data>
-    </MyCraftingSetting>
-    <MyCraftingSetting>
-      <ThingName>FabricationBench</ThingName>
-      <Positions>
-        <li>(17,31)</li>
-        <li>(18,31)</li>
-        <li>(17,32)</li>
-        <li>(18,32)</li>
-        <li>(17,33)</li>
-        <li>(18,33)</li>
-        <li>(17,34)</li>
-        <li>(18,34)</li>
-        <li>(17,35)</li>
-        <li>(18,35)</li>
-      </Positions>
-      <Data><![CDATA[Version:2
-bill:Make_ComponentIndustrial
-recipeDefNameUft:Make_ComponentIndustrial
-skillRange:0~20
-suspended:False
-ingSearchRadius:999
-storeMode:BestStockpile
-repeatMode:TargetCount
-repeatCount:1
-targetCount:50
-includeEquipped:False
-includeTainted:False
-limitToAllowedStuff:False
-pauseWhenSatisfied:True
-unpauseWhenYouHave:25
-hpRange:0~1
-qualityRange:Awful~Legendary
-slavesOnly:False
-mechsOnly:True
-nonMechsOnly:False
-ingredientFilter:
-allowedDefs:Steel
-allowedHitPointsPercents:0.0000:1.0000
-allowedQualities:Awful:Legendary
-disallowedSpecialFilters:AllowCorpsesColonist/AllowCorpsesStranger/AllowCorpsesSlave/AllowCorpsesMechFriendly/AllowCorpsesMechEnemy/AllowCorpsesUnnatural
----:---
-bill:Make_ComponentSpacer
-recipeDefNameUft:Make_ComponentSpacer
-skillRange:0~20
-suspended:False
-ingSearchRadius:999
-storeMode:BestStockpile
-repeatMode:TargetCount
-repeatCount:1
-targetCount:10
-includeEquipped:False
-includeTainted:False
-limitToAllowedStuff:False
-pauseWhenSatisfied:False
-unpauseWhenYouHave:5
-hpRange:0~1
-qualityRange:Awful~Legendary
-slavesOnly:False
-mechsOnly:False
-nonMechsOnly:False
-ingredientFilter:
-allowedDefs:ComponentIndustrial/Gold/Steel/Plasteel
-allowedHitPointsPercents:0.0000:1.0000
-allowedQualities:Awful:Legendary
-disallowedSpecialFilters:AllowCorpsesColonist/AllowCorpsesStranger/AllowCorpsesSlave/AllowCorpsesMechFriendly/AllowCorpsesMechEnemy/AllowCorpsesUnnatural
 ---:---
 ]]></Data>
     </MyCraftingSetting>
@@ -5416,10 +5488,10 @@ slavesOnly:False
 mechsOnly:True
 nonMechsOnly:False
 ingredientFilter:
-allowedDefs:Corpse_Mech_CentipedeBlaster/Corpse_Mech_CentipedeGunner/Corpse_Mech_CentipedeBurner/Corpse_Mech_Lancer/Corpse_Mech_Scyther/Corpse_Mech_Pikeman/Corpse_Mech_Termite/Corpse_Mech_Tunneler/Corpse_Mech_Militor/Corpse_Mech_Lifter/Corpse_Mech_Constructoid/Corpse_Mech_Fabricor/Corpse_Mech_Agrihand/Corpse_Mech_Cleansweeper/Corpse_Mech_WarUrchin/Corpse_Mech_Paramedic/Corpse_Mech_Legionary/Corpse_Mech_Tesseron/Corpse_Mech_Scorcher/Corpse_Mech_Apocriton/Corpse_Mech_Centurion/Corpse_Mech_Warqueen/Corpse_Mech_Diabolus/Corpse_Drone_Hunter/Corpse_Drone_Wasp/Corpse_Drone_Sentry/Corpse_Mech_Cyclops/Corpse_Cinder_Mech_ErodedEXO/Corpse_Cinder_Mech_Krepost/Corpse_Cinder_Mech_Tombstone/Corpse_Cinder_Mech_MiniTurretWalker/Corpse_Cinder_Mech_WalkerAutoCannon/Corpse_Cinder_Mech_WalkerRocket/Corpse_Cinder_Mech_WalkerSniper/Corpse_Cinder_Mech_WarAttacker/Corpse_Cinder_Mech_WarSweeper/Corpse_Raven_Mech_Aegis
+allowedDefs:Corpse_Mech_CentipedeBlaster/Corpse_Mech_CentipedeGunner/Corpse_Mech_CentipedeBurner/Corpse_Mech_Lancer/Corpse_Mech_Scyther/Corpse_Mech_Pikeman/Corpse_Mech_Termite/Corpse_Mech_Tunneler/Corpse_Mech_Militor/Corpse_Mech_Lifter/Corpse_Mech_Constructoid/Corpse_Mech_Fabricor/Corpse_Mech_Agrihand/Corpse_Mech_Cleansweeper/Corpse_Mech_WarUrchin/Corpse_Mech_Paramedic/Corpse_Mech_Legionary/Corpse_Mech_Tesseron/Corpse_Mech_Scorcher/Corpse_Mech_Apocriton/Corpse_Mech_Centurion/Corpse_Mech_Warqueen/Corpse_Mech_Diabolus/Corpse_Drone_Hunter/Corpse_Drone_Wasp/Corpse_Drone_Sentry/Corpse_Mech_Cyclops
 allowedHitPointsPercents:0.0000:1.0000
 allowedQualities:Awful:Legendary
-disallowedSpecialFilters:AllowCorpsesColonist/AllowCorpsesStranger/AllowCorpsesSlave/AllowCorpsesUnnatural/AllowCorpsesMechFriendly
+disallowedSpecialFilters:AllowCorpsesColonist/AllowCorpsesStranger/AllowCorpsesSlave/AllowCorpsesMechFriendly/AllowCorpsesUnnatural
 ---:---
 ]]></Data>
     </MyCraftingSetting>
@@ -5439,12 +5511,37 @@ ingSearchRadius:999
 storeMode:BestStockpile
 repeatMode:TargetCount
 repeatCount:1
-targetCount:20
+targetCount:50
 includeEquipped:False
 includeTainted:False
 limitToAllowedStuff:False
 pauseWhenSatisfied:True
-unpauseWhenYouHave:10
+unpauseWhenYouHave:40
+hpRange:0~1
+qualityRange:Awful~Legendary
+slavesOnly:False
+mechsOnly:False
+nonMechsOnly:False
+ingredientFilter:
+allowedDefs:
+allowedHitPointsPercents:0.0000:1.0000
+allowedQualities:Awful:Legendary
+disallowedSpecialFilters:AllowCorpsesColonist/AllowCorpsesStranger/AllowCorpsesSlave/AllowCorpsesMechFriendly/AllowCorpsesMechEnemy/AllowCorpsesUnnatural
+---:---
+bill:Make_RevenantVertebrae
+recipeDefNameUft:Make_RevenantVertebrae
+skillRange:0~20
+suspended:False
+ingSearchRadius:999
+storeMode:BestStockpile
+repeatMode:RepeatCount
+repeatCount:0
+targetCount:10
+includeEquipped:False
+includeTainted:False
+limitToAllowedStuff:False
+pauseWhenSatisfied:False
+unpauseWhenYouHave:5
 hpRange:0~1
 qualityRange:Awful~Legendary
 slavesOnly:False
@@ -5489,7 +5586,7 @@ slavesOnly:False
 mechsOnly:True
 nonMechsOnly:False
 ingredientFilter:
-allowedDefs:Apparel_CowboyHat/Apparel_BowlerHat/Apparel_TribalHeaddress/Apparel_Tuque/Apparel_WarMask/Apparel_WarVeil/Apparel_SimpleHelmet/Apparel_AdvancedHelmet/Apparel_PowerArmorHelmet/Apparel_ArmorHelmetRecon/Apparel_PsychicFoilHelmet/Apparel_HatHood/Apparel_ClothMask/Apparel_TribalA/Apparel_Parka/Apparel_Pants/Apparel_BasicShirt/Apparel_CollarShirt/Apparel_Duster/Apparel_Jacket/Apparel_PlateArmor/Apparel_FlakVest/Apparel_FlakPants/Apparel_FlakJacket/Apparel_PowerArmor/Apparel_ArmorRecon/Apparel_Cape/Apparel_Robe/Apparel_PsyfocusHelmet/Apparel_EltexSkullcap/Apparel_PsyfocusShirt/Apparel_PsyfocusVest/Apparel_PsyfocusRobe/Apparel_ShirtRuffle/Apparel_Corset/Apparel_VestRoyal/Apparel_RobeRoyal/Apparel_HatLadies/Apparel_HatTop/Apparel_Coronet/Apparel_Crown/Apparel_CrownStellic/Apparel_Beret/Apparel_ArmorReconPrestige/Apparel_ArmorHelmetReconPrestige/Apparel_ArmorMarinePrestige/Apparel_ArmorMarineHelmetPrestige/Apparel_ArmorCataphract/Apparel_ArmorHelmetCataphract/Apparel_ArmorCataphractPrestige/Apparel_ArmorHelmetCataphractPrestige/Apparel_ArmorLocust/Apparel_ArmorMarineGrenadier/Apparel_ArmorCataphractPhoenix/Apparel_Gunlink/Apparel_Headwrap/Apparel_Broadwrap/Apparel_VisageMask/Apparel_Slicecap/Apparel_Collar/Apparel_AuthorityCap/Apparel_Tailcap/Apparel_Shadecone/Apparel_Flophat/Apparel_BodyStrap/Apparel_Burka/Apparel_TortureCrown/Apparel_Blindfold/Apparel_KidRomper/Apparel_KidShirt/Apparel_KidPants/Apparel_KidParka/Apparel_KidTribal/Apparel_KidHelmet/Apparel_AirwireHeadset/Apparel_ArrayHeadset/Apparel_IntegratorHeadset/Apparel_ArmorHelmetMechCommander/Apparel_ArmorHelmetMechlordHelmet/Apparel_GasMask/Apparel_MechlordSuit/Apparel_Bandolier/Apparel_Sash/Apparel_CultistMask/Apparel_CeremonialCultistMask/Apparel_LabCoat/Apparel_VacsuitHelmet/Apparel_Vacsuit/Apparel_VacsuitChildren/WFF_StormtrooperCap/WFF_ChurchMaidenDress/WFF_Ironhide/WFF_Ironhelm/WFF_ChurchMaidenVeil/WFF_VanguardPickhat/WFF_GuardBearskin_Old/WFF_GeneralPickhat/WFF_Ancestralwear/WFF_FurHat/WFF_MSBra/WFF_MSPanties/WFF_MSTightPants/WFF_Civilianwear/WFF_CeremonialDress/WFF_Flowercrown/WFF_FarmOveralls/WFF_FarmerSunhelm/WFF_MilitiaOutfit/WFF_MilitiaCap/WFF_InfirmierUniform/WFF_SurgicalApron/WFF_WarriorUniform/WFF_WarriorShako/WFF_VanguardUniform/WFF_VanguardShako/WFF_SkirmishShako/WFF_GuardUniform/WFF_GuardShako/WFF_GuardBearskin/WFF_GeneralUniform/WFF_GeneralBicorne/WFF_MSSlaveOutfit
+allowedDefs:Apparel_CowboyHat/Apparel_BowlerHat/Apparel_TribalHeaddress/Apparel_Tuque/Apparel_WarMask/Apparel_WarVeil/Apparel_SimpleHelmet/Apparel_AdvancedHelmet/Apparel_PowerArmorHelmet/Apparel_ArmorHelmetRecon/Apparel_PsychicFoilHelmet/Apparel_HatHood/Apparel_ClothMask/Apparel_TribalA/Apparel_Parka/Apparel_Pants/Apparel_BasicShirt/Apparel_CollarShirt/Apparel_Duster/Apparel_Jacket/Apparel_PlateArmor/Apparel_FlakVest/Apparel_FlakPants/Apparel_FlakJacket/Apparel_PowerArmor/Apparel_ArmorRecon/Apparel_Cape/Apparel_Robe/Apparel_PsyfocusHelmet/Apparel_EltexSkullcap/Apparel_PsyfocusShirt/Apparel_PsyfocusVest/Apparel_PsyfocusRobe/Apparel_ShirtRuffle/Apparel_Corset/Apparel_VestRoyal/Apparel_RobeRoyal/Apparel_HatLadies/Apparel_HatTop/Apparel_Coronet/Apparel_Crown/Apparel_CrownStellic/Apparel_Beret/Apparel_ArmorReconPrestige/Apparel_ArmorHelmetReconPrestige/Apparel_ArmorMarinePrestige/Apparel_ArmorMarineHelmetPrestige/Apparel_ArmorCataphract/Apparel_ArmorHelmetCataphract/Apparel_ArmorCataphractPrestige/Apparel_ArmorHelmetCataphractPrestige/Apparel_ArmorLocust/Apparel_ArmorMarineGrenadier/Apparel_ArmorCataphractPhoenix/Apparel_Gunlink/Apparel_Headwrap/Apparel_Broadwrap/Apparel_VisageMask/Apparel_Slicecap/Apparel_Collar/Apparel_AuthorityCap/Apparel_Tailcap/Apparel_Shadecone/Apparel_Flophat/Apparel_BodyStrap/Apparel_Burka/Apparel_TortureCrown/Apparel_Blindfold/Apparel_KidRomper/Apparel_KidShirt/Apparel_KidPants/Apparel_KidParka/Apparel_KidTribal/Apparel_KidHelmet/Apparel_AirwireHeadset/Apparel_ArrayHeadset/Apparel_IntegratorHeadset/Apparel_ArmorHelmetMechCommander/Apparel_ArmorHelmetMechlordHelmet/Apparel_GasMask/Apparel_MechlordSuit/Apparel_Bandolier/Apparel_Sash/Apparel_CultistMask/Apparel_CeremonialCultistMask/Apparel_LabCoat/Apparel_VacsuitHelmet/Apparel_Vacsuit/Apparel_VacsuitChildren
 allowedHitPointsPercents:0.0000:1.0000
 allowedQualities:Awful:Legendary
 disallowedSpecialFilters:AllowCorpsesColonist/AllowCorpsesStranger/AllowNonDeadmansApparel/AllowCorpsesSlave/AllowCorpsesMechFriendly/AllowCorpsesMechEnemy/AllowCorpsesUnnatural
@@ -5529,27 +5626,27 @@ disallowedSpecialFilters:AllowCorpsesColonist/AllowFresh
         <li>(19,42)</li>
       </Positions>
       <Data><![CDATA[Version:2
-bill:Mugirl_MakeCowCake
-recipeDefName:Mugirl_MakeCowCake
-skillRange:0~20
+bill:CookMealLavishBulk_Veg
+recipeDefName:CookMealLavishBulk_Veg
+skillRange:15~20
 suspended:False
 ingSearchRadius:999
 storeMode:BestStockpile
 repeatMode:TargetCount
 repeatCount:1
-targetCount:10
+targetCount:12
 includeEquipped:False
 includeTainted:False
 limitToAllowedStuff:False
 pauseWhenSatisfied:False
-unpauseWhenYouHave:5
+unpauseWhenYouHave:7
 hpRange:0~1
 qualityRange:Awful~Legendary
 slavesOnly:False
 mechsOnly:False
 nonMechsOnly:False
 ingredientFilter:
-allowedDefs:Milk/InsectJelly/EggChickenUnfertilized/EggCobraUnfertilized/EggIguanaUnfertilized/EggTortoiseUnfertilized/EggCassowaryUnfertilized/EggEmuUnfertilized/EggOstrichUnfertilized/EggTurkeyUnfertilized/EggDuckUnfertilized/EggGooseUnfertilized/RawPotatoes/RawFungus/RawRice/RawAgave/RawCorn/RawBerries/RawToxipotato/EggMonitorLizardUnfertilized/EggFlamingoUnfertilized/EggHeronUnfertilized/EggSwanUnfertilized/EggSparrowUnfertilized/EggCrowUnfertilized/EggBluebirdUnfertilized/EggQuailUnfertilized/EggMacawUnfertilized/EggPeacockUnfertilized/EggVultureUnfertilized/EggPenguinUnfertilized/EggSeaTurtleUnfertilized/EggAlligatorUnfertilized/Fish_Salmon/Fish_Bass/Fish_Tilapia/Fish_Cod/Fish_Bluefish/Fish_Guppy/Fish_Frostfish/Fish_Catfish/Fish_Piranha/Fish_Dogfish/Fish_Marlin/Fish_Tuna/Fish_Flounder/Fish_Toxfish/Mugirl_Milk/Meat_Bear_Grizzly/Meat_Cassowary/Meat_Cougar/Meat_Panther/Meat_Lynx/Meat_Cat/Meat_YorkshireTerrier/Meat_GuineaPig/Meat_LabradorRetriever/Meat_Husky/Meat_Monkey/Meat_Chicken/Meat_Duck/Meat_Turkey/Meat_Cow/Meat_Boomalope/Meat_Muffalo/Meat_Bison/Meat_Dromedary/Meat_Goat/Meat_Elk/Meat_Yak/Meat_Caribou/Meat_Horse/Meat_Donkey/Meat_Elephant/Meat_Rhinoceros/Meat_Hare/Meat_Megaspider/Meat_Thrumbo/Meat_Cobra/Meat_Tortoise/Meat_Alphabeaver/Meat_Pig/Meat_Ibex/Meat_Deer/Meat_Gazelle/Meat_Chinchilla/Meat_Sheep/Meat_Alpaca/Meat_Megasloth/Meat_Capybara/Meat_Squirrel/Meat_Rat/Meat_Boomrat/Meat_Raccoon/Meat_Iguana/Meat_Warg/Meat_Wolf_Timber/Meat_Fox_Fennec/Meat_Human/Meat_Dryad_Basic/Meat_WasteRat/Meat_Toxalope/Meat_BogHound/Meat_MonitorLizard/Meat_PrairieDog/Meat_Porcupine/Meat_Mastodon/Meat_Cat_Scimitar/Meat_Wolverine/Meat_Wolf_Great/Meat_Moose/Meat_AlphaThrumbo/Meat_Muskox/Meat_Tiger/Meat_Mink/Meat_Gorilla/Meat_Badger/Meat_Panda/Meat_Hippo/Meat_Megavole/Meat_Armadillo/Meat_Alligator/Meat_Bullfrog/Meat_ColossusToad/Meat_LavaSnail/Meat_Walrus/Meat_SeaLion/Meat_Seal/Meat_HermitCrab/Meat_StoneCrab/Meat_SeaTurtle/Meat_Otter/Meat_Mugirl_PunisherRace
+allowedDefs:Milk/InsectJelly/EggChickenUnfertilized/EggCobraUnfertilized/EggIguanaUnfertilized/EggTortoiseUnfertilized/EggCassowaryUnfertilized/EggEmuUnfertilized/EggOstrichUnfertilized/EggTurkeyUnfertilized/EggDuckUnfertilized/EggGooseUnfertilized/RawPotatoes/RawFungus/RawRice/RawAgave/RawCorn/RawBerries/RawToxipotato/EggMonitorLizardUnfertilized/EggFlamingoUnfertilized/EggHeronUnfertilized/EggSwanUnfertilized/EggSparrowUnfertilized/EggCrowUnfertilized/EggBluebirdUnfertilized/EggQuailUnfertilized/EggMacawUnfertilized/EggPeacockUnfertilized/EggVultureUnfertilized/EggPenguinUnfertilized/EggSeaTurtleUnfertilized/EggAlligatorUnfertilized
 allowedHitPointsPercents:0.0000:1.0000
 allowedQualities:Awful:Legendary
 disallowedSpecialFilters:AllowCorpsesColonist/AllowCorpsesStranger/AllowCorpsesSlave/AllowCorpsesMechFriendly/AllowCorpsesMechEnemy/AllowCorpsesUnnatural
@@ -5574,7 +5671,7 @@ slavesOnly:False
 mechsOnly:True
 nonMechsOnly:False
 ingredientFilter:
-allowedDefs:InsectJelly/EggChickenUnfertilized/EggCobraUnfertilized/EggIguanaUnfertilized/EggTortoiseUnfertilized/EggCassowaryUnfertilized/EggEmuUnfertilized/EggOstrichUnfertilized/EggTurkeyUnfertilized/EggDuckUnfertilized/EggGooseUnfertilized/RawPotatoes/RawFungus/RawRice/RawAgave/RawCorn/RawBerries/RawToxipotato/Meat_Twisted/EggMonitorLizardUnfertilized/EggFlamingoUnfertilized/EggHeronUnfertilized/EggSwanUnfertilized/EggSparrowUnfertilized/EggCrowUnfertilized/EggBluebirdUnfertilized/EggQuailUnfertilized/EggMacawUnfertilized/EggPeacockUnfertilized/EggVultureUnfertilized/EggPenguinUnfertilized/EggSeaTurtleUnfertilized/EggAlligatorUnfertilized/Fish_Salmon/Fish_Bass/Fish_Tilapia/Fish_Cod/Fish_Bluefish/Fish_Guppy/Fish_Frostfish/Fish_Catfish/Fish_Piranha/Fish_Dogfish/Fish_Marlin/Fish_Tuna/Fish_Flounder/Fish_Toxfish/Mugirl_Milk/Cinder_BurntStrangeMeat/RavenFish_AlienRavenLiquidFish/Meat_Bear_Grizzly/Meat_Cassowary/Meat_Cougar/Meat_Panther/Meat_Lynx/Meat_Cat/Meat_YorkshireTerrier/Meat_GuineaPig/Meat_LabradorRetriever/Meat_Husky/Meat_Monkey/Meat_Chicken/Meat_Duck/Meat_Turkey/Meat_Cow/Meat_Boomalope/Meat_Muffalo/Meat_Bison/Meat_Dromedary/Meat_Goat/Meat_Elk/Meat_Yak/Meat_Caribou/Meat_Horse/Meat_Donkey/Meat_Elephant/Meat_Rhinoceros/Meat_Hare/Meat_Megaspider/Meat_Thrumbo/Meat_Cobra/Meat_Tortoise/Meat_Alphabeaver/Meat_Pig/Meat_Ibex/Meat_Deer/Meat_Gazelle/Meat_Chinchilla/Meat_Sheep/Meat_Alpaca/Meat_Megasloth/Meat_Capybara/Meat_Squirrel/Meat_Rat/Meat_Boomrat/Meat_Raccoon/Meat_Iguana/Meat_Warg/Meat_Wolf_Timber/Meat_Fox_Fennec/Meat_Human/Meat_Dryad_Basic/Meat_WasteRat/Meat_Toxalope/Meat_BogHound/Meat_MonitorLizard/Meat_PrairieDog/Meat_Porcupine/Meat_Mastodon/Meat_Cat_Scimitar/Meat_Wolverine/Meat_Wolf_Great/Meat_Moose/Meat_AlphaThrumbo/Meat_Muskox/Meat_Tiger/Meat_Mink/Meat_Gorilla/Meat_Badger/Meat_Panda/Meat_Hippo/Meat_Megavole/Meat_Armadillo/Meat_Alligator/Meat_Bullfrog/Meat_ColossusToad/Meat_LavaSnail/Meat_Walrus/Meat_SeaLion/Meat_Seal/Meat_HermitCrab/Meat_StoneCrab/Meat_SeaTurtle/Meat_Otter/Meat_Mugirl_PunisherRace/Meat_Mugirl/Meat_Moosesian/Meat_Alien_Cinder/Meat_Raven_Race/Meat_Raven_HighArchon
+allowedDefs:InsectJelly/EggChickenUnfertilized/EggCobraUnfertilized/EggIguanaUnfertilized/EggTortoiseUnfertilized/EggCassowaryUnfertilized/EggEmuUnfertilized/EggOstrichUnfertilized/EggTurkeyUnfertilized/EggDuckUnfertilized/EggGooseUnfertilized/RawPotatoes/RawFungus/RawRice/RawAgave/RawCorn/RawBerries/RawToxipotato/Meat_Twisted/EggMonitorLizardUnfertilized/EggFlamingoUnfertilized/EggHeronUnfertilized/EggSwanUnfertilized/EggSparrowUnfertilized/EggCrowUnfertilized/EggBluebirdUnfertilized/EggQuailUnfertilized/EggMacawUnfertilized/EggPeacockUnfertilized/EggVultureUnfertilized/EggPenguinUnfertilized/EggSeaTurtleUnfertilized/EggAlligatorUnfertilized/Fish_Salmon/Fish_Bass/Fish_Tilapia/Fish_Cod/Fish_Bluefish/Fish_Guppy/Fish_Frostfish/Fish_Catfish/Fish_Piranha/Fish_Dogfish/Fish_Marlin/Fish_Tuna/Fish_Flounder/Fish_Toxfish/Meat_Bear_Grizzly/Meat_Cassowary/Meat_Cougar/Meat_Panther/Meat_Lynx/Meat_Cat/Meat_YorkshireTerrier/Meat_GuineaPig/Meat_LabradorRetriever/Meat_Husky/Meat_Monkey/Meat_Chicken/Meat_Duck/Meat_Turkey/Meat_Cow/Meat_Boomalope/Meat_Muffalo/Meat_Bison/Meat_Dromedary/Meat_Goat/Meat_Elk/Meat_Yak/Meat_Caribou/Meat_Horse/Meat_Donkey/Meat_Elephant/Meat_Rhinoceros/Meat_Hare/Meat_Megaspider/Meat_Thrumbo/Meat_Cobra/Meat_Tortoise/Meat_Alphabeaver/Meat_Pig/Meat_Ibex/Meat_Deer/Meat_Gazelle/Meat_Chinchilla/Meat_Sheep/Meat_Alpaca/Meat_Megasloth/Meat_Capybara/Meat_Squirrel/Meat_Rat/Meat_Boomrat/Meat_Raccoon/Meat_Iguana/Meat_Warg/Meat_Wolf_Timber/Meat_Fox_Fennec/Meat_Human/Meat_Dryad_Basic/Meat_WasteRat/Meat_Toxalope/Meat_BogHound/Meat_MonitorLizard/Meat_PrairieDog/Meat_Porcupine/Meat_Mastodon/Meat_Cat_Scimitar/Meat_Wolverine/Meat_Wolf_Great/Meat_Moose/Meat_AlphaThrumbo/Meat_Muskox/Meat_Tiger/Meat_Mink/Meat_Gorilla/Meat_Badger/Meat_Panda/Meat_Hippo/Meat_Megavole/Meat_Armadillo/Meat_Alligator/Meat_Bullfrog/Meat_ColossusToad/Meat_LavaSnail/Meat_Walrus/Meat_SeaLion/Meat_Seal/Meat_HermitCrab/Meat_StoneCrab/Meat_SeaTurtle/Meat_Otter
 allowedHitPointsPercents:0.0000:1.0000
 allowedQualities:Awful:Legendary
 disallowedSpecialFilters:AllowCorpsesColonist/AllowCorpsesStranger/AllowCorpsesSlave/AllowCorpsesMechFriendly/AllowCorpsesMechEnemy/AllowCorpsesUnnatural
@@ -5589,54 +5686,27 @@ disallowedSpecialFilters:AllowCorpsesColonist/AllowCorpsesStranger/AllowCorpsesS
         <li>(22,42)</li>
       </Positions>
       <Data><![CDATA[Version:2
-bill:Mugirl_MakeCheese
-recipeDefName:Mugirl_MakeCheese
-skillRange:0~20
-suspended:False
-ingSearchRadius:999
-storeMode:BestStockpile
-repeatMode:TargetCount
-repeatCount:1
-targetCount:50
-includeEquipped:False
-includeTainted:False
-limitToAllowedStuff:False
-pauseWhenSatisfied:False
-unpauseWhenYouHave:45
-hpRange:0~1
-qualityRange:Awful~Legendary
-pawnRestriction:Thing_Mugirl405588
-slavesOnly:False
-mechsOnly:False
-nonMechsOnly:False
-ingredientFilter:
-allowedDefs:Milk/EggChickenUnfertilized/EggCobraUnfertilized/EggIguanaUnfertilized/EggTortoiseUnfertilized/EggCassowaryUnfertilized/EggEmuUnfertilized/EggOstrichUnfertilized/EggTurkeyUnfertilized/EggDuckUnfertilized/EggGooseUnfertilized/RawPotatoes/RawFungus/RawRice/RawAgave/RawCorn/RawBerries/RawToxipotato/EggMonitorLizardUnfertilized/EggFlamingoUnfertilized/EggHeronUnfertilized/EggSwanUnfertilized/EggSparrowUnfertilized/EggCrowUnfertilized/EggBluebirdUnfertilized/EggQuailUnfertilized/EggMacawUnfertilized/EggPeacockUnfertilized/EggVultureUnfertilized/EggPenguinUnfertilized/EggSeaTurtleUnfertilized/EggAlligatorUnfertilized/Fish_Salmon/Fish_Bass/Fish_Tilapia/Fish_Cod/Fish_Bluefish/Fish_Guppy/Fish_Frostfish/Fish_Catfish/Fish_Piranha/Fish_Dogfish/Fish_Marlin/Fish_Tuna/Fish_Flounder/Fish_Toxfish/Mugirl_Milk/Meat_Bear_Grizzly/Meat_Cassowary/Meat_Cougar/Meat_Panther/Meat_Lynx/Meat_Cat/Meat_YorkshireTerrier/Meat_GuineaPig/Meat_LabradorRetriever/Meat_Husky/Meat_Monkey/Meat_Chicken/Meat_Duck/Meat_Turkey/Meat_Cow/Meat_Boomalope/Meat_Muffalo/Meat_Bison/Meat_Dromedary/Meat_Goat/Meat_Elk/Meat_Yak/Meat_Caribou/Meat_Horse/Meat_Donkey/Meat_Elephant/Meat_Rhinoceros/Meat_Hare/Meat_Thrumbo/Meat_Cobra/Meat_Tortoise/Meat_Alphabeaver/Meat_Pig/Meat_Ibex/Meat_Deer/Meat_Gazelle/Meat_Chinchilla/Meat_Sheep/Meat_Alpaca/Meat_Megasloth/Meat_Capybara/Meat_Squirrel/Meat_Rat/Meat_Boomrat/Meat_Raccoon/Meat_Iguana/Meat_Warg/Meat_Wolf_Timber/Meat_Fox_Fennec/Meat_Dryad_Basic/Meat_WasteRat/Meat_Toxalope/Meat_BogHound/Meat_MonitorLizard/Meat_PrairieDog/Meat_Porcupine/Meat_Mastodon/Meat_Cat_Scimitar/Meat_Wolverine/Meat_Wolf_Great/Meat_Moose/Meat_AlphaThrumbo/Meat_Muskox/Meat_Tiger/Meat_Mink/Meat_Gorilla/Meat_Badger/Meat_Panda/Meat_Hippo/Meat_Megavole/Meat_Armadillo/Meat_Alligator/Meat_Bullfrog/Meat_ColossusToad/Meat_LavaSnail/Meat_Walrus/Meat_SeaLion/Meat_Seal/Meat_HermitCrab/Meat_StoneCrab/Meat_SeaTurtle/Meat_Otter/Meat_Mugirl_PunisherRace
-allowedHitPointsPercents:0.0000:1.0000
-allowedQualities:Awful:Legendary
-disallowedSpecialFilters:AllowCorpsesColonist/AllowCorpsesStranger/AllowCorpsesSlave/AllowCorpsesMechFriendly/AllowCorpsesMechEnemy/AllowCorpsesUnnatural
----:---
 bill:CookMealLavish_Meat
 recipeDefName:CookMealLavish_Meat
-skillRange:0~20
+skillRange:15~20
 suspended:False
 ingSearchRadius:999
 storeMode:BestStockpile
 repeatMode:TargetCount
 repeatCount:1
-targetCount:10
+targetCount:8
 includeEquipped:False
 includeTainted:False
 limitToAllowedStuff:False
 pauseWhenSatisfied:False
-unpauseWhenYouHave:5
+unpauseWhenYouHave:3
 hpRange:0~1
 qualityRange:Awful~Legendary
-pawnRestriction:Thing_Raven_Race1259571
 slavesOnly:False
 mechsOnly:False
 nonMechsOnly:False
 ingredientFilter:
-allowedDefs:Meat_Twisted/Fish_Salmon/Fish_Bass/Fish_Tilapia/Fish_Cod/Fish_Bluefish/Fish_Guppy/Fish_Frostfish/Fish_Catfish/Fish_Piranha/Fish_Dogfish/Fish_Marlin/Fish_Tuna/Fish_Flounder/Fish_Toxfish/Meat_Bear_Grizzly/Meat_Cassowary/Meat_Cougar/Meat_Panther/Meat_Lynx/Meat_Cat/Meat_YorkshireTerrier/Meat_GuineaPig/Meat_LabradorRetriever/Meat_Husky/Meat_Monkey/Meat_Chicken/Meat_Duck/Meat_Turkey/Meat_Cow/Meat_Boomalope/Meat_Muffalo/Meat_Bison/Meat_Dromedary/Meat_Goat/Meat_Elk/Meat_Yak/Meat_Caribou/Meat_Horse/Meat_Donkey/Meat_Elephant/Meat_Rhinoceros/Meat_Hare/Meat_Megaspider/Meat_Thrumbo/Meat_Cobra/Meat_Tortoise/Meat_Alphabeaver/Meat_Pig/Meat_Ibex/Meat_Deer/Meat_Gazelle/Meat_Chinchilla/Meat_Sheep/Meat_Alpaca/Meat_Megasloth/Meat_Capybara/Meat_Squirrel/Meat_Rat/Meat_Boomrat/Meat_Raccoon/Meat_Iguana/Meat_Warg/Meat_Wolf_Timber/Meat_Fox_Fennec/Meat_Human/Meat_Dryad_Basic/Meat_WasteRat/Meat_Toxalope/Meat_BogHound/Meat_MonitorLizard/Meat_PrairieDog/Meat_Porcupine/Meat_Mastodon/Meat_Cat_Scimitar/Meat_Wolverine/Meat_Wolf_Great/Meat_Moose/Meat_AlphaThrumbo/Meat_Muskox/Meat_Tiger/Meat_Mink/Meat_Gorilla/Meat_Badger/Meat_Panda/Meat_Hippo/Meat_Megavole/Meat_Armadillo/Meat_Alligator/Meat_Bullfrog/Meat_ColossusToad/Meat_LavaSnail/Meat_Walrus/Meat_SeaLion/Meat_Seal/Meat_HermitCrab/Meat_StoneCrab/Meat_SeaTurtle/Meat_Otter/Meat_Mugirl_PunisherRace/Meat_Mugirl
+allowedDefs:Meat_Twisted/Fish_Salmon/Fish_Bass/Fish_Tilapia/Fish_Cod/Fish_Bluefish/Fish_Guppy/Fish_Frostfish/Fish_Catfish/Fish_Piranha/Fish_Dogfish/Fish_Marlin/Fish_Tuna/Fish_Flounder/Fish_Toxfish/Meat_Bear_Grizzly/Meat_Cassowary/Meat_Cougar/Meat_Panther/Meat_Lynx/Meat_Cat/Meat_YorkshireTerrier/Meat_GuineaPig/Meat_LabradorRetriever/Meat_Husky/Meat_Monkey/Meat_Chicken/Meat_Duck/Meat_Turkey/Meat_Cow/Meat_Boomalope/Meat_Muffalo/Meat_Bison/Meat_Dromedary/Meat_Goat/Meat_Elk/Meat_Yak/Meat_Caribou/Meat_Horse/Meat_Donkey/Meat_Elephant/Meat_Rhinoceros/Meat_Hare/Meat_Megaspider/Meat_Thrumbo/Meat_Cobra/Meat_Tortoise/Meat_Alphabeaver/Meat_Pig/Meat_Ibex/Meat_Deer/Meat_Gazelle/Meat_Chinchilla/Meat_Sheep/Meat_Alpaca/Meat_Megasloth/Meat_Capybara/Meat_Squirrel/Meat_Rat/Meat_Boomrat/Meat_Raccoon/Meat_Iguana/Meat_Warg/Meat_Wolf_Timber/Meat_Fox_Fennec/Meat_Human/Meat_Dryad_Basic/Meat_WasteRat/Meat_Toxalope/Meat_BogHound/Meat_MonitorLizard/Meat_PrairieDog/Meat_Porcupine/Meat_Mastodon/Meat_Cat_Scimitar/Meat_Wolverine/Meat_Wolf_Great/Meat_Moose/Meat_AlphaThrumbo/Meat_Muskox/Meat_Tiger/Meat_Mink/Meat_Gorilla/Meat_Badger/Meat_Panda/Meat_Hippo/Meat_Megavole/Meat_Armadillo/Meat_Alligator/Meat_Bullfrog/Meat_ColossusToad/Meat_LavaSnail/Meat_Walrus/Meat_SeaLion/Meat_Seal/Meat_HermitCrab/Meat_StoneCrab/Meat_SeaTurtle/Meat_Otter
 allowedHitPointsPercents:0.0000:1.0000
 allowedQualities:Awful:Legendary
 disallowedSpecialFilters:
@@ -5661,7 +5731,7 @@ slavesOnly:False
 mechsOnly:True
 nonMechsOnly:False
 ingredientFilter:
-allowedDefs:InsectJelly/EggChickenUnfertilized/EggCobraUnfertilized/EggIguanaUnfertilized/EggTortoiseUnfertilized/EggCassowaryUnfertilized/EggEmuUnfertilized/EggOstrichUnfertilized/EggTurkeyUnfertilized/EggDuckUnfertilized/EggGooseUnfertilized/RawPotatoes/RawFungus/RawRice/RawAgave/RawCorn/RawBerries/RawToxipotato/Meat_Twisted/EggMonitorLizardUnfertilized/EggFlamingoUnfertilized/EggHeronUnfertilized/EggSwanUnfertilized/EggSparrowUnfertilized/EggCrowUnfertilized/EggBluebirdUnfertilized/EggQuailUnfertilized/EggMacawUnfertilized/EggPeacockUnfertilized/EggVultureUnfertilized/EggPenguinUnfertilized/EggSeaTurtleUnfertilized/EggAlligatorUnfertilized/Fish_Salmon/Fish_Bass/Fish_Tilapia/Fish_Cod/Fish_Bluefish/Fish_Guppy/Fish_Frostfish/Fish_Catfish/Fish_Piranha/Fish_Dogfish/Fish_Marlin/Fish_Tuna/Fish_Flounder/Fish_Toxfish/Mugirl_Milk/Cinder_BurntStrangeMeat/RavenFish_AlienRavenLiquidFish/Meat_Bear_Grizzly/Meat_Cassowary/Meat_Cougar/Meat_Panther/Meat_Lynx/Meat_Cat/Meat_YorkshireTerrier/Meat_GuineaPig/Meat_LabradorRetriever/Meat_Husky/Meat_Monkey/Meat_Chicken/Meat_Duck/Meat_Turkey/Meat_Cow/Meat_Boomalope/Meat_Muffalo/Meat_Bison/Meat_Dromedary/Meat_Goat/Meat_Elk/Meat_Yak/Meat_Caribou/Meat_Horse/Meat_Donkey/Meat_Elephant/Meat_Rhinoceros/Meat_Hare/Meat_Megaspider/Meat_Thrumbo/Meat_Cobra/Meat_Tortoise/Meat_Alphabeaver/Meat_Pig/Meat_Ibex/Meat_Deer/Meat_Gazelle/Meat_Chinchilla/Meat_Sheep/Meat_Alpaca/Meat_Megasloth/Meat_Capybara/Meat_Squirrel/Meat_Rat/Meat_Boomrat/Meat_Raccoon/Meat_Iguana/Meat_Warg/Meat_Wolf_Timber/Meat_Fox_Fennec/Meat_Human/Meat_Dryad_Basic/Meat_WasteRat/Meat_Toxalope/Meat_BogHound/Meat_MonitorLizard/Meat_PrairieDog/Meat_Porcupine/Meat_Mastodon/Meat_Cat_Scimitar/Meat_Wolverine/Meat_Wolf_Great/Meat_Moose/Meat_AlphaThrumbo/Meat_Muskox/Meat_Tiger/Meat_Mink/Meat_Gorilla/Meat_Badger/Meat_Panda/Meat_Hippo/Meat_Megavole/Meat_Armadillo/Meat_Alligator/Meat_Bullfrog/Meat_ColossusToad/Meat_LavaSnail/Meat_Walrus/Meat_SeaLion/Meat_Seal/Meat_HermitCrab/Meat_StoneCrab/Meat_SeaTurtle/Meat_Otter/Meat_Mugirl_PunisherRace/Meat_Mugirl/Meat_Moosesian/Meat_Alien_Cinder/Meat_Raven_Race/Meat_Raven_HighArchon
+allowedDefs:InsectJelly/EggChickenUnfertilized/EggCobraUnfertilized/EggIguanaUnfertilized/EggTortoiseUnfertilized/EggCassowaryUnfertilized/EggEmuUnfertilized/EggOstrichUnfertilized/EggTurkeyUnfertilized/EggDuckUnfertilized/EggGooseUnfertilized/RawPotatoes/RawFungus/RawRice/RawAgave/RawCorn/RawBerries/RawToxipotato/Meat_Twisted/EggMonitorLizardUnfertilized/EggFlamingoUnfertilized/EggHeronUnfertilized/EggSwanUnfertilized/EggSparrowUnfertilized/EggCrowUnfertilized/EggBluebirdUnfertilized/EggQuailUnfertilized/EggMacawUnfertilized/EggPeacockUnfertilized/EggVultureUnfertilized/EggPenguinUnfertilized/EggSeaTurtleUnfertilized/EggAlligatorUnfertilized/Fish_Salmon/Fish_Bass/Fish_Tilapia/Fish_Cod/Fish_Bluefish/Fish_Guppy/Fish_Frostfish/Fish_Catfish/Fish_Piranha/Fish_Dogfish/Fish_Marlin/Fish_Tuna/Fish_Flounder/Fish_Toxfish/Meat_Bear_Grizzly/Meat_Cassowary/Meat_Cougar/Meat_Panther/Meat_Lynx/Meat_Cat/Meat_YorkshireTerrier/Meat_GuineaPig/Meat_LabradorRetriever/Meat_Husky/Meat_Monkey/Meat_Chicken/Meat_Duck/Meat_Turkey/Meat_Cow/Meat_Boomalope/Meat_Muffalo/Meat_Bison/Meat_Dromedary/Meat_Goat/Meat_Elk/Meat_Yak/Meat_Caribou/Meat_Horse/Meat_Donkey/Meat_Elephant/Meat_Rhinoceros/Meat_Hare/Meat_Megaspider/Meat_Thrumbo/Meat_Cobra/Meat_Tortoise/Meat_Alphabeaver/Meat_Pig/Meat_Ibex/Meat_Deer/Meat_Gazelle/Meat_Chinchilla/Meat_Sheep/Meat_Alpaca/Meat_Megasloth/Meat_Capybara/Meat_Squirrel/Meat_Rat/Meat_Boomrat/Meat_Raccoon/Meat_Iguana/Meat_Warg/Meat_Wolf_Timber/Meat_Fox_Fennec/Meat_Human/Meat_Dryad_Basic/Meat_WasteRat/Meat_Toxalope/Meat_BogHound/Meat_MonitorLizard/Meat_PrairieDog/Meat_Porcupine/Meat_Mastodon/Meat_Cat_Scimitar/Meat_Wolverine/Meat_Wolf_Great/Meat_Moose/Meat_AlphaThrumbo/Meat_Muskox/Meat_Tiger/Meat_Mink/Meat_Gorilla/Meat_Badger/Meat_Panda/Meat_Hippo/Meat_Megavole/Meat_Armadillo/Meat_Alligator/Meat_Bullfrog/Meat_ColossusToad/Meat_LavaSnail/Meat_Walrus/Meat_SeaLion/Meat_Seal/Meat_HermitCrab/Meat_StoneCrab/Meat_SeaTurtle/Meat_Otter
 allowedHitPointsPercents:0.0000:1.0000
 allowedQualities:Awful:Legendary
 disallowedSpecialFilters:AllowCorpsesColonist/AllowCorpsesStranger/AllowCorpsesSlave/AllowCorpsesMechFriendly/AllowCorpsesMechEnemy/AllowCorpsesUnnatural
@@ -5703,7 +5773,7 @@ disallowedSpecialFilters:AllowCorpsesColonist/AllowCorpsesStranger/AllowCorpsesS
 ---:---
 bill:ButcherCorpseFlesh
 recipeDefName:ButcherCorpseFlesh
-skillRange:0~19
+skillRange:0~20
 suspended:False
 ingSearchRadius:999
 storeMode:BestStockpile
@@ -5721,7 +5791,7 @@ slavesOnly:False
 mechsOnly:True
 nonMechsOnly:False
 ingredientFilter:
-allowedDefs:Corpse_Bear_Grizzly/Corpse_Bear_Polar/Corpse_Ostrich/Corpse_Emu/Corpse_Cassowary/Corpse_Cougar/Corpse_Panther/Corpse_Lynx/Corpse_Cat/Corpse_YorkshireTerrier/Corpse_GuineaPig/Corpse_LabradorRetriever/Corpse_Husky/Corpse_Monkey/Corpse_Chicken/Corpse_Duck/Corpse_Turkey/Corpse_Goose/Corpse_Cow/Corpse_Boomalope/Corpse_Muffalo/Corpse_Bison/Corpse_Dromedary/Corpse_Goat/Corpse_Elk/Corpse_Yak/Corpse_Caribou/Corpse_Horse/Corpse_Donkey/Corpse_Elephant/Corpse_Rhinoceros/Corpse_Hare/Corpse_Snowhare/Corpse_Megascarab/Corpse_Spelopede/Corpse_Megaspider/Corpse_Thrumbo/Corpse_Cobra/Corpse_Tortoise/Corpse_Alphabeaver/Corpse_Pig/Corpse_WildBoar/Corpse_Ibex/Corpse_Deer/Corpse_Gazelle/Corpse_Chinchilla/Corpse_Sheep/Corpse_Alpaca/Corpse_Megasloth/Corpse_Capybara/Corpse_Squirrel/Corpse_Rat/Corpse_Boomrat/Corpse_Raccoon/Corpse_Iguana/Corpse_Warg/Corpse_Wolf_Timber/Corpse_Wolf_Arctic/Corpse_Fox_Fennec/Corpse_Fox_Red/Corpse_Fox_Arctic/Corpse_Human/UnnaturalCorpse_Human/Corpse_Dryad_Basic/Corpse_Dryad_Woodmaker/Corpse_Dryad_Berrymaker/Corpse_Dryad_Medicinemaker/Corpse_Dryad_Gaumaker/Corpse_Dryad_Carrier/Corpse_Dryad_Clawer/Corpse_Dryad_Barkskin/Corpse_WasteRat/Corpse_Toxalope/Corpse_Sightstealer/Corpse_Noctol/Corpse_Gorehulk/Corpse_Devourer/Corpse_Chimera/Corpse_Bulbfreak/Corpse_Toughspike/Corpse_Trispike/Corpse_Fingerspike/Corpse_Dreadmeld/Corpse_BogHound/Corpse_MonitorLizard/Corpse_PrairieDog/Corpse_Porcupine/Corpse_Mastodon/Corpse_Cat_Scimitar/Corpse_Wolverine/Corpse_Wolf_Great/Corpse_Moose/Corpse_AlphaThrumbo/Corpse_Muskox/Corpse_Tiger/Corpse_Mink/Corpse_Gorilla/Corpse_Badger/Corpse_Panda/Corpse_Hippo/Corpse_Megavole/Corpse_Armadillo/Corpse_Alligator/Corpse_Bullfrog/Corpse_ColossusToad/Corpse_LavaSnail/Corpse_Sparrow/Corpse_Crow/Corpse_Bluebird/Corpse_Quail/Corpse_Macaw/Corpse_Flamingo/Corpse_Heron/Corpse_Swan/Corpse_Peacock/Corpse_Vulture/Corpse_Penguin/Corpse_Walrus/Corpse_SeaLion/Corpse_Seal/Corpse_HermitCrab/Corpse_StoneCrab/Corpse_SeaTurtle/Corpse_Otter/Corpse_Larva/Corpse_HiveQueen/Corpse_Locust/Corpse_Mugirl_PunisherRace/Corpse_Mugirl/Corpse_Moosesian/UnnaturalCorpse_Moosesian/Corpse_Alien_Cinder/Corpse_Cinder_Trailer/Corpse_Raven_Race/Corpse_Raven_HighArchon
+allowedDefs:Corpse_Bear_Grizzly/Corpse_Bear_Polar/Corpse_Ostrich/Corpse_Emu/Corpse_Cassowary/Corpse_Cougar/Corpse_Panther/Corpse_Lynx/Corpse_Cat/Corpse_YorkshireTerrier/Corpse_GuineaPig/Corpse_LabradorRetriever/Corpse_Husky/Corpse_Monkey/Corpse_Chicken/Corpse_Duck/Corpse_Turkey/Corpse_Goose/Corpse_Cow/Corpse_Boomalope/Corpse_Muffalo/Corpse_Bison/Corpse_Dromedary/Corpse_Goat/Corpse_Elk/Corpse_Yak/Corpse_Caribou/Corpse_Horse/Corpse_Donkey/Corpse_Elephant/Corpse_Rhinoceros/Corpse_Hare/Corpse_Snowhare/Corpse_Megascarab/Corpse_Spelopede/Corpse_Megaspider/Corpse_Thrumbo/Corpse_Cobra/Corpse_Tortoise/Corpse_Alphabeaver/Corpse_Pig/Corpse_WildBoar/Corpse_Ibex/Corpse_Deer/Corpse_Gazelle/Corpse_Chinchilla/Corpse_Sheep/Corpse_Alpaca/Corpse_Megasloth/Corpse_Capybara/Corpse_Squirrel/Corpse_Rat/Corpse_Boomrat/Corpse_Raccoon/Corpse_Iguana/Corpse_Warg/Corpse_Wolf_Timber/Corpse_Wolf_Arctic/Corpse_Fox_Fennec/Corpse_Fox_Red/Corpse_Fox_Arctic/Corpse_Human/UnnaturalCorpse_Human/Corpse_Dryad_Basic/Corpse_Dryad_Woodmaker/Corpse_Dryad_Berrymaker/Corpse_Dryad_Medicinemaker/Corpse_Dryad_Gaumaker/Corpse_Dryad_Carrier/Corpse_Dryad_Clawer/Corpse_Dryad_Barkskin/Corpse_WasteRat/Corpse_Toxalope/Corpse_Sightstealer/Corpse_Noctol/Corpse_Gorehulk/Corpse_Devourer/Corpse_Chimera/Corpse_Bulbfreak/Corpse_Toughspike/Corpse_Trispike/Corpse_Fingerspike/Corpse_Dreadmeld/Corpse_BogHound/Corpse_MonitorLizard/Corpse_PrairieDog/Corpse_Porcupine/Corpse_Mastodon/Corpse_Cat_Scimitar/Corpse_Wolverine/Corpse_Wolf_Great/Corpse_Moose/Corpse_AlphaThrumbo/Corpse_Muskox/Corpse_Tiger/Corpse_Mink/Corpse_Gorilla/Corpse_Badger/Corpse_Panda/Corpse_Hippo/Corpse_Megavole/Corpse_Armadillo/Corpse_Alligator/Corpse_Bullfrog/Corpse_ColossusToad/Corpse_LavaSnail/Corpse_Sparrow/Corpse_Crow/Corpse_Bluebird/Corpse_Quail/Corpse_Macaw/Corpse_Flamingo/Corpse_Heron/Corpse_Swan/Corpse_Peacock/Corpse_Vulture/Corpse_Penguin/Corpse_Walrus/Corpse_SeaLion/Corpse_Seal/Corpse_HermitCrab/Corpse_StoneCrab/Corpse_SeaTurtle/Corpse_Otter/Corpse_Larva/Corpse_HiveQueen/Corpse_Locust
 allowedHitPointsPercents:0.0000:1.0000
 allowedQualities:Awful:Legendary
 disallowedSpecialFilters:AllowCorpsesColonist/AllowCorpsesSlave/AllowCorpsesMechFriendly/AllowCorpsesMechEnemy/AllowCorpsesUnnatural
@@ -5742,15 +5812,15 @@ disallowedSpecialFilters:AllowCorpsesColonist/AllowCorpsesSlave/AllowCorpsesMech
         <li>(24,15)</li>
         <li>(36,15)</li>
         <li>(25,16)</li>
+        <li>(26,16)</li>
+        <li>(34,16)</li>
         <li>(35,16)</li>
         <li>(25,17)</li>
+        <li>(26,17)</li>
+        <li>(34,17)</li>
         <li>(35,17)</li>
         <li>(25,18)</li>
         <li>(26,18)</li>
-        <li>(27,18)</li>
-        <li>(28,18)</li>
-        <li>(32,18)</li>
-        <li>(33,18)</li>
         <li>(34,18)</li>
         <li>(35,18)</li>
         <li>(8,24)</li>
@@ -5777,7 +5847,7 @@ Priority:Important
         <li>(46,13)</li>
       </Positions>
       <Data><![CDATA[Version:1
-allowedDefs:TextBook/Schematic/Novel/Tome/Map/Mugirl_CourierDiary/Raven_Book_Hentai/Raven_Book_Technical/Raven_Book_Textbook/Raven_Book_Textbook_B/Raven_Book_FusangSpecial/Raven_Book_FusangSpecial_B
+allowedDefs:TextBook/Schematic/Novel/Tome/Map
 allowedHitPointsPercents:1.0000:1.0000
 allowedQualities:Awful:Legendary
 disallowedSpecialFilters:AllowCorpsesColonist/AllowCorpsesStranger/AllowCorpsesSlave/AllowCorpsesMechFriendly/AllowCorpsesMechEnemy/AllowCorpsesUnnatural
@@ -5793,7 +5863,7 @@ Priority:Critical
         <li>(11,27)</li>
       </Positions>
       <Data><![CDATA[Version:1
-allowedDefs:Cloth/Synthread/DevilstrandCloth/Leather_Plain/Leather_Dog/Leather_Wolf/Leather_Panthera/Leather_Camel/Leather_Bluefur/Leather_Bear/Leather_GuineaPig/Leather_Human/Leather_Pig/Leather_Light/Leather_Bird/Leather_Chinchilla/Leather_Fox/Leather_Lizard/Leather_Elephant/Leather_Heavy/Leather_Rhinoceros/Leather_Thrumbo/Leather_Patch/Leather_Dread/Leather_Mastodon/Leather_Sealskin/Leather_AlphaThrumbo/Leather_Mink/Leather_Hippo/Leather_Armadillo/Mugirl_Wool
+allowedDefs:Cloth/Synthread/DevilstrandCloth/Leather_Plain/Leather_Dog/Leather_Wolf/Leather_Panthera/Leather_Camel/Leather_Bluefur/Leather_Bear/Leather_GuineaPig/Leather_Human/Leather_Pig/Leather_Light/Leather_Bird/Leather_Chinchilla/Leather_Fox/Leather_Lizard/Leather_Elephant/Leather_Heavy/Leather_Rhinoceros/Leather_Thrumbo/Leather_Patch/Leather_Dread/Leather_Mastodon/Leather_Sealskin/Leather_AlphaThrumbo/Leather_Mink/Leather_Hippo/Leather_Armadillo
 allowedHitPointsPercents:0.0000:1.0000
 allowedQualities:Awful:Legendary
 disallowedSpecialFilters:
@@ -5807,7 +5877,7 @@ Priority:Critical
         <li>(13,27)</li>
       </Positions>
       <Data><![CDATA[Version:1
-allowedDefs:Cloth/Synthread/DevilstrandCloth/Leather_Plain/Leather_Dog/Leather_Wolf/Leather_Panthera/Leather_Camel/Leather_Bluefur/Leather_Bear/Leather_GuineaPig/Leather_Human/Leather_Pig/Leather_Light/Leather_Bird/Leather_Chinchilla/Leather_Fox/Leather_Lizard/Leather_Elephant/Leather_Heavy/Leather_Rhinoceros/Leather_Thrumbo/Leather_Patch/Leather_Dread/Leather_Mastodon/Leather_Sealskin/Leather_AlphaThrumbo/Leather_Mink/Leather_Hippo/Leather_Armadillo/Mugirl_Wool
+allowedDefs:Cloth/Synthread/DevilstrandCloth/Leather_Plain/Leather_Dog/Leather_Wolf/Leather_Panthera/Leather_Camel/Leather_Bluefur/Leather_Bear/Leather_GuineaPig/Leather_Human/Leather_Pig/Leather_Light/Leather_Bird/Leather_Chinchilla/Leather_Fox/Leather_Lizard/Leather_Elephant/Leather_Heavy/Leather_Rhinoceros/Leather_Thrumbo/Leather_Patch/Leather_Dread/Leather_Mastodon/Leather_Sealskin/Leather_AlphaThrumbo/Leather_Mink/Leather_Hippo/Leather_Armadillo
 allowedHitPointsPercents:0.0000:1.0000
 allowedQualities:Awful:Legendary
 disallowedSpecialFilters:
@@ -5847,7 +5917,7 @@ Priority:Critical
         <li>(8,30)</li>
       </Positions>
       <Data><![CDATA[Version:1
-allowedDefs:Hyperweave/Gravcore/GravlitePanel/Mugirl_Wool
+allowedDefs:UnfinishedMusicalInstrument/Hyperweave/UnfinishedSculpture/UnfinishedGun/UnfinishedWeapon/UnfinishedArmor/UnfinishedTechArmor/UnfinishedMetallicTechArmor/UnfinishedApparel/UnfinishedBelt/UnfinishedPack/UnfinishedComponent/UnfinishedHealthItemProsthetic/UnfinishedHealthItemBionic/UnfinishedMask/UnfinishedPiano/UnfinishedSubcore/UnfinishedHealthItemGhoul/Gravcore/GravlitePanel/UnfinishedJewelry
 allowedHitPointsPercents:0.0000:1.0000
 allowedQualities:Awful:Legendary
 disallowedSpecialFilters:
@@ -6032,7 +6102,7 @@ Priority:Critical
         <li>(45,45)</li>
       </Positions>
       <Data><![CDATA[Version:1
-allowedDefs:MealNutrientPaste/Pemmican/Chocolate/BabyFood/Mugirl_Milk/Mugirl_Cheese
+allowedDefs:MealNutrientPaste/MealSimple/MealFine/MealFine_Veg/MealFine_Meat/Pemmican/Chocolate/BabyFood/MetalbloodSerum/JuggernautSerum
 allowedHitPointsPercents:0.0000:1.0000
 allowedQualities:Awful:Legendary
 disallowedSpecialFilters:
@@ -6046,7 +6116,7 @@ Priority:Normal
         <li>(16,46)</li>
       </Positions>
       <Data><![CDATA[Version:1
-allowedDefs:RawPotatoes/RawFungus/RawRice/RawAgave/RawCorn/RawBerries/RawToxipotato/Mugirl_Milk
+allowedDefs:RawPotatoes/RawFungus/RawRice/RawAgave/RawCorn/RawBerries/RawToxipotato
 allowedHitPointsPercents:0.0000:1.0000
 allowedQualities:Awful:Legendary
 disallowedSpecialFilters:
@@ -6060,7 +6130,7 @@ Priority:Important
         <li>(19,46)</li>
       </Positions>
       <Data><![CDATA[Version:1
-allowedDefs:MealNutrientPaste/MealLavish/MealLavish_Veg/MealLavish_Meat/Mugirl_Milk/Raven_Omurice/Raven_BigCockYaki/Raven_Food_CreamPuff/Raven_Food_ExquisiteCake
+allowedDefs:MealNutrientPaste/MealLavish/MealLavish_Veg/MealLavish_Meat
 allowedHitPointsPercents:0.0000:1.0000
 allowedQualities:Awful:Legendary
 disallowedSpecialFilters:
@@ -6074,7 +6144,7 @@ Priority:Preferred
         <li>(15,47)</li>
       </Positions>
       <Data><![CDATA[Version:1
-allowedDefs:RawPotatoes/RawFungus/RawRice/RawAgave/RawCorn/RawBerries/RawToxipotato/Mugirl_Milk
+allowedDefs:RawPotatoes/RawFungus/RawRice/RawAgave/RawCorn/RawBerries/RawToxipotato
 allowedHitPointsPercents:0.0000:1.0000
 allowedQualities:Awful:Legendary
 disallowedSpecialFilters:
@@ -6105,7 +6175,7 @@ Priority:Preferred
         <li>(19,49)</li>
       </Positions>
       <Data><![CDATA[Version:1
-allowedDefs:Meat_Twisted/Fish_Salmon/Fish_Bass/Fish_Tilapia/Fish_Cod/Fish_Bluefish/Fish_Guppy/Fish_Frostfish/Fish_Catfish/Fish_Piranha/Fish_Dogfish/Fish_Marlin/Fish_Tuna/Fish_Flounder/Fish_Toxfish/Cinder_BurntStrangeMeat/RavenFish_AlienRavenLiquidFish/Meat_Bear_Grizzly/Meat_Cassowary/Meat_Cougar/Meat_Panther/Meat_Lynx/Meat_Cat/Meat_YorkshireTerrier/Meat_GuineaPig/Meat_LabradorRetriever/Meat_Husky/Meat_Monkey/Meat_Chicken/Meat_Duck/Meat_Turkey/Meat_Cow/Meat_Boomalope/Meat_Muffalo/Meat_Bison/Meat_Dromedary/Meat_Goat/Meat_Elk/Meat_Yak/Meat_Caribou/Meat_Horse/Meat_Donkey/Meat_Elephant/Meat_Rhinoceros/Meat_Hare/Meat_Megaspider/Meat_Thrumbo/Meat_Cobra/Meat_Tortoise/Meat_Alphabeaver/Meat_Pig/Meat_Ibex/Meat_Deer/Meat_Gazelle/Meat_Chinchilla/Meat_Sheep/Meat_Alpaca/Meat_Megasloth/Meat_Capybara/Meat_Squirrel/Meat_Rat/Meat_Boomrat/Meat_Raccoon/Meat_Iguana/Meat_Warg/Meat_Wolf_Timber/Meat_Fox_Fennec/Meat_Human/Meat_Dryad_Basic/Meat_WasteRat/Meat_Toxalope/Meat_BogHound/Meat_MonitorLizard/Meat_PrairieDog/Meat_Porcupine/Meat_Mastodon/Meat_Cat_Scimitar/Meat_Wolverine/Meat_Wolf_Great/Meat_Moose/Meat_AlphaThrumbo/Meat_Muskox/Meat_Tiger/Meat_Mink/Meat_Gorilla/Meat_Badger/Meat_Panda/Meat_Hippo/Meat_Megavole/Meat_Armadillo/Meat_Alligator/Meat_Bullfrog/Meat_ColossusToad/Meat_LavaSnail/Meat_Walrus/Meat_SeaLion/Meat_Seal/Meat_HermitCrab/Meat_StoneCrab/Meat_SeaTurtle/Meat_Otter/Meat_Mugirl_PunisherRace/Meat_Mugirl/Meat_Moosesian/Meat_Alien_Cinder/Meat_Raven_Race/Meat_Raven_HighArchon
+allowedDefs:Meat_Twisted/Fish_Salmon/Fish_Bass/Fish_Tilapia/Fish_Cod/Fish_Bluefish/Fish_Guppy/Fish_Frostfish/Fish_Catfish/Fish_Piranha/Fish_Dogfish/Fish_Marlin/Fish_Tuna/Fish_Flounder/Fish_Toxfish/Meat_Bear_Grizzly/Meat_Cassowary/Meat_Cougar/Meat_Panther/Meat_Lynx/Meat_Cat/Meat_YorkshireTerrier/Meat_GuineaPig/Meat_LabradorRetriever/Meat_Husky/Meat_Monkey/Meat_Chicken/Meat_Duck/Meat_Turkey/Meat_Cow/Meat_Boomalope/Meat_Muffalo/Meat_Bison/Meat_Dromedary/Meat_Goat/Meat_Elk/Meat_Yak/Meat_Caribou/Meat_Horse/Meat_Donkey/Meat_Elephant/Meat_Rhinoceros/Meat_Hare/Meat_Megaspider/Meat_Thrumbo/Meat_Cobra/Meat_Tortoise/Meat_Alphabeaver/Meat_Pig/Meat_Ibex/Meat_Deer/Meat_Gazelle/Meat_Chinchilla/Meat_Sheep/Meat_Alpaca/Meat_Megasloth/Meat_Capybara/Meat_Squirrel/Meat_Rat/Meat_Boomrat/Meat_Raccoon/Meat_Iguana/Meat_Warg/Meat_Wolf_Timber/Meat_Fox_Fennec/Meat_Human/Meat_Dryad_Basic/Meat_WasteRat/Meat_Toxalope/Meat_BogHound/Meat_MonitorLizard/Meat_PrairieDog/Meat_Porcupine/Meat_Mastodon/Meat_Cat_Scimitar/Meat_Wolverine/Meat_Wolf_Great/Meat_Moose/Meat_AlphaThrumbo/Meat_Muskox/Meat_Tiger/Meat_Mink/Meat_Gorilla/Meat_Badger/Meat_Panda/Meat_Hippo/Meat_Megavole/Meat_Armadillo/Meat_Alligator/Meat_Bullfrog/Meat_ColossusToad/Meat_LavaSnail/Meat_Walrus/Meat_SeaLion/Meat_Seal/Meat_HermitCrab/Meat_StoneCrab/Meat_SeaTurtle/Meat_Otter
 allowedHitPointsPercents:0.0000:1.0000
 allowedQualities:Awful:Legendary
 disallowedSpecialFilters:
@@ -6131,7 +6201,7 @@ Priority:Important
         <li>(23,49)</li>
       </Positions>
       <Data><![CDATA[Version:1
-allowedDefs:Milk/InsectJelly/EggChickenUnfertilized/EggCobraUnfertilized/EggIguanaUnfertilized/EggTortoiseUnfertilized/EggCassowaryUnfertilized/EggEmuUnfertilized/EggOstrichUnfertilized/EggTurkeyUnfertilized/EggDuckUnfertilized/EggGooseUnfertilized/EggMonitorLizardUnfertilized/EggFlamingoUnfertilized/EggHeronUnfertilized/EggSwanUnfertilized/EggSparrowUnfertilized/EggCrowUnfertilized/EggBluebirdUnfertilized/EggQuailUnfertilized/EggMacawUnfertilized/EggPeacockUnfertilized/EggVultureUnfertilized/EggPenguinUnfertilized/EggSeaTurtleUnfertilized/EggAlligatorUnfertilized/Fish_Salmon/Fish_Bass/Fish_Tilapia/Fish_Cod/Fish_Bluefish/Fish_Guppy/Fish_Frostfish/Fish_Catfish/Fish_Piranha/Fish_Dogfish/Fish_Marlin/Fish_Tuna/Fish_Flounder/Fish_Toxfish/Mugirl_Milk/Meat_Bear_Grizzly/Meat_Cassowary/Meat_Cougar/Meat_Panther/Meat_Lynx/Meat_Cat/Meat_YorkshireTerrier/Meat_GuineaPig/Meat_LabradorRetriever/Meat_Husky/Meat_Monkey/Meat_Chicken/Meat_Duck/Meat_Turkey/Meat_Cow/Meat_Boomalope/Meat_Muffalo/Meat_Bison/Meat_Dromedary/Meat_Goat/Meat_Elk/Meat_Yak/Meat_Caribou/Meat_Horse/Meat_Donkey/Meat_Elephant/Meat_Rhinoceros/Meat_Hare/Meat_Megaspider/Meat_Thrumbo/Meat_Cobra/Meat_Tortoise/Meat_Alphabeaver/Meat_Pig/Meat_Ibex/Meat_Deer/Meat_Gazelle/Meat_Chinchilla/Meat_Sheep/Meat_Alpaca/Meat_Megasloth/Meat_Capybara/Meat_Squirrel/Meat_Rat/Meat_Boomrat/Meat_Raccoon/Meat_Iguana/Meat_Warg/Meat_Wolf_Timber/Meat_Fox_Fennec/Meat_Human/Meat_Dryad_Basic/Meat_WasteRat/Meat_Toxalope/Meat_BogHound/Meat_MonitorLizard/Meat_PrairieDog/Meat_Porcupine/Meat_Mastodon/Meat_Cat_Scimitar/Meat_Wolverine/Meat_Wolf_Great/Meat_Moose/Meat_AlphaThrumbo/Meat_Muskox/Meat_Tiger/Meat_Mink/Meat_Gorilla/Meat_Badger/Meat_Panda/Meat_Hippo/Meat_Megavole/Meat_Armadillo/Meat_Alligator/Meat_Bullfrog/Meat_ColossusToad/Meat_LavaSnail/Meat_Walrus/Meat_SeaLion/Meat_Seal/Meat_HermitCrab/Meat_StoneCrab/Meat_SeaTurtle/Meat_Otter
+allowedDefs:Milk/InsectJelly/EggChickenUnfertilized/EggCobraUnfertilized/EggIguanaUnfertilized/EggTortoiseUnfertilized/EggCassowaryUnfertilized/EggEmuUnfertilized/EggOstrichUnfertilized/EggTurkeyUnfertilized/EggDuckUnfertilized/EggGooseUnfertilized/EggMonitorLizardUnfertilized/EggFlamingoUnfertilized/EggHeronUnfertilized/EggSwanUnfertilized/EggSparrowUnfertilized/EggCrowUnfertilized/EggBluebirdUnfertilized/EggQuailUnfertilized/EggMacawUnfertilized/EggPeacockUnfertilized/EggVultureUnfertilized/EggPenguinUnfertilized/EggSeaTurtleUnfertilized/EggAlligatorUnfertilized
 allowedHitPointsPercents:0.0000:1.0000
 allowedQualities:Awful:Legendary
 disallowedSpecialFilters:AllowCorpsesColonist/AllowCorpsesStranger/AllowCorpsesSlave/AllowCorpsesMechFriendly/AllowCorpsesMechEnemy/AllowCorpsesUnnatural
@@ -6149,7 +6219,7 @@ Priority:Important
         <li>(23,51)</li>
       </Positions>
       <Data><![CDATA[Version:1
-allowedDefs:Meat_Twisted/Fish_Salmon/Fish_Bass/Fish_Tilapia/Fish_Cod/Fish_Bluefish/Fish_Guppy/Fish_Frostfish/Fish_Catfish/Fish_Piranha/Fish_Dogfish/Fish_Marlin/Fish_Tuna/Fish_Flounder/Fish_Toxfish/Cinder_BurntStrangeMeat/RavenFish_AlienRavenLiquidFish/Meat_Bear_Grizzly/Meat_Cassowary/Meat_Cougar/Meat_Panther/Meat_Lynx/Meat_Cat/Meat_YorkshireTerrier/Meat_GuineaPig/Meat_LabradorRetriever/Meat_Husky/Meat_Monkey/Meat_Chicken/Meat_Duck/Meat_Turkey/Meat_Cow/Meat_Boomalope/Meat_Muffalo/Meat_Bison/Meat_Dromedary/Meat_Goat/Meat_Elk/Meat_Yak/Meat_Caribou/Meat_Horse/Meat_Donkey/Meat_Elephant/Meat_Rhinoceros/Meat_Hare/Meat_Megaspider/Meat_Thrumbo/Meat_Cobra/Meat_Tortoise/Meat_Alphabeaver/Meat_Pig/Meat_Ibex/Meat_Deer/Meat_Gazelle/Meat_Chinchilla/Meat_Sheep/Meat_Alpaca/Meat_Megasloth/Meat_Capybara/Meat_Squirrel/Meat_Rat/Meat_Boomrat/Meat_Raccoon/Meat_Iguana/Meat_Warg/Meat_Wolf_Timber/Meat_Fox_Fennec/Meat_Human/Meat_Dryad_Basic/Meat_WasteRat/Meat_Toxalope/Meat_BogHound/Meat_MonitorLizard/Meat_PrairieDog/Meat_Porcupine/Meat_Mastodon/Meat_Cat_Scimitar/Meat_Wolverine/Meat_Wolf_Great/Meat_Moose/Meat_AlphaThrumbo/Meat_Muskox/Meat_Tiger/Meat_Mink/Meat_Gorilla/Meat_Badger/Meat_Panda/Meat_Hippo/Meat_Megavole/Meat_Armadillo/Meat_Alligator/Meat_Bullfrog/Meat_ColossusToad/Meat_LavaSnail/Meat_Walrus/Meat_SeaLion/Meat_Seal/Meat_HermitCrab/Meat_StoneCrab/Meat_SeaTurtle/Meat_Otter/Meat_Mugirl_PunisherRace/Meat_Mugirl/Meat_Moosesian/Meat_Alien_Cinder/Meat_Raven_Race/Meat_Raven_HighArchon
+allowedDefs:Meat_Twisted/Fish_Salmon/Fish_Bass/Fish_Tilapia/Fish_Cod/Fish_Bluefish/Fish_Guppy/Fish_Frostfish/Fish_Catfish/Fish_Piranha/Fish_Dogfish/Fish_Marlin/Fish_Tuna/Fish_Flounder/Fish_Toxfish/Meat_Bear_Grizzly/Meat_Cassowary/Meat_Cougar/Meat_Panther/Meat_Lynx/Meat_Cat/Meat_YorkshireTerrier/Meat_GuineaPig/Meat_LabradorRetriever/Meat_Husky/Meat_Monkey/Meat_Chicken/Meat_Duck/Meat_Turkey/Meat_Cow/Meat_Boomalope/Meat_Muffalo/Meat_Bison/Meat_Dromedary/Meat_Goat/Meat_Elk/Meat_Yak/Meat_Caribou/Meat_Horse/Meat_Donkey/Meat_Elephant/Meat_Rhinoceros/Meat_Hare/Meat_Megaspider/Meat_Thrumbo/Meat_Cobra/Meat_Tortoise/Meat_Alphabeaver/Meat_Pig/Meat_Ibex/Meat_Deer/Meat_Gazelle/Meat_Chinchilla/Meat_Sheep/Meat_Alpaca/Meat_Megasloth/Meat_Capybara/Meat_Squirrel/Meat_Rat/Meat_Boomrat/Meat_Raccoon/Meat_Iguana/Meat_Warg/Meat_Wolf_Timber/Meat_Fox_Fennec/Meat_Human/Meat_Dryad_Basic/Meat_WasteRat/Meat_Toxalope/Meat_BogHound/Meat_MonitorLizard/Meat_PrairieDog/Meat_Porcupine/Meat_Mastodon/Meat_Cat_Scimitar/Meat_Wolverine/Meat_Wolf_Great/Meat_Moose/Meat_AlphaThrumbo/Meat_Muskox/Meat_Tiger/Meat_Mink/Meat_Gorilla/Meat_Badger/Meat_Panda/Meat_Hippo/Meat_Megavole/Meat_Armadillo/Meat_Alligator/Meat_Bullfrog/Meat_ColossusToad/Meat_LavaSnail/Meat_Walrus/Meat_SeaLion/Meat_Seal/Meat_HermitCrab/Meat_StoneCrab/Meat_SeaTurtle/Meat_Otter
 allowedHitPointsPercents:0.0000:1.0000
 allowedQualities:Awful:Legendary
 disallowedSpecialFilters:
@@ -6190,18 +6260,10 @@ Priority:Critical
       <SettingName>储存区 10</SettingName>
       <PresetType>DefaultStockpile</PresetType>
       <positions>
-        <li>(26,8,26,11)</li>
-        <li>(34,8,34,11)</li>
-        <li>(27,11,33,11)</li>
-        <li>(28,12,28,15)</li>
-        <li>(30,12,30,12)</li>
-        <li>(32,12,32,15)</li>
-        <li>(25,15,27,15)</li>
-        <li>(29,15,31,18)</li>
-        <li>(33,15,35,15)</li>
+        <li>(26,8,26,10)</li>
       </positions>
       <data><![CDATA[Version:1
-allowedDefs:VanometricPowerCell/MealSurvivalPack/Steel/Apparel_ShieldBelt/Apparel_SimpleHelmet/Apparel_AdvancedHelmet/Apparel_PowerArmorHelmet/Apparel_ArmorHelmetRecon/Apparel_SmokepopBelt/Apparel_FirefoampopPack/Apparel_PsychicShockLance/Apparel_PsychicInsanityLance/Apparel_PlateArmor/Apparel_FlakVest/Apparel_FlakPants/Apparel_FlakJacket/Apparel_PowerArmor/Apparel_ArmorRecon/OrbitalTargeterBombardment/OrbitalTargeterPowerBeam/TornadoGenerator/UnstablePowerCell/Apparel_PackJump/Apparel_PackBroadshield/Apparel_RobeRoyal/Apparel_ArmorReconPrestige/Apparel_ArmorHelmetReconPrestige/Apparel_ArmorMarinePrestige/Apparel_ArmorMarineHelmetPrestige/Apparel_ArmorCataphract/Apparel_ArmorHelmetCataphract/Apparel_ArmorCataphractPrestige/Apparel_ArmorHelmetCataphractPrestige/Apparel_ArmorLocust/Apparel_ArmorMarineGrenadier/Apparel_ArmorCataphractPhoenix/Apparel_Gunlink/OrbitalTargeterMechCluster/Apparel_KidHelmet/Apparel_IntegratorHeadset/Apparel_ArmorHelmetMechCommander/Apparel_ArmorHelmetMechlordHelmet/Apparel_PackControl/Apparel_PackBandwidth/Apparel_PackTox/Apparel_MechlordSuit/Apparel_DisruptorFlarePack/Apparel_PackTurret/Apparel_DeadlifePack/Apparel_ShardPsychicShockLance/Apparel_ShardPsychicInsanityLance/Apparel_BiomutationLance/Apparel_VacsuitHelmet/Apparel_PackHunter/Apparel_CerebrexNode/Apparel_Vacsuit/Apparel_VacsuitChildren/AM_LassoCloth/AM_LassoDevilstrand/AM_LassoHyperwave/RotR_LongingRing/RotR_StardustBracelet/Cinder_AmorphousPolymer/Corpse_Mech_CentipedeBlaster/Corpse_Mech_CentipedeGunner/Corpse_Mech_CentipedeBurner/Corpse_Mech_Lancer/Corpse_Mech_Scyther/Corpse_Mech_Pikeman/Corpse_Mech_Termite/Corpse_Mech_Tunneler/Corpse_Mech_Militor/Corpse_Mech_Lifter/Corpse_Mech_Constructoid/Corpse_Mech_Fabricor/Corpse_Mech_Agrihand/Corpse_Mech_Cleansweeper/Corpse_Mech_WarUrchin/Corpse_Mech_Paramedic/Corpse_Mech_Legionary/Corpse_Mech_Tesseron/Corpse_Mech_Scorcher/Corpse_Mech_Apocriton/Corpse_Mech_Centurion/Corpse_Mech_Warqueen/Corpse_Mech_Diabolus/Corpse_Mech_Cyclops
+allowedDefs:VanometricPowerCell/MealSurvivalPack/Steel/Apparel_ShieldBelt/Apparel_SimpleHelmet/Apparel_AdvancedHelmet/Apparel_PowerArmorHelmet/Apparel_ArmorHelmetRecon/Apparel_SmokepopBelt/Apparel_FirefoampopPack/Apparel_PsychicShockLance/Apparel_PsychicInsanityLance/Apparel_PlateArmor/Apparel_FlakVest/Apparel_FlakPants/Apparel_FlakJacket/Apparel_PowerArmor/Apparel_ArmorRecon/OrbitalTargeterBombardment/OrbitalTargeterPowerBeam/TornadoGenerator/UnstablePowerCell/Apparel_PackJump/Apparel_PackBroadshield/Apparel_RobeRoyal/Apparel_ArmorReconPrestige/Apparel_ArmorHelmetReconPrestige/Apparel_ArmorMarinePrestige/Apparel_ArmorMarineHelmetPrestige/Apparel_ArmorCataphract/Apparel_ArmorHelmetCataphract/Apparel_ArmorCataphractPrestige/Apparel_ArmorHelmetCataphractPrestige/Apparel_ArmorLocust/Apparel_ArmorMarineGrenadier/Apparel_ArmorCataphractPhoenix/Apparel_Gunlink/OrbitalTargeterMechCluster/Apparel_KidHelmet/Apparel_IntegratorHeadset/Apparel_ArmorHelmetMechCommander/Apparel_ArmorHelmetMechlordHelmet/Apparel_PackControl/Apparel_PackBandwidth/Apparel_PackTox/Apparel_MechlordSuit/Apparel_DisruptorFlarePack/Apparel_PackTurret/Apparel_DeadlifePack/Apparel_ShardPsychicShockLance/Apparel_ShardPsychicInsanityLance/Apparel_BiomutationLance/Apparel_VacsuitHelmet/Apparel_PackHunter/Apparel_CerebrexNode/Apparel_Vacsuit/Apparel_VacsuitChildren/AM_LassoCloth/AM_LassoDevilstrand/AM_LassoHyperwave/RotR_LongingRing/RotR_StardustBracelet/Corpse_Mech_CentipedeBlaster/Corpse_Mech_CentipedeGunner/Corpse_Mech_CentipedeBurner/Corpse_Mech_Lancer/Corpse_Mech_Scyther/Corpse_Mech_Pikeman/Corpse_Mech_Termite/Corpse_Mech_Tunneler/Corpse_Mech_Militor/Corpse_Mech_Lifter/Corpse_Mech_Constructoid/Corpse_Mech_Fabricor/Corpse_Mech_Agrihand/Corpse_Mech_Cleansweeper/Corpse_Mech_WarUrchin/Corpse_Mech_Paramedic/Corpse_Mech_Legionary/Corpse_Mech_Tesseron/Corpse_Mech_Scorcher/Corpse_Mech_Apocriton/Corpse_Mech_Centurion/Corpse_Mech_Warqueen/Corpse_Mech_Diabolus/Corpse_Mech_Cyclops
 allowedHitPointsPercents:0.0000:1.0000
 allowedQualities:Masterwork:Legendary
 disallowedSpecialFilters:AllowSmeltable/AllowNonSmeltableWeapons/AllowNonBurnableWeapons/AllowBurnableWeapons/AllowBiocodedWeapons/AllowNonBiocodedWeapons/AllowCorpsesMechEnemy
@@ -6215,10 +6277,11 @@ Priority:Low
         <li>(37,11,43,11)</li>
         <li>(37,12,37,13)</li>
         <li>(40,12,41,12)</li>
+        <li>(43,12,44,14)</li>
         <li>(40,13,40,14)</li>
       </positions>
       <data><![CDATA[Version:1
-allowedDefs:Mugirl_MilkPudding/Mugirl_Cheese/Mugirl_BaotaSugar/Mugirl_MilkCandy/Mugirl_CowCake/Mugirl_MilkPowder/Mugirl_MilkTablet/Mugirl_MilkCreamApple/Raven_Underwear_PurePledge/Raven_Underwear_LaceTemptation/Raven_Underwear_MidnightWhisper/RavenItem_FusangToken
+allowedDefs:
 allowedHitPointsPercents:0.0000:1.0000
 allowedQualities:Awful:Legendary
 disallowedSpecialFilters:
@@ -6230,12 +6293,13 @@ Priority:Normal
       <PresetType>DefaultStockpile</PresetType>
       <positions>
         <li>(16,16,23,16)</li>
-        <li>(16,17,16,23)</li>
-        <li>(18,17,23,23)</li>
-        <li>(17,18,17,23)</li>
+        <li>(16,17,16,21)</li>
+        <li>(18,17,23,21)</li>
+        <li>(17,18,17,21)</li>
+        <li>(19,22,23,23)</li>
       </positions>
       <data><![CDATA[Version:1
-allowedDefs:TextBook/Schematic/Novel/Beer/Wort/Ambrosia/GoJuice/Luciferium/Penoxycyline/Flake/PsychiteTea/Yayo/SmokeleafJoint/WakeUp/PsychicAmplifier/Urn/SculptureSmall/SculptureLarge/SculptureGrand/Bed/DoubleBed/RoyalBed/HospitalBed/Bedroll/BedrollDouble/AnimalSleepingBox/AnimalBed/Stool/DiningChair/Armchair/Couch/EndTable/Table1x2c/Table2x2c/Table2x4c/Table3x3c/PlantPot/StandingLamp/SunLamp/WallLamp/FloodLight/Shelf/ShelfSmall/Bookcase/BookcaseSmall/Dresser/HorseshoesPin/HoopstoneRing/GameOfUrBoard/ChessTable/PokerTable/BilliardsTable/TubeTelevision/FlatscreenTelevision/MegascreenTelevision/Telescope/Gloomlight/EggBox/OrbitalTradeBeacon/FirefoamPopper/MultiAnalyzer/VitalsMonitor/ToolCabinet/PenMarker/UnfinishedMusicalInstrument/GlowPod/Battery/TableSculpting/TableButcher/HandTailoringBench/ElectricTailoringBench/FueledSmithy/ElectricSmithy/TableMachining/ElectricStove/FueledStove/TableStonecutter/Brewery/DrugLab/ElectricSmelter/SimpleResearchBench/FermentingBarrel/DeepDrill/TrapSpike/TrapIED_HighExplosive/TrapIED_Incendiary/TrapIED_EMP/TrapIED_Smoke/TrapIED_Firefoam/TrapIED_AntigrainWarhead/Turret_MiniTurret/Turret_Mortar/Turret_FoamTurret/PsychicEmanator/VanometricPowerCell/InfiniteChemreactor/Heater/PsychicAnimalPulser/PsychicSoothePulser/AIPersonaCore/MechSerumHealer/MechSerumResurrector/TechprofSubpersonaCore/ThrumboHorn/ElephantTusk/Skull/MedicineIndustrial/MedicineUltratech/ComponentIndustrial/ComponentSpacer/Neutroamine/Chemfuel/RawHops/PsychoidLeaves/SmokeleafLeaves/Gold/Steel/WoodLog/Uranium/Jade/Cloth/Synthread/DevilstrandCloth/Hyperweave/WoolSheep/WoolAlpaca/WoolMegasloth/WoolMuffalo/WoolBison/Leather_Plain/Leather_Dog/Leather_Wolf/Leather_Panthera/Leather_Camel/Leather_Bluefur/Leather_Bear/Leather_GuineaPig/Leather_Human/Leather_Pig/Leather_Light/Leather_Bird/Leather_Chinchilla/Leather_Fox/Leather_Lizard/Leather_Elephant/Leather_Heavy/Leather_Rhinoceros/Leather_Thrumbo/Leather_Patch/UnfinishedSculpture/UnfinishedGun/UnfinishedWeapon/UnfinishedArmor/UnfinishedTechArmor/UnfinishedMetallicTechArmor/UnfinishedApparel/UnfinishedBelt/UnfinishedPack/UnfinishedComponent/UnfinishedHealthItemProsthetic/UnfinishedHealthItemBionic/UnfinishedMask/Dye/ArchotechEye/ArchotechArm/ArchotechLeg/BionicEye/BionicArm/BionicLeg/BionicSpine/BionicHeart/BionicStomach/DeathAcidifier/BionicEar/BionicTongue/BionicJaw/Heart/Lung/Kidney/Liver/SimpleProstheticLeg/SimpleProstheticArm/SimpleProstheticHeart/CochlearImplant/PowerClaw/Joywire/Painstopper/PsychicSensitizer/PsychicHarmonizer/PsychicReader/Neurocalculator/LearningAssistant/GastroAnalyzer/Immunoenhancer/Coagulator/HealingEnhancer/ToughskinGland/ArmorskinGland/StoneskinGland/AestheticShaper/AestheticNose/LoveEnhancer/DetoxifierStomach/ReprocessorStomach/NuclearStomach/CircadianAssistant/CircadianHalfCycler/Mindscrew/DrillArm/FieldHand/HandTalon/ElbowBlade/KneeSpike/VenomFangs/VenomTalon/Drape/Brazier/DarklightBrazier/Throne/GrandThrone/UnstablePowerCell/ShipLandingBeacon/NatureShrine_Small/NatureShrine_Large/AnimusStone/Harp/Harpsichord/UnfinishedPiano/Piano/Apparel_RobeRoyal/MonumentMarker/BroadshieldCore/SculptureTerror/SleepAccelerator/BiosculpterPod/NeuralSupercharger/ChristmasTree/CannibalPlatter/Effigy/SacrificialFlag/Pyre/Burnbong/IncenseShrine/Lectern/StylingStation/GibbetCage/LightBall/Loudspeaker/Drum/Pew/KneelSheet/KneelPillow/PlantPot_Bonsai/SlabBed/SlabDoubleBed/Skullspike/MorbidSlab_Medium/MorbidSlab_Broad/TotemicSlab_Medium/TotemicSlab_Broad/SpikecoreFloorStar_Medium/SpikecoreFloorStar_Broad/RusticRug_Medium/RusticRug_Broad/AnimalistSlab_Medium/AnimalistSlab_Broad/RelicInertCup/RelicInertPendant/RelicInertBox/RelicInertTablet/RelicInertFragment/RelicInertSwordHandle/RelicInertArk/RelicInertCube/GauranlenSeed/DetoxifierLung/DetoxifierKidney/Mechlink/ControlSublink/ControlSublinkHigh/RemoteRepairer/MechFormfeeder/RemoteShielder/RepairProbe/DeathrestCasket/Hemopump/HemogenAmplifier/GlucosoidPump/PsychofluidPump/DeathrestAccelerator/ToyBox/SchoolDesk/BabyDecoration/Crib/Blackboard/GeneBank/PollutionPump/SanguphageMeetingTorch/MechBooster/TrapIED_ToxGas/SubcoreEncoder/HemogenPack/SubcoreBasic/SubcoreRegular/SubcoreHigh/SignalChip/PowerfocusChip/NanostructuringChip/DeathrestCapacitySerum/UnfinishedSubcore/Genepack/Xenogerm/ArchiteCapsule/MechanoidTransponder/HumanOvum/HumanEmbryo/PoluxSeed/Tome/UnfinishedHealthItemGhoul/GhoulPlating/GhoulBarbs/AdrenalHeart/CorrosiveHeart/MetalbloodHeart/RevenantVertebrae/HoldingPlatform/DirtCubeSculpture/StoneCubeSculpture/SandCubeSculpture/ScrapCubeSculpture/ElectricInhibitor/ShardInhibitor/ProximityDetector/FrenzyInducer/SleepSuppressor/TrapIED_Deadlife/Electroharvester/BioferriteShaper/SerumCentrifuge/BioferriteHarvester/ShardBeacon/VoidSculpture/ShardAnimalPulser/BiomutationPulser/VoidsightSerum/MetalbloodSerum/JuggernautSerum/MindNumbSerum/GhoulResurrectionSerum/Bioferrite/Leather_Dread/Shard/RevenantSpine/GoldenCube/GrayFleshSample/FleshmassNeuralLump/RevenantFleshChunk/MonolithFragment/HarbingerSeed/Map/Drug_Psilocap/BloodWarmer/PilotAssistant/VacskinGland/Statue/Building_OutfitStand/Building_KidOutfitStand/GravEngine/GravFieldExtender/PilotConsole/SmallThruster/LargeThruster/FuelOptimizer/SignalJammer/GravcorePowerCell/PilotSubpersonaCore/GravshipShieldGenerator/AncientMiningCharge/LifeSupportUnit/OxygenPump/HunterDroneTrap/WaspDroneTrap/MastodonTusk/AlphaThrumboHorn/SentienceCatalyst/WoolMastodon/WoolMuskox/Gravcore/GravlitePanel/ShuttleEngine/Obsidian/Leather_Mastodon/Leather_Sealskin/Leather_AlphaThrumbo/Leather_Mink/Leather_Hippo/Leather_Armadillo/ArcheanSeed/UnfinishedJewelry/Meow_SellerSlingshot/RotR_RoseOfRebirthSeed/Raven_Item_MiracleHeal/Techprint_CataphractArmor/Techprint_JumpPack/Techprint_BrainWiring/Techprint_SpecializedLimbs/Techprint_CompactWeaponry/Techprint_VenomSynthesis/Techprint_ArtificialMetabolism/Techprint_NeuralComputation/Techprint_SkinHardening/Techprint_HealingFactors/Techprint_FleshShaping/Techprint_MolecularAnalysis/Techprint_CircadianInfluence/Techprint_AdjustUniqueWeaponTraits/Psytrainer_Painblock/Psytrainer_Stun/Psytrainer_Burden/Psytrainer_BlindingPulse/Psytrainer_EntropyDump/Psytrainer_Beckon/Psytrainer_VertigoPulse/Psytrainer_ChaosSkip/Psytrainer_Skip/Psytrainer_Wallraise/Psytrainer_Smokepop/Psytrainer_Focus/Psytrainer_Berserk/Psytrainer_Invisibility/Psytrainer_BerserkPulse/Psytrainer_ManhunterPulse/Psytrainer_MassChaosSkip/Psytrainer_Waterskip/Psytrainer_Flashstorm/Psytrainer_BulletShield/Psytrainer_SolarPinhole/Psytrainer_WordOfTrust/Psytrainer_WordOfJoy/Psytrainer_WordOfLove/Psytrainer_WordOfSerenity/Psytrainer_WordOfInspiration/Psytrainer_Farskip/Psytrainer_Neuroquake/Psytrainer_Chunkskip/Neurotrainer_Shooting/Neurotrainer_Melee/Neurotrainer_Construction/Neurotrainer_Mining/Neurotrainer_Cooking/Neurotrainer_Plants/Neurotrainer_Animals/Neurotrainer_Crafting/Neurotrainer_Artistic/Neurotrainer_Medicine/Neurotrainer_Social/Neurotrainer_Intellectual/Zombrella
+allowedDefs:TextBook/Schematic/Novel/Beer/Wort/Ambrosia/GoJuice/Luciferium/Penoxycyline/Flake/PsychiteTea/Yayo/SmokeleafJoint/WakeUp/PsychicAmplifier/Urn/SculptureSmall/SculptureLarge/SculptureGrand/Bed/DoubleBed/RoyalBed/HospitalBed/Bedroll/BedrollDouble/AnimalSleepingBox/AnimalBed/Stool/DiningChair/Armchair/Couch/EndTable/Table1x2c/Table2x2c/Table2x4c/Table3x3c/PlantPot/StandingLamp/SunLamp/WallLamp/FloodLight/Shelf/ShelfSmall/Bookcase/BookcaseSmall/Dresser/HorseshoesPin/HoopstoneRing/GameOfUrBoard/ChessTable/PokerTable/BilliardsTable/TubeTelevision/FlatscreenTelevision/MegascreenTelevision/Telescope/Gloomlight/EggBox/OrbitalTradeBeacon/FirefoamPopper/MultiAnalyzer/VitalsMonitor/ToolCabinet/PenMarker/UnfinishedMusicalInstrument/GlowPod/Battery/TableSculpting/TableButcher/HandTailoringBench/ElectricTailoringBench/FueledSmithy/ElectricSmithy/TableMachining/ElectricStove/FueledStove/TableStonecutter/Brewery/DrugLab/ElectricSmelter/SimpleResearchBench/FermentingBarrel/DeepDrill/TrapSpike/TrapIED_HighExplosive/TrapIED_Incendiary/TrapIED_EMP/TrapIED_Smoke/TrapIED_Firefoam/TrapIED_AntigrainWarhead/Turret_MiniTurret/Turret_Mortar/Turret_FoamTurret/PsychicEmanator/VanometricPowerCell/InfiniteChemreactor/Heater/PsychicAnimalPulser/PsychicSoothePulser/AIPersonaCore/MechSerumHealer/MechSerumResurrector/TechprofSubpersonaCore/ThrumboHorn/ElephantTusk/Skull/MedicineIndustrial/MedicineUltratech/ComponentIndustrial/ComponentSpacer/Neutroamine/Chemfuel/RawHops/PsychoidLeaves/SmokeleafLeaves/Gold/Steel/WoodLog/Uranium/Jade/Cloth/Synthread/DevilstrandCloth/Hyperweave/WoolSheep/WoolAlpaca/WoolMegasloth/WoolMuffalo/WoolBison/Leather_Plain/Leather_Dog/Leather_Wolf/Leather_Panthera/Leather_Camel/Leather_Bluefur/Leather_Bear/Leather_GuineaPig/Leather_Human/Leather_Pig/Leather_Light/Leather_Bird/Leather_Chinchilla/Leather_Fox/Leather_Lizard/Leather_Elephant/Leather_Heavy/Leather_Rhinoceros/Leather_Thrumbo/Leather_Patch/UnfinishedSculpture/UnfinishedGun/UnfinishedWeapon/UnfinishedArmor/UnfinishedTechArmor/UnfinishedMetallicTechArmor/UnfinishedApparel/UnfinishedBelt/UnfinishedPack/UnfinishedComponent/UnfinishedHealthItemProsthetic/UnfinishedHealthItemBionic/UnfinishedMask/Dye/ArchotechEye/ArchotechArm/ArchotechLeg/BionicEye/BionicArm/BionicLeg/BionicSpine/BionicHeart/BionicStomach/DeathAcidifier/BionicEar/BionicTongue/BionicJaw/Heart/Lung/Kidney/Liver/SimpleProstheticLeg/SimpleProstheticArm/SimpleProstheticHeart/CochlearImplant/PowerClaw/Joywire/Painstopper/PsychicSensitizer/PsychicHarmonizer/PsychicReader/Neurocalculator/LearningAssistant/GastroAnalyzer/Immunoenhancer/Coagulator/HealingEnhancer/ToughskinGland/ArmorskinGland/StoneskinGland/AestheticShaper/AestheticNose/LoveEnhancer/DetoxifierStomach/ReprocessorStomach/NuclearStomach/CircadianAssistant/CircadianHalfCycler/Mindscrew/DrillArm/FieldHand/HandTalon/ElbowBlade/KneeSpike/VenomFangs/VenomTalon/Drape/Brazier/DarklightBrazier/Throne/GrandThrone/UnstablePowerCell/ShipLandingBeacon/NatureShrine_Small/NatureShrine_Large/AnimusStone/Harp/Harpsichord/UnfinishedPiano/Piano/Apparel_RobeRoyal/MonumentMarker/BroadshieldCore/SculptureTerror/SleepAccelerator/BiosculpterPod/NeuralSupercharger/ChristmasTree/CannibalPlatter/Effigy/SacrificialFlag/Pyre/Burnbong/IncenseShrine/Lectern/StylingStation/GibbetCage/LightBall/Loudspeaker/Drum/Pew/KneelSheet/KneelPillow/PlantPot_Bonsai/SlabBed/SlabDoubleBed/Skullspike/MorbidSlab_Medium/MorbidSlab_Broad/TotemicSlab_Medium/TotemicSlab_Broad/SpikecoreFloorStar_Medium/SpikecoreFloorStar_Broad/RusticRug_Medium/RusticRug_Broad/AnimalistSlab_Medium/AnimalistSlab_Broad/RelicInertCup/RelicInertPendant/RelicInertBox/RelicInertTablet/RelicInertFragment/RelicInertSwordHandle/RelicInertArk/RelicInertCube/GauranlenSeed/DetoxifierLung/DetoxifierKidney/Mechlink/ControlSublink/ControlSublinkHigh/RemoteRepairer/MechFormfeeder/RemoteShielder/RepairProbe/DeathrestCasket/Hemopump/HemogenAmplifier/GlucosoidPump/PsychofluidPump/DeathrestAccelerator/ToyBox/SchoolDesk/BabyDecoration/Crib/Blackboard/GeneBank/PollutionPump/SanguphageMeetingTorch/MechBooster/TrapIED_ToxGas/SubcoreEncoder/HemogenPack/SubcoreBasic/SubcoreRegular/SubcoreHigh/SignalChip/PowerfocusChip/NanostructuringChip/DeathrestCapacitySerum/UnfinishedSubcore/Genepack/Xenogerm/ArchiteCapsule/MechanoidTransponder/HumanOvum/HumanEmbryo/PoluxSeed/Tome/UnfinishedHealthItemGhoul/GhoulPlating/GhoulBarbs/AdrenalHeart/CorrosiveHeart/MetalbloodHeart/RevenantVertebrae/HoldingPlatform/DirtCubeSculpture/StoneCubeSculpture/SandCubeSculpture/ScrapCubeSculpture/ElectricInhibitor/ShardInhibitor/ProximityDetector/FrenzyInducer/SleepSuppressor/TrapIED_Deadlife/Electroharvester/BioferriteShaper/SerumCentrifuge/BioferriteHarvester/ShardBeacon/VoidSculpture/ShardAnimalPulser/BiomutationPulser/VoidsightSerum/MetalbloodSerum/JuggernautSerum/MindNumbSerum/GhoulResurrectionSerum/Bioferrite/Leather_Dread/Shard/RevenantSpine/GoldenCube/GrayFleshSample/FleshmassNeuralLump/RevenantFleshChunk/MonolithFragment/HarbingerSeed/Map/Drug_Psilocap/BloodWarmer/PilotAssistant/VacskinGland/Statue/Building_OutfitStand/Building_KidOutfitStand/GravEngine/GravFieldExtender/PilotConsole/SmallThruster/LargeThruster/FuelOptimizer/SignalJammer/GravcorePowerCell/PilotSubpersonaCore/GravshipShieldGenerator/AncientMiningCharge/LifeSupportUnit/OxygenPump/HunterDroneTrap/WaspDroneTrap/MastodonTusk/AlphaThrumboHorn/SentienceCatalyst/WoolMastodon/WoolMuskox/Gravcore/GravlitePanel/ShuttleEngine/Obsidian/Leather_Mastodon/Leather_Sealskin/Leather_AlphaThrumbo/Leather_Mink/Leather_Hippo/Leather_Armadillo/ArcheanSeed/UnfinishedJewelry/Meow_SellerSlingshot/RotR_RoseOfRebirthSeed/Techprint_CataphractArmor/Techprint_JumpPack/Techprint_BrainWiring/Techprint_SpecializedLimbs/Techprint_CompactWeaponry/Techprint_VenomSynthesis/Techprint_ArtificialMetabolism/Techprint_NeuralComputation/Techprint_SkinHardening/Techprint_HealingFactors/Techprint_FleshShaping/Techprint_MolecularAnalysis/Techprint_CircadianInfluence/Techprint_AdjustUniqueWeaponTraits/Psytrainer_Painblock/Psytrainer_Stun/Psytrainer_Burden/Psytrainer_BlindingPulse/Psytrainer_EntropyDump/Psytrainer_Beckon/Psytrainer_VertigoPulse/Psytrainer_ChaosSkip/Psytrainer_Skip/Psytrainer_Wallraise/Psytrainer_Smokepop/Psytrainer_Focus/Psytrainer_Berserk/Psytrainer_Invisibility/Psytrainer_BerserkPulse/Psytrainer_ManhunterPulse/Psytrainer_MassChaosSkip/Psytrainer_Waterskip/Psytrainer_Flashstorm/Psytrainer_BulletShield/Psytrainer_SolarPinhole/Psytrainer_WordOfTrust/Psytrainer_WordOfJoy/Psytrainer_WordOfLove/Psytrainer_WordOfSerenity/Psytrainer_WordOfInspiration/Psytrainer_Farskip/Psytrainer_Neuroquake/Psytrainer_Chunkskip/Neurotrainer_Shooting/Neurotrainer_Melee/Neurotrainer_Construction/Neurotrainer_Mining/Neurotrainer_Cooking/Neurotrainer_Plants/Neurotrainer_Animals/Neurotrainer_Crafting/Neurotrainer_Artistic/Neurotrainer_Medicine/Neurotrainer_Social/Neurotrainer_Intellectual/Zombrella
 allowedHitPointsPercents:0.0000:1.0000
 allowedQualities:Awful:Legendary
 disallowedSpecialFilters:AllowSmeltableApparel/AllowNonSmeltableApparel/AllowBurnableApparel/AllowNonBurnableApparel/AllowSmeltable/AllowNonSmeltableWeapons/AllowNonBurnableWeapons/AllowBurnableWeapons/AllowBiocodedWeapons/AllowNonBiocodedWeapons/AllowBiocodedApparel/AllowNonBiocodedApparel/AllowNonDeadmansApparel/AllowDeadmansApparel/AllowCorpsesMechFriendly/AllowCorpsesMechEnemy
@@ -6246,14 +6310,13 @@ Priority:Low
       <SettingName>储存区 14</SettingName>
       <PresetType>DefaultStockpile</PresetType>
       <positions>
-        <li>(39,16,43,16)</li>
-        <li>(39,17,42,23)</li>
+        <li>(37,16,43,16)</li>
+        <li>(37,17,42,23)</li>
         <li>(44,17,44,23)</li>
         <li>(43,18,43,23)</li>
-        <li>(37,19,38,23)</li>
       </positions>
       <data><![CDATA[Version:1
-allowedDefs:Gun_ChargeBlasterHeavyTurret/Gun_InfernoCannonTurret/Silver/Apparel_ShieldBelt/Apparel_CowboyHat/Apparel_BowlerHat/Apparel_TribalHeaddress/Apparel_Tuque/Apparel_WarMask/Apparel_WarVeil/Apparel_SimpleHelmet/Apparel_AdvancedHelmet/Apparel_PowerArmorHelmet/Apparel_ArmorHelmetRecon/Apparel_PsychicFoilHelmet/Apparel_HatHood/Apparel_ClothMask/Apparel_SmokepopBelt/Apparel_FirefoampopPack/Apparel_PsychicShockLance/Apparel_PsychicInsanityLance/Apparel_TribalA/Apparel_Parka/Apparel_Pants/Apparel_BasicShirt/Apparel_CollarShirt/Apparel_Duster/Apparel_Jacket/Apparel_PlateArmor/Apparel_FlakVest/Apparel_FlakPants/Apparel_FlakJacket/Apparel_PowerArmor/Apparel_ArmorRecon/Apparel_Cape/Apparel_Robe/MeleeWeapon_BreachAxe/MeleeWeapon_Mace/MeleeWeapon_Gladius/MeleeWeapon_LongSword/MeleeWeapon_Club/MeleeWeapon_Knife/MeleeWeapon_Ikwa/MeleeWeapon_Spear/Gun_Revolver/Gun_Autopistol/Gun_MachinePistol/Gun_IncendiaryLauncher/Gun_SmokeLauncher/Gun_EmpLauncher/Gun_BoltActionRifle/Gun_PumpShotgun/Gun_ChainShotgun/Gun_HeavySMG/Gun_LMG/Gun_AssaultRifle/Gun_SniperRifle/Gun_Minigun/Gun_TripleRocket/Gun_DoomsdayRocket/Weapon_GrenadeFrag/Weapon_GrenadeMolotov/Weapon_GrenadeEMP/Gun_ChargeBlasterHeavy/Gun_InfernoCannon/Gun_Needle/Bow_Short/Pila/Bow_Recurve/Bow_Great/Gun_ChargeRifle/Gun_ChargeLance/OrbitalTargeterBombardment/OrbitalTargeterPowerBeam/TornadoGenerator/Gun_ThumpCannon/Apparel_PackJump/Apparel_PackBroadshield/Apparel_PsyfocusHelmet/Apparel_EltexSkullcap/Apparel_PsyfocusShirt/Apparel_PsyfocusVest/Apparel_PsyfocusRobe/Apparel_ShirtRuffle/Apparel_Corset/Apparel_VestRoyal/Apparel_RobeRoyal/Apparel_HatLadies/Apparel_HatTop/Apparel_Coronet/Apparel_Crown/Apparel_CrownStellic/Apparel_Beret/Apparel_ArmorReconPrestige/Apparel_ArmorHelmetReconPrestige/Apparel_ArmorMarinePrestige/Apparel_ArmorMarineHelmetPrestige/Apparel_ArmorCataphract/Apparel_ArmorHelmetCataphract/Apparel_ArmorCataphractPrestige/Apparel_ArmorHelmetCataphractPrestige/Apparel_ArmorLocust/Apparel_ArmorMarineGrenadier/Apparel_ArmorCataphractPhoenix/Apparel_Gunlink/MeleeWeapon_Axe/MeleeWeapon_Warhammer/MeleeWeapon_MonoSword/MeleeWeapon_Zeushammer/MeleeWeapon_PlasmaSword/OrbitalTargeterMechCluster/MeleeWeapon_PsyfocusStaff/Apparel_Headwrap/Apparel_Broadwrap/Apparel_VisageMask/Apparel_Slicecap/Apparel_Collar/Apparel_AuthorityCap/Apparel_Tailcap/Apparel_Shadecone/Apparel_Flophat/Apparel_BodyStrap/Apparel_Burka/Apparel_TortureCrown/Apparel_Blindfold/Wastepack/Apparel_KidRomper/Apparel_KidShirt/Apparel_KidPants/Apparel_KidParka/Apparel_KidTribal/Apparel_KidHelmet/Apparel_AirwireHeadset/Apparel_ArrayHeadset/Apparel_IntegratorHeadset/Apparel_ArmorHelmetMechCommander/Apparel_ArmorHelmetMechlordHelmet/Apparel_GasMask/Apparel_PackControl/Apparel_PackBandwidth/Apparel_PackTox/Apparel_MechlordSuit/Apparel_Bandolier/Apparel_Sash/Gun_ToxbombLauncher/Weapon_GrenadeTox/Flamebow/Gun_HellsphereCannon/Gun_MiniShotgun/Gun_Slugthrower/Gun_Spiner/Gun_MiniFlameblaster/Gun_BeamGraser/Gun_ToxicNeedle/Gun_NeedleLauncher/Apparel_CultistMask/Apparel_CeremonialCultistMask/Apparel_DisruptorFlarePack/Apparel_PackTurret/Apparel_DeadlifePack/Apparel_ShardPsychicShockLance/Apparel_ShardPsychicInsanityLance/Apparel_BiomutationLance/Apparel_LabCoat/Gun_HellcatRifle/Gun_Incinerator/NerveSpiker/Apparel_VacsuitHelmet/Apparel_PackHunter/Apparel_CerebrexNode/Apparel_Vacsuit/Apparel_VacsuitChildren/Gun_BeamRepeater/Gun_Scattergun/AM_LassoCloth/AM_LassoDevilstrand/AM_LassoHyperwave/AM_Weebstick/RotR_LongingRing/RotR_StardustBracelet/EES_CommanderShieldBelt/EES_EscapeDevice/Mugirl_ChildCheongsam/Mugirl_BunnyGirlHeaddress/Mugirl_Sunglasses/Mugirl_Veil/Mugirl_Mask/Mugirl_ArmorHelmetRecon/Mugirl_RA_MechanicRecon/Mugirl_Shirt/Mugirl_Gambeson/Mugirl_Combatant_BulletproofVest/Mugirl_Combatant_Clothes/Mugirl_Combatant_Helmet/Mugirl_Combatant_Underwear/Mugirl_SpeciallyStockings/Mugirl_MilitaryDress/Mugirl_MilitaryUniform/Mugirl_Uniform/Mugirl_Hipwrappingskirt/Mugirl_BunnyGirlTop/Mugirl_ImmortalFairy/Mugirl_RA_Unionary/Mugirl_Cheongsam/Mugirl_WeddingDress/Mugirl_OL/Mugirl_ImmortalFairyAzure/Mugirl_Jeans/PMC_Helmet/PMC_CaptainHelmet/PMC_CombatUniform/Mugirl_ReconArmor/Mugirl_RA_PowerArmor/Mugirl_PlateArmor/Mugirl_Coat/Mugirl_KnightlyOrnament/Mugirl_RA_Carrying_Equipment/Mugirl_RA_MechanicBackpack/Mugirl_RA_MechanicBackpack_B/Mugirl_RA_MechanicBackpack_C/Mugirl_RA_MechanicBackpack_D/Mugirl_WhitePanties/Mugirl_Spacesuit/Mugirl_ReverseBunnySuit/Mugirl_ReverseBunnySticker/Mugirl_PowerArmorHelmet/Mugirl_KnightHelmet/Mugirl_WarriorCombatHelmet/Mugirl_SpacesuitHeadgear/Mugirl_PowerArmor/Mugirl_WarriorCombatArmor/Mugirl_Suspenders/Mugirl_BunnyGirlStocking/Mugirl_Bodystocking/Mugirl_Bikini/Mugirl_Bikini_Stocking/Mugirl_Bar/Mugirl_Eroticpanties/Mugirl_WhiteBustier/Mugirl_AutoloadingSystem/Mugirl_AgedCheese/Mugirl_Gun_Support_Assault_Rifle/Mugirl_Gun_Machine_Pistol/Mugirl_Gun_Defense_Rifle/Mugirl_Gun_Flame_Thrower/PMC_Carbine/PMC_Assault_Rifle/PMC_DMR/PMC_LMG/OPC_Tranquilizer_Pistol/OPC_Defense_Rifle/OPC_Tactical_Shotgun/OPC_Assault_Rifle/Mugirl_Blindfold/Mugirl_Gagstick/Mugirl_Earplugs/Mugirl_Slavegauntlet/Mugirl_Slavestockings/Mugirl_Boxbinder/Mugirl_Handcuffs/Mugirl_Armbinder/Mugirl_Straitjacket/Mugirl_Slaveboots/Mugirl_Slaveshackles/Mugirl_MagneticShackles/Mugirl_MilkingDevice/Mugirl_MilkingDeviceHidden/Mugirl_ShockCollar/Mugirl_BrainwashHelmet/WFF_Anvilstaff/WFF_Conductor_Wand/WFF_Headcutter/WFF_Horsepole/WFF_Ironheap/WFF_Manchaser/WFF_Pikebreaker/WFF_Signal_Saber/WFF_AlouisRifle/WFF_Antkiller/WFF_Antlerbreaker/WFF_Antrifle/WFF_Archwood/WFF_AutoRatling/WFF_BLG/WFF_BranchGun/WFF_Dieselboiler/WFF_Dieselwork/WFF_Firefly/WFF_Firehorn/WFF_Firespitter/WFF_HandRatling/WFF_Metalbuss/WFF_Rakali/WFF_Rokali/WFF_Spinner/WFF_TrunkGun/Cinder_ImpactBreaker/Cinder_ElectricScythe/Cinder_HighFrequencySaw/Cinder_Magistrate/Cinder_MP12A/Cinder_PCX33A/Cinder_Flint50A/Cinder_Dragonslayer/Cinder_ErosionGourd/Cinder_PlasticGrenades/Cinder_FumeGreatsword/Cinder_FumeGreatswordM/Cinder_MechGun_EXOGun/Cinder_MechGun_GiantHEATRifle/Cinder_MechGun_AnvilDiscipline/Cinder_MechGun_GiantMiniGun/Cinder_Mounted_AA/Cinder_Mounted_Tentacle/Cinder_Mounted_Rocket/Cinder_Mounted_EXOminigun/Cinder_Mounted_EXOturret/Cinder_Mounted_KPVTurret/Raven_Weapon_GoheiRanged/Raven_Weapon_GoheiMelee/Raven_Weapon_Kageame/Raven_Weapon_BlackGoldRevolver/Raven_Weapon_FusangHeavyLance/Raven_Weapon_PipeWrench/Raven_Weapon_RavenLiquidLasso/Raven_Weapon_RetributionGunlance/Raven_Weapon_Blowgun/Raven_Weapon_HiddenBlade/Raven_Weapon_SilentSniper/Raven_Weapon_StandardCleaver/Raven_Weapon_FusangSuppressionMG/Raven_Weapon_AyayaFan/Raven_Weapon_ImperialGreatsword/Raven_Weapon_SpiritBeads/Raven_Weapon_CiAnBiAn/Corpse_Mech_CentipedeBlaster/Corpse_Mech_CentipedeGunner/Corpse_Mech_CentipedeBurner/Corpse_Mech_Lancer/Corpse_Mech_Scyther/Corpse_Mech_Pikeman/Corpse_Mech_Termite/Corpse_Mech_Tunneler/Corpse_Mech_Militor/Corpse_Mech_Lifter/Corpse_Mech_Constructoid/Corpse_Mech_Fabricor/Corpse_Mech_Agrihand/Corpse_Mech_Cleansweeper/Corpse_Mech_WarUrchin/Corpse_Mech_Paramedic/Corpse_Mech_Legionary/Corpse_Mech_Tesseron/Corpse_Mech_Scorcher/Corpse_Mech_Apocriton/Corpse_Mech_Centurion/Corpse_Mech_Warqueen/Corpse_Mech_Diabolus/Corpse_Drone_Hunter/Corpse_Drone_Wasp/Corpse_Drone_Sentry/Corpse_Mech_Cyclops
+allowedDefs:Gun_ChargeBlasterHeavyTurret/Gun_InfernoCannonTurret/Silver/Apparel_ShieldBelt/Apparel_CowboyHat/Apparel_BowlerHat/Apparel_TribalHeaddress/Apparel_Tuque/Apparel_WarMask/Apparel_WarVeil/Apparel_SimpleHelmet/Apparel_AdvancedHelmet/Apparel_PowerArmorHelmet/Apparel_ArmorHelmetRecon/Apparel_PsychicFoilHelmet/Apparel_HatHood/Apparel_ClothMask/Apparel_SmokepopBelt/Apparel_FirefoampopPack/Apparel_PsychicShockLance/Apparel_PsychicInsanityLance/Apparel_TribalA/Apparel_Parka/Apparel_Pants/Apparel_BasicShirt/Apparel_CollarShirt/Apparel_Duster/Apparel_Jacket/Apparel_PlateArmor/Apparel_FlakVest/Apparel_FlakPants/Apparel_FlakJacket/Apparel_PowerArmor/Apparel_ArmorRecon/Apparel_Cape/Apparel_Robe/MeleeWeapon_BreachAxe/MeleeWeapon_Mace/MeleeWeapon_Gladius/MeleeWeapon_LongSword/MeleeWeapon_Club/MeleeWeapon_Knife/MeleeWeapon_Ikwa/MeleeWeapon_Spear/Gun_Revolver/Gun_Autopistol/Gun_MachinePistol/Gun_IncendiaryLauncher/Gun_SmokeLauncher/Gun_EmpLauncher/Gun_BoltActionRifle/Gun_PumpShotgun/Gun_ChainShotgun/Gun_HeavySMG/Gun_LMG/Gun_AssaultRifle/Gun_SniperRifle/Gun_Minigun/Gun_TripleRocket/Gun_DoomsdayRocket/Weapon_GrenadeFrag/Weapon_GrenadeMolotov/Weapon_GrenadeEMP/Gun_ChargeBlasterHeavy/Gun_InfernoCannon/Gun_Needle/Bow_Short/Pila/Bow_Recurve/Bow_Great/Gun_ChargeRifle/Gun_ChargeLance/OrbitalTargeterBombardment/OrbitalTargeterPowerBeam/TornadoGenerator/Gun_ThumpCannon/Apparel_PackJump/Apparel_PackBroadshield/Apparel_PsyfocusHelmet/Apparel_EltexSkullcap/Apparel_PsyfocusShirt/Apparel_PsyfocusVest/Apparel_PsyfocusRobe/Apparel_ShirtRuffle/Apparel_Corset/Apparel_VestRoyal/Apparel_RobeRoyal/Apparel_HatLadies/Apparel_HatTop/Apparel_Coronet/Apparel_Crown/Apparel_CrownStellic/Apparel_Beret/Apparel_ArmorReconPrestige/Apparel_ArmorHelmetReconPrestige/Apparel_ArmorMarinePrestige/Apparel_ArmorMarineHelmetPrestige/Apparel_ArmorCataphract/Apparel_ArmorHelmetCataphract/Apparel_ArmorCataphractPrestige/Apparel_ArmorHelmetCataphractPrestige/Apparel_ArmorLocust/Apparel_ArmorMarineGrenadier/Apparel_ArmorCataphractPhoenix/Apparel_Gunlink/MeleeWeapon_Axe/MeleeWeapon_Warhammer/MeleeWeapon_MonoSword/MeleeWeapon_Zeushammer/MeleeWeapon_PlasmaSword/OrbitalTargeterMechCluster/MeleeWeapon_PsyfocusStaff/Apparel_Headwrap/Apparel_Broadwrap/Apparel_VisageMask/Apparel_Slicecap/Apparel_Collar/Apparel_AuthorityCap/Apparel_Tailcap/Apparel_Shadecone/Apparel_Flophat/Apparel_BodyStrap/Apparel_Burka/Apparel_TortureCrown/Apparel_Blindfold/Wastepack/Apparel_KidRomper/Apparel_KidShirt/Apparel_KidPants/Apparel_KidParka/Apparel_KidTribal/Apparel_KidHelmet/Apparel_AirwireHeadset/Apparel_ArrayHeadset/Apparel_IntegratorHeadset/Apparel_ArmorHelmetMechCommander/Apparel_ArmorHelmetMechlordHelmet/Apparel_GasMask/Apparel_PackControl/Apparel_PackBandwidth/Apparel_PackTox/Apparel_MechlordSuit/Apparel_Bandolier/Apparel_Sash/Gun_ToxbombLauncher/Weapon_GrenadeTox/Flamebow/Gun_HellsphereCannon/Gun_MiniShotgun/Gun_Slugthrower/Gun_Spiner/Gun_MiniFlameblaster/Gun_BeamGraser/Gun_ToxicNeedle/Gun_NeedleLauncher/Apparel_CultistMask/Apparel_CeremonialCultistMask/Apparel_DisruptorFlarePack/Apparel_PackTurret/Apparel_DeadlifePack/Apparel_ShardPsychicShockLance/Apparel_ShardPsychicInsanityLance/Apparel_BiomutationLance/Apparel_LabCoat/Gun_HellcatRifle/Gun_Incinerator/NerveSpiker/Apparel_VacsuitHelmet/Apparel_PackHunter/Apparel_CerebrexNode/Apparel_Vacsuit/Apparel_VacsuitChildren/Gun_BeamRepeater/Gun_Scattergun/AM_LassoCloth/AM_LassoDevilstrand/AM_LassoHyperwave/AM_Weebstick/RotR_LongingRing/RotR_StardustBracelet/EES_CommanderShieldBelt/EES_EscapeDevice/Corpse_Mech_CentipedeBlaster/Corpse_Mech_CentipedeGunner/Corpse_Mech_CentipedeBurner/Corpse_Mech_Lancer/Corpse_Mech_Scyther/Corpse_Mech_Pikeman/Corpse_Mech_Termite/Corpse_Mech_Tunneler/Corpse_Mech_Militor/Corpse_Mech_Lifter/Corpse_Mech_Constructoid/Corpse_Mech_Fabricor/Corpse_Mech_Agrihand/Corpse_Mech_Cleansweeper/Corpse_Mech_WarUrchin/Corpse_Mech_Paramedic/Corpse_Mech_Legionary/Corpse_Mech_Tesseron/Corpse_Mech_Scorcher/Corpse_Mech_Apocriton/Corpse_Mech_Centurion/Corpse_Mech_Warqueen/Corpse_Mech_Diabolus/Corpse_Drone_Hunter/Corpse_Drone_Wasp/Corpse_Drone_Sentry/Corpse_Mech_Cyclops
 allowedHitPointsPercents:0.0000:1.0000
 allowedQualities:Awful:Legendary
 disallowedSpecialFilters:AllowSmeltable/AllowNonSmeltableWeapons/AllowNonBurnableWeapons/AllowBurnableWeapons/AllowBiocodedWeapons/AllowNonBiocodedWeapons/AllowDeadmansApparel
@@ -6326,7 +6389,7 @@ Priority:Important
         <li>(46,34,46,35)</li>
       </positions>
       <data><![CDATA[Version:1
-allowedDefs:TextBook/Schematic/Novel/PsychicAmplifier/PsychicAnimalPulser/PsychicSoothePulser/AIPersonaCore/MechSerumHealer/MechSerumResurrector/TechprofSubpersonaCore/ThrumboHorn/ElephantTusk/Skull/Apparel_SimpleHelmet/Apparel_AdvancedHelmet/Apparel_PowerArmorHelmet/Apparel_ArmorHelmetRecon/Apparel_PlateArmor/Apparel_FlakVest/Apparel_FlakPants/Apparel_FlakJacket/Apparel_PowerArmor/Apparel_ArmorRecon/ArchotechEye/ArchotechArm/ArchotechLeg/BionicEye/BionicArm/BionicLeg/BionicSpine/BionicHeart/BionicStomach/DeathAcidifier/BionicEar/BionicTongue/BionicJaw/Heart/Lung/Kidney/Liver/SimpleProstheticLeg/SimpleProstheticArm/SimpleProstheticHeart/CochlearImplant/PowerClaw/Joywire/Painstopper/PsychicSensitizer/PsychicHarmonizer/PsychicReader/Neurocalculator/LearningAssistant/GastroAnalyzer/Immunoenhancer/Coagulator/HealingEnhancer/ToughskinGland/ArmorskinGland/StoneskinGland/AestheticShaper/AestheticNose/LoveEnhancer/DetoxifierStomach/ReprocessorStomach/NuclearStomach/CircadianAssistant/CircadianHalfCycler/Mindscrew/DrillArm/FieldHand/HandTalon/ElbowBlade/KneeSpike/VenomFangs/VenomTalon/Apparel_ArmorReconPrestige/Apparel_ArmorHelmetReconPrestige/Apparel_ArmorMarinePrestige/Apparel_ArmorMarineHelmetPrestige/Apparel_ArmorCataphract/Apparel_ArmorHelmetCataphract/Apparel_ArmorCataphractPrestige/Apparel_ArmorHelmetCataphractPrestige/Apparel_ArmorLocust/Apparel_ArmorMarineGrenadier/Apparel_ArmorCataphractPhoenix/Apparel_Gunlink/BroadshieldCore/RelicInertCube/GauranlenSeed/DetoxifierLung/DetoxifierKidney/Mechlink/ControlSublink/ControlSublinkHigh/RemoteRepairer/MechFormfeeder/RemoteShielder/RepairProbe/DeathrestCapacitySerum/Genepack/Xenogerm/ArchiteCapsule/MechanoidTransponder/HumanOvum/HumanEmbryo/Apparel_KidHelmet/Apparel_IntegratorHeadset/Apparel_ArmorHelmetMechCommander/Apparel_ArmorHelmetMechlordHelmet/Apparel_MechlordSuit/PoluxSeed/Tome/GhoulPlating/GhoulBarbs/AdrenalHeart/CorrosiveHeart/MetalbloodHeart/RevenantVertebrae/ShardAnimalPulser/BiomutationPulser/VoidsightSerum/MetalbloodSerum/JuggernautSerum/MindNumbSerum/GhoulResurrectionSerum/RevenantSpine/GoldenCube/GrayFleshSample/FleshmassNeuralLump/RevenantFleshChunk/MonolithFragment/HarbingerSeed/Map/BloodWarmer/PilotAssistant/VacskinGland/MastodonTusk/AlphaThrumboHorn/Apparel_VacsuitHelmet/Apparel_Vacsuit/Apparel_VacsuitChildren/ArcheanSeed/RotR_RoseOfRebirthSeed/Mugirl_ChildCheongsam/Mugirl_BunnyGirlHeaddress/Mugirl_Sunglasses/Mugirl_Veil/Mugirl_Mask/Mugirl_ArmorHelmetRecon/Mugirl_RA_MechanicRecon/Mugirl_Shirt/Mugirl_Gambeson/Mugirl_Combatant_BulletproofVest/Mugirl_Combatant_Clothes/Mugirl_Combatant_Helmet/Mugirl_Combatant_Underwear/Mugirl_SpeciallyStockings/Mugirl_MilitaryDress/Mugirl_MilitaryUniform/Mugirl_Uniform/Mugirl_Hipwrappingskirt/Mugirl_BunnyGirlTop/Mugirl_ImmortalFairy/Mugirl_RA_Unionary/Mugirl_Cheongsam/Mugirl_WeddingDress/Mugirl_OL/Mugirl_ImmortalFairyAzure/Mugirl_Jeans/PMC_Helmet/PMC_CaptainHelmet/PMC_CombatUniform/Mugirl_ReconArmor/Mugirl_RA_PowerArmor/Mugirl_PlateArmor/Mugirl_WhitePanties/Mugirl_Spacesuit/Mugirl_ReverseBunnySuit/Mugirl_PowerArmorHelmet/Mugirl_KnightHelmet/Mugirl_WarriorCombatHelmet/Mugirl_SpacesuitHeadgear/Mugirl_PowerArmor/Mugirl_WarriorCombatArmor/Mugirl_Suspenders/Mugirl_BunnyGirlStocking/Mugirl_Bodystocking/Mugirl_Bikini/Mugirl_Bikini_Stocking/Mugirl_Bar/Mugirl_Eroticpanties/Mugirl_WhiteBustier/Mugirl_CourierDiary/Mugirl_Blindfold/Mugirl_Gagstick/Mugirl_Earplugs/Mugirl_SlaveApparelKey_Medieval/Mugirl_SlaveApparelKey_Industrial/Mugirl_SlaveApparelKey_Spacer/Mugirl_Slavegauntlet/Mugirl_Slavestockings/Mugirl_Boxbinder/Mugirl_Handcuffs/Mugirl_Armbinder/Mugirl_Straitjacket/Mugirl_Slaveboots/Mugirl_Slaveshackles/Mugirl_MagneticShackles/Mugirl_ShockCollar/Mugirl_BrainwashHelmet/Cinder_ErosionAgent/Cinder_RegeneratedEnhancedSerum/Cinder_EmptyAgentBottle/Cinder_ErodedMechComponent/Cinder_AmorphousNeuralSpine/Cinder_ExtraArmour/Cinder_HeavyExtraArmour/Raven_Item_HypnosisApp/Raven_Apparel_AegisCloth/Raven_Apparel_AegisUnderwear/Raven_Apparel_AegisButtPlug/Raven_Apparel_AegisHairAccessory/RavenItem_AphrodisiacExtract/Raven_Book_Hentai/Raven_Book_Technical/Raven_Book_Textbook/Raven_Book_Textbook_B/Raven_Book_FusangSpecial/Raven_Book_FusangSpecial_B/Raven_Item_Fluid/Raven_DarkfeatherSteel/Raven_CoronaSteel/Raven_Item_BottledRavenLiquid/Raven_Item_RavenLiquidFertilizer/Raven_Item_HighConcentrationRavenCrystal/Raven_Item_TricolorAlchemyRavenGem/Raven_Item_HexachromeAlchemyRavenGem/Raven_Item_PhilosophersStone/Raven_GoldenFeather/Raven_DarkSunLens/Raven_ShatteredSunCore/Raven_SpiritEgg_Unfertilized/Raven_Apparel_AyayaCasual/Raven_Apparel_AyayaBag/Raven_Apparel_AyayaHat/Raven_ApparelBinahOutfit/Raven_eardrop/Raven_ApparelEikoOutfit/Raven_ApparelEikoHat/Raven_ApparelHonMahousukaiOutfit/Raven_ApparelHonMahousukaiHat/Raven_ApparelHonMahousukaiCoat/Raven_ApparelSeanaeOutfit/Raven_ApparelZuoYaoOutfit/Raven_Apparel_ZuoYaoEyepatch/Raven_Item_AVRecord/Raven_Item_AVRecord_Premium/Raven_Item_MiracleHeal/Raven_Apparel_ImperialGuardArmor/Raven_Apparel_ImperialGuardHelmet/Raven_Apparel_Sandevistan/Raven_Apparel_ScoutArmor/Raven_Apparel_ScoutHelmet/Raven_Apparel_ShadowCloak/Raven_Apparel_ShadowHat/Raven_Apparel_Alchemist/Raven_Apparel_BakerUniform/Raven_Apparel_CasualA/Raven_Apparel_CasualB/Raven_Apparel_CasualC/Raven_Apparel_ChildHalterDress/Raven_Apparel_ChildSunProtectionCoat/Raven_Apparel_ChildSuspenderDress/Raven_Apparel_ChildSwimSuit/Raven_Apparel_ChildWinterClothing/Raven_Apparel_RavenDoll/Raven_Apparel_RavenDollHead/Raven_Apparel_CoolMianFu/Raven_Apparel_CoolNurseUniform/Raven_Apparel_Doteikorosu/Raven_Apparel_EroNunHabit/Raven_Apparel_EroticWeddingDress/Raven_Apparel_FormalDress/Raven_Apparel_FusangCoolTalismanRobe/Raven_Apparel_FusangRobe/Raven_Apparel_GaryuBra/Raven_Apparel_GaryuNoBra/Raven_Apparel_HistorianRobe/Raven_Apparel_LaceArmor/Raven_Apparel_Landmine/Raven_Apparel_LeopardBodysuit/Raven_Apparel_LiquidHunterSuit/Raven_Apparel_Maid/Raven_Apparel_MianFu/Raven_Apparel_NurseUniform/Raven_Apparel_NurseCap/Raven_Apparel_OhoCelestialRobe/Raven_Apparel_OL/Raven_Apparel_PoliceUniform/Raven_Apparel_PriestRobe/Raven_Apparel_Qipao/Raven_Apparel_QipaoGoldThreaded/Raven_Apparel_QipaoNaichuang/Raven_Apparel_Quju/Raven_Apparel_RavenCape/Raven_Apparel_RevealingNunHabit/Raven_Apparel_ScoutSuit/Raven_Apparel_SheepMiko/Raven_Apparel_SuccubusNunHabit/Raven_Apparel_TemptationStickerSuit/Raven_Apparel_TraditionalNunHabit/Raven_Apparel_WhiteCoat/Raven_Apparel_WinterCoat/Raven_Apparel_CatPaws/Raven_Apparel_Collar/Raven_GoldenGlasses/Raven_Apparel_Headset/Raven_Apparel_JadePendant/Raven_Apparel_PriestScarf/Raven_Apparel_Sachet/Raven_Apparel_Shawl/Raven_Apparel_ShieldBelt/Raven_Apparel_BakerHat/Raven_Apparel_Blindfold/Raven_Apparel_BunnyEars/Raven_Apparel_GagBall/Raven_Apparel_GoldenFeatherHairAccessory/Raven_Apparel_HentaiKamen/Raven_Apparel_HistorianCrown/Raven_Apparel_MianGuan/Raven_Apparel_FengGuan/Raven_Apparel_PoliceCap/Raven_Apparel_RavenLiquidEarring_Red/Raven_Apparel_RavenLiquidEarring_White/Raven_Apparel_RevealingNunCoif/Raven_Apparel_SheepMikoGear/Raven_Apparel_SuccubusHornsA/Raven_Apparel_SuccubusHornsB/Raven_Apparel_SunuVeil/Raven_Apparel_TraditionalNunCoif/Raven_Apparel_WeddingVeil/Raven_Apparel_WeddingVeil_Transparent/Raven_Apparel_BeadedGstring/Raven_Apparel_BlackLace_A/Raven_Apparel_BlackLace_B/Raven_Apparel_BlackLace_C/Raven_Apparel_BlackLace_D/Raven_Apparel_CatUnderwear/Raven_Apparel_CowBikini/Raven_Apparel_Kanyuu/Raven_Apparel_KikkoShibari/Raven_Apparel_ReverseBunnyBlack/Raven_Apparel_ReverseBunnyWhite/Raven_Apparel_WhiteLace/Raven_Apparel_WhiteLace_OverkneeSocks/Raven_Apparel_WhiteLace_Tights/Psytrainer_Painblock/Psytrainer_Stun/Psytrainer_Burden/Psytrainer_BlindingPulse/Psytrainer_EntropyDump/Psytrainer_Beckon/Psytrainer_VertigoPulse/Psytrainer_ChaosSkip/Psytrainer_Skip/Psytrainer_Wallraise/Psytrainer_Smokepop/Psytrainer_Focus/Psytrainer_Berserk/Psytrainer_Invisibility/Psytrainer_BerserkPulse/Psytrainer_ManhunterPulse/Psytrainer_MassChaosSkip/Psytrainer_Waterskip/Psytrainer_Flashstorm/Psytrainer_BulletShield/Psytrainer_SolarPinhole/Psytrainer_WordOfTrust/Psytrainer_WordOfJoy/Psytrainer_WordOfLove/Psytrainer_WordOfSerenity/Psytrainer_WordOfInspiration/Psytrainer_Farskip/Psytrainer_Neuroquake/Psytrainer_Chunkskip/Neurotrainer_Shooting/Neurotrainer_Melee/Neurotrainer_Construction/Neurotrainer_Mining/Neurotrainer_Cooking/Neurotrainer_Plants/Neurotrainer_Animals/Neurotrainer_Crafting/Neurotrainer_Artistic/Neurotrainer_Medicine/Neurotrainer_Social/Neurotrainer_Intellectual
+allowedDefs:TextBook/Schematic/Novel/PsychicAmplifier/PsychicAnimalPulser/PsychicSoothePulser/AIPersonaCore/MechSerumHealer/MechSerumResurrector/TechprofSubpersonaCore/ThrumboHorn/ElephantTusk/Skull/Apparel_SimpleHelmet/Apparel_AdvancedHelmet/Apparel_PowerArmorHelmet/Apparel_ArmorHelmetRecon/Apparel_PlateArmor/Apparel_FlakVest/Apparel_FlakPants/Apparel_FlakJacket/Apparel_PowerArmor/Apparel_ArmorRecon/ArchotechEye/ArchotechArm/ArchotechLeg/BionicEye/BionicArm/BionicLeg/BionicSpine/BionicHeart/BionicStomach/DeathAcidifier/BionicEar/BionicTongue/BionicJaw/Heart/Lung/Kidney/Liver/SimpleProstheticLeg/SimpleProstheticArm/SimpleProstheticHeart/CochlearImplant/PowerClaw/Joywire/Painstopper/PsychicSensitizer/PsychicHarmonizer/PsychicReader/Neurocalculator/LearningAssistant/GastroAnalyzer/Immunoenhancer/Coagulator/HealingEnhancer/ToughskinGland/ArmorskinGland/StoneskinGland/AestheticShaper/AestheticNose/LoveEnhancer/DetoxifierStomach/ReprocessorStomach/NuclearStomach/CircadianAssistant/CircadianHalfCycler/Mindscrew/DrillArm/FieldHand/HandTalon/ElbowBlade/KneeSpike/VenomFangs/VenomTalon/Apparel_ArmorReconPrestige/Apparel_ArmorHelmetReconPrestige/Apparel_ArmorMarinePrestige/Apparel_ArmorMarineHelmetPrestige/Apparel_ArmorCataphract/Apparel_ArmorHelmetCataphract/Apparel_ArmorCataphractPrestige/Apparel_ArmorHelmetCataphractPrestige/Apparel_ArmorLocust/Apparel_ArmorMarineGrenadier/Apparel_ArmorCataphractPhoenix/Apparel_Gunlink/BroadshieldCore/RelicInertCube/GauranlenSeed/DetoxifierLung/DetoxifierKidney/Mechlink/ControlSublink/ControlSublinkHigh/RemoteRepairer/MechFormfeeder/RemoteShielder/RepairProbe/DeathrestCapacitySerum/Genepack/Xenogerm/ArchiteCapsule/MechanoidTransponder/HumanOvum/HumanEmbryo/Apparel_KidHelmet/Apparel_IntegratorHeadset/Apparel_ArmorHelmetMechCommander/Apparel_ArmorHelmetMechlordHelmet/Apparel_MechlordSuit/PoluxSeed/Tome/GhoulPlating/GhoulBarbs/AdrenalHeart/CorrosiveHeart/MetalbloodHeart/RevenantVertebrae/ShardAnimalPulser/BiomutationPulser/VoidsightSerum/MindNumbSerum/GhoulResurrectionSerum/RevenantSpine/GoldenCube/GrayFleshSample/FleshmassNeuralLump/RevenantFleshChunk/MonolithFragment/HarbingerSeed/Map/BloodWarmer/PilotAssistant/VacskinGland/MastodonTusk/AlphaThrumboHorn/Apparel_VacsuitHelmet/Apparel_Vacsuit/Apparel_VacsuitChildren/ArcheanSeed/RotR_RoseOfRebirthSeed/Psytrainer_Painblock/Psytrainer_Stun/Psytrainer_Burden/Psytrainer_BlindingPulse/Psytrainer_EntropyDump/Psytrainer_Beckon/Psytrainer_VertigoPulse/Psytrainer_ChaosSkip/Psytrainer_Skip/Psytrainer_Wallraise/Psytrainer_Smokepop/Psytrainer_Focus/Psytrainer_Berserk/Psytrainer_Invisibility/Psytrainer_BerserkPulse/Psytrainer_ManhunterPulse/Psytrainer_MassChaosSkip/Psytrainer_Waterskip/Psytrainer_Flashstorm/Psytrainer_BulletShield/Psytrainer_SolarPinhole/Psytrainer_WordOfTrust/Psytrainer_WordOfJoy/Psytrainer_WordOfLove/Psytrainer_WordOfSerenity/Psytrainer_WordOfInspiration/Psytrainer_Farskip/Psytrainer_Neuroquake/Psytrainer_Chunkskip/Neurotrainer_Shooting/Neurotrainer_Melee/Neurotrainer_Construction/Neurotrainer_Mining/Neurotrainer_Cooking/Neurotrainer_Plants/Neurotrainer_Animals/Neurotrainer_Crafting/Neurotrainer_Artistic/Neurotrainer_Medicine/Neurotrainer_Social/Neurotrainer_Intellectual
 allowedHitPointsPercents:0.0000:1.0000
 allowedQualities:Awful:Legendary
 disallowedSpecialFilters:AllowSmeltable/AllowNonSmeltableWeapons/AllowNonBurnableWeapons/AllowBurnableWeapons/AllowBiocodedWeapons/AllowNonBiocodedWeapons/AllowDeadmansApparel
@@ -6352,7 +6415,7 @@ Priority:Important
         <li>(8,34,8,34)</li>
       </positions>
       <data><![CDATA[Version:1
-allowedDefs:Apparel_RobeRoyal
+allowedDefs:UnfinishedMusicalInstrument/UnfinishedSculpture/UnfinishedGun/UnfinishedWeapon/UnfinishedArmor/UnfinishedTechArmor/UnfinishedMetallicTechArmor/UnfinishedApparel/UnfinishedBelt/UnfinishedPack/UnfinishedComponent/UnfinishedHealthItemProsthetic/UnfinishedHealthItemBionic/UnfinishedMask/UnfinishedPiano/Apparel_RobeRoyal/UnfinishedSubcore/UnfinishedHealthItemGhoul/UnfinishedJewelry
 allowedHitPointsPercents:0.0000:1.0000
 allowedQualities:Awful:Legendary
 disallowedSpecialFilters:
@@ -6449,7 +6512,7 @@ Priority:Critical
       <SettingName>储存区 22</SettingName>
       <PresetType>DefaultStockpile</PresetType>
       <positions>
-        <li>(14,44,14,45)</li>
+        <li>(14,43,14,45)</li>
       </positions>
       <data><![CDATA[Version:1
 allowedDefs:Kibble
@@ -6470,7 +6533,7 @@ Priority:Low
         <li>(21,49,21,49)</li>
       </positions>
       <data><![CDATA[Version:1
-allowedDefs:Meat_Twisted/Fish_Salmon/Fish_Bass/Fish_Tilapia/Fish_Cod/Fish_Bluefish/Fish_Guppy/Fish_Frostfish/Fish_Catfish/Fish_Piranha/Fish_Dogfish/Fish_Marlin/Fish_Tuna/Fish_Flounder/Fish_Toxfish/Meat_Bear_Grizzly/Meat_Cassowary/Meat_Cougar/Meat_Panther/Meat_Lynx/Meat_Cat/Meat_YorkshireTerrier/Meat_GuineaPig/Meat_LabradorRetriever/Meat_Husky/Meat_Monkey/Meat_Chicken/Meat_Duck/Meat_Turkey/Meat_Cow/Meat_Boomalope/Meat_Muffalo/Meat_Bison/Meat_Dromedary/Meat_Goat/Meat_Elk/Meat_Yak/Meat_Caribou/Meat_Horse/Meat_Donkey/Meat_Elephant/Meat_Rhinoceros/Meat_Hare/Meat_Megaspider/Meat_Thrumbo/Meat_Cobra/Meat_Tortoise/Meat_Alphabeaver/Meat_Pig/Meat_Ibex/Meat_Deer/Meat_Gazelle/Meat_Chinchilla/Meat_Sheep/Meat_Alpaca/Meat_Megasloth/Meat_Capybara/Meat_Squirrel/Meat_Rat/Meat_Boomrat/Meat_Raccoon/Meat_Iguana/Meat_Warg/Meat_Wolf_Timber/Meat_Fox_Fennec/Meat_Human/Meat_Dryad_Basic/Meat_WasteRat/Meat_Toxalope/Meat_BogHound/Meat_MonitorLizard/Meat_PrairieDog/Meat_Porcupine/Meat_Mastodon/Meat_Cat_Scimitar/Meat_Wolverine/Meat_Wolf_Great/Meat_Moose/Meat_AlphaThrumbo/Meat_Muskox/Meat_Tiger/Meat_Mink/Meat_Gorilla/Meat_Badger/Meat_Panda/Meat_Hippo/Meat_Megavole/Meat_Armadillo/Meat_Alligator/Meat_Bullfrog/Meat_ColossusToad/Meat_LavaSnail/Meat_Walrus/Meat_SeaLion/Meat_Seal/Meat_HermitCrab/Meat_StoneCrab/Meat_SeaTurtle/Meat_Otter/Corpse_Bear_Grizzly/Corpse_Bear_Polar/Corpse_Ostrich/Corpse_Emu/Corpse_Cassowary/Corpse_Cougar/Corpse_Panther/Corpse_Lynx/Corpse_Cat/Corpse_YorkshireTerrier/Corpse_GuineaPig/Corpse_LabradorRetriever/Corpse_Husky/Corpse_Monkey/Corpse_Chicken/Corpse_Duck/Corpse_Turkey/Corpse_Goose/Corpse_Cow/Corpse_Boomalope/Corpse_Muffalo/Corpse_Bison/Corpse_Dromedary/Corpse_Goat/Corpse_Elk/Corpse_Yak/Corpse_Caribou/Corpse_Horse/Corpse_Donkey/Corpse_Elephant/Corpse_Rhinoceros/Corpse_Hare/Corpse_Snowhare/Corpse_Megascarab/Corpse_Spelopede/Corpse_Megaspider/Corpse_Thrumbo/Corpse_Cobra/Corpse_Tortoise/Corpse_Alphabeaver/Corpse_Pig/Corpse_WildBoar/Corpse_Ibex/Corpse_Deer/Corpse_Gazelle/Corpse_Chinchilla/Corpse_Sheep/Corpse_Alpaca/Corpse_Megasloth/Corpse_Capybara/Corpse_Squirrel/Corpse_Rat/Corpse_Boomrat/Corpse_Raccoon/Corpse_Iguana/Corpse_Warg/Corpse_Wolf_Timber/Corpse_Wolf_Arctic/Corpse_Fox_Fennec/Corpse_Fox_Red/Corpse_Fox_Arctic/Corpse_Human/UnnaturalCorpse_Human/Corpse_Dryad_Basic/Corpse_Dryad_Woodmaker/Corpse_Dryad_Berrymaker/Corpse_Dryad_Medicinemaker/Corpse_Dryad_Gaumaker/Corpse_Dryad_Carrier/Corpse_Dryad_Clawer/Corpse_Dryad_Barkskin/Corpse_WasteRat/Corpse_Toxalope/Corpse_Sightstealer/Corpse_Noctol/Corpse_Gorehulk/Corpse_Devourer/Corpse_Chimera/Corpse_Bulbfreak/Corpse_Toughspike/Corpse_Trispike/Corpse_Fingerspike/Corpse_Dreadmeld/Corpse_BogHound/Corpse_MonitorLizard/Corpse_PrairieDog/Corpse_Porcupine/Corpse_Mastodon/Corpse_Cat_Scimitar/Corpse_Wolverine/Corpse_Wolf_Great/Corpse_Moose/Corpse_AlphaThrumbo/Corpse_Muskox/Corpse_Tiger/Corpse_Mink/Corpse_Gorilla/Corpse_Badger/Corpse_Panda/Corpse_Hippo/Corpse_Megavole/Corpse_Armadillo/Corpse_Alligator/Corpse_Bullfrog/Corpse_ColossusToad/Corpse_LavaSnail/Corpse_Sparrow/Corpse_Crow/Corpse_Bluebird/Corpse_Quail/Corpse_Macaw/Corpse_Flamingo/Corpse_Heron/Corpse_Swan/Corpse_Peacock/Corpse_Vulture/Corpse_Penguin/Corpse_Walrus/Corpse_SeaLion/Corpse_Seal/Corpse_HermitCrab/Corpse_StoneCrab/Corpse_SeaTurtle/Corpse_Otter/Corpse_Larva/Corpse_HiveQueen/Corpse_Locust/Corpse_Mugirl/Corpse_Moosesian/UnnaturalCorpse_Moosesian/Corpse_Alien_Cinder/Corpse_Raven_Race
+allowedDefs:Meat_Twisted/Fish_Salmon/Fish_Bass/Fish_Tilapia/Fish_Cod/Fish_Bluefish/Fish_Guppy/Fish_Frostfish/Fish_Catfish/Fish_Piranha/Fish_Dogfish/Fish_Marlin/Fish_Tuna/Fish_Flounder/Fish_Toxfish/Meat_Bear_Grizzly/Meat_Cassowary/Meat_Cougar/Meat_Panther/Meat_Lynx/Meat_Cat/Meat_YorkshireTerrier/Meat_GuineaPig/Meat_LabradorRetriever/Meat_Husky/Meat_Monkey/Meat_Chicken/Meat_Duck/Meat_Turkey/Meat_Cow/Meat_Boomalope/Meat_Muffalo/Meat_Bison/Meat_Dromedary/Meat_Goat/Meat_Elk/Meat_Yak/Meat_Caribou/Meat_Horse/Meat_Donkey/Meat_Elephant/Meat_Rhinoceros/Meat_Hare/Meat_Megaspider/Meat_Thrumbo/Meat_Cobra/Meat_Tortoise/Meat_Alphabeaver/Meat_Pig/Meat_Ibex/Meat_Deer/Meat_Gazelle/Meat_Chinchilla/Meat_Sheep/Meat_Alpaca/Meat_Megasloth/Meat_Capybara/Meat_Squirrel/Meat_Rat/Meat_Boomrat/Meat_Raccoon/Meat_Iguana/Meat_Warg/Meat_Wolf_Timber/Meat_Fox_Fennec/Meat_Human/Meat_Dryad_Basic/Meat_WasteRat/Meat_Toxalope/Meat_BogHound/Meat_MonitorLizard/Meat_PrairieDog/Meat_Porcupine/Meat_Mastodon/Meat_Cat_Scimitar/Meat_Wolverine/Meat_Wolf_Great/Meat_Moose/Meat_AlphaThrumbo/Meat_Muskox/Meat_Tiger/Meat_Mink/Meat_Gorilla/Meat_Badger/Meat_Panda/Meat_Hippo/Meat_Megavole/Meat_Armadillo/Meat_Alligator/Meat_Bullfrog/Meat_ColossusToad/Meat_LavaSnail/Meat_Walrus/Meat_SeaLion/Meat_Seal/Meat_HermitCrab/Meat_StoneCrab/Meat_SeaTurtle/Meat_Otter/Corpse_Bear_Grizzly/Corpse_Bear_Polar/Corpse_Ostrich/Corpse_Emu/Corpse_Cassowary/Corpse_Cougar/Corpse_Panther/Corpse_Lynx/Corpse_Cat/Corpse_YorkshireTerrier/Corpse_GuineaPig/Corpse_LabradorRetriever/Corpse_Husky/Corpse_Monkey/Corpse_Chicken/Corpse_Duck/Corpse_Turkey/Corpse_Goose/Corpse_Cow/Corpse_Boomalope/Corpse_Muffalo/Corpse_Bison/Corpse_Dromedary/Corpse_Goat/Corpse_Elk/Corpse_Yak/Corpse_Caribou/Corpse_Horse/Corpse_Donkey/Corpse_Elephant/Corpse_Rhinoceros/Corpse_Hare/Corpse_Snowhare/Corpse_Megascarab/Corpse_Spelopede/Corpse_Megaspider/Corpse_Thrumbo/Corpse_Cobra/Corpse_Tortoise/Corpse_Alphabeaver/Corpse_Pig/Corpse_WildBoar/Corpse_Ibex/Corpse_Deer/Corpse_Gazelle/Corpse_Chinchilla/Corpse_Sheep/Corpse_Alpaca/Corpse_Megasloth/Corpse_Capybara/Corpse_Squirrel/Corpse_Rat/Corpse_Boomrat/Corpse_Raccoon/Corpse_Iguana/Corpse_Warg/Corpse_Wolf_Timber/Corpse_Wolf_Arctic/Corpse_Fox_Fennec/Corpse_Fox_Red/Corpse_Fox_Arctic/Corpse_Human/UnnaturalCorpse_Human/Corpse_Dryad_Basic/Corpse_Dryad_Woodmaker/Corpse_Dryad_Berrymaker/Corpse_Dryad_Medicinemaker/Corpse_Dryad_Gaumaker/Corpse_Dryad_Carrier/Corpse_Dryad_Clawer/Corpse_Dryad_Barkskin/Corpse_WasteRat/Corpse_Toxalope/Corpse_Sightstealer/Corpse_Noctol/Corpse_Gorehulk/Corpse_Devourer/Corpse_Chimera/Corpse_Bulbfreak/Corpse_Toughspike/Corpse_Trispike/Corpse_Fingerspike/Corpse_Dreadmeld/Corpse_BogHound/Corpse_MonitorLizard/Corpse_PrairieDog/Corpse_Porcupine/Corpse_Mastodon/Corpse_Cat_Scimitar/Corpse_Wolverine/Corpse_Wolf_Great/Corpse_Moose/Corpse_AlphaThrumbo/Corpse_Muskox/Corpse_Tiger/Corpse_Mink/Corpse_Gorilla/Corpse_Badger/Corpse_Panda/Corpse_Hippo/Corpse_Megavole/Corpse_Armadillo/Corpse_Alligator/Corpse_Bullfrog/Corpse_ColossusToad/Corpse_LavaSnail/Corpse_Sparrow/Corpse_Crow/Corpse_Bluebird/Corpse_Quail/Corpse_Macaw/Corpse_Flamingo/Corpse_Heron/Corpse_Swan/Corpse_Peacock/Corpse_Vulture/Corpse_Penguin/Corpse_Walrus/Corpse_SeaLion/Corpse_Seal/Corpse_HermitCrab/Corpse_StoneCrab/Corpse_SeaTurtle/Corpse_Otter/Corpse_Larva/Corpse_HiveQueen/Corpse_Locust
 allowedHitPointsPercents:0.0000:1.0000
 allowedQualities:Awful:Legendary
 disallowedSpecialFilters:AllowRotten/AllowCorpsesMechFriendly/AllowCorpsesMechEnemy
