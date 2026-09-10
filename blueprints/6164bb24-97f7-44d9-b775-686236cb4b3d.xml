@@ -1,0 +1,120 @@
+<PrefabDef>
+  <defName>Prefab_20260910_090643</defName>
+  <size>(11,11)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>PRF-快速水培农场</name>
+    <description>边缘工厂的快速水培单元，占地11x11，水稻仅需10小时成熟，有效应对大量吃白饭的猫</description>
+    <tags></tags>
+    <author></author>
+    <category>种植区</category>
+    <BuildingID>6164bb24-97f7-44d9-b775-686236cb4b3d</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>spdskatr.projectrimfactory</packageId>
+        <name>Project RimFactory Revived</name>
+        <version></version>
+        <modorder>72</modorder>
+        <steamWorkshopId>2033979700</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>PRF_Sprinkler_II</li>
+          <li>PRF_OldTypeCultivator_Sun</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>PRF-快速水培农场</default>
+        <zh-CN>PRF-快速水培农场</zh-CN>
+      </name>
+      <description>
+        <default>边缘工厂的快速水培单元，占地11x11，水稻仅需10小时成熟，有效应对大量吃白饭的猫</default>
+        <zh-CN>边缘工厂的快速水培单元，占地11x11，水稻仅需10小时成熟，有效应对大量吃白饭的猫</zh-CN>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <HydroponicsBasin>
+      <positions>
+        <li>(2, 0, 0)</li>
+        <li>(9, 0, 0)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </HydroponicsBasin>
+    <PRF_Sprinkler_II>
+      <rects>
+        <li>(4,0,6,0)</li>
+        <li>(4,10,6,10)</li>
+      </rects>
+    </PRF_Sprinkler_II>
+    <HydroponicsBasin>
+      <positions>
+        <li>(0, 0, 3)</li>
+        <li>(5, 0, 3)</li>
+        <li>(0, 0, 8)</li>
+        <li>(5, 0, 8)</li>
+        <li>(10, 0, 8)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+    </HydroponicsBasin>
+    <HydroponicsBasin>
+      <positions>
+        <li>(2, 0, 1)</li>
+        <li>(7, 0, 1)</li>
+        <li>(2, 0, 2)</li>
+        <li>(7, 0, 2)</li>
+        <li>(2, 0, 3)</li>
+        <li>(7, 0, 3)</li>
+        <li>(2, 0, 4)</li>
+        <li>(7, 0, 4)</li>
+        <li>(2, 0, 5)</li>
+        <li>(7, 0, 5)</li>
+        <li>(2, 0, 6)</li>
+        <li>(7, 0, 6)</li>
+        <li>(2, 0, 7)</li>
+        <li>(7, 0, 7)</li>
+        <li>(2, 0, 8)</li>
+        <li>(7, 0, 8)</li>
+        <li>(2, 0, 9)</li>
+        <li>(7, 0, 9)</li>
+        <li>(1, 0, 10)</li>
+        <li>(8, 0, 10)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+    </HydroponicsBasin>
+    <HydroponicsBasin>
+      <position>(10, 0, 2)</position>
+    </HydroponicsBasin>
+    <HiddenConduit>
+      <rects>
+        <li>(0,5,10,5)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <FirefoamPopper>
+      <rects>
+        <li>(0,5,0,5)</li>
+        <li>(10,5,10,5)</li>
+      </rects>
+    </FirefoamPopper>
+    <PRF_OldTypeCultivator_Sun>
+      <rects>
+        <li>(5,5,5,5)</li>
+      </rects>
+    </PRF_OldTypeCultivator_Sun>
+  </things>
+  <terrainLayers></terrainLayers>
+  <roofs>
+    <RoofRockThick>
+      <rects>
+        <li>(0,0,10,10)</li>
+      </rects>
+    </RoofRockThick>
+  </roofs>
+</PrefabDef>
