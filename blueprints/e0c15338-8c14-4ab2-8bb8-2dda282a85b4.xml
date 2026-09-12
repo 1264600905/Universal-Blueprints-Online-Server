@@ -1,0 +1,119 @@
+<PrefabDef>
+  <defName>Prefab_20260912_220024</defName>
+  <size>(23,13)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>Сфера фінал (прощавай Rimworld)</name>
+    <description>2 ярусні ліжки та туалет</description>
+    <tags>
+      <li>FullExport</li>
+    </tags>
+    <author>ProRok</author>
+    <category>BaseBlueprint</category>
+    <BuildingID>e0c15338-8c14-4ab2-8bb8-2dda282a85b4</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>oskarpotocki.vanillavehiclesexpanded</packageId>
+        <name>Vanilla Vehicles Expanded</name>
+        <version></version>
+        <modorder>237</modorder>
+        <steamWorkshopId>3014906877</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>smashphil.vehicleframework</packageId>
+            <steamWorkshopId>3014915404</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VVE_GarageDoorLarge</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>oels.nanamewalls</packageId>
+        <name>Hull Style: NANAME Walls</name>
+        <version>1.6.54</version>
+        <modorder>103</modorder>
+        <steamWorkshopId>3543791340</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Wall_NAWDiagonal</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>Сфера фінал (прощавай Rimworld)</default>
+        <zh-CN>飞天板砖</zh-CN>
+        <ru>Сфера фінал (прощавай Rimworld)</ru>
+      </name>
+      <description>
+        <default>2 ярусні ліжки та туалет</default>
+        <ru>2 ярусні ліжки та туалет</ru>
+      </description>
+      <tags>
+        <default>FullExport</default>
+      </tags>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <VVE_GarageDoorLarge>
+      <positions>
+        <li>(2, 0, 0)</li>
+        <li>(2, 0, 12)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+    </VVE_GarageDoorLarge>
+    <Wall_NAWDiagonal>
+      <rects>
+        <li>(5,0,6,0)</li>
+        <li>(5,1,5,12)</li>
+        <li>(7,1,9,1)</li>
+        <li>(10,2,12,2)</li>
+        <li>(13,3,16,3)</li>
+        <li>(17,4,19,4)</li>
+        <li>(20,5,21,5)</li>
+        <li>(22,6,22,6)</li>
+        <li>(20,7,21,7)</li>
+        <li>(17,8,19,8)</li>
+        <li>(13,9,16,9)</li>
+        <li>(10,10,12,10)</li>
+        <li>(7,11,9,11)</li>
+        <li>(6,12,6,12)</li>
+      </rects>
+      <stuff>BlocksSandstone</stuff>
+    </Wall_NAWDiagonal>
+    <HiddenConduit>
+      <rects>
+        <li>(0,6,6,6)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+  </things>
+  <terrainLayers></terrainLayers>
+  <roofs>
+    <PlayerRoofZone>
+      <rects>
+        <li>(5,0,6,12)</li>
+        <li>(7,1,9,11)</li>
+        <li>(10,2,12,10)</li>
+        <li>(13,3,16,9)</li>
+        <li>(17,4,19,8)</li>
+        <li>(20,5,22,7)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
