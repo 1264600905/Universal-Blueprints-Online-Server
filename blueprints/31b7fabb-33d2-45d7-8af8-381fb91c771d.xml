@@ -1,0 +1,272 @@
+<PrefabDef>
+  <defName>Prefab_20260913_012151</defName>
+  <size>(13,13)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>房间13（储藏间）</name>
+    <description>自选降落13*13</description>
+    <tags></tags>
+    <author>提灯</author>
+    <category>储藏室</category>
+    <BuildingID>31b7fabb-33d2-45d7-8af8-381fb91c771d</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>dracoix.doormat.r12a</packageId>
+        <name>Door Mat</name>
+        <version></version>
+        <modorder>158</modorder>
+        <steamWorkshopId>1505423207</steamWorkshopId>
+        <things>
+          <li>LT_DoorMatCheckerLeather</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>vin.warehouse.storage</packageId>
+        <name>Warehouse Storage</name>
+        <version></version>
+        <modorder>118</modorder>
+        <steamWorkshopId>3519963835</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>adaptive.storage.framework</packageId>
+            <steamWorkshopId>3033901359</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Vin_TLR</li>
+          <li>Vin_MRS</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>sbz.neatstorage</packageId>
+        <name>[sbz] Neat Storage</name>
+        <version></version>
+        <modorder>40</modorder>
+        <steamWorkshopId>3416243474</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>adaptive.storage.framework</packageId>
+            <steamWorkshopId>3033901359</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>sbz_HorizontalWeaponRack</li>
+          <li>sbz_OpenShelf</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.odyssey</packageId>
+        <name>Odyssey</name>
+        <version></version>
+        <modorder>8</modorder>
+        <things>
+          <li>Building_OutfitStand</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>bellodhr.seamlessdoors</packageId>
+        <name>Seamless Doors</name>
+        <version></version>
+        <modorder>342</modorder>
+        <steamWorkshopId>3694533072</steamWorkshopId>
+        <things>
+          <li>SeamlessDoors_FloorProxy</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.royalty</packageId>
+        <name>Royalty</name>
+        <version></version>
+        <modorder>4</modorder>
+        <things>
+          <li>FineTileMarble</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>房间13（储藏间）</default>
+        <zh-CN>房间13（储藏间）</zh-CN>
+      </name>
+      <description>
+        <default>自选降落13*13</default>
+        <zh-CN>自选降落13*13</zh-CN>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,5,0)</li>
+        <li>(7,0,12,0)</li>
+        <li>(0,1,0,5)</li>
+        <li>(12,1,12,5)</li>
+        <li>(0,7,0,12)</li>
+        <li>(12,7,12,12)</li>
+        <li>(1,12,5,12)</li>
+        <li>(7,12,11,12)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+    </Wall>
+    <Door>
+      <rects>
+        <li>(6,0,6,0)</li>
+        <li>(6,12,6,12)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+    </Door>
+    <LT_DoorMatCheckerLeather>
+      <rects>
+        <li>(6,0,6,0)</li>
+        <li>(6,12,6,12)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Normal</quality>
+    </LT_DoorMatCheckerLeather>
+    <Vin_TLR>
+      <positions>
+        <li>(3, 0, 2)</li>
+        <li>(10, 0, 2)</li>
+        <li>(3, 0, 4)</li>
+        <li>(10, 0, 4)</li>
+        <li>(3, 0, 9)</li>
+        <li>(10, 0, 9)</li>
+        <li>(3, 0, 11)</li>
+        <li>(10, 0, 11)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+    </Vin_TLR>
+    <sbz_HorizontalWeaponRack>
+      <positions>
+        <li>(5, 0, 2)</li>
+        <li>(5, 0, 4)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+    </sbz_HorizontalWeaponRack>
+    <Vin_MRS>
+      <rects>
+        <li>(7,1,7,1)</li>
+        <li>(5,11,5,11)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </Vin_MRS>
+    <sbz_OpenShelf>
+      <positions>
+        <li>(2, 0, 5)</li>
+        <li>(4, 0, 5)</li>
+        <li>(9, 0, 5)</li>
+        <li>(11, 0, 5)</li>
+        <li>(2, 0, 7)</li>
+        <li>(4, 0, 7)</li>
+        <li>(9, 0, 7)</li>
+        <li>(11, 0, 7)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+    </sbz_OpenShelf>
+    <Building_OutfitStand>
+      <rects>
+        <li>(7,5,7,5)</li>
+        <li>(5,7,5,7)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+    </Building_OutfitStand>
+    <Door>
+      <rects>
+        <li>(0,6,0,6)</li>
+        <li>(12,6,12,6)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+    </Door>
+    <LT_DoorMatCheckerLeather>
+      <rects>
+        <li>(12,6,12,6)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Normal</quality>
+    </LT_DoorMatCheckerLeather>
+    <sbz_HorizontalWeaponRack>
+      <positions>
+        <li>(7, 0, 8)</li>
+        <li>(7, 0, 10)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+    </sbz_HorizontalWeaponRack>
+  </things>
+  <terrain>
+    <SeamlessDoors_FloorProxy>
+      <rects>
+        <li>(6,0,6,0)</li>
+        <li>(0,6,0,6)</li>
+        <li>(12,6,12,6)</li>
+        <li>(6,12,6,12)</li>
+      </rects>
+    </SeamlessDoors_FloorProxy>
+    <FineTileMarble>
+      <rects>
+        <li>(1,1,11,11)</li>
+      </rects>
+    </FineTileMarble>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <Soil>
+        <rects>
+          <li>(0,0,5,0)</li>
+          <li>(7,0,12,0)</li>
+          <li>(0,1,0,5)</li>
+          <li>(12,1,12,5)</li>
+          <li>(0,7,0,12)</li>
+          <li>(12,7,12,12)</li>
+          <li>(1,12,5,12)</li>
+          <li>(7,12,11,12)</li>
+        </rects>
+      </Soil>
+      <SeamlessDoors_FloorProxy>
+        <rects>
+          <li>(6,0,6,0)</li>
+          <li>(0,6,0,6)</li>
+          <li>(12,6,12,6)</li>
+          <li>(6,12,6,12)</li>
+        </rects>
+      </SeamlessDoors_FloorProxy>
+      <FineTileMarble>
+        <rects>
+          <li>(1,1,11,11)</li>
+        </rects>
+      </FineTileMarble>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(6,0,6,12)</li>
+          <li>(1,1,5,11)</li>
+          <li>(7,1,11,11)</li>
+          <li>(0,6,0,6)</li>
+          <li>(12,6,12,6)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
