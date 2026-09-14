@@ -1,11 +1,13 @@
 <PrefabDef>
-  <defName>Prefab_20260913_222659</defName>
-  <size>(25,11)</size>
+  <defName>Prefab_20260914_181504</defName>
+  <size>(9,23)</size>
   <extraInfo>
     <version>1.6.9676.17735</version>
     <name>高级基地宿舍</name>
     <description></description>
-    <tags></tags>
+    <tags>
+      <li>FullExport</li>
+    </tags>
     <author></author>
     <category>宿舍</category>
     <BuildingID>c5f6ea64-1b21-4f48-a2d6-425d9600e4e4</BuildingID>
@@ -17,35 +19,34 @@
         <modorder>12</modorder>
         <steamWorkshopId>3523916780</steamWorkshopId>
         <things>
+          <li>MUS_SpaceBase_LadderModule</li>
           <li>MUS_SpaceBase_WallV</li>
           <li>MUS_SpaceBase_SimpleDoor</li>
-          <li>MUS_SpaceBase_MonitorModule</li>
-          <li>MUS_SpaceBase_LockersV</li>
-          <li>MUS_SpaceBase_Window</li>
-          <li>MUS_SpaceBase_DoubleBed</li>
-          <li>MUS_SpaceBase_WallDecorplantV</li>
-          <li>MUS_SpaceBase_SchoolDesk</li>
-          <li>MUS_SpaceBase_WallLamp</li>
-          <li>MUS_SpaceBase_Wall</li>
-          <li>MUS_SpaceBase_MonitorForestModule</li>
-          <li>MUS_SpaceBase_BarCounter</li>
-          <li>MUS_SpaceBase_MachineryModule</li>
-          <li>MUS_SpaceBase_Cabinet</li>
-          <li>MUS_SpaceBase_LadderModule</li>
-          <li>MUS_SpaceBase_Sofa</li>
-          <li>MUS_SpaceBase_HolographicInstrument</li>
-          <li>MUS_SpaceBase_Lockers</li>
-          <li>MUS_SpaceBase_RightBench</li>
-          <li>MUS_SpaceBase_Carpet</li>
-          <li>MUS_SpaceBase_WallDecorPlants</li>
-          <li>MUS_SpaceBase_TropicalPotted</li>
-          <li>MUS_SpaceBase_Table</li>
-          <li>MUS_SpaceBase_LeftBench</li>
+          <li>MUS_SpaceBase_DoubleSofa</li>
           <li>MUS_SpaceBase_SmallCarpet</li>
-          <li>MUS_SpaceBase_CoralSpecimens</li>
+          <li>MUS_SpaceBase_MonitorForestModule</li>
+          <li>MUS_SpaceBase_Sofa</li>
+          <li>MUS_SpaceBase_Table</li>
+          <li>MUS_SpaceBase_Lockers</li>
+          <li>MUS_SpaceBase_BarCounter</li>
+          <li>MUS_SpaceBase_HolographicInstrument</li>
+          <li>MUS_SpaceBase_TropicalPotted</li>
+          <li>MUS_SpaceBase_Wall</li>
+          <li>MUS_SpaceBase_MonitorModule</li>
+          <li>MUS_SpaceBase_WallLamp</li>
+          <li>MUS_SpaceBase_SchoolDesk</li>
+          <li>MUS_SpaceBase_MachineryModule</li>
+          <li>MUS_SpaceBase_LockersV</li>
+          <li>MUS_SpaceBase_WallDecorplantV</li>
+          <li>MUS_SpaceBase_WallDecorPlants</li>
+          <li>MUS_SpaceBase_DoubleBed</li>
+          <li>MUS_SpaceBase_Carpet</li>
+          <li>MUS_SpaceBase_Cabinet</li>
+          <li>MUS_SpaceBase_Window</li>
           <li>MUS_SpaceBase_WallDecorCoral</li>
-          <li>MUS_SpaceBase_MonitorOceanModule</li>
           <li>MUS_SpaceBase_WallDecorCoralV</li>
+          <li>MUS_SpaceBase_CoralSpecimens</li>
+          <li>MUS_SpaceBase_MonitorOceanModule</li>
         </things>
       </mod>
       <mod>
@@ -67,498 +68,614 @@
     </multiLanguage>
   </extraInfo>
   <things>
+    <MUS_SpaceBase_LadderModule>
+      <rects>
+        <li>(4,0,4,0)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </MUS_SpaceBase_LadderModule>
     <MUS_SpaceBase_WallV>
       <rects>
-        <li>(2,1,22,1)</li>
-        <li>(2,2,2,4)</li>
-        <li>(10,2,10,4)</li>
-        <li>(22,2,22,4)</li>
-        <li>(11,5,11,5)</li>
-        <li>(13,5,13,5)</li>
-        <li>(2,6,2,9)</li>
-        <li>(7,6,7,9)</li>
-        <li>(14,6,14,9)</li>
-        <li>(22,6,22,9)</li>
-        <li>(3,9,6,9)</li>
-        <li>(8,9,13,9)</li>
-        <li>(15,9,21,9)</li>
+        <li>(0,1,3,1)</li>
+        <li>(5,1,8,1)</li>
+        <li>(0,2,0,21)</li>
+        <li>(8,2,8,21)</li>
+        <li>(5,9,7,9)</li>
+        <li>(4,10,4,10)</li>
+        <li>(4,12,4,12)</li>
+        <li>(1,13,3,13)</li>
+        <li>(5,16,7,16)</li>
+        <li>(1,21,3,21)</li>
+        <li>(5,21,7,21)</li>
       </rects>
       <stuff>FT_BlocksConcrete</stuff>
       <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
     </MUS_SpaceBase_WallV>
     <PowerConduit>
       <rects>
-        <li>(2,1,22,1)</li>
-        <li>(2,2,2,9)</li>
-        <li>(22,2,22,8)</li>
-        <li>(3,9,21,9)</li>
+        <li>(0,1,8,1)</li>
+        <li>(0,2,0,21)</li>
+        <li>(8,2,8,21)</li>
+        <li>(1,21,7,21)</li>
       </rects>
     </PowerConduit>
     <MUS_SpaceBase_SimpleDoor>
       <rects>
-        <li>(4,2,4,2)</li>
-        <li>(2,5,2,5)</li>
-        <li>(22,5,22,5)</li>
-        <li>(20,8,20,8)</li>
+        <li>(4,1,4,1)</li>
+        <li>(4,21,4,21)</li>
       </rects>
-      <relativeRotation>Clockwise</relativeRotation>
       <stuff>WoodLog</stuff>
       <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
     </MUS_SpaceBase_SimpleDoor>
-    <Vent>
+    <Filth_Dirt>
       <rects>
-        <li>(5,2,5,2)</li>
-        <li>(19,8,19,8)</li>
+        <li>(4,1,4,1)</li>
       </rects>
-      <relativeRotation>Clockwise</relativeRotation>
-    </Vent>
-    <MUS_SpaceBase_MonitorModule>
-      <position>(8, 0, 2)</position>
-      <relativeRotation>Opposite</relativeRotation>
-      <stuff>BlocksMarble</stuff>
-      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
-    </MUS_SpaceBase_MonitorModule>
-    <MUS_SpaceBase_LockersV>
-      <rects>
-        <li>(11,2,11,2)</li>
-      </rects>
-      <relativeRotation>Clockwise</relativeRotation>
-      <stuff>BlocksMarble</stuff>
+      <color>RGBA(0.357, 0.294, 0.255, 0.380)</color>
+      <thickness>1</thickness>
+    </Filth_Dirt>
+    <MUS_SpaceBase_DoubleSofa>
+      <position>(2, 0, 2)</position>
+      <stuff>Cloth</stuff>
       <quality>Normal</quality>
-      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
-    </MUS_SpaceBase_LockersV>
-    <MUS_SpaceBase_Window>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </MUS_SpaceBase_DoubleSofa>
+    <MUS_SpaceBase_SmallCarpet>
       <rects>
-        <li>(11,2,11,2)</li>
+        <li>(4,2,4,2)</li>
       </rects>
-      <relativeRotation>Opposite</relativeRotation>
-    </MUS_SpaceBase_Window>
-    <MUS_SpaceBase_DoubleBed>
-      <position>(12, 0, 2)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
       <stuff>Cloth</stuff>
       <quality>Good</quality>
       <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
-    </MUS_SpaceBase_DoubleBed>
-    <MUS_SpaceBase_LockersV>
+    </MUS_SpaceBase_SmallCarpet>
+    <MUS_SpaceBase_SimpleDoor>
       <rects>
-        <li>(14,2,14,2)</li>
+        <li>(5,2,5,2)</li>
+        <li>(7,3,7,3)</li>
+        <li>(1,19,1,19)</li>
+        <li>(3,20,3,20)</li>
       </rects>
-      <stuff>BlocksMarble</stuff>
-      <quality>Normal</quality>
-      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
-    </MUS_SpaceBase_LockersV>
-    <MUS_SpaceBase_WallDecorplantV>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+      <disabled>true</disabled>
+    </MUS_SpaceBase_SimpleDoor>
+    <Cooler>
       <rects>
-        <li>(14,2,14,2)</li>
+        <li>(6,2,6,2)</li>
       </rects>
-      <relativeRotation>Opposite</relativeRotation>
-    </MUS_SpaceBase_WallDecorplantV>
-    <MUS_SpaceBase_SchoolDesk>
-      <position>(15, 0, 2)</position>
-      <stuff>BlocksMarble</stuff>
-      <quality>Normal</quality>
-      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
-    </MUS_SpaceBase_SchoolDesk>
-    <MUS_SpaceBase_WallLamp>
-      <rects>
-        <li>(16,2,16,2)</li>
-      </rects>
-      <relativeRotation>Opposite</relativeRotation>
-    </MUS_SpaceBase_WallLamp>
-    <MUS_SpaceBase_Wall>
-      <rects>
-        <li>(17,2,17,4)</li>
-      </rects>
-      <stuff>Steel</stuff>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </MUS_SpaceBase_Wall>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </Cooler>
     <MUS_SpaceBase_MonitorForestModule>
-      <position>(20, 0, 2)</position>
-      <relativeRotation>Opposite</relativeRotation>
+      <position>(1, 0, 3)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
       <stuff>BlocksMarble</stuff>
       <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
     </MUS_SpaceBase_MonitorForestModule>
-    <Cooler>
+    <MUS_SpaceBase_Sofa>
       <rects>
-        <li>(3,3,3,3)</li>
+        <li>(2,3,2,3)</li>
       </rects>
-    </Cooler>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </MUS_SpaceBase_Sofa>
+    <MUS_SpaceBase_Table>
+      <positions>
+        <li>(3, 0, 4)</li>
+        <li>(5, 0, 19)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </MUS_SpaceBase_Table>
     <Vent>
       <rects>
-        <li>(4,3,4,3)</li>
-        <li>(20,7,20,7)</li>
+        <li>(6,3,6,3)</li>
+        <li>(2,19,2,19)</li>
       </rects>
+      <relativeRotation>Clockwise</relativeRotation>
     </Vent>
+    <MUS_SpaceBase_Lockers>
+      <rects>
+        <li>(2,4,2,4)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </MUS_SpaceBase_Lockers>
     <MUS_SpaceBase_BarCounter>
       <rects>
-        <li>(5,3,5,4)</li>
-        <li>(6,4,7,4)</li>
-        <li>(17,6,19,6)</li>
-        <li>(19,7,19,7)</li>
+        <li>(5,4,5,5)</li>
+        <li>(3,16,3,18)</li>
+        <li>(2,18,2,18)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </MUS_SpaceBase_BarCounter>
+    <MUS_SpaceBase_BarCounter>
+      <rects>
+        <li>(6,4,6,4)</li>
+        <li>(5,6,5,6)</li>
       </rects>
       <stuff>BlocksMarble</stuff>
       <quality>Normal</quality>
       <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
     </MUS_SpaceBase_BarCounter>
-    <DiningChair>
+    <Vent>
       <rects>
-        <li>(6,3,6,3)</li>
-      </rects>
-      <stuff>Steel</stuff>
-      <quality>Normal</quality>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </DiningChair>
-    <MUS_SpaceBase_MachineryModule>
-      <position>(9, 0, 3)</position>
-      <relativeRotation>Counterclockwise</relativeRotation>
-      <stuff>BlocksMarble</stuff>
-      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
-    </MUS_SpaceBase_MachineryModule>
-    <MUS_SpaceBase_Cabinet>
-      <position>(11, 0, 4)</position>
-      <relativeRotation>Clockwise</relativeRotation>
-      <stuff>BlocksMarble</stuff>
-      <quality>Normal</quality>
-      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
-    </MUS_SpaceBase_Cabinet>
-    <MUS_SpaceBase_LadderModule>
-      <rects>
-        <li>(14,3,14,3)</li>
-        <li>(23,5,23,5)</li>
-      </rects>
-      <relativeRotation>Counterclockwise</relativeRotation>
-      <stuff>BlocksMarble</stuff>
-      <quality>Normal</quality>
-      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
-    </MUS_SpaceBase_LadderModule>
-    <EndTable>
-      <rects>
-        <li>(15,3,15,3)</li>
-      </rects>
-      <relativeRotation>Clockwise</relativeRotation>
-      <stuff>BlocksMarble</stuff>
-      <quality>Normal</quality>
-      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
-    </EndTable>
-    <MUS_SpaceBase_Sofa>
-      <rects>
-        <li>(16,3,16,3)</li>
+        <li>(7,4,7,4)</li>
+        <li>(1,18,1,18)</li>
       </rects>
       <relativeRotation>Opposite</relativeRotation>
-      <stuff>Cloth</stuff>
-      <quality>Good</quality>
-      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
-    </MUS_SpaceBase_Sofa>
-    <MUS_SpaceBase_HolographicInstrument>
-      <rects>
-        <li>(18,3,18,3)</li>
-        <li>(6,7,6,7)</li>
-      </rects>
-      <relativeRotation>Opposite</relativeRotation>
-      <color>RGBA(0.341, 0.988, 1.000, 1.000)</color>
-    </MUS_SpaceBase_HolographicInstrument>
-    <MUS_SpaceBase_Lockers>
-      <rects>
-        <li>(19,3,19,3)</li>
-      </rects>
-      <stuff>BlocksMarble</stuff>
-      <quality>Normal</quality>
-      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
-    </MUS_SpaceBase_Lockers>
-    <MUS_SpaceBase_RightBench>
-      <rects>
-        <li>(20,3,20,3)</li>
-        <li>(3,6,3,6)</li>
-      </rects>
-      <stuff>Cloth</stuff>
-      <quality>Excellent</quality>
-      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
-    </MUS_SpaceBase_RightBench>
-    <MUS_SpaceBase_RightBench>
-      <rects>
-        <li>(21,3,21,3)</li>
-      </rects>
-      <stuff>Cloth</stuff>
-      <quality>Normal</quality>
-      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
-    </MUS_SpaceBase_RightBench>
-    <MUS_SpaceBase_SimpleDoor>
-      <rects>
-        <li>(3,4,3,4)</li>
-        <li>(12,5,12,5)</li>
-        <li>(21,6,21,6)</li>
-      </rects>
-      <stuff>WoodLog</stuff>
-      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
-    </MUS_SpaceBase_SimpleDoor>
-    <MUS_SpaceBase_Carpet>
-      <positions>
-        <li>(13, 0, 4)</li>
-        <li>(12, 0, 6)</li>
-      </positions>
-      <relativeRotation>Opposite</relativeRotation>
-      <stuff>Cloth</stuff>
-      <quality>Normal</quality>
-      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
-    </MUS_SpaceBase_Carpet>
-    <MUS_SpaceBase_WallDecorPlants>
-      <rects>
-        <li>(14,4,14,4)</li>
-      </rects>
-    </MUS_SpaceBase_WallDecorPlants>
-    <MUS_SpaceBase_TropicalPotted>
-      <rects>
-        <li>(18,4,18,4)</li>
-      </rects>
-      <relativeRotation>Opposite</relativeRotation>
-      <stuff>BlocksMarble</stuff>
-      <quality>Normal</quality>
-      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
-    </MUS_SpaceBase_TropicalPotted>
-    <MUS_SpaceBase_Table>
-      <positions>
-        <li>(19, 0, 4)</li>
-        <li>(4, 0, 6)</li>
-      </positions>
-      <stuff>BlocksMarble</stuff>
-      <quality>Normal</quality>
-      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
-    </MUS_SpaceBase_Table>
-    <MUS_SpaceBase_LeftBench>
-      <rects>
-        <li>(21,4,21,4)</li>
-      </rects>
-      <stuff>Cloth</stuff>
-      <quality>Normal</quality>
-      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
-    </MUS_SpaceBase_LeftBench>
-    <MUS_SpaceBase_LadderModule>
+    </Vent>
+    <Heater>
       <rects>
         <li>(1,5,1,5)</li>
-        <li>(10,7,10,7)</li>
+        <li>(7,17,7,17)</li>
       </rects>
-      <relativeRotation>Clockwise</relativeRotation>
-      <stuff>BlocksMarble</stuff>
-      <quality>Normal</quality>
-      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
-    </MUS_SpaceBase_LadderModule>
-    <MUS_SpaceBase_SmallCarpet>
+    </Heater>
+    <MUS_SpaceBase_HolographicInstrument>
+      <rects>
+        <li>(2,5,2,5)</li>
+        <li>(6,17,6,17)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <color>RGBA(0.341, 0.988, 1.000, 1.000)</color>
+    </MUS_SpaceBase_HolographicInstrument>
+    <MUS_SpaceBase_TropicalPotted>
       <rects>
         <li>(3,5,3,5)</li>
       </rects>
       <relativeRotation>Counterclockwise</relativeRotation>
-      <stuff>Cloth</stuff>
-      <quality>Good</quality>
-      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
-    </MUS_SpaceBase_SmallCarpet>
+      <stuff>BlocksMarble</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </MUS_SpaceBase_TropicalPotted>
+    <DiningChair>
+      <rects>
+        <li>(6,5,6,5)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </DiningChair>
     <MUS_SpaceBase_Wall>
       <rects>
-        <li>(10,5,10,5)</li>
-        <li>(14,5,14,5)</li>
+        <li>(1,6,3,6)</li>
       </rects>
-      <stuff>FT_BlocksConcrete</stuff>
-      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </MUS_SpaceBase_Wall>
-    <MUS_SpaceBase_SmallCarpet>
-      <rects>
-        <li>(21,5,21,5)</li>
-      </rects>
-      <relativeRotation>Opposite</relativeRotation>
-      <stuff>Cloth</stuff>
-      <quality>Good</quality>
-      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
-    </MUS_SpaceBase_SmallCarpet>
-    <MUS_SpaceBase_CoralSpecimens>
-      <rects>
-        <li>(6,6,6,6)</li>
-      </rects>
-      <relativeRotation>Opposite</relativeRotation>
-      <stuff>BlocksMarble</stuff>
-      <quality>Normal</quality>
-      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
-    </MUS_SpaceBase_CoralSpecimens>
-    <MUS_SpaceBase_WallDecorCoral>
-      <rects>
-        <li>(10,6,10,6)</li>
-      </rects>
-      <relativeRotation>Opposite</relativeRotation>
-    </MUS_SpaceBase_WallDecorCoral>
-    <MUS_SpaceBase_Cabinet>
-      <position>(13, 0, 6)</position>
-      <relativeRotation>Counterclockwise</relativeRotation>
-      <stuff>BlocksMarble</stuff>
-      <quality>Normal</quality>
-      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
-    </MUS_SpaceBase_Cabinet>
-    <MUS_SpaceBase_MachineryModule>
-      <position>(15, 0, 7)</position>
+    <MUS_SpaceBase_MonitorModule>
+      <position>(7, 0, 7)</position>
       <relativeRotation>Clockwise</relativeRotation>
       <stuff>BlocksMarble</stuff>
       <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
-    </MUS_SpaceBase_MachineryModule>
-    <MUS_SpaceBase_LeftBench>
+    </MUS_SpaceBase_MonitorModule>
+    <MUS_SpaceBase_WallLamp>
       <rects>
-        <li>(3,7,3,7)</li>
-      </rects>
-      <stuff>Cloth</stuff>
-      <quality>Excellent</quality>
-      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
-    </MUS_SpaceBase_LeftBench>
-    <MUS_SpaceBase_LeftBench>
-      <rects>
-        <li>(4,7,4,7)</li>
-      </rects>
-      <stuff>Cloth</stuff>
-      <quality>Good</quality>
-      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
-    </MUS_SpaceBase_LeftBench>
-    <MUS_SpaceBase_Lockers>
-      <rects>
-        <li>(5,7,5,7)</li>
-      </rects>
-      <relativeRotation>Opposite</relativeRotation>
-      <stuff>BlocksMarble</stuff>
-      <quality>Normal</quality>
-      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
-    </MUS_SpaceBase_Lockers>
-    <MUS_SpaceBase_Sofa>
-      <rects>
-        <li>(8,7,8,7)</li>
-      </rects>
-      <stuff>Cloth</stuff>
-      <quality>Good</quality>
-      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
-    </MUS_SpaceBase_Sofa>
-    <EndTable>
-      <rects>
-        <li>(9,7,9,7)</li>
+        <li>(1,7,1,7)</li>
       </rects>
       <relativeRotation>Counterclockwise</relativeRotation>
-      <stuff>BlocksMarble</stuff>
-      <quality>Normal</quality>
-      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
-    </EndTable>
-    <MUS_SpaceBase_DoubleBed>
-      <position>(12, 0, 8)</position>
-      <relativeRotation>Opposite</relativeRotation>
-      <stuff>Cloth</stuff>
-      <quality>Good</quality>
-      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
-    </MUS_SpaceBase_DoubleBed>
-    <DiningChair>
-      <rects>
-        <li>(18,7,18,7)</li>
-      </rects>
-      <relativeRotation>Opposite</relativeRotation>
-      <stuff>Steel</stuff>
-      <quality>Normal</quality>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </DiningChair>
-    <Cooler>
-      <rects>
-        <li>(21,7,21,7)</li>
-      </rects>
-      <relativeRotation>Opposite</relativeRotation>
-    </Cooler>
-    <MUS_SpaceBase_MonitorOceanModule>
-      <position>(4, 0, 8)</position>
-      <stuff>BlocksMarble</stuff>
-      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
-    </MUS_SpaceBase_MonitorOceanModule>
+    </MUS_SpaceBase_WallLamp>
     <MUS_SpaceBase_SchoolDesk>
-      <position>(9, 0, 8)</position>
-      <relativeRotation>Opposite</relativeRotation>
+      <position>(1, 0, 8)</position>
+      <relativeRotation>Clockwise</relativeRotation>
       <stuff>BlocksMarble</stuff>
       <quality>Normal</quality>
       <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
     </MUS_SpaceBase_SchoolDesk>
-    <MUS_SpaceBase_WallLamp>
+    <MUS_SpaceBase_Sofa>
       <rects>
-        <li>(8,8,8,8)</li>
+        <li>(2,7,2,7)</li>
       </rects>
-    </MUS_SpaceBase_WallLamp>
-    <MUS_SpaceBase_LockersV>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Poor</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </MUS_SpaceBase_Sofa>
+    <EndTable>
       <rects>
-        <li>(10,8,10,8)</li>
+        <li>(2,8,2,8)</li>
       </rects>
       <relativeRotation>Opposite</relativeRotation>
       <stuff>BlocksMarble</stuff>
-      <quality>Normal</quality>
+      <quality>Excellent</quality>
       <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
-    </MUS_SpaceBase_LockersV>
-    <MUS_SpaceBase_WallDecorCoralV>
-      <rects>
-        <li>(10,8,10,8)</li>
-      </rects>
-    </MUS_SpaceBase_WallDecorCoralV>
+    </EndTable>
+    <MUS_SpaceBase_MachineryModule>
+      <position>(6, 0, 8)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </MUS_SpaceBase_MachineryModule>
     <MUS_SpaceBase_LockersV>
       <rects>
-        <li>(13,8,13,8)</li>
+        <li>(1,9,1,9)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </MUS_SpaceBase_LockersV>
+    <MUS_SpaceBase_WallDecorplantV>
+      <rects>
+        <li>(1,9,1,9)</li>
       </rects>
       <relativeRotation>Counterclockwise</relativeRotation>
+    </MUS_SpaceBase_WallDecorplantV>
+    <MUS_SpaceBase_LadderModule>
+      <rects>
+        <li>(2,9,2,9)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </MUS_SpaceBase_LadderModule>
+    <MUS_SpaceBase_WallDecorPlants>
+      <rects>
+        <li>(3,9,3,9)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </MUS_SpaceBase_WallDecorPlants>
+    <MUS_SpaceBase_Wall>
+      <rects>
+        <li>(4,9,4,9)</li>
+        <li>(4,13,4,13)</li>
+      </rects>
+      <stuff>FT_BlocksConcrete</stuff>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </MUS_SpaceBase_Wall>
+    <MUS_SpaceBase_DoubleBed>
+      <position>(1, 0, 11)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </MUS_SpaceBase_DoubleBed>
+    <MUS_SpaceBase_Carpet>
+      <position>(3, 0, 10)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Poor</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </MUS_SpaceBase_Carpet>
+    <MUS_SpaceBase_Cabinet>
+      <position>(5, 0, 10)</position>
+      <stuff>BlocksMarble</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </MUS_SpaceBase_Cabinet>
+    <MUS_SpaceBase_LockersV>
+      <rects>
+        <li>(7,10,7,10)</li>
+      </rects>
       <stuff>BlocksMarble</stuff>
       <quality>Normal</quality>
       <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
     </MUS_SpaceBase_LockersV>
     <MUS_SpaceBase_Window>
       <rects>
-        <li>(13,8,13,8)</li>
+        <li>(7,10,7,10)</li>
       </rects>
+      <relativeRotation>Clockwise</relativeRotation>
     </MUS_SpaceBase_Window>
+    <MUS_SpaceBase_SimpleDoor>
+      <rects>
+        <li>(4,11,4,11)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </MUS_SpaceBase_SimpleDoor>
+    <MUS_SpaceBase_Carpet>
+      <position>(5, 0, 11)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </MUS_SpaceBase_Carpet>
+    <MUS_SpaceBase_DoubleBed>
+      <position>(7, 0, 11)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </MUS_SpaceBase_DoubleBed>
+    <MUS_SpaceBase_LockersV>
+      <rects>
+        <li>(1,12,1,12)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </MUS_SpaceBase_LockersV>
+    <MUS_SpaceBase_Window>
+      <rects>
+        <li>(1,12,1,12)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </MUS_SpaceBase_Window>
+    <MUS_SpaceBase_Cabinet>
+      <position>(3, 0, 12)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </MUS_SpaceBase_Cabinet>
+    <MUS_SpaceBase_WallDecorCoral>
+      <rects>
+        <li>(5,13,5,13)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </MUS_SpaceBase_WallDecorCoral>
+    <MUS_SpaceBase_LadderModule>
+      <rects>
+        <li>(6,13,6,13)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </MUS_SpaceBase_LadderModule>
+    <MUS_SpaceBase_LockersV>
+      <rects>
+        <li>(7,13,7,13)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </MUS_SpaceBase_LockersV>
+    <MUS_SpaceBase_WallDecorCoralV>
+      <rects>
+        <li>(7,13,7,13)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </MUS_SpaceBase_WallDecorCoralV>
+    <MUS_SpaceBase_MachineryModule>
+      <position>(2, 0, 14)</position>
+      <stuff>BlocksMarble</stuff>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </MUS_SpaceBase_MachineryModule>
+    <EndTable>
+      <rects>
+        <li>(6,14,6,14)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </EndTable>
+    <MUS_SpaceBase_SchoolDesk>
+      <position>(7, 0, 14)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </MUS_SpaceBase_SchoolDesk>
     <MUS_SpaceBase_MonitorModule>
-      <position>(16, 0, 8)</position>
+      <position>(1, 0, 15)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
       <stuff>BlocksMarble</stuff>
       <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
     </MUS_SpaceBase_MonitorModule>
+    <MUS_SpaceBase_Sofa>
+      <rects>
+        <li>(6,15,6,15)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </MUS_SpaceBase_Sofa>
+    <MUS_SpaceBase_WallLamp>
+      <rects>
+        <li>(7,15,7,15)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </MUS_SpaceBase_WallLamp>
+    <DiningChair>
+      <rects>
+        <li>(2,17,2,17)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </DiningChair>
+    <MUS_SpaceBase_CoralSpecimens>
+      <rects>
+        <li>(5,17,5,17)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </MUS_SpaceBase_CoralSpecimens>
+    <MUS_SpaceBase_Lockers>
+      <rects>
+        <li>(6,18,6,18)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </MUS_SpaceBase_Lockers>
+    <MUS_SpaceBase_MonitorOceanModule>
+      <position>(7, 0, 19)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </MUS_SpaceBase_MonitorOceanModule>
+    <MUS_SpaceBase_Sofa>
+      <rects>
+        <li>(6,19,6,19)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </MUS_SpaceBase_Sofa>
+    <Cooler>
+      <rects>
+        <li>(2,20,2,20)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </Cooler>
+    <MUS_SpaceBase_SmallCarpet>
+      <rects>
+        <li>(4,20,4,20)</li>
+      </rects>
+      <stuff>Cloth</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </MUS_SpaceBase_SmallCarpet>
+    <MUS_SpaceBase_DoubleSofa>
+      <position>(6, 0, 20)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </MUS_SpaceBase_DoubleSofa>
+    <MUS_SpaceBase_LadderModule>
+      <rects>
+        <li>(4,22,4,22)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </MUS_SpaceBase_LadderModule>
   </things>
   <terrain>
+    <Soil>
+      <rects>
+        <li>(0,0,4,0)</li>
+        <li>(6,0,8,1)</li>
+        <li>(0,1,3,1)</li>
+        <li>(5,1,5,1)</li>
+        <li>(0,2,0,22)</li>
+        <li>(6,2,6,3)</li>
+        <li>(8,2,8,22)</li>
+        <li>(7,4,7,4)</li>
+        <li>(1,6,3,6)</li>
+        <li>(4,9,7,9)</li>
+        <li>(4,10,4,10)</li>
+        <li>(4,12,4,13)</li>
+        <li>(1,13,3,13)</li>
+        <li>(5,16,7,16)</li>
+        <li>(1,18,1,18)</li>
+        <li>(2,19,2,22)</li>
+        <li>(1,21,1,22)</li>
+        <li>(3,21,3,22)</li>
+        <li>(5,21,7,22)</li>
+        <li>(4,22,4,22)</li>
+      </rects>
+    </Soil>
+    <Concrete>
+      <rects>
+        <li>(5,0,5,0)</li>
+        <li>(4,1,4,1)</li>
+        <li>(4,21,4,21)</li>
+      </rects>
+    </Concrete>
     <PavedTile>
       <rects>
-        <li>(3,2,9,5)</li>
-        <li>(11,2,16,4)</li>
-        <li>(18,2,21,8)</li>
-        <li>(12,5,12,8)</li>
-        <li>(15,5,17,8)</li>
-        <li>(3,6,6,8)</li>
-        <li>(8,6,11,8)</li>
-        <li>(13,6,13,8)</li>
+        <li>(1,2,5,5)</li>
+        <li>(7,2,7,3)</li>
+        <li>(6,4,6,8)</li>
+        <li>(7,5,7,8)</li>
+        <li>(4,6,5,8)</li>
+        <li>(1,7,3,12)</li>
+        <li>(5,10,7,15)</li>
+        <li>(4,11,4,11)</li>
+        <li>(1,14,4,17)</li>
+        <li>(5,17,7,20)</li>
+        <li>(2,18,4,18)</li>
+        <li>(1,19,1,20)</li>
+        <li>(3,19,4,20)</li>
       </rects>
     </PavedTile>
   </terrain>
   <terrainLayers>
     <terrainLayerDetail layer="topGrid">
-      <PavedTile>
+      <Soil>
         <rects>
-          <li>(3,2,9,5)</li>
-          <li>(11,2,16,4)</li>
-          <li>(18,2,21,8)</li>
-          <li>(12,5,12,8)</li>
-          <li>(15,5,17,8)</li>
-          <li>(3,6,6,8)</li>
-          <li>(8,6,11,8)</li>
-          <li>(13,6,13,8)</li>
+          <li>(0,0,4,0)</li>
+          <li>(6,0,8,1)</li>
+          <li>(0,1,3,1)</li>
+          <li>(5,1,5,1)</li>
+          <li>(0,2,0,22)</li>
+          <li>(6,2,6,3)</li>
+          <li>(8,2,8,22)</li>
+          <li>(7,4,7,4)</li>
+          <li>(1,6,3,6)</li>
+          <li>(4,9,7,9)</li>
+          <li>(4,10,4,10)</li>
+          <li>(4,12,4,13)</li>
+          <li>(1,13,3,13)</li>
+          <li>(5,16,7,16)</li>
+          <li>(1,18,1,18)</li>
+          <li>(2,19,2,22)</li>
+          <li>(1,21,1,22)</li>
+          <li>(3,21,3,22)</li>
+          <li>(5,21,7,22)</li>
+          <li>(4,22,4,22)</li>
         </rects>
-      </PavedTile>
+      </Soil>
       <Concrete>
         <rects>
-          <li>(2,5,2,5)</li>
-          <li>(22,5,22,5)</li>
+          <li>(5,0,5,0)</li>
+          <li>(4,1,4,1)</li>
+          <li>(4,21,4,21)</li>
         </rects>
       </Concrete>
+      <PavedTile>
+        <rects>
+          <li>(1,2,5,5)</li>
+          <li>(7,2,7,3)</li>
+          <li>(6,4,6,8)</li>
+          <li>(7,5,7,8)</li>
+          <li>(4,6,5,8)</li>
+          <li>(1,7,3,12)</li>
+          <li>(5,10,7,15)</li>
+          <li>(4,11,4,11)</li>
+          <li>(1,14,4,17)</li>
+          <li>(5,17,7,20)</li>
+          <li>(2,18,4,18)</li>
+          <li>(1,19,1,20)</li>
+          <li>(3,19,4,20)</li>
+        </rects>
+      </PavedTile>
     </terrainLayerDetail>
     <terrainLayerDetail layer="underGrid">
       <Soil>
         <rects>
-          <li>(3,2,9,5)</li>
-          <li>(11,2,16,4)</li>
-          <li>(18,2,21,8)</li>
-          <li>(2,5,2,5)</li>
-          <li>(12,5,12,8)</li>
-          <li>(15,5,17,8)</li>
-          <li>(22,5,22,5)</li>
-          <li>(3,6,6,8)</li>
-          <li>(8,6,11,8)</li>
-          <li>(13,6,13,8)</li>
+          <li>(5,0,5,0)</li>
+          <li>(4,1,4,8)</li>
+          <li>(1,2,3,5)</li>
+          <li>(5,2,5,8)</li>
+          <li>(7,2,7,3)</li>
+          <li>(6,4,6,8)</li>
+          <li>(7,5,7,8)</li>
+          <li>(1,7,3,12)</li>
+          <li>(5,10,7,15)</li>
+          <li>(4,11,4,11)</li>
+          <li>(1,14,4,17)</li>
+          <li>(5,17,7,20)</li>
+          <li>(2,18,4,18)</li>
+          <li>(1,19,1,20)</li>
+          <li>(3,19,4,20)</li>
+          <li>(4,21,4,21)</li>
         </rects>
       </Soil>
     </terrainLayerDetail>
@@ -566,39 +683,30 @@
   <roofs>
     <RoofConstructed>
       <rects>
-        <li>(2,1,22,1)</li>
-        <li>(2,2,3,9)</li>
-        <li>(5,2,22,7)</li>
-        <li>(4,3,4,9)</li>
-        <li>(5,8,19,9)</li>
-        <li>(21,8,22,8)</li>
-        <li>(20,9,21,9)</li>
+        <li>(0,1,8,2)</li>
+        <li>(0,3,6,18)</li>
+        <li>(8,3,8,21)</li>
+        <li>(7,4,7,21)</li>
+        <li>(0,19,0,21)</li>
+        <li>(2,19,6,21)</li>
+        <li>(1,20,1,21)</li>
       </rects>
     </RoofConstructed>
     <PlayerRoofZone>
       <rects>
-        <li>(5,0,6,10)</li>
-        <li>(9,0,11,10)</li>
-        <li>(13,0,15,10)</li>
-        <li>(18,0,19,10)</li>
-        <li>(21,0,23,0)</li>
-        <li>(2,1,4,1)</li>
-        <li>(7,1,8,9)</li>
-        <li>(12,1,12,9)</li>
-        <li>(16,1,17,9)</li>
-        <li>(20,1,22,7)</li>
-        <li>(2,2,3,10)</li>
-        <li>(1,3,1,4)</li>
-        <li>(4,3,4,9)</li>
-        <li>(1,6,1,10)</li>
-        <li>(21,8,22,9)</li>
-        <li>(20,9,20,9)</li>
+        <li>(0,1,8,2)</li>
+        <li>(0,3,6,18)</li>
+        <li>(8,3,8,21)</li>
+        <li>(7,4,7,21)</li>
+        <li>(0,19,0,21)</li>
+        <li>(2,19,6,21)</li>
+        <li>(1,20,1,21)</li>
       </rects>
     </PlayerRoofZone>
     <NoRoofZone>
       <rects>
-        <li>(4,2,4,2)</li>
-        <li>(20,8,20,8)</li>
+        <li>(7,3,7,3)</li>
+        <li>(1,19,1,19)</li>
       </rects>
     </NoRoofZone>
   </roofs>
