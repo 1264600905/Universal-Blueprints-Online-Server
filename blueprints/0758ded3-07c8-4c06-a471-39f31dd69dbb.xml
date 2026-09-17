@@ -1,0 +1,342 @@
+<PrefabDef>
+  <defName>Prefab_20260918_000706</defName>
+  <size>(13,13)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>仪式牧场</name>
+    <description></description>
+    <tags>
+      <li>FullExport</li>
+    </tags>
+    <author>Aoo</author>
+    <category>动物农场</category>
+    <BuildingID>0758ded3-07c8-4c06-a471-39f31dd69dbb</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>ludeon.rimworld.anomaly</packageId>
+        <name>Anomaly</name>
+        <version></version>
+        <modorder>5</modorder>
+        <things>
+          <li>PsychicRitualSpot</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.biotech</packageId>
+        <name>Biotech</name>
+        <version></version>
+        <modorder>4</modorder>
+        <things>
+          <li>BabyFood</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld</packageId>
+        <name>Core</name>
+        <version></version>
+        <modorder>1</modorder>
+        <things></things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>仪式牧场</default>
+        <zh-CN>仪式牧场</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,5,0)</li>
+        <li>(7,0,12,0)</li>
+        <li>(0,1,0,5)</li>
+        <li>(12,1,12,5)</li>
+        <li>(5,2,11,2)</li>
+        <li>(4,3,4,3)</li>
+        <li>(3,4,3,5)</li>
+        <li>(0,7,0,12)</li>
+        <li>(3,7,3,8)</li>
+        <li>(12,7,12,12)</li>
+        <li>(4,9,4,9)</li>
+        <li>(5,10,11,10)</li>
+        <li>(1,12,11,12)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Wall>
+    <HiddenConduit>
+      <rects>
+        <li>(6,0,6,12)</li>
+        <li>(12,0,12,9)</li>
+        <li>(0,6,5,6)</li>
+        <li>(7,6,11,6)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <Door>
+      <rects>
+        <li>(6,0,6,0)</li>
+        <li>(1,3,1,3)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <Door>
+      <rects>
+        <li>(2,1,2,1)</li>
+        <li>(12,6,12,6)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <Vent>
+      <rects>
+        <li>(3,1,3,1)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </Vent>
+    <AnimalBed>
+      <rects>
+        <li>(5,1,5,1)</li>
+        <li>(7,1,7,1)</li>
+        <li>(5,11,5,11)</li>
+      </rects>
+      <stuff>Cloth</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </AnimalBed>
+    <AnimalBed>
+      <rects>
+        <li>(9,1,9,1)</li>
+        <li>(11,1,11,1)</li>
+        <li>(1,11,1,11)</li>
+        <li>(9,11,9,11)</li>
+        <li>(11,11,11,11)</li>
+      </rects>
+      <stuff>Cloth</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </AnimalBed>
+    <Cooler>
+      <rects>
+        <li>(1,2,1,2)</li>
+      </rects>
+    </Cooler>
+    <Vent>
+      <rects>
+        <li>(2,2,2,2)</li>
+      </rects>
+    </Vent>
+    <AnimalBed>
+      <rects>
+        <li>(1,4,1,4)</li>
+        <li>(1,8,1,8)</li>
+        <li>(3,11,3,11)</li>
+        <li>(7,11,7,11)</li>
+      </rects>
+      <stuff>Cloth</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </AnimalBed>
+    <PsychicRitualSpot>
+      <position>(7, 0, 6)</position>
+    </PsychicRitualSpot>
+    <Autodoor>
+      <rects>
+        <li>(0,6,0,6)</li>
+        <li>(3,6,3,6)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>BlocksGranite</stuff>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Autodoor>
+    <BabyFood>
+      <rects>
+        <li>(1,6,1,6)</li>
+      </rects>
+      <stackCount>30</stackCount>
+    </BabyFood>
+    <PenMarker>
+      <rects>
+        <li>(2,6,2,6)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </PenMarker>
+  </things>
+  <terrain>
+    <Soil>
+      <rects>
+        <li>(0,0,12,0)</li>
+        <li>(0,1,0,12)</li>
+        <li>(12,1,12,5)</li>
+        <li>(5,2,11,2)</li>
+        <li>(12,7,12,12)</li>
+        <li>(5,10,11,10)</li>
+        <li>(1,12,11,12)</li>
+      </rects>
+    </Soil>
+    <StrawMatting>
+      <rects>
+        <li>(1,1,11,1)</li>
+        <li>(1,2,4,11)</li>
+        <li>(5,3,11,9)</li>
+        <li>(5,11,11,11)</li>
+      </rects>
+    </StrawMatting>
+    <TileMarble>
+      <rects>
+        <li>(12,6,12,6)</li>
+      </rects>
+    </TileMarble>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <Soil>
+        <rects>
+          <li>(0,0,12,0)</li>
+          <li>(0,1,0,12)</li>
+          <li>(12,1,12,5)</li>
+          <li>(5,2,11,2)</li>
+          <li>(12,7,12,12)</li>
+          <li>(5,10,11,10)</li>
+          <li>(1,12,11,12)</li>
+        </rects>
+      </Soil>
+      <StrawMatting>
+        <rects>
+          <li>(1,1,11,1)</li>
+          <li>(1,2,4,11)</li>
+          <li>(5,3,11,9)</li>
+          <li>(5,11,11,11)</li>
+        </rects>
+      </StrawMatting>
+      <TileMarble>
+        <rects>
+          <li>(12,6,12,6)</li>
+        </rects>
+      </TileMarble>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(1,1,11,1)</li>
+          <li>(1,2,4,11)</li>
+          <li>(5,3,11,9)</li>
+          <li>(12,6,12,6)</li>
+          <li>(5,11,11,11)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,12,0)</li>
+        <li>(0,1,1,12)</li>
+        <li>(3,1,12,2)</li>
+        <li>(2,2,2,12)</li>
+        <li>(3,3,3,12)</li>
+        <li>(10,3,12,12)</li>
+        <li>(4,10,9,12)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,12,0)</li>
+        <li>(0,1,1,12)</li>
+        <li>(3,1,12,2)</li>
+        <li>(2,2,2,12)</li>
+        <li>(3,3,3,12)</li>
+        <li>(10,3,12,12)</li>
+        <li>(4,10,9,12)</li>
+      </rects>
+    </PlayerRoofZone>
+    <NoRoofZone>
+      <rects>
+        <li>(2,1,2,1)</li>
+        <li>(4,3,9,9)</li>
+      </rects>
+    </NoRoofZone>
+  </roofs>
+  <pawns>
+    <pawn>
+      <name>公马 2</name>
+      <position>(5, 0, 1)</position>
+      <data><![CDATA[公马 2*Horse*无神帝国|PlayerColony*公马 2*2434427*8783707*1***0*****FF-FF-FF-FF*FF-FF-FF-FF*-1*FF-FF-FF-FF*FF-FF-FF-FF*FF-FF-FF-FF**********Kills|0:KillsHumanlikes|0:KillsAnimals|0:KillsMechanoids|0:PawnsDowned|0:PawnsDownedHumanlikes|0:PawnsDownedAnimals|0:PawnsDownedMechanoids|0:ShotsFired|0:Headshots|0:DamageDealt|0:DamageTaken|0:TimesInMentalState|0:TimesOnFire|0:FiresExtinguished|0:OperationsReceived|0:OperationsPerformed|0:TimesTendedTo|0:TimesTendedOther|0:PeopleCaptured|0:PrisonersRecruited|0:PrisonersChatted|0:AnimalsTamed|0:AnimalsSlaughtered|0:MealsCooked|0:ThingsConstructed|0:ThingsInstalled|0:ThingsRepaired|0:ThingsCrafted|0:ThingsHauled|0:PlantsSown|0:PlantsHarvested|0:CellsMined|0:MessesCleaned|0:ResearchPointsResearched|0:CorpsesBuried|0:NutritionEaten|21.99232:BodiesStripped|0:ThingsUninstalled|0:ThingsDeconstructed|0:ArtifactsActivated|0:ContainersOpened|0:SwitchesFlicked|0:TimeAsColonistOrColonyAnimal|2434480:TimeAsQuestLodger|0:TimeAsPrisoner|0:TimeInBed|106080:TimeInBedForMedicalReasons|0:TimeDowned|0:TimeGettingFood|12240:TimeGettingJoy|0:TimeUnderRoof|2088960:TimeDrafted|0:TimeOnFire|0:TimeInMentalState|0:TimeHauling|0:TimeHandlingAnimals|0:TimeFirefighting|0:TimeWardening|0:TimeHunting|0:TimeConstructing|0:TimeTreatingAndFeeding|0:TimeResearching|0:TimeCleaning|0:TimeRepairing|0:TimeMining|0:TimeSowingAndHarvesting|0:TimeAsChildInColony|0:KillsEntities|0:PawnsDownedEntities|0*Food|0.3771753:Rest|0.7536096***Parent|母马 2|8716207:Parent|公马 1|8716207*****0*0**FF-FF-FF-FF***[ludeon.rimworld]*********FF-FF-FF-FF***]]></data>
+    </pawn>
+    <pawn>
+      <name>母马 4</name>
+      <position>(7, 0, 1)</position>
+      <data><![CDATA[母马 4*Horse*无神帝国|PlayerColony*母马 4*5654396*5563747*2***0*****FF-FF-FF-FF*FF-FF-FF-FF*-1*FF-FF-FF-FF*FF-FF-FF-FF*FF-FF-FF-FF***Pregnant|0.3648371|||0|-1|-1|-1|:Malnutrition|0.5907073|||0|-1|-1|-1|*******Kills|0:KillsHumanlikes|0:KillsAnimals|0:KillsMechanoids|0:PawnsDowned|0:PawnsDownedHumanlikes|0:PawnsDownedAnimals|0:PawnsDownedMechanoids|0:ShotsFired|0:Headshots|0:DamageDealt|0:DamageTaken|0:TimesInMentalState|0:TimesOnFire|0:FiresExtinguished|0:OperationsReceived|0:OperationsPerformed|0:TimesTendedTo|0:TimesTendedOther|0:PeopleCaptured|0:PrisonersRecruited|0:PrisonersChatted|0:AnimalsTamed|0:AnimalsSlaughtered|0:MealsCooked|0:ThingsConstructed|0:ThingsInstalled|0:ThingsRepaired|0:ThingsCrafted|0:ThingsHauled|0:PlantsSown|0:PlantsHarvested|0:CellsMined|0:MessesCleaned|0:ResearchPointsResearched|0:CorpsesBuried|0:NutritionEaten|65.40865:BodiesStripped|0:ThingsUninstalled|0:ThingsDeconstructed|0:ArtifactsActivated|0:ContainersOpened|0:SwitchesFlicked|0:TimeAsColonistOrColonyAnimal|5654400:TimeAsQuestLodger|0:TimeAsPrisoner|0:TimeInBed|88560:TimeInBedForMedicalReasons|0:TimeDowned|0:TimeGettingFood|35200:TimeGettingJoy|0:TimeUnderRoof|4942160:TimeDrafted|0:TimeOnFire|0:TimeInMentalState|0:TimeHauling|0:TimeHandlingAnimals|0:TimeFirefighting|0:TimeWardening|0:TimeHunting|0:TimeConstructing|0:TimeTreatingAndFeeding|0:TimeResearching|0:TimeCleaning|0:TimeRepairing|0:TimeMining|0:TimeSowingAndHarvesting|0:TimeAsChildInColony|0:KillsEntities|0:PawnsDownedEntities|0*Food|0.2832724:Rest|0.7334559***Parent|母马 2|5496247*****0*0**FF-FF-FF-FF***[ludeon.rimworld]*********FF-FF-FF-FF***]]></data>
+    </pawn>
+    <pawn>
+      <name>公马 6</name>
+      <position>(9, 0, 1)</position>
+      <data><![CDATA[公马 6*Horse*无神帝国|PlayerColony*公马 6*1487698*9730435*1***0*****FF-FF-FF-FF*FF-FF-FF-FF*-1*FF-FF-FF-FF*FF-FF-FF-FF*FF-FF-FF-FF**********Kills|0:KillsHumanlikes|0:KillsAnimals|0:KillsMechanoids|0:PawnsDowned|0:PawnsDownedHumanlikes|0:PawnsDownedAnimals|0:PawnsDownedMechanoids|0:ShotsFired|0:Headshots|0:DamageDealt|0:DamageTaken|0:TimesInMentalState|0:TimesOnFire|0:FiresExtinguished|0:OperationsReceived|0:OperationsPerformed|0:TimesTendedTo|0:TimesTendedOther|0:PeopleCaptured|0:PrisonersRecruited|0:PrisonersChatted|0:AnimalsTamed|0:AnimalsSlaughtered|0:MealsCooked|0:ThingsConstructed|0:ThingsInstalled|0:ThingsRepaired|0:ThingsCrafted|0:ThingsHauled|0:PlantsSown|0:PlantsHarvested|0:CellsMined|0:MessesCleaned|0:ResearchPointsResearched|0:CorpsesBuried|0:NutritionEaten|11.4:BodiesStripped|0:ThingsUninstalled|0:ThingsDeconstructed|0:ArtifactsActivated|0:ContainersOpened|0:SwitchesFlicked|0:TimeAsColonistOrColonyAnimal|1487680:TimeAsQuestLodger|0:TimeAsPrisoner|0:TimeInBed|57920:TimeInBedForMedicalReasons|0:TimeDowned|0:TimeGettingFood|6400:TimeGettingJoy|0:TimeUnderRoof|1166720:TimeDrafted|0:TimeOnFire|0:TimeInMentalState|0:TimeHauling|0:TimeHandlingAnimals|0:TimeFirefighting|0:TimeWardening|0:TimeHunting|0:TimeConstructing|0:TimeTreatingAndFeeding|0:TimeResearching|0:TimeCleaning|0:TimeRepairing|0:TimeMining|0:TimeSowingAndHarvesting|0:TimeAsChildInColony|0:KillsEntities|0:PawnsDownedEntities|0*Food|0.5684242:Rest|0.6651773***Parent|母马 6|9662935:Parent|公马 5|9662935*****0*0**FF-FF-FF-FF***[ludeon.rimworld]*********FF-FF-FF-FF***]]></data>
+    </pawn>
+    <pawn>
+      <name>母马 8</name>
+      <position>(11, 0, 1)</position>
+      <data><![CDATA[母马 8*Horse*无神帝国|PlayerColony*母马 8*1687572*9530569*2***0*****FF-FF-FF-FF*FF-FF-FF-FF*-1*FF-FF-FF-FF*FF-FF-FF-FF*FF-FF-FF-FF***Pregnant|0.9840041|||0|-1|-1|-1|*******Kills|0:KillsHumanlikes|0:KillsAnimals|0:KillsMechanoids|0:PawnsDowned|0:PawnsDownedHumanlikes|0:PawnsDownedAnimals|0:PawnsDownedMechanoids|0:ShotsFired|0:Headshots|0:DamageDealt|0:DamageTaken|0:TimesInMentalState|0:TimesOnFire|0:FiresExtinguished|0:OperationsReceived|0:OperationsPerformed|0:TimesTendedTo|0:TimesTendedOther|0:PeopleCaptured|0:PrisonersRecruited|0:PrisonersChatted|0:AnimalsTamed|0:AnimalsSlaughtered|0:MealsCooked|0:ThingsConstructed|0:ThingsInstalled|0:ThingsRepaired|0:ThingsCrafted|0:ThingsHauled|0:PlantsSown|0:PlantsHarvested|0:CellsMined|0:MessesCleaned|0:ResearchPointsResearched|0:CorpsesBuried|0:NutritionEaten|14.9:BodiesStripped|0:ThingsUninstalled|0:ThingsDeconstructed|0:ArtifactsActivated|0:ContainersOpened|0:SwitchesFlicked|0:TimeAsColonistOrColonyAnimal|1687600:TimeAsQuestLodger|0:TimeAsPrisoner|0:TimeInBed|55760:TimeInBedForMedicalReasons|0:TimeDowned|0:TimeGettingFood|8480:TimeGettingJoy|0:TimeUnderRoof|1403360:TimeDrafted|0:TimeOnFire|0:TimeInMentalState|0:TimeHauling|0:TimeHandlingAnimals|0:TimeFirefighting|0:TimeWardening|0:TimeHunting|0:TimeConstructing|0:TimeTreatingAndFeeding|0:TimeResearching|0:TimeCleaning|0:TimeRepairing|0:TimeMining|0:TimeSowingAndHarvesting|0:TimeAsChildInColony|0:KillsEntities|0:PawnsDownedEntities|0*Food|0.5684242:Rest|0.652338***Parent|公马 5|9463069*****0*0**FF-FF-FF-FF***[ludeon.rimworld]*********FF-FF-FF-FF***]]></data>
+    </pawn>
+    <pawn>
+      <name>母马 6</name>
+      <position>(1, 0, 4)</position>
+      <data><![CDATA[母马 6*Horse*无神帝国|PlayerColony*母马 6*3591172*7626963*2***0*****FF-FF-FF-FF*FF-FF-FF-FF*-1*FF-FF-FF-FF*FF-FF-FF-FF*FF-FF-FF-FF***Pregnant|0.3864876|||0|-1|-1|-1|:Malnutrition|0.007539719|||0|-1|-1|-1|*******Kills|0:KillsHumanlikes|0:KillsAnimals|0:KillsMechanoids|0:PawnsDowned|0:PawnsDownedHumanlikes|0:PawnsDownedAnimals|0:PawnsDownedMechanoids|0:ShotsFired|0:Headshots|0:DamageDealt|0:DamageTaken|0:TimesInMentalState|0:TimesOnFire|0:FiresExtinguished|0:OperationsReceived|0:OperationsPerformed|0:TimesTendedTo|0:TimesTendedOther|0:PeopleCaptured|0:PrisonersRecruited|0:PrisonersChatted|0:AnimalsTamed|0:AnimalsSlaughtered|0:MealsCooked|0:ThingsConstructed|0:ThingsInstalled|0:ThingsRepaired|0:ThingsCrafted|0:ThingsHauled|0:PlantsSown|0:PlantsHarvested|0:CellsMined|0:MessesCleaned|0:ResearchPointsResearched|0:CorpsesBuried|0:NutritionEaten|38.09972:BodiesStripped|0:ThingsUninstalled|0:ThingsDeconstructed|0:ArtifactsActivated|0:ContainersOpened|0:SwitchesFlicked|0:TimeAsColonistOrColonyAnimal|3591200:TimeAsQuestLodger|0:TimeAsPrisoner|0:TimeInBed|92000:TimeInBedForMedicalReasons|0:TimeDowned|0:TimeGettingFood|20800:TimeGettingJoy|0:TimeUnderRoof|3094880:TimeDrafted|0:TimeOnFire|0:TimeInMentalState|0:TimeHauling|0:TimeHandlingAnimals|0:TimeFirefighting|0:TimeWardening|0:TimeHunting|0:TimeConstructing|0:TimeTreatingAndFeeding|0:TimeResearching|0:TimeCleaning|0:TimeRepairing|0:TimeMining|0:TimeSowingAndHarvesting|0:TimeAsChildInColony|0:KillsEntities|0:PawnsDownedEntities|0*Food|0.2745586:Rest|0.7073618***Parent|母马 4|7559463:Parent|公马 1|7559463*****0*0**FF-FF-FF-FF***[ludeon.rimworld]*********FF-FF-FF-FF***]]></data>
+    </pawn>
+    <pawn>
+      <name>公马 4</name>
+      <position>(1, 0, 8)</position>
+      <data><![CDATA[公马 4*Horse*无神帝国|PlayerColony*公马 4*1548575*9669562*1***0*****FF-FF-FF-FF*FF-FF-FF-FF*-1*FF-FF-FF-FF*FF-FF-FF-FF*FF-FF-FF-FF**********Kills|0:KillsHumanlikes|0:KillsAnimals|0:KillsMechanoids|0:PawnsDowned|0:PawnsDownedHumanlikes|0:PawnsDownedAnimals|0:PawnsDownedMechanoids|0:ShotsFired|0:Headshots|0:DamageDealt|0:DamageTaken|0:TimesInMentalState|0:TimesOnFire|0:FiresExtinguished|0:OperationsReceived|0:OperationsPerformed|0:TimesTendedTo|0:TimesTendedOther|0:PeopleCaptured|0:PrisonersRecruited|0:PrisonersChatted|0:AnimalsTamed|0:AnimalsSlaughtered|0:MealsCooked|0:ThingsConstructed|0:ThingsInstalled|0:ThingsRepaired|0:ThingsCrafted|0:ThingsHauled|0:PlantsSown|0:PlantsHarvested|0:CellsMined|0:MessesCleaned|0:ResearchPointsResearched|0:CorpsesBuried|0:NutritionEaten|11.00803:BodiesStripped|0:ThingsUninstalled|0:ThingsDeconstructed|0:ArtifactsActivated|0:ContainersOpened|0:SwitchesFlicked|0:TimeAsColonistOrColonyAnimal|1548560:TimeAsQuestLodger|0:TimeAsPrisoner|0:TimeInBed|91920:TimeInBedForMedicalReasons|0:TimeDowned|0:TimeGettingFood|6800:TimeGettingJoy|0:TimeUnderRoof|1138880:TimeDrafted|0:TimeOnFire|0:TimeInMentalState|0:TimeHauling|0:TimeHandlingAnimals|0:TimeFirefighting|0:TimeWardening|0:TimeHunting|0:TimeConstructing|0:TimeTreatingAndFeeding|0:TimeResearching|0:TimeCleaning|0:TimeRepairing|0:TimeMining|0:TimeSowingAndHarvesting|0:TimeAsChildInColony|0:KillsEntities|0:PawnsDownedEntities|0*Food|0.4500176:Rest|0.7159082***Parent|母马 2|9602062:Parent|公马 5|9602062*****0*0**FF-FF-FF-FF***[ludeon.rimworld]*********FF-FF-FF-FF***]]></data>
+    </pawn>
+    <pawn>
+      <name>公马 5</name>
+      <position>(1, 0, 11)</position>
+      <data><![CDATA[公马 5*Horse*无神帝国|PlayerColony*公马 5*3634258*7583887*1***0*****FF-FF-FF-FF*FF-FF-FF-FF*-1*FF-FF-FF-FF*FF-FF-FF-FF*FF-FF-FF-FF**********Kills|0:KillsHumanlikes|0:KillsAnimals|0:KillsMechanoids|0:PawnsDowned|0:PawnsDownedHumanlikes|0:PawnsDownedAnimals|0:PawnsDownedMechanoids|0:ShotsFired|0:Headshots|0:DamageDealt|0:DamageTaken|0:TimesInMentalState|0:TimesOnFire|0:FiresExtinguished|0:OperationsReceived|0:OperationsPerformed|0:TimesTendedTo|0:TimesTendedOther|0:PeopleCaptured|0:PrisonersRecruited|0:PrisonersChatted|0:AnimalsTamed|0:AnimalsSlaughtered|0:MealsCooked|0:ThingsConstructed|0:ThingsInstalled|0:ThingsRepaired|0:ThingsCrafted|0:ThingsHauled|0:PlantsSown|0:PlantsHarvested|0:CellsMined|0:MessesCleaned|0:ResearchPointsResearched|0:CorpsesBuried|0:NutritionEaten|40.59557:BodiesStripped|0:ThingsUninstalled|0:ThingsDeconstructed|0:ArtifactsActivated|0:ContainersOpened|0:SwitchesFlicked|0:TimeAsColonistOrColonyAnimal|3634240:TimeAsQuestLodger|0:TimeAsPrisoner|0:TimeInBed|74560:TimeInBedForMedicalReasons|0:TimeDowned|0:TimeGettingFood|18400:TimeGettingJoy|0:TimeUnderRoof|3248160:TimeDrafted|0:TimeOnFire|0:TimeInMentalState|0:TimeHauling|0:TimeHandlingAnimals|0:TimeFirefighting|0:TimeWardening|0:TimeHunting|0:TimeConstructing|0:TimeTreatingAndFeeding|0:TimeResearching|0:TimeCleaning|0:TimeRepairing|0:TimeMining|0:TimeSowingAndHarvesting|0:TimeAsChildInColony|0:KillsEntities|0:PawnsDownedEntities|0*Food|0.5639658:Rest|0.6765167***Parent|公马 1|7516387*****0*0**FF-FF-FF-FF***[ludeon.rimworld]*********FF-FF-FF-FF***]]></data>
+    </pawn>
+    <pawn>
+      <name>公马 3</name>
+      <position>(3, 0, 11)</position>
+      <data><![CDATA[公马 3*Horse*无神帝国|PlayerColony*公马 3*2578092*8640048*1***0*****FF-FF-FF-FF*FF-FF-FF-FF*-1*FF-FF-FF-FF*FF-FF-FF-FF*FF-FF-FF-FF***Malnutrition|0.2480939|||0|-1|-1|-1|*******Kills|0:KillsHumanlikes|0:KillsAnimals|0:KillsMechanoids|0:PawnsDowned|0:PawnsDownedHumanlikes|0:PawnsDownedAnimals|0:PawnsDownedMechanoids|0:ShotsFired|0:Headshots|0:DamageDealt|0:DamageTaken|0:TimesInMentalState|0:TimesOnFire|0:FiresExtinguished|0:OperationsReceived|0:OperationsPerformed|0:TimesTendedTo|0:TimesTendedOther|0:PeopleCaptured|0:PrisonersRecruited|0:PrisonersChatted|0:AnimalsTamed|0:AnimalsSlaughtered|0:MealsCooked|0:ThingsConstructed|0:ThingsInstalled|0:ThingsRepaired|0:ThingsCrafted|0:ThingsHauled|0:PlantsSown|0:PlantsHarvested|0:CellsMined|0:MessesCleaned|0:ResearchPointsResearched|0:CorpsesBuried|0:NutritionEaten|23.79476:BodiesStripped|0:ThingsUninstalled|0:ThingsDeconstructed|0:ArtifactsActivated|0:ContainersOpened|0:SwitchesFlicked|0:TimeAsColonistOrColonyAnimal|2578080:TimeAsQuestLodger|0:TimeAsPrisoner|0:TimeInBed|109440:TimeInBedForMedicalReasons|0:TimeDowned|0:TimeGettingFood|16480:TimeGettingJoy|0:TimeUnderRoof|2220720:TimeDrafted|0:TimeOnFire|0:TimeInMentalState|0:TimeHauling|0:TimeHandlingAnimals|0:TimeFirefighting|0:TimeWardening|0:TimeHunting|0:TimeConstructing|0:TimeTreatingAndFeeding|0:TimeResearching|0:TimeCleaning|0:TimeRepairing|0:TimeMining|0:TimeSowingAndHarvesting|0:TimeAsChildInColony|0:KillsEntities|0:PawnsDownedEntities|0*Food|0.2886225:Rest|0.7394509***Parent|母马 4|8572548:Parent|公马 1|8572548*****0*0**FF-FF-FF-FF***[ludeon.rimworld]*********FF-FF-FF-FF***]]></data>
+    </pawn>
+    <pawn>
+      <name>母马 2</name>
+      <position>(5, 0, 11)</position>
+      <data><![CDATA[母马 2*Horse*无神帝国|PlayerColony*母马 2*32318307*-21100175*2***0*****FF-FF-FF-FF*FF-FF-FF-FF*-1*FF-FF-FF-FF*FF-FF-FF-FF*FF-FF-FF-FF***Pregnant|0.8214366|||0|-1|-1|-1|*******Kills|0:KillsHumanlikes|0:KillsAnimals|0:KillsMechanoids|0:PawnsDowned|0:PawnsDownedHumanlikes|0:PawnsDownedAnimals|0:PawnsDownedMechanoids|0:ShotsFired|0:Headshots|0:DamageDealt|0:DamageTaken|0:TimesInMentalState|1:TimesOnFire|0:FiresExtinguished|0:OperationsReceived|0:OperationsPerformed|0:TimesTendedTo|2:TimesTendedOther|0:PeopleCaptured|0:PrisonersRecruited|0:PrisonersChatted|0:AnimalsTamed|0:AnimalsSlaughtered|0:MealsCooked|0:ThingsConstructed|0:ThingsInstalled|0:ThingsRepaired|0:ThingsCrafted|0:ThingsHauled|0:PlantsSown|0:PlantsHarvested|0:CellsMined|0:MessesCleaned|0:ResearchPointsResearched|0:CorpsesBuried|0:NutritionEaten|147.542:BodiesStripped|0:ThingsUninstalled|0:ThingsDeconstructed|0:ArtifactsActivated|0:ContainersOpened|0:SwitchesFlicked|0:TimeAsColonistOrColonyAnimal|8562400:TimeAsQuestLodger|0:TimeAsPrisoner|0:TimeInBed|71360:TimeInBedForMedicalReasons|0:TimeDowned|0:TimeGettingFood|96000:TimeGettingJoy|0:TimeUnderRoof|6952240:TimeDrafted|0:TimeOnFire|0:TimeInMentalState|7600:TimeHauling|0:TimeHandlingAnimals|0:TimeFirefighting|0:TimeWardening|0:TimeHunting|0:TimeConstructing|0:TimeTreatingAndFeeding|0:TimeResearching|0:TimeCleaning|0:TimeRepairing|0:TimeMining|0:TimeSowingAndHarvesting|0:TimeAsChildInColony|0:KillsEntities|0:PawnsDownedEntities|0*Food|0.3409982:Rest|0.711538********0*0**FF-FF-FF-FF***[ludeon.rimworld]*********FF-FF-FF-FF***]]></data>
+    </pawn>
+    <pawn>
+      <name>母马 7</name>
+      <position>(7, 0, 11)</position>
+      <data><![CDATA[母马 7*Horse*无神帝国|PlayerColony*母马 7*1739829*9478308*2***0*****FF-FF-FF-FF*FF-FF-FF-FF*-1*FF-FF-FF-FF*FF-FF-FF-FF*FF-FF-FF-FF***Pregnant|0.8450507|||0|-1|-1|-1|:Malnutrition|0.09367296|||0|-1|-1|-1|*******Kills|0:KillsHumanlikes|0:KillsAnimals|0:KillsMechanoids|0:PawnsDowned|0:PawnsDownedHumanlikes|0:PawnsDownedAnimals|0:PawnsDownedMechanoids|0:ShotsFired|0:Headshots|0:DamageDealt|0:DamageTaken|0:TimesInMentalState|0:TimesOnFire|0:FiresExtinguished|0:OperationsReceived|0:OperationsPerformed|0:TimesTendedTo|0:TimesTendedOther|0:PeopleCaptured|0:PrisonersRecruited|0:PrisonersChatted|0:AnimalsTamed|0:AnimalsSlaughtered|0:MealsCooked|0:ThingsConstructed|0:ThingsInstalled|0:ThingsRepaired|0:ThingsCrafted|0:ThingsHauled|0:PlantsSown|0:PlantsHarvested|0:CellsMined|0:MessesCleaned|0:ResearchPointsResearched|0:CorpsesBuried|0:NutritionEaten|12.90939:BodiesStripped|0:ThingsUninstalled|0:ThingsDeconstructed|0:ArtifactsActivated|0:ContainersOpened|0:SwitchesFlicked|0:TimeAsColonistOrColonyAnimal|1739840:TimeAsQuestLodger|0:TimeAsPrisoner|0:TimeInBed|109440:TimeInBedForMedicalReasons|0:TimeDowned|0:TimeGettingFood|10000:TimeGettingJoy|0:TimeUnderRoof|1351360:TimeDrafted|0:TimeOnFire|0:TimeInMentalState|0:TimeHauling|0:TimeHandlingAnimals|0:TimeFirefighting|0:TimeWardening|0:TimeHunting|0:TimeConstructing|0:TimeTreatingAndFeeding|0:TimeResearching|0:TimeCleaning|0:TimeRepairing|0:TimeMining|0:TimeSowingAndHarvesting|0:TimeAsChildInColony|0:KillsEntities|0:PawnsDownedEntities|0*Food|0.3623144:Rest|0.7574973***Parent|母马 4|9410808:Parent|公马 5|9410808*****0*0**FF-FF-FF-FF***[ludeon.rimworld]*********FF-FF-FF-FF***]]></data>
+    </pawn>
+    <pawn>
+      <name>公马 1</name>
+      <position>(9, 0, 11)</position>
+      <data><![CDATA[公马 1*Horse*无神帝国|PlayerColony*公马 1*69444612*-58226478*1***0*****FF-FF-FF-FF*FF-FF-FF-FF*-1*FF-FF-FF-FF*FF-FF-FF-FF*FF-FF-FF-FF***Dementia|0.001|Brain|12|0|-1|-1|-1|*******Kills|0:KillsHumanlikes|0:KillsAnimals|0:KillsMechanoids|0:PawnsDowned|0:PawnsDownedHumanlikes|0:PawnsDownedAnimals|0:PawnsDownedMechanoids|0:ShotsFired|0:Headshots|0:DamageDealt|0:DamageTaken|4:TimesInMentalState|18:TimesOnFire|1:FiresExtinguished|0:OperationsReceived|0:OperationsPerformed|0:TimesTendedTo|0:TimesTendedOther|0:PeopleCaptured|0:PrisonersRecruited|0:PrisonersChatted|0:AnimalsTamed|0:AnimalsSlaughtered|0:MealsCooked|0:ThingsConstructed|0:ThingsInstalled|0:ThingsRepaired|0:ThingsCrafted|0:ThingsHauled|0:PlantsSown|0:PlantsHarvested|0:CellsMined|0:MessesCleaned|0:ResearchPointsResearched|0:CorpsesBuried|0:NutritionEaten|154.052:BodiesStripped|0:ThingsUninstalled|0:ThingsDeconstructed|0:ArtifactsActivated|0:ContainersOpened|0:SwitchesFlicked|0:TimeAsColonistOrColonyAnimal|5137200:TimeAsQuestLodger|0:TimeAsPrisoner|0:TimeInBed|106880:TimeInBedForMedicalReasons|0:TimeDowned|20800:TimeGettingFood|158720:TimeGettingJoy|0:TimeUnderRoof|4409920:TimeDrafted|0:TimeOnFire|80:TimeInMentalState|284800:TimeHauling|0:TimeHandlingAnimals|0:TimeFirefighting|0:TimeWardening|0:TimeHunting|0:TimeConstructing|0:TimeTreatingAndFeeding|0:TimeResearching|0:TimeCleaning|0:TimeRepairing|0:TimeMining|0:TimeSowingAndHarvesting|0:TimeAsChildInColony|0:KillsEntities|0:PawnsDownedEntities|0*Food|0.4306738:Rest|0.6590166********0*0**FF-FF-FF-FF***[ludeon.rimworld]*********FF-FF-FF-FF***]]></data>
+    </pawn>
+    <pawn>
+      <name>马驹 1</name>
+      <position>(11, 0, 11)</position>
+      <data><![CDATA[马驹 1*Horse*无神帝国|PlayerColony*马驹 1*407025*10811118*1***0*****FF-FF-FF-FF*FF-FF-FF-FF*-1*FF-FF-FF-FF*FF-FF-FF-FF*FF-FF-FF-FF**********Kills|0:KillsHumanlikes|0:KillsAnimals|0:KillsMechanoids|0:PawnsDowned|0:PawnsDownedHumanlikes|0:PawnsDownedAnimals|0:PawnsDownedMechanoids|0:ShotsFired|0:Headshots|0:DamageDealt|0:DamageTaken|0:TimesInMentalState|0:TimesOnFire|0:FiresExtinguished|0:OperationsReceived|0:OperationsPerformed|0:TimesTendedTo|0:TimesTendedOther|0:PeopleCaptured|0:PrisonersRecruited|0:PrisonersChatted|0:AnimalsTamed|0:AnimalsSlaughtered|0:MealsCooked|0:ThingsConstructed|0:ThingsInstalled|0:ThingsRepaired|0:ThingsCrafted|0:ThingsHauled|0:PlantsSown|0:PlantsHarvested|0:CellsMined|0:MessesCleaned|0:ResearchPointsResearched|0:CorpsesBuried|0:NutritionEaten|2.907218:BodiesStripped|0:ThingsUninstalled|0:ThingsDeconstructed|0:ArtifactsActivated|0:ContainersOpened|0:SwitchesFlicked|0:TimeAsColonistOrColonyAnimal|407040:TimeAsQuestLodger|0:TimeAsPrisoner|0:TimeInBed|72720:TimeInBedForMedicalReasons|0:TimeDowned|0:TimeGettingFood|3360:TimeGettingJoy|0:TimeUnderRoof|282240:TimeDrafted|0:TimeOnFire|0:TimeInMentalState|0:TimeHauling|0:TimeHandlingAnimals|0:TimeFirefighting|0:TimeWardening|0:TimeHunting|0:TimeConstructing|0:TimeTreatingAndFeeding|0:TimeResearching|0:TimeCleaning|0:TimeRepairing|0:TimeMining|0:TimeSowingAndHarvesting|0:TimeAsChildInColony|0:KillsEntities|0:PawnsDownedEntities|0*Food|0.7093024:Rest|0.6699274***Parent|母马 4|10743618:Parent|公马 5|10743618*****0*0**FF-FF-FF-FF***[ludeon.rimworld]*********FF-FF-FF-FF***]]></data>
+    </pawn>
+  </pawns>
+  <StorageAreaSettings>
+    <myStorageAreaSettings>
+      <SettingName>储存区 5</SettingName>
+      <PresetType>DefaultStockpile</PresetType>
+      <positions>
+        <li>(1,6,1,6)</li>
+      </positions>
+      <data><![CDATA[Version:1
+allowedDefs:BabyFood
+allowedHitPointsPercents:0.0000:1.0000
+allowedQualities:Awful:Legendary
+disallowedSpecialFilters:
+Priority:Critical
+]]></data>
+    </myStorageAreaSettings>
+  </StorageAreaSettings>
+</PrefabDef>
