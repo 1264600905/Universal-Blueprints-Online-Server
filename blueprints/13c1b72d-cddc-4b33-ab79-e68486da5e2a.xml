@@ -1,0 +1,474 @@
+<PrefabDef>
+  <defName>Prefab_20260918_081200</defName>
+  <size>(13,13)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>医疗室</name>
+    <description></description>
+    <tags>
+      <li>FullExport</li>
+    </tags>
+    <author>Ao</author>
+    <category>基地蓝图</category>
+    <BuildingID>13c1b72d-cddc-4b33-ab79-e68486da5e2a</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>ludeon.rimworld.biotech</packageId>
+        <name>Biotech</name>
+        <version></version>
+        <modorder>4</modorder>
+        <things>
+          <li>SubcoreRipscanner</li>
+          <li>GeneExtractor</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.ideology</packageId>
+        <name>Ideology</name>
+        <version></version>
+        <modorder>3</modorder>
+        <things>
+          <li>Tile_Transhumanist</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.anomaly</packageId>
+        <name>Anomaly</name>
+        <version></version>
+        <modorder>5</modorder>
+        <things>
+          <li>BioferritePlate</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>医疗室</default>
+        <zh-CN>医疗室</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,2,0)</li>
+        <li>(4,0,8,0)</li>
+        <li>(10,0,12,0)</li>
+        <li>(0,1,0,4)</li>
+        <li>(6,1,6,4)</li>
+        <li>(12,1,12,4)</li>
+        <li>(0,6,4,6)</li>
+        <li>(6,6,6,6)</li>
+        <li>(8,6,12,6)</li>
+        <li>(0,7,0,12)</li>
+        <li>(12,7,12,12)</li>
+        <li>(1,12,5,12)</li>
+        <li>(7,12,11,12)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </Wall>
+    <Door>
+      <rects>
+        <li>(3,0,3,0)</li>
+        <li>(9,0,9,0)</li>
+        <li>(6,12,6,12)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <HiddenConduit>
+      <rects>
+        <li>(6,0,6,12)</li>
+        <li>(0,6,5,6)</li>
+        <li>(7,6,12,6)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <Bed>
+      <position>(2, 0, 1)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed>
+    <Heater>
+      <rects>
+        <li>(4,1,4,1)</li>
+        <li>(7,4,7,4)</li>
+        <li>(6,7,6,7)</li>
+      </rects>
+    </Heater>
+    <Table1x2c>
+      <position>(5, 0, 1)</position>
+      <stuff>WoodLog</stuff>
+      <quality>Poor</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Table1x2c>
+    <Shelf>
+      <positions>
+        <li>(8, 0, 2)</li>
+        <li>(5, 0, 11)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Shelf>
+    <SubcoreRipscanner>
+      <position>(10, 0, 2)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </SubcoreRipscanner>
+    <Bed>
+      <position>(2, 0, 2)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed>
+    <DiningChair>
+      <rects>
+        <li>(4,2,4,2)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DiningChair>
+    <Dresser>
+      <position>(2, 0, 3)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Dresser>
+    <ChessTable>
+      <rects>
+        <li>(4,3,4,3)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </ChessTable>
+    <DiningChair>
+      <rects>
+        <li>(5,3,5,3)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DiningChair>
+    <HospitalBed>
+      <position>(8, 0, 3)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HospitalBed>
+    <Bed>
+      <position>(2, 0, 4)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed>
+    <Bed>
+      <position>(4, 0, 4)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed>
+    <VitalsMonitor>
+      <rects>
+        <li>(8,4,8,4)</li>
+        <li>(2,8,2,8)</li>
+        <li>(6,8,6,8)</li>
+        <li>(10,8,10,8)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </VitalsMonitor>
+    <GeneExtractor>
+      <position>(11, 0, 4)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </GeneExtractor>
+    <Cooler>
+      <rects>
+        <li>(0,5,0,5)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </Cooler>
+    <Bed>
+      <position>(2, 0, 5)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed>
+    <WallLamp>
+      <rects>
+        <li>(3,5,3,5)</li>
+        <li>(9,5,9,5)</li>
+      </rects>
+      <glowColor>RGBA(0.898, 0.000, 0.298, 1.000)</glowColor>
+    </WallLamp>
+    <Bed>
+      <position>(4, 0, 5)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed>
+    <Vent>
+      <rects>
+        <li>(6,5,6,5)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </Vent>
+    <HospitalBed>
+      <position>(8, 0, 5)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HospitalBed>
+    <Cooler>
+      <rects>
+        <li>(12,5,12,5)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </Cooler>
+    <Vent>
+      <rects>
+        <li>(5,6,5,6)</li>
+        <li>(7,6,7,6)</li>
+      </rects>
+    </Vent>
+    <HospitalBed>
+      <positions>
+        <li>(1, 0, 8)</li>
+        <li>(5, 0, 8)</li>
+        <li>(7, 0, 8)</li>
+        <li>(9, 0, 8)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HospitalBed>
+    <HospitalBed>
+      <position>(3, 0, 8)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Legendary</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HospitalBed>
+    <WallLamp>
+      <rects>
+        <li>(6,7,6,7)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <glowColor>RGBA(0.898, 0.000, 0.298, 1.000)</glowColor>
+    </WallLamp>
+    <HospitalBed>
+      <position>(11, 0, 8)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HospitalBed>
+    <Shelf>
+      <positions>
+        <li>(1, 0, 11)</li>
+        <li>(2, 0, 11)</li>
+        <li>(3, 0, 11)</li>
+        <li>(4, 0, 11)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Shelf>
+    <Shelf>
+      <position>(7, 0, 10)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Shelf>
+    <Shelf>
+      <positions>
+        <li>(8, 0, 10)</li>
+        <li>(9, 0, 10)</li>
+        <li>(10, 0, 10)</li>
+        <li>(11, 0, 10)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Shelf>
+  </things>
+  <terrain>
+    <Tile_Transhumanist>
+      <rects>
+        <li>(0,0,2,0)</li>
+        <li>(4,0,4,0)</li>
+        <li>(0,1,0,5)</li>
+      </rects>
+    </Tile_Transhumanist>
+    <SterileTile>
+      <rects>
+        <li>(3,0,3,5)</li>
+        <li>(9,0,9,5)</li>
+        <li>(1,1,2,5)</li>
+        <li>(4,1,8,2)</li>
+        <li>(10,1,11,5)</li>
+        <li>(4,3,5,5)</li>
+        <li>(7,3,8,5)</li>
+        <li>(1,7,11,11)</li>
+        <li>(6,12,6,12)</li>
+      </rects>
+    </SterileTile>
+    <Soil>
+      <rects>
+        <li>(5,0,8,0)</li>
+        <li>(10,0,12,0)</li>
+        <li>(12,1,12,12)</li>
+        <li>(6,3,6,6)</li>
+        <li>(2,6,5,6)</li>
+        <li>(7,6,11,6)</li>
+        <li>(0,10,0,12)</li>
+        <li>(1,12,5,12)</li>
+        <li>(7,12,11,12)</li>
+      </rects>
+    </Soil>
+    <BioferritePlate>
+      <rects>
+        <li>(0,6,1,6)</li>
+        <li>(0,7,0,9)</li>
+      </rects>
+    </BioferritePlate>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <Tile_Transhumanist>
+        <rects>
+          <li>(0,0,2,0)</li>
+          <li>(4,0,4,0)</li>
+          <li>(0,1,0,5)</li>
+        </rects>
+      </Tile_Transhumanist>
+      <SterileTile>
+        <rects>
+          <li>(3,0,3,5)</li>
+          <li>(9,0,9,5)</li>
+          <li>(1,1,2,5)</li>
+          <li>(4,1,8,2)</li>
+          <li>(10,1,11,5)</li>
+          <li>(4,3,5,5)</li>
+          <li>(7,3,8,5)</li>
+          <li>(1,7,11,11)</li>
+          <li>(6,12,6,12)</li>
+        </rects>
+      </SterileTile>
+      <Soil>
+        <rects>
+          <li>(5,0,8,0)</li>
+          <li>(10,0,12,0)</li>
+          <li>(12,1,12,12)</li>
+          <li>(6,3,6,6)</li>
+          <li>(2,6,5,6)</li>
+          <li>(7,6,11,6)</li>
+          <li>(0,10,0,12)</li>
+          <li>(1,12,5,12)</li>
+          <li>(7,12,11,12)</li>
+        </rects>
+      </Soil>
+      <BioferritePlate>
+        <rects>
+          <li>(0,6,1,6)</li>
+          <li>(0,7,0,9)</li>
+        </rects>
+      </BioferritePlate>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(0,0,4,5)</li>
+          <li>(5,1,8,2)</li>
+          <li>(5,3,5,5)</li>
+          <li>(11,5,11,5)</li>
+          <li>(0,6,1,9)</li>
+          <li>(2,7,3,11)</li>
+          <li>(10,7,11,10)</li>
+          <li>(4,8,4,8)</li>
+          <li>(1,10,1,11)</li>
+          <li>(8,10,9,11)</li>
+          <li>(7,11,7,11)</li>
+          <li>(10,11,10,11)</li>
+          <li>(6,12,6,12)</li>
+        </rects>
+      </Soil>
+      <SoilRich>
+        <rects>
+          <li>(9,0,9,5)</li>
+          <li>(10,1,11,4)</li>
+          <li>(7,3,8,5)</li>
+          <li>(10,5,10,5)</li>
+          <li>(4,7,9,7)</li>
+          <li>(5,8,9,9)</li>
+          <li>(4,9,4,11)</li>
+          <li>(5,10,7,10)</li>
+          <li>(5,11,6,11)</li>
+          <li>(11,11,11,11)</li>
+        </rects>
+      </SoilRich>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+  <StorageSettings>
+    <MyStorageSetting>
+      <ThingName>Shelf</ThingName>
+      <Positions>
+        <li>(8,1)</li>
+        <li>(8,2)</li>
+        <li>(1,10)</li>
+        <li>(2,10)</li>
+        <li>(3,10)</li>
+        <li>(4,10)</li>
+        <li>(5,10)</li>
+        <li>(7,10)</li>
+        <li>(8,10)</li>
+        <li>(9,10)</li>
+        <li>(10,10)</li>
+        <li>(11,10)</li>
+        <li>(1,11)</li>
+        <li>(2,11)</li>
+        <li>(3,11)</li>
+        <li>(4,11)</li>
+        <li>(5,11)</li>
+        <li>(7,11)</li>
+        <li>(8,11)</li>
+        <li>(9,11)</li>
+        <li>(10,11)</li>
+        <li>(11,11)</li>
+      </Positions>
+      <Data><![CDATA[Version:1
+allowedDefs:TextBook/Schematic/Novel/Beer/Wort/Ambrosia/GoJuice/Luciferium/Penoxycyline/Flake/PsychiteTea/Yayo/SmokeleafJoint/WakeUp/PsychicAmplifier/Gun_ChargeBlasterHeavyTurret/Gun_InfernoCannonTurret/UnfinishedMusicalInstrument/PsychicAnimalPulser/PsychicSoothePulser/AIPersonaCore/MechSerumHealer/MechSerumResurrector/TechprofSubpersonaCore/ThrumboHorn/ElephantTusk/MealSurvivalPack/MealNutrientPaste/MealSimple/MealFine/MealFine_Veg/MealFine_Meat/MealLavish/MealLavish_Veg/MealLavish_Meat/Kibble/Pemmican/Chocolate/Milk/InsectJelly/Skull/EggChickenUnfertilized/EggChickenFertilized/EggCobraFertilized/EggCobraUnfertilized/EggIguanaFertilized/EggIguanaUnfertilized/EggTortoiseFertilized/EggTortoiseUnfertilized/EggCassowaryFertilized/EggCassowaryUnfertilized/EggEmuFertilized/EggEmuUnfertilized/EggOstrichFertilized/EggOstrichUnfertilized/EggTurkeyFertilized/EggTurkeyUnfertilized/EggDuckUnfertilized/EggDuckFertilized/EggGooseUnfertilized/EggGooseFertilized/MedicineHerbal/MedicineIndustrial/MedicineUltratech/ComponentIndustrial/ComponentSpacer/Neutroamine/Chemfuel/ReinforcedBarrel/RawPotatoes/RawFungus/RawRice/RawAgave/RawCorn/RawBerries/Hay/RawHops/PsychoidLeaves/SmokeleafLeaves/Shell_HighExplosive/Shell_Incendiary/Shell_EMP/Shell_Smoke/Shell_Firefoam/Shell_AntigrainWarhead/Silver/Gold/Steel/Plasteel/WoodLog/Uranium/Jade/Cloth/Synthread/DevilstrandCloth/Hyperweave/WoolSheep/WoolAlpaca/WoolMegasloth/WoolMuffalo/WoolBison/Leather_Plain/Leather_Dog/Leather_Wolf/Leather_Panthera/Leather_Camel/Leather_Bluefur/Leather_Bear/Leather_GuineaPig/Leather_Human/Leather_Pig/Leather_Light/Leather_Bird/Leather_Chinchilla/Leather_Fox/Leather_Lizard/Leather_Elephant/Leather_Heavy/Leather_Rhinoceros/Leather_Thrumbo/Leather_Patch/UnfinishedSculpture/UnfinishedGun/UnfinishedWeapon/UnfinishedArmor/UnfinishedTechArmor/UnfinishedMetallicTechArmor/UnfinishedApparel/UnfinishedBelt/UnfinishedPack/UnfinishedComponent/UnfinishedHealthItemProsthetic/UnfinishedHealthItemBionic/UnfinishedMask/Apparel_ShieldBelt/Apparel_CowboyHat/Apparel_BowlerHat/Apparel_TribalHeaddress/Apparel_Tuque/Apparel_WarMask/Apparel_WarVeil/Apparel_SimpleHelmet/Apparel_AdvancedHelmet/Apparel_PowerArmorHelmet/Apparel_ArmorHelmetRecon/Apparel_PsychicFoilHelmet/Apparel_HatHood/Apparel_ClothMask/Apparel_SmokepopBelt/Apparel_FirefoampopPack/Apparel_PsychicShockLance/Apparel_PsychicInsanityLance/Apparel_TribalA/Apparel_Parka/Apparel_Pants/Apparel_BasicShirt/Apparel_CollarShirt/Apparel_Duster/Apparel_Jacket/Apparel_PlateArmor/Apparel_FlakVest/Apparel_FlakPants/Apparel_FlakJacket/Apparel_PowerArmor/Apparel_ArmorRecon/Apparel_Cape/Apparel_Robe/BlocksSandstone/BlocksGranite/BlocksLimestone/BlocksSlate/BlocksMarble/Dye/ArchotechEye/ArchotechArm/ArchotechLeg/BionicEye/BionicArm/BionicLeg/BionicSpine/BionicHeart/BionicStomach/DeathAcidifier/BionicEar/BionicTongue/BionicJaw/Heart/Lung/Kidney/Liver/SimpleProstheticLeg/SimpleProstheticArm/SimpleProstheticHeart/CochlearImplant/PowerClaw/Joywire/Painstopper/MeleeWeapon_BreachAxe/MeleeWeapon_Mace/MeleeWeapon_Gladius/MeleeWeapon_LongSword/MeleeWeapon_Club/MeleeWeapon_Knife/MeleeWeapon_Ikwa/MeleeWeapon_Spear/Gun_Revolver/Gun_Autopistol/Gun_MachinePistol/Gun_IncendiaryLauncher/Gun_SmokeLauncher/Gun_EmpLauncher/Gun_BoltActionRifle/Gun_PumpShotgun/Gun_ChainShotgun/Gun_HeavySMG/Gun_LMG/Gun_AssaultRifle/Gun_SniperRifle/Gun_Minigun/Gun_TripleRocket/Gun_DoomsdayRocket/Weapon_GrenadeFrag/Weapon_GrenadeMolotov/Weapon_GrenadeEMP/Gun_ChargeBlasterHeavy/Gun_InfernoCannon/Gun_Needle/Bow_Short/Pila/Bow_Recurve/Bow_Great/Gun_ChargeRifle/Gun_ChargeLance/OrbitalTargeterBombardment/OrbitalTargeterPowerBeam/TornadoGenerator/Gun_ThumpCannon/PsychicSensitizer/PsychicHarmonizer/PsychicReader/Neurocalculator/LearningAssistant/GastroAnalyzer/Immunoenhancer/Coagulator/HealingEnhancer/ToughskinGland/ArmorskinGland/StoneskinGland/AestheticShaper/AestheticNose/LoveEnhancer/DetoxifierStomach/ReprocessorStomach/NuclearStomach/CircadianAssistant/CircadianHalfCycler/Mindscrew/DrillArm/FieldHand/HandTalon/ElbowBlade/KneeSpike/VenomFangs/VenomTalon/UnfinishedPiano/Apparel_PackJump/Apparel_PackBroadshield/Apparel_PsyfocusHelmet/Apparel_EltexSkullcap/Apparel_PsyfocusShirt/Apparel_PsyfocusVest/Apparel_PsyfocusRobe/Apparel_ShirtRuffle/Apparel_Corset/Apparel_VestRoyal/Apparel_RobeRoyal/Apparel_HatLadies/Apparel_HatTop/Apparel_Coronet/Apparel_Crown/Apparel_CrownStellic/Apparel_Beret/Apparel_ArmorReconPrestige/Apparel_ArmorHelmetReconPrestige/Apparel_ArmorMarinePrestige/Apparel_ArmorMarineHelmetPrestige/Apparel_ArmorCataphract/Apparel_ArmorHelmetCataphract/Apparel_ArmorCataphractPrestige/Apparel_ArmorHelmetCataphractPrestige/Apparel_ArmorLocust/Apparel_ArmorMarineGrenadier/Apparel_ArmorCataphractPhoenix/Apparel_Gunlink/BroadshieldCore/MeleeWeapon_MonoSwordBladelink/MeleeWeapon_ZeusHammerBladelink/MeleeWeapon_PlasmaSwordBladelink/MeleeWeapon_Axe/MeleeWeapon_Warhammer/MeleeWeapon_MonoSword/MeleeWeapon_Zeushammer/MeleeWeapon_PlasmaSword/OrbitalTargeterMechCluster/MeleeWeapon_PsyfocusStaff/Apparel_Headwrap/Apparel_Broadwrap/Apparel_VisageMask/Apparel_Slicecap/Apparel_Collar/Apparel_AuthorityCap/Apparel_Tailcap/Apparel_Shadecone/Apparel_Flophat/Apparel_BodyStrap/Apparel_Burka/Apparel_TortureCrown/Apparel_Blindfold/RelicInertCup/RelicInertPendant/RelicInertBox/RelicInertTablet/RelicInertFragment/RelicInertSwordHandle/RelicInertArk/RelicInertCube/GauranlenSeed/DetoxifierLung/DetoxifierKidney/Mechlink/ControlSublink/ControlSublinkHigh/RemoteRepairer/MechFormfeeder/RemoteShielder/RepairProbe/BabyFood/HemogenPack/RawToxipotato/SubcoreBasic/SubcoreRegular/SubcoreHigh/SignalChip/PowerfocusChip/NanostructuringChip/DeathrestCapacitySerum/Wastepack/Shell_Toxic/UnfinishedSubcore/Genepack/Xenogerm/ArchiteCapsule/MechanoidTransponder/HumanOvum/HumanEmbryo/Apparel_KidRomper/Apparel_KidShirt/Apparel_KidPants/Apparel_KidParka/Apparel_KidTribal/Apparel_KidHelmet/Apparel_AirwireHeadset/Apparel_ArrayHeadset/Apparel_IntegratorHeadset/Apparel_ArmorHelmetMechCommander/Apparel_ArmorHelmetMechlordHelmet/Apparel_GasMask/Apparel_PackControl/Apparel_PackBandwidth/Apparel_PackTox/Apparel_MechlordSuit/Apparel_Bandolier/Apparel_Sash/PoluxSeed/Gun_ToxbombLauncher/Weapon_GrenadeTox/Flamebow/Gun_HellsphereCannon/Gun_MiniShotgun/Gun_Slugthrower/Gun_Spiner/Gun_MiniFlameblaster/Gun_BeamGraser/Gun_ToxicNeedle/Gun_NeedleLauncher/Tome/UnfinishedHealthItemGhoul/GhoulPlating/GhoulBarbs/AdrenalHeart/CorrosiveHeart/MetalbloodHeart/RevenantVertebrae/ShardAnimalPulser/BiomutationPulser/Shell_Deadlife/VoidsightSerum/MetalbloodSerum/JuggernautSerum/MindNumbSerum/GhoulResurrectionSerum/Bioferrite/Leather_Dread/Shard/RevenantSpine/Meat_Twisted/GoldenCube/GrayFleshSample/FleshmassNeuralLump/RevenantFleshChunk/MonolithFragment/Apparel_CultistMask/Apparel_CeremonialCultistMask/Apparel_DisruptorFlarePack/Apparel_PackTurret/Apparel_DeadlifePack/Apparel_ShardPsychicShockLance/Apparel_ShardPsychicInsanityLance/Apparel_BiomutationLance/Apparel_LabCoat/HarbingerSeed/Gun_HellcatRifle/Gun_Incinerator/NerveSpiker/Map/Drug_Psilocap/BloodWarmer/PilotAssistant/VacskinGland/MastodonTusk/AlphaThrumboHorn/SentienceCatalyst/EggMonitorLizardFertilized/EggMonitorLizardUnfertilized/EggFlamingoFertilized/EggFlamingoUnfertilized/EggHeronFertilized/EggHeronUnfertilized/EggSwanFertilized/EggSwanUnfertilized/EggSparrowFertilized/EggSparrowUnfertilized/EggCrowFertilized/EggCrowUnfertilized/EggBluebirdFertilized/EggBluebirdUnfertilized/EggQuailFertilized/EggQuailUnfertilized/EggMacawFertilized/EggMacawUnfertilized/EggPeacockFertilized/EggPeacockUnfertilized/EggVultureFertilized/EggVultureUnfertilized/EggPenguinFertilized/EggPenguinUnfertilized/EggSeaTurtleFertilized/EggSeaTurtleUnfertilized/EggAlligatorFertilized/EggAlligatorUnfertilized/WoolMastodon/WoolMuskox/Fish_Salmon/Fish_Bass/Fish_Tilapia/Fish_Cod/Fish_Bluefish/Fish_Guppy/Fish_Frostfish/Fish_Catfish/Fish_Piranha/Fish_Dogfish/Fish_Marlin/Fish_Tuna/Fish_Flounder/Fish_Toxfish/Gravcore/GravlitePanel/ShuttleEngine/Obsidian/Leather_Mastodon/Leather_Sealskin/Leather_AlphaThrumbo/Leather_Mink/Leather_Hippo/Leather_Armadillo/Gun_Revolver_Unique/Gun_BoltActionRifle_Unique/Gun_ChainShotgun_Unique/Gun_HeavySMG_Unique/Gun_LMG_Unique/Gun_AssaultRifle_Unique/Gun_SniperRifle_Unique/Gun_Minigun_Unique/Bow_Great_Unique/Gun_ChargeRifle_Unique/Gun_ChargeLance_Unique/Gun_HellcatRifle_Unique/Gun_BeamRepeater_Unique/Apparel_VacsuitHelmet/Apparel_PackHunter/Apparel_CerebrexNode/Apparel_Vacsuit/Apparel_VacsuitChildren/BlocksVacstone/ArcheanSeed/Gun_BeamRepeater/Gun_Scattergun/Meat_Bear_Grizzly/Meat_Cassowary/Meat_Cougar/Meat_Panther/Meat_Lynx/Meat_Cat/Meat_YorkshireTerrier/Meat_GuineaPig/Meat_LabradorRetriever/Meat_Husky/Meat_Monkey/Meat_Chicken/Meat_Duck/Meat_Turkey/Meat_Cow/Meat_Boomalope/Meat_Muffalo/Meat_Bison/Meat_Dromedary/Meat_Goat/Meat_Elk/Meat_Yak/Meat_Caribou/Meat_Horse/Meat_Donkey/Meat_Elephant/Meat_Rhinoceros/Meat_Hare/Meat_Megaspider/Meat_Thrumbo/Meat_Cobra/Meat_Tortoise/Meat_Alphabeaver/Meat_Pig/Meat_Ibex/Meat_Deer/Meat_Gazelle/Meat_Chinchilla/Meat_Sheep/Meat_Alpaca/Meat_Megasloth/Meat_Capybara/Meat_Squirrel/Meat_Rat/Meat_Boomrat/Meat_Raccoon/Meat_Iguana/Meat_Warg/Meat_Wolf_Timber/Meat_Fox_Fennec/Meat_Human/Meat_Dryad_Basic/Meat_WasteRat/Meat_Toxalope/Meat_BogHound/Meat_MonitorLizard/Meat_PrairieDog/Meat_Porcupine/Meat_Mastodon/Meat_Cat_Scimitar/Meat_Wolverine/Meat_Wolf_Great/Meat_Moose/Meat_AlphaThrumbo/Meat_Muskox/Meat_Tiger/Meat_Mink/Meat_Gorilla/Meat_Badger/Meat_Panda/Meat_Hippo/Meat_Megavole/Meat_Armadillo/Meat_Alligator/Meat_Bullfrog/Meat_ColossusToad/Meat_LavaSnail/Meat_Walrus/Meat_SeaLion/Meat_Seal/Meat_HermitCrab/Meat_StoneCrab/Meat_SeaTurtle/Meat_Otter/Techprint_CataphractArmor/Techprint_JumpPack/Techprint_BrainWiring/Techprint_SpecializedLimbs/Techprint_CompactWeaponry/Techprint_VenomSynthesis/Techprint_ArtificialMetabolism/Techprint_NeuralComputation/Techprint_SkinHardening/Techprint_HealingFactors/Techprint_FleshShaping/Techprint_MolecularAnalysis/Techprint_CircadianInfluence/Psytrainer_Painblock/Psytrainer_Stun/Psytrainer_Burden/Psytrainer_BlindingPulse/Psytrainer_EntropyDump/Psytrainer_Beckon/Psytrainer_VertigoPulse/Psytrainer_ChaosSkip/Psytrainer_Skip/Psytrainer_Wallraise/Psytrainer_Smokepop/Psytrainer_Focus/Psytrainer_Berserk/Psytrainer_Invisibility/Psytrainer_BerserkPulse/Psytrainer_ManhunterPulse/Psytrainer_MassChaosSkip/Psytrainer_Waterskip/Psytrainer_Flashstorm/Psytrainer_BulletShield/Psytrainer_SolarPinhole/Psytrainer_WordOfTrust/Psytrainer_WordOfJoy/Psytrainer_WordOfLove/Psytrainer_WordOfSerenity/Psytrainer_WordOfInspiration/Psytrainer_Farskip/Psytrainer_Neuroquake/Psytrainer_Chunkskip/Neurotrainer_Shooting/Neurotrainer_Melee/Neurotrainer_Construction/Neurotrainer_Mining/Neurotrainer_Cooking/Neurotrainer_Plants/Neurotrainer_Animals/Neurotrainer_Crafting/Neurotrainer_Artistic/Neurotrainer_Medicine/Neurotrainer_Social/Neurotrainer_Intellectual
+allowedHitPointsPercents:0.0000:1.0000
+allowedQualities:Awful:Legendary
+disallowedSpecialFilters:AllowCorpsesColonist/AllowCorpsesStranger/AllowCorpsesSlave/AllowCorpsesMechFriendly/AllowCorpsesMechEnemy/AllowCorpsesUnnatural
+Priority:Preferred
+]]></Data>
+    </MyStorageSetting>
+  </StorageSettings>
+</PrefabDef>
