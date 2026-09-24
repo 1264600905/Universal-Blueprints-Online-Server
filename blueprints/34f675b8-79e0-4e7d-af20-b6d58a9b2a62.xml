@@ -1,0 +1,563 @@
+<PrefabDef>
+  <defName>Prefab_20260924_173852</defName>
+  <size>(59,44)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>小型收容模块（前期）</name>
+    <description>小型的收容模块，占地小巧.可关押两个异常实体，每个收容平台提供131点收容强度.这是一个前期模块，方便材料短缺的玩家使用。</description>
+    <tags></tags>
+    <author>白金trigger</author>
+    <category>基地蓝图</category>
+    <BuildingID>34f675b8-79e0-4e7d-af20-b6d58a9b2a62</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>ludeon.rimworld.anomaly</packageId>
+        <name>Anomaly</name>
+        <version></version>
+        <modorder>6</modorder>
+        <things>
+          <li>HoldingSpot</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>solaris.ratkinracemod</packageId>
+        <name>NewRatkinPlus</name>
+        <version></version>
+        <modorder>31</modorder>
+        <steamWorkshopId>1578693166</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>RK_FueledSmithy</li>
+          <li>RK_HandTailoringBench</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ogliss.thewhitecrayon.quarry</packageId>
+        <name>Quarry</name>
+        <version></version>
+        <modorder>34</modorder>
+        <steamWorkshopId>2007576583</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>QRY_MiniQuarry</li>
+        </things>
+      </mod>
+    </modPackages>
+    <foldGroup>
+      <groupKey>小型收容模块</groupKey>
+      <displayOrder>0</displayOrder>
+      <isCover>false</isCover>
+    </foldGroup>
+    <multiLanguage>
+      <name>
+        <default>小型收容模块（前期）</default>
+        <zh-CN>小型收容模块（前期）</zh-CN>
+        <zh-TW>小型收容模組（前期）</zh-TW>
+        <en>Small Containment Module (Early Game)</en>
+        <ru>Малый модуль содержания (Ранняя игра)</ru>
+        <fr>Module de confinement petit (Début de jeu)</fr>
+        <de>Kleines Eindämmungsmodul (Frühphase)</de>
+        <es>Módulo de contención pequeño (Principio del juego)</es>
+        <ja>小型収容モジュール（序盤用）</ja>
+        <ko>소형 격리 모듈 (초기 게임)</ko>
+      </name>
+      <description>
+        <default>小型的收容模块，占地小巧.可关押两个异常实体，每个收容平台提供131点收容强度.这是一个前期模块，方便材料短缺的玩家使用。</default>
+        <zh-CN>小型的收容模块，占地小巧.可关押两个异常实体，每个收容平台提供131点收容强度.这是一个前期模块，方便材料短缺的玩家使用。</zh-CN>
+        <zh-TW>小型的收容模組，佔地小巧。可關押兩個異常實體，每個收容平台提供131點收容強度。這是一個前期模組，方便材料短缺的玩家使用。</zh-TW>
+        <en>A small containment module with a compact footprint. Can hold two anomalous entities, with each containment platform providing 131 containment strength. This is an early game module, convenient for players who are short on materials.</en>
+        <ru>Небольшой модуль содержания с компактной площадью. Вмещает две аномальные сущности, каждая платформа содержания обеспечивает 131 единицу прочности содержания. Это модуль ранней игры, удобный для игроков с нехваткой материалов.</ru>
+        <fr><![CDATA[Un petit module de confinement à l'emprise compacte. Peut contenir deux entités anormales, chaque plateforme de confinement fournissant 131 points de force de confinement. C'est un module de début de jeu, pratique pour les joueurs qui manquent de matériaux.]]></fr>
+        <de>Ein kleines Eindämmungsmodul mit kompakter Grundfläche. Kann zwei anomale Entitäten aufnehmen, wobei jede Eindämmungsplattform 131 Eindämmungsstärke bietet. Dieses Modul ist für die frühe Spielphase gedacht und eignet sich für Spieler mit knappen Materialien.</de>
+        <es>Un módulo de contención pequeño con una huella compacta. Puede albergar dos entidades anómalas, cada plataforma de contención proporciona 131 puntos de fuerza de contención. Este es un módulo para el principio del juego, conveniente para jugadores con escasez de materiales.</es>
+        <ja>コンパクトな設置面積の小型収容モジュール。2つの異常存在を収容でき、各収容プラットフォームは131ポイントの収容強度を提供します。これは序盤向けのモジュールで、材料が不足しているプレイヤーに便利です。</ja>
+        <ko>작은 면적을 차지하는 소형 격리 모듈입니다. 두 개의 변칙 개체를 수용할 수 있으며, 각 격리 플랫폼은 131포인트의 격리 강도를 제공합니다. 이것은 초기 게임용 모듈로, 재료가 부족한 플레이어에게 편리합니다.</ko>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <HorseshoesPin>
+      <rects>
+        <li>(12,4,12,4)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </HorseshoesPin>
+    <Wall>
+      <rects>
+        <li>(14,5,17,5)</li>
+        <li>(19,5,21,5)</li>
+        <li>(14,6,14,14)</li>
+        <li>(21,6,21,25)</li>
+        <li>(4,10,8,10)</li>
+        <li>(10,10,13,10)</li>
+        <li>(15,10,20,10)</li>
+        <li>(4,11,4,25)</li>
+        <li>(8,11,8,11)</li>
+        <li>(10,11,10,14)</li>
+        <li>(5,13,8,13)</li>
+        <li>(8,14,8,14)</li>
+        <li>(11,14,11,14)</li>
+        <li>(13,14,13,14)</li>
+        <li>(15,14,16,14)</li>
+        <li>(18,14,20,14)</li>
+        <li>(5,16,8,16)</li>
+        <li>(8,18,8,19)</li>
+        <li>(5,19,7,19)</li>
+        <li>(8,21,8,22)</li>
+        <li>(5,22,7,22)</li>
+        <li>(10,22,11,22)</li>
+        <li>(13,22,15,22)</li>
+        <li>(17,22,18,22)</li>
+        <li>(10,23,10,25)</li>
+        <li>(14,23,14,25)</li>
+        <li>(18,23,18,25)</li>
+        <li>(8,24,8,25)</li>
+        <li>(5,25,7,25)</li>
+        <li>(11,25,13,25)</li>
+        <li>(15,25,17,25)</li>
+        <li>(19,25,20,25)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Wall>
+    <Door>
+      <rects>
+        <li>(18,5,18,5)</li>
+        <li>(9,10,9,10)</li>
+        <li>(12,14,12,14)</li>
+        <li>(17,14,17,14)</li>
+        <li>(12,22,12,22)</li>
+        <li>(16,22,16,22)</li>
+        <li>(9,25,9,25)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <Sandstone>
+      <rects>
+        <li>(0,6,1,6)</li>
+        <li>(0,7,0,8)</li>
+        <li>(51,11,52,13)</li>
+        <li>(53,12,53,12)</li>
+        <li>(52,14,52,14)</li>
+      </rects>
+      <color>RGBA(0.494, 0.408, 0.369, 1.000)</color>
+    </Sandstone>
+    <SleepingSpot>
+      <position>(16, 0, 6)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <color>RGBA(1.000, 0.718, 0.129, 1.000)</color>
+    </SleepingSpot>
+    <HoldingSpot>
+      <positions>
+        <li>(16, 0, 8)</li>
+        <li>(19, 0, 8)</li>
+      </positions>
+    </HoldingSpot>
+    <TorchWallLamp>
+      <rects>
+        <li>(18,9,18,9)</li>
+        <li>(7,12,7,12)</li>
+        <li>(13,13,13,13)</li>
+        <li>(16,13,16,13)</li>
+        <li>(7,15,7,15)</li>
+        <li>(7,18,7,18)</li>
+        <li>(7,21,7,21)</li>
+        <li>(15,21,15,21)</li>
+        <li>(7,24,7,24)</li>
+      </rects>
+    </TorchWallLamp>
+    <EndTable>
+      <rects>
+        <li>(5,11,5,11)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </EndTable>
+    <Stool>
+      <rects>
+        <li>(11,11,11,11)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Poor</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Stool>
+    <Table1x2c>
+      <position>(12, 0, 11)</position>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Table1x2c>
+    <Stool>
+      <rects>
+        <li>(13,11,13,11)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Stool>
+    <SimpleResearchBench>
+      <positions>
+        <li>(16, 0, 12)</li>
+        <li>(19, 0, 12)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </SimpleResearchBench>
+    <Limestone>
+      <rects>
+        <li>(41,11,50,13)</li>
+        <li>(42,14,51,14)</li>
+        <li>(45,15,50,15)</li>
+        <li>(52,15,52,22)</li>
+        <li>(50,17,51,23)</li>
+        <li>(53,17,53,21)</li>
+        <li>(49,18,49,27)</li>
+        <li>(48,19,48,27)</li>
+        <li>(54,19,55,20)</li>
+        <li>(47,20,47,27)</li>
+        <li>(46,22,46,27)</li>
+        <li>(45,24,45,26)</li>
+        <li>(50,24,50,25)</li>
+        <li>(0,26,3,29)</li>
+        <li>(4,27,5,43)</li>
+        <li>(6,28,6,43)</li>
+        <li>(3,30,3,38)</li>
+        <li>(53,35,58,35)</li>
+        <li>(54,36,58,38)</li>
+        <li>(7,39,7,43)</li>
+        <li>(55,39,58,41)</li>
+        <li>(56,42,58,43)</li>
+      </rects>
+      <color>RGBA(0.620, 0.600, 0.529, 1.000)</color>
+    </Limestone>
+    <MineableSteel>
+      <rects>
+        <li>(53,11,55,11)</li>
+        <li>(54,12,55,18)</li>
+        <li>(53,13,53,16)</li>
+      </rects>
+      <color>RGBA(0.447, 0.361, 0.325, 1.000)</color>
+    </MineableSteel>
+    <Bed>
+      <positions>
+        <li>(5, 0, 12)</li>
+        <li>(5, 0, 15)</li>
+        <li>(5, 0, 24)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed>
+    <Door>
+      <rects>
+        <li>(8,12,8,12)</li>
+        <li>(8,15,8,15)</li>
+        <li>(8,17,8,17)</li>
+        <li>(8,20,8,20)</li>
+        <li>(8,23,8,23)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <Stool>
+      <rects>
+        <li>(11,12,11,12)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Stool>
+    <Stool>
+      <rects>
+        <li>(13,12,13,12)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Stool>
+    <Stool>
+      <rects>
+        <li>(12,13,12,13)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Poor</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Stool>
+    <ChessTable>
+      <rects>
+        <li>(13,13,13,13)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </ChessTable>
+    <EndTable>
+      <rects>
+        <li>(5,14,5,14)</li>
+        <li>(5,17,5,17)</li>
+        <li>(5,23,5,23)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </EndTable>
+    <TorchWallLamp>
+      <rects>
+        <li>(15,15,15,15)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </TorchWallLamp>
+    <Bed>
+      <position>(5, 0, 18)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed>
+    <Shelf>
+      <positions>
+        <li>(10, 0, 19)</li>
+        <li>(11, 0, 19)</li>
+        <li>(12, 0, 19)</li>
+        <li>(13, 0, 19)</li>
+        <li>(14, 0, 19)</li>
+        <li>(15, 0, 19)</li>
+        <li>(16, 0, 19)</li>
+        <li>(17, 0, 19)</li>
+        <li>(18, 0, 19)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Shelf>
+    <TorchWallLamp>
+      <rects>
+        <li>(20,18,20,18)</li>
+        <li>(13,24,13,24)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </TorchWallLamp>
+    <EndTable>
+      <rects>
+        <li>(5,20,5,20)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </EndTable>
+    <Bed>
+      <position>(5, 0, 21)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed>
+    <RK_FueledSmithy>
+      <position>(10, 0, 21)</position>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RK_FueledSmithy>
+    <RK_HandTailoringBench>
+      <position>(17, 0, 21)</position>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RK_HandTailoringBench>
+    <PenMarker>
+      <rects>
+        <li>(41,21,41,21)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </PenMarker>
+    <TableStonecutter>
+      <position>(20, 0, 23)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </TableStonecutter>
+    <TorchWallLamp>
+      <rects>
+        <li>(19,23,19,23)</li>
+        <li>(15,24,15,24)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </TorchWallLamp>
+    <TableButcher>
+      <position>(12, 0, 24)</position>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </TableButcher>
+    <FueledStove>
+      <position>(16, 0, 24)</position>
+    </FueledStove>
+    <SteamGeyser>
+      <position>(33, 0, 26)</position>
+    </SteamGeyser>
+    <QRY_MiniQuarry>
+      <position>(10, 0, 31)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </QRY_MiniQuarry>
+    <Fence>
+      <rects>
+        <li>(8,39,18,39)</li>
+        <li>(20,39,43,39)</li>
+        <li>(45,39,54,39)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Fence>
+    <FenceGate>
+      <rects>
+        <li>(19,39,19,39)</li>
+        <li>(44,39,44,39)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </FenceGate>
+  </things>
+  <terrain>
+    <WoodPlankFloor>
+      <rects>
+        <li>(5,11,7,12)</li>
+        <li>(11,11,13,13)</li>
+        <li>(8,12,8,12)</li>
+        <li>(5,14,7,15)</li>
+        <li>(12,14,12,14)</li>
+        <li>(8,15,8,15)</li>
+        <li>(5,17,8,17)</li>
+        <li>(5,18,7,18)</li>
+        <li>(5,20,8,20)</li>
+        <li>(5,21,7,21)</li>
+        <li>(5,23,8,23)</li>
+        <li>(5,24,7,24)</li>
+      </rects>
+    </WoodPlankFloor>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <WoodPlankFloor>
+        <rects>
+          <li>(5,11,7,12)</li>
+          <li>(11,11,13,13)</li>
+          <li>(8,12,8,12)</li>
+          <li>(5,14,7,15)</li>
+          <li>(12,14,12,14)</li>
+          <li>(8,15,8,15)</li>
+          <li>(5,17,8,17)</li>
+          <li>(5,18,7,18)</li>
+          <li>(5,20,8,20)</li>
+          <li>(5,21,7,21)</li>
+          <li>(5,23,8,23)</li>
+          <li>(5,24,7,24)</li>
+        </rects>
+      </WoodPlankFloor>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(5,11,7,12)</li>
+          <li>(11,11,13,13)</li>
+          <li>(8,12,8,12)</li>
+          <li>(5,14,7,15)</li>
+          <li>(12,14,12,14)</li>
+          <li>(8,15,8,15)</li>
+          <li>(5,17,8,17)</li>
+          <li>(5,18,7,18)</li>
+          <li>(5,20,8,20)</li>
+          <li>(5,21,7,21)</li>
+          <li>(5,23,8,23)</li>
+          <li>(7,24,7,24)</li>
+        </rects>
+      </Soil>
+      <Gravel>
+        <rects>
+          <li>(5,24,6,24)</li>
+        </rects>
+      </Gravel>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(14,5,21,25)</li>
+        <li>(4,10,13,25)</li>
+      </rects>
+    </RoofConstructed>
+    <RoofRockThin>
+      <rects>
+        <li>(0,6,0,6)</li>
+        <li>(42,11,55,12)</li>
+        <li>(43,13,49,13)</li>
+        <li>(54,13,55,20)</li>
+        <li>(45,14,48,14)</li>
+        <li>(52,18,53,21)</li>
+        <li>(50,19,51,22)</li>
+        <li>(49,20,49,22)</li>
+        <li>(48,21,48,23)</li>
+        <li>(47,22,47,27)</li>
+        <li>(52,22,52,22)</li>
+        <li>(46,23,46,27)</li>
+        <li>(0,27,4,28)</li>
+        <li>(5,28,5,29)</li>
+        <li>(6,29,6,35)</li>
+        <li>(5,34,5,43)</li>
+        <li>(4,35,4,41)</li>
+        <li>(54,35,54,36)</li>
+        <li>(3,36,3,38)</li>
+        <li>(55,36,55,39)</li>
+        <li>(56,38,56,42)</li>
+        <li>(6,39,6,43)</li>
+        <li>(57,42,57,43)</li>
+      </rects>
+    </RoofRockThin>
+    <RoofRockThick>
+      <rects>
+        <li>(49,23,51,23)</li>
+        <li>(48,24,50,25)</li>
+        <li>(48,26,49,27)</li>
+        <li>(0,29,4,29)</li>
+        <li>(3,30,5,33)</li>
+        <li>(3,34,4,34)</li>
+        <li>(3,35,3,35)</li>
+        <li>(55,35,58,35)</li>
+        <li>(56,36,58,37)</li>
+        <li>(57,38,58,41)</li>
+        <li>(4,42,4,43)</li>
+        <li>(58,42,58,43)</li>
+      </rects>
+    </RoofRockThick>
+    <PlayerRoofZone>
+      <rects>
+        <li>(14,5,21,25)</li>
+        <li>(4,10,13,25)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
