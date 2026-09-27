@@ -1,0 +1,271 @@
+<PrefabDef>
+  <defName>Prefab_20260927_205519</defName>
+  <size>(14,10)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>Barracks</name>
+    <description>Medium sized room with a capacity for 6 persons, comes with a small dinner and chess table, two curtains and fully stuffed beds.</description>
+    <tags>
+      <li>FullExport</li>
+    </tags>
+    <author>Galew2</author>
+    <category>Canteen</category>
+    <BuildingID>6a93b004-92ef-408e-a3e2-fb144350bd2a</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>rebuild.cotr.doorsandcorners</packageId>
+        <name>ReBuild: Doors and Corners</name>
+        <version>1.5-Miller-rev1</version>
+        <modorder>21</modorder>
+        <steamWorkshopId>3262718980</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+          </li>
+        </dependencies>
+        <things>
+          <li>RB_ClerestoryWall</li>
+          <li>RB_DoubleDoor</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.royalty</packageId>
+        <name>Royalty</name>
+        <version></version>
+        <modorder>3</modorder>
+        <things>
+          <li>Drape</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>Barracks</default>
+        <en>Barracks</en>
+      </name>
+      <description>
+        <default>Medium sized room with a capacity for 6 persons, comes with a small dinner and chess table, two curtains and fully stuffed beds.</default>
+        <en>Medium sized room with a capacity for 6 persons, comes with a small dinner and chess table, two curtains and fully stuffed beds.</en>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,1,0)</li>
+        <li>(5,0,5,0)</li>
+        <li>(8,0,8,0)</li>
+        <li>(12,0,13,0)</li>
+        <li>(0,1,0,9)</li>
+        <li>(13,1,13,9)</li>
+        <li>(12,7,12,9)</li>
+        <li>(1,9,4,9)</li>
+        <li>(9,9,11,9)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Wall>
+    <PowerConduit>
+      <rects>
+        <li>(0,0,0,9)</li>
+        <li>(13,0,13,9)</li>
+        <li>(1,9,12,9)</li>
+      </rects>
+    </PowerConduit>
+    <RB_ClerestoryWall>
+      <rects>
+        <li>(2,0,4,0)</li>
+        <li>(9,0,11,0)</li>
+        <li>(5,9,8,9)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RB_ClerestoryWall>
+    <RB_DoubleDoor>
+      <position>(6, 0, 0)</position>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RB_DoubleDoor>
+    <Stool>
+      <rects>
+        <li>(9,2,9,2)</li>
+        <li>(11,2,11,2)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <colorDef>Structure_Granite</colorDef>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Stool>
+    <ChessTable>
+      <rects>
+        <li>(10,2,10,2)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <colorDef>Structure_Sandstone</colorDef>
+      <color>RGBA(0.494, 0.408, 0.369, 1.000)</color>
+    </ChessTable>
+    <DiningChair>
+      <rects>
+        <li>(1,3,1,4)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <colorDef>Structure_Granite</colorDef>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </DiningChair>
+    <Table2x2c>
+      <position>(2, 0, 3)</position>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <colorDef>Structure_Sandstone</colorDef>
+      <color>RGBA(0.494, 0.408, 0.369, 1.000)</color>
+    </Table2x2c>
+    <DiningChair>
+      <rects>
+        <li>(4,3,4,4)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <colorDef>Structure_Granite</colorDef>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </DiningChair>
+    <StandingLamp>
+      <rects>
+        <li>(6,4,7,4)</li>
+      </rects>
+    </StandingLamp>
+    <Drape>
+      <positions>
+        <li>(9, 0, 4)</li>
+        <li>(11, 0, 4)</li>
+      </positions>
+      <stuff>Cloth</stuff>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </Drape>
+    <Bed>
+      <positions>
+        <li>(1, 0, 8)</li>
+        <li>(3, 0, 8)</li>
+        <li>(5, 0, 8)</li>
+        <li>(7, 0, 8)</li>
+        <li>(9, 0, 8)</li>
+        <li>(11, 0, 8)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed>
+    <Dresser>
+      <positions>
+        <li>(4, 0, 7)</li>
+        <li>(8, 0, 7)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Dresser>
+    <EndTable>
+      <rects>
+        <li>(2,8,2,8)</li>
+        <li>(6,8,6,8)</li>
+        <li>(10,8,10,8)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </EndTable>
+  </things>
+  <terrain>
+    <Soil>
+      <rects>
+        <li>(0,0,0,9)</li>
+        <li>(13,0,13,9)</li>
+        <li>(1,9,12,9)</li>
+      </rects>
+    </Soil>
+    <WoodPlankFloor>
+      <rects>
+        <li>(1,0,5,0)</li>
+        <li>(8,0,12,0)</li>
+        <li>(12,7,12,8)</li>
+      </rects>
+    </WoodPlankFloor>
+    <WoodPlankFloor>
+      <color>Structure_BrownLight</color>
+      <rects>
+        <li>(6,0,7,8)</li>
+        <li>(1,1,5,8)</li>
+        <li>(8,1,12,6)</li>
+        <li>(8,7,11,8)</li>
+      </rects>
+    </WoodPlankFloor>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <Soil>
+        <rects>
+          <li>(0,0,0,9)</li>
+          <li>(13,0,13,9)</li>
+          <li>(1,9,12,9)</li>
+        </rects>
+      </Soil>
+      <WoodPlankFloor>
+        <rects>
+          <li>(1,0,5,0)</li>
+          <li>(8,0,12,0)</li>
+          <li>(12,7,12,8)</li>
+        </rects>
+      </WoodPlankFloor>
+      <WoodPlankFloor>
+        <color>RGBA(0.514, 0.431, 0.306, 1.000)</color>
+        <rects>
+          <li>(6,0,7,8)</li>
+          <li>(1,1,5,8)</li>
+          <li>(8,1,12,6)</li>
+          <li>(8,7,11,8)</li>
+        </rects>
+      </WoodPlankFloor>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(1,0,5,0)</li>
+          <li>(8,0,12,0)</li>
+          <li>(12,7,12,8)</li>
+        </rects>
+      </Soil>
+      <Soil>
+        <color>RGBA(0.514, 0.431, 0.306, 1.000)</color>
+        <rects>
+          <li>(6,0,7,8)</li>
+          <li>(1,1,5,8)</li>
+          <li>(8,1,12,6)</li>
+          <li>(8,7,11,8)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,13,9)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,13,9)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
