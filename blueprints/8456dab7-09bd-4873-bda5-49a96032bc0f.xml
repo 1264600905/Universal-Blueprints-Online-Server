@@ -1,0 +1,145 @@
+<PrefabDef>
+  <defName>Prefab_20260929_032855</defName>
+  <size>(16,13)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>涅瓦莲发电机</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>电力</category>
+    <BuildingID>8456dab7-09bd-4873-bda5-49a96032bc0f</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>keeptpa.nivariandraconiture</packageId>
+        <name>Nivarian Race: Draconiture</name>
+        <version>20260918133435</version>
+        <modorder>208</modorder>
+        <steamWorkshopId>3686517288</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>keeptpa.nivarianrace</packageId>
+            <steamWorkshopId>3624805128</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Nivarian_Temperature_Gen</li>
+          <li>Nivarian_DroneHub_Engineer</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>涅瓦莲发电机</default>
+        <zh-CN>涅瓦莲发电机</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,12,1)</li>
+        <li>(0,2,1,12)</li>
+        <li>(6,2,6,3)</li>
+        <li>(11,2,12,12)</li>
+        <li>(13,5,15,6)</li>
+        <li>(2,6,2,6)</li>
+        <li>(4,6,4,6)</li>
+        <li>(8,6,8,6)</li>
+        <li>(10,6,10,6)</li>
+        <li>(4,8,4,8)</li>
+        <li>(8,8,8,8)</li>
+        <li>(13,8,15,9)</li>
+        <li>(2,11,5,12)</li>
+        <li>(7,11,10,12)</li>
+      </rects>
+      <stuff>BlocksLimestone</stuff>
+      <color>RGBA(0.620, 0.600, 0.529, 1.000)</color>
+    </Wall>
+    <Nivarian_Temperature_Gen>
+      <positions>
+        <li>(2, 0, 2)</li>
+        <li>(4, 0, 2)</li>
+        <li>(7, 0, 2)</li>
+        <li>(9, 0, 2)</li>
+        <li>(2, 0, 4)</li>
+        <li>(4, 0, 4)</li>
+        <li>(7, 0, 4)</li>
+        <li>(9, 0, 4)</li>
+        <li>(2, 0, 7)</li>
+        <li>(9, 0, 7)</li>
+        <li>(2, 0, 9)</li>
+        <li>(4, 0, 9)</li>
+        <li>(7, 0, 9)</li>
+        <li>(9, 0, 9)</li>
+      </positions>
+    </Nivarian_Temperature_Gen>
+    <Vent>
+      <rects>
+        <li>(6,5,6,5)</li>
+        <li>(5,6,5,6)</li>
+        <li>(7,6,7,6)</li>
+        <li>(5,8,5,8)</li>
+        <li>(7,8,7,8)</li>
+        <li>(6,9,6,9)</li>
+      </rects>
+    </Vent>
+    <HiddenConduit>
+      <rects>
+        <li>(3,6,3,6)</li>
+        <li>(9,6,9,6)</li>
+        <li>(6,10,6,12)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <Vent>
+      <rects>
+        <li>(4,7,4,7)</li>
+        <li>(8,7,8,7)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </Vent>
+    <SteamGeyser>
+      <position>(6, 0, 7)</position>
+    </SteamGeyser>
+    <Nivarian_DroneHub_Engineer>
+      <rects>
+        <li>(13,7,13,7)</li>
+      </rects>
+    </Nivarian_DroneHub_Engineer>
+    <Door>
+      <rects>
+        <li>(15,7,15,7)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>BlocksLimestone</stuff>
+      <color>RGBA(0.620, 0.600, 0.529, 1.000)</color>
+    </Door>
+    <Door>
+      <rects>
+        <li>(6,11,6,12)</li>
+      </rects>
+      <stuff>BlocksLimestone</stuff>
+      <color>RGBA(0.620, 0.600, 0.529, 1.000)</color>
+    </Door>
+  </things>
+  <terrainLayers></terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(1,1,11,11)</li>
+        <li>(12,6,15,8)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(1,1,11,11)</li>
+        <li>(12,6,15,8)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
