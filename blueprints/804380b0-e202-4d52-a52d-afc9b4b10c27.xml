@@ -1,0 +1,185 @@
+<PrefabDef>
+  <defName>Prefab_20260928_200603</defName>
+  <size>(8,8)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>皇权个人宿舍</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>宿舍</category>
+    <BuildingID>804380b0-e202-4d52-a52d-afc9b4b10c27</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>claymoresun.generalstone.forked</packageId>
+        <name>通用科技V1.6</name>
+        <version></version>
+        <modorder>63</modorder>
+        <steamWorkshopId>3199402471</steamWorkshopId>
+        <things>
+          <li>BlockCurrencyStone</li>
+          <li>BlockCurrencyStoneIII</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>memegoddess.replacestuff</packageId>
+        <name>Replace Stuff - Continued</name>
+        <version></version>
+        <modorder>49</modorder>
+        <steamWorkshopId>3526354009</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Vent_Over</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.royalty</packageId>
+        <name>Royalty</name>
+        <version></version>
+        <modorder>2</modorder>
+        <things>
+          <li>Drape</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>皇权个人宿舍</default>
+        <zh-CN>皇权个人宿舍</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,7,0)</li>
+        <li>(0,1,0,7)</li>
+        <li>(7,1,7,7)</li>
+        <li>(1,7,3,7)</li>
+        <li>(5,7,6,7)</li>
+      </rects>
+      <stuff>BlockCurrencyStone</stuff>
+      <color>RGBA(0.741, 0.741, 0.741, 1.000)</color>
+    </Wall>
+    <PowerConduit>
+      <rects>
+        <li>(0,0,7,0)</li>
+        <li>(0,1,0,3)</li>
+        <li>(7,1,7,7)</li>
+      </rects>
+    </PowerConduit>
+    <Dresser>
+      <position>(1, 0, 1)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>BlockCurrencyStoneIII</stuff>
+      <quality>Good</quality>
+      <color>RGBA(1.000, 1.000, 0.000, 1.000)</color>
+    </Dresser>
+    <RoyalBed>
+      <position>(2, 0, 1)</position>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RoyalBed>
+    <EndTable>
+      <rects>
+        <li>(4,1,4,1)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </EndTable>
+    <Table1x2c>
+      <position>(5, 0, 1)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Table1x2c>
+    <Vent_Over>
+      <rects>
+        <li>(7,1,7,1)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </Vent_Over>
+    <Drape>
+      <positions>
+        <li>(2, 0, 3)</li>
+        <li>(4, 0, 3)</li>
+      </positions>
+      <stuff>Cloth</stuff>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </Drape>
+    <WallLamp>
+      <rects>
+        <li>(3,6,3,6)</li>
+      </rects>
+      <glowColor>RGBA(0.820, 0.808, 0.839, 0.000)</glowColor>
+    </WallLamp>
+    <PlantPot>
+      <rects>
+        <li>(3,6,3,6)</li>
+        <li>(5,6,5,6)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </PlantPot>
+    <Door>
+      <rects>
+        <li>(4,7,4,7)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+  </things>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <CarpetFineBlueSky>
+        <rects>
+          <li>(1,1,6,6)</li>
+          <li>(4,7,4,7)</li>
+        </rects>
+      </CarpetFineBlueSky>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(1,1,2,6)</li>
+          <li>(3,4,3,6)</li>
+          <li>(4,6,4,7)</li>
+        </rects>
+      </Soil>
+      <Gravel>
+        <rects>
+          <li>(3,1,4,3)</li>
+          <li>(5,2,5,6)</li>
+          <li>(4,4,4,5)</li>
+        </rects>
+      </Gravel>
+      <Granite_Rough>
+        <rects>
+          <li>(5,1,6,1)</li>
+          <li>(6,2,6,6)</li>
+        </rects>
+      </Granite_Rough>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,7,7)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,7,7)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
