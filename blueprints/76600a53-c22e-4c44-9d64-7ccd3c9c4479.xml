@@ -1,0 +1,391 @@
+<PrefabDef>
+  <defName>Prefab_20260930_191743</defName>
+  <size>(10,16)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>原版扩展医疗室</name>
+    <description></description>
+    <tags></tags>
+    <author>亚砜</author>
+    <category>医疗</category>
+    <BuildingID>76600a53-c22e-4c44-9d64-7ccd3c9c4479</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>vanillaexpanded.vfemedical</packageId>
+        <name>Vanilla Furniture Expanded - Medical Module</name>
+        <version></version>
+        <modorder>141</modorder>
+        <steamWorkshopId>1718191613</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VFEM_Wall_Sterile</li>
+          <li>Facility_IVDrip</li>
+          <li>Facility_VitalsCentre</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>vanillaexpanded.vfecore</packageId>
+        <name>Vanilla Furniture Expanded</name>
+        <version></version>
+        <modorder>134</modorder>
+        <steamWorkshopId>1718190143</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VFE_FloorLamp</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>sbz.neatstoragefridge</packageId>
+        <name>[sbz] Fridge</name>
+        <version></version>
+        <modorder>24</modorder>
+        <steamWorkshopId>3486264784</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>adaptive.storage.framework</packageId>
+            <steamWorkshopId>3033901359</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>sbz_DoubleWallFridge</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>farxmai2.vfestandalone</packageId>
+        <name>[FM] Furniture Expanded Pack</name>
+        <version></version>
+        <modorder>135</modorder>
+        <steamWorkshopId>3537360590</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>FFE_AnimalMedTable</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>sbz.neatstorage</packageId>
+        <name>[sbz] Neat Storage</name>
+        <version></version>
+        <modorder>26</modorder>
+        <steamWorkshopId>3416243474</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>adaptive.storage.framework</packageId>
+            <steamWorkshopId>3033901359</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>sbz_MidCrate</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>oark.ratkinfaction.oberoniaaurea</packageId>
+        <name>[OA]Ratkin Faction: Oberonia aurea</name>
+        <version></version>
+        <modorder>82</modorder>
+        <steamWorkshopId>3159926804</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>oark.oberoniaaurea.framework</packageId>
+            <steamWorkshopId>3713589764</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>OA_RK_Hengwen</li>
+          <li>OA_RK_Floor</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>原版扩展医疗室</default>
+        <zh-CN>原版扩展医疗室</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <VFEM_Wall_Sterile>
+      <rects>
+        <li>(0,0,3,0)</li>
+        <li>(5,0,9,0)</li>
+        <li>(0,1,0,15)</li>
+        <li>(9,1,9,6)</li>
+        <li>(9,8,9,15)</li>
+        <li>(1,15,3,15)</li>
+        <li>(6,15,8,15)</li>
+      </rects>
+      <color>RGBA(0.094, 0.255, 0.475, 1.000)</color>
+    </VFEM_Wall_Sterile>
+    <Autodoor>
+      <rects>
+        <li>(4,0,4,0)</li>
+        <li>(4,15,4,15)</li>
+      </rects>
+      <stuff>Plasteel</stuff>
+      <color>RGBA(0.627, 0.698, 0.710, 1.000)</color>
+    </Autodoor>
+    <HiddenConduit>
+      <rects>
+        <li>(8,0,8,13)</li>
+        <li>(0,1,7,1)</li>
+        <li>(9,1,9,1)</li>
+        <li>(0,13,7,13)</li>
+        <li>(9,13,9,13)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <SculptureLarge>
+      <rects>
+        <li>(1,1,1,1)</li>
+      </rects>
+      <stuff>Jade</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.333, 0.463, 0.271, 1.000)</color>
+    </SculptureLarge>
+    <Facility_IVDrip>
+      <rects>
+        <li>(2,1,2,1)</li>
+        <li>(1,5,1,5)</li>
+        <li>(1,10,1,10)</li>
+        <li>(2,14,2,14)</li>
+      </rects>
+    </Facility_IVDrip>
+    <HospitalBed>
+      <position>(2, 0, 2)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HospitalBed>
+    <HospitalBed>
+      <position>(3, 0, 3)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HospitalBed>
+    <HospitalBed>
+      <position>(1, 0, 4)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HospitalBed>
+    <VFE_FloorLamp>
+      <rects>
+        <li>(2,3,2,3)</li>
+        <li>(8,5,8,5)</li>
+        <li>(2,7,2,7)</li>
+        <li>(8,10,8,11)</li>
+        <li>(2,11,2,11)</li>
+      </rects>
+    </VFE_FloorLamp>
+    <VitalsMonitor>
+      <rects>
+        <li>(2,3,2,3)</li>
+        <li>(2,12,2,12)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </VitalsMonitor>
+    <FlatscreenTelevision>
+      <positions>
+        <li>(7, 0, 3)</li>
+        <li>(7, 0, 10)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </FlatscreenTelevision>
+    <sbz_DoubleWallFridge>
+      <position>(8, 0, 3)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </sbz_DoubleWallFridge>
+    <HospitalBed>
+      <positions>
+        <li>(2, 0, 4)</li>
+        <li>(1, 0, 13)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HospitalBed>
+    <PsychicEmanator>
+      <rects>
+        <li>(8,5,8,5)</li>
+      </rects>
+    </PsychicEmanator>
+    <FFE_AnimalMedTable>
+      <rects>
+        <li>(1,6,2,6)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </FFE_AnimalMedTable>
+    <Facility_VitalsCentre>
+      <position>(2, 0, 8)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </Facility_VitalsCentre>
+    <Autodoor>
+      <rects>
+        <li>(9,7,9,7)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Plasteel</stuff>
+      <color>RGBA(0.627, 0.698, 0.710, 1.000)</color>
+    </Autodoor>
+    <FFE_AnimalMedTable>
+      <rects>
+        <li>(1,9,1,9)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </FFE_AnimalMedTable>
+    <FFE_AnimalMedTable>
+      <rects>
+        <li>(2,9,2,9)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Legendary</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </FFE_AnimalMedTable>
+    <sbz_MidCrate>
+      <position>(8, 0, 11)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </sbz_MidCrate>
+    <HospitalBed>
+      <position>(1, 0, 12)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HospitalBed>
+    <HospitalBed>
+      <position>(2, 0, 11)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HospitalBed>
+    <HospitalBed>
+      <position>(3, 0, 12)</position>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HospitalBed>
+    <OA_RK_Hengwen>
+      <rects>
+        <li>(1,14,1,14)</li>
+      </rects>
+    </OA_RK_Hengwen>
+    <Cooler>
+      <rects>
+        <li>(5,15,5,15)</li>
+      </rects>
+    </Cooler>
+  </things>
+  <terrain>
+    <OA_RK_Floor>
+      <rects>
+        <li>(4,0,4,15)</li>
+        <li>(1,1,3,14)</li>
+        <li>(5,1,8,2)</li>
+        <li>(5,3,7,14)</li>
+        <li>(8,5,8,14)</li>
+        <li>(9,7,9,7)</li>
+      </rects>
+    </OA_RK_Floor>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <FlagstoneMarble>
+        <rects>
+          <li>(0,0,3,0)</li>
+          <li>(5,0,9,0)</li>
+          <li>(9,1,9,6)</li>
+          <li>(9,8,9,15)</li>
+          <li>(0,14,0,15)</li>
+          <li>(1,15,3,15)</li>
+          <li>(5,15,8,15)</li>
+        </rects>
+      </FlagstoneMarble>
+      <OA_RK_Floor>
+        <rects>
+          <li>(4,0,4,15)</li>
+          <li>(1,1,3,14)</li>
+          <li>(5,1,8,2)</li>
+          <li>(5,3,7,14)</li>
+          <li>(8,5,8,14)</li>
+          <li>(9,7,9,7)</li>
+        </rects>
+      </OA_RK_Floor>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(0,0,9,0)</li>
+          <li>(1,1,9,2)</li>
+          <li>(1,3,7,15)</li>
+          <li>(9,3,9,15)</li>
+          <li>(8,5,8,15)</li>
+          <li>(0,14,0,15)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,9,15)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,9,15)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
