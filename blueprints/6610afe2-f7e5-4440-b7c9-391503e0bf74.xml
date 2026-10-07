@@ -1,0 +1,596 @@
+<PrefabDef>
+  <defName>Prefab_20260926_200221</defName>
+  <size>(30,31)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>核电站</name>
+    <description></description>
+    <tags></tags>
+    <author>七</author>
+    <category>电力</category>
+    <BuildingID>6610afe2-f7e5-4440-b7c9-391503e0bf74</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>kindseal.ufli</packageId>
+        <name>联合轻工家具拓展-UF Light Industries Furniture</name>
+        <version></version>
+        <modorder>371</modorder>
+        <steamWorkshopId>3651799915</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFLI_Wall_Cable</li>
+          <li>UFLI_groundlight_line</li>
+          <li>UFLI_Walllamp</li>
+          <li>UFLI_1_Frame_DOOR</li>
+          <li>UFLI_1_Autodoor</li>
+          <li>UFLI_groundlight</li>
+          <li>UFLI_FLOORGII</li>
+          <li>UFLI_FLOORD</li>
+          <li>UFLI_FLOORS</li>
+          <li>UFLI_FLOORF</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>elsa.cakefurniture.fdf</packageId>
+        <name>Cake! Furniture-蛋糕家具</name>
+        <version></version>
+        <modorder>312</modorder>
+        <steamWorkshopId>3629632481</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>ludeon.rimworld</packageId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>FDF_Chocolate</li>
+          <li>FDF_Cream</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>dubwise.rimatomics</packageId>
+        <name>Dubs Rimatomics</name>
+        <version>1.7.3551</version>
+        <modorder>86</modorder>
+        <steamWorkshopId>1127530465</steamWorkshopId>
+        <things>
+          <li>CoolingTower</li>
+          <li>ReactorControl</li>
+          <li>controllerLoom</li>
+          <li>ReactorCoreC</li>
+          <li>Transformer</li>
+          <li>coolingPipeHidden</li>
+          <li>steamPipeHidden</li>
+          <li>waterPipeHidden</li>
+          <li>HighVoltage</li>
+          <li>RadiationDetector</li>
+          <li>PPC</li>
+          <li>BigTurbine</li>
+          <li>storagePool</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>sarg.alphamemes</packageId>
+        <name>Alpha Memes</name>
+        <version></version>
+        <modorder>275</modorder>
+        <steamWorkshopId>2661356814</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.ideology</packageId>
+          </li>
+        </dependencies>
+        <things>
+          <li>AM_KemeticTileSlate</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>核电站</default>
+        <zh-CN>核电站</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <UFLI_Wall_Cable>
+      <rects>
+        <li>(0,0,21,0)</li>
+        <li>(0,1,0,6)</li>
+        <li>(8,1,8,10)</li>
+        <li>(18,1,18,10)</li>
+        <li>(21,1,21,17)</li>
+        <li>(1,6,6,6)</li>
+        <li>(9,10,12,10)</li>
+        <li>(14,10,17,10)</li>
+        <li>(2,12,8,12)</li>
+        <li>(8,13,8,25)</li>
+        <li>(0,14,2,14)</li>
+        <li>(0,15,0,30)</li>
+        <li>(22,17,26,17)</li>
+        <li>(28,17,29,17)</li>
+        <li>(29,18,29,25)</li>
+        <li>(1,25,7,25)</li>
+        <li>(9,25,20,25)</li>
+        <li>(22,25,26,25)</li>
+        <li>(28,25,28,25)</li>
+        <li>(25,27,25,30)</li>
+        <li>(1,30,24,30)</li>
+      </rects>
+      <stuff>FDF_Chocolate</stuff>
+      <color>RGBA(0.286, 0.204, 0.188, 1.000)</color>
+    </UFLI_Wall_Cable>
+    <HiddenConduit>
+      <rects>
+        <li>(22,0,22,0)</li>
+        <li>(1,3,7,3)</li>
+        <li>(7,6,7,6)</li>
+        <li>(13,10,13,10)</li>
+        <li>(2,13,2,13)</li>
+        <li>(27,17,27,17)</li>
+        <li>(21,25,21,25)</li>
+        <li>(27,25,27,25)</li>
+        <li>(25,26,25,26)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <CoolingTower>
+      <positions>
+        <li>(25, 0, 3)</li>
+        <li>(25, 0, 11)</li>
+      </positions>
+      <color>RGBA(0.658, 0.615, 0.525, 1.000)</color>
+    </CoolingTower>
+    <UFLI_groundlight_line>
+      <rects>
+        <li>(1,1,1,5)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </UFLI_groundlight_line>
+    <UFLI_groundlight_line>
+      <rects>
+        <li>(1,1,7,1)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </UFLI_groundlight_line>
+    <ReactorControl>
+      <position>(4, 0, 2)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </ReactorControl>
+    <controllerLoom>
+      <rects>
+        <li>(7,1,8,1)</li>
+      </rects>
+    </controllerLoom>
+    <UFLI_groundlight_line>
+      <rects>
+        <li>(7,1,7,5)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </UFLI_groundlight_line>
+    <ReactorCoreC>
+      <position>(13, 0, 5)</position>
+    </ReactorCoreC>
+    <UFLI_Walllamp>
+      <rects>
+        <li>(10,1,10,1)</li>
+        <li>(16,1,16,1)</li>
+        <li>(3,13,3,13)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </UFLI_Walllamp>
+    <Transformer>
+      <positions>
+        <li>(19, 0, 1)</li>
+        <li>(19, 0, 3)</li>
+        <li>(19, 0, 5)</li>
+        <li>(19, 0, 7)</li>
+        <li>(19, 0, 9)</li>
+        <li>(1, 0, 28)</li>
+        <li>(3, 0, 28)</li>
+        <li>(5, 0, 28)</li>
+        <li>(7, 0, 28)</li>
+        <li>(9, 0, 28)</li>
+        <li>(11, 0, 28)</li>
+        <li>(13, 0, 28)</li>
+        <li>(15, 0, 28)</li>
+        <li>(17, 0, 28)</li>
+        <li>(19, 0, 28)</li>
+        <li>(21, 0, 28)</li>
+        <li>(23, 0, 28)</li>
+      </positions>
+    </Transformer>
+    <coolingPipeHidden>
+      <rects>
+        <li>(16,2,21,2)</li>
+        <li>(19,13,21,13)</li>
+        <li>(22,16,22,19)</li>
+        <li>(29,16,29,19)</li>
+        <li>(19,19,21,19)</li>
+        <li>(23,19,28,19)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </coolingPipeHidden>
+    <UFLI_groundlight_line>
+      <rects>
+        <li>(1,5,6,5)</li>
+      </rects>
+    </UFLI_groundlight_line>
+    <UFLI_1_Frame_DOOR>
+      <rects>
+        <li>(7,6,7,6)</li>
+        <li>(13,10,13,10)</li>
+        <li>(27,17,27,17)</li>
+        <li>(21,25,21,25)</li>
+        <li>(27,25,27,25)</li>
+      </rects>
+      <stuff>FDF_Chocolate</stuff>
+      <color>RGBA(0.286, 0.204, 0.188, 1.000)</color>
+    </UFLI_1_Frame_DOOR>
+    <UFLI_1_Autodoor>
+      <rects>
+        <li>(7,6,7,6)</li>
+        <li>(13,10,13,10)</li>
+        <li>(27,17,27,17)</li>
+        <li>(21,25,21,25)</li>
+        <li>(27,25,27,25)</li>
+      </rects>
+      <stuff>FDF_Chocolate</stuff>
+      <color>RGBA(0.286, 0.204, 0.188, 1.000)</color>
+    </UFLI_1_Autodoor>
+    <UFLI_Walllamp>
+      <rects>
+        <li>(10,9,10,9)</li>
+        <li>(16,9,16,9)</li>
+        <li>(25,16,25,16)</li>
+        <li>(3,24,3,24)</li>
+      </rects>
+    </UFLI_Walllamp>
+    <steamPipeHidden>
+      <rects>
+        <li>(11,10,11,12)</li>
+        <li>(15,10,15,12)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </steamPipeHidden>
+    <waterPipeHidden>
+      <rects>
+        <li>(11,10,11,12)</li>
+        <li>(15,10,15,12)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </waterPipeHidden>
+    <UFLI_1_Autodoor>
+      <rects>
+        <li>(8,11,8,11)</li>
+        <li>(2,13,2,13)</li>
+        <li>(25,26,25,26)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>FDF_Chocolate</stuff>
+      <color>RGBA(0.286, 0.204, 0.188, 1.000)</color>
+    </UFLI_1_Autodoor>
+    <UFLI_1_Frame_DOOR>
+      <rects>
+        <li>(8,11,8,11)</li>
+        <li>(2,13,2,13)</li>
+        <li>(25,26,25,26)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>FDF_Chocolate</stuff>
+      <color>RGBA(0.286, 0.204, 0.188, 1.000)</color>
+    </UFLI_1_Frame_DOOR>
+    <UFLI_groundlight>
+      <rects>
+        <li>(9,11,9,11)</li>
+        <li>(18,11,18,11)</li>
+        <li>(21,18,21,18)</li>
+        <li>(28,18,28,18)</li>
+        <li>(9,24,9,24)</li>
+        <li>(28,24,28,24)</li>
+      </rects>
+    </UFLI_groundlight>
+    <HighVoltage>
+      <rects>
+        <li>(20,11,20,23)</li>
+        <li>(18,12,19,12)</li>
+        <li>(21,23,21,27)</li>
+      </rects>
+    </HighVoltage>
+    <RadiationDetector>
+      <rects>
+        <li>(9,12,9,12)</li>
+        <li>(19,24,19,24)</li>
+      </rects>
+    </RadiationDetector>
+    <PPC>
+      <positions>
+        <li>(5, 0, 15)</li>
+        <li>(7, 0, 15)</li>
+        <li>(5, 0, 19)</li>
+        <li>(7, 0, 19)</li>
+        <li>(5, 0, 23)</li>
+        <li>(7, 0, 23)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>FDF_Cream</stuff>
+      <color>RGBA(0.929, 0.929, 0.929, 1.000)</color>
+    </PPC>
+    <BigTurbine>
+      <position>(13, 0, 16)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <color>RGBA(0.215, 0.482, 0.650, 1.000)</color>
+    </BigTurbine>
+    <PPC>
+      <positions>
+        <li>(1, 0, 18)</li>
+        <li>(1, 0, 22)</li>
+      </positions>
+      <stuff>FDF_Cream</stuff>
+      <color>RGBA(0.929, 0.929, 0.929, 1.000)</color>
+    </PPC>
+    <BigTurbine>
+      <position>(14, 0, 21)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <color>RGBA(0.215, 0.482, 0.650, 1.000)</color>
+    </BigTurbine>
+    <storagePool>
+      <position>(26, 0, 21)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </storagePool>
+    <Transformer>
+      <positions>
+        <li>(2, 0, 27)</li>
+        <li>(4, 0, 27)</li>
+        <li>(6, 0, 27)</li>
+        <li>(8, 0, 27)</li>
+        <li>(10, 0, 27)</li>
+        <li>(12, 0, 27)</li>
+        <li>(14, 0, 27)</li>
+        <li>(16, 0, 27)</li>
+        <li>(18, 0, 27)</li>
+        <li>(20, 0, 27)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+    </Transformer>
+  </things>
+  <terrain>
+    <AM_KemeticTileSlate>
+      <rects>
+        <li>(3,25,5,25)</li>
+      </rects>
+    </AM_KemeticTileSlate>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <UFLI_FLOORGII>
+        <rects>
+          <li>(22,0,29,16)</li>
+          <li>(0,8,6,10)</li>
+          <li>(0,11,0,12)</li>
+          <li>(27,27,29,30)</li>
+        </rects>
+      </UFLI_FLOORGII>
+      <UFLI_FLOORD>
+        <rects>
+          <li>(1,1,7,5)</li>
+          <li>(7,6,7,6)</li>
+        </rects>
+      </UFLI_FLOORD>
+      <UFLI_FLOORS>
+        <rects>
+          <li>(9,1,17,9)</li>
+          <li>(19,1,20,24)</li>
+          <li>(13,10,13,24)</li>
+          <li>(8,11,12,11)</li>
+          <li>(14,11,18,24)</li>
+          <li>(9,12,12,24)</li>
+          <li>(2,13,7,24)</li>
+          <li>(1,14,1,24)</li>
+          <li>(21,18,28,24)</li>
+          <li>(21,25,21,29)</li>
+          <li>(1,26,20,29)</li>
+          <li>(22,26,25,26)</li>
+          <li>(22,27,24,29)</li>
+        </rects>
+      </UFLI_FLOORS>
+      <UFLI_FLOORF>
+        <rects>
+          <li>(0,7,7,7)</li>
+          <li>(7,8,7,11)</li>
+          <li>(1,11,6,11)</li>
+          <li>(1,12,1,13)</li>
+          <li>(0,13,0,13)</li>
+          <li>(26,26,29,26)</li>
+          <li>(26,27,26,30)</li>
+        </rects>
+      </UFLI_FLOORF>
+      <AM_KemeticTileSlate>
+        <rects>
+          <li>(3,25,5,25)</li>
+        </rects>
+      </AM_KemeticTileSlate>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Marble_RoughHewn>
+        <rects>
+          <li>(22,0,23,0)</li>
+          <li>(26,6,28,11)</li>
+          <li>(24,7,25,11)</li>
+          <li>(29,7,29,14)</li>
+          <li>(23,11,23,11)</li>
+          <li>(25,22,25,23)</li>
+          <li>(27,22,28,23)</li>
+          <li>(28,24,28,24)</li>
+          <li>(29,26,29,26)</li>
+        </rects>
+      </Marble_RoughHewn>
+      <Limestone_RoughHewn>
+        <rects>
+          <li>(24,0,27,0)</li>
+          <li>(12,1,13,1)</li>
+          <li>(25,1,26,1)</li>
+          <li>(26,2,27,2)</li>
+          <li>(29,2,29,6)</li>
+          <li>(28,3,28,5)</li>
+        </rects>
+      </Limestone_RoughHewn>
+      <Limestone_Rough>
+        <rects>
+          <li>(28,0,29,1)</li>
+          <li>(1,1,7,2)</li>
+          <li>(9,1,11,2)</li>
+          <li>(14,1,17,2)</li>
+          <li>(19,1,20,3)</li>
+          <li>(24,1,24,3)</li>
+          <li>(27,1,27,1)</li>
+          <li>(12,2,13,2)</li>
+          <li>(25,2,25,3)</li>
+          <li>(28,2,28,2)</li>
+          <li>(1,3,1,3)</li>
+          <li>(16,3,17,3)</li>
+          <li>(22,3,23,3)</li>
+          <li>(26,3,27,4)</li>
+          <li>(20,4,20,4)</li>
+          <li>(27,5,27,5)</li>
+        </rects>
+      </Limestone_Rough>
+      <Marble_Rough>
+        <rects>
+          <li>(22,1,23,2)</li>
+          <li>(2,3,7,5)</li>
+          <li>(9,3,15,5)</li>
+          <li>(1,4,1,5)</li>
+          <li>(16,4,17,9)</li>
+          <li>(19,4,19,24)</li>
+          <li>(22,4,25,6)</li>
+          <li>(20,5,20,24)</li>
+          <li>(26,5,26,5)</li>
+          <li>(10,6,15,6)</li>
+          <li>(14,7,15,7)</li>
+          <li>(22,7,23,10)</li>
+          <li>(15,8,15,9)</li>
+          <li>(15,11,18,12)</li>
+          <li>(22,11,22,16)</li>
+          <li>(23,12,28,16)</li>
+          <li>(16,13,18,22)</li>
+          <li>(29,15,29,16)</li>
+          <li>(15,18,15,19)</li>
+          <li>(21,18,28,21)</li>
+          <li>(21,22,24,24)</li>
+          <li>(26,22,26,24)</li>
+          <li>(17,23,18,24)</li>
+          <li>(25,24,25,24)</li>
+          <li>(27,24,27,24)</li>
+          <li>(21,25,21,29)</li>
+          <li>(17,26,20,29)</li>
+          <li>(22,26,28,26)</li>
+          <li>(22,27,24,29)</li>
+          <li>(26,27,29,30)</li>
+        </rects>
+      </Marble_Rough>
+      <Gravel>
+        <rects>
+          <li>(7,6,7,11)</li>
+          <li>(9,6,9,9)</li>
+          <li>(1,7,6,7)</li>
+          <li>(10,7,13,9)</li>
+          <li>(3,8,6,8)</li>
+          <li>(14,8,14,9)</li>
+          <li>(5,9,6,11)</li>
+          <li>(13,10,13,22)</li>
+          <li>(8,11,12,11)</li>
+          <li>(14,11,14,24)</li>
+          <li>(9,12,12,13)</li>
+          <li>(3,13,7,16)</li>
+          <li>(15,13,15,17)</li>
+          <li>(2,14,2,16)</li>
+          <li>(9,14,9,14)</li>
+          <li>(12,14,12,19)</li>
+          <li>(4,17,7,17)</li>
+          <li>(9,17,9,20)</li>
+          <li>(5,18,7,19)</li>
+          <li>(15,20,15,24)</li>
+          <li>(16,23,16,24)</li>
+          <li>(14,26,16,29)</li>
+          <li>(13,28,13,29)</li>
+        </rects>
+      </Gravel>
+      <Soil>
+        <rects>
+          <li>(0,7,0,13)</li>
+          <li>(1,8,2,11)</li>
+          <li>(3,9,4,11)</li>
+          <li>(1,12,1,21)</li>
+          <li>(2,13,2,13)</li>
+          <li>(9,15,11,16)</li>
+          <li>(2,17,3,22)</li>
+          <li>(10,17,11,24)</li>
+          <li>(4,18,4,24)</li>
+          <li>(5,20,7,24)</li>
+          <li>(12,20,12,24)</li>
+          <li>(9,21,9,24)</li>
+          <li>(3,23,3,23)</li>
+          <li>(13,23,13,24)</li>
+          <li>(5,25,5,25)</li>
+          <li>(7,26,13,26)</li>
+          <li>(8,27,13,27)</li>
+          <li>(9,28,12,29)</li>
+        </rects>
+      </Soil>
+      <Sand>
+        <rects>
+          <li>(10,14,11,14)</li>
+        </rects>
+      </Sand>
+      <SoilRich>
+        <rects>
+          <li>(1,22,1,24)</li>
+          <li>(2,23,2,24)</li>
+          <li>(3,24,3,29)</li>
+          <li>(4,25,4,29)</li>
+          <li>(1,26,2,29)</li>
+          <li>(5,26,6,29)</li>
+          <li>(7,27,7,29)</li>
+          <li>(8,28,8,29)</li>
+        </rects>
+      </SoilRich>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,21,6)</li>
+        <li>(8,7,21,25)</li>
+        <li>(2,12,7,25)</li>
+        <li>(0,14,1,25)</li>
+        <li>(22,17,29,25)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,21,6)</li>
+        <li>(8,7,21,25)</li>
+        <li>(2,12,7,25)</li>
+        <li>(0,14,1,25)</li>
+        <li>(22,17,29,25)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
