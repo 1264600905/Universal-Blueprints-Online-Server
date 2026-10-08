@@ -1,0 +1,56 @@
+<PrefabDef>
+  <defName>Prefab_20261008_193909</defName>
+  <size>(7,5)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>屋顶阵</name>
+    <description></description>
+    <tags></tags>
+    <author></author>
+    <category>防御工事</category>
+    <BuildingID>475af940-90b1-416d-bdf3-d1c6be35af88</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>aoba.fortress.industrial.concrete</packageId>
+        <name>Industrial concrete</name>
+        <version></version>
+        <modorder>38</modorder>
+        <steamWorkshopId>2888037450</steamWorkshopId>
+        <things>
+          <li>FT_BlocksConcrete</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>屋顶阵</default>
+        <zh-CN>屋顶阵</zh-CN>
+      </name>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(1,2,1,2)</li>
+        <li>(5,2,5,2)</li>
+      </rects>
+      <stuff>FT_BlocksConcrete</stuff>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </Wall>
+  </things>
+  <terrainLayers></terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,1,2,3)</li>
+        <li>(4,1,6,3)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,1,2,3)</li>
+        <li>(4,1,6,3)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
