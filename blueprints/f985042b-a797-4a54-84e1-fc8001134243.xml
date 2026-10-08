@@ -1,5 +1,5 @@
 <PrefabDef>
-  <defName>Prefab_20261009_004447</defName>
+  <defName>Prefab_20261009_005325</defName>
   <size>(111,35)</size>
   <extraInfo>
     <version>1.6.9676.17735</version>
@@ -25,6 +25,24 @@
           <li>FuelOptimizer</li>
           <li>SignalJammer</li>
           <li>Substructure</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>axzero.passagetothestars</packageId>
+        <name>Passage to the Stars | 远航许可</name>
+        <version>0.2.0</version>
+        <modorder>66</modorder>
+        <steamWorkshopId>3811738864</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>ludeon.rimworld</packageId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.royalty</packageId>
+          </li>
+        </dependencies>
+        <things>
+          <li>PTS_CommunicationsArray</li>
         </things>
       </mod>
       <mod>
@@ -364,6 +382,9 @@
       </positions>
       <relativeRotation>Clockwise</relativeRotation>
     </SmallThruster>
+    <PTS_CommunicationsArray>
+      <position>(43, 0, -1)</position>
+    </PTS_CommunicationsArray>
     <VGE_GravshipArmor>
       <rects>
         <li>(46,0,54,0)</li>
@@ -2045,7 +2066,6 @@
       <VGE_GravshipSubarmor>
         <rects>
           <li>(19,0,20,34)</li>
-          <li>(38,0,39,34)</li>
           <li>(46,0,54,34)</li>
           <li>(60,0,61,34)</li>
           <li>(65,0,73,34)</li>
@@ -2053,8 +2073,7 @@
           <li>(18,1,18,33)</li>
           <li>(21,1,21,33)</li>
           <li>(25,1,26,33)</li>
-          <li>(33,1,37,33)</li>
-          <li>(40,1,45,33)</li>
+          <li>(33,1,45,33)</li>
           <li>(55,1,59,33)</li>
           <li>(62,1,64,33)</li>
           <li>(74,1,74,33)</li>
