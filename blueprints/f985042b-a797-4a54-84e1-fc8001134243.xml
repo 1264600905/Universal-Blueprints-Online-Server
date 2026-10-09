@@ -1,6 +1,6 @@
 <PrefabDef>
-  <defName>Prefab_20261009_005405</defName>
-  <size>(111,35)</size>
+  <defName>Prefab_20261010_000655</defName>
+  <size>(110,35)</size>
   <extraInfo>
     <version>1.6.9676.17735</version>
     <name>無謂艦(VanillaGravshipExpanded)</name>
@@ -21,7 +21,6 @@
           <li>LargeChemfuelTank</li>
           <li>GravFieldExtender</li>
           <li>OxygenPump</li>
-          <li>ChemfuelTank</li>
           <li>FuelOptimizer</li>
           <li>SignalJammer</li>
           <li>Substructure</li>
@@ -76,6 +75,7 @@
         </dependencies>
         <things>
           <li>SpaceshipTurretHull</li>
+          <li>SpaceshipHeavyTurretHull</li>
         </things>
       </mod>
       <mod>
@@ -111,13 +111,12 @@
           <li>VGE_GravshipCapacitor</li>
           <li>VGE_WallFirefoamPopper</li>
           <li>VGE_HiddenOxygenPipe</li>
-          <li>VGE_JavelinPod</li>
           <li>VGE_GaussGun</li>
           <li>VGE_SmallHeatsink</li>
           <li>VGE_GravheatAbsorber</li>
-          <li>VGE_OperatorSubpersonaCore</li>
           <li>VGE_LifeSupportSystem</li>
           <li>VGE_AmmoBox_GaussShell</li>
+          <li>VGE_OperatorSubpersonaCore</li>
           <li>VGE_LargeHeatsink</li>
           <li>VGE_IndustrialOxygenPump</li>
           <li>VGE_OxygenReclaimer</li>
@@ -134,6 +133,25 @@
           <li>VGE_Gravlift</li>
           <li>VGE_GravtechConsole</li>
           <li>VGE_CompactStove</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>dubwise.dubsbadhygiene</packageId>
+        <name>Dubs Bad Hygiene</name>
+        <version>3.1.2800</version>
+        <modorder>77</modorder>
+        <steamWorkshopId>836308268</steamWorkshopId>
+        <things>
+          <li>sewagePipeHidden</li>
+          <li>WaterTreatment</li>
+          <li>PumpingStation</li>
+          <li>WaterTowerS</li>
+          <li>SewageTreatment</li>
+          <li>ShowerAdvStuff</li>
+          <li>ToiletStallDoor</li>
+          <li>ToiletAdvStuff</li>
+          <li>Fountain</li>
+          <li>DBHMosaicTile</li>
         </things>
       </mod>
       <mod>
@@ -201,16 +219,6 @@
         </things>
       </mod>
       <mod>
-        <packageId>haplo.miscellaneous.training</packageId>
-        <name>Misc. Training</name>
-        <version>1.6.6</version>
-        <modorder>269</modorder>
-        <steamWorkshopId>717575199</steamWorkshopId>
-        <things>
-          <li>MartialArtsTarget</li>
-        </things>
-      </mod>
-      <mod>
         <packageId>sbz.neatstoragefridge</packageId>
         <name>[sbz] Fridge</name>
         <version></version>
@@ -246,6 +254,16 @@
         </dependencies>
         <things>
           <li>Vent_Over</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>haplo.miscellaneous.training</packageId>
+        <name>Misc. Training</name>
+        <version>1.6.6</version>
+        <modorder>269</modorder>
+        <steamWorkshopId>717575199</steamWorkshopId>
+        <things>
+          <li>MartialArtsTarget</li>
         </things>
       </mod>
       <mod>
@@ -328,16 +346,6 @@
           <li>VFEArch_Asphalt</li>
         </things>
       </mod>
-      <mod>
-        <packageId>dubwise.dubsbadhygiene</packageId>
-        <name>Dubs Bad Hygiene</name>
-        <version>3.1.2800</version>
-        <modorder>77</modorder>
-        <steamWorkshopId>836308268</steamWorkshopId>
-        <things>
-          <li>DBHMosaicTile</li>
-        </things>
-      </mod>
     </modPackages>
     <multiLanguage>
       <name>
@@ -368,64 +376,63 @@
       <rects>
         <li>(46,0,54,0)</li>
         <li>(61,0,61,10)</li>
-        <li>(65,0,65,1)</li>
+        <li>(68,0,73,0)</li>
         <li>(10,1,10,2)</li>
         <li>(20,1,21,2)</li>
         <li>(26,1,26,2)</li>
-        <li>(35,1,35,3)</li>
         <li>(39,1,45,1)</li>
         <li>(55,1,60,1)</li>
-        <li>(62,1,64,1)</li>
+        <li>(62,1,65,1)</li>
         <li>(67,1,67,12)</li>
+        <li>(74,1,74,1)</li>
         <li>(7,2,9,2)</li>
         <li>(11,2,19,2)</li>
         <li>(22,2,25,2)</li>
         <li>(27,2,27,3)</li>
+        <li>(35,2,35,3)</li>
+        <li>(75,2,75,2)</li>
         <li>(9,3,9,3)</li>
         <li>(16,3,16,5)</li>
         <li>(25,3,25,11)</li>
         <li>(28,3,34,3)</li>
         <li>(65,3,65,8)</li>
+        <li>(76,3,76,3)</li>
+        <li>(80,3,80,4)</li>
+        <li>(82,3,82,4)</li>
         <li>(23,4,23,6)</li>
         <li>(34,4,34,11)</li>
-        <li>(82,4,82,5)</li>
-        <li>(85,4,89,4)</li>
+        <li>(77,4,79,4)</li>
+        <li>(81,4,81,4)</li>
+        <li>(83,4,89,4)</li>
         <li>(9,5,9,5)</li>
         <li>(62,5,64,5)</li>
-        <li>(78,5,81,5)</li>
-        <li>(83,5,85,5)</li>
+        <li>(77,5,77,12)</li>
         <li>(90,5,97,5)</li>
         <li>(10,6,15,6)</li>
         <li>(17,6,22,6)</li>
         <li>(45,6,52,6)</li>
-        <li>(98,6,98,10)</li>
+        <li>(98,6,98,6)</li>
+        <li>(101,6,101,7)</li>
         <li>(103,6,103,7)</li>
         <li>(7,7,8,7)</li>
         <li>(45,7,45,10)</li>
         <li>(52,7,52,7)</li>
-        <li>(99,7,102,7)</li>
+        <li>(99,7,100,7)</li>
+        <li>(102,7,102,7)</li>
         <li>(104,7,105,7)</li>
         <li>(8,8,8,10)</li>
         <li>(106,8,109,8)</li>
         <li>(52,9,52,10)</li>
-        <li>(77,9,80,9)</li>
-        <li>(82,9,85,9)</li>
-        <li>(109,9,110,9)</li>
+        <li>(109,9,109,12)</li>
         <li>(6,10,7,10)</li>
         <li>(46,10,51,10)</li>
         <li>(63,10,65,10)</li>
-        <li>(77,10,77,12)</li>
-        <li>(85,10,85,12)</li>
-        <li>(109,10,109,12)</li>
         <li>(26,11,31,11)</li>
         <li>(33,11,33,11)</li>
-        <li>(80,11,80,12)</li>
-        <li>(82,11,82,12)</li>
         <li>(68,12,68,12)</li>
         <li>(70,12,76,12)</li>
-        <li>(78,12,79,12)</li>
-        <li>(83,12,84,12)</li>
-        <li>(86,12,90,12)</li>
+        <li>(78,12,80,12)</li>
+        <li>(82,12,90,12)</li>
         <li>(92,12,100,12)</li>
         <li>(30,13,30,14)</li>
         <li>(100,13,100,16)</li>
@@ -438,9 +445,11 @@
         <li>(21,16,21,16)</li>
         <li>(30,16,30,18)</li>
         <li>(101,16,101,18)</li>
+        <li>(109,16,109,16)</li>
         <li>(10,18,10,19)</li>
         <li>(21,18,21,19)</li>
         <li>(100,18,100,22)</li>
+        <li>(109,18,109,18)</li>
         <li>(11,19,16,19)</li>
         <li>(18,19,20,19)</li>
         <li>(25,20,30,20)</li>
@@ -454,20 +463,13 @@
         <li>(33,23,34,23)</li>
         <li>(67,23,67,33)</li>
         <li>(77,23,77,25)</li>
-        <li>(80,23,80,23)</li>
-        <li>(82,23,82,23)</li>
-        <li>(85,23,85,25)</li>
         <li>(6,24,8,24)</li>
         <li>(25,24,25,32)</li>
         <li>(34,24,34,31)</li>
         <li>(45,24,52,24)</li>
-        <li>(98,24,98,28)</li>
         <li>(8,25,8,27)</li>
         <li>(45,25,45,28)</li>
         <li>(52,25,52,25)</li>
-        <li>(78,25,80,25)</li>
-        <li>(82,25,84,25)</li>
-        <li>(110,25,110,25)</li>
         <li>(106,26,108,26)</li>
         <li>(7,27,7,27)</li>
         <li>(52,27,52,28)</li>
@@ -475,31 +477,37 @@
         <li>(10,28,15,28)</li>
         <li>(17,28,23,28)</li>
         <li>(46,28,51,28)</li>
+        <li>(98,28,98,28)</li>
+        <li>(101,28,101,28)</li>
+        <li>(103,28,103,28)</li>
         <li>(9,29,9,29)</li>
         <li>(16,29,16,32)</li>
         <li>(23,29,23,30)</li>
         <li>(61,29,65,29)</li>
-        <li>(78,29,85,29)</li>
         <li>(90,29,97,29)</li>
         <li>(61,30,61,34)</li>
         <li>(65,30,65,31)</li>
-        <li>(82,30,82,30)</li>
-        <li>(85,30,89,30)</li>
+        <li>(78,30,89,30)</li>
         <li>(9,31,9,32)</li>
         <li>(27,31,33,31)</li>
-        <li>(35,31,35,33)</li>
+        <li>(35,31,35,32)</li>
+        <li>(76,31,76,31)</li>
+        <li>(80,31,80,31)</li>
+        <li>(82,31,82,31)</li>
         <li>(7,32,8,32)</li>
         <li>(10,32,15,32)</li>
         <li>(17,32,24,32)</li>
         <li>(26,32,27,32)</li>
+        <li>(75,32,75,32)</li>
         <li>(10,33,10,33)</li>
         <li>(20,33,21,33)</li>
         <li>(26,33,26,33)</li>
         <li>(39,33,45,33)</li>
         <li>(55,33,60,33)</li>
         <li>(62,33,65,33)</li>
+        <li>(74,33,74,33)</li>
         <li>(46,34,54,34)</li>
-        <li>(65,34,65,34)</li>
+        <li>(68,34,73,34)</li>
       </rects>
       <stuff>Steel</stuff>
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
@@ -511,17 +519,14 @@
         <li>(9,1,9,1)</li>
         <li>(25,1,25,1)</li>
         <li>(38,1,38,1)</li>
-        <li>(81,4,81,4)</li>
+        <li>(81,3,81,3)</li>
         <li>(102,6,102,6)</li>
         <li>(65,9,65,9)</li>
         <li>(36,10,36,10)</li>
-        <li>(110,10,110,10)</li>
-        <li>(109,17,109,17)</li>
         <li>(36,24,36,24)</li>
-        <li>(110,24,110,24)</li>
         <li>(65,25,65,25)</li>
         <li>(102,28,102,28)</li>
-        <li>(81,30,81,30)</li>
+        <li>(81,31,81,31)</li>
         <li>(9,33,9,33)</li>
         <li>(25,33,25,33)</li>
         <li>(38,33,38,33)</li>
@@ -531,11 +536,21 @@
       <stuff>Steel</stuff>
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </SpaceshipTurretHull>
+    <SpaceshipHeavyTurretHull>
+      <rects>
+        <li>(65,0,65,0)</li>
+        <li>(35,1,35,1)</li>
+        <li>(109,17,109,17)</li>
+        <li>(35,33,35,33)</li>
+        <li>(65,34,65,34)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </SpaceshipHeavyTurretHull>
     <VGE_AirlockDoor>
       <rects>
         <li>(66,0,66,0)</li>
         <li>(53,9,53,9)</li>
-        <li>(81,9,81,9)</li>
         <li>(37,10,37,10)</li>
         <li>(40,10,40,10)</li>
         <li>(66,10,66,10)</li>
@@ -555,66 +570,11 @@
         <li>(40,24,40,24)</li>
         <li>(66,24,66,24)</li>
         <li>(53,25,53,25)</li>
-        <li>(81,25,81,25)</li>
         <li>(66,34,66,34)</li>
       </rects>
       <stuff>Steel</stuff>
       <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
     </VGE_AirlockDoor>
-    <GravshipHull>
-      <rects>
-        <li>(68,0,73,0)</li>
-        <li>(74,1,74,1)</li>
-        <li>(38,2,38,10)</li>
-        <li>(45,2,45,5)</li>
-        <li>(55,2,55,6)</li>
-        <li>(75,2,75,2)</li>
-        <li>(76,3,76,3)</li>
-        <li>(77,4,77,8)</li>
-        <li>(54,6,54,9)</li>
-        <li>(85,6,85,8)</li>
-        <li>(35,10,35,10)</li>
-        <li>(39,10,39,10)</li>
-        <li>(41,10,44,10)</li>
-        <li>(41,12,43,12)</li>
-        <li>(45,12,47,12)</li>
-        <li>(49,12,53,12)</li>
-        <li>(41,13,41,22)</li>
-        <li>(47,13,47,22)</li>
-        <li>(53,13,53,22)</li>
-        <li>(60,14,70,14)</li>
-        <li>(72,14,76,14)</li>
-        <li>(78,14,85,14)</li>
-        <li>(60,15,60,16)</li>
-        <li>(85,15,85,20)</li>
-        <li>(60,18,60,20)</li>
-        <li>(61,20,70,20)</li>
-        <li>(72,20,76,20)</li>
-        <li>(78,20,84,20)</li>
-        <li>(42,22,43,22)</li>
-        <li>(45,22,46,22)</li>
-        <li>(49,22,52,22)</li>
-        <li>(35,24,35,24)</li>
-        <li>(38,24,39,24)</li>
-        <li>(41,24,44,24)</li>
-        <li>(61,24,62,24)</li>
-        <li>(64,24,65,24)</li>
-        <li>(38,25,38,32)</li>
-        <li>(54,25,54,28)</li>
-        <li>(61,25,61,28)</li>
-        <li>(65,26,65,28)</li>
-        <li>(77,26,77,30)</li>
-        <li>(85,26,85,28)</li>
-        <li>(55,28,55,32)</li>
-        <li>(45,29,45,32)</li>
-        <li>(75,31,76,31)</li>
-        <li>(75,32,75,32)</li>
-        <li>(74,33,74,33)</li>
-        <li>(68,34,73,34)</li>
-      </rects>
-      <stuff>Steel</stuff>
-      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
-    </GravshipHull>
     <VGE_Airlock2x1Door>
       <positions>
         <li>(36, 0, 1)</li>
@@ -668,16 +628,12 @@
         <li>(15,6,15,15)</li>
         <li>(7,7,8,7)</li>
         <li>(8,8,8,10)</li>
-        <li>(78,9,78,9)</li>
-        <li>(84,9,84,9)</li>
         <li>(6,10,7,10)</li>
         <li>(6,17,10,17)</li>
         <li>(17,17,17,17)</li>
         <li>(15,19,15,28)</li>
         <li>(6,24,8,24)</li>
         <li>(8,25,8,27)</li>
-        <li>(78,25,78,25)</li>
-        <li>(84,25,84,25)</li>
         <li>(7,27,7,27)</li>
         <li>(61,30,61,30)</li>
         <li>(16,31,16,32)</li>
@@ -686,6 +642,59 @@
         <li>(61,32,61,32)</li>
       </rects>
     </VGE_AstrofuelPipe>
+    <GravshipHull>
+      <rects>
+        <li>(38,2,38,10)</li>
+        <li>(45,2,45,5)</li>
+        <li>(55,2,55,6)</li>
+        <li>(85,5,85,11)</li>
+        <li>(54,6,54,9)</li>
+        <li>(98,7,98,10)</li>
+        <li>(35,10,35,10)</li>
+        <li>(39,10,39,10)</li>
+        <li>(41,10,44,10)</li>
+        <li>(41,12,43,12)</li>
+        <li>(45,12,47,12)</li>
+        <li>(49,12,53,12)</li>
+        <li>(41,13,41,22)</li>
+        <li>(47,13,47,22)</li>
+        <li>(53,13,53,22)</li>
+        <li>(60,14,70,14)</li>
+        <li>(72,14,76,14)</li>
+        <li>(78,14,85,14)</li>
+        <li>(60,15,60,16)</li>
+        <li>(85,15,85,20)</li>
+        <li>(60,18,60,20)</li>
+        <li>(61,20,70,20)</li>
+        <li>(72,20,76,20)</li>
+        <li>(78,20,84,20)</li>
+        <li>(42,22,43,22)</li>
+        <li>(45,22,46,22)</li>
+        <li>(49,22,52,22)</li>
+        <li>(85,23,85,29)</li>
+        <li>(35,24,35,24)</li>
+        <li>(38,24,39,24)</li>
+        <li>(41,24,44,24)</li>
+        <li>(61,24,62,24)</li>
+        <li>(64,24,65,24)</li>
+        <li>(78,24,79,24)</li>
+        <li>(83,24,84,24)</li>
+        <li>(98,24,98,27)</li>
+        <li>(38,25,38,32)</li>
+        <li>(54,25,54,28)</li>
+        <li>(61,25,61,28)</li>
+        <li>(65,26,65,28)</li>
+        <li>(77,26,79,26)</li>
+        <li>(83,26,84,26)</li>
+        <li>(77,27,77,30)</li>
+        <li>(55,28,55,32)</li>
+        <li>(78,28,79,28)</li>
+        <li>(83,28,84,28)</li>
+        <li>(45,29,45,32)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </GravshipHull>
     <VGE_Agrocell>
       <positions>
         <li>(40, 0, 2)</li>
@@ -741,15 +750,11 @@
         <li>(23,3,23,3)</li>
         <li>(9,4,9,4)</li>
         <li>(52,8,52,8)</li>
-        <li>(80,10,80,10)</li>
-        <li>(82,10,82,10)</li>
         <li>(30,15,30,15)</li>
         <li>(10,17,10,17)</li>
         <li>(21,17,21,17)</li>
         <li>(60,17,60,17)</li>
         <li>(30,19,30,19)</li>
-        <li>(80,24,80,24)</li>
-        <li>(82,24,82,24)</li>
         <li>(52,26,52,26)</li>
         <li>(9,30,9,30)</li>
         <li>(23,31,23,31)</li>
@@ -784,8 +789,6 @@
         <li>(36,3,36,3)</li>
         <li>(53,7,53,7)</li>
         <li>(66,9,66,9)</li>
-        <li>(81,11,81,11)</li>
-        <li>(81,23,81,23)</li>
         <li>(66,25,66,25)</li>
         <li>(53,27,53,27)</li>
         <li>(36,31,36,31)</li>
@@ -819,6 +822,23 @@
       </positions>
       <relativeRotation>Clockwise</relativeRotation>
     </VGE_GravshipCapacitor>
+    <sewagePipeHidden>
+      <rects>
+        <li>(78,4,78,5)</li>
+        <li>(78,12,78,22)</li>
+        <li>(79,23,83,23)</li>
+        <li>(78,24,78,24)</li>
+        <li>(84,24,84,24)</li>
+        <li>(78,26,78,26)</li>
+        <li>(84,26,84,26)</li>
+        <li>(78,28,78,28)</li>
+        <li>(84,28,84,28)</li>
+        <li>(79,29,80,29)</li>
+        <li>(82,29,83,29)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </sewagePipeHidden>
     <GravFieldExtender>
       <rects>
         <li>(46,5,46,5)</li>
@@ -842,16 +862,16 @@
         <li>(38,7,38,10)</li>
         <li>(67,7,67,12)</li>
         <li>(13,9,13,10)</li>
+        <li>(77,9,77,12)</li>
         <li>(30,10,37,10)</li>
         <li>(39,10,46,10)</li>
         <li>(51,10,51,24)</li>
-        <li>(81,10,81,12)</li>
         <li>(30,11,30,24)</li>
         <li>(46,11,46,24)</li>
         <li>(47,12,50,12)</li>
         <li>(52,12,66,12)</li>
-        <li>(68,12,80,12)</li>
-        <li>(82,12,104,12)</li>
+        <li>(68,12,76,12)</li>
+        <li>(78,12,104,12)</li>
         <li>(17,13,17,21)</li>
         <li>(100,13,100,22)</li>
         <li>(6,17,16,17)</li>
@@ -865,7 +885,8 @@
         <li>(52,22,99,22)</li>
         <li>(101,22,104,22)</li>
         <li>(67,23,67,28)</li>
-        <li>(81,23,81,24)</li>
+        <li>(77,23,77,25)</li>
+        <li>(85,23,85,23)</li>
         <li>(13,24,13,25)</li>
         <li>(17,24,17,28)</li>
         <li>(31,24,45,24)</li>
@@ -882,6 +903,32 @@
         <li>(73, 0, 26)</li>
       </positions>
     </MThings_7x7ShuttleDock>
+    <WaterTreatment>
+      <position>(80, 0, 5)</position>
+    </WaterTreatment>
+    <PumpingStation>
+      <position>(82, 0, 5)</position>
+    </PumpingStation>
+    <Stool>
+      <rects>
+        <li>(87,5,88,5)</li>
+        <li>(86,6,86,7)</li>
+        <li>(89,6,89,7)</li>
+        <li>(86,9,86,10)</li>
+        <li>(89,9,89,10)</li>
+        <li>(87,11,88,11)</li>
+        <li>(87,23,88,23)</li>
+        <li>(86,24,86,25)</li>
+        <li>(89,24,89,25)</li>
+        <li>(87,26,88,26)</li>
+        <li>(86,27,86,28)</li>
+        <li>(89,27,89,28)</li>
+        <li>(87,29,88,29)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Stool>
     <VGE_WallFirefoamPopper>
       <rects>
         <li>(8,6,8,6)</li>
@@ -909,6 +956,7 @@
         <li>(31,23,33,23)</li>
         <li>(41,23,41,24)</li>
         <li>(64,23,64,24)</li>
+        <li>(80,23,80,23)</li>
         <li>(35,24,35,24)</li>
         <li>(33,25,33,28)</li>
       </rects>
@@ -942,6 +990,8 @@
         <li>(89,13,89,13)</li>
         <li>(18,20,18,20)</li>
         <li>(47,23,47,23)</li>
+        <li>(80,23,80,23)</li>
+        <li>(82,23,82,23)</li>
         <li>(90,23,90,23)</li>
         <li>(95,23,95,23)</li>
       </rects>
@@ -954,32 +1004,20 @@
       </positions>
       <relativeRotation>Clockwise</relativeRotation>
     </SOA_HeavyDropship>
-    <VGE_JavelinPod>
+    <WaterTowerS>
       <positions>
-        <li>(79, 0, 7)</li>
-        <li>(83, 0, 7)</li>
-        <li>(79, 0, 27)</li>
-        <li>(83, 0, 27)</li>
+        <li>(78, 0, 6)</li>
+        <li>(78, 0, 8)</li>
+        <li>(78, 0, 10)</li>
       </positions>
-    </VGE_JavelinPod>
-    <MartialArtsTarget>
-      <rects>
-        <li>(86,6,86,6)</li>
-        <li>(86,9,86,9)</li>
-        <li>(86,25,86,25)</li>
-        <li>(86,28,86,28)</li>
-      </rects>
-      <relativeRotation>Clockwise</relativeRotation>
-      <stuff>Cloth</stuff>
-      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
-    </MartialArtsTarget>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </WaterTowerS>
     <VGE_GaussGun>
       <positions>
         <li>(93, 0, 7)</li>
         <li>(56, 0, 8)</li>
         <li>(59, 0, 8)</li>
-        <li>(102, 0, 14)</li>
-        <li>(102, 0, 20)</li>
         <li>(56, 0, 26)</li>
         <li>(59, 0, 26)</li>
         <li>(93, 0, 27)</li>
@@ -1053,21 +1091,23 @@
         <li>(35,30,35,30)</li>
       </rects>
     </VGE_VacuumWarningLight>
+    <SewageTreatment>
+      <position>(82, 0, 9)</position>
+    </SewageTreatment>
+    <PokerTable>
+      <positions>
+        <li>(87, 0, 7)</li>
+        <li>(87, 0, 9)</li>
+        <li>(87, 0, 24)</li>
+        <li>(87, 0, 27)</li>
+      </positions>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </PokerTable>
     <sbz_CorpseFridge>
       <position>(63, 0, 8)</position>
     </sbz_CorpseFridge>
-    <VGE_OperatorSubpersonaCore>
-      <rects>
-        <li>(91,8,91,8)</li>
-        <li>(56,10,56,10)</li>
-        <li>(59,14,59,14)</li>
-        <li>(97,14,97,14)</li>
-        <li>(59,20,59,20)</li>
-        <li>(97,20,97,20)</li>
-        <li>(56,24,56,24)</li>
-        <li>(91,26,91,26)</li>
-      </rects>
-    </VGE_OperatorSubpersonaCore>
     <PodLauncher>
       <positions>
         <li>(100, 0, 8)</li>
@@ -1089,6 +1129,7 @@
     <OxygenPump>
       <rects>
         <li>(35,9,35,9)</li>
+        <li>(80,24,80,24)</li>
         <li>(35,25,35,25)</li>
       </rects>
       <relativeRotation>Counterclockwise</relativeRotation>
@@ -1105,18 +1146,16 @@
     </OxygenPump>
     <VGE_AmmoBox_GaussShell>
       <rects>
-        <li>(94,9,94,9)</li>
+        <li>(93,9,94,9)</li>
         <li>(55,10,55,10)</li>
         <li>(60,10,60,10)</li>
         <li>(79,15,79,15)</li>
-        <li>(104,15,104,15)</li>
         <li>(71,16,71,16)</li>
         <li>(71,18,71,18)</li>
         <li>(79,19,79,19)</li>
-        <li>(104,19,104,19)</li>
         <li>(55,24,55,24)</li>
         <li>(60,24,60,24)</li>
-        <li>(94,25,94,25)</li>
+        <li>(93,25,94,25)</li>
       </rects>
     </VGE_AmmoBox_GaussShell>
     <TransportPod>
@@ -1152,14 +1191,14 @@
         <li>(62,24,62,24)</li>
       </rects>
     </Vent_Over>
-    <ChemfuelTank>
-      <positions>
-        <li>(78, 0, 10)</li>
-        <li>(83, 0, 10)</li>
-        <li>(78, 0, 23)</li>
-        <li>(83, 0, 23)</li>
-      </positions>
-    </ChemfuelTank>
+    <VGE_OperatorSubpersonaCore>
+      <rects>
+        <li>(56,10,56,10)</li>
+        <li>(59,14,59,14)</li>
+        <li>(59,20,59,20)</li>
+        <li>(56,24,56,24)</li>
+      </rects>
+    </VGE_OperatorSubpersonaCore>
     <VGE_LargeHeatsink>
       <positions>
         <li>(7, 0, 12)</li>
@@ -1202,6 +1241,8 @@
         <li>(31,22,31,22)</li>
         <li>(34,22,34,22)</li>
         <li>(63,28,63,28)</li>
+        <li>(80,29,80,29)</li>
+        <li>(82,29,82,29)</li>
       </rects>
     </WallLamp>
     <MartialArtsTarget>
@@ -1318,6 +1359,7 @@
         <li>(44,17,44,17)</li>
         <li>(48,17,48,17)</li>
         <li>(31,20,31,20)</li>
+        <li>(82,24,82,24)</li>
       </rects>
     </Heater>
     <VGE_TargetingTerminal>
@@ -1330,7 +1372,7 @@
     <VGE_TargetingTerminal>
       <rects>
         <li>(57,14,58,14)</li>
-        <li>(88,20,89,20)</li>
+        <li>(88,20,88,20)</li>
       </rects>
     </VGE_TargetingTerminal>
     <VGE_TargetingConsole>
@@ -1342,7 +1384,7 @@
     </VGE_TargetingConsole>
     <VGE_TargetingTerminal>
       <rects>
-        <li>(88,14,89,14)</li>
+        <li>(88,14,88,14)</li>
         <li>(57,20,58,20)</li>
       </rects>
       <relativeRotation>Opposite</relativeRotation>
@@ -1481,6 +1523,10 @@
       <quality>Normal</quality>
       <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
     </Seat_AdvChair>
+    <GroundPenetratingScanner>
+      <position>(102, 0, 20)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </GroundPenetratingScanner>
     <VGE_WallFirefoamPopper>
       <rects>
         <li>(14,20,14,20)</li>
@@ -1516,13 +1562,41 @@
       </rects>
       <relativeRotation>Opposite</relativeRotation>
     </VGE_IndustrialOxygenPump>
-    <MartialArtsTarget>
+    <ShowerAdvStuff>
       <rects>
-        <li>(89,23,89,23)</li>
+        <li>(78,23,78,23)</li>
+        <li>(78,25,78,25)</li>
+        <li>(78,27,78,27)</li>
+        <li>(78,29,78,29)</li>
       </rects>
-      <stuff>Cloth</stuff>
-      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
-    </MartialArtsTarget>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+    </ShowerAdvStuff>
+    <ToiletStallDoor>
+      <rects>
+        <li>(79,23,79,23)</li>
+        <li>(83,23,83,23)</li>
+        <li>(79,25,79,25)</li>
+        <li>(83,25,83,25)</li>
+        <li>(79,27,79,27)</li>
+        <li>(83,27,83,27)</li>
+        <li>(79,29,79,29)</li>
+        <li>(83,29,83,29)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </ToiletStallDoor>
+    <ToiletAdvStuff>
+      <rects>
+        <li>(84,23,84,23)</li>
+        <li>(84,25,84,25)</li>
+        <li>(84,27,84,27)</li>
+        <li>(84,29,84,29)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+    </ToiletAdvStuff>
     <sbz_Fridge>
       <rects>
         <li>(62,25,62,26)</li>
@@ -1545,6 +1619,12 @@
       <position>(64, 0, 28)</position>
       <relativeRotation>Clockwise</relativeRotation>
     </VGE_CompactStove>
+    <Fountain>
+      <rects>
+        <li>(81,29,81,29)</li>
+      </rects>
+      <stuff>Steel</stuff>
+    </Fountain>
     <VGE_GravshipCapacitor>
       <position>(47, 0, 30)</position>
       <relativeRotation>Counterclockwise</relativeRotation>
@@ -1574,31 +1654,26 @@
         <li>(86,5,89,11)</li>
         <li>(9,6,9,28)</li>
         <li>(53,6,53,10)</li>
-        <li>(78,6,84,8)</li>
         <li>(90,6,97,11)</li>
         <li>(10,7,23,14)</li>
         <li>(55,7,55,10)</li>
         <li>(52,8,52,8)</li>
         <li>(99,8,105,11)</li>
-        <li>(81,9,81,13)</li>
         <li>(106,9,108,12)</li>
         <li>(37,10,37,10)</li>
         <li>(40,10,40,10)</li>
         <li>(54,10,54,10)</li>
         <li>(62,10,62,13)</li>
-        <li>(78,10,80,10)</li>
-        <li>(82,10,84,10)</li>
         <li>(6,11,8,23)</li>
         <li>(32,11,32,30)</li>
         <li>(35,11,36,12)</li>
         <li>(57,11,61,13)</li>
         <li>(63,11,65,13)</li>
-        <li>(78,11,79,11)</li>
-        <li>(83,11,84,11)</li>
         <li>(98,11,98,11)</li>
         <li>(25,12,31,12)</li>
         <li>(54,12,56,22)</li>
         <li>(69,12,69,13)</li>
+        <li>(81,12,81,13)</li>
         <li>(91,12,91,28)</li>
         <li>(101,12,105,15)</li>
         <li>(25,13,29,13)</li>
@@ -1619,6 +1694,7 @@
         <li>(10,16,10,18)</li>
         <li>(102,16,105,26)</li>
         <li>(21,17,21,17)</li>
+        <li>(60,17,60,17)</li>
         <li>(101,19,101,26)</li>
         <li>(10,20,21,27)</li>
         <li>(33,20,34,20)</li>
@@ -1631,12 +1707,10 @@
         <li>(36,22,36,23)</li>
         <li>(60,22,66,23)</li>
         <li>(69,22,69,33)</li>
-        <li>(81,22,81,28)</li>
+        <li>(81,22,81,22)</li>
         <li>(108,22,108,25)</li>
         <li>(24,23,24,31)</li>
         <li>(68,23,68,33)</li>
-        <li>(78,23,79,24)</li>
-        <li>(83,23,84,24)</li>
         <li>(86,23,90,28)</li>
         <li>(92,23,100,23)</li>
         <li>(26,24,31,30)</li>
@@ -1647,16 +1721,12 @@
         <li>(60,24,60,32)</li>
         <li>(63,24,63,24)</li>
         <li>(66,24,66,34)</li>
-        <li>(80,24,80,24)</li>
-        <li>(82,24,82,24)</li>
         <li>(92,24,97,28)</li>
         <li>(99,24,100,26)</li>
         <li>(35,25,36,30)</li>
         <li>(53,25,53,33)</li>
         <li>(55,25,56,27)</li>
         <li>(52,26,52,26)</li>
-        <li>(78,26,80,28)</li>
-        <li>(82,26,84,28)</li>
         <li>(7,28,8,31)</li>
         <li>(56,28,56,32)</li>
         <li>(46,29,52,33)</li>
@@ -1667,8 +1737,9 @@
         <li>(23,31,23,31)</li>
         <li>(26,31,27,31)</li>
         <li>(36,31,36,33)</li>
-        <li>(70,31,74,32)</li>
+        <li>(70,31,75,31)</li>
         <li>(65,32,65,32)</li>
+        <li>(70,32,74,32)</li>
         <li>(37,33,37,33)</li>
         <li>(70,33,73,33)</li>
       </rects>
@@ -1676,6 +1747,7 @@
     <DBHMosaicTile>
       <rects>
         <li>(62,6,64,9)</li>
+        <li>(78,23,84,29)</li>
         <li>(62,25,64,28)</li>
       </rects>
     </DBHMosaicTile>
@@ -1710,31 +1782,26 @@
           <li>(86,5,89,11)</li>
           <li>(9,6,9,28)</li>
           <li>(53,6,53,10)</li>
-          <li>(78,6,84,8)</li>
           <li>(90,6,97,11)</li>
           <li>(10,7,23,14)</li>
           <li>(55,7,55,10)</li>
           <li>(52,8,52,8)</li>
           <li>(99,8,105,11)</li>
-          <li>(81,9,81,13)</li>
           <li>(106,9,108,12)</li>
           <li>(37,10,37,10)</li>
           <li>(40,10,40,10)</li>
           <li>(54,10,54,10)</li>
           <li>(62,10,62,13)</li>
-          <li>(78,10,80,10)</li>
-          <li>(82,10,84,10)</li>
           <li>(6,11,8,23)</li>
           <li>(32,11,32,30)</li>
           <li>(35,11,36,12)</li>
           <li>(57,11,61,13)</li>
           <li>(63,11,65,13)</li>
-          <li>(78,11,79,11)</li>
-          <li>(83,11,84,11)</li>
           <li>(98,11,98,11)</li>
           <li>(25,12,31,12)</li>
           <li>(54,12,56,22)</li>
           <li>(69,12,69,13)</li>
+          <li>(81,12,81,13)</li>
           <li>(91,12,91,28)</li>
           <li>(101,12,105,15)</li>
           <li>(25,13,29,13)</li>
@@ -1755,6 +1822,7 @@
           <li>(10,16,10,18)</li>
           <li>(102,16,105,26)</li>
           <li>(21,17,21,17)</li>
+          <li>(60,17,60,17)</li>
           <li>(101,19,101,26)</li>
           <li>(10,20,21,27)</li>
           <li>(33,20,34,20)</li>
@@ -1767,12 +1835,10 @@
           <li>(36,22,36,23)</li>
           <li>(60,22,66,23)</li>
           <li>(69,22,69,33)</li>
-          <li>(81,22,81,28)</li>
+          <li>(81,22,81,22)</li>
           <li>(108,22,108,25)</li>
           <li>(24,23,24,31)</li>
           <li>(68,23,68,33)</li>
-          <li>(78,23,79,24)</li>
-          <li>(83,23,84,24)</li>
           <li>(86,23,90,28)</li>
           <li>(92,23,100,23)</li>
           <li>(26,24,31,30)</li>
@@ -1783,16 +1849,12 @@
           <li>(60,24,60,32)</li>
           <li>(63,24,63,24)</li>
           <li>(66,24,66,34)</li>
-          <li>(80,24,80,24)</li>
-          <li>(82,24,82,24)</li>
           <li>(92,24,97,28)</li>
           <li>(99,24,100,26)</li>
           <li>(35,25,36,30)</li>
           <li>(53,25,53,33)</li>
           <li>(55,25,56,27)</li>
           <li>(52,26,52,26)</li>
-          <li>(78,26,80,28)</li>
-          <li>(82,26,84,28)</li>
           <li>(7,28,8,31)</li>
           <li>(56,28,56,32)</li>
           <li>(46,29,52,33)</li>
@@ -1803,8 +1865,9 @@
           <li>(23,31,23,31)</li>
           <li>(26,31,27,31)</li>
           <li>(36,31,36,33)</li>
-          <li>(70,31,74,32)</li>
+          <li>(70,31,75,31)</li>
           <li>(65,32,65,32)</li>
+          <li>(70,32,74,32)</li>
           <li>(37,33,37,33)</li>
           <li>(70,33,73,33)</li>
         </rects>
@@ -1831,6 +1894,7 @@
       <DBHMosaicTile>
         <rects>
           <li>(62,6,64,9)</li>
+          <li>(78,23,84,29)</li>
           <li>(62,25,64,28)</li>
         </rects>
       </DBHMosaicTile>
@@ -1846,7 +1910,6 @@
       </SterileTile>
       <AncientConcrete>
         <rects>
-          <li>(83,30,84,30)</li>
           <li>(90,30,93,30)</li>
         </rects>
       </AncientConcrete>
@@ -1872,20 +1935,16 @@
           <li>(7,6,9,6)</li>
           <li>(53,6,53,11)</li>
           <li>(62,6,64,9)</li>
-          <li>(78,6,84,8)</li>
           <li>(90,6,97,10)</li>
           <li>(9,7,23,14)</li>
           <li>(55,7,55,27)</li>
           <li>(52,8,52,8)</li>
           <li>(99,8,99,11)</li>
-          <li>(81,9,81,13)</li>
           <li>(100,9,100,9)</li>
           <li>(37,10,37,30)</li>
           <li>(40,10,40,24)</li>
           <li>(54,10,54,24)</li>
           <li>(62,10,62,13)</li>
-          <li>(78,10,80,10)</li>
-          <li>(82,10,84,10)</li>
           <li>(6,11,8,22)</li>
           <li>(32,11,32,29)</li>
           <li>(35,11,36,23)</li>
@@ -1893,13 +1952,12 @@
           <li>(41,11,52,11)</li>
           <li>(61,11,61,13)</li>
           <li>(63,11,65,13)</li>
-          <li>(78,11,79,11)</li>
-          <li>(83,11,84,11)</li>
           <li>(90,11,90,11)</li>
           <li>(93,11,98,11)</li>
           <li>(108,11,108,12)</li>
           <li>(25,12,31,12)</li>
           <li>(69,12,69,13)</li>
+          <li>(81,12,81,13)</li>
           <li>(107,12,107,25)</li>
           <li>(25,13,29,13)</li>
           <li>(31,13,31,22)</li>
@@ -1923,6 +1981,7 @@
           <li>(10,16,10,18)</li>
           <li>(103,16,104,26)</li>
           <li>(21,17,21,17)</li>
+          <li>(60,17,60,17)</li>
           <li>(101,19,101,26)</li>
           <li>(10,20,21,27)</li>
           <li>(24,21,29,22)</li>
@@ -1941,8 +2000,8 @@
           <li>(41,23,53,23)</li>
           <li>(68,23,68,32)</li>
           <li>(70,23,76,29)</li>
-          <li>(78,23,79,24)</li>
-          <li>(83,23,84,23)</li>
+          <li>(78,23,80,29)</li>
+          <li>(82,23,84,23)</li>
           <li>(89,23,90,25)</li>
           <li>(92,23,100,23)</li>
           <li>(26,24,31,30)</li>
@@ -1951,7 +2010,6 @@
           <li>(60,24,60,32)</li>
           <li>(63,24,63,28)</li>
           <li>(66,24,66,34)</li>
-          <li>(80,24,80,24)</li>
           <li>(82,24,82,24)</li>
           <li>(92,24,97,24)</li>
           <li>(99,24,100,26)</li>
@@ -1960,7 +2018,6 @@
           <li>(64,25,64,28)</li>
           <li>(96,25,97,28)</li>
           <li>(52,26,52,26)</li>
-          <li>(78,26,80,28)</li>
           <li>(105,26,105,26)</li>
           <li>(7,28,8,28)</li>
           <li>(92,28,95,28)</li>
@@ -1974,6 +2031,7 @@
           <li>(91,30,93,30)</li>
           <li>(23,31,23,31)</li>
           <li>(26,31,27,31)</li>
+          <li>(75,31,75,31)</li>
           <li>(37,32,37,33)</li>
           <li>(65,32,65,32)</li>
         </rects>
@@ -2015,15 +2073,15 @@
           <li>(103,15,104,15)</li>
           <li>(81,21,87,21)</li>
           <li>(86,23,88,29)</li>
-          <li>(83,24,84,24)</li>
+          <li>(83,24,84,29)</li>
+          <li>(82,25,82,29)</li>
           <li>(92,25,95,27)</li>
-          <li>(82,26,84,28)</li>
           <li>(89,26,91,28)</li>
           <li>(7,29,7,31)</li>
+          <li>(81,29,81,29)</li>
           <li>(89,29,89,29)</li>
           <li>(32,30,32,30)</li>
           <li>(35,30,35,30)</li>
-          <li>(83,30,84,30)</li>
           <li>(90,30,90,30)</li>
           <li>(36,31,37,31)</li>
           <li>(36,32,36,33)</li>
@@ -2063,30 +2121,26 @@
           <li>(75,2,75,32)</li>
           <li>(28,3,32,31)</li>
           <li>(76,3,76,31)</li>
-          <li>(77,4,77,30)</li>
-          <li>(81,4,82,30)</li>
-          <li>(85,4,89,30)</li>
-          <li>(78,5,80,29)</li>
-          <li>(83,5,84,29)</li>
+          <li>(80,3,82,31)</li>
+          <li>(77,4,79,30)</li>
+          <li>(83,4,89,30)</li>
           <li>(90,5,97,10)</li>
           <li>(98,6,98,28)</li>
-          <li>(102,6,103,27)</li>
-          <li>(99,7,101,27)</li>
+          <li>(101,6,103,28)</li>
+          <li>(99,7,100,27)</li>
           <li>(104,7,105,27)</li>
           <li>(8,8,8,32)</li>
           <li>(106,8,109,12)</li>
           <li>(5,9,5,25)</li>
-          <li>(110,9,110,10)</li>
           <li>(0,10,4,24)</li>
           <li>(6,10,7,24)</li>
           <li>(90,11,94,29)</li>
           <li>(95,12,97,29)</li>
           <li>(106,13,108,26)</li>
-          <li>(109,17,109,17)</li>
+          <li>(109,16,109,18)</li>
           <li>(109,22,109,26)</li>
-          <li>(110,24,110,25)</li>
           <li>(4,27,7,32)</li>
-          <li>(102,28,102,28)</li>
+          <li>(38,34,39,34)</li>
         </rects>
       </VGE_GravshipSubarmor>
       <Substructure>
@@ -2113,15 +2167,17 @@
         <li>(77,4,77,30)</li>
         <li>(85,4,89,30)</li>
         <li>(65,5,69,34)</li>
-        <li>(78,5,84,29)</li>
+        <li>(78,5,84,5)</li>
         <li>(90,5,97,29)</li>
         <li>(98,6,98,28)</li>
         <li>(8,8,27,32)</li>
         <li>(5,10,7,24)</li>
         <li>(70,12,76,22)</li>
+        <li>(78,12,84,22)</li>
         <li>(99,12,100,22)</li>
         <li>(101,16,101,18)</li>
         <li>(4,27,7,32)</li>
+        <li>(78,29,84,29)</li>
         <li>(70,30,76,31)</li>
         <li>(70,32,75,32)</li>
         <li>(70,33,74,33)</li>
@@ -2141,10 +2197,8 @@
         <li>(75,2,75,4)</li>
         <li>(28,3,34,31)</li>
         <li>(76,3,76,4)</li>
-        <li>(77,4,77,30)</li>
-        <li>(85,4,89,30)</li>
+        <li>(77,4,89,30)</li>
         <li>(65,5,69,34)</li>
-        <li>(78,5,84,29)</li>
         <li>(90,5,97,29)</li>
         <li>(98,6,98,28)</li>
         <li>(8,8,27,32)</li>
