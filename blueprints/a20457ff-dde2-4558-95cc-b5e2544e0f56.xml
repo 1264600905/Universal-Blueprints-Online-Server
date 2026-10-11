@@ -1,0 +1,247 @@
+<PrefabDef>
+  <defName>Prefab_20261011_125000</defName>
+  <size>(7,6)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>蓄电</name>
+    <description></description>
+    <tags>
+      <li>Power</li>
+    </tags>
+    <author></author>
+    <category>Power</category>
+    <BuildingID>a20457ff-dde2-4558-95cc-b5e2544e0f56</BuildingID>
+    <modPackages></modPackages>
+    <multiLanguage>
+      <name>
+        <default>蓄电</default>
+        <zh-CN>蓄电</zh-CN>
+      </name>
+      <tags>
+        <default>Power</default>
+      </tags>
+    </multiLanguage>
+    <structureDefs>
+      <li>
+        <defName>Wall</defName>
+        <kind>Wall</kind>
+        <size>(1,1)</size>
+      </li>
+      <li>
+        <defName>Door</defName>
+        <kind>Door</kind>
+        <size>(1,1)</size>
+      </li>
+    </structureDefs>
+    <thingKinds version="1">
+      <Buildings>
+        <li>Battery</li>
+        <li>Door</li>
+        <li>FirefoamPopper</li>
+        <li>HiddenConduit</li>
+        <li>Wall</li>
+      </Buildings>
+    </thingKinds>
+    <repairDefs version="1">
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Concrete</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>Steel</li>
+          </resources>
+          <colors />
+          <materials>
+            <li>concrete</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>PavedTile</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>Steel</li>
+          </resources>
+          <colors />
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Sand</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>sand</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Door</defName>
+        <tags>
+          <li>Door</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>门</label>
+          <passability>Standable</passability>
+          <marketValue>53.06</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Wall</defName>
+        <tags>
+          <li>Wall</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>墙</label>
+          <passability>Impassable</passability>
+          <marketValue>10.486</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+    </repairDefs>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(1,0,5,0)</li>
+        <li>(0,1,1,1)</li>
+        <li>(5,1,6,1)</li>
+        <li>(0,2,0,5)</li>
+        <li>(6,2,6,5)</li>
+        <li>(1,5,2,5)</li>
+        <li>(4,5,5,5)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Wall>
+    <HiddenConduit>
+      <rects>
+        <li>(1,0,5,0)</li>
+        <li>(1,1,1,1)</li>
+        <li>(5,1,5,1)</li>
+        <li>(6,2,6,2)</li>
+        <li>(0,3,0,3)</li>
+        <li>(3,3,3,5)</li>
+        <li>(2,5,2,5)</li>
+        <li>(4,5,4,5)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <FirefoamPopper>
+      <rects>
+        <li>(3,1,3,1)</li>
+      </rects>
+    </FirefoamPopper>
+    <Battery>
+      <positions>
+        <li>(1, 0, 2)</li>
+        <li>(4, 0, 2)</li>
+        <li>(1, 0, 3)</li>
+        <li>(4, 0, 3)</li>
+        <li>(1, 0, 4)</li>
+        <li>(4, 0, 4)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+    </Battery>
+    <Door>
+      <rects>
+        <li>(3,5,3,5)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+  </things>
+  <terrain>
+    <PavedTile>
+      <rects>
+        <li>(6,0,6,0)</li>
+      </rects>
+    </PavedTile>
+    <Concrete>
+      <rects>
+        <li>(2,1,4,4)</li>
+        <li>(1,2,1,4)</li>
+        <li>(5,2,5,4)</li>
+        <li>(3,5,3,5)</li>
+      </rects>
+    </Concrete>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <PavedTile>
+        <rects>
+          <li>(6,0,6,0)</li>
+        </rects>
+      </PavedTile>
+      <Concrete>
+        <rects>
+          <li>(2,1,4,4)</li>
+          <li>(1,2,1,4)</li>
+          <li>(5,2,5,4)</li>
+          <li>(3,5,3,5)</li>
+        </rects>
+      </Concrete>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Sand>
+        <rects>
+          <li>(6,0,6,0)</li>
+          <li>(2,1,4,4)</li>
+          <li>(1,2,1,4)</li>
+          <li>(5,2,5,4)</li>
+          <li>(3,5,3,5)</li>
+        </rects>
+      </Sand>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(1,0,5,5)</li>
+        <li>(0,1,0,5)</li>
+        <li>(6,1,6,5)</li>
+      </rects>
+    </RoofConstructed>
+  </roofs>
+</PrefabDef>
