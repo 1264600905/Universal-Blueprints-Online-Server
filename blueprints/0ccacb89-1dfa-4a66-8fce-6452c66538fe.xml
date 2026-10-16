@@ -1,0 +1,111 @@
+<PrefabDef>
+  <defName>Prefab_20261016_153542</defName>
+  <size>(7,8)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>хата</name>
+    <description>123</description>
+    <tags></tags>
+    <author></author>
+    <category>Dormitory</category>
+    <BuildingID>0ccacb89-1dfa-4a66-8fce-6452c66538fe</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>ludeon.rimworld.odyssey</packageId>
+        <name>Odyssey</name>
+        <version></version>
+        <modorder>8</modorder>
+        <things>
+          <li>GrasslandSoil</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>хата</default>
+        <ru>хата</ru>
+      </name>
+      <description>
+        <default>123</default>
+        <ru>123</ru>
+      </description>
+    </multiLanguage>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,6,0)</li>
+        <li>(0,1,0,7)</li>
+        <li>(6,1,6,7)</li>
+        <li>(1,7,2,7)</li>
+        <li>(4,7,5,7)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Wall>
+    <SleepingSpot>
+      <position>(3, 0, 1)</position>
+      <color>RGBA(0.631, 0.835, 0.706, 1.000)</color>
+    </SleepingSpot>
+    <TorchWallLamp>
+      <rects>
+        <li>(5,4,5,4)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </TorchWallLamp>
+    <PassiveCooler>
+      <rects>
+        <li>(5,6,5,6)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </PassiveCooler>
+    <Door>
+      <rects>
+        <li>(3,7,3,7)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+  </things>
+  <terrain>
+    <WoodPlankFloor>
+      <rects>
+        <li>(1,1,5,6)</li>
+        <li>(3,7,3,7)</li>
+      </rects>
+    </WoodPlankFloor>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <WoodPlankFloor>
+        <rects>
+          <li>(1,1,5,6)</li>
+          <li>(3,7,3,7)</li>
+        </rects>
+      </WoodPlankFloor>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <GrasslandSoil>
+        <rects>
+          <li>(1,1,5,6)</li>
+          <li>(3,7,3,7)</li>
+        </rects>
+      </GrasslandSoil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,6,7)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,6,7)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
