@@ -1,0 +1,584 @@
+<PrefabDef>
+  <defName>Prefab_20261016_115533</defName>
+  <size>(15,15)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>Spooter Bunker</name>
+    <description>Bunquer con 4 salidas para poder vigilar al enemigo</description>
+    <tags>
+      <li>DefenseWorks</li>
+    </tags>
+    <author>LeoxionazoXD</author>
+    <category>DefenseWorks</category>
+    <BuildingID>66a522b5-f4a4-4df1-9edf-96ea981f83a6</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>mlie.frontlinebunkers</packageId>
+        <name>Frontline - Bunkers (Continued)</name>
+        <version>1.7.0</version>
+        <modorder>72</modorder>
+        <steamWorkshopId>2471433364</steamWorkshopId>
+        <things>
+          <li>BunkerembrasureSW</li>
+          <li>BunkerembrasureNE</li>
+          <li>BunkerwallSW</li>
+          <li>BunkerwallNE</li>
+          <li>BunkerdoorS</li>
+          <li>Bunkerdoor_W</li>
+          <li>Bunkerdoor_E</li>
+          <li>Bunkerdoor_N</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>aoba.fortress.industrial</packageId>
+        <name>Fortifications - Industrial</name>
+        <version></version>
+        <modorder>206</modorder>
+        <steamWorkshopId>2561619583</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>aoba.framework</packageId>
+            <steamWorkshopId>3498575851</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>FT_BlocksConcrete</li>
+          <li>FTC_SpotterLight_Turret</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>mlie.raisetheroof</packageId>
+        <name>Raise The Roof (Continued)</name>
+        <version>1.6.3</version>
+        <modorder>129</modorder>
+        <steamWorkshopId>3592101493</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>RTR_SolarArray</li>
+          <li>RTR_RoofSolar</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>dubwise.dubsbadhygiene</packageId>
+        <name>Dubs Bad Hygiene</name>
+        <version>3.2.3250</version>
+        <modorder>65</modorder>
+        <steamWorkshopId>836308268</steamWorkshopId>
+        <things>
+          <li>WashBucket</li>
+          <li>PitLatrine</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>rimfridge.kv.rw</packageId>
+        <name>RimFridge: Now with Shelves!</name>
+        <version>2.0.7</version>
+        <modorder>137</modorder>
+        <steamWorkshopId>2898411376</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>RimFridge_SingleRefrigerator</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.odyssey</packageId>
+        <name>Odyssey</name>
+        <version></version>
+        <modorder>8</modorder>
+        <things>
+          <li>GrasslandSoil</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>Spooter Bunker</default>
+        <es>Spooter Bunker</es>
+      </name>
+      <description>
+        <default>Bunquer con 4 salidas para poder vigilar al enemigo</default>
+        <es>Bunquer con 4 salidas para poder vigilar al enemigo</es>
+      </description>
+      <tags>
+        <default>DefenseWorks</default>
+      </tags>
+    </multiLanguage>
+    <structureDefs>
+      <li>
+        <defName>BunkerdoorS</defName>
+        <kind>Door</kind>
+        <size>(1,1)</size>
+      </li>
+      <li>
+        <defName>Bunkerdoor_W</defName>
+        <kind>Door</kind>
+        <size>(1,1)</size>
+      </li>
+      <li>
+        <defName>Bunkerdoor_E</defName>
+        <kind>Door</kind>
+        <size>(1,1)</size>
+      </li>
+      <li>
+        <defName>Bunkerdoor_N</defName>
+        <kind>Door</kind>
+        <size>(1,1)</size>
+      </li>
+    </structureDefs>
+    <thingKinds version="1">
+      <Buildings>
+        <li>Battery</li>
+        <li>Bed</li>
+        <li>BunkerdoorS</li>
+        <li>Bunkerdoor_E</li>
+        <li>Bunkerdoor_N</li>
+        <li>Bunkerdoor_W</li>
+        <li>BunkerembrasureNE</li>
+        <li>BunkerembrasureSW</li>
+        <li>BunkerwallNE</li>
+        <li>BunkerwallSW</li>
+        <li>ElectricStove</li>
+        <li>FTC_SpotterLight_Turret</li>
+        <li>PitLatrine</li>
+        <li>RTR_SolarArray</li>
+        <li>RimFridge_SingleRefrigerator</li>
+        <li>WashBucket</li>
+      </Buildings>
+    </thingKinds>
+    <repairDefs version="1">
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>GrasslandSoil</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>soil</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Gravel</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>PavedTile</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>FT_BlocksConcrete</li>
+          </resources>
+          <colors />
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Bed</defName>
+        <tags>
+          <li>Bed</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 2)</size>
+          <label>cama</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>92.88</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+            <li>Chitin</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>BunkerdoorS</defName>
+        <tags>
+          <li>Door</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>::TEST::Bunkerdoor-Sur</label>
+          <passability>Standable</passability>
+          <marketValue>63.06</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Bunkerdoor_E</defName>
+        <tags>
+          <li>Door</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>::TEST::Bunkerdoor-Este</label>
+          <passability>Standable</passability>
+          <marketValue>63.06</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Bunkerdoor_N</defName>
+        <tags>
+          <li>Door</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>::TEST::Bunkerdoor-Norte</label>
+          <passability>Standable</passability>
+          <marketValue>63.06</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Bunkerdoor_W</defName>
+        <tags>
+          <li>Door</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>::TEST::Bunkerdoor-Oeste</label>
+          <passability>Standable</passability>
+          <marketValue>63.06</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>ElectricStove</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 1)</size>
+          <label>estufa eléctrica</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>225</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>FTC_SpotterLight_Turret</defName>
+        <tags>
+          <li>Turret</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>::TEST::observador de artillería portátil</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>595</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>RimFridge_SingleRefrigerator</defName>
+        <tags>
+          <li>Storage</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>Refrigerador</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>73.0269</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+    </repairDefs>
+  </extraInfo>
+  <things>
+    <BunkerembrasureSW>
+      <rects>
+        <li>(6,0,8,0)</li>
+        <li>(6,1,6,1)</li>
+        <li>(0,6,1,6)</li>
+        <li>(13,6,13,6)</li>
+        <li>(0,7,0,7)</li>
+        <li>(6,13,6,13)</li>
+      </rects>
+      <stuff>FT_BlocksConcrete</stuff>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </BunkerembrasureSW>
+    <RTR_SolarArray>
+      <rects>
+        <li>(6,0,8,2)</li>
+        <li>(7,3,8,3)</li>
+        <li>(4,4,5,10)</li>
+        <li>(8,4,10,10)</li>
+        <li>(6,5,7,14)</li>
+        <li>(0,6,2,8)</li>
+        <li>(11,6,14,7)</li>
+        <li>(3,7,3,7)</li>
+        <li>(12,8,14,8)</li>
+        <li>(8,11,8,14)</li>
+      </rects>
+    </RTR_SolarArray>
+    <FTC_SpotterLight_Turret>
+      <rects>
+        <li>(7,1,7,1)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </FTC_SpotterLight_Turret>
+    <BunkerembrasureNE>
+      <rects>
+        <li>(8,1,8,1)</li>
+        <li>(14,6,14,8)</li>
+        <li>(0,8,1,8)</li>
+        <li>(13,8,13,8)</li>
+        <li>(8,13,8,14)</li>
+        <li>(6,14,7,14)</li>
+      </rects>
+      <stuff>FT_BlocksConcrete</stuff>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </BunkerembrasureNE>
+    <BunkerwallSW>
+      <rects>
+        <li>(6,2,6,4)</li>
+        <li>(4,4,5,4)</li>
+        <li>(8,4,10,4)</li>
+        <li>(4,5,4,6)</li>
+        <li>(2,6,3,6)</li>
+        <li>(10,6,12,6)</li>
+        <li>(4,9,4,9)</li>
+        <li>(6,11,6,12)</li>
+      </rects>
+      <stuff>FT_BlocksConcrete</stuff>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </BunkerwallSW>
+    <BunkerwallNE>
+      <rects>
+        <li>(8,2,8,3)</li>
+        <li>(10,5,10,5)</li>
+        <li>(2,8,4,8)</li>
+        <li>(10,8,11,8)</li>
+        <li>(10,9,10,10)</li>
+        <li>(4,10,6,10)</li>
+        <li>(8,10,9,10)</li>
+        <li>(8,11,8,12)</li>
+      </rects>
+      <stuff>FT_BlocksConcrete</stuff>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </BunkerwallNE>
+    <BunkerdoorS>
+      <rects>
+        <li>(7,4,7,4)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </BunkerdoorS>
+    <Bed>
+      <position>(5, 0, 5)</position>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Bed>
+    <WashBucket>
+      <rects>
+        <li>(6,5,6,5)</li>
+      </rects>
+      <stuff>Steel</stuff>
+    </WashBucket>
+    <Battery>
+      <position>(8, 0, 5)</position>
+    </Battery>
+    <PitLatrine>
+      <rects>
+        <li>(9,5,9,5)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+    </PitLatrine>
+    <FTC_SpotterLight_Turret>
+      <rects>
+        <li>(1,7,1,7)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </FTC_SpotterLight_Turret>
+    <Bunkerdoor_W>
+      <rects>
+        <li>(4,7,4,7)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Bunkerdoor_W>
+    <ElectricStove>
+      <position>(6, 0, 8)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </ElectricStove>
+    <Bunkerdoor_E>
+      <rects>
+        <li>(10,7,10,7)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Bunkerdoor_E>
+    <FTC_SpotterLight_Turret>
+      <rects>
+        <li>(13,7,13,7)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </FTC_SpotterLight_Turret>
+    <Bed>
+      <position>(5, 0, 9)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Bed>
+    <RimFridge_SingleRefrigerator>
+      <rects>
+        <li>(8,8,8,8)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </RimFridge_SingleRefrigerator>
+    <Bunkerdoor_N>
+      <rects>
+        <li>(12,8,12,8)</li>
+        <li>(7,10,7,10)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Bunkerdoor_N>
+    <Bed>
+      <position>(9, 0, 9)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Bed>
+    <FTC_SpotterLight_Turret>
+      <rects>
+        <li>(7,13,7,13)</li>
+      </rects>
+    </FTC_SpotterLight_Turret>
+  </things>
+  <terrain>
+    <PavedTile>
+      <rects>
+        <li>(6,0,8,14)</li>
+        <li>(4,4,5,10)</li>
+        <li>(9,4,10,10)</li>
+        <li>(0,6,3,8)</li>
+        <li>(11,6,14,8)</li>
+      </rects>
+    </PavedTile>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <PavedTile>
+        <rects>
+          <li>(6,0,8,14)</li>
+          <li>(4,4,5,10)</li>
+          <li>(9,4,10,10)</li>
+          <li>(0,6,3,8)</li>
+          <li>(11,6,14,8)</li>
+        </rects>
+      </PavedTile>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <GrasslandSoil>
+        <rects>
+          <li>(6,0,8,14)</li>
+          <li>(4,4,5,10)</li>
+          <li>(9,4,10,10)</li>
+          <li>(0,6,3,8)</li>
+          <li>(11,6,12,8)</li>
+          <li>(13,8,13,8)</li>
+        </rects>
+      </GrasslandSoil>
+      <Gravel>
+        <rects>
+          <li>(13,6,14,7)</li>
+          <li>(14,8,14,8)</li>
+        </rects>
+      </Gravel>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RTR_RoofSolar>
+      <rects>
+        <li>(6,0,8,2)</li>
+        <li>(7,3,8,3)</li>
+        <li>(4,4,5,10)</li>
+        <li>(8,4,10,10)</li>
+        <li>(6,5,7,14)</li>
+        <li>(0,6,2,8)</li>
+        <li>(11,6,14,7)</li>
+        <li>(3,7,3,7)</li>
+        <li>(12,8,14,8)</li>
+        <li>(8,11,8,14)</li>
+      </rects>
+    </RTR_RoofSolar>
+  </roofs>
+</PrefabDef>
