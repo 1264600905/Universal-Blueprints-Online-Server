@@ -1,0 +1,811 @@
+<PrefabDef>
+  <defName>Prefab_20261019_162249</defName>
+  <size>(42,46)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>中世紀_農田</name>
+    <description>應巴哈專版留言所拍攝的全圖，但因版本更迭與MOD增減，只有部分完工，其餘缺失部份真沒辦法了，太舊了，只能參照討論區圖文。</description>
+    <tags>
+      <li>BaseBlueprint</li>
+    </tags>
+    <author>軒彌</author>
+    <category>BaseBlueprint</category>
+    <BuildingID>221befd4-59a9-4d46-af07-b7444d26654c</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>limetreesnake.furnishing</packageId>
+        <name>[LTS]Furnishing</name>
+        <version></version>
+        <modorder>14</modorder>
+        <steamWorkshopId>2567438519</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>LTS_CobblestoneFence</li>
+          <li>LTS_StoneBorderEdge</li>
+          <li>LTS_StoneBorderCorner</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>dankpyon.medieval.overhaul</packageId>
+        <name>Medieval Overhaul</name>
+        <version>1.6.2.2</version>
+        <modorder>147</modorder>
+        <steamWorkshopId>3219596926</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>syrchalis.processor.framework</packageId>
+            <steamWorkshopId>3210544395</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>DankPyon_Post</li>
+          <li>DankPyon_LampPost</li>
+          <li>DankPyon_WindMill</li>
+          <li>EGG_AdvancedWell</li>
+          <li>DankPyon_Floor_Cobblestone_Sandstone</li>
+          <li>DankPyon_PlowedSoil</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>dubwise.dubsbadhygiene</packageId>
+        <name>Dubs Bad Hygiene</name>
+        <version>3.2.3250</version>
+        <modorder>42</modorder>
+        <steamWorkshopId>836308268</steamWorkshopId>
+        <things>
+          <li>WindPump</li>
+          <li>sewagePipeHidden</li>
+        </things>
+      </mod>
+    </modPackages>
+    <foldGroup>
+      <groupKey>軒彌_中世紀城鎮</groupKey>
+      <displayOrder>6</displayOrder>
+      <isCover>true</isCover>
+    </foldGroup>
+    <multiLanguage>
+      <name>
+        <default>中世紀_農田</default>
+        <zh-TW>中世紀_農田</zh-TW>
+      </name>
+      <description>
+        <default>應巴哈專版留言所拍攝的全圖，但因版本更迭與MOD增減，只有部分完工，其餘缺失部份真沒辦法了，太舊了，只能參照討論區圖文。</default>
+        <zh-TW>應巴哈專版留言所拍攝的全圖，但因版本更迭與MOD增減，只有部分完工，其餘缺失部份真沒辦法了，太舊了，只能參照討論區圖文。</zh-TW>
+      </description>
+      <tags>
+        <default>BaseBlueprint</default>
+      </tags>
+    </multiLanguage>
+    <thingKinds version="1">
+      <Buildings>
+        <li>DankPyon_LampPost</li>
+        <li>DankPyon_WindMill</li>
+        <li>EGG_AdvancedWell</li>
+        <li>LTS_CobblestoneFence</li>
+        <li>WindPump</li>
+        <li>sewagePipeHidden</li>
+      </Buildings>
+      <ArtificialTerrain>
+        <li>DankPyon_Post</li>
+        <li>LTS_StoneBorderCorner</li>
+        <li>LTS_StoneBorderEdge</li>
+      </ArtificialTerrain>
+    </thingKinds>
+    <repairDefs version="1">
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>DankPyon_Floor_Cobblestone_Sandstone</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>BlocksSandstone</li>
+          </resources>
+          <colors />
+          <materials>
+            <li>sandstone</li>
+            <li>sand</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>DankPyon_PlowedSoil</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>soil</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Gravel</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>sand</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Sandstone_Rough</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>sandstone</li>
+            <li>sand</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Soil</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>soil</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>SoilRich</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>soil</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>StrawMatting</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>DankPyon_Straw</li>
+          </resources>
+          <colors />
+          <materials>
+            <li>hay</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>DankPyon_LampPost</defName>
+        <tags>
+          <li>Lamp</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>質樸路燈</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>89.66</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>DankPyon_Post</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(4, 1)</size>
+          <label>爬藤架</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>41.08</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>EGG_AdvancedWell</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>水井(MO)</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>275</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>LTS_StoneBorderCorner</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>邊界（拐角）</label>
+          <passability>Standable</passability>
+          <marketValue>4.27</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>LTS_StoneBorderEdge</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>邊界</label>
+          <passability>Standable</passability>
+          <marketValue>4.27</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+    </repairDefs>
+  </extraInfo>
+  <things>
+    <LTS_CobblestoneFence>
+      <rects>
+        <li>(0,0,0,0)</li>
+        <li>(7,0,7,0)</li>
+        <li>(11,0,11,0)</li>
+        <li>(25,0,25,0)</li>
+        <li>(29,0,29,0)</li>
+        <li>(41,0,41,0)</li>
+        <li>(41,25,41,25)</li>
+        <li>(41,29,41,29)</li>
+        <li>(0,45,0,45)</li>
+        <li>(7,45,7,45)</li>
+        <li>(11,45,11,45)</li>
+        <li>(25,45,25,45)</li>
+        <li>(29,45,29,45)</li>
+        <li>(41,45,41,45)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </LTS_CobblestoneFence>
+    <LTS_StoneBorderEdge>
+      <rects>
+        <li>(1,0,6,0)</li>
+        <li>(12,0,24,0)</li>
+        <li>(30,0,40,0)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </LTS_StoneBorderEdge>
+    <LTS_StoneBorderEdge>
+      <rects>
+        <li>(0,1,0,44)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </LTS_StoneBorderEdge>
+    <LTS_StoneBorderEdge>
+      <rects>
+        <li>(41,1,41,24)</li>
+        <li>(41,30,41,44)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </LTS_StoneBorderEdge>
+    <DankPyon_Post>
+      <positions>
+        <li>(10, 0, 4)</li>
+        <li>(14, 0, 15)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DankPyon_Post>
+    <DankPyon_Post>
+      <positions>
+        <li>(13, 0, 4)</li>
+        <li>(14, 0, 10)</li>
+        <li>(17, 0, 10)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DankPyon_Post>
+    <DankPyon_Post>
+      <positions>
+        <li>(14, 0, 4)</li>
+        <li>(17, 0, 4)</li>
+        <li>(13, 0, 10)</li>
+        <li>(13, 0, 15)</li>
+        <li>(10, 0, 20)</li>
+        <li>(13, 0, 20)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DankPyon_Post>
+    <DankPyon_LampPost>
+      <rects>
+        <li>(7,5,7,5)</li>
+        <li>(18,5,18,5)</li>
+        <li>(27,5,27,5)</li>
+        <li>(7,17,7,17)</li>
+        <li>(18,17,18,17)</li>
+        <li>(27,17,27,17)</li>
+        <li>(7,28,7,28)</li>
+        <li>(18,28,18,28)</li>
+        <li>(27,28,27,28)</li>
+        <li>(7,39,7,39)</li>
+        <li>(18,39,18,39)</li>
+        <li>(27,39,27,39)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DankPyon_LampPost>
+    <DankPyon_WindMill>
+      <positions>
+        <li>(30, 0, 7)</li>
+        <li>(37, 0, 7)</li>
+      </positions>
+    </DankPyon_WindMill>
+    <DankPyon_Post>
+      <positions>
+        <li>(11, 0, 7)</li>
+        <li>(15, 0, 7)</li>
+      </positions>
+      <stuff>WoodLog</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DankPyon_Post>
+    <DankPyon_Post>
+      <position>(10, 0, 10)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Legendary</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DankPyon_Post>
+    <DankPyon_Post>
+      <positions>
+        <li>(10, 0, 15)</li>
+        <li>(17, 0, 15)</li>
+        <li>(14, 0, 20)</li>
+        <li>(17, 0, 20)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DankPyon_Post>
+    <DankPyon_Post>
+      <positions>
+        <li>(11, 0, 17)</li>
+        <li>(15, 0, 17)</li>
+      </positions>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DankPyon_Post>
+    <DankPyon_WindMill>
+      <positions>
+        <li>(30, 0, 20)</li>
+        <li>(37, 0, 20)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+    </DankPyon_WindMill>
+    <LTS_StoneBorderCorner>
+      <rects>
+        <li>(41,25,41,25)</li>
+        <li>(41,30,41,30)</li>
+        <li>(7,45,7,45)</li>
+        <li>(25,45,25,45)</li>
+        <li>(41,45,41,45)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </LTS_StoneBorderCorner>
+    <WindPump>
+      <positions>
+        <li>(29, 0, 31)</li>
+        <li>(32, 0, 31)</li>
+        <li>(35, 0, 31)</li>
+        <li>(38, 0, 31)</li>
+      </positions>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </WindPump>
+    <sewagePipeHidden>
+      <rects>
+        <li>(40,31,41,31)</li>
+        <li>(27,32,27,32)</li>
+        <li>(41,32,41,45)</li>
+        <li>(9,34,9,45)</li>
+        <li>(27,34,27,45)</li>
+        <li>(40,39,40,39)</li>
+        <li>(10,45,15,45)</li>
+        <li>(28,45,40,45)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </sewagePipeHidden>
+    <EGG_AdvancedWell>
+      <rects>
+        <li>(9,33,9,33)</li>
+        <li>(27,33,27,33)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </EGG_AdvancedWell>
+    <WindPump>
+      <positions>
+        <li>(29, 0, 40)</li>
+        <li>(32, 0, 40)</li>
+        <li>(35, 0, 40)</li>
+        <li>(38, 0, 40)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </WindPump>
+    <LTS_StoneBorderEdge>
+      <rects>
+        <li>(1,45,6,45)</li>
+        <li>(12,45,24,45)</li>
+        <li>(30,45,40,45)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </LTS_StoneBorderEdge>
+    <LTS_StoneBorderCorner>
+      <rects>
+        <li>(11,45,11,45)</li>
+        <li>(29,45,29,45)</li>
+        <li>(40,45,40,45)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </LTS_StoneBorderCorner>
+  </things>
+  <terrain>
+    <DankPyon_Floor_Cobblestone_Sandstone>
+      <rects>
+        <li>(1,0,6,0)</li>
+        <li>(8,0,10,0)</li>
+        <li>(12,0,24,0)</li>
+        <li>(26,0,28,0)</li>
+        <li>(30,0,40,0)</li>
+        <li>(0,1,0,44)</li>
+        <li>(41,1,41,24)</li>
+        <li>(41,26,41,28)</li>
+        <li>(41,30,41,44)</li>
+        <li>(1,45,6,45)</li>
+        <li>(8,45,10,45)</li>
+        <li>(12,45,24,45)</li>
+        <li>(26,45,28,45)</li>
+        <li>(30,45,40,45)</li>
+      </rects>
+    </DankPyon_Floor_Cobblestone_Sandstone>
+    <StrawMatting>
+      <rects>
+        <li>(1,1,40,1)</li>
+        <li>(1,2,1,44)</li>
+        <li>(3,2,3,44)</li>
+        <li>(5,2,5,44)</li>
+        <li>(7,2,7,44)</li>
+        <li>(9,2,9,44)</li>
+        <li>(18,2,18,44)</li>
+        <li>(27,2,27,44)</li>
+        <li>(40,2,40,44)</li>
+        <li>(10,12,17,12)</li>
+        <li>(19,12,26,12)</li>
+        <li>(10,22,17,22)</li>
+        <li>(19,22,26,22)</li>
+        <li>(28,27,39,27)</li>
+        <li>(10,33,17,33)</li>
+        <li>(19,33,26,33)</li>
+        <li>(2,44,2,44)</li>
+        <li>(4,44,4,44)</li>
+        <li>(6,44,6,44)</li>
+        <li>(8,44,8,44)</li>
+        <li>(10,44,17,44)</li>
+        <li>(19,44,26,44)</li>
+        <li>(28,44,39,44)</li>
+      </rects>
+    </StrawMatting>
+    <DankPyon_PlowedSoil>
+      <rects>
+        <li>(2,2,2,43)</li>
+        <li>(4,2,4,43)</li>
+        <li>(6,2,6,43)</li>
+        <li>(8,2,8,43)</li>
+        <li>(10,2,17,11)</li>
+        <li>(19,2,26,9)</li>
+        <li>(28,2,39,4)</li>
+        <li>(33,5,34,8)</li>
+        <li>(34,9,34,9)</li>
+        <li>(19,10,23,10)</li>
+        <li>(19,11,22,11)</li>
+        <li>(10,13,17,21)</li>
+        <li>(19,13,19,14)</li>
+        <li>(10,23,17,32)</li>
+        <li>(39,24,39,26)</li>
+        <li>(19,25,19,32)</li>
+        <li>(38,25,38,26)</li>
+        <li>(20,26,20,32)</li>
+        <li>(37,26,37,26)</li>
+        <li>(34,28,39,30)</li>
+        <li>(21,29,21,32)</li>
+        <li>(31,29,31,29)</li>
+        <li>(33,29,33,30)</li>
+        <li>(32,30,32,30)</li>
+        <li>(30,33,39,38)</li>
+        <li>(10,34,17,43)</li>
+        <li>(19,34,23,43)</li>
+        <li>(24,35,24,43)</li>
+        <li>(29,35,29,38)</li>
+        <li>(25,36,26,43)</li>
+        <li>(28,36,28,38)</li>
+        <li>(28,41,39,43)</li>
+      </rects>
+    </DankPyon_PlowedSoil>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <DankPyon_Floor_Cobblestone_Sandstone>
+        <rects>
+          <li>(1,0,6,0)</li>
+          <li>(8,0,10,0)</li>
+          <li>(12,0,24,0)</li>
+          <li>(26,0,28,0)</li>
+          <li>(30,0,40,0)</li>
+          <li>(0,1,0,44)</li>
+          <li>(41,1,41,24)</li>
+          <li>(41,26,41,28)</li>
+          <li>(41,30,41,44)</li>
+          <li>(1,45,6,45)</li>
+          <li>(8,45,10,45)</li>
+          <li>(12,45,24,45)</li>
+          <li>(26,45,28,45)</li>
+          <li>(30,45,40,45)</li>
+        </rects>
+      </DankPyon_Floor_Cobblestone_Sandstone>
+      <StrawMatting>
+        <rects>
+          <li>(1,1,40,1)</li>
+          <li>(1,2,1,44)</li>
+          <li>(3,2,3,44)</li>
+          <li>(5,2,5,44)</li>
+          <li>(7,2,7,44)</li>
+          <li>(9,2,9,44)</li>
+          <li>(18,2,18,44)</li>
+          <li>(27,2,27,44)</li>
+          <li>(40,2,40,44)</li>
+          <li>(10,12,17,12)</li>
+          <li>(19,12,26,12)</li>
+          <li>(10,22,17,22)</li>
+          <li>(19,22,26,22)</li>
+          <li>(28,27,39,27)</li>
+          <li>(10,33,17,33)</li>
+          <li>(19,33,26,33)</li>
+          <li>(2,44,2,44)</li>
+          <li>(4,44,4,44)</li>
+          <li>(6,44,6,44)</li>
+          <li>(8,44,8,44)</li>
+          <li>(10,44,17,44)</li>
+          <li>(19,44,26,44)</li>
+          <li>(28,44,39,44)</li>
+        </rects>
+      </StrawMatting>
+      <DankPyon_PlowedSoil>
+        <rects>
+          <li>(2,2,2,43)</li>
+          <li>(4,2,4,43)</li>
+          <li>(6,2,6,43)</li>
+          <li>(8,2,8,43)</li>
+          <li>(10,2,17,11)</li>
+          <li>(19,2,26,9)</li>
+          <li>(28,2,39,4)</li>
+          <li>(33,5,34,8)</li>
+          <li>(34,9,34,9)</li>
+          <li>(19,10,23,10)</li>
+          <li>(19,11,22,11)</li>
+          <li>(10,13,17,21)</li>
+          <li>(19,13,19,14)</li>
+          <li>(10,23,17,32)</li>
+          <li>(39,24,39,26)</li>
+          <li>(19,25,19,32)</li>
+          <li>(38,25,38,26)</li>
+          <li>(20,26,20,32)</li>
+          <li>(37,26,37,26)</li>
+          <li>(34,28,39,30)</li>
+          <li>(21,29,21,32)</li>
+          <li>(31,29,31,29)</li>
+          <li>(33,29,33,30)</li>
+          <li>(32,30,32,30)</li>
+          <li>(30,33,39,38)</li>
+          <li>(10,34,17,43)</li>
+          <li>(19,34,23,43)</li>
+          <li>(24,35,24,43)</li>
+          <li>(29,35,29,38)</li>
+          <li>(25,36,26,43)</li>
+          <li>(28,36,28,38)</li>
+          <li>(28,41,39,43)</li>
+        </rects>
+      </DankPyon_PlowedSoil>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(1,0,6,45)</li>
+          <li>(8,0,10,45)</li>
+          <li>(12,0,24,5)</li>
+          <li>(26,0,28,4)</li>
+          <li>(30,0,38,4)</li>
+          <li>(0,1,0,44)</li>
+          <li>(7,1,7,44)</li>
+          <li>(11,1,11,44)</li>
+          <li>(25,1,25,4)</li>
+          <li>(29,1,29,4)</li>
+          <li>(39,4,39,4)</li>
+          <li>(33,5,34,8)</li>
+          <li>(12,6,23,6)</li>
+          <li>(12,7,21,11)</li>
+          <li>(40,7,40,11)</li>
+          <li>(22,8,23,10)</li>
+          <li>(25,8,27,9)</li>
+          <li>(41,8,41,11)</li>
+          <li>(24,9,24,9)</li>
+          <li>(34,9,34,9)</li>
+          <li>(22,11,22,11)</li>
+          <li>(12,12,19,14)</li>
+          <li>(12,15,18,17)</li>
+          <li>(12,18,17,45)</li>
+          <li>(18,23,18,45)</li>
+          <li>(39,24,41,24)</li>
+          <li>(19,25,19,45)</li>
+          <li>(38,25,40,30)</li>
+          <li>(20,26,20,45)</li>
+          <li>(37,26,37,30)</li>
+          <li>(41,26,41,28)</li>
+          <li>(34,28,36,30)</li>
+          <li>(21,29,21,45)</li>
+          <li>(31,29,31,29)</li>
+          <li>(33,29,33,30)</li>
+          <li>(32,30,32,30)</li>
+          <li>(41,30,41,44)</li>
+          <li>(40,31,40,45)</li>
+          <li>(22,33,22,45)</li>
+          <li>(30,33,39,38)</li>
+          <li>(23,34,23,45)</li>
+          <li>(24,35,24,45)</li>
+          <li>(29,35,29,38)</li>
+          <li>(25,36,28,38)</li>
+          <li>(25,39,27,44)</li>
+          <li>(28,41,39,44)</li>
+          <li>(26,45,28,45)</li>
+          <li>(30,45,39,45)</li>
+        </rects>
+      </Soil>
+      <Gravel>
+        <rects>
+          <li>(39,0,40,3)</li>
+          <li>(41,1,41,1)</li>
+          <li>(41,3,41,7)</li>
+          <li>(40,4,40,6)</li>
+          <li>(25,5,27,7)</li>
+          <li>(24,6,24,8)</li>
+          <li>(22,7,23,7)</li>
+        </rects>
+      </Gravel>
+      <Sandstone_Rough>
+        <rects>
+          <li>(41,2,41,2)</li>
+        </rects>
+      </Sandstone_Rough>
+      <SoilRich>
+        <rects>
+          <li>(27,10,27,35)</li>
+          <li>(20,12,26,12)</li>
+          <li>(40,12,41,23)</li>
+          <li>(18,18,18,22)</li>
+          <li>(19,22,26,22)</li>
+          <li>(28,27,36,27)</li>
+          <li>(23,33,26,33)</li>
+        </rects>
+      </SoilRich>
+    </terrainLayerDetail>
+  </terrainLayers>
+</PrefabDef>
