@@ -1,0 +1,506 @@
+<PrefabDef>
+  <defName>Prefab_20261020_002831</defName>
+  <size>(13,13)</size>
+  <extraInfo>
+    <version>1.7.9787.38423</version>
+    <name>卧室</name>
+    <description></description>
+    <tags>
+      <li>Dormitory</li>
+    </tags>
+    <author></author>
+    <category>Dormitory</category>
+    <BuildingID>642a6d2a-4cab-44d1-a048-9261aaec61d3</BuildingID>
+    <modPackages></modPackages>
+    <multiLanguage>
+      <name>
+        <default>卧室</default>
+        <zh-CN>卧室</zh-CN>
+      </name>
+      <tags>
+        <default>Dormitory</default>
+      </tags>
+    </multiLanguage>
+    <structureDefs>
+      <li>
+        <defName>Wall</defName>
+        <kind>Wall</kind>
+        <size>(1,1)</size>
+      </li>
+      <li>
+        <defName>Door</defName>
+        <kind>Door</kind>
+        <size>(1,1)</size>
+      </li>
+    </structureDefs>
+    <thingKinds version="1">
+      <Buildings>
+        <li>Bed</li>
+        <li>Door</li>
+        <li>Dresser</li>
+        <li>EndTable</li>
+        <li>HiddenConduit</li>
+        <li>Wall</li>
+        <li>WallLamp</li>
+      </Buildings>
+    </thingKinds>
+    <repairDefs version="1">
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Concrete</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>Steel</li>
+          </resources>
+          <colors />
+          <materials>
+            <li>concrete</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Gravel</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>sand</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Soil</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>soil</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>WoodPlankFloor</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>WoodLog</li>
+          </resources>
+          <colors />
+          <materials>
+            <li>wood</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Bed</defName>
+        <tags>
+          <li>Bed</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 2)</size>
+          <label>单人床</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>92.88</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Door</defName>
+        <tags>
+          <li>Door</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>门</label>
+          <passability>Standable</passability>
+          <marketValue>53.06</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Dresser</defName>
+        <tags>
+          <li>Bedside</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 1)</size>
+          <label>矮柜</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>107.2</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>EndTable</defName>
+        <tags>
+          <li>Bedside</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>床头柜</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>63.6</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Wall</defName>
+        <tags>
+          <li>Wall</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>墙</label>
+          <passability>Impassable</passability>
+          <marketValue>10.486</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>WallLamp</defName>
+        <tags>
+          <li>Attachment</li>
+          <li>Lamp</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>壁灯</label>
+          <passability>Standable</passability>
+          <marketValue>29.688</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+    </repairDefs>
+  </extraInfo>
+  <things>
+    <HiddenConduit>
+      <rects>
+        <li>(0,0,12,0)</li>
+        <li>(12,1,12,5)</li>
+        <li>(0,5,11,5)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <Wall>
+      <rects>
+        <li>(0,0,12,0)</li>
+        <li>(0,1,0,5)</li>
+        <li>(4,1,4,5)</li>
+        <li>(8,1,8,5)</li>
+        <li>(12,1,12,5)</li>
+        <li>(1,5,1,5)</li>
+        <li>(3,5,3,5)</li>
+        <li>(5,5,5,5)</li>
+        <li>(7,5,7,5)</li>
+        <li>(9,5,9,5)</li>
+        <li>(11,5,11,5)</li>
+        <li>(0,7,1,7)</li>
+        <li>(3,7,5,7)</li>
+        <li>(7,7,9,7)</li>
+        <li>(11,7,12,7)</li>
+        <li>(0,8,0,12)</li>
+        <li>(4,8,4,12)</li>
+        <li>(8,8,8,12)</li>
+        <li>(12,8,12,12)</li>
+        <li>(1,12,3,12)</li>
+        <li>(5,12,7,12)</li>
+        <li>(9,12,11,12)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Wall>
+    <Bed>
+      <positions>
+        <li>(1, 0, 1)</li>
+        <li>(9, 0, 1)</li>
+      </positions>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed>
+    <EndTable>
+      <rects>
+        <li>(2,1,2,1)</li>
+        <li>(6,1,6,1)</li>
+        <li>(10,11,10,11)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Poor</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </EndTable>
+    <Dresser>
+      <positions>
+        <li>(3, 0, 1)</li>
+        <li>(7, 0, 1)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Dresser>
+    <Bed>
+      <position>(5, 0, 1)</position>
+      <stuff>WoodLog</stuff>
+      <quality>Awful</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed>
+    <EndTable>
+      <rects>
+        <li>(10,1,10,1)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </EndTable>
+    <Dresser>
+      <position>(11, 0, 1)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Dresser>
+    <WallLamp>
+      <rects>
+        <li>(3,4,3,4)</li>
+        <li>(7,4,7,4)</li>
+        <li>(11,4,11,4)</li>
+      </rects>
+    </WallLamp>
+    <Door>
+      <rects>
+        <li>(2,5,2,5)</li>
+        <li>(6,5,6,5)</li>
+        <li>(10,5,10,5)</li>
+        <li>(2,7,2,7)</li>
+        <li>(6,7,6,7)</li>
+        <li>(10,7,10,7)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <Door>
+      <rects>
+        <li>(0,6,0,6)</li>
+        <li>(12,6,12,6)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <WallLamp>
+      <rects>
+        <li>(3,8,3,8)</li>
+        <li>(7,8,7,8)</li>
+        <li>(11,8,11,8)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </WallLamp>
+    <Bed>
+      <position>(1, 0, 11)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed>
+    <Dresser>
+      <positions>
+        <li>(3, 0, 10)</li>
+        <li>(7, 0, 10)</li>
+        <li>(11, 0, 10)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Poor</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Dresser>
+    <Bed>
+      <positions>
+        <li>(5, 0, 11)</li>
+        <li>(9, 0, 11)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Poor</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed>
+    <EndTable>
+      <rects>
+        <li>(2,11,2,11)</li>
+        <li>(6,11,6,11)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </EndTable>
+  </things>
+  <terrain>
+    <WoodPlankFloor>
+      <rects>
+        <li>(1,1,3,4)</li>
+        <li>(5,1,7,4)</li>
+        <li>(9,1,11,4)</li>
+        <li>(2,5,2,5)</li>
+        <li>(6,5,6,5)</li>
+        <li>(10,5,10,5)</li>
+        <li>(2,7,2,11)</li>
+        <li>(6,7,6,11)</li>
+        <li>(10,7,10,11)</li>
+        <li>(1,8,1,11)</li>
+        <li>(3,8,3,11)</li>
+        <li>(5,8,5,11)</li>
+        <li>(7,8,7,11)</li>
+        <li>(9,8,9,11)</li>
+        <li>(11,8,11,11)</li>
+      </rects>
+    </WoodPlankFloor>
+    <Concrete>
+      <rects>
+        <li>(0,6,11,6)</li>
+      </rects>
+    </Concrete>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <WoodPlankFloor>
+        <rects>
+          <li>(1,1,3,4)</li>
+          <li>(5,1,7,4)</li>
+          <li>(9,1,11,4)</li>
+          <li>(2,5,2,5)</li>
+          <li>(6,5,6,5)</li>
+          <li>(10,5,10,5)</li>
+          <li>(2,7,2,11)</li>
+          <li>(6,7,6,11)</li>
+          <li>(10,7,10,11)</li>
+          <li>(1,8,1,11)</li>
+          <li>(3,8,3,11)</li>
+          <li>(5,8,5,11)</li>
+          <li>(7,8,7,11)</li>
+          <li>(9,8,9,11)</li>
+          <li>(11,8,11,11)</li>
+        </rects>
+      </WoodPlankFloor>
+      <Concrete>
+        <rects>
+          <li>(0,6,11,6)</li>
+        </rects>
+      </Concrete>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(1,1,3,4)</li>
+          <li>(5,1,7,2)</li>
+          <li>(9,1,9,1)</li>
+          <li>(5,3,5,3)</li>
+          <li>(2,5,2,11)</li>
+          <li>(6,5,6,11)</li>
+          <li>(0,6,1,6)</li>
+          <li>(3,6,5,6)</li>
+          <li>(1,8,1,11)</li>
+          <li>(3,8,3,11)</li>
+          <li>(5,8,5,11)</li>
+          <li>(7,8,7,11)</li>
+          <li>(9,9,9,11)</li>
+          <li>(10,10,11,11)</li>
+        </rects>
+      </Soil>
+      <Gravel>
+        <rects>
+          <li>(10,1,11,4)</li>
+          <li>(9,2,9,4)</li>
+          <li>(6,3,7,4)</li>
+          <li>(5,4,5,4)</li>
+          <li>(10,5,10,9)</li>
+          <li>(7,6,9,6)</li>
+          <li>(11,6,11,6)</li>
+          <li>(9,8,9,8)</li>
+          <li>(11,8,11,9)</li>
+        </rects>
+      </Gravel>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
