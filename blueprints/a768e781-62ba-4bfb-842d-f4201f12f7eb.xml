@@ -1,0 +1,185 @@
+<PrefabDef>
+  <defName>Prefab_20261020_185331</defName>
+  <size>(50,2)</size>
+  <extraInfo>
+    <version>1.7.9787.38423</version>
+    <name>1111</name>
+    <description></description>
+    <tags>
+      <li>Power</li>
+    </tags>
+    <author></author>
+    <category>Power</category>
+    <BuildingID>a768e781-62ba-4bfb-842d-f4201f12f7eb</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>mapleapple.highdensityhydroponics.fixed.zouhb.zades</packageId>
+        <name>High Density Hydroponics</name>
+        <version></version>
+        <modorder>120</modorder>
+        <steamWorkshopId>3534458015</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>HDH_Hydroponics_Quantum</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>kindseal.ufli</packageId>
+        <name>联合轻工家具拓展-UF Light Industries Furniture</name>
+        <version></version>
+        <modorder>321</modorder>
+        <steamWorkshopId>3651799915</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFLI_FLOOR</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>1111</default>
+        <zh-CN>1111</zh-CN>
+      </name>
+      <tags>
+        <default>Power</default>
+      </tags>
+    </multiLanguage>
+    <thingKinds version="1">
+      <ArtificialTerrain>
+        <li>HDH_Hydroponics_Quantum</li>
+      </ArtificialTerrain>
+    </thingKinds>
+    <repairDefs version="1">
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Gravel</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>sand</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>UFLI_FLOOR</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources>
+          <li>MetalTile</li>
+        </builtinSources>
+        <match>
+          <resources>
+            <li>Steel</li>
+          </resources>
+          <colors />
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>HDH_Hydroponics_Quantum</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 2)</size>
+          <label>量子密度水培槽</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>4545</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+    </repairDefs>
+  </extraInfo>
+  <things>
+    <HDH_Hydroponics_Quantum>
+      <positions>
+        <li>(0, 0, 0)</li>
+        <li>(2, 0, 0)</li>
+        <li>(4, 0, 0)</li>
+        <li>(6, 0, 0)</li>
+        <li>(8, 0, 0)</li>
+        <li>(10, 0, 0)</li>
+        <li>(12, 0, 0)</li>
+        <li>(14, 0, 0)</li>
+        <li>(16, 0, 0)</li>
+        <li>(18, 0, 0)</li>
+        <li>(20, 0, 0)</li>
+        <li>(22, 0, 0)</li>
+        <li>(24, 0, 0)</li>
+        <li>(26, 0, 0)</li>
+        <li>(28, 0, 0)</li>
+        <li>(30, 0, 0)</li>
+        <li>(32, 0, 0)</li>
+        <li>(34, 0, 0)</li>
+        <li>(36, 0, 0)</li>
+        <li>(38, 0, 0)</li>
+        <li>(40, 0, 0)</li>
+        <li>(42, 0, 0)</li>
+        <li>(44, 0, 0)</li>
+        <li>(46, 0, 0)</li>
+        <li>(48, 0, 0)</li>
+      </positions>
+    </HDH_Hydroponics_Quantum>
+  </things>
+  <terrain>
+    <UFLI_FLOOR>
+      <rects>
+        <li>(0,0,49,1)</li>
+      </rects>
+    </UFLI_FLOOR>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <UFLI_FLOOR>
+        <rects>
+          <li>(0,0,49,1)</li>
+        </rects>
+      </UFLI_FLOOR>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Gravel>
+        <rects>
+          <li>(0,0,49,1)</li>
+        </rects>
+      </Gravel>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,49,1)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,49,1)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
