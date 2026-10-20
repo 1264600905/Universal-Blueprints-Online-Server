@@ -1,0 +1,312 @@
+<PrefabDef>
+  <defName>Prefab_20261021_001537</defName>
+  <size>(13,13)</size>
+  <extraInfo>
+    <version>1.7.9787.38423</version>
+    <name>SCP</name>
+    <description></description>
+    <tags>
+      <li>AnomalyDLC</li>
+    </tags>
+    <author></author>
+    <category>AnomalyDLC</category>
+    <BuildingID>79031f16-c333-44c6-b99a-b8640555449b</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>claymoresun.generalstone.forked</packageId>
+        <name>通用科技V1.6</name>
+        <version></version>
+        <modorder>77</modorder>
+        <steamWorkshopId>3199402471</steamWorkshopId>
+        <things>
+          <li>BlockCurrencyStone</li>
+          <li>TileCurrencyStone</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.anomaly</packageId>
+        <name>Anomaly</name>
+        <version></version>
+        <modorder>5</modorder>
+        <things>
+          <li>SecurityDoor</li>
+          <li>HoldingPlatform</li>
+          <li>BioferriteHarvester</li>
+          <li>ShardInhibitor</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>SCP</default>
+        <zh-CN>SCP</zh-CN>
+      </name>
+      <tags>
+        <default>AnomalyDLC</default>
+      </tags>
+    </multiLanguage>
+    <structureDefs>
+      <li>
+        <defName>Wall</defName>
+        <kind>Wall</kind>
+        <size>(1,1)</size>
+      </li>
+      <li>
+        <defName>SecurityDoor</defName>
+        <kind>Door</kind>
+        <size>(2,1)</size>
+      </li>
+    </structureDefs>
+    <thingKinds version="1">
+      <Buildings>
+        <li>BioferriteHarvester</li>
+        <li>HiddenConduit</li>
+        <li>HoldingPlatform</li>
+        <li>SecurityDoor</li>
+        <li>ShardInhibitor</li>
+        <li>Wall</li>
+        <li>WallLamp</li>
+      </Buildings>
+    </thingKinds>
+    <repairDefs version="1">
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Marble_RoughHewn</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>marble</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>TileCurrencyStone</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>BlockCurrencyStone</li>
+          </resources>
+          <colors />
+          <materials>
+            <li>stone</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>SecurityDoor</defName>
+        <tags>
+          <li>Door</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 1)</size>
+          <label>安全大门</label>
+          <passability>Standable</passability>
+          <marketValue>535</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Wall</defName>
+        <tags>
+          <li>Wall</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>墙</label>
+          <passability>Impassable</passability>
+          <marketValue>10.486</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>WallLamp</defName>
+        <tags>
+          <li>Attachment</li>
+          <li>Lamp</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>壁灯</label>
+          <passability>Standable</passability>
+          <marketValue>29.688</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+    </repairDefs>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,9,0)</li>
+        <li>(12,0,12,9)</li>
+        <li>(5,1,5,7)</li>
+        <li>(0,3,0,12)</li>
+        <li>(6,5,11,5)</li>
+        <li>(7,6,7,12)</li>
+        <li>(1,7,4,7)</li>
+        <li>(6,7,6,7)</li>
+        <li>(3,12,6,12)</li>
+        <li>(8,12,12,12)</li>
+      </rects>
+      <stuff>BlockCurrencyStone</stuff>
+      <color>RGBA(0.741, 0.741, 0.741, 1.000)</color>
+    </Wall>
+    <SecurityDoor>
+      <position>(10, 0, 0)</position>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </SecurityDoor>
+    <SecurityDoor>
+      <position>(0, 0, 2)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </SecurityDoor>
+    <HoldingPlatform>
+      <positions>
+        <li>(3, 0, 2)</li>
+        <li>(7, 0, 3)</li>
+        <li>(10, 0, 3)</li>
+        <li>(3, 0, 5)</li>
+        <li>(9, 0, 7)</li>
+        <li>(2, 0, 9)</li>
+        <li>(5, 0, 9)</li>
+        <li>(9, 0, 10)</li>
+      </positions>
+    </HoldingPlatform>
+    <HiddenConduit>
+      <rects>
+        <li>(5,1,5,12)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <BioferriteHarvester>
+      <positions>
+        <li>(6, 0, 1)</li>
+        <li>(5, 0, 11)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+    </BioferriteHarvester>
+    <WallLamp>
+      <rects>
+        <li>(9,1,9,1)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </WallLamp>
+    <WallLamp>
+      <rects>
+        <li>(1,3,1,3)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </WallLamp>
+    <BioferriteHarvester>
+      <position>(1, 0, 5)</position>
+    </BioferriteHarvester>
+    <ShardInhibitor>
+      <rects>
+        <li>(6,6,6,6)</li>
+      </rects>
+    </ShardInhibitor>
+    <WallLamp>
+      <rects>
+        <li>(11,9,11,9)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </WallLamp>
+    <SecurityDoor>
+      <position>(12, 0, 10)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </SecurityDoor>
+    <WallLamp>
+      <rects>
+        <li>(3,11,3,11)</li>
+      </rects>
+    </WallLamp>
+    <SecurityDoor>
+      <position>(2, 0, 12)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </SecurityDoor>
+  </things>
+  <terrain>
+    <TileCurrencyStone>
+      <rects>
+        <li>(10,0,11,4)</li>
+        <li>(0,1,4,2)</li>
+        <li>(6,1,9,4)</li>
+        <li>(1,3,4,6)</li>
+        <li>(6,6,11,6)</li>
+        <li>(8,7,11,11)</li>
+        <li>(1,8,6,11)</li>
+        <li>(12,10,12,11)</li>
+        <li>(1,12,2,12)</li>
+      </rects>
+    </TileCurrencyStone>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <TileCurrencyStone>
+        <rects>
+          <li>(10,0,11,4)</li>
+          <li>(0,1,4,2)</li>
+          <li>(6,1,9,4)</li>
+          <li>(1,3,4,6)</li>
+          <li>(6,6,11,6)</li>
+          <li>(8,7,11,11)</li>
+          <li>(1,8,6,11)</li>
+          <li>(12,10,12,11)</li>
+          <li>(1,12,2,12)</li>
+        </rects>
+      </TileCurrencyStone>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Marble_RoughHewn>
+        <rects>
+          <li>(10,0,11,4)</li>
+          <li>(0,1,4,2)</li>
+          <li>(6,1,9,4)</li>
+          <li>(1,3,4,6)</li>
+          <li>(6,6,11,6)</li>
+          <li>(8,7,11,11)</li>
+          <li>(1,8,6,11)</li>
+          <li>(12,10,12,11)</li>
+          <li>(1,12,2,12)</li>
+        </rects>
+      </Marble_RoughHewn>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofRockThick>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </RoofRockThick>
+  </roofs>
+</PrefabDef>
