@@ -1,0 +1,827 @@
+<PrefabDef>
+  <defName>Prefab_20261020_141619</defName>
+  <size>(15,15)</size>
+  <extraInfo>
+    <version>1.7.9787.38423</version>
+    <name>工作间</name>
+    <description>失能机关兼容</description>
+    <tags>
+      <li>Workshop</li>
+    </tags>
+    <author></author>
+    <category>Workshop</category>
+    <BuildingID>f073b9c1-86f6-44f5-9605-27d43a3fee9b</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>kindseal.ufli</packageId>
+        <name>联合轻工家具拓展-UF Light Industries Furniture</name>
+        <version></version>
+        <modorder>124</modorder>
+        <steamWorkshopId>3651799915</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFLI_Wall_Cable</li>
+          <li>UFLI_1_Autodoor</li>
+          <li>UFLI_Container_1X2_AS</li>
+          <li>UFLI_Walllamp</li>
+          <li>UFLI_Column</li>
+          <li>UFLI_Robotarm</li>
+          <li>UFLI_FLOORJ</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>aoba.fortress.industrial</packageId>
+        <name>Fortifications - Industrial</name>
+        <version></version>
+        <modorder>115</modorder>
+        <steamWorkshopId>2561619583</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>aoba.framework</packageId>
+            <steamWorkshopId>3498575851</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>FT_ReinforcedConcreteBag</li>
+          <li>FT_BlocksConcrete</li>
+          <li>FT_TableConcreteMixer</li>
+          <li>FT_TableLathe</li>
+          <li>FT_TableChemistry</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>aoba.fortress.industrial.citadel</packageId>
+        <name>Fortification Industrial - Citadel</name>
+        <version></version>
+        <modorder>116</modorder>
+        <steamWorkshopId>2887532326</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>aoba.fortress.industrial</packageId>
+            <steamWorkshopId>2561619583</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>aoba.framework</packageId>
+            <steamWorkshopId>3498575851</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>FT_transformer</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>issaczhuang.pla.armory</packageId>
+        <name>PLA-Armory</name>
+        <version></version>
+        <modorder>75</modorder>
+        <steamWorkshopId>2439966011</steamWorkshopId>
+        <things>
+          <li>PLA_TableAssembly</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>lunaglaze.biotech.advancedmechbooster</packageId>
+        <name>AdvancedMechBooster单格先进机械超频仪</name>
+        <version></version>
+        <modorder>30</modorder>
+        <steamWorkshopId>3365506002</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Luna_AdvancedMechBooster</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>aspctt.ammunitionmanufactory</packageId>
+        <name>Ammunition Manufactory</name>
+        <version>1.6.2</version>
+        <modorder>34</modorder>
+        <steamWorkshopId>3654656592</steamWorkshopId>
+        <things>
+          <li>AmmunitionManufactory</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>vanillaexpanded.vfeproduction</packageId>
+        <name>Vanilla Furniture Expanded - Production</name>
+        <version></version>
+        <modorder>113</modorder>
+        <steamWorkshopId>1880253632</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VFE_FabricationCabinet</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>工作间</default>
+        <zh-CN>工作间</zh-CN>
+      </name>
+      <description>
+        <default>失能机关兼容</default>
+        <zh-CN>失能机关兼容</zh-CN>
+      </description>
+      <tags>
+        <default>Workshop</default>
+      </tags>
+    </multiLanguage>
+    <structureDefs>
+      <li>
+        <defName>UFLI_Wall_Cable</defName>
+        <kind>Wall</kind>
+        <size>(1,1)</size>
+      </li>
+      <li>
+        <defName>UFLI_1_Autodoor</defName>
+        <kind>Door</kind>
+        <size>(1,1)</size>
+      </li>
+    </structureDefs>
+    <thingKinds version="1">
+      <Buildings>
+        <li>AmmunitionManufactory</li>
+        <li>BiofuelRefinery</li>
+        <li>ElectricSmelter</li>
+        <li>ElectricSmithy</li>
+        <li>ElectricTailoringBench</li>
+        <li>FT_TableChemistry</li>
+        <li>FT_TableConcreteMixer</li>
+        <li>FT_TableLathe</li>
+        <li>FT_transformer</li>
+        <li>FabricationBench</li>
+        <li>FirefoamPopper</li>
+        <li>HiddenConduit</li>
+        <li>Luna_AdvancedMechBooster</li>
+        <li>OrbitalTradeBeacon</li>
+        <li>PLA_TableAssembly</li>
+        <li>TableMachining</li>
+        <li>ToolCabinet</li>
+        <li>UFLI_1_Autodoor</li>
+        <li>UFLI_Column</li>
+        <li>UFLI_Container_1X2_AS</li>
+        <li>UFLI_Robotarm</li>
+        <li>UFLI_Wall_Cable</li>
+        <li>UFLI_Walllamp</li>
+        <li>VFE_FabricationCabinet</li>
+      </Buildings>
+      <ArtificialTerrain>
+        <li>SteamGeyser</li>
+      </ArtificialTerrain>
+    </thingKinds>
+    <repairDefs version="1">
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Granite_Rough</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>granite</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Gravel</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>sand</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Sandstone_Rough</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>sandstone</li>
+            <li>sand</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Soil</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>soil</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>UFLI_FLOORJ</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources>
+          <li>SterileTile</li>
+        </builtinSources>
+        <match>
+          <resources>
+            <li>Steel</li>
+          </resources>
+          <colors />
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>AmmunitionManufactory</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(5, 2)</size>
+          <label>ammunition manufactory</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>2315</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>BiofuelRefinery</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 2)</size>
+          <label>精炼设备</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>390</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>ElectricSmelter</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 1)</size>
+          <label>熔炼器（电力）</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>400</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>ElectricSmithy</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 1)</size>
+          <label>锻造台（电力）</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>295</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>ElectricTailoringBench</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 1)</size>
+          <label>裁缝台（电力）</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>320</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>FT_TableChemistry</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 1)</size>
+          <label>化学制造桌</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>1060</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>FT_TableConcreteMixer</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 2)</size>
+          <label>混凝土加工机</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>360</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>FT_TableLathe</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 1)</size>
+          <label>车床</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>560</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>FabricationBench</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(5, 2)</size>
+          <label>精密装配台</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>1180</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>PLA_TableAssembly</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 1)</size>
+          <label>解放军加工台</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>365</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>SteamGeyser</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 2)</size>
+          <label>蒸汽间歇喷泉</label>
+          <passability>Standable</passability>
+          <marketValue>0</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>TableMachining</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 1)</size>
+          <label>机械加工台</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>455</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_1_Autodoor</defName>
+        <tags>
+          <li>Door</li>
+        </tags>
+        <builtinSources>
+          <li>Autodoor</li>
+        </builtinSources>
+        <match>
+          <size>(1, 1)</size>
+          <label>联合自动门 1X1</label>
+          <passability>Standable</passability>
+          <marketValue>146.88</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_Column</defName>
+        <tags />
+        <builtinSources>
+          <li>Column</li>
+        </builtinSources>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_Container_1X2_AS</defName>
+        <tags>
+          <li>Storage</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 1)</size>
+          <label>联合储存货架(1X2)</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>48.94</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_Wall_Cable</defName>
+        <tags>
+          <li>Wall</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>联合墙体(电缆)</label>
+          <passability>Impassable</passability>
+          <marketValue>2</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_Walllamp</defName>
+        <tags>
+          <li>Attachment</li>
+          <li>Lamp</li>
+        </tags>
+        <builtinSources>
+          <li>WallLamp</li>
+        </builtinSources>
+        <match>
+          <size>(1, 1)</size>
+          <label>联合壁灯</label>
+          <passability>Standable</passability>
+          <marketValue>29.58</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+    </repairDefs>
+  </extraInfo>
+  <things>
+    <UFLI_Wall_Cable>
+      <rects>
+        <li>(0,0,6,0)</li>
+        <li>(8,0,14,0)</li>
+        <li>(0,1,0,14)</li>
+        <li>(14,1,14,4)</li>
+        <li>(14,6,14,14)</li>
+        <li>(1,14,13,14)</li>
+      </rects>
+      <stuff>FT_ReinforcedConcreteBag</stuff>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </UFLI_Wall_Cable>
+    <UFLI_1_Autodoor>
+      <rects>
+        <li>(7,0,7,0)</li>
+      </rects>
+      <stuff>FT_BlocksConcrete</stuff>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </UFLI_1_Autodoor>
+    <HiddenConduit>
+      <rects>
+        <li>(1,1,1,9)</li>
+        <li>(2,9,2,9)</li>
+        <li>(6,9,6,9)</li>
+        <li>(13,9,13,9)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <UFLI_Container_1X2_AS>
+      <positions>
+        <li>(2, 0, 1)</li>
+        <li>(4, 0, 1)</li>
+        <li>(11, 0, 1)</li>
+        <li>(13, 0, 1)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+    </UFLI_Container_1X2_AS>
+    <FT_transformer>
+      <positions>
+        <li>(5, 0, 1)</li>
+        <li>(8, 0, 1)</li>
+      </positions>
+    </FT_transformer>
+    <BiofuelRefinery>
+      <position>(2, 0, 3)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </BiofuelRefinery>
+    <FT_TableConcreteMixer>
+      <position>(12, 0, 3)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </FT_TableConcreteMixer>
+    <FT_TableLathe>
+      <position>(4, 0, 4)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </FT_TableLathe>
+    <OrbitalTradeBeacon>
+      <rects>
+        <li>(6,3,6,3)</li>
+      </rects>
+    </OrbitalTradeBeacon>
+    <FT_TableLathe>
+      <position>(10, 0, 4)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </FT_TableLathe>
+    <FT_transformer>
+      <positions>
+        <li>(6, 0, 5)</li>
+        <li>(8, 0, 5)</li>
+        <li>(3, 0, 6)</li>
+        <li>(11, 0, 6)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+    </FT_transformer>
+    <UFLI_1_Autodoor>
+      <rects>
+        <li>(14,5,14,5)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>FT_BlocksConcrete</stuff>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </UFLI_1_Autodoor>
+    <ElectricSmithy>
+      <position>(1, 0, 7)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </ElectricSmithy>
+    <ElectricTailoringBench>
+      <position>(5, 0, 6)</position>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </ElectricTailoringBench>
+    <FirefoamPopper>
+      <rects>
+        <li>(7,6,7,6)</li>
+        <li>(8,10,8,10)</li>
+      </rects>
+    </FirefoamPopper>
+    <PLA_TableAssembly>
+      <position>(9, 0, 6)</position>
+    </PLA_TableAssembly>
+    <ElectricSmelter>
+      <position>(13, 0, 7)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </ElectricSmelter>
+    <UFLI_Walllamp>
+      <rects>
+        <li>(1,7,1,7)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </UFLI_Walllamp>
+    <FT_transformer>
+      <positions>
+        <li>(3, 0, 7)</li>
+        <li>(11, 0, 7)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </FT_transformer>
+    <FabricationBench>
+      <position>(4, 0, 9)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </FabricationBench>
+    <ToolCabinet>
+      <positions>
+        <li>(6, 0, 8)</li>
+        <li>(8, 0, 8)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <color>RGBA(0.376, 0.447, 0.373, 1.000)</color>
+    </ToolCabinet>
+    <UFLI_Column>
+      <rects>
+        <li>(7,7,7,7)</li>
+      </rects>
+    </UFLI_Column>
+    <FabricationBench>
+      <position>(10, 0, 9)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </FabricationBench>
+    <UFLI_Walllamp>
+      <rects>
+        <li>(13,7,13,7)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </UFLI_Walllamp>
+    <FT_TableChemistry>
+      <position>(1, 0, 10)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </FT_TableChemistry>
+    <UFLI_Robotarm>
+      <position>(6, 0, 9)</position>
+    </UFLI_Robotarm>
+    <Luna_AdvancedMechBooster>
+      <rects>
+        <li>(8,9,8,9)</li>
+      </rects>
+    </Luna_AdvancedMechBooster>
+    <TableMachining>
+      <position>(13, 0, 10)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </TableMachining>
+    <AmmunitionManufactory>
+      <positions>
+        <li>(3, 0, 12)</li>
+        <li>(11, 0, 12)</li>
+      </positions>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </AmmunitionManufactory>
+    <VFE_FabricationCabinet>
+      <positions>
+        <li>(6, 0, 13)</li>
+        <li>(8, 0, 13)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+    </VFE_FabricationCabinet>
+    <UFLI_Walllamp>
+      <rects>
+        <li>(7,13,7,13)</li>
+      </rects>
+    </UFLI_Walllamp>
+    <SteamGeyser>
+      <position>(13, 0, 14)</position>
+    </SteamGeyser>
+  </things>
+  <terrain>
+    <UFLI_FLOORJ>
+      <rects>
+        <li>(7,0,7,13)</li>
+        <li>(1,1,6,13)</li>
+        <li>(8,1,13,13)</li>
+        <li>(14,5,14,5)</li>
+      </rects>
+    </UFLI_FLOORJ>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <UFLI_FLOORJ>
+        <rects>
+          <li>(7,0,7,13)</li>
+          <li>(1,1,6,13)</li>
+          <li>(8,1,13,13)</li>
+          <li>(14,5,14,5)</li>
+        </rects>
+      </UFLI_FLOORJ>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Granite_Rough>
+        <rects>
+          <li>(7,0,7,0)</li>
+          <li>(1,1,6,1)</li>
+          <li>(8,1,13,1)</li>
+          <li>(1,2,1,6)</li>
+          <li>(13,2,13,4)</li>
+        </rects>
+      </Granite_Rough>
+      <Soil>
+        <rects>
+          <li>(7,1,7,13)</li>
+          <li>(2,2,6,12)</li>
+          <li>(8,2,12,13)</li>
+          <li>(1,7,1,7)</li>
+          <li>(13,7,13,7)</li>
+          <li>(13,10,13,13)</li>
+          <li>(4,13,6,13)</li>
+        </rects>
+      </Soil>
+      <Gravel>
+        <rects>
+          <li>(13,5,14,5)</li>
+          <li>(13,6,13,6)</li>
+          <li>(13,8,13,9)</li>
+          <li>(1,10,1,13)</li>
+          <li>(2,13,3,13)</li>
+        </rects>
+      </Gravel>
+      <Sandstone_Rough>
+        <rects>
+          <li>(1,8,1,9)</li>
+        </rects>
+      </Sandstone_Rough>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(1,1,13,13)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,14,14)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
