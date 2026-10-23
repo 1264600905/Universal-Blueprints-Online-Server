@@ -1,8 +1,8 @@
 <PrefabDef>
-  <defName>Prefab_20261020_153318</defName>
+  <defName>Prefab_20261023_153611</defName>
   <size>(35,35)</size>
   <extraInfo>
-    <version>1.7.9787.38423</version>
+    <version>1.7.9790.38077</version>
     <name>全DLC多人开局加阵地</name>
     <description></description>
     <tags>
@@ -16,7 +16,7 @@
         <packageId>ludeon.rimworld.anomaly</packageId>
         <name>Anomaly</name>
         <version></version>
-        <modorder>7</modorder>
+        <modorder>8</modorder>
         <things>
           <li>ProximityDetector</li>
           <li>HoldingPlatform</li>
@@ -26,7 +26,7 @@
         <packageId>bsj.annihilatortech</packageId>
         <name>Ring of Order: Annihilator Core</name>
         <version>1.0.1</version>
-        <modorder>86</modorder>
+        <modorder>92</modorder>
         <steamWorkshopId>3809642867</steamWorkshopId>
         <dependencies>
           <li>
@@ -42,7 +42,7 @@
         <packageId>ludeon.rimworld.ideology</packageId>
         <name>Ideology</name>
         <version></version>
-        <modorder>5</modorder>
+        <modorder>6</modorder>
         <things>
           <li>KneelPillow</li>
           <li>Altar_Small</li>
@@ -55,7 +55,7 @@
         <packageId>ludeon.rimworld.biotech</packageId>
         <name>Biotech</name>
         <version></version>
-        <modorder>6</modorder>
+        <modorder>7</modorder>
         <things>
           <li>SubcoreEncoder</li>
           <li>MechGestator</li>
@@ -123,7 +123,6 @@
         <li>TableMachining</li>
         <li>TrapSpike</li>
         <li>Wall</li>
-        <li>WallLamp</li>
         <li>WoodFiredGenerator</li>
       </Buildings>
       <ArtificialTerrain>
@@ -505,23 +504,6 @@
           </stuffCategories>
         </match>
       </li>
-      <li>
-        <defType>ThingDef</defType>
-        <defName>WallLamp</defName>
-        <tags>
-          <li>Attachment</li>
-          <li>Lamp</li>
-        </tags>
-        <builtinSources />
-        <match>
-          <size>(1, 1)</size>
-          <label>壁灯</label>
-          <passability>Standable</passability>
-          <marketValue>29.688</marketValue>
-          <madeFromStuff>false</madeFromStuff>
-          <stuffCategories />
-        </match>
-      </li>
     </repairDefs>
   </extraInfo>
   <things>
@@ -700,8 +682,8 @@
         <li>(19,9,19,9)</li>
         <li>(21,9,24,9)</li>
       </rects>
-      <stuff>BlocksMarble</stuff>
-      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+      <stuff>BlocksGranite</stuff>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
     </Wall>
     <Door>
       <rects>
@@ -719,7 +701,8 @@
       <rects>
         <li>(19,3,25,3)</li>
         <li>(25,4,25,9)</li>
-        <li>(9,6,24,6)</li>
+        <li>(9,6,16,6)</li>
+        <li>(18,6,24,6)</li>
         <li>(15,9,24,9)</li>
         <li>(15,10,15,17)</li>
         <li>(11,17,14,17)</li>
@@ -731,22 +714,16 @@
       <rects>
         <li>(14,4,14,4)</li>
       </rects>
-      <stuff>BlocksSlate</stuff>
-      <color>RGBA(0.275, 0.275, 0.275, 1.000)</color>
+      <stuff>BlocksGranite</stuff>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
     </Fence>
     <PenMarker>
       <rects>
         <li>(16,4,16,5)</li>
       </rects>
-      <stuff>BlocksMarble</stuff>
-      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+      <stuff>BlocksGranite</stuff>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
     </PenMarker>
-    <WallLamp>
-      <rects>
-        <li>(21,4,21,4)</li>
-      </rects>
-      <relativeRotation>Opposite</relativeRotation>
-    </WallLamp>
     <Door>
       <rects>
         <li>(1,5,1,5)</li>
@@ -786,14 +763,9 @@
         <li>(17,7,17,7)</li>
         <li>(15,8,15,8)</li>
       </rects>
-      <stuff>BlocksMarble</stuff>
-      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+      <stuff>BlocksGranite</stuff>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
     </Barricade>
-    <WallLamp>
-      <rects>
-        <li>(21,8,21,8)</li>
-      </rects>
-    </WallLamp>
     <ProximityDetector>
       <rects>
         <li>(14,9,14,9)</li>
@@ -1115,12 +1087,39 @@
   <roofs>
     <RoofConstructed>
       <rects>
-        <li>(3,3,31,31)</li>
+        <li>(3,3,31,3)</li>
+        <li>(3,4,15,6)</li>
+        <li>(17,4,20,5)</li>
+        <li>(22,4,31,31)</li>
+        <li>(21,5,21,7)</li>
+        <li>(16,6,16,31)</li>
+        <li>(18,6,20,31)</li>
+        <li>(3,7,14,31)</li>
+        <li>(17,7,17,31)</li>
+        <li>(15,8,15,31)</li>
+        <li>(21,9,21,31)</li>
       </rects>
     </RoofConstructed>
     <PlayerRoofZone>
       <rects>
-        <li>(3,3,31,31)</li>
+        <li>(0,0,12,0)</li>
+        <li>(0,1,0,14)</li>
+        <li>(11,1,11,31)</li>
+        <li>(3,2,3,31)</li>
+        <li>(5,2,5,31)</li>
+        <li>(7,2,7,31)</li>
+        <li>(9,2,9,31)</li>
+        <li>(2,3,2,3)</li>
+        <li>(4,3,4,31)</li>
+        <li>(6,3,6,31)</li>
+        <li>(8,3,8,31)</li>
+        <li>(10,3,10,31)</li>
+        <li>(12,3,31,31)</li>
+        <li>(2,5,2,5)</li>
+        <li>(2,7,2,7)</li>
+        <li>(2,9,2,9)</li>
+        <li>(2,11,2,11)</li>
+        <li>(2,13,2,13)</li>
       </rects>
     </PlayerRoofZone>
   </roofs>
