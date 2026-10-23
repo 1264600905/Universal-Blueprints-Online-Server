@@ -1,0 +1,205 @@
+<PrefabDef>
+  <defName>Prefab_20261023_004633</defName>
+  <size>(6,10)</size>
+  <extraInfo>
+    <version>1.7.9790.38077</version>
+    <name>车位</name>
+    <description></description>
+    <tags>
+      <li>OdysseyDLC</li>
+    </tags>
+    <author></author>
+    <category>OdysseyDLC</category>
+    <BuildingID>c9ba0b8f-97b5-4228-a6e4-7d54933baf36</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>vanillaexpanded.vfepropsanddecor</packageId>
+        <name>Vanilla Furniture Expanded - Props and Decor</name>
+        <version></version>
+        <modorder>235</modorder>
+        <steamWorkshopId>2102143149</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VFEPD_LargeDecalLineThinCenteredCorner</li>
+          <li>VFEPD_LargeDecalLineThinCentered</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>车位</default>
+        <zh-CN>车位</zh-CN>
+      </name>
+      <tags>
+        <default>OdysseyDLC</default>
+      </tags>
+    </multiLanguage>
+    <thingKinds version="1">
+      <ArtificialTerrain>
+        <li>VFEPD_LargeDecalLineThinCentered</li>
+        <li>VFEPD_LargeDecalLineThinCenteredCorner</li>
+      </ArtificialTerrain>
+    </thingKinds>
+    <repairDefs version="1">
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>BrokenAsphalt</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors>
+            <li>cyan</li>
+          </colors>
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Gravel</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>sand</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>VFEPD_LargeDecalLineThinCentered</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>大型贴标（中单线）</label>
+          <passability>Standable</passability>
+          <marketValue>0</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>VFEPD_LargeDecalLineThinCenteredCorner</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>大型贴标（中单线拐角）</label>
+          <passability>Standable</passability>
+          <marketValue>0</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+    </repairDefs>
+  </extraInfo>
+  <things>
+    <VFEPD_LargeDecalLineThinCenteredCorner>
+      <rects>
+        <li>(1,1,1,1)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <color>RGBA(1.000, 1.000, 1.000, 0.255)</color>
+    </VFEPD_LargeDecalLineThinCenteredCorner>
+    <VFEPD_LargeDecalLineThinCentered>
+      <rects>
+        <li>(2,1,2,1)</li>
+        <li>(4,1,4,1)</li>
+        <li>(2,8,4,8)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <color>RGBA(1.000, 1.000, 1.000, 0.255)</color>
+    </VFEPD_LargeDecalLineThinCentered>
+    <VFEPD_LargeDecalLineThinCentered>
+      <rects>
+        <li>(3,1,3,1)</li>
+      </rects>
+      <color>RGBA(1.000, 1.000, 1.000, 0.255)</color>
+    </VFEPD_LargeDecalLineThinCentered>
+    <VFEPD_LargeDecalLineThinCenteredCorner>
+      <rects>
+        <li>(5,1,5,1)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <color>RGBA(1.000, 1.000, 1.000, 0.255)</color>
+    </VFEPD_LargeDecalLineThinCenteredCorner>
+    <VFEPD_LargeDecalLineThinCentered>
+      <rects>
+        <li>(1,2,1,6)</li>
+        <li>(5,2,5,6)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <color>RGBA(1.000, 1.000, 1.000, 0.255)</color>
+    </VFEPD_LargeDecalLineThinCentered>
+    <VFEPD_LargeDecalLineThinCentered>
+      <rects>
+        <li>(1,7,1,7)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <color>RGBA(1.000, 1.000, 1.000, 0.255)</color>
+    </VFEPD_LargeDecalLineThinCentered>
+    <VFEPD_LargeDecalLineThinCenteredCorner>
+      <rects>
+        <li>(1,8,1,8)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <color>RGBA(1.000, 1.000, 1.000, 0.255)</color>
+    </VFEPD_LargeDecalLineThinCenteredCorner>
+    <VFEPD_LargeDecalLineThinCenteredCorner>
+      <rects>
+        <li>(5,8,5,8)</li>
+      </rects>
+      <color>RGBA(1.000, 1.000, 1.000, 0.255)</color>
+    </VFEPD_LargeDecalLineThinCenteredCorner>
+  </things>
+  <terrain>
+    <BrokenAsphalt>
+      <rects>
+        <li>(5,8,5,9)</li>
+      </rects>
+    </BrokenAsphalt>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <BrokenAsphalt>
+        <rects>
+          <li>(5,8,5,9)</li>
+        </rects>
+      </BrokenAsphalt>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Gravel>
+        <rects>
+          <li>(5,8,5,9)</li>
+        </rects>
+      </Gravel>
+    </terrainLayerDetail>
+  </terrainLayers>
+</PrefabDef>
