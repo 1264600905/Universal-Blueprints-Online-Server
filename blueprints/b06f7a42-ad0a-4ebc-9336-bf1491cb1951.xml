@@ -1,9 +1,9 @@
 <PrefabDef>
-  <defName>Prefab_20261024_155137</defName>
+  <defName>Prefab_20261024_173542</defName>
   <size>(61,61)</size>
   <extraInfo>
     <version>1.6.9676.17735</version>
-    <name>第二基地-1.7   1.0</name>
+    <name>第二基地-1.7</name>
     <description>为了在美观的同时尽可能的简洁而高效，大量设施已尽量使用活铁压低财富并且使用了低角护盾和高角护盾以及生命维持装置来保证可观的战斗力，可根据喜好自行更改移除（按原版全DLC设计，理论上可以做到无模组运行）不定期更新</description>
     <tags>
       <li>OdysseyDLC</li>
@@ -94,13 +94,13 @@
         <version></version>
         <modorder>3</modorder>
         <things>
-          <li>NeuralSupercharger</li>
           <li>PlantPot_Bonsai</li>
           <li>SleepAccelerator</li>
           <li>KneelPillow</li>
           <li>ChristmasTree</li>
           <li>Reliquary</li>
           <li>Lectern</li>
+          <li>Altar_Small</li>
           <li>Loudspeaker</li>
           <li>LightBall</li>
           <li>Tile_Transhumanist</li>
@@ -109,8 +109,8 @@
     </modPackages>
     <multiLanguage>
       <name>
-        <default>第二基地-1.7   1.0</default>
-        <zh-CN>第二基地-1.7   1.0</zh-CN>
+        <default>第二基地-1.7</default>
+        <zh-CN>第二基地-1.7</zh-CN>
       </name>
       <description>
         <default>为了在美观的同时尽可能的简洁而高效，大量设施已尽量使用活铁压低财富并且使用了低角护盾和高角护盾以及生命维持装置来保证可观的战斗力，可根据喜好自行更改移除（按原版全DLC设计，理论上可以做到无模组运行）不定期更新</default>
@@ -144,6 +144,7 @@
     </structureDefs>
     <thingKinds version="1">
       <Buildings>
+        <li>Altar_Small</li>
         <li>AnimalBed</li>
         <li>Armchair</li>
         <li>Autodoor</li>
@@ -198,7 +199,6 @@
         <li>Loudspeaker</li>
         <li>MechBooster</li>
         <li>MechGestator</li>
-        <li>NeuralSupercharger</li>
         <li>NutrientPasteDispenser</li>
         <li>OrbitalTradeBeacon</li>
         <li>PassengerShuttle</li>
@@ -235,6 +235,7 @@
         <li>Turret_Autocannon</li>
         <li>Turret_MiniTurret</li>
         <li>Turret_RocketswarmLauncher</li>
+        <li>Turret_Sniper</li>
         <li>VacBarrier</li>
         <li>Vent</li>
         <li>VitalsMonitor</li>
@@ -566,7 +567,7 @@
           <size>(1, 1)</size>
           <label>自动门</label>
           <passability>Standable</passability>
-          <marketValue>179.422821</marketValue>
+          <marketValue>181.604172</marketValue>
           <madeFromStuff>true</madeFromStuff>
           <stuffCategories>
             <li>Metallic</li>
@@ -606,7 +607,7 @@
           <size>(3, 1)</size>
           <label>活铁塑造台</label>
           <passability>PassThroughOnly</passability>
-          <marketValue>180.6414</marketValue>
+          <marketValue>183.41774</marketValue>
           <madeFromStuff>false</madeFromStuff>
           <stuffCategories />
         </match>
@@ -622,7 +623,7 @@
           <size>(3, 2)</size>
           <label>精炼设备</label>
           <passability>PassThroughOnly</passability>
-          <marketValue>360</marketValue>
+          <marketValue>370</marketValue>
           <madeFromStuff>false</madeFromStuff>
           <stuffCategories />
         </match>
@@ -735,7 +736,7 @@
           <size>(3, 1)</size>
           <label>药物实验台</label>
           <passability>PassThroughOnly</passability>
-          <marketValue>405</marketValue>
+          <marketValue>410</marketValue>
           <madeFromStuff>true</madeFromStuff>
           <stuffCategories>
             <li>Metallic</li>
@@ -772,7 +773,7 @@
           <size>(3, 1)</size>
           <label>熔炼器（电力）</label>
           <passability>PassThroughOnly</passability>
-          <marketValue>380</marketValue>
+          <marketValue>390</marketValue>
           <madeFromStuff>false</madeFromStuff>
           <stuffCategories />
         </match>
@@ -788,7 +789,7 @@
           <size>(3, 1)</size>
           <label>炉灶（电力）</label>
           <passability>PassThroughOnly</passability>
-          <marketValue>205</marketValue>
+          <marketValue>210</marketValue>
           <madeFromStuff>false</madeFromStuff>
           <stuffCategories />
         </match>
@@ -843,7 +844,7 @@
           <size>(5, 2)</size>
           <label>精密装配台</label>
           <passability>PassThroughOnly</passability>
-          <marketValue>1015</marketValue>
+          <marketValue>1025</marketValue>
           <madeFromStuff>false</madeFromStuff>
           <stuffCategories />
         </match>
@@ -859,7 +860,7 @@
           <size>(3, 2)</size>
           <label>宏伟宝座</label>
           <passability>Standable</passability>
-          <marketValue>1360</marketValue>
+          <marketValue>1380</marketValue>
           <madeFromStuff>true</madeFromStuff>
           <stuffCategories>
             <li>Metallic</li>
@@ -896,7 +897,7 @@
           <size>(1, 1)</size>
           <label>进料口</label>
           <passability>PassThroughOnly</passability>
-          <marketValue>28.9285564</marketValue>
+          <marketValue>29.7465611</marketValue>
           <madeFromStuff>false</madeFromStuff>
           <stuffCategories />
         </match>
@@ -912,7 +913,7 @@
           <size>(1, 2)</size>
           <label>医疗床</label>
           <passability>PassThroughOnly</passability>
-          <marketValue>365</marketValue>
+          <marketValue>370</marketValue>
           <madeFromStuff>true</madeFromStuff>
           <stuffCategories>
             <li>Metallic</li>
@@ -950,7 +951,7 @@
           <size>(1, 1)</size>
           <label>生命维持单元</label>
           <passability>Standable</passability>
-          <marketValue>161.7606</marketValue>
+          <marketValue>160</marketValue>
           <madeFromStuff>false</madeFromStuff>
           <stuffCategories />
         </match>
@@ -982,7 +983,7 @@
           <size>(3, 2)</size>
           <label>机械培育器</label>
           <passability>PassThroughOnly</passability>
-          <marketValue>385</marketValue>
+          <marketValue>390</marketValue>
           <madeFromStuff>false</madeFromStuff>
           <stuffCategories />
         </match>
@@ -1014,7 +1015,7 @@
           <size>(2, 2)</size>
           <label>豪华双人床</label>
           <passability>PassThroughOnly</passability>
-          <marketValue>790</marketValue>
+          <marketValue>805</marketValue>
           <madeFromStuff>true</madeFromStuff>
           <stuffCategories>
             <li>Metallic</li>
@@ -1034,7 +1035,7 @@
           <size>(2, 1)</size>
           <label>安全大门</label>
           <passability>Standable</passability>
-          <marketValue>565</marketValue>
+          <marketValue>560</marketValue>
           <madeFromStuff>false</madeFromStuff>
           <stuffCategories />
         </match>
@@ -1050,7 +1051,7 @@
           <size>(2, 2)</size>
           <label>血清实验台</label>
           <passability>PassThroughOnly</passability>
-          <marketValue>695</marketValue>
+          <marketValue>700</marketValue>
           <madeFromStuff>false</madeFromStuff>
           <stuffCategories />
         </match>
@@ -1123,7 +1124,7 @@
           <size>(1, 1)</size>
           <label>太阳灯</label>
           <passability>PassThroughOnly</passability>
-          <marketValue>75.45082</marketValue>
+          <marketValue>77.632164</marketValue>
           <madeFromStuff>false</madeFromStuff>
           <stuffCategories />
         </match>
@@ -1159,7 +1160,7 @@
           <size>(3, 1)</size>
           <label>屠宰台</label>
           <passability>PassThroughOnly</passability>
-          <marketValue>176.42627</marketValue>
+          <marketValue>176.4</marketValue>
           <madeFromStuff>true</madeFromStuff>
           <stuffCategories>
             <li>Metallic</li>
@@ -1178,7 +1179,7 @@
           <size>(3, 1)</size>
           <label>机械加工台</label>
           <passability>PassThroughOnly</passability>
-          <marketValue>415</marketValue>
+          <marketValue>425</marketValue>
           <madeFromStuff>false</madeFromStuff>
           <stuffCategories />
         </match>
@@ -1214,7 +1215,7 @@
           <size>(2, 2)</size>
           <label>自动加农炮塔</label>
           <passability>PassThroughOnly</passability>
-          <marketValue>1250</marketValue>
+          <marketValue>1265</marketValue>
           <madeFromStuff>false</madeFromStuff>
           <stuffCategories />
         </match>
@@ -1248,7 +1249,23 @@
           <size>(2, 2)</size>
           <label>集群火箭发射塔</label>
           <passability>PassThroughOnly</passability>
-          <marketValue>1005</marketValue>
+          <marketValue>1010</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Turret_Sniper</defName>
+        <tags>
+          <li>Turret</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 2)</size>
+          <label>铀弹加农炮塔</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>1365</marketValue>
           <madeFromStuff>false</madeFromStuff>
           <stuffCategories />
         </match>
@@ -1264,7 +1281,7 @@
           <size>(1, 1)</size>
           <label>真空屏障</label>
           <passability>Standable</passability>
-          <marketValue>141.037628</marketValue>
+          <marketValue>143.167038</marketValue>
           <madeFromStuff>false</madeFromStuff>
           <stuffCategories />
         </match>
@@ -1281,7 +1298,7 @@
           <size>(1, 1)</size>
           <label>壁灯</label>
           <passability>Standable</passability>
-          <marketValue>29.0365562</marketValue>
+          <marketValue>29.85456</marketValue>
           <madeFromStuff>false</madeFromStuff>
           <stuffCategories />
         </match>
@@ -1705,22 +1722,42 @@
         <li>(42,56,42,56)</li>
       </rects>
     </FirefoamPopper>
-    <Turret_RocketswarmLauncher>
+    <Turret_Autocannon>
       <positions>
         <li>(24, 0, 5)</li>
+        <li>(27, 0, 5)</li>
+        <li>(32, 0, 5)</li>
         <li>(35, 0, 5)</li>
-        <li>(6, 0, 6)</li>
-        <li>(53, 0, 6)</li>
+        <li>(13, 0, 9)</li>
+        <li>(46, 0, 9)</li>
+        <li>(9, 0, 13)</li>
+        <li>(50, 0, 13)</li>
+        <li>(27, 0, 20)</li>
+        <li>(32, 0, 20)</li>
         <li>(5, 0, 24)</li>
         <li>(54, 0, 24)</li>
+        <li>(5, 0, 27)</li>
+        <li>(20, 0, 27)</li>
+        <li>(39, 0, 27)</li>
+        <li>(54, 0, 27)</li>
+        <li>(5, 0, 32)</li>
+        <li>(20, 0, 32)</li>
+        <li>(39, 0, 32)</li>
+        <li>(54, 0, 32)</li>
         <li>(5, 0, 35)</li>
         <li>(54, 0, 35)</li>
-        <li>(6, 0, 53)</li>
-        <li>(53, 0, 53)</li>
+        <li>(27, 0, 39)</li>
+        <li>(32, 0, 39)</li>
+        <li>(9, 0, 46)</li>
+        <li>(50, 0, 46)</li>
+        <li>(13, 0, 50)</li>
+        <li>(46, 0, 50)</li>
         <li>(24, 0, 54)</li>
+        <li>(27, 0, 54)</li>
+        <li>(32, 0, 54)</li>
         <li>(35, 0, 54)</li>
       </positions>
-    </Turret_RocketswarmLauncher>
+    </Turret_Autocannon>
     <GravshipHull>
       <rects>
         <li>(26,5,26,5)</li>
@@ -1737,42 +1774,14 @@
       <stuff>Uranium</stuff>
       <color>RGBA(0.392, 0.392, 0.392, 1.000)</color>
     </GravshipHull>
-    <Turret_Autocannon>
+    <Turret_RocketswarmLauncher>
       <positions>
-        <li>(27, 0, 5)</li>
-        <li>(32, 0, 5)</li>
-        <li>(18, 0, 7)</li>
-        <li>(41, 0, 7)</li>
-        <li>(13, 0, 9)</li>
-        <li>(46, 0, 9)</li>
-        <li>(9, 0, 13)</li>
-        <li>(50, 0, 13)</li>
-        <li>(7, 0, 18)</li>
-        <li>(52, 0, 18)</li>
-        <li>(27, 0, 20)</li>
-        <li>(32, 0, 20)</li>
-        <li>(5, 0, 27)</li>
-        <li>(20, 0, 27)</li>
-        <li>(39, 0, 27)</li>
-        <li>(54, 0, 27)</li>
-        <li>(5, 0, 32)</li>
-        <li>(20, 0, 32)</li>
-        <li>(39, 0, 32)</li>
-        <li>(54, 0, 32)</li>
-        <li>(27, 0, 39)</li>
-        <li>(32, 0, 39)</li>
-        <li>(7, 0, 41)</li>
-        <li>(52, 0, 41)</li>
-        <li>(9, 0, 46)</li>
-        <li>(50, 0, 46)</li>
-        <li>(13, 0, 50)</li>
-        <li>(46, 0, 50)</li>
-        <li>(18, 0, 52)</li>
-        <li>(41, 0, 52)</li>
-        <li>(27, 0, 54)</li>
-        <li>(32, 0, 54)</li>
+        <li>(6, 0, 6)</li>
+        <li>(53, 0, 6)</li>
+        <li>(6, 0, 53)</li>
+        <li>(53, 0, 53)</li>
       </positions>
-    </Turret_Autocannon>
+    </Turret_RocketswarmLauncher>
     <Turret_MiniTurret>
       <rects>
         <li>(8,6,8,6)</li>
@@ -1800,6 +1809,18 @@
       <stuff>Uranium</stuff>
       <color>RGBA(0.392, 0.392, 0.392, 1.000)</color>
     </Autodoor>
+    <Turret_Sniper>
+      <positions>
+        <li>(18, 0, 7)</li>
+        <li>(41, 0, 7)</li>
+        <li>(7, 0, 18)</li>
+        <li>(52, 0, 18)</li>
+        <li>(7, 0, 41)</li>
+        <li>(52, 0, 41)</li>
+        <li>(18, 0, 52)</li>
+        <li>(41, 0, 52)</li>
+      </positions>
+    </Turret_Sniper>
     <GravshipHull>
       <rects>
         <li>(24,7,25,7)</li>
@@ -2059,16 +2080,9 @@
       <colorDef>Structure_Black</colorDef>
       <color>RGBA(0.235, 0.235, 0.235, 1.000)</color>
     </Dresser>
-    <NeuralSupercharger>
-      <positions>
-        <li>(25, 0, 13)</li>
-        <li>(35, 0, 13)</li>
-      </positions>
-      <relativeRotation>Opposite</relativeRotation>
-    </NeuralSupercharger>
     <WastepackAtomizer>
       <positions>
-        <li>(27, 0, 13)</li>
+        <li>(26, 0, 13)</li>
         <li>(10, 0, 22)</li>
       </positions>
       <relativeRotation>Counterclockwise</relativeRotation>
@@ -2093,7 +2107,7 @@
     </Armchair>
     <WastepackAtomizer>
       <positions>
-        <li>(33, 0, 13)</li>
+        <li>(34, 0, 13)</li>
         <li>(13, 0, 19)</li>
         <li>(13, 0, 22)</li>
       </positions>
@@ -2451,6 +2465,13 @@
         <li>(47,35,47,35)</li>
       </rects>
     </LifeSupportUnit>
+    <Altar_Small>
+      <rects>
+        <li>(50,23,50,23)</li>
+      </rects>
+      <stuff>Plasteel</stuff>
+      <color>RGBA(0.627, 0.698, 0.710, 1.000)</color>
+    </Altar_Small>
     <ShelfSmall>
       <rects>
         <li>(8,24,8,24)</li>
@@ -3376,8 +3397,8 @@
         <li>(3,10,3,10)</li>
         <li>(29,10,31,10)</li>
         <li>(2,12,2,12)</li>
-        <li>(25,12,27,14)</li>
-        <li>(33,12,35,14)</li>
+        <li>(25,12,26,14)</li>
+        <li>(34,12,35,14)</li>
         <li>(58,12,58,12)</li>
         <li>(9,13,10,14)</li>
         <li>(50,13,51,14)</li>
@@ -3703,18 +3724,14 @@
         <li>(26,9,26,11)</li>
         <li>(34,9,34,11)</li>
         <li>(25,10,25,11)</li>
-        <li>(27,10,28,11)</li>
-        <li>(32,10,33,11)</li>
+        <li>(27,10,28,18)</li>
+        <li>(32,10,33,18)</li>
         <li>(35,10,35,11)</li>
         <li>(29,11,31,18)</li>
-        <li>(28,12,28,18)</li>
-        <li>(32,12,32,18)</li>
-        <li>(25,15,27,16)</li>
-        <li>(33,15,35,16)</li>
-        <li>(26,17,27,17)</li>
-        <li>(33,17,34,17)</li>
-        <li>(27,18,27,18)</li>
-        <li>(33,18,33,18)</li>
+        <li>(25,15,26,16)</li>
+        <li>(34,15,35,16)</li>
+        <li>(26,17,26,17)</li>
+        <li>(34,17,34,17)</li>
         <li>(37,41,44,44)</li>
       </rects>
     </Tile_Transhumanist>
@@ -4059,8 +4076,8 @@
           <li>(3,10,3,10)</li>
           <li>(29,10,31,10)</li>
           <li>(2,12,2,12)</li>
-          <li>(25,12,27,14)</li>
-          <li>(33,12,35,14)</li>
+          <li>(25,12,26,14)</li>
+          <li>(34,12,35,14)</li>
           <li>(58,12,58,12)</li>
           <li>(9,13,10,14)</li>
           <li>(50,13,51,14)</li>
@@ -4268,18 +4285,14 @@
           <li>(26,9,26,11)</li>
           <li>(34,9,34,11)</li>
           <li>(25,10,25,11)</li>
-          <li>(27,10,28,11)</li>
-          <li>(32,10,33,11)</li>
+          <li>(27,10,28,18)</li>
+          <li>(32,10,33,18)</li>
           <li>(35,10,35,11)</li>
           <li>(29,11,31,18)</li>
-          <li>(28,12,28,18)</li>
-          <li>(32,12,32,18)</li>
-          <li>(25,15,27,16)</li>
-          <li>(33,15,35,16)</li>
-          <li>(26,17,27,17)</li>
-          <li>(33,17,34,17)</li>
-          <li>(27,18,27,18)</li>
-          <li>(33,18,33,18)</li>
+          <li>(25,15,26,16)</li>
+          <li>(34,15,35,16)</li>
+          <li>(26,17,26,17)</li>
+          <li>(34,17,34,17)</li>
           <li>(37,41,44,44)</li>
         </rects>
       </Tile_Transhumanist>
