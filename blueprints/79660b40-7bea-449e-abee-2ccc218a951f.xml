@@ -1,0 +1,412 @@
+<PrefabDef>
+  <defName>Prefab_20261027_132242</defName>
+  <size>(9,13)</size>
+  <extraInfo>
+    <version>1.7.9795.32073</version>
+    <name>123</name>
+    <description>123</description>
+    <tags>
+      <li>Dormitory</li>
+    </tags>
+    <author></author>
+    <category>Dormitory</category>
+    <BuildingID>79660b40-7bea-449e-abee-2ccc218a951f</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>vanillaexpanded.vfecore</packageId>
+        <name>Vanilla Furniture Expanded</name>
+        <version></version>
+        <modorder>44</modorder>
+        <steamWorkshopId>1718190143</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Table_Wardrobe</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>vanillaexpanded.vfearchitect</packageId>
+        <name>Vanilla Furniture Expanded - Architect</name>
+        <version></version>
+        <modorder>45</modorder>
+        <steamWorkshopId>2608762624</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VFEArch_FineWoodenFloorMahogany</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>123</default>
+        <ru>123</ru>
+      </name>
+      <description>
+        <default>123</default>
+        <ru>123</ru>
+      </description>
+      <tags>
+        <default>Dormitory</default>
+      </tags>
+    </multiLanguage>
+    <structureDefs>
+      <li>
+        <defName>Wall</defName>
+        <kind>Wall</kind>
+        <size>(1,1)</size>
+      </li>
+      <li>
+        <defName>Door</defName>
+        <kind>Door</kind>
+        <size>(1,1)</size>
+      </li>
+    </structureDefs>
+    <thingKinds version="1">
+      <Buildings>
+        <li>Bed</li>
+        <li>Cooler</li>
+        <li>Door</li>
+        <li>Dresser</li>
+        <li>EndTable</li>
+        <li>Heater</li>
+        <li>HiddenConduit</li>
+        <li>Table_Wardrobe</li>
+        <li>Vent</li>
+        <li>Wall</li>
+        <li>WallLamp</li>
+      </Buildings>
+    </thingKinds>
+    <repairDefs version="1">
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>VFEArch_FineWoodenFloorMahogany</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>WoodLog</li>
+          </resources>
+          <colors />
+          <materials>
+            <li>wood</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Bed</defName>
+        <tags>
+          <li>Bed</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 2)</size>
+          <label>кровать</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>92.88</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Door</defName>
+        <tags>
+          <li>Door</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>дверь</label>
+          <passability>Standable</passability>
+          <marketValue>53.06</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Dresser</defName>
+        <tags>
+          <li>Bedside</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 1)</size>
+          <label>комод</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>107.2</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>EndTable</defName>
+        <tags>
+          <li>Bedside</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>прикроватный столик</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>63.6</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Table_Wardrobe</defName>
+        <tags>
+          <li>Bedside</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 1)</size>
+          <label>гардеробный шкаф</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>129</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Wall</defName>
+        <tags>
+          <li>Wall</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>стена</label>
+          <passability>Impassable</passability>
+          <marketValue>10.486</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>WallLamp</defName>
+        <tags>
+          <li>Attachment</li>
+          <li>Lamp</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>настенный светильник</label>
+          <passability>Standable</passability>
+          <marketValue>29.688</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+    </repairDefs>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,6,0)</li>
+        <li>(8,0,8,8)</li>
+        <li>(0,2,0,10)</li>
+        <li>(1,6,4,6)</li>
+        <li>(6,6,7,6)</li>
+        <li>(8,10,8,12)</li>
+        <li>(0,12,7,12)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Wall>
+    <HiddenConduit>
+      <rects>
+        <li>(0,0,8,0)</li>
+        <li>(8,4,8,8)</li>
+        <li>(0,6,7,6)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <Wall>
+      <rects>
+        <li>(7,0,7,0)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <hp>170</hp>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Wall>
+    <Door>
+      <rects>
+        <li>(0,1,0,1)</li>
+        <li>(0,11,0,11)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <Table_Wardrobe>
+      <position>(6, 0, 1)</position>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Table_Wardrobe>
+    <Dresser>
+      <positions>
+        <li>(7, 0, 2)</li>
+        <li>(7, 0, 9)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Dresser>
+    <EndTable>
+      <rects>
+        <li>(7,4,7,4)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </EndTable>
+    <Heater>
+      <rects>
+        <li>(1,5,1,5)</li>
+      </rects>
+    </Heater>
+    <WallLamp>
+      <rects>
+        <li>(4,5,4,5)</li>
+      </rects>
+    </WallLamp>
+    <Bed>
+      <position>(7, 0, 5)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed>
+    <Vent>
+      <rects>
+        <li>(5,6,5,6)</li>
+      </rects>
+    </Vent>
+    <WallLamp>
+      <rects>
+        <li>(4,7,4,7)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </WallLamp>
+    <Bed>
+      <position>(7, 0, 7)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed>
+    <EndTable>
+      <rects>
+        <li>(7,8,7,8)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </EndTable>
+    <Cooler>
+      <rects>
+        <li>(8,9,8,9)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </Cooler>
+    <Table_Wardrobe>
+      <position>(7, 0, 11)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Table_Wardrobe>
+  </things>
+  <terrain>
+    <VFEArch_FineWoodenFloorMahogany>
+      <rects>
+        <li>(0,1,7,1)</li>
+        <li>(1,2,7,5)</li>
+        <li>(1,7,7,11)</li>
+        <li>(0,11,0,11)</li>
+      </rects>
+    </VFEArch_FineWoodenFloorMahogany>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <VFEArch_FineWoodenFloorMahogany>
+        <rects>
+          <li>(0,1,7,1)</li>
+          <li>(1,2,7,5)</li>
+          <li>(1,7,7,11)</li>
+          <li>(0,11,0,11)</li>
+        </rects>
+      </VFEArch_FineWoodenFloorMahogany>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,8,12)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,8,12)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
