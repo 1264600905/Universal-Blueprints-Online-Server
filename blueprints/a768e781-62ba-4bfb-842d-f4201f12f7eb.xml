@@ -1,9 +1,9 @@
 <PrefabDef>
-  <defName>Prefab_20261020_185331</defName>
-  <size>(50,2)</size>
+  <defName>Prefab_20261030_180855</defName>
+  <size>(18,19)</size>
   <extraInfo>
-    <version>1.7.9787.38423</version>
-    <name>1111</name>
+    <version>1.7.9795.32073</version>
+    <name>111111</name>
     <description></description>
     <tags>
       <li>Power</li>
@@ -12,22 +12,6 @@
     <category>Power</category>
     <BuildingID>a768e781-62ba-4bfb-842d-f4201f12f7eb</BuildingID>
     <modPackages>
-      <mod>
-        <packageId>mapleapple.highdensityhydroponics.fixed.zouhb.zades</packageId>
-        <name>High Density Hydroponics</name>
-        <version></version>
-        <modorder>120</modorder>
-        <steamWorkshopId>3534458015</steamWorkshopId>
-        <dependencies>
-          <li>
-            <packageId>brrainz.harmony</packageId>
-            <steamWorkshopId>2009463077</steamWorkshopId>
-          </li>
-        </dependencies>
-        <things>
-          <li>HDH_Hydroponics_Quantum</li>
-        </things>
-      </mod>
       <mod>
         <packageId>kindseal.ufli</packageId>
         <name>联合轻工家具拓展-UF Light Industries Furniture</name>
@@ -41,28 +25,122 @@
           </li>
         </dependencies>
         <things>
-          <li>UFLI_FLOOR</li>
+          <li>UFLI_Wall</li>
+          <li>UFLI_Column_sun</li>
+          <li>UFLI_3_Autodoor</li>
+          <li>UFLI_FLOORG</li>
+          <li>UFLI_HeavyBridge</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>kindseal.lol</packageId>
+        <name>联合重工-UF Heavy Industries</name>
+        <version></version>
+        <modorder>322</modorder>
+        <steamWorkshopId>3555662938</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+          <li>
+            <packageId>dizhuan.sralib</packageId>
+            <steamWorkshopId>3565275325</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>KT_steel</li>
+          <li>KT_UFGenerator</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>keeptpa.nivarianrace</packageId>
+        <name>Nivarian Race</name>
+        <version>20261014114301</version>
+        <modorder>266</modorder>
+        <steamWorkshopId>3624805128</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Nivarian_CrystalCanopy</li>
+          <li>NivarianNanoHive</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>kindseal.ufpc</packageId>
+        <name>联合重工派系拓展-UFPC</name>
+        <version></version>
+        <modorder>331</modorder>
+        <steamWorkshopId>3698316804</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>kindseal.lol</packageId>
+            <steamWorkshopId>3555662938</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+          <li>
+            <packageId>dizhuan.sralib</packageId>
+            <steamWorkshopId>3565275325</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFC_1X1_Hydroponics_Super</li>
         </things>
       </mod>
     </modPackages>
     <multiLanguage>
       <name>
-        <default>1111</default>
-        <zh-CN>1111</zh-CN>
+        <default>111111</default>
+        <zh-CN>111111</zh-CN>
       </name>
       <tags>
         <default>Power</default>
       </tags>
     </multiLanguage>
+    <structureDefs>
+      <li>
+        <defName>UFLI_Wall</defName>
+        <kind>Wall</kind>
+        <size>(1,1)</size>
+      </li>
+      <li>
+        <defName>UFLI_3_Autodoor</defName>
+        <kind>Door</kind>
+        <size>(3,1)</size>
+      </li>
+    </structureDefs>
     <thingKinds version="1">
-      <ArtificialTerrain>
-        <li>HDH_Hydroponics_Quantum</li>
-      </ArtificialTerrain>
+      <Buildings>
+        <li>KT_UFGenerator</li>
+        <li>NivarianNanoHive</li>
+        <li>Nivarian_CrystalCanopy</li>
+        <li>UFC_1X1_Hydroponics_Super</li>
+        <li>UFLI_3_Autodoor</li>
+        <li>UFLI_Column_sun</li>
+        <li>UFLI_Wall</li>
+      </Buildings>
     </thingKinds>
     <repairDefs version="1">
       <li>
         <defType>TerrainDef</defType>
-        <defName>Gravel</defName>
+        <defName>Sand</defName>
         <tags>
           <li>Floor</li>
         </tags>
@@ -80,16 +158,32 @@
       </li>
       <li>
         <defType>TerrainDef</defType>
-        <defName>UFLI_FLOOR</defName>
+        <defName>Soil</defName>
         <tags>
           <li>Floor</li>
         </tags>
-        <builtinSources>
-          <li>MetalTile</li>
-        </builtinSources>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>soil</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>UFLI_FLOORG</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
         <match>
           <resources>
-            <li>Steel</li>
+            <li>WoodLog</li>
           </resources>
           <colors />
           <materials />
@@ -99,86 +193,206 @@
         </match>
       </li>
       <li>
-        <defType>ThingDef</defType>
-        <defName>HDH_Hydroponics_Quantum</defName>
+        <defType>TerrainDef</defType>
+        <defName>UFLI_HeavyBridge</defName>
         <tags>
           <li>Floor</li>
         </tags>
         <builtinSources />
         <match>
-          <size>(2, 2)</size>
-          <label>量子密度水培槽</label>
+          <resources>
+            <li>Steel</li>
+          </resources>
+          <colors />
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>2</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_3_Autodoor</defName>
+        <tags>
+          <li>Door</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 1)</size>
+          <label>联合自动门 3X1</label>
+          <passability>Standable</passability>
+          <marketValue>370</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_Column_sun</defName>
+        <tags>
+          <li>Lamp</li>
+        </tags>
+        <builtinSources>
+          <li>SunLamp</li>
+        </builtinSources>
+        <match>
+          <size>(1, 1)</size>
+          <label>联合支柱太阳灯</label>
           <passability>PassThroughOnly</passability>
-          <marketValue>4545</marketValue>
+          <marketValue>116.88</marketValue>
           <madeFromStuff>false</madeFromStuff>
           <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_Wall</defName>
+        <tags>
+          <li>Wall</li>
+        </tags>
+        <builtinSources>
+          <li>Wall</li>
+        </builtinSources>
+        <match>
+          <size>(1, 1)</size>
+          <label>联合墙体</label>
+          <passability>Impassable</passability>
+          <marketValue>2</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Stony</li>
+          </stuffCategories>
         </match>
       </li>
     </repairDefs>
   </extraInfo>
   <things>
-    <HDH_Hydroponics_Quantum>
+    <UFLI_Wall>
+      <rects>
+        <li>(0,0,17,0)</li>
+        <li>(0,1,0,18)</li>
+        <li>(17,1,17,3)</li>
+        <li>(17,7,17,11)</li>
+        <li>(17,15,17,18)</li>
+        <li>(1,18,16,18)</li>
+      </rects>
+      <stuff>KT_steel</stuff>
+    </UFLI_Wall>
+    <Nivarian_CrystalCanopy>
+      <rects>
+        <li>(0,0,17,18)</li>
+      </rects>
+    </Nivarian_CrystalCanopy>
+    <UFLI_Column_sun>
+      <rects>
+        <li>(4,1,4,1)</li>
+        <li>(9,1,9,1)</li>
+        <li>(13,1,13,1)</li>
+        <li>(1,2,1,2)</li>
+        <li>(16,2,16,2)</li>
+        <li>(8,7,8,7)</li>
+        <li>(1,9,1,9)</li>
+        <li>(16,9,16,9)</li>
+        <li>(8,11,8,11)</li>
+        <li>(1,16,1,16)</li>
+        <li>(16,16,16,16)</li>
+        <li>(4,17,4,17)</li>
+        <li>(9,17,9,17)</li>
+        <li>(13,17,13,17)</li>
+      </rects>
+    </UFLI_Column_sun>
+    <UFC_1X1_Hydroponics_Super>
+      <rects>
+        <li>(2,2,15,5)</li>
+        <li>(2,6,4,16)</li>
+        <li>(6,6,11,6)</li>
+        <li>(13,6,15,16)</li>
+        <li>(5,7,7,7)</li>
+        <li>(9,7,12,7)</li>
+        <li>(5,8,6,12)</li>
+        <li>(10,8,12,12)</li>
+        <li>(7,11,7,16)</li>
+        <li>(9,11,9,16)</li>
+        <li>(8,12,8,16)</li>
+        <li>(6,13,6,16)</li>
+        <li>(10,13,11,16)</li>
+        <li>(5,14,5,16)</li>
+        <li>(12,14,12,16)</li>
+      </rects>
+    </UFC_1X1_Hydroponics_Super>
+    <UFLI_3_Autodoor>
       <positions>
-        <li>(0, 0, 0)</li>
-        <li>(2, 0, 0)</li>
-        <li>(4, 0, 0)</li>
-        <li>(6, 0, 0)</li>
-        <li>(8, 0, 0)</li>
-        <li>(10, 0, 0)</li>
-        <li>(12, 0, 0)</li>
-        <li>(14, 0, 0)</li>
-        <li>(16, 0, 0)</li>
-        <li>(18, 0, 0)</li>
-        <li>(20, 0, 0)</li>
-        <li>(22, 0, 0)</li>
-        <li>(24, 0, 0)</li>
-        <li>(26, 0, 0)</li>
-        <li>(28, 0, 0)</li>
-        <li>(30, 0, 0)</li>
-        <li>(32, 0, 0)</li>
-        <li>(34, 0, 0)</li>
-        <li>(36, 0, 0)</li>
-        <li>(38, 0, 0)</li>
-        <li>(40, 0, 0)</li>
-        <li>(42, 0, 0)</li>
-        <li>(44, 0, 0)</li>
-        <li>(46, 0, 0)</li>
-        <li>(48, 0, 0)</li>
+        <li>(17, 0, 5)</li>
+        <li>(17, 0, 13)</li>
       </positions>
-    </HDH_Hydroponics_Quantum>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>KT_steel</stuff>
+    </UFLI_3_Autodoor>
+    <NivarianNanoHive>
+      <rects>
+        <li>(5,6,5,6)</li>
+        <li>(12,6,12,6)</li>
+        <li>(5,13,5,13)</li>
+        <li>(12,13,12,13)</li>
+      </rects>
+    </NivarianNanoHive>
+    <KT_UFGenerator>
+      <position>(8, 0, 9)</position>
+    </KT_UFGenerator>
   </things>
   <terrain>
-    <UFLI_FLOOR>
+    <UFLI_FLOORG>
       <rects>
-        <li>(0,0,49,1)</li>
+        <li>(13,8,17,14)</li>
       </rects>
-    </UFLI_FLOOR>
+    </UFLI_FLOORG>
   </terrain>
   <terrainLayers>
     <terrainLayerDetail layer="topGrid">
-      <UFLI_FLOOR>
+      <UFLI_FLOORG>
         <rects>
-          <li>(0,0,49,1)</li>
+          <li>(13,8,17,14)</li>
         </rects>
-      </UFLI_FLOOR>
+      </UFLI_FLOORG>
     </terrainLayerDetail>
     <terrainLayerDetail layer="underGrid">
-      <Gravel>
+      <Soil>
         <rects>
-          <li>(0,0,49,1)</li>
+          <li>(13,8,17,11)</li>
+          <li>(14,12,17,12)</li>
+          <li>(15,13,17,13)</li>
+          <li>(16,14,17,14)</li>
         </rects>
-      </Gravel>
+      </Soil>
+      <Sand>
+        <rects>
+          <li>(13,12,13,14)</li>
+          <li>(14,13,14,14)</li>
+          <li>(15,14,15,14)</li>
+        </rects>
+      </Sand>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="foundationGrid">
+      <UFLI_HeavyBridge>
+        <rects>
+          <li>(13,9,17,14)</li>
+        </rects>
+      </UFLI_HeavyBridge>
     </terrainLayerDetail>
   </terrainLayers>
   <roofs>
     <RoofConstructed>
       <rects>
-        <li>(0,0,49,1)</li>
+        <li>(0,0,17,18)</li>
       </rects>
     </RoofConstructed>
     <PlayerRoofZone>
       <rects>
-        <li>(0,0,49,1)</li>
+        <li>(0,0,17,18)</li>
       </rects>
     </PlayerRoofZone>
   </roofs>
