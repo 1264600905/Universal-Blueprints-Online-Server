@@ -1,0 +1,1215 @@
+<PrefabDef>
+  <defName>Prefab_20261029_050509</defName>
+  <size>(36,27)</size>
+  <extraInfo>
+    <version>1.7.9795.32073</version>
+    <name>Gravship expanded chapter 1 mid game ship</name>
+    <description></description>
+    <tags>
+      <li>OdysseyDLC</li>
+    </tags>
+    <author></author>
+    <category>OdysseyDLC</category>
+    <BuildingID>049683be-899a-43ad-a369-f7c751ea4705</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>regrowth.botr.core</packageId>
+        <name>ReGrowth 2</name>
+        <version>5.3-rev2</version>
+        <modorder>10</modorder>
+        <steamWorkshopId>2260097569</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>RG_BoulderRockLargeGranite</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.odyssey</packageId>
+        <name>Odyssey</name>
+        <version></version>
+        <modorder>6</modorder>
+        <things>
+          <li>GravshipHull</li>
+          <li>SmallThruster</li>
+          <li>OxygenPump</li>
+          <li>ChemfuelTank</li>
+          <li>GravFieldExtender</li>
+          <li>Building_OutfitStand</li>
+          <li>Substructure</li>
+          <li>GrasslandSoil</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>vanillaexpanded.gravship</packageId>
+        <name>Vanilla Gravship Expanded - Chapter 1</name>
+        <version></version>
+        <modorder>28</modorder>
+        <steamWorkshopId>3609835606</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.odyssey</packageId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VGE_VacCheckpoint</li>
+          <li>VGE_GravshipCapacitor</li>
+          <li>VGE_CrewBunkBed</li>
+          <li>VGE_AstrofuelGenerator</li>
+          <li>VGE_OxygenPipe</li>
+          <li>VGE_SmallOxygenTank</li>
+          <li>VGE_OxygenHarvester</li>
+          <li>VGE_AstrofuelPipe</li>
+          <li>VGE_CommsTerminal</li>
+          <li>VGE_SmallHeatsink</li>
+          <li>VGE_AstrofuelTap</li>
+          <li>VGE_AstrofuelDrain</li>
+          <li>VGE_GravjumperEngine</li>
+          <li>VGE_PilotCockpit</li>
+          <li>VGE_CompactStove</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ceteam.combatextended</packageId>
+        <name>Combat Extended</name>
+        <version>16.7.4.0</version>
+        <modorder>19</modorder>
+        <steamWorkshopId>2890901044</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>AmmoBench</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.biotech</packageId>
+        <name>Biotech</name>
+        <version></version>
+        <modorder>4</modorder>
+        <things>
+          <li>Crib</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>chinon.passer</packageId>
+        <name>Passer Race</name>
+        <version></version>
+        <modorder>20</modorder>
+        <steamWorkshopId>3805568727</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>PAS_Building_FukurouComms</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>sbz.gravshipstorage</packageId>
+        <name>[sbz] Gravship Storage</name>
+        <version></version>
+        <modorder>18</modorder>
+        <steamWorkshopId>3537905298</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>adaptive.storage.framework</packageId>
+            <steamWorkshopId>3033901359</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>sbz_SmallGravshipShelf</li>
+          <li>sbz_GravshipTwoTierShelf</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>Gravship expanded chapter 1 mid game ship</default>
+        <en>Gravship expanded chapter 1 mid game ship</en>
+      </name>
+      <tags>
+        <default>OdysseyDLC</default>
+      </tags>
+    </multiLanguage>
+    <structureDefs>
+      <li>
+        <defName>GravshipHull</defName>
+        <kind>Wall</kind>
+        <size>(1,1)</size>
+      </li>
+      <li>
+        <defName>Door</defName>
+        <kind>Door</kind>
+        <size>(1,1)</size>
+      </li>
+      <li>
+        <defName>VGE_VacCheckpoint</defName>
+        <kind>Door</kind>
+        <size>(1,1)</size>
+      </li>
+    </structureDefs>
+    <thingKinds version="1">
+      <Buildings>
+        <li>AmmoBench</li>
+        <li>BiofuelRefinery</li>
+        <li>Building_OutfitStand</li>
+        <li>ChemfuelTank</li>
+        <li>Cooler</li>
+        <li>Crib</li>
+        <li>DiningChair</li>
+        <li>Door</li>
+        <li>DoubleBed</li>
+        <li>ElectricSmithy</li>
+        <li>ElectricTailoringBench</li>
+        <li>GravFieldExtender</li>
+        <li>GravshipHull</li>
+        <li>Heater</li>
+        <li>HiTechResearchBench</li>
+        <li>HiddenConduit</li>
+        <li>MultiAnalyzer</li>
+        <li>OxygenPump</li>
+        <li>PAS_Building_FukurouComms</li>
+        <li>PassiveCooler</li>
+        <li>RG_BoulderRockLargeGranite</li>
+        <li>SimpleResearchBench</li>
+        <li>SmallThruster</li>
+        <li>Table1x2c</li>
+        <li>TableMachining</li>
+        <li>VGE_AstrofuelDrain</li>
+        <li>VGE_AstrofuelGenerator</li>
+        <li>VGE_AstrofuelPipe</li>
+        <li>VGE_AstrofuelTap</li>
+        <li>VGE_CommsTerminal</li>
+        <li>VGE_CompactStove</li>
+        <li>VGE_CrewBunkBed</li>
+        <li>VGE_GravjumperEngine</li>
+        <li>VGE_OxygenHarvester</li>
+        <li>VGE_OxygenPipe</li>
+        <li>VGE_PilotCockpit</li>
+        <li>VGE_SmallHeatsink</li>
+        <li>VGE_SmallOxygenTank</li>
+        <li>WallLamp</li>
+        <li>sbz_GravshipTwoTierShelf</li>
+        <li>sbz_SmallGravshipShelf</li>
+      </Buildings>
+      <ArtificialTerrain>
+        <li>VGE_GravshipCapacitor</li>
+        <li>VGE_VacCheckpoint</li>
+      </ArtificialTerrain>
+    </thingKinds>
+    <repairDefs version="1">
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>GrasslandSoil</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>soil</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Substructure</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>GravlitePanel</li>
+            <li>Steel</li>
+          </resources>
+          <colors />
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>2</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>TileLimestone</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>BlocksLimestone</li>
+          </resources>
+          <colors />
+          <materials>
+            <li>limestone</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>AmmoBench</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 1)</size>
+          <label>loading bench</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>470</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>BiofuelRefinery</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 2)</size>
+          <label>biyoyakıt rafinerisi</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>400</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Building_OutfitStand</defName>
+        <tags>
+          <li>Storage</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>outfit stand</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>71.26</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Crib</defName>
+        <tags>
+          <li>Bed</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>crib</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>51.44</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>DiningChair</defName>
+        <tags>
+          <li>Seat</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>yemek sandalyesi</label>
+          <passability>Standable</passability>
+          <marketValue>118.8</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Door</defName>
+        <tags>
+          <li>Door</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>kapı</label>
+          <passability>Standable</passability>
+          <marketValue>53.06</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>DoubleBed</defName>
+        <tags>
+          <li>Bed</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 2)</size>
+          <label>çift kişilik yatak</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>175.4</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>ElectricSmithy</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 1)</size>
+          <label>elektrikli demirci tezgâhı</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>305</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>ElectricTailoringBench</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 1)</size>
+          <label>elektrikli dikiş tezgâhı</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>320</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>GravshipHull</defName>
+        <tags>
+          <li>Wall</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>gravship hull</label>
+          <passability>Impassable</passability>
+          <marketValue>15.08</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>OxygenPump</defName>
+        <tags>
+          <li>Attachment</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>oxygen pump</label>
+          <passability>Standable</passability>
+          <marketValue>199.38345</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Table1x2c</defName>
+        <tags>
+          <li>Table</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 2)</size>
+          <label>masa (1x2)</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>58.7</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>TableMachining</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 1)</size>
+          <label>talaşlı imalat masası</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>465</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>VGE_AstrofuelDrain</defName>
+        <tags>
+          <li>Storage</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>astrofuel drain</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>100.81682</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>VGE_AstrofuelTap</defName>
+        <tags>
+          <li>Storage</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>astrofuel tap</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>100.81682</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>VGE_CompactStove</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 1)</size>
+          <label>compact stove</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>215</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>VGE_CrewBunkBed</defName>
+        <tags>
+          <li>Bed</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 2)</size>
+          <label>crew bunk bed</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>167.14136</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>VGE_GravshipCapacitor</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 3)</size>
+          <label>gravship capacitor</label>
+          <passability>Standable</passability>
+          <marketValue>315</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>VGE_VacCheckpoint</defName>
+        <tags>
+          <li>Door</li>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>vac checkpoint</label>
+          <passability>Standable</passability>
+          <marketValue>0</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>WallLamp</defName>
+        <tags>
+          <li>Attachment</li>
+          <li>Lamp</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>duvar lambası</label>
+          <passability>Standable</passability>
+          <marketValue>30.785044</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>sbz_GravshipTwoTierShelf</defName>
+        <tags>
+          <li>Storage</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 1)</size>
+          <label>gravship 2-tier shelf</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>82.52545</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>sbz_SmallGravshipShelf</defName>
+        <tags>
+          <li>Storage</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>small gravship shelf</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>20.631363</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+    </repairDefs>
+  </extraInfo>
+  <things>
+    <RG_BoulderRockLargeGranite>
+      <position>(-1, 0, 1)</position>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </RG_BoulderRockLargeGranite>
+    <GravshipHull>
+      <rects>
+        <li>(10,1,17,1)</li>
+        <li>(19,1,26,1)</li>
+        <li>(8,2,10,2)</li>
+        <li>(17,2,17,10)</li>
+        <li>(19,2,19,10)</li>
+        <li>(26,2,28,2)</li>
+        <li>(6,3,8,3)</li>
+        <li>(10,3,10,12)</li>
+        <li>(26,3,26,10)</li>
+        <li>(28,3,30,3)</li>
+        <li>(5,4,6,4)</li>
+        <li>(30,4,31,4)</li>
+        <li>(4,5,5,5)</li>
+        <li>(31,5,32,5)</li>
+        <li>(4,6,4,6)</li>
+        <li>(32,6,32,8)</li>
+        <li>(33,7,33,9)</li>
+        <li>(28,8,31,8)</li>
+        <li>(28,9,28,12)</li>
+        <li>(34,9,34,17)</li>
+        <li>(11,10,14,10)</li>
+        <li>(16,10,16,10)</li>
+        <li>(20,10,20,10)</li>
+        <li>(22,10,25,10)</li>
+        <li>(10,14,10,22)</li>
+        <li>(28,14,28,18)</li>
+        <li>(11,17,14,17)</li>
+        <li>(16,17,17,17)</li>
+        <li>(19,17,20,17)</li>
+        <li>(22,17,26,17)</li>
+        <li>(33,17,33,19)</li>
+        <li>(17,18,17,25)</li>
+        <li>(19,18,19,25)</li>
+        <li>(26,18,26,25)</li>
+        <li>(29,18,32,18)</li>
+        <li>(32,19,32,21)</li>
+        <li>(4,20,4,21)</li>
+        <li>(5,21,5,22)</li>
+        <li>(11,21,15,21)</li>
+        <li>(31,21,31,22)</li>
+        <li>(6,22,6,23)</li>
+        <li>(9,22,9,22)</li>
+        <li>(30,22,30,23)</li>
+        <li>(7,23,8,23)</li>
+        <li>(28,23,29,23)</li>
+        <li>(8,24,10,24)</li>
+        <li>(27,24,28,24)</li>
+        <li>(10,25,16,25)</li>
+        <li>(20,25,25,25)</li>
+      </rects>
+      <stuff>Steel</stuff>
+    </GravshipHull>
+    <Door>
+      <rects>
+        <li>(18,1,18,1)</li>
+        <li>(15,10,15,10)</li>
+        <li>(18,10,18,10)</li>
+        <li>(21,10,21,10)</li>
+        <li>(27,10,27,10)</li>
+        <li>(15,17,15,17)</li>
+        <li>(18,17,18,17)</li>
+        <li>(21,17,21,17)</li>
+        <li>(27,17,27,17)</li>
+        <li>(16,21,16,21)</li>
+        <li>(18,25,18,25)</li>
+      </rects>
+      <stuff>Steel</stuff>
+    </Door>
+    <BiofuelRefinery>
+      <position>(15, 0, 3)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </BiofuelRefinery>
+    <VGE_VacCheckpoint>
+      <rects>
+        <li>(18,2,18,2)</li>
+        <li>(18,24,18,24)</li>
+      </rects>
+    </VGE_VacCheckpoint>
+    <HiTechResearchBench>
+      <position>(21, 0, 4)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+    </HiTechResearchBench>
+    <MultiAnalyzer>
+      <position>(22, 0, 2)</position>
+    </MultiAnalyzer>
+    <HiTechResearchBench>
+      <position>(24, 0, 4)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+    </HiTechResearchBench>
+    <ElectricSmithy>
+      <position>(12, 0, 3)</position>
+    </ElectricSmithy>
+    <Heater>
+      <rects>
+        <li>(27,3,27,3)</li>
+        <li>(29,12,29,12)</li>
+      </rects>
+    </Heater>
+    <TableMachining>
+      <position>(12, 0, 5)</position>
+    </TableMachining>
+    <HiddenConduit>
+      <rects>
+        <li>(14,5,14,10)</li>
+        <li>(9,8,9,18)</li>
+        <li>(23,8,23,18)</li>
+        <li>(10,13,17,13)</li>
+        <li>(19,13,22,13)</li>
+        <li>(24,13,31,13)</li>
+        <li>(14,14,14,14)</li>
+        <li>(14,17,14,19)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <VGE_GravshipCapacitor>
+      <positions>
+        <li>(6, 0, 6)</li>
+        <li>(6, 0, 20)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+    </VGE_GravshipCapacitor>
+    <VGE_CrewBunkBed>
+      <position>(28, 0, 7)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Masterwork</quality>
+    </VGE_CrewBunkBed>
+    <VGE_CrewBunkBed>
+      <position>(31, 0, 7)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+    </VGE_CrewBunkBed>
+    <SmallThruster>
+      <positions>
+        <li>(3, 0, 7)</li>
+        <li>(3, 0, 8)</li>
+        <li>(2, 0, 9)</li>
+        <li>(2, 0, 10)</li>
+        <li>(2, 0, 11)</li>
+        <li>(2, 0, 12)</li>
+        <li>(2, 0, 13)</li>
+        <li>(2, 0, 14)</li>
+        <li>(2, 0, 15)</li>
+        <li>(2, 0, 16)</li>
+        <li>(2, 0, 17)</li>
+        <li>(3, 0, 18)</li>
+        <li>(3, 0, 19)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+    </SmallThruster>
+    <VGE_AstrofuelGenerator>
+      <positions>
+        <li>(5, 0, 7)</li>
+        <li>(7, 0, 7)</li>
+        <li>(5, 0, 18)</li>
+        <li>(7, 0, 18)</li>
+      </positions>
+    </VGE_AstrofuelGenerator>
+    <AmmoBench>
+      <position>(12, 0, 7)</position>
+      <stuff>Steel</stuff>
+    </AmmoBench>
+    <OxygenPump>
+      <rects>
+        <li>(18,7,18,7)</li>
+        <li>(9,14,9,14)</li>
+        <li>(18,22,18,22)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </OxygenPump>
+    <VGE_OxygenPipe>
+      <rects>
+        <li>(19,7,19,9)</li>
+        <li>(26,7,26,8)</li>
+        <li>(17,9,18,9)</li>
+        <li>(21,9,21,9)</li>
+        <li>(10,10,16,10)</li>
+        <li>(10,11,10,21)</li>
+        <li>(28,15,28,17)</li>
+        <li>(11,17,27,17)</li>
+        <li>(17,18,17,22)</li>
+        <li>(26,18,26,20)</li>
+        <li>(18,20,19,20)</li>
+        <li>(11,21,13,21)</li>
+      </rects>
+    </VGE_OxygenPipe>
+    <OxygenPump>
+      <rects>
+        <li>(27,7,27,7)</li>
+        <li>(29,15,29,15)</li>
+        <li>(20,20,20,20)</li>
+        <li>(27,20,27,20)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </OxygenPump>
+    <WallLamp>
+      <rects>
+        <li>(28,7,28,7)</li>
+      </rects>
+    </WallLamp>
+    <PassiveCooler>
+      <rects>
+        <li>(29,7,29,7)</li>
+        <li>(27,12,27,12)</li>
+        <li>(31,19,31,19)</li>
+        <li>(8,22,8,22)</li>
+      </rects>
+    </PassiveCooler>
+    <Crib>
+      <rects>
+        <li>(30,7,30,7)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+    </Crib>
+    <VGE_SmallOxygenTank>
+      <position>(22, 0, 8)</position>
+    </VGE_SmallOxygenTank>
+    <VGE_OxygenHarvester>
+      <position>(24, 0, 8)</position>
+    </VGE_OxygenHarvester>
+    <VGE_AstrofuelPipe>
+      <rects>
+        <li>(4,9,5,9)</li>
+        <li>(4,10,4,17)</li>
+        <li>(5,12,5,12)</li>
+        <li>(5,14,5,14)</li>
+        <li>(5,17,5,17)</li>
+      </rects>
+    </VGE_AstrofuelPipe>
+    <ElectricTailoringBench>
+      <position>(12, 0, 9)</position>
+      <stuff>Steel</stuff>
+    </ElectricTailoringBench>
+    <OxygenPump>
+      <rects>
+        <li>(16,9,16,9)</li>
+        <li>(20,9,20,9)</li>
+        <li>(17,16,17,16)</li>
+      </rects>
+    </OxygenPump>
+    <SimpleResearchBench>
+      <position>(30, 0, 10)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+    </SimpleResearchBench>
+    <ChemfuelTank>
+      <positions>
+        <li>(5, 0, 10)</li>
+        <li>(7, 0, 10)</li>
+        <li>(5, 0, 15)</li>
+        <li>(7, 0, 15)</li>
+      </positions>
+    </ChemfuelTank>
+    <VGE_CommsTerminal>
+      <position>(33, 0, 11)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </VGE_CommsTerminal>
+    <VGE_SmallHeatsink>
+      <positions>
+        <li>(11, 0, 11)</li>
+        <li>(13, 0, 11)</li>
+        <li>(11, 0, 15)</li>
+        <li>(13, 0, 15)</li>
+      </positions>
+    </VGE_SmallHeatsink>
+    <GravFieldExtender>
+      <rects>
+        <li>(17,12,17,12)</li>
+        <li>(19,12,19,12)</li>
+        <li>(14,13,14,13)</li>
+        <li>(22,13,22,13)</li>
+        <li>(17,14,17,14)</li>
+        <li>(19,14,19,14)</li>
+      </rects>
+    </GravFieldExtender>
+    <VGE_AstrofuelTap>
+      <rects>
+        <li>(5,13,6,13)</li>
+      </rects>
+    </VGE_AstrofuelTap>
+    <VGE_AstrofuelDrain>
+      <rects>
+        <li>(7,13,8,13)</li>
+      </rects>
+    </VGE_AstrofuelDrain>
+    <Door>
+      <rects>
+        <li>(10,13,10,13)</li>
+        <li>(28,13,28,13)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+    </Door>
+    <VGE_GravjumperEngine>
+      <rects>
+        <li>(18,13,18,13)</li>
+      </rects>
+    </VGE_GravjumperEngine>
+    <VGE_PilotCockpit>
+      <position>(32, 0, 13)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </VGE_PilotCockpit>
+    <WallLamp>
+      <rects>
+        <li>(29,14,29,14)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </WallLamp>
+    <PAS_Building_FukurouComms>
+      <position>(33, 0, 15)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </PAS_Building_FukurouComms>
+    <SimpleResearchBench>
+      <position>(30, 0, 16)</position>
+      <stuff>WoodLog</stuff>
+    </SimpleResearchBench>
+    <DiningChair>
+      <rects>
+        <li>(12,18,13,18)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <quality>Good</quality>
+    </DiningChair>
+    <OxygenPump>
+      <rects>
+        <li>(14,18,14,18)</li>
+        <li>(13,22,13,22)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </OxygenPump>
+    <VGE_CompactStove>
+      <position>(16, 0, 19)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </VGE_CompactStove>
+    <DiningChair>
+      <rects>
+        <li>(11,19,11,19)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+    </DiningChair>
+    <Table1x2c>
+      <position>(12, 0, 19)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Poor</quality>
+    </Table1x2c>
+    <DiningChair>
+      <rects>
+        <li>(14,19,14,19)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Good</quality>
+    </DiningChair>
+    <WallLamp>
+      <rects>
+        <li>(28,19,28,19)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </WallLamp>
+    <Building_OutfitStand>
+      <rects>
+        <li>(29,19,30,19)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+    </Building_OutfitStand>
+    <DiningChair>
+      <rects>
+        <li>(12,20,12,20)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+    </DiningChair>
+    <DiningChair>
+      <rects>
+        <li>(13,20,13,20)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Good</quality>
+    </DiningChair>
+    <sbz_SmallGravshipShelf>
+      <rects>
+        <li>(14,20,14,20)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <color>RGBA(0.863, 0.863, 0.863, 1.000)</color>
+    </sbz_SmallGravshipShelf>
+    <sbz_GravshipTwoTierShelf>
+      <positions>
+        <li>(24, 0, 20)</li>
+        <li>(22, 0, 22)</li>
+        <li>(24, 0, 22)</li>
+        <li>(12, 0, 24)</li>
+        <li>(14, 0, 24)</li>
+        <li>(16, 0, 24)</li>
+        <li>(21, 0, 24)</li>
+        <li>(23, 0, 24)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <color>RGBA(0.863, 0.863, 0.863, 1.000)</color>
+    </sbz_GravshipTwoTierShelf>
+    <DoubleBed>
+      <position>(29, 0, 22)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+    </DoubleBed>
+    <Cooler>
+      <rects>
+        <li>(10,23,10,23)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </Cooler>
+    <sbz_GravshipTwoTierShelf>
+      <position>(24, 0, 24)</position>
+      <color>RGBA(0.863, 0.863, 0.863, 1.000)</color>
+    </sbz_GravshipTwoTierShelf>
+  </things>
+  <terrain>
+    <TileLimestone>
+      <rects>
+        <li>(35,0,35,0)</li>
+        <li>(34,2,35,2)</li>
+      </rects>
+    </TileLimestone>
+    <Substructure>
+      <rects>
+        <li>(10,1,26,25)</li>
+        <li>(8,2,9,24)</li>
+        <li>(27,2,28,24)</li>
+        <li>(6,3,7,23)</li>
+        <li>(29,3,30,23)</li>
+        <li>(5,4,5,22)</li>
+        <li>(31,4,31,22)</li>
+        <li>(4,5,4,21)</li>
+        <li>(32,5,32,21)</li>
+        <li>(3,7,3,19)</li>
+        <li>(33,7,33,19)</li>
+        <li>(2,9,2,17)</li>
+        <li>(34,9,34,17)</li>
+      </rects>
+    </Substructure>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <TileLimestone>
+        <rects>
+          <li>(35,0,35,0)</li>
+          <li>(34,2,35,2)</li>
+        </rects>
+      </TileLimestone>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <GrasslandSoil>
+        <rects>
+          <li>(35,0,35,0)</li>
+          <li>(34,2,35,2)</li>
+        </rects>
+      </GrasslandSoil>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="foundationGrid">
+      <Substructure>
+        <rects>
+          <li>(10,1,26,25)</li>
+          <li>(8,2,9,24)</li>
+          <li>(27,2,28,24)</li>
+          <li>(6,3,7,23)</li>
+          <li>(29,3,30,23)</li>
+          <li>(5,4,5,22)</li>
+          <li>(31,4,31,22)</li>
+          <li>(4,5,4,21)</li>
+          <li>(32,5,32,21)</li>
+          <li>(3,7,3,19)</li>
+          <li>(33,7,33,19)</li>
+          <li>(2,9,2,17)</li>
+          <li>(34,9,34,17)</li>
+        </rects>
+      </Substructure>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(10,1,26,25)</li>
+        <li>(8,2,9,22)</li>
+        <li>(27,2,28,24)</li>
+        <li>(6,3,7,23)</li>
+        <li>(29,3,30,23)</li>
+        <li>(5,4,5,22)</li>
+        <li>(31,4,31,22)</li>
+        <li>(4,5,4,21)</li>
+        <li>(32,5,32,21)</li>
+        <li>(3,7,3,19)</li>
+        <li>(33,8,33,18)</li>
+        <li>(2,9,2,17)</li>
+        <li>(34,9,34,17)</li>
+        <li>(8,23,8,24)</li>
+        <li>(9,24,9,24)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(10,1,26,25)</li>
+        <li>(8,2,9,22)</li>
+        <li>(27,2,28,24)</li>
+        <li>(6,3,7,23)</li>
+        <li>(29,3,30,23)</li>
+        <li>(5,4,5,22)</li>
+        <li>(31,4,31,22)</li>
+        <li>(4,5,4,21)</li>
+        <li>(32,5,32,21)</li>
+        <li>(3,7,3,19)</li>
+        <li>(33,8,33,18)</li>
+        <li>(2,9,2,17)</li>
+        <li>(34,9,34,17)</li>
+        <li>(8,23,8,24)</li>
+        <li>(9,24,9,24)</li>
+      </rects>
+    </PlayerRoofZone>
+    <NoRoofZone>
+      <rects>
+        <li>(9,23,9,23)</li>
+      </rects>
+    </NoRoofZone>
+  </roofs>
+</PrefabDef>
