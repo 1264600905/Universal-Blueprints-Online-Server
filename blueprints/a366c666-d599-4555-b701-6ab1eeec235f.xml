@@ -1,0 +1,435 @@
+<PrefabDef>
+  <defName>Prefab_20261031_012531</defName>
+  <size>(7,10)</size>
+  <extraInfo>
+    <version>1.7.9795.32073</version>
+    <name>绮罗小商店</name>
+    <description></description>
+    <tags>
+      <li>Dormitory</li>
+    </tags>
+    <author>Arca</author>
+    <category>Dormitory</category>
+    <BuildingID>a366c666-d599-4555-b701-6ab1eeec235f</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>mingtuwuxiang.gothicdecorative</packageId>
+        <name>[MUS]哥特式吸血鬼家具 Gothicstyle Vampire Furniture</name>
+        <version></version>
+        <modorder>372</modorder>
+        <steamWorkshopId>3102678787</steamWorkshopId>
+        <things>
+          <li>MUS_Gothicstyle_Wall</li>
+          <li>MUS_Gothicstyle_door</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ancot.kiirostoryeventsexpanded</packageId>
+        <name>Kiiro Story: Events Expanded</name>
+        <version></version>
+        <modorder>199</modorder>
+        <steamWorkshopId>3036480100</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>ancot.kiirorace</packageId>
+            <steamWorkshopId>2988200143</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ancot.ancotlibrary</packageId>
+            <steamWorkshopId>2988801276</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Kiiro_GoodsShelf_MediumFull</li>
+          <li>Kiiro_GoodsShelf_Medium</li>
+          <li>Kiiro_WoodBoxSmallB</li>
+          <li>Kiiro_DisplayShelfEnd</li>
+          <li>Kiiro_WoodBoxB</li>
+          <li>Kiiro_StackRackMedium</li>
+          <li>Kiiro_DisplayShelf</li>
+          <li>Kiiro_WoodBoxSmallDouble</li>
+          <li>Kiiro_WoodBoxSmallA</li>
+          <li>Kiiro_DisplayShelfSide</li>
+          <li>Kiiro_Cashier</li>
+          <li>Kiiro_WallRack</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>zerowhite.dailyfurniture</packageId>
+        <name>Daily furniture 塔林家具</name>
+        <version></version>
+        <modorder>36</modorder>
+        <steamWorkshopId>3024562670</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>ludeon.rimworld</packageId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>ADHFloor_Z</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>绮罗小商店</default>
+        <zh-CN>绮罗小商店</zh-CN>
+      </name>
+      <tags>
+        <default>Dormitory</default>
+      </tags>
+    </multiLanguage>
+    <structureDefs>
+      <li>
+        <defName>MUS_Gothicstyle_Wall</defName>
+        <kind>Wall</kind>
+        <size>(1,1)</size>
+      </li>
+      <li>
+        <defName>MUS_Gothicstyle_door</defName>
+        <kind>Door</kind>
+        <size>(1,1)</size>
+      </li>
+    </structureDefs>
+    <thingKinds version="1">
+      <Buildings>
+        <li>HiddenConduit</li>
+        <li>Kiiro_Cashier</li>
+        <li>Kiiro_DisplayShelf</li>
+        <li>Kiiro_DisplayShelfEnd</li>
+        <li>Kiiro_DisplayShelfSide</li>
+        <li>Kiiro_GoodsShelf_Medium</li>
+        <li>Kiiro_GoodsShelf_MediumFull</li>
+        <li>Kiiro_StackRackMedium</li>
+        <li>Kiiro_WallRack</li>
+        <li>Kiiro_WoodBoxB</li>
+        <li>Kiiro_WoodBoxSmallA</li>
+        <li>Kiiro_WoodBoxSmallB</li>
+        <li>Kiiro_WoodBoxSmallDouble</li>
+        <li>MUS_Gothicstyle_Wall</li>
+        <li>MUS_Gothicstyle_door</li>
+        <li>WallLamp</li>
+      </Buildings>
+    </thingKinds>
+    <repairDefs version="1">
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>ADHFloor_Z</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>WoodLog</li>
+          </resources>
+          <colors />
+          <materials>
+            <li>wood</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Granite_RoughHewn</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>granite</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Kiiro_WallRack</defName>
+        <tags>
+          <li>Attachment</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 1)</size>
+          <label>绮罗壁挂货架</label>
+          <passability>Standable</passability>
+          <marketValue>40.688</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>MUS_Gothicstyle_Wall</defName>
+        <tags>
+          <li>Wall</li>
+        </tags>
+        <builtinSources>
+          <li>Wall</li>
+        </builtinSources>
+        <match>
+          <size>(1, 1)</size>
+          <label>哥特式墙</label>
+          <passability>Impassable</passability>
+          <marketValue>16.54</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>MUS_Gothicstyle_door</defName>
+        <tags>
+          <li>Door</li>
+        </tags>
+        <builtinSources>
+          <li>Door</li>
+        </builtinSources>
+        <match>
+          <size>(1, 1)</size>
+          <label>哥特式门</label>
+          <passability>Standable</passability>
+          <marketValue>63.06</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>WallLamp</defName>
+        <tags>
+          <li>Attachment</li>
+          <li>Lamp</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>壁灯</label>
+          <passability>Standable</passability>
+          <marketValue>29.688</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+    </repairDefs>
+  </extraInfo>
+  <things>
+    <MUS_Gothicstyle_Wall>
+      <rects>
+        <li>(0,0,6,0)</li>
+        <li>(0,1,0,7)</li>
+        <li>(6,1,6,3)</li>
+        <li>(6,5,6,9)</li>
+        <li>(0,9,5,9)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </MUS_Gothicstyle_Wall>
+    <HiddenConduit>
+      <rects>
+        <li>(6,0,6,9)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <Kiiro_GoodsShelf_MediumFull>
+      <position>(2, 0, 1)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Kiiro_GoodsShelf_MediumFull>
+    <Kiiro_GoodsShelf_MediumFull>
+      <position>(4, 0, 1)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Kiiro_GoodsShelf_MediumFull>
+    <Kiiro_GoodsShelf_Medium>
+      <positions>
+        <li>(5, 0, 1)</li>
+        <li>(1, 0, 2)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Kiiro_GoodsShelf_Medium>
+    <WallLamp>
+      <rects>
+        <li>(1,2,1,2)</li>
+        <li>(1,7,1,7)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </WallLamp>
+    <Kiiro_WoodBoxSmallB>
+      <rects>
+        <li>(2,2,2,2)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Kiiro_WoodBoxSmallB>
+    <WallLamp>
+      <rects>
+        <li>(5,2,5,2)</li>
+        <li>(5,7,5,7)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </WallLamp>
+    <Kiiro_DisplayShelfEnd>
+      <rects>
+        <li>(3,3,3,3)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Kiiro_DisplayShelfEnd>
+    <Kiiro_WoodBoxB>
+      <rects>
+        <li>(5,3,5,3)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Kiiro_WoodBoxB>
+    <Kiiro_StackRackMedium>
+      <position>(1, 0, 5)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Kiiro_StackRackMedium>
+    <Kiiro_DisplayShelf>
+      <position>(3, 0, 4)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Kiiro_DisplayShelf>
+    <MUS_Gothicstyle_door>
+      <rects>
+        <li>(6,4,6,4)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>BlocksGranite</stuff>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </MUS_Gothicstyle_door>
+    <Kiiro_WoodBoxSmallDouble>
+      <rects>
+        <li>(5,5,5,5)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Kiiro_WoodBoxSmallDouble>
+    <Kiiro_WoodBoxSmallA>
+      <rects>
+        <li>(1,6,1,6)</li>
+        <li>(5,6,5,6)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Kiiro_WoodBoxSmallA>
+    <Kiiro_DisplayShelfSide>
+      <position>(2, 0, 7)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Kiiro_DisplayShelfSide>
+    <Kiiro_DisplayShelfSide>
+      <position>(4, 0, 7)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Kiiro_DisplayShelfSide>
+    <Kiiro_Cashier>
+      <rects>
+        <li>(4,7,4,7)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Kiiro_Cashier>
+    <Kiiro_WallRack>
+      <positions>
+        <li>(1, 0, 8)</li>
+        <li>(3, 0, 8)</li>
+      </positions>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Kiiro_WallRack>
+  </things>
+  <terrain>
+    <ADHFloor_Z>
+      <rects>
+        <li>(1,1,5,8)</li>
+        <li>(0,8,0,8)</li>
+      </rects>
+    </ADHFloor_Z>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <ADHFloor_Z>
+        <rects>
+          <li>(1,1,5,8)</li>
+          <li>(0,8,0,8)</li>
+        </rects>
+      </ADHFloor_Z>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Granite_RoughHewn>
+        <rects>
+          <li>(1,1,5,8)</li>
+          <li>(0,8,0,8)</li>
+        </rects>
+      </Granite_RoughHewn>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofRockThick>
+      <rects>
+        <li>(0,0,6,9)</li>
+      </rects>
+    </RoofRockThick>
+  </roofs>
+</PrefabDef>
