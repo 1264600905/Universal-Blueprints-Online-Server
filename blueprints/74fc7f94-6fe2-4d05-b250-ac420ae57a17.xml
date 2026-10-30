@@ -1,0 +1,564 @@
+<PrefabDef>
+  <defName>Prefab_20261025_001300</defName>
+  <size>(6,4)</size>
+  <extraInfo>
+    <version>1.7.9790.38077</version>
+    <name>塔林小房间1</name>
+    <description></description>
+    <tags>
+      <li>Dormitory</li>
+    </tags>
+    <author></author>
+    <category>Dormitory</category>
+    <BuildingID>74fc7f94-6fe2-4d05-b250-ac420ae57a17</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>zerowhite.dailyfurniture</packageId>
+        <name>Daily furniture 塔林家具</name>
+        <version></version>
+        <modorder>32</modorder>
+        <steamWorkshopId>3024562670</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>ludeon.rimworld</packageId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>ADH_bed_double_B_A_FURNITURE</li>
+          <li>ADH_rug_F_A_FURNITURE</li>
+          <li>ADH_light_B_A_FURNITURE</li>
+          <li>ADH_book_A_A_FURNITURE</li>
+          <li>ADH_EndTable_A_A_FURNITURE</li>
+          <li>ADH_doormat_A_A_FURNITURE</li>
+          <li>ADH_cabinet_A_C_FURNITURE</li>
+          <li>ADH_cabinet_A_B_FURNITURE</li>
+          <li>ADH_A_TubeTelevision</li>
+          <li>ADHFloor_A</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>elsa.cakefurniture.fdf</packageId>
+        <name>Cake! Furniture-蛋糕家具</name>
+        <version></version>
+        <modorder>278</modorder>
+        <steamWorkshopId>3629632481</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>ludeon.rimworld</packageId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>FDF_Couch_PillowBStrawberryA</li>
+          <li>FDF_DrapeB</li>
+          <li>FDF_SupportCat_CompanionCatC</li>
+          <li>FDF_Deco_Book</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>mlmlmlm.bluearchivefurniture</packageId>
+        <name>Blue Archive Furniture</name>
+        <version></version>
+        <modorder>314</modorder>
+        <steamWorkshopId>3491176484</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>adaptive.storage.framework</packageId>
+            <steamWorkshopId>3033901359</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Trinity_Large_Sofa</li>
+          <li>Guest_Tea_Sofa</li>
+          <li>Teaparty_Sofa_Table</li>
+          <li>BAWall_Clock</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>塔林小房间1</default>
+        <zh-CN>塔林小房间1</zh-CN>
+      </name>
+      <tags>
+        <default>Dormitory</default>
+      </tags>
+    </multiLanguage>
+    <thingKinds version="1">
+      <Buildings>
+        <li>ADH_A_TubeTelevision</li>
+        <li>ADH_EndTable_A_A_FURNITURE</li>
+        <li>ADH_bed_double_B_A_FURNITURE</li>
+        <li>ADH_book_A_A_FURNITURE</li>
+        <li>ADH_cabinet_A_B_FURNITURE</li>
+        <li>ADH_cabinet_A_C_FURNITURE</li>
+        <li>ADH_doormat_A_A_FURNITURE</li>
+        <li>ADH_light_B_A_FURNITURE</li>
+        <li>ADH_rug_F_A_FURNITURE</li>
+        <li>BAWall_Clock</li>
+        <li>FDF_Couch_PillowBStrawberryA</li>
+        <li>FDF_Deco_Book</li>
+        <li>FDF_DrapeB</li>
+        <li>FDF_SupportCat_CompanionCatC</li>
+        <li>Guest_Tea_Sofa</li>
+        <li>Teaparty_Sofa_Table</li>
+        <li>Trinity_Large_Sofa</li>
+        <li>WallLamp</li>
+      </Buildings>
+    </thingKinds>
+    <repairDefs version="1">
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>ADHFloor_A</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources>
+          <li>WoodPlankFloor</li>
+        </builtinSources>
+        <match>
+          <resources>
+            <li>WoodLog</li>
+          </resources>
+          <colors />
+          <materials>
+            <li>wood</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Granite_Rough</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>granite</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Granite_RoughHewn</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>granite</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>ADH_A_TubeTelevision</defName>
+        <tags />
+        <builtinSources>
+          <li>MegascreenTelevision</li>
+        </builtinSources>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>ADH_EndTable_A_A_FURNITURE</defName>
+        <tags>
+          <li>Bedside</li>
+        </tags>
+        <builtinSources>
+          <li>EndTable</li>
+        </builtinSources>
+        <match>
+          <size>(1, 1)</size>
+          <label>床头柜</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>30.36</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Stony</li>
+            <li>Woody</li>
+            <li>Metallic</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>ADH_bed_double_B_A_FURNITURE</defName>
+        <tags>
+          <li>Bed</li>
+        </tags>
+        <builtinSources>
+          <li>RoyalBed</li>
+        </builtinSources>
+        <match>
+          <size>(2, 2)</size>
+          <label>豪华双人床</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>183.6</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>ADH_book_A_A_FURNITURE</defName>
+        <tags>
+          <li>Bedside</li>
+        </tags>
+        <builtinSources>
+          <li>Bookcase</li>
+        </builtinSources>
+        <match>
+          <size>(2, 1)</size>
+          <label>书架A</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>123.6</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Stony</li>
+            <li>Woody</li>
+            <li>Metallic</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>ADH_cabinet_A_B_FURNITURE</defName>
+        <tags>
+          <li>Bedside</li>
+          <li>Storage</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>衣柜A</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>63.6</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>ADH_cabinet_A_C_FURNITURE</defName>
+        <tags>
+          <li>Bedside</li>
+          <li>Storage</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>衣柜B</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>63.6</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>ADH_light_B_A_FURNITURE</defName>
+        <tags>
+          <li>Bedside</li>
+        </tags>
+        <builtinSources>
+          <li>StandingLamp</li>
+        </builtinSources>
+        <match>
+          <size>(1, 1)</size>
+          <label>落地灯</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>42.6</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>ADH_rug_F_A_FURNITURE</defName>
+        <tags>
+          <li>Bedside</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(4, 3)</size>
+          <label>地毯F</label>
+          <passability>Standable</passability>
+          <marketValue>121.8</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Guest_Tea_Sofa</defName>
+        <tags>
+          <li>Seat</li>
+        </tags>
+        <builtinSources>
+          <li>Armchair</li>
+        </builtinSources>
+        <match>
+          <size>(1, 1)</size>
+          <label>圣三一宾客扶手椅</label>
+          <passability>Standable</passability>
+          <marketValue>144</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Teaparty_Sofa_Table</defName>
+        <tags>
+          <li>Table</li>
+        </tags>
+        <builtinSources>
+          <li>GeneBank</li>
+        </builtinSources>
+        <match>
+          <size>(2, 1)</size>
+          <label>圣三一茶会沙发桌</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>164.4</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Trinity_Large_Sofa</defName>
+        <tags>
+          <li>Seat</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 1)</size>
+          <label>圣三一茶会沙发</label>
+          <passability>Standable</passability>
+          <marketValue>183</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>WallLamp</defName>
+        <tags>
+          <li>Attachment</li>
+          <li>Lamp</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>壁灯</label>
+          <passability>Standable</passability>
+          <marketValue>29.688</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+    </repairDefs>
+  </extraInfo>
+  <things>
+    <ADH_bed_double_B_A_FURNITURE>
+      <position>(0, 0, 1)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </ADH_bed_double_B_A_FURNITURE>
+    <ADH_rug_F_A_FURNITURE>
+      <position>(1, 0, 1)</position>
+      <stuff>Leather_Human</stuff>
+      <color>RGBA(0.827, 0.761, 0.561, 1.000)</color>
+    </ADH_rug_F_A_FURNITURE>
+    <FDF_Couch_PillowBStrawberryA>
+      <rects>
+        <li>(1,0,1,0)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <color>RGBA(1.000, 0.898, 0.702, 1.000)</color>
+    </FDF_Couch_PillowBStrawberryA>
+    <ADH_light_B_A_FURNITURE>
+      <rects>
+        <li>(2,0,2,0)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </ADH_light_B_A_FURNITURE>
+    <Trinity_Large_Sofa>
+      <position>(3, 0, 0)</position>
+      <quality>Excellent</quality>
+    </Trinity_Large_Sofa>
+    <ADH_book_A_A_FURNITURE>
+      <position>(5, 0, 0)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </ADH_book_A_A_FURNITURE>
+    <Guest_Tea_Sofa>
+      <rects>
+        <li>(2,1,2,1)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <quality>Masterwork</quality>
+    </Guest_Tea_Sofa>
+    <Teaparty_Sofa_Table>
+      <position>(3, 0, 1)</position>
+      <quality>Masterwork</quality>
+    </Teaparty_Sofa_Table>
+    <ADH_EndTable_A_A_FURNITURE>
+      <rects>
+        <li>(0,2,0,2)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </ADH_EndTable_A_A_FURNITURE>
+    <FDF_DrapeB>
+      <rects>
+        <li>(2,2,2,2)</li>
+      </rects>
+      <stuff>Cloth</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.914, 0.894, 0.831, 1.000)</color>
+    </FDF_DrapeB>
+    <ADH_doormat_A_A_FURNITURE>
+      <rects>
+        <li>(5,2,5,2)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Cloth</stuff>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </ADH_doormat_A_A_FURNITURE>
+    <ADH_cabinet_A_C_FURNITURE>
+      <rects>
+        <li>(0,3,0,3)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </ADH_cabinet_A_C_FURNITURE>
+    <WallLamp>
+      <rects>
+        <li>(1,3,1,3)</li>
+        <li>(4,3,4,3)</li>
+      </rects>
+    </WallLamp>
+    <ADH_cabinet_A_B_FURNITURE>
+      <rects>
+        <li>(1,3,1,3)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </ADH_cabinet_A_B_FURNITURE>
+    <ADH_A_TubeTelevision>
+      <position>(3, 0, 3)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </ADH_A_TubeTelevision>
+    <FDF_SupportCat_CompanionCatC>
+      <rects>
+        <li>(2,3,2,3)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.600, 0.510, 0.420, 1.000)</color>
+    </FDF_SupportCat_CompanionCatC>
+    <FDF_Deco_Book>
+      <rects>
+        <li>(4,3,4,3)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </FDF_Deco_Book>
+    <BAWall_Clock>
+      <rects>
+        <li>(5,3,5,3)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <quality>Excellent</quality>
+    </BAWall_Clock>
+  </things>
+  <terrain>
+    <ADHFloor_A>
+      <rects>
+        <li>(0,0,5,3)</li>
+      </rects>
+    </ADHFloor_A>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <ADHFloor_A>
+        <rects>
+          <li>(0,0,5,3)</li>
+        </rects>
+      </ADHFloor_A>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Granite_RoughHewn>
+        <rects>
+          <li>(0,0,4,3)</li>
+          <li>(5,2,5,2)</li>
+        </rects>
+      </Granite_RoughHewn>
+      <Granite_Rough>
+        <rects>
+          <li>(5,0,5,1)</li>
+          <li>(5,3,5,3)</li>
+        </rects>
+      </Granite_Rough>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofRockThick>
+      <rects>
+        <li>(0,0,5,3)</li>
+      </rects>
+    </RoofRockThick>
+  </roofs>
+</PrefabDef>
