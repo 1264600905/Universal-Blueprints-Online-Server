@@ -1,0 +1,261 @@
+<PrefabDef>
+  <defName>Prefab_20261029_230859</defName>
+  <size>(41,8)</size>
+  <extraInfo>
+    <version>1.7.9795.32073</version>
+    <name>棱堡横</name>
+    <description></description>
+    <tags>
+      <li>DefenseWorks</li>
+    </tags>
+    <author></author>
+    <category>DefenseWorks</category>
+    <BuildingID>b30df087-f3b1-45f2-ad19-268292e87442</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>vanillaexpanded.vfesecurity</packageId>
+        <name>Vanilla Furniture Expanded - Security</name>
+        <version></version>
+        <modorder>67</modorder>
+        <steamWorkshopId>1845154007</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VFES_Turret_ChargeRailgun</li>
+          <li>VFES_Turret_AutocannonDouble</li>
+          <li>VFES_Turret_ArmoredTurret</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ancot.milirarace</packageId>
+        <name>Milira Race</name>
+        <version></version>
+        <modorder>45</modorder>
+        <steamWorkshopId>3256974620</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ancot.ancotlibrary</packageId>
+            <steamWorkshopId>2988801276</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.royalty</packageId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Milira_SunPlateSteel</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>棱堡横</default>
+        <zh-CN>棱堡横</zh-CN>
+      </name>
+      <tags>
+        <default>DefenseWorks</default>
+      </tags>
+    </multiLanguage>
+    <thingKinds version="1">
+      <Buildings>
+        <li>FirefoamPopper</li>
+        <li>HiddenConduit</li>
+        <li>Turret_Autocannon</li>
+        <li>Turret_Sniper</li>
+        <li>VFES_Turret_ArmoredTurret</li>
+        <li>VFES_Turret_AutocannonDouble</li>
+        <li>VFES_Turret_ChargeRailgun</li>
+      </Buildings>
+    </thingKinds>
+    <repairDefs version="1">
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Turret_Autocannon</defName>
+        <tags>
+          <li>Turret</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 2)</size>
+          <label>自动加农炮塔</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>1270</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Turret_Sniper</defName>
+        <tags>
+          <li>Turret</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 2)</size>
+          <label>铀弹加农炮塔</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>1445</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>VFES_Turret_ArmoredTurret</defName>
+        <tags>
+          <li>Turret</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>装甲自动机枪塔</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>390</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>VFES_Turret_AutocannonDouble</defName>
+        <tags>
+          <li>Turret</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 2)</size>
+          <label>双管自动加农炮塔</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>1970</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>VFES_Turret_ChargeRailgun</defName>
+        <tags>
+          <li>Turret</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 2)</size>
+          <label>电荷轨道炮塔</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>3095</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+    </repairDefs>
+  </extraInfo>
+  <things>
+    <Turret_Sniper>
+      <positions>
+        <li>(6, 0, 0)</li>
+        <li>(9, 0, 0)</li>
+        <li>(14, 0, 0)</li>
+        <li>(17, 0, 0)</li>
+        <li>(22, 0, 0)</li>
+        <li>(25, 0, 0)</li>
+        <li>(30, 0, 0)</li>
+        <li>(33, 0, 0)</li>
+      </positions>
+    </Turret_Sniper>
+    <VFES_Turret_ChargeRailgun>
+      <positions>
+        <li>(11, 0, 0)</li>
+        <li>(19, 0, 0)</li>
+        <li>(27, 0, 0)</li>
+        <li>(35, 0, 0)</li>
+      </positions>
+    </VFES_Turret_ChargeRailgun>
+    <Turret_Autocannon>
+      <positions>
+        <li>(2, 0, 2)</li>
+        <li>(10, 0, 2)</li>
+        <li>(18, 0, 2)</li>
+        <li>(26, 0, 2)</li>
+        <li>(34, 0, 2)</li>
+      </positions>
+    </Turret_Autocannon>
+    <VFES_Turret_AutocannonDouble>
+      <positions>
+        <li>(5, 0, 2)</li>
+        <li>(13, 0, 2)</li>
+        <li>(21, 0, 2)</li>
+        <li>(29, 0, 2)</li>
+        <li>(37, 0, 2)</li>
+      </positions>
+    </VFES_Turret_AutocannonDouble>
+    <FirefoamPopper>
+      <rects>
+        <li>(8,3,8,3)</li>
+        <li>(16,3,16,3)</li>
+        <li>(24,3,24,3)</li>
+        <li>(32,3,32,3)</li>
+      </rects>
+    </FirefoamPopper>
+    <VFES_Turret_ArmoredTurret>
+      <rects>
+        <li>(2,5,2,5)</li>
+        <li>(6,5,6,5)</li>
+        <li>(10,5,10,5)</li>
+        <li>(14,5,14,5)</li>
+        <li>(18,5,18,5)</li>
+        <li>(22,5,22,5)</li>
+        <li>(26,5,26,5)</li>
+        <li>(30,5,30,5)</li>
+        <li>(34,5,34,5)</li>
+        <li>(38,5,38,5)</li>
+      </rects>
+      <stuff>Plasteel</stuff>
+      <color>RGBA(0.627, 0.698, 0.710, 1.000)</color>
+    </VFES_Turret_ArmoredTurret>
+    <VFES_Turret_ArmoredTurret>
+      <rects>
+        <li>(0,7,0,7)</li>
+        <li>(4,7,4,7)</li>
+        <li>(8,7,8,7)</li>
+        <li>(12,7,12,7)</li>
+        <li>(16,7,16,7)</li>
+        <li>(20,7,20,7)</li>
+        <li>(24,7,24,7)</li>
+        <li>(28,7,28,7)</li>
+        <li>(32,7,32,7)</li>
+        <li>(36,7,36,7)</li>
+        <li>(40,7,40,7)</li>
+      </rects>
+      <stuff>Milira_SunPlateSteel</stuff>
+      <color>RGBA(0.965, 0.957, 0.820, 1.000)</color>
+    </VFES_Turret_ArmoredTurret>
+    <HiddenConduit>
+      <rects>
+        <li>(6,7,40,7)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+  </things>
+  <terrainLayers></terrainLayers>
+</PrefabDef>
