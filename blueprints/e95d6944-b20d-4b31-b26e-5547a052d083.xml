@@ -1,0 +1,288 @@
+<PrefabDef>
+  <defName>Prefab_20261031_221405</defName>
+  <size>(13,13)</size>
+  <extraInfo>
+    <version>1.7.9800.9270</version>
+    <name>金鼠18水栽培房间</name>
+    <description>13*13金鼠最多的水栽培</description>
+    <tags>
+      <li>PlantingArea</li>
+      <li>BaseBlueprint</li>
+    </tags>
+    <author>阿霄</author>
+    <category>PlantingArea</category>
+    <BuildingID>e95d6944-b20d-4b31-b26e-5547a052d083</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>solaris.furniturebase</packageId>
+        <name>GloomyFurniture</name>
+        <version></version>
+        <modorder>35</modorder>
+        <steamWorkshopId>1558635181</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>GL_Wall</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>oark.ratkinfaction.oberoniaaurea</packageId>
+        <name>[OA]Ratkin Faction: Oberonia aurea</name>
+        <version></version>
+        <modorder>83</modorder>
+        <steamWorkshopId>3159926804</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>oark.oberoniaaurea.framework</packageId>
+            <steamWorkshopId>3713589764</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>OA_RK_Constant_Temperature_Hydroponics</li>
+          <li>OA_RK_Zhuzi_New</li>
+          <li>OA_RK_Hengwen</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>金鼠18水栽培房间</default>
+        <zh-CN>金鼠18水栽培房间</zh-CN>
+      </name>
+      <description>
+        <default>13*13金鼠最多的水栽培</default>
+        <zh-CN>13*13金鼠最多的水栽培</zh-CN>
+      </description>
+      <tags>
+        <default>PlantingArea,BaseBlueprint</default>
+      </tags>
+    </multiLanguage>
+    <structureDefs>
+      <li>
+        <defName>GL_Wall</defName>
+        <kind>Wall</kind>
+        <size>(1,1)</size>
+      </li>
+      <li>
+        <defName>Door</defName>
+        <kind>Door</kind>
+        <size>(1,1)</size>
+      </li>
+    </structureDefs>
+    <thingKinds version="1">
+      <Buildings>
+        <li>Bed</li>
+        <li>Door</li>
+        <li>GL_Wall</li>
+        <li>HiddenConduit</li>
+        <li>OA_RK_Constant_Temperature_Hydroponics</li>
+        <li>OA_RK_Hengwen</li>
+        <li>OA_RK_Zhuzi_New</li>
+      </Buildings>
+    </thingKinds>
+    <repairDefs version="1">
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Bed</defName>
+        <tags>
+          <li>Bed</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 2)</size>
+          <label>单人床</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>92.88</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Door</defName>
+        <tags>
+          <li>Door</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>门</label>
+          <passability>Standable</passability>
+          <marketValue>53.06</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>GL_Wall</defName>
+        <tags>
+          <li>Wall</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>墙</label>
+          <passability>Impassable</passability>
+          <marketValue>10.486</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>OA_RK_Zhuzi_New</defName>
+        <tags>
+          <li>Lamp</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>金鸢尾兰光学柱</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>181.1</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+    </repairDefs>
+  </extraInfo>
+  <things>
+    <GL_Wall>
+      <rects>
+        <li>(0,0,5,0)</li>
+        <li>(7,0,12,0)</li>
+        <li>(0,1,0,5)</li>
+        <li>(12,1,12,12)</li>
+        <li>(0,7,0,12)</li>
+        <li>(1,12,5,12)</li>
+        <li>(7,12,11,12)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </GL_Wall>
+    <Door>
+      <rects>
+        <li>(6,0,6,0)</li>
+        <li>(6,12,6,12)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Door>
+    <HiddenConduit>
+      <rects>
+        <li>(6,0,6,5)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <Bed>
+      <positions>
+        <li>(1, 0, 2)</li>
+        <li>(4, 0, 7)</li>
+        <li>(1, 0, 10)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Bed>
+    <OA_RK_Constant_Temperature_Hydroponics>
+      <positions>
+        <li>(3, 0, 1)</li>
+        <li>(10, 0, 1)</li>
+        <li>(8, 0, 4)</li>
+      </positions>
+    </OA_RK_Constant_Temperature_Hydroponics>
+    <OA_RK_Constant_Temperature_Hydroponics>
+      <positions>
+        <li>(5, 0, 2)</li>
+        <li>(7, 0, 2)</li>
+        <li>(10, 0, 4)</li>
+        <li>(5, 0, 7)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+    </OA_RK_Constant_Temperature_Hydroponics>
+    <OA_RK_Constant_Temperature_Hydroponics>
+      <positions>
+        <li>(2, 0, 4)</li>
+        <li>(5, 0, 5)</li>
+        <li>(2, 0, 6)</li>
+        <li>(10, 0, 7)</li>
+        <li>(2, 0, 8)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+    </OA_RK_Constant_Temperature_Hydroponics>
+    <OA_RK_Zhuzi_New>
+      <rects>
+        <li>(4,3,4,3)</li>
+        <li>(9,3,9,3)</li>
+        <li>(4,8,4,8)</li>
+        <li>(9,8,9,8)</li>
+      </rects>
+    </OA_RK_Zhuzi_New>
+    <Door>
+      <rects>
+        <li>(0,6,0,6)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Door>
+    <OA_RK_Constant_Temperature_Hydroponics>
+      <positions>
+        <li>(8, 0, 7)</li>
+        <li>(3, 0, 10)</li>
+        <li>(5, 0, 10)</li>
+        <li>(7, 0, 10)</li>
+        <li>(9, 0, 10)</li>
+        <li>(11, 0, 10)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </OA_RK_Constant_Temperature_Hydroponics>
+    <Bed>
+      <position>(10, 0, 8)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Bed>
+    <OA_RK_Hengwen>
+      <rects>
+        <li>(1,11,1,11)</li>
+      </rects>
+    </OA_RK_Hengwen>
+  </things>
+  <terrainLayers></terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
