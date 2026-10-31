@@ -1,0 +1,587 @@
+<PrefabDef>
+  <defName>Prefab_20261031_134133</defName>
+  <size>(67,25)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>挂机阵</name>
+    <description>仅让一名敌人攻击掘进机，达成控制所有敌人的效果。对机械体特攻，储存下来的机械体可以拿来对付人类破墙袭击。对人类也可用，能完全缴获护盾一类的高价值资源，需要注意的要点可以去看链接视频。启动阵地需要用入口的休眠机械体攻击路障上的敌人，等对方反击再回到休眠状态，将敌人的仇恨转移到征召状态下的掘进机上。收容大厅的大小可自由调整，若要抓捕满点数辅兵，则需要将大厅容量扩大至200格以上。视频末尾带有挂机阵的简易版本，仅用来对策机械体和人类破墙袭击。</description>
+    <tags>
+      <li>BiotechDLC</li>
+      <li>CombatPosition</li>
+      <li>FullExport</li>
+    </tags>
+    <author>EKLazy</author>
+    <category>BiotechDLC</category>
+    <BuildingID>4d0bd3cf-a3ed-40bc-8061-a1091e21c8f8</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>ludeon.rimworld.biotech</packageId>
+        <name>Biotech</name>
+        <version></version>
+        <modorder>5</modorder>
+        <things>
+          <li>Mech_Lifter</li>
+          <li>Mech_Tunneler</li>
+          <li>Mech_Constructoid</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.ideology</packageId>
+        <name>Ideology</name>
+        <version></version>
+        <modorder>4</modorder>
+        <things>
+          <li>RitualSpot</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>挂机阵</default>
+        <zh-CN>挂机阵</zh-CN>
+      </name>
+      <description>
+        <default>仅让一名敌人攻击掘进机，达成控制所有敌人的效果。对机械体特攻，储存下来的机械体可以拿来对付人类破墙袭击。对人类也可用，能完全缴获护盾一类的高价值资源，需要注意的要点可以去看链接视频。启动阵地需要用入口的休眠机械体攻击路障上的敌人，等对方反击再回到休眠状态，将敌人的仇恨转移到征召状态下的掘进机上。收容大厅的大小可自由调整，若要抓捕满点数辅兵，则需要将大厅容量扩大至200格以上。视频末尾带有挂机阵的简易版本，仅用来对策机械体和人类破墙袭击。</default>
+        <zh-CN>仅让一名敌人攻击掘进机，达成控制所有敌人的效果。对机械体特攻，储存下来的机械体可以拿来对付人类破墙袭击。对人类也可用，能完全缴获护盾一类的高价值资源，需要注意的要点可以去看链接视频。启动阵地需要用入口的休眠机械体攻击路障上的敌人，等对方反击再回到休眠状态，将敌人的仇恨转移到征召状态下的掘进机上。收容大厅的大小可自由调整，若要抓捕满点数辅兵，则需要将大厅容量扩大至200格以上。视频末尾带有挂机阵的简易版本，仅用来对策机械体和人类破墙袭击。</zh-CN>
+      </description>
+      <tags>
+        <default>BiotechDLC,CombatPosition</default>
+      </tags>
+    </multiLanguage>
+    <url name="挂机阵的原理、建造、使用和注意事项"><![CDATA[https://www.bilibili.com/video/BV1Arxi6GEMw/]]></url>
+    <structureDefs>
+      <li>
+        <defName>Wall</defName>
+        <kind>Wall</kind>
+        <size>(1,1)</size>
+      </li>
+      <li>
+        <defName>Autodoor</defName>
+        <kind>Door</kind>
+        <size>(1,1)</size>
+      </li>
+      <li>
+        <defName>Door</defName>
+        <kind>Door</kind>
+        <size>(1,1)</size>
+      </li>
+    </structureDefs>
+    <thingKinds version="1">
+      <Buildings>
+        <li>Autodoor</li>
+        <li>Barricade</li>
+        <li>Column</li>
+        <li>Door</li>
+        <li>Fence</li>
+        <li>HorseshoesPin</li>
+        <li>PowerConduit</li>
+        <li>Stool</li>
+        <li>Turret_MiniTurret</li>
+        <li>Turret_Sniper</li>
+        <li>Wall</li>
+        <li>WallLamp</li>
+      </Buildings>
+      <ArtificialTerrain>
+        <li>RitualSpot</li>
+      </ArtificialTerrain>
+    </thingKinds>
+    <repairDefs version="1">
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Concrete</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>Steel</li>
+          </resources>
+          <colors />
+          <materials>
+            <li>concrete</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>PavedTile</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>Steel</li>
+          </resources>
+          <colors />
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Autodoor</defName>
+        <tags>
+          <li>Door</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>自动门</label>
+          <passability>Standable</passability>
+          <marketValue>193.96</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Door</defName>
+        <tags>
+          <li>Door</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>门</label>
+          <passability>Standable</passability>
+          <marketValue>53.06</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>RitualSpot</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>仪式举办点</label>
+          <passability>Standable</passability>
+          <marketValue>0</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Stool</defName>
+        <tags>
+          <li>Seat</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>凳子</label>
+          <passability>Standable</passability>
+          <marketValue>51.62</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Turret_MiniTurret</defName>
+        <tags>
+          <li>Turret</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>小型自动机枪塔</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>295</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Turret_Sniper</defName>
+        <tags>
+          <li>Turret</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 2)</size>
+          <label>铀弹加农炮塔</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>1445</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Wall</defName>
+        <tags>
+          <li>Wall</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>墙</label>
+          <passability>Impassable</passability>
+          <marketValue>10.486</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>WallLamp</defName>
+        <tags>
+          <li>Attachment</li>
+          <li>Lamp</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>壁灯</label>
+          <passability>Standable</passability>
+          <marketValue>29.688</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+    </repairDefs>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(5,0,12,1)</li>
+        <li>(4,1,4,2)</li>
+        <li>(14,1,15,7)</li>
+        <li>(3,2,3,3)</li>
+        <li>(2,3,2,4)</li>
+        <li>(1,4,1,12)</li>
+        <li>(0,5,0,11)</li>
+        <li>(4,7,12,7)</li>
+        <li>(14,9,15,11)</li>
+        <li>(48,10,52,10)</li>
+        <li>(54,10,60,10)</li>
+        <li>(62,10,66,10)</li>
+        <li>(16,11,17,15)</li>
+        <li>(48,11,48,14)</li>
+        <li>(59,11,59,22)</li>
+        <li>(66,11,66,11)</li>
+        <li>(2,12,2,13)</li>
+        <li>(3,13,3,14)</li>
+        <li>(12,13,12,13)</li>
+        <li>(14,13,14,16)</li>
+        <li>(18,13,18,13)</li>
+        <li>(22,13,47,13)</li>
+        <li>(66,13,66,24)</li>
+        <li>(4,14,4,15)</li>
+        <li>(22,14,23,14)</li>
+        <li>(26,14,47,14)</li>
+        <li>(5,15,13,16)</li>
+        <li>(17,16,17,16)</li>
+        <li>(8,17,9,19)</li>
+        <li>(10,18,17,19)</li>
+        <li>(16,20,17,21)</li>
+        <li>(22,20,27,21)</li>
+        <li>(29,20,29,22)</li>
+        <li>(31,20,48,21)</li>
+        <li>(18,21,18,21)</li>
+        <li>(28,21,28,21)</li>
+        <li>(30,22,31,22)</li>
+        <li>(48,22,48,24)</li>
+        <li>(49,24,52,24)</li>
+        <li>(54,24,60,24)</li>
+        <li>(62,24,65,24)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Wall>
+    <Autodoor>
+      <rects>
+        <li>(13,0,13,0)</li>
+        <li>(30,20,30,20)</li>
+      </rects>
+      <stuff>Plasteel</stuff>
+      <color>RGBA(0.627, 0.698, 0.710, 1.000)</color>
+    </Autodoor>
+    <PowerConduit>
+      <rects>
+        <li>(15,6,15,6)</li>
+        <li>(11,15,11,15)</li>
+      </rects>
+    </PowerConduit>
+    <Door>
+      <rects>
+        <li>(13,7,13,7)</li>
+        <li>(13,13,13,13)</li>
+        <li>(20,14,20,14)</li>
+        <li>(49,15,49,15)</li>
+        <li>(49,19,49,19)</li>
+        <li>(20,20,20,20)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Door>
+    <Autodoor>
+      <rects>
+        <li>(15,8,15,8)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Plasteel</stuff>
+      <color>RGBA(0.627, 0.698, 0.710, 1.000)</color>
+    </Autodoor>
+    <Autodoor>
+      <rects>
+        <li>(53,10,53,10)</li>
+        <li>(61,10,61,10)</li>
+        <li>(53,24,53,24)</li>
+        <li>(61,24,61,24)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Autodoor>
+    <WallLamp>
+      <rects>
+        <li>(54,11,54,11)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </WallLamp>
+    <Fence>
+      <rects>
+        <li>(13,12,13,12)</li>
+        <li>(15,13,15,13)</li>
+        <li>(15,15,15,15)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Fence>
+    <HorseshoesPin>
+      <rects>
+        <li>(61,12,64,22)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </HorseshoesPin>
+    <Autodoor>
+      <rects>
+        <li>(66,12,66,12)</li>
+        <li>(59,23,59,23)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Autodoor>
+    <Wall>
+      <rects>
+        <li>(20,13,20,13)</li>
+        <li>(18,14,19,14)</li>
+        <li>(21,14,21,14)</li>
+        <li>(19,17,19,17)</li>
+        <li>(18,20,19,20)</li>
+        <li>(21,20,21,20)</li>
+        <li>(20,21,20,21)</li>
+      </rects>
+      <stuff>Plasteel</stuff>
+      <color>RGBA(0.627, 0.698, 0.710, 1.000)</color>
+    </Wall>
+    <Barricade>
+      <rects>
+        <li>(49,13,52,13)</li>
+        <li>(52,14,53,14)</li>
+        <li>(48,15,48,15)</li>
+        <li>(53,15,53,15)</li>
+        <li>(48,19,48,19)</li>
+        <li>(53,19,53,20)</li>
+        <li>(52,20,52,21)</li>
+        <li>(49,21,51,21)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Barricade>
+    <Door>
+      <rects>
+        <li>(12,14,12,14)</li>
+        <li>(49,16,49,18)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>BlocksGranite</stuff>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Door>
+    <Turret_MiniTurret>
+      <rects>
+        <li>(13,14,13,14)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Turret_MiniTurret>
+    <Wall>
+      <rects>
+        <li>(24,14,25,14)</li>
+        <li>(28,20,28,20)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <hp>499</hp>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Wall>
+    <Stool>
+      <rects>
+        <li>(50,15,51,15)</li>
+        <li>(50,19,51,19)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Stool>
+    <Column>
+      <rects>
+        <li>(16,16,16,16)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Column>
+    <Door>
+      <rects>
+        <li>(17,17,17,17)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Door>
+    <Barricade>
+      <rects>
+        <li>(18,17,18,17)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Barricade>
+    <RitualSpot>
+      <rects>
+        <li>(30,17,30,17)</li>
+        <li>(43,17,43,17)</li>
+      </rects>
+    </RitualSpot>
+    <Turret_Sniper>
+      <position>(57, 0, 17)</position>
+    </Turret_Sniper>
+    <WallLamp>
+      <rects>
+        <li>(52,23,52,23)</li>
+      </rects>
+    </WallLamp>
+  </things>
+  <terrain>
+    <Concrete>
+      <rects>
+        <li>(53,10,53,10)</li>
+        <li>(49,13,53,21)</li>
+        <li>(54,14,58,20)</li>
+        <li>(59,23,59,23)</li>
+        <li>(53,24,53,24)</li>
+      </rects>
+    </Concrete>
+    <PavedTile>
+      <rects>
+        <li>(49,11,58,12)</li>
+        <li>(54,13,58,13)</li>
+        <li>(54,21,58,23)</li>
+        <li>(49,22,53,23)</li>
+      </rects>
+    </PavedTile>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <Concrete>
+        <rects>
+          <li>(53,10,53,10)</li>
+          <li>(49,13,53,21)</li>
+          <li>(54,14,58,20)</li>
+          <li>(59,23,59,23)</li>
+          <li>(53,24,53,24)</li>
+        </rects>
+      </Concrete>
+      <PavedTile>
+        <rects>
+          <li>(49,11,58,12)</li>
+          <li>(54,13,58,13)</li>
+          <li>(54,21,58,23)</li>
+          <li>(49,22,53,23)</li>
+        </rects>
+      </PavedTile>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(15,1,15,10)</li>
+        <li>(48,10,59,24)</li>
+        <li>(16,12,17,21)</li>
+        <li>(15,13,15,18)</li>
+        <li>(18,13,18,21)</li>
+        <li>(20,13,20,21)</li>
+        <li>(22,13,47,21)</li>
+        <li>(19,14,19,20)</li>
+        <li>(21,14,21,20)</li>
+        <li>(5,15,14,15)</li>
+        <li>(7,16,14,16)</li>
+        <li>(8,17,14,19)</li>
+      </rects>
+    </RoofConstructed>
+  </roofs>
+  <pawns>
+    <pawn kind="Animals" sourceMod="ludeon.rimworld.biotech">
+      <name>搬运机 3</name>
+      <position>(18, 0, 16)</position>
+      <data><![CDATA[搬运机 3*Mech_Lifter*撤退|PlayerColony*搬运机 3*5815523991*-5814414226*0***0*****FF-FF-FF-FF*FF-FF-FF-FF*-1*FF-FF-FF-FF*FF-FF-FF-FF*FF-FF-FF-FF******Firefighter|0:Patient|0:Doctor|0:PatientBedRest|0:BasicWorker|0:Warden|0:Handling|0:Cooking|0:Hunting|0:Construction|0:Growing|0:Mining|0:PlantCutting|0:Smithing|0:Tailoring|0:Art|0:Crafting|0:Hauling|3:Cleaning|0:Research|0:Childcare|0:DarkStudy|0:Fishing|0****Kills|0:KillsHumanlikes|0:KillsAnimals|0:KillsMechanoids|0:PawnsDowned|0:PawnsDownedHumanlikes|0:PawnsDownedAnimals|0:PawnsDownedMechanoids|0:ShotsFired|0:Headshots|0:DamageDealt|7:DamageTaken|9:TimesInMentalState|0:TimesOnFire|0:FiresExtinguished|0:OperationsReceived|0:OperationsPerformed|0:TimesTendedTo|0:TimesTendedOther|0:PeopleCaptured|0:PrisonersRecruited|0:PrisonersChatted|0:AnimalsTamed|0:AnimalsSlaughtered|0:MealsCooked|0:ThingsConstructed|0:ThingsInstalled|0:ThingsRepaired|0:ThingsCrafted|0:ThingsHauled|0:PlantsSown|0:PlantsHarvested|0:CellsMined|0:MessesCleaned|0:ResearchPointsResearched|0:CorpsesBuried|0:NutritionEaten|0:BodiesStripped|0:ThingsUninstalled|0:ThingsDeconstructed|0:ArtifactsActivated|0:ContainersOpened|0:SwitchesFlicked|0:TimeAsColonistOrColonyAnimal|226720:TimeAsQuestLodger|0:TimeAsPrisoner|0:TimeInBed|0:TimeInBedForMedicalReasons|0:TimeDowned|0:TimeGettingFood|0:TimeGettingJoy|0:TimeUnderRoof|200880:TimeDrafted|12640:TimeOnFire|0:TimeInMentalState|0:TimeHauling|0:TimeHandlingAnimals|0:TimeFirefighting|0:TimeWardening|0:TimeHunting|0:TimeConstructing|0:TimeTreatingAndFeeding|0:TimeResearching|0:TimeCleaning|0:TimeRepairing|0:TimeMining|0:TimeSowingAndHarvesting|0:TimeAsChildInColony|0:KillsEntities|0:PawnsDownedEntities|0*MechEnergy|1***Overseer|Kyle?Pfromer?Pfromer|265539*****0*0**FF-FF-FF-FF***[ludeon.rimworld.biotech]*********FF-FF-FF-FF***]]></data>
+    </pawn>
+    <pawn kind="Animals" sourceMod="ludeon.rimworld.biotech">
+      <name>搬运机 1</name>
+      <position>(19, 0, 16)</position>
+      <data><![CDATA[搬运机 1*Mech_Lifter*撤退|PlayerColony*搬运机 1*6929434448*-6928324683*0***0*****FF-FF-FF-FF*FF-FF-FF-FF*-1*FF-FF-FF-FF*FF-FF-FF-FF*FF-FF-FF-FF******Firefighter|0:Patient|0:Doctor|0:PatientBedRest|0:BasicWorker|0:Warden|0:Handling|0:Cooking|0:Hunting|0:Construction|0:Growing|0:Mining|0:PlantCutting|0:Smithing|0:Tailoring|0:Art|0:Crafting|0:Hauling|3:Cleaning|0:Research|0:Childcare|0:DarkStudy|0:Fishing|0****Kills|0:KillsHumanlikes|0:KillsAnimals|0:KillsMechanoids|0:PawnsDowned|0:PawnsDownedHumanlikes|0:PawnsDownedAnimals|0:PawnsDownedMechanoids|0:ShotsFired|0:Headshots|0:DamageDealt|0:DamageTaken|0:TimesInMentalState|0:TimesOnFire|0:FiresExtinguished|0:OperationsReceived|0:OperationsPerformed|0:TimesTendedTo|0:TimesTendedOther|0:PeopleCaptured|0:PrisonersRecruited|0:PrisonersChatted|0:AnimalsTamed|0:AnimalsSlaughtered|0:MealsCooked|0:ThingsConstructed|0:ThingsInstalled|1:ThingsRepaired|0:ThingsCrafted|0:ThingsHauled|9:PlantsSown|0:PlantsHarvested|0:CellsMined|0:MessesCleaned|0:ResearchPointsResearched|0:CorpsesBuried|0:NutritionEaten|0:BodiesStripped|0:ThingsUninstalled|0:ThingsDeconstructed|0:ArtifactsActivated|0:ContainersOpened|0:SwitchesFlicked|0:TimeAsColonistOrColonyAnimal|279520:TimeAsQuestLodger|0:TimeAsPrisoner|0:TimeInBed|0:TimeInBedForMedicalReasons|0:TimeDowned|0:TimeGettingFood|0:TimeGettingJoy|0:TimeUnderRoof|235120:TimeDrafted|15120:TimeOnFire|0:TimeInMentalState|0:TimeHauling|480:TimeHandlingAnimals|0:TimeFirefighting|0:TimeWardening|0:TimeHunting|0:TimeConstructing|0:TimeTreatingAndFeeding|0:TimeResearching|0:TimeCleaning|0:TimeRepairing|0:TimeMining|0:TimeSowingAndHarvesting|0:TimeAsChildInColony|0:KillsEntities|0:PawnsDownedEntities|0*MechEnergy|1***Overseer|Kyle?Pfromer?Pfromer|212748*****0*0**FF-FF-FF-FF***[ludeon.rimworld.biotech]*********FF-FF-FF-FF***]]></data>
+    </pawn>
+    <pawn kind="Animals" sourceMod="ludeon.rimworld.biotech">
+      <name>掘进机 2</name>
+      <position>(30, 0, 17)</position>
+      <data><![CDATA[掘进机 2*Mech_Tunneler*撤退|PlayerColony*掘进机 2*3388253789*-3387144024*0***0*****FF-FF-FF-FF*FF-FF-FF-FF*-1*FF-FF-FF-FF*FF-FF-FF-FF*FF-FF-FF-FF******Firefighter|0:Patient|0:Doctor|0:PatientBedRest|0:BasicWorker|0:Warden|0:Handling|0:Cooking|0:Hunting|0:Construction|0:Growing|0:Mining|3:PlantCutting|0:Smithing|0:Tailoring|0:Art|0:Crafting|0:Hauling|0:Cleaning|0:Research|0:Childcare|0:DarkStudy|0:Fishing|0****Kills|0:KillsHumanlikes|0:KillsAnimals|0:KillsMechanoids|0:PawnsDowned|0:PawnsDownedHumanlikes|0:PawnsDownedAnimals|0:PawnsDownedMechanoids|0:ShotsFired|0:Headshots|0:DamageDealt|0:DamageTaken|0:TimesInMentalState|0:TimesOnFire|0:FiresExtinguished|0:OperationsReceived|0:OperationsPerformed|0:TimesTendedTo|0:TimesTendedOther|0:PeopleCaptured|0:PrisonersRecruited|0:PrisonersChatted|0:AnimalsTamed|0:AnimalsSlaughtered|0:MealsCooked|0:ThingsConstructed|0:ThingsInstalled|0:ThingsRepaired|0:ThingsCrafted|0:ThingsHauled|0:PlantsSown|0:PlantsHarvested|0:CellsMined|0:MessesCleaned|0:ResearchPointsResearched|0:CorpsesBuried|0:NutritionEaten|0:BodiesStripped|0:ThingsUninstalled|0:ThingsDeconstructed|0:ArtifactsActivated|0:ContainersOpened|0:SwitchesFlicked|0:TimeAsColonistOrColonyAnimal|209040:TimeAsQuestLodger|0:TimeAsPrisoner|0:TimeInBed|0:TimeInBedForMedicalReasons|0:TimeDowned|0:TimeGettingFood|0:TimeGettingJoy|0:TimeUnderRoof|205600:TimeDrafted|49680:TimeOnFire|0:TimeInMentalState|0:TimeHauling|0:TimeHandlingAnimals|0:TimeFirefighting|0:TimeWardening|0:TimeHunting|0:TimeConstructing|0:TimeTreatingAndFeeding|0:TimeResearching|0:TimeCleaning|0:TimeRepairing|0:TimeMining|0:TimeSowingAndHarvesting|0:TimeAsChildInColony|0:KillsEntities|0:PawnsDownedEntities|0*MechEnergy|0.9917495***Overseer|Kyle?Pfromer?Pfromer|283422*****0*0*SmokepopMech*FF-FF-FF-FF***[ludeon.rimworld.biotech]*********FF-FF-FF-FF***]]></data>
+    </pawn>
+    <pawn kind="Animals" sourceMod="ludeon.rimworld.biotech">
+      <name>掘进机 1</name>
+      <position>(43, 0, 17)</position>
+      <data><![CDATA[掘进机 1*Mech_Tunneler*撤退|PlayerColony*掘进机 1*767464817*-766355052*0***0*****FF-FF-FF-FF*FF-FF-FF-FF*-1*FF-FF-FF-FF*FF-FF-FF-FF*FF-FF-FF-FF******Firefighter|0:Patient|0:Doctor|0:PatientBedRest|0:BasicWorker|0:Warden|0:Handling|0:Cooking|0:Hunting|0:Construction|0:Growing|0:Mining|3:PlantCutting|0:Smithing|0:Tailoring|0:Art|0:Crafting|0:Hauling|0:Cleaning|0:Research|0:Childcare|0:DarkStudy|0:Fishing|0****Kills|0:KillsHumanlikes|0:KillsAnimals|0:KillsMechanoids|0:PawnsDowned|0:PawnsDownedHumanlikes|0:PawnsDownedAnimals|0:PawnsDownedMechanoids|0:ShotsFired|0:Headshots|0:DamageDealt|0:DamageTaken|15:TimesInMentalState|0:TimesOnFire|0:FiresExtinguished|0:OperationsReceived|0:OperationsPerformed|0:TimesTendedTo|0:TimesTendedOther|0:PeopleCaptured|0:PrisonersRecruited|0:PrisonersChatted|0:AnimalsTamed|0:AnimalsSlaughtered|0:MealsCooked|0:ThingsConstructed|0:ThingsInstalled|0:ThingsRepaired|0:ThingsCrafted|0:ThingsHauled|0:PlantsSown|0:PlantsHarvested|0:CellsMined|0:MessesCleaned|0:ResearchPointsResearched|0:CorpsesBuried|0:NutritionEaten|0:BodiesStripped|0:ThingsUninstalled|0:ThingsDeconstructed|0:ArtifactsActivated|0:ContainersOpened|0:SwitchesFlicked|0:TimeAsColonistOrColonyAnimal|277680:TimeAsQuestLodger|0:TimeAsPrisoner|0:TimeInBed|0:TimeInBedForMedicalReasons|0:TimeDowned|0:TimeGettingFood|0:TimeGettingJoy|0:TimeUnderRoof|268640:TimeDrafted|77680:TimeOnFire|0:TimeInMentalState|0:TimeHauling|0:TimeHandlingAnimals|0:TimeFirefighting|0:TimeWardening|0:TimeHunting|0:TimeConstructing|0:TimeTreatingAndFeeding|0:TimeResearching|0:TimeCleaning|0:TimeRepairing|0:TimeMining|0:TimeSowingAndHarvesting|0:TimeAsChildInColony|0:KillsEntities|0:PawnsDownedEntities|0*MechEnergy|1***Overseer|Kyle?Pfromer?Pfromer|214990*****0*0*SmokepopMech*FF-FF-FF-FF***[ludeon.rimworld.biotech]*********FF-FF-FF-FF***]]></data>
+    </pawn>
+    <pawn kind="Animals" sourceMod="ludeon.rimworld.biotech">
+      <name>搬运机 2</name>
+      <position>(18, 0, 18)</position>
+      <data><![CDATA[搬运机 2*Mech_Lifter*撤退|PlayerColony*搬运机 2*1261257388*-1260147622*0***0*****FF-FF-FF-FF*FF-FF-FF-FF*-1*FF-FF-FF-FF*FF-FF-FF-FF*FF-FF-FF-FF******Firefighter|0:Patient|0:Doctor|0:PatientBedRest|0:BasicWorker|0:Warden|0:Handling|0:Cooking|0:Hunting|0:Construction|0:Growing|0:Mining|0:PlantCutting|0:Smithing|0:Tailoring|0:Art|0:Crafting|0:Hauling|3:Cleaning|0:Research|0:Childcare|0:DarkStudy|0:Fishing|0****Kills|0:KillsHumanlikes|0:KillsAnimals|0:KillsMechanoids|0:PawnsDowned|0:PawnsDownedHumanlikes|0:PawnsDownedAnimals|0:PawnsDownedMechanoids|0:ShotsFired|0:Headshots|0:DamageDealt|5:DamageTaken|0:TimesInMentalState|0:TimesOnFire|0:FiresExtinguished|0:OperationsReceived|0:OperationsPerformed|0:TimesTendedTo|0:TimesTendedOther|0:PeopleCaptured|0:PrisonersRecruited|0:PrisonersChatted|0:AnimalsTamed|0:AnimalsSlaughtered|0:MealsCooked|0:ThingsConstructed|0:ThingsInstalled|1:ThingsRepaired|0:ThingsCrafted|0:ThingsHauled|5:PlantsSown|0:PlantsHarvested|0:CellsMined|0:MessesCleaned|0:ResearchPointsResearched|0:CorpsesBuried|0:NutritionEaten|0:BodiesStripped|0:ThingsUninstalled|0:ThingsDeconstructed|0:ArtifactsActivated|0:ContainersOpened|0:SwitchesFlicked|0:TimeAsColonistOrColonyAnimal|234240:TimeAsQuestLodger|0:TimeAsPrisoner|0:TimeInBed|0:TimeInBedForMedicalReasons|0:TimeDowned|0:TimeGettingFood|0:TimeGettingJoy|0:TimeUnderRoof|234240:TimeDrafted|14160:TimeOnFire|0:TimeInMentalState|0:TimeHauling|160:TimeHandlingAnimals|0:TimeFirefighting|0:TimeWardening|0:TimeHunting|0:TimeConstructing|0:TimeTreatingAndFeeding|0:TimeResearching|0:TimeCleaning|0:TimeRepairing|0:TimeMining|0:TimeSowingAndHarvesting|0:TimeAsChildInColony|0:KillsEntities|0:PawnsDownedEntities|0*MechEnergy|0.9998507***Overseer|Kyle?Pfromer?Pfromer|258364*****0*0**FF-FF-FF-FF***[ludeon.rimworld.biotech]*********FF-FF-FF-FF***]]></data>
+    </pawn>
+    <pawn kind="Animals" sourceMod="ludeon.rimworld.biotech">
+      <name>建造机 1</name>
+      <position>(19, 0, 18)</position>
+      <data><![CDATA[建造机 1*Mech_Constructoid*撤退|PlayerColony*建造机 1*8486093644*-8484983879*0***0*****FF-FF-FF-FF*FF-FF-FF-FF*-1*FF-FF-FF-FF*FF-FF-FF-FF*FF-FF-FF-FF******Firefighter|0:Patient|0:Doctor|0:PatientBedRest|0:BasicWorker|0:Warden|0:Handling|0:Cooking|0:Hunting|0:Construction|3:Growing|0:Mining|0:PlantCutting|0:Smithing|0:Tailoring|0:Art|0:Crafting|0:Hauling|0:Cleaning|0:Research|0:Childcare|0:DarkStudy|0:Fishing|0****Kills|0:KillsHumanlikes|0:KillsAnimals|0:KillsMechanoids|0:PawnsDowned|0:PawnsDownedHumanlikes|0:PawnsDownedAnimals|0:PawnsDownedMechanoids|0:ShotsFired|0:Headshots|0:DamageDealt|0:DamageTaken|0:TimesInMentalState|0:TimesOnFire|0:FiresExtinguished|0:OperationsReceived|0:OperationsPerformed|0:TimesTendedTo|0:TimesTendedOther|0:PeopleCaptured|0:PrisonersRecruited|0:PrisonersChatted|0:AnimalsTamed|0:AnimalsSlaughtered|0:MealsCooked|0:ThingsConstructed|0:ThingsInstalled|2:ThingsRepaired|0:ThingsCrafted|0:ThingsHauled|3:PlantsSown|0:PlantsHarvested|0:CellsMined|0:MessesCleaned|0:ResearchPointsResearched|0:CorpsesBuried|0:NutritionEaten|0:BodiesStripped|0:ThingsUninstalled|0:ThingsDeconstructed|0:ArtifactsActivated|0:ContainersOpened|0:SwitchesFlicked|0:TimeAsColonistOrColonyAnimal|74400:TimeAsQuestLodger|0:TimeAsPrisoner|0:TimeInBed|0:TimeInBedForMedicalReasons|0:TimeDowned|0:TimeGettingFood|0:TimeGettingJoy|0:TimeUnderRoof|38560:TimeDrafted|7840:TimeOnFire|0:TimeInMentalState|0:TimeHauling|0:TimeHandlingAnimals|0:TimeFirefighting|0:TimeWardening|0:TimeHunting|0:TimeConstructing|0:TimeTreatingAndFeeding|0:TimeResearching|0:TimeCleaning|0:TimeRepairing|0:TimeMining|0:TimeSowingAndHarvesting|0:TimeAsChildInColony|0:KillsEntities|0:PawnsDownedEntities|0*MechEnergy|0.4933437***Overseer|Kyle?Pfromer?Pfromer|417761*****0*0**FF-FF-FF-FF***[ludeon.rimworld.biotech]*********FF-FF-FF-FF***]]></data>
+    </pawn>
+  </pawns>
+</PrefabDef>
