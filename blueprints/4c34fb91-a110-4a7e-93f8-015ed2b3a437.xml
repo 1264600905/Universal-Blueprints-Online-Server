@@ -1,0 +1,117 @@
+<PrefabDef>
+  <defName>Prefab_20261101_050722</defName>
+  <size>(13,13)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>广场</name>
+    <description></description>
+    <tags>
+      <li>Other</li>
+    </tags>
+    <author></author>
+    <category>Other</category>
+    <BuildingID>4c34fb91-a110-4a7e-93f8-015ed2b3a437</BuildingID>
+    <modPackages></modPackages>
+    <multiLanguage>
+      <name>
+        <default>广场</default>
+        <zh-CN>广场</zh-CN>
+      </name>
+      <tags>
+        <default>Other</default>
+      </tags>
+    </multiLanguage>
+    <thingKinds version="1" />
+    <repairDefs version="1">
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>FlagstoneMarble</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>BlocksMarble</li>
+          </resources>
+          <colors />
+          <materials>
+            <li>marble</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Soil</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>soil</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>SoilRich</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>soil</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+    </repairDefs>
+  </extraInfo>
+  <things></things>
+  <terrain>
+    <FlagstoneMarble>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </FlagstoneMarble>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <FlagstoneMarble>
+        <rects>
+          <li>(0,0,12,12)</li>
+        </rects>
+      </FlagstoneMarble>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <SoilRich>
+        <rects>
+          <li>(0,0,1,0)</li>
+          <li>(0,3,0,5)</li>
+        </rects>
+      </SoilRich>
+      <Soil>
+        <rects>
+          <li>(2,0,12,12)</li>
+          <li>(0,1,1,2)</li>
+          <li>(1,3,1,12)</li>
+          <li>(0,6,0,12)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+</PrefabDef>
