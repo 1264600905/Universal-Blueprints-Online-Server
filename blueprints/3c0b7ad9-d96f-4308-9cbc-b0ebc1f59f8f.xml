@@ -1,0 +1,586 @@
+<PrefabDef>
+  <defName>Prefab_20261102_164950</defName>
+  <size>(13,13)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>工作室</name>
+    <description>加入金鼠鼠的工作室</description>
+    <tags>
+      <li>Workshop</li>
+    </tags>
+    <author>阿霄</author>
+    <category>Workshop</category>
+    <BuildingID>3c0b7ad9-d96f-4308-9cbc-b0ebc1f59f8f</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>solaris.furniturebase</packageId>
+        <name>GloomyFurniture</name>
+        <version></version>
+        <modorder>35</modorder>
+        <steamWorkshopId>1558635181</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>GL_Wall</li>
+          <li>GL_ElectricTailoringBench</li>
+          <li>GL_ElectricSmithy</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>oark.ratkinfaction.oberoniaaurea</packageId>
+        <name>[OA]Ratkin Faction: Oberonia aurea</name>
+        <version></version>
+        <modorder>84</modorder>
+        <steamWorkshopId>3159926804</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>oark.oberoniaaurea.framework</packageId>
+            <steamWorkshopId>3713589764</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>OA_RK_Tailor</li>
+          <li>OA_RK_Cloth_Processing_B</li>
+          <li>OA_RK_Cloth_Processing</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>solaris.ratkinracemod</packageId>
+        <name>NewRatkinPlus</name>
+        <version></version>
+        <modorder>71</modorder>
+        <steamWorkshopId>1578693166</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>RK_ElectricSmithy</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>工作室</default>
+        <zh-CN>工作室</zh-CN>
+      </name>
+      <description>
+        <default>加入金鼠鼠的工作室</default>
+        <zh-CN>加入金鼠鼠的工作室</zh-CN>
+      </description>
+      <tags>
+        <default>Workshop</default>
+      </tags>
+    </multiLanguage>
+    <structureDefs>
+      <li>
+        <defName>GL_Wall</defName>
+        <kind>Wall</kind>
+        <size>(1,1)</size>
+      </li>
+      <li>
+        <defName>Door</defName>
+        <kind>Door</kind>
+        <size>(1,1)</size>
+      </li>
+    </structureDefs>
+    <thingKinds version="1">
+      <Buildings>
+        <li>BiofuelRefinery</li>
+        <li>Brewery</li>
+        <li>Door</li>
+        <li>ElectricSmelter</li>
+        <li>FabricationBench</li>
+        <li>GL_ElectricSmithy</li>
+        <li>GL_ElectricTailoringBench</li>
+        <li>GL_Wall</li>
+        <li>OA_RK_Cloth_Processing</li>
+        <li>OA_RK_Cloth_Processing_B</li>
+        <li>OA_RK_Tailor</li>
+        <li>RK_ElectricSmithy</li>
+        <li>TableMachining</li>
+        <li>TableSculpting</li>
+        <li>TableStonecutter</li>
+        <li>ToolCabinet</li>
+      </Buildings>
+    </thingKinds>
+    <repairDefs version="1">
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Concrete</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>Steel</li>
+          </resources>
+          <colors />
+          <materials>
+            <li>concrete</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Marsh</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>MossyTerrain</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Soil</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>soil</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>BiofuelRefinery</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 2)</size>
+          <label>精炼设备</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>390</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Brewery</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 1)</size>
+          <label>酿造台</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>210</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Door</defName>
+        <tags>
+          <li>Door</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>门</label>
+          <passability>Standable</passability>
+          <marketValue>53.06</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>ElectricSmelter</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 1)</size>
+          <label>熔炼器（电力）</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>400</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>FabricationBench</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(5, 2)</size>
+          <label>精密装配台</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>1180</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>GL_ElectricSmithy</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources>
+          <li>ElectricSmithy</li>
+        </builtinSources>
+        <match>
+          <size>(3, 1)</size>
+          <label>电力锻造台</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>320</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Woody</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>GL_ElectricTailoringBench</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources>
+          <li>ElectricTailoringBench</li>
+        </builtinSources>
+        <match>
+          <size>(3, 1)</size>
+          <label>电动缝纫台</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>325</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Woody</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>GL_Wall</defName>
+        <tags>
+          <li>Wall</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>墙</label>
+          <passability>Impassable</passability>
+          <marketValue>10.486</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>OA_RK_Tailor</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 1)</size>
+          <label>金鸢尾兰缝纫台</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>425</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>RK_ElectricSmithy</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 1)</size>
+          <label>鼠族锻造台（电力）</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>320</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Woody</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>TableMachining</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 1)</size>
+          <label>机械加工台</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>455</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>TableSculpting</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 1)</size>
+          <label>艺创台</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>255</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>TableStonecutter</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 1)</size>
+          <label>切石桌</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>215</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+          </stuffCategories>
+        </match>
+      </li>
+    </repairDefs>
+  </extraInfo>
+  <things>
+    <GL_Wall>
+      <rects>
+        <li>(0,0,5,0)</li>
+        <li>(7,0,12,0)</li>
+        <li>(0,1,0,5)</li>
+        <li>(12,1,12,1)</li>
+        <li>(12,3,12,12)</li>
+        <li>(0,7,0,12)</li>
+        <li>(1,12,5,12)</li>
+        <li>(7,12,11,12)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </GL_Wall>
+    <Door>
+      <rects>
+        <li>(6,0,6,0)</li>
+        <li>(6,12,6,12)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <GL_ElectricTailoringBench>
+      <position>(2, 0, 1)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </GL_ElectricTailoringBench>
+    <GL_ElectricSmithy>
+      <position>(10, 0, 1)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </GL_ElectricSmithy>
+    <OA_RK_Tailor>
+      <position>(1, 0, 2)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </OA_RK_Tailor>
+    <BiofuelRefinery>
+      <position>(6, 0, 2)</position>
+    </BiofuelRefinery>
+    <Door>
+      <rects>
+        <li>(12,2,12,2)</li>
+        <li>(0,6,0,6)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <RK_ElectricSmithy>
+      <position>(11, 0, 4)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RK_ElectricSmithy>
+    <OA_RK_Cloth_Processing_B>
+      <position>(1, 0, 4)</position>
+    </OA_RK_Cloth_Processing_B>
+    <ToolCabinet>
+      <position>(5, 0, 4)</position>
+      <color>RGBA(0.376, 0.447, 0.373, 1.000)</color>
+    </ToolCabinet>
+    <ToolCabinet>
+      <position>(7, 0, 4)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <color>RGBA(0.376, 0.447, 0.373, 1.000)</color>
+    </ToolCabinet>
+    <OA_RK_Cloth_Processing>
+      <position>(6, 0, 5)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </OA_RK_Cloth_Processing>
+    <ElectricSmelter>
+      <position>(10, 0, 5)</position>
+    </ElectricSmelter>
+    <TableSculpting>
+      <position>(1, 0, 8)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </TableSculpting>
+    <TableStonecutter>
+      <position>(3, 0, 7)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </TableStonecutter>
+    <Brewery>
+      <position>(9, 0, 7)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </Brewery>
+    <TableMachining>
+      <position>(11, 0, 8)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </TableMachining>
+    <FabricationBench>
+      <positions>
+        <li>(3, 0, 10)</li>
+        <li>(9, 0, 10)</li>
+      </positions>
+    </FabricationBench>
+  </things>
+  <terrain>
+    <Concrete>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </Concrete>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <Concrete>
+        <rects>
+          <li>(0,0,12,12)</li>
+        </rects>
+      </Concrete>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <MossyTerrain>
+        <rects>
+          <li>(0,0,8,6)</li>
+          <li>(9,1,9,12)</li>
+          <li>(11,1,12,12)</li>
+          <li>(10,2,10,12)</li>
+          <li>(0,7,5,8)</li>
+          <li>(0,9,2,9)</li>
+          <li>(0,10,1,10)</li>
+          <li>(8,10,8,12)</li>
+          <li>(0,11,0,12)</li>
+          <li>(7,11,7,12)</li>
+          <li>(5,12,6,12)</li>
+        </rects>
+      </MossyTerrain>
+      <Marsh>
+        <rects>
+          <li>(9,0,12,0)</li>
+          <li>(10,1,10,1)</li>
+        </rects>
+      </Marsh>
+      <Soil>
+        <rects>
+          <li>(6,7,8,9)</li>
+          <li>(3,9,5,11)</li>
+          <li>(2,10,2,12)</li>
+          <li>(6,10,7,10)</li>
+          <li>(1,11,1,12)</li>
+          <li>(6,11,6,11)</li>
+          <li>(3,12,4,12)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
