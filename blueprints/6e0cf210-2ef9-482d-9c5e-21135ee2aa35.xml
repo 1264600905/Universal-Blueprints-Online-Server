@@ -1,0 +1,482 @@
+<PrefabDef>
+  <defName>Prefab_20261102_164848</defName>
+  <size>(13,13)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>研究医疗</name>
+    <description>加入金鼠鼠的研究医疗室</description>
+    <tags>
+      <li>Research</li>
+    </tags>
+    <author>阿霄</author>
+    <category>Research</category>
+    <BuildingID>6e0cf210-2ef9-482d-9c5e-21135ee2aa35</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>solaris.furniturebase</packageId>
+        <name>GloomyFurniture</name>
+        <version></version>
+        <modorder>35</modorder>
+        <steamWorkshopId>1558635181</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>GL_Wall</li>
+          <li>RGK_VentWall</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>oark.ratkinfaction.oberoniaaurea</packageId>
+        <name>[OA]Ratkin Faction: Oberonia aurea</name>
+        <version></version>
+        <modorder>84</modorder>
+        <steamWorkshopId>3159926804</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>oark.oberoniaaurea.framework</packageId>
+            <steamWorkshopId>3713589764</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>OA_RK_SkyWarmth_S</li>
+          <li>OA_RK_Rese_C</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.anomaly</packageId>
+        <name>Anomaly</name>
+        <version></version>
+        <modorder>5</modorder>
+        <things>
+          <li>SerumCentrifuge</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>研究医疗</default>
+        <zh-CN>研究医疗</zh-CN>
+      </name>
+      <description>
+        <default>加入金鼠鼠的研究医疗室</default>
+        <zh-CN>加入金鼠鼠的研究医疗室</zh-CN>
+      </description>
+      <tags>
+        <default>Research</default>
+      </tags>
+    </multiLanguage>
+    <structureDefs>
+      <li>
+        <defName>GL_Wall</defName>
+        <kind>Wall</kind>
+        <size>(1,1)</size>
+      </li>
+      <li>
+        <defName>Door</defName>
+        <kind>Door</kind>
+        <size>(1,1)</size>
+      </li>
+      <li>
+        <defName>RGK_VentWall</defName>
+        <kind>Wall</kind>
+        <size>(1,1)</size>
+      </li>
+    </structureDefs>
+    <thingKinds version="1">
+      <Buildings>
+        <li>Cooler</li>
+        <li>Door</li>
+        <li>DrugLab</li>
+        <li>FlatscreenTelevision</li>
+        <li>GL_Wall</li>
+        <li>HiTechResearchBench</li>
+        <li>HospitalBed</li>
+        <li>MultiAnalyzer</li>
+        <li>OA_RK_Rese_C</li>
+        <li>OA_RK_SkyWarmth_S</li>
+        <li>RGK_VentWall</li>
+        <li>SerumCentrifuge</li>
+        <li>VitalsMonitor</li>
+      </Buildings>
+    </thingKinds>
+    <repairDefs version="1">
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Concrete</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>Steel</li>
+          </resources>
+          <colors />
+          <materials>
+            <li>concrete</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Marsh</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>MossyTerrain</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Door</defName>
+        <tags>
+          <li>Door</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>门</label>
+          <passability>Standable</passability>
+          <marketValue>53.06</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>DrugLab</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 1)</size>
+          <label>药物实验台</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>445</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>GL_Wall</defName>
+        <tags>
+          <li>Wall</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>墙</label>
+          <passability>Impassable</passability>
+          <marketValue>10.486</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>HospitalBed</defName>
+        <tags>
+          <li>Bed</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 2)</size>
+          <label>医疗床</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>400</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>OA_RK_SkyWarmth_S</defName>
+        <tags>
+          <li>Lamp</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 3)</size>
+          <label>小型暖辉设施</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>9205</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>RGK_VentWall</defName>
+        <tags>
+          <li>Wall</li>
+        </tags>
+        <builtinSources>
+          <li>Vent</li>
+        </builtinSources>
+        <match>
+          <size>(1, 1)</size>
+          <label>通风墙</label>
+          <passability>Impassable</passability>
+          <marketValue>10.648</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Woody</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>SerumCentrifuge</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 2)</size>
+          <label>血清实验台</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>725</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+    </repairDefs>
+  </extraInfo>
+  <things>
+    <GL_Wall>
+      <rects>
+        <li>(0,0,5,0)</li>
+        <li>(7,0,12,0)</li>
+        <li>(0,1,0,5)</li>
+        <li>(7,1,7,5)</li>
+        <li>(12,1,12,12)</li>
+        <li>(0,7,0,12)</li>
+        <li>(7,7,7,12)</li>
+        <li>(1,12,5,12)</li>
+        <li>(8,12,11,12)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </GL_Wall>
+    <Door>
+      <rects>
+        <li>(6,0,6,0)</li>
+        <li>(1,3,1,3)</li>
+        <li>(6,12,6,12)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <Door>
+      <rects>
+        <li>(2,1,2,1)</li>
+        <li>(0,6,0,6)</li>
+        <li>(7,6,7,6)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <RGK_VentWall>
+      <rects>
+        <li>(3,1,3,1)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGK_VentWall>
+    <MultiAnalyzer>
+      <position>(8, 0, 1)</position>
+    </MultiAnalyzer>
+    <HiTechResearchBench>
+      <positions>
+        <li>(10, 0, 3)</li>
+        <li>(10, 0, 9)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HiTechResearchBench>
+    <Cooler>
+      <rects>
+        <li>(1,2,1,2)</li>
+      </rects>
+    </Cooler>
+    <RGK_VentWall>
+      <rects>
+        <li>(2,2,2,2)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RGK_VentWall>
+    <OA_RK_SkyWarmth_S>
+      <position>(4, 0, 3)</position>
+    </OA_RK_SkyWarmth_S>
+    <DrugLab>
+      <position>(8, 0, 4)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DrugLab>
+    <FlatscreenTelevision>
+      <position>(3, 0, 5)</position>
+    </FlatscreenTelevision>
+    <OA_RK_Rese_C>
+      <position>(10, 0, 6)</position>
+    </OA_RK_Rese_C>
+    <HospitalBed>
+      <positions>
+        <li>(2, 0, 8)</li>
+        <li>(3, 0, 8)</li>
+        <li>(4, 0, 8)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HospitalBed>
+    <HospitalBed>
+      <position>(2, 0, 9)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HospitalBed>
+    <VitalsMonitor>
+      <rects>
+        <li>(3,9,3,9)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </VitalsMonitor>
+    <HospitalBed>
+      <position>(4, 0, 9)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HospitalBed>
+    <HospitalBed>
+      <positions>
+        <li>(2, 0, 10)</li>
+        <li>(3, 0, 10)</li>
+        <li>(4, 0, 10)</li>
+      </positions>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HospitalBed>
+    <SerumCentrifuge>
+      <position>(8, 0, 10)</position>
+    </SerumCentrifuge>
+  </things>
+  <terrain>
+    <Concrete>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </Concrete>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <Concrete>
+        <rects>
+          <li>(0,0,12,12)</li>
+        </rects>
+      </Concrete>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <MossyTerrain>
+        <rects>
+          <li>(0,0,12,3)</li>
+          <li>(0,4,7,5)</li>
+          <li>(10,4,12,4)</li>
+          <li>(8,5,8,12)</li>
+          <li>(11,5,12,5)</li>
+          <li>(0,6,6,12)</li>
+          <li>(12,6,12,8)</li>
+          <li>(7,7,7,12)</li>
+          <li>(9,7,9,8)</li>
+          <li>(9,10,9,11)</li>
+        </rects>
+      </MossyTerrain>
+      <Marsh>
+        <rects>
+          <li>(8,4,9,4)</li>
+          <li>(9,5,10,6)</li>
+          <li>(7,6,7,6)</li>
+          <li>(11,6,11,12)</li>
+          <li>(10,7,10,12)</li>
+          <li>(9,9,9,9)</li>
+          <li>(12,9,12,12)</li>
+          <li>(9,12,9,12)</li>
+        </rects>
+      </Marsh>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,9,0)</li>
+        <li>(0,1,1,12)</li>
+        <li>(3,1,9,12)</li>
+        <li>(2,2,2,12)</li>
+        <li>(10,6,12,12)</li>
+      </rects>
+    </PlayerRoofZone>
+    <NoRoofZone>
+      <rects>
+        <li>(10,0,12,5)</li>
+        <li>(2,1,2,1)</li>
+      </rects>
+    </NoRoofZone>
+  </roofs>
+</PrefabDef>
