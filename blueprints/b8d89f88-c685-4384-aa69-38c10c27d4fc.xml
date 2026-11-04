@@ -1,0 +1,475 @@
+<PrefabDef>
+  <defName>Prefab_20261104_105114</defName>
+  <size>(49,49)</size>
+  <extraInfo>
+    <version>1.7.9803.38985</version>
+    <name>基地</name>
+    <description></description>
+    <tags>
+      <li>OdysseyDLC</li>
+    </tags>
+    <author></author>
+    <category>OdysseyDLC</category>
+    <BuildingID>b8d89f88-c685-4384-aa69-38c10c27d4fc</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>mingtuwuxiang.spacebasedecorative</packageId>
+        <name>[MUS]太空基地家具Space Base Furniture</name>
+        <version></version>
+        <modorder>31</modorder>
+        <steamWorkshopId>3523916780</steamWorkshopId>
+        <things>
+          <li>MUS_SpaceBase_Wall</li>
+          <li>MUS_SpaceBase_Door</li>
+          <li>MUS_SpaceBase_BigAutoDoor</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.anomaly</packageId>
+        <name>Anomaly</name>
+        <version></version>
+        <modorder>7</modorder>
+        <things>
+          <li>HoldingPlatform</li>
+          <li>BioferriteHarvester</li>
+          <li>Bioferrite</li>
+          <li>ShardInhibitor</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>vortex.weaponstation</packageId>
+        <name>Weapon Station</name>
+        <version>1.4.3</version>
+        <modorder>246</modorder>
+        <steamWorkshopId>3807251471</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VortexWS_WeaponStation</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>breadmo.cinders</packageId>
+        <name>Cinders of the Embergarden</name>
+        <version></version>
+        <modorder>67</modorder>
+        <steamWorkshopId>3421959154</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Cinder_ErodedAutocannon</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>基地</default>
+        <zh-CN>基地</zh-CN>
+      </name>
+      <tags>
+        <default>OdysseyDLC</default>
+      </tags>
+    </multiLanguage>
+    <structureDefs>
+      <li>
+        <defName>MUS_SpaceBase_Wall</defName>
+        <kind>Wall</kind>
+        <size>(1,1)</size>
+      </li>
+      <li>
+        <defName>MUS_SpaceBase_Door</defName>
+        <kind>Door</kind>
+        <size>(1,1)</size>
+      </li>
+      <li>
+        <defName>MUS_SpaceBase_BigAutoDoor</defName>
+        <kind>Door</kind>
+        <size>(2,1)</size>
+      </li>
+    </structureDefs>
+    <thingKinds version="1">
+      <Buildings>
+        <li>Barricade</li>
+        <li>BioferriteHarvester</li>
+        <li>Cinder_ErodedAutocannon</li>
+        <li>HoldingPlatform</li>
+        <li>MUS_SpaceBase_BigAutoDoor</li>
+        <li>MUS_SpaceBase_Door</li>
+        <li>MUS_SpaceBase_Wall</li>
+        <li>Sandbags</li>
+        <li>ShardInhibitor</li>
+        <li>Turret_Sniper</li>
+        <li>VortexWS_WeaponStation</li>
+      </Buildings>
+    </thingKinds>
+    <repairDefs version="1">
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Cinder_ErodedAutocannon</defName>
+        <tags>
+          <li>Turret</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 2)</size>
+          <label>步行者自动加农炮</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>970</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>MUS_SpaceBase_BigAutoDoor</defName>
+        <tags>
+          <li>Door</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 1)</size>
+          <label>基地大自动门</label>
+          <passability>Standable</passability>
+          <marketValue>270</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>MUS_SpaceBase_Door</defName>
+        <tags>
+          <li>Door</li>
+        </tags>
+        <builtinSources>
+          <li>Door</li>
+        </builtinSources>
+        <match>
+          <size>(1, 1)</size>
+          <label>基地门</label>
+          <passability>Standable</passability>
+          <marketValue>93.32</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>MUS_SpaceBase_Wall</defName>
+        <tags>
+          <li>Wall</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>基地墙</label>
+          <passability>Impassable</passability>
+          <marketValue>11.08</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Turret_Sniper</defName>
+        <tags>
+          <li>Turret</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 2)</size>
+          <label>铀弹加农炮塔</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>1445</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>VortexWS_WeaponStation</defName>
+        <tags>
+          <li>Turret</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>武器基站</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>295</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </match>
+      </li>
+    </repairDefs>
+  </extraInfo>
+  <things>
+    <MUS_SpaceBase_Wall>
+      <rects>
+        <li>(0,0,23,0)</li>
+        <li>(25,0,41,0)</li>
+        <li>(43,0,48,0)</li>
+        <li>(0,1,0,17)</li>
+        <li>(5,1,5,7)</li>
+        <li>(12,1,12,5)</li>
+        <li>(22,1,22,2)</li>
+        <li>(26,1,26,2)</li>
+        <li>(36,1,36,41)</li>
+        <li>(48,1,48,5)</li>
+        <li>(21,2,21,3)</li>
+        <li>(27,2,27,3)</li>
+        <li>(20,3,20,5)</li>
+        <li>(28,3,28,5)</li>
+        <li>(6,5,9,5)</li>
+        <li>(7,6,7,12)</li>
+        <li>(1,7,2,7)</li>
+        <li>(6,7,6,7)</li>
+        <li>(48,7,48,17)</li>
+        <li>(12,8,12,41)</li>
+        <li>(1,12,4,12)</li>
+        <li>(8,12,11,12)</li>
+        <li>(37,12,41,12)</li>
+        <li>(43,12,47,12)</li>
+        <li>(0,19,0,29)</li>
+        <li>(48,19,48,29)</li>
+        <li>(1,24,5,24)</li>
+        <li>(7,24,11,24)</li>
+        <li>(37,24,41,24)</li>
+        <li>(43,24,47,24)</li>
+        <li>(13,25,14,25)</li>
+        <li>(34,25,35,25)</li>
+        <li>(0,31,0,41)</li>
+        <li>(15,31,15,33)</li>
+        <li>(33,31,33,33)</li>
+        <li>(48,31,48,41)</li>
+        <li>(18,32,18,34)</li>
+        <li>(30,32,30,34)</li>
+        <li>(1,36,5,36)</li>
+        <li>(7,36,11,36)</li>
+        <li>(13,36,14,36)</li>
+        <li>(16,36,23,36)</li>
+        <li>(25,36,32,36)</li>
+        <li>(34,36,35,36)</li>
+        <li>(37,36,41,36)</li>
+        <li>(43,36,47,36)</li>
+        <li>(18,37,18,41)</li>
+        <li>(30,37,30,41)</li>
+        <li>(13,41,14,41)</li>
+        <li>(16,41,17,41)</li>
+        <li>(31,41,32,41)</li>
+        <li>(34,41,35,41)</li>
+        <li>(0,43,0,48)</li>
+        <li>(12,43,14,43)</li>
+        <li>(16,43,18,43)</li>
+        <li>(30,43,32,43)</li>
+        <li>(34,43,36,43)</li>
+        <li>(48,43,48,48)</li>
+        <li>(12,44,12,48)</li>
+        <li>(18,44,18,48)</li>
+        <li>(30,44,30,48)</li>
+        <li>(36,44,36,48)</li>
+        <li>(1,48,5,48)</li>
+        <li>(7,48,11,48)</li>
+        <li>(13,48,17,48)</li>
+        <li>(19,48,23,48)</li>
+        <li>(25,48,29,48)</li>
+        <li>(31,48,35,48)</li>
+        <li>(37,48,41,48)</li>
+        <li>(43,48,47,48)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </MUS_SpaceBase_Wall>
+    <MUS_SpaceBase_Door>
+      <rects>
+        <li>(24,0,24,0)</li>
+        <li>(42,0,42,0)</li>
+        <li>(42,12,42,12)</li>
+        <li>(6,24,6,24)</li>
+        <li>(42,24,42,24)</li>
+        <li>(6,36,6,36)</li>
+        <li>(15,36,15,36)</li>
+        <li>(24,36,24,36)</li>
+        <li>(33,36,33,36)</li>
+        <li>(42,36,42,36)</li>
+        <li>(6,48,6,48)</li>
+        <li>(24,48,24,48)</li>
+        <li>(42,48,42,48)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </MUS_SpaceBase_Door>
+    <HoldingPlatform>
+      <positions>
+        <li>(2, 0, 2)</li>
+        <li>(7, 0, 2)</li>
+        <li>(10, 0, 2)</li>
+        <li>(2, 0, 5)</li>
+        <li>(9, 0, 7)</li>
+        <li>(2, 0, 9)</li>
+        <li>(5, 0, 9)</li>
+        <li>(9, 0, 10)</li>
+      </positions>
+    </HoldingPlatform>
+    <BioferriteHarvester>
+      <positions>
+        <li>(4, 0, 2)</li>
+        <li>(11, 0, 11)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+    </BioferriteHarvester>
+    <BioferriteHarvester>
+      <positions>
+        <li>(6, 0, 4)</li>
+        <li>(1, 0, 11)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+    </BioferriteHarvester>
+    <MUS_SpaceBase_BigAutoDoor>
+      <positions>
+        <li>(10, 0, 5)</li>
+        <li>(3, 0, 7)</li>
+        <li>(5, 0, 12)</li>
+      </positions>
+      <stuff>Bioferrite</stuff>
+      <color>RGBA(0.392, 0.314, 0.314, 1.000)</color>
+    </MUS_SpaceBase_BigAutoDoor>
+    <ShardInhibitor>
+      <rects>
+        <li>(6,6,6,6)</li>
+      </rects>
+    </ShardInhibitor>
+    <MUS_SpaceBase_BigAutoDoor>
+      <position>(12, 0, 7)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Bioferrite</stuff>
+      <color>RGBA(0.392, 0.314, 0.314, 1.000)</color>
+    </MUS_SpaceBase_BigAutoDoor>
+    <MUS_SpaceBase_Door>
+      <rects>
+        <li>(48,6,48,6)</li>
+        <li>(0,18,0,18)</li>
+        <li>(48,18,48,18)</li>
+        <li>(0,30,0,30)</li>
+        <li>(48,30,48,30)</li>
+        <li>(0,42,0,42)</li>
+        <li>(12,42,12,42)</li>
+        <li>(18,42,18,42)</li>
+        <li>(30,42,30,42)</li>
+        <li>(36,42,36,42)</li>
+        <li>(48,42,48,42)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>BlocksGranite</stuff>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </MUS_SpaceBase_Door>
+    <Sandbags>
+      <rects>
+        <li>(13,17,14,17)</li>
+        <li>(34,17,35,17)</li>
+        <li>(14,18,14,18)</li>
+        <li>(34,18,34,18)</li>
+        <li>(13,20,14,20)</li>
+        <li>(34,20,35,20)</li>
+        <li>(14,21,14,21)</li>
+        <li>(34,21,34,21)</li>
+        <li>(13,23,14,23)</li>
+        <li>(34,23,35,23)</li>
+        <li>(14,24,14,24)</li>
+        <li>(34,24,34,24)</li>
+        <li>(15,27,15,27)</li>
+        <li>(33,27,33,27)</li>
+        <li>(17,28,17,28)</li>
+        <li>(31,28,31,28)</li>
+        <li>(19,29,19,29)</li>
+        <li>(22,29,22,29)</li>
+        <li>(26,29,26,29)</li>
+        <li>(29,29,29,29)</li>
+      </rects>
+      <stuff>Cloth</stuff>
+      <color>RGBA(0.545, 0.478, 0.341, 1.000)</color>
+    </Sandbags>
+    <VortexWS_WeaponStation>
+      <rects>
+        <li>(13,18,13,18)</li>
+        <li>(35,18,35,18)</li>
+        <li>(13,21,13,21)</li>
+        <li>(35,21,35,21)</li>
+        <li>(13,24,13,24)</li>
+        <li>(35,24,35,24)</li>
+        <li>(15,28,15,28)</li>
+        <li>(33,28,33,28)</li>
+        <li>(17,29,17,29)</li>
+        <li>(31,29,31,29)</li>
+        <li>(19,30,19,30)</li>
+        <li>(22,30,22,30)</li>
+        <li>(26,30,26,30)</li>
+        <li>(29,30,29,30)</li>
+      </rects>
+      <stuff>Plasteel</stuff>
+    </VortexWS_WeaponStation>
+    <Cinder_ErodedAutocannon>
+      <positions>
+        <li>(13, 0, 26)</li>
+        <li>(34, 0, 26)</li>
+      </positions>
+    </Cinder_ErodedAutocannon>
+    <Barricade>
+      <rects>
+        <li>(15,29,15,29)</li>
+        <li>(33,29,33,29)</li>
+        <li>(17,30,17,30)</li>
+        <li>(31,30,31,30)</li>
+        <li>(19,31,19,31)</li>
+        <li>(22,31,22,31)</li>
+        <li>(26,31,26,31)</li>
+        <li>(29,31,29,31)</li>
+        <li>(19,33,29,33)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Barricade>
+    <Turret_Sniper>
+      <positions>
+        <li>(13, 0, 31)</li>
+        <li>(34, 0, 31)</li>
+        <li>(16, 0, 32)</li>
+        <li>(31, 0, 32)</li>
+      </positions>
+    </Turret_Sniper>
+  </things>
+  <terrainLayers></terrainLayers>
+  <roofs>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,19,48)</li>
+        <li>(29,0,48,12)</li>
+        <li>(20,12,28,48)</li>
+        <li>(29,13,30,48)</li>
+        <li>(36,13,48,48)</li>
+        <li>(31,36,35,48)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
