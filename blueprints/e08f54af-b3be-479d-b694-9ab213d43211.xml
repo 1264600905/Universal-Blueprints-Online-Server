@@ -1,0 +1,115 @@
+<PrefabDef>
+  <defName>Prefab_20261104_213518</defName>
+  <size>(1,4)</size>
+  <extraInfo>
+    <version>1.7.9803.38985</version>
+    <name>Nod Bedroom</name>
+    <description></description>
+    <tags>
+      <li>Dormitory</li>
+      <li>RoomModule</li>
+    </tags>
+    <author></author>
+    <category>Dormitory</category>
+    <BuildingID>e08f54af-b3be-479d-b694-9ab213d43211</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>zal.morearchotechgarbage</packageId>
+        <name>More Archotech Garbage (Continued)</name>
+        <version>1.3.7</version>
+        <modorder>315</modorder>
+        <steamWorkshopId>3241944893</steamWorkshopId>
+        <things>
+          <li>FloorArchotechUwU</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.odyssey</packageId>
+        <name>Odyssey</name>
+        <version></version>
+        <modorder>9</modorder>
+        <things>
+          <li>Vacstone_RoughHewn</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>Nod Bedroom</default>
+        <en>Nod Bedroom</en>
+      </name>
+      <tags>
+        <default>Dormitory,RoomModule</default>
+      </tags>
+    </multiLanguage>
+    <thingKinds version="1" />
+    <repairDefs version="1">
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>FloorArchotechUwU</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>Plasteel</li>
+            <li>ArchotechScrap</li>
+          </resources>
+          <colors />
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Vacstone_RoughHewn</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+    </repairDefs>
+  </extraInfo>
+  <things></things>
+  <terrain>
+    <FloorArchotechUwU>
+      <rects>
+        <li>(0,0,0,3)</li>
+      </rects>
+    </FloorArchotechUwU>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <FloorArchotechUwU>
+        <rects>
+          <li>(0,0,0,3)</li>
+        </rects>
+      </FloorArchotechUwU>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Vacstone_RoughHewn>
+        <rects>
+          <li>(0,0,0,3)</li>
+        </rects>
+      </Vacstone_RoughHewn>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofRockThin>
+      <rects>
+        <li>(0,0,0,3)</li>
+      </rects>
+    </RoofRockThin>
+  </roofs>
+</PrefabDef>
