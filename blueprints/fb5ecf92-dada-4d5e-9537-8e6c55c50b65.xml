@@ -1,0 +1,444 @@
+<PrefabDef>
+  <defName>Prefab_20261106_030310</defName>
+  <size>(8,8)</size>
+  <extraInfo>
+    <version>1.7.9803.38985</version>
+    <name>1</name>
+    <description></description>
+    <tags>
+      <li>Hygiene</li>
+    </tags>
+    <author></author>
+    <category>Hygiene</category>
+    <BuildingID>fb5ecf92-dada-4d5e-9537-8e6c55c50b65</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>dubwise.dubsbadhygiene</packageId>
+        <name>Dubs Bad Hygiene</name>
+        <version>3.2.3260</version>
+        <modorder>40</modorder>
+        <steamWorkshopId>836308268</steamWorkshopId>
+        <things>
+          <li>sewagePipeHidden</li>
+          <li>WashingMachine</li>
+          <li>ShowerAdvStuff</li>
+          <li>RadiatorTowelRail</li>
+          <li>BathtubStuff</li>
+          <li>BathMat</li>
+          <li>HotTub</li>
+          <li>Fountain</li>
+          <li>ToiletAdvStuff</li>
+          <li>DBHSaunaSeating</li>
+          <li>DBHSaunaHeaterElec</li>
+          <li>DBHMosaicMarble</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>kindseal.ufli</packageId>
+        <name>联合轻工家具拓展-UF Light Industries Furniture</name>
+        <version></version>
+        <modorder>59</modorder>
+        <steamWorkshopId>3651799915</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFLI_groundlight</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>1</default>
+        <zh-CN>1</zh-CN>
+      </name>
+      <tags>
+        <default>Hygiene</default>
+      </tags>
+    </multiLanguage>
+    <structureDefs>
+      <li>
+        <defName>Wall</defName>
+        <kind>Wall</kind>
+        <size>(1,1)</size>
+      </li>
+      <li>
+        <defName>OrnateDoor</defName>
+        <kind>Door</kind>
+        <size>(2,1)</size>
+      </li>
+      <li>
+        <defName>Autodoor</defName>
+        <kind>Door</kind>
+        <size>(1,1)</size>
+      </li>
+    </structureDefs>
+    <thingKinds version="1">
+      <Buildings>
+        <li>Autodoor</li>
+        <li>BathMat</li>
+        <li>BathtubStuff</li>
+        <li>DBHSaunaHeaterElec</li>
+        <li>DBHSaunaSeating</li>
+        <li>Fountain</li>
+        <li>HiddenConduit</li>
+        <li>HotTub</li>
+        <li>OrnateDoor</li>
+        <li>RadiatorTowelRail</li>
+        <li>ShowerAdvStuff</li>
+        <li>ToiletAdvStuff</li>
+        <li>UFLI_groundlight</li>
+        <li>Wall</li>
+        <li>WallLamp</li>
+        <li>WashingMachine</li>
+        <li>sewagePipeHidden</li>
+      </Buildings>
+    </thingKinds>
+    <repairDefs version="1">
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>DBHMosaicMarble</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>BlocksMarble</li>
+          </resources>
+          <colors />
+          <materials>
+            <li>marble</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Soil</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>soil</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Autodoor</defName>
+        <tags>
+          <li>Door</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>自动门</label>
+          <passability>Standable</passability>
+          <marketValue>193.96</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>DBHSaunaSeating</defName>
+        <tags>
+          <li>Seat</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>桑拿坐凳</label>
+          <passability>Standable</passability>
+          <marketValue>5.62</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>OrnateDoor</defName>
+        <tags>
+          <li>Door</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 1)</size>
+          <label>豪华大门</label>
+          <passability>Standable</passability>
+          <marketValue>705</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>RadiatorTowelRail</defName>
+        <tags>
+          <li>Attachment</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>毛巾架</label>
+          <passability>Standable</passability>
+          <marketValue>51.02</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_groundlight</defName>
+        <tags>
+          <li>Lamp</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>联合地灯</label>
+          <passability>Standable</passability>
+          <marketValue>29.58</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Wall</defName>
+        <tags>
+          <li>Wall</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>墙</label>
+          <passability>Impassable</passability>
+          <marketValue>10.486</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>WallLamp</defName>
+        <tags>
+          <li>Attachment</li>
+          <li>Lamp</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>壁灯</label>
+          <passability>Standable</passability>
+          <marketValue>29.688</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>WashingMachine</defName>
+        <tags>
+          <li>Storage</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>洗衣机</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>260</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+    </repairDefs>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,7,0)</li>
+        <li>(0,1,0,2)</li>
+        <li>(7,1,7,7)</li>
+        <li>(3,4,3,7)</li>
+        <li>(5,4,6,4)</li>
+        <li>(0,5,0,7)</li>
+        <li>(1,7,2,7)</li>
+        <li>(4,7,6,7)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </Wall>
+    <HiddenConduit>
+      <rects>
+        <li>(0,0,7,0)</li>
+        <li>(0,1,0,7)</li>
+        <li>(7,1,7,7)</li>
+        <li>(1,7,6,7)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <sewagePipeHidden>
+      <rects>
+        <li>(0,0,7,0)</li>
+        <li>(0,1,0,7)</li>
+        <li>(1,7,7,7)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </sewagePipeHidden>
+    <WashingMachine>
+      <rects>
+        <li>(1,1,1,1)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </WashingMachine>
+    <ShowerAdvStuff>
+      <rects>
+        <li>(3,1,3,1)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+    </ShowerAdvStuff>
+    <RadiatorTowelRail>
+      <rects>
+        <li>(4,1,4,1)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+    </RadiatorTowelRail>
+    <BathtubStuff>
+      <position>(5, 0, 1)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+    </BathtubStuff>
+    <BathMat>
+      <rects>
+        <li>(3,2,3,2)</li>
+      </rects>
+      <stuff>Cloth</stuff>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </BathMat>
+    <HotTub>
+      <position>(5, 0, 2)</position>
+      <stuff>Steel</stuff>
+    </HotTub>
+    <OrnateDoor>
+      <position>(0, 0, 3)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </OrnateDoor>
+    <WallLamp>
+      <rects>
+        <li>(3,3,3,3)</li>
+      </rects>
+    </WallLamp>
+    <Autodoor>
+      <rects>
+        <li>(4,4,4,4)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </Autodoor>
+    <UFLI_groundlight>
+      <rects>
+        <li>(4,4,4,4)</li>
+      </rects>
+    </UFLI_groundlight>
+    <Fountain>
+      <rects>
+        <li>(1,5,1,5)</li>
+      </rects>
+      <stuff>Steel</stuff>
+    </Fountain>
+    <ToiletAdvStuff>
+      <rects>
+        <li>(1,6,1,6)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+    </ToiletAdvStuff>
+    <DBHSaunaSeating>
+      <rects>
+        <li>(4,6,4,6)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DBHSaunaSeating>
+    <DBHSaunaHeaterElec>
+      <rects>
+        <li>(6,6,6,6)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </DBHSaunaHeaterElec>
+  </things>
+  <terrain>
+    <DBHMosaicMarble>
+      <rects>
+        <li>(0,0,7,7)</li>
+      </rects>
+    </DBHMosaicMarble>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <DBHMosaicMarble>
+        <rects>
+          <li>(0,0,7,7)</li>
+        </rects>
+      </DBHMosaicMarble>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(0,0,7,7)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,7,7)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,7,7)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
