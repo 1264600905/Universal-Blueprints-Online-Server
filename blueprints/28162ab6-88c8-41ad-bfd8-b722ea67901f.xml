@@ -1,0 +1,676 @@
+<PrefabDef>
+  <defName>Prefab_20261106_223031</defName>
+  <size>(16,31)</size>
+  <extraInfo>
+    <version>1.7.9805.38275</version>
+    <name>联合十人宿舍</name>
+    <description></description>
+    <tags>
+      <li>Dormitory</li>
+    </tags>
+    <author>momiji</author>
+    <category>Dormitory</category>
+    <BuildingID>28162ab6-88c8-41ad-bfd8-b722ea67901f</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>kindseal.ufli</packageId>
+        <name>联合轻工家具拓展-UF Light Industries Furniture</name>
+        <version></version>
+        <modorder>260</modorder>
+        <steamWorkshopId>3651799915</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFLI_Wall</li>
+          <li>UFLI_2_Autodoor</li>
+          <li>UFLI_CabinetD</li>
+          <li>UFLI_Walllamp</li>
+          <li>UFLI_1_Autodoor</li>
+          <li>UFLI_Bed</li>
+          <li>UFLI_Endtable</li>
+          <li>UFLI_CabinetB</li>
+          <li>UFLI_CabinetE</li>
+          <li>UFLI_FLOORH</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>aoba.fortress.industrial</packageId>
+        <name>Fortifications - Industrial</name>
+        <version></version>
+        <modorder>296</modorder>
+        <steamWorkshopId>2561619583</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>aoba.framework</packageId>
+            <steamWorkshopId>3498575851</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>FT_BlocksConcrete</li>
+        </things>
+      </mod>
+    </modPackages>
+    <foldGroup>
+      <groupKey></groupKey>
+      <displayOrder>0</displayOrder>
+      <isCover>false</isCover>
+    </foldGroup>
+    <multiLanguage>
+      <name>
+        <default>联合十人宿舍</default>
+        <zh-CN>联合十人宿舍</zh-CN>
+      </name>
+      <tags>
+        <default>Dormitory</default>
+      </tags>
+    </multiLanguage>
+    <structureDefs>
+      <li>
+        <defName>UFLI_Wall</defName>
+        <kind>Wall</kind>
+        <size>(1,1)</size>
+      </li>
+      <li>
+        <defName>UFLI_2_Autodoor</defName>
+        <kind>Door</kind>
+        <size>(2,1)</size>
+      </li>
+      <li>
+        <defName>UFLI_1_Autodoor</defName>
+        <kind>Door</kind>
+        <size>(1,1)</size>
+      </li>
+    </structureDefs>
+    <thingKinds version="1">
+      <Buildings>
+        <li>UFLI_1_Autodoor</li>
+        <li>UFLI_2_Autodoor</li>
+        <li>UFLI_Bed</li>
+        <li>UFLI_CabinetB</li>
+        <li>UFLI_CabinetD</li>
+        <li>UFLI_CabinetE</li>
+        <li>UFLI_Endtable</li>
+        <li>UFLI_Wall</li>
+        <li>UFLI_Walllamp</li>
+      </Buildings>
+    </thingKinds>
+    <repairDefs version="1">
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Soil</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>soil</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>UFLI_FLOORH</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources>
+          <li>WoodPlankFloor</li>
+        </builtinSources>
+        <match>
+          <resources>
+            <li>WoodLog</li>
+          </resources>
+          <colors />
+          <materials>
+            <li>wood</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_1_Autodoor</defName>
+        <tags>
+          <li>Door</li>
+        </tags>
+        <builtinSources>
+          <li>Autodoor</li>
+        </builtinSources>
+        <match>
+          <size>(1, 1)</size>
+          <label>联合自动门 1X1</label>
+          <passability>Standable</passability>
+          <marketValue>146.88</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_2_Autodoor</defName>
+        <tags>
+          <li>Door</li>
+        </tags>
+        <builtinSources>
+          <li>OrnateDoor</li>
+        </builtinSources>
+        <match>
+          <size>(2, 1)</size>
+          <label>联合自动门 2X1</label>
+          <passability>Standable</passability>
+          <marketValue>260</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_Bed</defName>
+        <tags>
+          <li>Bed</li>
+        </tags>
+        <builtinSources>
+          <li>Bed</li>
+        </builtinSources>
+        <match>
+          <size>(1, 2)</size>
+          <label>联合智能单人床</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>194.88</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_CabinetB</defName>
+        <tags>
+          <li>Bedside</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 1)</size>
+          <label>联合衣柜</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>41.8</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_CabinetD</defName>
+        <tags>
+          <li>Bedside</li>
+        </tags>
+        <builtinSources>
+          <li>Dresser</li>
+        </builtinSources>
+        <match>
+          <size>(2, 1)</size>
+          <label>联合矮柜</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>71.8</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_CabinetE</defName>
+        <tags>
+          <li>Bedside</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>联合单柜</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>41.26</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_Endtable</defName>
+        <tags>
+          <li>Bedside</li>
+        </tags>
+        <builtinSources>
+          <li>EndTable</li>
+        </builtinSources>
+        <match>
+          <size>(1, 1)</size>
+          <label>联合床头柜</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>21.26</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_Wall</defName>
+        <tags>
+          <li>Wall</li>
+        </tags>
+        <builtinSources>
+          <li>Wall</li>
+        </builtinSources>
+        <match>
+          <size>(1, 1)</size>
+          <label>联合墙体</label>
+          <passability>Impassable</passability>
+          <marketValue>2</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_Walllamp</defName>
+        <tags>
+          <li>Attachment</li>
+          <li>Lamp</li>
+        </tags>
+        <builtinSources>
+          <li>WallLamp</li>
+        </builtinSources>
+        <match>
+          <size>(1, 1)</size>
+          <label>联合壁灯</label>
+          <passability>Standable</passability>
+          <marketValue>29.58</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+    </repairDefs>
+  </extraInfo>
+  <things>
+    <UFLI_Wall>
+      <rects>
+        <li>(0,0,6,0)</li>
+        <li>(9,0,15,0)</li>
+        <li>(0,1,0,30)</li>
+        <li>(6,1,6,1)</li>
+        <li>(9,1,9,1)</li>
+        <li>(15,1,15,30)</li>
+        <li>(6,3,6,7)</li>
+        <li>(9,3,9,7)</li>
+        <li>(1,6,5,6)</li>
+        <li>(10,6,14,6)</li>
+        <li>(6,9,6,13)</li>
+        <li>(9,9,9,13)</li>
+        <li>(1,12,5,12)</li>
+        <li>(10,12,14,12)</li>
+        <li>(6,15,6,19)</li>
+        <li>(9,15,9,19)</li>
+        <li>(1,18,5,18)</li>
+        <li>(10,18,14,18)</li>
+        <li>(6,21,6,25)</li>
+        <li>(9,21,9,25)</li>
+        <li>(1,24,5,24)</li>
+        <li>(10,24,14,24)</li>
+        <li>(6,27,6,30)</li>
+        <li>(9,27,9,30)</li>
+        <li>(1,30,5,30)</li>
+        <li>(10,30,14,30)</li>
+      </rects>
+      <stuff>FT_BlocksConcrete</stuff>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </UFLI_Wall>
+    <UFLI_2_Autodoor>
+      <positions>
+        <li>(7, 0, 0)</li>
+        <li>(7, 0, 30)</li>
+      </positions>
+      <stuff>FT_BlocksConcrete</stuff>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </UFLI_2_Autodoor>
+    <UFLI_CabinetD>
+      <positions>
+        <li>(1, 0, 1)</li>
+        <li>(1, 0, 7)</li>
+        <li>(1, 0, 13)</li>
+        <li>(13, 0, 13)</li>
+        <li>(13, 0, 19)</li>
+        <li>(1, 0, 25)</li>
+      </positions>
+      <stuff>Steel</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_CabinetD>
+    <UFLI_Walllamp>
+      <rects>
+        <li>(7,1,7,1)</li>
+        <li>(10,3,10,3)</li>
+        <li>(10,9,10,9)</li>
+        <li>(7,12,7,12)</li>
+        <li>(10,15,10,15)</li>
+        <li>(10,21,10,21)</li>
+        <li>(7,27,7,27)</li>
+        <li>(10,27,10,27)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </UFLI_Walllamp>
+    <UFLI_Walllamp>
+      <rects>
+        <li>(8,1,8,1)</li>
+        <li>(5,3,5,3)</li>
+        <li>(5,9,5,9)</li>
+        <li>(8,12,8,12)</li>
+        <li>(5,15,5,15)</li>
+        <li>(5,21,5,21)</li>
+        <li>(5,27,5,27)</li>
+        <li>(8,27,8,27)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </UFLI_Walllamp>
+    <UFLI_1_Autodoor>
+      <rects>
+        <li>(6,2,6,2)</li>
+        <li>(9,2,9,2)</li>
+        <li>(6,8,6,8)</li>
+        <li>(9,8,9,8)</li>
+        <li>(6,14,6,14)</li>
+        <li>(9,14,9,14)</li>
+        <li>(6,20,6,20)</li>
+        <li>(9,20,9,20)</li>
+        <li>(6,26,6,26)</li>
+        <li>(9,26,9,26)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>FT_BlocksConcrete</stuff>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </UFLI_1_Autodoor>
+    <UFLI_Bed>
+      <position>(1, 0, 5)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Bed>
+    <UFLI_Bed>
+      <positions>
+        <li>(14, 0, 5)</li>
+        <li>(1, 0, 11)</li>
+        <li>(14, 0, 11)</li>
+        <li>(1, 0, 17)</li>
+        <li>(14, 0, 17)</li>
+        <li>(1, 0, 29)</li>
+        <li>(14, 0, 29)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Bed>
+    <UFLI_Endtable>
+      <rects>
+        <li>(2,5,2,5)</li>
+        <li>(13,5,13,5)</li>
+        <li>(13,17,13,17)</li>
+        <li>(2,23,2,23)</li>
+        <li>(13,29,13,29)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Endtable>
+    <UFLI_CabinetB>
+      <positions>
+        <li>(4, 0, 5)</li>
+        <li>(4, 0, 17)</li>
+        <li>(4, 0, 23)</li>
+        <li>(12, 0, 23)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_CabinetB>
+    <UFLI_CabinetE>
+      <rects>
+        <li>(5,5,5,5)</li>
+        <li>(10,5,10,5)</li>
+        <li>(10,11,10,11)</li>
+        <li>(5,17,5,17)</li>
+        <li>(10,29,10,29)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_CabinetE>
+    <UFLI_CabinetB>
+      <positions>
+        <li>(12, 0, 5)</li>
+        <li>(12, 0, 11)</li>
+        <li>(12, 0, 17)</li>
+        <li>(12, 0, 29)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_CabinetB>
+    <UFLI_CabinetD>
+      <position>(13, 0, 7)</position>
+      <stuff>Steel</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_CabinetD>
+    <UFLI_Endtable>
+      <rects>
+        <li>(2,11,2,11)</li>
+        <li>(13,11,13,11)</li>
+        <li>(2,29,2,29)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Endtable>
+    <UFLI_CabinetB>
+      <positions>
+        <li>(4, 0, 11)</li>
+        <li>(4, 0, 29)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_CabinetB>
+    <UFLI_CabinetE>
+      <rects>
+        <li>(5,11,5,11)</li>
+        <li>(5,29,5,29)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_CabinetE>
+    <UFLI_Endtable>
+      <rects>
+        <li>(2,17,2,17)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Endtable>
+    <UFLI_CabinetE>
+      <rects>
+        <li>(10,17,10,17)</li>
+        <li>(5,23,5,23)</li>
+        <li>(10,23,10,23)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_CabinetE>
+    <UFLI_CabinetD>
+      <positions>
+        <li>(1, 0, 19)</li>
+        <li>(13, 0, 25)</li>
+      </positions>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_CabinetD>
+    <UFLI_Bed>
+      <positions>
+        <li>(1, 0, 23)</li>
+        <li>(14, 0, 23)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Bed>
+    <UFLI_Endtable>
+      <rects>
+        <li>(13,23,13,23)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Legendary</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Endtable>
+  </things>
+  <terrain>
+    <UFLI_FLOORH>
+      <rects>
+        <li>(7,0,8,30)</li>
+        <li>(1,1,5,5)</li>
+        <li>(10,1,14,5)</li>
+        <li>(6,2,6,2)</li>
+        <li>(9,2,9,2)</li>
+        <li>(1,7,5,11)</li>
+        <li>(10,7,14,11)</li>
+        <li>(6,8,6,8)</li>
+        <li>(9,8,9,8)</li>
+        <li>(1,13,5,17)</li>
+        <li>(10,13,14,17)</li>
+        <li>(6,14,6,14)</li>
+        <li>(9,14,9,14)</li>
+        <li>(1,19,5,23)</li>
+        <li>(10,19,14,23)</li>
+        <li>(6,20,6,20)</li>
+        <li>(9,20,9,20)</li>
+        <li>(1,25,5,29)</li>
+        <li>(10,25,14,29)</li>
+        <li>(6,26,6,26)</li>
+        <li>(9,26,9,26)</li>
+      </rects>
+    </UFLI_FLOORH>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <UFLI_FLOORH>
+        <rects>
+          <li>(7,0,8,30)</li>
+          <li>(1,1,5,5)</li>
+          <li>(10,1,14,5)</li>
+          <li>(6,2,6,2)</li>
+          <li>(9,2,9,2)</li>
+          <li>(1,7,5,11)</li>
+          <li>(10,7,14,11)</li>
+          <li>(6,8,6,8)</li>
+          <li>(9,8,9,8)</li>
+          <li>(1,13,5,17)</li>
+          <li>(10,13,14,17)</li>
+          <li>(6,14,6,14)</li>
+          <li>(9,14,9,14)</li>
+          <li>(1,19,5,23)</li>
+          <li>(10,19,14,23)</li>
+          <li>(6,20,6,20)</li>
+          <li>(9,20,9,20)</li>
+          <li>(1,25,5,29)</li>
+          <li>(10,25,14,29)</li>
+          <li>(6,26,6,26)</li>
+          <li>(9,26,9,26)</li>
+        </rects>
+      </UFLI_FLOORH>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(7,0,8,30)</li>
+          <li>(1,1,5,5)</li>
+          <li>(10,1,14,5)</li>
+          <li>(6,2,6,2)</li>
+          <li>(9,2,9,2)</li>
+          <li>(1,7,5,11)</li>
+          <li>(10,7,14,11)</li>
+          <li>(6,8,6,8)</li>
+          <li>(9,8,9,8)</li>
+          <li>(1,13,5,17)</li>
+          <li>(10,13,14,17)</li>
+          <li>(6,14,6,14)</li>
+          <li>(9,14,9,14)</li>
+          <li>(1,19,5,23)</li>
+          <li>(10,19,14,23)</li>
+          <li>(6,20,6,20)</li>
+          <li>(9,20,9,20)</li>
+          <li>(1,25,5,29)</li>
+          <li>(10,25,14,29)</li>
+          <li>(6,26,6,26)</li>
+          <li>(9,26,9,26)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,15,30)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,15,30)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
