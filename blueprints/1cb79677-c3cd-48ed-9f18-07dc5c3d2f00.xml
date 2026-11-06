@@ -1,0 +1,260 @@
+<PrefabDef>
+  <defName>Prefab_20261106_162642</defName>
+  <size>(22,17)</size>
+  <extraInfo>
+    <version>1.7.9805.38275</version>
+    <name>帝国</name>
+    <description></description>
+    <tags>
+      <li>Other</li>
+    </tags>
+    <author></author>
+    <category>Other</category>
+    <BuildingID>1cb79677-c3cd-48ed-9f18-07dc5c3d2f00</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>yexiaoyang.rimskyblock</packageId>
+        <name>RimSkyBlock - Vassal Outposts, Establish Empire</name>
+        <version></version>
+        <modorder>254</modorder>
+        <steamWorkshopId>3564083626</steamWorkshopId>
+        <things>
+          <li>RSB_CouncilChair</li>
+          <li>RSB_CouncilTable_Left</li>
+          <li>RSB_CouncilTable_Right</li>
+          <li>RSB_HighLordCouncilDais</li>
+          <li>RSB_CouncilTable_Center</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>keeptpa.nivarianrace</packageId>
+        <name>Nivarian Race</name>
+        <version>20261014114301</version>
+        <modorder>297</modorder>
+        <steamWorkshopId>3624805128</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Nivarian_SparkleFloor</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>帝国</default>
+        <zh-CN>帝国</zh-CN>
+      </name>
+      <tags>
+        <default>Other</default>
+      </tags>
+    </multiLanguage>
+    <structureDefs>
+      <li>
+        <defName>Wall</defName>
+        <kind>Wall</kind>
+        <size>(1,1)</size>
+      </li>
+    </structureDefs>
+    <thingKinds version="1">
+      <Buildings>
+        <li>Column</li>
+        <li>RSB_CouncilChair</li>
+        <li>RSB_CouncilTable_Center</li>
+        <li>RSB_CouncilTable_Left</li>
+        <li>RSB_CouncilTable_Right</li>
+        <li>RSB_HighLordCouncilDais</li>
+        <li>Wall</li>
+      </Buildings>
+    </thingKinds>
+    <repairDefs version="1">
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Nivarian_SparkleFloor</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>Steel</li>
+            <li>Nivarian_DragonCrystal</li>
+          </resources>
+          <colors />
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Soil</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>scar_Compost</li>
+          </resources>
+          <colors />
+          <materials>
+            <li>soil</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Wall</defName>
+        <tags>
+          <li>Wall</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>墙</label>
+          <passability>Impassable</passability>
+          <marketValue>10.486</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+    </repairDefs>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,21,0)</li>
+        <li>(0,1,0,16)</li>
+        <li>(21,1,21,16)</li>
+        <li>(1,16,20,16)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </Wall>
+    <RSB_CouncilChair>
+      <positions>
+        <li>(1, 0, 2)</li>
+        <li>(1, 0, 5)</li>
+        <li>(1, 0, 8)</li>
+        <li>(1, 0, 11)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </RSB_CouncilChair>
+    <RSB_CouncilChair>
+      <positions>
+        <li>(20, 0, 2)</li>
+        <li>(20, 0, 5)</li>
+        <li>(20, 0, 8)</li>
+        <li>(20, 0, 11)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </RSB_CouncilChair>
+    <RSB_CouncilTable_Left>
+      <position>(4, 0, 6)</position>
+    </RSB_CouncilTable_Left>
+    <RSB_CouncilTable_Right>
+      <position>(15, 0, 6)</position>
+    </RSB_CouncilTable_Right>
+    <Column>
+      <rects>
+        <li>(9,6,9,6)</li>
+        <li>(12,6,12,6)</li>
+        <li>(4,12,4,12)</li>
+        <li>(17,12,17,12)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </Column>
+    <RSB_HighLordCouncilDais>
+      <position>(10, 0, 6)</position>
+    </RSB_HighLordCouncilDais>
+    <RSB_CouncilTable_Center>
+      <position>(10, 0, 12)</position>
+    </RSB_CouncilTable_Center>
+    <RSB_CouncilChair>
+      <positions>
+        <li>(4, 0, 15)</li>
+        <li>(7, 0, 15)</li>
+        <li>(14, 0, 15)</li>
+        <li>(17, 0, 15)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </RSB_CouncilChair>
+  </things>
+  <terrain>
+    <Soil>
+      <rects>
+        <li>(0,0,21,0)</li>
+        <li>(0,1,0,16)</li>
+        <li>(21,1,21,16)</li>
+        <li>(1,16,20,16)</li>
+      </rects>
+    </Soil>
+    <Nivarian_SparkleFloor>
+      <rects>
+        <li>(1,1,20,15)</li>
+      </rects>
+    </Nivarian_SparkleFloor>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <Soil>
+        <rects>
+          <li>(0,0,21,0)</li>
+          <li>(0,1,0,16)</li>
+          <li>(21,1,21,16)</li>
+          <li>(1,16,20,16)</li>
+        </rects>
+      </Soil>
+      <Nivarian_SparkleFloor>
+        <rects>
+          <li>(1,1,20,15)</li>
+        </rects>
+      </Nivarian_SparkleFloor>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(1,1,20,15)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofRockThick>
+      <rects>
+        <li>(0,0,21,16)</li>
+      </rects>
+    </RoofRockThick>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,21,6)</li>
+        <li>(0,7,6,16)</li>
+        <li>(15,7,21,16)</li>
+        <li>(7,10,14,16)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
