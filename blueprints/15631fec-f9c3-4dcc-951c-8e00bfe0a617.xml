@@ -1,0 +1,645 @@
+<PrefabDef>
+  <defName>Prefab_20261107_210534</defName>
+  <size>(13,13)</size>
+  <extraInfo>
+    <version>1.7.9805.38275</version>
+    <name>Lemon-访客卧室</name>
+    <description>Lemon-访客卧室</description>
+    <tags>
+      <li>Dormitory</li>
+    </tags>
+    <author>LemonNoCry</author>
+    <category>Dormitory</category>
+    <BuildingID>15631fec-f9c3-4dcc-951c-8e00bfe0a617</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>kindseal.ufli</packageId>
+        <name>联合轻工家具拓展-UF Light Industries Furniture</name>
+        <version></version>
+        <modorder>13</modorder>
+        <steamWorkshopId>3651799915</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFLI_1_Autodoor</li>
+          <li>UFLI_Decoration_Big_Flower</li>
+          <li>UFLI_TempControler</li>
+          <li>UFLI_FLOORH</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>bsj.universalmaterial</packageId>
+        <name>Universal Material</name>
+        <version></version>
+        <modorder>36</modorder>
+        <steamWorkshopId>3739181315</steamWorkshopId>
+        <things>
+          <li>UniversalMaterial</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>orion.hospitality</packageId>
+        <name>Hospitality (Continued)</name>
+        <version>1.1.8</version>
+        <modorder>145</modorder>
+        <steamWorkshopId>3509486825</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFLI_BedGuest</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>migcorp.skiptech</packageId>
+        <name>MigCorp - Skiptech</name>
+        <version></version>
+        <modorder>77</modorder>
+        <steamWorkshopId>3626074566</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>MigcorpSkipdoor</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>tot.celetech.mkiii</packageId>
+        <name>CeleTech Arsenal MKIII</name>
+        <version></version>
+        <modorder>103</modorder>
+        <steamWorkshopId>3446237098</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>CMC_DECO_WIFI</li>
+        </things>
+      </mod>
+    </modPackages>
+    <foldGroup>
+      <groupKey>Lemon-自用卧室</groupKey>
+      <displayOrder>0</displayOrder>
+      <isCover>false</isCover>
+    </foldGroup>
+    <multiLanguage>
+      <name>
+        <default>Lemon-访客卧室</default>
+        <zh-CN>Lemon-访客卧室</zh-CN>
+      </name>
+      <description>
+        <default>Lemon-访客卧室</default>
+        <zh-CN>Lemon-访客卧室</zh-CN>
+      </description>
+      <tags>
+        <default>Dormitory</default>
+      </tags>
+    </multiLanguage>
+    <structureDefs>
+      <li>
+        <defName>UFLI_1_Autodoor</defName>
+        <kind>Door</kind>
+        <size>(1,1)</size>
+      </li>
+    </structureDefs>
+    <thingKinds version="1">
+      <Buildings>
+        <li>CMC_DECO_WIFI</li>
+        <li>ChessTable</li>
+        <li>DiningChair</li>
+        <li>Dresser</li>
+        <li>EndTable</li>
+        <li>GameOfUrBoard</li>
+        <li>HiddenConduit</li>
+        <li>HoopstoneRing</li>
+        <li>HorseshoesPin</li>
+        <li>MigcorpSkipdoor</li>
+        <li>StandingLamp</li>
+        <li>Table1x2c</li>
+        <li>UFLI_1_Autodoor</li>
+        <li>UFLI_BedGuest</li>
+        <li>UFLI_Decoration_Big_Flower</li>
+        <li>UFLI_TempControler</li>
+      </Buildings>
+    </thingKinds>
+    <repairDefs version="1">
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Slate_RoughHewn</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>slate</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>UFLI_FLOORH</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources>
+          <li>WoodPlankFloor</li>
+        </builtinSources>
+        <match>
+          <resources>
+            <li>WoodLog</li>
+          </resources>
+          <colors />
+          <materials>
+            <li>wood</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>DiningChair</defName>
+        <tags>
+          <li>Seat</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>餐椅</label>
+          <passability>Standable</passability>
+          <marketValue>118.8</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Dresser</defName>
+        <tags>
+          <li>Bedside</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 1)</size>
+          <label>矮柜</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>107.2</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>EndTable</defName>
+        <tags>
+          <li>Bedside</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>床头柜</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>63.6</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>StandingLamp</defName>
+        <tags>
+          <li>Lamp</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>落地灯</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>39.08</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Table1x2c</defName>
+        <tags>
+          <li>Table</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 2)</size>
+          <label>桌子（1x2）</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>58.7</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_1_Autodoor</defName>
+        <tags>
+          <li>Door</li>
+        </tags>
+        <builtinSources>
+          <li>Autodoor</li>
+        </builtinSources>
+        <match>
+          <size>(1, 1)</size>
+          <label>联合自动门 1X1</label>
+          <passability>Standable</passability>
+          <marketValue>146.88</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_BedGuest</defName>
+        <tags>
+          <li>Bed</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 2)</size>
+          <label>访客用联合智能单人床</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>194.88</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_Decoration_Big_Flower</defName>
+        <tags />
+        <builtinSources>
+          <li>PlantPot_Bonsai</li>
+        </builtinSources>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_TempControler</defName>
+        <tags>
+          <li>Attachment</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>联合温控终端</label>
+          <passability>Standable</passability>
+          <marketValue>385</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+    </repairDefs>
+  </extraInfo>
+  <things>
+    <UFLI_1_Autodoor>
+      <rects>
+        <li>(6,0,6,0)</li>
+        <li>(0,6,0,6)</li>
+        <li>(12,6,12,6)</li>
+        <li>(6,12,6,12)</li>
+      </rects>
+      <stuff>UniversalMaterial</stuff>
+      <color>RGBA(0.824, 0.922, 0.961, 1.000)</color>
+    </UFLI_1_Autodoor>
+    <HiddenConduit>
+      <rects>
+        <li>(6,1,6,12)</li>
+        <li>(1,6,5,6)</li>
+        <li>(7,6,11,6)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <UFLI_BedGuest>
+      <positions>
+        <li>(3, 0, 2)</li>
+        <li>(9, 0, 4)</li>
+        <li>(3, 0, 10)</li>
+        <li>(9, 0, 10)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_BedGuest>
+    <UFLI_BedGuest>
+      <positions>
+        <li>(4, 0, 3)</li>
+        <li>(8, 0, 3)</li>
+        <li>(2, 0, 9)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Legendary</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_BedGuest>
+    <DiningChair>
+      <rects>
+        <li>(6,2,6,2)</li>
+      </rects>
+      <stuff>UniversalMaterial</stuff>
+      <quality>Legendary</quality>
+      <color>RGBA(0.824, 0.922, 0.961, 1.000)</color>
+    </DiningChair>
+    <UFLI_BedGuest>
+      <positions>
+        <li>(9, 0, 2)</li>
+        <li>(3, 0, 4)</li>
+        <li>(9, 0, 8)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_BedGuest>
+    <UFLI_BedGuest>
+      <positions>
+        <li>(2, 0, 3)</li>
+        <li>(4, 0, 9)</li>
+        <li>(10, 0, 9)</li>
+      </positions>
+      <stuff>Steel</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_BedGuest>
+    <EndTable>
+      <rects>
+        <li>(3,3,3,3)</li>
+        <li>(9,3,9,3)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>UniversalMaterial</stuff>
+      <quality>Legendary</quality>
+      <color>RGBA(0.824, 0.922, 0.961, 1.000)</color>
+    </EndTable>
+    <DiningChair>
+      <rects>
+        <li>(5,3,5,3)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>UniversalMaterial</stuff>
+      <quality>Legendary</quality>
+      <color>RGBA(0.824, 0.922, 0.961, 1.000)</color>
+    </DiningChair>
+    <Table1x2c>
+      <positions>
+        <li>(6, 0, 3)</li>
+        <li>(6, 0, 8)</li>
+      </positions>
+      <stuff>UniversalMaterial</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.824, 0.922, 0.961, 1.000)</color>
+    </Table1x2c>
+    <DiningChair>
+      <rects>
+        <li>(7,3,7,3)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>UniversalMaterial</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.824, 0.922, 0.961, 1.000)</color>
+    </DiningChair>
+    <UFLI_BedGuest>
+      <position>(10, 0, 3)</position>
+      <stuff>Steel</stuff>
+      <quality>Legendary</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_BedGuest>
+    <DiningChair>
+      <rects>
+        <li>(5,4,5,4)</li>
+        <li>(5,9,5,9)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>UniversalMaterial</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.824, 0.922, 0.961, 1.000)</color>
+    </DiningChair>
+    <ChessTable>
+      <rects>
+        <li>(7,4,7,4)</li>
+      </rects>
+      <stuff>UniversalMaterial</stuff>
+      <quality>Legendary</quality>
+      <color>RGBA(0.824, 0.922, 0.961, 1.000)</color>
+    </ChessTable>
+    <MigcorpSkipdoor>
+      <rects>
+        <li>(6,5,6,5)</li>
+      </rects>
+    </MigcorpSkipdoor>
+    <Dresser>
+      <position>(3, 0, 6)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>UniversalMaterial</stuff>
+      <quality>Legendary</quality>
+      <color>RGBA(0.824, 0.922, 0.961, 1.000)</color>
+    </Dresser>
+    <HorseshoesPin>
+      <rects>
+        <li>(4,6,4,6)</li>
+      </rects>
+      <stuff>UniversalMaterial</stuff>
+      <color>RGBA(0.824, 0.922, 0.961, 1.000)</color>
+    </HorseshoesPin>
+    <StandingLamp>
+      <rects>
+        <li>(6,6,6,6)</li>
+      </rects>
+    </StandingLamp>
+    <HoopstoneRing>
+      <rects>
+        <li>(8,6,8,6)</li>
+      </rects>
+      <stuff>UniversalMaterial</stuff>
+      <color>RGBA(0.824, 0.922, 0.961, 1.000)</color>
+    </HoopstoneRing>
+    <Dresser>
+      <position>(10, 0, 6)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>UniversalMaterial</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.824, 0.922, 0.961, 1.000)</color>
+    </Dresser>
+    <UFLI_Decoration_Big_Flower>
+      <rects>
+        <li>(6,7,6,7)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </UFLI_Decoration_Big_Flower>
+    <CMC_DECO_WIFI>
+      <rects>
+        <li>(6,7,6,7)</li>
+      </rects>
+      <quality>Legendary</quality>
+    </CMC_DECO_WIFI>
+    <UFLI_BedGuest>
+      <position>(3, 0, 8)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Legendary</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_BedGuest>
+    <GameOfUrBoard>
+      <rects>
+        <li>(5,8,5,8)</li>
+      </rects>
+      <stuff>UniversalMaterial</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.824, 0.922, 0.961, 1.000)</color>
+    </GameOfUrBoard>
+    <DiningChair>
+      <rects>
+        <li>(7,8,7,8)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>UniversalMaterial</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.824, 0.922, 0.961, 1.000)</color>
+    </DiningChair>
+    <UFLI_BedGuest>
+      <position>(8, 0, 9)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_BedGuest>
+    <EndTable>
+      <rects>
+        <li>(3,9,3,9)</li>
+        <li>(9,9,9,9)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>UniversalMaterial</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.824, 0.922, 0.961, 1.000)</color>
+    </EndTable>
+    <DiningChair>
+      <rects>
+        <li>(7,9,7,9)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>UniversalMaterial</stuff>
+      <quality>Legendary</quality>
+      <color>RGBA(0.824, 0.922, 0.961, 1.000)</color>
+    </DiningChair>
+    <DiningChair>
+      <rects>
+        <li>(6,10,6,10)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>UniversalMaterial</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.824, 0.922, 0.961, 1.000)</color>
+    </DiningChair>
+    <UFLI_TempControler>
+      <rects>
+        <li>(7,11,7,11)</li>
+      </rects>
+    </UFLI_TempControler>
+  </things>
+  <terrain>
+    <Slate_RoughHewn>
+      <rects>
+        <li>(0,0,5,0)</li>
+        <li>(7,0,12,0)</li>
+        <li>(0,1,0,5)</li>
+        <li>(12,1,12,5)</li>
+        <li>(0,7,0,12)</li>
+        <li>(12,7,12,12)</li>
+        <li>(1,12,5,12)</li>
+        <li>(7,12,11,12)</li>
+      </rects>
+    </Slate_RoughHewn>
+    <UFLI_FLOORH>
+      <rects>
+        <li>(6,0,6,12)</li>
+        <li>(1,1,5,11)</li>
+        <li>(7,1,11,11)</li>
+        <li>(0,6,0,6)</li>
+        <li>(12,6,12,6)</li>
+      </rects>
+    </UFLI_FLOORH>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <Slate_RoughHewn>
+        <rects>
+          <li>(0,0,5,0)</li>
+          <li>(7,0,12,0)</li>
+          <li>(0,1,0,5)</li>
+          <li>(12,1,12,5)</li>
+          <li>(0,7,0,12)</li>
+          <li>(12,7,12,12)</li>
+          <li>(1,12,5,12)</li>
+          <li>(7,12,11,12)</li>
+        </rects>
+      </Slate_RoughHewn>
+      <UFLI_FLOORH>
+        <rects>
+          <li>(6,0,6,12)</li>
+          <li>(1,1,5,11)</li>
+          <li>(7,1,11,11)</li>
+          <li>(0,6,0,6)</li>
+          <li>(12,6,12,6)</li>
+        </rects>
+      </UFLI_FLOORH>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Slate_RoughHewn>
+        <rects>
+          <li>(6,0,6,12)</li>
+          <li>(1,1,5,11)</li>
+          <li>(7,1,11,11)</li>
+          <li>(0,6,0,6)</li>
+          <li>(12,6,12,6)</li>
+        </rects>
+      </Slate_RoughHewn>
+    </terrainLayerDetail>
+  </terrainLayers>
+</PrefabDef>
