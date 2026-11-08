@@ -1,0 +1,410 @@
+<PrefabDef>
+  <defName>Prefab_20261109_061054</defName>
+  <size>(13,13)</size>
+  <extraInfo>
+    <version>1.7.9805.38275</version>
+    <name>收容</name>
+    <description></description>
+    <tags>
+      <li>AnomalyDLC</li>
+    </tags>
+    <author></author>
+    <category>AnomalyDLC</category>
+    <BuildingID>48a1d06a-5949-4986-99b5-0b6872202598</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>ludeon.rimworld.anomaly</packageId>
+        <name>Anomaly</name>
+        <version></version>
+        <modorder>5</modorder>
+        <things>
+          <li>SecurityDoor</li>
+          <li>BioferriteHarvester</li>
+          <li>HoldingPlatform</li>
+          <li>ShardInhibitor</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.biotech</packageId>
+        <name>Biotech</name>
+        <version></version>
+        <modorder>4</modorder>
+        <things>
+          <li>TrapIED_ToxGas</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>收容</default>
+        <zh-CN>收容</zh-CN>
+      </name>
+      <tags>
+        <default>AnomalyDLC</default>
+      </tags>
+    </multiLanguage>
+    <structureDefs>
+      <li>
+        <defName>Wall</defName>
+        <kind>Wall</kind>
+        <size>(1,1)</size>
+      </li>
+      <li>
+        <defName>SecurityDoor</defName>
+        <kind>Door</kind>
+        <size>(2,1)</size>
+      </li>
+    </structureDefs>
+    <thingKinds version="1">
+      <Buildings>
+        <li>BioferriteHarvester</li>
+        <li>HiddenConduit</li>
+        <li>HoldingPlatform</li>
+        <li>SecurityDoor</li>
+        <li>ShardInhibitor</li>
+        <li>TrapIED_ToxGas</li>
+        <li>Wall</li>
+        <li>WallLamp</li>
+      </Buildings>
+    </thingKinds>
+    <repairDefs version="1">
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Granite_RoughHewn</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>granite</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Gravel</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>sand</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Soil</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>soil</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>SterileTile</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>Steel</li>
+            <li>Silver</li>
+          </resources>
+          <colors />
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>SecurityDoor</defName>
+        <tags>
+          <li>Door</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 1)</size>
+          <label>安全大门</label>
+          <passability>Standable</passability>
+          <marketValue>535</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Wall</defName>
+        <tags>
+          <li>Wall</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>墙</label>
+          <passability>Impassable</passability>
+          <marketValue>10.486</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>WallLamp</defName>
+        <tags>
+          <li>Attachment</li>
+          <li>Lamp</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>壁灯</label>
+          <passability>Standable</passability>
+          <marketValue>29.688</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+    </repairDefs>
+  </extraInfo>
+  <things>
+    <HiddenConduit>
+      <rects>
+        <li>(0,0,12,0)</li>
+        <li>(0,1,0,12)</li>
+        <li>(12,1,12,12)</li>
+        <li>(1,12,11,12)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <Wall>
+      <rects>
+        <li>(0,0,2,0)</li>
+        <li>(5,0,12,0)</li>
+        <li>(0,1,0,7)</li>
+        <li>(7,1,7,7)</li>
+        <li>(12,1,12,2)</li>
+        <li>(1,5,6,5)</li>
+        <li>(12,5,12,12)</li>
+        <li>(5,6,5,12)</li>
+        <li>(6,7,6,7)</li>
+        <li>(8,7,8,7)</li>
+        <li>(11,7,11,7)</li>
+        <li>(0,10,0,12)</li>
+        <li>(1,12,4,12)</li>
+        <li>(6,12,11,12)</li>
+      </rects>
+      <stuff>Plasteel</stuff>
+      <color>RGBA(0.627, 0.698, 0.710, 1.000)</color>
+    </Wall>
+    <SecurityDoor>
+      <positions>
+        <li>(3, 0, 0)</li>
+        <li>(9, 0, 7)</li>
+      </positions>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </SecurityDoor>
+    <WallLamp>
+      <rects>
+        <li>(2,1,2,1)</li>
+        <li>(5,1,5,1)</li>
+        <li>(7,8,7,8)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </WallLamp>
+    <TrapIED_ToxGas>
+      <rects>
+        <li>(3,1,3,1)</li>
+        <li>(9,8,9,8)</li>
+        <li>(1,9,1,9)</li>
+      </rects>
+    </TrapIED_ToxGas>
+    <BioferriteHarvester>
+      <positions>
+        <li>(5, 0, 1)</li>
+        <li>(10, 0, 8)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+    </BioferriteHarvester>
+    <HoldingPlatform>
+      <positions>
+        <li>(9, 0, 2)</li>
+        <li>(2, 0, 3)</li>
+        <li>(5, 0, 3)</li>
+        <li>(9, 0, 5)</li>
+        <li>(3, 0, 7)</li>
+        <li>(3, 0, 10)</li>
+        <li>(7, 0, 10)</li>
+        <li>(10, 0, 10)</li>
+      </positions>
+    </HoldingPlatform>
+    <WallLamp>
+      <rects>
+        <li>(8,2,8,2)</li>
+        <li>(8,5,8,5)</li>
+        <li>(1,7,1,7)</li>
+        <li>(1,10,1,10)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </WallLamp>
+    <WallLamp>
+      <rects>
+        <li>(11,2,11,2)</li>
+        <li>(11,5,11,5)</li>
+        <li>(4,7,4,7)</li>
+        <li>(4,10,4,10)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </WallLamp>
+    <SecurityDoor>
+      <position>(12, 0, 4)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </SecurityDoor>
+    <WallLamp>
+      <rects>
+        <li>(2,4,2,4)</li>
+        <li>(5,4,5,4)</li>
+        <li>(6,6,6,6)</li>
+        <li>(7,11,7,11)</li>
+        <li>(10,11,10,11)</li>
+      </rects>
+    </WallLamp>
+    <BioferriteHarvester>
+      <position>(11, 0, 5)</position>
+    </BioferriteHarvester>
+    <BioferriteHarvester>
+      <position>(1, 0, 7)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </BioferriteHarvester>
+    <ShardInhibitor>
+      <rects>
+        <li>(6,6,6,6)</li>
+      </rects>
+    </ShardInhibitor>
+    <SecurityDoor>
+      <position>(0, 0, 8)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </SecurityDoor>
+  </things>
+  <terrain>
+    <SterileTile>
+      <rects>
+        <li>(3,0,4,4)</li>
+        <li>(6,0,6,4)</li>
+        <li>(1,1,2,4)</li>
+        <li>(5,1,5,4)</li>
+        <li>(8,1,11,6)</li>
+        <li>(12,3,12,4)</li>
+        <li>(1,6,4,11)</li>
+        <li>(6,6,6,6)</li>
+        <li>(9,7,10,11)</li>
+        <li>(0,8,0,9)</li>
+        <li>(6,8,8,11)</li>
+        <li>(11,8,12,9)</li>
+        <li>(11,10,11,11)</li>
+        <li>(8,12,9,12)</li>
+      </rects>
+    </SterileTile>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <SterileTile>
+        <rects>
+          <li>(3,0,4,4)</li>
+          <li>(6,0,6,4)</li>
+          <li>(1,1,2,4)</li>
+          <li>(5,1,5,4)</li>
+          <li>(8,1,11,6)</li>
+          <li>(12,3,12,4)</li>
+          <li>(1,6,4,11)</li>
+          <li>(6,6,6,6)</li>
+          <li>(9,7,10,11)</li>
+          <li>(0,8,0,9)</li>
+          <li>(6,8,8,11)</li>
+          <li>(11,8,12,9)</li>
+          <li>(11,10,11,11)</li>
+          <li>(8,12,9,12)</li>
+        </rects>
+      </SterileTile>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Granite_RoughHewn>
+        <rects>
+          <li>(3,0,4,0)</li>
+          <li>(6,0,6,0)</li>
+        </rects>
+      </Granite_RoughHewn>
+      <Soil>
+        <rects>
+          <li>(1,1,6,4)</li>
+          <li>(8,1,11,6)</li>
+          <li>(12,3,12,4)</li>
+          <li>(3,6,4,11)</li>
+          <li>(6,6,6,6)</li>
+          <li>(1,7,2,11)</li>
+          <li>(9,7,10,11)</li>
+          <li>(0,8,0,9)</li>
+          <li>(6,8,8,11)</li>
+          <li>(11,8,12,9)</li>
+          <li>(11,10,11,11)</li>
+          <li>(8,12,9,12)</li>
+        </rects>
+      </Soil>
+      <Gravel>
+        <rects>
+          <li>(1,6,2,6)</li>
+        </rects>
+      </Gravel>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,2,12)</li>
+        <li>(9,0,12,12)</li>
+        <li>(3,1,8,12)</li>
+      </rects>
+    </RoofConstructed>
+    <RoofRockThin>
+      <rects>
+        <li>(3,0,8,0)</li>
+      </rects>
+    </RoofRockThin>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
