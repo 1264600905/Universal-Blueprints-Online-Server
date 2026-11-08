@@ -1,0 +1,471 @@
+<PrefabDef>
+  <defName>Prefab_20261108_231110</defName>
+  <size>(21,12)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>收容室</name>
+    <description></description>
+    <tags>
+      <li>OdysseyDLC</li>
+      <li>Other</li>
+      <li>ContainmentRoom</li>
+    </tags>
+    <author></author>
+    <category>OdysseyDLC</category>
+    <BuildingID>f6a96c79-4728-4222-8bb9-2702071394ed</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>cn.zhuzijun.reinforcedwalls</packageId>
+        <name>Reinforced Walls 加固结构</name>
+        <version></version>
+        <modorder>30</modorder>
+        <steamWorkshopId>2805879680</steamWorkshopId>
+        <things>
+          <li>ZZ_ReinforcedWall</li>
+          <li>ZZ_ReinforcedAutoRepairDoor</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.anomaly</packageId>
+        <name>Anomaly</name>
+        <version></version>
+        <modorder>5</modorder>
+        <things>
+          <li>ShardInhibitor</li>
+          <li>BioferriteHarvester</li>
+          <li>HoldingPlatform</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.royalty</packageId>
+        <name>Royalty</name>
+        <version></version>
+        <modorder>2</modorder>
+        <things>
+          <li>FineTileLimestone</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.odyssey</packageId>
+        <name>Odyssey</name>
+        <version></version>
+        <modorder>6</modorder>
+        <things>
+          <li>HeavyBridge</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>收容室</default>
+        <zh-CN>收容室</zh-CN>
+      </name>
+      <tags>
+        <default>OdysseyDLC,Other,ContainmentRoom</default>
+      </tags>
+    </multiLanguage>
+    <structureDefs>
+      <li>
+        <defName>ZZ_ReinforcedWall</defName>
+        <kind>Wall</kind>
+        <size>(1,1)</size>
+      </li>
+      <li>
+        <defName>ZZ_ReinforcedAutoRepairDoor</defName>
+        <kind>Door</kind>
+        <size>(1,1)</size>
+      </li>
+    </structureDefs>
+    <thingKinds version="1">
+      <Buildings>
+        <li>BioferriteHarvester</li>
+        <li>HiddenConduit</li>
+        <li>HoldingPlatform</li>
+        <li>ShardInhibitor</li>
+        <li>WallLamp</li>
+        <li>ZZ_ReinforcedAutoRepairDoor</li>
+        <li>ZZ_ReinforcedWall</li>
+      </Buildings>
+    </thingKinds>
+    <repairDefs version="1">
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>FineTileLimestone</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>BlocksLimestone</li>
+          </resources>
+          <colors />
+          <materials>
+            <li>limestone</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>HeavyBridge</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>Steel</li>
+          </resources>
+          <colors />
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>2</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Sand</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>sand</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Slate_Rough</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>slate</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Soil</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>soil</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>SoilRich</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>soil</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>WaterOceanShallow</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>WallLamp</defName>
+        <tags>
+          <li>Attachment</li>
+          <li>Lamp</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>壁灯</label>
+          <passability>Standable</passability>
+          <marketValue>29.688</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>ZZ_ReinforcedAutoRepairDoor</defName>
+        <tags>
+          <li>Door</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>加固自动门</label>
+          <passability>Standable</passability>
+          <marketValue>171.072</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>ZZ_ReinforcedWall</defName>
+        <tags>
+          <li>Wall</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>加固墙</label>
+          <passability>Impassable</passability>
+          <marketValue>139.18</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+    </repairDefs>
+  </extraInfo>
+  <things>
+    <ZZ_ReinforcedWall>
+      <rects>
+        <li>(0,0,2,0)</li>
+        <li>(4,0,12,0)</li>
+        <li>(14,0,20,0)</li>
+        <li>(0,1,0,5)</li>
+        <li>(10,1,10,11)</li>
+        <li>(20,1,20,5)</li>
+        <li>(1,5,9,5)</li>
+        <li>(11,5,19,5)</li>
+        <li>(0,7,0,11)</li>
+        <li>(20,7,20,11)</li>
+        <li>(1,11,9,11)</li>
+        <li>(11,11,19,11)</li>
+      </rects>
+      <stuff>Plasteel</stuff>
+      <color>RGBA(0.627, 0.698, 0.710, 1.000)</color>
+    </ZZ_ReinforcedWall>
+    <ZZ_ReinforcedAutoRepairDoor>
+      <rects>
+        <li>(3,0,3,0)</li>
+        <li>(13,0,13,0)</li>
+      </rects>
+      <stuff>Plasteel</stuff>
+      <color>RGBA(0.627, 0.698, 0.710, 1.000)</color>
+    </ZZ_ReinforcedAutoRepairDoor>
+    <HiddenConduit>
+      <rects>
+        <li>(6,0,17,0)</li>
+        <li>(6,1,6,11)</li>
+        <li>(17,1,17,11)</li>
+        <li>(7,6,16,6)</li>
+        <li>(16,10,16,11)</li>
+        <li>(7,11,15,11)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <ShardInhibitor>
+      <rects>
+        <li>(4,1,4,1)</li>
+        <li>(14,1,14,1)</li>
+        <li>(4,7,4,7)</li>
+        <li>(14,7,14,7)</li>
+      </rects>
+    </ShardInhibitor>
+    <BioferriteHarvester>
+      <positions>
+        <li>(5, 0, 1)</li>
+        <li>(15, 0, 1)</li>
+        <li>(5, 0, 7)</li>
+        <li>(15, 0, 7)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+    </BioferriteHarvester>
+    <WallLamp>
+      <rects>
+        <li>(7,1,7,1)</li>
+        <li>(17,1,17,1)</li>
+        <li>(3,6,3,6)</li>
+        <li>(15,6,15,6)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </WallLamp>
+    <HoldingPlatform>
+      <positions>
+        <li>(2, 0, 3)</li>
+        <li>(5, 0, 3)</li>
+        <li>(8, 0, 3)</li>
+        <li>(12, 0, 3)</li>
+        <li>(15, 0, 3)</li>
+        <li>(18, 0, 3)</li>
+        <li>(2, 0, 9)</li>
+        <li>(5, 0, 9)</li>
+        <li>(8, 0, 9)</li>
+        <li>(12, 0, 9)</li>
+        <li>(15, 0, 9)</li>
+        <li>(18, 0, 9)</li>
+      </positions>
+    </HoldingPlatform>
+    <WallLamp>
+      <rects>
+        <li>(4,4,4,4)</li>
+        <li>(13,4,13,4)</li>
+        <li>(5,10,5,10)</li>
+        <li>(15,10,15,10)</li>
+      </rects>
+    </WallLamp>
+    <ZZ_ReinforcedAutoRepairDoor>
+      <rects>
+        <li>(0,6,0,6)</li>
+        <li>(20,6,20,6)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Plasteel</stuff>
+      <color>RGBA(0.627, 0.698, 0.710, 1.000)</color>
+    </ZZ_ReinforcedAutoRepairDoor>
+  </things>
+  <terrain>
+    <FineTileLimestone>
+      <rects>
+        <li>(0,0,20,11)</li>
+      </rects>
+    </FineTileLimestone>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <FineTileLimestone>
+        <rects>
+          <li>(0,0,20,11)</li>
+        </rects>
+      </FineTileLimestone>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <WaterOceanShallow>
+        <rects>
+          <li>(0,0,0,11)</li>
+          <li>(1,6,1,11)</li>
+          <li>(2,8,2,11)</li>
+          <li>(3,9,4,11)</li>
+          <li>(5,10,5,11)</li>
+          <li>(6,11,6,11)</li>
+        </rects>
+      </WaterOceanShallow>
+      <Sand>
+        <rects>
+          <li>(1,0,9,0)</li>
+          <li>(12,0,18,1)</li>
+          <li>(1,1,7,1)</li>
+          <li>(1,2,1,2)</li>
+          <li>(5,2,5,2)</li>
+          <li>(13,2,18,10)</li>
+          <li>(4,3,4,3)</li>
+          <li>(11,5,12,11)</li>
+          <li>(10,6,10,11)</li>
+          <li>(19,6,19,10)</li>
+          <li>(8,7,9,11)</li>
+          <li>(20,7,20,9)</li>
+          <li>(6,8,7,10)</li>
+          <li>(5,9,5,9)</li>
+          <li>(7,11,7,11)</li>
+          <li>(13,11,17,11)</li>
+        </rects>
+      </Sand>
+      <Slate_Rough>
+        <rects>
+          <li>(10,0,11,4)</li>
+          <li>(8,1,9,6)</li>
+          <li>(2,2,4,2)</li>
+          <li>(6,2,7,7)</li>
+          <li>(12,2,12,4)</li>
+          <li>(1,3,3,5)</li>
+          <li>(5,3,5,8)</li>
+          <li>(4,4,4,8)</li>
+          <li>(10,5,10,5)</li>
+          <li>(2,6,3,7)</li>
+          <li>(3,8,3,8)</li>
+        </rects>
+      </Slate_Rough>
+      <SoilRich>
+        <rects>
+          <li>(19,0,20,5)</li>
+          <li>(20,6,20,6)</li>
+        </rects>
+      </SoilRich>
+      <Soil>
+        <rects>
+          <li>(20,10,20,11)</li>
+          <li>(18,11,19,11)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="foundationGrid">
+      <HeavyBridge>
+        <rects>
+          <li>(0,0,0,11)</li>
+          <li>(1,6,1,11)</li>
+          <li>(2,8,2,11)</li>
+          <li>(3,9,4,11)</li>
+          <li>(5,10,5,11)</li>
+          <li>(6,11,6,11)</li>
+        </rects>
+      </HeavyBridge>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,20,11)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,20,11)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
