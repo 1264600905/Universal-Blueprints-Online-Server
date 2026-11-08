@@ -1,0 +1,1033 @@
+<PrefabDef>
+  <defName>Prefab_20261108_193703</defName>
+  <size>(29,14)</size>
+  <extraInfo>
+    <version>1.6.9438.37837</version>
+    <name>八人单人宿舍</name>
+    <description></description>
+    <tags>
+      <li>Dormitory</li>
+    </tags>
+    <author></author>
+    <category>Dormitory</category>
+    <BuildingID>a83b4cc7-302f-4bb0-87b3-782c4aecdf39</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>aoba.fortress.industrial</packageId>
+        <name>Fortifications - Industrial</name>
+        <version></version>
+        <modorder>147</modorder>
+        <steamWorkshopId>2561619583</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>aoba.framework</packageId>
+            <steamWorkshopId>3498575851</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>FT_BlocksConcrete</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ponpeco.pfkidsroom</packageId>
+        <name><![CDATA[Ponpeco Furnitures : Kids' Room]]></name>
+        <version>1.8</version>
+        <modorder>89</modorder>
+        <steamWorkshopId>3367310887</steamWorkshopId>
+        <things>
+          <li>PFK_ShaggyRug_D</li>
+          <li>PFK_Stool</li>
+          <li>PFK_PKCDog</li>
+          <li>PFK_Table2x2c</li>
+          <li>PFK_PKCRobo</li>
+          <li>PFK_BedAa</li>
+          <li>PFK_Armchair</li>
+          <li>PFK_EndTable</li>
+          <li>PFK_BigCurtain</li>
+          <li>PFK_Dresser</li>
+          <li>PFK_GiantPlushie</li>
+          <li>PFK_WoodenToy</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>nephlite.orbitaltradecolumn</packageId>
+        <name>Utility Columns</name>
+        <version></version>
+        <modorder>107</modorder>
+        <steamWorkshopId>2013476665</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Wall_HeatDevice</li>
+          <li>Wall_CoolDevice</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>jf.geometricfloors</packageId>
+        <name>[JF] Geometric Floors</name>
+        <version></version>
+        <modorder>24</modorder>
+        <steamWorkshopId>2863525144</steamWorkshopId>
+        <things>
+          <li>JFGeometricFloors_Carpet_FleurDeLisB</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>八人单人宿舍</default>
+        <zh-CN>八人单人宿舍</zh-CN>
+      </name>
+      <tags>
+        <default>Dormitory</default>
+      </tags>
+    </multiLanguage>
+    <structureDefs>
+      <li>
+        <defName>Wall</defName>
+        <kind>Wall</kind>
+        <size>(1,1)</size>
+      </li>
+      <li>
+        <defName>Autodoor</defName>
+        <kind>Door</kind>
+        <size>(1,1)</size>
+      </li>
+    </structureDefs>
+    <thingKinds version="1">
+      <Buildings>
+        <li>Autodoor</li>
+        <li>HiddenConduit</li>
+        <li>PFK_Armchair</li>
+        <li>PFK_BedAa</li>
+        <li>PFK_BigCurtain</li>
+        <li>PFK_Dresser</li>
+        <li>PFK_EndTable</li>
+        <li>PFK_GiantPlushie</li>
+        <li>PFK_PKCDog</li>
+        <li>PFK_PKCRobo</li>
+        <li>PFK_ShaggyRug_D</li>
+        <li>PFK_Stool</li>
+        <li>PFK_Table2x2c</li>
+        <li>PFK_WoodenToy</li>
+        <li>Wall</li>
+        <li>WallLamp</li>
+        <li>Wall_CoolDevice</li>
+        <li>Wall_HeatDevice</li>
+      </Buildings>
+    </thingKinds>
+    <repairDefs version="1">
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>AncientConcrete</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>concrete</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>JFGeometricFloors_Carpet_FleurDeLisB</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>Cloth</li>
+          </resources>
+          <colors />
+          <materials>
+            <li>fabric</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Sand</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>sand</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Soil</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>soil</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>TileSlate</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>BlocksSlate</li>
+          </resources>
+          <colors />
+          <materials>
+            <li>slate</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Autodoor</defName>
+        <tags>
+          <li>Door</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>自动门</label>
+          <passability>Standable</passability>
+          <marketValue>193.96</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>PFK_Armchair</defName>
+        <tags>
+          <li>Seat</li>
+        </tags>
+        <builtinSources>
+          <li>Armchair</li>
+        </builtinSources>
+        <match>
+          <size>(1, 1)</size>
+          <label>儿童房扶手椅</label>
+          <passability>Standable</passability>
+          <marketValue>270</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>PFK_BedAa</defName>
+        <tags>
+          <li>Bed</li>
+        </tags>
+        <builtinSources>
+          <li>Bed</li>
+        </builtinSources>
+        <match>
+          <size>(1, 2)</size>
+          <label>儿童房单人床</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>92.88</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Woody</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>PFK_BigCurtain</defName>
+        <tags />
+        <builtinSources>
+          <li>AnimalFlap</li>
+        </builtinSources>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>PFK_Dresser</defName>
+        <tags>
+          <li>Bedside</li>
+        </tags>
+        <builtinSources>
+          <li>Dresser</li>
+        </builtinSources>
+        <match>
+          <size>(2, 1)</size>
+          <label>儿童房矮柜</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>107.2</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>PFK_EndTable</defName>
+        <tags>
+          <li>Bedside</li>
+        </tags>
+        <builtinSources>
+          <li>EndTable</li>
+        </builtinSources>
+        <match>
+          <size>(1, 1)</size>
+          <label>儿童房床头柜</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>63.6</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>PFK_ShaggyRug_D</defName>
+        <tags />
+        <builtinSources>
+          <li>RusticRug_Broad</li>
+        </builtinSources>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>PFK_Stool</defName>
+        <tags>
+          <li>Seat</li>
+        </tags>
+        <builtinSources>
+          <li>Stool</li>
+        </builtinSources>
+        <match>
+          <size>(1, 1)</size>
+          <label>儿童房凳子</label>
+          <passability>Standable</passability>
+          <marketValue>51.62</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>PFK_Table2x2c</defName>
+        <tags>
+          <li>Table</li>
+        </tags>
+        <builtinSources>
+          <li>Table2x2c</li>
+        </builtinSources>
+        <match>
+          <size>(2, 2)</size>
+          <label>儿童房桌子（2x2）</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>105.4</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>PFK_WoodenToy</defName>
+        <tags />
+        <builtinSources>
+          <li>BabyDecoration</li>
+        </builtinSources>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Wall</defName>
+        <tags>
+          <li>Wall</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>墙</label>
+          <passability>Impassable</passability>
+          <marketValue>10.486</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>WallLamp</defName>
+        <tags>
+          <li>Attachment</li>
+          <li>Lamp</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>壁灯</label>
+          <passability>Standable</passability>
+          <marketValue>29.688</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Wall_CoolDevice</defName>
+        <tags>
+          <li>Attachment</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>制冷单元</label>
+          <passability>Standable</passability>
+          <marketValue>215</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Wall_HeatDevice</defName>
+        <tags>
+          <li>Attachment</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>加热单元</label>
+          <passability>Standable</passability>
+          <marketValue>215</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+    </repairDefs>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,4,0)</li>
+        <li>(6,0,7,0)</li>
+        <li>(14,0,18,0)</li>
+        <li>(20,0,21,0)</li>
+        <li>(0,1,0,12)</li>
+        <li>(7,1,11,1)</li>
+        <li>(13,1,14,1)</li>
+        <li>(21,1,25,1)</li>
+        <li>(27,1,28,1)</li>
+        <li>(7,2,7,13)</li>
+        <li>(14,2,14,13)</li>
+        <li>(21,2,21,13)</li>
+        <li>(28,2,28,13)</li>
+        <li>(1,6,6,6)</li>
+        <li>(15,6,20,6)</li>
+        <li>(8,7,13,7)</li>
+        <li>(22,7,27,7)</li>
+        <li>(1,12,4,12)</li>
+        <li>(6,12,6,12)</li>
+        <li>(15,12,18,12)</li>
+        <li>(20,12,20,12)</li>
+        <li>(8,13,11,13)</li>
+        <li>(13,13,13,13)</li>
+        <li>(22,13,25,13)</li>
+        <li>(27,13,27,13)</li>
+      </rects>
+      <stuff>FT_BlocksConcrete</stuff>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </Wall>
+    <Autodoor>
+      <rects>
+        <li>(5,0,5,0)</li>
+        <li>(19,0,19,0)</li>
+        <li>(12,1,12,1)</li>
+        <li>(26,1,26,1)</li>
+        <li>(5,12,5,12)</li>
+        <li>(19,12,19,12)</li>
+        <li>(12,13,12,13)</li>
+        <li>(26,13,26,13)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Autodoor>
+    <PFK_ShaggyRug_D>
+      <positions>
+        <li>(4, 0, 2)</li>
+        <li>(18, 0, 2)</li>
+        <li>(25, 0, 3)</li>
+        <li>(4, 0, 9)</li>
+      </positions>
+      <stuff>Cloth</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </PFK_ShaggyRug_D>
+    <PFK_Stool>
+      <rects>
+        <li>(6,1,6,1)</li>
+        <li>(20,1,20,1)</li>
+        <li>(13,2,13,2)</li>
+        <li>(13,12,13,12)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </PFK_Stool>
+    <PFK_PKCDog>
+      <rects>
+        <li>(5,2,5,2)</li>
+        <li>(19,2,19,2)</li>
+        <li>(12,3,12,3)</li>
+        <li>(26,3,26,3)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Cloth</stuff>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </PFK_PKCDog>
+    <PFK_Table2x2c>
+      <positions>
+        <li>(5, 0, 2)</li>
+        <li>(19, 0, 2)</li>
+        <li>(12, 0, 3)</li>
+        <li>(19, 0, 9)</li>
+        <li>(26, 0, 10)</li>
+      </positions>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </PFK_Table2x2c>
+    <PFK_PKCRobo>
+      <rects>
+        <li>(6,2,6,2)</li>
+        <li>(20,2,20,2)</li>
+        <li>(13,3,13,3)</li>
+        <li>(27,3,27,3)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Cloth</stuff>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </PFK_PKCRobo>
+    <PFK_ShaggyRug_D>
+      <position>(11, 0, 3)</position>
+      <stuff>Cloth</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </PFK_ShaggyRug_D>
+    <PFK_Stool>
+      <rects>
+        <li>(27,2,27,2)</li>
+        <li>(20,11,20,11)</li>
+        <li>(27,12,27,12)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </PFK_Stool>
+    <WallLamp>
+      <rects>
+        <li>(1,3,1,3)</li>
+        <li>(15,3,15,3)</li>
+        <li>(8,4,8,4)</li>
+        <li>(22,4,22,4)</li>
+        <li>(1,9,1,9)</li>
+        <li>(15,9,15,9)</li>
+        <li>(8,10,8,10)</li>
+        <li>(22,10,22,10)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </WallLamp>
+    <PFK_Table2x2c>
+      <position>(26, 0, 3)</position>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </PFK_Table2x2c>
+    <PFK_BedAa>
+      <positions>
+        <li>(2, 0, 5)</li>
+        <li>(16, 0, 5)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </PFK_BedAa>
+    <PFK_Armchair>
+      <rects>
+        <li>(6,4,6,4)</li>
+        <li>(27,5,27,5)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </PFK_Armchair>
+    <PFK_Armchair>
+      <rects>
+        <li>(20,4,20,4)</li>
+        <li>(13,5,13,5)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </PFK_Armchair>
+    <Wall_HeatDevice>
+      <rects>
+        <li>(1,5,1,5)</li>
+        <li>(15,5,15,5)</li>
+        <li>(8,6,8,6)</li>
+        <li>(22,6,22,6)</li>
+      </rects>
+    </Wall_HeatDevice>
+    <PFK_EndTable>
+      <rects>
+        <li>(1,5,1,5)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </PFK_EndTable>
+    <PFK_BigCurtain>
+      <rects>
+        <li>(2,5,2,5)</li>
+        <li>(16,5,16,5)</li>
+        <li>(9,6,9,6)</li>
+        <li>(23,6,23,6)</li>
+      </rects>
+      <stuff>Cloth</stuff>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </PFK_BigCurtain>
+    <PFK_Dresser>
+      <position>(4, 0, 5)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </PFK_Dresser>
+    <PFK_GiantPlushie>
+      <rects>
+        <li>(5,5,5,5)</li>
+        <li>(19,5,19,5)</li>
+        <li>(12,6,12,6)</li>
+        <li>(26,6,26,6)</li>
+        <li>(5,7,5,7)</li>
+        <li>(19,7,19,7)</li>
+        <li>(12,8,12,8)</li>
+        <li>(26,8,26,8)</li>
+      </rects>
+      <stuff>Cloth</stuff>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </PFK_GiantPlushie>
+    <PFK_WoodenToy>
+      <rects>
+        <li>(6,5,6,5)</li>
+        <li>(20,5,20,5)</li>
+        <li>(13,6,13,6)</li>
+        <li>(27,6,27,6)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </PFK_WoodenToy>
+    <Wall_CoolDevice>
+      <rects>
+        <li>(6,5,6,5)</li>
+        <li>(20,5,20,5)</li>
+        <li>(13,6,13,6)</li>
+        <li>(27,6,27,6)</li>
+      </rects>
+    </Wall_CoolDevice>
+    <PFK_BedAa>
+      <position>(9, 0, 6)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </PFK_BedAa>
+    <PFK_EndTable>
+      <rects>
+        <li>(15,5,15,5)</li>
+        <li>(22,6,22,6)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </PFK_EndTable>
+    <PFK_Dresser>
+      <positions>
+        <li>(18, 0, 5)</li>
+        <li>(11, 0, 6)</li>
+        <li>(25, 0, 6)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </PFK_Dresser>
+    <PFK_BedAa>
+      <position>(23, 0, 6)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </PFK_BedAa>
+    <PFK_EndTable>
+      <rects>
+        <li>(8,6,8,6)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </PFK_EndTable>
+    <HiddenConduit>
+      <rects>
+        <li>(0,7,28,7)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <Wall_HeatDevice>
+      <rects>
+        <li>(1,7,1,7)</li>
+        <li>(15,7,15,7)</li>
+        <li>(8,8,8,8)</li>
+        <li>(22,8,22,8)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </Wall_HeatDevice>
+    <PFK_EndTable>
+      <rects>
+        <li>(1,7,1,7)</li>
+        <li>(8,8,8,8)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </PFK_EndTable>
+    <PFK_BedAa>
+      <positions>
+        <li>(2, 0, 7)</li>
+        <li>(9, 0, 8)</li>
+        <li>(23, 0, 8)</li>
+      </positions>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </PFK_BedAa>
+    <PFK_Dresser>
+      <position>(3, 0, 7)</position>
+      <stuff>WoodLog</stuff>
+      <quality>Poor</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </PFK_Dresser>
+    <Wall_CoolDevice>
+      <rects>
+        <li>(6,7,6,7)</li>
+        <li>(20,7,20,7)</li>
+        <li>(13,8,13,8)</li>
+        <li>(27,8,27,8)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </Wall_CoolDevice>
+    <PFK_WoodenToy>
+      <rects>
+        <li>(6,7,6,7)</li>
+        <li>(20,7,20,7)</li>
+        <li>(13,8,13,8)</li>
+        <li>(27,8,27,8)</li>
+      </rects>
+    </PFK_WoodenToy>
+    <PFK_EndTable>
+      <rects>
+        <li>(15,7,15,7)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </PFK_EndTable>
+    <PFK_BedAa>
+      <position>(16, 0, 7)</position>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </PFK_BedAa>
+    <PFK_Dresser>
+      <position>(17, 0, 7)</position>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </PFK_Dresser>
+    <PFK_Armchair>
+      <rects>
+        <li>(6,8,6,8)</li>
+      </rects>
+      <stuff>Cloth</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </PFK_Armchair>
+    <PFK_Dresser>
+      <position>(10, 0, 8)</position>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </PFK_Dresser>
+    <PFK_ShaggyRug_D>
+      <positions>
+        <li>(18, 0, 9)</li>
+        <li>(11, 0, 10)</li>
+        <li>(25, 0, 10)</li>
+      </positions>
+      <stuff>Cloth</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </PFK_ShaggyRug_D>
+    <PFK_Armchair>
+      <rects>
+        <li>(20,8,20,8)</li>
+        <li>(27,9,27,9)</li>
+      </rects>
+      <stuff>Cloth</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </PFK_Armchair>
+    <PFK_EndTable>
+      <rects>
+        <li>(22,8,22,8)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </PFK_EndTable>
+    <PFK_Dresser>
+      <position>(24, 0, 8)</position>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </PFK_Dresser>
+    <PFK_Table2x2c>
+      <positions>
+        <li>(5, 0, 9)</li>
+        <li>(12, 0, 10)</li>
+      </positions>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </PFK_Table2x2c>
+    <PFK_Armchair>
+      <rects>
+        <li>(13,9,13,9)</li>
+      </rects>
+      <stuff>Cloth</stuff>
+      <quality>Poor</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </PFK_Armchair>
+    <PFK_Stool>
+      <rects>
+        <li>(6,11,6,11)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Poor</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </PFK_Stool>
+  </things>
+  <terrain>
+    <TileSlate>
+      <rects>
+        <li>(5,0,5,0)</li>
+        <li>(8,0,13,0)</li>
+        <li>(19,0,19,0)</li>
+        <li>(22,0,28,0)</li>
+        <li>(12,1,12,1)</li>
+        <li>(26,1,26,1)</li>
+        <li>(5,12,5,12)</li>
+        <li>(19,12,19,12)</li>
+        <li>(12,13,12,13)</li>
+        <li>(26,13,26,13)</li>
+      </rects>
+    </TileSlate>
+    <JFGeometricFloors_Carpet_FleurDeLisB>
+      <rects>
+        <li>(1,1,6,5)</li>
+        <li>(15,1,20,5)</li>
+        <li>(8,2,13,6)</li>
+        <li>(22,2,27,6)</li>
+        <li>(1,7,6,11)</li>
+        <li>(15,7,20,11)</li>
+        <li>(8,8,13,12)</li>
+        <li>(22,8,27,12)</li>
+      </rects>
+    </JFGeometricFloors_Carpet_FleurDeLisB>
+    <AncientConcrete>
+      <rects>
+        <li>(7,8,7,13)</li>
+        <li>(4,12,4,13)</li>
+        <li>(6,12,6,13)</li>
+        <li>(3,13,3,13)</li>
+        <li>(5,13,5,13)</li>
+        <li>(8,13,11,13)</li>
+        <li>(13,13,13,13)</li>
+      </rects>
+    </AncientConcrete>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <TileSlate>
+        <rects>
+          <li>(5,0,5,0)</li>
+          <li>(8,0,13,0)</li>
+          <li>(19,0,19,0)</li>
+          <li>(22,0,28,0)</li>
+          <li>(12,1,12,1)</li>
+          <li>(26,1,26,1)</li>
+          <li>(5,12,5,12)</li>
+          <li>(19,12,19,12)</li>
+          <li>(12,13,12,13)</li>
+          <li>(26,13,26,13)</li>
+        </rects>
+      </TileSlate>
+      <JFGeometricFloors_Carpet_FleurDeLisB>
+        <rects>
+          <li>(1,1,6,5)</li>
+          <li>(15,1,20,5)</li>
+          <li>(8,2,13,6)</li>
+          <li>(22,2,27,6)</li>
+          <li>(1,7,6,11)</li>
+          <li>(15,7,20,11)</li>
+          <li>(8,8,13,12)</li>
+          <li>(22,8,27,12)</li>
+        </rects>
+      </JFGeometricFloors_Carpet_FleurDeLisB>
+      <AncientConcrete>
+        <rects>
+          <li>(7,8,7,13)</li>
+          <li>(4,12,4,13)</li>
+          <li>(6,12,6,13)</li>
+          <li>(3,13,3,13)</li>
+          <li>(5,13,5,13)</li>
+          <li>(8,13,11,13)</li>
+          <li>(13,13,13,13)</li>
+        </rects>
+      </AncientConcrete>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(5,0,5,5)</li>
+          <li>(8,0,13,0)</li>
+          <li>(19,0,19,5)</li>
+          <li>(22,0,28,0)</li>
+          <li>(1,1,4,5)</li>
+          <li>(6,1,6,5)</li>
+          <li>(12,1,12,6)</li>
+          <li>(15,1,18,5)</li>
+          <li>(20,1,20,5)</li>
+          <li>(26,1,26,5)</li>
+          <li>(8,2,11,6)</li>
+          <li>(13,2,13,6)</li>
+          <li>(22,2,25,6)</li>
+          <li>(27,2,27,2)</li>
+          <li>(1,7,6,11)</li>
+          <li>(15,7,20,11)</li>
+          <li>(7,8,13,13)</li>
+          <li>(22,8,22,8)</li>
+          <li>(4,12,6,13)</li>
+          <li>(19,12,19,12)</li>
+          <li>(3,13,3,13)</li>
+        </rects>
+      </Soil>
+      <Sand>
+        <rects>
+          <li>(27,3,27,6)</li>
+          <li>(26,6,26,6)</li>
+          <li>(23,8,27,12)</li>
+          <li>(22,9,22,12)</li>
+          <li>(26,13,26,13)</li>
+        </rects>
+      </Sand>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,7,12)</li>
+        <li>(14,0,21,12)</li>
+        <li>(8,1,13,13)</li>
+        <li>(22,1,28,13)</li>
+        <li>(7,13,7,13)</li>
+        <li>(14,13,14,13)</li>
+        <li>(21,13,21,13)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,7,12)</li>
+        <li>(14,0,21,12)</li>
+        <li>(8,1,13,13)</li>
+        <li>(22,1,28,13)</li>
+        <li>(7,13,7,13)</li>
+        <li>(14,13,14,13)</li>
+        <li>(21,13,21,13)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
