@@ -1,0 +1,479 @@
+<PrefabDef>
+  <defName>Prefab_20261108_145307</defName>
+  <size>(8,6)</size>
+  <extraInfo>
+    <version>1.7.9805.38275</version>
+    <name>Dormitorios</name>
+    <description></description>
+    <tags>
+      <li>Dormitory</li>
+    </tags>
+    <author></author>
+    <category>Dormitory</category>
+    <BuildingID>248b773a-ec9d-4571-aff1-06ffc45324dd</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>dubwise.dubsbadhygiene</packageId>
+        <name>Dubs Bad Hygiene</name>
+        <version>3.2.3260</version>
+        <modorder>104</modorder>
+        <steamWorkshopId>836308268</steamWorkshopId>
+        <things>
+          <li>sewagePipeHidden</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>aoba.fortress.industrial</packageId>
+        <name>Fortifications - Industrial</name>
+        <version></version>
+        <modorder>213</modorder>
+        <steamWorkshopId>2561619583</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>aoba.framework</packageId>
+            <steamWorkshopId>3498575851</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>FT_BlocksConcrete</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>kindseal.ufli</packageId>
+        <name>联合轻工家具拓展-UF Light Industries Furniture</name>
+        <version></version>
+        <modorder>26</modorder>
+        <steamWorkshopId>3651799915</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFLI_1_Autodoor</li>
+          <li>UFLI_CouchDouble</li>
+          <li>UFLI_Television</li>
+          <li>UFLI_Walllamp</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>rebuild.cotr.doorsandcorners</packageId>
+        <name>ReBuild: Doors and Corners</name>
+        <version>1.5-Miller-rev2</version>
+        <modorder>150</modorder>
+        <steamWorkshopId>3262718980</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>RB_FloorLamp</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ponpeco.pfsf</packageId>
+        <name>Ponpeco Furnitures : Sci-Fi</name>
+        <version>1.6.1</version>
+        <modorder>154</modorder>
+        <steamWorkshopId>3610234567</steamWorkshopId>
+        <things>
+          <li>PFS_DresserB</li>
+          <li>PFS_DoubleBed</li>
+          <li>PFS_EndTable</li>
+          <li>PFS_LF_Black</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>resurrectionem.furniture</packageId>
+        <name><![CDATA[RR's Furniture pack-Collection Rapture]]></name>
+        <version></version>
+        <modorder>271</modorder>
+        <steamWorkshopId>3310690878</steamWorkshopId>
+        <things>
+          <li>RRGojaRadio</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>zylle.clocks</packageId>
+        <name>Clocks</name>
+        <version></version>
+        <modorder>235</modorder>
+        <steamWorkshopId>3050079733</steamWorkshopId>
+        <things>
+          <li>ZCL_ElectronicAlarmClock</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>Dormitorios</default>
+        <es>Dormitorios</es>
+      </name>
+      <tags>
+        <default>Dormitory</default>
+      </tags>
+    </multiLanguage>
+    <structureDefs>
+      <li>
+        <defName>Wall</defName>
+        <kind>Wall</kind>
+        <size>(1,1)</size>
+      </li>
+      <li>
+        <defName>UFLI_1_Autodoor</defName>
+        <kind>Door</kind>
+        <size>(1,1)</size>
+      </li>
+    </structureDefs>
+    <thingKinds version="1">
+      <Buildings>
+        <li>HiddenConduit</li>
+        <li>PFS_DoubleBed</li>
+        <li>PFS_DresserB</li>
+        <li>PFS_EndTable</li>
+        <li>RRGojaRadio</li>
+        <li>UFLI_1_Autodoor</li>
+        <li>UFLI_CouchDouble</li>
+        <li>UFLI_Television</li>
+        <li>UFLI_Walllamp</li>
+        <li>Wall</li>
+        <li>ZCL_ElectronicAlarmClock</li>
+        <li>sewagePipeHidden</li>
+      </Buildings>
+      <ArtificialTerrain>
+        <li>RB_FloorLamp</li>
+      </ArtificialTerrain>
+    </thingKinds>
+    <repairDefs version="1">
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>PFS_LF_Black</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>Steel</li>
+          </resources>
+          <colors>
+            <li>black</li>
+          </colors>
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Sandstone_RoughHewn</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>sandstone</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>PFS_DoubleBed</defName>
+        <tags>
+          <li>Bed</li>
+        </tags>
+        <builtinSources>
+          <li>DoubleBed</li>
+        </builtinSources>
+        <match>
+          <size>(2, 2)</size>
+          <label>PFS double bed</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>165.87547</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>PFS_DresserB</defName>
+        <tags>
+          <li>Bedside</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 1)</size>
+          <label>PFS dresser B</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>101.597336</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>PFS_EndTable</defName>
+        <tags>
+          <li>Bedside</li>
+        </tags>
+        <builtinSources>
+          <li>EndTable</li>
+        </builtinSources>
+        <match>
+          <size>(1, 1)</size>
+          <label>PFS end table</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>60.238403</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>RB_FloorLamp</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>floor lamp</label>
+          <passability>Standable</passability>
+          <marketValue>40.699734</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_1_Autodoor</defName>
+        <tags>
+          <li>Door</li>
+        </tags>
+        <builtinSources>
+          <li>Autodoor</li>
+        </builtinSources>
+        <match>
+          <size>(1, 1)</size>
+          <label>UF Automatic Door 1X1</label>
+          <passability>Standable</passability>
+          <marketValue>159.57838</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_CouchDouble</defName>
+        <tags>
+          <li>Seat</li>
+        </tags>
+        <builtinSources>
+          <li>Couch</li>
+        </builtinSources>
+        <match>
+          <size>(2, 1)</size>
+          <label>UF Double Couch</label>
+          <passability>Standable</passability>
+          <marketValue>255</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_Television</defName>
+        <tags />
+        <builtinSources>
+          <li>FlatscreenTelevision</li>
+        </builtinSources>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_Walllamp</defName>
+        <tags>
+          <li>Attachment</li>
+          <li>Lamp</li>
+        </tags>
+        <builtinSources>
+          <li>WallLamp</li>
+        </builtinSources>
+        <match>
+          <size>(1, 1)</size>
+          <label>UF Wall Lamp</label>
+          <passability>Standable</passability>
+          <marketValue>29.399202</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Wall</defName>
+        <tags>
+          <li>Wall</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>muro</label>
+          <passability>Impassable</passability>
+          <marketValue>10.486</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+    </repairDefs>
+  </extraInfo>
+  <things>
+    <sewagePipeHidden>
+      <rects>
+        <li>(0,0,7,0)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </sewagePipeHidden>
+    <HiddenConduit>
+      <rects>
+        <li>(0,0,7,0)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <Wall>
+      <rects>
+        <li>(0,0,7,0)</li>
+        <li>(7,1,7,5)</li>
+        <li>(0,2,0,5)</li>
+        <li>(1,5,6,5)</li>
+      </rects>
+      <stuff>FT_BlocksConcrete</stuff>
+      <color>RGBA(0.588, 0.588, 0.588, 1.000)</color>
+    </Wall>
+    <UFLI_1_Autodoor>
+      <rects>
+        <li>(0,1,0,1)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_1_Autodoor>
+    <RB_FloorLamp>
+      <rects>
+        <li>(0,1,0,1)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </RB_FloorLamp>
+    <PFS_DresserB>
+      <position>(4, 0, 1)</position>
+      <quality>Excellent</quality>
+    </PFS_DresserB>
+    <RRGojaRadio>
+      <rects>
+        <li>(5,1,5,1)</li>
+      </rects>
+    </RRGojaRadio>
+    <UFLI_CouchDouble>
+      <position>(1, 0, 2)</position>
+      <stuff>Leather_Plain</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.635, 0.416, 0.224, 1.000)</color>
+    </UFLI_CouchDouble>
+    <PFS_DoubleBed>
+      <position>(5, 0, 4)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <quality>Excellent</quality>
+      <color>RGBA(0.631, 0.835, 0.706, 1.000)</color>
+    </PFS_DoubleBed>
+    <UFLI_Television>
+      <position>(2, 0, 4)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </UFLI_Television>
+    <PFS_EndTable>
+      <rects>
+        <li>(3,4,3,4)</li>
+        <li>(6,4,6,4)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <quality>Good</quality>
+    </PFS_EndTable>
+    <UFLI_Walllamp>
+      <rects>
+        <li>(3,4,3,4)</li>
+      </rects>
+    </UFLI_Walllamp>
+    <ZCL_ElectronicAlarmClock>
+      <rects>
+        <li>(6,4,6,4)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </ZCL_ElectronicAlarmClock>
+  </things>
+  <terrain>
+    <PFS_LF_Black>
+      <rects>
+        <li>(1,1,6,4)</li>
+      </rects>
+    </PFS_LF_Black>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <PFS_LF_Black>
+        <rects>
+          <li>(1,1,6,4)</li>
+        </rects>
+      </PFS_LF_Black>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Sandstone_RoughHewn>
+        <rects>
+          <li>(1,1,6,4)</li>
+        </rects>
+      </Sandstone_RoughHewn>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofRockThick>
+      <rects>
+        <li>(0,0,7,5)</li>
+      </rects>
+    </RoofRockThick>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,7,1)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
