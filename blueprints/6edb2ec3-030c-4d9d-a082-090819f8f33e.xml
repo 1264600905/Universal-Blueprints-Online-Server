@@ -1,0 +1,1477 @@
+<PrefabDef>
+  <defName>Prefab_20261110_175509</defName>
+  <size>(35,35)</size>
+  <extraInfo>
+    <version>1.7.9805.38275</version>
+    <name>全DLC开局发展及中期基地</name>
+    <description>蜗居发展规划，根据环境自行改造</description>
+    <tags>
+      <li>BaseBlueprint</li>
+      <li>StarterBuilding</li>
+    </tags>
+    <author>黑手</author>
+    <category>BaseBlueprint</category>
+    <BuildingID>6edb2ec3-030c-4d9d-a082-090819f8f33e</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>ludeon.rimworld.biotech</packageId>
+        <name>Biotech</name>
+        <version></version>
+        <modorder>6</modorder>
+        <things>
+          <li>ToxifierGenerator</li>
+          <li>SubcoreEncoder</li>
+          <li>StandardRecharger</li>
+          <li>SubcoreRipscanner</li>
+          <li>BasicRecharger</li>
+          <li>SubcoreSoftscanner</li>
+          <li>LargeMechGestator</li>
+          <li>MechGestator</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.anomaly</packageId>
+        <name>Anomaly</name>
+        <version></version>
+        <modorder>7</modorder>
+        <things>
+          <li>ProximityDetector</li>
+          <li>SerumCentrifuge</li>
+          <li>BioferriteShaper</li>
+          <li>HoldingPlatform</li>
+          <li>BioferriteHarvester</li>
+          <li>ShardInhibitor</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.odyssey</packageId>
+        <name>Odyssey</name>
+        <version></version>
+        <modorder>8</modorder>
+        <things>
+          <li>PassengerShuttle</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.ideology</packageId>
+        <name>Ideology</name>
+        <version></version>
+        <modorder>5</modorder>
+        <things>
+          <li>KneelPillow</li>
+          <li>Altar_Small</li>
+          <li>Lectern</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>全DLC开局发展及中期基地</default>
+        <zh-CN>全DLC开局发展及中期基地</zh-CN>
+      </name>
+      <description>
+        <default>蜗居发展规划，根据环境自行改造</default>
+        <zh-CN>蜗居发展规划，根据环境自行改造</zh-CN>
+      </description>
+      <tags>
+        <default>BaseBlueprint,StarterBuilding</default>
+      </tags>
+    </multiLanguage>
+    <structureDefs>
+      <li>
+        <defName>Wall</defName>
+        <kind>Wall</kind>
+        <size>(1,1)</size>
+      </li>
+      <li>
+        <defName>Door</defName>
+        <kind>Door</kind>
+        <size>(1,1)</size>
+      </li>
+    </structureDefs>
+    <thingKinds version="1">
+      <Buildings>
+        <li>Altar_Small</li>
+        <li>Barricade</li>
+        <li>BasicRecharger</li>
+        <li>Bed</li>
+        <li>BilliardsTable</li>
+        <li>BioferriteHarvester</li>
+        <li>BioferriteShaper</li>
+        <li>BiofuelRefinery</li>
+        <li>Bookcase</li>
+        <li>ChessTable</li>
+        <li>Column</li>
+        <li>Cooler</li>
+        <li>DiningChair</li>
+        <li>Door</li>
+        <li>DrugLab</li>
+        <li>ElectricCrematorium</li>
+        <li>FabricationBench</li>
+        <li>Fence</li>
+        <li>FueledSmithy</li>
+        <li>FueledStove</li>
+        <li>GroundPenetratingScanner</li>
+        <li>HiTechResearchBench</li>
+        <li>HiddenConduit</li>
+        <li>HoldingPlatform</li>
+        <li>Hopper</li>
+        <li>LargeMechGestator</li>
+        <li>Lectern</li>
+        <li>LongRangeMineralScanner</li>
+        <li>MechGestator</li>
+        <li>MultiAnalyzer</li>
+        <li>NutrientPasteDispenser</li>
+        <li>PassengerShuttle</li>
+        <li>PenMarker</li>
+        <li>PodLauncher</li>
+        <li>ProximityDetector</li>
+        <li>SerumCentrifuge</li>
+        <li>ShardInhibitor</li>
+        <li>Shelf</li>
+        <li>StandardRecharger</li>
+        <li>SubcoreEncoder</li>
+        <li>SubcoreRipscanner</li>
+        <li>SubcoreSoftscanner</li>
+        <li>Table1x2c</li>
+        <li>TableButcher</li>
+        <li>TableMachining</li>
+        <li>TableSculpting</li>
+        <li>TableStonecutter</li>
+        <li>ToolCabinet</li>
+        <li>ToxifierGenerator</li>
+        <li>TransportPod</li>
+        <li>TrapSpike</li>
+        <li>Wall</li>
+        <li>WallLamp</li>
+      </Buildings>
+      <ArtificialTerrain>
+        <li>KneelPillow</li>
+      </ArtificialTerrain>
+    </thingKinds>
+    <repairDefs version="1">
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Concrete</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>Steel</li>
+          </resources>
+          <colors />
+          <materials>
+            <li>concrete</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>MetalTile</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>Steel</li>
+          </resources>
+          <colors />
+          <materials>
+            <li>metal</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>PavedTile</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>Steel</li>
+          </resources>
+          <colors />
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Soil</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>soil</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Bed</defName>
+        <tags>
+          <li>Bed</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 2)</size>
+          <label>单人床</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>92.88</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>BioferriteShaper</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 1)</size>
+          <label>活铁塑造台</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>199.8</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>BiofuelRefinery</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 2)</size>
+          <label>精炼设备</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>390</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Bookcase</defName>
+        <tags>
+          <li>Storage</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 1)</size>
+          <label>书柜</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>41.8</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>DiningChair</defName>
+        <tags>
+          <li>Seat</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>餐椅</label>
+          <passability>Standable</passability>
+          <marketValue>118.8</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Door</defName>
+        <tags>
+          <li>Door</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>门</label>
+          <passability>Standable</passability>
+          <marketValue>53.06</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>DrugLab</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 1)</size>
+          <label>药物实验台</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>445</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>ElectricCrematorium</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 2)</size>
+          <label>火化炉（电力）</label>
+          <passability>Impassable</passability>
+          <marketValue>420</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>FabricationBench</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(5, 2)</size>
+          <label>精密装配台</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>1180</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>FueledSmithy</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 1)</size>
+          <label>锻造台（燃料）</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>200</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>FueledStove</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 1)</size>
+          <label>炉灶（燃料）</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>159.2</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Hopper</defName>
+        <tags>
+          <li>Storage</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>进料口</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>29.58</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>KneelPillow</defName>
+        <tags>
+          <li>Floor</li>
+          <li>Seat</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>跪枕</label>
+          <passability>Standable</passability>
+          <marketValue>58.64</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>LargeMechGestator</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(4, 3)</size>
+          <label>大型机械培育器</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>820</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>MechGestator</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 2)</size>
+          <label>机械培育器</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>410</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>SerumCentrifuge</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 2)</size>
+          <label>血清实验台</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>725</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Shelf</defName>
+        <tags>
+          <li>Storage</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 1)</size>
+          <label>物品架</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>41.8</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>SubcoreEncoder</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 2)</size>
+          <label>次核编译器</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>315</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Table1x2c</defName>
+        <tags>
+          <li>Table</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 2)</size>
+          <label>桌子（1x2）</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>58.7</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>TableButcher</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 1)</size>
+          <label>屠宰台</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>181.2</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>TableMachining</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 1)</size>
+          <label>机械加工台</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>455</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>TableSculpting</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 1)</size>
+          <label>艺创台</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>255</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>TableStonecutter</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 1)</size>
+          <label>切石桌</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>215</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Wall</defName>
+        <tags>
+          <li>Wall</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>墙</label>
+          <passability>Impassable</passability>
+          <marketValue>10.486</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>WallLamp</defName>
+        <tags>
+          <li>Attachment</li>
+          <li>Lamp</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>壁灯</label>
+          <passability>Standable</passability>
+          <marketValue>29.688</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+    </repairDefs>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(1,1,2,1)</li>
+        <li>(4,1,6,1)</li>
+        <li>(8,1,10,1)</li>
+        <li>(12,1,14,1)</li>
+        <li>(16,1,18,1)</li>
+        <li>(20,1,22,1)</li>
+        <li>(24,1,26,1)</li>
+        <li>(28,1,30,1)</li>
+        <li>(32,1,33,1)</li>
+        <li>(1,2,1,4)</li>
+        <li>(13,2,13,2)</li>
+        <li>(33,2,33,4)</li>
+        <li>(3,3,8,3)</li>
+        <li>(26,3,31,3)</li>
+        <li>(3,4,3,12)</li>
+        <li>(31,4,31,16)</li>
+        <li>(1,6,1,8)</li>
+        <li>(33,6,33,8)</li>
+        <li>(4,9,5,9)</li>
+        <li>(7,9,8,9)</li>
+        <li>(1,10,1,12)</li>
+        <li>(33,10,33,12)</li>
+        <li>(12,11,12,17)</li>
+        <li>(25,11,25,14)</li>
+        <li>(1,14,1,16)</li>
+        <li>(3,14,3,31)</li>
+        <li>(26,14,30,14)</li>
+        <li>(33,14,33,16)</li>
+        <li>(25,16,25,19)</li>
+        <li>(4,17,10,17)</li>
+        <li>(1,18,1,20)</li>
+        <li>(31,18,31,22)</li>
+        <li>(33,18,33,20)</li>
+        <li>(12,19,13,19)</li>
+        <li>(15,19,20,19)</li>
+        <li>(22,19,24,19)</li>
+        <li>(26,19,30,19)</li>
+        <li>(12,20,12,25)</li>
+        <li>(26,21,26,31)</li>
+        <li>(1,22,1,24)</li>
+        <li>(33,22,33,22)</li>
+        <li>(4,23,10,23)</li>
+        <li>(31,24,31,31)</li>
+        <li>(33,24,33,24)</li>
+        <li>(1,26,1,28)</li>
+        <li>(4,26,4,26)</li>
+        <li>(6,26,7,26)</li>
+        <li>(9,26,9,26)</li>
+        <li>(33,26,33,28)</li>
+        <li>(6,27,6,29)</li>
+        <li>(1,30,1,33)</li>
+        <li>(33,30,33,33)</li>
+        <li>(4,31,4,31)</li>
+        <li>(6,31,14,31)</li>
+        <li>(16,31,25,31)</li>
+        <li>(28,31,30,31)</li>
+        <li>(2,33,2,33)</li>
+        <li>(4,33,4,33)</li>
+        <li>(6,33,6,33)</li>
+        <li>(8,33,10,33)</li>
+        <li>(12,33,14,33)</li>
+        <li>(16,33,18,33)</li>
+        <li>(20,33,22,33)</li>
+        <li>(24,33,26,33)</li>
+        <li>(28,33,30,33)</li>
+        <li>(32,33,32,33)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Wall>
+    <Door>
+      <rects>
+        <li>(3,1,3,1)</li>
+        <li>(7,1,7,1)</li>
+        <li>(15,1,15,1)</li>
+        <li>(19,1,19,1)</li>
+        <li>(23,1,23,1)</li>
+        <li>(27,1,27,1)</li>
+        <li>(31,1,31,1)</li>
+        <li>(6,9,6,9)</li>
+        <li>(11,17,11,17)</li>
+        <li>(14,19,14,19)</li>
+        <li>(21,19,21,19)</li>
+        <li>(11,23,11,23)</li>
+        <li>(5,26,5,26)</li>
+        <li>(8,26,8,26)</li>
+        <li>(5,31,5,31)</li>
+        <li>(15,31,15,31)</li>
+        <li>(27,31,27,31)</li>
+        <li>(3,33,3,33)</li>
+        <li>(5,33,5,33)</li>
+        <li>(7,33,7,33)</li>
+        <li>(11,33,11,33)</li>
+        <li>(15,33,15,33)</li>
+        <li>(19,33,19,33)</li>
+        <li>(23,33,23,33)</li>
+        <li>(27,33,27,33)</li>
+        <li>(31,33,31,33)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <TrapSpike>
+      <rects>
+        <li>(2,2,2,2)</li>
+        <li>(4,2,4,2)</li>
+        <li>(6,2,6,2)</li>
+        <li>(8,2,8,2)</li>
+        <li>(10,2,10,2)</li>
+        <li>(12,2,12,2)</li>
+        <li>(14,2,14,2)</li>
+        <li>(16,2,16,2)</li>
+        <li>(18,2,18,2)</li>
+        <li>(20,2,20,2)</li>
+        <li>(22,2,22,2)</li>
+        <li>(24,2,24,2)</li>
+        <li>(26,2,26,2)</li>
+        <li>(28,2,28,2)</li>
+        <li>(30,2,30,2)</li>
+        <li>(32,2,32,2)</li>
+        <li>(2,4,2,4)</li>
+        <li>(32,4,32,4)</li>
+        <li>(2,6,2,6)</li>
+        <li>(32,6,32,6)</li>
+        <li>(2,8,2,8)</li>
+        <li>(32,8,32,8)</li>
+        <li>(2,10,2,10)</li>
+        <li>(32,10,32,10)</li>
+        <li>(2,12,2,12)</li>
+        <li>(32,12,32,12)</li>
+        <li>(2,14,2,14)</li>
+        <li>(32,14,32,14)</li>
+        <li>(2,16,2,16)</li>
+        <li>(32,16,32,16)</li>
+        <li>(2,18,2,18)</li>
+        <li>(32,18,32,18)</li>
+        <li>(2,20,2,20)</li>
+        <li>(32,20,32,20)</li>
+        <li>(2,22,2,22)</li>
+        <li>(32,22,32,22)</li>
+        <li>(2,24,2,24)</li>
+        <li>(32,24,32,24)</li>
+        <li>(2,26,2,26)</li>
+        <li>(32,26,32,26)</li>
+        <li>(2,28,2,28)</li>
+        <li>(32,28,32,28)</li>
+        <li>(2,30,2,30)</li>
+        <li>(32,30,32,30)</li>
+        <li>(2,32,2,32)</li>
+        <li>(4,32,4,32)</li>
+        <li>(6,32,6,32)</li>
+        <li>(8,32,8,32)</li>
+        <li>(10,32,10,32)</li>
+        <li>(12,32,12,32)</li>
+        <li>(14,32,14,32)</li>
+        <li>(16,32,16,32)</li>
+        <li>(18,32,18,32)</li>
+        <li>(20,32,20,32)</li>
+        <li>(22,32,22,32)</li>
+        <li>(24,32,24,32)</li>
+        <li>(26,32,26,32)</li>
+        <li>(28,32,28,32)</li>
+        <li>(30,32,30,32)</li>
+        <li>(32,32,32,32)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </TrapSpike>
+    <HiddenConduit>
+      <rects>
+        <li>(3,3,31,3)</li>
+        <li>(3,4,3,31)</li>
+        <li>(9,4,9,9)</li>
+        <li>(31,4,31,31)</li>
+        <li>(4,9,8,9)</li>
+        <li>(10,9,25,9)</li>
+        <li>(12,10,12,31)</li>
+        <li>(25,10,25,19)</li>
+        <li>(13,19,24,19)</li>
+        <li>(26,19,30,19)</li>
+        <li>(26,20,26,31)</li>
+        <li>(4,23,11,23)</li>
+        <li>(4,31,11,31)</li>
+        <li>(13,31,25,31)</li>
+        <li>(27,31,30,31)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <Wall>
+      <rects>
+        <li>(9,3,10,3)</li>
+        <li>(12,3,13,3)</li>
+        <li>(15,3,22,3)</li>
+        <li>(24,3,25,3)</li>
+        <li>(9,4,9,9)</li>
+        <li>(13,4,13,5)</li>
+        <li>(15,4,15,4)</li>
+        <li>(17,4,17,5)</li>
+        <li>(25,4,25,9)</li>
+        <li>(12,5,12,5)</li>
+        <li>(18,5,18,5)</li>
+        <li>(12,7,13,7)</li>
+        <li>(18,7,18,9)</li>
+        <li>(20,7,20,7)</li>
+        <li>(13,8,14,8)</li>
+        <li>(16,8,17,9)</li>
+        <li>(10,9,10,9)</li>
+        <li>(12,9,13,9)</li>
+        <li>(15,9,15,9)</li>
+        <li>(19,9,19,9)</li>
+        <li>(21,9,24,9)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Wall>
+    <Door>
+      <rects>
+        <li>(11,3,11,3)</li>
+        <li>(23,3,23,3)</li>
+        <li>(14,6,14,6)</li>
+        <li>(19,6,23,6)</li>
+        <li>(11,9,11,9)</li>
+        <li>(20,9,20,9)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Door>
+    <ToxifierGenerator>
+      <positions>
+        <li>(4, 0, 4)</li>
+        <li>(7, 0, 4)</li>
+        <li>(4, 0, 7)</li>
+        <li>(7, 0, 7)</li>
+      </positions>
+    </ToxifierGenerator>
+    <Fence>
+      <rects>
+        <li>(14,4,14,4)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Fence>
+    <PenMarker>
+      <rects>
+        <li>(16,4,16,5)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </PenMarker>
+    <PodLauncher>
+      <positions>
+        <li>(26, 0, 4)</li>
+        <li>(26, 0, 6)</li>
+        <li>(26, 0, 8)</li>
+      </positions>
+    </PodLauncher>
+    <TransportPod>
+      <rects>
+        <li>(27,4,27,4)</li>
+        <li>(27,6,27,6)</li>
+        <li>(27,8,27,8)</li>
+      </rects>
+    </TransportPod>
+    <LongRangeMineralScanner>
+      <position>(29, 0, 5)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </LongRangeMineralScanner>
+    <Door>
+      <rects>
+        <li>(1,5,1,5)</li>
+        <li>(33,5,33,5)</li>
+        <li>(1,9,1,9)</li>
+        <li>(33,9,33,9)</li>
+        <li>(12,10,12,10)</li>
+        <li>(25,10,25,10)</li>
+        <li>(1,13,1,13)</li>
+        <li>(3,13,3,13)</li>
+        <li>(33,13,33,13)</li>
+        <li>(25,15,25,15)</li>
+        <li>(1,17,1,17)</li>
+        <li>(31,17,31,17)</li>
+        <li>(33,17,33,17)</li>
+        <li>(12,18,12,18)</li>
+        <li>(26,20,26,20)</li>
+        <li>(1,21,1,21)</li>
+        <li>(33,21,33,21)</li>
+        <li>(31,23,31,23)</li>
+        <li>(33,23,33,23)</li>
+        <li>(1,25,1,25)</li>
+        <li>(33,25,33,25)</li>
+        <li>(1,29,1,29)</li>
+        <li>(33,29,33,29)</li>
+        <li>(6,30,6,30)</li>
+        <li>(12,30,12,30)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <Door>
+      <rects>
+        <li>(15,5,15,5)</li>
+        <li>(12,6,12,6)</li>
+        <li>(16,6,16,7)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>BlocksGranite</stuff>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Door>
+    <Barricade>
+      <rects>
+        <li>(17,7,17,7)</li>
+        <li>(15,8,15,8)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Barricade>
+    <GroundPenetratingScanner>
+      <position>(29, 0, 8)</position>
+    </GroundPenetratingScanner>
+    <ProximityDetector>
+      <rects>
+        <li>(14,9,14,9)</li>
+      </rects>
+    </ProximityDetector>
+    <Bed>
+      <positions>
+        <li>(4, 0, 11)</li>
+        <li>(5, 0, 11)</li>
+        <li>(8, 0, 11)</li>
+        <li>(4, 0, 15)</li>
+        <li>(7, 0, 15)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed>
+    <Bed>
+      <positions>
+        <li>(9, 0, 10)</li>
+        <li>(5, 0, 14)</li>
+        <li>(8, 0, 14)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed>
+    <Bed>
+      <positions>
+        <li>(10, 0, 11)</li>
+        <li>(6, 0, 15)</li>
+        <li>(9, 0, 15)</li>
+      </positions>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed>
+    <SerumCentrifuge>
+      <position>(13, 0, 11)</position>
+    </SerumCentrifuge>
+    <Shelf>
+      <positions>
+        <li>(18, 0, 11)</li>
+        <li>(30, 0, 15)</li>
+        <li>(30, 0, 17)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Shelf>
+    <TableSculpting>
+      <position>(20, 0, 11)</position>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </TableSculpting>
+    <TableStonecutter>
+      <position>(23, 0, 11)</position>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </TableStonecutter>
+    <PassengerShuttle>
+      <position>(28, 0, 12)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </PassengerShuttle>
+    <Bed>
+      <positions>
+        <li>(9, 0, 12)</li>
+        <li>(5, 0, 16)</li>
+        <li>(8, 0, 16)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bed>
+    <TableMachining>
+      <position>(20, 0, 12)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </TableMachining>
+    <FueledSmithy>
+      <position>(23, 0, 12)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </FueledSmithy>
+    <FabricationBench>
+      <position>(14, 0, 15)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </FabricationBench>
+    <FabricationBench>
+      <position>(17, 0, 14)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </FabricationBench>
+    <ToolCabinet>
+      <position>(20, 0, 14)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <color>RGBA(0.376, 0.447, 0.373, 1.000)</color>
+    </ToolCabinet>
+    <DrugLab>
+      <position>(22, 0, 14)</position>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DrugLab>
+    <ToolCabinet>
+      <position>(19, 0, 15)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <color>RGBA(0.376, 0.447, 0.373, 1.000)</color>
+    </ToolCabinet>
+    <BioferriteShaper>
+      <position>(22, 0, 15)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </BioferriteShaper>
+    <Shelf>
+      <positions>
+        <li>(26, 0, 15)</li>
+        <li>(28, 0, 15)</li>
+      </positions>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Shelf>
+    <ElectricCrematorium>
+      <position>(20, 0, 17)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>BlocksGranite</stuff>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </ElectricCrematorium>
+    <Shelf>
+      <positions>
+        <li>(27, 0, 16)</li>
+        <li>(29, 0, 16)</li>
+        <li>(27, 0, 17)</li>
+        <li>(29, 0, 17)</li>
+        <li>(27, 0, 18)</li>
+        <li>(29, 0, 18)</li>
+        <li>(8, 0, 27)</li>
+        <li>(8, 0, 28)</li>
+        <li>(8, 0, 29)</li>
+        <li>(8, 0, 30)</li>
+        <li>(10, 0, 30)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Shelf>
+    <BiofuelRefinery>
+      <position>(23, 0, 17)</position>
+    </BiofuelRefinery>
+    <ChessTable>
+      <rects>
+        <li>(4,18,4,18)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </ChessTable>
+    <DiningChair>
+      <rects>
+        <li>(5,18,6,18)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DiningChair>
+    <KneelPillow>
+      <rects>
+        <li>(7,18,7,18)</li>
+        <li>(4,20,4,20)</li>
+        <li>(7,20,7,20)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </KneelPillow>
+    <DiningChair>
+      <rects>
+        <li>(4,19,4,19)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DiningChair>
+    <Table1x2c>
+      <position>(5, 0, 19)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Table1x2c>
+    <DiningChair>
+      <rects>
+        <li>(7,19,7,19)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DiningChair>
+    <BilliardsTable>
+      <position>(9, 0, 20)</position>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </BilliardsTable>
+    <DiningChair>
+      <rects>
+        <li>(5,20,6,20)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DiningChair>
+    <SubcoreEncoder>
+      <position>(14, 0, 20)</position>
+    </SubcoreEncoder>
+    <HoldingPlatform>
+      <positions>
+        <li>(29, 0, 21)</li>
+        <li>(29, 0, 26)</li>
+        <li>(29, 0, 29)</li>
+      </positions>
+    </HoldingPlatform>
+    <Column>
+      <rects>
+        <li>(4,21,4,22)</li>
+        <li>(7,21,7,22)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Column>
+    <StandardRecharger>
+      <positions>
+        <li>(17, 0, 22)</li>
+        <li>(17, 0, 25)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </StandardRecharger>
+    <StandardRecharger>
+      <position>(19, 0, 22)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </StandardRecharger>
+    <HiTechResearchBench>
+      <position>(23, 0, 22)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HiTechResearchBench>
+    <Altar_Small>
+      <rects>
+        <li>(5,22,5,22)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Altar_Small>
+    <Lectern>
+      <rects>
+        <li>(6,22,6,22)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Lectern>
+    <SubcoreRipscanner>
+      <position>(14, 0, 23)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </SubcoreRipscanner>
+    <BasicRecharger>
+      <position>(19, 0, 23)</position>
+    </BasicRecharger>
+    <BasicRecharger>
+      <position>(21, 0, 24)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </BasicRecharger>
+    <HiTechResearchBench>
+      <position>(24, 0, 25)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HiTechResearchBench>
+    <FueledStove>
+      <positions>
+        <li>(5, 0, 24)</li>
+        <li>(9, 0, 24)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+    </FueledStove>
+    <WallLamp>
+      <rects>
+        <li>(7,24,7,24)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </WallLamp>
+    <BasicRecharger>
+      <position>(18, 0, 25)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </BasicRecharger>
+    <BioferriteHarvester>
+      <position>(29, 0, 24)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </BioferriteHarvester>
+    <ShardInhibitor>
+      <rects>
+        <li>(30,24,30,24)</li>
+      </rects>
+    </ShardInhibitor>
+    <SubcoreSoftscanner>
+      <position>(14, 0, 26)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </SubcoreSoftscanner>
+    <NutrientPasteDispenser>
+      <position>(11, 0, 28)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <color>RGBA(0.910, 1.000, 0.749, 1.000)</color>
+    </NutrientPasteDispenser>
+    <BasicRecharger>
+      <position>(20, 0, 26)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </BasicRecharger>
+    <Hopper>
+      <rects>
+        <li>(9,27,9,29)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </Hopper>
+    <LargeMechGestator>
+      <position>(17, 0, 28)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </LargeMechGestator>
+    <Bookcase>
+      <positions>
+        <li>(20, 0, 27)</li>
+        <li>(20, 0, 28)</li>
+        <li>(25, 0, 28)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Bookcase>
+    <TableButcher>
+      <position>(4, 0, 29)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </TableButcher>
+    <MechGestator>
+      <position>(13, 0, 29)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </MechGestator>
+    <WallLamp>
+      <rects>
+        <li>(4,29,4,29)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </WallLamp>
+    <MultiAnalyzer>
+      <position>(19, 0, 29)</position>
+    </MultiAnalyzer>
+    <HiTechResearchBench>
+      <position>(23, 0, 29)</position>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HiTechResearchBench>
+    <Cooler>
+      <rects>
+        <li>(11,30,11,30)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </Cooler>
+  </things>
+  <terrain>
+    <Concrete>
+      <rects>
+        <li>(14,9,14,9)</li>
+      </rects>
+    </Concrete>
+    <MetalTile>
+      <rects>
+        <li>(4,10,11,16)</li>
+        <li>(11,17,11,17)</li>
+        <li>(11,23,11,26)</li>
+        <li>(4,24,10,25)</li>
+        <li>(5,26,5,26)</li>
+        <li>(8,26,8,26)</li>
+        <li>(10,26,10,26)</li>
+        <li>(12,26,12,26)</li>
+      </rects>
+    </MetalTile>
+    <PavedTile>
+      <rects>
+        <li>(4,18,11,22)</li>
+      </rects>
+    </PavedTile>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <Concrete>
+        <rects>
+          <li>(14,9,14,9)</li>
+        </rects>
+      </Concrete>
+      <MetalTile>
+        <rects>
+          <li>(4,10,11,16)</li>
+          <li>(11,17,11,17)</li>
+          <li>(11,23,11,26)</li>
+          <li>(4,24,10,25)</li>
+          <li>(5,26,5,26)</li>
+          <li>(8,26,8,26)</li>
+          <li>(10,26,10,26)</li>
+          <li>(12,26,12,26)</li>
+        </rects>
+      </MetalTile>
+      <PavedTile>
+        <rects>
+          <li>(4,18,11,22)</li>
+        </rects>
+      </PavedTile>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(14,9,14,9)</li>
+          <li>(4,10,11,16)</li>
+          <li>(11,17,11,26)</li>
+          <li>(4,18,10,22)</li>
+          <li>(4,24,10,25)</li>
+          <li>(5,26,5,26)</li>
+          <li>(8,26,8,26)</li>
+          <li>(10,26,10,26)</li>
+          <li>(12,26,12,26)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(1,1,33,3)</li>
+        <li>(1,4,3,33)</li>
+        <li>(9,4,25,9)</li>
+        <li>(31,4,33,33)</li>
+        <li>(34,9,34,27)</li>
+        <li>(13,10,21,10)</li>
+        <li>(13,11,14,33)</li>
+        <li>(18,11,21,14)</li>
+        <li>(15,13,17,33)</li>
+        <li>(22,14,25,18)</li>
+        <li>(19,15,21,18)</li>
+        <li>(26,15,27,23)</li>
+        <li>(18,16,18,16)</li>
+        <li>(11,17,12,29)</li>
+        <li>(9,18,10,26)</li>
+        <li>(28,18,29,27)</li>
+        <li>(25,19,25,23)</li>
+        <li>(30,21,30,27)</li>
+        <li>(27,24,27,25)</li>
+        <li>(10,27,10,27)</li>
+        <li>(10,29,10,29)</li>
+        <li>(4,31,12,33)</li>
+        <li>(18,31,30,33)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(3,3,31,3)</li>
+        <li>(3,4,25,31)</li>
+        <li>(31,4,31,31)</li>
+        <li>(26,14,30,31)</li>
+      </rects>
+    </PlayerRoofZone>
+    <NoRoofZone>
+      <rects>
+        <li>(26,4,30,13)</li>
+      </rects>
+    </NoRoofZone>
+  </roofs>
+</PrefabDef>
