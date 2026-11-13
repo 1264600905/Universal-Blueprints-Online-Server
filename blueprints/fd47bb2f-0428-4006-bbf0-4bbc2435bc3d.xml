@@ -1,0 +1,351 @@
+<PrefabDef>
+  <defName>Prefab_20261113_130239</defName>
+  <size>(13,13)</size>
+  <extraInfo>
+    <version>1.7.9810.32479</version>
+    <name>13x13机械库单入口</name>
+    <description>13x13机械库个人最优解</description>
+    <tags>
+      <li>BiotechDLC</li>
+      <li>MechanoidRoom</li>
+      <li>Practical</li>
+      <li>Spaceship</li>
+      <li>RoomModule</li>
+    </tags>
+    <author>shelter</author>
+    <category>BiotechDLC</category>
+    <BuildingID>fd47bb2f-0428-4006-bbf0-4bbc2435bc3d</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>ludeon.rimworld.biotech</packageId>
+        <name>Biotech</name>
+        <version></version>
+        <modorder>5</modorder>
+        <things>
+          <li>BandNode</li>
+          <li>SubcoreSoftscanner</li>
+          <li>SubcoreRipscanner</li>
+          <li>MechGestator</li>
+          <li>BasicRecharger</li>
+          <li>StandardRecharger</li>
+          <li>SubcoreEncoder</li>
+          <li>LargeMechGestator</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>13x13机械库单入口</default>
+        <zh-CN>13x13机械库单入口</zh-CN>
+      </name>
+      <description>
+        <default>13x13机械库个人最优解</default>
+        <zh-CN>13x13机械库个人最优解</zh-CN>
+      </description>
+      <tags>
+        <default>BiotechDLC,MechanoidRoom,Practical,Spaceship,RoomModule</default>
+      </tags>
+    </multiLanguage>
+    <structureDefs>
+      <li>
+        <defName>Wall</defName>
+        <kind>Wall</kind>
+        <size>(1,1)</size>
+      </li>
+      <li>
+        <defName>Door</defName>
+        <kind>Door</kind>
+        <size>(1,1)</size>
+      </li>
+    </structureDefs>
+    <thingKinds version="1">
+      <Buildings>
+        <li>BandNode</li>
+        <li>BasicRecharger</li>
+        <li>Battery</li>
+        <li>Door</li>
+        <li>LargeMechGestator</li>
+        <li>MechGestator</li>
+        <li>StandardRecharger</li>
+        <li>SubcoreEncoder</li>
+        <li>SubcoreRipscanner</li>
+        <li>SubcoreSoftscanner</li>
+        <li>Wall</li>
+      </Buildings>
+    </thingKinds>
+    <repairDefs version="1">
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>PavedTile</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>Steel</li>
+          </resources>
+          <colors />
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Soil</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>soil</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>SoilRich</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>soil</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Door</defName>
+        <tags>
+          <li>Door</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>门</label>
+          <passability>Standable</passability>
+          <marketValue>53.06</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>LargeMechGestator</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(4, 3)</size>
+          <label>大型机械培育器</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>820</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>MechGestator</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 2)</size>
+          <label>机械培育器</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>410</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>SubcoreEncoder</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 2)</size>
+          <label>次核编译器</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>315</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Wall</defName>
+        <tags>
+          <li>Wall</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>墙</label>
+          <passability>Impassable</passability>
+          <marketValue>10.486</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+    </repairDefs>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,12,0)</li>
+        <li>(0,1,0,5)</li>
+        <li>(12,1,12,12)</li>
+        <li>(0,7,0,12)</li>
+        <li>(1,12,11,12)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Wall>
+    <BandNode>
+      <positions>
+        <li>(1, 0, 1)</li>
+        <li>(7, 0, 1)</li>
+        <li>(1, 0, 10)</li>
+        <li>(4, 0, 10)</li>
+        <li>(7, 0, 10)</li>
+        <li>(10, 0, 10)</li>
+      </positions>
+    </BandNode>
+    <SubcoreSoftscanner>
+      <position>(4, 0, 2)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </SubcoreSoftscanner>
+    <SubcoreRipscanner>
+      <position>(10, 0, 2)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </SubcoreRipscanner>
+    <MechGestator>
+      <position>(1, 0, 4)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </MechGestator>
+    <BasicRecharger>
+      <position>(6, 0, 3)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </BasicRecharger>
+    <Battery>
+      <positions>
+        <li>(9, 0, 3)</li>
+        <li>(11, 0, 6)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </Battery>
+    <StandardRecharger>
+      <positions>
+        <li>(4, 0, 5)</li>
+        <li>(6, 0, 9)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+    </StandardRecharger>
+    <MechGestator>
+      <position>(7, 0, 4)</position>
+    </MechGestator>
+    <SubcoreEncoder>
+      <position>(10, 0, 4)</position>
+    </SubcoreEncoder>
+    <Door>
+      <rects>
+        <li>(0,6,0,6)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <BasicRecharger>
+      <position>(6, 0, 6)</position>
+    </BasicRecharger>
+    <LargeMechGestator>
+      <positions>
+        <li>(3, 0, 8)</li>
+        <li>(10, 0, 8)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+    </LargeMechGestator>
+    <Battery>
+      <positions>
+        <li>(3, 0, 10)</li>
+        <li>(6, 0, 10)</li>
+        <li>(9, 0, 10)</li>
+      </positions>
+    </Battery>
+  </things>
+  <terrain>
+    <PavedTile>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </PavedTile>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <PavedTile>
+        <rects>
+          <li>(0,0,12,12)</li>
+        </rects>
+      </PavedTile>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(0,0,3,12)</li>
+          <li>(4,1,4,1)</li>
+          <li>(4,7,4,12)</li>
+          <li>(5,9,5,12)</li>
+        </rects>
+      </Soil>
+      <SoilRich>
+        <rects>
+          <li>(4,0,12,0)</li>
+          <li>(5,1,12,8)</li>
+          <li>(4,2,4,6)</li>
+          <li>(6,9,12,12)</li>
+        </rects>
+      </SoilRich>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
