@@ -1,0 +1,122 @@
+<PrefabDef>
+  <defName>Prefab_20261115_004454</defName>
+  <size>(8,7)</size>
+  <extraInfo>
+    <version>1.7.9810.32479</version>
+    <name>机枪阵地</name>
+    <description></description>
+    <tags>
+      <li>CombatPosition</li>
+      <li>防卫</li>
+    </tags>
+    <author>习近平</author>
+    <category>防卫</category>
+    <BuildingID>02828c24-5908-4257-9db7-3cc7f327b118</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>vanillaexpanded.vfesecurity</packageId>
+        <name>Vanilla Furniture Expanded - Security</name>
+        <version></version>
+        <modorder>53</modorder>
+        <steamWorkshopId>1845154007</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VFES_Platform</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>hye.nto</packageId>
+        <name>[HYE] Nanotech Overpower</name>
+        <version>7.0.13</version>
+        <modorder>12</modorder>
+        <steamWorkshopId>3533473917</steamWorkshopId>
+        <things>
+          <li>NT_Nanobots</li>
+          <li>NanoTurret</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>机枪阵地</default>
+        <zh-CN>机枪阵地</zh-CN>
+      </name>
+      <tags>
+        <default>CombatPosition,防卫</default>
+      </tags>
+    </multiLanguage>
+    <thingKinds version="1">
+      <Buildings>
+        <li>NanoTurret</li>
+      </Buildings>
+      <ArtificialTerrain>
+        <li>VFES_Platform</li>
+      </ArtificialTerrain>
+    </thingKinds>
+    <repairDefs version="1">
+      <li>
+        <defType>ThingDef</defType>
+        <defName>NanoTurret</defName>
+        <tags>
+          <li>Turret</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>纳米炮塔</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>7500</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>VFES_Platform</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>射击平台</label>
+          <passability>Standable</passability>
+          <marketValue>28</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Woody</li>
+            <li>Stony</li>
+            <li>Metallic</li>
+          </stuffCategories>
+        </match>
+      </li>
+    </repairDefs>
+  </extraInfo>
+  <things>
+    <VFES_Platform>
+      <rects>
+        <li>(1,1,6,1)</li>
+        <li>(1,2,1,5)</li>
+        <li>(6,2,6,5)</li>
+        <li>(2,5,5,5)</li>
+      </rects>
+      <stuff>NT_Nanobots</stuff>
+      <color>RGBA(0.157, 0.157, 0.157, 1.000)</color>
+    </VFES_Platform>
+    <NanoTurret>
+      <rects>
+        <li>(2,2,5,4)</li>
+      </rects>
+    </NanoTurret>
+  </things>
+  <terrainLayers></terrainLayers>
+</PrefabDef>
