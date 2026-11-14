@@ -1,0 +1,353 @@
+<PrefabDef>
+  <defName>Prefab_20261114_231132</defName>
+  <size>(5,5)</size>
+  <extraInfo>
+    <version>1.7.9805.38275</version>
+    <name>卧室</name>
+    <description></description>
+    <tags>
+      <li>Dormitory</li>
+    </tags>
+    <author></author>
+    <category>Dormitory</category>
+    <BuildingID>3f84e251-9296-45e7-83b7-f4651cbabc48</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>baolei.elegantinteriors</packageId>
+        <name>雅居 · Elegant Interiors</name>
+        <version>0.8.25</version>
+        <modorder>12</modorder>
+        <steamWorkshopId>3802178852</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>EI_RugCreamArches</li>
+          <li>EI_Planter</li>
+          <li>EI_MonsteraPlanter</li>
+          <li>EI_BambooPlanter</li>
+          <li>EI_LavenderPlanter</li>
+          <li>EI_OrchidPlanter</li>
+          <li>EI_Rug</li>
+          <li>EI_SucculentPlanter</li>
+          <li>EI_NocturneBed</li>
+          <li>EI_EndTable</li>
+          <li>EI_OakTable</li>
+          <li>EI_NocturneFloor_BlocksGranite</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>卧室</default>
+        <zh-CN>卧室</zh-CN>
+      </name>
+      <tags>
+        <default>Dormitory</default>
+      </tags>
+    </multiLanguage>
+    <thingKinds version="1">
+      <Buildings>
+        <li>EI_BambooPlanter</li>
+        <li>EI_EndTable</li>
+        <li>EI_LavenderPlanter</li>
+        <li>EI_MonsteraPlanter</li>
+        <li>EI_NocturneBed</li>
+        <li>EI_OakTable</li>
+        <li>EI_OrchidPlanter</li>
+        <li>EI_Planter</li>
+        <li>EI_SucculentPlanter</li>
+        <li>WallLamp</li>
+      </Buildings>
+      <ArtificialTerrain>
+        <li>EI_Rug</li>
+        <li>EI_RugCreamArches</li>
+      </ArtificialTerrain>
+    </thingKinds>
+    <repairDefs version="1">
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>EI_NocturneFloor_BlocksGranite</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>BlocksGranite</li>
+          </resources>
+          <colors />
+          <materials>
+            <li>granite</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Granite_Rough</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>granite</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Granite_RoughHewn</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>granite</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>EI_EndTable</defName>
+        <tags>
+          <li>Bedside</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>雅居床头柜</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>39.96</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>EI_NocturneBed</defName>
+        <tags>
+          <li>Bed</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 2)</size>
+          <label>夜幕·哥特情趣床</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>380</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Fabric</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>EI_OakTable</defName>
+        <tags>
+          <li>Table</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 1)</size>
+          <label>暖橡·小桌（2×1）</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>62.88</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>EI_Rug</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 3)</size>
+          <label>雅居枝叶地毯（3×3）</label>
+          <passability>Standable</passability>
+          <marketValue>110.04</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>EI_RugCreamArches</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 3)</size>
+          <label>奶油·拱纹长毯（2×3）</label>
+          <passability>Standable</passability>
+          <marketValue>86.46</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>WallLamp</defName>
+        <tags>
+          <li>Attachment</li>
+          <li>Lamp</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>壁灯</label>
+          <passability>Standable</passability>
+          <marketValue>29.688</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+    </repairDefs>
+  </extraInfo>
+  <things>
+    <EI_RugCreamArches>
+      <position>(1, 0, 0)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <quality>Excellent</quality>
+    </EI_RugCreamArches>
+    <EI_Planter>
+      <rects>
+        <li>(0,0,0,0)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksGranite</stuff>
+      <quality>Normal</quality>
+    </EI_Planter>
+    <EI_MonsteraPlanter>
+      <rects>
+        <li>(1,0,1,0)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksGranite</stuff>
+      <quality>Normal</quality>
+    </EI_MonsteraPlanter>
+    <WallLamp>
+      <rects>
+        <li>(2,0,2,0)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </WallLamp>
+    <EI_BambooPlanter>
+      <rects>
+        <li>(2,0,2,0)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksGranite</stuff>
+      <quality>Excellent</quality>
+    </EI_BambooPlanter>
+    <EI_LavenderPlanter>
+      <rects>
+        <li>(3,0,3,0)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksGranite</stuff>
+      <quality>Poor</quality>
+    </EI_LavenderPlanter>
+    <EI_OrchidPlanter>
+      <rects>
+        <li>(0,1,0,1)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksGranite</stuff>
+      <quality>Good</quality>
+    </EI_OrchidPlanter>
+    <EI_Rug>
+      <position>(1, 0, 3)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <quality>Normal</quality>
+    </EI_Rug>
+    <EI_SucculentPlanter>
+      <rects>
+        <li>(0,2,0,2)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksGranite</stuff>
+      <quality>Normal</quality>
+    </EI_SucculentPlanter>
+    <EI_RugCreamArches>
+      <position>(4, 0, 3)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <quality>Excellent</quality>
+    </EI_RugCreamArches>
+    <EI_NocturneBed>
+      <position>(1, 0, 4)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Good</quality>
+    </EI_NocturneBed>
+    <EI_EndTable>
+      <rects>
+        <li>(2,4,2,4)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <quality>Good</quality>
+    </EI_EndTable>
+    <EI_OakTable>
+      <position>(4, 0, 4)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <quality>Excellent</quality>
+    </EI_OakTable>
+  </things>
+  <terrain>
+    <EI_NocturneFloor_BlocksGranite>
+      <rects>
+        <li>(3,0,4,1)</li>
+      </rects>
+    </EI_NocturneFloor_BlocksGranite>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <EI_NocturneFloor_BlocksGranite>
+        <rects>
+          <li>(3,0,4,1)</li>
+        </rects>
+      </EI_NocturneFloor_BlocksGranite>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Granite_RoughHewn>
+        <rects>
+          <li>(3,0,3,1)</li>
+          <li>(4,1,4,1)</li>
+        </rects>
+      </Granite_RoughHewn>
+      <Granite_Rough>
+        <rects>
+          <li>(4,0,4,0)</li>
+        </rects>
+      </Granite_Rough>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofRockThick>
+      <rects>
+        <li>(0,0,4,4)</li>
+      </rects>
+    </RoofRockThick>
+  </roofs>
+</PrefabDef>
