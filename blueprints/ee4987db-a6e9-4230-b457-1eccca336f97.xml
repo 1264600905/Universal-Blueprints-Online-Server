@@ -1,0 +1,747 @@
+<PrefabDef>
+  <defName>Prefab_20261115_181517</defName>
+  <size>(13,13)</size>
+  <extraInfo>
+    <version>1.7.9810.32479</version>
+    <name>小2</name>
+    <description></description>
+    <tags>
+      <li>Dormitory</li>
+    </tags>
+    <author></author>
+    <category>Dormitory</category>
+    <BuildingID>ee4987db-a6e9-4230-b457-1eccca336f97</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>ludeon.rimworld.royalty</packageId>
+        <name>Royalty</name>
+        <version></version>
+        <modorder>4</modorder>
+        <things>
+          <li>Drape</li>
+          <li>FineTileMarble</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>oskarpotocki.vfe.empire</packageId>
+        <name>Vanilla Factions Expanded - Empire</name>
+        <version></version>
+        <modorder>328</modorder>
+        <steamWorkshopId>2938820380</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.royalty</packageId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VFEE_RoyalMirror</li>
+          <li>VFEE_GrandChair</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.ideology</packageId>
+        <name>Ideology</name>
+        <version></version>
+        <modorder>5</modorder>
+        <things>
+          <li>StylingStation</li>
+          <li>PlantPot_Bonsai</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>dubwise.dubsbadhygiene</packageId>
+        <name>Dubs Bad Hygiene</name>
+        <version>3.2.3260</version>
+        <modorder>125</modorder>
+        <steamWorkshopId>836308268</steamWorkshopId>
+        <things>
+          <li>BathtubStuff</li>
+          <li>ToiletStallDoor</li>
+          <li>ToiletStuff</li>
+          <li>BathMat</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>小2</default>
+        <zh-CN>小2</zh-CN>
+      </name>
+      <tags>
+        <default>Dormitory</default>
+      </tags>
+    </multiLanguage>
+    <structureDefs>
+      <li>
+        <defName>Wall</defName>
+        <kind>Wall</kind>
+        <size>(1,1)</size>
+      </li>
+      <li>
+        <defName>Door</defName>
+        <kind>Door</kind>
+        <size>(1,1)</size>
+      </li>
+    </structureDefs>
+    <thingKinds version="1">
+      <Buildings>
+        <li>BathMat</li>
+        <li>BathtubStuff</li>
+        <li>Door</li>
+        <li>Drape</li>
+        <li>Dresser</li>
+        <li>EndTable</li>
+        <li>HiddenConduit</li>
+        <li>PlantPot</li>
+        <li>PlantPot_Bonsai</li>
+        <li>RoyalBed</li>
+        <li>StandingLamp</li>
+        <li>StylingStation</li>
+        <li>ToiletStallDoor</li>
+        <li>ToiletStuff</li>
+        <li>VFEE_GrandChair</li>
+        <li>VFEE_RoyalMirror</li>
+        <li>Vent</li>
+        <li>Wall</li>
+      </Buildings>
+    </thingKinds>
+    <repairDefs version="1">
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>AncientConcrete</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>concrete</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>FineTileMarble</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>BlocksMarble</li>
+          </resources>
+          <colors />
+          <materials>
+            <li>marble</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Soil</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>soil</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>SoilRich</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>soil</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Door</defName>
+        <tags>
+          <li>Door</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>门</label>
+          <passability>Standable</passability>
+          <marketValue>53.06</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Dresser</defName>
+        <tags>
+          <li>Bedside</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 1)</size>
+          <label>矮柜</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>107.2</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>EndTable</defName>
+        <tags>
+          <li>Bedside</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>床头柜</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>63.6</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>PlantPot</defName>
+        <tags>
+          <li>PlantPot</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>花盆</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>40.9</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>RoyalBed</defName>
+        <tags>
+          <li>Bed</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 2)</size>
+          <label>豪华双人床</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>880</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>StandingLamp</defName>
+        <tags>
+          <li>Lamp</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>落地灯</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>39.08</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>VFEE_GrandChair</defName>
+        <tags>
+          <li>Seat</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>宏伟大椅</label>
+          <passability>Standable</passability>
+          <marketValue>235</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>VFEE_RoyalMirror</defName>
+        <tags>
+          <li>Bedside</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>皇家全身镜</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>138</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Wall</defName>
+        <tags>
+          <li>Wall</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>墙</label>
+          <passability>Impassable</passability>
+          <marketValue>10.486</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+    </repairDefs>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,5,0)</li>
+        <li>(7,0,12,0)</li>
+        <li>(0,1,0,12)</li>
+        <li>(7,1,7,6)</li>
+        <li>(12,1,12,12)</li>
+        <li>(1,4,3,4)</li>
+        <li>(9,5,11,5)</li>
+        <li>(3,6,3,7)</li>
+        <li>(5,6,5,12)</li>
+        <li>(9,6,9,6)</li>
+        <li>(1,7,2,7)</li>
+        <li>(9,8,11,8)</li>
+        <li>(1,12,4,12)</li>
+        <li>(7,12,11,12)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+      <color>RGBA(0.412, 0.373, 0.380, 1.000)</color>
+    </Wall>
+    <HiddenConduit>
+      <rects>
+        <li>(0,0,12,0)</li>
+        <li>(0,1,0,12)</li>
+        <li>(4,1,4,12)</li>
+        <li>(6,1,7,6)</li>
+        <li>(12,1,12,12)</li>
+        <li>(1,4,3,4)</li>
+        <li>(9,5,11,6)</li>
+        <li>(1,6,3,7)</li>
+        <li>(5,6,5,12)</li>
+        <li>(8,6,8,6)</li>
+        <li>(6,7,6,12)</li>
+        <li>(9,8,11,8)</li>
+        <li>(1,11,3,12)</li>
+        <li>(7,12,11,12)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <Door>
+      <rects>
+        <li>(6,0,6,0)</li>
+        <li>(6,12,6,12)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Door>
+    <RoyalBed>
+      <position>(1, 0, 1)</position>
+      <stuff>WoodLog</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RoyalBed>
+    <EndTable>
+      <rects>
+        <li>(3,1,3,1)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </EndTable>
+    <StandingLamp>
+      <rects>
+        <li>(4,1,4,1)</li>
+        <li>(11,1,11,1)</li>
+        <li>(1,11,1,11)</li>
+        <li>(8,11,8,11)</li>
+      </rects>
+    </StandingLamp>
+    <PlantPot>
+      <rects>
+        <li>(5,1,5,1)</li>
+        <li>(8,1,9,1)</li>
+        <li>(11,3,11,3)</li>
+        <li>(1,9,1,10)</li>
+        <li>(8,9,8,9)</li>
+        <li>(3,11,3,11)</li>
+      </rects>
+      <stuff>Jade</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.333, 0.463, 0.271, 1.000)</color>
+    </PlantPot>
+    <Dresser>
+      <position>(4, 0, 2)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Legendary</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Dresser>
+    <PlantPot>
+      <rects>
+        <li>(5,2,5,2)</li>
+        <li>(9,9,9,9)</li>
+      </rects>
+      <stuff>Jade</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.333, 0.463, 0.271, 1.000)</color>
+    </PlantPot>
+    <Drape>
+      <positions>
+        <li>(6, 0, 3)</li>
+        <li>(6, 0, 9)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Cloth</stuff>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </Drape>
+    <PlantPot>
+      <rects>
+        <li>(11,2,11,2)</li>
+      </rects>
+      <stuff>Jade</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.333, 0.463, 0.271, 1.000)</color>
+    </PlantPot>
+    <Drape>
+      <positions>
+        <li>(1, 0, 3)</li>
+        <li>(10, 0, 9)</li>
+      </positions>
+      <stuff>Cloth</stuff>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </Drape>
+    <VFEE_RoyalMirror>
+      <rects>
+        <li>(6,4,6,4)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Legendary</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </VFEE_RoyalMirror>
+    <StylingStation>
+      <position>(10, 0, 4)</position>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </StylingStation>
+    <BathtubStuff>
+      <positions>
+        <li>(1, 0, 5)</li>
+        <li>(10, 0, 6)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+    </BathtubStuff>
+    <ToiletStallDoor>
+      <rects>
+        <li>(3,5,3,5)</li>
+        <li>(9,7,9,7)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </ToiletStallDoor>
+    <PlantPot_Bonsai>
+      <rects>
+        <li>(6,5,6,5)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </PlantPot_Bonsai>
+    <ToiletStuff>
+      <rects>
+        <li>(1,6,1,6)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+    </ToiletStuff>
+    <BathMat>
+      <rects>
+        <li>(2,6,2,6)</li>
+        <li>(10,7,10,7)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Cloth</stuff>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </BathMat>
+    <Vent>
+      <rects>
+        <li>(6,6,6,6)</li>
+      </rects>
+    </Vent>
+    <PlantPot_Bonsai>
+      <rects>
+        <li>(6,7,6,7)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </PlantPot_Bonsai>
+    <VFEE_GrandChair>
+      <rects>
+        <li>(7,7,7,7)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Gold</stuff>
+      <quality>Legendary</quality>
+      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
+    </VFEE_GrandChair>
+    <ToiletStuff>
+      <rects>
+        <li>(11,7,11,7)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+    </ToiletStuff>
+    <VFEE_GrandChair>
+      <rects>
+        <li>(1,8,1,8)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Gold</stuff>
+      <quality>Good</quality>
+      <color>RGBA(1.000, 0.922, 0.478, 1.000)</color>
+    </VFEE_GrandChair>
+    <VFEE_RoyalMirror>
+      <rects>
+        <li>(6,10,6,10)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </VFEE_RoyalMirror>
+    <Dresser>
+      <position>(9, 0, 10)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Dresser>
+    <RoyalBed>
+      <position>(11, 0, 11)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </RoyalBed>
+    <PlantPot>
+      <rects>
+        <li>(4,11,4,11)</li>
+      </rects>
+      <stuff>Jade</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.333, 0.463, 0.271, 1.000)</color>
+    </PlantPot>
+    <EndTable>
+      <rects>
+        <li>(9,11,9,11)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </EndTable>
+  </things>
+  <terrain>
+    <AncientConcrete>
+      <rects>
+        <li>(1,0,2,0)</li>
+        <li>(4,0,5,0)</li>
+        <li>(7,0,12,0)</li>
+        <li>(7,1,7,2)</li>
+        <li>(12,1,12,4)</li>
+        <li>(0,2,0,3)</li>
+        <li>(7,4,7,5)</li>
+        <li>(9,5,9,5)</li>
+        <li>(11,5,11,5)</li>
+        <li>(3,6,3,6)</li>
+      </rects>
+    </AncientConcrete>
+    <FineTileMarble>
+      <rects>
+        <li>(6,0,6,5)</li>
+        <li>(1,1,5,3)</li>
+        <li>(8,1,11,4)</li>
+        <li>(4,4,5,5)</li>
+        <li>(1,5,3,5)</li>
+        <li>(8,5,8,11)</li>
+        <li>(1,6,2,6)</li>
+        <li>(4,6,4,11)</li>
+        <li>(10,6,11,7)</li>
+        <li>(6,7,7,11)</li>
+        <li>(9,7,9,7)</li>
+        <li>(1,8,3,11)</li>
+        <li>(9,9,11,11)</li>
+        <li>(6,12,6,12)</li>
+      </rects>
+    </FineTileMarble>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <AncientConcrete>
+        <rects>
+          <li>(1,0,2,0)</li>
+          <li>(4,0,5,0)</li>
+          <li>(7,0,12,0)</li>
+          <li>(7,1,7,2)</li>
+          <li>(12,1,12,4)</li>
+          <li>(0,2,0,3)</li>
+          <li>(7,4,7,5)</li>
+          <li>(9,5,9,5)</li>
+          <li>(11,5,11,5)</li>
+          <li>(3,6,3,6)</li>
+        </rects>
+      </AncientConcrete>
+      <FineTileMarble>
+        <rects>
+          <li>(6,0,6,5)</li>
+          <li>(1,1,5,3)</li>
+          <li>(8,1,11,4)</li>
+          <li>(4,4,5,5)</li>
+          <li>(1,5,3,5)</li>
+          <li>(8,5,8,11)</li>
+          <li>(1,6,2,6)</li>
+          <li>(4,6,4,11)</li>
+          <li>(10,6,11,7)</li>
+          <li>(6,7,7,11)</li>
+          <li>(9,7,9,7)</li>
+          <li>(1,8,3,11)</li>
+          <li>(9,9,11,11)</li>
+          <li>(6,12,6,12)</li>
+        </rects>
+      </FineTileMarble>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(1,0,2,3)</li>
+          <li>(4,0,4,3)</li>
+          <li>(12,0,12,4)</li>
+          <li>(3,1,3,3)</li>
+          <li>(5,1,5,1)</li>
+          <li>(0,2,0,3)</li>
+          <li>(7,2,7,2)</li>
+          <li>(11,2,11,4)</li>
+          <li>(1,5,4,6)</li>
+          <li>(11,6,11,7)</li>
+          <li>(4,7,4,11)</li>
+          <li>(6,7,7,7)</li>
+          <li>(10,7,10,7)</li>
+          <li>(1,8,3,11)</li>
+          <li>(6,8,6,12)</li>
+          <li>(7,9,11,11)</li>
+        </rects>
+      </Soil>
+      <SoilRich>
+        <rects>
+          <li>(5,0,11,0)</li>
+          <li>(6,1,11,1)</li>
+          <li>(5,2,6,5)</li>
+          <li>(8,2,10,4)</li>
+          <li>(4,4,4,4)</li>
+          <li>(7,4,7,5)</li>
+          <li>(8,5,9,5)</li>
+          <li>(11,5,11,5)</li>
+          <li>(8,6,8,8)</li>
+          <li>(10,6,10,6)</li>
+          <li>(9,7,9,7)</li>
+          <li>(7,8,7,8)</li>
+        </rects>
+      </SoilRich>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,12,12)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
