@@ -1,0 +1,335 @@
+<PrefabDef>
+  <defName>Prefab_20261118_171933</defName>
+  <size>(5,5)</size>
+  <extraInfo>
+    <version>1.7.9795.32073</version>
+    <name>bed</name>
+    <description>neko base</description>
+    <tags>
+      <li>Dormitory</li>
+      <li>OdysseyDLC</li>
+      <li>Transport</li>
+      <li>Spaceship</li>
+    </tags>
+    <author>ocan</author>
+    <category>Dormitory</category>
+    <BuildingID>648cfc8a-8482-40ab-b762-14a9597ce4ae</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>ludeon.rimworld.odyssey</packageId>
+        <name>Odyssey</name>
+        <version></version>
+        <modorder>6</modorder>
+        <things>
+          <li>GravshipHull</li>
+          <li>Substructure</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>mlmlmlm.bluearchivefurniture2</packageId>
+        <name>Blue Archive Furniture 2</name>
+        <version></version>
+        <modorder>14</modorder>
+        <steamWorkshopId>3541617529</steamWorkshopId>
+        <things>
+          <li>Majestic_Luxury_Carpets</li>
+          <li>BA_Floor_Gehenna</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>mlmlmlm.bluearchivefurniture4</packageId>
+        <name>Blue Archive Furniture 4</name>
+        <version></version>
+        <modorder>17</modorder>
+        <steamWorkshopId>3685138265</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>adaptive.storage.framework</packageId>
+            <steamWorkshopId>3033901359</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Carrier_Dresser</li>
+          <li>Carrierlarge_Bed</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>bed</default>
+        <en>bed</en>
+      </name>
+      <description>
+        <default>neko base</default>
+        <en>neko base</en>
+      </description>
+      <tags>
+        <default>Dormitory,OdysseyDLC,Transport,Spaceship</default>
+      </tags>
+    </multiLanguage>
+    <structureDefs>
+      <li>
+        <defName>GravshipHull</defName>
+        <kind>Wall</kind>
+        <size>(1,1)</size>
+      </li>
+      <li>
+        <defName>Autodoor</defName>
+        <kind>Door</kind>
+        <size>(1,1)</size>
+      </li>
+    </structureDefs>
+    <thingKinds version="1">
+      <Buildings>
+        <li>Autodoor</li>
+        <li>Carrier_Dresser</li>
+        <li>Carrierlarge_Bed</li>
+        <li>GravshipHull</li>
+        <li>Heater</li>
+        <li>PowerConduit</li>
+      </Buildings>
+      <ArtificialTerrain>
+        <li>Majestic_Luxury_Carpets</li>
+      </ArtificialTerrain>
+    </thingKinds>
+    <repairDefs version="1">
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>BA_Floor_Gehenna</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>Steel</li>
+          </resources>
+          <colors />
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Soil</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>soil</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Substructure</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>GravlitePanel</li>
+            <li>Steel</li>
+          </resources>
+          <colors />
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>2</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Autodoor</defName>
+        <tags>
+          <li>Door</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>autodoor</label>
+          <passability>Standable</passability>
+          <marketValue>193.96</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Carrier_Dresser</defName>
+        <tags>
+          <li>Attachment</li>
+          <li>Bedside</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 1)</size>
+          <label>Carrier Dresser</label>
+          <passability>Standable</passability>
+          <marketValue>92.2</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Carrierlarge_Bed</defName>
+        <tags>
+          <li>Bed</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 2)</size>
+          <label>Carrier Large Bed</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>225</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>GravshipHull</defName>
+        <tags>
+          <li>Wall</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>gravship hull</label>
+          <passability>Impassable</passability>
+          <marketValue>15.08</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Majestic_Luxury_Carpets</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 5)</size>
+          <label>Majestic Luxury Carpets</label>
+          <passability>Standable</passability>
+          <marketValue>152.34</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+    </repairDefs>
+  </extraInfo>
+  <things>
+    <GravshipHull>
+      <rects>
+        <li>(0,0,4,0)</li>
+        <li>(0,1,0,4)</li>
+        <li>(4,1,4,4)</li>
+        <li>(1,4,2,4)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </GravshipHull>
+    <PowerConduit>
+      <rects>
+        <li>(0,0,4,0)</li>
+        <li>(0,1,0,4)</li>
+      </rects>
+    </PowerConduit>
+    <Majestic_Luxury_Carpets>
+      <position>(2, 0, 2)</position>
+      <quality>Legendary</quality>
+    </Majestic_Luxury_Carpets>
+    <Carrier_Dresser>
+      <position>(2, 0, 1)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </Carrier_Dresser>
+    <Heater>
+      <rects>
+        <li>(3,1,3,1)</li>
+      </rects>
+    </Heater>
+    <Carrierlarge_Bed>
+      <position>(2, 0, 3)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Silver</stuff>
+      <quality>Legendary</quality>
+      <color>RGBA(0.706, 0.678, 0.588, 1.000)</color>
+    </Carrierlarge_Bed>
+    <Autodoor>
+      <rects>
+        <li>(3,4,3,4)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Autodoor>
+  </things>
+  <terrain>
+    <BA_Floor_Gehenna>
+      <rects>
+        <li>(0,0,4,4)</li>
+      </rects>
+    </BA_Floor_Gehenna>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <BA_Floor_Gehenna>
+        <rects>
+          <li>(0,0,4,4)</li>
+        </rects>
+      </BA_Floor_Gehenna>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(0,0,4,4)</li>
+        </rects>
+      </Soil>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="foundationGrid">
+      <Substructure>
+        <rects>
+          <li>(0,0,4,4)</li>
+        </rects>
+      </Substructure>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,4,4)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,4,4)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
