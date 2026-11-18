@@ -1,0 +1,4835 @@
+<PrefabDef>
+  <defName>Prefab_20261118_150243</defName>
+  <size>(232,21)</size>
+  <extraInfo>
+    <version>1.7.9818.2873</version>
+    <name>俄耳普罗斯号逆重飞船</name>
+    <description>沐烬钢打造，有区块分化，有战斗区，研究区，生活区，配备飞行甲板，主武器是三门三联装510mm主炮，设计上支持十个人进行短途出击，船长，大副，飞行员，厨师，维修员，研究员以及四个水手</description>
+    <tags>
+      <li>Spaceship</li>
+    </tags>
+    <author>梣</author>
+    <category>Spaceship</category>
+    <BuildingID>bd4d4b3d-15d5-46e8-9afa-541247d88b06</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>kindseal.lol</packageId>
+        <name>联合重工-UF Heavy Industries</name>
+        <version></version>
+        <modorder>57</modorder>
+        <steamWorkshopId>3555662938</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+          <li>
+            <packageId>dizhuan.sralib</packageId>
+            <steamWorkshopId>3565275325</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>KT_LARGEAUTOCANNON</li>
+          <li>KT_steel</li>
+          <li>KT203MMCANNON</li>
+          <li>KTShieldGeneratorMortar</li>
+          <li>KTShieldGeneratorBullets</li>
+          <li>KT_Workbench</li>
+          <li>KT_SWorkbench</li>
+          <li>KTGRANTAUTOCANNON</li>
+          <li>KTRAILGUN</li>
+          <li>KT_LaserADSTurret</li>
+          <li>KT_protontorpedo</li>
+          <li>KT_510MMCannon</li>
+          <li>Frame_KTShieldGeneratorBullets</li>
+          <li>KT_UFGenerator</li>
+          <li>Turret_TripletTurbolasers</li>
+          <li>KTPLASMACANNON</li>
+          <li>KT_Maintenance_Station</li>
+          <li>KT_ATFieldGenerator</li>
+          <li>KT_Sandbox_Table</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.odyssey</packageId>
+        <name>Odyssey</name>
+        <version></version>
+        <modorder>9</modorder>
+        <things>
+          <li>GravshipHull</li>
+          <li>VacBarrier</li>
+          <li>LargeThruster</li>
+          <li>SmallThruster</li>
+          <li>GravEngine</li>
+          <li>PilotConsole</li>
+          <li>GravFieldExtender</li>
+          <li>Substructure</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>dubwise.dubsbadhygiene</packageId>
+        <name>Dubs Bad Hygiene</name>
+        <version>3.2.3260</version>
+        <modorder>148</modorder>
+        <steamWorkshopId>836308268</steamWorkshopId>
+        <things>
+          <li>sewagePipeHidden</li>
+          <li>WaterTowerL</li>
+          <li>SpacerWaterRecoverySystem</li>
+          <li>DBHSaunaSeating</li>
+          <li>ToiletAdvStuff</li>
+          <li>BasinStuff</li>
+          <li>WaterTreatment</li>
+          <li>DBHSaunaHeaterElec</li>
+          <li>ShowerAdvStuff</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>kindseal.ufli</packageId>
+        <name>联合轻工家具拓展-UF Light Industries Furniture</name>
+        <version></version>
+        <modorder>412</modorder>
+        <steamWorkshopId>3651799915</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFLI_Walllamp</li>
+          <li>UFLI_Wall_Cable</li>
+          <li>UFLI_1_Autodoor</li>
+          <li>UFLI_1_Frame_DOOR</li>
+          <li>UFLI_Container_1X2_AS</li>
+          <li>UFLI_2_Autodoor</li>
+          <li>UFLI_2_Frame_DOOR</li>
+          <li>UFLI_Holographic_logo</li>
+          <li>UFLI_Bed</li>
+          <li>UFLI_Chair</li>
+          <li>UFLI_CarpetB</li>
+          <li>UFLI_1X1_Table</li>
+          <li>UFLI_CouchDouble</li>
+          <li>UFLI_1X2_Table</li>
+          <li>UFLI_CabinetD</li>
+          <li>UFLI_Benchrack</li>
+          <li>UFLI_Treadmill</li>
+          <li>UFLI_Container_2X2_AS</li>
+          <li>UFLI_Endtable</li>
+          <li>UFLI_groundlight</li>
+          <li>UFLI_Couch</li>
+          <li>UFLI_CarpetC</li>
+          <li>UFLI_Dumbbellrack</li>
+          <li>UFLI_WashingMachine</li>
+          <li>UFLI_CabinetA</li>
+          <li>UFLI_Wardrobe_AS</li>
+          <li>UFLI_CabinetE</li>
+          <li>UFLI_CabinetF</li>
+          <li>UFLI_CabinetB</li>
+          <li>UFLI_SteamOven</li>
+          <li>UFLI_Refrigerator_AS</li>
+          <li>UFLI_stove</li>
+          <li>UFLI_Sink</li>
+          <li>UFLI_2X4_Table</li>
+          <li>UFLI_3_Autodoor</li>
+          <li>UFLI_3_Frame_DOOR</li>
+          <li>UFLI_Column_sun</li>
+          <li>UF_MachineSpiritRitualAltar</li>
+          <li>UFLlA0Tome</li>
+          <li>UFRecipes_WorkbenchBooster</li>
+          <li>UFRecipes_MachineSpiritAltar</li>
+          <li>UFLI_FLOOR</li>
+          <li>UFLI_FLOORI</li>
+          <li>UFLI_FLOORS</li>
+          <li>UFLI_FLOORU</li>
+          <li>UFLI_FLOORT</li>
+          <li>UFLI_FLOORJ</li>
+          <li>UFLI_FLOORD</li>
+          <li>UFLI_FLOORE</li>
+          <li>UFLI_FLOORM</li>
+          <li>UFLI_FLOORF</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>mlmlmlm.bluearchivefurniture4</packageId>
+        <name>Blue Archive Furniture 4</name>
+        <version></version>
+        <modorder>119</modorder>
+        <steamWorkshopId>3685138265</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>adaptive.storage.framework</packageId>
+            <steamWorkshopId>3033901359</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Carrier_Television</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>oark.ratkinfaction.oberoniaaurea</packageId>
+        <name>[OA]Ratkin Faction: Oberonia aurea</name>
+        <version></version>
+        <modorder>38</modorder>
+        <steamWorkshopId>3159926804</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>oark.oberoniaaurea.framework</packageId>
+            <steamWorkshopId>3713589764</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>OA_RK_Rese_B</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>oels.nanamewalls</packageId>
+        <name>Hull Style: NANAME Walls</name>
+        <version>1.7.3</version>
+        <modorder>197</modorder>
+        <steamWorkshopId>3543791340</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFLI_Wall_Cable_NAWDiagonal</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.ideology</packageId>
+        <name>Ideology</name>
+        <version></version>
+        <modorder>6</modorder>
+        <things>
+          <li>SleepAccelerator</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>hobbes.bamba.evenmorelinkables16</packageId>
+        <name>Even More Linkables Reupload</name>
+        <version></version>
+        <modorder>173</modorder>
+        <steamWorkshopId>3536014093</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>HobbesLink_Centrifuge</li>
+          <li>HobbesLink_Transformer</li>
+          <li>HobbesLink_Alternator</li>
+          <li>HobbesLink_CoolingModule</li>
+          <li>HobbesLink_ServerRack</li>
+          <li>HobbesLink_Spacer_Transformer</li>
+          <li>HobbesLink_Spacer_Condensator</li>
+          <li>HobbesLink_BreakerBox</li>
+          <li>HobbesLink_Spacer_Console</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>mapleapple.highdensityhydroponics.fixed.zouhb.zades</packageId>
+        <name>High Density Hydroponics</name>
+        <version></version>
+        <modorder>196</modorder>
+        <steamWorkshopId>3534458015</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>HDH_Hydroponics_Quantum</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>quartz.floorstoragetanks</packageId>
+        <name>Floor-Mounted Fuel Tanks</name>
+        <version></version>
+        <modorder>169</modorder>
+        <steamWorkshopId>3625783623</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>ludeon.rimworld.odyssey</packageId>
+          </li>
+          <li>
+            <packageId>imranfish.xmlextensions</packageId>
+            <steamWorkshopId>2574315206</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFST_ChemfuelTankLarge</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>fxz.glitterworlddestroyer.mk5</packageId>
+        <name>Glitterworld Destroyer 5 - Mechanoid Addon</name>
+        <version></version>
+        <modorder>45</modorder>
+        <steamWorkshopId>3550544871</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.royalty</packageId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+        </dependencies>
+        <things>
+          <li>GD_CommunicationStation</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>tot.celetech.mkiii</packageId>
+        <name>CeleTech Arsenal MKIII</name>
+        <version></version>
+        <modorder>123</modorder>
+        <steamWorkshopId>3446237098</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>CMC_CommConsole</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ariandel.miliraimperium</packageId>
+        <name>Milira Faction: Milira Imperium</name>
+        <version></version>
+        <modorder>58</modorder>
+        <steamWorkshopId>3588393755</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>ancot.milirarace</packageId>
+            <steamWorkshopId>3256974620</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ancot.ancotlibrary</packageId>
+            <steamWorkshopId>2988801276</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.royalty</packageId>
+          </li>
+          <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+          </li>
+          <li>
+            <packageId>ariandel.ariandellibrary</packageId>
+            <steamWorkshopId>3665997350</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Milira_DragonFighter</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>俄耳普罗斯号逆重飞船</default>
+        <zh-CN>俄耳普罗斯号逆重飞船</zh-CN>
+      </name>
+      <description>
+        <default>沐烬钢打造，有区块分化，有战斗区，研究区，生活区，配备飞行甲板，主武器是三门三联装510mm主炮，设计上支持十个人进行短途出击，船长，大副，飞行员，厨师，维修员，研究员以及四个水手</default>
+        <zh-CN>沐烬钢打造，有区块分化，有战斗区，研究区，生活区，配备飞行甲板，主武器是三门三联装510mm主炮，设计上支持十个人进行短途出击，船长，大副，飞行员，厨师，维修员，研究员以及四个水手</zh-CN>
+      </description>
+      <tags>
+        <default>Spaceship</default>
+      </tags>
+    </multiLanguage>
+    <structureDefs>
+      <li>
+        <defName>GravshipHull</defName>
+        <kind>Wall</kind>
+        <size>(1,1)</size>
+      </li>
+      <li>
+        <defName>VacBarrier</defName>
+        <kind>Door</kind>
+        <size>(1,1)</size>
+      </li>
+      <li>
+        <defName>UFLI_Wall_Cable</defName>
+        <kind>Wall</kind>
+        <size>(1,1)</size>
+      </li>
+      <li>
+        <defName>UFLI_1_Autodoor</defName>
+        <kind>Door</kind>
+        <size>(1,1)</size>
+      </li>
+      <li>
+        <defName>UFLI_2_Autodoor</defName>
+        <kind>Door</kind>
+        <size>(2,1)</size>
+      </li>
+      <li>
+        <defName>UFLI_Wall_Cable_NAWDiagonal</defName>
+        <kind>Wall</kind>
+        <size>(1,1)</size>
+      </li>
+      <li>
+        <defName>UFLI_3_Autodoor</defName>
+        <kind>Door</kind>
+        <size>(3,1)</size>
+      </li>
+    </structureDefs>
+    <thingKinds version="1">
+      <Buildings>
+        <li>BasinStuff</li>
+        <li>CMC_CommConsole</li>
+        <li>Carrier_Television</li>
+        <li>DBHSaunaHeaterElec</li>
+        <li>DBHSaunaSeating</li>
+        <li>Frame_KTShieldGeneratorBullets</li>
+        <li>GD_CommunicationStation</li>
+        <li>GravEngine</li>
+        <li>GravFieldExtender</li>
+        <li>GravshipHull</li>
+        <li>HiTechResearchBench</li>
+        <li>HiddenConduit</li>
+        <li>HobbesLink_Alternator</li>
+        <li>HobbesLink_BreakerBox</li>
+        <li>HobbesLink_Centrifuge</li>
+        <li>HobbesLink_CoolingModule</li>
+        <li>HobbesLink_ServerRack</li>
+        <li>HobbesLink_Spacer_Condensator</li>
+        <li>HobbesLink_Spacer_Console</li>
+        <li>HobbesLink_Spacer_Transformer</li>
+        <li>HobbesLink_Transformer</li>
+        <li>HospitalBed</li>
+        <li>KT203MMCANNON</li>
+        <li>KTGRANTAUTOCANNON</li>
+        <li>KTPLASMACANNON</li>
+        <li>KTRAILGUN</li>
+        <li>KTShieldGeneratorBullets</li>
+        <li>KTShieldGeneratorMortar</li>
+        <li>KT_510MMCannon</li>
+        <li>KT_ATFieldGenerator</li>
+        <li>KT_LARGEAUTOCANNON</li>
+        <li>KT_LaserADSTurret</li>
+        <li>KT_Maintenance_Station</li>
+        <li>KT_SWorkbench</li>
+        <li>KT_Sandbox_Table</li>
+        <li>KT_UFGenerator</li>
+        <li>KT_Workbench</li>
+        <li>KT_protontorpedo</li>
+        <li>LargeThruster</li>
+        <li>Milira_DragonFighter</li>
+        <li>MultiAnalyzer</li>
+        <li>OA_RK_Rese_B</li>
+        <li>PilotConsole</li>
+        <li>PodLauncher</li>
+        <li>ShowerAdvStuff</li>
+        <li>SleepAccelerator</li>
+        <li>SmallThruster</li>
+        <li>SpacerWaterRecoverySystem</li>
+        <li>ToiletAdvStuff</li>
+        <li>TransportPod</li>
+        <li>Turret_TripletTurbolasers</li>
+        <li>UFLI_1X1_Table</li>
+        <li>UFLI_1X2_Table</li>
+        <li>UFLI_1_Autodoor</li>
+        <li>UFLI_1_Frame_DOOR</li>
+        <li>UFLI_2X4_Table</li>
+        <li>UFLI_2_Autodoor</li>
+        <li>UFLI_2_Frame_DOOR</li>
+        <li>UFLI_3_Autodoor</li>
+        <li>UFLI_3_Frame_DOOR</li>
+        <li>UFLI_Bed</li>
+        <li>UFLI_Benchrack</li>
+        <li>UFLI_CabinetA</li>
+        <li>UFLI_CabinetB</li>
+        <li>UFLI_CabinetD</li>
+        <li>UFLI_CabinetE</li>
+        <li>UFLI_CabinetF</li>
+        <li>UFLI_CarpetB</li>
+        <li>UFLI_CarpetC</li>
+        <li>UFLI_Chair</li>
+        <li>UFLI_Column_sun</li>
+        <li>UFLI_Container_1X2_AS</li>
+        <li>UFLI_Container_2X2_AS</li>
+        <li>UFLI_Couch</li>
+        <li>UFLI_CouchDouble</li>
+        <li>UFLI_Dumbbellrack</li>
+        <li>UFLI_Endtable</li>
+        <li>UFLI_Holographic_logo</li>
+        <li>UFLI_Refrigerator_AS</li>
+        <li>UFLI_Sink</li>
+        <li>UFLI_SteamOven</li>
+        <li>UFLI_Treadmill</li>
+        <li>UFLI_Wall_Cable</li>
+        <li>UFLI_Wall_Cable_NAWDiagonal</li>
+        <li>UFLI_Walllamp</li>
+        <li>UFLI_Wardrobe_AS</li>
+        <li>UFLI_WashingMachine</li>
+        <li>UFLI_groundlight</li>
+        <li>UFLI_stove</li>
+        <li>UFLlA0Tome</li>
+        <li>UFRecipes_MachineSpiritAltar</li>
+        <li>UFRecipes_WorkbenchBooster</li>
+        <li>UFST_ChemfuelTankLarge</li>
+        <li>UF_MachineSpiritRitualAltar</li>
+        <li>VacBarrier</li>
+        <li>VitalsMonitor</li>
+        <li>WaterTowerL</li>
+        <li>WaterTreatment</li>
+        <li>sewagePipeHidden</li>
+      </Buildings>
+      <ArtificialTerrain>
+        <li>HDH_Hydroponics_Quantum</li>
+      </ArtificialTerrain>
+    </thingKinds>
+    <repairDefs version="1">
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Gravel</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>sand</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Limestone_Rough</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>limestone</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Limestone_RoughHewn</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>limestone</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Mud</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>soil</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>PackedDirt</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>soil</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Slate_Rough</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>slate</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Slate_RoughHewn</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>slate</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Soil</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>soil</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>SoilRich</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>soil</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Substructure</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>GravlitePanel</li>
+            <li>Steel</li>
+          </resources>
+          <colors />
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>2</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>UFLI_FLOOR</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources>
+          <li>MetalTile</li>
+        </builtinSources>
+        <match>
+          <resources>
+            <li>Steel</li>
+          </resources>
+          <colors />
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>UFLI_FLOORD</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>Steel</li>
+          </resources>
+          <colors />
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>UFLI_FLOORE</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources>
+          <li>PavedTile</li>
+        </builtinSources>
+        <match>
+          <resources>
+            <li>Steel</li>
+          </resources>
+          <colors />
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>UFLI_FLOORF</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>Steel</li>
+          </resources>
+          <colors />
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>UFLI_FLOORI</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>Steel</li>
+          </resources>
+          <colors />
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>UFLI_FLOORJ</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources>
+          <li>SterileTile</li>
+        </builtinSources>
+        <match>
+          <resources>
+            <li>Steel</li>
+          </resources>
+          <colors />
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>UFLI_FLOORM</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>Steel</li>
+          </resources>
+          <colors />
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>UFLI_FLOORS</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>Steel</li>
+          </resources>
+          <colors />
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>UFLI_FLOORT</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>Steel</li>
+          </resources>
+          <colors />
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>UFLI_FLOORU</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>Steel</li>
+          </resources>
+          <colors />
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>DBHSaunaSeating</defName>
+        <tags>
+          <li>Seat</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>桑拿坐凳</label>
+          <passability>Standable</passability>
+          <marketValue>5.62</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>GravshipHull</defName>
+        <tags>
+          <li>Wall</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>逆重飞船舱壁</label>
+          <passability>Impassable</passability>
+          <marketValue>15.08</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>HDH_Hydroponics_Quantum</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 2)</size>
+          <label>量子密度水培槽</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>4545</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>HospitalBed</defName>
+        <tags>
+          <li>Bed</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 2)</size>
+          <label>医疗床</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>400</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>KT203MMCANNON</defName>
+        <tags>
+          <li>Turret</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(5, 5)</size>
+          <label>「裁决」双联203MM自动舰炮</label>
+          <passability>Standable</passability>
+          <marketValue>7140</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>KTGRANTAUTOCANNON</defName>
+        <tags>
+          <li>Turret</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(5, 5)</size>
+          <label>「飓风」40管30MM机炮</label>
+          <passability>Standable</passability>
+          <marketValue>6675</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>KTPLASMACANNON</defName>
+        <tags>
+          <li>Turret</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(5, 5)</size>
+          <label>「泰坦」180MM电浆炮</label>
+          <passability>Standable</passability>
+          <marketValue>7630</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>KTRAILGUN</defName>
+        <tags>
+          <li>Turret</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 3)</size>
+          <label>「长钉」120MM磁轨炮</label>
+          <passability>Standable</passability>
+          <marketValue>2835</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>KT_510MMCannon</defName>
+        <tags>
+          <li>Turret</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(9, 9)</size>
+          <label>「撼山」三联装510MM湮灭炮</label>
+          <passability>Standable</passability>
+          <marketValue>48010</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>KT_LARGEAUTOCANNON</defName>
+        <tags>
+          <li>Turret</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 3)</size>
+          <label>「巨蟒」双联25mm弹炮合一系统</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>2425</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>KT_SWorkbench</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 2)</size>
+          <label>3D打印工作台(装备)</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>760</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>KT_Workbench</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(5, 2)</size>
+          <label>3D打印工作台</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>1415</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>KT_protontorpedo</defName>
+        <tags>
+          <li>Turret</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 3)</size>
+          <label>「精灵」质子鱼雷发射器</label>
+          <passability>Standable</passability>
+          <marketValue>6455</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Turret_TripletTurbolasers</defName>
+        <tags>
+          <li>Turret</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(7, 7)</size>
+          <label>「帝国」三联装涡轮激光炮</label>
+          <passability>Standable</passability>
+          <marketValue>36965</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_1X1_Table</defName>
+        <tags>
+          <li>Table</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>联合桌 1X1</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>31.44</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_1X2_Table</defName>
+        <tags>
+          <li>Table</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 1)</size>
+          <label>联合桌 1X2</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>62.7</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_1_Autodoor</defName>
+        <tags>
+          <li>Door</li>
+        </tags>
+        <builtinSources>
+          <li>Autodoor</li>
+        </builtinSources>
+        <match>
+          <size>(1, 1)</size>
+          <label>联合自动门 1X1</label>
+          <passability>Standable</passability>
+          <marketValue>146.88</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_2X4_Table</defName>
+        <tags>
+          <li>Table</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(4, 2)</size>
+          <label>联合桌 2X4</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>123.96</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_2_Autodoor</defName>
+        <tags>
+          <li>Door</li>
+        </tags>
+        <builtinSources>
+          <li>OrnateDoor</li>
+        </builtinSources>
+        <match>
+          <size>(2, 1)</size>
+          <label>联合自动门 2X1</label>
+          <passability>Standable</passability>
+          <marketValue>260</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_3_Autodoor</defName>
+        <tags>
+          <li>Door</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 1)</size>
+          <label>联合自动门 3X1</label>
+          <passability>Standable</passability>
+          <marketValue>370</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_Bed</defName>
+        <tags>
+          <li>Bed</li>
+        </tags>
+        <builtinSources>
+          <li>Bed</li>
+        </builtinSources>
+        <match>
+          <size>(1, 2)</size>
+          <label>联合智能单人床</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>194.88</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_CabinetA</defName>
+        <tags>
+          <li>Bedside</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 1)</size>
+          <label>联合员工柜</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>61.8</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_CabinetB</defName>
+        <tags>
+          <li>Bedside</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 1)</size>
+          <label>联合衣柜</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>41.8</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_CabinetD</defName>
+        <tags>
+          <li>Bedside</li>
+        </tags>
+        <builtinSources>
+          <li>Dresser</li>
+        </builtinSources>
+        <match>
+          <size>(2, 1)</size>
+          <label>联合矮柜</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>71.8</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_CabinetE</defName>
+        <tags>
+          <li>Bedside</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>联合单柜</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>41.26</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_CabinetF</defName>
+        <tags>
+          <li>Bedside</li>
+        </tags>
+        <builtinSources>
+          <li>BookcaseSmall</li>
+        </builtinSources>
+        <match>
+          <size>(1, 1)</size>
+          <label>联合书柜</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>265</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_Chair</defName>
+        <tags>
+          <li>Seat</li>
+        </tags>
+        <builtinSources>
+          <li>DiningChair</li>
+        </builtinSources>
+        <match>
+          <size>(1, 1)</size>
+          <label>联合人体工程学椅</label>
+          <passability>Standable</passability>
+          <marketValue>63.6</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_Column_sun</defName>
+        <tags>
+          <li>Lamp</li>
+        </tags>
+        <builtinSources>
+          <li>SunLamp</li>
+        </builtinSources>
+        <match>
+          <size>(1, 1)</size>
+          <label>联合支柱太阳灯</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>116.88</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_Container_1X2_AS</defName>
+        <tags>
+          <li>Storage</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 1)</size>
+          <label>联合储存货架(1X2)</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>48.94</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_Container_2X2_AS</defName>
+        <tags>
+          <li>Storage</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 2)</size>
+          <label>联合储存货架(2X2)</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>88.02</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_Couch</defName>
+        <tags>
+          <li>Seat</li>
+        </tags>
+        <builtinSources>
+          <li>Armchair</li>
+        </builtinSources>
+        <match>
+          <size>(1, 1)</size>
+          <label>联合沙发</label>
+          <passability>Standable</passability>
+          <marketValue>152.82</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_CouchDouble</defName>
+        <tags>
+          <li>Seat</li>
+        </tags>
+        <builtinSources>
+          <li>Couch</li>
+        </builtinSources>
+        <match>
+          <size>(2, 1)</size>
+          <label>联合双人沙发</label>
+          <passability>Standable</passability>
+          <marketValue>255</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_Endtable</defName>
+        <tags>
+          <li>Bedside</li>
+        </tags>
+        <builtinSources>
+          <li>EndTable</li>
+        </builtinSources>
+        <match>
+          <size>(1, 1)</size>
+          <label>联合床头柜</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>21.26</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_Refrigerator_AS</defName>
+        <tags>
+          <li>Storage</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>联合冰箱</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>104.16</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_Wall_Cable</defName>
+        <tags>
+          <li>Wall</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>联合墙体(电缆)</label>
+          <passability>Impassable</passability>
+          <marketValue>2</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_Wall_Cable_NAWDiagonal</defName>
+        <tags>
+          <li>Wall</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>斜向联合墙体(电缆)</label>
+          <passability>Impassable</passability>
+          <marketValue>2</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_Walllamp</defName>
+        <tags>
+          <li>Attachment</li>
+          <li>Lamp</li>
+        </tags>
+        <builtinSources>
+          <li>WallLamp</li>
+        </builtinSources>
+        <match>
+          <size>(1, 1)</size>
+          <label>联合壁灯</label>
+          <passability>Standable</passability>
+          <marketValue>29.58</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_Wardrobe_AS</defName>
+        <tags>
+          <li>Bedside</li>
+          <li>Storage</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 1)</size>
+          <label>联合衣物储存柜</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>92.16</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_WashingMachine</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>联合洗衣机</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>2835</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_groundlight</defName>
+        <tags>
+          <li>Lamp</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>联合地灯</label>
+          <passability>Standable</passability>
+          <marketValue>29.58</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_stove</defName>
+        <tags>
+          <li>WorkTable</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 1)</size>
+          <label>联合灶台</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>255</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>VacBarrier</defName>
+        <tags>
+          <li>Door</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>真空屏障</label>
+          <passability>Standable</passability>
+          <marketValue>155.2</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+    </repairDefs>
+  </extraInfo>
+  <things>
+    <HiddenConduit>
+      <rects>
+        <li>(49,0,140,0)</li>
+        <li>(167,0,207,0)</li>
+        <li>(42,1,49,1)</li>
+        <li>(64,1,64,20)</li>
+        <li>(70,1,70,1)</li>
+        <li>(80,1,80,3)</li>
+        <li>(88,1,88,2)</li>
+        <li>(91,1,91,2)</li>
+        <li>(107,1,107,2)</li>
+        <li>(149,1,166,1)</li>
+        <li>(199,1,199,2)</li>
+        <li>(202,1,202,2)</li>
+        <li>(207,1,207,2)</li>
+        <li>(34,2,42,2)</li>
+        <li>(49,2,49,20)</li>
+        <li>(61,2,61,3)</li>
+        <li>(208,2,215,2)</li>
+        <li>(26,3,33,3)</li>
+        <li>(215,3,218,3)</li>
+        <li>(20,4,26,4)</li>
+        <li>(70,4,70,4)</li>
+        <li>(86,4,87,4)</li>
+        <li>(107,4,107,6)</li>
+        <li>(132,4,132,4)</li>
+        <li>(136,4,136,4)</li>
+        <li>(144,4,144,4)</li>
+        <li>(148,4,148,4)</li>
+        <li>(167,4,167,6)</li>
+        <li>(215,4,215,18)</li>
+        <li>(218,4,218,5)</li>
+        <li>(20,5,20,16)</li>
+        <li>(25,5,25,16)</li>
+        <li>(41,5,41,6)</li>
+        <li>(60,5,60,5)</li>
+        <li>(68,5,68,5)</li>
+        <li>(80,5,80,15)</li>
+        <li>(88,5,88,6)</li>
+        <li>(91,5,91,6)</li>
+        <li>(140,5,140,15)</li>
+        <li>(168,5,168,5)</li>
+        <li>(171,5,171,5)</li>
+        <li>(178,5,178,5)</li>
+        <li>(183,5,187,5)</li>
+        <li>(200,5,202,5)</li>
+        <li>(219,5,223,5)</li>
+        <li>(59,6,59,6)</li>
+        <li>(69,6,69,6)</li>
+        <li>(129,6,139,6)</li>
+        <li>(148,6,148,6)</li>
+        <li>(174,6,174,14)</li>
+        <li>(185,6,185,15)</li>
+        <li>(207,6,207,14)</li>
+        <li>(223,6,227,6)</li>
+        <li>(95,7,95,7)</li>
+        <li>(141,7,141,7)</li>
+        <li>(227,7,227,14)</li>
+        <li>(228,8,230,8)</li>
+        <li>(34,9,34,11)</li>
+        <li>(88,9,88,11)</li>
+        <li>(91,9,91,11)</li>
+        <li>(129,9,129,11)</li>
+        <li>(141,9,141,11)</li>
+        <li>(167,9,167,11)</li>
+        <li>(204,9,204,11)</li>
+        <li>(230,9,230,12)</li>
+        <li>(2,10,19,10)</li>
+        <li>(21,10,24,10)</li>
+        <li>(26,10,33,10)</li>
+        <li>(35,10,40,10)</li>
+        <li>(42,10,48,10)</li>
+        <li>(50,10,63,10)</li>
+        <li>(65,10,79,10)</li>
+        <li>(81,10,87,10)</li>
+        <li>(89,10,90,10)</li>
+        <li>(92,10,106,10)</li>
+        <li>(108,10,119,10)</li>
+        <li>(123,10,128,10)</li>
+        <li>(130,10,139,10)</li>
+        <li>(142,10,166,10)</li>
+        <li>(168,10,173,10)</li>
+        <li>(175,10,184,10)</li>
+        <li>(186,10,203,10)</li>
+        <li>(205,10,206,10)</li>
+        <li>(208,10,214,10)</li>
+        <li>(216,10,226,10)</li>
+        <li>(228,10,229,10)</li>
+        <li>(228,12,229,12)</li>
+        <li>(95,13,95,13)</li>
+        <li>(141,13,141,13)</li>
+        <li>(41,14,41,15)</li>
+        <li>(59,14,59,14)</li>
+        <li>(69,14,69,14)</li>
+        <li>(88,14,88,15)</li>
+        <li>(91,14,91,15)</li>
+        <li>(107,14,107,16)</li>
+        <li>(129,14,139,14)</li>
+        <li>(148,14,148,14)</li>
+        <li>(167,14,167,16)</li>
+        <li>(223,14,226,14)</li>
+        <li>(60,15,60,15)</li>
+        <li>(68,15,68,15)</li>
+        <li>(168,15,168,15)</li>
+        <li>(171,15,171,15)</li>
+        <li>(178,15,178,15)</li>
+        <li>(183,15,184,15)</li>
+        <li>(186,15,187,15)</li>
+        <li>(200,15,202,15)</li>
+        <li>(218,15,223,15)</li>
+        <li>(21,16,24,16)</li>
+        <li>(26,16,26,17)</li>
+        <li>(70,16,70,16)</li>
+        <li>(86,16,87,16)</li>
+        <li>(132,16,132,16)</li>
+        <li>(136,16,136,16)</li>
+        <li>(144,16,144,16)</li>
+        <li>(148,16,148,16)</li>
+        <li>(218,16,218,17)</li>
+        <li>(27,17,33,17)</li>
+        <li>(61,17,61,18)</li>
+        <li>(80,17,80,20)</li>
+        <li>(216,17,217,17)</li>
+        <li>(34,18,42,18)</li>
+        <li>(88,18,88,20)</li>
+        <li>(91,18,91,20)</li>
+        <li>(107,18,107,20)</li>
+        <li>(199,18,199,20)</li>
+        <li>(202,18,202,20)</li>
+        <li>(207,18,214,18)</li>
+        <li>(42,19,48,19)</li>
+        <li>(70,19,70,20)</li>
+        <li>(149,19,166,19)</li>
+        <li>(207,19,207,20)</li>
+        <li>(50,20,63,20)</li>
+        <li>(65,20,69,20)</li>
+        <li>(71,20,79,20)</li>
+        <li>(81,20,87,20)</li>
+        <li>(89,20,90,20)</li>
+        <li>(92,20,106,20)</li>
+        <li>(108,20,140,20)</li>
+        <li>(167,20,198,20)</li>
+        <li>(200,20,201,20)</li>
+        <li>(203,20,206,20)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <KT_LARGEAUTOCANNON>
+      <positions>
+        <li>(51, 0, 1)</li>
+        <li>(47, 0, 2)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+    </KT_LARGEAUTOCANNON>
+    <GravshipHull>
+      <rects>
+        <li>(53,0,88,0)</li>
+        <li>(91,0,161,0)</li>
+        <li>(164,0,207,0)</li>
+        <li>(42,1,45,1)</li>
+        <li>(53,1,53,3)</li>
+        <li>(88,1,88,2)</li>
+        <li>(91,1,91,2)</li>
+        <li>(161,1,161,2)</li>
+        <li>(164,1,164,2)</li>
+        <li>(207,1,207,2)</li>
+        <li>(34,2,41,2)</li>
+        <li>(45,2,45,4)</li>
+        <li>(208,2,215,2)</li>
+        <li>(26,3,33,3)</li>
+        <li>(49,3,52,3)</li>
+        <li>(215,3,218,3)</li>
+        <li>(20,4,25,4)</li>
+        <li>(46,4,49,4)</li>
+        <li>(218,4,218,5)</li>
+        <li>(15,5,19,5)</li>
+        <li>(219,5,223,5)</li>
+        <li>(11,6,14,6)</li>
+        <li>(223,6,227,6)</li>
+        <li>(7,7,10,7)</li>
+        <li>(227,7,227,8)</li>
+        <li>(4,8,6,8)</li>
+        <li>(228,8,230,8)</li>
+        <li>(2,9,3,9)</li>
+        <li>(0,10,1,10)</li>
+        <li>(230,10,230,10)</li>
+        <li>(2,11,3,11)</li>
+        <li>(4,12,6,12)</li>
+        <li>(227,12,230,12)</li>
+        <li>(7,13,10,13)</li>
+        <li>(227,13,227,14)</li>
+        <li>(11,14,14,14)</li>
+        <li>(223,14,226,14)</li>
+        <li>(15,15,19,15)</li>
+        <li>(218,15,223,15)</li>
+        <li>(20,16,25,16)</li>
+        <li>(45,16,49,16)</li>
+        <li>(218,16,218,17)</li>
+        <li>(26,17,33,17)</li>
+        <li>(45,17,45,19)</li>
+        <li>(49,17,53,17)</li>
+        <li>(215,17,217,17)</li>
+        <li>(34,18,41,18)</li>
+        <li>(53,18,53,20)</li>
+        <li>(88,18,88,20)</li>
+        <li>(91,18,91,20)</li>
+        <li>(161,18,161,20)</li>
+        <li>(164,18,164,20)</li>
+        <li>(207,18,215,18)</li>
+        <li>(42,19,44,19)</li>
+        <li>(207,19,207,20)</li>
+        <li>(54,20,87,20)</li>
+        <li>(92,20,160,20)</li>
+        <li>(165,20,206,20)</li>
+      </rects>
+      <stuff>KT_steel</stuff>
+    </GravshipHull>
+    <VacBarrier>
+      <rects>
+        <li>(89,0,90,0)</li>
+        <li>(162,0,163,0)</li>
+        <li>(89,20,90,20)</li>
+        <li>(162,20,163,20)</li>
+      </rects>
+      <color>RGBA(0.557, 0.557, 0.557, 1.000)</color>
+    </VacBarrier>
+    <sewagePipeHidden>
+      <rects>
+        <li>(148,0,182,0)</li>
+        <li>(188,0,207,0)</li>
+        <li>(148,1,148,3)</li>
+        <li>(182,1,182,5)</li>
+        <li>(188,1,188,5)</li>
+        <li>(207,1,207,20)</li>
+        <li>(149,3,154,3)</li>
+        <li>(173,5,173,15)</li>
+        <li>(183,5,187,5)</li>
+        <li>(204,5,206,5)</li>
+        <li>(182,15,188,15)</li>
+        <li>(204,15,206,15)</li>
+        <li>(182,16,182,20)</li>
+        <li>(188,16,188,20)</li>
+        <li>(148,17,154,17)</li>
+        <li>(148,18,148,20)</li>
+        <li>(149,20,181,20)</li>
+        <li>(189,20,206,20)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </sewagePipeHidden>
+    <LargeThruster>
+      <positions>
+        <li>(209, 0, 0)</li>
+        <li>(220, 0, 3)</li>
+        <li>(229, 0, 6)</li>
+        <li>(229, 0, 13)</li>
+        <li>(220, 0, 16)</li>
+        <li>(209, 0, 19)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </LargeThruster>
+    <KT203MMCANNON>
+      <positions>
+        <li>(56, 0, 3)</li>
+        <li>(56, 0, 17)</li>
+      </positions>
+    </KT203MMCANNON>
+    <UFLI_Walllamp>
+      <rects>
+        <li>(60,1,60,1)</li>
+        <li>(90,1,90,1)</li>
+        <li>(163,1,163,1)</li>
+        <li>(139,2,139,2)</li>
+        <li>(147,2,147,2)</li>
+        <li>(181,2,181,2)</li>
+        <li>(198,3,198,3)</li>
+        <li>(206,3,206,3)</li>
+        <li>(60,4,60,4)</li>
+        <li>(40,7,40,7)</li>
+        <li>(58,7,58,7)</li>
+        <li>(33,8,33,8)</li>
+        <li>(90,8,90,8)</li>
+        <li>(94,8,94,8)</li>
+        <li>(128,8,128,8)</li>
+        <li>(140,8,140,8)</li>
+        <li>(166,8,166,8)</li>
+        <li>(203,8,203,8)</li>
+        <li>(226,8,226,8)</li>
+        <li>(147,9,147,9)</li>
+        <li>(106,10,106,10)</li>
+        <li>(229,10,229,10)</li>
+        <li>(147,11,147,11)</li>
+        <li>(33,12,33,12)</li>
+        <li>(90,12,90,12)</li>
+        <li>(94,12,94,12)</li>
+        <li>(128,12,128,12)</li>
+        <li>(140,12,140,12)</li>
+        <li>(166,12,166,12)</li>
+        <li>(203,12,203,12)</li>
+        <li>(226,12,226,12)</li>
+        <li>(40,13,40,13)</li>
+        <li>(58,13,58,13)</li>
+        <li>(60,16,60,16)</li>
+        <li>(198,17,198,17)</li>
+        <li>(206,17,206,17)</li>
+        <li>(139,18,139,18)</li>
+        <li>(147,18,147,18)</li>
+        <li>(181,18,181,18)</li>
+        <li>(60,19,60,19)</li>
+        <li>(90,19,90,19)</li>
+        <li>(163,19,163,19)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </UFLI_Walllamp>
+    <UFLI_Wall_Cable>
+      <rects>
+        <li>(61,1,61,1)</li>
+        <li>(132,1,132,2)</li>
+        <li>(140,1,140,2)</li>
+        <li>(148,1,148,2)</li>
+        <li>(167,1,167,2)</li>
+        <li>(174,1,174,5)</li>
+        <li>(182,1,182,5)</li>
+        <li>(188,1,188,5)</li>
+        <li>(70,2,70,2)</li>
+        <li>(150,2,150,3)</li>
+        <li>(152,2,152,3)</li>
+        <li>(154,2,154,3)</li>
+        <li>(34,3,34,8)</li>
+        <li>(41,3,41,4)</li>
+        <li>(88,3,88,4)</li>
+        <li>(91,3,91,4)</li>
+        <li>(149,3,149,3)</li>
+        <li>(151,3,151,3)</li>
+        <li>(153,3,153,3)</li>
+        <li>(199,3,199,3)</li>
+        <li>(202,3,202,3)</li>
+        <li>(207,3,207,5)</li>
+        <li>(61,4,61,4)</li>
+        <li>(72,4,85,4)</li>
+        <li>(92,4,105,4)</li>
+        <li>(134,4,135,4)</li>
+        <li>(137,4,138,4)</li>
+        <li>(140,4,140,4)</li>
+        <li>(142,4,143,4)</li>
+        <li>(145,4,146,4)</li>
+        <li>(62,5,63,5)</li>
+        <li>(65,5,66,5)</li>
+        <li>(170,5,170,5)</li>
+        <li>(172,5,173,5)</li>
+        <li>(175,5,177,5)</li>
+        <li>(179,5,181,5)</li>
+        <li>(189,5,197,5)</li>
+        <li>(199,5,199,5)</li>
+        <li>(204,5,206,5)</li>
+        <li>(109,6,127,6)</li>
+        <li>(150,6,165,6)</li>
+        <li>(204,6,204,8)</li>
+        <li>(41,7,41,13)</li>
+        <li>(88,7,88,8)</li>
+        <li>(91,7,91,8)</li>
+        <li>(97,7,106,7)</li>
+        <li>(117,7,117,9)</li>
+        <li>(143,7,147,7)</li>
+        <li>(59,8,59,9)</li>
+        <li>(69,8,69,9)</li>
+        <li>(101,8,101,9)</li>
+        <li>(107,8,107,12)</li>
+        <li>(129,8,129,8)</li>
+        <li>(148,8,148,9)</li>
+        <li>(167,8,167,8)</li>
+        <li>(149,9,154,9)</li>
+        <li>(59,11,59,12)</li>
+        <li>(69,11,69,12)</li>
+        <li>(101,11,101,13)</li>
+        <li>(117,11,117,14)</li>
+        <li>(148,11,154,11)</li>
+        <li>(34,12,34,17)</li>
+        <li>(88,12,88,13)</li>
+        <li>(91,12,91,13)</li>
+        <li>(129,12,129,12)</li>
+        <li>(148,12,148,12)</li>
+        <li>(167,12,167,12)</li>
+        <li>(204,12,204,15)</li>
+        <li>(97,13,100,13)</li>
+        <li>(102,13,106,13)</li>
+        <li>(143,13,147,13)</li>
+        <li>(109,14,116,14)</li>
+        <li>(118,14,127,14)</li>
+        <li>(150,14,165,14)</li>
+        <li>(62,15,63,15)</li>
+        <li>(65,15,66,15)</li>
+        <li>(170,15,170,15)</li>
+        <li>(172,15,177,15)</li>
+        <li>(179,15,182,15)</li>
+        <li>(188,15,197,15)</li>
+        <li>(199,15,199,15)</li>
+        <li>(205,15,207,15)</li>
+        <li>(41,16,41,17)</li>
+        <li>(61,16,61,16)</li>
+        <li>(72,16,85,16)</li>
+        <li>(88,16,88,17)</li>
+        <li>(91,16,105,16)</li>
+        <li>(134,16,135,16)</li>
+        <li>(137,16,138,16)</li>
+        <li>(140,16,140,16)</li>
+        <li>(142,16,143,16)</li>
+        <li>(145,16,146,16)</li>
+        <li>(174,16,174,19)</li>
+        <li>(182,16,182,19)</li>
+        <li>(188,16,188,19)</li>
+        <li>(207,16,207,17)</li>
+        <li>(91,17,91,17)</li>
+        <li>(149,17,154,17)</li>
+        <li>(199,17,199,17)</li>
+        <li>(202,17,202,17)</li>
+        <li>(70,18,70,18)</li>
+        <li>(132,18,132,19)</li>
+        <li>(140,18,140,19)</li>
+        <li>(148,18,148,19)</li>
+        <li>(150,18,150,18)</li>
+        <li>(152,18,152,18)</li>
+        <li>(154,18,154,18)</li>
+        <li>(167,18,167,19)</li>
+        <li>(61,19,61,19)</li>
+      </rects>
+      <stuff>KT_steel</stuff>
+    </UFLI_Wall_Cable>
+    <UFLI_1_Autodoor>
+      <rects>
+        <li>(70,1,70,1)</li>
+        <li>(154,1,154,1)</li>
+        <li>(59,10,59,10)</li>
+        <li>(69,10,69,10)</li>
+        <li>(101,10,101,10)</li>
+        <li>(117,10,117,10)</li>
+        <li>(70,19,70,19)</li>
+        <li>(154,19,154,19)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>KT_steel</stuff>
+    </UFLI_1_Autodoor>
+    <UFLI_1_Frame_DOOR>
+      <rects>
+        <li>(70,1,70,1)</li>
+        <li>(154,1,154,1)</li>
+        <li>(69,10,69,10)</li>
+        <li>(101,10,101,10)</li>
+        <li>(117,10,117,10)</li>
+        <li>(70,19,70,19)</li>
+        <li>(154,19,154,19)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_1_Frame_DOOR>
+    <KTShieldGeneratorMortar>
+      <rects>
+        <li>(86,1,86,1)</li>
+        <li>(158,2,158,2)</li>
+        <li>(39,3,39,3)</li>
+        <li>(206,6,206,6)</li>
+        <li>(12,7,12,7)</li>
+        <li>(105,8,105,8)</li>
+        <li>(105,12,105,12)</li>
+        <li>(12,13,12,13)</li>
+        <li>(206,14,206,14)</li>
+        <li>(39,17,39,17)</li>
+        <li>(158,18,158,18)</li>
+        <li>(86,19,86,19)</li>
+      </rects>
+    </KTShieldGeneratorMortar>
+    <KTShieldGeneratorBullets>
+      <rects>
+        <li>(87,1,87,1)</li>
+        <li>(158,1,158,1)</li>
+        <li>(38,3,38,3)</li>
+        <li>(205,6,205,6)</li>
+        <li>(106,8,106,8)</li>
+        <li>(106,12,106,12)</li>
+        <li>(11,13,11,13)</li>
+        <li>(205,14,205,14)</li>
+        <li>(38,17,38,17)</li>
+        <li>(87,19,87,19)</li>
+        <li>(158,19,158,19)</li>
+      </rects>
+    </KTShieldGeneratorBullets>
+    <UFLI_Walllamp>
+      <rects>
+        <li>(89,1,89,1)</li>
+        <li>(162,1,162,1)</li>
+        <li>(133,2,133,2)</li>
+        <li>(141,2,141,2)</li>
+        <li>(175,2,175,2)</li>
+        <li>(108,3,108,3)</li>
+        <li>(200,3,200,3)</li>
+        <li>(208,5,208,5)</li>
+        <li>(15,6,15,6)</li>
+        <li>(11,7,11,7)</li>
+        <li>(42,7,42,7)</li>
+        <li>(92,7,92,7)</li>
+        <li>(35,8,35,8)</li>
+        <li>(130,8,130,8)</li>
+        <li>(168,8,168,8)</li>
+        <li>(155,9,155,9)</li>
+        <li>(2,10,2,10)</li>
+        <li>(108,10,108,10)</li>
+        <li>(155,11,155,11)</li>
+        <li>(35,12,35,12)</li>
+        <li>(130,12,130,12)</li>
+        <li>(168,12,168,12)</li>
+        <li>(11,13,11,13)</li>
+        <li>(42,13,42,13)</li>
+        <li>(92,13,92,13)</li>
+        <li>(15,14,15,14)</li>
+        <li>(208,15,208,15)</li>
+        <li>(108,17,108,17)</li>
+        <li>(200,17,200,17)</li>
+        <li>(133,18,133,18)</li>
+        <li>(141,18,141,18)</li>
+        <li>(175,18,175,18)</li>
+        <li>(89,19,89,19)</li>
+        <li>(162,19,162,19)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </UFLI_Walllamp>
+    <UFLI_Container_1X2_AS>
+      <positions>
+        <li>(93, 0, 1)</li>
+        <li>(95, 0, 3)</li>
+        <li>(97, 0, 3)</li>
+        <li>(99, 0, 3)</li>
+        <li>(101, 0, 3)</li>
+        <li>(103, 0, 3)</li>
+        <li>(105, 0, 3)</li>
+        <li>(95, 0, 17)</li>
+        <li>(97, 0, 17)</li>
+        <li>(99, 0, 17)</li>
+        <li>(101, 0, 17)</li>
+        <li>(103, 0, 17)</li>
+        <li>(105, 0, 17)</li>
+        <li>(93, 0, 19)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+    </UFLI_Container_1X2_AS>
+    <UFLI_Walllamp>
+      <rects>
+        <li>(97,1,97,1)</li>
+        <li>(103,1,103,1)</li>
+        <li>(150,1,150,1)</li>
+        <li>(152,1,152,1)</li>
+        <li>(191,1,191,1)</li>
+        <li>(161,3,161,3)</li>
+        <li>(164,3,164,3)</li>
+        <li>(53,4,53,4)</li>
+        <li>(215,4,215,4)</li>
+        <li>(45,5,45,5)</li>
+        <li>(71,5,71,5)</li>
+        <li>(78,5,78,5)</li>
+        <li>(85,5,85,5)</li>
+        <li>(106,5,106,5)</li>
+        <li>(135,5,135,5)</li>
+        <li>(143,5,143,5)</li>
+        <li>(19,6,19,6)</li>
+        <li>(170,6,170,6)</li>
+        <li>(179,6,179,6)</li>
+        <li>(190,6,190,6)</li>
+        <li>(199,6,199,6)</li>
+        <li>(218,6,218,6)</li>
+        <li>(14,7,14,7)</li>
+        <li>(111,7,111,7)</li>
+        <li>(121,7,121,7)</li>
+        <li>(154,7,154,7)</li>
+        <li>(161,7,161,7)</li>
+        <li>(223,7,223,7)</li>
+        <li>(98,8,98,8)</li>
+        <li>(104,8,104,8)</li>
+        <li>(228,9,228,9)</li>
+        <li>(96,14,96,14)</li>
+        <li>(101,14,101,14)</li>
+        <li>(108,15,108,15)</li>
+        <li>(117,15,117,15)</li>
+        <li>(128,15,128,15)</li>
+        <li>(149,15,149,15)</li>
+        <li>(63,16,63,16)</li>
+        <li>(65,16,65,16)</li>
+        <li>(205,16,205,16)</li>
+        <li>(74,17,74,17)</li>
+        <li>(78,17,78,17)</li>
+        <li>(85,17,85,17)</li>
+        <li>(49,18,49,18)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </UFLI_Walllamp>
+    <UFLI_2_Autodoor>
+      <positions>
+        <li>(107, 0, 1)</li>
+        <li>(199, 0, 1)</li>
+        <li>(202, 0, 1)</li>
+        <li>(61, 0, 2)</li>
+        <li>(41, 0, 5)</li>
+        <li>(88, 0, 5)</li>
+        <li>(91, 0, 5)</li>
+        <li>(41, 0, 14)</li>
+        <li>(88, 0, 14)</li>
+        <li>(91, 0, 14)</li>
+        <li>(61, 0, 17)</li>
+        <li>(107, 0, 18)</li>
+        <li>(199, 0, 18)</li>
+        <li>(202, 0, 18)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>KT_steel</stuff>
+    </UFLI_2_Autodoor>
+    <UFLI_2_Frame_DOOR>
+      <positions>
+        <li>(107, 0, 1)</li>
+        <li>(199, 0, 1)</li>
+        <li>(202, 0, 1)</li>
+        <li>(41, 0, 5)</li>
+        <li>(88, 0, 5)</li>
+        <li>(91, 0, 5)</li>
+        <li>(41, 0, 14)</li>
+        <li>(88, 0, 14)</li>
+        <li>(91, 0, 14)</li>
+        <li>(107, 0, 18)</li>
+        <li>(199, 0, 18)</li>
+        <li>(202, 0, 18)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_2_Frame_DOOR>
+    <KT_Workbench>
+      <position>(119, 0, 2)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </KT_Workbench>
+    <KT_SWorkbench>
+      <positions>
+        <li>(122, 0, 2)</li>
+        <li>(123, 0, 2)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+    </KT_SWorkbench>
+    <UFLI_Holographic_logo>
+      <rects>
+        <li>(131,1,131,1)</li>
+        <li>(157,1,157,1)</li>
+        <li>(17,6,17,6)</li>
+        <li>(226,7,226,7)</li>
+        <li>(2,10,2,10)</li>
+        <li>(226,13,226,13)</li>
+        <li>(17,14,17,14)</li>
+        <li>(131,19,131,19)</li>
+        <li>(157,19,157,19)</li>
+      </rects>
+    </UFLI_Holographic_logo>
+    <UFLI_Bed>
+      <positions>
+        <li>(133, 0, 1)</li>
+        <li>(141, 0, 1)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Bed>
+    <UFLI_Chair>
+      <rects>
+        <li>(135,1,135,1)</li>
+        <li>(143,1,143,1)</li>
+        <li>(134,9,134,11)</li>
+        <li>(143,19,143,19)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Chair>
+    <UFLI_CarpetB>
+      <position>(136, 0, 2)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </UFLI_CarpetB>
+    <UFLI_1X1_Table>
+      <rects>
+        <li>(136,1,136,1)</li>
+        <li>(144,1,144,1)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_1X1_Table>
+    <UFLI_Chair>
+      <rects>
+        <li>(137,1,137,1)</li>
+        <li>(137,9,137,9)</li>
+        <li>(137,19,137,19)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Chair>
+    <UFLI_Bed>
+      <positions>
+        <li>(139, 0, 1)</li>
+        <li>(147, 0, 1)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Bed>
+    <UFLI_CarpetB>
+      <position>(144, 0, 2)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </UFLI_CarpetB>
+    <UFLI_Chair>
+      <rects>
+        <li>(145,1,145,1)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Chair>
+    <UFLI_CouchDouble>
+      <positions>
+        <li>(159, 0, 2)</li>
+        <li>(159, 0, 19)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </UFLI_CouchDouble>
+    <UFLI_1X2_Table>
+      <position>(160, 0, 1)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_1X2_Table>
+    <UFLI_1X2_Table>
+      <positions>
+        <li>(165, 0, 1)</li>
+        <li>(195, 0, 1)</li>
+        <li>(146, 0, 12)</li>
+        <li>(195, 0, 19)</li>
+      </positions>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_1X2_Table>
+    <WaterTowerL>
+      <positions>
+        <li>(169, 0, 2)</li>
+        <li>(169, 0, 18)</li>
+      </positions>
+    </WaterTowerL>
+    <SpacerWaterRecoverySystem>
+      <positions>
+        <li>(172, 0, 1)</li>
+        <li>(172, 0, 18)</li>
+      </positions>
+    </SpacerWaterRecoverySystem>
+    <Carrier_Television>
+      <position>(178, 0, 1)</position>
+    </Carrier_Television>
+    <KTGRANTAUTOCANNON>
+      <positions>
+        <li>(185, 0, 3)</li>
+        <li>(185, 0, 17)</li>
+      </positions>
+    </KTGRANTAUTOCANNON>
+    <UFLI_CabinetD>
+      <positions>
+        <li>(189, 0, 2)</li>
+        <li>(189, 0, 19)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_CabinetD>
+    <DBHSaunaSeating>
+      <rects>
+        <li>(204,1,206,1)</li>
+        <li>(204,19,206,19)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DBHSaunaSeating>
+    <KTRAILGUN>
+      <positions>
+        <li>(43, 0, 3)</li>
+        <li>(5, 0, 10)</li>
+        <li>(43, 0, 17)</li>
+      </positions>
+    </KTRAILGUN>
+    <UFLI_Walllamp>
+      <rects>
+        <li>(49,2,49,2)</li>
+        <li>(74,3,74,3)</li>
+        <li>(78,3,78,3)</li>
+        <li>(85,3,85,3)</li>
+        <li>(63,4,63,4)</li>
+        <li>(65,4,65,4)</li>
+        <li>(205,4,205,4)</li>
+        <li>(108,5,108,5)</li>
+        <li>(117,5,117,5)</li>
+        <li>(128,5,128,5)</li>
+        <li>(149,5,149,5)</li>
+        <li>(96,6,96,6)</li>
+        <li>(101,6,101,6)</li>
+        <li>(228,11,228,11)</li>
+        <li>(98,12,98,12)</li>
+        <li>(104,12,104,12)</li>
+        <li>(14,13,14,13)</li>
+        <li>(111,13,111,13)</li>
+        <li>(121,13,121,13)</li>
+        <li>(154,13,154,13)</li>
+        <li>(161,13,161,13)</li>
+        <li>(223,13,223,13)</li>
+        <li>(19,14,19,14)</li>
+        <li>(170,14,170,14)</li>
+        <li>(179,14,179,14)</li>
+        <li>(190,14,190,14)</li>
+        <li>(199,14,199,14)</li>
+        <li>(218,14,218,14)</li>
+        <li>(45,15,45,15)</li>
+        <li>(71,15,71,15)</li>
+        <li>(78,15,78,15)</li>
+        <li>(85,15,85,15)</li>
+        <li>(106,15,106,15)</li>
+        <li>(135,15,135,15)</li>
+        <li>(143,15,143,15)</li>
+        <li>(53,16,53,16)</li>
+        <li>(215,16,215,16)</li>
+        <li>(161,17,161,17)</li>
+        <li>(164,17,164,17)</li>
+        <li>(97,19,97,19)</li>
+        <li>(103,19,103,19)</li>
+        <li>(150,19,150,19)</li>
+        <li>(152,19,152,19)</li>
+        <li>(191,19,191,19)</li>
+      </rects>
+    </UFLI_Walllamp>
+    <UFLI_2_Frame_DOOR>
+      <positions>
+        <li>(61, 0, 3)</li>
+        <li>(61, 0, 18)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_2_Frame_DOOR>
+    <UFLI_Benchrack>
+      <position>(75, 0, 2)</position>
+    </UFLI_Benchrack>
+    <UFLI_Treadmill>
+      <positions>
+        <li>(77, 0, 3)</li>
+        <li>(79, 0, 3)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+    </UFLI_Treadmill>
+    <UFLI_2_Autodoor>
+      <positions>
+        <li>(89, 0, 2)</li>
+        <li>(162, 0, 2)</li>
+        <li>(86, 0, 4)</li>
+        <li>(86, 0, 16)</li>
+        <li>(89, 0, 18)</li>
+        <li>(162, 0, 18)</li>
+      </positions>
+      <stuff>KT_steel</stuff>
+    </UFLI_2_Autodoor>
+    <UFLI_2_Frame_DOOR>
+      <positions>
+        <li>(90, 0, 2)</li>
+        <li>(87, 0, 4)</li>
+        <li>(87, 0, 16)</li>
+        <li>(90, 0, 18)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_2_Frame_DOOR>
+    <UFLI_Container_2X2_AS>
+      <positions>
+        <li>(92, 0, 2)</li>
+        <li>(92, 0, 17)</li>
+      </positions>
+    </UFLI_Container_2X2_AS>
+    <UFLI_Endtable>
+      <rects>
+        <li>(133,2,133,2)</li>
+        <li>(141,2,141,2)</li>
+        <li>(133,18,133,18)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Endtable>
+    <UFLI_groundlight>
+      <rects>
+        <li>(136,2,136,2)</li>
+        <li>(144,2,144,2)</li>
+        <li>(171,2,171,2)</li>
+        <li>(61,7,61,7)</li>
+        <li>(67,7,67,7)</li>
+        <li>(22,10,22,10)</li>
+        <li>(29,10,29,10)</li>
+        <li>(61,13,61,13)</li>
+        <li>(67,13,67,13)</li>
+        <li>(136,18,136,18)</li>
+        <li>(144,18,144,18)</li>
+        <li>(171,18,171,18)</li>
+      </rects>
+    </UFLI_groundlight>
+    <UFLI_Endtable>
+      <rects>
+        <li>(139,2,139,2)</li>
+        <li>(147,18,147,18)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Endtable>
+    <UFLI_Endtable>
+      <rects>
+        <li>(147,2,147,2)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Endtable>
+    <ToiletAdvStuff>
+      <rects>
+        <li>(149,2,149,2)</li>
+        <li>(151,2,151,2)</li>
+        <li>(153,2,153,2)</li>
+      </rects>
+      <stuff>Steel</stuff>
+    </ToiletAdvStuff>
+    <UFLI_2_Frame_DOOR>
+      <positions>
+        <li>(162, 0, 2)</li>
+        <li>(162, 0, 18)</li>
+      </positions>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_2_Frame_DOOR>
+    <UFLI_Couch>
+      <rects>
+        <li>(166,2,166,2)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </UFLI_Couch>
+    <UFLI_CarpetB>
+      <position>(176, 0, 3)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </UFLI_CarpetB>
+    <VitalsMonitor>
+      <rects>
+        <li>(176,2,176,2)</li>
+        <li>(180,2,180,2)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </VitalsMonitor>
+    <UFLI_CarpetB>
+      <positions>
+        <li>(180, 0, 3)</li>
+        <li>(176, 0, 17)</li>
+        <li>(180, 0, 17)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </UFLI_CarpetB>
+    <UFLI_CouchDouble>
+      <positions>
+        <li>(196, 0, 2)</li>
+        <li>(165, 0, 13)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </UFLI_CouchDouble>
+    <SmallThruster>
+      <positions>
+        <li>(217, 0, 2)</li>
+        <li>(225, 0, 5)</li>
+        <li>(225, 0, 15)</li>
+        <li>(217, 0, 18)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </SmallThruster>
+    <HiTechResearchBench>
+      <positions>
+        <li>(36, 0, 5)</li>
+        <li>(36, 0, 15)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HiTechResearchBench>
+    <UFLI_CarpetC>
+      <positions>
+        <li>(38, 0, 5)</li>
+        <li>(38, 0, 15)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </UFLI_CarpetC>
+    <OA_RK_Rese_B>
+      <positions>
+        <li>(40, 0, 4)</li>
+        <li>(40, 0, 17)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+    </OA_RK_Rese_B>
+    <UFLI_Wall_Cable_NAWDiagonal>
+      <rects>
+        <li>(70,3,70,3)</li>
+        <li>(107,3,107,3)</li>
+        <li>(132,3,132,3)</li>
+        <li>(140,3,140,3)</li>
+        <li>(148,3,148,3)</li>
+        <li>(167,3,167,3)</li>
+        <li>(71,4,71,4)</li>
+        <li>(106,4,106,4)</li>
+        <li>(133,4,133,4)</li>
+        <li>(139,4,139,4)</li>
+        <li>(141,4,141,4)</li>
+        <li>(147,4,147,4)</li>
+        <li>(168,4,168,4)</li>
+        <li>(199,4,199,4)</li>
+        <li>(202,4,202,4)</li>
+        <li>(61,5,61,5)</li>
+        <li>(67,5,67,5)</li>
+        <li>(169,5,169,5)</li>
+        <li>(198,5,198,5)</li>
+        <li>(203,5,203,5)</li>
+        <li>(60,6,60,6)</li>
+        <li>(68,6,68,6)</li>
+        <li>(108,6,108,6)</li>
+        <li>(128,6,128,6)</li>
+        <li>(149,6,149,6)</li>
+        <li>(166,6,166,6)</li>
+        <li>(59,7,59,7)</li>
+        <li>(69,7,69,7)</li>
+        <li>(96,7,96,7)</li>
+        <li>(107,7,107,7)</li>
+        <li>(129,7,129,7)</li>
+        <li>(142,7,142,7)</li>
+        <li>(148,7,148,7)</li>
+        <li>(167,7,167,7)</li>
+        <li>(95,8,95,8)</li>
+        <li>(141,8,141,8)</li>
+        <li>(95,12,95,12)</li>
+        <li>(141,12,141,12)</li>
+        <li>(59,13,59,13)</li>
+        <li>(69,13,69,13)</li>
+        <li>(96,13,96,13)</li>
+        <li>(107,13,107,13)</li>
+        <li>(129,13,129,13)</li>
+        <li>(142,13,142,13)</li>
+        <li>(148,13,148,13)</li>
+        <li>(167,13,167,13)</li>
+        <li>(60,14,60,14)</li>
+        <li>(68,14,68,14)</li>
+        <li>(108,14,108,14)</li>
+        <li>(128,14,128,14)</li>
+        <li>(149,14,149,14)</li>
+        <li>(166,14,166,14)</li>
+        <li>(61,15,61,15)</li>
+        <li>(67,15,67,15)</li>
+        <li>(169,15,169,15)</li>
+        <li>(198,15,198,15)</li>
+        <li>(203,15,203,15)</li>
+        <li>(71,16,71,16)</li>
+        <li>(106,16,106,16)</li>
+        <li>(133,16,133,16)</li>
+        <li>(139,16,139,16)</li>
+        <li>(141,16,141,16)</li>
+        <li>(147,16,147,16)</li>
+        <li>(168,16,168,16)</li>
+        <li>(199,16,199,16)</li>
+        <li>(202,16,202,16)</li>
+        <li>(70,17,70,17)</li>
+        <li>(107,17,107,17)</li>
+        <li>(132,17,132,17)</li>
+        <li>(140,17,140,17)</li>
+        <li>(148,17,148,17)</li>
+        <li>(167,17,167,17)</li>
+      </rects>
+      <stuff>KT_steel</stuff>
+    </UFLI_Wall_Cable_NAWDiagonal>
+    <UFLI_Dumbbellrack>
+      <position>(72, 0, 3)</position>
+    </UFLI_Dumbbellrack>
+    <UFLI_WashingMachine>
+      <rects>
+        <li>(81,3,82,3)</li>
+      </rects>
+    </UFLI_WashingMachine>
+    <UFLI_CabinetA>
+      <position>(84, 0, 3)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_CabinetA>
+    <UFLI_Wardrobe_AS>
+      <positions>
+        <li>(134, 0, 3)</li>
+        <li>(139, 0, 3)</li>
+        <li>(142, 0, 3)</li>
+        <li>(147, 0, 3)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Wardrobe_AS>
+    <UFLI_CabinetE>
+      <rects>
+        <li>(135,3,135,3)</li>
+        <li>(143,3,143,3)</li>
+        <li>(145,3,145,3)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_CabinetE>
+    <UFLI_CabinetE>
+      <rects>
+        <li>(137,3,137,3)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_CabinetE>
+    <BasinStuff>
+      <rects>
+        <li>(155,3,155,3)</li>
+        <li>(155,17,155,17)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+    </BasinStuff>
+    <WaterTreatment>
+      <positions>
+        <li>(172, 0, 3)</li>
+        <li>(172, 0, 16)</li>
+      </positions>
+    </WaterTreatment>
+    <HospitalBed>
+      <position>(176, 0, 4)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HospitalBed>
+    <HospitalBed>
+      <position>(180, 0, 4)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HospitalBed>
+    <UFLI_Bed>
+      <positions>
+        <li>(189, 0, 4)</li>
+        <li>(193, 0, 4)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Bed>
+    <UFLI_Bed>
+      <position>(191, 0, 4)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Bed>
+    <DBHSaunaHeaterElec>
+      <rects>
+        <li>(203,3,203,3)</li>
+        <li>(203,17,203,17)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </DBHSaunaHeaterElec>
+    <PodLauncher>
+      <positions>
+        <li>(208, 0, 3)</li>
+        <li>(210, 0, 3)</li>
+        <li>(208, 0, 16)</li>
+        <li>(210, 0, 16)</li>
+      </positions>
+    </PodLauncher>
+    <TransportPod>
+      <rects>
+        <li>(209,3,209,3)</li>
+        <li>(211,3,211,3)</li>
+        <li>(209,16,209,16)</li>
+        <li>(211,16,211,16)</li>
+      </rects>
+    </TransportPod>
+    <KT_LaserADSTurret>
+      <positions>
+        <li>(213, 0, 3)</li>
+        <li>(26, 0, 4)</li>
+        <li>(28, 0, 4)</li>
+        <li>(30, 0, 4)</li>
+        <li>(32, 0, 4)</li>
+        <li>(216, 0, 4)</li>
+        <li>(20, 0, 5)</li>
+        <li>(22, 0, 5)</li>
+        <li>(24, 0, 5)</li>
+        <li>(7, 0, 8)</li>
+        <li>(9, 0, 8)</li>
+        <li>(17, 0, 8)</li>
+        <li>(19, 0, 8)</li>
+        <li>(7, 0, 11)</li>
+        <li>(9, 0, 11)</li>
+        <li>(17, 0, 11)</li>
+        <li>(19, 0, 11)</li>
+        <li>(20, 0, 14)</li>
+        <li>(22, 0, 14)</li>
+        <li>(24, 0, 14)</li>
+        <li>(26, 0, 15)</li>
+        <li>(28, 0, 15)</li>
+        <li>(30, 0, 15)</li>
+        <li>(32, 0, 15)</li>
+        <li>(216, 0, 15)</li>
+        <li>(213, 0, 16)</li>
+      </positions>
+    </KT_LaserADSTurret>
+    <UFLI_1_Autodoor>
+      <rects>
+        <li>(136,4,136,4)</li>
+        <li>(144,4,144,4)</li>
+        <li>(64,5,64,5)</li>
+        <li>(171,5,171,5)</li>
+        <li>(178,5,178,5)</li>
+        <li>(64,15,64,15)</li>
+        <li>(171,15,171,15)</li>
+        <li>(178,15,178,15)</li>
+        <li>(136,16,136,16)</li>
+        <li>(144,16,144,16)</li>
+      </rects>
+      <stuff>KT_steel</stuff>
+    </UFLI_1_Autodoor>
+    <UFLI_1_Frame_DOOR>
+      <rects>
+        <li>(136,4,136,4)</li>
+        <li>(144,4,144,4)</li>
+        <li>(64,5,64,5)</li>
+        <li>(171,5,171,5)</li>
+        <li>(178,5,178,5)</li>
+        <li>(171,15,171,15)</li>
+        <li>(178,15,178,15)</li>
+        <li>(136,16,136,16)</li>
+        <li>(144,16,144,16)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_1_Frame_DOOR>
+    <SleepAccelerator>
+      <rects>
+        <li>(175,4,175,4)</li>
+        <li>(175,16,175,16)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </SleepAccelerator>
+    <UFLI_Endtable>
+      <rects>
+        <li>(177,4,177,4)</li>
+        <li>(190,4,190,4)</li>
+        <li>(192,4,192,4)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Endtable>
+    <UFLI_Endtable>
+      <rects>
+        <li>(179,4,179,4)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Endtable>
+    <SleepAccelerator>
+      <rects>
+        <li>(181,4,181,4)</li>
+        <li>(181,16,181,16)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </SleepAccelerator>
+    <UFLI_CabinetA>
+      <position>(195, 0, 4)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_CabinetA>
+    <UFLI_CabinetF>
+      <rects>
+        <li>(196,4,196,4)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_CabinetF>
+    <UFLI_CabinetB>
+      <position>(198, 0, 4)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_CabinetB>
+    <ShowerAdvStuff>
+      <rects>
+        <li>(204,4,204,4)</li>
+        <li>(206,4,206,4)</li>
+      </rects>
+      <stuff>Steel</stuff>
+    </ShowerAdvStuff>
+    <UFLI_Chair>
+      <rects>
+        <li>(37,5,37,5)</li>
+        <li>(137,10,137,11)</li>
+        <li>(37,15,37,15)</li>
+        <li>(145,19,145,19)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Chair>
+    <KT_protontorpedo>
+      <positions>
+        <li>(29, 0, 7)</li>
+        <li>(29, 0, 13)</li>
+      </positions>
+    </KT_protontorpedo>
+    <HobbesLink_Centrifuge>
+      <rects>
+        <li>(37,6,37,6)</li>
+        <li>(37,14,37,14)</li>
+      </rects>
+    </HobbesLink_Centrifuge>
+    <KT_510MMCannon>
+      <positions>
+        <li>(48, 0, 10)</li>
+        <li>(80, 0, 10)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </KT_510MMCannon>
+    <HDH_Hydroponics_Quantum>
+      <positions>
+        <li>(62, 0, 6)</li>
+        <li>(65, 0, 6)</li>
+        <li>(60, 0, 8)</li>
+        <li>(62, 0, 8)</li>
+        <li>(65, 0, 8)</li>
+        <li>(67, 0, 8)</li>
+        <li>(60, 0, 11)</li>
+        <li>(62, 0, 11)</li>
+        <li>(65, 0, 11)</li>
+        <li>(67, 0, 11)</li>
+        <li>(62, 0, 13)</li>
+        <li>(65, 0, 13)</li>
+      </positions>
+    </HDH_Hydroponics_Quantum>
+    <UFST_ChemfuelTankLarge>
+      <positions>
+        <li>(109, 0, 7)</li>
+        <li>(112, 0, 7)</li>
+        <li>(115, 0, 7)</li>
+        <li>(109, 0, 10)</li>
+        <li>(112, 0, 10)</li>
+        <li>(115, 0, 10)</li>
+        <li>(109, 0, 13)</li>
+        <li>(112, 0, 13)</li>
+        <li>(115, 0, 13)</li>
+      </positions>
+    </UFST_ChemfuelTankLarge>
+    <KT_510MMCannon>
+      <position>(185, 0, 10)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </KT_510MMCannon>
+    <Frame_KTShieldGeneratorBullets>
+      <rects>
+        <li>(11,7,11,7)</li>
+      </rects>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Frame_KTShieldGeneratorBullets>
+    <GD_CommunicationStation>
+      <positions>
+        <li>(36, 0, 7)</li>
+        <li>(36, 0, 17)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </GD_CommunicationStation>
+    <HobbesLink_Transformer>
+      <positions>
+        <li>(109, 0, 7)</li>
+        <li>(109, 0, 13)</li>
+      </positions>
+    </HobbesLink_Transformer>
+    <HobbesLink_Alternator>
+      <rects>
+        <li>(111,7,111,7)</li>
+        <li>(111,13,111,13)</li>
+      </rects>
+    </HobbesLink_Alternator>
+    <HobbesLink_CoolingModule>
+      <positions>
+        <li>(113, 0, 7)</li>
+        <li>(113, 0, 13)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+    </HobbesLink_CoolingModule>
+    <KT_UFGenerator>
+      <positions>
+        <li>(115, 0, 8)</li>
+        <li>(115, 0, 12)</li>
+      </positions>
+    </KT_UFGenerator>
+    <UFLI_SteamOven>
+      <rects>
+        <li>(149,7,149,7)</li>
+        <li>(149,13,149,13)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </UFLI_SteamOven>
+    <UFLI_CouchDouble>
+      <positions>
+        <li>(157, 0, 7)</li>
+        <li>(159, 0, 7)</li>
+        <li>(162, 0, 7)</li>
+        <li>(164, 0, 7)</li>
+      </positions>
+      <stuff>Cloth</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </UFLI_CouchDouble>
+    <Turret_TripletTurbolasers>
+      <position>(196, 0, 10)</position>
+    </Turret_TripletTurbolasers>
+    <KTPLASMACANNON>
+      <position>(14, 0, 10)</position>
+    </KTPLASMACANNON>
+    <HobbesLink_ServerRack>
+      <rects>
+        <li>(35,8,36,8)</li>
+      </rects>
+    </HobbesLink_ServerRack>
+    <CMC_CommConsole>
+      <position>(39, 0, 8)</position>
+    </CMC_CommConsole>
+    <HobbesLink_Spacer_Transformer>
+      <position>(111, 0, 10)</position>
+    </HobbesLink_Spacer_Transformer>
+    <UFLI_CarpetC>
+      <position>(125, 0, 10)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </UFLI_CarpetC>
+    <UFLI_Chair>
+      <rects>
+        <li>(135,8,135,8)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Chair>
+    <UFLI_Chair>
+      <rects>
+        <li>(136,8,136,8)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Chair>
+    <UFLI_Refrigerator_AS>
+      <rects>
+        <li>(143,8,145,8)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Refrigerator_AS>
+    <UFLI_CarpetC>
+      <positions>
+        <li>(145, 0, 10)</li>
+        <li>(164, 0, 10)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </UFLI_CarpetC>
+    <UFLI_1X2_Table>
+      <positions>
+        <li>(146, 0, 8)</li>
+        <li>(165, 0, 19)</li>
+      </positions>
+      <stuff>Steel</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_1X2_Table>
+    <UFLI_stove>
+      <position>(150, 0, 8)</position>
+    </UFLI_stove>
+    <UFLI_Sink>
+      <position>(153, 0, 8)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </UFLI_Sink>
+    <UFLI_CarpetC>
+      <position>(158, 0, 10)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </UFLI_CarpetC>
+    <UFLI_2X4_Table>
+      <positions>
+        <li>(158, 0, 8)</li>
+        <li>(158, 0, 11)</li>
+        <li>(163, 0, 11)</li>
+      </positions>
+      <stuff>Steel</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_2X4_Table>
+    <UFLI_2X4_Table>
+      <position>(163, 0, 8)</position>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_2X4_Table>
+    <Milira_DragonFighter>
+      <position>(216, 0, 10)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </Milira_DragonFighter>
+    <KT_Maintenance_Station>
+      <positions>
+        <li>(25, 0, 10)</li>
+        <li>(98, 0, 10)</li>
+        <li>(174, 0, 10)</li>
+        <li>(224, 0, 10)</li>
+      </positions>
+    </KT_Maintenance_Station>
+    <UFLI_3_Autodoor>
+      <positions>
+        <li>(34, 0, 10)</li>
+        <li>(88, 0, 10)</li>
+        <li>(91, 0, 10)</li>
+        <li>(95, 0, 10)</li>
+        <li>(129, 0, 10)</li>
+        <li>(141, 0, 10)</li>
+        <li>(167, 0, 10)</li>
+        <li>(204, 0, 10)</li>
+        <li>(227, 0, 10)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>KT_steel</stuff>
+    </UFLI_3_Autodoor>
+    <UFLI_CarpetB>
+      <position>(35, 0, 10)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </UFLI_CarpetB>
+    <UFLI_3_Frame_DOOR>
+      <positions>
+        <li>(34, 0, 10)</li>
+        <li>(88, 0, 10)</li>
+        <li>(91, 0, 10)</li>
+        <li>(95, 0, 10)</li>
+        <li>(129, 0, 10)</li>
+        <li>(141, 0, 10)</li>
+        <li>(167, 0, 10)</li>
+        <li>(204, 0, 10)</li>
+        <li>(227, 0, 10)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_3_Frame_DOOR>
+    <KT_ATFieldGenerator>
+      <position>(104, 0, 10)</position>
+    </KT_ATFieldGenerator>
+    <HobbesLink_Spacer_Condensator>
+      <rects>
+        <li>(108,9,108,12)</li>
+        <li>(114,10,114,10)</li>
+      </rects>
+    </HobbesLink_Spacer_Condensator>
+    <GravEngine>
+      <position>(121, 0, 10)</position>
+    </GravEngine>
+    <PilotConsole>
+      <position>(124, 0, 10)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </PilotConsole>
+    <KT_Sandbox_Table>
+      <position>(136, 0, 10)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </KT_Sandbox_Table>
+    <UFLI_CouchDouble>
+      <positions>
+        <li>(147, 0, 9)</li>
+        <li>(158, 0, 13)</li>
+        <li>(163, 0, 13)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </UFLI_CouchDouble>
+    <VacBarrier>
+      <rects>
+        <li>(230,9,230,9)</li>
+        <li>(230,11,230,11)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <color>RGBA(0.557, 0.557, 0.557, 1.000)</color>
+    </VacBarrier>
+    <GravFieldExtender>
+      <rects>
+        <li>(42,10,42,10)</li>
+        <li>(200,10,200,10)</li>
+      </rects>
+    </GravFieldExtender>
+    <UFLI_1_Frame_DOOR>
+      <rects>
+        <li>(59,10,59,10)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_1_Frame_DOOR>
+    <UFLI_Column_sun>
+      <rects>
+        <li>(64,10,64,10)</li>
+      </rects>
+    </UFLI_Column_sun>
+    <HobbesLink_BreakerBox>
+      <rects>
+        <li>(115,10,115,10)</li>
+      </rects>
+    </HobbesLink_BreakerBox>
+    <HobbesLink_Spacer_Console>
+      <rects>
+        <li>(116,10,116,10)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </HobbesLink_Spacer_Console>
+    <MultiAnalyzer>
+      <position>(39, 0, 11)</position>
+    </MultiAnalyzer>
+    <UFLI_CouchDouble>
+      <positions>
+        <li>(146, 0, 11)</li>
+        <li>(195, 0, 18)</li>
+      </positions>
+      <stuff>Cloth</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </UFLI_CouchDouble>
+    <HobbesLink_ServerRack>
+      <rects>
+        <li>(35,12,36,12)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </HobbesLink_ServerRack>
+    <UFLI_Chair>
+      <rects>
+        <li>(135,12,135,12)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Chair>
+    <UFLI_Chair>
+      <rects>
+        <li>(136,12,136,12)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Chair>
+    <UFLI_Refrigerator_AS>
+      <rects>
+        <li>(143,12,145,12)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Refrigerator_AS>
+    <UFLI_stove>
+      <position>(150, 0, 12)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </UFLI_stove>
+    <UFLI_Sink>
+      <position>(153, 0, 12)</position>
+    </UFLI_Sink>
+    <UFLI_CouchDouble>
+      <position>(160, 0, 13)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Legendary</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </UFLI_CouchDouble>
+    <UFLI_1_Frame_DOOR>
+      <rects>
+        <li>(64,15,64,15)</li>
+        <li>(178,15,178,15)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_1_Frame_DOOR>
+    <HospitalBed>
+      <position>(176, 0, 16)</position>
+      <stuff>Steel</stuff>
+      <quality>Legendary</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HospitalBed>
+    <UFLI_Endtable>
+      <rects>
+        <li>(177,16,177,16)</li>
+        <li>(179,16,179,16)</li>
+        <li>(190,16,190,16)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Endtable>
+    <HospitalBed>
+      <position>(180, 0, 16)</position>
+      <stuff>Steel</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </HospitalBed>
+    <UFLI_Bed>
+      <positions>
+        <li>(189, 0, 16)</li>
+        <li>(193, 0, 16)</li>
+      </positions>
+      <stuff>Steel</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Bed>
+    <UFLI_Bed>
+      <position>(191, 0, 16)</position>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Bed>
+    <UFLI_Endtable>
+      <rects>
+        <li>(192,16,192,16)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Endtable>
+    <UFLI_CabinetA>
+      <position>(194, 0, 16)</position>
+      <stuff>Steel</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_CabinetA>
+    <UFLI_CabinetF>
+      <rects>
+        <li>(196,16,196,16)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_CabinetF>
+    <UFLI_CabinetB>
+      <position>(197, 0, 16)</position>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_CabinetB>
+    <ShowerAdvStuff>
+      <rects>
+        <li>(204,16,204,16)</li>
+        <li>(206,16,206,16)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+    </ShowerAdvStuff>
+    <KT_LARGEAUTOCANNON>
+      <positions>
+        <li>(47, 0, 18)</li>
+        <li>(51, 0, 19)</li>
+      </positions>
+    </KT_LARGEAUTOCANNON>
+    <UFLI_Dumbbellrack>
+      <position>(73, 0, 17)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </UFLI_Dumbbellrack>
+    <UFLI_Benchrack>
+      <position>(75, 0, 18)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </UFLI_Benchrack>
+    <UFLI_Treadmill>
+      <positions>
+        <li>(77, 0, 17)</li>
+        <li>(79, 0, 17)</li>
+      </positions>
+    </UFLI_Treadmill>
+    <UFLI_WashingMachine>
+      <rects>
+        <li>(81,17,82,17)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </UFLI_WashingMachine>
+    <UFLI_CabinetA>
+      <position>(83, 0, 17)</position>
+      <stuff>Steel</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_CabinetA>
+    <UF_MachineSpiritRitualAltar>
+      <rects>
+        <li>(117,17,117,17)</li>
+      </rects>
+    </UF_MachineSpiritRitualAltar>
+    <UFLlA0Tome>
+      <position>(120, 0, 18)</position>
+    </UFLlA0Tome>
+    <UFRecipes_WorkbenchBooster>
+      <rects>
+        <li>(123,17,123,19)</li>
+      </rects>
+    </UFRecipes_WorkbenchBooster>
+    <UFLI_Wardrobe_AS>
+      <positions>
+        <li>(133, 0, 17)</li>
+        <li>(138, 0, 17)</li>
+        <li>(141, 0, 17)</li>
+        <li>(146, 0, 17)</li>
+      </positions>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Wardrobe_AS>
+    <UFLI_CabinetE>
+      <rects>
+        <li>(135,17,135,17)</li>
+        <li>(143,17,143,17)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_CabinetE>
+    <UFLI_CarpetB>
+      <positions>
+        <li>(136, 0, 18)</li>
+        <li>(144, 0, 18)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Cloth</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </UFLI_CarpetB>
+    <UFLI_CabinetE>
+      <rects>
+        <li>(137,17,137,17)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_CabinetE>
+    <UFLI_CabinetE>
+      <rects>
+        <li>(145,17,145,17)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_CabinetE>
+    <UFRecipes_MachineSpiritAltar>
+      <position>(117, 0, 19)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </UFRecipes_MachineSpiritAltar>
+    <UFLI_Endtable>
+      <rects>
+        <li>(139,18,139,18)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Endtable>
+    <UFLI_Endtable>
+      <rects>
+        <li>(141,18,141,18)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Endtable>
+    <ToiletAdvStuff>
+      <rects>
+        <li>(149,18,149,18)</li>
+        <li>(151,18,151,18)</li>
+        <li>(153,18,153,18)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>Steel</stuff>
+    </ToiletAdvStuff>
+    <UFLI_1X2_Table>
+      <position>(160, 0, 18)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_1X2_Table>
+    <UFLI_Couch>
+      <rects>
+        <li>(166,18,166,18)</li>
+      </rects>
+      <stuff>Cloth</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.635, 0.616, 0.596, 1.000)</color>
+    </UFLI_Couch>
+    <VitalsMonitor>
+      <rects>
+        <li>(176,18,176,18)</li>
+        <li>(180,18,180,18)</li>
+      </rects>
+    </VitalsMonitor>
+    <UFLI_Bed>
+      <positions>
+        <li>(133, 0, 19)</li>
+        <li>(141, 0, 19)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Bed>
+    <UFLI_Chair>
+      <rects>
+        <li>(135,19,135,19)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Chair>
+    <UFLI_1X1_Table>
+      <rects>
+        <li>(136,19,136,19)</li>
+        <li>(144,19,144,19)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_1X1_Table>
+    <UFLI_Bed>
+      <positions>
+        <li>(139, 0, 19)</li>
+        <li>(147, 0, 19)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Bed>
+    <Carrier_Television>
+      <position>(178, 0, 19)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </Carrier_Television>
+  </things>
+  <terrain>
+    <UFLI_FLOOR>
+      <rects>
+        <li>(49,0,52,2)</li>
+        <li>(89,0,90,20)</li>
+        <li>(162,0,163,5)</li>
+        <li>(46,1,48,3)</li>
+        <li>(54,1,60,5)</li>
+        <li>(62,1,69,4)</li>
+        <li>(108,1,131,5)</li>
+        <li>(155,1,161,5)</li>
+        <li>(164,1,166,5)</li>
+        <li>(183,1,187,19)</li>
+        <li>(200,1,201,19)</li>
+        <li>(42,2,44,18)</li>
+        <li>(61,2,61,3)</li>
+        <li>(26,4,33,16)</li>
+        <li>(50,4,53,16)</li>
+        <li>(70,4,70,16)</li>
+        <li>(107,4,107,6)</li>
+        <li>(148,4,154,5)</li>
+        <li>(167,4,167,6)</li>
+        <li>(20,5,25,14)</li>
+        <li>(45,5,49,15)</li>
+        <li>(68,5,69,5)</li>
+        <li>(71,5,88,6)</li>
+        <li>(91,5,106,6)</li>
+        <li>(132,5,147,6)</li>
+        <li>(168,5,168,15)</li>
+        <li>(202,5,202,15)</li>
+        <li>(15,6,19,14)</li>
+        <li>(54,6,59,6)</li>
+        <li>(69,6,69,6)</li>
+        <li>(129,6,131,6)</li>
+        <li>(148,6,148,6)</li>
+        <li>(169,6,182,14)</li>
+        <li>(188,6,199,14)</li>
+        <li>(203,6,203,14)</li>
+        <li>(11,7,14,13)</li>
+        <li>(54,7,58,19)</li>
+        <li>(71,7,87,15)</li>
+        <li>(92,7,95,7)</li>
+        <li>(130,7,141,7)</li>
+        <li>(7,8,10,12)</li>
+        <li>(92,8,94,15)</li>
+        <li>(130,8,140,15)</li>
+        <li>(4,9,6,11)</li>
+        <li>(88,9,88,11)</li>
+        <li>(91,9,91,11)</li>
+        <li>(2,10,3,10)</li>
+        <li>(95,13,95,15)</li>
+        <li>(141,13,141,15)</li>
+        <li>(59,14,59,19)</li>
+        <li>(69,14,69,19)</li>
+        <li>(88,14,88,15)</li>
+        <li>(91,14,91,15)</li>
+        <li>(96,14,107,15)</li>
+        <li>(129,14,129,19)</li>
+        <li>(142,14,148,15)</li>
+        <li>(167,14,167,16)</li>
+        <li>(21,15,25,15)</li>
+        <li>(60,15,60,19)</li>
+        <li>(68,15,68,19)</li>
+        <li>(108,15,128,19)</li>
+        <li>(149,15,149,16)</li>
+        <li>(151,15,166,16)</li>
+        <li>(62,16,67,19)</li>
+        <li>(107,16,107,16)</li>
+        <li>(130,16,132,16)</li>
+        <li>(148,16,148,16)</li>
+        <li>(150,16,150,16)</li>
+        <li>(46,17,48,19)</li>
+        <li>(61,17,61,18)</li>
+        <li>(130,17,131,19)</li>
+        <li>(155,17,166,19)</li>
+        <li>(49,18,52,20)</li>
+        <li>(162,20,163,20)</li>
+      </rects>
+    </UFLI_FLOOR>
+    <Substructure>
+      <rects>
+        <li>(53,0,88,0)</li>
+        <li>(91,0,161,0)</li>
+        <li>(164,0,209,0)</li>
+        <li>(42,1,45,1)</li>
+        <li>(53,1,53,3)</li>
+        <li>(61,1,61,1)</li>
+        <li>(88,1,88,4)</li>
+        <li>(91,1,91,4)</li>
+        <li>(132,1,132,3)</li>
+        <li>(140,1,140,4)</li>
+        <li>(148,1,148,3)</li>
+        <li>(167,1,167,3)</li>
+        <li>(174,1,174,5)</li>
+        <li>(182,1,182,5)</li>
+        <li>(188,1,188,5)</li>
+        <li>(207,1,209,2)</li>
+        <li>(34,2,41,2)</li>
+        <li>(45,2,45,4)</li>
+        <li>(70,2,70,3)</li>
+        <li>(150,2,150,3)</li>
+        <li>(152,2,152,3)</li>
+        <li>(154,2,154,3)</li>
+        <li>(210,2,217,2)</li>
+        <li>(26,3,34,3)</li>
+        <li>(41,3,41,4)</li>
+        <li>(49,3,52,3)</li>
+        <li>(107,3,107,3)</li>
+        <li>(149,3,149,3)</li>
+        <li>(151,3,151,3)</li>
+        <li>(153,3,153,3)</li>
+        <li>(199,3,199,5)</li>
+        <li>(202,3,202,4)</li>
+        <li>(207,3,207,5)</li>
+        <li>(215,3,220,3)</li>
+        <li>(20,4,25,4)</li>
+        <li>(34,4,34,8)</li>
+        <li>(46,4,49,4)</li>
+        <li>(61,4,61,5)</li>
+        <li>(71,4,85,4)</li>
+        <li>(92,4,106,4)</li>
+        <li>(133,4,135,4)</li>
+        <li>(137,4,139,4)</li>
+        <li>(141,4,143,4)</li>
+        <li>(145,4,147,4)</li>
+        <li>(168,4,168,4)</li>
+        <li>(218,4,220,5)</li>
+        <li>(15,5,19,5)</li>
+        <li>(62,5,63,5)</li>
+        <li>(65,5,67,5)</li>
+        <li>(169,5,170,5)</li>
+        <li>(172,5,173,5)</li>
+        <li>(175,5,177,5)</li>
+        <li>(179,5,181,5)</li>
+        <li>(189,5,198,5)</li>
+        <li>(203,5,206,5)</li>
+        <li>(221,5,225,5)</li>
+        <li>(11,6,14,6)</li>
+        <li>(60,6,60,6)</li>
+        <li>(68,6,68,6)</li>
+        <li>(109,6,110,6)</li>
+        <li>(149,6,166,6)</li>
+        <li>(204,6,204,8)</li>
+        <li>(223,6,229,6)</li>
+        <li>(7,7,10,7)</li>
+        <li>(41,7,41,13)</li>
+        <li>(59,7,59,9)</li>
+        <li>(69,7,69,9)</li>
+        <li>(88,7,88,8)</li>
+        <li>(91,7,91,8)</li>
+        <li>(96,7,107,7)</li>
+        <li>(129,7,129,8)</li>
+        <li>(142,7,148,7)</li>
+        <li>(167,7,167,8)</li>
+        <li>(227,7,229,8)</li>
+        <li>(4,8,6,8)</li>
+        <li>(95,8,95,8)</li>
+        <li>(101,8,101,9)</li>
+        <li>(107,8,107,13)</li>
+        <li>(141,8,141,8)</li>
+        <li>(148,8,148,9)</li>
+        <li>(230,8,230,8)</li>
+        <li>(2,9,3,9)</li>
+        <li>(149,9,154,9)</li>
+        <li>(0,10,1,10)</li>
+        <li>(230,10,230,10)</li>
+        <li>(2,11,3,11)</li>
+        <li>(59,11,59,13)</li>
+        <li>(69,11,69,13)</li>
+        <li>(101,11,101,13)</li>
+        <li>(148,11,154,11)</li>
+        <li>(4,12,6,12)</li>
+        <li>(34,12,34,18)</li>
+        <li>(88,12,88,13)</li>
+        <li>(91,12,91,13)</li>
+        <li>(95,12,95,12)</li>
+        <li>(129,12,129,13)</li>
+        <li>(141,12,141,12)</li>
+        <li>(148,12,148,13)</li>
+        <li>(167,12,167,13)</li>
+        <li>(204,12,204,15)</li>
+        <li>(227,12,230,12)</li>
+        <li>(7,13,10,13)</li>
+        <li>(96,13,100,13)</li>
+        <li>(102,13,106,13)</li>
+        <li>(142,13,147,13)</li>
+        <li>(227,13,229,14)</li>
+        <li>(11,14,14,14)</li>
+        <li>(60,14,60,14)</li>
+        <li>(68,14,68,14)</li>
+        <li>(149,14,166,14)</li>
+        <li>(223,14,226,14)</li>
+        <li>(15,15,20,15)</li>
+        <li>(61,15,63,15)</li>
+        <li>(65,15,67,15)</li>
+        <li>(150,15,150,15)</li>
+        <li>(169,15,170,15)</li>
+        <li>(172,15,177,15)</li>
+        <li>(179,15,182,15)</li>
+        <li>(188,15,199,15)</li>
+        <li>(203,15,203,15)</li>
+        <li>(205,15,207,15)</li>
+        <li>(218,15,225,15)</li>
+        <li>(20,16,25,16)</li>
+        <li>(41,16,41,18)</li>
+        <li>(45,16,49,16)</li>
+        <li>(61,16,61,16)</li>
+        <li>(71,16,85,16)</li>
+        <li>(88,16,88,20)</li>
+        <li>(91,16,106,16)</li>
+        <li>(133,16,135,16)</li>
+        <li>(137,16,143,16)</li>
+        <li>(145,16,147,16)</li>
+        <li>(168,16,168,16)</li>
+        <li>(174,16,174,20)</li>
+        <li>(182,16,182,20)</li>
+        <li>(188,16,188,20)</li>
+        <li>(199,16,199,17)</li>
+        <li>(202,16,202,17)</li>
+        <li>(207,16,207,20)</li>
+        <li>(218,16,220,17)</li>
+        <li>(26,17,33,17)</li>
+        <li>(45,17,45,19)</li>
+        <li>(49,17,53,17)</li>
+        <li>(70,17,70,18)</li>
+        <li>(91,17,91,20)</li>
+        <li>(107,17,107,17)</li>
+        <li>(132,17,132,20)</li>
+        <li>(140,17,140,20)</li>
+        <li>(148,17,154,17)</li>
+        <li>(167,17,167,20)</li>
+        <li>(215,17,217,18)</li>
+        <li>(35,18,40,18)</li>
+        <li>(53,18,53,20)</li>
+        <li>(148,18,148,20)</li>
+        <li>(150,18,150,18)</li>
+        <li>(152,18,152,18)</li>
+        <li>(154,18,154,18)</li>
+        <li>(208,18,214,18)</li>
+        <li>(42,19,44,19)</li>
+        <li>(61,19,61,20)</li>
+        <li>(208,19,209,20)</li>
+        <li>(54,20,60,20)</li>
+        <li>(62,20,87,20)</li>
+        <li>(92,20,131,20)</li>
+        <li>(133,20,139,20)</li>
+        <li>(141,20,147,20)</li>
+        <li>(149,20,161,20)</li>
+        <li>(164,20,166,20)</li>
+        <li>(168,20,173,20)</li>
+        <li>(175,20,181,20)</li>
+        <li>(183,20,187,20)</li>
+        <li>(189,20,206,20)</li>
+      </rects>
+    </Substructure>
+    <UFLI_FLOORI>
+      <rects>
+        <li>(70,1,87,1)</li>
+        <li>(133,1,139,3)</li>
+        <li>(141,1,147,3)</li>
+        <li>(189,1,199,2)</li>
+        <li>(71,2,87,3)</li>
+        <li>(189,3,198,4)</li>
+        <li>(86,4,87,4)</li>
+        <li>(136,4,136,4)</li>
+        <li>(144,4,144,4)</li>
+        <li>(155,7,166,13)</li>
+        <li>(142,8,147,12)</li>
+        <li>(141,9,141,11)</li>
+        <li>(167,9,167,11)</li>
+        <li>(148,10,154,10)</li>
+        <li>(86,16,87,19)</li>
+        <li>(136,16,136,19)</li>
+        <li>(144,16,144,19)</li>
+        <li>(189,16,198,19)</li>
+        <li>(71,17,85,19)</li>
+        <li>(133,17,135,19)</li>
+        <li>(137,17,139,19)</li>
+        <li>(141,17,143,19)</li>
+        <li>(145,17,147,19)</li>
+        <li>(199,18,199,19)</li>
+        <li>(70,19,70,19)</li>
+      </rects>
+    </UFLI_FLOORI>
+    <UFLI_FLOORS>
+      <rects>
+        <li>(92,1,107,2)</li>
+        <li>(92,3,106,3)</li>
+        <li>(210,8,211,12)</li>
+        <li>(213,8,217,9)</li>
+        <li>(219,8,220,12)</li>
+        <li>(213,11,217,12)</li>
+        <li>(92,17,106,19)</li>
+        <li>(107,18,107,19)</li>
+      </rects>
+    </UFLI_FLOORS>
+    <UFLI_FLOORU>
+      <rects>
+        <li>(149,1,154,1)</li>
+        <li>(202,1,206,2)</li>
+        <li>(149,2,149,2)</li>
+        <li>(151,2,151,2)</li>
+        <li>(153,2,153,2)</li>
+        <li>(203,3,206,4)</li>
+        <li>(203,16,206,19)</li>
+        <li>(149,18,149,19)</li>
+        <li>(151,18,151,19)</li>
+        <li>(153,18,153,19)</li>
+        <li>(202,18,202,19)</li>
+        <li>(150,19,150,19)</li>
+        <li>(152,19,152,19)</li>
+        <li>(154,19,154,19)</li>
+      </rects>
+    </UFLI_FLOORU>
+    <UFLI_FLOORT>
+      <rects>
+        <li>(168,1,173,3)</li>
+        <li>(169,4,173,4)</li>
+        <li>(64,5,64,15)</li>
+        <li>(171,5,171,5)</li>
+        <li>(61,6,63,14)</li>
+        <li>(65,6,67,14)</li>
+        <li>(60,7,60,13)</li>
+        <li>(68,7,68,13)</li>
+        <li>(59,10,59,10)</li>
+        <li>(69,10,69,10)</li>
+        <li>(171,15,171,19)</li>
+        <li>(169,16,170,19)</li>
+        <li>(172,16,173,19)</li>
+        <li>(168,17,168,19)</li>
+      </rects>
+    </UFLI_FLOORT>
+    <UFLI_FLOORJ>
+      <rects>
+        <li>(175,1,181,4)</li>
+        <li>(132,4,132,4)</li>
+        <li>(178,5,178,5)</li>
+        <li>(212,8,212,12)</li>
+        <li>(218,8,218,12)</li>
+        <li>(213,10,217,10)</li>
+        <li>(178,15,178,19)</li>
+        <li>(175,16,177,19)</li>
+        <li>(179,16,181,19)</li>
+      </rects>
+    </UFLI_FLOORJ>
+    <UFLI_FLOORD>
+      <rects>
+        <li>(35,3,40,17)</li>
+        <li>(41,5,41,6)</li>
+        <li>(108,6,108,14)</li>
+        <li>(111,6,128,14)</li>
+        <li>(109,7,110,14)</li>
+        <li>(96,8,100,12)</li>
+        <li>(102,8,106,12)</li>
+        <li>(34,9,34,11)</li>
+        <li>(95,9,95,11)</li>
+        <li>(129,9,129,11)</li>
+        <li>(101,10,101,10)</li>
+        <li>(41,14,41,15)</li>
+      </rects>
+    </UFLI_FLOORD>
+    <UFLI_FLOORE>
+      <rects>
+        <li>(208,3,214,6)</li>
+        <li>(215,4,217,6)</li>
+        <li>(205,6,207,14)</li>
+        <li>(218,6,222,6)</li>
+        <li>(208,7,208,17)</li>
+        <li>(222,7,226,13)</li>
+        <li>(204,9,204,11)</li>
+        <li>(227,9,230,9)</li>
+        <li>(227,10,229,11)</li>
+        <li>(230,11,230,11)</li>
+        <li>(209,14,222,14)</li>
+        <li>(209,15,217,16)</li>
+        <li>(209,17,214,17)</li>
+      </rects>
+    </UFLI_FLOORE>
+    <UFLI_FLOORM>
+      <rects>
+        <li>(149,7,154,8)</li>
+        <li>(149,12,154,13)</li>
+      </rects>
+    </UFLI_FLOORM>
+    <UFLI_FLOORF>
+      <rects>
+        <li>(209,7,221,7)</li>
+        <li>(209,8,209,13)</li>
+        <li>(221,8,221,13)</li>
+        <li>(210,13,220,13)</li>
+      </rects>
+    </UFLI_FLOORF>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <UFLI_FLOOR>
+        <rects>
+          <li>(49,0,52,2)</li>
+          <li>(89,0,90,20)</li>
+          <li>(162,0,163,5)</li>
+          <li>(46,1,48,3)</li>
+          <li>(54,1,60,5)</li>
+          <li>(62,1,69,4)</li>
+          <li>(108,1,131,5)</li>
+          <li>(155,1,161,5)</li>
+          <li>(164,1,166,5)</li>
+          <li>(183,1,187,19)</li>
+          <li>(200,1,201,19)</li>
+          <li>(42,2,44,18)</li>
+          <li>(61,2,61,3)</li>
+          <li>(26,4,33,16)</li>
+          <li>(50,4,53,16)</li>
+          <li>(70,4,70,16)</li>
+          <li>(107,4,107,6)</li>
+          <li>(148,4,154,5)</li>
+          <li>(167,4,167,6)</li>
+          <li>(20,5,25,14)</li>
+          <li>(45,5,49,15)</li>
+          <li>(68,5,69,5)</li>
+          <li>(71,5,88,6)</li>
+          <li>(91,5,106,6)</li>
+          <li>(132,5,147,6)</li>
+          <li>(168,5,168,15)</li>
+          <li>(202,5,202,15)</li>
+          <li>(15,6,19,14)</li>
+          <li>(54,6,59,6)</li>
+          <li>(69,6,69,6)</li>
+          <li>(129,6,131,6)</li>
+          <li>(148,6,148,6)</li>
+          <li>(169,6,182,14)</li>
+          <li>(188,6,199,14)</li>
+          <li>(203,6,203,14)</li>
+          <li>(11,7,14,13)</li>
+          <li>(54,7,58,19)</li>
+          <li>(71,7,87,15)</li>
+          <li>(92,7,95,7)</li>
+          <li>(130,7,141,7)</li>
+          <li>(7,8,10,12)</li>
+          <li>(92,8,94,15)</li>
+          <li>(130,8,140,15)</li>
+          <li>(4,9,6,11)</li>
+          <li>(88,9,88,11)</li>
+          <li>(91,9,91,11)</li>
+          <li>(2,10,3,10)</li>
+          <li>(95,13,95,15)</li>
+          <li>(141,13,141,15)</li>
+          <li>(59,14,59,19)</li>
+          <li>(69,14,69,19)</li>
+          <li>(88,14,88,15)</li>
+          <li>(91,14,91,15)</li>
+          <li>(96,14,107,15)</li>
+          <li>(129,14,129,19)</li>
+          <li>(142,14,148,15)</li>
+          <li>(167,14,167,16)</li>
+          <li>(21,15,25,15)</li>
+          <li>(60,15,60,19)</li>
+          <li>(68,15,68,19)</li>
+          <li>(108,15,128,19)</li>
+          <li>(149,15,149,16)</li>
+          <li>(151,15,166,16)</li>
+          <li>(62,16,67,19)</li>
+          <li>(107,16,107,16)</li>
+          <li>(130,16,132,16)</li>
+          <li>(148,16,148,16)</li>
+          <li>(150,16,150,16)</li>
+          <li>(46,17,48,19)</li>
+          <li>(61,17,61,18)</li>
+          <li>(130,17,131,19)</li>
+          <li>(155,17,166,19)</li>
+          <li>(49,18,52,20)</li>
+          <li>(162,20,163,20)</li>
+        </rects>
+      </UFLI_FLOOR>
+      <UFLI_FLOORI>
+        <rects>
+          <li>(70,1,87,1)</li>
+          <li>(133,1,139,3)</li>
+          <li>(141,1,147,3)</li>
+          <li>(189,1,199,2)</li>
+          <li>(71,2,87,3)</li>
+          <li>(189,3,198,4)</li>
+          <li>(86,4,87,4)</li>
+          <li>(136,4,136,4)</li>
+          <li>(144,4,144,4)</li>
+          <li>(155,7,166,13)</li>
+          <li>(142,8,147,12)</li>
+          <li>(141,9,141,11)</li>
+          <li>(167,9,167,11)</li>
+          <li>(148,10,154,10)</li>
+          <li>(86,16,87,19)</li>
+          <li>(136,16,136,19)</li>
+          <li>(144,16,144,19)</li>
+          <li>(189,16,198,19)</li>
+          <li>(71,17,85,19)</li>
+          <li>(133,17,135,19)</li>
+          <li>(137,17,139,19)</li>
+          <li>(141,17,143,19)</li>
+          <li>(145,17,147,19)</li>
+          <li>(199,18,199,19)</li>
+          <li>(70,19,70,19)</li>
+        </rects>
+      </UFLI_FLOORI>
+      <UFLI_FLOORS>
+        <rects>
+          <li>(92,1,107,2)</li>
+          <li>(92,3,106,3)</li>
+          <li>(210,8,211,12)</li>
+          <li>(213,8,217,9)</li>
+          <li>(219,8,220,12)</li>
+          <li>(213,11,217,12)</li>
+          <li>(92,17,106,19)</li>
+          <li>(107,18,107,19)</li>
+        </rects>
+      </UFLI_FLOORS>
+      <UFLI_FLOORU>
+        <rects>
+          <li>(149,1,154,1)</li>
+          <li>(202,1,206,2)</li>
+          <li>(149,2,149,2)</li>
+          <li>(151,2,151,2)</li>
+          <li>(153,2,153,2)</li>
+          <li>(203,3,206,4)</li>
+          <li>(203,16,206,19)</li>
+          <li>(149,18,149,19)</li>
+          <li>(151,18,151,19)</li>
+          <li>(153,18,153,19)</li>
+          <li>(202,18,202,19)</li>
+          <li>(150,19,150,19)</li>
+          <li>(152,19,152,19)</li>
+          <li>(154,19,154,19)</li>
+        </rects>
+      </UFLI_FLOORU>
+      <UFLI_FLOORT>
+        <rects>
+          <li>(168,1,173,3)</li>
+          <li>(169,4,173,4)</li>
+          <li>(64,5,64,15)</li>
+          <li>(171,5,171,5)</li>
+          <li>(61,6,63,14)</li>
+          <li>(65,6,67,14)</li>
+          <li>(60,7,60,13)</li>
+          <li>(68,7,68,13)</li>
+          <li>(59,10,59,10)</li>
+          <li>(69,10,69,10)</li>
+          <li>(171,15,171,19)</li>
+          <li>(169,16,170,19)</li>
+          <li>(172,16,173,19)</li>
+          <li>(168,17,168,19)</li>
+        </rects>
+      </UFLI_FLOORT>
+      <UFLI_FLOORJ>
+        <rects>
+          <li>(175,1,181,4)</li>
+          <li>(132,4,132,4)</li>
+          <li>(178,5,178,5)</li>
+          <li>(212,8,212,12)</li>
+          <li>(218,8,218,12)</li>
+          <li>(213,10,217,10)</li>
+          <li>(178,15,178,19)</li>
+          <li>(175,16,177,19)</li>
+          <li>(179,16,181,19)</li>
+        </rects>
+      </UFLI_FLOORJ>
+      <UFLI_FLOORD>
+        <rects>
+          <li>(35,3,40,17)</li>
+          <li>(41,5,41,6)</li>
+          <li>(108,6,108,14)</li>
+          <li>(111,6,128,14)</li>
+          <li>(109,7,110,14)</li>
+          <li>(96,8,100,12)</li>
+          <li>(102,8,106,12)</li>
+          <li>(34,9,34,11)</li>
+          <li>(95,9,95,11)</li>
+          <li>(129,9,129,11)</li>
+          <li>(101,10,101,10)</li>
+          <li>(41,14,41,15)</li>
+        </rects>
+      </UFLI_FLOORD>
+      <UFLI_FLOORE>
+        <rects>
+          <li>(208,3,214,6)</li>
+          <li>(215,4,217,6)</li>
+          <li>(205,6,207,14)</li>
+          <li>(218,6,222,6)</li>
+          <li>(208,7,208,17)</li>
+          <li>(222,7,226,13)</li>
+          <li>(204,9,204,11)</li>
+          <li>(227,9,230,9)</li>
+          <li>(227,10,229,11)</li>
+          <li>(230,11,230,11)</li>
+          <li>(209,14,222,14)</li>
+          <li>(209,15,217,16)</li>
+          <li>(209,17,214,17)</li>
+        </rects>
+      </UFLI_FLOORE>
+      <UFLI_FLOORM>
+        <rects>
+          <li>(149,7,154,8)</li>
+          <li>(149,12,154,13)</li>
+        </rects>
+      </UFLI_FLOORM>
+      <UFLI_FLOORF>
+        <rects>
+          <li>(209,7,221,7)</li>
+          <li>(209,8,209,13)</li>
+          <li>(221,8,221,13)</li>
+          <li>(210,13,220,13)</li>
+        </rects>
+      </UFLI_FLOORF>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(49,0,51,1)</li>
+          <li>(89,0,90,20)</li>
+          <li>(162,0,163,1)</li>
+          <li>(46,1,48,3)</li>
+          <li>(56,1,60,5)</li>
+          <li>(62,1,81,1)</li>
+          <li>(83,1,87,3)</li>
+          <li>(92,1,124,1)</li>
+          <li>(128,1,128,1)</li>
+          <li>(164,1,166,1)</li>
+          <li>(175,1,181,4)</li>
+          <li>(183,1,187,13)</li>
+          <li>(189,1,206,2)</li>
+          <li>(42,2,44,7)</li>
+          <li>(49,2,50,2)</li>
+          <li>(54,2,55,19)</li>
+          <li>(61,2,69,3)</li>
+          <li>(71,2,82,2)</li>
+          <li>(92,2,122,2)</li>
+          <li>(163,2,165,3)</li>
+          <li>(35,3,40,7)</li>
+          <li>(71,3,77,3)</li>
+          <li>(81,3,81,3)</li>
+          <li>(92,3,106,3)</li>
+          <li>(108,3,123,5)</li>
+          <li>(189,3,198,4)</li>
+          <li>(200,3,201,12)</li>
+          <li>(203,3,206,4)</li>
+          <li>(26,4,33,16)</li>
+          <li>(52,4,53,16)</li>
+          <li>(62,4,70,4)</li>
+          <li>(86,4,87,19)</li>
+          <li>(107,4,107,6)</li>
+          <li>(124,4,124,9)</li>
+          <li>(164,4,165,5)</li>
+          <li>(208,4,209,9)</li>
+          <li>(20,5,25,14)</li>
+          <li>(41,5,41,6)</li>
+          <li>(45,5,46,6)</li>
+          <li>(64,5,64,19)</li>
+          <li>(68,5,78,5)</li>
+          <li>(81,5,85,15)</li>
+          <li>(88,5,88,6)</li>
+          <li>(91,5,106,6)</li>
+          <li>(125,5,126,6)</li>
+          <li>(166,5,166,5)</li>
+          <li>(178,5,178,19)</li>
+          <li>(202,5,202,12)</li>
+          <li>(210,5,210,8)</li>
+          <li>(15,6,19,14)</li>
+          <li>(50,6,51,16)</li>
+          <li>(56,6,59,6)</li>
+          <li>(61,6,63,14)</li>
+          <li>(65,6,67,14)</li>
+          <li>(69,6,80,6)</li>
+          <li>(108,6,108,19)</li>
+          <li>(111,6,123,10)</li>
+          <li>(167,6,167,6)</li>
+          <li>(174,6,177,14)</li>
+          <li>(179,6,182,14)</li>
+          <li>(188,6,199,12)</li>
+          <li>(203,6,203,12)</li>
+          <li>(205,6,207,12)</li>
+          <li>(11,7,14,13)</li>
+          <li>(49,7,49,15)</li>
+          <li>(56,7,58,19)</li>
+          <li>(60,7,60,13)</li>
+          <li>(68,7,68,13)</li>
+          <li>(70,7,80,15)</li>
+          <li>(92,7,95,7)</li>
+          <li>(109,7,110,19)</li>
+          <li>(163,7,166,13)</li>
+          <li>(168,7,168,15)</li>
+          <li>(171,7,173,14)</li>
+          <li>(7,8,10,12)</li>
+          <li>(35,8,36,9)</li>
+          <li>(43,8,44,8)</li>
+          <li>(92,8,94,15)</li>
+          <li>(96,8,100,12)</li>
+          <li>(102,8,106,12)</li>
+          <li>(4,9,6,11)</li>
+          <li>(34,9,34,11)</li>
+          <li>(48,9,48,15)</li>
+          <li>(88,9,88,11)</li>
+          <li>(91,9,91,11)</li>
+          <li>(95,9,95,11)</li>
+          <li>(162,9,162,13)</li>
+          <li>(167,9,167,11)</li>
+          <li>(169,9,170,14)</li>
+          <li>(204,9,204,11)</li>
+          <li>(2,10,3,10)</li>
+          <li>(35,10,35,17)</li>
+          <li>(43,10,45,10)</li>
+          <li>(47,10,47,15)</li>
+          <li>(59,10,59,10)</li>
+          <li>(69,10,69,10)</li>
+          <li>(101,10,101,10)</li>
+          <li>(158,10,158,11)</li>
+          <li>(160,10,161,13)</li>
+          <li>(208,10,208,11)</li>
+          <li>(43,11,43,11)</li>
+          <li>(45,11,46,15)</li>
+          <li>(111,11,118,14)</li>
+          <li>(123,11,123,11)</li>
+          <li>(159,11,159,13)</li>
+          <li>(42,12,42,12)</li>
+          <li>(44,12,44,18)</li>
+          <li>(36,13,36,17)</li>
+          <li>(40,13,40,13)</li>
+          <li>(43,13,43,18)</li>
+          <li>(95,13,95,15)</li>
+          <li>(158,13,158,13)</li>
+          <li>(188,13,189,13)</li>
+          <li>(194,13,200,13)</li>
+          <li>(37,14,38,16)</li>
+          <li>(42,14,42,18)</li>
+          <li>(59,14,59,19)</li>
+          <li>(69,14,69,19)</li>
+          <li>(88,14,88,15)</li>
+          <li>(91,14,91,15)</li>
+          <li>(96,14,107,15)</li>
+          <li>(167,14,167,16)</li>
+          <li>(183,14,186,18)</li>
+          <li>(195,14,198,14)</li>
+          <li>(21,15,25,15)</li>
+          <li>(41,15,41,15)</li>
+          <li>(60,15,60,19)</li>
+          <li>(68,15,68,19)</li>
+          <li>(111,15,117,15)</li>
+          <li>(157,15,166,19)</li>
+          <li>(171,15,171,19)</li>
+          <li>(40,16,40,17)</li>
+          <li>(62,16,63,19)</li>
+          <li>(65,16,67,19)</li>
+          <li>(70,16,70,16)</li>
+          <li>(107,16,107,16)</li>
+          <li>(111,16,116,17)</li>
+          <li>(155,16,156,19)</li>
+          <li>(169,16,170,19)</li>
+          <li>(172,16,173,19)</li>
+          <li>(175,16,177,19)</li>
+          <li>(179,16,181,19)</li>
+          <li>(194,16,195,16)</li>
+          <li>(39,17,39,17)</li>
+          <li>(46,17,48,19)</li>
+          <li>(61,17,61,18)</li>
+          <li>(71,17,85,19)</li>
+          <li>(92,17,106,19)</li>
+          <li>(168,17,168,19)</li>
+          <li>(193,17,194,17)</li>
+          <li>(49,18,52,20)</li>
+          <li>(107,18,107,19)</li>
+          <li>(111,18,115,19)</li>
+          <li>(187,18,187,19)</li>
+          <li>(193,18,193,19)</li>
+          <li>(70,19,70,19)</li>
+          <li>(154,19,154,19)</li>
+          <li>(184,19,186,19)</li>
+          <li>(162,20,163,20)</li>
+        </rects>
+      </Soil>
+      <PackedDirt>
+        <rects>
+          <li>(52,0,52,2)</li>
+          <li>(54,1,55,1)</li>
+          <li>(51,2,51,2)</li>
+          <li>(50,4,51,5)</li>
+          <li>(47,5,49,6)</li>
+          <li>(45,7,48,8)</li>
+          <li>(43,9,47,9)</li>
+          <li>(42,10,42,11)</li>
+          <li>(46,10,46,10)</li>
+          <li>(44,11,44,11)</li>
+          <li>(43,12,43,12)</li>
+          <li>(42,13,42,13)</li>
+          <li>(39,14,41,14)</li>
+          <li>(39,15,40,15)</li>
+          <li>(39,16,39,16)</li>
+          <li>(37,17,38,17)</li>
+        </rects>
+      </PackedDirt>
+      <SoilRich>
+        <rects>
+          <li>(82,1,82,1)</li>
+          <li>(168,1,168,1)</li>
+          <li>(173,1,173,4)</li>
+          <li>(166,2,166,4)</li>
+          <li>(171,2,172,2)</li>
+          <li>(78,3,80,3)</li>
+          <li>(82,3,82,3)</li>
+          <li>(172,3,172,3)</li>
+          <li>(167,4,167,5)</li>
+          <li>(79,5,80,5)</li>
+          <li>(168,5,168,6)</li>
+          <li>(171,5,171,6)</li>
+          <li>(169,6,170,8)</li>
+          <li>(172,6,173,6)</li>
+          <li>(37,8,40,8)</li>
+          <li>(42,8,42,9)</li>
+          <li>(37,9,38,9)</li>
+          <li>(36,10,37,10)</li>
+          <li>(36,11,36,12)</li>
+          <li>(40,11,40,12)</li>
+          <li>(37,12,37,13)</li>
+          <li>(39,12,39,13)</li>
+          <li>(38,13,38,13)</li>
+          <li>(190,13,193,14)</li>
+          <li>(187,14,189,14)</li>
+          <li>(194,14,194,14)</li>
+          <li>(187,15,187,17)</li>
+          <li>(191,16,193,16)</li>
+          <li>(189,17,192,19)</li>
+        </rects>
+      </SoilRich>
+      <Gravel>
+        <rects>
+          <li>(125,1,127,4)</li>
+          <li>(129,1,131,2)</li>
+          <li>(133,1,133,1)</li>
+          <li>(123,2,124,2)</li>
+          <li>(128,2,128,7)</li>
+          <li>(162,2,162,4)</li>
+          <li>(124,3,124,3)</li>
+          <li>(129,3,130,3)</li>
+          <li>(208,3,213,3)</li>
+          <li>(163,4,163,5)</li>
+          <li>(210,4,213,4)</li>
+          <li>(127,5,127,8)</li>
+          <li>(211,5,213,6)</li>
+          <li>(125,7,126,11)</li>
+          <li>(162,7,162,8)</li>
+          <li>(211,7,212,7)</li>
+          <li>(158,8,158,9)</li>
+          <li>(160,8,161,9)</li>
+          <li>(211,8,211,8)</li>
+          <li>(157,9,157,13)</li>
+          <li>(159,9,159,10)</li>
+          <li>(210,9,210,10)</li>
+          <li>(229,9,230,9)</li>
+          <li>(124,10,124,12)</li>
+          <li>(209,10,209,12)</li>
+          <li>(227,10,229,11)</li>
+          <li>(119,11,122,12)</li>
+          <li>(224,11,226,13)</li>
+          <li>(230,11,230,11)</li>
+          <li>(123,12,123,13)</li>
+          <li>(156,12,156,13)</li>
+          <li>(158,12,158,12)</li>
+          <li>(208,12,208,12)</li>
+          <li>(222,12,223,13)</li>
+          <li>(119,13,119,16)</li>
+          <li>(122,13,122,13)</li>
+          <li>(155,13,155,13)</li>
+          <li>(201,13,203,14)</li>
+          <li>(205,13,207,14)</li>
+          <li>(219,13,221,14)</li>
+          <li>(199,14,200,14)</li>
+          <li>(222,14,222,14)</li>
+          <li>(118,15,118,18)</li>
+          <li>(120,15,120,15)</li>
+          <li>(154,15,156,15)</li>
+          <li>(200,15,200,15)</li>
+          <li>(117,16,117,19)</li>
+          <li>(154,16,154,16)</li>
+          <li>(196,16,198,16)</li>
+          <li>(195,17,197,18)</li>
+          <li>(116,18,116,19)</li>
+          <li>(153,18,153,19)</li>
+          <li>(194,18,194,19)</li>
+          <li>(183,19,183,19)</li>
+          <li>(195,19,196,19)</li>
+        </rects>
+      </Gravel>
+      <Slate_Rough>
+        <rects>
+          <li>(134,1,136,1)</li>
+          <li>(133,2,135,2)</li>
+          <li>(131,3,131,12)</li>
+          <li>(133,3,134,3)</li>
+          <li>(129,4,130,6)</li>
+          <li>(132,4,132,4)</li>
+          <li>(133,6,136,9)</li>
+          <li>(130,7,130,12)</li>
+          <li>(137,7,139,8)</li>
+          <li>(128,8,128,13)</li>
+          <li>(127,9,127,15)</li>
+          <li>(129,9,129,11)</li>
+          <li>(132,9,132,11)</li>
+          <li>(137,9,138,9)</li>
+          <li>(134,10,137,10)</li>
+          <li>(134,11,136,11)</li>
+          <li>(125,12,126,14)</li>
+          <li>(120,13,121,14)</li>
+          <li>(124,13,124,16)</li>
+          <li>(122,14,123,16)</li>
+          <li>(121,15,121,19)</li>
+          <li>(126,15,126,15)</li>
+          <li>(130,15,130,16)</li>
+          <li>(120,16,120,19)</li>
+          <li>(119,17,119,19)</li>
+          <li>(122,17,122,19)</li>
+          <li>(118,19,118,19)</li>
+          <li>(123,19,123,19)</li>
+        </rects>
+      </Slate_Rough>
+      <Slate_RoughHewn>
+        <rects>
+          <li>(137,1,138,3)</li>
+          <li>(136,2,136,5)</li>
+          <li>(135,3,135,3)</li>
+          <li>(139,3,139,3)</li>
+          <li>(132,5,135,5)</li>
+          <li>(137,5,140,6)</li>
+          <li>(132,6,132,8)</li>
+          <li>(141,6,141,6)</li>
+          <li>(140,7,140,8)</li>
+          <li>(133,10,133,15)</li>
+          <li>(132,12,132,16)</li>
+          <li>(134,12,135,13)</li>
+          <li>(130,13,131,14)</li>
+          <li>(128,14,129,19)</li>
+          <li>(134,14,134,15)</li>
+          <li>(125,15,125,19)</li>
+          <li>(131,15,131,19)</li>
+          <li>(126,16,127,19)</li>
+          <li>(123,17,124,18)</li>
+          <li>(130,17,130,19)</li>
+          <li>(133,17,133,19)</li>
+          <li>(124,19,124,19)</li>
+        </rects>
+      </Slate_RoughHewn>
+      <Limestone_RoughHewn>
+        <rects>
+          <li>(139,1,139,2)</li>
+          <li>(141,1,145,3)</li>
+          <li>(150,1,155,1)</li>
+          <li>(146,2,147,3)</li>
+          <li>(149,2,149,2)</li>
+          <li>(151,2,151,2)</li>
+          <li>(153,2,153,2)</li>
+          <li>(155,2,159,3)</li>
+          <li>(160,3,160,3)</li>
+          <li>(144,4,144,6)</li>
+          <li>(148,4,155,4)</li>
+          <li>(158,4,159,4)</li>
+          <li>(141,5,143,5)</li>
+          <li>(145,5,153,5)</li>
+          <li>(142,6,143,6)</li>
+          <li>(145,6,148,6)</li>
+          <li>(141,7,141,7)</li>
+          <li>(149,7,155,8)</li>
+          <li>(142,8,147,12)</li>
+          <li>(140,9,141,11)</li>
+          <li>(155,9,155,9)</li>
+          <li>(148,10,154,10)</li>
+          <li>(139,11,139,15)</li>
+          <li>(213,11,213,17)</li>
+          <li>(136,12,136,19)</li>
+          <li>(138,12,138,15)</li>
+          <li>(140,12,140,15)</li>
+          <li>(149,12,152,12)</li>
+          <li>(211,12,212,17)</li>
+          <li>(214,12,214,17)</li>
+          <li>(141,13,141,15)</li>
+          <li>(149,13,151,13)</li>
+          <li>(135,14,135,15)</li>
+          <li>(137,14,137,15)</li>
+          <li>(142,14,148,14)</li>
+          <li>(210,14,210,17)</li>
+          <li>(215,14,215,16)</li>
+          <li>(142,15,146,15)</li>
+          <li>(149,15,149,16)</li>
+          <li>(216,15,216,16)</li>
+          <li>(144,16,144,16)</li>
+          <li>(209,16,209,16)</li>
+          <li>(217,16,217,16)</li>
+          <li>(134,17,135,19)</li>
+          <li>(137,17,139,19)</li>
+          <li>(141,17,143,17)</li>
+          <li>(147,17,147,17)</li>
+          <li>(141,18,142,18)</li>
+          <li>(149,18,149,19)</li>
+          <li>(150,19,150,19)</li>
+        </rects>
+      </Limestone_RoughHewn>
+      <Limestone_Rough>
+        <rects>
+          <li>(146,1,147,1)</li>
+          <li>(149,1,149,1)</li>
+          <li>(156,1,161,1)</li>
+          <li>(160,2,161,2)</li>
+          <li>(161,3,161,5)</li>
+          <li>(214,3,214,11)</li>
+          <li>(156,4,157,5)</li>
+          <li>(160,4,160,5)</li>
+          <li>(215,4,217,13)</li>
+          <li>(154,5,155,5)</li>
+          <li>(158,5,159,5)</li>
+          <li>(162,5,162,5)</li>
+          <li>(218,6,222,11)</li>
+          <li>(156,7,161,7)</li>
+          <li>(213,7,213,10)</li>
+          <li>(223,7,226,10)</li>
+          <li>(156,8,157,8)</li>
+          <li>(159,8,159,8)</li>
+          <li>(212,8,212,11)</li>
+          <li>(139,9,139,10)</li>
+          <li>(156,9,156,11)</li>
+          <li>(211,9,211,11)</li>
+          <li>(227,9,228,9)</li>
+          <li>(138,10,138,11)</li>
+          <li>(155,10,155,12)</li>
+          <li>(137,11,137,13)</li>
+          <li>(210,11,210,13)</li>
+          <li>(223,11,223,11)</li>
+          <li>(153,12,154,13)</li>
+          <li>(218,12,221,12)</li>
+          <li>(152,13,152,13)</li>
+          <li>(208,13,209,15)</li>
+          <li>(218,13,218,14)</li>
+          <li>(216,14,217,14)</li>
+          <li>(147,15,148,15)</li>
+          <li>(151,15,153,16)</li>
+          <li>(201,15,202,15)</li>
+          <li>(217,15,217,15)</li>
+          <li>(148,16,148,16)</li>
+          <li>(150,16,150,16)</li>
+          <li>(200,16,201,19)</li>
+          <li>(203,16,206,19)</li>
+          <li>(208,16,208,17)</li>
+          <li>(144,17,146,19)</li>
+          <li>(198,17,198,19)</li>
+          <li>(209,17,209,17)</li>
+          <li>(143,18,143,19)</li>
+          <li>(147,18,147,19)</li>
+          <li>(151,18,151,19)</li>
+          <li>(199,18,199,19)</li>
+          <li>(202,18,202,19)</li>
+          <li>(141,19,142,19)</li>
+          <li>(152,19,152,19)</li>
+          <li>(197,19,197,19)</li>
+        </rects>
+      </Limestone_Rough>
+      <Mud>
+        <rects>
+          <li>(169,1,172,1)</li>
+          <li>(168,2,170,3)</li>
+          <li>(171,3,171,4)</li>
+          <li>(169,4,170,4)</li>
+          <li>(172,4,172,4)</li>
+          <li>(39,9,40,10)</li>
+          <li>(38,10,38,12)</li>
+          <li>(37,11,37,11)</li>
+          <li>(39,11,39,11)</li>
+          <li>(189,16,190,16)</li>
+        </rects>
+      </Mud>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="foundationGrid">
+      <Substructure>
+        <rects>
+          <li>(49,0,209,20)</li>
+          <li>(42,1,48,19)</li>
+          <li>(34,2,41,18)</li>
+          <li>(210,2,217,18)</li>
+          <li>(26,3,33,17)</li>
+          <li>(218,3,220,17)</li>
+          <li>(20,4,25,16)</li>
+          <li>(15,5,19,15)</li>
+          <li>(221,5,225,15)</li>
+          <li>(11,6,14,14)</li>
+          <li>(226,6,229,14)</li>
+          <li>(7,7,10,13)</li>
+          <li>(4,8,6,12)</li>
+          <li>(230,8,230,12)</li>
+          <li>(2,9,3,11)</li>
+          <li>(0,10,1,10)</li>
+        </rects>
+      </Substructure>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(53,0,129,20)</li>
+        <li>(132,0,209,2)</li>
+        <li>(42,1,45,19)</li>
+        <li>(130,1,131,20)</li>
+        <li>(34,2,41,18)</li>
+        <li>(210,2,217,2)</li>
+        <li>(26,3,33,17)</li>
+        <li>(49,3,52,17)</li>
+        <li>(132,3,207,5)</li>
+        <li>(215,3,220,3)</li>
+        <li>(20,4,25,16)</li>
+        <li>(46,4,48,16)</li>
+        <li>(218,4,220,5)</li>
+        <li>(15,5,19,15)</li>
+        <li>(221,5,225,5)</li>
+        <li>(11,6,14,14)</li>
+        <li>(132,6,204,20)</li>
+        <li>(223,6,229,6)</li>
+        <li>(7,7,10,13)</li>
+        <li>(227,7,229,14)</li>
+        <li>(4,8,6,12)</li>
+        <li>(230,8,230,12)</li>
+        <li>(2,9,3,11)</li>
+        <li>(1,10,1,10)</li>
+        <li>(223,14,226,14)</li>
+        <li>(205,15,207,20)</li>
+        <li>(218,15,225,15)</li>
+        <li>(218,16,220,17)</li>
+        <li>(215,17,217,18)</li>
+        <li>(208,18,214,18)</li>
+        <li>(208,19,209,20)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(53,0,129,20)</li>
+        <li>(132,0,209,2)</li>
+        <li>(42,1,45,19)</li>
+        <li>(130,1,131,20)</li>
+        <li>(34,2,41,18)</li>
+        <li>(210,2,217,2)</li>
+        <li>(26,3,33,17)</li>
+        <li>(49,3,52,17)</li>
+        <li>(132,3,207,5)</li>
+        <li>(215,3,220,3)</li>
+        <li>(20,4,25,16)</li>
+        <li>(46,4,48,16)</li>
+        <li>(218,4,220,5)</li>
+        <li>(15,5,19,15)</li>
+        <li>(221,5,225,5)</li>
+        <li>(11,6,14,14)</li>
+        <li>(132,6,204,20)</li>
+        <li>(223,6,229,6)</li>
+        <li>(7,7,10,13)</li>
+        <li>(227,7,229,14)</li>
+        <li>(4,8,6,12)</li>
+        <li>(230,8,230,12)</li>
+        <li>(2,9,3,11)</li>
+        <li>(1,10,1,10)</li>
+        <li>(223,14,226,14)</li>
+        <li>(205,15,207,20)</li>
+        <li>(218,15,225,15)</li>
+        <li>(218,16,220,17)</li>
+        <li>(215,17,217,18)</li>
+        <li>(208,18,214,18)</li>
+        <li>(208,19,209,20)</li>
+      </rects>
+    </PlayerRoofZone>
+    <NoRoofZone>
+      <rects>
+        <li>(208,3,214,17)</li>
+        <li>(215,4,217,16)</li>
+        <li>(205,6,207,14)</li>
+        <li>(218,6,222,14)</li>
+        <li>(223,7,226,13)</li>
+      </rects>
+    </NoRoofZone>
+  </roofs>
+</PrefabDef>
