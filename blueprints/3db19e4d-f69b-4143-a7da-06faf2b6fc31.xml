@@ -1,0 +1,652 @@
+<PrefabDef>
+  <defName>Prefab_20261119_140633</defName>
+  <size>(30,13)</size>
+  <extraInfo>
+    <version>1.7.9818.24066</version>
+    <name>鼠鼠基因</name>
+    <description></description>
+    <tags>
+      <li>BiotechDLC</li>
+    </tags>
+    <author></author>
+    <category>BiotechDLC</category>
+    <BuildingID>3db19e4d-f69b-4143-a7da-06faf2b6fc31</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>kindseal.ufli</packageId>
+        <name>联合轻工家具拓展-UF Light Industries Furniture</name>
+        <version></version>
+        <modorder>474</modorder>
+        <steamWorkshopId>3651799915</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFLI_Wall</li>
+          <li>UFLI_1_Autodoor</li>
+          <li>UFLI_3_Autodoor</li>
+          <li>UFLI_3_Frame_DOOR</li>
+          <li>UFLI_Column</li>
+          <li>UFLI_Walllamp</li>
+          <li>UFLI_HeavyBridge</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>oark.ratkinfaction.geneexpand</packageId>
+        <name>[OA]Ratkin Gene Expand</name>
+        <version></version>
+        <modorder>112</modorder>
+        <steamWorkshopId>3300291918</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>oark.oberoniaaurea.framework</packageId>
+            <steamWorkshopId>3713589764</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>OAGene_OAGeneBank</li>
+          <li>OAGene_OAGeneProcessor</li>
+          <li>OAGene_OAGeneFragmentInterceptor</li>
+          <li>OAGene_OARatkinGeneDiscriminator</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>chinon.passer</packageId>
+        <name>Passer Race</name>
+        <version></version>
+        <modorder>314</modorder>
+        <steamWorkshopId>3805568727</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>PAS_Building_PasserNest_Awful</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.biotech</packageId>
+        <name>Biotech</name>
+        <version></version>
+        <modorder>8</modorder>
+        <things>
+          <li>GeneAssembler</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>oark.ratkinfaction.scenarioexpand.snowstorm</packageId>
+        <name>[OA]Ratkin Scenario: Snowstorm Orphan</name>
+        <version></version>
+        <modorder>113</modorder>
+        <steamWorkshopId>3381392312</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oark.ratkinfaction.geneexpand</packageId>
+            <steamWorkshopId>3300291918</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oark.oberoniaaurea.framework</packageId>
+            <steamWorkshopId>3713589764</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>solaris.ratkinracemod</packageId>
+            <steamWorkshopId>1578693166</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <steamWorkshopId>839005762</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>OA_RK_FloorSnow_B</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>鼠鼠基因</default>
+        <zh-CN>鼠鼠基因</zh-CN>
+      </name>
+      <tags>
+        <default>BiotechDLC</default>
+      </tags>
+    </multiLanguage>
+    <structureDefs>
+      <li>
+        <defName>UFLI_Wall</defName>
+        <kind>Wall</kind>
+        <size>(1,1)</size>
+      </li>
+      <li>
+        <defName>UFLI_1_Autodoor</defName>
+        <kind>Door</kind>
+        <size>(1,1)</size>
+      </li>
+      <li>
+        <defName>UFLI_3_Autodoor</defName>
+        <kind>Door</kind>
+        <size>(3,1)</size>
+      </li>
+    </structureDefs>
+    <thingKinds version="1">
+      <Buildings>
+        <li>GeneAssembler</li>
+        <li>HiddenConduit</li>
+        <li>OAGene_OAGeneBank</li>
+        <li>OAGene_OAGeneFragmentInterceptor</li>
+        <li>OAGene_OAGeneProcessor</li>
+        <li>OAGene_OARatkinGeneDiscriminator</li>
+        <li>PAS_Building_PasserNest_Awful</li>
+        <li>UFLI_1_Autodoor</li>
+        <li>UFLI_3_Autodoor</li>
+        <li>UFLI_3_Frame_DOOR</li>
+        <li>UFLI_Column</li>
+        <li>UFLI_Wall</li>
+        <li>UFLI_Walllamp</li>
+      </Buildings>
+    </thingKinds>
+    <repairDefs version="1">
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Bridge</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>WoodLog</li>
+          </resources>
+          <colors />
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>2</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Limestone_Rough</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>limestone</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Limestone_RoughHewn</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>limestone</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Marsh</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>MossyTerrain</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>OA_RK_FloorSnow_B</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>Steel</li>
+          </resources>
+          <colors />
+          <materials>
+            <li>ice</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>UFLI_HeavyBridge</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>Steel</li>
+          </resources>
+          <colors />
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>2</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_1_Autodoor</defName>
+        <tags>
+          <li>Door</li>
+        </tags>
+        <builtinSources>
+          <li>Autodoor</li>
+        </builtinSources>
+        <match>
+          <size>(1, 1)</size>
+          <label>联合自动门 1X1</label>
+          <passability>Standable</passability>
+          <marketValue>146.88</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_3_Autodoor</defName>
+        <tags>
+          <li>Door</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 1)</size>
+          <label>联合自动门 3X1</label>
+          <passability>Standable</passability>
+          <marketValue>370</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_Column</defName>
+        <tags />
+        <builtinSources>
+          <li>Column</li>
+        </builtinSources>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_Wall</defName>
+        <tags>
+          <li>Wall</li>
+        </tags>
+        <builtinSources>
+          <li>Wall</li>
+        </builtinSources>
+        <match>
+          <size>(1, 1)</size>
+          <label>联合墙体</label>
+          <passability>Impassable</passability>
+          <marketValue>2</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_Walllamp</defName>
+        <tags>
+          <li>Attachment</li>
+          <li>Lamp</li>
+        </tags>
+        <builtinSources>
+          <li>WallLamp</li>
+        </builtinSources>
+        <match>
+          <size>(1, 1)</size>
+          <label>联合壁灯</label>
+          <passability>Standable</passability>
+          <marketValue>29.58</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+    </repairDefs>
+  </extraInfo>
+  <things>
+    <UFLI_Wall>
+      <rects>
+        <li>(0,0,6,0)</li>
+        <li>(8,0,21,0)</li>
+        <li>(23,0,29,0)</li>
+        <li>(0,1,0,4)</li>
+        <li>(29,1,29,4)</li>
+        <li>(0,8,0,12)</li>
+        <li>(29,8,29,12)</li>
+        <li>(1,12,28,12)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Wall>
+    <HiddenConduit>
+      <rects>
+        <li>(7,0,7,9)</li>
+        <li>(22,0,22,12)</li>
+        <li>(0,6,6,6)</li>
+        <li>(8,6,21,6)</li>
+        <li>(23,6,29,6)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <UFLI_1_Autodoor>
+      <rects>
+        <li>(7,0,7,0)</li>
+        <li>(22,0,22,0)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_1_Autodoor>
+    <OAGene_OAGeneBank>
+      <positions>
+        <li>(1, 0, 1)</li>
+        <li>(3, 0, 1)</li>
+        <li>(5, 0, 1)</li>
+        <li>(23, 0, 1)</li>
+        <li>(25, 0, 1)</li>
+        <li>(27, 0, 1)</li>
+        <li>(1, 0, 3)</li>
+        <li>(3, 0, 3)</li>
+        <li>(5, 0, 3)</li>
+        <li>(23, 0, 3)</li>
+        <li>(25, 0, 3)</li>
+        <li>(27, 0, 3)</li>
+        <li>(1, 0, 8)</li>
+        <li>(3, 0, 8)</li>
+        <li>(5, 0, 8)</li>
+        <li>(23, 0, 8)</li>
+        <li>(25, 0, 8)</li>
+        <li>(27, 0, 8)</li>
+        <li>(1, 0, 10)</li>
+        <li>(3, 0, 10)</li>
+        <li>(5, 0, 10)</li>
+        <li>(23, 0, 10)</li>
+        <li>(25, 0, 10)</li>
+        <li>(27, 0, 10)</li>
+      </positions>
+    </OAGene_OAGeneBank>
+    <OAGene_OAGeneProcessor>
+      <positions>
+        <li>(8, 0, 1)</li>
+        <li>(10, 0, 1)</li>
+        <li>(12, 0, 1)</li>
+        <li>(14, 0, 1)</li>
+        <li>(16, 0, 1)</li>
+        <li>(18, 0, 1)</li>
+        <li>(20, 0, 1)</li>
+        <li>(8, 0, 3)</li>
+        <li>(10, 0, 3)</li>
+        <li>(12, 0, 3)</li>
+        <li>(14, 0, 3)</li>
+        <li>(16, 0, 3)</li>
+        <li>(18, 0, 3)</li>
+        <li>(20, 0, 3)</li>
+        <li>(8, 0, 8)</li>
+        <li>(10, 0, 8)</li>
+        <li>(12, 0, 8)</li>
+        <li>(14, 0, 8)</li>
+        <li>(16, 0, 8)</li>
+        <li>(18, 0, 8)</li>
+        <li>(20, 0, 8)</li>
+        <li>(8, 0, 10)</li>
+        <li>(10, 0, 10)</li>
+        <li>(12, 0, 10)</li>
+        <li>(14, 0, 10)</li>
+        <li>(16, 0, 10)</li>
+        <li>(18, 0, 10)</li>
+        <li>(20, 0, 10)</li>
+      </positions>
+    </OAGene_OAGeneProcessor>
+    <UFLI_3_Autodoor>
+      <positions>
+        <li>(0, 0, 6)</li>
+        <li>(29, 0, 6)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_3_Autodoor>
+    <UFLI_3_Frame_DOOR>
+      <positions>
+        <li>(0, 0, 6)</li>
+        <li>(29, 0, 6)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_3_Frame_DOOR>
+    <PAS_Building_PasserNest_Awful>
+      <rects>
+        <li>(18,5,18,5)</li>
+      </rects>
+    </PAS_Building_PasserNest_Awful>
+    <OAGene_OAGeneFragmentInterceptor>
+      <position>(12, 0, 6)</position>
+    </OAGene_OAGeneFragmentInterceptor>
+    <GeneAssembler>
+      <position>(15, 0, 7)</position>
+      <relativeRotation>Opposite</relativeRotation>
+    </GeneAssembler>
+    <OAGene_OARatkinGeneDiscriminator>
+      <position>(18, 0, 6)</position>
+    </OAGene_OARatkinGeneDiscriminator>
+    <UFLI_Column>
+      <rects>
+        <li>(8,7,8,7)</li>
+        <li>(21,7,21,7)</li>
+      </rects>
+    </UFLI_Column>
+    <UFLI_Walllamp>
+      <rects>
+        <li>(7,11,7,11)</li>
+        <li>(22,11,22,11)</li>
+      </rects>
+    </UFLI_Walllamp>
+  </things>
+  <terrain>
+    <OA_RK_FloorSnow_B>
+      <rects>
+        <li>(7,0,7,11)</li>
+        <li>(22,0,22,11)</li>
+        <li>(1,1,6,11)</li>
+        <li>(8,1,21,11)</li>
+        <li>(23,1,29,11)</li>
+        <li>(0,5,0,7)</li>
+      </rects>
+    </OA_RK_FloorSnow_B>
+    <UFLI_HeavyBridge>
+      <rects>
+        <li>(0,4,0,4)</li>
+        <li>(5,12,8,12)</li>
+      </rects>
+    </UFLI_HeavyBridge>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <OA_RK_FloorSnow_B>
+        <rects>
+          <li>(7,0,7,11)</li>
+          <li>(22,0,22,11)</li>
+          <li>(1,1,6,11)</li>
+          <li>(8,1,21,11)</li>
+          <li>(23,1,29,11)</li>
+          <li>(0,5,0,7)</li>
+        </rects>
+      </OA_RK_FloorSnow_B>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Limestone_RoughHewn>
+        <rects>
+          <li>(7,0,7,9)</li>
+          <li>(22,0,22,11)</li>
+          <li>(1,1,6,4)</li>
+          <li>(8,1,19,11)</li>
+          <li>(21,1,21,1)</li>
+          <li>(23,1,29,11)</li>
+          <li>(20,4,21,11)</li>
+          <li>(3,5,6,6)</li>
+          <li>(5,7,6,8)</li>
+          <li>(6,9,6,9)</li>
+        </rects>
+      </Limestone_RoughHewn>
+      <Limestone_Rough>
+        <rects>
+          <li>(20,1,20,3)</li>
+          <li>(21,2,21,3)</li>
+        </rects>
+      </Limestone_Rough>
+      <Marsh>
+        <rects>
+          <li>(0,5,2,5)</li>
+          <li>(1,6,2,7)</li>
+          <li>(3,7,4,8)</li>
+          <li>(5,9,5,10)</li>
+          <li>(4,10,4,10)</li>
+          <li>(6,10,7,11)</li>
+        </rects>
+      </Marsh>
+      <MossyTerrain>
+        <rects>
+          <li>(0,6,0,7)</li>
+          <li>(1,8,2,11)</li>
+          <li>(3,9,4,9)</li>
+          <li>(3,10,3,11)</li>
+          <li>(4,11,5,11)</li>
+        </rects>
+      </MossyTerrain>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="foundationGrid">
+      <UFLI_HeavyBridge>
+        <rects>
+          <li>(0,4,0,5)</li>
+          <li>(3,7,4,7)</li>
+          <li>(5,12,8,12)</li>
+        </rects>
+      </UFLI_HeavyBridge>
+      <Bridge>
+        <rects>
+          <li>(1,5,2,7)</li>
+          <li>(3,8,4,8)</li>
+          <li>(5,9,5,10)</li>
+          <li>(4,10,4,10)</li>
+          <li>(6,10,7,11)</li>
+        </rects>
+      </Bridge>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofRockThick>
+      <rects>
+        <li>(0,0,29,2)</li>
+        <li>(3,3,29,3)</li>
+        <li>(4,4,29,4)</li>
+        <li>(5,5,29,5)</li>
+        <li>(6,6,29,7)</li>
+        <li>(7,8,29,8)</li>
+        <li>(8,9,29,9)</li>
+        <li>(10,10,29,10)</li>
+        <li>(11,11,29,12)</li>
+      </rects>
+    </RoofRockThick>
+    <RoofConstructed>
+      <rects>
+        <li>(0,3,2,12)</li>
+        <li>(3,5,3,12)</li>
+        <li>(4,7,4,12)</li>
+        <li>(5,8,5,12)</li>
+        <li>(6,9,6,12)</li>
+        <li>(7,10,7,12)</li>
+        <li>(8,11,8,12)</li>
+      </rects>
+    </RoofConstructed>
+    <RoofRockThin>
+      <rects>
+        <li>(3,4,3,4)</li>
+        <li>(4,5,4,6)</li>
+        <li>(5,6,5,7)</li>
+        <li>(6,8,6,8)</li>
+        <li>(7,9,7,9)</li>
+        <li>(8,10,9,10)</li>
+        <li>(9,11,10,12)</li>
+      </rects>
+    </RoofRockThin>
+    <PlayerRoofZone>
+      <rects>
+        <li>(0,0,29,12)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
