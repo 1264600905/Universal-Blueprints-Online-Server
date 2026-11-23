@@ -1,0 +1,843 @@
+<PrefabDef>
+  <defName>Prefab_20261123_224447</defName>
+  <size>(57,19)</size>
+  <extraInfo>
+    <version>1.6.9676.17735</version>
+    <name>卧室集群</name>
+    <description></description>
+    <tags>
+      <li>Dormitory</li>
+      <li>RoomModule</li>
+    </tags>
+    <author></author>
+    <category>Dormitory</category>
+    <BuildingID>a9610b5b-d3fa-4876-a678-9be6dfec07d3</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>nephlite.orbitaltradecolumn</packageId>
+        <name>Utility Columns</name>
+        <version></version>
+        <modorder>124</modorder>
+        <steamWorkshopId>2013476665</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Wall_HeatDevice</li>
+          <li>Wall_CoolDevice</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>memegoddess.replacestuff</packageId>
+        <name>Replace Stuff - Continued</name>
+        <version></version>
+        <modorder>166</modorder>
+        <steamWorkshopId>3526354009</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Vent_Over</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>vanillaexpanded.vfecore</packageId>
+        <name>Vanilla Furniture Expanded</name>
+        <version></version>
+        <modorder>73</modorder>
+        <steamWorkshopId>1718190143</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>Bin_Large</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>dubwise.rimefeller</packageId>
+        <name>Rimefeller</name>
+        <version>1.2.2086</version>
+        <modorder>106</modorder>
+        <steamWorkshopId>1321849735</steamWorkshopId>
+        <things>
+          <li>Wood_ParquetVersailles</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>buildable.terrain</packageId>
+        <name>Buildable Terrain v1</name>
+        <version></version>
+        <modorder>87</modorder>
+        <steamWorkshopId>1420979918</steamWorkshopId>
+        <things>
+          <li>Soil</li>
+          <li>Sand</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>卧室集群</default>
+        <zh-CN>卧室集群</zh-CN>
+      </name>
+      <tags>
+        <default>Dormitory,RoomModule</default>
+      </tags>
+    </multiLanguage>
+    <structureDefs>
+      <li>
+        <defName>Wall</defName>
+        <kind>Wall</kind>
+        <size>(1,1)</size>
+      </li>
+      <li>
+        <defName>Door</defName>
+        <kind>Door</kind>
+        <size>(1,1)</size>
+      </li>
+    </structureDefs>
+    <thingKinds version="1">
+      <Buildings>
+        <li>Bin_Large</li>
+        <li>Door</li>
+        <li>DoubleBed</li>
+        <li>Dresser</li>
+        <li>EndTable</li>
+        <li>HiddenConduit</li>
+        <li>Vent_Over</li>
+        <li>Wall</li>
+        <li>Wall_CoolDevice</li>
+        <li>Wall_HeatDevice</li>
+      </Buildings>
+    </thingKinds>
+    <repairDefs version="1">
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>FlagstoneSlate</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>BlocksSlate</li>
+          </resources>
+          <colors />
+          <materials>
+            <li>slate</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Sand</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>sand</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Soil</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>soil</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>TileSandstone</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>BlocksSandstone</li>
+          </resources>
+          <colors />
+          <materials>
+            <li>sandstone</li>
+            <li>sand</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Wood_ParquetVersailles</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>WoodLog</li>
+          </resources>
+          <colors />
+          <materials>
+            <li>wood</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Door</defName>
+        <tags>
+          <li>Door</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>门 (1x1)</label>
+          <passability>Standable</passability>
+          <marketValue>51.53</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>DoubleBed</defName>
+        <tags>
+          <li>Bed</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 2)</size>
+          <label>双人床</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>172.7</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Dresser</defName>
+        <tags>
+          <li>Bedside</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 1)</size>
+          <label>矮柜</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>103.6</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>EndTable</defName>
+        <tags>
+          <li>Bedside</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>床头柜</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>61.8</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Wall</defName>
+        <tags>
+          <li>Wall</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>墙</label>
+          <passability>Impassable</passability>
+          <marketValue>10.243</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Wall_CoolDevice</defName>
+        <tags>
+          <li>Attachment</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>制冷单元</label>
+          <passability>Standable</passability>
+          <marketValue>210</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Wall_HeatDevice</defName>
+        <tags>
+          <li>Attachment</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>加热单元</label>
+          <passability>Standable</passability>
+          <marketValue>210</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+    </repairDefs>
+  </extraInfo>
+  <things>
+    <HiddenConduit>
+      <rects>
+        <li>(0,0,55,0)</li>
+        <li>(1,1,1,18)</li>
+        <li>(9,1,9,18)</li>
+        <li>(28,1,28,18)</li>
+        <li>(36,1,36,18)</li>
+        <li>(47,1,47,18)</li>
+        <li>(55,1,55,18)</li>
+        <li>(0,16,0,16)</li>
+        <li>(2,18,8,18)</li>
+        <li>(10,18,27,18)</li>
+        <li>(29,18,35,18)</li>
+        <li>(39,18,46,18)</li>
+        <li>(48,18,54,18)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <Wall>
+      <rects>
+        <li>(1,0,17,0)</li>
+        <li>(20,0,36,0)</li>
+        <li>(39,0,55,0)</li>
+        <li>(9,1,9,18)</li>
+        <li>(28,1,28,18)</li>
+        <li>(47,1,47,18)</li>
+        <li>(1,2,1,6)</li>
+        <li>(17,2,17,6)</li>
+        <li>(20,2,20,6)</li>
+        <li>(36,2,36,6)</li>
+        <li>(39,2,39,6)</li>
+        <li>(55,2,55,6)</li>
+        <li>(2,6,8,6)</li>
+        <li>(10,6,16,6)</li>
+        <li>(21,6,27,6)</li>
+        <li>(29,6,35,6)</li>
+        <li>(40,6,46,6)</li>
+        <li>(48,6,54,6)</li>
+        <li>(1,8,1,12)</li>
+        <li>(17,8,17,12)</li>
+        <li>(20,8,20,12)</li>
+        <li>(36,8,36,12)</li>
+        <li>(39,8,39,12)</li>
+        <li>(55,8,55,12)</li>
+        <li>(2,12,8,12)</li>
+        <li>(10,12,16,12)</li>
+        <li>(21,12,27,12)</li>
+        <li>(29,12,35,12)</li>
+        <li>(40,12,46,12)</li>
+        <li>(48,12,54,12)</li>
+        <li>(1,14,1,18)</li>
+        <li>(17,14,17,18)</li>
+        <li>(20,14,20,18)</li>
+        <li>(36,14,36,18)</li>
+        <li>(39,14,39,18)</li>
+        <li>(55,14,55,18)</li>
+        <li>(2,18,8,18)</li>
+        <li>(10,18,16,18)</li>
+        <li>(21,18,27,18)</li>
+        <li>(29,18,35,18)</li>
+        <li>(40,18,46,18)</li>
+        <li>(48,18,54,18)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </Wall>
+    <Door>
+      <rects>
+        <li>(1,1,1,1)</li>
+        <li>(17,1,17,1)</li>
+        <li>(20,1,20,1)</li>
+        <li>(36,1,36,1)</li>
+        <li>(39,1,39,1)</li>
+        <li>(55,1,55,1)</li>
+        <li>(1,7,1,7)</li>
+        <li>(17,7,17,7)</li>
+        <li>(20,7,20,7)</li>
+        <li>(36,7,36,7)</li>
+        <li>(39,7,39,7)</li>
+        <li>(55,7,55,7)</li>
+        <li>(1,13,1,13)</li>
+        <li>(17,13,17,13)</li>
+        <li>(20,13,20,13)</li>
+        <li>(36,13,36,13)</li>
+        <li>(39,13,39,13)</li>
+        <li>(55,13,55,13)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </Door>
+    <DoubleBed>
+      <positions>
+        <li>(7, 0, 4)</li>
+        <li>(12, 0, 10)</li>
+        <li>(26, 0, 10)</li>
+        <li>(50, 0, 10)</li>
+        <li>(7, 0, 16)</li>
+        <li>(12, 0, 16)</li>
+        <li>(45, 0, 16)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DoubleBed>
+    <DoubleBed>
+      <positions>
+        <li>(12, 0, 4)</li>
+        <li>(26, 0, 4)</li>
+        <li>(45, 0, 4)</li>
+        <li>(50, 0, 4)</li>
+        <li>(7, 0, 10)</li>
+        <li>(45, 0, 10)</li>
+        <li>(26, 0, 16)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DoubleBed>
+    <DoubleBed>
+      <positions>
+        <li>(31, 0, 4)</li>
+        <li>(31, 0, 10)</li>
+        <li>(31, 0, 16)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DoubleBed>
+    <Dresser>
+      <positions>
+        <li>(5, 0, 4)</li>
+        <li>(14, 0, 4)</li>
+        <li>(5, 0, 10)</li>
+        <li>(5, 0, 16)</li>
+        <li>(43, 0, 16)</li>
+        <li>(52, 0, 16)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Dresser>
+    <EndTable>
+      <rects>
+        <li>(8,4,8,4)</li>
+        <li>(29,4,29,4)</li>
+        <li>(48,4,48,4)</li>
+        <li>(10,10,10,10)</li>
+        <li>(27,16,27,16)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </EndTable>
+    <EndTable>
+      <rects>
+        <li>(10,4,10,4)</li>
+        <li>(46,4,46,4)</li>
+        <li>(46,10,46,10)</li>
+        <li>(48,10,48,10)</li>
+        <li>(46,16,46,16)</li>
+        <li>(48,16,48,16)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </EndTable>
+    <Dresser>
+      <positions>
+        <li>(24, 0, 4)</li>
+        <li>(33, 0, 4)</li>
+        <li>(43, 0, 4)</li>
+        <li>(52, 0, 4)</li>
+        <li>(24, 0, 10)</li>
+        <li>(43, 0, 10)</li>
+        <li>(52, 0, 10)</li>
+        <li>(14, 0, 16)</li>
+        <li>(24, 0, 16)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Dresser>
+    <EndTable>
+      <rects>
+        <li>(27,4,27,4)</li>
+        <li>(8,10,8,10)</li>
+        <li>(8,16,8,16)</li>
+        <li>(10,16,10,16)</li>
+        <li>(29,16,29,16)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Poor</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </EndTable>
+    <Wall_HeatDevice>
+      <rects>
+        <li>(8,5,8,5)</li>
+        <li>(10,5,10,5)</li>
+        <li>(27,5,27,5)</li>
+        <li>(29,5,29,5)</li>
+        <li>(46,5,46,5)</li>
+        <li>(48,5,48,5)</li>
+        <li>(8,17,8,17)</li>
+        <li>(10,17,10,17)</li>
+        <li>(27,17,27,17)</li>
+        <li>(29,17,29,17)</li>
+        <li>(46,17,46,17)</li>
+        <li>(48,17,48,17)</li>
+      </rects>
+    </Wall_HeatDevice>
+    <Vent_Over>
+      <rects>
+        <li>(2,6,2,6)</li>
+        <li>(16,6,16,6)</li>
+        <li>(21,6,21,6)</li>
+        <li>(35,6,35,6)</li>
+        <li>(40,6,40,6)</li>
+        <li>(54,6,54,6)</li>
+        <li>(2,12,2,12)</li>
+        <li>(16,12,16,12)</li>
+        <li>(21,12,21,12)</li>
+        <li>(35,12,35,12)</li>
+        <li>(40,12,40,12)</li>
+        <li>(54,12,54,12)</li>
+      </rects>
+    </Vent_Over>
+    <Dresser>
+      <position>(14, 0, 10)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Dresser>
+    <EndTable>
+      <rects>
+        <li>(27,10,27,10)</li>
+        <li>(29,10,29,10)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </EndTable>
+    <Dresser>
+      <positions>
+        <li>(33, 0, 10)</li>
+        <li>(33, 0, 16)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Poor</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Dresser>
+    <Wall_CoolDevice>
+      <rects>
+        <li>(8,11,8,11)</li>
+        <li>(10,11,10,11)</li>
+        <li>(27,11,27,11)</li>
+        <li>(29,11,29,11)</li>
+        <li>(46,11,46,11)</li>
+        <li>(48,11,48,11)</li>
+      </rects>
+    </Wall_CoolDevice>
+    <DoubleBed>
+      <position>(50, 0, 16)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Poor</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </DoubleBed>
+    <Bin_Large>
+      <positions>
+        <li>(0, 0, 18)</li>
+        <li>(19, 0, 18)</li>
+        <li>(38, 0, 18)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Bin_Large>
+  </things>
+  <terrain>
+    <FlagstoneSlate>
+      <rects>
+        <li>(0,0,0,18)</li>
+        <li>(18,0,19,18)</li>
+        <li>(37,0,38,18)</li>
+        <li>(56,0,56,18)</li>
+      </rects>
+    </FlagstoneSlate>
+    <Wood_ParquetVersailles>
+      <rects>
+        <li>(1,1,8,1)</li>
+        <li>(10,1,17,1)</li>
+        <li>(20,1,27,1)</li>
+        <li>(29,1,36,1)</li>
+        <li>(39,1,46,1)</li>
+        <li>(48,1,55,1)</li>
+        <li>(2,2,8,5)</li>
+        <li>(10,2,16,5)</li>
+        <li>(21,2,27,5)</li>
+        <li>(29,2,35,5)</li>
+        <li>(40,2,46,5)</li>
+        <li>(48,2,54,5)</li>
+        <li>(1,7,8,7)</li>
+        <li>(10,7,17,7)</li>
+        <li>(20,7,27,7)</li>
+        <li>(29,7,36,7)</li>
+        <li>(39,7,46,7)</li>
+        <li>(48,7,55,7)</li>
+        <li>(2,8,8,11)</li>
+        <li>(10,8,16,11)</li>
+        <li>(21,8,27,11)</li>
+        <li>(29,8,35,11)</li>
+        <li>(40,8,46,11)</li>
+        <li>(48,8,54,11)</li>
+        <li>(1,13,8,13)</li>
+        <li>(10,13,17,13)</li>
+        <li>(20,13,27,13)</li>
+        <li>(29,13,36,13)</li>
+        <li>(39,13,46,13)</li>
+        <li>(48,13,55,13)</li>
+        <li>(2,14,8,17)</li>
+        <li>(10,14,16,17)</li>
+        <li>(21,14,27,17)</li>
+        <li>(29,14,35,17)</li>
+        <li>(40,14,46,17)</li>
+        <li>(48,14,54,17)</li>
+      </rects>
+    </Wood_ParquetVersailles>
+    <TileSandstone>
+      <rects>
+        <li>(16,6,16,6)</li>
+        <li>(17,9,17,9)</li>
+      </rects>
+    </TileSandstone>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <FlagstoneSlate>
+        <rects>
+          <li>(0,0,0,18)</li>
+          <li>(18,0,19,18)</li>
+          <li>(37,0,38,18)</li>
+          <li>(56,0,56,18)</li>
+        </rects>
+      </FlagstoneSlate>
+      <Wood_ParquetVersailles>
+        <rects>
+          <li>(1,1,8,1)</li>
+          <li>(10,1,17,1)</li>
+          <li>(20,1,27,1)</li>
+          <li>(29,1,36,1)</li>
+          <li>(39,1,46,1)</li>
+          <li>(48,1,55,1)</li>
+          <li>(2,2,8,5)</li>
+          <li>(10,2,16,5)</li>
+          <li>(21,2,27,5)</li>
+          <li>(29,2,35,5)</li>
+          <li>(40,2,46,5)</li>
+          <li>(48,2,54,5)</li>
+          <li>(1,7,8,7)</li>
+          <li>(10,7,17,7)</li>
+          <li>(20,7,27,7)</li>
+          <li>(29,7,36,7)</li>
+          <li>(39,7,46,7)</li>
+          <li>(48,7,55,7)</li>
+          <li>(2,8,8,11)</li>
+          <li>(10,8,16,11)</li>
+          <li>(21,8,27,11)</li>
+          <li>(29,8,35,11)</li>
+          <li>(40,8,46,11)</li>
+          <li>(48,8,54,11)</li>
+          <li>(1,13,8,13)</li>
+          <li>(10,13,17,13)</li>
+          <li>(20,13,27,13)</li>
+          <li>(29,13,36,13)</li>
+          <li>(39,13,46,13)</li>
+          <li>(48,13,55,13)</li>
+          <li>(2,14,8,17)</li>
+          <li>(10,14,16,17)</li>
+          <li>(21,14,27,17)</li>
+          <li>(29,14,35,17)</li>
+          <li>(40,14,46,17)</li>
+          <li>(48,14,54,17)</li>
+        </rects>
+      </Wood_ParquetVersailles>
+      <TileSandstone>
+        <rects>
+          <li>(16,6,16,6)</li>
+          <li>(17,9,17,9)</li>
+        </rects>
+      </TileSandstone>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(0,0,0,18)</li>
+          <li>(18,0,19,18)</li>
+          <li>(37,0,38,18)</li>
+          <li>(1,1,8,1)</li>
+          <li>(10,1,17,1)</li>
+          <li>(20,1,27,1)</li>
+          <li>(29,1,36,1)</li>
+          <li>(39,1,44,1)</li>
+          <li>(2,2,8,5)</li>
+          <li>(10,2,16,5)</li>
+          <li>(21,2,27,5)</li>
+          <li>(29,2,35,5)</li>
+          <li>(40,2,43,2)</li>
+          <li>(40,3,41,5)</li>
+          <li>(16,6,16,11)</li>
+          <li>(1,7,8,7)</li>
+          <li>(10,7,15,11)</li>
+          <li>(17,7,17,7)</li>
+          <li>(20,7,27,7)</li>
+          <li>(29,7,36,7)</li>
+          <li>(39,7,45,7)</li>
+          <li>(2,8,8,11)</li>
+          <li>(21,8,27,11)</li>
+          <li>(29,8,35,11)</li>
+          <li>(40,8,46,11)</li>
+          <li>(17,9,17,9)</li>
+          <li>(48,9,48,11)</li>
+          <li>(49,11,49,11)</li>
+          <li>(1,13,8,13)</li>
+          <li>(10,13,17,13)</li>
+          <li>(20,13,27,13)</li>
+          <li>(29,13,36,13)</li>
+          <li>(39,13,46,13)</li>
+          <li>(48,13,49,17)</li>
+          <li>(2,14,8,17)</li>
+          <li>(10,14,16,17)</li>
+          <li>(21,14,27,17)</li>
+          <li>(29,14,35,17)</li>
+          <li>(40,14,46,17)</li>
+          <li>(50,14,50,14)</li>
+        </rects>
+      </Soil>
+      <Sand>
+        <rects>
+          <li>(56,0,56,18)</li>
+          <li>(45,1,46,5)</li>
+          <li>(48,1,55,1)</li>
+          <li>(44,2,44,5)</li>
+          <li>(48,2,54,5)</li>
+          <li>(42,3,43,5)</li>
+          <li>(46,7,46,7)</li>
+          <li>(48,7,55,7)</li>
+          <li>(48,8,54,8)</li>
+          <li>(49,9,54,10)</li>
+          <li>(50,11,54,11)</li>
+          <li>(50,13,55,13)</li>
+          <li>(51,14,54,17)</li>
+          <li>(50,15,50,17)</li>
+        </rects>
+      </Sand>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(1,0,17,18)</li>
+        <li>(20,0,36,18)</li>
+        <li>(39,0,55,18)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(1,0,17,18)</li>
+        <li>(20,0,36,18)</li>
+        <li>(39,0,55,18)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
