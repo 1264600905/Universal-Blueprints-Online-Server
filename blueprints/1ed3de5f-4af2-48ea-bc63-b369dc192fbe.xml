@@ -1,0 +1,500 @@
+<PrefabDef>
+  <defName>Prefab_20261124_212051</defName>
+  <size>(18,18)</size>
+  <extraInfo>
+    <version>1.7.9819.35854</version>
+    <name>农场</name>
+    <description></description>
+    <tags>
+      <li>BaseBlueprint</li>
+      <li>Beauty</li>
+    </tags>
+    <author></author>
+    <category>BaseBlueprint</category>
+    <BuildingID>1ed3de5f-4af2-48ea-bc63-b369dc192fbe</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>vanillaexpanded.vfefarming</packageId>
+        <name>Vanilla Furniture Expanded - Farming</name>
+        <version></version>
+        <modorder>107</modorder>
+        <steamWorkshopId>1957158779</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VFE_Ecosystem</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>buildable.terrain</packageId>
+        <name>Buildable Terrain v1</name>
+        <version></version>
+        <modorder>255</modorder>
+        <steamWorkshopId>1420979918</steamWorkshopId>
+        <things>
+          <li>Soil</li>
+          <li>Gravel</li>
+          <li>WaterShallow</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.odyssey</packageId>
+        <name>Odyssey</name>
+        <version></version>
+        <modorder>8</modorder>
+        <things>
+          <li>HeavyBridge</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>农场</default>
+        <zh-CN>农场</zh-CN>
+      </name>
+      <tags>
+        <default>BaseBlueprint,Beauty</default>
+      </tags>
+    </multiLanguage>
+    <structureDefs>
+      <li>
+        <defName>Wall</defName>
+        <kind>Wall</kind>
+        <size>(1,1)</size>
+      </li>
+      <li>
+        <defName>Autodoor</defName>
+        <kind>Door</kind>
+        <size>(1,1)</size>
+      </li>
+    </structureDefs>
+    <thingKinds version="1">
+      <Buildings>
+        <li>Autodoor</li>
+        <li>Fence</li>
+        <li>Heater</li>
+        <li>PowerConduit</li>
+        <li>VFE_Ecosystem</li>
+        <li>Wall</li>
+      </Buildings>
+    </thingKinds>
+    <repairDefs version="1">
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Granite_RoughHewn</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>granite</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Gravel</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>sand</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>HeavyBridge</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>Steel</li>
+          </resources>
+          <colors />
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>2</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>MetalTile</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>Steel</li>
+          </resources>
+          <colors />
+          <materials>
+            <li>metal</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>PavedTile</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>Steel</li>
+          </resources>
+          <colors />
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Soil</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>soil</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>SterileTile</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>Steel</li>
+            <li>Silver</li>
+          </resources>
+          <colors />
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>WaterShallow</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Autodoor</defName>
+        <tags>
+          <li>Door</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>自动门</label>
+          <passability>Standable</passability>
+          <marketValue>193.96</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Wall</defName>
+        <tags>
+          <li>Wall</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>墙</label>
+          <passability>Impassable</passability>
+          <marketValue>10.486</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+    </repairDefs>
+  </extraInfo>
+  <things>
+    <Wall>
+      <rects>
+        <li>(0,0,5,0)</li>
+        <li>(12,0,17,0)</li>
+        <li>(0,1,0,6)</li>
+        <li>(5,1,5,2)</li>
+        <li>(12,1,12,2)</li>
+        <li>(17,1,17,6)</li>
+        <li>(6,2,11,2)</li>
+        <li>(0,8,0,9)</li>
+        <li>(17,8,17,9)</li>
+        <li>(0,11,0,17)</li>
+        <li>(17,11,17,17)</li>
+        <li>(5,15,12,15)</li>
+        <li>(5,16,5,17)</li>
+        <li>(12,16,12,17)</li>
+        <li>(1,17,4,17)</li>
+        <li>(13,17,16,17)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Wall>
+    <PowerConduit>
+      <rects>
+        <li>(0,0,5,0)</li>
+        <li>(12,0,17,0)</li>
+        <li>(0,1,0,17)</li>
+        <li>(5,1,5,2)</li>
+        <li>(12,1,12,2)</li>
+        <li>(17,1,17,17)</li>
+        <li>(6,2,11,2)</li>
+        <li>(5,15,12,15)</li>
+        <li>(5,16,5,17)</li>
+        <li>(12,16,12,17)</li>
+        <li>(1,17,4,17)</li>
+        <li>(13,17,16,17)</li>
+      </rects>
+    </PowerConduit>
+    <Fence>
+      <rects>
+        <li>(6,0,11,0)</li>
+        <li>(6,17,11,17)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Fence>
+    <VFE_Ecosystem>
+      <positions>
+        <li>(2, 0, 1)</li>
+        <li>(4, 0, 1)</li>
+        <li>(14, 0, 1)</li>
+        <li>(16, 0, 1)</li>
+        <li>(2, 0, 3)</li>
+        <li>(4, 0, 3)</li>
+        <li>(6, 0, 3)</li>
+        <li>(8, 0, 3)</li>
+        <li>(10, 0, 3)</li>
+        <li>(12, 0, 3)</li>
+        <li>(14, 0, 3)</li>
+        <li>(16, 0, 3)</li>
+        <li>(2, 0, 5)</li>
+        <li>(4, 0, 5)</li>
+        <li>(6, 0, 5)</li>
+        <li>(8, 0, 5)</li>
+        <li>(10, 0, 5)</li>
+        <li>(12, 0, 5)</li>
+        <li>(14, 0, 5)</li>
+        <li>(16, 0, 5)</li>
+        <li>(2, 0, 8)</li>
+        <li>(5, 0, 8)</li>
+        <li>(7, 0, 8)</li>
+        <li>(9, 0, 8)</li>
+        <li>(11, 0, 8)</li>
+        <li>(13, 0, 8)</li>
+        <li>(16, 0, 8)</li>
+        <li>(2, 0, 11)</li>
+        <li>(4, 0, 11)</li>
+        <li>(6, 0, 11)</li>
+        <li>(8, 0, 11)</li>
+        <li>(10, 0, 11)</li>
+        <li>(12, 0, 11)</li>
+        <li>(14, 0, 11)</li>
+        <li>(16, 0, 11)</li>
+        <li>(2, 0, 13)</li>
+        <li>(4, 0, 13)</li>
+        <li>(6, 0, 13)</li>
+        <li>(8, 0, 13)</li>
+        <li>(10, 0, 13)</li>
+        <li>(12, 0, 13)</li>
+        <li>(14, 0, 13)</li>
+        <li>(16, 0, 13)</li>
+        <li>(2, 0, 15)</li>
+        <li>(4, 0, 15)</li>
+        <li>(14, 0, 15)</li>
+        <li>(16, 0, 15)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </VFE_Ecosystem>
+    <Autodoor>
+      <rects>
+        <li>(0,7,0,7)</li>
+        <li>(17,7,17,7)</li>
+        <li>(0,10,0,10)</li>
+        <li>(17,10,17,10)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </Autodoor>
+    <Heater>
+      <rects>
+        <li>(3,8,3,9)</li>
+        <li>(14,8,14,9)</li>
+      </rects>
+    </Heater>
+  </things>
+  <terrain>
+    <PavedTile>
+      <rects>
+        <li>(0,0,5,0)</li>
+        <li>(12,0,17,0)</li>
+        <li>(0,7,0,10)</li>
+        <li>(17,7,17,10)</li>
+        <li>(0,17,5,17)</li>
+        <li>(12,17,17,17)</li>
+      </rects>
+    </PavedTile>
+    <SterileTile>
+      <rects>
+        <li>(6,1,11,1)</li>
+        <li>(6,16,11,16)</li>
+      </rects>
+    </SterileTile>
+    <MetalTile>
+      <rects>
+        <li>(1,2,4,15)</li>
+        <li>(13,2,16,15)</li>
+        <li>(5,3,12,14)</li>
+      </rects>
+    </MetalTile>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <PavedTile>
+        <rects>
+          <li>(0,0,5,0)</li>
+          <li>(12,0,17,0)</li>
+          <li>(0,7,0,10)</li>
+          <li>(17,7,17,10)</li>
+          <li>(0,17,5,17)</li>
+          <li>(12,17,17,17)</li>
+        </rects>
+      </PavedTile>
+      <SterileTile>
+        <rects>
+          <li>(6,1,11,1)</li>
+          <li>(6,16,11,16)</li>
+        </rects>
+      </SterileTile>
+      <MetalTile>
+        <rects>
+          <li>(1,2,4,15)</li>
+          <li>(13,2,16,15)</li>
+          <li>(5,3,12,14)</li>
+        </rects>
+      </MetalTile>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Soil>
+        <rects>
+          <li>(0,0,5,0)</li>
+          <li>(12,0,17,0)</li>
+          <li>(6,1,7,1)</li>
+          <li>(1,2,4,15)</li>
+          <li>(13,2,16,15)</li>
+          <li>(5,3,12,14)</li>
+          <li>(0,7,0,10)</li>
+          <li>(17,7,17,10)</li>
+          <li>(11,16,11,16)</li>
+          <li>(0,17,5,17)</li>
+          <li>(12,17,17,17)</li>
+        </rects>
+      </Soil>
+      <Gravel>
+        <rects>
+          <li>(8,1,8,1)</li>
+        </rects>
+      </Gravel>
+      <Granite_RoughHewn>
+        <rects>
+          <li>(9,1,11,1)</li>
+        </rects>
+      </Granite_RoughHewn>
+      <WaterShallow>
+        <rects>
+          <li>(6,16,10,16)</li>
+        </rects>
+      </WaterShallow>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="foundationGrid">
+      <HeavyBridge>
+        <rects>
+          <li>(6,16,11,16)</li>
+        </rects>
+      </HeavyBridge>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(0,0,5,17)</li>
+        <li>(12,0,17,17)</li>
+        <li>(6,2,11,15)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(6,1,11,1)</li>
+        <li>(6,16,11,16)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
