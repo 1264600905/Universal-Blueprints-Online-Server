@@ -1,0 +1,163 @@
+<PrefabDef>
+  <defName>Prefab_20261125_183440</defName>
+  <size>(18,17)</size>
+  <extraInfo>
+    <version>1.7.9819.35854</version>
+    <name>天工阵地</name>
+    <description></description>
+    <tags>
+      <li>DefenseWorks</li>
+    </tags>
+    <author></author>
+    <category>DefenseWorks</category>
+    <BuildingID>d7ddab50-bdd3-48ee-be84-0837e77389d4</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>tot.celetech.mkiii</packageId>
+        <name>CeleTech Arsenal MKIII</name>
+        <version></version>
+        <modorder>23</modorder>
+        <steamWorkshopId>3446237098</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>CMC_ReinforcedBunker</li>
+          <li>CMC_EMcannon</li>
+          <li>CMC_FCradar</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>天工阵地</default>
+        <zh-CN>天工阵地</zh-CN>
+      </name>
+      <tags>
+        <default>DefenseWorks</default>
+      </tags>
+    </multiLanguage>
+    <thingKinds version="1">
+      <Buildings>
+        <li>Barricade</li>
+        <li>CMC_EMcannon</li>
+        <li>CMC_FCradar</li>
+        <li>CMC_ReinforcedBunker</li>
+        <li>HiddenConduit</li>
+        <li>PowerConduit</li>
+        <li>Sandbags</li>
+      </Buildings>
+    </thingKinds>
+    <repairDefs version="1">
+      <li>
+        <defType>ThingDef</defType>
+        <defName>CMC_EMcannon</defName>
+        <tags>
+          <li>Turret</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 3)</size>
+          <label>HPJ-06 电磁炮</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>4255</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>CMC_ReinforcedBunker</defName>
+        <tags>
+          <li>Turret</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 3)</size>
+          <label>A/RB-LMG 地堡</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>3995</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+    </repairDefs>
+  </extraInfo>
+  <things>
+    <HiddenConduit>
+      <rects>
+        <li>(0,0,17,0)</li>
+        <li>(0,1,0,16)</li>
+        <li>(9,1,9,2)</li>
+        <li>(17,1,17,16)</li>
+        <li>(9,14,9,16)</li>
+        <li>(1,16,8,16)</li>
+        <li>(10,16,16,16)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <Barricade>
+      <rects>
+        <li>(0,0,17,0)</li>
+        <li>(0,1,0,16)</li>
+        <li>(17,1,17,6)</li>
+        <li>(17,10,17,16)</li>
+        <li>(1,16,16,16)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </Barricade>
+    <Sandbags>
+      <rects>
+        <li>(1,1,5,1)</li>
+        <li>(7,1,11,1)</li>
+        <li>(1,2,1,15)</li>
+        <li>(5,2,5,15)</li>
+        <li>(7,2,7,15)</li>
+        <li>(11,2,15,2)</li>
+        <li>(11,3,11,15)</li>
+        <li>(15,3,15,14)</li>
+        <li>(2,5,4,6)</li>
+        <li>(8,5,10,6)</li>
+        <li>(12,6,14,6)</li>
+        <li>(2,10,4,11)</li>
+        <li>(8,10,10,11)</li>
+        <li>(12,10,14,10)</li>
+        <li>(12,14,14,14)</li>
+        <li>(2,15,4,15)</li>
+        <li>(8,15,10,15)</li>
+      </rects>
+      <stuff>Cloth</stuff>
+      <color>RGBA(0.545, 0.478, 0.341, 1.000)</color>
+    </Sandbags>
+    <CMC_ReinforcedBunker>
+      <positions>
+        <li>(3, 0, 3)</li>
+        <li>(9, 0, 3)</li>
+        <li>(3, 0, 8)</li>
+        <li>(3, 0, 13)</li>
+        <li>(9, 0, 13)</li>
+      </positions>
+    </CMC_ReinforcedBunker>
+    <CMC_EMcannon>
+      <positions>
+        <li>(13, 0, 4)</li>
+        <li>(9, 0, 8)</li>
+        <li>(13, 0, 8)</li>
+        <li>(13, 0, 12)</li>
+      </positions>
+    </CMC_EMcannon>
+    <PowerConduit>
+      <rects>
+        <li>(7,8,8,8)</li>
+      </rects>
+    </PowerConduit>
+    <CMC_FCradar>
+      <position>(16, 0, 8)</position>
+    </CMC_FCradar>
+  </things>
+  <terrainLayers></terrainLayers>
+</PrefabDef>
