@@ -1,0 +1,843 @@
+<PrefabDef>
+  <defName>Prefab_20261127_162914</defName>
+  <size>(20,19)</size>
+  <extraInfo>
+    <version>1.7.9826.40963</version>
+    <name>仓库</name>
+    <description></description>
+    <tags>
+      <li>Storage</li>
+    </tags>
+    <author>梣</author>
+    <category>Storage</category>
+    <BuildingID>9dcce18f-a07a-4ed3-8f54-fb305704469c</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>oels.nanamewalls</packageId>
+        <name>Hull Style: NANAME Walls</name>
+        <version>1.7.3</version>
+        <modorder>199</modorder>
+        <steamWorkshopId>3543791340</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFLI_Wall_NAWDiagonal</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>kindseal.ufli</packageId>
+        <name>联合轻工家具拓展-UF Light Industries Furniture</name>
+        <version></version>
+        <modorder>442</modorder>
+        <steamWorkshopId>3651799915</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>UFLI_Wall</li>
+          <li>UFLI_Walllamp</li>
+          <li>UFLI_CouchDouble</li>
+          <li>UFLI_Decoration_Big_Flower</li>
+          <li>UFLI_1X2_Table</li>
+          <li>UFLI_3_Autodoor</li>
+          <li>UFLI_3_Frame_DOOR</li>
+          <li>UFLI_Decoration_Flower</li>
+          <li>UFLI_Linked_Table</li>
+          <li>UFLI_1_Frame_DOOR</li>
+          <li>UFLI_2_Autodoor</li>
+          <li>UFLI_2_Frame_DOOR</li>
+          <li>UFLI_Container_4X8_AS</li>
+          <li>UFLI_Container_2X2_AS</li>
+          <li>UFLI_Container_1X2_AS</li>
+          <li>UFLI_FLOORI</li>
+          <li>UFLI_FLOORP</li>
+          <li>UFLI_FLOORJ</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>rw.mod.simplestairs</packageId>
+        <name>SimpleStairs (Fork)</name>
+        <version></version>
+        <modorder>349</modorder>
+        <steamWorkshopId>3526906079</steamWorkshopId>
+        <things>
+          <li>Gomi_SimpleStair</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>仓库</default>
+        <zh-CN>仓库</zh-CN>
+      </name>
+      <tags>
+        <default>Storage</default>
+      </tags>
+    </multiLanguage>
+    <structureDefs>
+      <li>
+        <defName>UFLI_Wall_NAWDiagonal</defName>
+        <kind>Wall</kind>
+        <size>(1,1)</size>
+      </li>
+      <li>
+        <defName>UFLI_Wall</defName>
+        <kind>Wall</kind>
+        <size>(1,1)</size>
+      </li>
+      <li>
+        <defName>UFLI_3_Autodoor</defName>
+        <kind>Door</kind>
+        <size>(3,1)</size>
+      </li>
+      <li>
+        <defName>UFLI_2_Autodoor</defName>
+        <kind>Door</kind>
+        <size>(2,1)</size>
+      </li>
+    </structureDefs>
+    <thingKinds version="1">
+      <Buildings>
+        <li>UFLI_1X2_Table</li>
+        <li>UFLI_1_Frame_DOOR</li>
+        <li>UFLI_2_Autodoor</li>
+        <li>UFLI_2_Frame_DOOR</li>
+        <li>UFLI_3_Autodoor</li>
+        <li>UFLI_3_Frame_DOOR</li>
+        <li>UFLI_Container_1X2_AS</li>
+        <li>UFLI_Container_2X2_AS</li>
+        <li>UFLI_Container_4X8_AS</li>
+        <li>UFLI_CouchDouble</li>
+        <li>UFLI_Decoration_Big_Flower</li>
+        <li>UFLI_Decoration_Flower</li>
+        <li>UFLI_Linked_Table</li>
+        <li>UFLI_Wall</li>
+        <li>UFLI_Wall_NAWDiagonal</li>
+        <li>UFLI_Walllamp</li>
+      </Buildings>
+      <ArtificialTerrain>
+        <li>Gomi_SimpleStair</li>
+      </ArtificialTerrain>
+    </thingKinds>
+    <repairDefs version="1">
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>FlagstoneSandstone</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>BlocksSandstone</li>
+          </resources>
+          <colors />
+          <materials>
+            <li>sandstone</li>
+            <li>sand</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Gravel</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>sand</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Slate_Rough</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>slate</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Soil</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>soil</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>UFLI_FLOORI</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>Steel</li>
+          </resources>
+          <colors />
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>UFLI_FLOORJ</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources>
+          <li>SterileTile</li>
+        </builtinSources>
+        <match>
+          <resources>
+            <li>Steel</li>
+          </resources>
+          <colors />
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>UFLI_FLOORP</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>Steel</li>
+          </resources>
+          <colors />
+          <materials />
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Gomi_SimpleStair</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>楼梯</label>
+          <passability>Standable</passability>
+          <marketValue>2.36</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_1X2_Table</defName>
+        <tags>
+          <li>Table</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 1)</size>
+          <label>联合桌 1X2</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>62.7</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_2_Autodoor</defName>
+        <tags>
+          <li>Door</li>
+        </tags>
+        <builtinSources>
+          <li>OrnateDoor</li>
+        </builtinSources>
+        <match>
+          <size>(2, 1)</size>
+          <label>联合自动门 2X1</label>
+          <passability>Standable</passability>
+          <marketValue>260</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_3_Autodoor</defName>
+        <tags>
+          <li>Door</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 1)</size>
+          <label>联合自动门 3X1</label>
+          <passability>Standable</passability>
+          <marketValue>370</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_Container_1X2_AS</defName>
+        <tags>
+          <li>Storage</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 1)</size>
+          <label>联合储存货架(1X2)</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>48.94</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_Container_2X2_AS</defName>
+        <tags>
+          <li>Storage</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(2, 2)</size>
+          <label>联合储存货架(2X2)</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>88.02</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_Container_4X8_AS</defName>
+        <tags>
+          <li>Storage</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(8, 4)</size>
+          <label>联合储存集装箱(4X8)</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>575</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_CouchDouble</defName>
+        <tags>
+          <li>Seat</li>
+        </tags>
+        <builtinSources>
+          <li>Couch</li>
+        </builtinSources>
+        <match>
+          <size>(2, 1)</size>
+          <label>联合双人沙发</label>
+          <passability>Standable</passability>
+          <marketValue>255</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_Decoration_Big_Flower</defName>
+        <tags />
+        <builtinSources>
+          <li>PlantPot_Bonsai</li>
+        </builtinSources>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_Decoration_Flower</defName>
+        <tags />
+        <builtinSources>
+          <li>PlantPot</li>
+        </builtinSources>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_Linked_Table</defName>
+        <tags>
+          <li>Table</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>联合连桌</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>30.432</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_Wall</defName>
+        <tags>
+          <li>Wall</li>
+        </tags>
+        <builtinSources>
+          <li>Wall</li>
+        </builtinSources>
+        <match>
+          <size>(1, 1)</size>
+          <label>联合墙体</label>
+          <passability>Impassable</passability>
+          <marketValue>2</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_Wall_NAWDiagonal</defName>
+        <tags>
+          <li>Wall</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>斜向联合墙体</label>
+          <passability>Impassable</passability>
+          <marketValue>2</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>UFLI_Walllamp</defName>
+        <tags>
+          <li>Attachment</li>
+          <li>Lamp</li>
+        </tags>
+        <builtinSources>
+          <li>WallLamp</li>
+        </builtinSources>
+        <match>
+          <size>(1, 1)</size>
+          <label>联合壁灯</label>
+          <passability>Standable</passability>
+          <marketValue>29.58</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+    </repairDefs>
+  </extraInfo>
+  <things>
+    <UFLI_Wall_NAWDiagonal>
+      <rects>
+        <li>(11,0,11,0)</li>
+        <li>(14,0,14,0)</li>
+        <li>(10,1,10,1)</li>
+        <li>(15,1,15,1)</li>
+        <li>(18,1,18,1)</li>
+        <li>(19,2,19,2)</li>
+      </rects>
+      <stuff>BlocksSlate</stuff>
+      <color>RGBA(0.275, 0.275, 0.275, 1.000)</color>
+    </UFLI_Wall_NAWDiagonal>
+    <UFLI_Wall>
+      <rects>
+        <li>(12,0,13,0)</li>
+        <li>(1,1,1,18)</li>
+        <li>(7,1,9,1)</li>
+        <li>(16,1,17,1)</li>
+        <li>(7,2,7,4)</li>
+        <li>(19,3,19,18)</li>
+        <li>(2,4,2,4)</li>
+        <li>(6,4,6,4)</li>
+        <li>(7,7,12,7)</li>
+        <li>(15,7,18,7)</li>
+        <li>(7,8,7,15)</li>
+        <li>(2,10,6,10)</li>
+        <li>(2,18,18,18)</li>
+      </rects>
+      <stuff>BlocksSlate</stuff>
+      <color>RGBA(0.275, 0.275, 0.275, 1.000)</color>
+    </UFLI_Wall>
+    <Gomi_SimpleStair>
+      <rects>
+        <li>(2,1,6,2)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Gomi_SimpleStair>
+    <UFLI_Walllamp>
+      <rects>
+        <li>(2,2,2,2)</li>
+        <li>(2,6,2,6)</li>
+        <li>(2,8,2,8)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </UFLI_Walllamp>
+    <UFLI_Walllamp>
+      <rects>
+        <li>(6,2,6,2)</li>
+        <li>(18,10,18,10)</li>
+        <li>(18,15,18,15)</li>
+      </rects>
+      <relativeRotation>Clockwise</relativeRotation>
+    </UFLI_Walllamp>
+    <UFLI_CouchDouble>
+      <position>(8, 0, 2)</position>
+      <stuff>Leather_Plain</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.635, 0.416, 0.224, 1.000)</color>
+    </UFLI_CouchDouble>
+    <UFLI_Walllamp>
+      <rects>
+        <li>(15,2,15,2)</li>
+        <li>(3,11,3,11)</li>
+        <li>(5,11,5,11)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </UFLI_Walllamp>
+    <UFLI_Decoration_Big_Flower>
+      <rects>
+        <li>(2,3,2,3)</li>
+        <li>(6,3,6,3)</li>
+      </rects>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </UFLI_Decoration_Big_Flower>
+    <UFLI_1X2_Table>
+      <position>(8, 0, 3)</position>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_1X2_Table>
+    <UFLI_3_Autodoor>
+      <position>(4, 0, 4)</position>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_3_Autodoor>
+    <UFLI_3_Frame_DOOR>
+      <position>(4, 0, 4)</position>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_3_Frame_DOOR>
+    <UFLI_CouchDouble>
+      <positions>
+        <li>(9, 0, 4)</li>
+        <li>(4, 0, 8)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </UFLI_CouchDouble>
+    <UFLI_Walllamp>
+      <rects>
+        <li>(12,6,12,6)</li>
+        <li>(15,6,15,6)</li>
+        <li>(14,17,14,17)</li>
+      </rects>
+    </UFLI_Walllamp>
+    <UFLI_Decoration_Flower>
+      <rects>
+        <li>(2,7,2,7)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </UFLI_Decoration_Flower>
+    <UFLI_Linked_Table>
+      <rects>
+        <li>(2,7,2,7)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Linked_Table>
+    <UFLI_Linked_Table>
+      <rects>
+        <li>(3,7,3,7)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <quality>Masterwork</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Linked_Table>
+    <UFLI_Linked_Table>
+      <rects>
+        <li>(4,7,4,7)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Linked_Table>
+    <UFLI_Linked_Table>
+      <rects>
+        <li>(5,7,5,7)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_Linked_Table>
+    <UFLI_1_Frame_DOOR>
+      <rects>
+        <li>(6,7,6,7)</li>
+      </rects>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_1_Frame_DOOR>
+    <UFLI_2_Autodoor>
+      <position>(13, 0, 7)</position>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_2_Autodoor>
+    <UFLI_2_Frame_DOOR>
+      <position>(13, 0, 7)</position>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_2_Frame_DOOR>
+    <UFLI_Container_4X8_AS>
+      <position>(9, 0, 12)</position>
+      <relativeRotation>Clockwise</relativeRotation>
+    </UFLI_Container_4X8_AS>
+    <UFLI_Container_2X2_AS>
+      <positions>
+        <li>(17, 0, 8)</li>
+        <li>(17, 0, 11)</li>
+        <li>(17, 0, 13)</li>
+        <li>(17, 0, 16)</li>
+      </positions>
+    </UFLI_Container_2X2_AS>
+    <UFLI_Container_1X2_AS>
+      <positions>
+        <li>(2, 0, 11)</li>
+        <li>(4, 0, 11)</li>
+        <li>(6, 0, 11)</li>
+        <li>(2, 0, 14)</li>
+        <li>(4, 0, 14)</li>
+        <li>(6, 0, 14)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+    </UFLI_Container_1X2_AS>
+    <UFLI_2_Frame_DOOR>
+      <position>(7, 0, 16)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_2_Frame_DOOR>
+    <UFLI_2_Autodoor>
+      <position>(7, 0, 16)</position>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>Steel</stuff>
+      <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    </UFLI_2_Autodoor>
+  </things>
+  <terrain>
+    <FlagstoneSandstone>
+      <rects>
+        <li>(12,0,13,0)</li>
+        <li>(17,0,17,0)</li>
+      </rects>
+    </FlagstoneSandstone>
+    <UFLI_FLOORI>
+      <rects>
+        <li>(2,1,6,3)</li>
+        <li>(3,4,5,4)</li>
+      </rects>
+    </UFLI_FLOORI>
+    <UFLI_FLOORP>
+      <rects>
+        <li>(11,1,11,4)</li>
+        <li>(14,1,14,4)</li>
+        <li>(8,2,10,4)</li>
+        <li>(15,2,18,4)</li>
+        <li>(6,7,6,9)</li>
+        <li>(2,8,5,9)</li>
+        <li>(8,8,12,15)</li>
+        <li>(15,8,18,17)</li>
+        <li>(2,11,6,15)</li>
+      </rects>
+    </UFLI_FLOORP>
+    <UFLI_FLOORJ>
+      <rects>
+        <li>(12,1,13,6)</li>
+        <li>(2,5,11,6)</li>
+        <li>(14,5,18,6)</li>
+        <li>(13,7,14,17)</li>
+        <li>(2,16,12,17)</li>
+      </rects>
+    </UFLI_FLOORJ>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <FlagstoneSandstone>
+        <rects>
+          <li>(12,0,13,0)</li>
+          <li>(17,0,17,0)</li>
+        </rects>
+      </FlagstoneSandstone>
+      <UFLI_FLOORI>
+        <rects>
+          <li>(2,1,6,3)</li>
+          <li>(3,4,5,4)</li>
+        </rects>
+      </UFLI_FLOORI>
+      <UFLI_FLOORP>
+        <rects>
+          <li>(11,1,11,4)</li>
+          <li>(14,1,14,4)</li>
+          <li>(8,2,10,4)</li>
+          <li>(15,2,18,4)</li>
+          <li>(6,7,6,9)</li>
+          <li>(2,8,5,9)</li>
+          <li>(8,8,12,15)</li>
+          <li>(15,8,18,17)</li>
+          <li>(2,11,6,15)</li>
+        </rects>
+      </UFLI_FLOORP>
+      <UFLI_FLOORJ>
+        <rects>
+          <li>(12,1,13,6)</li>
+          <li>(2,5,11,6)</li>
+          <li>(14,5,18,6)</li>
+          <li>(13,7,14,17)</li>
+          <li>(2,16,12,17)</li>
+        </rects>
+      </UFLI_FLOORJ>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Gravel>
+        <rects>
+          <li>(12,0,13,3)</li>
+          <li>(11,4,12,4)</li>
+          <li>(10,5,11,6)</li>
+          <li>(9,6,9,6)</li>
+          <li>(12,6,12,6)</li>
+          <li>(6,8,6,8)</li>
+          <li>(8,8,11,8)</li>
+          <li>(14,10,15,10)</li>
+          <li>(17,17,18,17)</li>
+        </rects>
+      </Gravel>
+      <Soil>
+        <rects>
+          <li>(17,0,17,0)</li>
+          <li>(14,1,14,9)</li>
+          <li>(15,2,18,6)</li>
+          <li>(13,4,13,17)</li>
+          <li>(12,5,12,5)</li>
+          <li>(2,8,5,9)</li>
+          <li>(12,8,12,17)</li>
+          <li>(15,8,18,9)</li>
+          <li>(6,9,6,9)</li>
+          <li>(8,9,11,17)</li>
+          <li>(16,10,18,16)</li>
+          <li>(2,11,6,17)</li>
+          <li>(14,11,15,17)</li>
+          <li>(7,16,7,17)</li>
+          <li>(16,17,16,17)</li>
+        </rects>
+      </Soil>
+      <Slate_Rough>
+        <rects>
+          <li>(2,1,6,3)</li>
+          <li>(11,1,11,3)</li>
+          <li>(8,2,10,4)</li>
+          <li>(3,4,5,6)</li>
+          <li>(2,5,2,6)</li>
+          <li>(6,5,9,5)</li>
+          <li>(6,6,8,6)</li>
+          <li>(6,7,6,7)</li>
+        </rects>
+      </Slate_Rough>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofConstructed>
+      <rects>
+        <li>(11,0,14,18)</li>
+        <li>(7,1,10,18)</li>
+        <li>(15,1,18,18)</li>
+        <li>(19,2,19,18)</li>
+        <li>(1,4,6,18)</li>
+      </rects>
+    </RoofConstructed>
+    <PlayerRoofZone>
+      <rects>
+        <li>(11,0,14,18)</li>
+        <li>(7,1,10,18)</li>
+        <li>(15,1,18,18)</li>
+        <li>(19,2,19,18)</li>
+        <li>(1,4,6,18)</li>
+      </rects>
+    </PlayerRoofZone>
+  </roofs>
+</PrefabDef>
