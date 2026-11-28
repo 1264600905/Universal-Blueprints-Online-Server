@@ -1,0 +1,564 @@
+<PrefabDef>
+  <defName>Prefab_20261129_035243</defName>
+  <size>(17,15)</size>
+  <extraInfo>
+    <version>1.7.9826.40963</version>
+    <name>豪华圣地</name>
+    <description></description>
+    <tags>
+      <li>IdeologyDLC</li>
+    </tags>
+    <author>ZFY</author>
+    <category>IdeologyDLC</category>
+    <BuildingID>10df4349-c936-4bfe-9d61-2fc29a088339</BuildingID>
+    <modPackages>
+      <mod>
+        <packageId>baolei.elegantinteriors</packageId>
+        <name>雅居 · Elegant Interiors</name>
+        <version>0.8.26</version>
+        <modorder>326</modorder>
+        <steamWorkshopId>3802178852</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>EI_OakWall</li>
+          <li>EI_JadeFloor_WoodLog</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ludeon.rimworld.ideology</packageId>
+        <name>Ideology</name>
+        <version></version>
+        <modorder>4</modorder>
+        <things>
+          <li>Pew</li>
+          <li>Altar_Grand</li>
+          <li>Loudspeaker</li>
+          <li>LightBall</li>
+          <li>RitualSpot</li>
+          <li>Lectern</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>vanillaexpanded.vfeart</packageId>
+        <name>Vanilla Furniture Expanded - Art</name>
+        <version></version>
+        <modorder>342</modorder>
+        <steamWorkshopId>1968134023</steamWorkshopId>
+        <dependencies>
+          <li>
+            <packageId>brrainz.harmony</packageId>
+            <steamWorkshopId>2009463077</steamWorkshopId>
+          </li>
+          <li>
+            <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
+            <steamWorkshopId>2023507013</steamWorkshopId>
+          </li>
+        </dependencies>
+        <things>
+          <li>VFE_Pillar</li>
+        </things>
+      </mod>
+      <mod>
+        <packageId>ods.simpledoors</packageId>
+        <name>Simple Doors</name>
+        <version></version>
+        <modorder>171</modorder>
+        <steamWorkshopId>3767304373</steamWorkshopId>
+        <things>
+          <li>SD_3x1StoneDoor</li>
+        </things>
+      </mod>
+    </modPackages>
+    <multiLanguage>
+      <name>
+        <default>豪华圣地</default>
+        <zh-CN>豪华圣地</zh-CN>
+      </name>
+      <tags>
+        <default>IdeologyDLC</default>
+      </tags>
+    </multiLanguage>
+    <structureDefs>
+      <li>
+        <defName>EI_OakWall</defName>
+        <kind>Wall</kind>
+        <size>(1,1)</size>
+      </li>
+      <li>
+        <defName>SD_3x1StoneDoor</defName>
+        <kind>Door</kind>
+        <size>(3,1)</size>
+      </li>
+    </structureDefs>
+    <thingKinds version="1">
+      <Buildings>
+        <li>Altar_Grand</li>
+        <li>EI_OakWall</li>
+        <li>HiddenConduit</li>
+        <li>Lectern</li>
+        <li>LightBall</li>
+        <li>Loudspeaker</li>
+        <li>Pew</li>
+        <li>SD_3x1StoneDoor</li>
+        <li>SculptureGrand</li>
+        <li>StandingLamp</li>
+        <li>VFE_Pillar</li>
+        <li>WallLamp</li>
+      </Buildings>
+      <ArtificialTerrain>
+        <li>RitualSpot</li>
+      </ArtificialTerrain>
+    </thingKinds>
+    <repairDefs version="1">
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>EI_JadeFloor_WoodLog</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources>
+            <li>WoodLog</li>
+          </resources>
+          <colors>
+            <li>cyan</li>
+          </colors>
+          <materials>
+            <li>wood</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>4</layers>
+          <playerFloor>true</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Granite_RoughHewn</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>granite</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>TerrainDef</defType>
+        <defName>Marble_RoughHewn</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <resources />
+          <colors />
+          <materials>
+            <li>marble</li>
+          </materials>
+          <colorDefName></colorDefName>
+          <layers>12</layers>
+          <playerFloor>false</playerFloor>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>EI_OakWall</defName>
+        <tags>
+          <li>Wall</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>暖橡·饰面墙</label>
+          <passability>Impassable</passability>
+          <marketValue>15.22</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>Pew</defName>
+        <tags>
+          <li>Seat</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 1)</size>
+          <label>长凳</label>
+          <passability>Standable</passability>
+          <marketValue>210</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>RitualSpot</defName>
+        <tags>
+          <li>Floor</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>仪式举办点</label>
+          <passability>Standable</passability>
+          <marketValue>0</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>SD_3x1StoneDoor</defName>
+        <tags>
+          <li>Door</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(3, 1)</size>
+          <label>重型巨门</label>
+          <passability>Standable</passability>
+          <marketValue>300</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>StandingLamp</defName>
+        <tags>
+          <li>Lamp</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>落地灯</label>
+          <passability>PassThroughOnly</passability>
+          <marketValue>39.08</marketValue>
+          <madeFromStuff>false</madeFromStuff>
+          <stuffCategories />
+        </match>
+      </li>
+      <li>
+        <defType>ThingDef</defType>
+        <defName>WallLamp</defName>
+        <tags>
+          <li>Attachment</li>
+          <li>Lamp</li>
+        </tags>
+        <builtinSources />
+        <match>
+          <size>(1, 1)</size>
+          <label>壁灯</label>
+          <passability>Standable</passability>
+          <marketValue>30.188</marketValue>
+          <madeFromStuff>true</madeFromStuff>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+        </match>
+      </li>
+    </repairDefs>
+  </extraInfo>
+  <things>
+    <HiddenConduit>
+      <rects>
+        <li>(0,0,0,5)</li>
+        <li>(16,0,16,5)</li>
+        <li>(8,1,8,6)</li>
+        <li>(4,2,4,11)</li>
+        <li>(12,2,12,11)</li>
+        <li>(7,6,7,8)</li>
+        <li>(9,6,9,8)</li>
+        <li>(1,7,3,7)</li>
+        <li>(5,7,6,7)</li>
+        <li>(10,7,11,7)</li>
+        <li>(13,7,15,7)</li>
+        <li>(8,8,8,14)</li>
+        <li>(0,11,0,14)</li>
+        <li>(16,11,16,14)</li>
+      </rects>
+      <color>RGBA(0.000, 0.000, 0.000, 0.000)</color>
+    </HiddenConduit>
+    <EI_OakWall>
+      <rects>
+        <li>(2,0,14,0)</li>
+        <li>(2,1,2,2)</li>
+        <li>(14,1,14,2)</li>
+        <li>(1,2,1,6)</li>
+        <li>(15,2,15,6)</li>
+        <li>(0,6,0,10)</li>
+        <li>(16,6,16,10)</li>
+        <li>(1,10,1,14)</li>
+        <li>(15,10,15,14)</li>
+        <li>(2,14,6,14)</li>
+        <li>(10,14,14,14)</li>
+      </rects>
+      <stuff>BlocksGranite</stuff>
+    </EI_OakWall>
+    <StandingLamp>
+      <rects>
+        <li>(1,1,1,1)</li>
+        <li>(3,1,3,1)</li>
+        <li>(13,1,13,1)</li>
+        <li>(15,1,15,1)</li>
+        <li>(0,5,0,5)</li>
+        <li>(16,5,16,5)</li>
+        <li>(1,7,1,7)</li>
+        <li>(15,7,15,7)</li>
+        <li>(0,11,0,11)</li>
+        <li>(16,11,16,11)</li>
+      </rects>
+    </StandingLamp>
+    <Pew>
+      <positions>
+        <li>(4, 0, 2)</li>
+        <li>(2, 0, 4)</li>
+      </positions>
+      <relativeRotation>Clockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Pew>
+    <WallLamp>
+      <rects>
+        <li>(5,1,5,1)</li>
+        <li>(11,1,11,1)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </WallLamp>
+    <VFE_Pillar>
+      <rects>
+        <li>(6,1,6,1)</li>
+        <li>(10,1,10,1)</li>
+        <li>(8,9,8,9)</li>
+        <li>(2,13,2,13)</li>
+        <li>(14,13,14,13)</li>
+      </rects>
+      <stuff>BlocksMarble</stuff>
+      <quality>Legendary</quality>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </VFE_Pillar>
+    <Altar_Grand>
+      <position>(8, 0, 2)</position>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>BlocksMarble</stuff>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </Altar_Grand>
+    <Pew>
+      <positions>
+        <li>(12, 0, 2)</li>
+        <li>(14, 0, 4)</li>
+      </positions>
+      <relativeRotation>Counterclockwise</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Pew>
+    <Loudspeaker>
+      <rects>
+        <li>(6,3,6,3)</li>
+        <li>(10,3,10,3)</li>
+      </rects>
+      <relativeRotation>Opposite</relativeRotation>
+    </Loudspeaker>
+    <LightBall>
+      <rects>
+        <li>(7,4,7,4)</li>
+        <li>(9,4,9,4)</li>
+      </rects>
+    </LightBall>
+    <Pew>
+      <positions>
+        <li>(5, 0, 5)</li>
+        <li>(11, 0, 5)</li>
+        <li>(2, 0, 9)</li>
+        <li>(3, 0, 11)</li>
+        <li>(6, 0, 12)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Good</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Pew>
+    <RitualSpot>
+      <rects>
+        <li>(8,5,8,5)</li>
+      </rects>
+    </RitualSpot>
+    <Lectern>
+      <rects>
+        <li>(8,6,8,6)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Lectern>
+    <Pew>
+      <positions>
+        <li>(4, 0, 7)</li>
+        <li>(10, 0, 12)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Normal</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Pew>
+    <Pew>
+      <positions>
+        <li>(12, 0, 7)</li>
+        <li>(14, 0, 9)</li>
+        <li>(13, 0, 11)</li>
+      </positions>
+      <relativeRotation>Opposite</relativeRotation>
+      <stuff>WoodLog</stuff>
+      <quality>Excellent</quality>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </Pew>
+    <SculptureGrand>
+      <positions>
+        <li>(6, 0, 9)</li>
+        <li>(9, 0, 9)</li>
+      </positions>
+      <stuff>BlocksMarble</stuff>
+      <quality>Legendary</quality>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </SculptureGrand>
+    <WallLamp>
+      <rects>
+        <li>(4,13,4,13)</li>
+        <li>(12,13,12,13)</li>
+      </rects>
+      <stuff>WoodLog</stuff>
+      <color>RGBA(0.522, 0.380, 0.263, 1.000)</color>
+    </WallLamp>
+    <SD_3x1StoneDoor>
+      <position>(8, 0, 14)</position>
+      <stuff>BlocksMarble</stuff>
+      <color>RGBA(0.518, 0.529, 0.518, 1.000)</color>
+    </SD_3x1StoneDoor>
+  </things>
+  <terrain>
+    <Granite_RoughHewn>
+      <rects>
+        <li>(0,0,6,0)</li>
+        <li>(9,0,12,0)</li>
+        <li>(15,0,16,6)</li>
+        <li>(0,1,2,2)</li>
+        <li>(14,2,14,2)</li>
+        <li>(0,3,1,6)</li>
+        <li>(0,7,0,9)</li>
+        <li>(16,7,16,8)</li>
+      </rects>
+    </Granite_RoughHewn>
+    <EI_JadeFloor_WoodLog>
+      <rects>
+        <li>(3,1,13,13)</li>
+        <li>(2,3,2,13)</li>
+        <li>(14,3,14,13)</li>
+        <li>(1,7,1,9)</li>
+        <li>(15,7,15,9)</li>
+        <li>(7,14,9,14)</li>
+      </rects>
+    </EI_JadeFloor_WoodLog>
+    <Marble_RoughHewn>
+      <rects>
+        <li>(16,9,16,14)</li>
+        <li>(0,10,1,14)</li>
+        <li>(15,10,15,14)</li>
+        <li>(2,14,6,14)</li>
+        <li>(10,14,14,14)</li>
+      </rects>
+    </Marble_RoughHewn>
+  </terrain>
+  <terrainLayers>
+    <terrainLayerDetail layer="topGrid">
+      <Granite_RoughHewn>
+        <rects>
+          <li>(0,0,6,0)</li>
+          <li>(9,0,12,0)</li>
+          <li>(15,0,16,6)</li>
+          <li>(0,1,2,2)</li>
+          <li>(14,2,14,2)</li>
+          <li>(0,3,1,6)</li>
+          <li>(0,7,0,9)</li>
+          <li>(16,7,16,8)</li>
+        </rects>
+      </Granite_RoughHewn>
+      <EI_JadeFloor_WoodLog>
+        <rects>
+          <li>(3,1,13,13)</li>
+          <li>(2,3,2,13)</li>
+          <li>(14,3,14,13)</li>
+          <li>(1,7,1,9)</li>
+          <li>(15,7,15,9)</li>
+          <li>(7,14,9,14)</li>
+        </rects>
+      </EI_JadeFloor_WoodLog>
+      <Marble_RoughHewn>
+        <rects>
+          <li>(16,9,16,14)</li>
+          <li>(0,10,1,14)</li>
+          <li>(15,10,15,14)</li>
+          <li>(2,14,6,14)</li>
+          <li>(10,14,14,14)</li>
+        </rects>
+      </Marble_RoughHewn>
+    </terrainLayerDetail>
+    <terrainLayerDetail layer="underGrid">
+      <Granite_RoughHewn>
+        <rects>
+          <li>(3,1,6,9)</li>
+          <li>(9,1,12,8)</li>
+          <li>(7,2,8,9)</li>
+          <li>(13,2,13,8)</li>
+          <li>(2,3,2,10)</li>
+          <li>(14,3,14,8)</li>
+          <li>(1,7,1,9)</li>
+          <li>(15,7,15,8)</li>
+          <li>(9,9,11,9)</li>
+        </rects>
+      </Granite_RoughHewn>
+      <Marble_RoughHewn>
+        <rects>
+          <li>(12,9,15,9)</li>
+          <li>(3,10,14,13)</li>
+          <li>(2,11,2,13)</li>
+          <li>(7,14,9,14)</li>
+        </rects>
+      </Marble_RoughHewn>
+    </terrainLayerDetail>
+  </terrainLayers>
+  <roofs>
+    <RoofRockThick>
+      <rects>
+        <li>(0,0,16,14)</li>
+      </rects>
+    </RoofRockThick>
+  </roofs>
+</PrefabDef>
